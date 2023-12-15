@@ -1,0 +1,107 @@
+name: "ci"
+
+on:
+  push:
+    paths-ignore:
+      - '**.md'
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize]
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: "-Dwarnings"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: cachix/cachix-action@v12
+        with:
+          name: integrated-reasoning
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+      - name: build mps
+        run: |
+          if [[ $RUNNER_OS == Linux ]]; then
+            nix build
+          else
+            nix build \
+              --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin
+          fi
+      - name: build tests
+        run: |
+          if [[ $RUNNER_OS == Linux ]]; then
+            nix build .#ci
+          else
+            nix build .#ci \
+              --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin
+          fi
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: cachix/cachix-action@v12
+        with:
+          name: integrated-reasoning
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-lint-${{ hashFiles('**/Cargo.lock') }}
+      - name: Check formatting
+        run: nix develop --command cargo fmt --all --check
+      - name: Run Clippy
+        run: nix develop --command cargo clippy --all-targets --all-features
+      - name: Check flake
+        run: nix flake check
+      - name: Check nix shell
+        run: nix develop --ignore-environment --command "rustc" "--version"
+
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: cachix/cachix-action@v12
+        with:
+          name: integrated-reasoning
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+      - uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-coverage-${{ hashFiles('**/Cargo.lock') }}
+      - name: Generate code coverage
+        run: nix develop --command cargo llvm-cov --all-features --workspace --lcov --output-path lcov.info nextest
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: lcov.info
+          fail_ci_if_error: true
