@@ -24,7 +24,7 @@ args@{
   ignoreLockHash,
 }:
 let
-  nixifiedLockHash = "d3cf56b99097e9d81cee095b77c19ba93bff21914145b6c81320bd288f761d45";
+  nixifiedLockHash = "c528e5f1655ae9c0bbff10d3faec7b039a4cf29020fcb5a76f0f09d5c9417197";
   workspaceSrc = if args.workspaceSrc == null then ./. else args.workspaceSrc;
   currentLockHash = builtins.hashFile "sha256" (workspaceSrc + /Cargo.lock);
   lockHashIgnored = if ignoreLockHash
@@ -48,6 +48,13 @@ in
   workspace = {
     mps = rustPackages.unknown.mps."0.0.0";
   };
+  "registry+https://github.com/rust-lang/crates.io-index".autocfg."1.1.0" = overridableMkRustCrate (profileName: rec {
+    name = "autocfg";
+    version = "1.1.0";
+    registry = "registry+https://github.com/rust-lang/crates.io-index";
+    src = fetchCratesIo { inherit name version; sha256 = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"; };
+  });
+  
   "registry+https://github.com/rust-lang/crates.io-index".memchr."2.6.4" = overridableMkRustCrate (profileName: rec {
     name = "memchr";
     version = "2.6.4";
@@ -76,6 +83,7 @@ in
     src = fetchCrateLocal workspaceSrc;
     dependencies = {
       nom = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".nom."7.1.3" { inherit profileName; }).out;
+      num_traits = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".num-traits."0.2.17" { inherit profileName; }).out;
     };
   });
   
@@ -92,6 +100,20 @@ in
     dependencies = {
       memchr = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".memchr."2.6.4" { inherit profileName; }).out;
       minimal_lexical = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".minimal-lexical."0.2.1" { inherit profileName; }).out;
+    };
+  });
+  
+  "registry+https://github.com/rust-lang/crates.io-index".num-traits."0.2.17" = overridableMkRustCrate (profileName: rec {
+    name = "num-traits";
+    version = "0.2.17";
+    registry = "registry+https://github.com/rust-lang/crates.io-index";
+    src = fetchCratesIo { inherit name version; sha256 = "39e3200413f237f41ab11ad6d161bc7239c84dcb631773ccd7de3dfe4b5c267c"; };
+    features = builtins.concatLists [
+      [ "default" ]
+      [ "std" ]
+    ];
+    buildDependencies = {
+      autocfg = (buildRustPackages."registry+https://github.com/rust-lang/crates.io-index".autocfg."1.1.0" { profileName = "__noProfile"; }).out;
     };
   });
   
