@@ -3,9 +3,10 @@ use crate::file;
 use nom::branch::alt;
 use nom::bytes::streaming::{tag, take_till1};
 use nom::character::streaming::*;
-use nom::combinator::all_consuming;
+use nom::combinator::opt;
 use nom::error::ParseError;
 use nom::multi::{count, many1};
+use nom::number::streaming::{f32, float};
 use nom::sequence::{preceded, separated_pair, terminated, tuple};
 use nom::{AsChar, Compare, InputIter, InputLength, Slice};
 use std::ops::{Range, RangeFrom, RangeTo};
@@ -33,6 +34,19 @@ fn rows(i: &str) -> IResult<&str, Vec<(char, &str)>> {
   terminated(
     preceded(terminated(tag("ROWS"), newline), many1(row)),
     tag("COLUMNS"),
+fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
+  preceded(
+    tag("    "),
+    terminated(
+      tuple((
+        terminated(alphanumeric1, multispace1),
+        terminated(alphanumeric1, multispace1),
+        terminated(float, multispace1),
+        terminated(alphanumeric1, multispace1),
+        float,
+      )),
+      newline,
+    ),
   )(i)
 }
 
@@ -69,4 +83,13 @@ mod tests {
       ))
     );
   }
+
+  #[test]
+  fn test_column() {
+    let a = "    X01       X48               .301   R09                -1.\n";
+    //let b = "    X02       COST               -.4\n";
+    assert_eq!(column(a), Ok(("", ("X01", "X48", 0.301, "R09", -1.0))));
+    //assert_eq!(column(b), Ok(("", ("X01", "COST", -4))));
+  }
+
 }
