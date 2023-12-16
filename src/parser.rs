@@ -3,7 +3,7 @@ use crate::file;
 use nom::branch::alt;
 use nom::bytes::streaming::{tag, take_till1};
 use nom::character::streaming::*;
-use nom::combinator::opt;
+use nom::combinator::{opt, peek};
 use nom::error::ParseError;
 use nom::multi::{count, many1};
 use nom::number::streaming::{f32, float};
@@ -33,7 +33,10 @@ fn row(i: &str) -> IResult<&str, (char, &str)> {
 fn rows(i: &str) -> IResult<&str, Vec<(char, &str)>> {
   terminated(
     preceded(terminated(tag("ROWS"), newline), many1(row)),
-    tag("COLUMNS"),
+    peek(anychar),
+  )(i)
+}
+
 fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
   preceded(
     tag("    "),
@@ -78,7 +81,7 @@ mod tests {
     assert_eq!(
       rows(a),
       Ok((
-        "",
+        "COLUMNS",
         vec![('E', "R09"), ('E', "R10"), ('L', "X05"), ('L', "X21")]
       ))
     );
