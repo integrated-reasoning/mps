@@ -2,6 +2,7 @@
 name = "mps"
 version = "0.0.0"
 edition = "2021"
+include = ["src/**/*", "Cargo.*", "LICENSE", "README.md"]
 
 [dependencies]
 nom = "7.1.3"
