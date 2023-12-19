@@ -1,5 +1,4 @@
 use crate::file;
-
 use nom::branch::alt;
 use nom::bytes::streaming::{tag, take_till1};
 use nom::character::streaming::*;
@@ -8,19 +7,18 @@ use nom::error::ParseError;
 use nom::multi::{count, many1};
 use nom::number::streaming::{f32, float};
 use nom::sequence::{preceded, separated_pair, terminated, tuple};
+use nom::IResult;
 use nom::{AsChar, Compare, InputIter, InputLength, Slice};
 use std::ops::{Range, RangeFrom, RangeTo};
 
-use nom::IResult;
-
-fn name(i: &str) -> IResult<&str, &str> {
+pub fn name(i: &str) -> IResult<&str, &str> {
   terminated(
     preceded(tag("NAME"), preceded(count(anychar, 10), not_line_ending)),
     newline,
   )(i)
 }
 
-fn row(i: &str) -> IResult<&str, (char, &str)> {
+pub fn row(i: &str) -> IResult<&str, (char, &str)> {
   preceded(
     tag(" "),
     terminated(
@@ -30,14 +28,14 @@ fn row(i: &str) -> IResult<&str, (char, &str)> {
   )(i)
 }
 
-fn rows(i: &str) -> IResult<&str, Vec<(char, &str)>> {
+pub fn rows(i: &str) -> IResult<&str, Vec<(char, &str)>> {
   terminated(
     preceded(terminated(tag("ROWS"), newline), many1(row)),
     peek(anychar),
   )(i)
 }
 
-fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
+pub fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
   preceded(
     tag("    "),
     terminated(
