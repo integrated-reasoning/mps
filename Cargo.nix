@@ -24,7 +24,7 @@ args@{
   ignoreLockHash,
 }:
 let
-  nixifiedLockHash = "955c9b8dcbdc204a89d4b61689787b9b7c93bd151ac4b70f025c7f5877f2b9ef";
+  nixifiedLockHash = "3a577180ffeaefb16b358d75dca2e5f78387e68c6aeacc91d80dc93ca16f9239";
   workspaceSrc = if args.workspaceSrc == null then ./. else args.workspaceSrc;
   currentLockHash = builtins.hashFile "sha256" (workspaceSrc + /Cargo.lock);
   lockHashIgnored = if ignoreLockHash
@@ -316,7 +316,7 @@ in
       serde_derive = (buildRustPackages."registry+https://github.com/rust-lang/crates.io-index".serde_derive."1.0.193" { profileName = "__noProfile"; }).out;
       serde_json = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".serde_json."1.0.108" { inherit profileName; }).out;
       tinytemplate = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".tinytemplate."1.2.1" { inherit profileName; }).out;
-      tokio = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".tokio."1.35.0" { inherit profileName; }).out;
+      tokio = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".tokio."1.35.1" { inherit profileName; }).out;
       walkdir = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".walkdir."2.4.0" { inherit profileName; }).out;
     };
   });
@@ -693,6 +693,10 @@ in
     version = "0.0.0";
     registry = "unknown";
     src = fetchCrateLocal workspaceSrc;
+    features = builtins.concatLists [
+      (lib.optional (rootFeatures' ? "mps/default") "default")
+      (lib.optional (rootFeatures' ? "mps/default" || rootFeatures' ? "mps/proptest") "proptest")
+    ];
     dependencies = {
       nom = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".nom."7.1.3" { inherit profileName; }).out;
       num_traits = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".num-traits."0.2.17" { inherit profileName; }).out;
@@ -1209,11 +1213,11 @@ in
     };
   });
   
-  "registry+https://github.com/rust-lang/crates.io-index".tokio."1.35.0" = overridableMkRustCrate (profileName: rec {
+  "registry+https://github.com/rust-lang/crates.io-index".tokio."1.35.1" = overridableMkRustCrate (profileName: rec {
     name = "tokio";
-    version = "1.35.0";
+    version = "1.35.1";
     registry = "registry+https://github.com/rust-lang/crates.io-index";
-    src = fetchCratesIo { inherit name version; sha256 = "841d45b238a16291a4e1584e61820b8ae57d696cc5015c459c229ccc6990cc1c"; };
+    src = fetchCratesIo { inherit name version; sha256 = "c89b4efa943be685f629b149f53829423f8f5531ea21249408e8e2f8671ec104"; };
     features = builtins.concatLists [
       [ "rt" ]
     ];

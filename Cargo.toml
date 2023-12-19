@@ -10,8 +10,12 @@ num-traits = "0.2.17"
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["async_tokio", "html_reports"] }
-proptest = "1.4.0"
+proptest = { version = "1.4.0", features = ["timeout", "std"] }
 
 [[bench]]
 name = "benchmark"
 harness = false
+
+[features]
+default = ["proptest"]
+proptest = []
