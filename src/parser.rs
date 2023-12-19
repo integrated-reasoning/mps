@@ -51,6 +51,13 @@ pub fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
   )(i)
 }
 
+pub fn columns(i: &str) -> IResult<&str, Vec<(&str, &str, f32, &str, f32)>> {
+  terminated(
+    preceded(terminated(tag("COLUMNS"), newline), many1(column)),
+    peek(anychar),
+  )(i)
+}
+
 #[cfg(feature = "proptest")]
 #[cfg(test)]
 mod proptests {
@@ -128,4 +135,30 @@ mod tests {
     //assert_eq!(column(b), Ok(("", ("X01", "COST", -4))));
   }
 
+  #[test]
+  fn test_columns() {
+    let a = "COLUMNS
+    X01       X48               .301   R09                -1.
+    X01       R10              -1.06   X05                 1.
+    X02       X21                -1.   R09                 1.
+    X03       X46                -1.   R09                 1.\nRHS";
+    let b = "COLUMNS
+    X01       X48               .301   R09                -1.
+    X01       R10              -1.06   X05                 1.
+    X02       X21                -1.   R09                 1.
+    X02       COST               -.4
+    X03       X46                -1.   R09                 1.\nRHS"; // TODO
+    assert_eq!(
+      columns(a),
+      Ok((
+        "RHS",
+        vec![
+          ("X01", "X48", 0.301, "R09", -1.0),
+          ("X01", "R10", -1.06, "X05", 1.0),
+          ("X02", "X21", -1.0, "R09", 1.0),
+          ("X03", "X46", -1.0, "R09", 1.0),
+        ]
+      ))
+    );
+  }
 }
