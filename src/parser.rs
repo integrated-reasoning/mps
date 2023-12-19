@@ -53,6 +53,41 @@ fn column(i: &str) -> IResult<&str, (&str, &str, f32, &str, f32)> {
   )(i)
 }
 
+#[cfg(feature = "proptest")]
+#[cfg(test)]
+mod proptests {
+  use super::*;
+  use proptest::prelude::*;
+
+  proptest! {
+    #[test]
+    fn test_name_doesnt_crash(s in "\\PC*") {
+        let _ = name(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_row_doesnt_crash(s in "\\PC*") {
+        let _ = row(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_rows_doesnt_crash(s in "\\PC*") {
+        let _ = rows(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_column_doesnt_crash(s in "\\PC*") {
+        let _ = column(&s);
+    }
+  }
+}
+
 #[cfg(test)]
 mod tests {
   use super::*;
