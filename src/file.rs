@@ -1,8 +1,8 @@
-use color_eyre::Result;
+use color_eyre::{eyre::eyre, Result};
 use nom::{
   bytes::complete::tag,
   character::complete::*,
-  combinator::peek,
+  combinator::{map_res, peek},
   multi::{count, many1},
   number::complete::float,
   sequence::{preceded, separated_pair, terminated, tuple},
@@ -12,15 +12,13 @@ use num_traits::float::Float;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct MPSFile<'a, T: Float> {
-  pub name: Name<'a>,
+  pub name: &'a str,
   pub rows: Rows<'a>,
   pub columns: Columns<'a, T>,
   pub rhs: RHS<'a, T>,
   pub ranges: Ranges<'a, T>,
   pub bounds: Bounds<'a, T>,
 }
-
-pub type Name<'a> = &'a str;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct RowLine<'a> {
@@ -35,6 +33,20 @@ pub enum RowType {
   LEQ,
   GEQ,
   NR,
+}
+
+impl TryFrom<char> for RowType {
+  type Error = color_eyre::Report;
+
+  fn try_from(c: char) -> Result<Self> {
+    match c {
+      'E' => Ok(RowType::EQ),
+      'L' => Ok(RowType::LEQ),
+      'G' => Ok(RowType::GEQ),
+      'N' => Ok(RowType::NR),
+      _ => Err(eyre!("invalid row type")),
+    }
+  }
 }
 
 pub type Rows<'a> = Vec<RowLine<'a>>;
@@ -140,17 +152,25 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn row(i: &str) -> IResult<&str, (char, &str)> {
-    preceded(
-      tag(" "),
-      terminated(
-        separated_pair(one_of("ELGN"), multispace1, alphanumeric1),
-        newline,
+  pub fn row(i: &str) -> IResult<&str, RowLine<'_>> {
+    map_res(
+      preceded(
+        tag(" "),
+        terminated(
+          separated_pair(one_of("ELGN"), multispace1, alphanumeric1),
+          newline,
+        ),
       ),
+      |(c, s)| -> Result<RowLine> {
+        Ok(RowLine {
+          row_type: RowType::try_from(c)?,
+          row_name: s,
+        })
+      },
     )(i)
   }
 
-  pub fn rows(i: &str) -> IResult<&str, Vec<(char, &str)>> {
+  pub fn rows(i: &str) -> IResult<&str, Vec<RowLine<'_>>> {
     terminated(
       preceded(terminated(tag("ROWS"), newline), many1(Self::row)),
       peek(anychar),
@@ -227,27 +247,82 @@ mod tests {
   }
 
   #[test]
-  fn test_row() {
+  fn test_row() -> Result<()> {
     let a = " E  R09\n";
     let b = " E  R10\n";
     let c = " L  X05\n";
     let d = " L  X21\n";
-    assert_eq!(MPSFile::<f32>::row(a), Ok(("", ('E', "R09"))));
-    assert_eq!(MPSFile::<f32>::row(b), Ok(("", ('E', "R10"))));
-    assert_eq!(MPSFile::<f32>::row(c), Ok(("", ('L', "X05"))));
-    assert_eq!(MPSFile::<f32>::row(d), Ok(("", ('L', "X21"))));
+    assert_eq!(
+      MPSFile::<f32>::row(a),
+      Ok((
+        "",
+        RowLine {
+          row_type: RowType::try_from('E')?,
+          row_name: "R09"
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::row(b),
+      Ok((
+        "",
+        RowLine {
+          row_type: RowType::try_from('E')?,
+          row_name: "R10"
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::row(c),
+      Ok((
+        "",
+        RowLine {
+          row_type: RowType::try_from('L')?,
+          row_name: "X05"
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::row(d),
+      Ok((
+        "",
+        RowLine {
+          row_type: RowType::try_from('L')?,
+          row_name: "X21"
+        }
+      ))
+    );
+    Ok(())
   }
 
   #[test]
-  fn test_rows() {
+  fn test_rows() -> Result<()> {
     let a = "ROWS\n E  R09\n E  R10\n L  X05\n L  X21\nCOLUMNS";
     assert_eq!(
       MPSFile::<f32>::rows(a),
       Ok((
         "COLUMNS",
-        vec![('E', "R09"), ('E', "R10"), ('L', "X05"), ('L', "X21")]
+        vec![
+          RowLine {
+            row_type: RowType::try_from('E')?,
+            row_name: "R09"
+          },
+          RowLine {
+            row_type: RowType::try_from('E')?,
+            row_name: "R10"
+          },
+          RowLine {
+            row_type: RowType::try_from('L')?,
+            row_name: "X05"
+          },
+          RowLine {
+            row_type: RowType::try_from('L')?,
+            row_name: "X21"
+          },
+        ]
       ))
     );
+    Ok(())
   }
 
   #[test]
