@@ -10,6 +10,7 @@ use nom::{
 };
 use num_traits::float::Float;
 
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct MPSFile<'a, T: Float> {
   pub name: NameSection<'a>,
   //objective_sense: Option<ObjectiveSenseSection<'a>>,
@@ -32,11 +33,12 @@ pub enum Section<'a> {
 
 pub type NameSection<'a> = &'a str;
 
-//pub type RowsSection<'a> = Vec<RowLine<'a>>;
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct RowLine<'a> {
   pub row_type: RowType,
   pub row_name: RowName<'a>,
 }
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 
 pub struct ColumnLine<'a, T> {
   pub column_name: ColumnName<'a>,
@@ -50,8 +52,6 @@ pub type RowsSection<'a> = Vec<RowLine<'a>>;
 pub type ColumnsSection<'a, T> = Vec<ColumnLine<'a, T>>;
 
 pub type RowName<'a> = &'a str;
-
-//pub type ColumnsSection<'a, T> = Vec<ColumnLine<'a, T>>;
 
 pub type ColumnName<'a> = &'a str;
 
@@ -73,14 +73,16 @@ pub type BoundsSection<'a, T> = (BoundType, BoundName<'a>, ColumnName<'a>, T);
 
 pub type BoundName<'a> = &'a str;
 
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum RowType {
+  #[default]
   EQ,
   LEQ,
   GEQ,
   NR,
 }
 
-pub type ObjectiveSenseSection = String; // TODO
+//pub type ObjectiveSenseSection = String; // TODO
 
 /* U_i L_i Limit Table (RANGES)
  *
@@ -97,7 +99,9 @@ pub type ObjectiveSenseSection = String; // TODO
  * both L_i and U_i should be set to the respective RHS value b_i.
  */
 
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum RangeType {
+  #[default]
   LE,
   GE,
   EP,
@@ -105,7 +109,9 @@ pub enum RangeType {
   EZ,
 }
 
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum BoundType {
+  #[default]
   LO, // lower bound     :  l_j <= x_j <= inf
   UP, // upper bound     :    0 <= x_j <= u_j
   FX, // fixed variable  :  l_j == x_j == u_j
