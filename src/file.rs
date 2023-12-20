@@ -1,10 +1,10 @@
 use color_eyre::Result;
 use nom::{
-  bytes::streaming::tag,
-  character::streaming::*,
+  bytes::complete::tag,
+  character::complete::*,
   combinator::peek,
   multi::{count, many1},
-  number::streaming::float,
+  number::complete::float,
   sequence::{preceded, separated_pair, terminated, tuple},
   IResult,
 };
