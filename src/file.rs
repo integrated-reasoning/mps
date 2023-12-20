@@ -12,66 +12,21 @@ use num_traits::float::Float;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct MPSFile<'a, T: Float> {
-  pub name: NameSection<'a>,
-  //objective_sense: Option<ObjectiveSenseSection<'a>>,
-  pub rows: RowsSection<'a>,
-  pub columns: ColumnsSection<'a, T>,
-  pub rhs: RHSSection<'a, T>,
-  pub ranges: RangesSection<'a, T>,
-  //pub bounds: BoundsSection<'a, T>,
+  pub name: Name<'a>,
+  pub rows: Rows<'a>,
+  pub columns: Columns<'a, T>,
+  pub rhs: RHS<'a, T>,
+  pub ranges: Ranges<'a, T>,
+  pub bounds: Bounds<'a, T>,
 }
 
-pub enum Section<'a> {
-  Name(NameSection<'a>),
-  Rows,
-  Columns,
-  RHS,
-  Ranges,
-  Bounds,
-  Endata,
-}
-
-pub type NameSection<'a> = &'a str;
+pub type Name<'a> = &'a str;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct RowLine<'a> {
   pub row_type: RowType,
-  pub row_name: RowName<'a>,
+  pub row_name: &'a str,
 }
-#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
-
-pub struct ColumnLine<'a, T> {
-  pub column_name: ColumnName<'a>,
-  pub row_name: RowName<'a>,
-  pub coefficient: T,
-  pub optional_tuple: Option<(RowName<'a>, T)>,
-}
-
-pub type RowsSection<'a> = Vec<RowLine<'a>>;
-
-pub type ColumnsSection<'a, T> = Vec<ColumnLine<'a, T>>;
-
-pub type RowName<'a> = &'a str;
-
-pub type ColumnName<'a> = &'a str;
-
-pub type RHSSection<'a, T> = Vec<RHSLine<'a, T>>;
-
-pub type RHSLine<'a, T> =
-  (RHSName<'a>, RowName<'a>, T, Option<(RowName<'a>, T)>);
-
-pub type RHSName<'a> = &'a str;
-
-pub type RangesSection<'a, T> = Vec<RangesLine<'a, T>>;
-
-pub type RangesLine<'a, T> =
-  (RangeName<'a>, RowName<'a>, T, Option<(RowName<'a>, T)>);
-
-pub type RangeName<'a> = &'a str;
-
-pub type BoundsSection<'a, T> = (BoundType, BoundName<'a>, ColumnName<'a>, T);
-
-pub type BoundName<'a> = &'a str;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum RowType {
@@ -82,7 +37,38 @@ pub enum RowType {
   NR,
 }
 
-//pub type ObjectiveSenseSection = String; // TODO
+pub type Rows<'a> = Vec<RowLine<'a>>;
+
+pub type Columns<'a, T> = Vec<ColumnLine<'a, T>>;
+
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+pub struct ColumnLine<'a, T> {
+  pub column_name: &'a str,
+  pub row_name: &'a str,
+  pub coefficient: T,
+  pub extended: Option<(&'a str, T)>,
+}
+
+pub type RHS<'a, T> = Vec<RHSLine<'a, T>>;
+
+pub type RHSLine<'a, T> = (&'a str, &'a str, T, Option<(&'a str, T)>);
+
+pub type Ranges<'a, T> = Vec<RangesLine<'a, T>>;
+
+pub type RangesLine<'a, T> = (&'a str, &'a str, T, Option<(&'a str, T)>);
+
+pub type Bounds<'a, T> = (BoundType, &'a str, &'a str, T);
+
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+pub enum BoundType {
+  #[default]
+  LO, // lower bound     :  l_j <= x_j <= inf
+  UP, // upper bound     :    0 <= x_j <= u_j
+  FX, // fixed variable  :  l_j == x_j == u_j
+  FR, // free variable   : -inf <= x_j <= inf
+  MI, // Unbounded below : -inf <= x_j <= 0
+  PL, // Unbounded above :    0 <= x_j <= inf
+}
 
 /* U_i L_i Limit Table (RANGES)
  *
@@ -107,17 +93,6 @@ pub enum RangeType {
   EP,
   EM,
   EZ,
-}
-
-#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
-pub enum BoundType {
-  #[default]
-  LO, // lower bound     :  l_j <= x_j <= inf
-  UP, // upper bound     :    0 <= x_j <= u_j
-  FX, // fixed variable  :  l_j == x_j == u_j
-  FR, // free variable   : -inf <= x_j <= inf
-  MI, // Unbounded below : -inf <= x_j <= 0
-  PL, // Unbounded above :    0 <= x_j <= inf
 }
 
 impl<'a, T: Float> MPSFile<'a, T> {
