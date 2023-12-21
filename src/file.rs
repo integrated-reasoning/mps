@@ -51,24 +51,24 @@ impl TryFrom<char> for RowType {
 
 pub type Rows<'a> = Vec<RowLine<'a>>;
 
-pub type Columns<'a, T> = Vec<Line<'a, T>>;
+pub type Columns<'a, T> = Vec<WideLine<'a, T>>;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
-pub struct RowCoefficientPair<'a, T> {
+pub struct RowValuePair<'a, T> {
   pub row_name: &'a str,
-  pub coefficient: T,
+  pub value: T,
 }
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
-pub struct Line<'a, T> {
-  pub column_name: &'a str,
-  pub first_pair: RowCoefficientPair<'a, T>,
-  pub second_pair: Option<RowCoefficientPair<'a, T>>,
+pub struct WideLine<'a, T> {
+  pub name: &'a str,
+  pub first_pair: RowValuePair<'a, T>,
+  pub second_pair: Option<RowValuePair<'a, T>>,
 }
 
-pub type RHS<'a, T> = Vec<Line<'a, T>>;
+pub type RHS<'a, T> = Vec<WideLine<'a, T>>;
 
-pub type Ranges<'a, T> = Vec<Line<'a, T>>;
+pub type Ranges<'a, T> = Vec<WideLine<'a, T>>;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct BoundsLine<'a, T> {
@@ -141,10 +141,10 @@ impl<'a, T: Float> MPSFile<'a, T> {
     //    .collect(),
     //  columns: columns
     //    .into_iter()
-    //    .map(|(n, _, c, r, v)| Line {
+    //    .map(|(n, _, c, r, v)| WideLine {
     //      column_name: n,
     //      row_name: r,
-    //      coefficient: c,
+    //      value: c,
     //      optional_tuple: Some((r, v)),
     //    })
     //    .collect(),
@@ -161,7 +161,7 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn row(i: &str) -> IResult<&str, RowLine<'_>> {
+  pub fn row_line(i: &str) -> IResult<&str, RowLine<'_>> {
     map_res(
       preceded(
         tag(" "),
@@ -181,12 +181,12 @@ impl<'a, T: Float> MPSFile<'a, T> {
 
   pub fn rows(i: &str) -> IResult<&str, Vec<RowLine<'_>>> {
     terminated(
-      preceded(terminated(tag("ROWS"), newline), many1(Self::row)),
+      preceded(terminated(tag("ROWS"), newline), many1(Self::row_line)),
       peek(anychar),
     )(i)
   }
 
-  pub fn column(i: &str) -> IResult<&str, Line<'_, f32>> {
+  pub fn line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
     map(
       preceded(
         tag("    "),
@@ -203,25 +203,38 @@ impl<'a, T: Float> MPSFile<'a, T> {
           newline,
         ),
       ),
-      |(column_name, row_name, coefficient, opt)| Line::<f32> {
-        column_name,
-        first_pair: RowCoefficientPair {
-          row_name,
-          coefficient,
-        },
-        second_pair: opt.map(|(opt_row_name, opt_coefficient)| {
-          RowCoefficientPair {
-            row_name: opt_row_name,
-            coefficient: opt_coefficient,
-          }
+      |(column_name, row_name, value, opt)| WideLine::<f32> {
+        name: column_name,
+        first_pair: RowValuePair { row_name, value },
+        second_pair: opt.map(|(opt_row_name, opt_value)| RowValuePair {
+          row_name: opt_row_name,
+          value: opt_value,
         }),
       },
     )(i)
   }
 
-  pub fn columns(i: &str) -> IResult<&str, Vec<Line<'_, f32>>> {
+  pub fn columns_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+    Self::line(i)
+  }
+
+  pub fn columns(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
     terminated(
-      preceded(terminated(tag("COLUMNS"), newline), many1(Self::column)),
+      preceded(
+        terminated(tag("COLUMNS"), newline),
+        many1(Self::columns_line),
+      ),
+      peek(anychar),
+    )(i)
+  }
+
+  pub fn rhs_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+    Self::line(i)
+  }
+
+  pub fn rhs(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
+    terminated(
+      preceded(terminated(tag("RHS"), newline), many1(Self::rhs_line)),
       peek(anychar),
     )(i)
   }
@@ -243,7 +256,7 @@ mod proptests {
   proptest! {
     #[test]
     fn test_row_doesnt_crash(s in "\\PC*") {
-        let _ = MPSFile::<f32>::row(&s);
+        let _ = MPSFile::<f32>::row_line(&s);
     }
   }
 
@@ -257,7 +270,7 @@ mod proptests {
   proptest! {
     #[test]
     fn test_column_doesnt_crash(s in "\\PC*") {
-        let _ = MPSFile::<f32>::column(&s);
+        let _ = MPSFile::<f32>::columns_line(&s);
     }
   }
 }
@@ -273,13 +286,13 @@ mod tests {
   }
 
   #[test]
-  fn test_row() -> Result<()> {
+  fn test_row_line() -> Result<()> {
     let a = " E  R09\n";
     let b = " E  R10\n";
     let c = " L  X05\n";
     let d = " L  X21\n";
     assert_eq!(
-      MPSFile::<f32>::row(a),
+      MPSFile::<f32>::row_line(a),
       Ok((
         "",
         RowLine {
@@ -289,7 +302,7 @@ mod tests {
       ))
     );
     assert_eq!(
-      MPSFile::<f32>::row(b),
+      MPSFile::<f32>::row_line(b),
       Ok((
         "",
         RowLine {
@@ -299,7 +312,7 @@ mod tests {
       ))
     );
     assert_eq!(
-      MPSFile::<f32>::row(c),
+      MPSFile::<f32>::row_line(c),
       Ok((
         "",
         RowLine {
@@ -309,7 +322,7 @@ mod tests {
       ))
     );
     assert_eq!(
-      MPSFile::<f32>::row(d),
+      MPSFile::<f32>::row_line(d),
       Ok((
         "",
         RowLine {
@@ -352,35 +365,35 @@ mod tests {
   }
 
   #[test]
-  fn test_column() {
+  fn test_columns_line() {
     let a = "    X01       X48               .301   R09                -1.\n";
     let b = "    X02       COST               -.4\n";
     assert_eq!(
-      MPSFile::<f32>::column(a),
+      MPSFile::<f32>::columns_line(a),
       Ok((
         "",
-        Line::<f32> {
-          column_name: "X01",
-          first_pair: RowCoefficientPair {
+        WideLine::<f32> {
+          name: "X01",
+          first_pair: RowValuePair {
             row_name: "X48",
-            coefficient: 0.301
+            value: 0.301
           },
-          second_pair: Some(RowCoefficientPair {
+          second_pair: Some(RowValuePair {
             row_name: "R09",
-            coefficient: -1.0
+            value: -1.0
           })
         }
       ))
     );
     assert_eq!(
-      MPSFile::<f32>::column(b),
+      MPSFile::<f32>::columns_line(b),
       Ok((
         "",
-        Line::<f32> {
-          column_name: "X02",
-          first_pair: RowCoefficientPair {
+        WideLine::<f32> {
+          name: "X02",
+          first_pair: RowValuePair {
             row_name: "COST",
-            coefficient: -0.4
+            value: -0.4
           },
           second_pair: None
         }
@@ -401,56 +414,56 @@ mod tests {
       Ok((
         "RHS",
         vec![
-          Line::<f32> {
-            column_name: "X01",
-            first_pair: RowCoefficientPair {
+          WideLine::<f32> {
+            name: "X01",
+            first_pair: RowValuePair {
               row_name: "X48",
-              coefficient: 0.301
+              value: 0.301
             },
-            second_pair: Some(RowCoefficientPair {
+            second_pair: Some(RowValuePair {
               row_name: "R09",
-              coefficient: -1.0
+              value: -1.0
             })
           },
-          Line::<f32> {
-            column_name: "X01",
-            first_pair: RowCoefficientPair {
+          WideLine::<f32> {
+            name: "X01",
+            first_pair: RowValuePair {
               row_name: "R10",
-              coefficient: -1.06
+              value: -1.06
             },
-            second_pair: Some(RowCoefficientPair {
+            second_pair: Some(RowValuePair {
               row_name: "X05",
-              coefficient: 1.0
+              value: 1.0
             })
           },
-          Line::<f32> {
-            column_name: "X02",
-            first_pair: RowCoefficientPair {
+          WideLine::<f32> {
+            name: "X02",
+            first_pair: RowValuePair {
               row_name: "X21",
-              coefficient: -1.0
+              value: -1.0
             },
-            second_pair: Some(RowCoefficientPair {
+            second_pair: Some(RowValuePair {
               row_name: "R09",
-              coefficient: 1.0
+              value: 1.0
             })
           },
-          Line::<f32> {
-            column_name: "X02",
-            first_pair: RowCoefficientPair {
+          WideLine::<f32> {
+            name: "X02",
+            first_pair: RowValuePair {
               row_name: "COST",
-              coefficient: -0.4
+              value: -0.4
             },
             second_pair: None
           },
-          Line::<f32> {
-            column_name: "X03",
-            first_pair: RowCoefficientPair {
+          WideLine::<f32> {
+            name: "X03",
+            first_pair: RowValuePair {
               row_name: "X46",
-              coefficient: -1.0
+              value: -1.0
             },
-            second_pair: Some(RowCoefficientPair {
+            second_pair: Some(RowValuePair {
               row_name: "R09",
-              coefficient: 1.0
+              value: 1.0
             })
           },
         ]
