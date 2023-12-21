@@ -446,4 +446,673 @@ mod tests {
       ))
     );
   }
+
+  #[test]
+  fn test_parse() {
+    let data = include_str!("../data/netlib/afiro");
+    assert_eq!(
+      MPSFile::<f32>::parse(data),
+      Ok((
+        "ENDATA\n",
+        MPSFile {
+          name: "AFIRO",
+          rows: vec![
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R09"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R10"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X05"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X21"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R12"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R13"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X17"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X18"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X19"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X20"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R19"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R20"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X27"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X44"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R22"
+            },
+            RowLine {
+              row_type: RowType::EQ,
+              row_name: "R23"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X40"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X41"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X42"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X43"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X45"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X46"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X47"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X48"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X49"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X50"
+            },
+            RowLine {
+              row_type: RowType::LEQ,
+              row_name: "X51"
+            },
+            RowLine {
+              row_type: RowType::NR,
+              row_name: "COST"
+            }
+          ],
+          columns: vec![
+            WideLine {
+              name: "X01",
+              first_pair: RowValuePair {
+                row_name: "X48",
+                value: 0.301
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R09",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X01",
+              first_pair: RowValuePair {
+                row_name: "R10",
+                value: -1.06
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X05",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X02",
+              first_pair: RowValuePair {
+                row_name: "X21",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R09",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X02",
+              first_pair: RowValuePair {
+                row_name: "COST",
+                value: -0.4
+              },
+              second_pair: None
+            },
+            WideLine {
+              name: "X03",
+              first_pair: RowValuePair {
+                row_name: "X46",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R09",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X04",
+              first_pair: RowValuePair {
+                row_name: "X50",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R10",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X06",
+              first_pair: RowValuePair {
+                row_name: "X49",
+                value: 0.301
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X06",
+              first_pair: RowValuePair {
+                row_name: "R13",
+                value: -1.06
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X17",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X07",
+              first_pair: RowValuePair {
+                row_name: "X49",
+                value: 0.313
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X07",
+              first_pair: RowValuePair {
+                row_name: "R13",
+                value: -1.06
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X18",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X08",
+              first_pair: RowValuePair {
+                row_name: "X49",
+                value: 0.313
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X08",
+              first_pair: RowValuePair {
+                row_name: "R13",
+                value: -0.96
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X19",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X09",
+              first_pair: RowValuePair {
+                row_name: "X49",
+                value: 0.326
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X09",
+              first_pair: RowValuePair {
+                row_name: "R13",
+                value: -0.86
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X20",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X10",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.364
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X17",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X11",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.386
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X18",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X12",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.408
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X19",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X13",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.429
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X20",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X14",
+              first_pair: RowValuePair {
+                row_name: "X21",
+                value: 1.4
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X14",
+              first_pair: RowValuePair {
+                row_name: "COST",
+                value: -0.32
+              },
+              second_pair: None
+            },
+            WideLine {
+              name: "X15",
+              first_pair: RowValuePair {
+                row_name: "X47",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R12",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X16",
+              first_pair: RowValuePair {
+                row_name: "X51",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R13",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X22",
+              first_pair: RowValuePair {
+                row_name: "X46",
+                value: 0.109
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R19",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X22",
+              first_pair: RowValuePair {
+                row_name: "R20",
+                value: -0.43
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X27",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X23",
+              first_pair: RowValuePair {
+                row_name: "X44",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R19",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X23",
+              first_pair: RowValuePair {
+                row_name: "COST",
+                value: -0.6
+              },
+              second_pair: None
+            },
+            WideLine {
+              name: "X24",
+              first_pair: RowValuePair {
+                row_name: "X48",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R19",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X25",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R19",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X26",
+              first_pair: RowValuePair {
+                row_name: "X50",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R20",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X28",
+              first_pair: RowValuePair {
+                row_name: "X47",
+                value: 0.109
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R22",
+                value: -0.43
+              })
+            },
+            WideLine {
+              name: "X28",
+              first_pair: RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X40",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X29",
+              first_pair: RowValuePair {
+                row_name: "X47",
+                value: 0.108
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R22",
+                value: -0.43
+              })
+            },
+            WideLine {
+              name: "X29",
+              first_pair: RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X41",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X30",
+              first_pair: RowValuePair {
+                row_name: "X47",
+                value: 0.108
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R22",
+                value: -0.39
+              })
+            },
+            WideLine {
+              name: "X30",
+              first_pair: RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X42",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X31",
+              first_pair: RowValuePair {
+                row_name: "X47",
+                value: 0.107
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R22",
+                value: -0.37
+              })
+            },
+            WideLine {
+              name: "X31",
+              first_pair: RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X43",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X32",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.191
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X40",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X33",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.219
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X41",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X34",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.249
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X42",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X35",
+              first_pair: RowValuePair {
+                row_name: "X45",
+                value: 2.279
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X43",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X36",
+              first_pair: RowValuePair {
+                row_name: "X44",
+                value: 1.4
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R23",
+                value: -1.0
+              })
+            },
+            WideLine {
+              name: "X36",
+              first_pair: RowValuePair {
+                row_name: "COST",
+                value: -0.48
+              },
+              second_pair: None
+            },
+            WideLine {
+              name: "X37",
+              first_pair: RowValuePair {
+                row_name: "X49",
+                value: -1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X38",
+              first_pair: RowValuePair {
+                row_name: "X51",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R22",
+                value: 1.0
+              })
+            },
+            WideLine {
+              name: "X39",
+              first_pair: RowValuePair {
+                row_name: "R23",
+                value: 1.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "COST",
+                value: 10.0
+              })
+            }
+          ],
+          rhs: Some(vec![
+            WideLine {
+              name: "B",
+              first_pair: RowValuePair {
+                row_name: "X50",
+                value: 310.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X51",
+                value: 300.0
+              })
+            },
+            WideLine {
+              name: "B",
+              first_pair: RowValuePair {
+                row_name: "X05",
+                value: 80.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "X17",
+                value: 80.0
+              })
+            },
+            WideLine {
+              name: "B",
+              first_pair: RowValuePair {
+                row_name: "X27",
+                value: 500.0
+              },
+              second_pair: Some(RowValuePair {
+                row_name: "R23",
+                value: 44.0
+              })
+            },
+            WideLine {
+              name: "B",
+              first_pair: RowValuePair {
+                row_name: "X40",
+                value: 500.0
+              },
+              second_pair: None
+            }
+          ]),
+          ranges: None,
+          bounds: None
+        }
+      ))
+    );
+  }
 }
