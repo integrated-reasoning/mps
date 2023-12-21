@@ -51,7 +51,7 @@ impl TryFrom<char> for RowType {
 
 pub type Rows<'a> = Vec<RowLine<'a>>;
 
-pub type Columns<'a, T> = Vec<ColumnLine<'a, T>>;
+pub type Columns<'a, T> = Vec<ColumnsLine<'a, T>>;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct RowCoefficientPair<'a, T> {
@@ -60,7 +60,7 @@ pub struct RowCoefficientPair<'a, T> {
 }
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
-pub struct ColumnLine<'a, T> {
+pub struct ColumnsLine<'a, T> {
   pub column_name: &'a str,
   pub first_pair: RowCoefficientPair<'a, T>,
   pub second_pair: Option<RowCoefficientPair<'a, T>>,
@@ -68,11 +68,11 @@ pub struct ColumnLine<'a, T> {
 
 pub type RHS<'a, T> = Vec<RHSLine<'a, T>>;
 
-pub type RHSLine<'a, T> = ColumnLine<'a, T>;
+pub type RHSLine<'a, T> = ColumnsLine<'a, T>;
 
 pub type Ranges<'a, T> = Vec<RangesLine<'a, T>>;
 
-pub type RangesLine<'a, T> = ColumnLine<'a, T>;
+pub type RangesLine<'a, T> = ColumnsLine<'a, T>;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct BoundsLine<'a, T> {
@@ -145,7 +145,7 @@ impl<'a, T: Float> MPSFile<'a, T> {
     //    .collect(),
     //  columns: columns
     //    .into_iter()
-    //    .map(|(n, _, c, r, v)| ColumnLine {
+    //    .map(|(n, _, c, r, v)| ColumnsLine {
     //      column_name: n,
     //      row_name: r,
     //      coefficient: c,
@@ -190,7 +190,7 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn column(i: &str) -> IResult<&str, ColumnLine<'_, f32>> {
+  pub fn column(i: &str) -> IResult<&str, ColumnsLine<'_, f32>> {
     map(
       preceded(
         tag("    "),
@@ -204,14 +204,14 @@ impl<'a, T: Float> MPSFile<'a, T> {
           newline,
         ),
       ),
-      |(column_name, first_row_name, first_coefficient, opt)| -> ColumnLine<f32> {
+      |(column_name, first_row_name, first_coefficient, opt)| -> ColumnsLine<f32> {
          let first_pair = RowCoefficientPair { row_name: first_row_name, coefficient: first_coefficient };
          let second_pair = opt.map(|(row_name, coefficient)| RowCoefficientPair { row_name, coefficient });
-         ColumnLine::<f32> { column_name, first_pair, second_pair }
+         ColumnsLine::<f32> { column_name, first_pair, second_pair }
       })(i)
   }
 
-  pub fn columns(i: &str) -> IResult<&str, Vec<ColumnLine<f32>>> {
+  pub fn columns(i: &str) -> IResult<&str, Vec<ColumnsLine<f32>>> {
     terminated(
       preceded(terminated(tag("COLUMNS"), newline), many1(Self::column)),
       peek(anychar),
@@ -351,7 +351,7 @@ mod tests {
       MPSFile::<f32>::column(a),
       Ok((
         "",
-        ColumnLine::<f32> {
+        ColumnsLine::<f32> {
           column_name: "X01",
           first_pair: RowCoefficientPair {
             row_name: "X48",
@@ -368,7 +368,7 @@ mod tests {
       MPSFile::<f32>::column(b),
       Ok((
         "",
-        ColumnLine::<f32> {
+        ColumnsLine::<f32> {
           column_name: "X02",
           first_pair: RowCoefficientPair {
             row_name: "COST",
@@ -393,7 +393,7 @@ mod tests {
       Ok((
         "RHS",
         vec![
-          ColumnLine::<f32> {
+          ColumnsLine::<f32> {
             column_name: "X01",
             first_pair: RowCoefficientPair {
               row_name: "X48",
@@ -404,7 +404,7 @@ mod tests {
               coefficient: -1.0
             })
           },
-          ColumnLine::<f32> {
+          ColumnsLine::<f32> {
             column_name: "X01",
             first_pair: RowCoefficientPair {
               row_name: "R10",
@@ -415,7 +415,7 @@ mod tests {
               coefficient: 1.0
             })
           },
-          ColumnLine::<f32> {
+          ColumnsLine::<f32> {
             column_name: "X02",
             first_pair: RowCoefficientPair {
               row_name: "X21",
@@ -426,7 +426,7 @@ mod tests {
               coefficient: 1.0
             })
           },
-          ColumnLine::<f32> {
+          ColumnsLine::<f32> {
             column_name: "X02",
             first_pair: RowCoefficientPair {
               row_name: "COST",
@@ -434,7 +434,7 @@ mod tests {
             },
             second_pair: None
           },
-          ColumnLine::<f32> {
+          ColumnsLine::<f32> {
             column_name: "X03",
             first_pair: RowCoefficientPair {
               row_name: "X46",
