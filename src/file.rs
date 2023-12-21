@@ -68,13 +68,21 @@ pub struct ColumnLine<'a, T> {
 
 pub type RHS<'a, T> = Vec<RHSLine<'a, T>>;
 
-pub type RHSLine<'a, T> = (&'a str, &'a str, T, Option<(&'a str, T)>);
+pub type RHSLine<'a, T> = ColumnLine<'a, T>;
 
 pub type Ranges<'a, T> = Vec<RangesLine<'a, T>>;
 
-pub type RangesLine<'a, T> = (&'a str, &'a str, T, Option<(&'a str, T)>);
+pub type RangesLine<'a, T> = ColumnLine<'a, T>;
 
-pub type Bounds<'a, T> = (BoundType, &'a str, &'a str, T);
+#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+pub struct BoundsLine<'a, T> {
+  pub bound_type: BoundType,
+  pub bound_name: &'a str,
+  pub column_name: &'a str,
+  pub value: T,
+}
+
+pub type Bounds<'a, T> = Vec<BoundsLine<'a, T>>;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum BoundType {
