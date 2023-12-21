@@ -2,7 +2,7 @@
 name = "mps"
 version = "0.0.0"
 edition = "2021"
-include = ["src/**/*", "Cargo.*", "LICENSE", "README.md"]
+include = ["src/**/*", "test/**/*", "Cargo.*", "LICENSE", "README.md"]
 
 [dependencies]
 color-eyre = "0.6.2"
