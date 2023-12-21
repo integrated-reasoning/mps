@@ -1,5 +1,6 @@
 use color_eyre::{eyre::eyre, Result};
 use nom::{
+  branch::alt,
   bytes::complete::tag,
   character::complete::*,
   combinator::{map, map_res, opt, peek},
@@ -18,6 +19,7 @@ pub struct MPSFile<'a, T: Float> {
   pub rhs: RHS<'a, T>,
   pub ranges: Ranges<'a, T>,
   pub bounds: Bounds<'a, T>,
+  // TODO: Check for ENDATA
 }
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
@@ -89,6 +91,26 @@ pub enum BoundType {
   FR, // free variable   : -inf <= x_j <= inf
   MI, // Unbounded below : -inf <= x_j <= 0
   PL, // Unbounded above :    0 <= x_j <= inf
+}
+
+impl TryFrom<&str> for BoundType {
+  type Error = color_eyre::Report;
+
+  fn try_from(s: &str) -> Result<Self> {
+    match s {
+      "LO" => Ok(BoundType::LO),
+      "UP" => Ok(BoundType::UP),
+      "FX" => Ok(BoundType::FX),
+      "FR" => Ok(BoundType::FR),
+      "MI" => Ok(BoundType::MI),
+      "PL" => Ok(BoundType::PL),
+      "BV" => unimplemented!(),
+      "LI" => unimplemented!(),
+      "UI" => unimplemented!(),
+      "SC" => unimplemented!(),
+      _ => Err(eyre!("invalid bound type")),
+    }
+  }
 }
 
 /* U_i L_i Limit Table (RANGES)
@@ -246,6 +268,59 @@ impl<'a, T: Float> MPSFile<'a, T> {
   pub fn ranges(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
     terminated(
       preceded(terminated(tag("RANGES"), newline), many1(Self::ranges_line)),
+      peek(anychar),
+    )(i)
+  }
+
+  pub fn bound_type(i: &str) -> IResult<&str, BoundType> {
+    map_res(
+      alt((
+        tag("LO"),
+        tag("UP"),
+        tag("FX"),
+        tag("FR"),
+        tag("MI"),
+        tag("PL"),
+        tag("BV"),
+        tag("LI"),
+        tag("UI"),
+        tag("SC"),
+      )),
+      BoundType::try_from,
+    )(i)
+  }
+
+  pub fn bounds_line(i: &str) -> IResult<&str, BoundsLine<'_, f32>> {
+    map_res(
+      preceded(
+        tag(" "),
+        terminated(
+          tuple((
+            terminated(
+                Self::bound_type,
+              multispace1,
+            ),
+            terminated(alphanumeric1, multispace1),
+            terminated(alphanumeric1, multispace1),
+            float,
+          )),
+          newline,
+        ),
+      ),
+      |(bound_type, bound_name, column_name, value)| -> Result<BoundsLine<f32>> {
+        Ok(BoundsLine {
+          bound_type,
+          bound_name,
+          column_name,
+          value,
+        })
+      },
+    )(i)
+  }
+
+  pub fn bounds(i: &str) -> IResult<&str, Vec<BoundsLine<'_, f32>>> {
+    terminated(
+      preceded(terminated(tag("BOUNDS"), newline), many1(Self::bounds_line)),
       peek(anychar),
     )(i)
   }
@@ -679,6 +754,93 @@ mod tests {
             second_pair: None
           },
         ]
+      ))
+    );
+  }
+
+  #[test]
+  fn test_bound_type() {
+    assert_eq!(MPSFile::<f32>::bound_type("LO"), Ok(("", BoundType::LO)));
+    assert_eq!(MPSFile::<f32>::bound_type("UP"), Ok(("", BoundType::UP)));
+    assert_eq!(MPSFile::<f32>::bound_type("FX"), Ok(("", BoundType::FX)));
+    assert_eq!(MPSFile::<f32>::bound_type("FR"), Ok(("", BoundType::FR)));
+    assert_eq!(MPSFile::<f32>::bound_type("MI"), Ok(("", BoundType::MI)));
+    assert_eq!(MPSFile::<f32>::bound_type("PL"), Ok(("", BoundType::PL)));
+  }
+
+  #[test]
+  fn test_bounds_line() {
+    let a = " UP BND1      XONE                 4\n";
+    let b = " LO BND1      YTWO                -1\n";
+    let c = " UP BND1      YTWO                 1\n";
+    assert_eq!(
+      MPSFile::<f32>::bounds_line(a),
+      Ok((
+        "",
+        BoundsLine::<f32> {
+          bound_type: BoundType::UP,
+          bound_name: "BND1",
+          column_name: "XONE",
+          value: 4.0
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::bounds_line(b),
+      Ok((
+        "",
+        BoundsLine::<f32> {
+          bound_type: BoundType::LO,
+          bound_name: "BND1",
+          column_name: "YTWO",
+          value: -1.0
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::bounds_line(c),
+      Ok((
+        "",
+        BoundsLine::<f32> {
+          bound_type: BoundType::UP,
+          bound_name: "BND1",
+          column_name: "YTWO",
+          value: 1.0
+        }
+      ))
+    );
+  }
+
+  #[test]
+  fn test_bounds() {
+    let a = "BOUNDS
+ UP BND1      XONE                 4
+ LO BND1      YTWO                -1
+ UP BND1      YTWO                 1\nENDATA";
+    assert_eq!(
+      MPSFile::<f32>::bounds(a),
+      Ok((
+        "ENDATA",
+        vec![
+          BoundsLine::<f32> {
+            bound_type: BoundType::UP,
+            bound_name: "BND1",
+            column_name: "XONE",
+            value: 4.0
+          },
+          BoundsLine::<f32> {
+            bound_type: BoundType::LO,
+            bound_name: "BND1",
+            column_name: "YTWO",
+            value: -1.0
+          },
+          BoundsLine::<f32> {
+            bound_type: BoundType::UP,
+            bound_name: "BND1",
+            column_name: "YTWO",
+            value: 1.0
+          }
+        ],
       ))
     );
   }
