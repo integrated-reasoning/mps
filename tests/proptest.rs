@@ -87,4 +87,11 @@ mod tests {
         let _ = MPSFile::<f32>::bounds(&s);
     }
   }
+
+  proptest! {
+    #[test]
+    fn test_parse_doesnt_crash(s in "\\PC*") {
+        let _ = MPSFile::<f32>::parse(&s);
+    }
+  }
 }
