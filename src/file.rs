@@ -16,9 +16,9 @@ pub struct MPSFile<'a, T: Float> {
   pub name: &'a str,
   pub rows: Rows<'a>,
   pub columns: Columns<'a, T>,
-  pub rhs: RHS<'a, T>,
-  pub ranges: Ranges<'a, T>,
-  pub bounds: Bounds<'a, T>,
+  pub rhs: Option<RHS<'a, T>>,
+  pub ranges: Option<Ranges<'a, T>>,
+  pub bounds: Option<Bounds<'a, T>>,
   // TODO: Check for ENDATA
 }
 
@@ -139,41 +139,25 @@ pub enum RangeType {
 }
 
 impl<'a, T: Float> MPSFile<'a, T> {
-  fn _parse<'mps>(_mps_string: &'mps str) -> Result<MPSFile<'static, f32>> {
-    //let (rest, name) = Self::name(mps_string)?;
-    //let (rest, rows) = Self::rows(rest)?;
-    //let (rest, columns) = Self::columns(rest)?;
-    todo!()
-
-    //Ok(MPSFile {
-    //  name,
-    //  //objective_sense: None,
-    //  rows: rows
-    //    .into_iter()
-    //    .map(|(t, n)| RowLine {
-    //      row_type: match t {
-    //        'E' => RowType::EQ,
-    //        'L' => RowType::LEQ,
-    //        'G' => RowType::GEQ,
-    //        'N' => RowType::NR,
-    //        _ => panic!("Invalid row type"),
-    //      },
-    //      row_name: n,
-    //    })
-    //    .collect(),
-    //  columns: columns
-    //    .into_iter()
-    //    .map(|(n, _, c, r, v)| WideLine {
-    //      column_name: n,
-    //      row_name: r,
-    //      value: c,
-    //      optional_tuple: Some((r, v)),
-    //    })
-    //    .collect(),
-    //  rhs: Vec::new(),
-    //  ranges: Vec::new(),
-    //  //bounds: Vec::new(),
-    //})
+  pub fn parse(input: &str) -> IResult<&str, MPSFile<'_, f32>> {
+    map(
+      tuple((
+        Self::name,
+        Self::rows,
+        Self::columns,
+        opt(Self::rhs),
+        opt(Self::ranges),
+        opt(Self::bounds),
+      )),
+      |(name, rows, columns, rhs, ranges, bounds)| MPSFile {
+        name,
+        rows,
+        columns,
+        rhs,
+        ranges,
+        bounds,
+      },
+    )(input)
   }
 
   pub fn name(i: &str) -> IResult<&str, &str> {
