@@ -269,8 +269,29 @@ mod proptests {
 
   proptest! {
     #[test]
-    fn test_column_doesnt_crash(s in "\\PC*") {
+    fn test_columns_line_doesnt_crash(s in "\\PC*") {
         let _ = MPSFile::<f32>::columns_line(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_columns_doesnt_crash(s in "\\PC*") {
+        let _ = MPSFile::<f32>::columns(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_rhs_line_doesnt_crash(s in "\\PC*") {
+        let _ = MPSFile::<f32>::rhs_line(&s);
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_rhs_doesnt_crash(s in "\\PC*") {
+        let _ = MPSFile::<f32>::rhs(&s);
     }
   }
 }
