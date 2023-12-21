@@ -528,4 +528,38 @@ mod tests {
       ))
     );
   }
+
+  #[test]
+  fn test_rhs() {
+    let a = "RHS
+    RHS1      LIM1                 5   LIM2                10
+    RHS1      MYEQN                7\nBOUNDS";
+    assert_eq!(
+      MPSFile::<f32>::rhs(a),
+      Ok((
+        "BOUNDS",
+        vec![
+          WideLine::<f32> {
+            name: "RHS1",
+            first_pair: RowValuePair {
+              row_name: "LIM1",
+              value: 5.0
+            },
+            second_pair: Some(RowValuePair {
+              row_name: "LIM2",
+              value: 10.0
+            })
+          },
+          WideLine::<f32> {
+            name: "RHS1",
+            first_pair: RowValuePair {
+              row_name: "MYEQN",
+              value: 7.0
+            },
+            second_pair: None
+          }
+        ]
+      ))
+    );
+  }
 }
