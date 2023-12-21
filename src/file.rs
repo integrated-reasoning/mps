@@ -470,4 +470,41 @@ mod tests {
       ))
     );
   }
+
+  #[test]
+  fn test_rhs_line() {
+    let a = "    RHS1      LIM1                 5   LIM2                10\n";
+    let b = "    RHS1      MYEQN                7\n";
+    assert_eq!(
+      MPSFile::<f32>::rhs_line(a),
+      Ok((
+        "",
+        WideLine::<f32> {
+          name: "RHS1",
+          first_pair: RowValuePair {
+            row_name: "LIM1",
+            value: 5.0
+          },
+          second_pair: Some(RowValuePair {
+            row_name: "LIM2",
+            value: 10.0
+          })
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::rhs_line(b),
+      Ok((
+        "",
+        WideLine::<f32> {
+          name: "RHS1",
+          first_pair: RowValuePair {
+            row_name: "MYEQN",
+            value: 7.0
+          },
+          second_pair: None
+        }
+      ))
+    );
+  }
 }
