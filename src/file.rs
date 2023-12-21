@@ -238,6 +238,17 @@ impl<'a, T: Float> MPSFile<'a, T> {
       peek(anychar),
     )(i)
   }
+
+  pub fn ranges_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+    Self::line(i)
+  }
+
+  pub fn ranges(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
+    terminated(
+      preceded(terminated(tag("RANGES"), newline), many1(Self::ranges_line)),
+      peek(anychar),
+    )(i)
+  }
 }
 
 #[cfg(feature = "proptest")]
@@ -293,6 +304,20 @@ mod proptests {
     fn test_rhs_doesnt_crash(s in "\\PC*") {
         let _ = MPSFile::<f32>::rhs(&s);
     }
+  }
+
+  proptest! {
+    #[test]
+    fn test_ranges_line_doesnt_crash(s in "\\PC*") {
+        let _ = MPSFile::<f32>::ranges_line(&s);
+    }
+  }
+
+  proptest! {
+  #[test]
+  fn test_ranges_doesnt_crash(s in "\\PC*") {
+      let _ = MPSFile::<f32>::ranges(&s);
+  }
   }
 }
 
@@ -558,6 +583,101 @@ mod tests {
             },
             second_pair: None
           }
+        ]
+      ))
+    );
+  }
+
+  #[test]
+  fn test_ranges_line() {
+    let a = "    RANGE1    VILLKOR6           2.5   VILLKOR7           30.\n";
+    let b = "    RANGE1    VILLKOR8           7.5\n";
+    assert_eq!(
+      MPSFile::<f32>::ranges_line(a),
+      Ok((
+        "",
+        WideLine::<f32> {
+          name: "RANGE1",
+          first_pair: RowValuePair {
+            row_name: "VILLKOR6",
+            value: 2.5
+          },
+          second_pair: Some(RowValuePair {
+            row_name: "VILLKOR7",
+            value: 30.0
+          })
+        }
+      ))
+    );
+    assert_eq!(
+      MPSFile::<f32>::ranges_line(b),
+      Ok((
+        "",
+        WideLine::<f32> {
+          name: "RANGE1",
+          first_pair: RowValuePair {
+            row_name: "VILLKOR8",
+            value: 7.5
+          },
+          second_pair: None
+        }
+      ))
+    );
+  }
+
+  #[test]
+  fn test_ranges() {
+    let a = "RANGES
+    RANGE1    VILLKOR2            7.   VILLKOR3            7.
+    RANGE1    VILLKOR4           3.5   VILLKOR5           10.
+    RANGE1    VILLKOR6           2.5   VILLKOR7           30.
+    RANGE1    VILLKOR8           7.5\nBOUNDS";
+    assert_eq!(
+      MPSFile::<f32>::ranges(a),
+      Ok((
+        "BOUNDS",
+        vec![
+          WideLine::<f32> {
+            name: "RANGE1",
+            first_pair: RowValuePair {
+              row_name: "VILLKOR2",
+              value: 7.0
+            },
+            second_pair: Some(RowValuePair {
+              row_name: "VILLKOR3",
+              value: 7.0
+            })
+          },
+          WideLine::<f32> {
+            name: "RANGE1",
+            first_pair: RowValuePair {
+              row_name: "VILLKOR4",
+              value: 3.5
+            },
+            second_pair: Some(RowValuePair {
+              row_name: "VILLKOR5",
+              value: 10.0
+            })
+          },
+          WideLine::<f32> {
+            name: "RANGE1",
+            first_pair: RowValuePair {
+              row_name: "VILLKOR6",
+              value: 2.5
+            },
+            second_pair: Some(RowValuePair {
+              row_name: "VILLKOR7",
+              value: 30.0
+            })
+          },
+          WideLine::<f32> {
+            name: "RANGE1",
+            first_pair: RowValuePair {
+              row_name: "VILLKOR8",
+              value: 7.5
+            },
+            second_pair: None
+          },
         ]
       ))
     );
