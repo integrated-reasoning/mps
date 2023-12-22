@@ -1,7 +1,7 @@
 use color_eyre::{eyre::eyre, Result};
 use nom::{
   branch::alt,
-  bytes::complete::tag,
+  bytes::complete::{tag, take_while1},
   character::complete::*,
   combinator::{map, map_res, opt, peek},
   multi::{count, many1},
@@ -10,6 +10,10 @@ use nom::{
   IResult,
 };
 use num_traits::float::Float;
+
+fn not_whitespace1(i: &str) -> IResult<&str, &str> {
+  take_while1(|c: char| !c.is_whitespace())(i)
+}
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub struct MPSFile<'a, T: Float> {
@@ -139,7 +143,7 @@ pub enum RangeType {
 }
 
 impl<'a, T: Float> MPSFile<'a, T> {
-  pub fn parse(input: &str) -> IResult<&str, MPSFile<'_, f32>> {
+  pub fn parse(input: &'a str) -> IResult<&'a str, MPSFile<'a, f32>> {
     map(
       tuple((
         Self::name,
@@ -167,12 +171,12 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn row_line(i: &str) -> IResult<&str, RowLine<'_>> {
+  pub fn row_line(i: &str) -> IResult<&str, RowLine> {
     map_res(
       preceded(
         tag(" "),
         terminated(
-          separated_pair(one_of("ELGN"), multispace1, alphanumeric1),
+          separated_pair(one_of("ELGN"), multispace1, not_whitespace1),
           newline,
         ),
       ),
@@ -185,25 +189,25 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn rows(i: &str) -> IResult<&str, Vec<RowLine<'_>>> {
+  pub fn rows(i: &str) -> IResult<&str, Vec<RowLine>> {
     terminated(
       preceded(terminated(tag("ROWS"), newline), many1(Self::row_line)),
       peek(anychar),
     )(i)
   }
 
-  pub fn line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+  pub fn line(i: &str) -> IResult<&str, WideLine<f32>> {
     map(
       preceded(
         tag("    "),
         terminated(
           tuple((
-            terminated(alphanumeric1, multispace1),
-            terminated(alphanumeric1, multispace1),
+            terminated(not_whitespace1, multispace1),
+            terminated(not_whitespace1, multispace1),
             float,
             opt(preceded(
               multispace1,
-              tuple((terminated(alphanumeric1, multispace1), float)),
+              tuple((terminated(not_whitespace1, multispace1), float)),
             )),
           )),
           newline,
@@ -220,11 +224,11 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn columns_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+  pub fn columns_line(i: &str) -> IResult<&str, WideLine<f32>> {
     Self::line(i)
   }
 
-  pub fn columns(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
+  pub fn columns(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
     terminated(
       preceded(
         terminated(tag("COLUMNS"), newline),
@@ -234,22 +238,22 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn rhs_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+  pub fn rhs_line(i: &str) -> IResult<&str, WideLine<f32>> {
     Self::line(i)
   }
 
-  pub fn rhs(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
+  pub fn rhs(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
     terminated(
       preceded(terminated(tag("RHS"), newline), many1(Self::rhs_line)),
       peek(anychar),
     )(i)
   }
 
-  pub fn ranges_line(i: &str) -> IResult<&str, WideLine<'_, f32>> {
+  pub fn ranges_line(i: &str) -> IResult<&str, WideLine<f32>> {
     Self::line(i)
   }
 
-  pub fn ranges(i: &str) -> IResult<&str, Vec<WideLine<'_, f32>>> {
+  pub fn ranges(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
     terminated(
       preceded(terminated(tag("RANGES"), newline), many1(Self::ranges_line)),
       peek(anychar),
@@ -274,7 +278,7 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn bounds_line(i: &str) -> IResult<&str, BoundsLine<'_, f32>> {
+  pub fn bounds_line(i: &str) -> IResult<&str, BoundsLine<f32>> {
     map_res(
       preceded(
         tag(" "),
@@ -284,8 +288,8 @@ impl<'a, T: Float> MPSFile<'a, T> {
               Self::bound_type,
               multispace1,
             ),
-            terminated(alphanumeric1, multispace1),
-            terminated(alphanumeric1, multispace1),
+            terminated(not_whitespace1, multispace1),
+            terminated(not_whitespace1, multispace1),
             float,
           )),
           newline,
@@ -302,7 +306,7 @@ impl<'a, T: Float> MPSFile<'a, T> {
     )(i)
   }
 
-  pub fn bounds(i: &str) -> IResult<&str, Vec<BoundsLine<'_, f32>>> {
+  pub fn bounds(i: &str) -> IResult<&str, Vec<BoundsLine<f32>>> {
     terminated(
       preceded(terminated(tag("BOUNDS"), newline), many1(Self::bounds_line)),
       peek(anychar),
