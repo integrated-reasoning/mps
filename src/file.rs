@@ -20,7 +20,7 @@ pub struct MPSFile<'a, T: Float> {
   pub name: &'a str,
   pub rows: Rows<'a>,
   pub columns: Columns<'a, T>,
-  pub rhs: Option<RHS<'a, T>>,
+  pub rhs: Option<Rhs<'a, T>>,
   pub ranges: Option<Ranges<'a, T>>,
   pub bounds: Option<Bounds<'a, T>>,
   // TODO: Check for ENDATA
@@ -35,10 +35,10 @@ pub struct RowLine<'a> {
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum RowType {
   #[default]
-  EQ,
-  LEQ,
-  GEQ,
-  NR,
+  Eq,
+  Leq,
+  Geq,
+  Nr,
 }
 
 impl TryFrom<char> for RowType {
@@ -46,10 +46,10 @@ impl TryFrom<char> for RowType {
 
   fn try_from(c: char) -> Result<Self> {
     match c {
-      'E' => Ok(RowType::EQ),
-      'L' => Ok(RowType::LEQ),
-      'G' => Ok(RowType::GEQ),
-      'N' => Ok(RowType::NR),
+      'E' => Ok(RowType::Eq),
+      'L' => Ok(RowType::Leq),
+      'G' => Ok(RowType::Geq),
+      'N' => Ok(RowType::Nr),
       _ => Err(eyre!("invalid row type")),
     }
   }
@@ -72,7 +72,7 @@ pub struct WideLine<'a, T> {
   pub second_pair: Option<RowValuePair<'a, T>>,
 }
 
-pub type RHS<'a, T> = Vec<WideLine<'a, T>>;
+pub type Rhs<'a, T> = Vec<WideLine<'a, T>>;
 
 pub type Ranges<'a, T> = Vec<WideLine<'a, T>>;
 
@@ -89,12 +89,12 @@ pub type Bounds<'a, T> = Vec<BoundsLine<'a, T>>;
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum BoundType {
   #[default]
-  LO, // lower bound     :  l_j <= x_j <= inf
-  UP, // upper bound     :    0 <= x_j <= u_j
-  FX, // fixed variable  :  l_j == x_j == u_j
-  FR, // free variable   : -inf <= x_j <= inf
-  MI, // Unbounded below : -inf <= x_j <= 0
-  PL, // Unbounded above :    0 <= x_j <= inf
+  Lo, // lower bound     :  l_j <= x_j <= inf
+  Up, // upper bound     :    0 <= x_j <= u_j
+  Fx, // fixed variable  :  l_j == x_j == u_j
+  Fr, // free variable   : -inf <= x_j <= inf
+  Mi, // Unbounded below : -inf <= x_j <= 0
+  Pl, // Unbounded above :    0 <= x_j <= inf
 }
 
 impl TryFrom<&str> for BoundType {
@@ -102,12 +102,12 @@ impl TryFrom<&str> for BoundType {
 
   fn try_from(s: &str) -> Result<Self> {
     match s {
-      "LO" => Ok(BoundType::LO),
-      "UP" => Ok(BoundType::UP),
-      "FX" => Ok(BoundType::FX),
-      "FR" => Ok(BoundType::FR),
-      "MI" => Ok(BoundType::MI),
-      "PL" => Ok(BoundType::PL),
+      "LO" => Ok(BoundType::Lo),
+      "UP" => Ok(BoundType::Up),
+      "FX" => Ok(BoundType::Fx),
+      "FR" => Ok(BoundType::Fr),
+      "MI" => Ok(BoundType::Mi),
+      "PL" => Ok(BoundType::Pl),
       "BV" => unimplemented!(),
       "LI" => unimplemented!(),
       "UI" => unimplemented!(),
@@ -129,17 +129,17 @@ impl TryFrom<&str> for BoundType {
  *
  * Reference: Maros CTSM p.91
  * Note: CTSM doesn't mention the case where R_i == 0, but it follows that
- * both L_i and U_i should be set to the respective RHS value b_i.
+ * both L_i and U_i should be set to the respective Rhs value b_i.
  */
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 pub enum RangeType {
   #[default]
-  LE,
-  GE,
-  EP,
-  EM,
-  EZ,
+  _Le,
+  _Ge,
+  _Ep,
+  _Em,
+  _Ez,
 }
 
 impl<'a, T: Float> MPSFile<'a, T> {
