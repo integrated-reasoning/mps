@@ -362,12 +362,12 @@ mod tests {
 
   #[test]
   fn test_bound_type() {
-    assert_eq!(MPSFile::<f32>::bound_type("LO"), Ok(("", BoundType::LO)));
-    assert_eq!(MPSFile::<f32>::bound_type("UP"), Ok(("", BoundType::UP)));
-    assert_eq!(MPSFile::<f32>::bound_type("FX"), Ok(("", BoundType::FX)));
-    assert_eq!(MPSFile::<f32>::bound_type("FR"), Ok(("", BoundType::FR)));
-    assert_eq!(MPSFile::<f32>::bound_type("MI"), Ok(("", BoundType::MI)));
-    assert_eq!(MPSFile::<f32>::bound_type("PL"), Ok(("", BoundType::PL)));
+    assert_eq!(MPSFile::<f32>::bound_type("LO"), Ok(("", BoundType::Lo)));
+    assert_eq!(MPSFile::<f32>::bound_type("UP"), Ok(("", BoundType::Up)));
+    assert_eq!(MPSFile::<f32>::bound_type("FX"), Ok(("", BoundType::Fx)));
+    assert_eq!(MPSFile::<f32>::bound_type("FR"), Ok(("", BoundType::Fr)));
+    assert_eq!(MPSFile::<f32>::bound_type("MI"), Ok(("", BoundType::Mi)));
+    assert_eq!(MPSFile::<f32>::bound_type("PL"), Ok(("", BoundType::Pl)));
   }
 
   #[test]
@@ -380,7 +380,7 @@ mod tests {
       Ok((
         "",
         BoundsLine::<f32> {
-          bound_type: BoundType::UP,
+          bound_type: BoundType::Up,
           bound_name: "BND1",
           column_name: "XONE",
           value: 4.0
@@ -392,7 +392,7 @@ mod tests {
       Ok((
         "",
         BoundsLine::<f32> {
-          bound_type: BoundType::LO,
+          bound_type: BoundType::Lo,
           bound_name: "BND1",
           column_name: "YTWO",
           value: -1.0
@@ -404,7 +404,7 @@ mod tests {
       Ok((
         "",
         BoundsLine::<f32> {
-          bound_type: BoundType::UP,
+          bound_type: BoundType::Up,
           bound_name: "BND1",
           column_name: "YTWO",
           value: 1.0
@@ -425,19 +425,19 @@ mod tests {
         "ENDATA",
         vec![
           BoundsLine::<f32> {
-            bound_type: BoundType::UP,
+            bound_type: BoundType::Up,
             bound_name: "BND1",
             column_name: "XONE",
             value: 4.0
           },
           BoundsLine::<f32> {
-            bound_type: BoundType::LO,
+            bound_type: BoundType::Lo,
             bound_name: "BND1",
             column_name: "YTWO",
             value: -1.0
           },
           BoundsLine::<f32> {
-            bound_type: BoundType::UP,
+            bound_type: BoundType::Up,
             bound_name: "BND1",
             column_name: "YTWO",
             value: 1.0
@@ -458,115 +458,115 @@ mod tests {
           name: "AFIRO",
           rows: vec![
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R09"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R10"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X05"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X21"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R12"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R13"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X17"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X18"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X19"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X20"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R19"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R20"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X27"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X44"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R22"
             },
             RowLine {
-              row_type: RowType::EQ,
+              row_type: RowType::Eq,
               row_name: "R23"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X40"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X41"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X42"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X43"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X45"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X46"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X47"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X48"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X49"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X50"
             },
             RowLine {
-              row_type: RowType::LEQ,
+              row_type: RowType::Leq,
               row_name: "X51"
             },
             RowLine {
-              row_type: RowType::NR,
+              row_type: RowType::Nr,
               row_name: "COST"
             }
           ],
