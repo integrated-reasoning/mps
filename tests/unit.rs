@@ -453,7 +453,7 @@ mod tests {
     assert_eq!(
       MPSFile::<f32>::parse(data),
       Ok((
-        "ENDATA\n",
+        "\n",
         MPSFile {
           name: "AFIRO",
           rows: vec![
@@ -1114,5 +1114,13 @@ mod tests {
         }
       ))
     );
+  }
+
+  #[test]
+  fn test_endata() {
+    let a = "ENDATA\n";
+    let b = "ENDATA";
+    assert_eq!(MPSFile::<f32>::endata(a), Ok(("\n", "ENDATA")));
+    assert_eq!(MPSFile::<f32>::endata(b), Ok(("", "ENDATA")));
   }
 }

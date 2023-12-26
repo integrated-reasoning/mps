@@ -23,7 +23,6 @@ pub struct MPSFile<'a, T: Float> {
   pub rhs: Option<Rhs<'a, T>>,
   pub ranges: Option<Ranges<'a, T>>,
   pub bounds: Option<Bounds<'a, T>>,
-  // TODO: Check for ENDATA
 }
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
@@ -152,8 +151,9 @@ impl<'a, T: Float> MPSFile<'a, T> {
         opt(Self::rhs),
         opt(Self::ranges),
         opt(Self::bounds),
+        opt(Self::endata),
       )),
-      |(name, rows, columns, rhs, ranges, bounds)| MPSFile {
+      |(name, rows, columns, rhs, ranges, bounds, _)| MPSFile {
         name,
         rows,
         columns,
@@ -311,5 +311,9 @@ impl<'a, T: Float> MPSFile<'a, T> {
       preceded(terminated(tag("BOUNDS"), newline), many1(Self::bounds_line)),
       peek(anychar),
     )(i)
+  }
+
+  pub fn endata(i: &str) -> IResult<&str, &str> {
+    tag("ENDATA")(i)
   }
 }
