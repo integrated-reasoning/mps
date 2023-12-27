@@ -9,10 +9,27 @@ use nom::{
   sequence::{preceded, separated_pair, terminated, tuple},
   IResult,
 };
+use nom_tracable::tracable_parser;
 use num_traits::float::Float;
 
-fn not_whitespace1(i: &str) -> IResult<&str, &str> {
-  take_while1(|c: char| !c.is_whitespace())(i)
+cfg_if::cfg_if! {
+  if #[cfg(feature = "located")] {
+    use nom_locate::LocatedSpan;
+    use nom_tracable::TracableInfo;
+    type Span<'a> = LocatedSpan<&'a str, TracableInfo>;
+  } else {
+    type Span<'a> = &'a str;
+  }
+}
+
+fn not_whitespace1(s: Span) -> IResult<Span, &str> {
+  let p = take_while1(|c: char| !c.is_whitespace());
+  cfg_if::cfg_if! {
+    if #[cfg(feature = "located")] {
+      let (s, x) = p(s)?;
+      Ok((s, x.fragment()))
+    } else { p(s) }
+  }
 }
 
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
@@ -142,8 +159,9 @@ pub enum RangeType {
 }
 
 impl<'a, T: Float> MPSFile<'a, T> {
-  pub fn parse(input: &'a str) -> IResult<&'a str, MPSFile<'a, f32>> {
-    map(
+  #[tracable_parser]
+  pub fn parse(s: Span) -> IResult<Span, MPSFile<f32>> {
+    let mut p = map(
       tuple((
         Self::name,
         Self::rows,
@@ -161,18 +179,31 @@ impl<'a, T: Float> MPSFile<'a, T> {
         ranges,
         bounds,
       },
-    )(input)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn name(i: &str) -> IResult<&str, &str> {
-    terminated(
+  pub fn name(s: Span) -> IResult<Span, &str> {
+    let mut p = terminated(
       preceded(tag("NAME"), preceded(count(anychar, 10), not_line_ending)),
       newline,
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x.fragment()))
+      } else { p(s) }
+    }
   }
 
-  pub fn row_line(i: &str) -> IResult<&str, RowLine> {
-    map_res(
+  #[tracable_parser]
+  pub fn row_line(s: Span) -> IResult<Span, RowLine> {
+    let mut p = map_res(
       preceded(
         tag(" "),
         terminated(
@@ -186,20 +217,34 @@ impl<'a, T: Float> MPSFile<'a, T> {
           row_name: n,
         })
       },
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn rows(i: &str) -> IResult<&str, Vec<RowLine>> {
-    terminated(
+  #[tracable_parser]
+  pub fn rows(s: Span) -> IResult<Span, Vec<RowLine>> {
+    let mut p = terminated(
       preceded(terminated(tag("ROWS"), newline), many1(Self::row_line)),
       peek(anychar),
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn line(i: &str) -> IResult<&str, WideLine<f32>> {
-    map(
+  #[tracable_parser]
+  pub fn line(s: Span) -> IResult<Span, WideLine<f32>> {
+    let mut p = map(
       preceded(
-        tag("    "),
+        multispace1,
         terminated(
           tuple((
             terminated(not_whitespace1, multispace1),
@@ -221,47 +266,103 @@ impl<'a, T: Float> MPSFile<'a, T> {
           value: opt_value,
         }),
       },
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn columns_line(i: &str) -> IResult<&str, WideLine<f32>> {
-    Self::line(i)
+  #[tracable_parser]
+  pub fn columns_line(s: Span) -> IResult<Span, WideLine<f32>> {
+    let p = Self::line;
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn columns(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
-    terminated(
+  #[tracable_parser]
+  pub fn columns(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+    let mut p = terminated(
       preceded(
         terminated(tag("COLUMNS"), newline),
         many1(Self::columns_line),
       ),
       peek(anychar),
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn rhs_line(i: &str) -> IResult<&str, WideLine<f32>> {
-    Self::line(i)
+  #[tracable_parser]
+  pub fn rhs_line(s: Span) -> IResult<Span, WideLine<f32>> {
+    let p = Self::line;
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn rhs(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
-    terminated(
+  #[tracable_parser]
+  pub fn rhs(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+    let mut p = terminated(
       preceded(terminated(tag("RHS"), newline), many1(Self::rhs_line)),
       peek(anychar),
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn ranges_line(i: &str) -> IResult<&str, WideLine<f32>> {
-    Self::line(i)
+  #[tracable_parser]
+  pub fn ranges_line(s: Span) -> IResult<Span, WideLine<f32>> {
+    let p = Self::line;
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn ranges(i: &str) -> IResult<&str, Vec<WideLine<f32>>> {
-    terminated(
+  #[tracable_parser]
+  pub fn ranges(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+    let mut p = terminated(
       preceded(terminated(tag("RANGES"), newline), many1(Self::ranges_line)),
       peek(anychar),
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn bound_type(i: &str) -> IResult<&str, BoundType> {
-    map_res(
+  #[tracable_parser]
+  pub fn bound_type(s: Span) -> IResult<Span, BoundType> {
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let f = |z: LocatedSpan<&str, TracableInfo>| BoundType::try_from(*z.fragment());
+      } else {
+        let f = BoundType::try_from;
+      }
+    }
+    let mut p = map_res(
       alt((
         tag("LO"),
         tag("UP"),
@@ -274,12 +375,19 @@ impl<'a, T: Float> MPSFile<'a, T> {
         tag("UI"),
         tag("SC"),
       )),
-      BoundType::try_from,
-    )(i)
+      f,
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn bounds_line(i: &str) -> IResult<&str, BoundsLine<f32>> {
-    map_res(
+  #[tracable_parser]
+  pub fn bounds_line(s: Span) -> IResult<Span, BoundsLine<f32>> {
+    let mut p = map_res(
       preceded(
         tag(" "),
         terminated(
@@ -303,17 +411,36 @@ impl<'a, T: Float> MPSFile<'a, T> {
           value,
         })
       },
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn bounds(i: &str) -> IResult<&str, Vec<BoundsLine<f32>>> {
-    terminated(
+  #[tracable_parser]
+  pub fn bounds(s: Span) -> IResult<Span, Vec<BoundsLine<f32>>> {
+    let mut p = terminated(
       preceded(terminated(tag("BOUNDS"), newline), many1(Self::bounds_line)),
       peek(anychar),
-    )(i)
+    );
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x))
+      } else { p(s) }
+    }
   }
 
-  pub fn endata(i: &str) -> IResult<&str, &str> {
-    tag("ENDATA")(i)
+  pub fn endata(s: Span) -> IResult<Span, &str> {
+    let p = tag("ENDATA");
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "located")] {
+        let (s, x) = p(s)?;
+        Ok((s, x.fragment()))
+      } else { p(s) }
+    }
   }
 }

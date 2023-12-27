@@ -1,5 +1,11 @@
 use criterion::*;
 use mps::file::MPSFile;
+cfg_if::cfg_if! {
+  if #[cfg(feature = "located")] {
+    use nom_locate::LocatedSpan;
+    use nom_tracable::TracableInfo;
+  }
+}
 
 fn netlib(c: &mut Criterion) {
   let files = [
@@ -105,7 +111,16 @@ fn netlib(c: &mut Criterion) {
       BenchmarkId::from_parameter(bench_name),
       content,
       |b, &content| {
-        b.iter(|| MPSFile::<f32>::parse(black_box(content)));
+        b.iter(|| {
+          cfg_if::cfg_if! {
+            if #[cfg(feature = "located")] {
+              let info = TracableInfo::new().forward(false).backward(false);
+              MPSFile::<f32>::parse(LocatedSpan::new_extra(&content, info))
+            } else {
+              MPSFile::<f32>::parse(&content)
+            }
+          }
+        });
       },
     );
   }
