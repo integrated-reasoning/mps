@@ -74,6 +74,8 @@ jobs:
         run: nix develop --command cargo fmt --all --check
       - name: Run Clippy
         run: nix develop --command cargo clippy --all-targets --all-features
+      - name: Run cargo-deny
+        run: nix develop --command cargo deny check
       - name: Check flake
         run: nix flake check
       - name: Check nix shell
