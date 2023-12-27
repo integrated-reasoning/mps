@@ -1,5 +1,5 @@
 use criterion::*;
-use mps::file::MPSFile;
+use mps::Parser;
 cfg_if::cfg_if! {
   if #[cfg(feature = "located")] {
     use nom_locate::LocatedSpan;
@@ -106,7 +106,7 @@ fn netlib(c: &mut Criterion) {
   let mut group = c.benchmark_group("netlib");
   for (name, content) in files.iter() {
     group.throughput(Throughput::Bytes(content.len() as u64));
-    let bench_name = format!("MPSFile::parse({})", name);
+    let bench_name = format!("Parser::parse({})", name);
     group.bench_with_input(
       BenchmarkId::from_parameter(bench_name),
       content,
@@ -115,9 +115,9 @@ fn netlib(c: &mut Criterion) {
           cfg_if::cfg_if! {
             if #[cfg(feature = "located")] {
               let info = TracableInfo::new().forward(false).backward(false);
-              MPSFile::<f32>::parse(LocatedSpan::new_extra(&content, info))
+              Parser::<f32>::parse(LocatedSpan::new_extra(&content, info))
             } else {
-              MPSFile::<f32>::parse(&content)
+              Parser::<f32>::parse(&content)
             }
           }
         });

@@ -1,6 +1,6 @@
 mod tests {
   use color_eyre::Result;
-  use mps::file::*;
+  use mps::*;
   use num_traits::float::Float;
   cfg_if::cfg_if! {
     if #[cfg(feature = "located")] {
@@ -25,10 +25,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::name(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::name(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::name(&case.input)?;
+          let (s, x) = Parser::<f32>::name(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -84,10 +84,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::row_line(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::row_line(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::row_line(&case.input)?;
+          let (s, x) = Parser::<f32>::row_line(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -125,10 +125,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::rows(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::rows(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::rows(&case.input)?;
+          let (s, x) = Parser::<f32>::rows(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -176,10 +176,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::columns_line(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::columns_line(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::columns_line(&case.input)?;
+          let (s, x) = Parser::<f32>::columns_line(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -258,10 +258,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::columns(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::columns(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::columns(&case.input)?;
+          let (s, x) = Parser::<f32>::columns(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -309,10 +309,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::rhs_line(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::rhs_line(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::rhs_line(&case.input)?;
+          let (s, x) = Parser::<f32>::rhs_line(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -355,10 +355,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::rhs(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::rhs(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::rhs(&case.input)?;
+          let (s, x) = Parser::<f32>::rhs(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -406,10 +406,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::ranges_line(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::ranges_line(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::ranges_line(&case.input)?;
+          let (s, x) = Parser::<f32>::ranges_line(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -476,10 +476,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::ranges(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::ranges(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::ranges(&case.input)?;
+          let (s, x) = Parser::<f32>::ranges(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -519,10 +519,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::bound_type(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::bound_type(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::bound_type(&case.input)?;
+          let (s, x) = Parser::<f32>::bound_type(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -574,10 +574,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::bounds_line(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::bounds_line(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::bounds_line(&case.input)?;
+          let (s, x) = Parser::<f32>::bounds_line(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -620,10 +620,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::bounds(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::bounds(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::bounds(&case.input)?;
+          let (s, x) = Parser::<f32>::bounds(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -637,7 +637,7 @@ mod tests {
       input: include_str!("../data/netlib/afiro"),
       expected: (
         "\n",
-        MPSFile {
+        Parser {
           name: "AFIRO",
           rows: vec![
             RowLine {
@@ -1301,10 +1301,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::parse(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::parse(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::parse(&case.input)?;
+          let (s, x) = Parser::<f32>::parse(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -1328,10 +1328,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = MPSFile::<f32>::endata(LocatedSpan::new_extra(&case.input, info))?;
+          let (s, x) = Parser::<f32>::endata(LocatedSpan::new_extra(&case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = MPSFile::<f32>::endata(&case.input)?;
+          let (s, x) = Parser::<f32>::endata(&case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -1343,9 +1343,9 @@ mod tests {
     cfg_if::cfg_if! {
       if #[cfg(feature = "located")] {
         let info = TracableInfo::new().forward(false).backward(false);
-        MPSFile::<T>::parse(LocatedSpan::new_extra(&input, info))?;
+        Parser::<T>::parse(LocatedSpan::new_extra(&input, info))?;
       } else {
-        MPSFile::<T>::parse(&input)?;
+        Parser::<T>::parse(&input)?;
       }
     }
     Ok(())

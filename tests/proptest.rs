@@ -1,7 +1,7 @@
 #[cfg(feature = "proptest")]
 #[cfg(test)]
 mod tests {
-  use mps::file::*;
+  use mps::*;
   use proptest::prelude::*;
   cfg_if::cfg_if! {
     if #[cfg(feature = "located")] {
@@ -16,9 +16,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::name(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::name(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::name(&s);
+          let _ = Parser::<f32>::name(&s);
         }
       }
     }
@@ -30,9 +30,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::row_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::row_line(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::row_line(&s);
+          let _ = Parser::<f32>::row_line(&s);
         }
       }
     }
@@ -44,9 +44,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::rows(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::rows(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::rows(&s);
+          let _ = Parser::<f32>::rows(&s);
         }
       }
     }
@@ -58,9 +58,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::columns_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::columns_line(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::columns_line(&s);
+          let _ = Parser::<f32>::columns_line(&s);
         }
       }
     }
@@ -72,9 +72,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::columns(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::columns(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::columns(&s);
+          let _ = Parser::<f32>::columns(&s);
         }
       }
     }
@@ -86,9 +86,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::rhs_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::rhs_line(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::rhs_line(&s);
+          let _ = Parser::<f32>::rhs_line(&s);
         }
       }
     }
@@ -100,9 +100,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::rhs(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::rhs(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::rhs(&s);
+          let _ = Parser::<f32>::rhs(&s);
         }
       }
     }
@@ -114,9 +114,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::ranges_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::ranges_line(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::ranges_line(&s);
+          let _ = Parser::<f32>::ranges_line(&s);
         }
       }
     }
@@ -128,9 +128,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::ranges(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::ranges(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::ranges(&s);
+          let _ = Parser::<f32>::ranges(&s);
         }
       }
     }
@@ -142,9 +142,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::bound_type(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::bound_type(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::bound_type(&s);
+          let _ = Parser::<f32>::bound_type(&s);
         }
       }
     }
@@ -156,9 +156,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::bounds_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::bounds_line(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::bounds_line(&s);
+          let _ = Parser::<f32>::bounds_line(&s);
         }
       }
     }
@@ -170,9 +170,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::bounds(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::bounds(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::bounds(&s);
+          let _ = Parser::<f32>::bounds(&s);
         }
       }
     }
@@ -184,9 +184,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "located")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = MPSFile::<f32>::parse(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::parse(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = MPSFile::<f32>::parse(&s);
+          let _ = Parser::<f32>::parse(&s);
         }
       }
     }
