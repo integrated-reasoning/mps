@@ -10,6 +10,8 @@ cfg_if::cfg_if! {
   }
 }
 
+// TODO: Support comments, see docs
+
 fn main() -> Result<()> {
   let args = Cli::parse();
   let contents = fs::read_to_string(args.input_path)?;

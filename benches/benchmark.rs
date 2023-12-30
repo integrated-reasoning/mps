@@ -115,7 +115,7 @@ fn netlib(c: &mut Criterion) {
           cfg_if::cfg_if! {
             if #[cfg(feature = "located")] {
               let info = TracableInfo::new().forward(false).backward(false);
-              Parser::<f32>::parse(LocatedSpan::new_extra(&content, info))
+              Parser::<f32>::parse(LocatedSpan::new_extra(content, info))
             } else {
               Parser::<f32>::parse(&content)
             }
