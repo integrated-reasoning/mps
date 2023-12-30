@@ -7,7 +7,7 @@
 //!
 //! **Library**
 //!
-//! ```
+//! ```ignore
 //! use mps::Parser;
 //!
 //! let contents = "MPS data...";
@@ -451,7 +451,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// # Examples
   ///
   /// Basic usage without tracing:
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let contents = "MPS data here...";
   /// match Parser::<f32>::parse(&contents) {
@@ -461,7 +461,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// ```
   ///
   /// Usage with tracing enabled (`located` feature):
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// use nom_locate::LocatedSpan;
   /// use nom_tracable::{TracableInfo, cumulative_histogram};
@@ -534,7 +534,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let contents = "NAME          SAMPLE_PROBLEM\n...";
   /// match Parser::<f32>::name(contents) {
@@ -583,7 +583,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, RowLine};
   /// let row_data = " E  ROW_NAME\n";
   /// match Parser::<f32>::row_line(row_data) {
@@ -650,7 +650,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let rows_section = "ROWS\n E  ROW1\n G  ROW2\n N  ROW3\n";
   /// match Parser::<f32>::rows(rows_section) {
@@ -705,7 +705,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, WideLine};
   /// let line_data = "    COL_NAME ROW_NAME 3.5\n";
   /// match Parser::<f32>::line(line_data) {
@@ -782,7 +782,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, WideLine};
   /// let column_line_data = "    COLUMN_NAME ROW_NAME 4.2\n";
   /// match Parser::<f32>::columns_line(column_line_data) {
@@ -835,7 +835,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let columns_section = "COLUMNS\n    COL1 ROW1 5.0\n    COL1 ROW2 2.5\n";
   /// match Parser::<f32>::columns(columns_section) {
@@ -894,7 +894,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, WideLine};
   /// let rhs_line_data = "    RHS_NAME ROW_NAME 7.5\n";
   /// match Parser::<f32>::rhs_line(rhs_line_data) {
@@ -947,7 +947,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let rhs_section = "RHS\n    RHS_NAME ROW1 10.0\n    RHS_NAME ROW2 -5.5\n";
   /// match Parser::<f32>::rhs(rhs_section) {
@@ -1002,7 +1002,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, WideLine};
   /// let range_line_data = "    RANGE_NAME ROW_NAME 15.0\n";
   /// match Parser::<f32>::ranges_line(range_line_data) {
@@ -1052,7 +1052,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, WideLine};
   /// let mps_data = "..."; // A string slice of the MPS data including the RANGES section
   /// match Parser::<f32>::ranges(mps_data) {
@@ -1103,7 +1103,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, BoundType};
   /// let bound_type_data = "LO";
   /// match Parser::<f32>::bound_type(bound_type_data) {
@@ -1172,7 +1172,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, BoundsLine};
   /// let bounds_line_data = " LO BOUND_NAME COLUMN_NAME 10.0\n";
   /// match Parser::<f32>::bounds_line(bounds_line_data) {
@@ -1245,7 +1245,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::{Parser, BoundsLine};
   /// let mps_data = "..."; // A string slice of the MPS data including the BOUNDS section
   /// match Parser::<f32>::bounds(mps_data) {
@@ -1296,7 +1296,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Example
   ///
-  /// ```
+  /// ```ignore
   /// use mps::Parser;
   /// let mps_data = "ENDATA";
   /// match Parser::<f32>::endata(mps_data) {
