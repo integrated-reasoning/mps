@@ -19,6 +19,7 @@ proptest = { version = "1.4.0", features = ["timeout", "std"] }
 
 [[bench]]
 name = "benchmark"
+path = "benches/benchmark.rs"
 harness = false
 
 [features]
