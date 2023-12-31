@@ -1,6 +1,6 @@
 mod tests {
   use color_eyre::Result;
-  use mps::*;
+  use mps::types::*;
   use num_traits::float::Float;
   cfg_if::cfg_if! {
     if #[cfg(feature = "located")] {

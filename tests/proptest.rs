@@ -1,7 +1,7 @@
 #[cfg(feature = "proptest")]
 #[cfg(test)]
 mod tests {
-  use mps::*;
+  use mps::types::*;
   use proptest::prelude::*;
   cfg_if::cfg_if! {
     if #[cfg(feature = "located")] {
