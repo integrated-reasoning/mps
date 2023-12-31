@@ -1,6 +1,7 @@
 #[cfg(feature = "proptest")]
 #[cfg(test)]
 mod tests {
+  use mps::types::*;
   use mps::*;
   use proptest::prelude::*;
   cfg_if::cfg_if! {

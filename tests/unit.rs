@@ -1,5 +1,6 @@
 mod tests {
   use color_eyre::Result;
+  use mps::types::*;
   use mps::*;
   use num_traits::float::Float;
   cfg_if::cfg_if! {

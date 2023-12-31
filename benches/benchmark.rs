@@ -1,4 +1,5 @@
 use criterion::*;
+use mps::types::*;
 use mps::Parser;
 cfg_if::cfg_if! {
   if #[cfg(feature = "located")] {
