@@ -30,6 +30,7 @@
         ];
 
         generalBuildInputs = [
+          pkgs.cargo-all-features
           pkgs.cargo-deny
           pkgs.cargo-nextest
           pkgs.rustup
