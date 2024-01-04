@@ -74,5 +74,6 @@
 //! - [NETLIB linear programming library](http://www.netlib.org/lp/)
 //!
 pub mod parse;
+pub mod reader;
 pub mod types;
 pub use crate::types::Parser;
