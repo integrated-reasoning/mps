@@ -73,6 +73,7 @@
 //! - [Mathematical Programming System format](https://lpsolve.sourceforge.net/5.5/mps-format.htm)
 //! - [NETLIB linear programming library](http://www.netlib.org/lp/)
 //!
+pub mod model;
 pub mod parse;
 pub mod types;
 pub use crate::types::Parser;
