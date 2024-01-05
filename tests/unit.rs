@@ -634,7 +634,7 @@ mod tests {
   #[test]
   fn test_parse() -> Result<()> {
     let test_cases = vec![TestData {
-      input: include_str!("../data/netlib/afiro"),
+      input: include_str!("../tests/data/netlib/afiro"),
       expected: (
         "\n",
         Parser {
@@ -1353,461 +1353,461 @@ mod tests {
 
   #[test]
   fn test_parse_agg() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/agg"))
+    parse::<f32>(include_str!("../tests/data/netlib/agg"))
   }
 
   #[test]
   fn test_parse_ship04l() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship04l"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship04l"))
   }
 
   #[test]
   fn test_parse_d2q06c() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/d2q06c"))
+    parse::<f32>(include_str!("../tests/data/netlib/d2q06c"))
   }
 
   #[test]
   fn test_parse_e226() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/e226"))
+    parse::<f32>(include_str!("../tests/data/netlib/e226"))
   }
 
   #[test]
   fn test_parse_nl25fv47() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/25fv47"))
+    parse::<f32>(include_str!("../tests/data/netlib/25fv47"))
   }
 
   #[test]
   fn test_parse_bore3d() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/bore3d"))
+    parse::<f32>(include_str!("../tests/data/netlib/bore3d"))
   }
 
   #[test]
   fn test_parse_ganges() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ganges"))
+    parse::<f32>(include_str!("../tests/data/netlib/ganges"))
   }
 
   #[test]
   fn test_parse_adlittle() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/adlittle"))
+    parse::<f32>(include_str!("../tests/data/netlib/adlittle"))
   }
 
   #[ignore] // TODO: Fix (fails in row_line and columns)
   fn _test_parse_forplan() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/forplan"))
+    parse::<f32>(include_str!("../tests/data/netlib/forplan"))
   }
 
   #[test]
   fn test_parse_sc205() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sc205"))
+    parse::<f32>(include_str!("../tests/data/netlib/sc205"))
   }
 
   #[test]
   fn test_parse_nl80bau3b() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/80bau3b"))
+    parse::<f32>(include_str!("../tests/data/netlib/80bau3b"))
   }
 
   #[test]
   fn test_parse_scrs8() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scrs8"))
+    parse::<f32>(include_str!("../tests/data/netlib/scrs8"))
   }
 
   #[test]
   fn test_parse_wood1p() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/wood1p"))
+    parse::<f32>(include_str!("../tests/data/netlib/wood1p"))
   }
 
   #[test]
   fn test_parse_boeing1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/boeing1"))
+    parse::<f32>(include_str!("../tests/data/netlib/boeing1"))
   }
 
   #[test]
   fn test_parse_kb2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/kb2"))
+    parse::<f32>(include_str!("../tests/data/netlib/kb2"))
   }
 
   #[test]
   fn test_parse_ship08s() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship08s"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship08s"))
   }
 
   #[test]
   fn test_parse_scfxm1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scfxm1"))
+    parse::<f32>(include_str!("../tests/data/netlib/scfxm1"))
   }
 
   #[test]
   fn test_parse_agg2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/agg2"))
+    parse::<f32>(include_str!("../tests/data/netlib/agg2"))
   }
 
   #[test]
   fn test_parse_finnis() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/finnis"))
+    parse::<f32>(include_str!("../tests/data/netlib/finnis"))
   }
 
   #[test]
   fn test_parse_dfl001() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/dfl001"))
+    parse::<f32>(include_str!("../tests/data/netlib/dfl001"))
   }
 
   #[test]
   fn test_parse_pilot87() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilot87"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilot87"))
   }
 
   #[test]
   fn test_parse_sctap1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sctap1"))
+    parse::<f32>(include_str!("../tests/data/netlib/sctap1"))
   }
 
   #[test]
   fn test_parse_agg3() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/agg3"))
+    parse::<f32>(include_str!("../tests/data/netlib/agg3"))
   }
 
   #[test]
   fn test_parse_grow7() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/grow7"))
+    parse::<f32>(include_str!("../tests/data/netlib/grow7"))
   }
 
   #[test]
   fn test_parse_scorpion() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scorpion"))
+    parse::<f32>(include_str!("../tests/data/netlib/scorpion"))
   }
 
   #[test]
   fn test_parse_maros() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/maros"))
+    parse::<f32>(include_str!("../tests/data/netlib/maros"))
   }
 
   #[test]
   fn test_parse_shell() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/shell"))
+    parse::<f32>(include_str!("../tests/data/netlib/shell"))
   }
 
   #[test]
   fn test_parse_greenbeb() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/greenbeb"))
+    parse::<f32>(include_str!("../tests/data/netlib/greenbeb"))
   }
 
   #[test]
   fn test_parse_sc50b() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sc50b"))
+    parse::<f32>(include_str!("../tests/data/netlib/sc50b"))
   }
 
   #[test]
   fn test_parse_recipe() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/recipe"))
+    parse::<f32>(include_str!("../tests/data/netlib/recipe"))
   }
 
   #[test]
   fn test_parse_sierra() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sierra"))
+    parse::<f32>(include_str!("../tests/data/netlib/sierra"))
   }
 
   #[test]
   fn test_parse_scagr25() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scagr25"))
+    parse::<f32>(include_str!("../tests/data/netlib/scagr25"))
   }
 
   #[test]
   fn test_parse_modszk1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/modszk1"))
+    parse::<f32>(include_str!("../tests/data/netlib/modszk1"))
   }
 
   #[test]
   fn test_parse_ship12l() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship12l"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship12l"))
   }
 
   #[test]
   fn test_parse_stair() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/stair"))
+    parse::<f32>(include_str!("../tests/data/netlib/stair"))
   }
 
   #[test]
   fn test_parse_cycle() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/cycle"))
+    parse::<f32>(include_str!("../tests/data/netlib/cycle"))
   }
 
   #[test]
   fn test_parse_sc105() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sc105"))
+    parse::<f32>(include_str!("../tests/data/netlib/sc105"))
   }
 
   #[test]
   fn test_parse_pilot_ja() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilot.ja"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilot.ja"))
   }
 
   #[test]
   fn test_parse_beaconfd() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/beaconfd"))
+    parse::<f32>(include_str!("../tests/data/netlib/beaconfd"))
   }
 
   #[test]
   fn test_parse_czprob() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/czprob"))
+    parse::<f32>(include_str!("../tests/data/netlib/czprob"))
   }
 
   #[test]
   fn test_parse_pilot_we() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilot.we"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilot.we"))
   }
 
   #[test]
   fn test_parse_standgub() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/standgub"))
+    parse::<f32>(include_str!("../tests/data/netlib/standgub"))
   }
 
   #[test]
   fn test_parse_standmps() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/standmps"))
+    parse::<f32>(include_str!("../tests/data/netlib/standmps"))
   }
 
   #[test]
   fn test_parse_scsd8() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scsd8"))
+    parse::<f32>(include_str!("../tests/data/netlib/scsd8"))
   }
 
   #[test]
   fn test_parse_woodw() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/woodw"))
+    parse::<f32>(include_str!("../tests/data/netlib/woodw"))
   }
 
   #[test]
   fn test_parse_scsd6() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scsd6"))
+    parse::<f32>(include_str!("../tests/data/netlib/scsd6"))
   }
 
   #[test]
   fn test_parse_scsd1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scsd1"))
+    parse::<f32>(include_str!("../tests/data/netlib/scsd1"))
   }
 
   #[test]
   fn test_parse_share2b() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/share2b"))
+    parse::<f32>(include_str!("../tests/data/netlib/share2b"))
   }
 
   #[test]
   fn test_parse_gfrd_pnc() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/gfrd-pnc"))
+    parse::<f32>(include_str!("../tests/data/netlib/gfrd-pnc"))
   }
 
   #[test]
   fn test_parse_bnl2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/bnl2"))
+    parse::<f32>(include_str!("../tests/data/netlib/bnl2"))
   }
 
   #[test]
   fn test_parse_stocfor2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/stocfor2"))
+    parse::<f32>(include_str!("../tests/data/netlib/stocfor2"))
   }
 
   #[test]
   fn test_parse_nesm() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/nesm"))
+    parse::<f32>(include_str!("../tests/data/netlib/nesm"))
   }
 
   #[test]
   fn test_parse_share1b() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/share1b"))
+    parse::<f32>(include_str!("../tests/data/netlib/share1b"))
   }
 
   #[test]
   fn test_parse_ship04s() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship04s"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship04s"))
   }
 
   #[test]
   fn test_parse_grow15() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/grow15"))
+    parse::<f32>(include_str!("../tests/data/netlib/grow15"))
   }
 
   #[test]
   fn test_parse_maros_r7() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/maros-r7"))
+    parse::<f32>(include_str!("../tests/data/netlib/maros-r7"))
   }
 
   #[test]
   fn test_parse_blend() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/blend"))
+    parse::<f32>(include_str!("../tests/data/netlib/blend"))
   }
 
   #[test]
   fn test_parse_lotfi() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/lotfi"))
+    parse::<f32>(include_str!("../tests/data/netlib/lotfi"))
   }
 
   #[test]
   fn test_parse_standata() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/standata"))
+    parse::<f32>(include_str!("../tests/data/netlib/standata"))
   }
 
   //#[test]
   //fn test_parse_d6cube() -> Result<()> {
-  //  parse::<f32>(include_str!("../data/netlib/d6cube"))
+  //  parse::<f32>(include_str!("../tests/data/netlib/d6cube"))
   //}
 
   #[test]
   fn test_parse_degen3() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/degen3"))
+    parse::<f32>(include_str!("../tests/data/netlib/degen3"))
   }
 
   #[test]
   fn test_parse_capri() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/capri"))
+    parse::<f32>(include_str!("../tests/data/netlib/capri"))
   }
 
   #[test]
   fn test_parse_grow22() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/grow22"))
+    parse::<f32>(include_str!("../tests/data/netlib/grow22"))
   }
 
   #[test]
   fn test_parse_etamacro() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/etamacro"))
+    parse::<f32>(include_str!("../tests/data/netlib/etamacro"))
   }
 
   #[test]
   fn test_parse_ship08l() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship08l"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship08l"))
   }
 
   #[test]
   fn test_parse_afiro() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/afiro"))
+    parse::<f32>(include_str!("../tests/data/netlib/afiro"))
   }
 
   #[test]
   fn test_parse_degen2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/degen2"))
+    parse::<f32>(include_str!("../tests/data/netlib/degen2"))
   }
 
   #[test]
   fn test_parse_boeing2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/boeing2"))
+    parse::<f32>(include_str!("../tests/data/netlib/boeing2"))
   }
 
   #[test]
   fn test_parse_fit1d() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/fit1d"))
+    parse::<f32>(include_str!("../tests/data/netlib/fit1d"))
   }
 
   #[test]
   fn test_parse_scfxm2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scfxm2"))
+    parse::<f32>(include_str!("../tests/data/netlib/scfxm2"))
   }
 
   #[test]
   fn test_parse_sctap3() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sctap3"))
+    parse::<f32>(include_str!("../tests/data/netlib/sctap3"))
   }
 
   #[test]
   fn test_parse_fit1p() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/fit1p"))
+    parse::<f32>(include_str!("../tests/data/netlib/fit1p"))
   }
 
   #[test]
   fn test_parse_pilot() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilot"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilot"))
   }
 
   #[test]
   fn test_parse_fit2d() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/fit2d"))
+    parse::<f32>(include_str!("../tests/data/netlib/fit2d"))
   }
 
   #[test]
   fn test_parse_sctap2() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sctap2"))
+    parse::<f32>(include_str!("../tests/data/netlib/sctap2"))
   }
 
   #[test]
   fn test_parse_scfxm3() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scfxm3"))
+    parse::<f32>(include_str!("../tests/data/netlib/scfxm3"))
   }
 
   #[test]
   fn test_parse_brandy() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/brandy"))
+    parse::<f32>(include_str!("../tests/data/netlib/brandy"))
   }
 
   #[test]
   fn test_parse_greenbea() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/greenbea"))
+    parse::<f32>(include_str!("../tests/data/netlib/greenbea"))
   }
 
   #[test]
   fn test_parse_tuff() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/tuff"))
+    parse::<f32>(include_str!("../tests/data/netlib/tuff"))
   }
 
   #[test]
   fn test_parse_sc50a() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/sc50a"))
+    parse::<f32>(include_str!("../tests/data/netlib/sc50a"))
   }
 
   #[test]
   fn test_parse_vtp_base() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/vtp.base"))
+    parse::<f32>(include_str!("../tests/data/netlib/vtp.base"))
   }
 
   #[test]
   fn test_parse_pilotnov() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilotnov"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilotnov"))
   }
 
   #[test]
   fn test_parse_ship12s() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/ship12s"))
+    parse::<f32>(include_str!("../tests/data/netlib/ship12s"))
   }
 
   #[test]
   fn test_parse_seba() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/seba"))
+    parse::<f32>(include_str!("../tests/data/netlib/seba"))
   }
 
   #[test]
   fn test_parse_fffff800() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/fffff800"))
+    parse::<f32>(include_str!("../tests/data/netlib/fffff800"))
   }
 
   #[test]
   fn test_parse_israel() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/israel"))
+    parse::<f32>(include_str!("../tests/data/netlib/israel"))
   }
 
   #[test]
   fn test_parse_perold() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/perold"))
+    parse::<f32>(include_str!("../tests/data/netlib/perold"))
   }
 
   #[test]
   fn test_parse_pilot4() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/pilot4"))
+    parse::<f32>(include_str!("../tests/data/netlib/pilot4"))
   }
 
   #[test]
   fn test_parse_scagr7() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/scagr7"))
+    parse::<f32>(include_str!("../tests/data/netlib/scagr7"))
   }
 
   #[test]
   fn test_parse_bandm() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/bandm"))
+    parse::<f32>(include_str!("../tests/data/netlib/bandm"))
   }
 
   #[test]
   fn test_parse_bnl1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/bnl1"))
+    parse::<f32>(include_str!("../tests/data/netlib/bnl1"))
   }
 
   #[test]
   fn test_parse_stocfor1() -> Result<()> {
-    parse::<f32>(include_str!("../data/netlib/stocfor1"))
+    parse::<f32>(include_str!("../tests/data/netlib/stocfor1"))
   }
 }
