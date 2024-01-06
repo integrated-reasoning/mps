@@ -53,4 +53,17 @@ mod tests {
     };
     Ok(())
   }
+
+  #[test]
+  fn test_unspecified_row_type() -> Result<()> {
+    let (_, parsed) = Parser::<f32>::parse(include_str!(
+      "../../tests/data/should_fail/unspecified_row_type"
+    ))?;
+    let error = eyre!("referenced row of unspecified type: X27");
+    match Model::try_from(parsed) {
+      Ok(_) => panic!(),
+      Err(e) => assert_eq!(e.to_string(), error.to_string()),
+    };
+    Ok(())
+  }
 }
