@@ -26,6 +26,16 @@ impl TryFrom<&Rows<'_>> for RowTypeMap {
 }
 
 impl RowTypeMap {
+  pub fn exists(&self, name: &str) -> Result<()> {
+    match self.get(name) {
+      Some(_) => Ok(()),
+      None => Err(eyre!(format!(
+        "referenced row of unspecified type: {}",
+        name
+      ))),
+    }?;
+    Ok(())
+  }
   pub fn get(&self, row_name: &str) -> Option<&RowType> {
     self.0.get(row_name)
   }

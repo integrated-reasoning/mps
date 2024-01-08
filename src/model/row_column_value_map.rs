@@ -13,14 +13,14 @@ impl TryFrom<(&Columns<'_, f32>, &RowTypeMap)> for RowColumnValueMap {
     let mut row_column_values = RowColumnValueMap(HashMap::new());
     let (columns_lines, row_types) = t;
     for c in columns_lines {
-      exists(c.first_pair.row_name, row_types)?;
+      row_types.exists(c.first_pair.row_name)?;
       row_column_values.insert(
         c.first_pair.row_name,
         c.name,
         c.first_pair.value,
       )?;
       if let Some(second_pair) = c.second_pair.as_ref() {
-        exists(second_pair.row_name, row_types)?;
+        row_types.exists(second_pair.row_name)?;
         row_column_values.insert(
           second_pair.row_name,
           c.name,
@@ -32,17 +32,6 @@ impl TryFrom<(&Columns<'_, f32>, &RowTypeMap)> for RowColumnValueMap {
   }
 }
 
-fn exists(name: &str, map: &RowTypeMap) -> Result<()> {
-  match map.get(name) {
-    Some(_) => Ok(()),
-    None => Err(eyre!(format!(
-      "referenced row of unspecified type: {}",
-      name
-    ))),
-  }?;
-  Ok(())
-}
-
 impl RowColumnValueMap {
   fn insert(
     &mut self,
@@ -50,8 +39,7 @@ impl RowColumnValueMap {
     column_name: &str,
     value: f32,
   ) -> Result<()> {
-    let v = 9.2; // todo
-    match self.0.insert((row_name.to_string(), column_name.to_string()), v)
+    match self.0.insert((row_name.to_string(), column_name.to_string()), value)
       {
         Some(conflicting_value) => Err(eyre!(format!(
           "conflicting (row, column, value) information for {:?}: found {:?} and {:?}",
@@ -61,9 +49,4 @@ impl RowColumnValueMap {
       }?;
     Ok(())
   }
-}
-
-#[cfg(test)]
-mod tests {
-  use super::*;
 }
