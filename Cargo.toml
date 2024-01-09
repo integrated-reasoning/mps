@@ -18,6 +18,7 @@ cfg-if = "1.0.0"
 clap = { version = "4.4.11", features = ["derive"], optional = true }
 color-eyre = "0.6.2"
 hashbrown = "0.14.3"
+insta = { version = "1.34.0", features = ["yaml"] }
 nom = "7.1.3"
 nom-tracable = "0.9.0"
 nom_locate = "4.2.0"
@@ -42,3 +43,7 @@ located = []
 [package.metadata.cargo-all-features]
 always_include_features = ["clap"]
 max_combination_size = 4
+
+[profile.dev.package]
+insta.opt-level = 3
+similar.opt-level = 3
