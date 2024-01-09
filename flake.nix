@@ -32,6 +32,7 @@
         generalBuildInputs = [
           pkgs.cargo-all-features
           pkgs.cargo-deny
+          pkgs.cargo-insta
           pkgs.cargo-nextest
           pkgs.rustup
         ] ++ linuxDependencies ++ darwinDependencies;
