@@ -1,0 +1,366 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/beaconfd\"))?"
+---
+name: BEACONFD
+rows:
+  - row_type: Nr
+    row_name: 11CSTR
+  - row_type: Leq
+    row_name: "50022"
+  - row_type: Leq
+    row_name: "50024"
+  - row_type: Leq
+    row_name: "50028"
+  - row_type: Leq
+    row_name: "50055"
+  - row_type: Leq
+    row_name: "50059"
+  - row_type: Leq
+    row_name: "50077"
+  - row_type: Leq
+    row_name: "50080"
+  - row_type: Leq
+    row_name: "50081"
+  - row_type: Leq
+    row_name: "50109"
+  - row_type: Leq
+    row_name: "50110"
+  - row_type: Leq
+    row_name: "50139"
+  - row_type: Leq
+    row_name: "50157"
+  - row_type: Leq
+    row_name: "50165"
+  - row_type: Leq
+    row_name: "50168"
+  - row_type: Leq
+    row_name: "50178"
+  - row_type: Leq
+    row_name: "50190"
+  - row_type: Leq
+    row_name: "50192"
+  - row_type: Leq
+    row_name: "50195"
+  - row_type: Leq
+    row_name: "50302"
+  - row_type: Leq
+    row_name: "50303"
+  - row_type: Leq
+    row_name: "50325"
+  - row_type: Leq
+    row_name: "50412"
+  - row_type: Leq
+    row_name: "50448"
+  - row_type: Leq
+    row_name: "50470"
+  - row_type: Leq
+    row_name: "50477"
+  - row_type: Leq
+    row_name: "50495"
+  - row_type: Leq
+    row_name: "50545"
+  - row_type: Leq
+    row_name: "50548"
+  - row_type: Leq
+    row_name: "50623"
+  - row_type: Leq
+    row_name: "50842"
+  - row_type: Leq
+    row_name: "50854"
+  - row_type: Leq
+    row_name: "50861"
+  - row_type: Leq
+    row_name: "50917"
+  - row_type: Eq
+    row_name: "51022"
+  - row_type: Eq
+    row_name: "51024"
+  - row_type: Eq
+    row_name: "51025"
+  - row_type: Eq
+    row_name: "51026"
+  - row_type: Eq
+    row_name: "51027"
+  - row_type: Eq
+    row_name: "51028"
+  - row_type: Eq
+    row_name: "51033"
+  - row_type: Eq
+    row_name: "51041"
+  - row_type: Eq
+    row_name: "51043"
+  - row_type: Eq
+    row_name: "51055"
+  - row_type: Eq
+    row_name: "51059"
+  - row_type: Eq
+    row_name: "51077"
+  - row_type: Eq
+    row_name: "51080"
+  - row_type: Eq
+    row_name: "51081"
+  - row_type: Eq
+    row_name: "51109"
+  - row_type: Eq
+    row_name: "51110"
+  - row_type: Eq
+    row_name: "51125"
+  - row_type: Eq
+    row_name: "51139"
+  - row_type: Eq
+    row_name: "51144"
+  - row_type: Eq
+    row_name: "51150"
+  - row_type: Eq
+    row_name: "51157"
+  - row_type: Eq
+    row_name: "51165"
+  - row_type: Eq
+    row_name: "51168"
+  - row_type: Eq
+    row_name: "51176"
+  - row_type: Eq
+    row_name: "51178"
+  - row_type: Eq
+    row_name: "51190"
+  - row_type: Eq
+    row_name: "51191"
+  - row_type: Eq
+    row_name: "51192"
+  - row_type: Eq
+    row_name: "51195"
+  - row_type: Eq
+    row_name: "51302"
+  - row_type: Eq
+    row_name: "51303"
+  - row_type: Eq
+    row_name: "51325"
+  - row_type: Eq
+    row_name: "51340"
+  - row_type: Eq
+    row_name: "51400"
+  - row_type: Eq
+    row_name: "51412"
+  - row_type: Eq
+    row_name: "51427"
+  - row_type: Eq
+    row_name: "51446"
+  - row_type: Eq
+    row_name: "51448"
+  - row_type: Eq
+    row_name: "51460"
+  - row_type: Eq
+    row_name: "51470"
+  - row_type: Eq
+    row_name: "51477"
+  - row_type: Eq
+    row_name: "51490"
+  - row_type: Eq
+    row_name: "51495"
+  - row_type: Eq
+    row_name: "51496"
+  - row_type: Eq
+    row_name: "51545"
+  - row_type: Eq
+    row_name: "51548"
+  - row_type: Eq
+    row_name: "51605"
+  - row_type: Eq
+    row_name: "51620"
+  - row_type: Eq
+    row_name: "51623"
+  - row_type: Eq
+    row_name: "51625"
+  - row_type: Eq
+    row_name: "51635"
+  - row_type: Eq
+    row_name: "51812"
+  - row_type: Eq
+    row_name: "51824"
+  - row_type: Eq
+    row_name: "51827"
+  - row_type: Eq
+    row_name: "51835"
+  - row_type: Eq
+    row_name: "51842"
+  - row_type: Eq
+    row_name: "51854"
+  - row_type: Eq
+    row_name: "51857"
+  - row_type: Eq
+    row_name: "51861"
+  - row_type: Eq
+    row_name: "51884"
+  - row_type: Eq
+    row_name: "51917"
+  - row_type: Eq
+    row_name: "51919"
+  - row_type: Eq
+    row_name: "51922"
+  - row_type: Eq
+    row_name: "51940"
+  - row_type: Eq
+    row_name: "51943"
+  - row_type: Eq
+    row_name: "51945"
+  - row_type: Eq
+    row_name: "51947"
+  - row_type: Eq
+    row_name: "51974"
+  - row_type: Eq
+    row_name: "51981"
+  - row_type: Eq
+    row_name: "51990"
+  - row_type: Eq
+    row_name: "60080"
+  - row_type: Eq
+    row_name: "60157"
+  - row_type: Eq
+    row_name: "60545"
+  - row_type: Eq
+    row_name: "60854"
+  - row_type: Eq
+    row_name: "609010"
+  - row_type: Eq
+    row_name: "609012"
+  - row_type: Eq
+    row_name: "609022"
+  - row_type: Eq
+    row_name: "609032"
+  - row_type: Eq
+    row_name: "609101"
+  - row_type: Eq
+    row_name: "609111"
+  - row_type: Eq
+    row_name: "609138"
+  - row_type: Eq
+    row_name: "609155"
+  - row_type: Eq
+    row_name: "609156"
+  - row_type: Eq
+    row_name: "609158"
+  - row_type: Eq
+    row_name: "609161"
+  - row_type: Eq
+    row_name: "609166"
+  - row_type: Eq
+    row_name: "609172"
+  - row_type: Eq
+    row_name: "609173"
+  - row_type: Eq
+    row_name: "609202"
+  - row_type: Eq
+    row_name: "609221"
+  - row_type: Eq
+    row_name: "609242"
+  - row_type: Eq
+    row_name: "609246"
+  - row_type: Eq
+    row_name: "609252"
+  - row_type: Eq
+    row_name: "609280"
+  - row_type: Eq
+    row_name: "609330"
+  - row_type: Eq
+    row_name: "609340"
+  - row_type: Eq
+    row_name: "609361"
+  - row_type: Eq
+    row_name: "609362"
+  - row_type: Eq
+    row_name: "609363"
+  - row_type: Eq
+    row_name: "609371"
+  - row_type: Eq
+    row_name: "609380"
+  - row_type: Eq
+    row_name: "609402"
+  - row_type: Eq
+    row_name: "609422"
+  - row_type: Eq
+    row_name: "609441"
+  - row_type: Eq
+    row_name: "609451"
+  - row_type: Eq
+    row_name: "609463"
+  - row_type: Eq
+    row_name: "609475"
+  - row_type: Eq
+    row_name: "609490"
+  - row_type: Eq
+    row_name: "609494"
+  - row_type: Eq
+    row_name: "609496"
+  - row_type: Eq
+    row_name: "609497"
+  - row_type: Eq
+    row_name: "609540"
+  - row_type: Eq
+    row_name: "609563"
+  - row_type: Eq
+    row_name: "609601"
+  - row_type: Eq
+    row_name: "609602"
+  - row_type: Eq
+    row_name: "609608"
+  - row_type: Eq
+    row_name: "609609"
+  - row_type: Eq
+    row_name: "609610"
+  - row_type: Eq
+    row_name: "609615"
+  - row_type: Eq
+    row_name: "609625"
+  - row_type: Eq
+    row_name: "609630"
+  - row_type: Eq
+    row_name: "609632"
+  - row_type: Eq
+    row_name: "609633"
+  - row_type: Eq
+    row_name: "609634"
+  - row_type: Eq
+    row_name: "609636"
+  - row_type: Eq
+    row_name: "609650"
+  - row_type: Eq
+    row_name: "609652"
+  - row_type: Eq
+    row_name: "609653"
+  - row_type: Eq
+    row_name: "609654"
+  - row_type: Eq
+    row_name: "609655"
+  - row_type: Eq
+    row_name: "609712"
+  - row_type: Eq
+    row_name: "609715"
+  - row_type: Eq
+    row_name: "609721"
+  - row_type: Eq
+    row_name: "609723"
+  - row_type: Eq
+    row_name: "609725"
+  - row_type: Eq
+    row_name: "609727"
+  - row_type: Eq
+    row_name: "609729"
+  - row_type: Eq
+    row_name: "609731"
+  - row_type: Eq
+    row_name: "609750"
+  - row_type: Eq
+    row_name: "609771"
+columns:
+  - name: "10022"
+    first_pair:
+      row_name: "50022"
+      value: 0.05
+    second_pair:
+      row_name: "51022"
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+

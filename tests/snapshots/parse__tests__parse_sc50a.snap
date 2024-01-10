@@ -1,0 +1,650 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/sc50a\"))?"
+---
+name: SC50A
+rows:
+  - row_type: Nr
+    row_name: MAXIM
+  - row_type: Leq
+    row_name: ROW00001
+  - row_type: Leq
+    row_name: ROW00002
+  - row_type: Leq
+    row_name: ROW00003
+  - row_type: Eq
+    row_name: ROW00004
+  - row_type: Eq
+    row_name: ROW00005
+  - row_type: Eq
+    row_name: ROW00006
+  - row_type: Eq
+    row_name: ROW00007
+  - row_type: Leq
+    row_name: ROW00008
+  - row_type: Leq
+    row_name: ROW00009
+  - row_type: Leq
+    row_name: ROW00010
+  - row_type: Leq
+    row_name: ROW00011
+  - row_type: Leq
+    row_name: ROW00012
+  - row_type: Leq
+    row_name: ROW00013
+  - row_type: Eq
+    row_name: ROW00014
+  - row_type: Eq
+    row_name: ROW00015
+  - row_type: Eq
+    row_name: ROW00016
+  - row_type: Eq
+    row_name: ROW00017
+  - row_type: Eq
+    row_name: ROW00018
+  - row_type: Leq
+    row_name: ROW00019
+  - row_type: Leq
+    row_name: ROW00020
+  - row_type: Leq
+    row_name: ROW00021
+  - row_type: Leq
+    row_name: ROW00022
+  - row_type: Leq
+    row_name: ROW00023
+  - row_type: Leq
+    row_name: ROW00024
+  - row_type: Eq
+    row_name: ROW00025
+  - row_type: Eq
+    row_name: ROW00026
+  - row_type: Eq
+    row_name: ROW00027
+  - row_type: Eq
+    row_name: ROW00028
+  - row_type: Eq
+    row_name: ROW00029
+  - row_type: Leq
+    row_name: ROW00030
+  - row_type: Leq
+    row_name: ROW00031
+  - row_type: Leq
+    row_name: ROW00032
+  - row_type: Leq
+    row_name: ROW00033
+  - row_type: Leq
+    row_name: ROW00034
+  - row_type: Leq
+    row_name: ROW00035
+  - row_type: Eq
+    row_name: ROW00036
+  - row_type: Eq
+    row_name: ROW00037
+  - row_type: Eq
+    row_name: ROW00038
+  - row_type: Eq
+    row_name: ROW00039
+  - row_type: Eq
+    row_name: ROW00040
+  - row_type: Leq
+    row_name: ROW00041
+  - row_type: Leq
+    row_name: ROW00042
+  - row_type: Leq
+    row_name: ROW00043
+  - row_type: Leq
+    row_name: ROW00044
+  - row_type: Leq
+    row_name: ROW00045
+  - row_type: Leq
+    row_name: ROW00046
+  - row_type: Eq
+    row_name: ROW00047
+  - row_type: Leq
+    row_name: ROW00048
+  - row_type: Leq
+    row_name: ROW00049
+  - row_type: Leq
+    row_name: ROW00050
+columns:
+  - name: COL00001
+    first_pair:
+      row_name: ROW00001
+      value: 2
+    second_pair:
+      row_name: ROW00002
+      value: 1
+  - name: COL00001
+    first_pair:
+      row_name: ROW00005
+      value: -1
+    second_pair: ~
+  - name: COL00002
+    first_pair:
+      row_name: ROW00001
+      value: 1
+    second_pair:
+      row_name: ROW00002
+      value: 2
+  - name: COL00002
+    first_pair:
+      row_name: ROW00006
+      value: -1
+    second_pair: ~
+  - name: COL00003
+    first_pair:
+      row_name: ROW00001
+      value: 1.5
+    second_pair:
+      row_name: ROW00002
+      value: 1.5
+  - name: COL00003
+    first_pair:
+      row_name: ROW00007
+      value: -1
+    second_pair: ~
+  - name: COL00004
+    first_pair:
+      row_name: MAXIM
+      value: -1
+    second_pair:
+      row_name: ROW00004
+      value: 1
+  - name: COL00004
+    first_pair:
+      row_name: ROW00014
+      value: 1.1
+    second_pair: ~
+  - name: COL00005
+    first_pair:
+      row_name: ROW00004
+      value: -1
+    second_pair:
+      row_name: ROW00013
+      value: 1
+  - name: COL00005
+    first_pair:
+      row_name: ROW00015
+      value: 1
+    second_pair: ~
+  - name: COL00006
+    first_pair:
+      row_name: ROW00005
+      value: 1
+    second_pair:
+      row_name: ROW00008
+      value: -1
+  - name: COL00006
+    first_pair:
+      row_name: ROW00016
+      value: -1
+    second_pair: ~
+  - name: COL00007
+    first_pair:
+      row_name: ROW00006
+      value: 1
+    second_pair:
+      row_name: ROW00009
+      value: -1
+  - name: COL00007
+    first_pair:
+      row_name: ROW00017
+      value: -1
+    second_pair: ~
+  - name: COL00008
+    first_pair:
+      row_name: ROW00007
+      value: 1
+    second_pair:
+      row_name: ROW00010
+      value: -1
+  - name: COL00008
+    first_pair:
+      row_name: ROW00018
+      value: -1
+    second_pair: ~
+  - name: COL00009
+    first_pair:
+      row_name: ROW00008
+      value: 1
+    second_pair:
+      row_name: ROW00011
+      value: -1
+  - name: COL00010
+    first_pair:
+      row_name: ROW00009
+      value: 1
+    second_pair:
+      row_name: ROW00012
+      value: -1
+  - name: COL00011
+    first_pair:
+      row_name: ROW00010
+      value: 1
+    second_pair:
+      row_name: ROW00013
+      value: -1
+  - name: COL00012
+    first_pair:
+      row_name: ROW00011
+      value: 2
+    second_pair:
+      row_name: ROW00012
+      value: 1
+  - name: COL00012
+    first_pair:
+      row_name: ROW00016
+      value: -1
+    second_pair: ~
+  - name: COL00013
+    first_pair:
+      row_name: ROW00011
+      value: 1
+    second_pair:
+      row_name: ROW00012
+      value: 2
+  - name: COL00013
+    first_pair:
+      row_name: ROW00017
+      value: -1
+    second_pair: ~
+  - name: COL00014
+    first_pair:
+      row_name: ROW00011
+      value: 1.5
+    second_pair:
+      row_name: ROW00012
+      value: 1.5
+  - name: COL00014
+    first_pair:
+      row_name: ROW00018
+      value: -1
+    second_pair: ~
+  - name: COL00015
+    first_pair:
+      row_name: ROW00014
+      value: -1
+    second_pair:
+      row_name: ROW00015
+      value: 1
+  - name: COL00015
+    first_pair:
+      row_name: ROW00025
+      value: 1.1
+    second_pair: ~
+  - name: COL00016
+    first_pair:
+      row_name: ROW00015
+      value: -1
+    second_pair:
+      row_name: ROW00024
+      value: 1
+  - name: COL00016
+    first_pair:
+      row_name: ROW00026
+      value: 1
+    second_pair: ~
+  - name: COL00017
+    first_pair:
+      row_name: ROW00016
+      value: 1
+    second_pair:
+      row_name: ROW00019
+      value: -1
+  - name: COL00017
+    first_pair:
+      row_name: ROW00027
+      value: -1
+    second_pair: ~
+  - name: COL00018
+    first_pair:
+      row_name: ROW00017
+      value: 1
+    second_pair:
+      row_name: ROW00020
+      value: -1
+  - name: COL00018
+    first_pair:
+      row_name: ROW00028
+      value: -1
+    second_pair: ~
+  - name: COL00019
+    first_pair:
+      row_name: ROW00018
+      value: 1
+    second_pair:
+      row_name: ROW00021
+      value: -1
+  - name: COL00019
+    first_pair:
+      row_name: ROW00029
+      value: -1
+    second_pair: ~
+  - name: COL00020
+    first_pair:
+      row_name: ROW00019
+      value: 1
+    second_pair:
+      row_name: ROW00022
+      value: -1
+  - name: COL00021
+    first_pair:
+      row_name: ROW00020
+      value: 1
+    second_pair:
+      row_name: ROW00023
+      value: -1
+  - name: COL00022
+    first_pair:
+      row_name: ROW00021
+      value: 1
+    second_pair:
+      row_name: ROW00024
+      value: -1
+  - name: COL00023
+    first_pair:
+      row_name: ROW00022
+      value: 2
+    second_pair:
+      row_name: ROW00023
+      value: 1
+  - name: COL00023
+    first_pair:
+      row_name: ROW00027
+      value: -1
+    second_pair: ~
+  - name: COL00024
+    first_pair:
+      row_name: ROW00022
+      value: 1
+    second_pair:
+      row_name: ROW00023
+      value: 2
+  - name: COL00024
+    first_pair:
+      row_name: ROW00028
+      value: -1
+    second_pair: ~
+  - name: COL00025
+    first_pair:
+      row_name: ROW00022
+      value: 1.5
+    second_pair:
+      row_name: ROW00023
+      value: 1.5
+  - name: COL00025
+    first_pair:
+      row_name: ROW00029
+      value: -1
+    second_pair: ~
+  - name: COL00026
+    first_pair:
+      row_name: ROW00025
+      value: -1
+    second_pair:
+      row_name: ROW00026
+      value: 1
+  - name: COL00026
+    first_pair:
+      row_name: ROW00036
+      value: 1.1
+    second_pair: ~
+  - name: COL00027
+    first_pair:
+      row_name: ROW00026
+      value: -1
+    second_pair:
+      row_name: ROW00035
+      value: 1
+  - name: COL00027
+    first_pair:
+      row_name: ROW00037
+      value: 1
+    second_pair: ~
+  - name: COL00028
+    first_pair:
+      row_name: ROW00027
+      value: 1
+    second_pair:
+      row_name: ROW00030
+      value: -1
+  - name: COL00028
+    first_pair:
+      row_name: ROW00038
+      value: -1
+    second_pair: ~
+  - name: COL00029
+    first_pair:
+      row_name: ROW00028
+      value: 1
+    second_pair:
+      row_name: ROW00031
+      value: -1
+  - name: COL00029
+    first_pair:
+      row_name: ROW00039
+      value: -1
+    second_pair: ~
+  - name: COL00030
+    first_pair:
+      row_name: ROW00029
+      value: 1
+    second_pair:
+      row_name: ROW00032
+      value: -1
+  - name: COL00030
+    first_pair:
+      row_name: ROW00040
+      value: -1
+    second_pair: ~
+  - name: COL00031
+    first_pair:
+      row_name: ROW00030
+      value: 1
+    second_pair:
+      row_name: ROW00033
+      value: -1
+  - name: COL00032
+    first_pair:
+      row_name: ROW00031
+      value: 1
+    second_pair:
+      row_name: ROW00034
+      value: -1
+  - name: COL00033
+    first_pair:
+      row_name: ROW00032
+      value: 1
+    second_pair:
+      row_name: ROW00035
+      value: -1
+  - name: COL00034
+    first_pair:
+      row_name: ROW00033
+      value: 2
+    second_pair:
+      row_name: ROW00034
+      value: 1
+  - name: COL00034
+    first_pair:
+      row_name: ROW00038
+      value: -1
+    second_pair: ~
+  - name: COL00035
+    first_pair:
+      row_name: ROW00033
+      value: 1
+    second_pair:
+      row_name: ROW00034
+      value: 2
+  - name: COL00035
+    first_pair:
+      row_name: ROW00039
+      value: -1
+    second_pair: ~
+  - name: COL00036
+    first_pair:
+      row_name: ROW00033
+      value: 1.5
+    second_pair:
+      row_name: ROW00034
+      value: 1.5
+  - name: COL00036
+    first_pair:
+      row_name: ROW00040
+      value: -1
+    second_pair: ~
+  - name: COL00037
+    first_pair:
+      row_name: ROW00036
+      value: -1
+    second_pair:
+      row_name: ROW00037
+      value: 1
+  - name: COL00037
+    first_pair:
+      row_name: ROW00047
+      value: 1.1
+    second_pair: ~
+  - name: COL00038
+    first_pair:
+      row_name: ROW00037
+      value: -1
+    second_pair:
+      row_name: ROW00046
+      value: 1
+  - name: COL00039
+    first_pair:
+      row_name: ROW00038
+      value: 1
+    second_pair:
+      row_name: ROW00041
+      value: -1
+  - name: COL00040
+    first_pair:
+      row_name: ROW00039
+      value: 1
+    second_pair:
+      row_name: ROW00042
+      value: -1
+  - name: COL00041
+    first_pair:
+      row_name: ROW00040
+      value: 1
+    second_pair:
+      row_name: ROW00043
+      value: -1
+  - name: COL00042
+    first_pair:
+      row_name: ROW00041
+      value: 1
+    second_pair:
+      row_name: ROW00044
+      value: -1
+  - name: COL00043
+    first_pair:
+      row_name: ROW00042
+      value: 1
+    second_pair:
+      row_name: ROW00045
+      value: -1
+  - name: COL00044
+    first_pair:
+      row_name: ROW00043
+      value: 1
+    second_pair:
+      row_name: ROW00046
+      value: -1
+  - name: COL00045
+    first_pair:
+      row_name: ROW00044
+      value: 2
+    second_pair:
+      row_name: ROW00045
+      value: 1
+  - name: COL00045
+    first_pair:
+      row_name: ROW00048
+      value: -0.8
+    second_pair:
+      row_name: ROW00049
+      value: 0.1
+  - name: COL00046
+    first_pair:
+      row_name: ROW00044
+      value: 1
+    second_pair:
+      row_name: ROW00045
+      value: 2
+  - name: COL00046
+    first_pair:
+      row_name: ROW00048
+      value: 0.1
+    second_pair:
+      row_name: ROW00049
+      value: -0.8
+  - name: COL00047
+    first_pair:
+      row_name: ROW00044
+      value: 1.5
+    second_pair:
+      row_name: ROW00045
+      value: 1.5
+  - name: COL00047
+    first_pair:
+      row_name: ROW00048
+      value: 0.15
+    second_pair:
+      row_name: ROW00049
+      value: 0.15
+  - name: COL00047
+    first_pair:
+      row_name: ROW00050
+      value: -1
+    second_pair: ~
+  - name: COL00048
+    first_pair:
+      row_name: ROW00047
+      value: -1
+    second_pair:
+      row_name: ROW00050
+      value: 1
+rhs:
+  - name: CONST
+    first_pair:
+      row_name: ROW00001
+      value: 170
+    second_pair:
+      row_name: ROW00002
+      value: 130
+  - name: CONST
+    first_pair:
+      row_name: ROW00011
+      value: 170
+    second_pair:
+      row_name: ROW00012
+      value: 130
+  - name: CONST
+    first_pair:
+      row_name: ROW00022
+      value: 170
+    second_pair:
+      row_name: ROW00023
+      value: 130
+  - name: CONST
+    first_pair:
+      row_name: ROW00033
+      value: 170
+    second_pair:
+      row_name: ROW00034
+      value: 130
+  - name: CONST
+    first_pair:
+      row_name: ROW00044
+      value: 170
+    second_pair:
+      row_name: ROW00045
+      value: 130
+ranges: ~
+bounds: ~
+

@@ -1,0 +1,1099 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/shell\"))?"
+---
+name: SHELL
+rows:
+  - row_type: Leq
+    row_name: "3001"
+  - row_type: Leq
+    row_name: "3002"
+  - row_type: Eq
+    row_name: "3003"
+  - row_type: Eq
+    row_name: "3004"
+  - row_type: Eq
+    row_name: "3005"
+  - row_type: Eq
+    row_name: "3006"
+  - row_type: Eq
+    row_name: "3007"
+  - row_type: Eq
+    row_name: "3008"
+  - row_type: Eq
+    row_name: "3009"
+  - row_type: Eq
+    row_name: "3010"
+  - row_type: Eq
+    row_name: "3011"
+  - row_type: Eq
+    row_name: "3012"
+  - row_type: Eq
+    row_name: "3013"
+  - row_type: Eq
+    row_name: "3014"
+  - row_type: Eq
+    row_name: "3015"
+  - row_type: Eq
+    row_name: "3016"
+  - row_type: Eq
+    row_name: "3017"
+  - row_type: Eq
+    row_name: "3018"
+  - row_type: Eq
+    row_name: "3019"
+  - row_type: Eq
+    row_name: "3020"
+  - row_type: Eq
+    row_name: "3021"
+  - row_type: Eq
+    row_name: "3022"
+  - row_type: Eq
+    row_name: "3023"
+  - row_type: Eq
+    row_name: "3024"
+  - row_type: Eq
+    row_name: "3025"
+  - row_type: Eq
+    row_name: "3026"
+  - row_type: Eq
+    row_name: "3027"
+  - row_type: Eq
+    row_name: "3028"
+  - row_type: Eq
+    row_name: "3029"
+  - row_type: Eq
+    row_name: "3030"
+  - row_type: Eq
+    row_name: "3031"
+  - row_type: Eq
+    row_name: "3032"
+  - row_type: Eq
+    row_name: "3033"
+  - row_type: Eq
+    row_name: "3034"
+  - row_type: Eq
+    row_name: "3035"
+  - row_type: Eq
+    row_name: "3036"
+  - row_type: Eq
+    row_name: "3037"
+  - row_type: Eq
+    row_name: "3038"
+  - row_type: Eq
+    row_name: "3039"
+  - row_type: Eq
+    row_name: "3040"
+  - row_type: Eq
+    row_name: "3041"
+  - row_type: Eq
+    row_name: "3042"
+  - row_type: Eq
+    row_name: "3043"
+  - row_type: Eq
+    row_name: "3044"
+  - row_type: Eq
+    row_name: "3045"
+  - row_type: Eq
+    row_name: "3046"
+  - row_type: Eq
+    row_name: "3047"
+  - row_type: Eq
+    row_name: "3048"
+  - row_type: Eq
+    row_name: "3049"
+  - row_type: Eq
+    row_name: "3050"
+  - row_type: Eq
+    row_name: "3051"
+  - row_type: Eq
+    row_name: "3052"
+  - row_type: Eq
+    row_name: "3053"
+  - row_type: Eq
+    row_name: "3054"
+  - row_type: Eq
+    row_name: "3055"
+  - row_type: Eq
+    row_name: "3056"
+  - row_type: Eq
+    row_name: "3057"
+  - row_type: Eq
+    row_name: "3058"
+  - row_type: Eq
+    row_name: "3059"
+  - row_type: Eq
+    row_name: "3060"
+  - row_type: Eq
+    row_name: "3061"
+  - row_type: Eq
+    row_name: "3062"
+  - row_type: Eq
+    row_name: "3063"
+  - row_type: Eq
+    row_name: "3064"
+  - row_type: Eq
+    row_name: "3065"
+  - row_type: Eq
+    row_name: "3066"
+  - row_type: Eq
+    row_name: "3067"
+  - row_type: Eq
+    row_name: "3068"
+  - row_type: Eq
+    row_name: "3069"
+  - row_type: Eq
+    row_name: "3070"
+  - row_type: Eq
+    row_name: "3071"
+  - row_type: Eq
+    row_name: "3072"
+  - row_type: Eq
+    row_name: "3073"
+  - row_type: Eq
+    row_name: "3074"
+  - row_type: Eq
+    row_name: "3075"
+  - row_type: Eq
+    row_name: "3076"
+  - row_type: Eq
+    row_name: "3077"
+  - row_type: Eq
+    row_name: "3078"
+  - row_type: Eq
+    row_name: "3079"
+  - row_type: Eq
+    row_name: "3080"
+  - row_type: Eq
+    row_name: "3081"
+  - row_type: Eq
+    row_name: "3082"
+  - row_type: Eq
+    row_name: "3083"
+  - row_type: Eq
+    row_name: "3084"
+  - row_type: Eq
+    row_name: "3085"
+  - row_type: Eq
+    row_name: "3086"
+  - row_type: Eq
+    row_name: "3087"
+  - row_type: Eq
+    row_name: "3088"
+  - row_type: Eq
+    row_name: "3089"
+  - row_type: Eq
+    row_name: "3090"
+  - row_type: Eq
+    row_name: "3091"
+  - row_type: Eq
+    row_name: "3092"
+  - row_type: Eq
+    row_name: "3093"
+  - row_type: Eq
+    row_name: "3094"
+  - row_type: Eq
+    row_name: "3095"
+  - row_type: Eq
+    row_name: "3096"
+  - row_type: Eq
+    row_name: "3097"
+  - row_type: Eq
+    row_name: "3098"
+  - row_type: Eq
+    row_name: "3099"
+  - row_type: Eq
+    row_name: "3100"
+  - row_type: Eq
+    row_name: "3101"
+  - row_type: Eq
+    row_name: "3102"
+  - row_type: Eq
+    row_name: "3103"
+  - row_type: Eq
+    row_name: "3104"
+  - row_type: Eq
+    row_name: "3105"
+  - row_type: Eq
+    row_name: "3106"
+  - row_type: Eq
+    row_name: "3107"
+  - row_type: Eq
+    row_name: "3108"
+  - row_type: Eq
+    row_name: "3109"
+  - row_type: Eq
+    row_name: "3110"
+  - row_type: Eq
+    row_name: "3111"
+  - row_type: Eq
+    row_name: "3112"
+  - row_type: Eq
+    row_name: "3113"
+  - row_type: Eq
+    row_name: "3114"
+  - row_type: Eq
+    row_name: "3115"
+  - row_type: Eq
+    row_name: "3116"
+  - row_type: Eq
+    row_name: "3117"
+  - row_type: Eq
+    row_name: "3118"
+  - row_type: Eq
+    row_name: "3119"
+  - row_type: Eq
+    row_name: "3120"
+  - row_type: Eq
+    row_name: "3121"
+  - row_type: Eq
+    row_name: "3122"
+  - row_type: Eq
+    row_name: "3123"
+  - row_type: Eq
+    row_name: "3124"
+  - row_type: Eq
+    row_name: "3125"
+  - row_type: Eq
+    row_name: "3126"
+  - row_type: Eq
+    row_name: "3127"
+  - row_type: Eq
+    row_name: "3128"
+  - row_type: Eq
+    row_name: "3129"
+  - row_type: Eq
+    row_name: "3130"
+  - row_type: Eq
+    row_name: "3131"
+  - row_type: Eq
+    row_name: "3132"
+  - row_type: Eq
+    row_name: "3133"
+  - row_type: Eq
+    row_name: "3134"
+  - row_type: Eq
+    row_name: "3135"
+  - row_type: Eq
+    row_name: "3136"
+  - row_type: Eq
+    row_name: "3137"
+  - row_type: Eq
+    row_name: "3138"
+  - row_type: Eq
+    row_name: "3139"
+  - row_type: Eq
+    row_name: "3140"
+  - row_type: Eq
+    row_name: "3141"
+  - row_type: Eq
+    row_name: "3142"
+  - row_type: Eq
+    row_name: "3143"
+  - row_type: Eq
+    row_name: "3144"
+  - row_type: Eq
+    row_name: "3145"
+  - row_type: Eq
+    row_name: "3146"
+  - row_type: Eq
+    row_name: "3147"
+  - row_type: Eq
+    row_name: "3148"
+  - row_type: Eq
+    row_name: "3149"
+  - row_type: Eq
+    row_name: "3150"
+  - row_type: Eq
+    row_name: "3151"
+  - row_type: Eq
+    row_name: "3152"
+  - row_type: Eq
+    row_name: "3153"
+  - row_type: Eq
+    row_name: "3154"
+  - row_type: Eq
+    row_name: "3155"
+  - row_type: Eq
+    row_name: "3156"
+  - row_type: Eq
+    row_name: "3157"
+  - row_type: Eq
+    row_name: "3158"
+  - row_type: Eq
+    row_name: "3159"
+  - row_type: Eq
+    row_name: "3160"
+  - row_type: Eq
+    row_name: "3161"
+  - row_type: Eq
+    row_name: "3162"
+  - row_type: Eq
+    row_name: "3163"
+  - row_type: Eq
+    row_name: "3164"
+  - row_type: Eq
+    row_name: "3165"
+  - row_type: Eq
+    row_name: "3166"
+  - row_type: Eq
+    row_name: "3167"
+  - row_type: Eq
+    row_name: "3168"
+  - row_type: Eq
+    row_name: "3169"
+  - row_type: Eq
+    row_name: "3170"
+  - row_type: Eq
+    row_name: "3171"
+  - row_type: Eq
+    row_name: "3172"
+  - row_type: Eq
+    row_name: "3173"
+  - row_type: Eq
+    row_name: "3174"
+  - row_type: Eq
+    row_name: "3175"
+  - row_type: Eq
+    row_name: "3176"
+  - row_type: Eq
+    row_name: "3177"
+  - row_type: Eq
+    row_name: "3178"
+  - row_type: Eq
+    row_name: "3179"
+  - row_type: Eq
+    row_name: "3180"
+  - row_type: Eq
+    row_name: "3181"
+  - row_type: Eq
+    row_name: "3182"
+  - row_type: Eq
+    row_name: "3183"
+  - row_type: Eq
+    row_name: "3184"
+  - row_type: Eq
+    row_name: "3185"
+  - row_type: Eq
+    row_name: "3186"
+  - row_type: Eq
+    row_name: "3187"
+  - row_type: Eq
+    row_name: "3188"
+  - row_type: Eq
+    row_name: "3189"
+  - row_type: Eq
+    row_name: "3190"
+  - row_type: Eq
+    row_name: "3191"
+  - row_type: Eq
+    row_name: "3192"
+  - row_type: Eq
+    row_name: "3193"
+  - row_type: Eq
+    row_name: "3194"
+  - row_type: Eq
+    row_name: "3195"
+  - row_type: Eq
+    row_name: "3196"
+  - row_type: Eq
+    row_name: "3197"
+  - row_type: Eq
+    row_name: "3198"
+  - row_type: Eq
+    row_name: "3199"
+  - row_type: Eq
+    row_name: "3200"
+  - row_type: Eq
+    row_name: "3201"
+  - row_type: Eq
+    row_name: "3202"
+  - row_type: Eq
+    row_name: "3203"
+  - row_type: Eq
+    row_name: "3204"
+  - row_type: Eq
+    row_name: "3205"
+  - row_type: Eq
+    row_name: "3206"
+  - row_type: Eq
+    row_name: "3207"
+  - row_type: Eq
+    row_name: "3208"
+  - row_type: Eq
+    row_name: "3209"
+  - row_type: Eq
+    row_name: "3210"
+  - row_type: Eq
+    row_name: "3211"
+  - row_type: Eq
+    row_name: "3212"
+  - row_type: Eq
+    row_name: "3213"
+  - row_type: Eq
+    row_name: "3214"
+  - row_type: Eq
+    row_name: "3215"
+  - row_type: Eq
+    row_name: "3216"
+  - row_type: Eq
+    row_name: "3217"
+  - row_type: Eq
+    row_name: "3218"
+  - row_type: Eq
+    row_name: "3219"
+  - row_type: Eq
+    row_name: "3220"
+  - row_type: Eq
+    row_name: "3221"
+  - row_type: Eq
+    row_name: "3222"
+  - row_type: Eq
+    row_name: "3223"
+  - row_type: Eq
+    row_name: "3224"
+  - row_type: Eq
+    row_name: "3225"
+  - row_type: Eq
+    row_name: "3226"
+  - row_type: Eq
+    row_name: "3227"
+  - row_type: Eq
+    row_name: "3228"
+  - row_type: Eq
+    row_name: "3229"
+  - row_type: Eq
+    row_name: "3230"
+  - row_type: Eq
+    row_name: "3231"
+  - row_type: Eq
+    row_name: "3232"
+  - row_type: Eq
+    row_name: "3233"
+  - row_type: Eq
+    row_name: "3234"
+  - row_type: Eq
+    row_name: "3235"
+  - row_type: Eq
+    row_name: "3236"
+  - row_type: Eq
+    row_name: "3237"
+  - row_type: Eq
+    row_name: "3238"
+  - row_type: Eq
+    row_name: "3239"
+  - row_type: Eq
+    row_name: "3240"
+  - row_type: Eq
+    row_name: "3241"
+  - row_type: Eq
+    row_name: "3242"
+  - row_type: Eq
+    row_name: "3243"
+  - row_type: Eq
+    row_name: "3244"
+  - row_type: Eq
+    row_name: "3245"
+  - row_type: Eq
+    row_name: "3246"
+  - row_type: Eq
+    row_name: "3247"
+  - row_type: Eq
+    row_name: "3248"
+  - row_type: Eq
+    row_name: "3249"
+  - row_type: Eq
+    row_name: "3250"
+  - row_type: Eq
+    row_name: "3251"
+  - row_type: Eq
+    row_name: "3252"
+  - row_type: Eq
+    row_name: "3253"
+  - row_type: Eq
+    row_name: "3254"
+  - row_type: Eq
+    row_name: "3255"
+  - row_type: Eq
+    row_name: "3256"
+  - row_type: Eq
+    row_name: "3257"
+  - row_type: Eq
+    row_name: "3258"
+  - row_type: Eq
+    row_name: "3259"
+  - row_type: Eq
+    row_name: "3260"
+  - row_type: Eq
+    row_name: "3261"
+  - row_type: Eq
+    row_name: "3262"
+  - row_type: Eq
+    row_name: "3263"
+  - row_type: Eq
+    row_name: "3264"
+  - row_type: Eq
+    row_name: "3265"
+  - row_type: Eq
+    row_name: "3266"
+  - row_type: Eq
+    row_name: "3267"
+  - row_type: Eq
+    row_name: "3268"
+  - row_type: Eq
+    row_name: "3269"
+  - row_type: Eq
+    row_name: "3270"
+  - row_type: Eq
+    row_name: "3271"
+  - row_type: Eq
+    row_name: "3272"
+  - row_type: Eq
+    row_name: "3273"
+  - row_type: Eq
+    row_name: "3274"
+  - row_type: Eq
+    row_name: "3275"
+  - row_type: Eq
+    row_name: "3276"
+  - row_type: Eq
+    row_name: "3277"
+  - row_type: Eq
+    row_name: "3278"
+  - row_type: Eq
+    row_name: "3279"
+  - row_type: Eq
+    row_name: "3280"
+  - row_type: Eq
+    row_name: "3281"
+  - row_type: Eq
+    row_name: "3282"
+  - row_type: Eq
+    row_name: "3283"
+  - row_type: Eq
+    row_name: "3284"
+  - row_type: Eq
+    row_name: "3285"
+  - row_type: Eq
+    row_name: "3286"
+  - row_type: Eq
+    row_name: "3287"
+  - row_type: Eq
+    row_name: "3288"
+  - row_type: Eq
+    row_name: "3289"
+  - row_type: Eq
+    row_name: "3290"
+  - row_type: Eq
+    row_name: "3291"
+  - row_type: Eq
+    row_name: "3292"
+  - row_type: Eq
+    row_name: "3293"
+  - row_type: Eq
+    row_name: "3294"
+  - row_type: Eq
+    row_name: "3295"
+  - row_type: Eq
+    row_name: "3296"
+  - row_type: Eq
+    row_name: "3297"
+  - row_type: Eq
+    row_name: "3298"
+  - row_type: Eq
+    row_name: "3299"
+  - row_type: Eq
+    row_name: "3300"
+  - row_type: Eq
+    row_name: "3301"
+  - row_type: Eq
+    row_name: "3302"
+  - row_type: Eq
+    row_name: "3303"
+  - row_type: Eq
+    row_name: "3304"
+  - row_type: Eq
+    row_name: "3305"
+  - row_type: Eq
+    row_name: "3306"
+  - row_type: Eq
+    row_name: "3307"
+  - row_type: Eq
+    row_name: "3308"
+  - row_type: Eq
+    row_name: "3309"
+  - row_type: Eq
+    row_name: "3310"
+  - row_type: Eq
+    row_name: "3311"
+  - row_type: Eq
+    row_name: "3312"
+  - row_type: Eq
+    row_name: "3313"
+  - row_type: Eq
+    row_name: "3314"
+  - row_type: Eq
+    row_name: "3315"
+  - row_type: Eq
+    row_name: "3316"
+  - row_type: Eq
+    row_name: "3317"
+  - row_type: Eq
+    row_name: "3318"
+  - row_type: Eq
+    row_name: "3319"
+  - row_type: Eq
+    row_name: "3320"
+  - row_type: Eq
+    row_name: "3321"
+  - row_type: Eq
+    row_name: "3322"
+  - row_type: Eq
+    row_name: "3323"
+  - row_type: Eq
+    row_name: "3324"
+  - row_type: Eq
+    row_name: "3325"
+  - row_type: Eq
+    row_name: "3326"
+  - row_type: Eq
+    row_name: "3327"
+  - row_type: Eq
+    row_name: "3328"
+  - row_type: Eq
+    row_name: "3329"
+  - row_type: Eq
+    row_name: "3330"
+  - row_type: Eq
+    row_name: "3331"
+  - row_type: Eq
+    row_name: "3332"
+  - row_type: Eq
+    row_name: "3333"
+  - row_type: Eq
+    row_name: "3334"
+  - row_type: Eq
+    row_name: "3335"
+  - row_type: Eq
+    row_name: "3336"
+  - row_type: Eq
+    row_name: "3337"
+  - row_type: Eq
+    row_name: "3338"
+  - row_type: Eq
+    row_name: "3339"
+  - row_type: Eq
+    row_name: "3340"
+  - row_type: Eq
+    row_name: "3341"
+  - row_type: Eq
+    row_name: "3342"
+  - row_type: Eq
+    row_name: "3343"
+  - row_type: Eq
+    row_name: "3344"
+  - row_type: Eq
+    row_name: "3345"
+  - row_type: Eq
+    row_name: "3346"
+  - row_type: Eq
+    row_name: "3347"
+  - row_type: Eq
+    row_name: "3348"
+  - row_type: Eq
+    row_name: "3349"
+  - row_type: Eq
+    row_name: "3350"
+  - row_type: Eq
+    row_name: "3351"
+  - row_type: Eq
+    row_name: "3352"
+  - row_type: Eq
+    row_name: "3353"
+  - row_type: Eq
+    row_name: "3354"
+  - row_type: Eq
+    row_name: "3355"
+  - row_type: Eq
+    row_name: "3356"
+  - row_type: Eq
+    row_name: "3357"
+  - row_type: Eq
+    row_name: "3358"
+  - row_type: Eq
+    row_name: "3359"
+  - row_type: Eq
+    row_name: "3360"
+  - row_type: Eq
+    row_name: "3361"
+  - row_type: Eq
+    row_name: "3362"
+  - row_type: Eq
+    row_name: "3363"
+  - row_type: Eq
+    row_name: "3364"
+  - row_type: Eq
+    row_name: "3365"
+  - row_type: Eq
+    row_name: "3366"
+  - row_type: Eq
+    row_name: "3367"
+  - row_type: Eq
+    row_name: "3368"
+  - row_type: Eq
+    row_name: "3369"
+  - row_type: Eq
+    row_name: "3370"
+  - row_type: Eq
+    row_name: "3371"
+  - row_type: Eq
+    row_name: "3372"
+  - row_type: Eq
+    row_name: "3373"
+  - row_type: Eq
+    row_name: "3374"
+  - row_type: Eq
+    row_name: "3375"
+  - row_type: Eq
+    row_name: "3376"
+  - row_type: Eq
+    row_name: "3377"
+  - row_type: Eq
+    row_name: "3378"
+  - row_type: Eq
+    row_name: "3379"
+  - row_type: Eq
+    row_name: "3380"
+  - row_type: Eq
+    row_name: "3381"
+  - row_type: Eq
+    row_name: "3382"
+  - row_type: Eq
+    row_name: "3383"
+  - row_type: Eq
+    row_name: "3384"
+  - row_type: Eq
+    row_name: "3385"
+  - row_type: Eq
+    row_name: "3386"
+  - row_type: Eq
+    row_name: "3387"
+  - row_type: Eq
+    row_name: "3388"
+  - row_type: Eq
+    row_name: "3389"
+  - row_type: Eq
+    row_name: "3390"
+  - row_type: Eq
+    row_name: "3391"
+  - row_type: Eq
+    row_name: "3392"
+  - row_type: Eq
+    row_name: "3393"
+  - row_type: Eq
+    row_name: "3394"
+  - row_type: Eq
+    row_name: "3395"
+  - row_type: Eq
+    row_name: "3396"
+  - row_type: Eq
+    row_name: "3397"
+  - row_type: Eq
+    row_name: "3398"
+  - row_type: Eq
+    row_name: "3399"
+  - row_type: Eq
+    row_name: "3400"
+  - row_type: Eq
+    row_name: "3401"
+  - row_type: Eq
+    row_name: "3402"
+  - row_type: Eq
+    row_name: "3403"
+  - row_type: Eq
+    row_name: "3404"
+  - row_type: Eq
+    row_name: "3405"
+  - row_type: Eq
+    row_name: "3406"
+  - row_type: Eq
+    row_name: "3407"
+  - row_type: Eq
+    row_name: "3408"
+  - row_type: Eq
+    row_name: "3409"
+  - row_type: Eq
+    row_name: "3410"
+  - row_type: Eq
+    row_name: "3411"
+  - row_type: Eq
+    row_name: "3412"
+  - row_type: Eq
+    row_name: "3413"
+  - row_type: Eq
+    row_name: "3414"
+  - row_type: Eq
+    row_name: "3415"
+  - row_type: Eq
+    row_name: "3416"
+  - row_type: Eq
+    row_name: "3417"
+  - row_type: Eq
+    row_name: "3418"
+  - row_type: Eq
+    row_name: "3419"
+  - row_type: Eq
+    row_name: "3420"
+  - row_type: Eq
+    row_name: "3421"
+  - row_type: Eq
+    row_name: "3422"
+  - row_type: Eq
+    row_name: "3423"
+  - row_type: Eq
+    row_name: "3424"
+  - row_type: Eq
+    row_name: "3425"
+  - row_type: Eq
+    row_name: "3426"
+  - row_type: Eq
+    row_name: "3427"
+  - row_type: Eq
+    row_name: "3428"
+  - row_type: Eq
+    row_name: "3429"
+  - row_type: Eq
+    row_name: "3430"
+  - row_type: Eq
+    row_name: "3431"
+  - row_type: Eq
+    row_name: "3432"
+  - row_type: Eq
+    row_name: "3433"
+  - row_type: Eq
+    row_name: "3434"
+  - row_type: Eq
+    row_name: "3435"
+  - row_type: Eq
+    row_name: "3436"
+  - row_type: Eq
+    row_name: "3437"
+  - row_type: Eq
+    row_name: "3438"
+  - row_type: Eq
+    row_name: "3439"
+  - row_type: Eq
+    row_name: "3440"
+  - row_type: Eq
+    row_name: "3441"
+  - row_type: Eq
+    row_name: "3442"
+  - row_type: Eq
+    row_name: "3443"
+  - row_type: Eq
+    row_name: "3444"
+  - row_type: Eq
+    row_name: "3445"
+  - row_type: Eq
+    row_name: "3446"
+  - row_type: Eq
+    row_name: "3447"
+  - row_type: Eq
+    row_name: "3448"
+  - row_type: Eq
+    row_name: "3449"
+  - row_type: Eq
+    row_name: "3450"
+  - row_type: Eq
+    row_name: "3451"
+  - row_type: Eq
+    row_name: "3452"
+  - row_type: Eq
+    row_name: "3453"
+  - row_type: Eq
+    row_name: "3454"
+  - row_type: Eq
+    row_name: "3455"
+  - row_type: Eq
+    row_name: "3456"
+  - row_type: Eq
+    row_name: "3457"
+  - row_type: Eq
+    row_name: "3458"
+  - row_type: Eq
+    row_name: "3459"
+  - row_type: Eq
+    row_name: "3460"
+  - row_type: Eq
+    row_name: "3461"
+  - row_type: Eq
+    row_name: "3462"
+  - row_type: Eq
+    row_name: "3463"
+  - row_type: Eq
+    row_name: "3464"
+  - row_type: Eq
+    row_name: "3465"
+  - row_type: Eq
+    row_name: "3466"
+  - row_type: Eq
+    row_name: "3467"
+  - row_type: Eq
+    row_name: "3468"
+  - row_type: Eq
+    row_name: "3469"
+  - row_type: Eq
+    row_name: "3470"
+  - row_type: Eq
+    row_name: "3471"
+  - row_type: Eq
+    row_name: "3472"
+  - row_type: Eq
+    row_name: "3473"
+  - row_type: Eq
+    row_name: "3474"
+  - row_type: Eq
+    row_name: "3475"
+  - row_type: Eq
+    row_name: "3476"
+  - row_type: Eq
+    row_name: "3477"
+  - row_type: Eq
+    row_name: "3478"
+  - row_type: Eq
+    row_name: "3479"
+  - row_type: Eq
+    row_name: "3480"
+  - row_type: Eq
+    row_name: "3481"
+  - row_type: Eq
+    row_name: "3482"
+  - row_type: Eq
+    row_name: "3483"
+  - row_type: Eq
+    row_name: "3484"
+  - row_type: Eq
+    row_name: "3485"
+  - row_type: Eq
+    row_name: "3486"
+  - row_type: Eq
+    row_name: "3487"
+  - row_type: Eq
+    row_name: "3488"
+  - row_type: Eq
+    row_name: "3489"
+  - row_type: Eq
+    row_name: "3490"
+  - row_type: Eq
+    row_name: "3491"
+  - row_type: Eq
+    row_name: "3492"
+  - row_type: Eq
+    row_name: "3493"
+  - row_type: Eq
+    row_name: "3494"
+  - row_type: Eq
+    row_name: "3495"
+  - row_type: Eq
+    row_name: "3496"
+  - row_type: Eq
+    row_name: "3497"
+  - row_type: Eq
+    row_name: "3498"
+  - row_type: Eq
+    row_name: "3499"
+  - row_type: Eq
+    row_name: "3500"
+  - row_type: Eq
+    row_name: "3501"
+  - row_type: Eq
+    row_name: "3502"
+  - row_type: Eq
+    row_name: "3503"
+  - row_type: Eq
+    row_name: "3504"
+  - row_type: Eq
+    row_name: "3505"
+  - row_type: Eq
+    row_name: "3506"
+  - row_type: Eq
+    row_name: "3507"
+  - row_type: Eq
+    row_name: "3508"
+  - row_type: Eq
+    row_name: "3509"
+  - row_type: Eq
+    row_name: "3510"
+  - row_type: Eq
+    row_name: "3511"
+  - row_type: Eq
+    row_name: "3512"
+  - row_type: Eq
+    row_name: "3513"
+  - row_type: Eq
+    row_name: "3514"
+  - row_type: Eq
+    row_name: "3515"
+  - row_type: Eq
+    row_name: "3516"
+  - row_type: Eq
+    row_name: "3517"
+  - row_type: Eq
+    row_name: "3518"
+  - row_type: Eq
+    row_name: "3519"
+  - row_type: Eq
+    row_name: "3520"
+  - row_type: Eq
+    row_name: "3521"
+  - row_type: Eq
+    row_name: "3522"
+  - row_type: Eq
+    row_name: "3523"
+  - row_type: Eq
+    row_name: "3524"
+  - row_type: Eq
+    row_name: "3525"
+  - row_type: Eq
+    row_name: "3526"
+  - row_type: Eq
+    row_name: "3527"
+  - row_type: Eq
+    row_name: "3528"
+  - row_type: Eq
+    row_name: "3529"
+  - row_type: Eq
+    row_name: "3530"
+  - row_type: Eq
+    row_name: "3531"
+  - row_type: Eq
+    row_name: "3532"
+  - row_type: Eq
+    row_name: "3533"
+  - row_type: Eq
+    row_name: "3534"
+  - row_type: Eq
+    row_name: "3535"
+  - row_type: Eq
+    row_name: "3536"
+  - row_type: Nr
+    row_name: "3537"
+columns:
+  - name: C10010
+    first_pair:
+      row_name: "3003"
+      value: -1
+    second_pair:
+      row_name: "3008"
+      value: 1
+  - name: C10020
+    first_pair:
+      row_name: "3008"
+      value: -1
+    second_pair:
+      row_name: "3014"
+      value: 1
+rhs: ~
+ranges: ~
+bounds: ~
+

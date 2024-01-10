@@ -1,0 +1,382 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/lotfi\"))?"
+---
+name: LOTFI
+rows:
+  - row_type: Nr
+    row_name: "1"
+  - row_type: Eq
+    row_name: "2"
+  - row_type: Eq
+    row_name: "3"
+  - row_type: Eq
+    row_name: "4"
+  - row_type: Eq
+    row_name: "5"
+  - row_type: Eq
+    row_name: "6"
+  - row_type: Eq
+    row_name: "7"
+  - row_type: Eq
+    row_name: "8"
+  - row_type: Eq
+    row_name: "9"
+  - row_type: Eq
+    row_name: "10"
+  - row_type: Eq
+    row_name: "11"
+  - row_type: Eq
+    row_name: "12"
+  - row_type: Eq
+    row_name: "13"
+  - row_type: Eq
+    row_name: "14"
+  - row_type: Eq
+    row_name: "15"
+  - row_type: Eq
+    row_name: "16"
+  - row_type: Eq
+    row_name: "17"
+  - row_type: Eq
+    row_name: "18"
+  - row_type: Eq
+    row_name: "19"
+  - row_type: Eq
+    row_name: "20"
+  - row_type: Eq
+    row_name: "21"
+  - row_type: Eq
+    row_name: "22"
+  - row_type: Eq
+    row_name: "23"
+  - row_type: Eq
+    row_name: "24"
+  - row_type: Eq
+    row_name: "25"
+  - row_type: Eq
+    row_name: "26"
+  - row_type: Eq
+    row_name: "27"
+  - row_type: Eq
+    row_name: "28"
+  - row_type: Eq
+    row_name: "29"
+  - row_type: Eq
+    row_name: "30"
+  - row_type: Eq
+    row_name: "31"
+  - row_type: Eq
+    row_name: "32"
+  - row_type: Eq
+    row_name: "33"
+  - row_type: Eq
+    row_name: "34"
+  - row_type: Eq
+    row_name: "35"
+  - row_type: Eq
+    row_name: "36"
+  - row_type: Eq
+    row_name: "37"
+  - row_type: Eq
+    row_name: "38"
+  - row_type: Eq
+    row_name: "39"
+  - row_type: Eq
+    row_name: "40"
+  - row_type: Eq
+    row_name: "41"
+  - row_type: Eq
+    row_name: "42"
+  - row_type: Eq
+    row_name: "43"
+  - row_type: Eq
+    row_name: "44"
+  - row_type: Eq
+    row_name: "45"
+  - row_type: Eq
+    row_name: "46"
+  - row_type: Eq
+    row_name: "47"
+  - row_type: Eq
+    row_name: "48"
+  - row_type: Eq
+    row_name: "49"
+  - row_type: Eq
+    row_name: "50"
+  - row_type: Eq
+    row_name: "51"
+  - row_type: Eq
+    row_name: "52"
+  - row_type: Eq
+    row_name: "53"
+  - row_type: Eq
+    row_name: "54"
+  - row_type: Eq
+    row_name: "55"
+  - row_type: Eq
+    row_name: "56"
+  - row_type: Eq
+    row_name: "57"
+  - row_type: Eq
+    row_name: "58"
+  - row_type: Eq
+    row_name: "59"
+  - row_type: Eq
+    row_name: "60"
+  - row_type: Eq
+    row_name: "61"
+  - row_type: Eq
+    row_name: "62"
+  - row_type: Eq
+    row_name: "63"
+  - row_type: Eq
+    row_name: "64"
+  - row_type: Eq
+    row_name: "65"
+  - row_type: Eq
+    row_name: "66"
+  - row_type: Eq
+    row_name: "67"
+  - row_type: Eq
+    row_name: "68"
+  - row_type: Eq
+    row_name: "69"
+  - row_type: Eq
+    row_name: "70"
+  - row_type: Eq
+    row_name: "71"
+  - row_type: Eq
+    row_name: "72"
+  - row_type: Eq
+    row_name: "73"
+  - row_type: Eq
+    row_name: "74"
+  - row_type: Eq
+    row_name: "75"
+  - row_type: Eq
+    row_name: "76"
+  - row_type: Eq
+    row_name: "77"
+  - row_type: Eq
+    row_name: "78"
+  - row_type: Eq
+    row_name: "79"
+  - row_type: Geq
+    row_name: "80"
+  - row_type: Geq
+    row_name: "81"
+  - row_type: Geq
+    row_name: "82"
+  - row_type: Geq
+    row_name: "83"
+  - row_type: Geq
+    row_name: "84"
+  - row_type: Geq
+    row_name: "85"
+  - row_type: Geq
+    row_name: "86"
+  - row_type: Geq
+    row_name: "87"
+  - row_type: Geq
+    row_name: "88"
+  - row_type: Geq
+    row_name: "89"
+  - row_type: Geq
+    row_name: "90"
+  - row_type: Geq
+    row_name: "91"
+  - row_type: Geq
+    row_name: "92"
+  - row_type: Geq
+    row_name: "93"
+  - row_type: Geq
+    row_name: "94"
+  - row_type: Geq
+    row_name: "95"
+  - row_type: Leq
+    row_name: "96"
+  - row_type: Leq
+    row_name: "97"
+  - row_type: Leq
+    row_name: "98"
+  - row_type: Leq
+    row_name: "99"
+  - row_type: Leq
+    row_name: "100"
+  - row_type: Leq
+    row_name: "101"
+  - row_type: Leq
+    row_name: "102"
+  - row_type: Leq
+    row_name: "103"
+  - row_type: Leq
+    row_name: "104"
+  - row_type: Leq
+    row_name: "105"
+  - row_type: Leq
+    row_name: "106"
+  - row_type: Leq
+    row_name: "107"
+  - row_type: Leq
+    row_name: "108"
+  - row_type: Leq
+    row_name: "109"
+  - row_type: Leq
+    row_name: "110"
+  - row_type: Leq
+    row_name: "111"
+  - row_type: Leq
+    row_name: "112"
+  - row_type: Leq
+    row_name: "113"
+  - row_type: Leq
+    row_name: "114"
+  - row_type: Leq
+    row_name: "115"
+  - row_type: Leq
+    row_name: "116"
+  - row_type: Leq
+    row_name: "117"
+  - row_type: Leq
+    row_name: "118"
+  - row_type: Leq
+    row_name: "119"
+  - row_type: Leq
+    row_name: "120"
+  - row_type: Leq
+    row_name: "121"
+  - row_type: Leq
+    row_name: "122"
+  - row_type: Leq
+    row_name: "123"
+  - row_type: Leq
+    row_name: "124"
+  - row_type: Leq
+    row_name: "125"
+  - row_type: Leq
+    row_name: "126"
+  - row_type: Leq
+    row_name: "127"
+  - row_type: Leq
+    row_name: "128"
+  - row_type: Leq
+    row_name: "129"
+  - row_type: Leq
+    row_name: "130"
+  - row_type: Leq
+    row_name: "131"
+  - row_type: Leq
+    row_name: "132"
+  - row_type: Leq
+    row_name: "133"
+  - row_type: Leq
+    row_name: "134"
+  - row_type: Leq
+    row_name: "135"
+  - row_type: Leq
+    row_name: "136"
+  - row_type: Leq
+    row_name: "137"
+  - row_type: Eq
+    row_name: "138"
+  - row_type: Eq
+    row_name: "139"
+  - row_type: Eq
+    row_name: "140"
+  - row_type: Eq
+    row_name: "141"
+  - row_type: Eq
+    row_name: "142"
+  - row_type: Eq
+    row_name: "143"
+  - row_type: Eq
+    row_name: "144"
+  - row_type: Eq
+    row_name: "145"
+  - row_type: Eq
+    row_name: "146"
+  - row_type: Eq
+    row_name: "147"
+  - row_type: Eq
+    row_name: "148"
+  - row_type: Eq
+    row_name: "149"
+  - row_type: Eq
+    row_name: "150"
+  - row_type: Eq
+    row_name: "151"
+  - row_type: Eq
+    row_name: "152"
+  - row_type: Eq
+    row_name: "153"
+  - row_type: Eq
+    row_name: "154"
+columns:
+  - name: ZP1
+    first_pair:
+      row_name: "1"
+      value: -1
+    second_pair:
+      row_name: "142"
+      value: 100
+  - name: ZM1
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "142"
+      value: -100
+  - name: Z2
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "144"
+      value: 1
+  - name: Z3
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "146"
+      value: 1
+  - name: Z4
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "148"
+      value: 1
+  - name: Z5
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "150"
+      value: 1
+  - name: Z6
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "152"
+      value: 1
+  - name: Z7
+    first_pair:
+      row_name: "1"
+      value: 1
+    second_pair:
+      row_name: "154"
+      value: 1
+  - name: X1111
+    first_pair:
+      row_name: "2"
+      value: 1
+    second_pair:
+      row_name: "56"
+      value: 1
+rhs: ~
+ranges: ~
+bounds: ~
+

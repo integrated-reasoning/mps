@@ -1,0 +1,174 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scsd1\"))?"
+---
+name: SCSD1
+rows:
+  - row_type: Nr
+    row_name: "50000000"
+  - row_type: Eq
+    row_name: "10000001"
+  - row_type: Eq
+    row_name: "20000001"
+  - row_type: Eq
+    row_name: "10000002"
+  - row_type: Eq
+    row_name: "20000002"
+  - row_type: Eq
+    row_name: "10000003"
+  - row_type: Eq
+    row_name: "20000003"
+  - row_type: Eq
+    row_name: "10000004"
+  - row_type: Eq
+    row_name: "20000004"
+  - row_type: Eq
+    row_name: "10000005"
+  - row_type: Eq
+    row_name: "20000005"
+  - row_type: Eq
+    row_name: "10000006"
+  - row_type: Eq
+    row_name: "20000006"
+  - row_type: Eq
+    row_name: "10000007"
+  - row_type: Eq
+    row_name: "20000007"
+  - row_type: Eq
+    row_name: "10000008"
+  - row_type: Eq
+    row_name: "20000008"
+  - row_type: Eq
+    row_name: "10000009"
+  - row_type: Eq
+    row_name: "20000009"
+  - row_type: Eq
+    row_name: "10000010"
+  - row_type: Eq
+    row_name: "20000010"
+  - row_type: Eq
+    row_name: "10000011"
+  - row_type: Eq
+    row_name: "20000011"
+  - row_type: Eq
+    row_name: "10000012"
+  - row_type: Eq
+    row_name: "20000012"
+  - row_type: Eq
+    row_name: "10000013"
+  - row_type: Eq
+    row_name: "20000013"
+  - row_type: Eq
+    row_name: "10000014"
+  - row_type: Eq
+    row_name: "20000014"
+  - row_type: Eq
+    row_name: "10000015"
+  - row_type: Eq
+    row_name: "20000015"
+  - row_type: Eq
+    row_name: "10000016"
+  - row_type: Eq
+    row_name: "20000016"
+  - row_type: Eq
+    row_name: "10000017"
+  - row_type: Eq
+    row_name: "20000017"
+  - row_type: Eq
+    row_name: "10000018"
+  - row_type: Eq
+    row_name: "20000018"
+  - row_type: Eq
+    row_name: "10000019"
+  - row_type: Eq
+    row_name: "20000019"
+  - row_type: Eq
+    row_name: "10000020"
+  - row_type: Eq
+    row_name: "20000020"
+  - row_type: Eq
+    row_name: "10000021"
+  - row_type: Eq
+    row_name: "20000021"
+  - row_type: Eq
+    row_name: "10000022"
+  - row_type: Eq
+    row_name: "20000022"
+  - row_type: Eq
+    row_name: "10000023"
+  - row_type: Eq
+    row_name: "20000023"
+  - row_type: Eq
+    row_name: "10000024"
+  - row_type: Eq
+    row_name: "20000024"
+  - row_type: Eq
+    row_name: "10000025"
+  - row_type: Eq
+    row_name: "20000025"
+  - row_type: Eq
+    row_name: "10000026"
+  - row_type: Eq
+    row_name: "20000026"
+  - row_type: Eq
+    row_name: "10000027"
+  - row_type: Eq
+    row_name: "20000027"
+  - row_type: Eq
+    row_name: "10000028"
+  - row_type: Eq
+    row_name: "20000028"
+  - row_type: Eq
+    row_name: "10000029"
+  - row_type: Eq
+    row_name: "20000029"
+  - row_type: Eq
+    row_name: "10000030"
+  - row_type: Eq
+    row_name: "20000030"
+  - row_type: Eq
+    row_name: "10000031"
+  - row_type: Eq
+    row_name: "20000031"
+  - row_type: Eq
+    row_name: "10000032"
+  - row_type: Eq
+    row_name: "20000032"
+  - row_type: Eq
+    row_name: "10000033"
+  - row_type: Eq
+    row_name: "20000033"
+  - row_type: Eq
+    row_name: "10000034"
+  - row_type: Eq
+    row_name: "20000034"
+  - row_type: Eq
+    row_name: "10000035"
+  - row_type: Eq
+    row_name: "20000035"
+  - row_type: Eq
+    row_name: "10000037"
+  - row_type: Eq
+    row_name: "20000037"
+  - row_type: Eq
+    row_name: "10000038"
+  - row_type: Eq
+    row_name: "20000038"
+  - row_type: Eq
+    row_name: "10000039"
+  - row_type: Eq
+    row_name: "20000039"
+  - row_type: Eq
+    row_name: "10000040"
+columns:
+  - name: "30001002"
+    first_pair:
+      row_name: "50000000"
+      value: 1
+    second_pair:
+      row_name: "10000001"
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+

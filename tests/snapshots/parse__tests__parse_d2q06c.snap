@@ -1,0 +1,4472 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/d2q06c\"))?"
+---
+name: D2Q06C
+rows:
+  - row_type: Nr
+    row_name: R0000
+  - row_type: Leq
+    row_name: 0A0G16
+  - row_type: Leq
+    row_name: 0A0LDX
+  - row_type: Leq
+    row_name: 0A0S7Q
+  - row_type: Leq
+    row_name: 0A3AUS
+  - row_type: Leq
+    row_name: 0A3E7B
+  - row_type: Leq
+    row_name: 0A3E8H
+  - row_type: Leq
+    row_name: 0A3F0F
+  - row_type: Leq
+    row_name: 0A3F50
+  - row_type: Leq
+    row_name: 0A3H50
+  - row_type: Leq
+    row_name: 0A3H8Z
+  - row_type: Leq
+    row_name: 0A3J50
+  - row_type: Leq
+    row_name: 0A3J8H
+  - row_type: Leq
+    row_name: 0A3L8Z
+  - row_type: Leq
+    row_name: 0A3MDF
+  - row_type: Leq
+    row_name: 0A3MSF
+  - row_type: Leq
+    row_name: 0A3M7Q
+  - row_type: Leq
+    row_name: 0A3S50
+  - row_type: Leq
+    row_name: 0A377D
+  - row_type: Leq
+    row_name: 0A777D
+  - row_type: Leq
+    row_name: 0B3D14
+  - row_type: Leq
+    row_name: 0B3E14
+  - row_type: Leq
+    row_name: 0D0A1M
+  - row_type: Leq
+    row_name: 0D0A1Q
+  - row_type: Eq
+    row_name: 0D0A2E
+  - row_type: Leq
+    row_name: 0D0B2A
+  - row_type: Leq
+    row_name: 0D0B2E
+  - row_type: Eq
+    row_name: 0D0E2A
+  - row_type: Leq
+    row_name: 0D0FMN
+  - row_type: Eq
+    row_name: 0D0FTD
+  - row_type: Eq
+    row_name: 0D0FXC
+  - row_type: Eq
+    row_name: 0D0FX1
+  - row_type: Eq
+    row_name: 0D0FX2
+  - row_type: Eq
+    row_name: 0D0FX3
+  - row_type: Leq
+    row_name: 0D0W2A
+  - row_type: Leq
+    row_name: 0D0W2E
+  - row_type: Eq
+    row_name: 0D002A
+  - row_type: Eq
+    row_name: 0D3SH1
+  - row_type: Eq
+    row_name: 0D3SH2
+  - row_type: Eq
+    row_name: 0D3SH3
+  - row_type: Eq
+    row_name: 0D3SH4
+  - row_type: Eq
+    row_name: 0D3200
+  - row_type: Leq
+    row_name: 0E3B0T
+  - row_type: Leq
+    row_name: 0E3B7B
+  - row_type: Leq
+    row_name: 0E3TKB
+  - row_type: Leq
+    row_name: 0E3TKJ
+  - row_type: Leq
+    row_name: 0F0BPT
+  - row_type: Eq
+    row_name: 0F0K1S
+  - row_type: Eq
+    row_name: 0F3CDU
+  - row_type: Leq
+    row_name: 0F3R2Y
+  - row_type: Leq
+    row_name: 0F31RN
+  - row_type: Leq
+    row_name: 0G3GLS
+  - row_type: Leq
+    row_name: 0J2H7M
+  - row_type: Leq
+    row_name: 0J2H7N
+  - row_type: Leq
+    row_name: 0J2J7M
+  - row_type: Leq
+    row_name: 0J2J7N
+  - row_type: Leq
+    row_name: 0J2M7J
+  - row_type: Leq
+    row_name: 0J2S7M
+  - row_type: Leq
+    row_name: 0J2S7N
+  - row_type: Leq
+    row_name: 0J2835
+  - row_type: Leq
+    row_name: 0J287M
+  - row_type: Leq
+    row_name: 0J287N
+  - row_type: Leq
+    row_name: 0J3ADM
+  - row_type: Leq
+    row_name: 0J3GPP
+  - row_type: Leq
+    row_name: 0J3H38
+  - row_type: Leq
+    row_name: 0J3H7N
+  - row_type: Leq
+    row_name: 0J3H7Q
+  - row_type: Leq
+    row_name: 0J3J38
+  - row_type: Leq
+    row_name: 0J3J7N
+  - row_type: Leq
+    row_name: 0J3J7Q
+  - row_type: Leq
+    row_name: 0J3M7Q
+  - row_type: Leq
+    row_name: 0J3S38
+  - row_type: Leq
+    row_name: 0J3S7N
+  - row_type: Leq
+    row_name: 0J3S7Q
+  - row_type: Leq
+    row_name: 0J3838
+  - row_type: Leq
+    row_name: 0J387N
+  - row_type: Leq
+    row_name: 0J387Q
+  - row_type: Leq
+    row_name: 0J4H7N
+  - row_type: Leq
+    row_name: 0J4J7J
+  - row_type: Leq
+    row_name: 0J4J7N
+  - row_type: Leq
+    row_name: 0J4M7N
+  - row_type: Leq
+    row_name: 0J4S7J
+  - row_type: Leq
+    row_name: 0J4S7N
+  - row_type: Leq
+    row_name: 0J467J
+  - row_type: Leq
+    row_name: 0J487J
+  - row_type: Leq
+    row_name: 0J487N
+  - row_type: Leq
+    row_name: 0L3CE1
+  - row_type: Leq
+    row_name: 0L3CE3
+  - row_type: Leq
+    row_name: 0L3NT0
+  - row_type: Leq
+    row_name: 0L3RM1
+  - row_type: Leq
+    row_name: 0L3RM2
+  - row_type: Leq
+    row_name: 0L3RM4
+  - row_type: Leq
+    row_name: 0L3RM5
+  - row_type: Leq
+    row_name: 0L3RM6
+  - row_type: Leq
+    row_name: 0M377G
+  - row_type: Leq
+    row_name: 0Z0M07
+  - row_type: Leq
+    row_name: 0Z3L00
+  - row_type: Leq
+    row_name: 0Z3M00
+  - row_type: Eq
+    row_name: 1A0KWT
+  - row_type: Eq
+    row_name: 1A0SAR
+  - row_type: Eq
+    row_name: 1A01MA
+  - row_type: Eq
+    row_name: 1A01RH
+  - row_type: Eq
+    row_name: 1A01RL
+  - row_type: Eq
+    row_name: 1A1CDA
+  - row_type: Eq
+    row_name: 1A1CDB
+  - row_type: Leq
+    row_name: 1A1HYA
+  - row_type: Eq
+    row_name: 1A5ARL
+  - row_type: Eq
+    row_name: 1A5GS1
+  - row_type: Eq
+    row_name: 1A5KRL
+  - row_type: Eq
+    row_name: 1A5KR1
+  - row_type: Eq
+    row_name: 1A5LGL
+  - row_type: Eq
+    row_name: 1A5N/K
+  - row_type: Eq
+    row_name: 1A5SB1
+  - row_type: Eq
+    row_name: 1A5SG1
+  - row_type: Eq
+    row_name: 1A51C4
+  - row_type: Eq
+    row_name: 1A6F0P
+  - row_type: Eq
+    row_name: 1A6F1P
+  - row_type: Eq
+    row_name: 1A6G0P
+  - row_type: Leq
+    row_name: 1A7F0P
+  - row_type: Leq
+    row_name: 1A7F0S
+  - row_type: Leq
+    row_name: 1A7F0W
+  - row_type: Leq
+    row_name: 1A7F0Y
+  - row_type: Leq
+    row_name: 1A7F1P
+  - row_type: Leq
+    row_name: 1A7F1S
+  - row_type: Leq
+    row_name: 1A7F1W
+  - row_type: Leq
+    row_name: 1A7F1Y
+  - row_type: Leq
+    row_name: 1A7G0A
+  - row_type: Leq
+    row_name: 1A7G0Q
+  - row_type: Leq
+    row_name: 1A7G0R
+  - row_type: Leq
+    row_name: 1A7G0S
+  - row_type: Eq
+    row_name: 1A8LSS
+  - row_type: Eq
+    row_name: 1A8RFF
+  - row_type: Eq
+    row_name: 1B0KWT
+  - row_type: Eq
+    row_name: 1B0MRB
+  - row_type: Eq
+    row_name: 1B0NGF
+  - row_type: Eq
+    row_name: 1B0NGL
+  - row_type: Eq
+    row_name: 1B0NGM
+  - row_type: Eq
+    row_name: 1B0SAR
+  - row_type: Eq
+    row_name: 1B0UMS
+  - row_type: Eq
+    row_name: 1B0ZKM
+  - row_type: Eq
+    row_name: 1B01RH
+  - row_type: Eq
+    row_name: 1B01RL
+  - row_type: Leq
+    row_name: 1B1CDU
+  - row_type: Leq
+    row_name: 1B1DHT
+  - row_type: Leq
+    row_name: 1B1HYD
+  - row_type: Leq
+    row_name: 1B1PLT
+  - row_type: Leq
+    row_name: 1B2PLT
+  - row_type: Leq
+    row_name: 1B3CSP
+  - row_type: Leq
+    row_name: 1B3CSR
+  - row_type: Leq
+    row_name: 1B3C4Z
+  - row_type: Leq
+    row_name: 1B3HMS
+  - row_type: Leq
+    row_name: 1B3HTK
+  - row_type: Leq
+    row_name: 1B3NHS
+  - row_type: Leq
+    row_name: 1B3NLS
+  - row_type: Leq
+    row_name: 1B3PC4
+  - row_type: Leq
+    row_name: 1B3RC4
+  - row_type: Leq
+    row_name: 1B4HG0
+  - row_type: Leq
+    row_name: 1B4RFH
+  - row_type: Eq
+    row_name: 1B5ARP
+  - row_type: Eq
+    row_name: 1B5GS1
+  - row_type: Eq
+    row_name: 1B5HG1
+  - row_type: Eq
+    row_name: 1B5HG2
+  - row_type: Eq
+    row_name: 1B5HG3
+  - row_type: Eq
+    row_name: 1B5KR1
+  - row_type: Eq
+    row_name: 1B5KR2
+  - row_type: Eq
+    row_name: 1B5LP3
+  - row_type: Eq
+    row_name: 1B5LP4
+  - row_type: Eq
+    row_name: 1B5NP1
+  - row_type: Eq
+    row_name: 1B5PT1
+  - row_type: Eq
+    row_name: 1B5PT2
+  - row_type: Eq
+    row_name: 1B5PT3
+  - row_type: Eq
+    row_name: 1B5SB1
+  - row_type: Eq
+    row_name: 1B5SB2
+  - row_type: Eq
+    row_name: 1B5SG1
+  - row_type: Eq
+    row_name: 1B6F0P
+  - row_type: Eq
+    row_name: 1B6F1P
+  - row_type: Eq
+    row_name: 1B6G0P
+  - row_type: Eq
+    row_name: 1B6PMP
+  - row_type: Eq
+    row_name: 1B6RMP
+  - row_type: Leq
+    row_name: 1B7F0P
+  - row_type: Leq
+    row_name: 1B7F0S
+  - row_type: Leq
+    row_name: 1B7F0W
+  - row_type: Leq
+    row_name: 1B7F0Y
+  - row_type: Leq
+    row_name: 1B7F1P
+  - row_type: Leq
+    row_name: 1B7F1S
+  - row_type: Leq
+    row_name: 1B7F1V
+  - row_type: Leq
+    row_name: 1B7F1W
+  - row_type: Leq
+    row_name: 1B7F1Y
+  - row_type: Leq
+    row_name: 1B7G0Q
+  - row_type: Leq
+    row_name: 1B7G0R
+  - row_type: Leq
+    row_name: 1B7G0S
+  - row_type: Leq
+    row_name: 1B7G0T
+  - row_type: Eq
+    row_name: 1B7PMA
+  - row_type: Eq
+    row_name: 1B7PME
+  - row_type: Leq
+    row_name: 1B7PMH
+  - row_type: Leq
+    row_name: 1B7PMJ
+  - row_type: Leq
+    row_name: 1B7PMK
+  - row_type: Eq
+    row_name: 1B7PML
+  - row_type: Leq
+    row_name: 1B7PMN
+  - row_type: Leq
+    row_name: 1B7PM0
+  - row_type: Eq
+    row_name: 1B7RMA
+  - row_type: Leq
+    row_name: 1B7RME
+  - row_type: Leq
+    row_name: 1B7RMJ
+  - row_type: Leq
+    row_name: 1B7RMK
+  - row_type: Eq
+    row_name: 1B7RML
+  - row_type: Eq
+    row_name: 1B8LSS
+  - row_type: Eq
+    row_name: 1B8RFF
+  - row_type: Eq
+    row_name: 1D0AZW
+  - row_type: Eq
+    row_name: 1D0HSM
+  - row_type: Eq
+    row_name: 1D0MRB
+  - row_type: Eq
+    row_name: 1D0NGF
+  - row_type: Eq
+    row_name: 1D0NGL
+  - row_type: Eq
+    row_name: 1D0SAF
+  - row_type: Eq
+    row_name: 1D0SAR
+  - row_type: Eq
+    row_name: 1D0SG0
+  - row_type: Eq
+    row_name: 1D0ZKM
+  - row_type: Eq
+    row_name: 1D0ZUE
+  - row_type: Eq
+    row_name: 1D01MA
+  - row_type: Eq
+    row_name: 1D01RL
+  - row_type: Leq
+    row_name: 1D1CCU
+  - row_type: Leq
+    row_name: 1D1CDU
+  - row_type: Leq
+    row_name: 1D1HYD
+  - row_type: Leq
+    row_name: 1D1PLT
+  - row_type: Leq
+    row_name: 1D1PRF
+  - row_type: Leq
+    row_name: 1D1VDU
+  - row_type: Leq
+    row_name: 1D3PC2
+  - row_type: Leq
+    row_name: 1D3SG0
+  - row_type: Eq
+    row_name: 1D5CC1
+  - row_type: Eq
+    row_name: 1D5CC2
+  - row_type: Eq
+    row_name: 1D5GS1
+  - row_type: Eq
+    row_name: 1D5HG1
+  - row_type: Eq
+    row_name: 1D5HG2
+  - row_type: Eq
+    row_name: 1D5HG3
+  - row_type: Eq
+    row_name: 1D5KR1
+  - row_type: Eq
+    row_name: 1D5LP2
+  - row_type: Eq
+    row_name: 1D5LP3
+  - row_type: Eq
+    row_name: 1D5LP4
+  - row_type: Eq
+    row_name: 1D5NP1
+  - row_type: Eq
+    row_name: 1D5PT1
+  - row_type: Eq
+    row_name: 1D5PT2
+  - row_type: Eq
+    row_name: 1D5PT3
+  - row_type: Eq
+    row_name: 1D5PT4
+  - row_type: Eq
+    row_name: 1D5SB1
+  - row_type: Eq
+    row_name: 1D5SG1
+  - row_type: Eq
+    row_name: 1D5WD1
+  - row_type: Eq
+    row_name: 1D5WD2
+  - row_type: Eq
+    row_name: 1D5WD3
+  - row_type: Eq
+    row_name: 1D6F0P
+  - row_type: Eq
+    row_name: 1D6G0P
+  - row_type: Eq
+    row_name: 1D6PMP
+  - row_type: Eq
+    row_name: 1D6RMP
+  - row_type: Eq
+    row_name: 1D7F0S
+  - row_type: Leq
+    row_name: 1D7F0W
+  - row_type: Leq
+    row_name: 1D7F0Y
+  - row_type: Leq
+    row_name: 1D7G0B
+  - row_type: Leq
+    row_name: 1D7G0R
+  - row_type: Eq
+    row_name: 1D7G0S
+  - row_type: Eq
+    row_name: 1D7PMA
+  - row_type: Leq
+    row_name: 1D7PMD
+  - row_type: Leq
+    row_name: 1D7PMH
+  - row_type: Leq
+    row_name: 1D7PMK
+  - row_type: Eq
+    row_name: 1D7PML
+  - row_type: Eq
+    row_name: 1D7PM0
+  - row_type: Eq
+    row_name: 1D7RMA
+  - row_type: Leq
+    row_name: 1D7RMD
+  - row_type: Leq
+    row_name: 1D7RMH
+  - row_type: Leq
+    row_name: 1D7RMK
+  - row_type: Eq
+    row_name: 1D7RML
+  - row_type: Leq
+    row_name: 1D7RM0
+  - row_type: Eq
+    row_name: 1D8LSS
+  - row_type: Eq
+    row_name: 1D8RFF
+  - row_type: Eq
+    row_name: 1G0AZW
+  - row_type: Eq
+    row_name: 1G0HSM
+  - row_type: Eq
+    row_name: 1G0KWT
+  - row_type: Eq
+    row_name: 1G0MRB
+  - row_type: Eq
+    row_name: 1G0NGF
+  - row_type: Eq
+    row_name: 1G0NGL
+  - row_type: Eq
+    row_name: 1G0SAF
+  - row_type: Eq
+    row_name: 1G0SAR
+  - row_type: Eq
+    row_name: 1G0SC2
+  - row_type: Eq
+    row_name: 1G0ZKM
+  - row_type: Eq
+    row_name: 1G0ZUE
+  - row_type: Eq
+    row_name: 1G01RL
+  - row_type: Leq
+    row_name: 1G1CCU
+  - row_type: Leq
+    row_name: 1G1CDU
+  - row_type: Leq
+    row_name: 1G1HYD
+  - row_type: Leq
+    row_name: 1G1NPF
+  - row_type: Leq
+    row_name: 1G1PLT
+  - row_type: Leq
+    row_name: 1G1PRF
+  - row_type: Leq
+    row_name: 1G1VDU
+  - row_type: Leq
+    row_name: 1G3SG0
+  - row_type: Leq
+    row_name: 1G3SLD
+  - row_type: Leq
+    row_name: 1G3S4L
+  - row_type: Leq
+    row_name: 1G31MS
+  - row_type: Eq
+    row_name: 1G5CC1
+  - row_type: Eq
+    row_name: 1G5CC2
+  - row_type: Eq
+    row_name: 1G5GS1
+  - row_type: Eq
+    row_name: 1G5HG1
+  - row_type: Eq
+    row_name: 1G5HG2
+  - row_type: Eq
+    row_name: 1G5HG3
+  - row_type: Eq
+    row_name: 1G5KR1
+  - row_type: Eq
+    row_name: 1G5KR2
+  - row_type: Eq
+    row_name: 1G5LP2
+  - row_type: Eq
+    row_name: 1G5LP3
+  - row_type: Eq
+    row_name: 1G5LP4
+  - row_type: Eq
+    row_name: 1G5NP1
+  - row_type: Eq
+    row_name: 1G5PT1
+  - row_type: Eq
+    row_name: 1G5PT2
+  - row_type: Eq
+    row_name: 1G5PT3
+  - row_type: Eq
+    row_name: 1G5PT4
+  - row_type: Eq
+    row_name: 1G5SB1
+  - row_type: Eq
+    row_name: 1G5SG1
+  - row_type: Eq
+    row_name: 1G5WD1
+  - row_type: Eq
+    row_name: 1G5WD2
+  - row_type: Eq
+    row_name: 1G5WD3
+  - row_type: Eq
+    row_name: 1G5WD4
+  - row_type: Eq
+    row_name: 1G6F0P
+  - row_type: Eq
+    row_name: 1G6G0P
+  - row_type: Eq
+    row_name: 1G6PMP
+  - row_type: Eq
+    row_name: 1G6RMP
+  - row_type: Eq
+    row_name: 1G7F0S
+  - row_type: Leq
+    row_name: 1G7F0W
+  - row_type: Leq
+    row_name: 1G7F0Y
+  - row_type: Leq
+    row_name: 1G7F5U
+  - row_type: Leq
+    row_name: 1G7F9P
+  - row_type: Leq
+    row_name: 1G7G0B
+  - row_type: Leq
+    row_name: 1G7G0R
+  - row_type: Eq
+    row_name: 1G7G0S
+  - row_type: Eq
+    row_name: 1G7PMA
+  - row_type: Leq
+    row_name: 1G7PMD
+  - row_type: Leq
+    row_name: 1G7PMH
+  - row_type: Leq
+    row_name: 1G7PMK
+  - row_type: Eq
+    row_name: 1G7PML
+  - row_type: Eq
+    row_name: 1G7PM0
+  - row_type: Eq
+    row_name: 1G7RMA
+  - row_type: Leq
+    row_name: 1G7RMD
+  - row_type: Leq
+    row_name: 1G7RMH
+  - row_type: Leq
+    row_name: 1G7RMK
+  - row_type: Eq
+    row_name: 1G7RML
+  - row_type: Leq
+    row_name: 1G7RM0
+  - row_type: Eq
+    row_name: 1G8LSS
+  - row_type: Eq
+    row_name: 1G8RFF
+  - row_type: Eq
+    row_name: 1J0AZW
+  - row_type: Eq
+    row_name: 1J0HSM
+  - row_type: Eq
+    row_name: 1J0KWT
+  - row_type: Eq
+    row_name: 1J0NGF
+  - row_type: Eq
+    row_name: 1J0NGL
+  - row_type: Eq
+    row_name: 1J0NGM
+  - row_type: Eq
+    row_name: 1J0ZKM
+  - row_type: Eq
+    row_name: 1J01MA
+  - row_type: Eq
+    row_name: 1J01RL
+  - row_type: Leq
+    row_name: 1J1CDU
+  - row_type: Leq
+    row_name: 1J1HYD
+  - row_type: Leq
+    row_name: 1J1PLT
+  - row_type: Leq
+    row_name: 1J3RFS
+  - row_type: Eq
+    row_name: 1J5ARK
+  - row_type: Eq
+    row_name: 1J5GS1
+  - row_type: Eq
+    row_name: 1J5HG1
+  - row_type: Eq
+    row_name: 1J5HG2
+  - row_type: Eq
+    row_name: 1J5KR1
+  - row_type: Eq
+    row_name: 1J5KR2
+  - row_type: Eq
+    row_name: 1J5LP3
+  - row_type: Eq
+    row_name: 1J5LP4
+  - row_type: Eq
+    row_name: 1J5NP1
+  - row_type: Eq
+    row_name: 1J5NP2
+  - row_type: Eq
+    row_name: 1J5SB1
+  - row_type: Eq
+    row_name: 1J5SB2
+  - row_type: Eq
+    row_name: 1J5SG1
+  - row_type: Eq
+    row_name: 1J6F0P
+  - row_type: Eq
+    row_name: 1J6G0P
+  - row_type: Eq
+    row_name: 1J6PMP
+  - row_type: Eq
+    row_name: 1J6RMP
+  - row_type: Leq
+    row_name: 1J7F0P
+  - row_type: Leq
+    row_name: 1J7F0S
+  - row_type: Leq
+    row_name: 1J7F0W
+  - row_type: Leq
+    row_name: 1J7F0Y
+  - row_type: Leq
+    row_name: 1J7F6P
+  - row_type: Leq
+    row_name: 1J7F6W
+  - row_type: Leq
+    row_name: 1J7F6Y
+  - row_type: Leq
+    row_name: 1J7G0P
+  - row_type: Leq
+    row_name: 1J7G0Q
+  - row_type: Leq
+    row_name: 1J7G0S
+  - row_type: Leq
+    row_name: 1J7G0T
+  - row_type: Eq
+    row_name: 1J7PMA
+  - row_type: Leq
+    row_name: 1J7PMH
+  - row_type: Leq
+    row_name: 1J7PMK
+  - row_type: Eq
+    row_name: 1J7PML
+  - row_type: Eq
+    row_name: 1J7RMA
+  - row_type: Leq
+    row_name: 1J7RMH
+  - row_type: Leq
+    row_name: 1J7RMK
+  - row_type: Eq
+    row_name: 1J7RML
+  - row_type: Eq
+    row_name: 1J8LSS
+  - row_type: Eq
+    row_name: 1J8RFF
+  - row_type: Eq
+    row_name: 1K0CDS
+  - row_type: Eq
+    row_name: 1K0MRB
+  - row_type: Eq
+    row_name: 1K0NGF
+  - row_type: Eq
+    row_name: 1K0NGL
+  - row_type: Eq
+    row_name: 1K0SAR
+  - row_type: Eq
+    row_name: 1K0TJA
+  - row_type: Eq
+    row_name: 1K0ZKM
+  - row_type: Eq
+    row_name: 1K0ZUE
+  - row_type: Eq
+    row_name: 1K01RL
+  - row_type: Leq
+    row_name: 1K1CDA
+  - row_type: Leq
+    row_name: 1K1CDB
+  - row_type: Leq
+    row_name: 1K1HYD
+  - row_type: Leq
+    row_name: 1K1PLT
+  - row_type: Leq
+    row_name: 1K3C4L
+  - row_type: Leq
+    row_name: 1K3LFF
+  - row_type: Leq
+    row_name: 1K3VRF
+  - row_type: Eq
+    row_name: 1K5GS1
+  - row_type: Eq
+    row_name: 1K5HG1
+  - row_type: Eq
+    row_name: 1K5HG2
+  - row_type: Eq
+    row_name: 1K5HG3
+  - row_type: Eq
+    row_name: 1K5KR1
+  - row_type: Eq
+    row_name: 1K5LBX
+  - row_type: Eq
+    row_name: 1K5LP3
+  - row_type: Eq
+    row_name: 1K5LP4
+  - row_type: Eq
+    row_name: 1K5NP1
+  - row_type: Eq
+    row_name: 1K5PT1
+  - row_type: Eq
+    row_name: 1K5PT2
+  - row_type: Eq
+    row_name: 1K5SB1
+  - row_type: Eq
+    row_name: 1K5SG1
+  - row_type: Eq
+    row_name: 1K5VRS
+  - row_type: Eq
+    row_name: 1K6F0P
+  - row_type: Eq
+    row_name: 1K6G0P
+  - row_type: Eq
+    row_name: 1K6PMP
+  - row_type: Eq
+    row_name: 1K6RMP
+  - row_type: Eq
+    row_name: 1K7F0S
+  - row_type: Leq
+    row_name: 1K7F0W
+  - row_type: Leq
+    row_name: 1K7G0B
+  - row_type: Leq
+    row_name: 1K7G0R
+  - row_type: Leq
+    row_name: 1K7G0S
+  - row_type: Eq
+    row_name: 1K7PMA
+  - row_type: Leq
+    row_name: 1K7PME
+  - row_type: Leq
+    row_name: 1K7PMH
+  - row_type: Leq
+    row_name: 1K7PMK
+  - row_type: Eq
+    row_name: 1K7PML
+  - row_type: Eq
+    row_name: 1K7PM0
+  - row_type: Eq
+    row_name: 1K7RMA
+  - row_type: Leq
+    row_name: 1K7RMD
+  - row_type: Leq
+    row_name: 1K7RMH
+  - row_type: Leq
+    row_name: 1K7RMK
+  - row_type: Eq
+    row_name: 1K7RML
+  - row_type: Leq
+    row_name: 1K7RM0
+  - row_type: Eq
+    row_name: 1K8LSS
+  - row_type: Eq
+    row_name: 1K8RFF
+  - row_type: Eq
+    row_name: 1L0BAS
+  - row_type: Eq
+    row_name: 1L0KWT
+  - row_type: Eq
+    row_name: 1L0MRB
+  - row_type: Eq
+    row_name: 1L0NGL
+  - row_type: Eq
+    row_name: 1L0QTR
+  - row_type: Eq
+    row_name: 1L0SAR
+  - row_type: Eq
+    row_name: 1L0UMS
+  - row_type: Eq
+    row_name: 1L0ZKM
+  - row_type: Eq
+    row_name: 1L01MA
+  - row_type: Eq
+    row_name: 1L01RH
+  - row_type: Eq
+    row_name: 1L01RL
+  - row_type: Leq
+    row_name: 1L1CC1
+  - row_type: Leq
+    row_name: 1L1CC2
+  - row_type: Leq
+    row_name: 1L1CDU
+  - row_type: Leq
+    row_name: 1L1CPY
+  - row_type: Leq
+    row_name: 1L1HYD
+  - row_type: Leq
+    row_name: 1L1PLT
+  - row_type: Leq
+    row_name: 1L1VDU
+  - row_type: Leq
+    row_name: 1L2PLT
+  - row_type: Leq
+    row_name: 1L3C4L
+  - row_type: Leq
+    row_name: 1L3HC0
+  - row_type: Leq
+    row_name: 1L3HG3
+  - row_type: Leq
+    row_name: 1L3HG4
+  - row_type: Leq
+    row_name: 1L3HTK
+  - row_type: Leq
+    row_name: 1L3HVG
+  - row_type: Leq
+    row_name: 1L3SRB
+  - row_type: Leq
+    row_name: 1L4GH2
+  - row_type: Leq
+    row_name: 1L4HAR
+  - row_type: Leq
+    row_name: 1L4RFG
+  - row_type: Leq
+    row_name: 1L4RF0
+  - row_type: Eq
+    row_name: 1L5ARL
+  - row_type: Eq
+    row_name: 1L5ARN
+  - row_type: Eq
+    row_name: 1L5CC1
+  - row_type: Eq
+    row_name: 1L5CC2
+  - row_type: Eq
+    row_name: 1L5CG1
+  - row_type: Eq
+    row_name: 1L5CG2
+  - row_type: Eq
+    row_name: 1L5CP1
+  - row_type: Eq
+    row_name: 1L5GS1
+  - row_type: Eq
+    row_name: 1L5G/B
+  - row_type: Eq
+    row_name: 1L5HG1
+  - row_type: Eq
+    row_name: 1L5KR1
+  - row_type: Eq
+    row_name: 1L5KR2
+  - row_type: Eq
+    row_name: 1L5KR3
+  - row_type: Eq
+    row_name: 1L5LP3
+  - row_type: Eq
+    row_name: 1L5LP4
+  - row_type: Eq
+    row_name: 1L5NP1
+  - row_type: Eq
+    row_name: 1L5NP2
+  - row_type: Eq
+    row_name: 1L5SB1
+  - row_type: Eq
+    row_name: 1L5SB2
+  - row_type: Eq
+    row_name: 1L5SG1
+  - row_type: Eq
+    row_name: 1L5VRA
+  - row_type: Eq
+    row_name: 1L5VRK
+  - row_type: Eq
+    row_name: 1L5VRL
+  - row_type: Eq
+    row_name: 1L5WD1
+  - row_type: Eq
+    row_name: 1L5WD2
+  - row_type: Eq
+    row_name: 1L6F0P
+  - row_type: Eq
+    row_name: 1L6G0P
+  - row_type: Eq
+    row_name: 1L6PMP
+  - row_type: Eq
+    row_name: 1L6RMP
+  - row_type: Leq
+    row_name: 1L7F0P
+  - row_type: Leq
+    row_name: 1L7F0S
+  - row_type: Leq
+    row_name: 1L7F0W
+  - row_type: Leq
+    row_name: 1L7F0Y
+  - row_type: Leq
+    row_name: 1L7G0Q
+  - row_type: Leq
+    row_name: 1L7G0R
+  - row_type: Leq
+    row_name: 1L7G0S
+  - row_type: Leq
+    row_name: 1L7G0T
+  - row_type: Eq
+    row_name: 1L7PMA
+  - row_type: Eq
+    row_name: 1L7PME
+  - row_type: Leq
+    row_name: 1L7PMH
+  - row_type: Leq
+    row_name: 1L7PMJ
+  - row_type: Leq
+    row_name: 1L7PMK
+  - row_type: Eq
+    row_name: 1L7PML
+  - row_type: Leq
+    row_name: 1L7PMN
+  - row_type: Leq
+    row_name: 1L7PM0
+  - row_type: Eq
+    row_name: 1L7RMA
+  - row_type: Leq
+    row_name: 1L7RME
+  - row_type: Leq
+    row_name: 1L7RMH
+  - row_type: Leq
+    row_name: 1L7RMJ
+  - row_type: Leq
+    row_name: 1L7RMK
+  - row_type: Eq
+    row_name: 1L7RML
+  - row_type: Leq
+    row_name: 1L7RM0
+  - row_type: Eq
+    row_name: 1L8LSS
+  - row_type: Eq
+    row_name: 1L8RFF
+  - row_type: Eq
+    row_name: 1M0AZW
+  - row_type: Eq
+    row_name: 1M0HSM
+  - row_type: Eq
+    row_name: 1M0KWT
+  - row_type: Eq
+    row_name: 1M01MA
+  - row_type: Eq
+    row_name: 1M01RL
+  - row_type: Leq
+    row_name: 1M1CDU
+  - row_type: Leq
+    row_name: 1M1HYD
+  - row_type: Leq
+    row_name: 1M1PLT
+  - row_type: Leq
+    row_name: 1M1VDU
+  - row_type: Eq
+    row_name: 1M5ARH
+  - row_type: Eq
+    row_name: 1M5ARK
+  - row_type: Eq
+    row_name: 1M5ARR
+  - row_type: Eq
+    row_name: 1M5GS1
+  - row_type: Eq
+    row_name: 1M5HG1
+  - row_type: Eq
+    row_name: 1M5HG3
+  - row_type: Eq
+    row_name: 1M5KR1
+  - row_type: Eq
+    row_name: 1M5LP3
+  - row_type: Eq
+    row_name: 1M5LP4
+  - row_type: Eq
+    row_name: 1M5NP1
+  - row_type: Eq
+    row_name: 1M5NP2
+  - row_type: Eq
+    row_name: 1M5SB1
+  - row_type: Eq
+    row_name: 1M5SB2
+  - row_type: Eq
+    row_name: 1M5SG1
+  - row_type: Eq
+    row_name: 1M6F0P
+  - row_type: Eq
+    row_name: 1M6G0P
+  - row_type: Eq
+    row_name: 1M6PMP
+  - row_type: Eq
+    row_name: 1M6RMP
+  - row_type: Leq
+    row_name: 1M7F0P
+  - row_type: Leq
+    row_name: 1M7F0S
+  - row_type: Leq
+    row_name: 1M7F0W
+  - row_type: Leq
+    row_name: 1M7F0Y
+  - row_type: Leq
+    row_name: 1M7G0P
+  - row_type: Leq
+    row_name: 1M7G0Q
+  - row_type: Leq
+    row_name: 1M7G0S
+  - row_type: Leq
+    row_name: 1M7G0T
+  - row_type: Eq
+    row_name: 1M7PMA
+  - row_type: Leq
+    row_name: 1M7PME
+  - row_type: Leq
+    row_name: 1M7PMJ
+  - row_type: Leq
+    row_name: 1M7PMK
+  - row_type: Eq
+    row_name: 1M7PML
+  - row_type: Eq
+    row_name: 1M7RMA
+  - row_type: Leq
+    row_name: 1M7RMJ
+  - row_type: Leq
+    row_name: 1M7RMK
+  - row_type: Eq
+    row_name: 1M7RML
+  - row_type: Eq
+    row_name: 1M8LSS
+  - row_type: Eq
+    row_name: 1M8RFF
+  - row_type: Eq
+    row_name: 1N0AZW
+  - row_type: Eq
+    row_name: 1N0GAM
+  - row_type: Eq
+    row_name: 1N0GBN
+  - row_type: Eq
+    row_name: 1N0HSM
+  - row_type: Eq
+    row_name: 1N0KWT
+  - row_type: Eq
+    row_name: 1N0NGF
+  - row_type: Eq
+    row_name: 1N0NGL
+  - row_type: Eq
+    row_name: 1N0NGM
+  - row_type: Eq
+    row_name: 1N0QTR
+  - row_type: Eq
+    row_name: 1N0SAR
+  - row_type: Eq
+    row_name: 1N0ZKM
+  - row_type: Eq
+    row_name: 1N0ZRZ
+  - row_type: Eq
+    row_name: 1N01MA
+  - row_type: Eq
+    row_name: 1N01RH
+  - row_type: Eq
+    row_name: 1N01RL
+  - row_type: Leq
+    row_name: 1N1CDU
+  - row_type: Leq
+    row_name: 1N1CD1
+  - row_type: Leq
+    row_name: 1N1PLT
+  - row_type: Leq
+    row_name: 1N3C4L
+  - row_type: Leq
+    row_name: 1N4C4C
+  - row_type: Leq
+    row_name: 1N4C4K
+  - row_type: Leq
+    row_name: 1N4C4R
+  - row_type: Leq
+    row_name: 1N4VRK
+  - row_type: Eq
+    row_name: 1N5ARK
+  - row_type: Eq
+    row_name: 1N5GS1
+  - row_type: Eq
+    row_name: 1N5HG1
+  - row_type: Eq
+    row_name: 1N5HG2
+  - row_type: Eq
+    row_name: 1N5KR1
+  - row_type: Eq
+    row_name: 1N5KR2
+  - row_type: Eq
+    row_name: 1N5LP3
+  - row_type: Eq
+    row_name: 1N5LP4
+  - row_type: Eq
+    row_name: 1N5LP5
+  - row_type: Eq
+    row_name: 1N5NP1
+  - row_type: Eq
+    row_name: 1N5NP2
+  - row_type: Eq
+    row_name: 1N5SB1
+  - row_type: Eq
+    row_name: 1N5SB2
+  - row_type: Eq
+    row_name: 1N5SG1
+  - row_type: Eq
+    row_name: 1N5SG2
+  - row_type: Eq
+    row_name: 1N6F0P
+  - row_type: Eq
+    row_name: 1N6G0P
+  - row_type: Eq
+    row_name: 1N6PMP
+  - row_type: Eq
+    row_name: 1N6RMP
+  - row_type: Leq
+    row_name: 1N7F0P
+  - row_type: Leq
+    row_name: 1N7F0S
+  - row_type: Leq
+    row_name: 1N7F0W
+  - row_type: Leq
+    row_name: 1N7F0Y
+  - row_type: Leq
+    row_name: 1N7F6P
+  - row_type: Leq
+    row_name: 1N7F6W
+  - row_type: Leq
+    row_name: 1N7F6Y
+  - row_type: Leq
+    row_name: 1N7G0P
+  - row_type: Leq
+    row_name: 1N7G0Q
+  - row_type: Leq
+    row_name: 1N7G0S
+  - row_type: Leq
+    row_name: 1N7G0T
+  - row_type: Eq
+    row_name: 1N7PMA
+  - row_type: Leq
+    row_name: 1N7PMJ
+  - row_type: Leq
+    row_name: 1N7PMK
+  - row_type: Eq
+    row_name: 1N7PML
+  - row_type: Leq
+    row_name: 1N7PM1
+  - row_type: Eq
+    row_name: 1N7RMA
+  - row_type: Leq
+    row_name: 1N7RMJ
+  - row_type: Leq
+    row_name: 1N7RMK
+  - row_type: Eq
+    row_name: 1N7RML
+  - row_type: Eq
+    row_name: 1N8LSS
+  - row_type: Eq
+    row_name: 1N8RFF
+  - row_type: Eq
+    row_name: 1Q0AZW
+  - row_type: Eq
+    row_name: 1Q0HSM
+  - row_type: Eq
+    row_name: 1Q0KWT
+  - row_type: Eq
+    row_name: 1Q0NGF
+  - row_type: Eq
+    row_name: 1Q0NGL
+  - row_type: Eq
+    row_name: 1Q0NGM
+  - row_type: Eq
+    row_name: 1Q0ZKM
+  - row_type: Eq
+    row_name: 1Q0ZRZ
+  - row_type: Eq
+    row_name: 1Q0ZUE
+  - row_type: Eq
+    row_name: 1Q01MA
+  - row_type: Eq
+    row_name: 1Q01MB
+  - row_type: Eq
+    row_name: 1Q01RH
+  - row_type: Eq
+    row_name: 1Q01RL
+  - row_type: Leq
+    row_name: 1Q1CDU
+  - row_type: Leq
+    row_name: 1Q1CD1
+  - row_type: Leq
+    row_name: 1Q1HYD
+  - row_type: Leq
+    row_name: 1Q1PLT
+  - row_type: Leq
+    row_name: 1Q3PRS
+  - row_type: Leq
+    row_name: 1Q4H2G
+  - row_type: Eq
+    row_name: 1Q5ARK
+  - row_type: Eq
+    row_name: 1Q5ARR
+  - row_type: Eq
+    row_name: 1Q5GS1
+  - row_type: Eq
+    row_name: 1Q5HG1
+  - row_type: Eq
+    row_name: 1Q5HG2
+  - row_type: Eq
+    row_name: 1Q5KR1
+  - row_type: Eq
+    row_name: 1Q5KR2
+  - row_type: Eq
+    row_name: 1Q5LP3
+  - row_type: Eq
+    row_name: 1Q5LP4
+  - row_type: Eq
+    row_name: 1Q5LP5
+  - row_type: Eq
+    row_name: 1Q5NP1
+  - row_type: Eq
+    row_name: 1Q5NP2
+  - row_type: Eq
+    row_name: 1Q5SB1
+  - row_type: Eq
+    row_name: 1Q5SB2
+  - row_type: Eq
+    row_name: 1Q5SB3
+  - row_type: Eq
+    row_name: 1Q5SG1
+  - row_type: Eq
+    row_name: 1Q5SG2
+  - row_type: Eq
+    row_name: 1Q6F0P
+  - row_type: Eq
+    row_name: 1Q6G0P
+  - row_type: Eq
+    row_name: 1Q6PMP
+  - row_type: Eq
+    row_name: 1Q6RMP
+  - row_type: Eq
+    row_name: 1Q6SC3
+  - row_type: Eq
+    row_name: 1Q6SC4
+  - row_type: Leq
+    row_name: 1Q7F0P
+  - row_type: Leq
+    row_name: 1Q7F0S
+  - row_type: Leq
+    row_name: 1Q7F0W
+  - row_type: Leq
+    row_name: 1Q7F0Y
+  - row_type: Leq
+    row_name: 1Q7F6P
+  - row_type: Leq
+    row_name: 1Q7F6W
+  - row_type: Leq
+    row_name: 1Q7F6Y
+  - row_type: Leq
+    row_name: 1Q7G0P
+  - row_type: Leq
+    row_name: 1Q7G0Q
+  - row_type: Leq
+    row_name: 1Q7G0R
+  - row_type: Leq
+    row_name: 1Q7G0S
+  - row_type: Leq
+    row_name: 1Q7G0T
+  - row_type: Eq
+    row_name: 1Q7PMA
+  - row_type: Leq
+    row_name: 1Q7PMJ
+  - row_type: Leq
+    row_name: 1Q7PMK
+  - row_type: Eq
+    row_name: 1Q7PML
+  - row_type: Eq
+    row_name: 1Q7RMA
+  - row_type: Leq
+    row_name: 1Q7RMJ
+  - row_type: Leq
+    row_name: 1Q7RMK
+  - row_type: Eq
+    row_name: 1Q7RML
+  - row_type: Eq
+    row_name: 1Q7SCA
+  - row_type: Eq
+    row_name: 1Q8LSS
+  - row_type: Eq
+    row_name: 1Q8RFF
+  - row_type: Eq
+    row_name: 1R0KWT
+  - row_type: Eq
+    row_name: 1R01MA
+  - row_type: Eq
+    row_name: 1R01RH
+  - row_type: Eq
+    row_name: 1R01RL
+  - row_type: Eq
+    row_name: 1R1CDU
+  - row_type: Leq
+    row_name: 1R1DHT
+  - row_type: Leq
+    row_name: 1R1HYD
+  - row_type: Eq
+    row_name: 1R1PT1
+  - row_type: Eq
+    row_name: 1R1PT2
+  - row_type: Leq
+    row_name: 1R3HYD
+  - row_type: Eq
+    row_name: 1R5GS1
+  - row_type: Eq
+    row_name: 1R5KR1
+  - row_type: Eq
+    row_name: 1R5NP1
+  - row_type: Eq
+    row_name: 1R5NP2
+  - row_type: Eq
+    row_name: 1R5SG1
+  - row_type: Eq
+    row_name: 1R6F0P
+  - row_type: Eq
+    row_name: 1R6G0P
+  - row_type: Eq
+    row_name: 1R6PMP
+  - row_type: Eq
+    row_name: 1R6RMP
+  - row_type: Leq
+    row_name: 1R7F0P
+  - row_type: Leq
+    row_name: 1R7F0S
+  - row_type: Leq
+    row_name: 1R7F0W
+  - row_type: Leq
+    row_name: 1R7F0Y
+  - row_type: Leq
+    row_name: 1R7G0R
+  - row_type: Leq
+    row_name: 1R7G0S
+  - row_type: Eq
+    row_name: 1R7PMA
+  - row_type: Leq
+    row_name: 1R7PMJ
+  - row_type: Leq
+    row_name: 1R7PMK
+  - row_type: Eq
+    row_name: 1R7PML
+  - row_type: Eq
+    row_name: 1R7RMA
+  - row_type: Leq
+    row_name: 1R7RMJ
+  - row_type: Leq
+    row_name: 1R7RMK
+  - row_type: Leq
+    row_name: 1R7RML
+  - row_type: Eq
+    row_name: 1R8LSS
+  - row_type: Eq
+    row_name: 1R8RFF
+  - row_type: Eq
+    row_name: 1T0KWT
+  - row_type: Eq
+    row_name: 1T01MA
+  - row_type: Eq
+    row_name: 1T01MB
+  - row_type: Eq
+    row_name: 1T01RH
+  - row_type: Eq
+    row_name: 1T01RL
+  - row_type: Eq
+    row_name: 1T1CDU
+  - row_type: Leq
+    row_name: 1T1HYD
+  - row_type: Eq
+    row_name: 1T1PLT
+  - row_type: Leq
+    row_name: 1T3C5J
+  - row_type: Eq
+    row_name: 1T5GS1
+  - row_type: Eq
+    row_name: 1T5KR1
+  - row_type: Eq
+    row_name: 1T5NP1
+  - row_type: Eq
+    row_name: 1T5N/K
+  - row_type: Eq
+    row_name: 1T5SB1
+  - row_type: Eq
+    row_name: 1T5SB2
+  - row_type: Eq
+    row_name: 1T5SG1
+  - row_type: Eq
+    row_name: 1T5SG2
+  - row_type: Eq
+    row_name: 1T51SM
+  - row_type: Eq
+    row_name: 1T6F0P
+  - row_type: Eq
+    row_name: 1T6G0P
+  - row_type: Eq
+    row_name: 1T6PMP
+  - row_type: Eq
+    row_name: 1T6RMP
+  - row_type: Leq
+    row_name: 1T7F0P
+  - row_type: Leq
+    row_name: 1T7F0S
+  - row_type: Leq
+    row_name: 1T7F0W
+  - row_type: Leq
+    row_name: 1T7F0Y
+  - row_type: Leq
+    row_name: 1T7G0Q
+  - row_type: Leq
+    row_name: 1T7G0R
+  - row_type: Leq
+    row_name: 1T7G0S
+  - row_type: Eq
+    row_name: 1T7PMA
+  - row_type: Eq
+    row_name: 1T7PME
+  - row_type: Leq
+    row_name: 1T7PMJ
+  - row_type: Leq
+    row_name: 1T7PMK
+  - row_type: Eq
+    row_name: 1T7PML
+  - row_type: Leq
+    row_name: 1T7PMN
+  - row_type: Eq
+    row_name: 1T7RMA
+  - row_type: Leq
+    row_name: 1T7RMJ
+  - row_type: Leq
+    row_name: 1T7RMK
+  - row_type: Eq
+    row_name: 1T7RML
+  - row_type: Eq
+    row_name: 1T8LSS
+  - row_type: Eq
+    row_name: 1T8RFF
+  - row_type: Eq
+    row_name: 1U0BAC
+  - row_type: Eq
+    row_name: 1U0KWT
+  - row_type: Eq
+    row_name: 1U0SPR
+  - row_type: Eq
+    row_name: 1U0ZKM
+  - row_type: Eq
+    row_name: 1U01MA
+  - row_type: Eq
+    row_name: 1U01MB
+  - row_type: Eq
+    row_name: 1U01RH
+  - row_type: Eq
+    row_name: 1U01RL
+  - row_type: Leq
+    row_name: 1U1CDU
+  - row_type: Leq
+    row_name: 1U1HYD
+  - row_type: Leq
+    row_name: 1U1PLT
+  - row_type: Leq
+    row_name: 1U11SM
+  - row_type: Leq
+    row_name: 1U3C5J
+  - row_type: Leq
+    row_name: 1U4C4K
+  - row_type: Eq
+    row_name: 1U5GS1
+  - row_type: Eq
+    row_name: 1U5G/B
+  - row_type: Eq
+    row_name: 1U5KR1
+  - row_type: Eq
+    row_name: 1U5N/K
+  - row_type: Eq
+    row_name: 1U5PT1
+  - row_type: Eq
+    row_name: 1U5SB1
+  - row_type: Eq
+    row_name: 1U5SB2
+  - row_type: Eq
+    row_name: 1U5SG1
+  - row_type: Eq
+    row_name: 1U6F0P
+  - row_type: Eq
+    row_name: 1U6G0P
+  - row_type: Eq
+    row_name: 1U6PMP
+  - row_type: Eq
+    row_name: 1U6RMP
+  - row_type: Leq
+    row_name: 1U7F0P
+  - row_type: Leq
+    row_name: 1U7F0S
+  - row_type: Leq
+    row_name: 1U7F0W
+  - row_type: Leq
+    row_name: 1U7F0Y
+  - row_type: Leq
+    row_name: 1U7G0R
+  - row_type: Leq
+    row_name: 1U7G0S
+  - row_type: Leq
+    row_name: 1U7G0T
+  - row_type: Eq
+    row_name: 1U7PMA
+  - row_type: Eq
+    row_name: 1U7PME
+  - row_type: Leq
+    row_name: 1U7PMJ
+  - row_type: Leq
+    row_name: 1U7PMK
+  - row_type: Eq
+    row_name: 1U7PML
+  - row_type: Leq
+    row_name: 1U7PMN
+  - row_type: Eq
+    row_name: 1U7RMA
+  - row_type: Leq
+    row_name: 1U7RMJ
+  - row_type: Leq
+    row_name: 1U7RMK
+  - row_type: Eq
+    row_name: 1U7RML
+  - row_type: Eq
+    row_name: 1U8LSS
+  - row_type: Eq
+    row_name: 1U8RFF
+  - row_type: Eq
+    row_name: 1W0KWT
+  - row_type: Eq
+    row_name: 1W0NGM
+  - row_type: Eq
+    row_name: 1W0ZKM
+  - row_type: Eq
+    row_name: 1W01MA
+  - row_type: Eq
+    row_name: 1W01RL
+  - row_type: Leq
+    row_name: 1W1CDU
+  - row_type: Leq
+    row_name: 1W1HYD
+  - row_type: Leq
+    row_name: 1W1PLT
+  - row_type: Leq
+    row_name: 1W11SM
+  - row_type: Eq
+    row_name: 1W5GS1
+  - row_type: Eq
+    row_name: 1W5KR1
+  - row_type: Eq
+    row_name: 1W5N/K
+  - row_type: Eq
+    row_name: 1W5PT1
+  - row_type: Eq
+    row_name: 1W5SB1
+  - row_type: Eq
+    row_name: 1W5SB2
+  - row_type: Eq
+    row_name: 1W5SG1
+  - row_type: Eq
+    row_name: 1W6F0P
+  - row_type: Eq
+    row_name: 1W6G0P
+  - row_type: Eq
+    row_name: 1W6PMP
+  - row_type: Eq
+    row_name: 1W6RMP
+  - row_type: Leq
+    row_name: 1W7F0P
+  - row_type: Leq
+    row_name: 1W7F0S
+  - row_type: Leq
+    row_name: 1W7F0W
+  - row_type: Leq
+    row_name: 1W7F0Y
+  - row_type: Leq
+    row_name: 1W7G0A
+  - row_type: Leq
+    row_name: 1W7G0B
+  - row_type: Leq
+    row_name: 1W7G0R
+  - row_type: Leq
+    row_name: 1W7G0S
+  - row_type: Leq
+    row_name: 1W7G0T
+  - row_type: Eq
+    row_name: 1W7PMA
+  - row_type: Eq
+    row_name: 1W7PME
+  - row_type: Leq
+    row_name: 1W7PMJ
+  - row_type: Leq
+    row_name: 1W7PMK
+  - row_type: Eq
+    row_name: 1W7PML
+  - row_type: Leq
+    row_name: 1W7PMN
+  - row_type: Eq
+    row_name: 1W7RMA
+  - row_type: Leq
+    row_name: 1W7RMJ
+  - row_type: Leq
+    row_name: 1W7RMK
+  - row_type: Eq
+    row_name: 1W7RML
+  - row_type: Eq
+    row_name: 1W8LSS
+  - row_type: Eq
+    row_name: 1W8RFF
+  - row_type: Eq
+    row_name: 1X0SG0
+  - row_type: Eq
+    row_name: 100F0U
+  - row_type: Eq
+    row_name: 100F3U
+  - row_type: Eq
+    row_name: 100F7U
+  - row_type: Eq
+    row_name: 100L04
+  - row_type: Eq
+    row_name: 100PMU
+  - row_type: Eq
+    row_name: 100RMU
+  - row_type: Eq
+    row_name: 104AGU
+  - row_type: Eq
+    row_name: 1041GU
+  - row_type: Eq
+    row_name: 120L12
+  - row_type: Eq
+    row_name: 120L21
+  - row_type: Eq
+    row_name: 140LP3
+  - row_type: Eq
+    row_name: 140LP4
+  - row_type: Eq
+    row_name: 150AGS
+  - row_type: Eq
+    row_name: 150ATK
+  - row_type: Eq
+    row_name: 150F0S
+  - row_type: Eq
+    row_name: 150F1S
+  - row_type: Eq
+    row_name: 150F2S
+  - row_type: Eq
+    row_name: 150F3S
+  - row_type: Eq
+    row_name: 150F4S
+  - row_type: Eq
+    row_name: 150F5S
+  - row_type: Eq
+    row_name: 150F6S
+  - row_type: Eq
+    row_name: 150LGS
+  - row_type: Eq
+    row_name: 150PMS
+  - row_type: Eq
+    row_name: 150RMS
+  - row_type: Eq
+    row_name: 150WGS
+  - row_type: Eq
+    row_name: 1501GS
+  - row_type: Eq
+    row_name: 160AGD
+  - row_type: Eq
+    row_name: 160ATG
+  - row_type: Eq
+    row_name: 160ATK
+  - row_type: Eq
+    row_name: 160F0D
+  - row_type: Eq
+    row_name: 160F4D
+  - row_type: Eq
+    row_name: 160F5D
+  - row_type: Eq
+    row_name: 160F6D
+  - row_type: Eq
+    row_name: 160F8S
+  - row_type: Eq
+    row_name: 160LGS
+  - row_type: Eq
+    row_name: 160PMS
+  - row_type: Eq
+    row_name: 160RMN
+  - row_type: Eq
+    row_name: 160WGS
+  - row_type: Eq
+    row_name: 1601GS
+  - row_type: Eq
+    row_name: 167MDS
+  - row_type: Eq
+    row_name: 2A0BAS
+  - row_type: Eq
+    row_name: 2A0BRW
+  - row_type: Eq
+    row_name: 2A0GPP
+  - row_type: Eq
+    row_name: 2A0KWT
+  - row_type: Eq
+    row_name: 2A0QTR
+  - row_type: Eq
+    row_name: 2A0UMS
+  - row_type: Eq
+    row_name: 2A0ZKM
+  - row_type: Eq
+    row_name: 2A01RH
+  - row_type: Eq
+    row_name: 2A01RL
+  - row_type: Leq
+    row_name: 2A1CCU
+  - row_type: Leq
+    row_name: 2A1CDU
+  - row_type: Leq
+    row_name: 2A1HYD
+  - row_type: Leq
+    row_name: 2A1PLT
+  - row_type: Leq
+    row_name: 2A1VDU
+  - row_type: Leq
+    row_name: 2A2CCU
+  - row_type: Leq
+    row_name: 2A3CD2
+  - row_type: Leq
+    row_name: 2A3FLR
+  - row_type: Leq
+    row_name: 2A3TK1
+  - row_type: Leq
+    row_name: 2A3TK2
+  - row_type: Leq
+    row_name: 2A31D1
+  - row_type: Leq
+    row_name: 2A31D2
+  - row_type: Leq
+    row_name: 2A31D3
+  - row_type: Eq
+    row_name: 2A5ARV
+  - row_type: Eq
+    row_name: 2A5CC1
+  - row_type: Eq
+    row_name: 2A5CC3
+  - row_type: Eq
+    row_name: 2A5CGR
+  - row_type: Eq
+    row_name: 2A5CGT
+  - row_type: Eq
+    row_name: 2A5CG1
+  - row_type: Eq
+    row_name: 2A5CG5
+  - row_type: Eq
+    row_name: 2A5GS1
+  - row_type: Eq
+    row_name: 2A5HGA
+  - row_type: Eq
+    row_name: 2A5HGK
+  - row_type: Eq
+    row_name: 2A5KR1
+  - row_type: Eq
+    row_name: 2A5NP1
+  - row_type: Eq
+    row_name: 2A5N/K
+  - row_type: Eq
+    row_name: 2A5SBA
+  - row_type: Eq
+    row_name: 2A5SBK
+  - row_type: Eq
+    row_name: 2A5SG1
+  - row_type: Eq
+    row_name: 2A5VG1
+  - row_type: Eq
+    row_name: 2A5VG2
+  - row_type: Eq
+    row_name: 2A5WDK
+  - row_type: Eq
+    row_name: 2A6F0P
+  - row_type: Eq
+    row_name: 2A6G0P
+  - row_type: Eq
+    row_name: 2A6PMP
+  - row_type: Eq
+    row_name: 2A6RMP
+  - row_type: Leq
+    row_name: 2A7F0P
+  - row_type: Leq
+    row_name: 2A7F0S
+  - row_type: Leq
+    row_name: 2A7F0W
+  - row_type: Leq
+    row_name: 2A7F0Y
+  - row_type: Leq
+    row_name: 2A7G0A
+  - row_type: Leq
+    row_name: 2A7G0B
+  - row_type: Leq
+    row_name: 2A7G0P
+  - row_type: Leq
+    row_name: 2A7G0Q
+  - row_type: Leq
+    row_name: 2A7G0S
+  - row_type: Leq
+    row_name: 2A7G0T
+  - row_type: Eq
+    row_name: 2A7PMA
+  - row_type: Leq
+    row_name: 2A7PME
+  - row_type: Leq
+    row_name: 2A7PMJ
+  - row_type: Leq
+    row_name: 2A7PMK
+  - row_type: Leq
+    row_name: 2A7PML
+  - row_type: Leq
+    row_name: 2A7PMN
+  - row_type: Eq
+    row_name: 2A7RMA
+  - row_type: Leq
+    row_name: 2A7RMJ
+  - row_type: Leq
+    row_name: 2A7RMK
+  - row_type: Leq
+    row_name: 2A7RML
+  - row_type: Eq
+    row_name: 2A8LSS
+  - row_type: Eq
+    row_name: 2A8RFF
+  - row_type: Eq
+    row_name: 2B0BAS
+  - row_type: Eq
+    row_name: 2B0KWT
+  - row_type: Eq
+    row_name: 2B0NGF
+  - row_type: Eq
+    row_name: 2B0NGM
+  - row_type: Eq
+    row_name: 2B0SAF
+  - row_type: Eq
+    row_name: 2B0SAR
+  - row_type: Eq
+    row_name: 2B0SCS
+  - row_type: Eq
+    row_name: 2B0UMS
+  - row_type: Eq
+    row_name: 2B0ZKM
+  - row_type: Eq
+    row_name: 2B01RH
+  - row_type: Eq
+    row_name: 2B01RL
+  - row_type: Leq
+    row_name: 2B1CCU
+  - row_type: Leq
+    row_name: 2B1CDA
+  - row_type: Leq
+    row_name: 2B1CDU
+  - row_type: Leq
+    row_name: 2B1HYD
+  - row_type: Leq
+    row_name: 2B1PT1
+  - row_type: Leq
+    row_name: 2B1PT2
+  - row_type: Leq
+    row_name: 2B1SDK
+  - row_type: Leq
+    row_name: 2B1UN1
+  - row_type: Leq
+    row_name: 2B1VD4
+  - row_type: Leq
+    row_name: 2B2PL2
+  - row_type: Leq
+    row_name: 2B3CD1
+  - row_type: Leq
+    row_name: 2B3CL2
+  - row_type: Leq
+    row_name: 2B3CL3
+  - row_type: Leq
+    row_name: 2B3CL7
+  - row_type: Leq
+    row_name: 2B3CL8
+  - row_type: Leq
+    row_name: 2B3CT1
+  - row_type: Leq
+    row_name: 2B3C4L
+  - row_type: Leq
+    row_name: 2B3HD4
+  - row_type: Leq
+    row_name: 2B3HLF
+  - row_type: Leq
+    row_name: 2B3HL1
+  - row_type: Leq
+    row_name: 2B3HL2
+  - row_type: Leq
+    row_name: 2B3HTK
+  - row_type: Leq
+    row_name: 2B3L06
+  - row_type: Leq
+    row_name: 2B3L07
+  - row_type: Eq
+    row_name: 2B3NF1
+  - row_type: Leq
+    row_name: 2B3PT1
+  - row_type: Leq
+    row_name: 2B31LG
+  - row_type: Leq
+    row_name: 2B4RLD
+  - row_type: Eq
+    row_name: 2B5CC1
+  - row_type: Eq
+    row_name: 2B5CC2
+  - row_type: Eq
+    row_name: 2B5CG1
+  - row_type: Eq
+    row_name: 2B5GS1
+  - row_type: Eq
+    row_name: 2B5HG1
+  - row_type: Eq
+    row_name: 2B5HG2
+  - row_type: Eq
+    row_name: 2B5HG3
+  - row_type: Eq
+    row_name: 2B5KR1
+  - row_type: Eq
+    row_name: 2B5LBX
+  - row_type: Eq
+    row_name: 2B5LP2
+  - row_type: Eq
+    row_name: 2B5LP4
+  - row_type: Eq
+    row_name: 2B5NP1
+  - row_type: Eq
+    row_name: 2B5PTF
+  - row_type: Eq
+    row_name: 2B5SB1
+  - row_type: Eq
+    row_name: 2B5SB2
+  - row_type: Eq
+    row_name: 2B5SB3
+  - row_type: Eq
+    row_name: 2B5SG1
+  - row_type: Eq
+    row_name: 2B5SG2
+  - row_type: Eq
+    row_name: 2B5SG3
+  - row_type: Eq
+    row_name: 2B5VG1
+  - row_type: Eq
+    row_name: 2B5WD1
+  - row_type: Eq
+    row_name: 2B6F0P
+  - row_type: Eq
+    row_name: 2B6G0P
+  - row_type: Eq
+    row_name: 2B6PMP
+  - row_type: Eq
+    row_name: 2B6RMP
+  - row_type: Leq
+    row_name: 2B7F0P
+  - row_type: Leq
+    row_name: 2B7F0S
+  - row_type: Leq
+    row_name: 2B7F0W
+  - row_type: Leq
+    row_name: 2B7F0Y
+  - row_type: Leq
+    row_name: 2B7G0Q
+  - row_type: Leq
+    row_name: 2B7G0R
+  - row_type: Leq
+    row_name: 2B7G0S
+  - row_type: Leq
+    row_name: 2B7G0T
+  - row_type: Eq
+    row_name: 2B7PMA
+  - row_type: Eq
+    row_name: 2B7PME
+  - row_type: Leq
+    row_name: 2B7PMJ
+  - row_type: Leq
+    row_name: 2B7PMK
+  - row_type: Leq
+    row_name: 2B7PML
+  - row_type: Leq
+    row_name: 2B7PM0
+  - row_type: Leq
+    row_name: 2B7PM6
+  - row_type: Eq
+    row_name: 2B7RMA
+  - row_type: Leq
+    row_name: 2B7RME
+  - row_type: Leq
+    row_name: 2B7RMJ
+  - row_type: Leq
+    row_name: 2B7RMK
+  - row_type: Leq
+    row_name: 2B7RML
+  - row_type: Leq
+    row_name: 2B7RM0
+  - row_type: Leq
+    row_name: 2B7RM6
+  - row_type: Eq
+    row_name: 2B8LSS
+  - row_type: Eq
+    row_name: 2B8RFF
+  - row_type: Eq
+    row_name: 2C0KWT
+  - row_type: Eq
+    row_name: 2C01RH
+  - row_type: Eq
+    row_name: 2C01RL
+  - row_type: Eq
+    row_name: 2E0ARK
+  - row_type: Eq
+    row_name: 2E0BAS
+  - row_type: Eq
+    row_name: 2E0BRW
+  - row_type: Eq
+    row_name: 2E0GPP
+  - row_type: Eq
+    row_name: 2E0KWT
+  - row_type: Eq
+    row_name: 2E01RL
+  - row_type: Leq
+    row_name: 2E1CDU
+  - row_type: Leq
+    row_name: 2E1DHT
+  - row_type: Leq
+    row_name: 2E1PLT
+  - row_type: Leq
+    row_name: 2E1VDU
+  - row_type: Leq
+    row_name: 2E2CDU
+  - row_type: Leq
+    row_name: 2E3FLR
+  - row_type: Leq
+    row_name: 2E31D1
+  - row_type: Eq
+    row_name: 2E5ARV
+  - row_type: Eq
+    row_name: 2E5GS1
+  - row_type: Eq
+    row_name: 2E5HGA
+  - row_type: Eq
+    row_name: 2E5HGK
+  - row_type: Eq
+    row_name: 2E5HGV
+  - row_type: Eq
+    row_name: 2E5KR1
+  - row_type: Eq
+    row_name: 2E5NP1
+  - row_type: Eq
+    row_name: 2E5N/K
+  - row_type: Eq
+    row_name: 2E5SBA
+  - row_type: Eq
+    row_name: 2E5SBK
+  - row_type: Eq
+    row_name: 2E5SG1
+  - row_type: Eq
+    row_name: 2E5WDK
+  - row_type: Eq
+    row_name: 2E6F0P
+  - row_type: Eq
+    row_name: 2E6G0P
+  - row_type: Eq
+    row_name: 2E6PMP
+  - row_type: Eq
+    row_name: 2E6RMP
+  - row_type: Leq
+    row_name: 2E7F0P
+  - row_type: Leq
+    row_name: 2E7F0S
+  - row_type: Leq
+    row_name: 2E7F0W
+  - row_type: Leq
+    row_name: 2E7F0Y
+  - row_type: Leq
+    row_name: 2E7G0A
+  - row_type: Leq
+    row_name: 2E7G0B
+  - row_type: Leq
+    row_name: 2E7G0P
+  - row_type: Leq
+    row_name: 2E7G0Q
+  - row_type: Leq
+    row_name: 2E7G0S
+  - row_type: Leq
+    row_name: 2E7G0T
+  - row_type: Eq
+    row_name: 2E7PMA
+  - row_type: Leq
+    row_name: 2E7PME
+  - row_type: Leq
+    row_name: 2E7PMJ
+  - row_type: Eq
+    row_name: 2E7PMK
+  - row_type: Leq
+    row_name: 2E7PML
+  - row_type: Eq
+    row_name: 2E7RMA
+  - row_type: Leq
+    row_name: 2E7RMJ
+  - row_type: Leq
+    row_name: 2E7RMK
+  - row_type: Leq
+    row_name: 2E7RML
+  - row_type: Eq
+    row_name: 2E8LSS
+  - row_type: Eq
+    row_name: 2E8RFF
+  - row_type: Eq
+    row_name: 2G0KWT
+  - row_type: Eq
+    row_name: 2G0NGF
+  - row_type: Eq
+    row_name: 2G0NGL
+  - row_type: Eq
+    row_name: 2G0NGM
+  - row_type: Eq
+    row_name: 2G0SAR
+  - row_type: Eq
+    row_name: 2G0SCH
+  - row_type: Eq
+    row_name: 2G0SCL
+  - row_type: Eq
+    row_name: 2G0SPK
+  - row_type: Eq
+    row_name: 2G0TJA
+  - row_type: Eq
+    row_name: 2G0ZKM
+  - row_type: Eq
+    row_name: 2G0ZUE
+  - row_type: Eq
+    row_name: 2G01RH
+  - row_type: Eq
+    row_name: 2G01RL
+  - row_type: Leq
+    row_name: 2G1CCU
+  - row_type: Leq
+    row_name: 2G1CDU
+  - row_type: Leq
+    row_name: 2G1DHT
+  - row_type: Leq
+    row_name: 2G1PLT
+  - row_type: Leq
+    row_name: 2G1SDK
+  - row_type: Leq
+    row_name: 2G1VDU
+  - row_type: Leq
+    row_name: 2G1XLN
+  - row_type: Leq
+    row_name: 2G2PLT
+  - row_type: Leq
+    row_name: 2G3HDF
+  - row_type: Leq
+    row_name: 2G3HSB
+  - row_type: Leq
+    row_name: 2G3HTK
+  - row_type: Leq
+    row_name: 2G3JTY
+  - row_type: Leq
+    row_name: 2G3PLN
+  - row_type: Leq
+    row_name: 2G3PT5
+  - row_type: Leq
+    row_name: 2G3PT9
+  - row_type: Leq
+    row_name: 2G3RLD
+  - row_type: Leq
+    row_name: 2G31LG
+  - row_type: Leq
+    row_name: 2G4CLS
+  - row_type: Leq
+    row_name: 2G4C3K
+  - row_type: Leq
+    row_name: 2G4DLS
+  - row_type: Leq
+    row_name: 2G4GLS
+  - row_type: Leq
+    row_name: 2G4RLD
+  - row_type: Eq
+    row_name: 2G5CC1
+  - row_type: Eq
+    row_name: 2G5CC3
+  - row_type: Eq
+    row_name: 2G5CGK
+  - row_type: Eq
+    row_name: 2G5CGN
+  - row_type: Eq
+    row_name: 2G5CG0
+  - row_type: Eq
+    row_name: 2G5CG3
+  - row_type: Eq
+    row_name: 2G5GS1
+  - row_type: Eq
+    row_name: 2G5GS2
+  - row_type: Eq
+    row_name: 2G5HGA
+  - row_type: Eq
+    row_name: 2G5HGK
+  - row_type: Eq
+    row_name: 2G5HGN
+  - row_type: Eq
+    row_name: 2G5KR1
+  - row_type: Eq
+    row_name: 2G5LP3
+  - row_type: Eq
+    row_name: 2G5LP4
+  - row_type: Eq
+    row_name: 2G5NP1
+  - row_type: Eq
+    row_name: 2G5PT1
+  - row_type: Eq
+    row_name: 2G5PT2
+  - row_type: Eq
+    row_name: 2G5PT5
+  - row_type: Eq
+    row_name: 2G5PT7
+  - row_type: Eq
+    row_name: 2G5PT8
+  - row_type: Eq
+    row_name: 2G5PT9
+  - row_type: Eq
+    row_name: 2G5SB1
+  - row_type: Eq
+    row_name: 2G5SB2
+  - row_type: Eq
+    row_name: 2G5SB3
+  - row_type: Eq
+    row_name: 2G5SB4
+  - row_type: Eq
+    row_name: 2G5SB5
+  - row_type: Eq
+    row_name: 2G5SB6
+  - row_type: Eq
+    row_name: 2G5SG1
+  - row_type: Eq
+    row_name: 2G5SG2
+  - row_type: Eq
+    row_name: 2G5SG3
+  - row_type: Eq
+    row_name: 2G5WDK
+  - row_type: Eq
+    row_name: 2G5WDN
+  - row_type: Eq
+    row_name: 2G5WD1
+  - row_type: Eq
+    row_name: 2G5WD2
+  - row_type: Eq
+    row_name: 2G5WD3
+  - row_type: Eq
+    row_name: 2G5WD4
+  - row_type: Eq
+    row_name: 2G51S0
+  - row_type: Eq
+    row_name: 2G6F0P
+  - row_type: Eq
+    row_name: 2G6G0P
+  - row_type: Eq
+    row_name: 2G6LDP
+  - row_type: Eq
+    row_name: 2G6PMP
+  - row_type: Eq
+    row_name: 2G6RMP
+  - row_type: Leq
+    row_name: 2G7F0P
+  - row_type: Leq
+    row_name: 2G7F0Q
+  - row_type: Leq
+    row_name: 2G7F0S
+  - row_type: Leq
+    row_name: 2G7F0W
+  - row_type: Leq
+    row_name: 2G7F0Y
+  - row_type: Leq
+    row_name: 2G7G0Q
+  - row_type: Leq
+    row_name: 2G7G0R
+  - row_type: Leq
+    row_name: 2G7G0S
+  - row_type: Leq
+    row_name: 2G7G0T
+  - row_type: Eq
+    row_name: 2G7LDA
+  - row_type: Leq
+    row_name: 2G7LDC
+  - row_type: Leq
+    row_name: 2G7LD7
+  - row_type: Eq
+    row_name: 2G7PMA
+  - row_type: Eq
+    row_name: 2G7PME
+  - row_type: Leq
+    row_name: 2G7PMJ
+  - row_type: Leq
+    row_name: 2G7PMK
+  - row_type: Leq
+    row_name: 2G7PML
+  - row_type: Leq
+    row_name: 2G7PM0
+  - row_type: Leq
+    row_name: 2G7PM6
+  - row_type: Leq
+    row_name: 2G7RFW
+  - row_type: Eq
+    row_name: 2G7RMA
+  - row_type: Leq
+    row_name: 2G7RME
+  - row_type: Leq
+    row_name: 2G7RMJ
+  - row_type: Leq
+    row_name: 2G7RMK
+  - row_type: Leq
+    row_name: 2G7RML
+  - row_type: Leq
+    row_name: 2G7RM0
+  - row_type: Leq
+    row_name: 2G7RM6
+  - row_type: Eq
+    row_name: 2G8LSS
+  - row_type: Eq
+    row_name: 2G8RFF
+  - row_type: Eq
+    row_name: 2H0AG0
+  - row_type: Eq
+    row_name: 2H0BAS
+  - row_type: Eq
+    row_name: 2H0KG0
+  - row_type: Eq
+    row_name: 2H0KLD
+  - row_type: Eq
+    row_name: 2H0KNG
+  - row_type: Eq
+    row_name: 2H0KWT
+  - row_type: Eq
+    row_name: 2H0MRB
+  - row_type: Eq
+    row_name: 2H0NGF
+  - row_type: Eq
+    row_name: 2H0NGL
+  - row_type: Eq
+    row_name: 2H0NGM
+  - row_type: Eq
+    row_name: 2H0PTF
+  - row_type: Eq
+    row_name: 2H0QTR
+  - row_type: Eq
+    row_name: 2H0SAR
+  - row_type: Eq
+    row_name: 2H0SCH
+  - row_type: Eq
+    row_name: 2H0SCL
+  - row_type: Eq
+    row_name: 2H0SPK
+  - row_type: Eq
+    row_name: 2H0SPN
+  - row_type: Eq
+    row_name: 2H0TJA
+  - row_type: Eq
+    row_name: 2H0UMS
+  - row_type: Eq
+    row_name: 2H0ZUE
+  - row_type: Eq
+    row_name: 2H01MA
+  - row_type: Eq
+    row_name: 2H01RH
+  - row_type: Eq
+    row_name: 2H01RL
+  - row_type: Leq
+    row_name: 2H1ALK
+  - row_type: Leq
+    row_name: 2H1CCU
+  - row_type: Leq
+    row_name: 2H1CDU
+  - row_type: Leq
+    row_name: 2H1C3S
+  - row_type: Leq
+    row_name: 2H1DEB
+  - row_type: Leq
+    row_name: 2H1DES
+  - row_type: Leq
+    row_name: 2H1HYD
+  - row_type: Leq
+    row_name: 2H1KRR
+  - row_type: Leq
+    row_name: 2H1NPF
+  - row_type: Leq
+    row_name: 2H1PLT
+  - row_type: Leq
+    row_name: 2H1SDK
+  - row_type: Leq
+    row_name: 2H1VDU
+  - row_type: Leq
+    row_name: 2H1VD1
+  - row_type: Leq
+    row_name: 2H1WCU
+  - row_type: Leq
+    row_name: 2H11C5
+  - row_type: Leq
+    row_name: 2H2PLT
+  - row_type: Leq
+    row_name: 2H2RFF
+  - row_type: Leq
+    row_name: 2H3CD1
+  - row_type: Leq
+    row_name: 2H3F1P
+  - row_type: Leq
+    row_name: 2H3F2D
+  - row_type: Leq
+    row_name: 2H3F2P
+  - row_type: Leq
+    row_name: 2H3HD4
+  - row_type: Leq
+    row_name: 2H3HLF
+  - row_type: Leq
+    row_name: 2H3HMS
+  - row_type: Leq
+    row_name: 2H3HTK
+  - row_type: Leq
+    row_name: 2H3HYD
+  - row_type: Eq
+    row_name: 2H3LG0
+  - row_type: Leq
+    row_name: 2H3NPK
+  - row_type: Leq
+    row_name: 2H3NPL
+  - row_type: Leq
+    row_name: 2H3PAX
+  - row_type: Leq
+    row_name: 2H3PTM
+  - row_type: Leq
+    row_name: 2H3RFF
+  - row_type: Eq
+    row_name: 2H3VG0
+  - row_type: Leq
+    row_name: 2H30RX
+  - row_type: Leq
+    row_name: 2H31SB
+  - row_type: Eq
+    row_name: 2H5ARL
+  - row_type: Eq
+    row_name: 2H5CCH
+  - row_type: Eq
+    row_name: 2H5CCL
+  - row_type: Eq
+    row_name: 2H5CGH
+  - row_type: Eq
+    row_name: 2H5GS1
+  - row_type: Eq
+    row_name: 2H5HGL
+  - row_type: Eq
+    row_name: 2H5KRA
+  - row_type: Eq
+    row_name: 2H5KRK
+  - row_type: Eq
+    row_name: 2H5LPG
+  - row_type: Eq
+    row_name: 2H5LP2
+  - row_type: Eq
+    row_name: 2H5LP3
+  - row_type: Eq
+    row_name: 2H5LP4
+  - row_type: Eq
+    row_name: 2H5NP1
+  - row_type: Eq
+    row_name: 2H5PTF
+  - row_type: Eq
+    row_name: 2H5PTH
+  - row_type: Eq
+    row_name: 2H5PTL
+  - row_type: Eq
+    row_name: 2H5PTM
+  - row_type: Eq
+    row_name: 2H5SBA
+  - row_type: Eq
+    row_name: 2H5SBK
+  - row_type: Eq
+    row_name: 2H5SB1
+  - row_type: Eq
+    row_name: 2H5SB2
+  - row_type: Eq
+    row_name: 2H5SB3
+  - row_type: Eq
+    row_name: 2H5SGA
+  - row_type: Eq
+    row_name: 2H5SGK
+  - row_type: Eq
+    row_name: 2H5SG1
+  - row_type: Eq
+    row_name: 2H5SG2
+  - row_type: Eq
+    row_name: 2H5SG3
+  - row_type: Eq
+    row_name: 2H5VGK
+  - row_type: Eq
+    row_name: 2H5VGN
+  - row_type: Eq
+    row_name: 2H5WDK
+  - row_type: Eq
+    row_name: 2H5WDN
+  - row_type: Eq
+    row_name: 2H6ATP
+  - row_type: Eq
+    row_name: 2H6F0P
+  - row_type: Eq
+    row_name: 2H6G0P
+  - row_type: Eq
+    row_name: 2H6PMP
+  - row_type: Eq
+    row_name: 2H6RMP
+  - row_type: Leq
+    row_name: 2H7ATA
+  - row_type: Leq
+    row_name: 2H7ATE
+  - row_type: Leq
+    row_name: 2H7ATH
+  - row_type: Leq
+    row_name: 2H7ATR
+  - row_type: Leq
+    row_name: 2H7ATY
+  - row_type: Leq
+    row_name: 2H7D4S
+  - row_type: Leq
+    row_name: 2H7F0P
+  - row_type: Leq
+    row_name: 2H7F0S
+  - row_type: Leq
+    row_name: 2H7F0W
+  - row_type: Leq
+    row_name: 2H7F0Y
+  - row_type: Leq
+    row_name: 2H7G0R
+  - row_type: Leq
+    row_name: 2H7G0S
+  - row_type: Leq
+    row_name: 2H7G0T
+  - row_type: Eq
+    row_name: 2H7PMA
+  - row_type: Leq
+    row_name: 2H7PMH
+  - row_type: Leq
+    row_name: 2H7PMK
+  - row_type: Leq
+    row_name: 2H7PML
+  - row_type: Leq
+    row_name: 2H7PM0
+  - row_type: Leq
+    row_name: 2H7PM6
+  - row_type: Eq
+    row_name: 2H7RMA
+  - row_type: Leq
+    row_name: 2H7RME
+  - row_type: Leq
+    row_name: 2H7RMH
+  - row_type: Leq
+    row_name: 2H7RMK
+  - row_type: Leq
+    row_name: 2H7RML
+  - row_type: Leq
+    row_name: 2H7RM0
+  - row_type: Leq
+    row_name: 2H7RM6
+  - row_type: Eq
+    row_name: 2H8LSS
+  - row_type: Eq
+    row_name: 2H8RFF
+  - row_type: Eq
+    row_name: 2J0BAS
+  - row_type: Eq
+    row_name: 2J0ELM
+  - row_type: Eq
+    row_name: 2J0KWT
+  - row_type: Eq
+    row_name: 2J0MRB
+  - row_type: Eq
+    row_name: 2J0PT4
+  - row_type: Eq
+    row_name: 2J0QTR
+  - row_type: Eq
+    row_name: 2J0SPK
+  - row_type: Eq
+    row_name: 2J0UMS
+  - row_type: Eq
+    row_name: 2J0ZKM
+  - row_type: Eq
+    row_name: 2J01RH
+  - row_type: Eq
+    row_name: 2J01RL
+  - row_type: Leq
+    row_name: 2J1AUT
+  - row_type: Leq
+    row_name: 2J1CDU
+  - row_type: Leq
+    row_name: 2J1PLT
+  - row_type: Leq
+    row_name: 2J1SDK
+  - row_type: Leq
+    row_name: 2J3ATG
+  - row_type: Leq
+    row_name: 2J3HTK
+  - row_type: Eq
+    row_name: 2J5ARE
+  - row_type: Eq
+    row_name: 2J5ARG
+  - row_type: Eq
+    row_name: 2J5EXT
+  - row_type: Eq
+    row_name: 2J5GS1
+  - row_type: Eq
+    row_name: 2J5HG1
+  - row_type: Eq
+    row_name: 2J5KRE
+  - row_type: Eq
+    row_name: 2J5KRK
+  - row_type: Eq
+    row_name: 2J5KR1
+  - row_type: Eq
+    row_name: 2J5NP1
+  - row_type: Eq
+    row_name: 2J5SBA
+  - row_type: Eq
+    row_name: 2J5SBK
+  - row_type: Eq
+    row_name: 2J5SGK
+  - row_type: Eq
+    row_name: 2J5SG1
+  - row_type: Eq
+    row_name: 2J6ATG
+  - row_type: Eq
+    row_name: 2J6F0P
+  - row_type: Eq
+    row_name: 2J6G0P
+  - row_type: Eq
+    row_name: 2J6PMP
+  - row_type: Eq
+    row_name: 2J6RMP
+  - row_type: Eq
+    row_name: 2J7ATA
+  - row_type: Eq
+    row_name: 2J7ATH
+  - row_type: Leq
+    row_name: 2J7ATR
+  - row_type: Leq
+    row_name: 2J7F0P
+  - row_type: Leq
+    row_name: 2J7F0Q
+  - row_type: Leq
+    row_name: 2J7F0S
+  - row_type: Leq
+    row_name: 2J7F0W
+  - row_type: Leq
+    row_name: 2J7F0Y
+  - row_type: Leq
+    row_name: 2J7G0B
+  - row_type: Leq
+    row_name: 2J7G0Q
+  - row_type: Leq
+    row_name: 2J7G0R
+  - row_type: Leq
+    row_name: 2J7G0S
+  - row_type: Eq
+    row_name: 2J7PMA
+  - row_type: Leq
+    row_name: 2J7PME
+  - row_type: Leq
+    row_name: 2J7PMJ
+  - row_type: Eq
+    row_name: 2J7PMK
+  - row_type: Eq
+    row_name: 2J7PML
+  - row_type: Leq
+    row_name: 2J7PM1
+  - row_type: Eq
+    row_name: 2J7RMA
+  - row_type: Leq
+    row_name: 2J7RME
+  - row_type: Leq
+    row_name: 2J7RMJ
+  - row_type: Leq
+    row_name: 2J7RMK
+  - row_type: Eq
+    row_name: 2J7RML
+  - row_type: Eq
+    row_name: 2J8LSS
+  - row_type: Eq
+    row_name: 2J8RFF
+  - row_type: Eq
+    row_name: 2J8RF0
+  - row_type: Eq
+    row_name: 2S0BAS
+  - row_type: Eq
+    row_name: 2S0KWT
+  - row_type: Eq
+    row_name: 2S0NGF
+  - row_type: Eq
+    row_name: 2S0NGM
+  - row_type: Eq
+    row_name: 2S0TJA
+  - row_type: Eq
+    row_name: 2S0ZKM
+  - row_type: Eq
+    row_name: 2S0ZUE
+  - row_type: Eq
+    row_name: 2S01RH
+  - row_type: Eq
+    row_name: 2S01RL
+  - row_type: Leq
+    row_name: 2S1CDU
+  - row_type: Leq
+    row_name: 2S1DHT
+  - row_type: Leq
+    row_name: 2S1PLT
+  - row_type: Leq
+    row_name: 2S2PLT
+  - row_type: Leq
+    row_name: 2S3CL1
+  - row_type: Leq
+    row_name: 2S3FLR
+  - row_type: Leq
+    row_name: 2S3HSB
+  - row_type: Leq
+    row_name: 2S3SLD
+  - row_type: Leq
+    row_name: 2S31S1
+  - row_type: Eq
+    row_name: 2S5GS1
+  - row_type: Eq
+    row_name: 2S5HG0
+  - row_type: Eq
+    row_name: 2S5KR0
+  - row_type: Eq
+    row_name: 2S5NPA
+  - row_type: Eq
+    row_name: 2S5SB1
+  - row_type: Eq
+    row_name: 2S5SB2
+  - row_type: Eq
+    row_name: 2S5SB3
+  - row_type: Eq
+    row_name: 2S5SG1
+  - row_type: Eq
+    row_name: 2S6F0P
+  - row_type: Eq
+    row_name: 2S6G0P
+  - row_type: Eq
+    row_name: 2S6PMP
+  - row_type: Eq
+    row_name: 2S6RMP
+  - row_type: Leq
+    row_name: 2S7F0P
+  - row_type: Leq
+    row_name: 2S7F0Q
+  - row_type: Leq
+    row_name: 2S7F0S
+  - row_type: Leq
+    row_name: 2S7F0W
+  - row_type: Leq
+    row_name: 2S7F0Y
+  - row_type: Leq
+    row_name: 2S7G0Q
+  - row_type: Leq
+    row_name: 2S7G0R
+  - row_type: Leq
+    row_name: 2S7G0S
+  - row_type: Leq
+    row_name: 2S7G0T
+  - row_type: Eq
+    row_name: 2S7PMA
+  - row_type: Leq
+    row_name: 2S7PME
+  - row_type: Leq
+    row_name: 2S7PMJ
+  - row_type: Leq
+    row_name: 2S7PMK
+  - row_type: Leq
+    row_name: 2S7PML
+  - row_type: Eq
+    row_name: 2S7RMA
+  - row_type: Leq
+    row_name: 2S7RME
+  - row_type: Leq
+    row_name: 2S7RMJ
+  - row_type: Leq
+    row_name: 2S7RMK
+  - row_type: Leq
+    row_name: 2S7RML
+  - row_type: Leq
+    row_name: 2S7SGC
+  - row_type: Eq
+    row_name: 2S8LSS
+  - row_type: Eq
+    row_name: 2S8RFL
+  - row_type: Eq
+    row_name: 2X5NPM
+  - row_type: Eq
+    row_name: 2Y0KWT
+  - row_type: Leq
+    row_name: 2Y1CDU
+  - row_type: Eq
+    row_name: 2Z0ABA
+  - row_type: Eq
+    row_name: 2301GG
+  - row_type: Eq
+    row_name: 330F8F
+  - row_type: Eq
+    row_name: 330F9U
+  - row_type: Eq
+    row_name: 330PMF
+  - row_type: Eq
+    row_name: 330RMF
+  - row_type: Eq
+    row_name: 330XGF
+  - row_type: Eq
+    row_name: 340XGF
+  - row_type: Eq
+    row_name: 350F8F
+  - row_type: Eq
+    row_name: 350PMF
+  - row_type: Eq
+    row_name: 350RMF
+  - row_type: Eq
+    row_name: 350XGF
+  - row_type: Eq
+    row_name: 390PMF
+  - row_type: Eq
+    row_name: 390RMF
+  - row_type: Eq
+    row_name: 390XGF
+  - row_type: Eq
+    row_name: 4A01RL
+  - row_type: Eq
+    row_name: 4A91RL
+  - row_type: Eq
+    row_name: 4B0BAS
+  - row_type: Eq
+    row_name: 4C0ZRZ
+  - row_type: Eq
+    row_name: 4G01RH
+  - row_type: Eq
+    row_name: 4H0HSM
+  - row_type: Eq
+    row_name: 4J0GBN
+  - row_type: Eq
+    row_name: 4K0KWT
+  - row_type: Eq
+    row_name: 4K9KWT
+  - row_type: Eq
+    row_name: 4L0SAR
+  - row_type: Eq
+    row_name: 4M0MRB
+  - row_type: Eq
+    row_name: 4N0NGL
+  - row_type: Eq
+    row_name: 4P0NGM
+  - row_type: Eq
+    row_name: 4Q0QTR
+  - row_type: Eq
+    row_name: 4R01MA
+  - row_type: Eq
+    row_name: 4T0TJA
+  - row_type: Eq
+    row_name: 4U0UMS
+  - row_type: Eq
+    row_name: 4V0GPP
+  - row_type: Eq
+    row_name: 4W0BRW
+  - row_type: Eq
+    row_name: 4X0ZUE
+  - row_type: Eq
+    row_name: 4Y0AZW
+  - row_type: Eq
+    row_name: 4Z0ZKM
+  - row_type: Eq
+    row_name: 400AGG
+  - row_type: Eq
+    row_name: 400BTN
+  - row_type: Eq
+    row_name: 400F7G
+  - row_type: Eq
+    row_name: 400PMG
+  - row_type: Eq
+    row_name: 400RMG
+  - row_type: Eq
+    row_name: 4001GG
+  - row_type: Eq
+    row_name: 410AGG
+  - row_type: Eq
+    row_name: 410ATK
+  - row_type: Eq
+    row_name: 410BTN
+  - row_type: Eq
+    row_name: 410F7G
+  - row_type: Eq
+    row_name: 410PMG
+  - row_type: Eq
+    row_name: 410RMG
+  - row_type: Eq
+    row_name: 4101GG
+  - row_type: Eq
+    row_name: 420AGG
+  - row_type: Eq
+    row_name: 420BTN
+  - row_type: Eq
+    row_name: 420F7G
+  - row_type: Eq
+    row_name: 420PMG
+  - row_type: Eq
+    row_name: 420RMG
+  - row_type: Eq
+    row_name: 4201GG
+  - row_type: Eq
+    row_name: 430AGG
+  - row_type: Eq
+    row_name: 430PMG
+  - row_type: Eq
+    row_name: 430RMG
+  - row_type: Eq
+    row_name: 4301GG
+  - row_type: Eq
+    row_name: 440F9G
+  - row_type: Eq
+    row_name: 450AGG
+  - row_type: Eq
+    row_name: 450PMG
+  - row_type: Eq
+    row_name: 450RMG
+  - row_type: Eq
+    row_name: 4501GG
+  - row_type: Eq
+    row_name: 460F7G
+  - row_type: Eq
+    row_name: 480F8G
+  - row_type: Eq
+    row_name: 4811GG
+  - row_type: Eq
+    row_name: 4901GG
+  - row_type: Eq
+    row_name: 5G0GAM
+  - row_type: Eq
+    row_name: 5J01MB
+  - row_type: Eq
+    row_name: 5P0NGF
+  - row_type: Eq
+    row_name: 500AGX
+  - row_type: Eq
+    row_name: 500ATK
+  - row_type: Eq
+    row_name: 500F1X
+  - row_type: Eq
+    row_name: 500F4X
+  - row_type: Eq
+    row_name: 500PMX
+  - row_type: Eq
+    row_name: 500RMX
+  - row_type: Eq
+    row_name: 5001GX
+  - row_type: Eq
+    row_name: 510AGX
+  - row_type: Eq
+    row_name: 510F1X
+  - row_type: Eq
+    row_name: 510PMX
+  - row_type: Eq
+    row_name: 510RMX
+  - row_type: Eq
+    row_name: 5101GX
+  - row_type: Eq
+    row_name: 550AGX
+  - row_type: Eq
+    row_name: 550ATK
+  - row_type: Eq
+    row_name: 550F1X
+  - row_type: Eq
+    row_name: 550F4X
+  - row_type: Eq
+    row_name: 550PMX
+  - row_type: Eq
+    row_name: 550RMX
+  - row_type: Eq
+    row_name: 5501GX
+  - row_type: Eq
+    row_name: 600F5T
+  - row_type: Eq
+    row_name: 620ATK
+  - row_type: Eq
+    row_name: 630ATK
+  - row_type: Eq
+    row_name: 630PMT
+  - row_type: Eq
+    row_name: 630RMT
+  - row_type: Eq
+    row_name: 640DGT
+  - row_type: Eq
+    row_name: 640F0T
+  - row_type: Eq
+    row_name: 640F5T
+  - row_type: Eq
+    row_name: 680ATK
+  - row_type: Eq
+    row_name: 690ATK
+  - row_type: Eq
+    row_name: 690DGT
+  - row_type: Eq
+    row_name: 690F0T
+  - row_type: Eq
+    row_name: 690F2T
+  - row_type: Eq
+    row_name: 690F5T
+  - row_type: Eq
+    row_name: 690PMT
+  - row_type: Eq
+    row_name: 690RMT
+  - row_type: Eq
+    row_name: 690WGT
+  - row_type: Eq
+    row_name: 7A0AGS
+  - row_type: Eq
+    row_name: 7A0ATK
+  - row_type: Eq
+    row_name: 7A0DGR
+  - row_type: Eq
+    row_name: 7A0DGT
+  - row_type: Eq
+    row_name: 7A0FYY
+  - row_type: Eq
+    row_name: 7A0FZZ
+  - row_type: Eq
+    row_name: 7A0F0T
+  - row_type: Eq
+    row_name: 7A0F1S
+  - row_type: Eq
+    row_name: 7A0F3S
+  - row_type: Eq
+    row_name: 7A0F4Y
+  - row_type: Eq
+    row_name: 7A0F5T
+  - row_type: Eq
+    row_name: 7A0F6E
+  - row_type: Eq
+    row_name: 7A0F8T
+  - row_type: Eq
+    row_name: 7A0LGL
+  - row_type: Eq
+    row_name: 7A0LPG
+  - row_type: Eq
+    row_name: 7A0L04
+  - row_type: Eq
+    row_name: 7A0L07
+  - row_type: Eq
+    row_name: 7A0L09
+  - row_type: Eq
+    row_name: 7A0L12
+  - row_type: Eq
+    row_name: 7A01GG
+  - row_type: Eq
+    row_name: 7A11GG
+  - row_type: Eq
+    row_name: 7A41GU
+  - row_type: Eq
+    row_name: 7A71GU
+  - row_type: Eq
+    row_name: 7B0AGS
+  - row_type: Eq
+    row_name: 7B0AGX
+  - row_type: Eq
+    row_name: 7B0ATK
+  - row_type: Eq
+    row_name: 7B0DDH
+  - row_type: Eq
+    row_name: 7B0DGH
+  - row_type: Eq
+    row_name: 7B0F3H
+  - row_type: Eq
+    row_name: 7B0F4H
+  - row_type: Eq
+    row_name: 7B0F4U
+  - row_type: Eq
+    row_name: 7B0F5E
+  - row_type: Eq
+    row_name: 7B0F6H
+  - row_type: Eq
+    row_name: 7B0F6U
+  - row_type: Eq
+    row_name: 7B0F7U
+  - row_type: Eq
+    row_name: 7B0F8H
+  - row_type: Eq
+    row_name: 7B0F9G
+  - row_type: Eq
+    row_name: 7B0F9H
+  - row_type: Eq
+    row_name: 7B0L06
+  - row_type: Eq
+    row_name: 7B0L07
+  - row_type: Eq
+    row_name: 7B0PMH
+  - row_type: Eq
+    row_name: 7B0PMS
+  - row_type: Eq
+    row_name: 7B0PMU
+  - row_type: Eq
+    row_name: 7B0PMX
+  - row_type: Eq
+    row_name: 7B0RGK
+  - row_type: Eq
+    row_name: 7B0RMH
+  - row_type: Eq
+    row_name: 7B0RMS
+  - row_type: Eq
+    row_name: 7B0RMU
+  - row_type: Eq
+    row_name: 7B0RMX
+  - row_type: Eq
+    row_name: 7B0WGS
+  - row_type: Eq
+    row_name: 7B01GG
+  - row_type: Eq
+    row_name: 7B01GX
+  - row_type: Eq
+    row_name: 7D0AGG
+  - row_type: Eq
+    row_name: 7D0ATK
+  - row_type: Eq
+    row_name: 7D0BTN
+  - row_type: Eq
+    row_name: 7D0F5G
+  - row_type: Eq
+    row_name: 7D0F7G
+  - row_type: Eq
+    row_name: 7D0L07
+  - row_type: Eq
+    row_name: 7D0PAX
+  - row_type: Eq
+    row_name: 7D0PMG
+  - row_type: Eq
+    row_name: 7D0RMG
+  - row_type: Eq
+    row_name: 7D01GG
+  - row_type: Eq
+    row_name: 7G0AGG
+  - row_type: Eq
+    row_name: 7G0ATK
+  - row_type: Eq
+    row_name: 7G0BTN
+  - row_type: Eq
+    row_name: 7G0F1X
+  - row_type: Eq
+    row_name: 7G0F4H
+  - row_type: Eq
+    row_name: 7G0F4X
+  - row_type: Eq
+    row_name: 7G0F5G
+  - row_type: Eq
+    row_name: 7G0F7G
+  - row_type: Eq
+    row_name: 7G0F9H
+  - row_type: Eq
+    row_name: 7G0GNP
+  - row_type: Eq
+    row_name: 7G0KNP
+  - row_type: Eq
+    row_name: 7G0L07
+  - row_type: Eq
+    row_name: 7G0PAX
+  - row_type: Eq
+    row_name: 7G0PMG
+  - row_type: Eq
+    row_name: 7G0PMX
+  - row_type: Eq
+    row_name: 7G0RMG
+  - row_type: Eq
+    row_name: 7G00RX
+  - row_type: Eq
+    row_name: 7G01GG
+  - row_type: Eq
+    row_name: 7H0ATK
+  - row_type: Eq
+    row_name: 7J0ATK
+  - row_type: Eq
+    row_name: 7J0BTN
+  - row_type: Eq
+    row_name: 7J0F0F
+  - row_type: Eq
+    row_name: 7J0F3F
+  - row_type: Eq
+    row_name: 7J0F6F
+  - row_type: Eq
+    row_name: 7J0F8F
+  - row_type: Eq
+    row_name: 7J0L04
+  - row_type: Eq
+    row_name: 7J0L07
+  - row_type: Eq
+    row_name: 7J0PMF
+  - row_type: Eq
+    row_name: 7J0RMF
+  - row_type: Eq
+    row_name: 7J0XGF
+  - row_type: Eq
+    row_name: 7K0AGG
+  - row_type: Eq
+    row_name: 7K0ATK
+  - row_type: Eq
+    row_name: 7K0BTN
+  - row_type: Eq
+    row_name: 7K0DDG
+  - row_type: Eq
+    row_name: 7K0F5G
+  - row_type: Eq
+    row_name: 7K0F7G
+  - row_type: Eq
+    row_name: 7K0F8G
+  - row_type: Eq
+    row_name: 7K0L07
+  - row_type: Eq
+    row_name: 7K0PMG
+  - row_type: Eq
+    row_name: 7K0RMG
+  - row_type: Eq
+    row_name: 7K0RM0
+  - row_type: Eq
+    row_name: 7K0RN0
+  - row_type: Eq
+    row_name: 7K0RS0
+  - row_type: Eq
+    row_name: 7K01GG
+  - row_type: Eq
+    row_name: 7L0AGB
+  - row_type: Eq
+    row_name: 7L0AGS
+  - row_type: Eq
+    row_name: 7L0AGU
+  - row_type: Eq
+    row_name: 7L0ATG
+  - row_type: Eq
+    row_name: 7L0ATK
+  - row_type: Eq
+    row_name: 7L0AVC
+  - row_type: Eq
+    row_name: 7L0BTN
+  - row_type: Eq
+    row_name: 7L0DDB
+  - row_type: Eq
+    row_name: 7L0F1B
+  - row_type: Eq
+    row_name: 7L0F2B
+  - row_type: Eq
+    row_name: 7L0F3B
+  - row_type: Eq
+    row_name: 7L0F4B
+  - row_type: Eq
+    row_name: 7L0F6B
+  - row_type: Eq
+    row_name: 7L0F7U
+  - row_type: Eq
+    row_name: 7L0F9B
+  - row_type: Eq
+    row_name: 7L0LHB
+  - row_type: Eq
+    row_name: 7L0L04
+  - row_type: Eq
+    row_name: 7L0L07
+  - row_type: Eq
+    row_name: 7L0PMB
+  - row_type: Eq
+    row_name: 7L0PMS
+  - row_type: Eq
+    row_name: 7L0PMU
+  - row_type: Eq
+    row_name: 7L0PMX
+  - row_type: Eq
+    row_name: 7L0PMZ
+  - row_type: Eq
+    row_name: 7L0PTH
+  - row_type: Eq
+    row_name: 7L0RMB
+  - row_type: Eq
+    row_name: 7L0RMG
+  - row_type: Eq
+    row_name: 7L0RMS
+  - row_type: Eq
+    row_name: 7L0RMU
+  - row_type: Eq
+    row_name: 7L0RMX
+  - row_type: Eq
+    row_name: 7L0SBP
+  - row_type: Eq
+    row_name: 7L0TV0
+  - row_type: Eq
+    row_name: 7L0WST
+  - row_type: Eq
+    row_name: 7L01GB
+  - row_type: Eq
+    row_name: 7L01GG
+  - row_type: Eq
+    row_name: 7L01GX
+  - row_type: Eq
+    row_name: 7M0AGG
+  - row_type: Eq
+    row_name: 7M0AGX
+  - row_type: Eq
+    row_name: 7M0ATK
+  - row_type: Eq
+    row_name: 7M0BTN
+  - row_type: Eq
+    row_name: 7M0F0F
+  - row_type: Eq
+    row_name: 7M0F1X
+  - row_type: Eq
+    row_name: 7M0F3F
+  - row_type: Eq
+    row_name: 7M0F6F
+  - row_type: Eq
+    row_name: 7M0F7G
+  - row_type: Eq
+    row_name: 7M0F8F
+  - row_type: Eq
+    row_name: 7M0L04
+  - row_type: Eq
+    row_name: 7M0PMF
+  - row_type: Eq
+    row_name: 7M0PMX
+  - row_type: Eq
+    row_name: 7M0RMF
+  - row_type: Eq
+    row_name: 7M0RMG
+  - row_type: Eq
+    row_name: 7M0RMX
+  - row_type: Eq
+    row_name: 7M0WGF
+  - row_type: Eq
+    row_name: 7M0WST
+  - row_type: Eq
+    row_name: 7M0XGF
+  - row_type: Eq
+    row_name: 7M01GG
+  - row_type: Eq
+    row_name: 7N0AGF
+  - row_type: Eq
+    row_name: 7N0ATK
+  - row_type: Eq
+    row_name: 7N0DDF
+  - row_type: Eq
+    row_name: 7N0F0F
+  - row_type: Eq
+    row_name: 7N0F3F
+  - row_type: Eq
+    row_name: 7N0F5F
+  - row_type: Eq
+    row_name: 7N0F6F
+  - row_type: Eq
+    row_name: 7N0F6U
+  - row_type: Eq
+    row_name: 7N0F7F
+  - row_type: Eq
+    row_name: 7N0F7U
+  - row_type: Eq
+    row_name: 7N0F8F
+  - row_type: Eq
+    row_name: 7N0F8U
+  - row_type: Eq
+    row_name: 7N0F9F
+  - row_type: Eq
+    row_name: 7N0F9S
+  - row_type: Eq
+    row_name: 7N0F9U
+  - row_type: Eq
+    row_name: 7N0LUC
+  - row_type: Eq
+    row_name: 7N0LUK
+  - row_type: Eq
+    row_name: 7N0L04
+  - row_type: Eq
+    row_name: 7N0L07
+  - row_type: Eq
+    row_name: 7N0L12
+  - row_type: Eq
+    row_name: 7N0PMF
+  - row_type: Eq
+    row_name: 7N0PMU
+  - row_type: Eq
+    row_name: 7N0RMF
+  - row_type: Eq
+    row_name: 7N0RMU
+  - row_type: Eq
+    row_name: 7N0WGS
+  - row_type: Eq
+    row_name: 7N0XGF
+  - row_type: Eq
+    row_name: 7N01GG
+  - row_type: Eq
+    row_name: 7N7XGF
+  - row_type: Eq
+    row_name: 7Q0AGX
+  - row_type: Eq
+    row_name: 7Q0ATK
+  - row_type: Eq
+    row_name: 7Q0BNZ
+  - row_type: Eq
+    row_name: 7Q0BTN
+  - row_type: Eq
+    row_name: 7Q0DDF
+  - row_type: Eq
+    row_name: 7Q0F0F
+  - row_type: Eq
+    row_name: 7Q0F1F
+  - row_type: Eq
+    row_name: 7Q0F3F
+  - row_type: Eq
+    row_name: 7Q0F6F
+  - row_type: Eq
+    row_name: 7Q0F7U
+  - row_type: Eq
+    row_name: 7Q0F8F
+  - row_type: Eq
+    row_name: 7Q0F8U
+  - row_type: Eq
+    row_name: 7Q0F9F
+  - row_type: Eq
+    row_name: 7Q0F9U
+  - row_type: Eq
+    row_name: 7Q0L04
+  - row_type: Eq
+    row_name: 7Q0L07
+  - row_type: Eq
+    row_name: 7Q0PMF
+  - row_type: Eq
+    row_name: 7Q0PMU
+  - row_type: Eq
+    row_name: 7Q0PMX
+  - row_type: Eq
+    row_name: 7Q0PTN
+  - row_type: Eq
+    row_name: 7Q0RMF
+  - row_type: Eq
+    row_name: 7Q0RMU
+  - row_type: Eq
+    row_name: 7Q0WGF
+  - row_type: Eq
+    row_name: 7Q0WGS
+  - row_type: Eq
+    row_name: 7Q0XGF
+  - row_type: Eq
+    row_name: 7Q01GG
+  - row_type: Eq
+    row_name: 7Q7XGF
+  - row_type: Eq
+    row_name: 7R0AGX
+  - row_type: Eq
+    row_name: 7R0ATK
+  - row_type: Eq
+    row_name: 7R0DGT
+  - row_type: Eq
+    row_name: 7R0F0T
+  - row_type: Eq
+    row_name: 7R0F2T
+  - row_type: Eq
+    row_name: 7R0F5T
+  - row_type: Eq
+    row_name: 7R0LPG
+  - row_type: Eq
+    row_name: 7R0L07
+  - row_type: Eq
+    row_name: 7R0L12
+  - row_type: Eq
+    row_name: 7R0PMT
+  - row_type: Eq
+    row_name: 7R0PMX
+  - row_type: Eq
+    row_name: 7R0RMT
+  - row_type: Eq
+    row_name: 7R0RMX
+  - row_type: Eq
+    row_name: 7R01GG
+  - row_type: Eq
+    row_name: 7R01GX
+  - row_type: Eq
+    row_name: 7R41GU
+  - row_type: Eq
+    row_name: 7R71GU
+  - row_type: Eq
+    row_name: 7T0AGS
+  - row_type: Eq
+    row_name: 7T0ATK
+  - row_type: Eq
+    row_name: 7T0DGR
+  - row_type: Eq
+    row_name: 7T0DGT
+  - row_type: Eq
+    row_name: 7T0F0T
+  - row_type: Eq
+    row_name: 7T0F2T
+  - row_type: Eq
+    row_name: 7T0F5T
+  - row_type: Eq
+    row_name: 7T0LPG
+  - row_type: Eq
+    row_name: 7T0L04
+  - row_type: Eq
+    row_name: 7T0L07
+  - row_type: Eq
+    row_name: 7T0L12
+  - row_type: Eq
+    row_name: 7T0PMT
+  - row_type: Eq
+    row_name: 7T0RMT
+  - row_type: Eq
+    row_name: 7T01GG
+  - row_type: Eq
+    row_name: 7T41GU
+  - row_type: Eq
+    row_name: 7T71GU
+  - row_type: Eq
+    row_name: 7U0ATK
+  - row_type: Eq
+    row_name: 7U0BTN
+  - row_type: Eq
+    row_name: 7U0DGT
+  - row_type: Eq
+    row_name: 7U0F0T
+  - row_type: Eq
+    row_name: 7U0F2T
+  - row_type: Eq
+    row_name: 7U0F5T
+  - row_type: Eq
+    row_name: 7U0LPG
+  - row_type: Eq
+    row_name: 7U0L04
+  - row_type: Eq
+    row_name: 7U0L09
+  - row_type: Eq
+    row_name: 7U0PMT
+  - row_type: Eq
+    row_name: 7U0RMT
+  - row_type: Eq
+    row_name: 7U01GG
+  - row_type: Eq
+    row_name: 7U1ATK
+  - row_type: Eq
+    row_name: 7W0ATK
+  - row_type: Eq
+    row_name: 7W0DGT
+  - row_type: Eq
+    row_name: 7W0F0T
+  - row_type: Eq
+    row_name: 7W0F2T
+  - row_type: Eq
+    row_name: 7W0F5T
+  - row_type: Eq
+    row_name: 7W0LPG
+  - row_type: Eq
+    row_name: 7W0PMT
+  - row_type: Eq
+    row_name: 7W0RMT
+  - row_type: Eq
+    row_name: 7W0RMX
+  - row_type: Eq
+    row_name: 7W01GX
+  - row_type: Eq
+    row_name: 7X0F1X
+  - row_type: Eq
+    row_name: 7X0PMX
+  - row_type: Eq
+    row_name: 7X0RMX
+  - row_type: Eq
+    row_name: 7X01GX
+  - row_type: Eq
+    row_name: 760F5L
+  - row_type: Eq
+    row_name: 8A0AGA
+  - row_type: Eq
+    row_name: 8A0AGS
+  - row_type: Eq
+    row_name: 8A0ATK
+  - row_type: Eq
+    row_name: 8A0BTN
+  - row_type: Eq
+    row_name: 8A0DGA
+  - row_type: Eq
+    row_name: 8A0F2A
+  - row_type: Eq
+    row_name: 8A0F3A
+  - row_type: Eq
+    row_name: 8A0F4A
+  - row_type: Eq
+    row_name: 8A0F5A
+  - row_type: Eq
+    row_name: 8A0F6A
+  - row_type: Eq
+    row_name: 8A0F7A
+  - row_type: Eq
+    row_name: 8A0F8A
+  - row_type: Eq
+    row_name: 8A0LGS
+  - row_type: Eq
+    row_name: 8A0LUB
+  - row_type: Eq
+    row_name: 8A0L04
+  - row_type: Eq
+    row_name: 8A0MDA
+  - row_type: Eq
+    row_name: 8A0PMA
+  - row_type: Eq
+    row_name: 8A0RMA
+  - row_type: Eq
+    row_name: 8A0UGN
+  - row_type: Eq
+    row_name: 8A0WGA
+  - row_type: Eq
+    row_name: 8A0WGS
+  - row_type: Eq
+    row_name: 8A01GA
+  - row_type: Eq
+    row_name: 8A1F0A
+  - row_type: Eq
+    row_name: 8A1F8A
+  - row_type: Eq
+    row_name: 8A1LDA
+  - row_type: Eq
+    row_name: 8B0AGD
+  - row_type: Eq
+    row_name: 8B0AGS
+  - row_type: Eq
+    row_name: 8B0ATG
+  - row_type: Eq
+    row_name: 8B0ATK
+  - row_type: Eq
+    row_name: 8B0BMU
+  - row_type: Eq
+    row_name: 8B0BTN
+  - row_type: Eq
+    row_name: 8B0BW0
+  - row_type: Eq
+    row_name: 8B0DGH
+  - row_type: Eq
+    row_name: 8B0DKU
+  - row_type: Eq
+    row_name: 8B0F0U
+  - row_type: Eq
+    row_name: 8B0F2S
+  - row_type: Eq
+    row_name: 8B0F3U
+  - row_type: Eq
+    row_name: 8B0F4H
+  - row_type: Eq
+    row_name: 8B0F5U
+  - row_type: Eq
+    row_name: 8B0F6U
+  - row_type: Eq
+    row_name: 8B0F7U
+  - row_type: Eq
+    row_name: 8B0GCC
+  - row_type: Eq
+    row_name: 8B0GS1
+  - row_type: Eq
+    row_name: 8B0KEX
+  - row_type: Eq
+    row_name: 8B0K0L
+  - row_type: Eq
+    row_name: 8B0LGS
+  - row_type: Eq
+    row_name: 8B0LP3
+  - row_type: Eq
+    row_name: 8B0LP4
+  - row_type: Eq
+    row_name: 8B0LUB
+  - row_type: Eq
+    row_name: 8B0L04
+  - row_type: Eq
+    row_name: 8B0L06
+  - row_type: Eq
+    row_name: 8B0L07
+  - row_type: Eq
+    row_name: 8B0L12
+  - row_type: Eq
+    row_name: 8B0PGK
+  - row_type: Eq
+    row_name: 8B0PMU
+  - row_type: Eq
+    row_name: 8B0RMU
+  - row_type: Eq
+    row_name: 8B0WGS
+  - row_type: Eq
+    row_name: 8B0WS1
+  - row_type: Eq
+    row_name: 8B0WS2
+  - row_type: Eq
+    row_name: 8B01GG
+  - row_type: Eq
+    row_name: 8B01GS
+  - row_type: Eq
+    row_name: 8B4AGU
+  - row_type: Eq
+    row_name: 8B4MDU
+  - row_type: Eq
+    row_name: 8B41GU
+  - row_type: Eq
+    row_name: 8B7AGU
+  - row_type: Eq
+    row_name: 8B7MDU
+  - row_type: Eq
+    row_name: 8B71GU
+  - row_type: Eq
+    row_name: 8E0AGA
+  - row_type: Eq
+    row_name: 8E0AGS
+  - row_type: Eq
+    row_name: 8E0BTN
+  - row_type: Eq
+    row_name: 8E0DGA
+  - row_type: Eq
+    row_name: 8E0F1A
+  - row_type: Eq
+    row_name: 8E0F2A
+  - row_type: Eq
+    row_name: 8E0F3A
+  - row_type: Eq
+    row_name: 8E0F5A
+  - row_type: Eq
+    row_name: 8E0F6A
+  - row_type: Eq
+    row_name: 8E0F7A
+  - row_type: Eq
+    row_name: 8E0F8A
+  - row_type: Eq
+    row_name: 8E0F9A
+  - row_type: Eq
+    row_name: 8E0LDA
+  - row_type: Eq
+    row_name: 8E0LGS
+  - row_type: Eq
+    row_name: 8E0L20
+  - row_type: Eq
+    row_name: 8E0MDA
+  - row_type: Eq
+    row_name: 8E0PMA
+  - row_type: Eq
+    row_name: 8E0RMA
+  - row_type: Eq
+    row_name: 8E0WGA
+  - row_type: Eq
+    row_name: 8E0WGS
+  - row_type: Eq
+    row_name: 8E01GA
+  - row_type: Eq
+    row_name: 8E1F8A
+  - row_type: Eq
+    row_name: 8G0AGS
+  - row_type: Eq
+    row_name: 8G0ATK
+  - row_type: Eq
+    row_name: 8G0BMU
+  - row_type: Eq
+    row_name: 8G0F0S
+  - row_type: Eq
+    row_name: 8G0F0U
+  - row_type: Eq
+    row_name: 8G0F1U
+  - row_type: Eq
+    row_name: 8G0F3U
+  - row_type: Eq
+    row_name: 8G0F5U
+  - row_type: Eq
+    row_name: 8G0F6U
+  - row_type: Eq
+    row_name: 8G0F7U
+  - row_type: Eq
+    row_name: 8G0F8U
+  - row_type: Eq
+    row_name: 8G0F9P
+  - row_type: Eq
+    row_name: 8G0LGS
+  - row_type: Eq
+    row_name: 8G0LP3
+  - row_type: Eq
+    row_name: 8G0LP4
+  - row_type: Eq
+    row_name: 8G0L04
+  - row_type: Eq
+    row_name: 8G0L07
+  - row_type: Eq
+    row_name: 8G0PAX
+  - row_type: Eq
+    row_name: 8G0PGK
+  - row_type: Eq
+    row_name: 8G0PMU
+  - row_type: Eq
+    row_name: 8G0RMN
+  - row_type: Eq
+    row_name: 8G0RMU
+  - row_type: Eq
+    row_name: 8G0WGS
+  - row_type: Eq
+    row_name: 8G00RX
+  - row_type: Eq
+    row_name: 8G01GG
+  - row_type: Eq
+    row_name: 8G01GS
+  - row_type: Eq
+    row_name: 8G4AGU
+  - row_type: Eq
+    row_name: 8G4MDU
+  - row_type: Eq
+    row_name: 8G41GU
+  - row_type: Eq
+    row_name: 8G7MDU
+  - row_type: Eq
+    row_name: 8G71GU
+  - row_type: Eq
+    row_name: 8H0AGS
+  - row_type: Eq
+    row_name: 8H0AGX
+  - row_type: Eq
+    row_name: 8H0ATG
+  - row_type: Eq
+    row_name: 8H0ATK
+  - row_type: Eq
+    row_name: 8H0BMU
+  - row_type: Eq
+    row_name: 8H0DGH
+  - row_type: Eq
+    row_name: 8H0F0U
+  - row_type: Eq
+    row_name: 8H0F1S
+  - row_type: Eq
+    row_name: 8H0F2S
+  - row_type: Eq
+    row_name: 8H0F2U
+  - row_type: Eq
+    row_name: 8H0F3S
+  - row_type: Eq
+    row_name: 8H0F3U
+  - row_type: Eq
+    row_name: 8H0F4H
+  - row_type: Eq
+    row_name: 8H0F4S
+  - row_type: Eq
+    row_name: 8H0F5S
+  - row_type: Eq
+    row_name: 8H0F6S
+  - row_type: Eq
+    row_name: 8H0F6U
+  - row_type: Eq
+    row_name: 8H0F7U
+  - row_type: Eq
+    row_name: 8H0F8U
+  - row_type: Eq
+    row_name: 8H0F9U
+  - row_type: Eq
+    row_name: 8H0GNP
+  - row_type: Eq
+    row_name: 8H0GS1
+  - row_type: Eq
+    row_name: 8H0LGS
+  - row_type: Eq
+    row_name: 8H0LP3
+  - row_type: Eq
+    row_name: 8H0LP4
+  - row_type: Eq
+    row_name: 8H0LUB
+  - row_type: Eq
+    row_name: 8H0L04
+  - row_type: Eq
+    row_name: 8H0L06
+  - row_type: Eq
+    row_name: 8H0L07
+  - row_type: Eq
+    row_name: 8H0PAG
+  - row_type: Eq
+    row_name: 8H0PAX
+  - row_type: Eq
+    row_name: 8H0PGK
+  - row_type: Eq
+    row_name: 8H0PMS
+  - row_type: Eq
+    row_name: 8H0PMU
+  - row_type: Eq
+    row_name: 8H0RAG
+  - row_type: Eq
+    row_name: 8H0RMN
+  - row_type: Eq
+    row_name: 8H0RMS
+  - row_type: Eq
+    row_name: 8H0RMU
+  - row_type: Eq
+    row_name: 8H0WGS
+  - row_type: Eq
+    row_name: 8H00RX
+  - row_type: Eq
+    row_name: 8H01GG
+  - row_type: Eq
+    row_name: 8H01GS
+  - row_type: Eq
+    row_name: 8H1ATK
+  - row_type: Eq
+    row_name: 8H4AGU
+  - row_type: Eq
+    row_name: 8H4MDU
+  - row_type: Eq
+    row_name: 8H41GU
+  - row_type: Eq
+    row_name: 8H7AGU
+  - row_type: Eq
+    row_name: 8H71GU
+  - row_type: Eq
+    row_name: 8J0ATG
+  - row_type: Eq
+    row_name: 8J0ATK
+  - row_type: Eq
+    row_name: 8J0DDW
+  - row_type: Eq
+    row_name: 8J0DGA
+  - row_type: Eq
+    row_name: 8J0F2R
+  - row_type: Eq
+    row_name: 8J0F3M
+  - row_type: Eq
+    row_name: 8J0F4W
+  - row_type: Eq
+    row_name: 8J0F5A
+  - row_type: Eq
+    row_name: 8J0F5Y
+  - row_type: Eq
+    row_name: 8J0F6Y
+  - row_type: Eq
+    row_name: 8J0F7J
+  - row_type: Eq
+    row_name: 8J0F7U
+  - row_type: Eq
+    row_name: 8J0F8U
+  - row_type: Eq
+    row_name: 8J0L04
+  - row_type: Eq
+    row_name: 8J0L07
+  - row_type: Eq
+    row_name: 8J0PGK
+  - row_type: Eq
+    row_name: 8J0PMA
+  - row_type: Eq
+    row_name: 8J0PMR
+  - row_type: Eq
+    row_name: 8J0PMU
+  - row_type: Eq
+    row_name: 8J0RMA
+  - row_type: Eq
+    row_name: 8J0RMU
+  - row_type: Eq
+    row_name: 8J0RMY
+  - row_type: Eq
+    row_name: 8J0WGM
+  - row_type: Eq
+    row_name: 8J0WGS
+  - row_type: Eq
+    row_name: 8J01GG
+  - row_type: Eq
+    row_name: 8J01GU
+  - row_type: Eq
+    row_name: 8J1F8A
+  - row_type: Eq
+    row_name: 8J1PGK
+  - row_type: Eq
+    row_name: 8S0AGD
+  - row_type: Eq
+    row_name: 8S0AGS
+  - row_type: Eq
+    row_name: 8S0ATK
+  - row_type: Eq
+    row_name: 8S0F0S
+  - row_type: Eq
+    row_name: 8S0F1S
+  - row_type: Eq
+    row_name: 8S0F2S
+  - row_type: Eq
+    row_name: 8S0F3S
+  - row_type: Eq
+    row_name: 8S0F4S
+  - row_type: Eq
+    row_name: 8S0F5D
+  - row_type: Eq
+    row_name: 8S0F6D
+  - row_type: Eq
+    row_name: 8S0F6S
+  - row_type: Eq
+    row_name: 8S0F8S
+  - row_type: Eq
+    row_name: 8S0LGS
+  - row_type: Eq
+    row_name: 8S0LP3
+  - row_type: Eq
+    row_name: 8S0LP4
+  - row_type: Eq
+    row_name: 8S0L04
+  - row_type: Eq
+    row_name: 8S0L07
+  - row_type: Eq
+    row_name: 8S0PMS
+  - row_type: Eq
+    row_name: 8S0RMS
+  - row_type: Eq
+    row_name: 8S0WGS
+  - row_type: Eq
+    row_name: 8S01GS
+  - row_type: Eq
+    row_name: 8S4MDS
+  - row_type: Eq
+    row_name: 8S7MDS
+  - row_type: Eq
+    row_name: 8X0F5A
+  - row_type: Eq
+    row_name: 8Y0FLD
+  - row_type: Eq
+    row_name: 8Y0KNG
+  - row_type: Eq
+    row_name: 8Y0L01
+  - row_type: Eq
+    row_name: 8Y0NG0
+  - row_type: Eq
+    row_name: 8Y0RES
+  - row_type: Eq
+    row_name: 8Z0ANG
+  - row_type: Eq
+    row_name: 8Z0ATG
+  - row_type: Eq
+    row_name: 8Z0ATK
+  - row_type: Eq
+    row_name: 8Z0AVP
+  - row_type: Eq
+    row_name: 8Z0AVR
+  - row_type: Eq
+    row_name: 8Z0DDW
+  - row_type: Eq
+    row_name: 8Z0F1M
+  - row_type: Eq
+    row_name: 8Z0F4M
+  - row_type: Eq
+    row_name: 8Z0F7M
+  - row_type: Eq
+    row_name: 8Z0L01
+  - row_type: Eq
+    row_name: 8Z0L03
+  - row_type: Eq
+    row_name: 8Z0L06
+  - row_type: Eq
+    row_name: 8Z0L07
+  - row_type: Eq
+    row_name: 8Z0NP1
+  - row_type: Eq
+    row_name: 8Z0NP2
+  - row_type: Eq
+    row_name: 8Z0PGK
+  - row_type: Eq
+    row_name: 8Z0PMM
+  - row_type: Eq
+    row_name: 8Z0PMU
+  - row_type: Eq
+    row_name: 8Z0PMY
+  - row_type: Eq
+    row_name: 8Z0PTF
+  - row_type: Eq
+    row_name: 8Z0PT1
+  - row_type: Eq
+    row_name: 8Z0RGK
+  - row_type: Eq
+    row_name: 8Z0RMM
+  - row_type: Eq
+    row_name: 8Z0RMU
+  - row_type: Eq
+    row_name: 8Z0TV0
+  - row_type: Eq
+    row_name: 8Z0WGM
+  - row_type: Eq
+    row_name: 800F5A
+  - row_type: Eq
+    row_name: 800LDA
+  - row_type: Eq
+    row_name: 800L20
+  - row_type: Eq
+    row_name: 800PMA
+  - row_type: Eq
+    row_name: 800RMA
+  - row_type: Eq
+    row_name: 811F8A
+  - row_type: Eq
+    row_name: 830BTN
+  - row_type: Eq
+    row_name: 840ATK
+  - row_type: Eq
+    row_name: 840DGA
+  - row_type: Eq
+    row_name: 840L02
+  - row_type: Eq
+    row_name: 840PMY
+  - row_type: Eq
+    row_name: 850ATG
+  - row_type: Eq
+    row_name: 850F7J
+  - row_type: Eq
+    row_name: 850F8J
+  - row_type: Eq
+    row_name: 850F9J
+  - row_type: Eq
+    row_name: 850L01
+  - row_type: Eq
+    row_name: 850L03
+  - row_type: Eq
+    row_name: 860F6M
+  - row_type: Eq
+    row_name: 880F3M
+  - row_type: Eq
+    row_name: 890F8M
+  - row_type: Eq
+    row_name: 890F9M
+  - row_type: Eq
+    row_name: 900F4W
+  - row_type: Eq
+    row_name: 900F8W
+  - row_type: Eq
+    row_name: 910ATK
+  - row_type: Eq
+    row_name: 910F2R
+  - row_type: Eq
+    row_name: 910WGM
+  - row_type: Eq
+    row_name: 920F3Q
+  - row_type: Eq
+    row_name: 920PGK
+  - row_type: Eq
+    row_name: 920RGK
+  - row_type: Eq
+    row_name: 9201GM
+  - row_type: Eq
+    row_name: 930ATK
+  - row_type: Eq
+    row_name: 930DGR
+  - row_type: Eq
+    row_name: 940ATK
+  - row_type: Eq
+    row_name: 950ATK
+  - row_type: Leq
+    row_name: 2H3BAS
+  - row_type: Leq
+    row_name: 1B4KWT
+  - row_type: Leq
+    row_name: 1L4KWT
+  - row_type: Leq
+    row_name: 2H4KWT
+  - row_type: Leq
+    row_name: 2B4NGF
+  - row_type: Leq
+    row_name: 1D3S4T
+  - row_type: Eq
+    row_name: 0P3T0T
+  - row_type: Leq
+    row_name: 0P3LD1
+  - row_type: Leq
+    row_name: 0P3LD2
+  - row_type: Leq
+    row_name: 0P3G01
+  - row_type: Leq
+    row_name: 0P3G02
+  - row_type: Leq
+    row_name: 0P3F01
+  - row_type: Leq
+    row_name: 0P3F02
+  - row_type: Leq
+    row_name: 0T3LD1
+  - row_type: Leq
+    row_name: 0T3LD2
+  - row_type: Leq
+    row_name: 0T3G01
+  - row_type: Leq
+    row_name: 0T3G02
+  - row_type: Leq
+    row_name: 0T3F01
+  - row_type: Leq
+    row_name: 0T3F02
+  - row_type: Leq
+    row_name: 2H3RFC
+  - row_type: Leq
+    row_name: 1W4C4K
+  - row_type: Leq
+    row_name: ".R0W01"
+  - row_type: Eq
+    row_name: 8H0DGA
+  - row_type: Leq
+    row_name: 0D3P2A
+  - row_type: Leq
+    row_name: 0T3P8A
+  - row_type: Leq
+    row_name: 1G3SBN
+  - row_type: Leq
+    row_name: 1T3CCS
+  - row_type: Leq
+    row_name: 0T3785
+  - row_type: Leq
+    row_name: 0T3885
+  - row_type: Leq
+    row_name: 0T3985
+  - row_type: Leq
+    row_name: 0T3B85
+  - row_type: Leq
+    row_name: 0T7B85
+  - row_type: Leq
+    row_name: 0T3BRW
+  - row_type: Leq
+    row_name: 1L41MA
+  - row_type: Leq
+    row_name: 2A4BRW
+  - row_type: Leq
+    row_name: 2A4QTR
+  - row_type: Eq
+    row_name: 2B4SAF
+  - row_type: Leq
+    row_name: 2H41MA
+  - row_type: Leq
+    row_name: 2J4KWT
+  - row_type: Eq
+    row_name: 0F4AZG
+  - row_type: Eq
+    row_name: 0F4HMG
+  - row_type: Eq
+    row_name: 0F04RF
+columns:
+  - name: 0DAB2A
+    first_pair:
+      row_name: R0000
+      value: 0.35045
+    second_pair:
+      row_name: 0D0B2A
+      value: -1
+  - name: 0DAB2E
+    first_pair:
+      row_name: R0000
+      value: 0.50095
+    second_pair:
+      row_name: 0D0B2E
+      value: -1
+  - name: 0DAFTD
+    first_pair:
+      row_name: 0D0FMN
+      value: -0.333333
+    second_pair:
+      row_name: 0D0FTD
+      value: -1
+  - name: 0DAFXC
+    first_pair:
+      row_name: 0D0FMN
+      value: -16.666668
+    second_pair:
+      row_name: 0D0FXC
+      value: -1
+  - name: 0DAFX0
+    first_pair:
+      row_name: 0D0FMN
+      value: -40
+    second_pair:
+      row_name: 0D0FX1
+      value: -0.139
+  - name: 0DAFX0
+    first_pair:
+      row_name: 0D0FX2
+      value: -0.273
+    second_pair:
+      row_name: 0D0FX3
+      value: -0.560001
+  - name: 0DAFX1
+    first_pair:
+      row_name: 0D0FMN
+      value: -23.333332
+    second_pair:
+      row_name: 0D0FX1
+      value: -0.920001
+  - name: 0DAFX2
+    first_pair:
+      row_name: 0D0FMN
+      value: -23.333332
+    second_pair:
+      row_name: 0D0FX2
+      value: -0.920001
+  - name: 0DAFX3
+    first_pair:
+      row_name: 0D0FMN
+      value: -23.333332
+    second_pair:
+      row_name: 0D0FX3
+      value: -0.920001
+  - name: 0DAKN-
+    first_pair:
+      row_name: R0000
+      value: 1.34558
+    second_pair:
+      row_name: 0D002A
+      value: -1
+  - name: 0DAKW-
+    first_pair:
+      row_name: R0000
+      value: 1.246784
+    second_pair:
+      row_name: 0D0E2A
+      value: -1
+  - name: 0DAWK-
+    first_pair:
+      row_name: R0000
+      value: 1.25235
+    second_pair:
+      row_name: 0D0A2E
+      value: -1
+  - name: 0DAW2A
+    first_pair:
+      row_name: R0000
+      value: 0.2002
+    second_pair:
+      row_name: 0D0W2A
+      value: -1
+  - name: 0DAW2E
+    first_pair:
+      row_name: R0000
+      value: 0.3762
+    second_pair:
+      row_name: 0D0W2E
+      value: -1
+  - name: 0DBKNW
+    first_pair:
+      row_name: R0000
+      value: 1.820082
+    second_pair:
+      row_name: 0D0A2E
+      value: -1
+  - name: 0DBKNW
+    first_pair:
+      row_name: 0D002A
+      value: -1
+    second_pair: ~
+  - name: 0DBWK-
+    first_pair:
+      row_name: R0000
+      value: 1.594659
+    second_pair:
+      row_name: 0D0A2E
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+

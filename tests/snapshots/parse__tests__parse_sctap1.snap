@@ -1,0 +1,8964 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/sctap1\"))?"
+---
+name: SCTAP1
+rows:
+  - row_type: Nr
+    row_name: OBJZZZZZ
+  - row_type: Geq
+    row_name: NCZZ1ZZ1
+  - row_type: Geq
+    row_name: NCZZ2ZZ1
+  - row_type: Geq
+    row_name: NCZZ3ZZ1
+  - row_type: Geq
+    row_name: NCZZ4ZZ1
+  - row_type: Geq
+    row_name: NCZZ5ZZ1
+  - row_type: Geq
+    row_name: NCZZ6ZZ1
+  - row_type: Geq
+    row_name: ACZZ1ZZ1
+  - row_type: Geq
+    row_name: ACZZ2ZZ1
+  - row_type: Geq
+    row_name: ACZZ3ZZ1
+  - row_type: Geq
+    row_name: ACZZ4ZZ1
+  - row_type: Geq
+    row_name: ACZZ5ZZ1
+  - row_type: Geq
+    row_name: ACZZ6ZZ1
+  - row_type: Geq
+    row_name: ACZZ7ZZ1
+  - row_type: Geq
+    row_name: ACZZ8ZZ1
+  - row_type: Geq
+    row_name: ACZZ9ZZ1
+  - row_type: Geq
+    row_name: ACZ10ZZ1
+  - row_type: Geq
+    row_name: ACZ11ZZ1
+  - row_type: Geq
+    row_name: ACZ12ZZ1
+  - row_type: Eq
+    row_name: CCZZ1ZZ1
+  - row_type: Eq
+    row_name: CCZZ2ZZ1
+  - row_type: Eq
+    row_name: CCZZ3ZZ1
+  - row_type: Eq
+    row_name: CCZZ4ZZ1
+  - row_type: Eq
+    row_name: CCZZ5ZZ1
+  - row_type: Eq
+    row_name: CCZZ6ZZ1
+  - row_type: Eq
+    row_name: CCZZ7ZZ1
+  - row_type: Eq
+    row_name: CCZZ8ZZ1
+  - row_type: Eq
+    row_name: CCZZ9ZZ1
+  - row_type: Eq
+    row_name: CCZ10ZZ1
+  - row_type: Eq
+    row_name: CCZ11ZZ1
+  - row_type: Eq
+    row_name: CCZ12ZZ1
+  - row_type: Geq
+    row_name: NCZZ1ZZ2
+  - row_type: Geq
+    row_name: NCZZ2ZZ2
+  - row_type: Geq
+    row_name: NCZZ3ZZ2
+  - row_type: Geq
+    row_name: NCZZ4ZZ2
+  - row_type: Geq
+    row_name: NCZZ5ZZ2
+  - row_type: Geq
+    row_name: NCZZ6ZZ2
+  - row_type: Geq
+    row_name: ACZZ1ZZ2
+  - row_type: Geq
+    row_name: ACZZ2ZZ2
+  - row_type: Geq
+    row_name: ACZZ3ZZ2
+  - row_type: Geq
+    row_name: ACZZ4ZZ2
+  - row_type: Geq
+    row_name: ACZZ5ZZ2
+  - row_type: Geq
+    row_name: ACZZ6ZZ2
+  - row_type: Geq
+    row_name: ACZZ7ZZ2
+  - row_type: Geq
+    row_name: ACZZ8ZZ2
+  - row_type: Geq
+    row_name: ACZZ9ZZ2
+  - row_type: Geq
+    row_name: ACZ10ZZ2
+  - row_type: Geq
+    row_name: ACZ11ZZ2
+  - row_type: Geq
+    row_name: ACZ12ZZ2
+  - row_type: Eq
+    row_name: CCZZ1ZZ2
+  - row_type: Eq
+    row_name: CCZZ2ZZ2
+  - row_type: Eq
+    row_name: CCZZ3ZZ2
+  - row_type: Eq
+    row_name: CCZZ4ZZ2
+  - row_type: Eq
+    row_name: CCZZ5ZZ2
+  - row_type: Eq
+    row_name: CCZZ6ZZ2
+  - row_type: Eq
+    row_name: CCZZ7ZZ2
+  - row_type: Eq
+    row_name: CCZZ8ZZ2
+  - row_type: Eq
+    row_name: CCZZ9ZZ2
+  - row_type: Eq
+    row_name: CCZ10ZZ2
+  - row_type: Eq
+    row_name: CCZ11ZZ2
+  - row_type: Eq
+    row_name: CCZ12ZZ2
+  - row_type: Geq
+    row_name: NCZZ1ZZ3
+  - row_type: Geq
+    row_name: NCZZ2ZZ3
+  - row_type: Geq
+    row_name: NCZZ3ZZ3
+  - row_type: Geq
+    row_name: NCZZ4ZZ3
+  - row_type: Geq
+    row_name: NCZZ5ZZ3
+  - row_type: Geq
+    row_name: NCZZ6ZZ3
+  - row_type: Geq
+    row_name: ACZZ1ZZ3
+  - row_type: Geq
+    row_name: ACZZ2ZZ3
+  - row_type: Geq
+    row_name: ACZZ3ZZ3
+  - row_type: Geq
+    row_name: ACZZ4ZZ3
+  - row_type: Geq
+    row_name: ACZZ5ZZ3
+  - row_type: Geq
+    row_name: ACZZ6ZZ3
+  - row_type: Geq
+    row_name: ACZZ7ZZ3
+  - row_type: Geq
+    row_name: ACZZ8ZZ3
+  - row_type: Geq
+    row_name: ACZZ9ZZ3
+  - row_type: Geq
+    row_name: ACZ10ZZ3
+  - row_type: Geq
+    row_name: ACZ11ZZ3
+  - row_type: Geq
+    row_name: ACZ12ZZ3
+  - row_type: Eq
+    row_name: CCZZ1ZZ3
+  - row_type: Eq
+    row_name: CCZZ2ZZ3
+  - row_type: Eq
+    row_name: CCZZ3ZZ3
+  - row_type: Eq
+    row_name: CCZZ4ZZ3
+  - row_type: Eq
+    row_name: CCZZ5ZZ3
+  - row_type: Eq
+    row_name: CCZZ6ZZ3
+  - row_type: Eq
+    row_name: CCZZ7ZZ3
+  - row_type: Eq
+    row_name: CCZZ8ZZ3
+  - row_type: Eq
+    row_name: CCZZ9ZZ3
+  - row_type: Eq
+    row_name: CCZ10ZZ3
+  - row_type: Eq
+    row_name: CCZ11ZZ3
+  - row_type: Eq
+    row_name: CCZ12ZZ3
+  - row_type: Geq
+    row_name: NCZZ1ZZ4
+  - row_type: Geq
+    row_name: NCZZ2ZZ4
+  - row_type: Geq
+    row_name: NCZZ3ZZ4
+  - row_type: Geq
+    row_name: NCZZ4ZZ4
+  - row_type: Geq
+    row_name: NCZZ5ZZ4
+  - row_type: Geq
+    row_name: NCZZ6ZZ4
+  - row_type: Geq
+    row_name: ACZZ1ZZ4
+  - row_type: Geq
+    row_name: ACZZ2ZZ4
+  - row_type: Geq
+    row_name: ACZZ3ZZ4
+  - row_type: Geq
+    row_name: ACZZ4ZZ4
+  - row_type: Geq
+    row_name: ACZZ5ZZ4
+  - row_type: Geq
+    row_name: ACZZ6ZZ4
+  - row_type: Geq
+    row_name: ACZZ7ZZ4
+  - row_type: Geq
+    row_name: ACZZ8ZZ4
+  - row_type: Geq
+    row_name: ACZZ9ZZ4
+  - row_type: Geq
+    row_name: ACZ10ZZ4
+  - row_type: Geq
+    row_name: ACZ11ZZ4
+  - row_type: Geq
+    row_name: ACZ12ZZ4
+  - row_type: Eq
+    row_name: CCZZ1ZZ4
+  - row_type: Eq
+    row_name: CCZZ2ZZ4
+  - row_type: Eq
+    row_name: CCZZ3ZZ4
+  - row_type: Eq
+    row_name: CCZZ4ZZ4
+  - row_type: Eq
+    row_name: CCZZ5ZZ4
+  - row_type: Eq
+    row_name: CCZZ6ZZ4
+  - row_type: Eq
+    row_name: CCZZ7ZZ4
+  - row_type: Eq
+    row_name: CCZZ8ZZ4
+  - row_type: Eq
+    row_name: CCZZ9ZZ4
+  - row_type: Eq
+    row_name: CCZ10ZZ4
+  - row_type: Eq
+    row_name: CCZ11ZZ4
+  - row_type: Eq
+    row_name: CCZ12ZZ4
+  - row_type: Geq
+    row_name: NCZZ1ZZ5
+  - row_type: Geq
+    row_name: NCZZ2ZZ5
+  - row_type: Geq
+    row_name: NCZZ3ZZ5
+  - row_type: Geq
+    row_name: NCZZ4ZZ5
+  - row_type: Geq
+    row_name: NCZZ5ZZ5
+  - row_type: Geq
+    row_name: NCZZ6ZZ5
+  - row_type: Geq
+    row_name: ACZZ1ZZ5
+  - row_type: Geq
+    row_name: ACZZ2ZZ5
+  - row_type: Geq
+    row_name: ACZZ3ZZ5
+  - row_type: Geq
+    row_name: ACZZ4ZZ5
+  - row_type: Geq
+    row_name: ACZZ5ZZ5
+  - row_type: Geq
+    row_name: ACZZ6ZZ5
+  - row_type: Geq
+    row_name: ACZZ7ZZ5
+  - row_type: Geq
+    row_name: ACZZ8ZZ5
+  - row_type: Geq
+    row_name: ACZZ9ZZ5
+  - row_type: Geq
+    row_name: ACZ10ZZ5
+  - row_type: Geq
+    row_name: ACZ11ZZ5
+  - row_type: Geq
+    row_name: ACZ12ZZ5
+  - row_type: Eq
+    row_name: CCZZ1ZZ5
+  - row_type: Eq
+    row_name: CCZZ2ZZ5
+  - row_type: Eq
+    row_name: CCZZ3ZZ5
+  - row_type: Eq
+    row_name: CCZZ4ZZ5
+  - row_type: Eq
+    row_name: CCZZ5ZZ5
+  - row_type: Eq
+    row_name: CCZZ6ZZ5
+  - row_type: Eq
+    row_name: CCZZ7ZZ5
+  - row_type: Eq
+    row_name: CCZZ8ZZ5
+  - row_type: Eq
+    row_name: CCZZ9ZZ5
+  - row_type: Eq
+    row_name: CCZ10ZZ5
+  - row_type: Eq
+    row_name: CCZ11ZZ5
+  - row_type: Eq
+    row_name: CCZ12ZZ5
+  - row_type: Geq
+    row_name: NCZZ1ZZ6
+  - row_type: Geq
+    row_name: NCZZ2ZZ6
+  - row_type: Geq
+    row_name: NCZZ3ZZ6
+  - row_type: Geq
+    row_name: NCZZ4ZZ6
+  - row_type: Geq
+    row_name: NCZZ5ZZ6
+  - row_type: Geq
+    row_name: NCZZ6ZZ6
+  - row_type: Geq
+    row_name: ACZZ1ZZ6
+  - row_type: Geq
+    row_name: ACZZ2ZZ6
+  - row_type: Geq
+    row_name: ACZZ3ZZ6
+  - row_type: Geq
+    row_name: ACZZ4ZZ6
+  - row_type: Geq
+    row_name: ACZZ5ZZ6
+  - row_type: Geq
+    row_name: ACZZ6ZZ6
+  - row_type: Geq
+    row_name: ACZZ7ZZ6
+  - row_type: Geq
+    row_name: ACZZ8ZZ6
+  - row_type: Geq
+    row_name: ACZZ9ZZ6
+  - row_type: Geq
+    row_name: ACZ10ZZ6
+  - row_type: Geq
+    row_name: ACZ11ZZ6
+  - row_type: Geq
+    row_name: ACZ12ZZ6
+  - row_type: Eq
+    row_name: CCZZ1ZZ6
+  - row_type: Eq
+    row_name: CCZZ2ZZ6
+  - row_type: Eq
+    row_name: CCZZ3ZZ6
+  - row_type: Eq
+    row_name: CCZZ4ZZ6
+  - row_type: Eq
+    row_name: CCZZ5ZZ6
+  - row_type: Eq
+    row_name: CCZZ6ZZ6
+  - row_type: Eq
+    row_name: CCZZ7ZZ6
+  - row_type: Eq
+    row_name: CCZZ8ZZ6
+  - row_type: Eq
+    row_name: CCZZ9ZZ6
+  - row_type: Eq
+    row_name: CCZ10ZZ6
+  - row_type: Eq
+    row_name: CCZ11ZZ6
+  - row_type: Eq
+    row_name: CCZ12ZZ6
+  - row_type: Geq
+    row_name: NCZZ1ZZ7
+  - row_type: Geq
+    row_name: NCZZ2ZZ7
+  - row_type: Geq
+    row_name: NCZZ3ZZ7
+  - row_type: Geq
+    row_name: NCZZ4ZZ7
+  - row_type: Geq
+    row_name: NCZZ5ZZ7
+  - row_type: Geq
+    row_name: NCZZ6ZZ7
+  - row_type: Geq
+    row_name: ACZZ1ZZ7
+  - row_type: Geq
+    row_name: ACZZ2ZZ7
+  - row_type: Geq
+    row_name: ACZZ3ZZ7
+  - row_type: Geq
+    row_name: ACZZ4ZZ7
+  - row_type: Geq
+    row_name: ACZZ5ZZ7
+  - row_type: Geq
+    row_name: ACZZ6ZZ7
+  - row_type: Geq
+    row_name: ACZZ7ZZ7
+  - row_type: Geq
+    row_name: ACZZ8ZZ7
+  - row_type: Geq
+    row_name: ACZZ9ZZ7
+  - row_type: Geq
+    row_name: ACZ10ZZ7
+  - row_type: Geq
+    row_name: ACZ11ZZ7
+  - row_type: Geq
+    row_name: ACZ12ZZ7
+  - row_type: Eq
+    row_name: CCZZ1ZZ7
+  - row_type: Eq
+    row_name: CCZZ2ZZ7
+  - row_type: Eq
+    row_name: CCZZ3ZZ7
+  - row_type: Eq
+    row_name: CCZZ4ZZ7
+  - row_type: Eq
+    row_name: CCZZ5ZZ7
+  - row_type: Eq
+    row_name: CCZZ6ZZ7
+  - row_type: Eq
+    row_name: CCZZ7ZZ7
+  - row_type: Eq
+    row_name: CCZZ8ZZ7
+  - row_type: Eq
+    row_name: CCZZ9ZZ7
+  - row_type: Eq
+    row_name: CCZ10ZZ7
+  - row_type: Eq
+    row_name: CCZ11ZZ7
+  - row_type: Eq
+    row_name: CCZ12ZZ7
+  - row_type: Geq
+    row_name: NCZZ1ZZ8
+  - row_type: Geq
+    row_name: NCZZ2ZZ8
+  - row_type: Geq
+    row_name: NCZZ3ZZ8
+  - row_type: Geq
+    row_name: NCZZ4ZZ8
+  - row_type: Geq
+    row_name: NCZZ5ZZ8
+  - row_type: Geq
+    row_name: NCZZ6ZZ8
+  - row_type: Geq
+    row_name: ACZZ1ZZ8
+  - row_type: Geq
+    row_name: ACZZ2ZZ8
+  - row_type: Geq
+    row_name: ACZZ3ZZ8
+  - row_type: Geq
+    row_name: ACZZ4ZZ8
+  - row_type: Geq
+    row_name: ACZZ5ZZ8
+  - row_type: Geq
+    row_name: ACZZ6ZZ8
+  - row_type: Geq
+    row_name: ACZZ7ZZ8
+  - row_type: Geq
+    row_name: ACZZ8ZZ8
+  - row_type: Geq
+    row_name: ACZZ9ZZ8
+  - row_type: Geq
+    row_name: ACZ10ZZ8
+  - row_type: Geq
+    row_name: ACZ11ZZ8
+  - row_type: Geq
+    row_name: ACZ12ZZ8
+  - row_type: Eq
+    row_name: CCZZ1ZZ8
+  - row_type: Eq
+    row_name: CCZZ2ZZ8
+  - row_type: Eq
+    row_name: CCZZ3ZZ8
+  - row_type: Eq
+    row_name: CCZZ4ZZ8
+  - row_type: Eq
+    row_name: CCZZ5ZZ8
+  - row_type: Eq
+    row_name: CCZZ6ZZ8
+  - row_type: Eq
+    row_name: CCZZ7ZZ8
+  - row_type: Eq
+    row_name: CCZZ8ZZ8
+  - row_type: Eq
+    row_name: CCZZ9ZZ8
+  - row_type: Eq
+    row_name: CCZ10ZZ8
+  - row_type: Eq
+    row_name: CCZ11ZZ8
+  - row_type: Eq
+    row_name: CCZ12ZZ8
+  - row_type: Geq
+    row_name: NCZZ1ZZ9
+  - row_type: Geq
+    row_name: NCZZ2ZZ9
+  - row_type: Geq
+    row_name: NCZZ3ZZ9
+  - row_type: Geq
+    row_name: NCZZ4ZZ9
+  - row_type: Geq
+    row_name: NCZZ5ZZ9
+  - row_type: Geq
+    row_name: NCZZ6ZZ9
+  - row_type: Geq
+    row_name: ACZZ1ZZ9
+  - row_type: Geq
+    row_name: ACZZ2ZZ9
+  - row_type: Geq
+    row_name: ACZZ3ZZ9
+  - row_type: Geq
+    row_name: ACZZ4ZZ9
+  - row_type: Geq
+    row_name: ACZZ5ZZ9
+  - row_type: Geq
+    row_name: ACZZ6ZZ9
+  - row_type: Geq
+    row_name: ACZZ7ZZ9
+  - row_type: Geq
+    row_name: ACZZ8ZZ9
+  - row_type: Geq
+    row_name: ACZZ9ZZ9
+  - row_type: Geq
+    row_name: ACZ10ZZ9
+  - row_type: Geq
+    row_name: ACZ11ZZ9
+  - row_type: Geq
+    row_name: ACZ12ZZ9
+  - row_type: Eq
+    row_name: CCZZ1ZZ9
+  - row_type: Eq
+    row_name: CCZZ2ZZ9
+  - row_type: Eq
+    row_name: CCZZ3ZZ9
+  - row_type: Eq
+    row_name: CCZZ4ZZ9
+  - row_type: Eq
+    row_name: CCZZ5ZZ9
+  - row_type: Eq
+    row_name: CCZZ6ZZ9
+  - row_type: Eq
+    row_name: CCZZ7ZZ9
+  - row_type: Eq
+    row_name: CCZZ8ZZ9
+  - row_type: Eq
+    row_name: CCZZ9ZZ9
+  - row_type: Eq
+    row_name: CCZ10ZZ9
+  - row_type: Eq
+    row_name: CCZ11ZZ9
+  - row_type: Eq
+    row_name: CCZ12ZZ9
+  - row_type: Geq
+    row_name: NCZZ1Z10
+  - row_type: Geq
+    row_name: NCZZ2Z10
+  - row_type: Geq
+    row_name: NCZZ3Z10
+  - row_type: Geq
+    row_name: NCZZ4Z10
+  - row_type: Geq
+    row_name: NCZZ5Z10
+  - row_type: Geq
+    row_name: NCZZ6Z10
+  - row_type: Geq
+    row_name: ACZZ1Z10
+  - row_type: Geq
+    row_name: ACZZ2Z10
+  - row_type: Geq
+    row_name: ACZZ3Z10
+  - row_type: Geq
+    row_name: ACZZ4Z10
+  - row_type: Geq
+    row_name: ACZZ5Z10
+  - row_type: Geq
+    row_name: ACZZ6Z10
+  - row_type: Geq
+    row_name: ACZZ7Z10
+  - row_type: Geq
+    row_name: ACZZ8Z10
+  - row_type: Geq
+    row_name: ACZZ9Z10
+  - row_type: Geq
+    row_name: ACZ10Z10
+  - row_type: Geq
+    row_name: ACZ11Z10
+  - row_type: Geq
+    row_name: ACZ12Z10
+  - row_type: Eq
+    row_name: CCZZ1Z10
+  - row_type: Eq
+    row_name: CCZZ2Z10
+  - row_type: Eq
+    row_name: CCZZ3Z10
+  - row_type: Eq
+    row_name: CCZZ4Z10
+  - row_type: Eq
+    row_name: CCZZ5Z10
+  - row_type: Eq
+    row_name: CCZZ6Z10
+  - row_type: Eq
+    row_name: CCZZ7Z10
+  - row_type: Eq
+    row_name: CCZZ8Z10
+  - row_type: Eq
+    row_name: CCZZ9Z10
+  - row_type: Eq
+    row_name: CCZ10Z10
+  - row_type: Eq
+    row_name: CCZ11Z10
+  - row_type: Eq
+    row_name: CCZ12Z10
+columns:
+  - name: Z1ZZ1ZZ1
+    first_pair:
+      row_name: CCZZ1ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 10
+  - name: Z2ZZ1ZZ1
+    first_pair:
+      row_name: ACZZ1ZZ1
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ1
+      value: 1
+  - name: Z2ZZ1ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 20
+  - name: Z3ZZ1ZZ1
+    first_pair:
+      row_name: ACZZ1ZZ1
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ1
+      value: 1
+  - name: Z3ZZ1ZZ1
+    first_pair:
+      row_name: NCZZ1ZZ2
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ2
+      value: -5
+  - name: Z3ZZ1ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 1
+  - name: Z4ZZ1ZZ1
+    first_pair:
+      row_name: ACZZ1ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: -1
+  - name: Z4ZZ1ZZ1
+    first_pair:
+      row_name: ACZZ1ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ1
+    first_pair:
+      row_name: CCZZ2ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 15
+  - name: Z2ZZ2ZZ1
+    first_pair:
+      row_name: ACZZ2ZZ1
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ1
+      value: 1
+  - name: Z2ZZ2ZZ1
+    first_pair:
+      row_name: NCZZ3ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 25
+  - name: Z3ZZ2ZZ1
+    first_pair:
+      row_name: ACZZ2ZZ1
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ1
+      value: 1
+  - name: Z3ZZ2ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ2
+      value: -7
+  - name: Z3ZZ2ZZ1
+    first_pair:
+      row_name: NCZZ3ZZ2
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 1
+  - name: Z4ZZ2ZZ1
+    first_pair:
+      row_name: ACZZ2ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: -1
+  - name: Z4ZZ2ZZ1
+    first_pair:
+      row_name: ACZZ2ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ1
+    first_pair:
+      row_name: CCZZ3ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 10
+  - name: Z2ZZ3ZZ1
+    first_pair:
+      row_name: ACZZ3ZZ1
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ1
+      value: 1
+  - name: Z2ZZ3ZZ1
+    first_pair:
+      row_name: NCZZ1ZZ2
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 20
+  - name: Z3ZZ3ZZ1
+    first_pair:
+      row_name: ACZZ3ZZ1
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ1
+      value: 1
+  - name: Z3ZZ3ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ2
+      value: -5
+  - name: Z3ZZ3ZZ1
+    first_pair:
+      row_name: NCZZ1ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 1
+  - name: Z4ZZ3ZZ1
+    first_pair:
+      row_name: ACZZ3ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: -1
+  - name: Z4ZZ3ZZ1
+    first_pair:
+      row_name: ACZZ3ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ1
+    first_pair:
+      row_name: CCZZ4ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 15
+  - name: Z2ZZ4ZZ1
+    first_pair:
+      row_name: ACZZ4ZZ1
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ1
+      value: 1
+  - name: Z2ZZ4ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 25
+  - name: Z3ZZ4ZZ1
+    first_pair:
+      row_name: ACZZ4ZZ1
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ1
+      value: 1
+  - name: Z3ZZ4ZZ1
+    first_pair:
+      row_name: NCZZ1ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ2
+      value: -7
+  - name: Z3ZZ4ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ1
+      value: 1
+  - name: Z4ZZ4ZZ1
+    first_pair:
+      row_name: ACZZ4ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: -1
+  - name: Z4ZZ4ZZ1
+    first_pair:
+      row_name: ACZZ4ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ1
+    first_pair:
+      row_name: CCZZ5ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 15
+  - name: Z2ZZ5ZZ1
+    first_pair:
+      row_name: ACZZ5ZZ1
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ1
+      value: 1
+  - name: Z2ZZ5ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 25
+  - name: Z3ZZ5ZZ1
+    first_pair:
+      row_name: ACZZ5ZZ1
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ1
+      value: 1
+  - name: Z3ZZ5ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ2
+      value: -7
+  - name: Z3ZZ5ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 1
+  - name: Z4ZZ5ZZ1
+    first_pair:
+      row_name: ACZZ5ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: -1
+  - name: Z4ZZ5ZZ1
+    first_pair:
+      row_name: ACZZ5ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ1
+    first_pair:
+      row_name: CCZZ6ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 10
+  - name: Z2ZZ6ZZ1
+    first_pair:
+      row_name: ACZZ6ZZ1
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ1
+      value: 1
+  - name: Z2ZZ6ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 20
+  - name: Z3ZZ6ZZ1
+    first_pair:
+      row_name: ACZZ6ZZ1
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ1
+      value: 1
+  - name: Z3ZZ6ZZ1
+    first_pair:
+      row_name: NCZZ2ZZ2
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ2
+      value: -5
+  - name: Z3ZZ6ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 1
+  - name: Z4ZZ6ZZ1
+    first_pair:
+      row_name: ACZZ6ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: -1
+  - name: Z4ZZ6ZZ1
+    first_pair:
+      row_name: ACZZ6ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ1
+    first_pair:
+      row_name: CCZZ7ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ1
+      value: 10
+  - name: Z2ZZ7ZZ1
+    first_pair:
+      row_name: ACZZ7ZZ1
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ1
+      value: 1
+  - name: Z2ZZ7ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ1
+      value: 20
+  - name: Z3ZZ7ZZ1
+    first_pair:
+      row_name: ACZZ7ZZ1
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ1
+      value: 1
+  - name: Z3ZZ7ZZ1
+    first_pair:
+      row_name: NCZZ3ZZ2
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ2
+      value: -5
+  - name: Z3ZZ7ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ1
+      value: 1
+  - name: Z4ZZ7ZZ1
+    first_pair:
+      row_name: ACZZ7ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ2
+      value: -1
+  - name: Z4ZZ7ZZ1
+    first_pair:
+      row_name: ACZZ7ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ1
+    first_pair:
+      row_name: CCZZ8ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 30
+  - name: Z2ZZ8ZZ1
+    first_pair:
+      row_name: ACZZ8ZZ1
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ1
+      value: 1
+  - name: Z2ZZ8ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 40
+  - name: Z3ZZ8ZZ1
+    first_pair:
+      row_name: ACZZ8ZZ1
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ1
+      value: 1
+  - name: Z3ZZ8ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ2
+      value: -7
+  - name: Z3ZZ8ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 1
+  - name: Z4ZZ8ZZ1
+    first_pair:
+      row_name: ACZZ8ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: -1
+  - name: Z4ZZ8ZZ1
+    first_pair:
+      row_name: ACZZ8ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ1
+    first_pair:
+      row_name: CCZZ9ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 30
+  - name: Z2ZZ9ZZ1
+    first_pair:
+      row_name: ACZZ9ZZ1
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ1
+      value: 1
+  - name: Z2ZZ9ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 40
+  - name: Z3ZZ9ZZ1
+    first_pair:
+      row_name: ACZZ9ZZ1
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ1
+      value: 1
+  - name: Z3ZZ9ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ2
+      value: -7
+  - name: Z3ZZ9ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 1
+  - name: Z4ZZ9ZZ1
+    first_pair:
+      row_name: ACZZ9ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: -1
+  - name: Z4ZZ9ZZ1
+    first_pair:
+      row_name: ACZZ9ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ1
+    first_pair:
+      row_name: CCZ10ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 10
+  - name: Z2Z10ZZ1
+    first_pair:
+      row_name: ACZ10ZZ1
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ1
+      value: 1
+  - name: Z2Z10ZZ1
+    first_pair:
+      row_name: NCZZ6ZZ2
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 20
+  - name: Z3Z10ZZ1
+    first_pair:
+      row_name: ACZ10ZZ1
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ1
+      value: 1
+  - name: Z3Z10ZZ1
+    first_pair:
+      row_name: NCZZ4ZZ2
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ2
+      value: -5
+  - name: Z3Z10ZZ1
+    first_pair:
+      row_name: NCZZ6ZZ2
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ1
+      value: 1
+  - name: Z4Z10ZZ1
+    first_pair:
+      row_name: ACZ10ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: -1
+  - name: Z4Z10ZZ1
+    first_pair:
+      row_name: ACZ10ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ1
+    first_pair:
+      row_name: CCZ11ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ1
+      value: 15
+  - name: Z2Z11ZZ1
+    first_pair:
+      row_name: ACZ11ZZ1
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ1
+      value: 1
+  - name: Z3Z11ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ1
+      value: 25
+  - name: Z3Z11ZZ1
+    first_pair:
+      row_name: ACZ11ZZ1
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ1
+      value: 1
+  - name: Z3Z11ZZ1
+    first_pair:
+      row_name: NCZZ6ZZ2
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ2
+      value: -7
+  - name: Z4Z11ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ1
+      value: 1
+  - name: Z4Z11ZZ1
+    first_pair:
+      row_name: ACZ11ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ2
+      value: -1
+  - name: Z4Z11ZZ1
+    first_pair:
+      row_name: ACZ11ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ1
+    first_pair:
+      row_name: CCZ12ZZ1
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 50
+  - name: Z2Z12ZZ1
+    first_pair:
+      row_name: ACZ12ZZ1
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ1
+      value: 1
+  - name: Z3Z12ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 80
+  - name: Z3Z12ZZ1
+    first_pair:
+      row_name: ACZ12ZZ1
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ1
+      value: 1
+  - name: Z3Z12ZZ1
+    first_pair:
+      row_name: NCZZ5ZZ2
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ2
+      value: -15
+  - name: Z4Z12ZZ1
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ1
+      value: 1
+  - name: Z4Z12ZZ1
+    first_pair:
+      row_name: ACZ12ZZ1
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: -1
+  - name: Z4Z12ZZ1
+    first_pair:
+      row_name: ACZ12ZZ2
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ2
+    first_pair:
+      row_name: CCZZ1ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 10
+  - name: Z2ZZ1ZZ2
+    first_pair:
+      row_name: ACZZ1ZZ2
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ2
+      value: 1
+  - name: Z2ZZ1ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 20
+  - name: Z3ZZ1ZZ2
+    first_pair:
+      row_name: ACZZ1ZZ2
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ2
+      value: 1
+  - name: Z3ZZ1ZZ2
+    first_pair:
+      row_name: NCZZ1ZZ3
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ3
+      value: -5
+  - name: Z3ZZ1ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 1
+  - name: Z4ZZ1ZZ2
+    first_pair:
+      row_name: ACZZ1ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: -1
+  - name: Z4ZZ1ZZ2
+    first_pair:
+      row_name: ACZZ1ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ2
+    first_pair:
+      row_name: CCZZ2ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 15
+  - name: Z2ZZ2ZZ2
+    first_pair:
+      row_name: ACZZ2ZZ2
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ2
+      value: 1
+  - name: Z2ZZ2ZZ2
+    first_pair:
+      row_name: NCZZ3ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 25
+  - name: Z3ZZ2ZZ2
+    first_pair:
+      row_name: ACZZ2ZZ2
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ2
+      value: 1
+  - name: Z3ZZ2ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ3
+      value: -7
+  - name: Z3ZZ2ZZ2
+    first_pair:
+      row_name: NCZZ3ZZ3
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 1
+  - name: Z4ZZ2ZZ2
+    first_pair:
+      row_name: ACZZ2ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: -1
+  - name: Z4ZZ2ZZ2
+    first_pair:
+      row_name: ACZZ2ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ2
+    first_pair:
+      row_name: CCZZ3ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 10
+  - name: Z2ZZ3ZZ2
+    first_pair:
+      row_name: ACZZ3ZZ2
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ2
+      value: 1
+  - name: Z2ZZ3ZZ2
+    first_pair:
+      row_name: NCZZ1ZZ3
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 20
+  - name: Z3ZZ3ZZ2
+    first_pair:
+      row_name: ACZZ3ZZ2
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ2
+      value: 1
+  - name: Z3ZZ3ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ3
+      value: -5
+  - name: Z3ZZ3ZZ2
+    first_pair:
+      row_name: NCZZ1ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 1
+  - name: Z4ZZ3ZZ2
+    first_pair:
+      row_name: ACZZ3ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: -1
+  - name: Z4ZZ3ZZ2
+    first_pair:
+      row_name: ACZZ3ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ2
+    first_pair:
+      row_name: CCZZ4ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 15
+  - name: Z2ZZ4ZZ2
+    first_pair:
+      row_name: ACZZ4ZZ2
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ2
+      value: 1
+  - name: Z2ZZ4ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 25
+  - name: Z3ZZ4ZZ2
+    first_pair:
+      row_name: ACZZ4ZZ2
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ2
+      value: 1
+  - name: Z3ZZ4ZZ2
+    first_pair:
+      row_name: NCZZ1ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ3
+      value: -7
+  - name: Z3ZZ4ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ2
+      value: 1
+  - name: Z4ZZ4ZZ2
+    first_pair:
+      row_name: ACZZ4ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: -1
+  - name: Z4ZZ4ZZ2
+    first_pair:
+      row_name: ACZZ4ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ2
+    first_pair:
+      row_name: CCZZ5ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 15
+  - name: Z2ZZ5ZZ2
+    first_pair:
+      row_name: ACZZ5ZZ2
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ2
+      value: 1
+  - name: Z2ZZ5ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 25
+  - name: Z3ZZ5ZZ2
+    first_pair:
+      row_name: ACZZ5ZZ2
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ2
+      value: 1
+  - name: Z3ZZ5ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ3
+      value: -7
+  - name: Z3ZZ5ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 1
+  - name: Z4ZZ5ZZ2
+    first_pair:
+      row_name: ACZZ5ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: -1
+  - name: Z4ZZ5ZZ2
+    first_pair:
+      row_name: ACZZ5ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ2
+    first_pair:
+      row_name: CCZZ6ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 10
+  - name: Z2ZZ6ZZ2
+    first_pair:
+      row_name: ACZZ6ZZ2
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ2
+      value: 1
+  - name: Z2ZZ6ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 20
+  - name: Z3ZZ6ZZ2
+    first_pair:
+      row_name: ACZZ6ZZ2
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ2
+      value: 1
+  - name: Z3ZZ6ZZ2
+    first_pair:
+      row_name: NCZZ2ZZ3
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ3
+      value: -5
+  - name: Z3ZZ6ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 1
+  - name: Z4ZZ6ZZ2
+    first_pair:
+      row_name: ACZZ6ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: -1
+  - name: Z4ZZ6ZZ2
+    first_pair:
+      row_name: ACZZ6ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ2
+    first_pair:
+      row_name: CCZZ7ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ2
+      value: 10
+  - name: Z2ZZ7ZZ2
+    first_pair:
+      row_name: ACZZ7ZZ2
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ2
+      value: 1
+  - name: Z2ZZ7ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ2
+      value: 20
+  - name: Z3ZZ7ZZ2
+    first_pair:
+      row_name: ACZZ7ZZ2
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ2
+      value: 1
+  - name: Z3ZZ7ZZ2
+    first_pair:
+      row_name: NCZZ3ZZ3
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ3
+      value: -5
+  - name: Z3ZZ7ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ2
+      value: 1
+  - name: Z4ZZ7ZZ2
+    first_pair:
+      row_name: ACZZ7ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ3
+      value: -1
+  - name: Z4ZZ7ZZ2
+    first_pair:
+      row_name: ACZZ7ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ2
+    first_pair:
+      row_name: CCZZ8ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 30
+  - name: Z2ZZ8ZZ2
+    first_pair:
+      row_name: ACZZ8ZZ2
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ2
+      value: 1
+  - name: Z2ZZ8ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 40
+  - name: Z3ZZ8ZZ2
+    first_pair:
+      row_name: ACZZ8ZZ2
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ2
+      value: 1
+  - name: Z3ZZ8ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ3
+      value: -7
+  - name: Z3ZZ8ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 1
+  - name: Z4ZZ8ZZ2
+    first_pair:
+      row_name: ACZZ8ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: -1
+  - name: Z4ZZ8ZZ2
+    first_pair:
+      row_name: ACZZ8ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ2
+    first_pair:
+      row_name: CCZZ9ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 30
+  - name: Z2ZZ9ZZ2
+    first_pair:
+      row_name: ACZZ9ZZ2
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ2
+      value: 1
+  - name: Z2ZZ9ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 40
+  - name: Z3ZZ9ZZ2
+    first_pair:
+      row_name: ACZZ9ZZ2
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ2
+      value: 1
+  - name: Z3ZZ9ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ3
+      value: -7
+  - name: Z3ZZ9ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 1
+  - name: Z4ZZ9ZZ2
+    first_pair:
+      row_name: ACZZ9ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: -1
+  - name: Z4ZZ9ZZ2
+    first_pair:
+      row_name: ACZZ9ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ2
+    first_pair:
+      row_name: CCZ10ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 10
+  - name: Z2Z10ZZ2
+    first_pair:
+      row_name: ACZ10ZZ2
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ2
+      value: 1
+  - name: Z2Z10ZZ2
+    first_pair:
+      row_name: NCZZ6ZZ3
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 20
+  - name: Z3Z10ZZ2
+    first_pair:
+      row_name: ACZ10ZZ2
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ2
+      value: 1
+  - name: Z3Z10ZZ2
+    first_pair:
+      row_name: NCZZ4ZZ3
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ3
+      value: -5
+  - name: Z3Z10ZZ2
+    first_pair:
+      row_name: NCZZ6ZZ3
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 1
+  - name: Z4Z10ZZ2
+    first_pair:
+      row_name: ACZ10ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: -1
+  - name: Z4Z10ZZ2
+    first_pair:
+      row_name: ACZ10ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ2
+    first_pair:
+      row_name: CCZ11ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ2
+      value: 15
+  - name: Z2Z11ZZ2
+    first_pair:
+      row_name: ACZ11ZZ2
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ2
+      value: 1
+  - name: Z3Z11ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ2
+      value: 25
+  - name: Z3Z11ZZ2
+    first_pair:
+      row_name: ACZ11ZZ2
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ2
+      value: 1
+  - name: Z3Z11ZZ2
+    first_pair:
+      row_name: NCZZ6ZZ3
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ3
+      value: -7
+  - name: Z4Z11ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ2
+      value: 1
+  - name: Z4Z11ZZ2
+    first_pair:
+      row_name: ACZ11ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ3
+      value: -1
+  - name: Z4Z11ZZ2
+    first_pair:
+      row_name: ACZ11ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ2
+    first_pair:
+      row_name: CCZ12ZZ2
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 50
+  - name: Z2Z12ZZ2
+    first_pair:
+      row_name: ACZ12ZZ2
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ2
+      value: 1
+  - name: Z3Z12ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 80
+  - name: Z3Z12ZZ2
+    first_pair:
+      row_name: ACZ12ZZ2
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ2
+      value: 1
+  - name: Z3Z12ZZ2
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ3
+      value: -15
+  - name: Z4Z12ZZ2
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ2
+      value: 1
+  - name: Z4Z12ZZ2
+    first_pair:
+      row_name: ACZ12ZZ2
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: -1
+  - name: Z4Z12ZZ2
+    first_pair:
+      row_name: ACZ12ZZ3
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ3
+    first_pair:
+      row_name: CCZZ1ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 10
+  - name: Z2ZZ1ZZ3
+    first_pair:
+      row_name: ACZZ1ZZ3
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ3
+      value: 1
+  - name: Z2ZZ1ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 20
+  - name: Z3ZZ1ZZ3
+    first_pair:
+      row_name: ACZZ1ZZ3
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ3
+      value: 1
+  - name: Z3ZZ1ZZ3
+    first_pair:
+      row_name: NCZZ1ZZ4
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ4
+      value: -5
+  - name: Z3ZZ1ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 1
+  - name: Z4ZZ1ZZ3
+    first_pair:
+      row_name: ACZZ1ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: -1
+  - name: Z4ZZ1ZZ3
+    first_pair:
+      row_name: ACZZ1ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ3
+    first_pair:
+      row_name: CCZZ2ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 15
+  - name: Z2ZZ2ZZ3
+    first_pair:
+      row_name: ACZZ2ZZ3
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ3
+      value: 1
+  - name: Z2ZZ2ZZ3
+    first_pair:
+      row_name: NCZZ3ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 25
+  - name: Z3ZZ2ZZ3
+    first_pair:
+      row_name: ACZZ2ZZ3
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ3
+      value: 1
+  - name: Z3ZZ2ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ4
+      value: -7
+  - name: Z3ZZ2ZZ3
+    first_pair:
+      row_name: NCZZ3ZZ4
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 1
+  - name: Z4ZZ2ZZ3
+    first_pair:
+      row_name: ACZZ2ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: -1
+  - name: Z4ZZ2ZZ3
+    first_pair:
+      row_name: ACZZ2ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ3
+    first_pair:
+      row_name: CCZZ3ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 10
+  - name: Z2ZZ3ZZ3
+    first_pair:
+      row_name: ACZZ3ZZ3
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ3
+      value: 1
+  - name: Z2ZZ3ZZ3
+    first_pair:
+      row_name: NCZZ1ZZ4
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 20
+  - name: Z3ZZ3ZZ3
+    first_pair:
+      row_name: ACZZ3ZZ3
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ3
+      value: 1
+  - name: Z3ZZ3ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ4
+      value: -5
+  - name: Z3ZZ3ZZ3
+    first_pair:
+      row_name: NCZZ1ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 1
+  - name: Z4ZZ3ZZ3
+    first_pair:
+      row_name: ACZZ3ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: -1
+  - name: Z4ZZ3ZZ3
+    first_pair:
+      row_name: ACZZ3ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ3
+    first_pair:
+      row_name: CCZZ4ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 15
+  - name: Z2ZZ4ZZ3
+    first_pair:
+      row_name: ACZZ4ZZ3
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ3
+      value: 1
+  - name: Z2ZZ4ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 25
+  - name: Z3ZZ4ZZ3
+    first_pair:
+      row_name: ACZZ4ZZ3
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ3
+      value: 1
+  - name: Z3ZZ4ZZ3
+    first_pair:
+      row_name: NCZZ1ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ4
+      value: -7
+  - name: Z3ZZ4ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ3
+      value: 1
+  - name: Z4ZZ4ZZ3
+    first_pair:
+      row_name: ACZZ4ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: -1
+  - name: Z4ZZ4ZZ3
+    first_pair:
+      row_name: ACZZ4ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ3
+    first_pair:
+      row_name: CCZZ5ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 15
+  - name: Z2ZZ5ZZ3
+    first_pair:
+      row_name: ACZZ5ZZ3
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ3
+      value: 1
+  - name: Z2ZZ5ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 25
+  - name: Z3ZZ5ZZ3
+    first_pair:
+      row_name: ACZZ5ZZ3
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ3
+      value: 1
+  - name: Z3ZZ5ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ4
+      value: -7
+  - name: Z3ZZ5ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 1
+  - name: Z4ZZ5ZZ3
+    first_pair:
+      row_name: ACZZ5ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: -1
+  - name: Z4ZZ5ZZ3
+    first_pair:
+      row_name: ACZZ5ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ3
+    first_pair:
+      row_name: CCZZ6ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 10
+  - name: Z2ZZ6ZZ3
+    first_pair:
+      row_name: ACZZ6ZZ3
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ3
+      value: 1
+  - name: Z2ZZ6ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 20
+  - name: Z3ZZ6ZZ3
+    first_pair:
+      row_name: ACZZ6ZZ3
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ3
+      value: 1
+  - name: Z3ZZ6ZZ3
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ4
+      value: -5
+  - name: Z3ZZ6ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 1
+  - name: Z4ZZ6ZZ3
+    first_pair:
+      row_name: ACZZ6ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: -1
+  - name: Z4ZZ6ZZ3
+    first_pair:
+      row_name: ACZZ6ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ3
+    first_pair:
+      row_name: CCZZ7ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ3
+      value: 10
+  - name: Z2ZZ7ZZ3
+    first_pair:
+      row_name: ACZZ7ZZ3
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ3
+      value: 1
+  - name: Z2ZZ7ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ3
+      value: 20
+  - name: Z3ZZ7ZZ3
+    first_pair:
+      row_name: ACZZ7ZZ3
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ3
+      value: 1
+  - name: Z3ZZ7ZZ3
+    first_pair:
+      row_name: NCZZ3ZZ4
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ4
+      value: -5
+  - name: Z3ZZ7ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ3
+      value: 1
+  - name: Z4ZZ7ZZ3
+    first_pair:
+      row_name: ACZZ7ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ4
+      value: -1
+  - name: Z4ZZ7ZZ3
+    first_pair:
+      row_name: ACZZ7ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ3
+    first_pair:
+      row_name: CCZZ8ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 30
+  - name: Z2ZZ8ZZ3
+    first_pair:
+      row_name: ACZZ8ZZ3
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ3
+      value: 1
+  - name: Z2ZZ8ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 40
+  - name: Z3ZZ8ZZ3
+    first_pair:
+      row_name: ACZZ8ZZ3
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ3
+      value: 1
+  - name: Z3ZZ8ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ4
+      value: -7
+  - name: Z3ZZ8ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 1
+  - name: Z4ZZ8ZZ3
+    first_pair:
+      row_name: ACZZ8ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: -1
+  - name: Z4ZZ8ZZ3
+    first_pair:
+      row_name: ACZZ8ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ3
+    first_pair:
+      row_name: CCZZ9ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 30
+  - name: Z2ZZ9ZZ3
+    first_pair:
+      row_name: ACZZ9ZZ3
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ3
+      value: 1
+  - name: Z2ZZ9ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 40
+  - name: Z3ZZ9ZZ3
+    first_pair:
+      row_name: ACZZ9ZZ3
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ3
+      value: 1
+  - name: Z3ZZ9ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ4
+      value: -7
+  - name: Z3ZZ9ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 1
+  - name: Z4ZZ9ZZ3
+    first_pair:
+      row_name: ACZZ9ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: -1
+  - name: Z4ZZ9ZZ3
+    first_pair:
+      row_name: ACZZ9ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ3
+    first_pair:
+      row_name: CCZ10ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 10
+  - name: Z2Z10ZZ3
+    first_pair:
+      row_name: ACZ10ZZ3
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ3
+      value: 1
+  - name: Z2Z10ZZ3
+    first_pair:
+      row_name: NCZZ6ZZ4
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 20
+  - name: Z3Z10ZZ3
+    first_pair:
+      row_name: ACZ10ZZ3
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ3
+      value: 1
+  - name: Z3Z10ZZ3
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ4
+      value: -5
+  - name: Z3Z10ZZ3
+    first_pair:
+      row_name: NCZZ6ZZ4
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 1
+  - name: Z4Z10ZZ3
+    first_pair:
+      row_name: ACZ10ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: -1
+  - name: Z4Z10ZZ3
+    first_pair:
+      row_name: ACZ10ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ3
+    first_pair:
+      row_name: CCZ11ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ3
+      value: 15
+  - name: Z2Z11ZZ3
+    first_pair:
+      row_name: ACZ11ZZ3
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ3
+      value: 1
+  - name: Z3Z11ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ3
+      value: 25
+  - name: Z3Z11ZZ3
+    first_pair:
+      row_name: ACZ11ZZ3
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ3
+      value: 1
+  - name: Z3Z11ZZ3
+    first_pair:
+      row_name: NCZZ6ZZ4
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ4
+      value: -7
+  - name: Z4Z11ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ3
+      value: 1
+  - name: Z4Z11ZZ3
+    first_pair:
+      row_name: ACZ11ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ4
+      value: -1
+  - name: Z4Z11ZZ3
+    first_pair:
+      row_name: ACZ11ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ3
+    first_pair:
+      row_name: CCZ12ZZ3
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 50
+  - name: Z2Z12ZZ3
+    first_pair:
+      row_name: ACZ12ZZ3
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ3
+      value: 1
+  - name: Z3Z12ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 80
+  - name: Z3Z12ZZ3
+    first_pair:
+      row_name: ACZ12ZZ3
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ3
+      value: 1
+  - name: Z3Z12ZZ3
+    first_pair:
+      row_name: NCZZ5ZZ4
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ4
+      value: -15
+  - name: Z4Z12ZZ3
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ3
+      value: 1
+  - name: Z4Z12ZZ3
+    first_pair:
+      row_name: ACZ12ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: -1
+  - name: Z4Z12ZZ3
+    first_pair:
+      row_name: ACZ12ZZ4
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ4
+    first_pair:
+      row_name: CCZZ1ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 10
+  - name: Z2ZZ1ZZ4
+    first_pair:
+      row_name: ACZZ1ZZ4
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ4
+      value: 1
+  - name: Z2ZZ1ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 20
+  - name: Z3ZZ1ZZ4
+    first_pair:
+      row_name: ACZZ1ZZ4
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ4
+      value: 1
+  - name: Z3ZZ1ZZ4
+    first_pair:
+      row_name: NCZZ1ZZ5
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ5
+      value: -5
+  - name: Z3ZZ1ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 1
+  - name: Z4ZZ1ZZ4
+    first_pair:
+      row_name: ACZZ1ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: -1
+  - name: Z4ZZ1ZZ4
+    first_pair:
+      row_name: ACZZ1ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ4
+    first_pair:
+      row_name: CCZZ2ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 15
+  - name: Z2ZZ2ZZ4
+    first_pair:
+      row_name: ACZZ2ZZ4
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ4
+      value: 1
+  - name: Z2ZZ2ZZ4
+    first_pair:
+      row_name: NCZZ3ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 25
+  - name: Z3ZZ2ZZ4
+    first_pair:
+      row_name: ACZZ2ZZ4
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ4
+      value: 1
+  - name: Z3ZZ2ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ5
+      value: -7
+  - name: Z3ZZ2ZZ4
+    first_pair:
+      row_name: NCZZ3ZZ5
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 1
+  - name: Z4ZZ2ZZ4
+    first_pair:
+      row_name: ACZZ2ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: -1
+  - name: Z4ZZ2ZZ4
+    first_pair:
+      row_name: ACZZ2ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ4
+    first_pair:
+      row_name: CCZZ3ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 10
+  - name: Z2ZZ3ZZ4
+    first_pair:
+      row_name: ACZZ3ZZ4
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ4
+      value: 1
+  - name: Z2ZZ3ZZ4
+    first_pair:
+      row_name: NCZZ1ZZ5
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 20
+  - name: Z3ZZ3ZZ4
+    first_pair:
+      row_name: ACZZ3ZZ4
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ4
+      value: 1
+  - name: Z3ZZ3ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ5
+      value: -5
+  - name: Z3ZZ3ZZ4
+    first_pair:
+      row_name: NCZZ1ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 1
+  - name: Z4ZZ3ZZ4
+    first_pair:
+      row_name: ACZZ3ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: -1
+  - name: Z4ZZ3ZZ4
+    first_pair:
+      row_name: ACZZ3ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ4
+    first_pair:
+      row_name: CCZZ4ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 15
+  - name: Z2ZZ4ZZ4
+    first_pair:
+      row_name: ACZZ4ZZ4
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ4
+      value: 1
+  - name: Z2ZZ4ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 25
+  - name: Z3ZZ4ZZ4
+    first_pair:
+      row_name: ACZZ4ZZ4
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ4
+      value: 1
+  - name: Z3ZZ4ZZ4
+    first_pair:
+      row_name: NCZZ1ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ5
+      value: -7
+  - name: Z3ZZ4ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 1
+  - name: Z4ZZ4ZZ4
+    first_pair:
+      row_name: ACZZ4ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: -1
+  - name: Z4ZZ4ZZ4
+    first_pair:
+      row_name: ACZZ4ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ4
+    first_pair:
+      row_name: CCZZ5ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 15
+  - name: Z2ZZ5ZZ4
+    first_pair:
+      row_name: ACZZ5ZZ4
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ4
+      value: 1
+  - name: Z2ZZ5ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 25
+  - name: Z3ZZ5ZZ4
+    first_pair:
+      row_name: ACZZ5ZZ4
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ4
+      value: 1
+  - name: Z3ZZ5ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ5
+      value: -7
+  - name: Z3ZZ5ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 1
+  - name: Z4ZZ5ZZ4
+    first_pair:
+      row_name: ACZZ5ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: -1
+  - name: Z4ZZ5ZZ4
+    first_pair:
+      row_name: ACZZ5ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ4
+    first_pair:
+      row_name: CCZZ6ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 10
+  - name: Z2ZZ6ZZ4
+    first_pair:
+      row_name: ACZZ6ZZ4
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ4
+      value: 1
+  - name: Z2ZZ6ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 20
+  - name: Z3ZZ6ZZ4
+    first_pair:
+      row_name: ACZZ6ZZ4
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ4
+      value: 1
+  - name: Z3ZZ6ZZ4
+    first_pair:
+      row_name: NCZZ2ZZ5
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ5
+      value: -5
+  - name: Z3ZZ6ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ4
+      value: 1
+  - name: Z4ZZ6ZZ4
+    first_pair:
+      row_name: ACZZ6ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: -1
+  - name: Z4ZZ6ZZ4
+    first_pair:
+      row_name: ACZZ6ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ4
+    first_pair:
+      row_name: CCZZ7ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ4
+      value: 10
+  - name: Z2ZZ7ZZ4
+    first_pair:
+      row_name: ACZZ7ZZ4
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ4
+      value: 1
+  - name: Z2ZZ7ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ4
+      value: 20
+  - name: Z3ZZ7ZZ4
+    first_pair:
+      row_name: ACZZ7ZZ4
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ4
+      value: 1
+  - name: Z3ZZ7ZZ4
+    first_pair:
+      row_name: NCZZ3ZZ5
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ5
+      value: -5
+  - name: Z3ZZ7ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ4
+      value: 1
+  - name: Z4ZZ7ZZ4
+    first_pair:
+      row_name: ACZZ7ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ5
+      value: -1
+  - name: Z4ZZ7ZZ4
+    first_pair:
+      row_name: ACZZ7ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ4
+    first_pair:
+      row_name: CCZZ8ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 30
+  - name: Z2ZZ8ZZ4
+    first_pair:
+      row_name: ACZZ8ZZ4
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ4
+      value: 1
+  - name: Z2ZZ8ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 40
+  - name: Z3ZZ8ZZ4
+    first_pair:
+      row_name: ACZZ8ZZ4
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ4
+      value: 1
+  - name: Z3ZZ8ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ5
+      value: -7
+  - name: Z3ZZ8ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 1
+  - name: Z4ZZ8ZZ4
+    first_pair:
+      row_name: ACZZ8ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: -1
+  - name: Z4ZZ8ZZ4
+    first_pair:
+      row_name: ACZZ8ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ4
+    first_pair:
+      row_name: CCZZ9ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 30
+  - name: Z2ZZ9ZZ4
+    first_pair:
+      row_name: ACZZ9ZZ4
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ4
+      value: 1
+  - name: Z2ZZ9ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 40
+  - name: Z3ZZ9ZZ4
+    first_pair:
+      row_name: ACZZ9ZZ4
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ4
+      value: 1
+  - name: Z3ZZ9ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ5
+      value: -7
+  - name: Z3ZZ9ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 1
+  - name: Z4ZZ9ZZ4
+    first_pair:
+      row_name: ACZZ9ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: -1
+  - name: Z4ZZ9ZZ4
+    first_pair:
+      row_name: ACZZ9ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ4
+    first_pair:
+      row_name: CCZ10ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 10
+  - name: Z2Z10ZZ4
+    first_pair:
+      row_name: ACZ10ZZ4
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ4
+      value: 1
+  - name: Z2Z10ZZ4
+    first_pair:
+      row_name: NCZZ6ZZ5
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 20
+  - name: Z3Z10ZZ4
+    first_pair:
+      row_name: ACZ10ZZ4
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ4
+      value: 1
+  - name: Z3Z10ZZ4
+    first_pair:
+      row_name: NCZZ4ZZ5
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ5
+      value: -5
+  - name: Z3Z10ZZ4
+    first_pair:
+      row_name: NCZZ6ZZ5
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ4
+      value: 1
+  - name: Z4Z10ZZ4
+    first_pair:
+      row_name: ACZ10ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: -1
+  - name: Z4Z10ZZ4
+    first_pair:
+      row_name: ACZ10ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ4
+    first_pair:
+      row_name: CCZ11ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ4
+      value: 15
+  - name: Z2Z11ZZ4
+    first_pair:
+      row_name: ACZ11ZZ4
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ4
+      value: 1
+  - name: Z3Z11ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ4
+      value: 25
+  - name: Z3Z11ZZ4
+    first_pair:
+      row_name: ACZ11ZZ4
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ4
+      value: 1
+  - name: Z3Z11ZZ4
+    first_pair:
+      row_name: NCZZ6ZZ5
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ5
+      value: -7
+  - name: Z4Z11ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ4
+      value: 1
+  - name: Z4Z11ZZ4
+    first_pair:
+      row_name: ACZ11ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ5
+      value: -1
+  - name: Z4Z11ZZ4
+    first_pair:
+      row_name: ACZ11ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ4
+    first_pair:
+      row_name: CCZ12ZZ4
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 50
+  - name: Z2Z12ZZ4
+    first_pair:
+      row_name: ACZ12ZZ4
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ4
+      value: 1
+  - name: Z3Z12ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 80
+  - name: Z3Z12ZZ4
+    first_pair:
+      row_name: ACZ12ZZ4
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ4
+      value: 1
+  - name: Z3Z12ZZ4
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ5
+      value: -15
+  - name: Z4Z12ZZ4
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 1
+  - name: Z4Z12ZZ4
+    first_pair:
+      row_name: ACZ12ZZ4
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: -1
+  - name: Z4Z12ZZ4
+    first_pair:
+      row_name: ACZ12ZZ5
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ5
+    first_pair:
+      row_name: CCZZ1ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 10
+  - name: Z2ZZ1ZZ5
+    first_pair:
+      row_name: ACZZ1ZZ5
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ5
+      value: 1
+  - name: Z2ZZ1ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 20
+  - name: Z3ZZ1ZZ5
+    first_pair:
+      row_name: ACZZ1ZZ5
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ5
+      value: 1
+  - name: Z3ZZ1ZZ5
+    first_pair:
+      row_name: NCZZ1ZZ6
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ6
+      value: -5
+  - name: Z3ZZ1ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 1
+  - name: Z4ZZ1ZZ5
+    first_pair:
+      row_name: ACZZ1ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: -1
+  - name: Z4ZZ1ZZ5
+    first_pair:
+      row_name: ACZZ1ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ5
+    first_pair:
+      row_name: CCZZ2ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 15
+  - name: Z2ZZ2ZZ5
+    first_pair:
+      row_name: ACZZ2ZZ5
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ5
+      value: 1
+  - name: Z2ZZ2ZZ5
+    first_pair:
+      row_name: NCZZ3ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 25
+  - name: Z3ZZ2ZZ5
+    first_pair:
+      row_name: ACZZ2ZZ5
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ5
+      value: 1
+  - name: Z3ZZ2ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ6
+      value: -7
+  - name: Z3ZZ2ZZ5
+    first_pair:
+      row_name: NCZZ3ZZ6
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 1
+  - name: Z4ZZ2ZZ5
+    first_pair:
+      row_name: ACZZ2ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: -1
+  - name: Z4ZZ2ZZ5
+    first_pair:
+      row_name: ACZZ2ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ5
+    first_pair:
+      row_name: CCZZ3ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 10
+  - name: Z2ZZ3ZZ5
+    first_pair:
+      row_name: ACZZ3ZZ5
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ5
+      value: 1
+  - name: Z2ZZ3ZZ5
+    first_pair:
+      row_name: NCZZ1ZZ6
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 20
+  - name: Z3ZZ3ZZ5
+    first_pair:
+      row_name: ACZZ3ZZ5
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ5
+      value: 1
+  - name: Z3ZZ3ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ6
+      value: -5
+  - name: Z3ZZ3ZZ5
+    first_pair:
+      row_name: NCZZ1ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 1
+  - name: Z4ZZ3ZZ5
+    first_pair:
+      row_name: ACZZ3ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: -1
+  - name: Z4ZZ3ZZ5
+    first_pair:
+      row_name: ACZZ3ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ5
+    first_pair:
+      row_name: CCZZ4ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 15
+  - name: Z2ZZ4ZZ5
+    first_pair:
+      row_name: ACZZ4ZZ5
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ5
+      value: 1
+  - name: Z2ZZ4ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 25
+  - name: Z3ZZ4ZZ5
+    first_pair:
+      row_name: ACZZ4ZZ5
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ5
+      value: 1
+  - name: Z3ZZ4ZZ5
+    first_pair:
+      row_name: NCZZ1ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ6
+      value: -7
+  - name: Z3ZZ4ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ5
+      value: 1
+  - name: Z4ZZ4ZZ5
+    first_pair:
+      row_name: ACZZ4ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: -1
+  - name: Z4ZZ4ZZ5
+    first_pair:
+      row_name: ACZZ4ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ5
+    first_pair:
+      row_name: CCZZ5ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 15
+  - name: Z2ZZ5ZZ5
+    first_pair:
+      row_name: ACZZ5ZZ5
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ5
+      value: 1
+  - name: Z2ZZ5ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 25
+  - name: Z3ZZ5ZZ5
+    first_pair:
+      row_name: ACZZ5ZZ5
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ5
+      value: 1
+  - name: Z3ZZ5ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ6
+      value: -7
+  - name: Z3ZZ5ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 1
+  - name: Z4ZZ5ZZ5
+    first_pair:
+      row_name: ACZZ5ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: -1
+  - name: Z4ZZ5ZZ5
+    first_pair:
+      row_name: ACZZ5ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ5
+    first_pair:
+      row_name: CCZZ6ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 10
+  - name: Z2ZZ6ZZ5
+    first_pair:
+      row_name: ACZZ6ZZ5
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ5
+      value: 1
+  - name: Z2ZZ6ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 20
+  - name: Z3ZZ6ZZ5
+    first_pair:
+      row_name: ACZZ6ZZ5
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ5
+      value: 1
+  - name: Z3ZZ6ZZ5
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ6
+      value: -5
+  - name: Z3ZZ6ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 1
+  - name: Z4ZZ6ZZ5
+    first_pair:
+      row_name: ACZZ6ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: -1
+  - name: Z4ZZ6ZZ5
+    first_pair:
+      row_name: ACZZ6ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ5
+    first_pair:
+      row_name: CCZZ7ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ5
+      value: 10
+  - name: Z2ZZ7ZZ5
+    first_pair:
+      row_name: ACZZ7ZZ5
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ5
+      value: 1
+  - name: Z2ZZ7ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ5
+      value: 20
+  - name: Z3ZZ7ZZ5
+    first_pair:
+      row_name: ACZZ7ZZ5
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ5
+      value: 1
+  - name: Z3ZZ7ZZ5
+    first_pair:
+      row_name: NCZZ3ZZ6
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ6
+      value: -5
+  - name: Z3ZZ7ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ5
+      value: 1
+  - name: Z4ZZ7ZZ5
+    first_pair:
+      row_name: ACZZ7ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ6
+      value: -1
+  - name: Z4ZZ7ZZ5
+    first_pair:
+      row_name: ACZZ7ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ5
+    first_pair:
+      row_name: CCZZ8ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 30
+  - name: Z2ZZ8ZZ5
+    first_pair:
+      row_name: ACZZ8ZZ5
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ5
+      value: 1
+  - name: Z2ZZ8ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 40
+  - name: Z3ZZ8ZZ5
+    first_pair:
+      row_name: ACZZ8ZZ5
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ5
+      value: 1
+  - name: Z3ZZ8ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ6
+      value: -7
+  - name: Z3ZZ8ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 1
+  - name: Z4ZZ8ZZ5
+    first_pair:
+      row_name: ACZZ8ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: -1
+  - name: Z4ZZ8ZZ5
+    first_pair:
+      row_name: ACZZ8ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ5
+    first_pair:
+      row_name: CCZZ9ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 30
+  - name: Z2ZZ9ZZ5
+    first_pair:
+      row_name: ACZZ9ZZ5
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ5
+      value: 1
+  - name: Z2ZZ9ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 40
+  - name: Z3ZZ9ZZ5
+    first_pair:
+      row_name: ACZZ9ZZ5
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ5
+      value: 1
+  - name: Z3ZZ9ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ6
+      value: -7
+  - name: Z3ZZ9ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 1
+  - name: Z4ZZ9ZZ5
+    first_pair:
+      row_name: ACZZ9ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: -1
+  - name: Z4ZZ9ZZ5
+    first_pair:
+      row_name: ACZZ9ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ5
+    first_pair:
+      row_name: CCZ10ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 10
+  - name: Z2Z10ZZ5
+    first_pair:
+      row_name: ACZ10ZZ5
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ5
+      value: 1
+  - name: Z2Z10ZZ5
+    first_pair:
+      row_name: NCZZ6ZZ6
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 20
+  - name: Z3Z10ZZ5
+    first_pair:
+      row_name: ACZ10ZZ5
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ5
+      value: 1
+  - name: Z3Z10ZZ5
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ6
+      value: -5
+  - name: Z3Z10ZZ5
+    first_pair:
+      row_name: NCZZ6ZZ6
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 1
+  - name: Z4Z10ZZ5
+    first_pair:
+      row_name: ACZ10ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: -1
+  - name: Z4Z10ZZ5
+    first_pair:
+      row_name: ACZ10ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ5
+    first_pair:
+      row_name: CCZ11ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ5
+      value: 15
+  - name: Z2Z11ZZ5
+    first_pair:
+      row_name: ACZ11ZZ5
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ5
+      value: 1
+  - name: Z3Z11ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ5
+      value: 25
+  - name: Z3Z11ZZ5
+    first_pair:
+      row_name: ACZ11ZZ5
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ5
+      value: 1
+  - name: Z3Z11ZZ5
+    first_pair:
+      row_name: NCZZ6ZZ6
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ6
+      value: -7
+  - name: Z4Z11ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ5
+      value: 1
+  - name: Z4Z11ZZ5
+    first_pair:
+      row_name: ACZ11ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ6
+      value: -1
+  - name: Z4Z11ZZ5
+    first_pair:
+      row_name: ACZ11ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ5
+    first_pair:
+      row_name: CCZ12ZZ5
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 50
+  - name: Z2Z12ZZ5
+    first_pair:
+      row_name: ACZ12ZZ5
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ5
+      value: 1
+  - name: Z3Z12ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 80
+  - name: Z3Z12ZZ5
+    first_pair:
+      row_name: ACZ12ZZ5
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ5
+      value: 1
+  - name: Z3Z12ZZ5
+    first_pair:
+      row_name: NCZZ5ZZ6
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ6
+      value: -15
+  - name: Z4Z12ZZ5
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ5
+      value: 1
+  - name: Z4Z12ZZ5
+    first_pair:
+      row_name: ACZ12ZZ5
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: -1
+  - name: Z4Z12ZZ5
+    first_pair:
+      row_name: ACZ12ZZ6
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ6
+    first_pair:
+      row_name: CCZZ1ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 10
+  - name: Z2ZZ1ZZ6
+    first_pair:
+      row_name: ACZZ1ZZ6
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ6
+      value: 1
+  - name: Z2ZZ1ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 20
+  - name: Z3ZZ1ZZ6
+    first_pair:
+      row_name: ACZZ1ZZ6
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ6
+      value: 1
+  - name: Z3ZZ1ZZ6
+    first_pair:
+      row_name: NCZZ1ZZ7
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ7
+      value: -5
+  - name: Z3ZZ1ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 1
+  - name: Z4ZZ1ZZ6
+    first_pair:
+      row_name: ACZZ1ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: -1
+  - name: Z4ZZ1ZZ6
+    first_pair:
+      row_name: ACZZ1ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ6
+    first_pair:
+      row_name: CCZZ2ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 15
+  - name: Z2ZZ2ZZ6
+    first_pair:
+      row_name: ACZZ2ZZ6
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ6
+      value: 1
+  - name: Z2ZZ2ZZ6
+    first_pair:
+      row_name: NCZZ3ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 25
+  - name: Z3ZZ2ZZ6
+    first_pair:
+      row_name: ACZZ2ZZ6
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ6
+      value: 1
+  - name: Z3ZZ2ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ7
+      value: -7
+  - name: Z3ZZ2ZZ6
+    first_pair:
+      row_name: NCZZ3ZZ7
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 1
+  - name: Z4ZZ2ZZ6
+    first_pair:
+      row_name: ACZZ2ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: -1
+  - name: Z4ZZ2ZZ6
+    first_pair:
+      row_name: ACZZ2ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ6
+    first_pair:
+      row_name: CCZZ3ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 10
+  - name: Z2ZZ3ZZ6
+    first_pair:
+      row_name: ACZZ3ZZ6
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ6
+      value: 1
+  - name: Z2ZZ3ZZ6
+    first_pair:
+      row_name: NCZZ1ZZ7
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 20
+  - name: Z3ZZ3ZZ6
+    first_pair:
+      row_name: ACZZ3ZZ6
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ6
+      value: 1
+  - name: Z3ZZ3ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ7
+      value: -5
+  - name: Z3ZZ3ZZ6
+    first_pair:
+      row_name: NCZZ1ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 1
+  - name: Z4ZZ3ZZ6
+    first_pair:
+      row_name: ACZZ3ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: -1
+  - name: Z4ZZ3ZZ6
+    first_pair:
+      row_name: ACZZ3ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ6
+    first_pair:
+      row_name: CCZZ4ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 15
+  - name: Z2ZZ4ZZ6
+    first_pair:
+      row_name: ACZZ4ZZ6
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ6
+      value: 1
+  - name: Z2ZZ4ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 25
+  - name: Z3ZZ4ZZ6
+    first_pair:
+      row_name: ACZZ4ZZ6
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ6
+      value: 1
+  - name: Z3ZZ4ZZ6
+    first_pair:
+      row_name: NCZZ1ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ7
+      value: -7
+  - name: Z3ZZ4ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ6
+      value: 1
+  - name: Z4ZZ4ZZ6
+    first_pair:
+      row_name: ACZZ4ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: -1
+  - name: Z4ZZ4ZZ6
+    first_pair:
+      row_name: ACZZ4ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ6
+    first_pair:
+      row_name: CCZZ5ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 15
+  - name: Z2ZZ5ZZ6
+    first_pair:
+      row_name: ACZZ5ZZ6
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ6
+      value: 1
+  - name: Z2ZZ5ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 25
+  - name: Z3ZZ5ZZ6
+    first_pair:
+      row_name: ACZZ5ZZ6
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ6
+      value: 1
+  - name: Z3ZZ5ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ7
+      value: -7
+  - name: Z3ZZ5ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 1
+  - name: Z4ZZ5ZZ6
+    first_pair:
+      row_name: ACZZ5ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: -1
+  - name: Z4ZZ5ZZ6
+    first_pair:
+      row_name: ACZZ5ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ6
+    first_pair:
+      row_name: CCZZ6ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 10
+  - name: Z2ZZ6ZZ6
+    first_pair:
+      row_name: ACZZ6ZZ6
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ6
+      value: 1
+  - name: Z2ZZ6ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 20
+  - name: Z3ZZ6ZZ6
+    first_pair:
+      row_name: ACZZ6ZZ6
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ6
+      value: 1
+  - name: Z3ZZ6ZZ6
+    first_pair:
+      row_name: NCZZ2ZZ7
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ7
+      value: -5
+  - name: Z3ZZ6ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ6
+      value: 1
+  - name: Z4ZZ6ZZ6
+    first_pair:
+      row_name: ACZZ6ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: -1
+  - name: Z4ZZ6ZZ6
+    first_pair:
+      row_name: ACZZ6ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ6
+    first_pair:
+      row_name: CCZZ7ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ6
+      value: 10
+  - name: Z2ZZ7ZZ6
+    first_pair:
+      row_name: ACZZ7ZZ6
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ6
+      value: 1
+  - name: Z2ZZ7ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ6
+      value: 20
+  - name: Z3ZZ7ZZ6
+    first_pair:
+      row_name: ACZZ7ZZ6
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ6
+      value: 1
+  - name: Z3ZZ7ZZ6
+    first_pair:
+      row_name: NCZZ3ZZ7
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ7
+      value: -5
+  - name: Z3ZZ7ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ6
+      value: 1
+  - name: Z4ZZ7ZZ6
+    first_pair:
+      row_name: ACZZ7ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ7
+      value: -1
+  - name: Z4ZZ7ZZ6
+    first_pair:
+      row_name: ACZZ7ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ6
+    first_pair:
+      row_name: CCZZ8ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 30
+  - name: Z2ZZ8ZZ6
+    first_pair:
+      row_name: ACZZ8ZZ6
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ6
+      value: 1
+  - name: Z2ZZ8ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 40
+  - name: Z3ZZ8ZZ6
+    first_pair:
+      row_name: ACZZ8ZZ6
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ6
+      value: 1
+  - name: Z3ZZ8ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ7
+      value: -7
+  - name: Z3ZZ8ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 1
+  - name: Z4ZZ8ZZ6
+    first_pair:
+      row_name: ACZZ8ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: -1
+  - name: Z4ZZ8ZZ6
+    first_pair:
+      row_name: ACZZ8ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ6
+    first_pair:
+      row_name: CCZZ9ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 30
+  - name: Z2ZZ9ZZ6
+    first_pair:
+      row_name: ACZZ9ZZ6
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ6
+      value: 1
+  - name: Z2ZZ9ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 40
+  - name: Z3ZZ9ZZ6
+    first_pair:
+      row_name: ACZZ9ZZ6
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ6
+      value: 1
+  - name: Z3ZZ9ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ7
+      value: -7
+  - name: Z3ZZ9ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 1
+  - name: Z4ZZ9ZZ6
+    first_pair:
+      row_name: ACZZ9ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: -1
+  - name: Z4ZZ9ZZ6
+    first_pair:
+      row_name: ACZZ9ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ6
+    first_pair:
+      row_name: CCZ10ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 10
+  - name: Z2Z10ZZ6
+    first_pair:
+      row_name: ACZ10ZZ6
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ6
+      value: 1
+  - name: Z2Z10ZZ6
+    first_pair:
+      row_name: NCZZ6ZZ7
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 20
+  - name: Z3Z10ZZ6
+    first_pair:
+      row_name: ACZ10ZZ6
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ6
+      value: 1
+  - name: Z3Z10ZZ6
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ7
+      value: -5
+  - name: Z3Z10ZZ6
+    first_pair:
+      row_name: NCZZ6ZZ7
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ6
+      value: 1
+  - name: Z4Z10ZZ6
+    first_pair:
+      row_name: ACZ10ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: -1
+  - name: Z4Z10ZZ6
+    first_pair:
+      row_name: ACZ10ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ6
+    first_pair:
+      row_name: CCZ11ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ6
+      value: 15
+  - name: Z2Z11ZZ6
+    first_pair:
+      row_name: ACZ11ZZ6
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ6
+      value: 1
+  - name: Z3Z11ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ6
+      value: 25
+  - name: Z3Z11ZZ6
+    first_pair:
+      row_name: ACZ11ZZ6
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ6
+      value: 1
+  - name: Z3Z11ZZ6
+    first_pair:
+      row_name: NCZZ6ZZ7
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ7
+      value: -7
+  - name: Z4Z11ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ6
+      value: 1
+  - name: Z4Z11ZZ6
+    first_pair:
+      row_name: ACZ11ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ7
+      value: -1
+  - name: Z4Z11ZZ6
+    first_pair:
+      row_name: ACZ11ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ6
+    first_pair:
+      row_name: CCZ12ZZ6
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 50
+  - name: Z2Z12ZZ6
+    first_pair:
+      row_name: ACZ12ZZ6
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ6
+      value: 1
+  - name: Z3Z12ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 80
+  - name: Z3Z12ZZ6
+    first_pair:
+      row_name: ACZ12ZZ6
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ6
+      value: 1
+  - name: Z3Z12ZZ6
+    first_pair:
+      row_name: NCZZ5ZZ7
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ7
+      value: -15
+  - name: Z4Z12ZZ6
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 1
+  - name: Z4Z12ZZ6
+    first_pair:
+      row_name: ACZ12ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: -1
+  - name: Z4Z12ZZ6
+    first_pair:
+      row_name: ACZ12ZZ7
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ7
+    first_pair:
+      row_name: CCZZ1ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 10
+  - name: Z2ZZ1ZZ7
+    first_pair:
+      row_name: ACZZ1ZZ7
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ7
+      value: 1
+  - name: Z2ZZ1ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 20
+  - name: Z3ZZ1ZZ7
+    first_pair:
+      row_name: ACZZ1ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ7
+      value: 1
+  - name: Z3ZZ1ZZ7
+    first_pair:
+      row_name: NCZZ1ZZ8
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ8
+      value: -5
+  - name: Z3ZZ1ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 1
+  - name: Z4ZZ1ZZ7
+    first_pair:
+      row_name: ACZZ1ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: -1
+  - name: Z4ZZ1ZZ7
+    first_pair:
+      row_name: ACZZ1ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ7
+    first_pair:
+      row_name: CCZZ2ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 15
+  - name: Z2ZZ2ZZ7
+    first_pair:
+      row_name: ACZZ2ZZ7
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ7
+      value: 1
+  - name: Z2ZZ2ZZ7
+    first_pair:
+      row_name: NCZZ3ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 25
+  - name: Z3ZZ2ZZ7
+    first_pair:
+      row_name: ACZZ2ZZ7
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ7
+      value: 1
+  - name: Z3ZZ2ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ8
+      value: -7
+  - name: Z3ZZ2ZZ7
+    first_pair:
+      row_name: NCZZ3ZZ8
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 1
+  - name: Z4ZZ2ZZ7
+    first_pair:
+      row_name: ACZZ2ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: -1
+  - name: Z4ZZ2ZZ7
+    first_pair:
+      row_name: ACZZ2ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ7
+    first_pair:
+      row_name: CCZZ3ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 10
+  - name: Z2ZZ3ZZ7
+    first_pair:
+      row_name: ACZZ3ZZ7
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ7
+      value: 1
+  - name: Z2ZZ3ZZ7
+    first_pair:
+      row_name: NCZZ1ZZ8
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 20
+  - name: Z3ZZ3ZZ7
+    first_pair:
+      row_name: ACZZ3ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ7
+      value: 1
+  - name: Z3ZZ3ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ8
+      value: -5
+  - name: Z3ZZ3ZZ7
+    first_pair:
+      row_name: NCZZ1ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 1
+  - name: Z4ZZ3ZZ7
+    first_pair:
+      row_name: ACZZ3ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: -1
+  - name: Z4ZZ3ZZ7
+    first_pair:
+      row_name: ACZZ3ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ7
+    first_pair:
+      row_name: CCZZ4ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 15
+  - name: Z2ZZ4ZZ7
+    first_pair:
+      row_name: ACZZ4ZZ7
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ7
+      value: 1
+  - name: Z2ZZ4ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 25
+  - name: Z3ZZ4ZZ7
+    first_pair:
+      row_name: ACZZ4ZZ7
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ7
+      value: 1
+  - name: Z3ZZ4ZZ7
+    first_pair:
+      row_name: NCZZ1ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ8
+      value: -7
+  - name: Z3ZZ4ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ7
+      value: 1
+  - name: Z4ZZ4ZZ7
+    first_pair:
+      row_name: ACZZ4ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: -1
+  - name: Z4ZZ4ZZ7
+    first_pair:
+      row_name: ACZZ4ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ7
+    first_pair:
+      row_name: CCZZ5ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 15
+  - name: Z2ZZ5ZZ7
+    first_pair:
+      row_name: ACZZ5ZZ7
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ7
+      value: 1
+  - name: Z2ZZ5ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 25
+  - name: Z3ZZ5ZZ7
+    first_pair:
+      row_name: ACZZ5ZZ7
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ7
+      value: 1
+  - name: Z3ZZ5ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ8
+      value: -7
+  - name: Z3ZZ5ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 1
+  - name: Z4ZZ5ZZ7
+    first_pair:
+      row_name: ACZZ5ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: -1
+  - name: Z4ZZ5ZZ7
+    first_pair:
+      row_name: ACZZ5ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ7
+    first_pair:
+      row_name: CCZZ6ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 10
+  - name: Z2ZZ6ZZ7
+    first_pair:
+      row_name: ACZZ6ZZ7
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ7
+      value: 1
+  - name: Z2ZZ6ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 20
+  - name: Z3ZZ6ZZ7
+    first_pair:
+      row_name: ACZZ6ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ7
+      value: 1
+  - name: Z3ZZ6ZZ7
+    first_pair:
+      row_name: NCZZ2ZZ8
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ8
+      value: -5
+  - name: Z3ZZ6ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 1
+  - name: Z4ZZ6ZZ7
+    first_pair:
+      row_name: ACZZ6ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: -1
+  - name: Z4ZZ6ZZ7
+    first_pair:
+      row_name: ACZZ6ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ7
+    first_pair:
+      row_name: CCZZ7ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ7
+      value: 10
+  - name: Z2ZZ7ZZ7
+    first_pair:
+      row_name: ACZZ7ZZ7
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ7
+      value: 1
+  - name: Z2ZZ7ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ7
+      value: 20
+  - name: Z3ZZ7ZZ7
+    first_pair:
+      row_name: ACZZ7ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ7
+      value: 1
+  - name: Z3ZZ7ZZ7
+    first_pair:
+      row_name: NCZZ3ZZ8
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ8
+      value: -5
+  - name: Z3ZZ7ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ7
+      value: 1
+  - name: Z4ZZ7ZZ7
+    first_pair:
+      row_name: ACZZ7ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ8
+      value: -1
+  - name: Z4ZZ7ZZ7
+    first_pair:
+      row_name: ACZZ7ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ7
+    first_pair:
+      row_name: CCZZ8ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 30
+  - name: Z2ZZ8ZZ7
+    first_pair:
+      row_name: ACZZ8ZZ7
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ7
+      value: 1
+  - name: Z2ZZ8ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 40
+  - name: Z3ZZ8ZZ7
+    first_pair:
+      row_name: ACZZ8ZZ7
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ7
+      value: 1
+  - name: Z3ZZ8ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ8
+      value: -7
+  - name: Z3ZZ8ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 1
+  - name: Z4ZZ8ZZ7
+    first_pair:
+      row_name: ACZZ8ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: -1
+  - name: Z4ZZ8ZZ7
+    first_pair:
+      row_name: ACZZ8ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ7
+    first_pair:
+      row_name: CCZZ9ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 30
+  - name: Z2ZZ9ZZ7
+    first_pair:
+      row_name: ACZZ9ZZ7
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ7
+      value: 1
+  - name: Z2ZZ9ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 40
+  - name: Z3ZZ9ZZ7
+    first_pair:
+      row_name: ACZZ9ZZ7
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ7
+      value: 1
+  - name: Z3ZZ9ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ8
+      value: -7
+  - name: Z3ZZ9ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 1
+  - name: Z4ZZ9ZZ7
+    first_pair:
+      row_name: ACZZ9ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: -1
+  - name: Z4ZZ9ZZ7
+    first_pair:
+      row_name: ACZZ9ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ7
+    first_pair:
+      row_name: CCZ10ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 10
+  - name: Z2Z10ZZ7
+    first_pair:
+      row_name: ACZ10ZZ7
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ7
+      value: 1
+  - name: Z2Z10ZZ7
+    first_pair:
+      row_name: NCZZ6ZZ8
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 20
+  - name: Z3Z10ZZ7
+    first_pair:
+      row_name: ACZ10ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ7
+      value: 1
+  - name: Z3Z10ZZ7
+    first_pair:
+      row_name: NCZZ4ZZ8
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ8
+      value: -5
+  - name: Z3Z10ZZ7
+    first_pair:
+      row_name: NCZZ6ZZ8
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ7
+      value: 1
+  - name: Z4Z10ZZ7
+    first_pair:
+      row_name: ACZ10ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: -1
+  - name: Z4Z10ZZ7
+    first_pair:
+      row_name: ACZ10ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ7
+    first_pair:
+      row_name: CCZ11ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ7
+      value: 15
+  - name: Z2Z11ZZ7
+    first_pair:
+      row_name: ACZ11ZZ7
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ7
+      value: 1
+  - name: Z3Z11ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ7
+      value: 25
+  - name: Z3Z11ZZ7
+    first_pair:
+      row_name: ACZ11ZZ7
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ7
+      value: 1
+  - name: Z3Z11ZZ7
+    first_pair:
+      row_name: NCZZ6ZZ8
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ8
+      value: -7
+  - name: Z4Z11ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ7
+      value: 1
+  - name: Z4Z11ZZ7
+    first_pair:
+      row_name: ACZ11ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ8
+      value: -1
+  - name: Z4Z11ZZ7
+    first_pair:
+      row_name: ACZ11ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ7
+    first_pair:
+      row_name: CCZ12ZZ7
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 50
+  - name: Z2Z12ZZ7
+    first_pair:
+      row_name: ACZ12ZZ7
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ7
+      value: 1
+  - name: Z3Z12ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 80
+  - name: Z3Z12ZZ7
+    first_pair:
+      row_name: ACZ12ZZ7
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ7
+      value: 1
+  - name: Z3Z12ZZ7
+    first_pair:
+      row_name: NCZZ5ZZ8
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ8
+      value: -15
+  - name: Z4Z12ZZ7
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 1
+  - name: Z4Z12ZZ7
+    first_pair:
+      row_name: ACZ12ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: -1
+  - name: Z4Z12ZZ7
+    first_pair:
+      row_name: ACZ12ZZ8
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ8
+    first_pair:
+      row_name: CCZZ1ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 10
+  - name: Z2ZZ1ZZ8
+    first_pair:
+      row_name: ACZZ1ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ8
+      value: 1
+  - name: Z2ZZ1ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 20
+  - name: Z3ZZ1ZZ8
+    first_pair:
+      row_name: ACZZ1ZZ8
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ8
+      value: 1
+  - name: Z3ZZ1ZZ8
+    first_pair:
+      row_name: NCZZ1ZZ9
+      value: -5
+    second_pair:
+      row_name: ACZZ1ZZ9
+      value: -5
+  - name: Z3ZZ1ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 1
+  - name: Z4ZZ1ZZ8
+    first_pair:
+      row_name: ACZZ1ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: -1
+  - name: Z4ZZ1ZZ8
+    first_pair:
+      row_name: ACZZ1ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ8
+    first_pair:
+      row_name: CCZZ2ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 15
+  - name: Z2ZZ2ZZ8
+    first_pair:
+      row_name: ACZZ2ZZ8
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ8
+      value: 1
+  - name: Z2ZZ2ZZ8
+    first_pair:
+      row_name: NCZZ3ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 25
+  - name: Z3ZZ2ZZ8
+    first_pair:
+      row_name: ACZZ2ZZ8
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ8
+      value: 1
+  - name: Z3ZZ2ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZZ2ZZ9
+      value: -7
+  - name: Z3ZZ2ZZ8
+    first_pair:
+      row_name: NCZZ3ZZ9
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 1
+  - name: Z4ZZ2ZZ8
+    first_pair:
+      row_name: ACZZ2ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: -1
+  - name: Z4ZZ2ZZ8
+    first_pair:
+      row_name: ACZZ2ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ8
+    first_pair:
+      row_name: CCZZ3ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 10
+  - name: Z2ZZ3ZZ8
+    first_pair:
+      row_name: ACZZ3ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ8
+      value: 1
+  - name: Z2ZZ3ZZ8
+    first_pair:
+      row_name: NCZZ1ZZ9
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 20
+  - name: Z3ZZ3ZZ8
+    first_pair:
+      row_name: ACZZ3ZZ8
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ8
+      value: 1
+  - name: Z3ZZ3ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -5
+    second_pair:
+      row_name: ACZZ3ZZ9
+      value: -5
+  - name: Z3ZZ3ZZ8
+    first_pair:
+      row_name: NCZZ1ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 1
+  - name: Z4ZZ3ZZ8
+    first_pair:
+      row_name: ACZZ3ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: -1
+  - name: Z4ZZ3ZZ8
+    first_pair:
+      row_name: ACZZ3ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ8
+    first_pair:
+      row_name: CCZZ4ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 15
+  - name: Z2ZZ4ZZ8
+    first_pair:
+      row_name: ACZZ4ZZ8
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ8
+      value: 1
+  - name: Z2ZZ4ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 25
+  - name: Z3ZZ4ZZ8
+    first_pair:
+      row_name: ACZZ4ZZ8
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ8
+      value: 1
+  - name: Z3ZZ4ZZ8
+    first_pair:
+      row_name: NCZZ1ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZZ4ZZ9
+      value: -7
+  - name: Z3ZZ4ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ8
+      value: 1
+  - name: Z4ZZ4ZZ8
+    first_pair:
+      row_name: ACZZ4ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: -1
+  - name: Z4ZZ4ZZ8
+    first_pair:
+      row_name: ACZZ4ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ8
+    first_pair:
+      row_name: CCZZ5ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 15
+  - name: Z2ZZ5ZZ8
+    first_pair:
+      row_name: ACZZ5ZZ8
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ8
+      value: 1
+  - name: Z2ZZ5ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 25
+  - name: Z3ZZ5ZZ8
+    first_pair:
+      row_name: ACZZ5ZZ8
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ8
+      value: 1
+  - name: Z3ZZ5ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZZ5ZZ9
+      value: -7
+  - name: Z3ZZ5ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 1
+  - name: Z4ZZ5ZZ8
+    first_pair:
+      row_name: ACZZ5ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: -1
+  - name: Z4ZZ5ZZ8
+    first_pair:
+      row_name: ACZZ5ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ8
+    first_pair:
+      row_name: CCZZ6ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 10
+  - name: Z2ZZ6ZZ8
+    first_pair:
+      row_name: ACZZ6ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ8
+      value: 1
+  - name: Z2ZZ6ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 20
+  - name: Z3ZZ6ZZ8
+    first_pair:
+      row_name: ACZZ6ZZ8
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ8
+      value: 1
+  - name: Z3ZZ6ZZ8
+    first_pair:
+      row_name: NCZZ2ZZ9
+      value: -5
+    second_pair:
+      row_name: ACZZ6ZZ9
+      value: -5
+  - name: Z3ZZ6ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ8
+      value: 1
+  - name: Z4ZZ6ZZ8
+    first_pair:
+      row_name: ACZZ6ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: -1
+  - name: Z4ZZ6ZZ8
+    first_pair:
+      row_name: ACZZ6ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ8
+    first_pair:
+      row_name: CCZZ7ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ8
+      value: 10
+  - name: Z2ZZ7ZZ8
+    first_pair:
+      row_name: ACZZ7ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ8
+      value: 1
+  - name: Z2ZZ7ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ8
+      value: 20
+  - name: Z3ZZ7ZZ8
+    first_pair:
+      row_name: ACZZ7ZZ8
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ8
+      value: 1
+  - name: Z3ZZ7ZZ8
+    first_pair:
+      row_name: NCZZ3ZZ9
+      value: -5
+    second_pair:
+      row_name: ACZZ7ZZ9
+      value: -5
+  - name: Z3ZZ7ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ8
+      value: 1
+  - name: Z4ZZ7ZZ8
+    first_pair:
+      row_name: ACZZ7ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ9
+      value: -1
+  - name: Z4ZZ7ZZ8
+    first_pair:
+      row_name: ACZZ7ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ8
+    first_pair:
+      row_name: CCZZ8ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 30
+  - name: Z2ZZ8ZZ8
+    first_pair:
+      row_name: ACZZ8ZZ8
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ8
+      value: 1
+  - name: Z2ZZ8ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 40
+  - name: Z3ZZ8ZZ8
+    first_pair:
+      row_name: ACZZ8ZZ8
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ8
+      value: 1
+  - name: Z3ZZ8ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZZ8ZZ9
+      value: -7
+  - name: Z3ZZ8ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 1
+  - name: Z4ZZ8ZZ8
+    first_pair:
+      row_name: ACZZ8ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: -1
+  - name: Z4ZZ8ZZ8
+    first_pair:
+      row_name: ACZZ8ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ8
+    first_pair:
+      row_name: CCZZ9ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 30
+  - name: Z2ZZ9ZZ8
+    first_pair:
+      row_name: ACZZ9ZZ8
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ8
+      value: 1
+  - name: Z2ZZ9ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 40
+  - name: Z3ZZ9ZZ8
+    first_pair:
+      row_name: ACZZ9ZZ8
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ8
+      value: 1
+  - name: Z3ZZ9ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZZ9ZZ9
+      value: -7
+  - name: Z3ZZ9ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 1
+  - name: Z4ZZ9ZZ8
+    first_pair:
+      row_name: ACZZ9ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: -1
+  - name: Z4ZZ9ZZ8
+    first_pair:
+      row_name: ACZZ9ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ8
+    first_pair:
+      row_name: CCZ10ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 10
+  - name: Z2Z10ZZ8
+    first_pair:
+      row_name: ACZ10ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ8
+      value: 1
+  - name: Z2Z10ZZ8
+    first_pair:
+      row_name: NCZZ6ZZ9
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 20
+  - name: Z3Z10ZZ8
+    first_pair:
+      row_name: ACZ10ZZ8
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ8
+      value: 1
+  - name: Z3Z10ZZ8
+    first_pair:
+      row_name: NCZZ4ZZ9
+      value: -5
+    second_pair:
+      row_name: ACZ10ZZ9
+      value: -5
+  - name: Z3Z10ZZ8
+    first_pair:
+      row_name: NCZZ6ZZ9
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 1
+  - name: Z4Z10ZZ8
+    first_pair:
+      row_name: ACZ10ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: -1
+  - name: Z4Z10ZZ8
+    first_pair:
+      row_name: ACZ10ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ8
+    first_pair:
+      row_name: CCZ11ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ8
+      value: 15
+  - name: Z2Z11ZZ8
+    first_pair:
+      row_name: ACZ11ZZ8
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ8
+      value: 1
+  - name: Z3Z11ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ8
+      value: 25
+  - name: Z3Z11ZZ8
+    first_pair:
+      row_name: ACZ11ZZ8
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ8
+      value: 1
+  - name: Z3Z11ZZ8
+    first_pair:
+      row_name: NCZZ6ZZ9
+      value: -7
+    second_pair:
+      row_name: ACZ11ZZ9
+      value: -7
+  - name: Z4Z11ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ8
+      value: 1
+  - name: Z4Z11ZZ8
+    first_pair:
+      row_name: ACZ11ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ9
+      value: -1
+  - name: Z4Z11ZZ8
+    first_pair:
+      row_name: ACZ11ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ8
+    first_pair:
+      row_name: CCZ12ZZ8
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 50
+  - name: Z2Z12ZZ8
+    first_pair:
+      row_name: ACZ12ZZ8
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ8
+      value: 1
+  - name: Z3Z12ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 80
+  - name: Z3Z12ZZ8
+    first_pair:
+      row_name: ACZ12ZZ8
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ8
+      value: 1
+  - name: Z3Z12ZZ8
+    first_pair:
+      row_name: NCZZ5ZZ9
+      value: -15
+    second_pair:
+      row_name: ACZ12ZZ9
+      value: -15
+  - name: Z4Z12ZZ8
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ8
+      value: 1
+  - name: Z4Z12ZZ8
+    first_pair:
+      row_name: ACZ12ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: -1
+  - name: Z4Z12ZZ8
+    first_pair:
+      row_name: ACZ12ZZ9
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1ZZ9
+    first_pair:
+      row_name: CCZZ1ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 10
+  - name: Z2ZZ1ZZ9
+    first_pair:
+      row_name: ACZZ1ZZ9
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ9
+      value: 1
+  - name: Z2ZZ1ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ1ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 20
+  - name: Z3ZZ1ZZ9
+    first_pair:
+      row_name: ACZZ1ZZ9
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ9
+      value: 1
+  - name: Z3ZZ1ZZ9
+    first_pair:
+      row_name: NCZZ1Z10
+      value: -5
+    second_pair:
+      row_name: ACZZ1Z10
+      value: -5
+  - name: Z3ZZ1ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ1ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 1
+  - name: Z4ZZ1ZZ9
+    first_pair:
+      row_name: ACZZ1ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ1Z10
+      value: -1
+  - name: Z4ZZ1ZZ9
+    first_pair:
+      row_name: ACZZ1Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ2ZZ9
+    first_pair:
+      row_name: CCZZ2ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 15
+  - name: Z2ZZ2ZZ9
+    first_pair:
+      row_name: ACZZ2ZZ9
+      value: 15
+    second_pair:
+      row_name: CCZZ2ZZ9
+      value: 1
+  - name: Z2ZZ2ZZ9
+    first_pair:
+      row_name: NCZZ3Z10
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ2ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 25
+  - name: Z3ZZ2ZZ9
+    first_pair:
+      row_name: ACZZ2ZZ9
+      value: 25
+    second_pair:
+      row_name: CCZZ2ZZ9
+      value: 1
+  - name: Z3ZZ2ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -7
+    second_pair:
+      row_name: ACZZ2Z10
+      value: -7
+  - name: Z3ZZ2ZZ9
+    first_pair:
+      row_name: NCZZ3Z10
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ2ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 1
+  - name: Z4ZZ2ZZ9
+    first_pair:
+      row_name: ACZZ2ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: -1
+  - name: Z4ZZ2ZZ9
+    first_pair:
+      row_name: ACZZ2Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ3ZZ9
+    first_pair:
+      row_name: CCZZ3ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 10
+  - name: Z2ZZ3ZZ9
+    first_pair:
+      row_name: ACZZ3ZZ9
+      value: 10
+    second_pair:
+      row_name: CCZZ3ZZ9
+      value: 1
+  - name: Z2ZZ3ZZ9
+    first_pair:
+      row_name: NCZZ1Z10
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ3ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 20
+  - name: Z3ZZ3ZZ9
+    first_pair:
+      row_name: ACZZ3ZZ9
+      value: 20
+    second_pair:
+      row_name: CCZZ3ZZ9
+      value: 1
+  - name: Z3ZZ3ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -5
+    second_pair:
+      row_name: ACZZ3Z10
+      value: -5
+  - name: Z3ZZ3ZZ9
+    first_pair:
+      row_name: NCZZ1Z10
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ3ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 1
+  - name: Z4ZZ3ZZ9
+    first_pair:
+      row_name: ACZZ3ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: -1
+  - name: Z4ZZ3ZZ9
+    first_pair:
+      row_name: ACZZ3Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ4ZZ9
+    first_pair:
+      row_name: CCZZ4ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 15
+  - name: Z2ZZ4ZZ9
+    first_pair:
+      row_name: ACZZ4ZZ9
+      value: 15
+    second_pair:
+      row_name: CCZZ4ZZ9
+      value: 1
+  - name: Z2ZZ4ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ4ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 25
+  - name: Z3ZZ4ZZ9
+    first_pair:
+      row_name: ACZZ4ZZ9
+      value: 25
+    second_pair:
+      row_name: CCZZ4ZZ9
+      value: 1
+  - name: Z3ZZ4ZZ9
+    first_pair:
+      row_name: NCZZ1Z10
+      value: -7
+    second_pair:
+      row_name: ACZZ4Z10
+      value: -7
+  - name: Z3ZZ4ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ4ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ9
+      value: 1
+  - name: Z4ZZ4ZZ9
+    first_pair:
+      row_name: ACZZ4ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ1Z10
+      value: -1
+  - name: Z4ZZ4ZZ9
+    first_pair:
+      row_name: ACZZ4Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ5ZZ9
+    first_pair:
+      row_name: CCZZ5ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 15
+  - name: Z2ZZ5ZZ9
+    first_pair:
+      row_name: ACZZ5ZZ9
+      value: 15
+    second_pair:
+      row_name: CCZZ5ZZ9
+      value: 1
+  - name: Z2ZZ5ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -15
+    second_pair: ~
+  - name: Z3ZZ5ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 25
+  - name: Z3ZZ5ZZ9
+    first_pair:
+      row_name: ACZZ5ZZ9
+      value: 25
+    second_pair:
+      row_name: CCZZ5ZZ9
+      value: 1
+  - name: Z3ZZ5ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -7
+    second_pair:
+      row_name: ACZZ5Z10
+      value: -7
+  - name: Z3ZZ5ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -18
+    second_pair: ~
+  - name: Z4ZZ5ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 1
+  - name: Z4ZZ5ZZ9
+    first_pair:
+      row_name: ACZZ5ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: -1
+  - name: Z4ZZ5ZZ9
+    first_pair:
+      row_name: ACZZ5Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ6ZZ9
+    first_pair:
+      row_name: CCZZ6ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 10
+  - name: Z2ZZ6ZZ9
+    first_pair:
+      row_name: ACZZ6ZZ9
+      value: 10
+    second_pair:
+      row_name: CCZZ6ZZ9
+      value: 1
+  - name: Z2ZZ6ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ6ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 20
+  - name: Z3ZZ6ZZ9
+    first_pair:
+      row_name: ACZZ6ZZ9
+      value: 20
+    second_pair:
+      row_name: CCZZ6ZZ9
+      value: 1
+  - name: Z3ZZ6ZZ9
+    first_pair:
+      row_name: NCZZ2Z10
+      value: -5
+    second_pair:
+      row_name: ACZZ6Z10
+      value: -5
+  - name: Z3ZZ6ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ6ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ9
+      value: 1
+  - name: Z4ZZ6ZZ9
+    first_pair:
+      row_name: ACZZ6ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: -1
+  - name: Z4ZZ6ZZ9
+    first_pair:
+      row_name: ACZZ6Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ7ZZ9
+    first_pair:
+      row_name: CCZZ7ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3ZZ9
+      value: 10
+  - name: Z2ZZ7ZZ9
+    first_pair:
+      row_name: ACZZ7ZZ9
+      value: 10
+    second_pair:
+      row_name: CCZZ7ZZ9
+      value: 1
+  - name: Z2ZZ7ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -10
+    second_pair: ~
+  - name: Z3ZZ7ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ9
+      value: 20
+  - name: Z3ZZ7ZZ9
+    first_pair:
+      row_name: ACZZ7ZZ9
+      value: 20
+    second_pair:
+      row_name: CCZZ7ZZ9
+      value: 1
+  - name: Z3ZZ7ZZ9
+    first_pair:
+      row_name: NCZZ3Z10
+      value: -5
+    second_pair:
+      row_name: ACZZ7Z10
+      value: -5
+  - name: Z3ZZ7ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -15
+    second_pair: ~
+  - name: Z4ZZ7ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3ZZ9
+      value: 1
+  - name: Z4ZZ7ZZ9
+    first_pair:
+      row_name: ACZZ7ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ3Z10
+      value: -1
+  - name: Z4ZZ7ZZ9
+    first_pair:
+      row_name: ACZZ7Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ8ZZ9
+    first_pair:
+      row_name: CCZZ8ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 30
+  - name: Z2ZZ8ZZ9
+    first_pair:
+      row_name: ACZZ8ZZ9
+      value: 30
+    second_pair:
+      row_name: CCZZ8ZZ9
+      value: 1
+  - name: Z2ZZ8ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ8ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 40
+  - name: Z3ZZ8ZZ9
+    first_pair:
+      row_name: ACZZ8ZZ9
+      value: 40
+    second_pair:
+      row_name: CCZZ8ZZ9
+      value: 1
+  - name: Z3ZZ8ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -7
+    second_pair:
+      row_name: ACZZ8Z10
+      value: -7
+  - name: Z3ZZ8ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ8ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 1
+  - name: Z4ZZ8ZZ9
+    first_pair:
+      row_name: ACZZ8ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ4Z10
+      value: -1
+  - name: Z4ZZ8ZZ9
+    first_pair:
+      row_name: ACZZ8Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ9ZZ9
+    first_pair:
+      row_name: CCZZ9ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 30
+  - name: Z2ZZ9ZZ9
+    first_pair:
+      row_name: ACZZ9ZZ9
+      value: 30
+    second_pair:
+      row_name: CCZZ9ZZ9
+      value: 1
+  - name: Z2ZZ9ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -30
+    second_pair: ~
+  - name: Z3ZZ9ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 40
+  - name: Z3ZZ9ZZ9
+    first_pair:
+      row_name: ACZZ9ZZ9
+      value: 40
+    second_pair:
+      row_name: CCZZ9ZZ9
+      value: 1
+  - name: Z3ZZ9ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -7
+    second_pair:
+      row_name: ACZZ9Z10
+      value: -7
+  - name: Z3ZZ9ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -33
+    second_pair: ~
+  - name: Z4ZZ9ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 1
+  - name: Z4ZZ9ZZ9
+    first_pair:
+      row_name: ACZZ9ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ5Z10
+      value: -1
+  - name: Z4ZZ9ZZ9
+    first_pair:
+      row_name: ACZZ9Z10
+      value: -1
+    second_pair: ~
+  - name: Z1Z10ZZ9
+    first_pair:
+      row_name: CCZ10ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2Z10ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 10
+  - name: Z2Z10ZZ9
+    first_pair:
+      row_name: ACZ10ZZ9
+      value: 10
+    second_pair:
+      row_name: CCZ10ZZ9
+      value: 1
+  - name: Z2Z10ZZ9
+    first_pair:
+      row_name: NCZZ6Z10
+      value: -10
+    second_pair: ~
+  - name: Z3Z10ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 20
+  - name: Z3Z10ZZ9
+    first_pair:
+      row_name: ACZ10ZZ9
+      value: 20
+    second_pair:
+      row_name: CCZ10ZZ9
+      value: 1
+  - name: Z3Z10ZZ9
+    first_pair:
+      row_name: NCZZ4Z10
+      value: -5
+    second_pair:
+      row_name: ACZ10Z10
+      value: -5
+  - name: Z3Z10ZZ9
+    first_pair:
+      row_name: NCZZ6Z10
+      value: -15
+    second_pair: ~
+  - name: Z4Z10ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ9
+      value: 1
+  - name: Z4Z10ZZ9
+    first_pair:
+      row_name: ACZ10ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ4Z10
+      value: -1
+  - name: Z4Z10ZZ9
+    first_pair:
+      row_name: ACZ10Z10
+      value: -1
+    second_pair: ~
+  - name: Z1Z11ZZ9
+    first_pair:
+      row_name: CCZ11ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2Z11ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6ZZ9
+      value: 15
+  - name: Z2Z11ZZ9
+    first_pair:
+      row_name: ACZ11ZZ9
+      value: 15
+    second_pair:
+      row_name: CCZ11ZZ9
+      value: 1
+  - name: Z3Z11ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6ZZ9
+      value: 25
+  - name: Z3Z11ZZ9
+    first_pair:
+      row_name: ACZ11ZZ9
+      value: 25
+    second_pair:
+      row_name: CCZ11ZZ9
+      value: 1
+  - name: Z3Z11ZZ9
+    first_pair:
+      row_name: NCZZ6Z10
+      value: -7
+    second_pair:
+      row_name: ACZ11Z10
+      value: -7
+  - name: Z4Z11ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ9
+      value: 1
+  - name: Z4Z11ZZ9
+    first_pair:
+      row_name: ACZ11ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ6Z10
+      value: -1
+  - name: Z4Z11ZZ9
+    first_pair:
+      row_name: ACZ11Z10
+      value: -1
+    second_pair: ~
+  - name: Z1Z12ZZ9
+    first_pair:
+      row_name: CCZ12ZZ9
+      value: 1
+    second_pair: ~
+  - name: Z2Z12ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 50
+  - name: Z2Z12ZZ9
+    first_pair:
+      row_name: ACZ12ZZ9
+      value: 50
+    second_pair:
+      row_name: CCZ12ZZ9
+      value: 1
+  - name: Z3Z12ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 80
+  - name: Z3Z12ZZ9
+    first_pair:
+      row_name: ACZ12ZZ9
+      value: 80
+    second_pair:
+      row_name: CCZ12ZZ9
+      value: 1
+  - name: Z3Z12ZZ9
+    first_pair:
+      row_name: NCZZ5Z10
+      value: -15
+    second_pair:
+      row_name: ACZ12Z10
+      value: -15
+  - name: Z4Z12ZZ9
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5ZZ9
+      value: 1
+  - name: Z4Z12ZZ9
+    first_pair:
+      row_name: ACZ12ZZ9
+      value: 1
+    second_pair:
+      row_name: NCZZ5Z10
+      value: -1
+  - name: Z4Z12ZZ9
+    first_pair:
+      row_name: ACZ12Z10
+      value: -1
+    second_pair: ~
+  - name: Z1ZZ1Z10
+    first_pair:
+      row_name: CCZZ1Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ1Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 10
+  - name: Z2ZZ1Z10
+    first_pair:
+      row_name: ACZZ1Z10
+      value: 10
+    second_pair:
+      row_name: CCZZ1Z10
+      value: 1
+  - name: Z3ZZ1Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 20
+  - name: Z3ZZ1Z10
+    first_pair:
+      row_name: ACZZ1Z10
+      value: 20
+    second_pair:
+      row_name: CCZZ1Z10
+      value: 1
+  - name: Z4ZZ1Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 1
+  - name: Z4ZZ1Z10
+    first_pair:
+      row_name: ACZZ1Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ2Z10
+    first_pair:
+      row_name: CCZZ2Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ2Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 15
+  - name: Z2ZZ2Z10
+    first_pair:
+      row_name: ACZZ2Z10
+      value: 15
+    second_pair:
+      row_name: CCZZ2Z10
+      value: 1
+  - name: Z3ZZ2Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 25
+  - name: Z3ZZ2Z10
+    first_pair:
+      row_name: ACZZ2Z10
+      value: 25
+    second_pair:
+      row_name: CCZZ2Z10
+      value: 1
+  - name: Z4ZZ2Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 1
+  - name: Z4ZZ2Z10
+    first_pair:
+      row_name: ACZZ2Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ3Z10
+    first_pair:
+      row_name: CCZZ3Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ3Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 10
+  - name: Z2ZZ3Z10
+    first_pair:
+      row_name: ACZZ3Z10
+      value: 10
+    second_pair:
+      row_name: CCZZ3Z10
+      value: 1
+  - name: Z3ZZ3Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 20
+  - name: Z3ZZ3Z10
+    first_pair:
+      row_name: ACZZ3Z10
+      value: 20
+    second_pair:
+      row_name: CCZZ3Z10
+      value: 1
+  - name: Z4ZZ3Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 1
+  - name: Z4ZZ3Z10
+    first_pair:
+      row_name: ACZZ3Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ4Z10
+    first_pair:
+      row_name: CCZZ4Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ4Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 15
+  - name: Z2ZZ4Z10
+    first_pair:
+      row_name: ACZZ4Z10
+      value: 15
+    second_pair:
+      row_name: CCZZ4Z10
+      value: 1
+  - name: Z3ZZ4Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 25
+  - name: Z3ZZ4Z10
+    first_pair:
+      row_name: ACZZ4Z10
+      value: 25
+    second_pair:
+      row_name: CCZZ4Z10
+      value: 1
+  - name: Z4ZZ4Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ1Z10
+      value: 1
+  - name: Z4ZZ4Z10
+    first_pair:
+      row_name: ACZZ4Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ5Z10
+    first_pair:
+      row_name: CCZZ5Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ5Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 15
+  - name: Z2ZZ5Z10
+    first_pair:
+      row_name: ACZZ5Z10
+      value: 15
+    second_pair:
+      row_name: CCZZ5Z10
+      value: 1
+  - name: Z3ZZ5Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 25
+  - name: Z3ZZ5Z10
+    first_pair:
+      row_name: ACZZ5Z10
+      value: 25
+    second_pair:
+      row_name: CCZZ5Z10
+      value: 1
+  - name: Z4ZZ5Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 1
+  - name: Z4ZZ5Z10
+    first_pair:
+      row_name: ACZZ5Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ6Z10
+    first_pair:
+      row_name: CCZZ6Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ6Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 10
+  - name: Z2ZZ6Z10
+    first_pair:
+      row_name: ACZZ6Z10
+      value: 10
+    second_pair:
+      row_name: CCZZ6Z10
+      value: 1
+  - name: Z3ZZ6Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 20
+  - name: Z3ZZ6Z10
+    first_pair:
+      row_name: ACZZ6Z10
+      value: 20
+    second_pair:
+      row_name: CCZZ6Z10
+      value: 1
+  - name: Z4ZZ6Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ2Z10
+      value: 1
+  - name: Z4ZZ6Z10
+    first_pair:
+      row_name: ACZZ6Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ7Z10
+    first_pair:
+      row_name: CCZZ7Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ7Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ3Z10
+      value: 10
+  - name: Z2ZZ7Z10
+    first_pair:
+      row_name: ACZZ7Z10
+      value: 10
+    second_pair:
+      row_name: CCZZ7Z10
+      value: 1
+  - name: Z3ZZ7Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ3Z10
+      value: 20
+  - name: Z3ZZ7Z10
+    first_pair:
+      row_name: ACZZ7Z10
+      value: 20
+    second_pair:
+      row_name: CCZZ7Z10
+      value: 1
+  - name: Z4ZZ7Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ3Z10
+      value: 1
+  - name: Z4ZZ7Z10
+    first_pair:
+      row_name: ACZZ7Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ8Z10
+    first_pair:
+      row_name: CCZZ8Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ8Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 30
+  - name: Z2ZZ8Z10
+    first_pair:
+      row_name: ACZZ8Z10
+      value: 30
+    second_pair:
+      row_name: CCZZ8Z10
+      value: 1
+  - name: Z3ZZ8Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 40
+  - name: Z3ZZ8Z10
+    first_pair:
+      row_name: ACZZ8Z10
+      value: 40
+    second_pair:
+      row_name: CCZZ8Z10
+      value: 1
+  - name: Z4ZZ8Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 1
+  - name: Z4ZZ8Z10
+    first_pair:
+      row_name: ACZZ8Z10
+      value: 1
+    second_pair: ~
+  - name: Z1ZZ9Z10
+    first_pair:
+      row_name: CCZZ9Z10
+      value: 1
+    second_pair: ~
+  - name: Z2ZZ9Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 30
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 30
+  - name: Z2ZZ9Z10
+    first_pair:
+      row_name: ACZZ9Z10
+      value: 30
+    second_pair:
+      row_name: CCZZ9Z10
+      value: 1
+  - name: Z3ZZ9Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 40
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 40
+  - name: Z3ZZ9Z10
+    first_pair:
+      row_name: ACZZ9Z10
+      value: 40
+    second_pair:
+      row_name: CCZZ9Z10
+      value: 1
+  - name: Z4ZZ9Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 1
+  - name: Z4ZZ9Z10
+    first_pair:
+      row_name: ACZZ9Z10
+      value: 1
+    second_pair: ~
+  - name: Z1Z10Z10
+    first_pair:
+      row_name: CCZ10Z10
+      value: 1
+    second_pair: ~
+  - name: Z2Z10Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 10
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 10
+  - name: Z2Z10Z10
+    first_pair:
+      row_name: ACZ10Z10
+      value: 10
+    second_pair:
+      row_name: CCZ10Z10
+      value: 1
+  - name: Z3Z10Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 20
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 20
+  - name: Z3Z10Z10
+    first_pair:
+      row_name: ACZ10Z10
+      value: 20
+    second_pair:
+      row_name: CCZ10Z10
+      value: 1
+  - name: Z4Z10Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ4Z10
+      value: 1
+  - name: Z4Z10Z10
+    first_pair:
+      row_name: ACZ10Z10
+      value: 1
+    second_pair: ~
+  - name: Z1Z11Z10
+    first_pair:
+      row_name: CCZ11Z10
+      value: 1
+    second_pair: ~
+  - name: Z2Z11Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 15
+    second_pair:
+      row_name: NCZZ6Z10
+      value: 15
+  - name: Z2Z11Z10
+    first_pair:
+      row_name: ACZ11Z10
+      value: 15
+    second_pair:
+      row_name: CCZ11Z10
+      value: 1
+  - name: Z3Z11Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 25
+    second_pair:
+      row_name: NCZZ6Z10
+      value: 25
+  - name: Z3Z11Z10
+    first_pair:
+      row_name: ACZ11Z10
+      value: 25
+    second_pair:
+      row_name: CCZ11Z10
+      value: 1
+  - name: Z4Z11Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ6Z10
+      value: 1
+  - name: Z4Z11Z10
+    first_pair:
+      row_name: ACZ11Z10
+      value: 1
+    second_pair: ~
+  - name: Z1Z12Z10
+    first_pair:
+      row_name: CCZ12Z10
+      value: 1
+    second_pair: ~
+  - name: Z2Z12Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 50
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 50
+  - name: Z2Z12Z10
+    first_pair:
+      row_name: ACZ12Z10
+      value: 50
+    second_pair:
+      row_name: CCZ12Z10
+      value: 1
+  - name: Z3Z12Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 80
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 80
+  - name: Z3Z12Z10
+    first_pair:
+      row_name: ACZ12Z10
+      value: 80
+    second_pair:
+      row_name: CCZ12Z10
+      value: 1
+  - name: Z4Z12Z10
+    first_pair:
+      row_name: OBJZZZZZ
+      value: 1
+    second_pair:
+      row_name: NCZZ5Z10
+      value: 1
+  - name: Z4Z12Z10
+    first_pair:
+      row_name: ACZ12Z10
+      value: 1
+    second_pair: ~
+rhs:
+  - name: RHS
+    first_pair:
+      row_name: NCZZ1ZZ1
+      value: 5
+    second_pair:
+      row_name: NCZZ2ZZ1
+      value: 5
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZZ2ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZZ4ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZZ6ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZZ8ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZ10ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11ZZ1
+      value: 1
+    second_pair:
+      row_name: CCZ12ZZ1
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: NCZZ1ZZ2
+      value: 10
+    second_pair:
+      row_name: NCZZ2ZZ2
+      value: 30
+  - name: RHS
+    first_pair:
+      row_name: NCZZ3ZZ2
+      value: 10
+    second_pair:
+      row_name: NCZZ4ZZ2
+      value: 5
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZZ2ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZZ4ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZZ6ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZZ8ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZ10ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11ZZ2
+      value: 1
+    second_pair:
+      row_name: CCZ12ZZ2
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: NCZZ1ZZ3
+      value: 20
+    second_pair:
+      row_name: NCZZ2ZZ3
+      value: 40
+  - name: RHS
+    first_pair:
+      row_name: NCZZ3ZZ3
+      value: 25
+    second_pair:
+      row_name: NCZZ4ZZ3
+      value: 10
+  - name: RHS
+    first_pair:
+      row_name: NCZZ5ZZ3
+      value: 15
+    second_pair:
+      row_name: CCZZ1ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ2ZZ3
+      value: 1
+    second_pair:
+      row_name: CCZZ3ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ4ZZ3
+      value: 1
+    second_pair:
+      row_name: CCZZ5ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ6ZZ3
+      value: 1
+    second_pair:
+      row_name: CCZZ7ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ8ZZ3
+      value: 1
+    second_pair:
+      row_name: CCZZ9ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ10ZZ3
+      value: 1
+    second_pair:
+      row_name: CCZ11ZZ3
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ12ZZ3
+      value: 1
+    second_pair:
+      row_name: NCZZ1ZZ4
+      value: 10
+  - name: RHS
+    first_pair:
+      row_name: NCZZ2ZZ4
+      value: 30
+    second_pair:
+      row_name: NCZZ3ZZ4
+      value: 20
+  - name: RHS
+    first_pair:
+      row_name: NCZZ4ZZ4
+      value: 20
+    second_pair:
+      row_name: NCZZ5ZZ4
+      value: 40
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZZ2ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZZ4ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZZ6ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZZ8ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZ10ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11ZZ4
+      value: 1
+    second_pair:
+      row_name: CCZ12ZZ4
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: NCZZ1ZZ5
+      value: 3
+    second_pair:
+      row_name: NCZZ2ZZ5
+      value: 25
+  - name: RHS
+    first_pair:
+      row_name: NCZZ3ZZ5
+      value: 15
+    second_pair:
+      row_name: NCZZ4ZZ5
+      value: 15
+  - name: RHS
+    first_pair:
+      row_name: NCZZ5ZZ5
+      value: 30
+    second_pair:
+      row_name: NCZZ6ZZ5
+      value: 5
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZZ2ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZZ4ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZZ6ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZZ8ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZ10ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11ZZ5
+      value: 1
+    second_pair:
+      row_name: CCZ12ZZ5
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: NCZZ2ZZ6
+      value: 20
+    second_pair:
+      row_name: NCZZ3ZZ6
+      value: 10
+  - name: RHS
+    first_pair:
+      row_name: NCZZ4ZZ6
+      value: 10
+    second_pair:
+      row_name: NCZZ5ZZ6
+      value: 20
+  - name: RHS
+    first_pair:
+      row_name: NCZZ6ZZ6
+      value: 15
+    second_pair:
+      row_name: CCZZ1ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ2ZZ6
+      value: 1
+    second_pair:
+      row_name: CCZZ3ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ4ZZ6
+      value: 1
+    second_pair:
+      row_name: CCZZ5ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ6ZZ6
+      value: 1
+    second_pair:
+      row_name: CCZZ7ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ8ZZ6
+      value: 1
+    second_pair:
+      row_name: CCZZ9ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ10ZZ6
+      value: 1
+    second_pair:
+      row_name: CCZ11ZZ6
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ12ZZ6
+      value: 1
+    second_pair:
+      row_name: NCZZ2ZZ7
+      value: 10
+  - name: RHS
+    first_pair:
+      row_name: NCZZ4ZZ7
+      value: 10
+    second_pair:
+      row_name: NCZZ5ZZ7
+      value: 10
+  - name: RHS
+    first_pair:
+      row_name: NCZZ6ZZ7
+      value: 20
+    second_pair:
+      row_name: CCZZ1ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ2ZZ7
+      value: 1
+    second_pair:
+      row_name: CCZZ3ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ4ZZ7
+      value: 1
+    second_pair:
+      row_name: CCZZ5ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ6ZZ7
+      value: 1
+    second_pair:
+      row_name: CCZZ7ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ8ZZ7
+      value: 1
+    second_pair:
+      row_name: CCZZ9ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ10ZZ7
+      value: 1
+    second_pair:
+      row_name: CCZ11ZZ7
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ12ZZ7
+      value: 1
+    second_pair:
+      row_name: NCZZ4ZZ8
+      value: 5
+  - name: RHS
+    first_pair:
+      row_name: NCZZ6ZZ8
+      value: 10
+    second_pair:
+      row_name: CCZZ1ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ2ZZ8
+      value: 1
+    second_pair:
+      row_name: CCZZ3ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ4ZZ8
+      value: 1
+    second_pair:
+      row_name: CCZZ5ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ6ZZ8
+      value: 1
+    second_pair:
+      row_name: CCZZ7ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ8ZZ8
+      value: 1
+    second_pair:
+      row_name: CCZZ9ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ10ZZ8
+      value: 1
+    second_pair:
+      row_name: CCZ11ZZ8
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ12ZZ8
+      value: 1
+    second_pair:
+      row_name: NCZZ6ZZ9
+      value: 5
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZZ2ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZZ4ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZZ6ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZZ8ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZ10ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11ZZ9
+      value: 1
+    second_pair:
+      row_name: CCZ12ZZ9
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ1Z10
+      value: 1
+    second_pair:
+      row_name: CCZZ2Z10
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ3Z10
+      value: 1
+    second_pair:
+      row_name: CCZZ4Z10
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ5Z10
+      value: 1
+    second_pair:
+      row_name: CCZZ6Z10
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ7Z10
+      value: 1
+    second_pair:
+      row_name: CCZZ8Z10
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZZ9Z10
+      value: 1
+    second_pair:
+      row_name: CCZ10Z10
+      value: 1
+  - name: RHS
+    first_pair:
+      row_name: CCZ11Z10
+      value: 1
+    second_pair:
+      row_name: CCZ12Z10
+      value: 1
+ranges: ~
+bounds: ~
+

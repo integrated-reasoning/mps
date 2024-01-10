@@ -1,0 +1,509 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/brandy\"))?"
+---
+name: BRANDY
+rows:
+  - row_type: Nr
+    row_name: 10000A
+  - row_type: Eq
+    row_name: 10001A
+  - row_type: Eq
+    row_name: 10002A
+  - row_type: Eq
+    row_name: 10003A
+  - row_type: Eq
+    row_name: 10004A
+  - row_type: Leq
+    row_name: 10006A
+  - row_type: Leq
+    row_name: 10007A
+  - row_type: Eq
+    row_name: 10008A
+  - row_type: Leq
+    row_name: 10009A
+  - row_type: Leq
+    row_name: 10010A
+  - row_type: Leq
+    row_name: 10011A
+  - row_type: Leq
+    row_name: 10012A
+  - row_type: Leq
+    row_name: 10013A
+  - row_type: Eq
+    row_name: 10014A
+  - row_type: Leq
+    row_name: 10015A
+  - row_type: Leq
+    row_name: 10016A
+  - row_type: Leq
+    row_name: 10017A
+  - row_type: Leq
+    row_name: 10018A
+  - row_type: Leq
+    row_name: 10019A
+  - row_type: Leq
+    row_name: 10020A
+  - row_type: Leq
+    row_name: 10021A
+  - row_type: Leq
+    row_name: 10022A
+  - row_type: Leq
+    row_name: 10023A
+  - row_type: Leq
+    row_name: 10024A
+  - row_type: Eq
+    row_name: 10025A
+  - row_type: Eq
+    row_name: 10026A
+  - row_type: Eq
+    row_name: 10027A
+  - row_type: Eq
+    row_name: 10028A
+  - row_type: Eq
+    row_name: 10029A
+  - row_type: Eq
+    row_name: 10030A
+  - row_type: Eq
+    row_name: 10031A
+  - row_type: Eq
+    row_name: 10032A
+  - row_type: Eq
+    row_name: 10033A
+  - row_type: Eq
+    row_name: 10034A
+  - row_type: Eq
+    row_name: 10035A
+  - row_type: Eq
+    row_name: 10036A
+  - row_type: Eq
+    row_name: 10037A
+  - row_type: Eq
+    row_name: 10038A
+  - row_type: Eq
+    row_name: 10039A
+  - row_type: Leq
+    row_name: 10040A
+  - row_type: Eq
+    row_name: 10041A
+  - row_type: Eq
+    row_name: 10042A
+  - row_type: Eq
+    row_name: 10043A
+  - row_type: Eq
+    row_name: 10044A
+  - row_type: Eq
+    row_name: 10045A
+  - row_type: Eq
+    row_name: 10046A
+  - row_type: Eq
+    row_name: 10047A
+  - row_type: Eq
+    row_name: 10048A
+  - row_type: Eq
+    row_name: 10049A
+  - row_type: Eq
+    row_name: 10050A
+  - row_type: Eq
+    row_name: 10051A
+  - row_type: Eq
+    row_name: 10052A
+  - row_type: Eq
+    row_name: 10053A
+  - row_type: Eq
+    row_name: 10054A
+  - row_type: Eq
+    row_name: 10055A
+  - row_type: Eq
+    row_name: 10056A
+  - row_type: Eq
+    row_name: 10057A
+  - row_type: Eq
+    row_name: 10058A
+  - row_type: Leq
+    row_name: 10059A
+  - row_type: Leq
+    row_name: 10060A
+  - row_type: Eq
+    row_name: 10061A
+  - row_type: Eq
+    row_name: 10062A
+  - row_type: Eq
+    row_name: 10063A
+  - row_type: Eq
+    row_name: 10064A
+  - row_type: Eq
+    row_name: 10065A
+  - row_type: Eq
+    row_name: 10066A
+  - row_type: Eq
+    row_name: 10067A
+  - row_type: Eq
+    row_name: 10068A
+  - row_type: Eq
+    row_name: 10069A
+  - row_type: Eq
+    row_name: 10070A
+  - row_type: Eq
+    row_name: 10071A
+  - row_type: Eq
+    row_name: 10072A
+  - row_type: Eq
+    row_name: 10073A
+  - row_type: Eq
+    row_name: 10074A
+  - row_type: Eq
+    row_name: 10075A
+  - row_type: Eq
+    row_name: 10076A
+  - row_type: Eq
+    row_name: 10077A
+  - row_type: Eq
+    row_name: 10078A
+  - row_type: Eq
+    row_name: 10079A
+  - row_type: Eq
+    row_name: 10080A
+  - row_type: Eq
+    row_name: 10081A
+  - row_type: Eq
+    row_name: 10082A
+  - row_type: Eq
+    row_name: 10083A
+  - row_type: Eq
+    row_name: 10084A
+  - row_type: Eq
+    row_name: 10085A
+  - row_type: Eq
+    row_name: 10086A
+  - row_type: Eq
+    row_name: 10087A
+  - row_type: Eq
+    row_name: 10088A
+  - row_type: Leq
+    row_name: 10089A
+  - row_type: Eq
+    row_name: 10090A
+  - row_type: Eq
+    row_name: 10091A
+  - row_type: Eq
+    row_name: 10092A
+  - row_type: Eq
+    row_name: 10093A
+  - row_type: Eq
+    row_name: 10094A
+  - row_type: Eq
+    row_name: 10095A
+  - row_type: Eq
+    row_name: 10096A
+  - row_type: Eq
+    row_name: 10097A
+  - row_type: Eq
+    row_name: 10098A
+  - row_type: Eq
+    row_name: 10099A
+  - row_type: Eq
+    row_name: 10100A
+  - row_type: Eq
+    row_name: 10101A
+  - row_type: Eq
+    row_name: 10102A
+  - row_type: Eq
+    row_name: 10103A
+  - row_type: Eq
+    row_name: 10104A
+  - row_type: Eq
+    row_name: 10105A
+  - row_type: Eq
+    row_name: 10106A
+  - row_type: Eq
+    row_name: 10107A
+  - row_type: Eq
+    row_name: 10108A
+  - row_type: Eq
+    row_name: 10109A
+  - row_type: Eq
+    row_name: 10110A
+  - row_type: Eq
+    row_name: 10111A
+  - row_type: Eq
+    row_name: 10112A
+  - row_type: Eq
+    row_name: 10113A
+  - row_type: Eq
+    row_name: 10114A
+  - row_type: Eq
+    row_name: 10115A
+  - row_type: Eq
+    row_name: 10116A
+  - row_type: Eq
+    row_name: 10117A
+  - row_type: Eq
+    row_name: 10118A
+  - row_type: Eq
+    row_name: 10119A
+  - row_type: Eq
+    row_name: 10120A
+  - row_type: Eq
+    row_name: 10121A
+  - row_type: Leq
+    row_name: 10122A
+  - row_type: Eq
+    row_name: 10123A
+  - row_type: Eq
+    row_name: 10124A
+  - row_type: Leq
+    row_name: 10125A
+  - row_type: Eq
+    row_name: 10126A
+  - row_type: Leq
+    row_name: 10127A
+  - row_type: Eq
+    row_name: 10128A
+  - row_type: Eq
+    row_name: 10129A
+  - row_type: Leq
+    row_name: 10130A
+  - row_type: Leq
+    row_name: 10131A
+  - row_type: Leq
+    row_name: 10132A
+  - row_type: Eq
+    row_name: 10133A
+  - row_type: Eq
+    row_name: 10134A
+  - row_type: Eq
+    row_name: 10135A
+  - row_type: Leq
+    row_name: 10136A
+  - row_type: Leq
+    row_name: 10137A
+  - row_type: Eq
+    row_name: 10138A
+  - row_type: Leq
+    row_name: 10139A
+  - row_type: Eq
+    row_name: 10140A
+  - row_type: Eq
+    row_name: 10141A
+  - row_type: Eq
+    row_name: 10142A
+  - row_type: Eq
+    row_name: 10143A
+  - row_type: Eq
+    row_name: 10144A
+  - row_type: Eq
+    row_name: 10145A
+  - row_type: Eq
+    row_name: 10146A
+  - row_type: Eq
+    row_name: 10147A
+  - row_type: Eq
+    row_name: 10148A
+  - row_type: Eq
+    row_name: 10149A
+  - row_type: Eq
+    row_name: 10150A
+  - row_type: Eq
+    row_name: 10151A
+  - row_type: Eq
+    row_name: 10152A
+  - row_type: Eq
+    row_name: 10153A
+  - row_type: Eq
+    row_name: 10154A
+  - row_type: Eq
+    row_name: 10155A
+  - row_type: Eq
+    row_name: 10156A
+  - row_type: Eq
+    row_name: 10157A
+  - row_type: Eq
+    row_name: 10158A
+  - row_type: Eq
+    row_name: 10159A
+  - row_type: Leq
+    row_name: 10160A
+  - row_type: Eq
+    row_name: 10161A
+  - row_type: Leq
+    row_name: 10162A
+  - row_type: Leq
+    row_name: 10163A
+  - row_type: Leq
+    row_name: 10164A
+  - row_type: Eq
+    row_name: 10165A
+  - row_type: Eq
+    row_name: 10166A
+  - row_type: Leq
+    row_name: 10167A
+  - row_type: Leq
+    row_name: 10168A
+  - row_type: Leq
+    row_name: 10169A
+  - row_type: Eq
+    row_name: 10170A
+  - row_type: Eq
+    row_name: 10171A
+  - row_type: Eq
+    row_name: 10172A
+  - row_type: Eq
+    row_name: 10173A
+  - row_type: Eq
+    row_name: 10174A
+  - row_type: Eq
+    row_name: 10175A
+  - row_type: Eq
+    row_name: 10176A
+  - row_type: Eq
+    row_name: 10177A
+  - row_type: Leq
+    row_name: 10178A
+  - row_type: Leq
+    row_name: 10179A
+  - row_type: Leq
+    row_name: 10180A
+  - row_type: Leq
+    row_name: 10181A
+  - row_type: Leq
+    row_name: 10182A
+  - row_type: Leq
+    row_name: 10183A
+  - row_type: Leq
+    row_name: 10184A
+  - row_type: Leq
+    row_name: 10185A
+  - row_type: Leq
+    row_name: 10186A
+  - row_type: Leq
+    row_name: 10187A
+  - row_type: Leq
+    row_name: 10188A
+  - row_type: Leq
+    row_name: 10189A
+  - row_type: Leq
+    row_name: 10190A
+  - row_type: Leq
+    row_name: 10191A
+  - row_type: Leq
+    row_name: 10192A
+  - row_type: Leq
+    row_name: 10193A
+  - row_type: Eq
+    row_name: 10194A
+  - row_type: Leq
+    row_name: 10195A
+  - row_type: Eq
+    row_name: 10196A
+  - row_type: Eq
+    row_name: 10197A
+  - row_type: Eq
+    row_name: 10198A
+  - row_type: Eq
+    row_name: 10199A
+  - row_type: Eq
+    row_name: 10200A
+  - row_type: Eq
+    row_name: 10201A
+  - row_type: Eq
+    row_name: 10202A
+  - row_type: Eq
+    row_name: 10203A
+  - row_type: Eq
+    row_name: 10204A
+  - row_type: Eq
+    row_name: 10205A
+  - row_type: Eq
+    row_name: 10206A
+  - row_type: Eq
+    row_name: 10207A
+  - row_type: Eq
+    row_name: 10208A
+  - row_type: Eq
+    row_name: 10209A
+  - row_type: Eq
+    row_name: 10210A
+  - row_type: Eq
+    row_name: 10211A
+  - row_type: Eq
+    row_name: 10212A
+  - row_type: Eq
+    row_name: 10213A
+  - row_type: Eq
+    row_name: 10214A
+  - row_type: Eq
+    row_name: 10215A
+  - row_type: Eq
+    row_name: 10216A
+  - row_type: Eq
+    row_name: 10217A
+  - row_type: Eq
+    row_name: 10218A
+  - row_type: Eq
+    row_name: 10219A
+  - row_type: Eq
+    row_name: 10220A
+  - row_type: Eq
+    row_name: 10221A
+columns:
+  - name: "100001"
+    first_pair:
+      row_name: 10000A
+      value: 1
+    second_pair:
+      row_name: 10056A
+      value: -1
+  - name: "100002"
+    first_pair:
+      row_name: 10000A
+      value: 1
+    second_pair:
+      row_name: 10025A
+      value: -1
+  - name: "100100"
+    first_pair:
+      row_name: 10006A
+      value: 1
+    second_pair:
+      row_name: 10008A
+      value: 1
+  - name: "100100"
+    first_pair:
+      row_name: 10025A
+      value: 7
+    second_pair:
+      row_name: 10043A
+      value: 0.003
+  - name: "100100"
+    first_pair:
+      row_name: 10044A
+      value: 0.067
+    second_pair:
+      row_name: 10045A
+      value: 0.022
+  - name: "100100"
+    first_pair:
+      row_name: 10056A
+      value: 0.01
+    second_pair:
+      row_name: 10063A
+      value: 0.22
+  - name: "100100"
+    first_pair:
+      row_name: 10064A
+      value: 0.1
+    second_pair:
+      row_name: 10065A
+      value: 0.112
+  - name: "100100"
+    first_pair:
+      row_name: 10066A
+      value: 0.349
+    second_pair:
+      row_name: 10068A
+      value: 0.125
+rhs: ~
+ranges: ~
+bounds: ~
+

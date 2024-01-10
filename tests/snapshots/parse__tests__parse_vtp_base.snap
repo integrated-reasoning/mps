@@ -1,0 +1,4014 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/vtp.base\"))?"
+---
+name: VTP.BASE
+rows:
+  - row_type: Eq
+    row_name: FIC.....
+  - row_type: Eq
+    row_name: FIP.....
+  - row_type: Eq
+    row_name: FOC.....
+  - row_type: Eq
+    row_name: FPC.....
+  - row_type: Eq
+    row_name: FRP.....
+  - row_type: Eq
+    row_name: FSC.....
+  - row_type: Nr
+    row_name: FAT...J.
+  - row_type: Eq
+    row_name: B...G1TA
+  - row_type: Eq
+    row_name: B...G2TA
+  - row_type: Eq
+    row_name: B...G3TA
+  - row_type: Eq
+    row_name: B...G4TA
+  - row_type: Eq
+    row_name: LY....TA
+  - row_type: Eq
+    row_name: T.....TA
+  - row_type: Eq
+    row_name: B...G1TB
+  - row_type: Eq
+    row_name: B...G2TB
+  - row_type: Eq
+    row_name: B...G3TB
+  - row_type: Eq
+    row_name: B...G4TB
+  - row_type: Eq
+    row_name: LY....TB
+  - row_type: Eq
+    row_name: T.....TB
+  - row_type: Eq
+    row_name: B...G1TC
+  - row_type: Eq
+    row_name: B...G2TC
+  - row_type: Eq
+    row_name: B...G3TC
+  - row_type: Eq
+    row_name: B...G4TC
+  - row_type: Eq
+    row_name: LY....TC
+  - row_type: Eq
+    row_name: T.....TC
+  - row_type: Eq
+    row_name: B...G1TD
+  - row_type: Eq
+    row_name: B...G2TD
+  - row_type: Eq
+    row_name: B...G3TD
+  - row_type: Eq
+    row_name: B...G4TD
+  - row_type: Eq
+    row_name: LY....TD
+  - row_type: Eq
+    row_name: T.....TD
+  - row_type: Eq
+    row_name: B...G1TE
+  - row_type: Eq
+    row_name: B...G2TE
+  - row_type: Eq
+    row_name: B...G3TE
+  - row_type: Eq
+    row_name: B...G4TE
+  - row_type: Eq
+    row_name: LY....TE
+  - row_type: Eq
+    row_name: T.....TE
+  - row_type: Eq
+    row_name: B...G1TF
+  - row_type: Eq
+    row_name: B...G2TF
+  - row_type: Eq
+    row_name: B...G3TF
+  - row_type: Eq
+    row_name: B...G4TF
+  - row_type: Eq
+    row_name: LY....TF
+  - row_type: Eq
+    row_name: T.....TF
+  - row_type: Eq
+    row_name: B...G1TG
+  - row_type: Eq
+    row_name: B...G2TG
+  - row_type: Eq
+    row_name: B...G3TG
+  - row_type: Eq
+    row_name: B...G4TG
+  - row_type: Eq
+    row_name: LY....TG
+  - row_type: Eq
+    row_name: T.....TG
+  - row_type: Eq
+    row_name: B...G1TH
+  - row_type: Eq
+    row_name: B...G2TH
+  - row_type: Eq
+    row_name: B...G3TH
+  - row_type: Eq
+    row_name: B...G4TH
+  - row_type: Eq
+    row_name: LY....TH
+  - row_type: Eq
+    row_name: T.....TH
+  - row_type: Eq
+    row_name: LBL1....
+  - row_type: Leq
+    row_name: LMP1..TA
+  - row_type: Leq
+    row_name: LNP1..TA
+  - row_type: Leq
+    row_name: LMP1..TB
+  - row_type: Leq
+    row_name: LNP1..TB
+  - row_type: Leq
+    row_name: R.P1..TB
+  - row_type: Leq
+    row_name: LMP1..TC
+  - row_type: Leq
+    row_name: LNP1..TC
+  - row_type: Leq
+    row_name: LBL1MNTC
+  - row_type: Leq
+    row_name: LBL1MXTC
+  - row_type: Leq
+    row_name: R.P1..TC
+  - row_type: Leq
+    row_name: LMP1..TD
+  - row_type: Leq
+    row_name: LNP1..TD
+  - row_type: Leq
+    row_name: LBL1MNTD
+  - row_type: Leq
+    row_name: LBL1MXTD
+  - row_type: Leq
+    row_name: R.P1..TD
+  - row_type: Leq
+    row_name: LMP1..TE
+  - row_type: Leq
+    row_name: LNP1..TE
+  - row_type: Leq
+    row_name: LBL1MNTE
+  - row_type: Leq
+    row_name: LBL1MXTE
+  - row_type: Leq
+    row_name: R.P1..TE
+  - row_type: Leq
+    row_name: LMP1..TF
+  - row_type: Leq
+    row_name: LNP1..TF
+  - row_type: Leq
+    row_name: LBL1MNTF
+  - row_type: Leq
+    row_name: LBL1MXTF
+  - row_type: Leq
+    row_name: R.P1..TF
+  - row_type: Leq
+    row_name: LMP1..TG
+  - row_type: Leq
+    row_name: LNP1..TG
+  - row_type: Leq
+    row_name: LBL1MNTG
+  - row_type: Leq
+    row_name: LBL1MXTG
+  - row_type: Leq
+    row_name: R.P1..TG
+  - row_type: Geq
+    row_name: BS.12.TH
+  - row_type: Geq
+    row_name: BS.123TH
+  - row_type: Geq
+    row_name: BS.124TH
+  - row_type: Geq
+    row_name: BS.13.TH
+  - row_type: Geq
+    row_name: BS.134TH
+  - row_type: Geq
+    row_name: BS.14.TH
+  - row_type: Leq
+    row_name: LMP1..TH
+  - row_type: Leq
+    row_name: LNP1..TH
+  - row_type: Leq
+    row_name: R.P1..TH
+  - row_type: Leq
+    row_name: LMP2..TA
+  - row_type: Leq
+    row_name: LNP2..TA
+  - row_type: Leq
+    row_name: LMP2..TB
+  - row_type: Leq
+    row_name: LNP2..TB
+  - row_type: Leq
+    row_name: R.P2..TB
+  - row_type: Leq
+    row_name: LMP2..TC
+  - row_type: Leq
+    row_name: LNP2..TC
+  - row_type: Leq
+    row_name: R.P2..TC
+  - row_type: Leq
+    row_name: LMP2..TD
+  - row_type: Leq
+    row_name: LNP2..TD
+  - row_type: Leq
+    row_name: R.P2..TD
+  - row_type: Leq
+    row_name: LMP2..TE
+  - row_type: Leq
+    row_name: LNP2..TE
+  - row_type: Leq
+    row_name: R.P2..TE
+  - row_type: Leq
+    row_name: LMP2..TF
+  - row_type: Leq
+    row_name: LNP2..TF
+  - row_type: Leq
+    row_name: R.P2..TF
+  - row_type: Leq
+    row_name: LMP2..TG
+  - row_type: Leq
+    row_name: LNP2..TG
+  - row_type: Leq
+    row_name: R.P2..TG
+  - row_type: Geq
+    row_name: BS.23.TH
+  - row_type: Geq
+    row_name: BS.234TH
+  - row_type: Geq
+    row_name: BS.24.TH
+  - row_type: Leq
+    row_name: LMP2..TH
+  - row_type: Leq
+    row_name: LNP2..TH
+  - row_type: Leq
+    row_name: R.P2..TH
+  - row_type: Leq
+    row_name: LMP3..TA
+  - row_type: Leq
+    row_name: LNP3..TA
+  - row_type: Leq
+    row_name: LSP3..TA
+  - row_type: Leq
+    row_name: LMP3..TB
+  - row_type: Leq
+    row_name: LNP3..TB
+  - row_type: Leq
+    row_name: LSP3..TB
+  - row_type: Leq
+    row_name: R.P3..TB
+  - row_type: Leq
+    row_name: LMP3..TC
+  - row_type: Leq
+    row_name: LNP3..TC
+  - row_type: Leq
+    row_name: LSP3..TC
+  - row_type: Leq
+    row_name: R.P3..TC
+  - row_type: Leq
+    row_name: LMP3..TD
+  - row_type: Leq
+    row_name: LNP3..TD
+  - row_type: Leq
+    row_name: LSP3..TD
+  - row_type: Leq
+    row_name: R.P3..TD
+  - row_type: Leq
+    row_name: LMP3..TE
+  - row_type: Leq
+    row_name: LNP3..TE
+  - row_type: Leq
+    row_name: LSP3..TE
+  - row_type: Leq
+    row_name: R.P3..TE
+  - row_type: Leq
+    row_name: LMP3..TF
+  - row_type: Leq
+    row_name: LNP3..TF
+  - row_type: Leq
+    row_name: LSP3..TF
+  - row_type: Leq
+    row_name: R.P3..TF
+  - row_type: Leq
+    row_name: LMP3..TG
+  - row_type: Leq
+    row_name: LNP3..TG
+  - row_type: Leq
+    row_name: LSP3..TG
+  - row_type: Leq
+    row_name: R.P3..TG
+  - row_type: Geq
+    row_name: BS.34.TH
+  - row_type: Leq
+    row_name: LMP3..TH
+  - row_type: Leq
+    row_name: LNP3..TH
+  - row_type: Leq
+    row_name: LSP3..TH
+  - row_type: Leq
+    row_name: R.P3..TH
+  - row_type: Leq
+    row_name: LMP4..TA
+  - row_type: Leq
+    row_name: LNP4..TA
+  - row_type: Leq
+    row_name: LMP4..TB
+  - row_type: Leq
+    row_name: LNP4..TB
+  - row_type: Leq
+    row_name: R.P4..TB
+  - row_type: Leq
+    row_name: LMP4..TC
+  - row_type: Leq
+    row_name: LNP4..TC
+  - row_type: Leq
+    row_name: R.P4..TC
+  - row_type: Leq
+    row_name: LMP4..TD
+  - row_type: Leq
+    row_name: LNP4..TD
+  - row_type: Leq
+    row_name: R.P4..TD
+  - row_type: Leq
+    row_name: LMP4..TE
+  - row_type: Leq
+    row_name: LNP4..TE
+  - row_type: Leq
+    row_name: R.P4..TE
+  - row_type: Leq
+    row_name: LMP4..TF
+  - row_type: Leq
+    row_name: LNP4..TF
+  - row_type: Leq
+    row_name: R.P4..TF
+  - row_type: Leq
+    row_name: LMP4..TG
+  - row_type: Leq
+    row_name: LNP4..TG
+  - row_type: Leq
+    row_name: R.P4..TG
+  - row_type: Leq
+    row_name: LMP4..TH
+  - row_type: Leq
+    row_name: LNP4..TH
+  - row_type: Leq
+    row_name: R.P4..TH
+  - row_type: Leq
+    row_name: LMP5..TA
+  - row_type: Leq
+    row_name: LNP5..TA
+  - row_type: Leq
+    row_name: LMP5..TB
+  - row_type: Leq
+    row_name: LNP5..TB
+  - row_type: Leq
+    row_name: R.P5..TB
+  - row_type: Leq
+    row_name: LMP5..TC
+  - row_type: Leq
+    row_name: LNP5..TC
+  - row_type: Leq
+    row_name: R.P5..TC
+  - row_type: Leq
+    row_name: LMP5..TD
+  - row_type: Leq
+    row_name: LNP5..TD
+  - row_type: Leq
+    row_name: R.P5..TD
+  - row_type: Leq
+    row_name: LMP5..TE
+  - row_type: Leq
+    row_name: LNP5..TE
+  - row_type: Leq
+    row_name: R.P5..TE
+  - row_type: Leq
+    row_name: LMP5..TF
+  - row_type: Leq
+    row_name: LNP5..TF
+  - row_type: Leq
+    row_name: R.P5..TF
+  - row_type: Leq
+    row_name: LMP5..TG
+  - row_type: Leq
+    row_name: LNP5..TG
+  - row_type: Leq
+    row_name: R.P5..TG
+  - row_type: Leq
+    row_name: LMP5..TH
+  - row_type: Leq
+    row_name: LNP5..TH
+  - row_type: Leq
+    row_name: R.P5..TH
+columns:
+  - name: FIC.....
+    first_pair:
+      row_name: FIC.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: FIP.....
+    first_pair:
+      row_name: FIP.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: FOC.....
+    first_pair:
+      row_name: FOC.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: FPC.....
+    first_pair:
+      row_name: FPC.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: FRP.....
+    first_pair:
+      row_name: FRP.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: FSC.....
+    first_pair:
+      row_name: FSC.....
+      value: -1
+    second_pair:
+      row_name: FAT...J.
+      value: 1
+  - name: KL..TCL1
+    first_pair:
+      row_name: LBL1....
+      value: 1
+    second_pair:
+      row_name: LBL1MNTC
+      value: 100
+  - name: KL..TCL1
+    first_pair:
+      row_name: LBL1MXTC
+      value: 180
+    second_pair:
+      row_name: FIC.....
+      value: 1109.589
+  - name: KL..TCL1
+    first_pair:
+      row_name: B...G3TC
+      value: -300
+    second_pair: ~
+  - name: KL..TDL1
+    first_pair:
+      row_name: LBL1....
+      value: 1
+    second_pair:
+      row_name: LBL1MNTD
+      value: 100
+  - name: KL..TDL1
+    first_pair:
+      row_name: LBL1MXTD
+      value: 180
+    second_pair:
+      row_name: FIC.....
+      value: 1109.589
+  - name: KL..TDL1
+    first_pair:
+      row_name: B...G3TD
+      value: -300
+    second_pair: ~
+  - name: KL..TEL1
+    first_pair:
+      row_name: LBL1....
+      value: 1
+    second_pair:
+      row_name: LBL1MNTE
+      value: 100
+  - name: KL..TEL1
+    first_pair:
+      row_name: LBL1MXTE
+      value: 180
+    second_pair:
+      row_name: FIC.....
+      value: 1109.589
+  - name: KL..TEL1
+    first_pair:
+      row_name: B...G3TE
+      value: -300
+    second_pair: ~
+  - name: KL..TFL1
+    first_pair:
+      row_name: LBL1....
+      value: 1
+    second_pair:
+      row_name: LBL1MNTF
+      value: 100
+  - name: KL..TFL1
+    first_pair:
+      row_name: LBL1MXTF
+      value: 180
+    second_pair:
+      row_name: FIC.....
+      value: 1109.589
+  - name: KL..TFL1
+    first_pair:
+      row_name: B...G3TF
+      value: -300
+    second_pair: ~
+  - name: KL..TGL1
+    first_pair:
+      row_name: LBL1....
+      value: 1
+    second_pair:
+      row_name: LBL1MNTG
+      value: 100
+  - name: KL..TGL1
+    first_pair:
+      row_name: LBL1MXTG
+      value: 180
+    second_pair:
+      row_name: FIC.....
+      value: 1109.589
+  - name: KL..TGL1
+    first_pair:
+      row_name: B...G3TG
+      value: -300
+    second_pair: ~
+  - name: INV.G1T.
+    first_pair:
+      row_name: B...G1TA
+      value: 1
+    second_pair: ~
+  - name: INV.G2T.
+    first_pair:
+      row_name: B...G2TA
+      value: 1
+    second_pair: ~
+  - name: INV.G3T.
+    first_pair:
+      row_name: B...G3TA
+      value: 1
+    second_pair: ~
+  - name: INV.G4T.
+    first_pair:
+      row_name: B...G4TA
+      value: 1
+    second_pair: ~
+  - name: INV.G1TA
+    first_pair:
+      row_name: B...G1TA
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TA
+    first_pair:
+      row_name: B...G1TB
+      value: 1
+    second_pair: ~
+  - name: INV.G2TA
+    first_pair:
+      row_name: B...G2TA
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TA
+    first_pair:
+      row_name: B...G2TB
+      value: 1
+    second_pair: ~
+  - name: INV.G3TA
+    first_pair:
+      row_name: B...G3TA
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TA
+    first_pair:
+      row_name: B...G3TB
+      value: 1
+    second_pair: ~
+  - name: INV.G4TA
+    first_pair:
+      row_name: B...G4TA
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TA
+    first_pair:
+      row_name: B...G4TB
+      value: 1
+    second_pair: ~
+  - name: INV.G1TB
+    first_pair:
+      row_name: B...G1TB
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TB
+    first_pair:
+      row_name: B...G1TC
+      value: 1
+    second_pair: ~
+  - name: INV.G2TB
+    first_pair:
+      row_name: B...G2TB
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TB
+    first_pair:
+      row_name: B...G2TC
+      value: 1
+    second_pair: ~
+  - name: INV.G3TB
+    first_pair:
+      row_name: B...G3TB
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TB
+    first_pair:
+      row_name: B...G3TC
+      value: 1
+    second_pair: ~
+  - name: INV.G4TB
+    first_pair:
+      row_name: B...G4TB
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TB
+    first_pair:
+      row_name: B...G4TC
+      value: 1
+    second_pair: ~
+  - name: INV.G1TC
+    first_pair:
+      row_name: B...G1TC
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TC
+    first_pair:
+      row_name: B...G1TD
+      value: 1
+    second_pair: ~
+  - name: INV.G2TC
+    first_pair:
+      row_name: B...G2TC
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TC
+    first_pair:
+      row_name: B...G2TD
+      value: 1
+    second_pair: ~
+  - name: INV.G3TC
+    first_pair:
+      row_name: B...G3TC
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TC
+    first_pair:
+      row_name: B...G3TD
+      value: 1
+    second_pair: ~
+  - name: INV.G4TC
+    first_pair:
+      row_name: B...G4TC
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TC
+    first_pair:
+      row_name: B...G4TD
+      value: 1
+    second_pair: ~
+  - name: INV.G1TD
+    first_pair:
+      row_name: B...G1TD
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TD
+    first_pair:
+      row_name: B...G1TE
+      value: 1
+    second_pair: ~
+  - name: INV.G2TD
+    first_pair:
+      row_name: B...G2TD
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TD
+    first_pair:
+      row_name: B...G2TE
+      value: 1
+    second_pair: ~
+  - name: INV.G3TD
+    first_pair:
+      row_name: B...G3TD
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TD
+    first_pair:
+      row_name: B...G3TE
+      value: 1
+    second_pair: ~
+  - name: INV.G4TD
+    first_pair:
+      row_name: B...G4TD
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TD
+    first_pair:
+      row_name: B...G4TE
+      value: 1
+    second_pair: ~
+  - name: INV.G1TE
+    first_pair:
+      row_name: B...G1TE
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TE
+    first_pair:
+      row_name: B...G1TF
+      value: 1
+    second_pair: ~
+  - name: INV.G2TE
+    first_pair:
+      row_name: B...G2TE
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TE
+    first_pair:
+      row_name: B...G2TF
+      value: 1
+    second_pair: ~
+  - name: INV.G3TE
+    first_pair:
+      row_name: B...G3TE
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TE
+    first_pair:
+      row_name: B...G3TF
+      value: 1
+    second_pair: ~
+  - name: INV.G4TE
+    first_pair:
+      row_name: B...G4TE
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TE
+    first_pair:
+      row_name: B...G4TF
+      value: 1
+    second_pair: ~
+  - name: INV.G1TF
+    first_pair:
+      row_name: B...G1TF
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TF
+    first_pair:
+      row_name: B...G1TG
+      value: 1
+    second_pair: ~
+  - name: INV.G2TF
+    first_pair:
+      row_name: B...G2TF
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TF
+    first_pair:
+      row_name: B...G2TG
+      value: 1
+    second_pair: ~
+  - name: INV.G3TF
+    first_pair:
+      row_name: B...G3TF
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TF
+    first_pair:
+      row_name: B...G3TG
+      value: 1
+    second_pair: ~
+  - name: INV.G4TF
+    first_pair:
+      row_name: B...G4TF
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TF
+    first_pair:
+      row_name: B...G4TG
+      value: 1
+    second_pair: ~
+  - name: INV.G1TG
+    first_pair:
+      row_name: B...G1TG
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TG
+    first_pair:
+      row_name: B...G1TH
+      value: 1
+    second_pair: ~
+  - name: INV.G2TG
+    first_pair:
+      row_name: B...G2TG
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TG
+    first_pair:
+      row_name: B...G2TH
+      value: 1
+    second_pair: ~
+  - name: INV.G3TG
+    first_pair:
+      row_name: B...G3TG
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TG
+    first_pair:
+      row_name: B...G3TH
+      value: 1
+    second_pair: ~
+  - name: INV.G4TG
+    first_pair:
+      row_name: B...G4TG
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TG
+    first_pair:
+      row_name: B...G4TH
+      value: 1
+    second_pair: ~
+  - name: INV.G1TH
+    first_pair:
+      row_name: B...G1TH
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G1TH
+    first_pair:
+      row_name: BS.12.TH
+      value: 2
+    second_pair:
+      row_name: BS.123TH
+      value: 0.5
+  - name: INV.G1TH
+    first_pair:
+      row_name: BS.124TH
+      value: 0.5
+    second_pair:
+      row_name: BS.13.TH
+      value: 0.66667
+  - name: INV.G1TH
+    first_pair:
+      row_name: BS.134TH
+      value: 0.33333
+    second_pair:
+      row_name: BS.14.TH
+      value: 0.66667
+  - name: INV.G2TH
+    first_pair:
+      row_name: B...G2TH
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G2TH
+    first_pair:
+      row_name: BS.12.TH
+      value: 0.51282
+    second_pair:
+      row_name: BS.123TH
+      value: 0.25641
+  - name: INV.G2TH
+    first_pair:
+      row_name: BS.124TH
+      value: 0.25641
+    second_pair:
+      row_name: BS.23.TH
+      value: 0.51282
+  - name: INV.G2TH
+    first_pair:
+      row_name: BS.234TH
+      value: 0.25641
+    second_pair:
+      row_name: BS.24.TH
+      value: 0.51282
+  - name: INV.G3TH
+    first_pair:
+      row_name: B...G3TH
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G3TH
+    first_pair:
+      row_name: BS.123TH
+      value: 0.2
+    second_pair:
+      row_name: BS.13.TH
+      value: 0.26667
+  - name: INV.G3TH
+    first_pair:
+      row_name: BS.134TH
+      value: 0.13333
+    second_pair:
+      row_name: BS.23.TH
+      value: 0.8
+  - name: INV.G3TH
+    first_pair:
+      row_name: BS.234TH
+      value: 0.2
+    second_pair:
+      row_name: BS.34.TH
+      value: 0.26667
+  - name: INV.G4TH
+    first_pair:
+      row_name: B...G4TH
+      value: -1
+    second_pair:
+      row_name: FIC.....
+      value: 3.69863
+  - name: INV.G4TH
+    first_pair:
+      row_name: BS.124TH
+      value: 0.41667
+    second_pair:
+      row_name: BS.134TH
+      value: 0.27778
+  - name: INV.G4TH
+    first_pair:
+      row_name: BS.14.TH
+      value: 0.55556
+    second_pair:
+      row_name: BS.234TH
+      value: 0.41667
+  - name: INV.G4TH
+    first_pair:
+      row_name: BS.24.TH
+      value: 1.66667
+    second_pair:
+      row_name: BS.34.TH
+      value: 0.55556
+  - name: INVAG1TA
+    first_pair:
+      row_name: B...G1TA
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -100
+  - name: INVAG1TA
+    first_pair:
+      row_name: B...G1TB
+      value: 1
+    second_pair: ~
+  - name: INVAG2TA
+    first_pair:
+      row_name: B...G2TA
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -100
+  - name: INVAG2TA
+    first_pair:
+      row_name: B...G2TB
+      value: 1
+    second_pair: ~
+  - name: INVAG3TA
+    first_pair:
+      row_name: B...G3TA
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -100
+  - name: INVAG3TA
+    first_pair:
+      row_name: B...G3TB
+      value: 1
+    second_pair: ~
+  - name: INVAG4TA
+    first_pair:
+      row_name: B...G4TA
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -100
+  - name: INVAG4TA
+    first_pair:
+      row_name: B...G4TB
+      value: 1
+    second_pair: ~
+  - name: INVAG1TB
+    first_pair:
+      row_name: B...G1TB
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -87.5
+  - name: INVAG1TB
+    first_pair:
+      row_name: B...G1TC
+      value: 1
+    second_pair: ~
+  - name: INVAG2TB
+    first_pair:
+      row_name: B...G2TB
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -87.5
+  - name: INVAG2TB
+    first_pair:
+      row_name: B...G2TC
+      value: 1
+    second_pair: ~
+  - name: INVAG3TB
+    first_pair:
+      row_name: B...G3TB
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -87.5
+  - name: INVAG3TB
+    first_pair:
+      row_name: B...G3TC
+      value: 1
+    second_pair: ~
+  - name: INVAG4TB
+    first_pair:
+      row_name: B...G4TB
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -87.5
+  - name: INVAG4TB
+    first_pair:
+      row_name: B...G4TC
+      value: 1
+    second_pair: ~
+  - name: INVAG1TC
+    first_pair:
+      row_name: B...G1TC
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -75
+  - name: INVAG1TC
+    first_pair:
+      row_name: B...G1TD
+      value: 1
+    second_pair: ~
+  - name: INVAG2TC
+    first_pair:
+      row_name: B...G2TC
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -75
+  - name: INVAG2TC
+    first_pair:
+      row_name: B...G2TD
+      value: 1
+    second_pair: ~
+  - name: INVAG3TC
+    first_pair:
+      row_name: B...G3TC
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -75
+  - name: INVAG3TC
+    first_pair:
+      row_name: B...G3TD
+      value: 1
+    second_pair: ~
+  - name: INVAG4TC
+    first_pair:
+      row_name: B...G4TC
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -75
+  - name: INVAG4TC
+    first_pair:
+      row_name: B...G4TD
+      value: 1
+    second_pair: ~
+  - name: INVAG1TD
+    first_pair:
+      row_name: B...G1TD
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -62.5
+  - name: INVAG1TD
+    first_pair:
+      row_name: B...G1TE
+      value: 1
+    second_pair: ~
+  - name: INVAG2TD
+    first_pair:
+      row_name: B...G2TD
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -62.5
+  - name: INVAG2TD
+    first_pair:
+      row_name: B...G2TE
+      value: 1
+    second_pair: ~
+  - name: INVAG3TD
+    first_pair:
+      row_name: B...G3TD
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -62.5
+  - name: INVAG3TD
+    first_pair:
+      row_name: B...G3TE
+      value: 1
+    second_pair: ~
+  - name: INVAG4TD
+    first_pair:
+      row_name: B...G4TD
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -62.5
+  - name: INVAG4TD
+    first_pair:
+      row_name: B...G4TE
+      value: 1
+    second_pair: ~
+  - name: INVAG1TE
+    first_pair:
+      row_name: B...G1TE
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -50
+  - name: INVAG1TE
+    first_pair:
+      row_name: B...G1TF
+      value: 1
+    second_pair: ~
+  - name: INVAG2TE
+    first_pair:
+      row_name: B...G2TE
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -50
+  - name: INVAG2TE
+    first_pair:
+      row_name: B...G2TF
+      value: 1
+    second_pair: ~
+  - name: INVAG3TE
+    first_pair:
+      row_name: B...G3TE
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -50
+  - name: INVAG3TE
+    first_pair:
+      row_name: B...G3TF
+      value: 1
+    second_pair: ~
+  - name: INVAG4TE
+    first_pair:
+      row_name: B...G4TE
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -50
+  - name: INVAG4TE
+    first_pair:
+      row_name: B...G4TF
+      value: 1
+    second_pair: ~
+  - name: INVAG1TF
+    first_pair:
+      row_name: B...G1TF
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -37.5
+  - name: INVAG1TF
+    first_pair:
+      row_name: B...G1TG
+      value: 1
+    second_pair: ~
+  - name: INVAG2TF
+    first_pair:
+      row_name: B...G2TF
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -37.5
+  - name: INVAG2TF
+    first_pair:
+      row_name: B...G2TG
+      value: 1
+    second_pair: ~
+  - name: INVAG3TF
+    first_pair:
+      row_name: B...G3TF
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -37.5
+  - name: INVAG3TF
+    first_pair:
+      row_name: B...G3TG
+      value: 1
+    second_pair: ~
+  - name: INVAG4TF
+    first_pair:
+      row_name: B...G4TF
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -37.5
+  - name: INVAG4TF
+    first_pair:
+      row_name: B...G4TG
+      value: 1
+    second_pair: ~
+  - name: INVAG1TG
+    first_pair:
+      row_name: B...G1TG
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -25
+  - name: INVAG1TG
+    first_pair:
+      row_name: B...G1TH
+      value: 1
+    second_pair: ~
+  - name: INVAG2TG
+    first_pair:
+      row_name: B...G2TG
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -25
+  - name: INVAG2TG
+    first_pair:
+      row_name: B...G2TH
+      value: 1
+    second_pair: ~
+  - name: INVAG3TG
+    first_pair:
+      row_name: B...G3TG
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -25
+  - name: INVAG3TG
+    first_pair:
+      row_name: B...G3TH
+      value: 1
+    second_pair: ~
+  - name: INVAG4TG
+    first_pair:
+      row_name: B...G4TG
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -25
+  - name: INVAG4TG
+    first_pair:
+      row_name: B...G4TH
+      value: 1
+    second_pair: ~
+  - name: INVAG1TH
+    first_pair:
+      row_name: B...G1TH
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -12.5
+  - name: INVAG2TH
+    first_pair:
+      row_name: B...G2TH
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -12.5
+  - name: INVAG3TH
+    first_pair:
+      row_name: B...G3TH
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -12.5
+  - name: INVAG4TH
+    first_pair:
+      row_name: B...G4TH
+      value: -1
+    second_pair:
+      row_name: FIP.....
+      value: -12.5
+  - name: TIME..T.
+    first_pair:
+      row_name: B...G1TA
+      value: 10
+    second_pair:
+      row_name: B...G2TA
+      value: 13
+  - name: TIME..T.
+    first_pair:
+      row_name: B...G3TA
+      value: 25
+    second_pair:
+      row_name: B...G4TA
+      value: 12
+  - name: TIME..T.
+    first_pair:
+      row_name: T.....TA
+      value: 1
+    second_pair: ~
+  - name: TIME..TA
+    first_pair:
+      row_name: B...G1TA
+      value: -10
+    second_pair:
+      row_name: B...G2TA
+      value: -13
+  - name: TIME..TA
+    first_pair:
+      row_name: B...G3TA
+      value: -25
+    second_pair:
+      row_name: B...G4TA
+      value: -12
+  - name: TIME..TA
+    first_pair:
+      row_name: T.....TA
+      value: -1
+    second_pair:
+      row_name: B...G1TB
+      value: 10
+  - name: TIME..TA
+    first_pair:
+      row_name: B...G2TB
+      value: 13
+    second_pair:
+      row_name: B...G3TB
+      value: 25
+  - name: TIME..TA
+    first_pair:
+      row_name: B...G4TB
+      value: 12
+    second_pair:
+      row_name: T.....TB
+      value: 1
+  - name: TIME..TB
+    first_pair:
+      row_name: B...G1TB
+      value: -10
+    second_pair:
+      row_name: B...G2TB
+      value: -13
+  - name: TIME..TB
+    first_pair:
+      row_name: B...G3TB
+      value: -25
+    second_pair:
+      row_name: B...G4TB
+      value: -12
+  - name: TIME..TB
+    first_pair:
+      row_name: T.....TB
+      value: -1
+    second_pair:
+      row_name: B...G1TC
+      value: 10
+  - name: TIME..TB
+    first_pair:
+      row_name: B...G2TC
+      value: 13
+    second_pair:
+      row_name: B...G3TC
+      value: 25
+  - name: TIME..TB
+    first_pair:
+      row_name: B...G4TC
+      value: 12
+    second_pair:
+      row_name: T.....TC
+      value: 1
+  - name: TIME..TB
+    first_pair:
+      row_name: LBL1MXTC
+      value: 1
+    second_pair: ~
+  - name: TIME..TC
+    first_pair:
+      row_name: B...G1TC
+      value: -10
+    second_pair:
+      row_name: B...G2TC
+      value: -13
+  - name: TIME..TC
+    first_pair:
+      row_name: B...G3TC
+      value: -25
+    second_pair:
+      row_name: B...G4TC
+      value: -12
+  - name: TIME..TC
+    first_pair:
+      row_name: T.....TC
+      value: -1
+    second_pair:
+      row_name: B...G1TD
+      value: 10
+  - name: TIME..TC
+    first_pair:
+      row_name: B...G2TD
+      value: 13
+    second_pair:
+      row_name: B...G3TD
+      value: 25
+  - name: TIME..TC
+    first_pair:
+      row_name: B...G4TD
+      value: 12
+    second_pair:
+      row_name: T.....TD
+      value: 1
+  - name: TIME..TC
+    first_pair:
+      row_name: LBL1MNTC
+      value: -1
+    second_pair:
+      row_name: LBL1MXTD
+      value: 1
+  - name: TIME..TD
+    first_pair:
+      row_name: B...G1TD
+      value: -10
+    second_pair:
+      row_name: B...G2TD
+      value: -13
+  - name: TIME..TD
+    first_pair:
+      row_name: B...G3TD
+      value: -25
+    second_pair:
+      row_name: B...G4TD
+      value: -12
+  - name: TIME..TD
+    first_pair:
+      row_name: T.....TD
+      value: -1
+    second_pair:
+      row_name: B...G1TE
+      value: 10
+  - name: TIME..TD
+    first_pair:
+      row_name: B...G2TE
+      value: 13
+    second_pair:
+      row_name: B...G3TE
+      value: 25
+  - name: TIME..TD
+    first_pair:
+      row_name: B...G4TE
+      value: 12
+    second_pair:
+      row_name: T.....TE
+      value: 1
+  - name: TIME..TD
+    first_pair:
+      row_name: LBL1MNTD
+      value: -1
+    second_pair:
+      row_name: LBL1MXTE
+      value: 1
+  - name: TIME..TE
+    first_pair:
+      row_name: B...G1TE
+      value: -10
+    second_pair:
+      row_name: B...G2TE
+      value: -13
+  - name: TIME..TE
+    first_pair:
+      row_name: B...G3TE
+      value: -25
+    second_pair:
+      row_name: B...G4TE
+      value: -12
+  - name: TIME..TE
+    first_pair:
+      row_name: T.....TE
+      value: -1
+    second_pair:
+      row_name: B...G1TF
+      value: 10
+  - name: TIME..TE
+    first_pair:
+      row_name: B...G2TF
+      value: 13
+    second_pair:
+      row_name: B...G3TF
+      value: 25
+  - name: TIME..TE
+    first_pair:
+      row_name: B...G4TF
+      value: 12
+    second_pair:
+      row_name: T.....TF
+      value: 1
+  - name: TIME..TE
+    first_pair:
+      row_name: LBL1MNTE
+      value: -1
+    second_pair:
+      row_name: LBL1MXTF
+      value: 1
+  - name: TIME..TF
+    first_pair:
+      row_name: B...G1TF
+      value: -10
+    second_pair:
+      row_name: B...G2TF
+      value: -13
+  - name: TIME..TF
+    first_pair:
+      row_name: B...G3TF
+      value: -25
+    second_pair:
+      row_name: B...G4TF
+      value: -12
+  - name: TIME..TF
+    first_pair:
+      row_name: T.....TF
+      value: -1
+    second_pair:
+      row_name: B...G1TG
+      value: 10
+  - name: TIME..TF
+    first_pair:
+      row_name: B...G2TG
+      value: 13
+    second_pair:
+      row_name: B...G3TG
+      value: 25
+  - name: TIME..TF
+    first_pair:
+      row_name: B...G4TG
+      value: 12
+    second_pair:
+      row_name: T.....TG
+      value: 1
+  - name: TIME..TF
+    first_pair:
+      row_name: LBL1MNTF
+      value: -1
+    second_pair:
+      row_name: LBL1MXTG
+      value: 1
+  - name: TIME..TG
+    first_pair:
+      row_name: B...G1TG
+      value: -10
+    second_pair:
+      row_name: B...G2TG
+      value: -13
+  - name: TIME..TG
+    first_pair:
+      row_name: B...G3TG
+      value: -25
+    second_pair:
+      row_name: B...G4TG
+      value: -12
+  - name: TIME..TG
+    first_pair:
+      row_name: T.....TG
+      value: -1
+    second_pair:
+      row_name: B...G1TH
+      value: 10
+  - name: TIME..TG
+    first_pair:
+      row_name: B...G2TH
+      value: 13
+    second_pair:
+      row_name: B...G3TH
+      value: 25
+  - name: TIME..TG
+    first_pair:
+      row_name: B...G4TH
+      value: 12
+    second_pair:
+      row_name: T.....TH
+      value: 1
+  - name: TIME..TG
+    first_pair:
+      row_name: LBL1MNTG
+      value: -1
+    second_pair: ~
+  - name: TIME..TH
+    first_pair:
+      row_name: B...G1TH
+      value: -10
+    second_pair:
+      row_name: B...G2TH
+      value: -13
+  - name: TIME..TH
+    first_pair:
+      row_name: B...G3TH
+      value: -25
+    second_pair:
+      row_name: B...G4TH
+      value: -12
+  - name: TIME..TH
+    first_pair:
+      row_name: T.....TH
+      value: -1
+    second_pair: ~
+  - name: KYP1..TA
+    first_pair:
+      row_name: B...G1TA
+      value: -50
+    second_pair:
+      row_name: LMP1..TA
+      value: -60
+  - name: KYP1..TA
+    first_pair:
+      row_name: LNP1..TA
+      value: 15
+    second_pair:
+      row_name: LY....TA
+      value: 1
+  - name: KYP1..TA
+    first_pair:
+      row_name: R.P2..TB
+      value: 4000
+    second_pair:
+      row_name: R.P3..TB
+      value: 3000
+  - name: KYP1..TA
+    first_pair:
+      row_name: R.P4..TB
+      value: 4000
+    second_pair:
+      row_name: R.P5..TB
+      value: 2500
+  - name: YTP1..TA
+    first_pair:
+      row_name: B...G1TA
+      value: 80
+    second_pair:
+      row_name: LMP1..TA
+      value: 1
+  - name: YTP1..TA
+    first_pair:
+      row_name: LNP1..TA
+      value: -1
+    second_pair:
+      row_name: T.....TA
+      value: 1
+  - name: YTP1..TA
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TB
+    first_pair:
+      row_name: B...G1TB
+      value: -50
+    second_pair:
+      row_name: LMP1..TB
+      value: -60
+  - name: KYP1..TB
+    first_pair:
+      row_name: LNP1..TB
+      value: 15
+    second_pair:
+      row_name: LY....TB
+      value: 1
+  - name: KYP1..TB
+    first_pair:
+      row_name: R.P1..TB
+      value: 4000
+    second_pair:
+      row_name: R.P2..TC
+      value: 4000
+  - name: KYP1..TB
+    first_pair:
+      row_name: R.P3..TC
+      value: 3000
+    second_pair:
+      row_name: R.P4..TC
+      value: 4000
+  - name: KYP1..TB
+    first_pair:
+      row_name: R.P5..TC
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TB
+    first_pair:
+      row_name: R.P1..TB
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TB
+    first_pair:
+      row_name: B...G1TB
+      value: 80
+    second_pair:
+      row_name: LMP1..TB
+      value: 1
+  - name: YTP1..TB
+    first_pair:
+      row_name: LNP1..TB
+      value: -1
+    second_pair:
+      row_name: T.....TB
+      value: 1
+  - name: YTP1..TB
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TC
+    first_pair:
+      row_name: B...G1TC
+      value: -50
+    second_pair:
+      row_name: LMP1..TC
+      value: -60
+  - name: KYP1..TC
+    first_pair:
+      row_name: LNP1..TC
+      value: 15
+    second_pair:
+      row_name: LY....TC
+      value: 1
+  - name: KYP1..TC
+    first_pair:
+      row_name: R.P1..TC
+      value: 4000
+    second_pair:
+      row_name: R.P2..TD
+      value: 4000
+  - name: KYP1..TC
+    first_pair:
+      row_name: R.P3..TD
+      value: 3000
+    second_pair:
+      row_name: R.P4..TD
+      value: 4000
+  - name: KYP1..TC
+    first_pair:
+      row_name: R.P5..TD
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TC
+    first_pair:
+      row_name: R.P1..TC
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TC
+    first_pair:
+      row_name: B...G1TC
+      value: 80
+    second_pair:
+      row_name: LMP1..TC
+      value: 1
+  - name: YTP1..TC
+    first_pair:
+      row_name: LNP1..TC
+      value: -1
+    second_pair:
+      row_name: T.....TC
+      value: 1
+  - name: YTP1..TC
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TD
+    first_pair:
+      row_name: B...G1TD
+      value: -50
+    second_pair:
+      row_name: LMP1..TD
+      value: -60
+  - name: KYP1..TD
+    first_pair:
+      row_name: LNP1..TD
+      value: 15
+    second_pair:
+      row_name: LY....TD
+      value: 1
+  - name: KYP1..TD
+    first_pair:
+      row_name: R.P1..TD
+      value: 4000
+    second_pair:
+      row_name: R.P2..TE
+      value: 4000
+  - name: KYP1..TD
+    first_pair:
+      row_name: R.P3..TE
+      value: 3000
+    second_pair:
+      row_name: R.P4..TE
+      value: 4000
+  - name: KYP1..TD
+    first_pair:
+      row_name: R.P5..TE
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TD
+    first_pair:
+      row_name: R.P1..TD
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TD
+    first_pair:
+      row_name: B...G1TD
+      value: 80
+    second_pair:
+      row_name: LMP1..TD
+      value: 1
+  - name: YTP1..TD
+    first_pair:
+      row_name: LNP1..TD
+      value: -1
+    second_pair:
+      row_name: T.....TD
+      value: 1
+  - name: YTP1..TD
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TE
+    first_pair:
+      row_name: B...G1TE
+      value: -50
+    second_pair:
+      row_name: LMP1..TE
+      value: -60
+  - name: KYP1..TE
+    first_pair:
+      row_name: LNP1..TE
+      value: 15
+    second_pair:
+      row_name: LY....TE
+      value: 1
+  - name: KYP1..TE
+    first_pair:
+      row_name: R.P1..TE
+      value: 4000
+    second_pair:
+      row_name: R.P2..TF
+      value: 4000
+  - name: KYP1..TE
+    first_pair:
+      row_name: R.P3..TF
+      value: 3000
+    second_pair:
+      row_name: R.P4..TF
+      value: 4000
+  - name: KYP1..TE
+    first_pair:
+      row_name: R.P5..TF
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TE
+    first_pair:
+      row_name: R.P1..TE
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TE
+    first_pair:
+      row_name: B...G1TE
+      value: 80
+    second_pair:
+      row_name: LMP1..TE
+      value: 1
+  - name: YTP1..TE
+    first_pair:
+      row_name: LNP1..TE
+      value: -1
+    second_pair:
+      row_name: T.....TE
+      value: 1
+  - name: YTP1..TE
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TF
+    first_pair:
+      row_name: B...G1TF
+      value: -50
+    second_pair:
+      row_name: LMP1..TF
+      value: -60
+  - name: KYP1..TF
+    first_pair:
+      row_name: LNP1..TF
+      value: 15
+    second_pair:
+      row_name: LY....TF
+      value: 1
+  - name: KYP1..TF
+    first_pair:
+      row_name: R.P1..TF
+      value: 4000
+    second_pair:
+      row_name: R.P2..TG
+      value: 4000
+  - name: KYP1..TF
+    first_pair:
+      row_name: R.P3..TG
+      value: 3000
+    second_pair:
+      row_name: R.P4..TG
+      value: 4000
+  - name: KYP1..TF
+    first_pair:
+      row_name: R.P5..TG
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TF
+    first_pair:
+      row_name: R.P1..TF
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TF
+    first_pair:
+      row_name: B...G1TF
+      value: 80
+    second_pair:
+      row_name: LMP1..TF
+      value: 1
+  - name: YTP1..TF
+    first_pair:
+      row_name: LNP1..TF
+      value: -1
+    second_pair:
+      row_name: T.....TF
+      value: 1
+  - name: YTP1..TF
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TG
+    first_pair:
+      row_name: B...G1TG
+      value: -50
+    second_pair:
+      row_name: LMP1..TG
+      value: -60
+  - name: KYP1..TG
+    first_pair:
+      row_name: LNP1..TG
+      value: 15
+    second_pair:
+      row_name: LY....TG
+      value: 1
+  - name: KYP1..TG
+    first_pair:
+      row_name: R.P1..TG
+      value: 4000
+    second_pair:
+      row_name: R.P2..TH
+      value: 4000
+  - name: KYP1..TG
+    first_pair:
+      row_name: R.P3..TH
+      value: 3000
+    second_pair:
+      row_name: R.P4..TH
+      value: 4000
+  - name: KYP1..TG
+    first_pair:
+      row_name: R.P5..TH
+      value: 2500
+    second_pair: ~
+  - name: P.P1..TG
+    first_pair:
+      row_name: R.P1..TG
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TG
+    first_pair:
+      row_name: B...G1TG
+      value: 80
+    second_pair:
+      row_name: LMP1..TG
+      value: 1
+  - name: YTP1..TG
+    first_pair:
+      row_name: LNP1..TG
+      value: -1
+    second_pair:
+      row_name: T.....TG
+      value: 1
+  - name: YTP1..TG
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP1..TH
+    first_pair:
+      row_name: B...G1TH
+      value: -50
+    second_pair:
+      row_name: LMP1..TH
+      value: -60
+  - name: KYP1..TH
+    first_pair:
+      row_name: LNP1..TH
+      value: 15
+    second_pair:
+      row_name: LY....TH
+      value: 1
+  - name: KYP1..TH
+    first_pair:
+      row_name: R.P1..TH
+      value: 4000
+    second_pair: ~
+  - name: P.P1..TH
+    first_pair:
+      row_name: R.P1..TH
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP1..TH
+    first_pair:
+      row_name: B...G1TH
+      value: 80
+    second_pair:
+      row_name: LMP1..TH
+      value: 1
+  - name: YTP1..TH
+    first_pair:
+      row_name: LNP1..TH
+      value: -1
+    second_pair:
+      row_name: T.....TH
+      value: 1
+  - name: YTP1..TH
+    first_pair:
+      row_name: FOC.....
+      value: 60
+    second_pair: ~
+  - name: KYP2..TA
+    first_pair:
+      row_name: B...G2TA
+      value: -20
+    second_pair:
+      row_name: LMP2..TA
+      value: -60
+  - name: KYP2..TA
+    first_pair:
+      row_name: LNP2..TA
+      value: 5
+    second_pair:
+      row_name: LY....TA
+      value: 1
+  - name: KYP2..TA
+    first_pair:
+      row_name: LSP3..TB
+      value: -1
+    second_pair:
+      row_name: R.P1..TB
+      value: 4000
+  - name: KYP2..TA
+    first_pair:
+      row_name: R.P3..TB
+      value: 4000
+    second_pair:
+      row_name: R.P4..TB
+      value: 3000
+  - name: KYP2..TA
+    first_pair:
+      row_name: R.P5..TB
+      value: 2000
+    second_pair: ~
+  - name: YTP2..TA
+    first_pair:
+      row_name: B...G2TA
+      value: 93
+    second_pair:
+      row_name: LMP2..TA
+      value: 1
+  - name: YTP2..TA
+    first_pair:
+      row_name: LNP2..TA
+      value: -1
+    second_pair:
+      row_name: T.....TA
+      value: 1
+  - name: YTP2..TA
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TB
+    first_pair:
+      row_name: B...G2TB
+      value: -20
+    second_pair:
+      row_name: LMP2..TB
+      value: -60
+  - name: KYP2..TB
+    first_pair:
+      row_name: LNP2..TB
+      value: 5
+    second_pair:
+      row_name: LY....TB
+      value: 1
+  - name: KYP2..TB
+    first_pair:
+      row_name: LSP3..TA
+      value: -1
+    second_pair:
+      row_name: R.P2..TB
+      value: 4000
+  - name: KYP2..TB
+    first_pair:
+      row_name: LSP3..TC
+      value: -1
+    second_pair:
+      row_name: R.P1..TC
+      value: 4000
+  - name: KYP2..TB
+    first_pair:
+      row_name: R.P3..TC
+      value: 4000
+    second_pair:
+      row_name: R.P4..TC
+      value: 3000
+  - name: KYP2..TB
+    first_pair:
+      row_name: R.P5..TC
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TB
+    first_pair:
+      row_name: R.P2..TB
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TB
+    first_pair:
+      row_name: B...G2TB
+      value: 93
+    second_pair:
+      row_name: LMP2..TB
+      value: 1
+  - name: YTP2..TB
+    first_pair:
+      row_name: LNP2..TB
+      value: -1
+    second_pair:
+      row_name: T.....TB
+      value: 1
+  - name: YTP2..TB
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TC
+    first_pair:
+      row_name: B...G2TC
+      value: -20
+    second_pair:
+      row_name: LMP2..TC
+      value: -60
+  - name: KYP2..TC
+    first_pair:
+      row_name: LNP2..TC
+      value: 5
+    second_pair:
+      row_name: LY....TC
+      value: 1
+  - name: KYP2..TC
+    first_pair:
+      row_name: LSP3..TB
+      value: -1
+    second_pair:
+      row_name: R.P2..TC
+      value: 4000
+  - name: KYP2..TC
+    first_pair:
+      row_name: LSP3..TD
+      value: -1
+    second_pair:
+      row_name: R.P1..TD
+      value: 4000
+  - name: KYP2..TC
+    first_pair:
+      row_name: R.P3..TD
+      value: 4000
+    second_pair:
+      row_name: R.P4..TD
+      value: 3000
+  - name: KYP2..TC
+    first_pair:
+      row_name: R.P5..TD
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TC
+    first_pair:
+      row_name: R.P2..TC
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TC
+    first_pair:
+      row_name: B...G2TC
+      value: 93
+    second_pair:
+      row_name: LMP2..TC
+      value: 1
+  - name: YTP2..TC
+    first_pair:
+      row_name: LNP2..TC
+      value: -1
+    second_pair:
+      row_name: T.....TC
+      value: 1
+  - name: YTP2..TC
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TD
+    first_pair:
+      row_name: B...G2TD
+      value: -20
+    second_pair:
+      row_name: LMP2..TD
+      value: -60
+  - name: KYP2..TD
+    first_pair:
+      row_name: LNP2..TD
+      value: 5
+    second_pair:
+      row_name: LY....TD
+      value: 1
+  - name: KYP2..TD
+    first_pair:
+      row_name: LSP3..TC
+      value: -1
+    second_pair:
+      row_name: R.P2..TD
+      value: 4000
+  - name: KYP2..TD
+    first_pair:
+      row_name: LSP3..TE
+      value: -1
+    second_pair:
+      row_name: R.P1..TE
+      value: 4000
+  - name: KYP2..TD
+    first_pair:
+      row_name: R.P3..TE
+      value: 4000
+    second_pair:
+      row_name: R.P4..TE
+      value: 3000
+  - name: KYP2..TD
+    first_pair:
+      row_name: R.P5..TE
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TD
+    first_pair:
+      row_name: R.P2..TD
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TD
+    first_pair:
+      row_name: B...G2TD
+      value: 93
+    second_pair:
+      row_name: LMP2..TD
+      value: 1
+  - name: YTP2..TD
+    first_pair:
+      row_name: LNP2..TD
+      value: -1
+    second_pair:
+      row_name: T.....TD
+      value: 1
+  - name: YTP2..TD
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TE
+    first_pair:
+      row_name: B...G2TE
+      value: -20
+    second_pair:
+      row_name: LMP2..TE
+      value: -60
+  - name: KYP2..TE
+    first_pair:
+      row_name: LNP2..TE
+      value: 5
+    second_pair:
+      row_name: LY....TE
+      value: 1
+  - name: KYP2..TE
+    first_pair:
+      row_name: LSP3..TD
+      value: -1
+    second_pair:
+      row_name: R.P2..TE
+      value: 4000
+  - name: KYP2..TE
+    first_pair:
+      row_name: LSP3..TF
+      value: -1
+    second_pair:
+      row_name: R.P1..TF
+      value: 4000
+  - name: KYP2..TE
+    first_pair:
+      row_name: R.P3..TF
+      value: 4000
+    second_pair:
+      row_name: R.P4..TF
+      value: 3000
+  - name: KYP2..TE
+    first_pair:
+      row_name: R.P5..TF
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TE
+    first_pair:
+      row_name: R.P2..TE
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TE
+    first_pair:
+      row_name: B...G2TE
+      value: 93
+    second_pair:
+      row_name: LMP2..TE
+      value: 1
+  - name: YTP2..TE
+    first_pair:
+      row_name: LNP2..TE
+      value: -1
+    second_pair:
+      row_name: T.....TE
+      value: 1
+  - name: YTP2..TE
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TF
+    first_pair:
+      row_name: B...G2TF
+      value: -20
+    second_pair:
+      row_name: LMP2..TF
+      value: -60
+  - name: KYP2..TF
+    first_pair:
+      row_name: LNP2..TF
+      value: 5
+    second_pair:
+      row_name: LY....TF
+      value: 1
+  - name: KYP2..TF
+    first_pair:
+      row_name: LSP3..TE
+      value: -1
+    second_pair:
+      row_name: R.P2..TF
+      value: 4000
+  - name: KYP2..TF
+    first_pair:
+      row_name: LSP3..TG
+      value: -1
+    second_pair:
+      row_name: R.P1..TG
+      value: 4000
+  - name: KYP2..TF
+    first_pair:
+      row_name: R.P3..TG
+      value: 4000
+    second_pair:
+      row_name: R.P4..TG
+      value: 3000
+  - name: KYP2..TF
+    first_pair:
+      row_name: R.P5..TG
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TF
+    first_pair:
+      row_name: R.P2..TF
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TF
+    first_pair:
+      row_name: B...G2TF
+      value: 93
+    second_pair:
+      row_name: LMP2..TF
+      value: 1
+  - name: YTP2..TF
+    first_pair:
+      row_name: LNP2..TF
+      value: -1
+    second_pair:
+      row_name: T.....TF
+      value: 1
+  - name: YTP2..TF
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TG
+    first_pair:
+      row_name: B...G2TG
+      value: -20
+    second_pair:
+      row_name: LMP2..TG
+      value: -60
+  - name: KYP2..TG
+    first_pair:
+      row_name: LNP2..TG
+      value: 5
+    second_pair:
+      row_name: LY....TG
+      value: 1
+  - name: KYP2..TG
+    first_pair:
+      row_name: LSP3..TF
+      value: -1
+    second_pair:
+      row_name: R.P2..TG
+      value: 4000
+  - name: KYP2..TG
+    first_pair:
+      row_name: LSP3..TH
+      value: -1
+    second_pair:
+      row_name: R.P1..TH
+      value: 4000
+  - name: KYP2..TG
+    first_pair:
+      row_name: R.P3..TH
+      value: 4000
+    second_pair:
+      row_name: R.P4..TH
+      value: 3000
+  - name: KYP2..TG
+    first_pair:
+      row_name: R.P5..TH
+      value: 2000
+    second_pair: ~
+  - name: P.P2..TG
+    first_pair:
+      row_name: R.P2..TG
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TG
+    first_pair:
+      row_name: B...G2TG
+      value: 93
+    second_pair:
+      row_name: LMP2..TG
+      value: 1
+  - name: YTP2..TG
+    first_pair:
+      row_name: LNP2..TG
+      value: -1
+    second_pair:
+      row_name: T.....TG
+      value: 1
+  - name: YTP2..TG
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP2..TH
+    first_pair:
+      row_name: B...G2TH
+      value: -20
+    second_pair:
+      row_name: LMP2..TH
+      value: -60
+  - name: KYP2..TH
+    first_pair:
+      row_name: LNP2..TH
+      value: 5
+    second_pair:
+      row_name: LY....TH
+      value: 1
+  - name: KYP2..TH
+    first_pair:
+      row_name: LSP3..TG
+      value: -1
+    second_pair:
+      row_name: R.P2..TH
+      value: 4000
+  - name: P.P2..TH
+    first_pair:
+      row_name: R.P2..TH
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP2..TH
+    first_pair:
+      row_name: B...G2TH
+      value: 93
+    second_pair:
+      row_name: LMP2..TH
+      value: 1
+  - name: YTP2..TH
+    first_pair:
+      row_name: LNP2..TH
+      value: -1
+    second_pair:
+      row_name: T.....TH
+      value: 1
+  - name: YTP2..TH
+    first_pair:
+      row_name: FOC.....
+      value: 30
+    second_pair: ~
+  - name: KYP3..TA
+    first_pair:
+      row_name: B...G3TA
+      value: -50
+    second_pair:
+      row_name: LMP3..TA
+      value: -60
+  - name: KYP3..TA
+    first_pair:
+      row_name: LNP3..TA
+      value: 15
+    second_pair:
+      row_name: LY....TA
+      value: 1
+  - name: KYP3..TA
+    first_pair:
+      row_name: LSP3..TA
+      value: 1
+    second_pair:
+      row_name: R.P1..TB
+      value: 4000
+  - name: KYP3..TA
+    first_pair:
+      row_name: R.P2..TB
+      value: 3000
+    second_pair:
+      row_name: R.P4..TB
+      value: 4000
+  - name: KYP3..TA
+    first_pair:
+      row_name: R.P5..TB
+      value: 2500
+    second_pair: ~
+  - name: YTP3..TA
+    first_pair:
+      row_name: B...G3TA
+      value: 65
+    second_pair:
+      row_name: LMP3..TA
+      value: 1
+  - name: YTP3..TA
+    first_pair:
+      row_name: LNP3..TA
+      value: -1
+    second_pair:
+      row_name: T.....TA
+      value: 1
+  - name: YTP3..TA
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TB
+    first_pair:
+      row_name: B...G3TB
+      value: -50
+    second_pair:
+      row_name: LMP3..TB
+      value: -60
+  - name: KYP3..TB
+    first_pair:
+      row_name: LNP3..TB
+      value: 15
+    second_pair:
+      row_name: LY....TB
+      value: 1
+  - name: KYP3..TB
+    first_pair:
+      row_name: LSP3..TB
+      value: 1
+    second_pair:
+      row_name: R.P3..TB
+      value: 4000
+  - name: KYP3..TB
+    first_pair:
+      row_name: R.P1..TC
+      value: 4000
+    second_pair:
+      row_name: R.P2..TC
+      value: 3000
+  - name: KYP3..TB
+    first_pair:
+      row_name: R.P4..TC
+      value: 4000
+    second_pair:
+      row_name: R.P5..TC
+      value: 2500
+  - name: P.P3..TB
+    first_pair:
+      row_name: R.P3..TB
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TB
+    first_pair:
+      row_name: B...G3TB
+      value: 65
+    second_pair:
+      row_name: LMP3..TB
+      value: 1
+  - name: YTP3..TB
+    first_pair:
+      row_name: LNP3..TB
+      value: -1
+    second_pair:
+      row_name: T.....TB
+      value: 1
+  - name: YTP3..TB
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TC
+    first_pair:
+      row_name: B...G3TC
+      value: -50
+    second_pair:
+      row_name: LMP3..TC
+      value: -60
+  - name: KYP3..TC
+    first_pair:
+      row_name: LNP3..TC
+      value: 15
+    second_pair:
+      row_name: LY....TC
+      value: 1
+  - name: KYP3..TC
+    first_pair:
+      row_name: LSP3..TC
+      value: 1
+    second_pair:
+      row_name: R.P3..TC
+      value: 4000
+  - name: KYP3..TC
+    first_pair:
+      row_name: R.P1..TD
+      value: 4000
+    second_pair:
+      row_name: R.P2..TD
+      value: 3000
+  - name: KYP3..TC
+    first_pair:
+      row_name: R.P4..TD
+      value: 4000
+    second_pair:
+      row_name: R.P5..TD
+      value: 2500
+  - name: P.P3..TC
+    first_pair:
+      row_name: R.P3..TC
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TC
+    first_pair:
+      row_name: B...G3TC
+      value: 65
+    second_pair:
+      row_name: LMP3..TC
+      value: 1
+  - name: YTP3..TC
+    first_pair:
+      row_name: LNP3..TC
+      value: -1
+    second_pair:
+      row_name: T.....TC
+      value: 1
+  - name: YTP3..TC
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TD
+    first_pair:
+      row_name: B...G3TD
+      value: -50
+    second_pair:
+      row_name: LMP3..TD
+      value: -60
+  - name: KYP3..TD
+    first_pair:
+      row_name: LNP3..TD
+      value: 15
+    second_pair:
+      row_name: LY....TD
+      value: 1
+  - name: KYP3..TD
+    first_pair:
+      row_name: LSP3..TD
+      value: 1
+    second_pair:
+      row_name: R.P3..TD
+      value: 4000
+  - name: KYP3..TD
+    first_pair:
+      row_name: R.P1..TE
+      value: 4000
+    second_pair:
+      row_name: R.P2..TE
+      value: 3000
+  - name: KYP3..TD
+    first_pair:
+      row_name: R.P4..TE
+      value: 4000
+    second_pair:
+      row_name: R.P5..TE
+      value: 2500
+  - name: P.P3..TD
+    first_pair:
+      row_name: R.P3..TD
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TD
+    first_pair:
+      row_name: B...G3TD
+      value: 65
+    second_pair:
+      row_name: LMP3..TD
+      value: 1
+  - name: YTP3..TD
+    first_pair:
+      row_name: LNP3..TD
+      value: -1
+    second_pair:
+      row_name: T.....TD
+      value: 1
+  - name: YTP3..TD
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TE
+    first_pair:
+      row_name: B...G3TE
+      value: -50
+    second_pair:
+      row_name: LMP3..TE
+      value: -60
+  - name: KYP3..TE
+    first_pair:
+      row_name: LNP3..TE
+      value: 15
+    second_pair:
+      row_name: LY....TE
+      value: 1
+  - name: KYP3..TE
+    first_pair:
+      row_name: LSP3..TE
+      value: 1
+    second_pair:
+      row_name: R.P3..TE
+      value: 4000
+  - name: KYP3..TE
+    first_pair:
+      row_name: R.P1..TF
+      value: 4000
+    second_pair:
+      row_name: R.P2..TF
+      value: 3000
+  - name: KYP3..TE
+    first_pair:
+      row_name: R.P4..TF
+      value: 4000
+    second_pair:
+      row_name: R.P5..TF
+      value: 2500
+  - name: P.P3..TE
+    first_pair:
+      row_name: R.P3..TE
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TE
+    first_pair:
+      row_name: B...G3TE
+      value: 65
+    second_pair:
+      row_name: LMP3..TE
+      value: 1
+  - name: YTP3..TE
+    first_pair:
+      row_name: LNP3..TE
+      value: -1
+    second_pair:
+      row_name: T.....TE
+      value: 1
+  - name: YTP3..TE
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TF
+    first_pair:
+      row_name: B...G3TF
+      value: -50
+    second_pair:
+      row_name: LMP3..TF
+      value: -60
+  - name: KYP3..TF
+    first_pair:
+      row_name: LNP3..TF
+      value: 15
+    second_pair:
+      row_name: LY....TF
+      value: 1
+  - name: KYP3..TF
+    first_pair:
+      row_name: LSP3..TF
+      value: 1
+    second_pair:
+      row_name: R.P3..TF
+      value: 4000
+  - name: KYP3..TF
+    first_pair:
+      row_name: R.P1..TG
+      value: 4000
+    second_pair:
+      row_name: R.P2..TG
+      value: 3000
+  - name: KYP3..TF
+    first_pair:
+      row_name: R.P4..TG
+      value: 4000
+    second_pair:
+      row_name: R.P5..TG
+      value: 2500
+  - name: P.P3..TF
+    first_pair:
+      row_name: R.P3..TF
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TF
+    first_pair:
+      row_name: B...G3TF
+      value: 65
+    second_pair:
+      row_name: LMP3..TF
+      value: 1
+  - name: YTP3..TF
+    first_pair:
+      row_name: LNP3..TF
+      value: -1
+    second_pair:
+      row_name: T.....TF
+      value: 1
+  - name: YTP3..TF
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TG
+    first_pair:
+      row_name: B...G3TG
+      value: -50
+    second_pair:
+      row_name: LMP3..TG
+      value: -60
+  - name: KYP3..TG
+    first_pair:
+      row_name: LNP3..TG
+      value: 15
+    second_pair:
+      row_name: LY....TG
+      value: 1
+  - name: KYP3..TG
+    first_pair:
+      row_name: LSP3..TG
+      value: 1
+    second_pair:
+      row_name: R.P3..TG
+      value: 4000
+  - name: KYP3..TG
+    first_pair:
+      row_name: R.P1..TH
+      value: 4000
+    second_pair:
+      row_name: R.P2..TH
+      value: 3000
+  - name: KYP3..TG
+    first_pair:
+      row_name: R.P4..TH
+      value: 4000
+    second_pair:
+      row_name: R.P5..TH
+      value: 2500
+  - name: P.P3..TG
+    first_pair:
+      row_name: R.P3..TG
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TG
+    first_pair:
+      row_name: B...G3TG
+      value: 65
+    second_pair:
+      row_name: LMP3..TG
+      value: 1
+  - name: YTP3..TG
+    first_pair:
+      row_name: LNP3..TG
+      value: -1
+    second_pair:
+      row_name: T.....TG
+      value: 1
+  - name: YTP3..TG
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP3..TH
+    first_pair:
+      row_name: B...G3TH
+      value: -50
+    second_pair:
+      row_name: LMP3..TH
+      value: -60
+  - name: KYP3..TH
+    first_pair:
+      row_name: LNP3..TH
+      value: 15
+    second_pair:
+      row_name: LY....TH
+      value: 1
+  - name: KYP3..TH
+    first_pair:
+      row_name: LSP3..TH
+      value: 1
+    second_pair:
+      row_name: R.P3..TH
+      value: 4000
+  - name: P.P3..TH
+    first_pair:
+      row_name: R.P3..TH
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP3..TH
+    first_pair:
+      row_name: B...G3TH
+      value: 65
+    second_pair:
+      row_name: LMP3..TH
+      value: 1
+  - name: YTP3..TH
+    first_pair:
+      row_name: LNP3..TH
+      value: -1
+    second_pair:
+      row_name: T.....TH
+      value: 1
+  - name: YTP3..TH
+    first_pair:
+      row_name: FOC.....
+      value: 40
+    second_pair: ~
+  - name: KYP4..TA
+    first_pair:
+      row_name: B...G4TA
+      value: -50
+    second_pair:
+      row_name: LMP4..TA
+      value: -60
+  - name: KYP4..TA
+    first_pair:
+      row_name: LNP4..TA
+      value: 15
+    second_pair:
+      row_name: LY....TA
+      value: 1
+  - name: KYP4..TA
+    first_pair:
+      row_name: R.P1..TB
+      value: 3000
+    second_pair:
+      row_name: R.P2..TB
+      value: 4000
+  - name: KYP4..TA
+    first_pair:
+      row_name: R.P3..TB
+      value: 4000
+    second_pair:
+      row_name: R.P5..TB
+      value: 2500
+  - name: YTP4..TA
+    first_pair:
+      row_name: B...G4TA
+      value: 92
+    second_pair:
+      row_name: LMP4..TA
+      value: 1
+  - name: YTP4..TA
+    first_pair:
+      row_name: LNP4..TA
+      value: -1
+    second_pair:
+      row_name: T.....TA
+      value: 1
+  - name: YTP4..TA
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TB
+    first_pair:
+      row_name: B...G4TB
+      value: -50
+    second_pair:
+      row_name: LMP4..TB
+      value: -60
+  - name: KYP4..TB
+    first_pair:
+      row_name: LNP4..TB
+      value: 15
+    second_pair:
+      row_name: LY....TB
+      value: 1
+  - name: KYP4..TB
+    first_pair:
+      row_name: R.P4..TB
+      value: 4000
+    second_pair:
+      row_name: R.P1..TC
+      value: 3000
+  - name: KYP4..TB
+    first_pair:
+      row_name: R.P2..TC
+      value: 4000
+    second_pair:
+      row_name: R.P3..TC
+      value: 4000
+  - name: KYP4..TB
+    first_pair:
+      row_name: R.P5..TC
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TB
+    first_pair:
+      row_name: R.P4..TB
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TB
+    first_pair:
+      row_name: B...G4TB
+      value: 92
+    second_pair:
+      row_name: LMP4..TB
+      value: 1
+  - name: YTP4..TB
+    first_pair:
+      row_name: LNP4..TB
+      value: -1
+    second_pair:
+      row_name: T.....TB
+      value: 1
+  - name: YTP4..TB
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TC
+    first_pair:
+      row_name: B...G4TC
+      value: -50
+    second_pair:
+      row_name: LMP4..TC
+      value: -60
+  - name: KYP4..TC
+    first_pair:
+      row_name: LNP4..TC
+      value: 15
+    second_pair:
+      row_name: LY....TC
+      value: 1
+  - name: KYP4..TC
+    first_pair:
+      row_name: R.P4..TC
+      value: 4000
+    second_pair:
+      row_name: R.P1..TD
+      value: 3000
+  - name: KYP4..TC
+    first_pair:
+      row_name: R.P2..TD
+      value: 4000
+    second_pair:
+      row_name: R.P3..TD
+      value: 4000
+  - name: KYP4..TC
+    first_pair:
+      row_name: R.P5..TD
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TC
+    first_pair:
+      row_name: R.P4..TC
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TC
+    first_pair:
+      row_name: B...G4TC
+      value: 92
+    second_pair:
+      row_name: LMP4..TC
+      value: 1
+  - name: YTP4..TC
+    first_pair:
+      row_name: LNP4..TC
+      value: -1
+    second_pair:
+      row_name: T.....TC
+      value: 1
+  - name: YTP4..TC
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TD
+    first_pair:
+      row_name: B...G4TD
+      value: -50
+    second_pair:
+      row_name: LMP4..TD
+      value: -60
+  - name: KYP4..TD
+    first_pair:
+      row_name: LNP4..TD
+      value: 15
+    second_pair:
+      row_name: LY....TD
+      value: 1
+  - name: KYP4..TD
+    first_pair:
+      row_name: R.P4..TD
+      value: 4000
+    second_pair:
+      row_name: R.P1..TE
+      value: 3000
+  - name: KYP4..TD
+    first_pair:
+      row_name: R.P2..TE
+      value: 4000
+    second_pair:
+      row_name: R.P3..TE
+      value: 4000
+  - name: KYP4..TD
+    first_pair:
+      row_name: R.P5..TE
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TD
+    first_pair:
+      row_name: R.P4..TD
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TD
+    first_pair:
+      row_name: B...G4TD
+      value: 92
+    second_pair:
+      row_name: LMP4..TD
+      value: 1
+  - name: YTP4..TD
+    first_pair:
+      row_name: LNP4..TD
+      value: -1
+    second_pair:
+      row_name: T.....TD
+      value: 1
+  - name: YTP4..TD
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TE
+    first_pair:
+      row_name: B...G4TE
+      value: -50
+    second_pair:
+      row_name: LMP4..TE
+      value: -60
+  - name: KYP4..TE
+    first_pair:
+      row_name: LNP4..TE
+      value: 15
+    second_pair:
+      row_name: LY....TE
+      value: 1
+  - name: KYP4..TE
+    first_pair:
+      row_name: R.P4..TE
+      value: 4000
+    second_pair:
+      row_name: R.P1..TF
+      value: 3000
+  - name: KYP4..TE
+    first_pair:
+      row_name: R.P2..TF
+      value: 4000
+    second_pair:
+      row_name: R.P3..TF
+      value: 4000
+  - name: KYP4..TE
+    first_pair:
+      row_name: R.P5..TF
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TE
+    first_pair:
+      row_name: R.P4..TE
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TE
+    first_pair:
+      row_name: B...G4TE
+      value: 92
+    second_pair:
+      row_name: LMP4..TE
+      value: 1
+  - name: YTP4..TE
+    first_pair:
+      row_name: LNP4..TE
+      value: -1
+    second_pair:
+      row_name: T.....TE
+      value: 1
+  - name: YTP4..TE
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TF
+    first_pair:
+      row_name: B...G4TF
+      value: -50
+    second_pair:
+      row_name: LMP4..TF
+      value: -60
+  - name: KYP4..TF
+    first_pair:
+      row_name: LNP4..TF
+      value: 15
+    second_pair:
+      row_name: LY....TF
+      value: 1
+  - name: KYP4..TF
+    first_pair:
+      row_name: R.P4..TF
+      value: 4000
+    second_pair:
+      row_name: R.P1..TG
+      value: 3000
+  - name: KYP4..TF
+    first_pair:
+      row_name: R.P2..TG
+      value: 4000
+    second_pair:
+      row_name: R.P3..TG
+      value: 4000
+  - name: KYP4..TF
+    first_pair:
+      row_name: R.P5..TG
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TF
+    first_pair:
+      row_name: R.P4..TF
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TF
+    first_pair:
+      row_name: B...G4TF
+      value: 92
+    second_pair:
+      row_name: LMP4..TF
+      value: 1
+  - name: YTP4..TF
+    first_pair:
+      row_name: LNP4..TF
+      value: -1
+    second_pair:
+      row_name: T.....TF
+      value: 1
+  - name: YTP4..TF
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TG
+    first_pair:
+      row_name: B...G4TG
+      value: -50
+    second_pair:
+      row_name: LMP4..TG
+      value: -60
+  - name: KYP4..TG
+    first_pair:
+      row_name: LNP4..TG
+      value: 15
+    second_pair:
+      row_name: LY....TG
+      value: 1
+  - name: KYP4..TG
+    first_pair:
+      row_name: R.P4..TG
+      value: 4000
+    second_pair:
+      row_name: R.P1..TH
+      value: 3000
+  - name: KYP4..TG
+    first_pair:
+      row_name: R.P2..TH
+      value: 4000
+    second_pair:
+      row_name: R.P3..TH
+      value: 4000
+  - name: KYP4..TG
+    first_pair:
+      row_name: R.P5..TH
+      value: 2500
+    second_pair: ~
+  - name: P.P4..TG
+    first_pair:
+      row_name: R.P4..TG
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TG
+    first_pair:
+      row_name: B...G4TG
+      value: 92
+    second_pair:
+      row_name: LMP4..TG
+      value: 1
+  - name: YTP4..TG
+    first_pair:
+      row_name: LNP4..TG
+      value: -1
+    second_pair:
+      row_name: T.....TG
+      value: 1
+  - name: YTP4..TG
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP4..TH
+    first_pair:
+      row_name: B...G4TH
+      value: -50
+    second_pair:
+      row_name: LMP4..TH
+      value: -60
+  - name: KYP4..TH
+    first_pair:
+      row_name: LNP4..TH
+      value: 15
+    second_pair:
+      row_name: LY....TH
+      value: 1
+  - name: KYP4..TH
+    first_pair:
+      row_name: R.P4..TH
+      value: 4000
+    second_pair: ~
+  - name: P.P4..TH
+    first_pair:
+      row_name: R.P4..TH
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP4..TH
+    first_pair:
+      row_name: B...G4TH
+      value: 92
+    second_pair:
+      row_name: LMP4..TH
+      value: 1
+  - name: YTP4..TH
+    first_pair:
+      row_name: LNP4..TH
+      value: -1
+    second_pair:
+      row_name: T.....TH
+      value: 1
+  - name: YTP4..TH
+    first_pair:
+      row_name: FOC.....
+      value: 50
+    second_pair: ~
+  - name: KYP5..TA
+    first_pair:
+      row_name: LMP5..TA
+      value: -60
+    second_pair:
+      row_name: LNP5..TA
+      value: 20
+  - name: KYP5..TA
+    first_pair:
+      row_name: LY....TA
+      value: 1
+    second_pair: ~
+  - name: YTP5..TA
+    first_pair:
+      row_name: LMP5..TA
+      value: 1
+    second_pair:
+      row_name: LNP5..TA
+      value: -1
+  - name: YTP5..TA
+    first_pair:
+      row_name: T.....TA
+      value: 1
+    second_pair: ~
+  - name: KYP5..TB
+    first_pair:
+      row_name: LMP5..TB
+      value: -60
+    second_pair:
+      row_name: LNP5..TB
+      value: 20
+  - name: KYP5..TB
+    first_pair:
+      row_name: LY....TB
+      value: 1
+    second_pair:
+      row_name: R.P5..TB
+      value: 4000
+  - name: P.P5..TB
+    first_pair:
+      row_name: R.P5..TB
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TB
+    first_pair:
+      row_name: LMP5..TB
+      value: 1
+    second_pair:
+      row_name: LNP5..TB
+      value: -1
+  - name: YTP5..TB
+    first_pair:
+      row_name: T.....TB
+      value: 1
+    second_pair: ~
+  - name: KYP5..TC
+    first_pair:
+      row_name: LMP5..TC
+      value: -60
+    second_pair:
+      row_name: LNP5..TC
+      value: 20
+  - name: KYP5..TC
+    first_pair:
+      row_name: LY....TC
+      value: 1
+    second_pair:
+      row_name: R.P5..TC
+      value: 4000
+  - name: P.P5..TC
+    first_pair:
+      row_name: R.P5..TC
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TC
+    first_pair:
+      row_name: LMP5..TC
+      value: 1
+    second_pair:
+      row_name: LNP5..TC
+      value: -1
+  - name: YTP5..TC
+    first_pair:
+      row_name: T.....TC
+      value: 1
+    second_pair: ~
+  - name: KYP5..TD
+    first_pair:
+      row_name: LMP5..TD
+      value: -60
+    second_pair:
+      row_name: LNP5..TD
+      value: 20
+  - name: KYP5..TD
+    first_pair:
+      row_name: LY....TD
+      value: 1
+    second_pair:
+      row_name: R.P5..TD
+      value: 4000
+  - name: P.P5..TD
+    first_pair:
+      row_name: R.P5..TD
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TD
+    first_pair:
+      row_name: LMP5..TD
+      value: 1
+    second_pair:
+      row_name: LNP5..TD
+      value: -1
+  - name: YTP5..TD
+    first_pair:
+      row_name: T.....TD
+      value: 1
+    second_pair: ~
+  - name: KYP5..TE
+    first_pair:
+      row_name: LMP5..TE
+      value: -60
+    second_pair:
+      row_name: LNP5..TE
+      value: 20
+  - name: KYP5..TE
+    first_pair:
+      row_name: LY....TE
+      value: 1
+    second_pair:
+      row_name: R.P5..TE
+      value: 4000
+  - name: P.P5..TE
+    first_pair:
+      row_name: R.P5..TE
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TE
+    first_pair:
+      row_name: LMP5..TE
+      value: 1
+    second_pair:
+      row_name: LNP5..TE
+      value: -1
+  - name: YTP5..TE
+    first_pair:
+      row_name: T.....TE
+      value: 1
+    second_pair: ~
+  - name: KYP5..TF
+    first_pair:
+      row_name: LMP5..TF
+      value: -60
+    second_pair:
+      row_name: LNP5..TF
+      value: 20
+  - name: KYP5..TF
+    first_pair:
+      row_name: LY....TF
+      value: 1
+    second_pair:
+      row_name: R.P5..TF
+      value: 4000
+  - name: P.P5..TF
+    first_pair:
+      row_name: R.P5..TF
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TF
+    first_pair:
+      row_name: LMP5..TF
+      value: 1
+    second_pair:
+      row_name: LNP5..TF
+      value: -1
+  - name: YTP5..TF
+    first_pair:
+      row_name: T.....TF
+      value: 1
+    second_pair: ~
+  - name: KYP5..TG
+    first_pair:
+      row_name: LMP5..TG
+      value: -60
+    second_pair:
+      row_name: LNP5..TG
+      value: 20
+  - name: KYP5..TG
+    first_pair:
+      row_name: LY....TG
+      value: 1
+    second_pair:
+      row_name: R.P5..TG
+      value: 4000
+  - name: P.P5..TG
+    first_pair:
+      row_name: R.P5..TG
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TG
+    first_pair:
+      row_name: LMP5..TG
+      value: 1
+    second_pair:
+      row_name: LNP5..TG
+      value: -1
+  - name: YTP5..TG
+    first_pair:
+      row_name: T.....TG
+      value: 1
+    second_pair: ~
+  - name: KYP5..TH
+    first_pair:
+      row_name: LMP5..TH
+      value: -60
+    second_pair:
+      row_name: LNP5..TH
+      value: 20
+  - name: KYP5..TH
+    first_pair:
+      row_name: LY....TH
+      value: 1
+    second_pair:
+      row_name: R.P5..TH
+      value: 4000
+  - name: P.P5..TH
+    first_pair:
+      row_name: R.P5..TH
+      value: -1
+    second_pair:
+      row_name: FSC.....
+      value: 1
+  - name: YTP5..TH
+    first_pair:
+      row_name: LMP5..TH
+      value: 1
+    second_pair:
+      row_name: LNP5..TH
+      value: -1
+  - name: YTP5..TH
+    first_pair:
+      row_name: T.....TH
+      value: 1
+    second_pair: ~
+rhs:
+  - name: RHS00001
+    first_pair:
+      row_name: LY....TA
+      value: 1
+    second_pair:
+      row_name: LY....TB
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TB
+      value: 4000
+    second_pair:
+      row_name: R.P2..TB
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TB
+      value: 4000
+    second_pair:
+      row_name: R.P4..TB
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TB
+      value: 4000
+    second_pair:
+      row_name: LY....TC
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TC
+      value: 4000
+    second_pair:
+      row_name: R.P2..TC
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TC
+      value: 4000
+    second_pair:
+      row_name: R.P4..TC
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TC
+      value: 4000
+    second_pair:
+      row_name: LY....TD
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TD
+      value: 4000
+    second_pair:
+      row_name: R.P2..TD
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TD
+      value: 4000
+    second_pair:
+      row_name: R.P4..TD
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TD
+      value: 4000
+    second_pair:
+      row_name: LY....TE
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TE
+      value: 4000
+    second_pair:
+      row_name: R.P2..TE
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TE
+      value: 4000
+    second_pair:
+      row_name: R.P4..TE
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TE
+      value: 4000
+    second_pair:
+      row_name: LY....TF
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TF
+      value: 4000
+    second_pair:
+      row_name: R.P2..TF
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TF
+      value: 4000
+    second_pair:
+      row_name: R.P4..TF
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TF
+      value: 4000
+    second_pair:
+      row_name: LY....TG
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TG
+      value: 4000
+    second_pair:
+      row_name: R.P2..TG
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TG
+      value: 4000
+    second_pair:
+      row_name: R.P4..TG
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TG
+      value: 4000
+    second_pair:
+      row_name: LY....TH
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: R.P1..TH
+      value: 4000
+    second_pair:
+      row_name: R.P2..TH
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P3..TH
+      value: 4000
+    second_pair:
+      row_name: R.P4..TH
+      value: 4000
+  - name: RHS00001
+    first_pair:
+      row_name: R.P5..TH
+      value: 4000
+    second_pair:
+      row_name: LBL1....
+      value: 1
+  - name: RHS00001
+    first_pair:
+      row_name: LBL1MXTC
+      value: 280
+    second_pair:
+      row_name: LBL1MXTD
+      value: 280
+  - name: RHS00001
+    first_pair:
+      row_name: LBL1MXTE
+      value: 280
+    second_pair:
+      row_name: LBL1MXTF
+      value: 280
+  - name: RHS00001
+    first_pair:
+      row_name: LBL1MXTG
+      value: 280
+    second_pair:
+      row_name: BS.12.TH
+      value: 771.28204
+  - name: RHS00001
+    first_pair:
+      row_name: BS.123TH
+      value: 315.64102
+    second_pair:
+      row_name: BS.124TH
+      value: 337.30768
+  - name: RHS00001
+    first_pair:
+      row_name: BS.13.TH
+      value: 346.66666
+    second_pair:
+      row_name: BS.134TH
+      value: 261.1111
+  - name: RHS00001
+    first_pair:
+      row_name: BS.14.TH
+      value: 375.55557
+    second_pair:
+      row_name: BS.23.TH
+      value: 251.28204
+  - name: RHS00001
+    first_pair:
+      row_name: BS.234TH
+      value: 207.3077
+    second_pair:
+      row_name: BS.24.TH
+      value: 337.94873
+  - name: RHS00001
+    first_pair:
+      row_name: BS.34.TH
+      value: 202.22221
+    second_pair: ~
+ranges: ~
+bounds: ~
+

@@ -1,0 +1,5992 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/bore3d\"))?"
+---
+name: BORE3D
+rows:
+  - row_type: Eq
+    row_name: B...XI
+  - row_type: Eq
+    row_name: TIE.MRAR
+  - row_type: Eq
+    row_name: BAB...XI
+  - row_type: Eq
+    row_name: BAC...XI
+  - row_type: Eq
+    row_name: BAD...XI
+  - row_type: Eq
+    row_name: BAF...XI
+  - row_type: Eq
+    row_name: BAG...XI
+  - row_type: Eq
+    row_name: BAH...XI
+  - row_type: Eq
+    row_name: BAN...XI
+  - row_type: Eq
+    row_name: BAR...XI
+  - row_type: Eq
+    row_name: BAS...XI
+  - row_type: Eq
+    row_name: BAY...XI
+  - row_type: Eq
+    row_name: BBT...XI
+  - row_type: Eq
+    row_name: BCC...XI
+  - row_type: Eq
+    row_name: BCE...XI
+  - row_type: Eq
+    row_name: BCF...XI
+  - row_type: Eq
+    row_name: BCK...XI
+  - row_type: Eq
+    row_name: BC2...XI
+  - row_type: Eq
+    row_name: BC3...XI
+  - row_type: Eq
+    row_name: BC4...XI
+  - row_type: Eq
+    row_name: BDC...XI
+  - row_type: Eq
+    row_name: BDF...XI
+  - row_type: Eq
+    row_name: BDH...XI
+  - row_type: Eq
+    row_name: BD1...XI
+  - row_type: Eq
+    row_name: BFF...XI
+  - row_type: Eq
+    row_name: BFG...XI
+  - row_type: Eq
+    row_name: BFH...XI
+  - row_type: Eq
+    row_name: BFI...XI
+  - row_type: Eq
+    row_name: BFL...XI
+  - row_type: Eq
+    row_name: BFN...XI
+  - row_type: Eq
+    row_name: BFP...XI
+  - row_type: Eq
+    row_name: BFS...XI
+  - row_type: Eq
+    row_name: BFX...XI
+  - row_type: Eq
+    row_name: BF1...XI
+  - row_type: Eq
+    row_name: BF2...XI
+  - row_type: Eq
+    row_name: BF3...XI
+  - row_type: Eq
+    row_name: BF4...XI
+  - row_type: Eq
+    row_name: BGF...XI
+  - row_type: Eq
+    row_name: BG1...XI
+  - row_type: Eq
+    row_name: BHB...XI
+  - row_type: Eq
+    row_name: BHF...XI
+  - row_type: Eq
+    row_name: BHG...XI
+  - row_type: Eq
+    row_name: BHH...XI
+  - row_type: Eq
+    row_name: BHN...XI
+  - row_type: Eq
+    row_name: BHP...XI
+  - row_type: Eq
+    row_name: BHR...XI
+  - row_type: Eq
+    row_name: BHS...XI
+  - row_type: Eq
+    row_name: BH1...XI
+  - row_type: Eq
+    row_name: BIC...XI
+  - row_type: Eq
+    row_name: BIF...XI
+  - row_type: Eq
+    row_name: BIL...XI
+  - row_type: Eq
+    row_name: BIP...XI
+  - row_type: Eq
+    row_name: BIS...XI
+  - row_type: Eq
+    row_name: BL2...XI
+  - row_type: Eq
+    row_name: BL3...XI
+  - row_type: Eq
+    row_name: BL4...XI
+  - row_type: Eq
+    row_name: BMM...XI
+  - row_type: Eq
+    row_name: BMR...XI
+  - row_type: Eq
+    row_name: BNF...XI
+  - row_type: Eq
+    row_name: BNH...XI
+  - row_type: Eq
+    row_name: BNP...XI
+  - row_type: Eq
+    row_name: BN1...XI
+  - row_type: Eq
+    row_name: BO2...XI
+  - row_type: Eq
+    row_name: BPR...XI
+  - row_type: Eq
+    row_name: BPS...XI
+  - row_type: Eq
+    row_name: BPX...XI
+  - row_type: Eq
+    row_name: BP1...XI
+  - row_type: Eq
+    row_name: BRS...XI
+  - row_type: Eq
+    row_name: BSB...XI
+  - row_type: Eq
+    row_name: BSS...XI
+  - row_type: Eq
+    row_name: BWP...XI
+  - row_type: Eq
+    row_name: BWS...XI
+  - row_type: Eq
+    row_name: BWW...XI
+  - row_type: Eq
+    row_name: BYD...XI
+  - row_type: Eq
+    row_name: BYF...XI
+  - row_type: Eq
+    row_name: BYG...XI
+  - row_type: Eq
+    row_name: BYH...XI
+  - row_type: Eq
+    row_name: BYN...XI
+  - row_type: Eq
+    row_name: BYS...XI
+  - row_type: Eq
+    row_name: BYY...XI
+  - row_type: Eq
+    row_name: B6H...XI
+  - row_type: Eq
+    row_name: B9H...XI
+  - row_type: Eq
+    row_name: BFH.VOXI
+  - row_type: Eq
+    row_name: BFL.VOXI
+  - row_type: Eq
+    row_name: BFN.VOXI
+  - row_type: Eq
+    row_name: BF1.VOXI
+  - row_type: Eq
+    row_name: BF2.VOXI
+  - row_type: Eq
+    row_name: BF3.VOXI
+  - row_type: Eq
+    row_name: BF4.VOXI
+  - row_type: Eq
+    row_name: BFH.WTXI
+  - row_type: Eq
+    row_name: BFL.WTXI
+  - row_type: Eq
+    row_name: BFN.WTXI
+  - row_type: Eq
+    row_name: BF1.WTXI
+  - row_type: Eq
+    row_name: BF2.WTXI
+  - row_type: Eq
+    row_name: BF3.WTXI
+  - row_type: Eq
+    row_name: BF4.WTXI
+  - row_type: Eq
+    row_name: CMC...XI
+  - row_type: Eq
+    row_name: COF.BBXI
+  - row_type: Eq
+    row_name: CUT.BBXI
+  - row_type: Eq
+    row_name: COF.BCXI
+  - row_type: Eq
+    row_name: CUT.BCXI
+  - row_type: Eq
+    row_name: CUT.BDXI
+  - row_type: Eq
+    row_name: CUT.BFXI
+  - row_type: Eq
+    row_name: CUT.BGXI
+  - row_type: Eq
+    row_name: COF.BHXI
+  - row_type: Eq
+    row_name: CUT.BHXI
+  - row_type: Eq
+    row_name: COF.CAXI
+  - row_type: Eq
+    row_name: CON.CGXI
+  - row_type: Eq
+    row_name: CUT.CTXI
+  - row_type: Eq
+    row_name: CON.CUXI
+  - row_type: Eq
+    row_name: CON.CXXI
+  - row_type: Eq
+    row_name: CTK.CXXI
+  - row_type: Eq
+    row_name: CTK.C3XI
+  - row_type: Eq
+    row_name: CTK.C4XI
+  - row_type: Eq
+    row_name: CON.DHXI
+  - row_type: Eq
+    row_name: CUT.DHXI
+  - row_type: Eq
+    row_name: CUT.DLXI
+  - row_type: Eq
+    row_name: CTK.DPXI
+  - row_type: Eq
+    row_name: CUT.DPXI
+  - row_type: Eq
+    row_name: CUT.DSXI
+  - row_type: Eq
+    row_name: CON.FDXI
+  - row_type: Eq
+    row_name: CON.FGXI
+  - row_type: Eq
+    row_name: CON.FHXI
+  - row_type: Eq
+    row_name: CON.FNXI
+  - row_type: Eq
+    row_name: C...FOXI
+  - row_type: Eq
+    row_name: CTK.FOXI
+  - row_type: Eq
+    row_name: CON.F1XI
+  - row_type: Eq
+    row_name: CON.F2XI
+  - row_type: Eq
+    row_name: CUT.GTXI
+  - row_type: Eq
+    row_name: CON.GXXI
+  - row_type: Eq
+    row_name: COF.HOXI
+  - row_type: Eq
+    row_name: CON.HOXI
+  - row_type: Eq
+    row_name: CTK.HOXI
+  - row_type: Eq
+    row_name: CON.HPXI
+  - row_type: Eq
+    row_name: CTK.HPXI
+  - row_type: Eq
+    row_name: COF.HSXI
+  - row_type: Eq
+    row_name: CON.HSXI
+  - row_type: Eq
+    row_name: CTK.HSXI
+  - row_type: Eq
+    row_name: CON.HYXI
+  - row_type: Eq
+    row_name: CUT.KWXI
+  - row_type: Eq
+    row_name: C...LEXI
+  - row_type: Eq
+    row_name: CON.LEXI
+  - row_type: Eq
+    row_name: CTK.LEXI
+  - row_type: Eq
+    row_name: CON.L1XI
+  - row_type: Eq
+    row_name: CTK.MMXI
+  - row_type: Eq
+    row_name: CON.M1XI
+  - row_type: Eq
+    row_name: CON.M2XI
+  - row_type: Eq
+    row_name: CON.M3XI
+  - row_type: Eq
+    row_name: CON.NCXI
+  - row_type: Eq
+    row_name: CON.NFXI
+  - row_type: Eq
+    row_name: CON.NNXI
+  - row_type: Eq
+    row_name: CON.NPXI
+  - row_type: Eq
+    row_name: CON.NRXI
+  - row_type: Eq
+    row_name: CON.NSXI
+  - row_type: Eq
+    row_name: C...OFXI
+  - row_type: Eq
+    row_name: COF.OFXI
+  - row_type: Eq
+    row_name: CON.OPXI
+  - row_type: Eq
+    row_name: CUT.PDXI
+  - row_type: Eq
+    row_name: CON.PHXI
+  - row_type: Eq
+    row_name: CTK.PHXI
+  - row_type: Eq
+    row_name: COF.POXI
+  - row_type: Eq
+    row_name: CON.POXI
+  - row_type: Eq
+    row_name: COF.PPXI
+  - row_type: Eq
+    row_name: CTK.PSXI
+  - row_type: Eq
+    row_name: C...RAXI
+  - row_type: Eq
+    row_name: CON.RAXI
+  - row_type: Eq
+    row_name: CTK.RAXI
+  - row_type: Eq
+    row_name: C...RDXI
+  - row_type: Eq
+    row_name: COF.RDXI
+  - row_type: Eq
+    row_name: CON.RDXI
+  - row_type: Eq
+    row_name: CUT.RSXI
+  - row_type: Eq
+    row_name: CUT.RTXI
+  - row_type: Eq
+    row_name: COF.SFXI
+  - row_type: Eq
+    row_name: CON.SGXI
+  - row_type: Eq
+    row_name: COF.SHXI
+  - row_type: Eq
+    row_name: CON.SHXI
+  - row_type: Eq
+    row_name: CTK.SHXI
+  - row_type: Eq
+    row_name: COF.SKXI
+  - row_type: Eq
+    row_name: CON.SKXI
+  - row_type: Eq
+    row_name: C...STXI
+  - row_type: Eq
+    row_name: CON.STXI
+  - row_type: Eq
+    row_name: CTK.STXI
+  - row_type: Eq
+    row_name: CON.SWXI
+  - row_type: Eq
+    row_name: COF.TAXI
+  - row_type: Eq
+    row_name: CUT.TGXI
+  - row_type: Eq
+    row_name: CUT.TWXI
+  - row_type: Eq
+    row_name: COF.WTXI
+  - row_type: Eq
+    row_name: KFG.PRXI
+  - row_type: Eq
+    row_name: KLQ.PRXI
+  - row_type: Eq
+    row_name: UBW...XI
+  - row_type: Eq
+    row_name: UCW...XI
+  - row_type: Eq
+    row_name: UDW...XI
+  - row_type: Eq
+    row_name: UFF...XI
+  - row_type: Eq
+    row_name: UFS...XI
+  - row_type: Eq
+    row_name: UHE...XI
+  - row_type: Eq
+    row_name: UKW...XI
+  - row_type: Eq
+    row_name: UMC...XI
+  - row_type: Eq
+    row_name: UOH...XI
+  - row_type: Eq
+    row_name: UOL...XI
+  - row_type: Eq
+    row_name: UOM...XI
+  - row_type: Eq
+    row_name: UPB...XI
+  - row_type: Eq
+    row_name: UPC...XI
+  - row_type: Eq
+    row_name: UPD...XI
+  - row_type: Eq
+    row_name: UPH...XI
+  - row_type: Eq
+    row_name: UPK...XI
+  - row_type: Eq
+    row_name: UPL...XI
+  - row_type: Eq
+    row_name: UPM...XI
+  - row_type: Eq
+    row_name: UPT...XI
+  - row_type: Eq
+    row_name: UPW...XI
+  - row_type: Eq
+    row_name: URW...XI
+  - row_type: Eq
+    row_name: USH...XI
+  - row_type: Eq
+    row_name: USL...XI
+  - row_type: Eq
+    row_name: USM...XI
+  - row_type: Eq
+    row_name: UTW...XI
+  - row_type: Leq
+    row_name: XGS.FHXI
+  - row_type: Leq
+    row_name: XSU.FHXI
+  - row_type: Leq
+    row_name: XGS.FLXI
+  - row_type: Leq
+    row_name: XSL.FLXI
+  - row_type: Leq
+    row_name: XSU.FLXI
+  - row_type: Leq
+    row_name: XGS.FNXI
+  - row_type: Leq
+    row_name: XSU.FNXI
+  - row_type: Leq
+    row_name: XGS.F1XI
+  - row_type: Leq
+    row_name: XSL.F1XI
+  - row_type: Leq
+    row_name: XSU.F1XI
+  - row_type: Leq
+    row_name: XGS.F2XI
+  - row_type: Leq
+    row_name: XSL.F2XI
+  - row_type: Leq
+    row_name: XSU.F2XI
+  - row_type: Leq
+    row_name: XGS.F3XI
+  - row_type: Leq
+    row_name: XSL.F3XI
+  - row_type: Leq
+    row_name: XSU.F3XI
+  - row_type: Leq
+    row_name: XGS.F4XI
+  - row_type: Leq
+    row_name: XSL.F4XI
+  - row_type: Leq
+    row_name: XSU.F4XI
+  - row_type: Nr
+    row_name: FAT0..J.
+columns:
+  - name: BNP.FHXI
+    first_pair:
+      row_name: BNP...XI
+      value: -1
+    second_pair:
+      row_name: BFH...XI
+      value: 0.0929
+  - name: BNP.FHXI
+    first_pair:
+      row_name: BFH.VOXI
+      value: 1.24425
+    second_pair:
+      row_name: BFH.WTXI
+      value: 1
+  - name: BNP.FHXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.3972
+    second_pair: ~
+  - name: BDC.FLXI
+    first_pair:
+      row_name: BDC...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: 0.0817
+  - name: BDC.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 1.08413
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BDC.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.01
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BDF.FLXI
+    first_pair:
+      row_name: BDF...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.5
+  - name: BDF.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 2
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BDF.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.9
+    second_pair:
+      row_name: XSL.FLXI
+      value: 0.3
+  - name: BDF.FLXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BDH.FLXI
+    first_pair:
+      row_name: BDH...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: 0.0532
+  - name: BDH.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 1.06383
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BDH.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.01
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BD1.FLXI
+    first_pair:
+      row_name: BD1...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: 0.0083
+  - name: BD1.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 1.00705
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BD1.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.22
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BGF.FLXI
+    first_pair:
+      row_name: BGF...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.1227
+  - name: BGF.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.8547
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BGF.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 1.1
+    second_pair:
+      row_name: C...FOXI
+      value: -1.812
+  - name: BG1.FLXI
+    first_pair:
+      row_name: BG1...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.114
+  - name: BG1.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.88028
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BG1.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 1.02
+    second_pair:
+      row_name: C...FOXI
+      value: -2.3923
+  - name: BHF.FLXI
+    first_pair:
+      row_name: BHF...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.1079
+  - name: BHF.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.87719
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BHF.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 1
+    second_pair:
+      row_name: C...FOXI
+      value: -1.812
+  - name: BHG.FLXI
+    first_pair:
+      row_name: BHG...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.0484
+  - name: BHG.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.95147
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BHG.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.2
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHH.FLXI
+    first_pair:
+      row_name: BHH...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.5
+  - name: BHH.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.90909
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BHH.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.01
+    second_pair:
+      row_name: XSL.FLXI
+      value: 0.4
+  - name: BHH.FLXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BHN.FLXI
+    first_pair:
+      row_name: BHN...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.0007
+  - name: BHN.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.998
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BHN.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.08
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHR.FLXI
+    first_pair:
+      row_name: BHR...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.6
+  - name: BHR.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 1.25
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BHR.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.083
+    second_pair:
+      row_name: XSL.FLXI
+      value: 2
+  - name: BHR.FLXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BH1.FLXI
+    first_pair:
+      row_name: BH1...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.0057
+  - name: BH1.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.9901
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BH1.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 0.32
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BP1.FLXI
+    first_pair:
+      row_name: BP1...XI
+      value: -1
+    second_pair:
+      row_name: BFL...XI
+      value: -0.1471
+  - name: BP1.FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: 0.86505
+    second_pair:
+      row_name: BFL.WTXI
+      value: 1
+  - name: BP1.FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: 1.3
+    second_pair:
+      row_name: C...FOXI
+      value: -2.3923
+  - name: BNF.FNXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.3972
+    second_pair: ~
+  - name: BNH.FNXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.3972
+    second_pair: ~
+  - name: BN1.FNXI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.3972
+    second_pair: ~
+  - name: BDC.F1XI
+    first_pair:
+      row_name: BDC...XI
+      value: -1
+    second_pair:
+      row_name: BF1...XI
+      value: 0.0817
+  - name: BDC.F1XI
+    first_pair:
+      row_name: BF1.VOXI
+      value: 1.08413
+    second_pair:
+      row_name: BF1.WTXI
+      value: 1
+  - name: BDC.F1XI
+    first_pair:
+      row_name: XSU.F1XI
+      value: 0.01
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BDF.F1XI
+    first_pair:
+      row_name: BDF...XI
+      value: -1
+    second_pair:
+      row_name: BF1...XI
+      value: -0.5
+  - name: BDF.F1XI
+    first_pair:
+      row_name: BF1.VOXI
+      value: 2
+    second_pair:
+      row_name: BF1.WTXI
+      value: 1
+  - name: BDF.F1XI
+    first_pair:
+      row_name: XSU.F1XI
+      value: 0.9
+    second_pair:
+      row_name: XSL.F1XI
+      value: 0.3
+  - name: BDF.F1XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BDH.F1XI
+    first_pair:
+      row_name: BDH...XI
+      value: -1
+    second_pair:
+      row_name: BF1...XI
+      value: 0.0532
+  - name: BDH.F1XI
+    first_pair:
+      row_name: BF1.VOXI
+      value: 1.06383
+    second_pair:
+      row_name: BF1.WTXI
+      value: 1
+  - name: BDH.F1XI
+    first_pair:
+      row_name: XSU.F1XI
+      value: 0.01
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BD1.F1XI
+    first_pair:
+      row_name: BD1...XI
+      value: -1
+    second_pair:
+      row_name: BF1...XI
+      value: 0.0083
+  - name: BD1.F1XI
+    first_pair:
+      row_name: BF1.VOXI
+      value: 1.00705
+    second_pair:
+      row_name: BF1.WTXI
+      value: 1
+  - name: BD1.F1XI
+    first_pair:
+      row_name: XSU.F1XI
+      value: 0.22
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BGF.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BG1.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: BHF.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BHG.F2XI
+    first_pair:
+      row_name: BHG...XI
+      value: -1
+    second_pair:
+      row_name: BF2...XI
+      value: -0.0484
+  - name: BHG.F2XI
+    first_pair:
+      row_name: BF2.VOXI
+      value: 0.95147
+    second_pair:
+      row_name: BF2.WTXI
+      value: 1
+  - name: BHG.F2XI
+    first_pair:
+      row_name: XSU.F2XI
+      value: 0.2
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHH.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BHN.F2XI
+    first_pair:
+      row_name: BHN...XI
+      value: -1
+    second_pair:
+      row_name: BF2...XI
+      value: -0.0007
+  - name: BHN.F2XI
+    first_pair:
+      row_name: BF2.VOXI
+      value: 0.998
+    second_pair:
+      row_name: BF2.WTXI
+      value: 1
+  - name: BHN.F2XI
+    first_pair:
+      row_name: XSU.F2XI
+      value: 0.08
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHR.F2XI
+    first_pair:
+      row_name: BHR...XI
+      value: -1
+    second_pair:
+      row_name: BF2...XI
+      value: -0.6
+  - name: BHR.F2XI
+    first_pair:
+      row_name: BF2.VOXI
+      value: 1.25
+    second_pair:
+      row_name: BF2.WTXI
+      value: 1
+  - name: BHR.F2XI
+    first_pair:
+      row_name: XSU.F2XI
+      value: 0.083
+    second_pair:
+      row_name: XSL.F2XI
+      value: 2
+  - name: BHR.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BH1.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BP1.F2XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: BGF.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BG1.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: BHF.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BHG.F3XI
+    first_pair:
+      row_name: BHG...XI
+      value: -1
+    second_pair:
+      row_name: BF3...XI
+      value: -0.0484
+  - name: BHG.F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: 0.95147
+    second_pair:
+      row_name: BF3.WTXI
+      value: 1
+  - name: BHG.F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: 0.2
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHH.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BHN.F3XI
+    first_pair:
+      row_name: BHN...XI
+      value: -1
+    second_pair:
+      row_name: BF3...XI
+      value: -0.0007
+  - name: BHN.F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: 0.998
+    second_pair:
+      row_name: BF3.WTXI
+      value: 1
+  - name: BHN.F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: 0.08
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHP.F3XI
+    first_pair:
+      row_name: BHP...XI
+      value: -1
+    second_pair:
+      row_name: BF3...XI
+      value: -0.6
+  - name: BHP.F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: 0.83333
+    second_pair:
+      row_name: BF3.WTXI
+      value: 1
+  - name: BHP.F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: 0.083
+    second_pair:
+      row_name: XSL.F3XI
+      value: 3
+  - name: BHP.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BHR.F3XI
+    first_pair:
+      row_name: BHR...XI
+      value: -1
+    second_pair:
+      row_name: BF3...XI
+      value: -0.6
+  - name: BHR.F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: 1.25
+    second_pair:
+      row_name: BF3.WTXI
+      value: 1
+  - name: BHR.F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: 0.083
+    second_pair:
+      row_name: XSL.F3XI
+      value: 2
+  - name: BHR.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BH1.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BP1.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: BSB.F3XI
+    first_pair:
+      row_name: BSB...XI
+      value: -1
+    second_pair:
+      row_name: BF3...XI
+      value: -0.1471
+  - name: BSB.F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: 0.83963
+    second_pair:
+      row_name: BF3.WTXI
+      value: 1
+  - name: BSB.F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: 1.3
+    second_pair:
+      row_name: XSL.F3XI
+      value: 0.73
+  - name: BSB.F3XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BDC.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BDF.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BDH.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BD1.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BGF.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BG1.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: BHF.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.812
+    second_pair: ~
+  - name: BHG.F4XI
+    first_pair:
+      row_name: BHG...XI
+      value: -1
+    second_pair:
+      row_name: BF4...XI
+      value: -0.0484
+  - name: BHG.F4XI
+    first_pair:
+      row_name: BF4.VOXI
+      value: 0.95147
+    second_pair:
+      row_name: BF4.WTXI
+      value: 1
+  - name: BHG.F4XI
+    first_pair:
+      row_name: XSU.F4XI
+      value: 0.2
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHH.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BHN.F4XI
+    first_pair:
+      row_name: BHN...XI
+      value: -1
+    second_pair:
+      row_name: BF4...XI
+      value: -0.0007
+  - name: BHN.F4XI
+    first_pair:
+      row_name: BF4.VOXI
+      value: 0.998
+    second_pair:
+      row_name: BF4.WTXI
+      value: 1
+  - name: BHN.F4XI
+    first_pair:
+      row_name: XSU.F4XI
+      value: 0.08
+    second_pair:
+      row_name: C...FOXI
+      value: -1.5995
+  - name: BHR.F4XI
+    first_pair:
+      row_name: BHR...XI
+      value: -1
+    second_pair:
+      row_name: BF4...XI
+      value: -0.6
+  - name: BHR.F4XI
+    first_pair:
+      row_name: BF4.VOXI
+      value: 1.25
+    second_pair:
+      row_name: BF4.WTXI
+      value: 1
+  - name: BHR.F4XI
+    first_pair:
+      row_name: XSU.F4XI
+      value: 0.083
+    second_pair:
+      row_name: XSL.F4XI
+      value: 2
+  - name: BHR.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BH1.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -1.5995
+    second_pair: ~
+  - name: BP1.F4XI
+    first_pair:
+      row_name: C...FOXI
+      value: -2.3923
+    second_pair: ~
+  - name: DFH...XI
+    first_pair:
+      row_name: BFH...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DFN...XI
+    first_pair:
+      row_name: BFN...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DF1...XI
+    first_pair:
+      row_name: BF1...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DF2...XI
+    first_pair:
+      row_name: BF2...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DF3...XI
+    first_pair:
+      row_name: BF3...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DF4...XI
+    first_pair:
+      row_name: BF4...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DL2...XI
+    first_pair:
+      row_name: BL2...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DL3...XI
+    first_pair:
+      row_name: BL3...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DL4...XI
+    first_pair:
+      row_name: BL4...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DMM...XI
+    first_pair:
+      row_name: BMM...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DMM...XI
+    first_pair:
+      row_name: CTK.MMXI
+      value: -1
+    second_pair: ~
+  - name: DPS...XI
+    first_pair:
+      row_name: BPS...XI
+      value: -1
+    second_pair:
+      row_name: FAT0..J.
+      value: -1
+  - name: DPS...XI
+    first_pair:
+      row_name: CTK.PSXI
+      value: -1
+    second_pair: ~
+  - name: EAR...XI
+    first_pair:
+      row_name: BAR...XI
+      value: 1
+    second_pair:
+      row_name: TIE.MRAR
+      value: 90.9
+  - name: EMR...XI
+    first_pair:
+      row_name: BMR...XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 35.8586
+  - name: EMR...XI
+    first_pair:
+      row_name: TIE.MRAR
+      value: -9.1
+    second_pair: ~
+  - name: IMC...XI
+    first_pair:
+      row_name: CMC...XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.29976
+  - name: IOF.BBXI
+    first_pair:
+      row_name: COF.BBXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.34313
+  - name: IUT.BBXI
+    first_pair:
+      row_name: CUT.BBXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 24.86637
+  - name: IOF.BCXI
+    first_pair:
+      row_name: COF.BCXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.38919
+  - name: IUT.BCXI
+    first_pair:
+      row_name: CUT.BCXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.64336
+  - name: IUT.BDXI
+    first_pair:
+      row_name: CUT.BDXI
+      value: 1
+    second_pair: ~
+  - name: IUT.BFXI
+    first_pair:
+      row_name: CUT.BFXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.08031
+  - name: IUT.BGXI
+    first_pair:
+      row_name: CUT.BGXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.25952
+  - name: IOF.BHXI
+    first_pair:
+      row_name: COF.BHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 4.72575
+  - name: IUT.BHXI
+    first_pair:
+      row_name: CUT.BHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 86.86447
+  - name: IOF.CAXI
+    first_pair:
+      row_name: COF.CAXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.57535
+  - name: ION.CGXI
+    first_pair:
+      row_name: CON.CGXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 10.71777
+  - name: IUT.CTXI
+    first_pair:
+      row_name: CUT.CTXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.01064
+  - name: ION.CUXI
+    first_pair:
+      row_name: CON.CUXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 11.32657
+  - name: ION.CXXI
+    first_pair:
+      row_name: CON.CXXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.78087
+  - name: ITK.CXXI
+    first_pair:
+      row_name: CTK.CXXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.01103
+  - name: ITK.C3XI
+    first_pair:
+      row_name: CTK.C3XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 35.83179
+  - name: ITK.C4XI
+    first_pair:
+      row_name: CTK.C4XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 8.10093
+  - name: ION.DHXI
+    first_pair:
+      row_name: CON.DHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.69067
+  - name: IUT.DHXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.61058
+  - name: IUT.DLXI
+    first_pair:
+      row_name: CUT.DLXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.24091
+  - name: ITK.DPXI
+    first_pair:
+      row_name: CTK.DPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 52.42278
+  - name: IUT.DPXI
+    first_pair:
+      row_name: CUT.DPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.79887
+  - name: IUT.DSXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.24711
+  - name: ION.FDXI
+    first_pair:
+      row_name: CON.FDXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.05802
+  - name: ION.FGXI
+    first_pair:
+      row_name: CON.FGXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.28247
+  - name: ION.FHXI
+    first_pair:
+      row_name: CON.FHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.75445
+  - name: ION.FNXI
+    first_pair:
+      row_name: CON.FNXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.54625
+  - name: ITK.FOXI
+    first_pair:
+      row_name: CTK.FOXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.52736
+  - name: ION.F1XI
+    first_pair:
+      row_name: CON.F1XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 40.54475
+  - name: ION.F2XI
+    first_pair:
+      row_name: CON.F2XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 32.44673
+  - name: IUT.GTXI
+    first_pair:
+      row_name: CUT.GTXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 13.81608
+  - name: ION.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 335.35492
+  - name: IOF.HOXI
+    first_pair:
+      row_name: COF.HOXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.66444
+  - name: ION.HOXI
+    first_pair:
+      row_name: CON.HOXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 19.59433
+  - name: ITK.HOXI
+    first_pair:
+      row_name: CTK.HOXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.19963
+  - name: ION.HPXI
+    first_pair:
+      row_name: CON.HPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 146.6683
+  - name: ITK.HPXI
+    first_pair:
+      row_name: CTK.HPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.19412
+  - name: IOF.HSXI
+    first_pair:
+      row_name: COF.HSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.4855
+  - name: ION.HSXI
+    first_pair:
+      row_name: CON.HSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 29.9668
+  - name: ITK.HSXI
+    first_pair:
+      row_name: CTK.HSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.18299
+  - name: ION.HYXI
+    first_pair:
+      row_name: CON.HYXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 8.56792
+  - name: IUT.KWXI
+    first_pair:
+      row_name: CUT.KWXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.00303
+  - name: ION.LEXI
+    first_pair:
+      row_name: CON.LEXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.64005
+  - name: ITK.LEXI
+    first_pair:
+      row_name: CTK.LEXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.68779
+  - name: ION.L1XI
+    first_pair:
+      row_name: CON.L1XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 4.25757
+  - name: ITK.MMXI
+    first_pair:
+      row_name: CTK.MMXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 36.70052
+  - name: ION.M1XI
+    first_pair:
+      row_name: CON.M1XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 7.64337
+  - name: ION.M2XI
+    first_pair:
+      row_name: CON.M2XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 6.19878
+  - name: ION.M3XI
+    first_pair:
+      row_name: CON.M3XI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 4.54615
+  - name: ION.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 10.3509
+  - name: ION.NFXI
+    first_pair:
+      row_name: CON.NFXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.87473
+  - name: ION.NNXI
+    first_pair:
+      row_name: CON.NNXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.69496
+  - name: ION.NPXI
+    first_pair:
+      row_name: CON.NPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 3.83929
+  - name: ION.NRXI
+    first_pair:
+      row_name: CON.NRXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 8.89789
+  - name: ION.NSXI
+    first_pair:
+      row_name: CON.NSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.7243
+  - name: IOF.OFXI
+    first_pair:
+      row_name: COF.OFXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.25224
+  - name: ION.OPXI
+    first_pair:
+      row_name: CON.OPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 5.52621
+  - name: IUT.PDXI
+    first_pair:
+      row_name: CUT.PDXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.12759
+  - name: ION.PHXI
+    first_pair:
+      row_name: CON.PHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.41798
+  - name: ITK.PHXI
+    first_pair:
+      row_name: CTK.PHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.14539
+  - name: IOF.POXI
+    first_pair:
+      row_name: COF.POXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.96767
+  - name: ION.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 7.02784
+  - name: IOF.PPXI
+    first_pair:
+      row_name: COF.PPXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.77973
+  - name: ITK.PSXI
+    first_pair:
+      row_name: CTK.PSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.52005
+  - name: ION.RAXI
+    first_pair:
+      row_name: CON.RAXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 6.72031
+  - name: ITK.RAXI
+    first_pair:
+      row_name: CTK.RAXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.73973
+  - name: IOF.RDXI
+    first_pair:
+      row_name: COF.RDXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.00741
+  - name: ION.RDXI
+    first_pair:
+      row_name: CON.RDXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.60438
+  - name: IUT.RSXI
+    first_pair:
+      row_name: CUT.RSXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.12671
+  - name: IUT.RTXI
+    first_pair:
+      row_name: CUT.RTXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.07221
+  - name: IOF.SFXI
+    first_pair:
+      row_name: COF.SFXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.54999
+  - name: ION.SGXI
+    first_pair:
+      row_name: CON.SGXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.74321
+  - name: IOF.SHXI
+    first_pair:
+      row_name: COF.SHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.00907
+  - name: ION.SHXI
+    first_pair:
+      row_name: CON.SHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 1.62408
+  - name: ITK.SHXI
+    first_pair:
+      row_name: CTK.SHXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.27641
+  - name: IOF.SKXI
+    first_pair:
+      row_name: COF.SKXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.20275
+  - name: ION.SKXI
+    first_pair:
+      row_name: CON.SKXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 21.07328
+  - name: ION.STXI
+    first_pair:
+      row_name: CON.STXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 52.06134
+  - name: ITK.STXI
+    first_pair:
+      row_name: CTK.STXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 2.13127
+  - name: ION.SWXI
+    first_pair:
+      row_name: CON.SWXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.21951
+  - name: IOF.TAXI
+    first_pair:
+      row_name: COF.TAXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.37688
+  - name: IUT.TGXI
+    first_pair:
+      row_name: CUT.TGXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.00408
+  - name: IUT.TWXI
+    first_pair:
+      row_name: CUT.TWXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.00031
+  - name: IOF.WTXI
+    first_pair:
+      row_name: COF.WTXI
+      value: 1
+    second_pair:
+      row_name: FAT0..J.
+      value: 0.94443
+  - name: KLQ.PRXI
+    first_pair:
+      row_name: KLQ.PRXI
+      value: 1
+    second_pair: ~
+  - name: MFG.FFXI
+    first_pair:
+      row_name: BFF...XI
+      value: 1
+    second_pair:
+      row_name: BFG...XI
+      value: -1
+  - name: MFI.FFXI
+    first_pair:
+      row_name: BFF...XI
+      value: 1
+    second_pair:
+      row_name: BFI...XI
+      value: -1
+  - name: MBT.FGXI
+    first_pair:
+      row_name: BBT...XI
+      value: -1
+    second_pair:
+      row_name: BFG...XI
+      value: 1.1391
+  - name: MBT.FGXI
+    first_pair:
+      row_name: CUT.DPXI
+      value: -1
+    second_pair:
+      row_name: CTK.DPXI
+      value: -0.25
+  - name: MBT.FGXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.3422
+    second_pair: ~
+  - name: MFX.FGXI
+    first_pair:
+      row_name: BFX...XI
+      value: -1
+    second_pair:
+      row_name: BFG...XI
+      value: 0.9
+  - name: MFX.FGXI
+    first_pair:
+      row_name: BFS...XI
+      value: 0.1
+    second_pair:
+      row_name: CUT.DLXI
+      value: -1
+  - name: MFX.FGXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: -0.146
+    second_pair: ~
+  - name: MHB.FGXI
+    first_pair:
+      row_name: BHB...XI
+      value: -1
+    second_pair:
+      row_name: BFG...XI
+      value: 1.227
+  - name: MHB.FGXI
+    first_pair:
+      row_name: CON.DHXI
+      value: -1
+    second_pair:
+      row_name: CUT.DHXI
+      value: -1
+  - name: MHB.FGXI
+    first_pair:
+      row_name: UCW...XI
+      value: -0.4618
+    second_pair:
+      row_name: UKW...XI
+      value: -0.5549
+  - name: MHB.FGXI
+    first_pair:
+      row_name: UTW...XI
+      value: -73.333
+    second_pair: ~
+  - name: MPR.FGXI
+    first_pair:
+      row_name: BPR...XI
+      value: -1
+    second_pair:
+      row_name: BFG...XI
+      value: 1.1546
+  - name: MPR.FGXI
+    first_pair:
+      row_name: CUT.DPXI
+      value: -1
+    second_pair:
+      row_name: CTK.DPXI
+      value: -1
+  - name: MPR.FGXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.3422
+    second_pair: ~
+  - name: MIF.FIXI
+    first_pair:
+      row_name: CUT.DLXI
+      value: -0.5
+    second_pair:
+      row_name: CUT.DHXI
+      value: -0.146
+  - name: MIF.FIXI
+    first_pair:
+      row_name: BIF...XI
+      value: -1
+    second_pair:
+      row_name: BFI...XI
+      value: 1
+  - name: MIL.FIXI
+    first_pair:
+      row_name: CUT.DLXI
+      value: -0.5
+    second_pair:
+      row_name: CUT.DHXI
+      value: -0.146
+  - name: MIL.FIXI
+    first_pair:
+      row_name: BIL...XI
+      value: -1
+    second_pair:
+      row_name: BFI...XI
+      value: 1
+  - name: MIP.FIXI
+    first_pair:
+      row_name: CUT.DLXI
+      value: -0.5
+    second_pair:
+      row_name: CUT.DHXI
+      value: -0.146
+  - name: MIP.FIXI
+    first_pair:
+      row_name: BIP...XI
+      value: -1
+    second_pair:
+      row_name: BFI...XI
+      value: 1
+  - name: MIS.FIXI
+    first_pair:
+      row_name: CUT.DLXI
+      value: -0.5
+    second_pair:
+      row_name: CUT.DHXI
+      value: -0.146
+  - name: MIS.FIXI
+    first_pair:
+      row_name: BIS...XI
+      value: -1
+    second_pair:
+      row_name: BFI...XI
+      value: 1
+  - name: MC2.FPXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: -1
+    second_pair:
+      row_name: BC2...XI
+      value: -1
+  - name: MC2.FPXI
+    first_pair:
+      row_name: BFP...XI
+      value: 1.227
+    second_pair: ~
+  - name: MC3.FPXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: -1
+    second_pair:
+      row_name: BC3...XI
+      value: -1
+  - name: MC3.FPXI
+    first_pair:
+      row_name: BFP...XI
+      value: 1.1546
+    second_pair: ~
+  - name: MC4.FPXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: -1
+    second_pair:
+      row_name: BC4...XI
+      value: -1
+  - name: MC4.FPXI
+    first_pair:
+      row_name: BFP...XI
+      value: 1.1391
+    second_pair: ~
+  - name: M6H.FPXI
+    first_pair:
+      row_name: CUT.DHXI
+      value: -1
+    second_pair:
+      row_name: B6H...XI
+      value: -1
+  - name: M6H.FPXI
+    first_pair:
+      row_name: BFP...XI
+      value: 2.9916
+    second_pair: ~
+  - name: MFG.FSXI
+    first_pair:
+      row_name: BFS...XI
+      value: 1
+    second_pair:
+      row_name: BFG...XI
+      value: -1
+  - name: MFI.FSXI
+    first_pair:
+      row_name: BFS...XI
+      value: 1
+    second_pair:
+      row_name: BFI...XI
+      value: -1
+  - name: MH1.G1XI
+    first_pair:
+      row_name: BG1...XI
+      value: 1
+    second_pair:
+      row_name: BH1...XI
+      value: -1
+  - name: MHB.L2XI
+    first_pair:
+      row_name: BHB...XI
+      value: -1
+    second_pair:
+      row_name: BL2...XI
+      value: 1.279
+  - name: MHB.L2XI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.844
+    second_pair:
+      row_name: UTW...XI
+      value: -243.687
+  - name: MHB.L2XI
+    first_pair:
+      row_name: UCW...XI
+      value: -1.534
+    second_pair:
+      row_name: CON.SGXI
+      value: -1
+  - name: MPR.L3XI
+    first_pair:
+      row_name: BPR...XI
+      value: -1
+    second_pair:
+      row_name: BL3...XI
+      value: 1.1833
+  - name: MPR.L3XI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.309
+    second_pair:
+      row_name: CTK.C3XI
+      value: -1
+  - name: MBT.L4XI
+    first_pair:
+      row_name: BBT...XI
+      value: -1
+    second_pair:
+      row_name: BL4...XI
+      value: 1.164
+  - name: MBT.L4XI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.527
+    second_pair:
+      row_name: CTK.C4XI
+      value: -1
+  - name: PAD.BCXI
+    first_pair:
+      row_name: BAD...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAD.BCXI
+    first_pair:
+      row_name: COF.BCXI
+      value: -26.902
+    second_pair: ~
+  - name: PAN.BCXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAN.BCXI
+    first_pair:
+      row_name: COF.BCXI
+      value: -31.677
+    second_pair: ~
+  - name: PAS.BCXI
+    first_pair:
+      row_name: BAS...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAS.BCXI
+    first_pair:
+      row_name: COF.BCXI
+      value: -27.6428
+    second_pair: ~
+  - name: PYD.BCXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.8393
+    second_pair:
+      row_name: UPB...XI
+      value: -11.5607
+  - name: PYD.BCXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.881
+    second_pair:
+      row_name: UPW...XI
+      value: -0.7283
+  - name: PYD.BCXI
+    first_pair:
+      row_name: UPH...XI
+      value: 11.5607
+    second_pair:
+      row_name: UKW...XI
+      value: -111.45
+  - name: PYD.BCXI
+    first_pair:
+      row_name: BYD...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 0.1394
+  - name: PYD.BCXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0876
+    second_pair:
+      row_name: COF.BCXI
+      value: -5.9552
+  - name: PYD.BCXI
+    first_pair:
+      row_name: CUT.BCXI
+      value: -13.544
+    second_pair: ~
+  - name: PYN.BCXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.8393
+    second_pair:
+      row_name: UPB...XI
+      value: -11.4943
+  - name: PYN.BCXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.97
+    second_pair:
+      row_name: UPW...XI
+      value: -0.7628
+  - name: PYN.BCXI
+    first_pair:
+      row_name: UPH...XI
+      value: 11.4943
+    second_pair:
+      row_name: UKW...XI
+      value: -111.45
+  - name: PYN.BCXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 0.146
+  - name: PYN.BCXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.09175
+    second_pair:
+      row_name: COF.BCXI
+      value: -5.921
+  - name: PYN.BCXI
+    first_pair:
+      row_name: CUT.BCXI
+      value: -13.466
+    second_pair: ~
+  - name: PYS.BCXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.2127
+    second_pair:
+      row_name: UPB...XI
+      value: -11.5607
+  - name: PYS.BCXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.881
+    second_pair:
+      row_name: UPW...XI
+      value: -0.7283
+  - name: PYS.BCXI
+    first_pair:
+      row_name: UPH...XI
+      value: 11.5607
+    second_pair:
+      row_name: UKW...XI
+      value: -124.2
+  - name: PYS.BCXI
+    first_pair:
+      row_name: BYS...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 0.1394
+  - name: PYS.BCXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0876
+    second_pair:
+      row_name: COF.BCXI
+      value: -16.8522
+  - name: PYS.BCXI
+    first_pair:
+      row_name: CUT.BCXI
+      value: -13.544
+    second_pair: ~
+  - name: PFS.BGXI
+    first_pair:
+      row_name: UFS...XI
+      value: -1
+    second_pair:
+      row_name: UKW...XI
+      value: -118.106
+  - name: PFS.BGXI
+    first_pair:
+      row_name: UPB...XI
+      value: -12.0337
+    second_pair:
+      row_name: UPH...XI
+      value: 12.0337
+  - name: PFS.BGXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.7858
+    second_pair:
+      row_name: CUT.BGXI
+      value: -13.2371
+  - name: PAD.BHXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: COF.BHXI
+      value: -1.0795
+  - name: PAD.BHXI
+    first_pair:
+      row_name: BAD...XI
+      value: -1
+    second_pair: ~
+  - name: PAN.BHXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAN.BHXI
+    first_pair:
+      row_name: COF.BHXI
+      value: -1.2711
+    second_pair: ~
+  - name: PAS.BHXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: COF.BHXI
+      value: -1.1619
+  - name: PAS.BHXI
+    first_pair:
+      row_name: BAS...XI
+      value: -1
+    second_pair: ~
+  - name: PYD.BHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -111.49
+    second_pair:
+      row_name: UPB...XI
+      value: -7.824
+  - name: PYD.BHXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.8399
+    second_pair:
+      row_name: UPH...XI
+      value: 7.824
+  - name: PYD.BHXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.6047
+    second_pair:
+      row_name: UMC...XI
+      value: -1.559
+  - name: PYD.BHXI
+    first_pair:
+      row_name: UHE...XI
+      value: 0.2455
+    second_pair:
+      row_name: BCE...XI
+      value: 0.13553
+  - name: PYD.BHXI
+    first_pair:
+      row_name: CUT.BHXI
+      value: -0.24552
+    second_pair:
+      row_name: COF.BHXI
+      value: -0.24552
+  - name: PYD.BHXI
+    first_pair:
+      row_name: BYD...XI
+      value: -1
+    second_pair: ~
+  - name: PYN.BHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -110.867
+    second_pair:
+      row_name: UPB...XI
+      value: -7.78
+  - name: PYN.BHXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.8352
+    second_pair:
+      row_name: UPH...XI
+      value: 7.78
+  - name: PYN.BHXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.60132
+    second_pair:
+      row_name: UMC...XI
+      value: -1.9716
+  - name: PYN.BHXI
+    first_pair:
+      row_name: UHE...XI
+      value: 0.2441
+    second_pair:
+      row_name: BYN...XI
+      value: -1
+  - name: PYN.BHXI
+    first_pair:
+      row_name: BCE...XI
+      value: 0.14551
+    second_pair:
+      row_name: CUT.BHXI
+      value: -0.2441
+  - name: PYN.BHXI
+    first_pair:
+      row_name: COF.BHXI
+      value: -0.2441
+    second_pair: ~
+  - name: PYS.BHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -123.229
+    second_pair:
+      row_name: UPB...XI
+      value: -7.824
+  - name: PYS.BHXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.2126
+    second_pair:
+      row_name: UPH...XI
+      value: 7.824
+  - name: PYS.BHXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.6047
+    second_pair:
+      row_name: UMC...XI
+      value: -1.559
+  - name: PYS.BHXI
+    first_pair:
+      row_name: UHE...XI
+      value: 0.2455
+    second_pair:
+      row_name: BCE...XI
+      value: 0.13553
+  - name: PYS.BHXI
+    first_pair:
+      row_name: CUT.BHXI
+      value: -0.24552
+    second_pair:
+      row_name: COF.BHXI
+      value: -0.6624
+  - name: PYS.BHXI
+    first_pair:
+      row_name: BYS...XI
+      value: -1
+    second_pair: ~
+  - name: PCC.CGXI
+    first_pair:
+      row_name: UKW...XI
+      value: -2
+    second_pair:
+      row_name: UTW...XI
+      value: -230.7
+  - name: PCC.CGXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.72
+    second_pair:
+      row_name: UOM...XI
+      value: 2.169
+  - name: PCC.CGXI
+    first_pair:
+      row_name: UBW...XI
+      value: -2.169
+    second_pair:
+      row_name: UCW...XI
+      value: -26.7
+  - name: PCC.CGXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.68
+    second_pair:
+      row_name: UFF...XI
+      value: -0.0262
+  - name: PCC.CGXI
+    first_pair:
+      row_name: BFX...XI
+      value: 0.661
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0723
+  - name: PCC.CGXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.5
+    second_pair:
+      row_name: BHS...XI
+      value: 0.0029
+  - name: PCC.CGXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0046
+    second_pair:
+      row_name: C...STXI
+      value: -0.0723
+  - name: PCC.CGXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0046
+    second_pair:
+      row_name: CON.CGXI
+      value: -1.113
+  - name: PCC.CGXI
+    first_pair:
+      row_name: BCC...XI
+      value: -1
+    second_pair: ~
+  - name: PCF.CGXI
+    first_pair:
+      row_name: UKW...XI
+      value: -2
+    second_pair:
+      row_name: UTW...XI
+      value: -214.7
+  - name: PCF.CGXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.685
+    second_pair:
+      row_name: UOM...XI
+      value: 2.095
+  - name: PCF.CGXI
+    first_pair:
+      row_name: UBW...XI
+      value: -2.095
+    second_pair:
+      row_name: UCW...XI
+      value: -25.8
+  - name: PCF.CGXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.68
+    second_pair:
+      row_name: UFF...XI
+      value: -0.0253
+  - name: PCF.CGXI
+    first_pair:
+      row_name: BFX...XI
+      value: 0.672
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0547
+  - name: PCF.CGXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.5
+    second_pair:
+      row_name: BCF...XI
+      value: -1
+  - name: PCF.CGXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0029
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0046
+  - name: PCF.CGXI
+    first_pair:
+      row_name: C...STXI
+      value: -0.0547
+    second_pair:
+      row_name: C...RAXI
+      value: -0.0046
+  - name: PCF.CGXI
+    first_pair:
+      row_name: CON.CGXI
+      value: -1.0912
+    second_pair: ~
+  - name: PCK.CGXI
+    first_pair:
+      row_name: UKW...XI
+      value: -10.525
+    second_pair:
+      row_name: UTW...XI
+      value: -253.15
+  - name: PCK.CGXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.32
+    second_pair:
+      row_name: UOL...XI
+      value: 1.615
+  - name: PCK.CGXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.615
+    second_pair:
+      row_name: UCW...XI
+      value: -14.9
+  - name: PCK.CGXI
+    first_pair:
+      row_name: UDW...XI
+      value: -0.33
+    second_pair:
+      row_name: BCK...XI
+      value: -1
+  - name: PCK.CGXI
+    first_pair:
+      row_name: BFX...XI
+      value: 0.663
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0325
+  - name: PCK.CGXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.17
+    second_pair:
+      row_name: BHS...XI
+      value: 0.002
+  - name: PCK.CGXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0015
+    second_pair:
+      row_name: C...STXI
+      value: -0.0325
+  - name: PCK.CGXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0015
+    second_pair:
+      row_name: CON.CGXI
+      value: -1
+  - name: PAN.COXI
+    first_pair:
+      row_name: UKW...XI
+      value: -12.91
+    second_pair:
+      row_name: USM...XI
+      value: -0.1975
+  - name: PAN.COXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.1544
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0996
+  - name: PAN.COXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0996
+    second_pair:
+      row_name: UCW...XI
+      value: -1.3053
+  - name: PAN.COXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair:
+      row_name: BCK...XI
+      value: -0.5
+  - name: PAN.COXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.1289
+    second_pair:
+      row_name: BCE...XI
+      value: 1.5
+  - name: PAN.COXI
+    first_pair:
+      row_name: CON.CXXI
+      value: -1
+    second_pair:
+      row_name: CTK.CXXI
+      value: -1
+  - name: PAN.COXI
+    first_pair:
+      row_name: COF.CAXI
+      value: -1.5
+    second_pair: ~
+  - name: PYN.COXI
+    first_pair:
+      row_name: UKW...XI
+      value: -12.91
+    second_pair:
+      row_name: USM...XI
+      value: -0.1975
+  - name: PYN.COXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.1544
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0996
+  - name: PYN.COXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0996
+    second_pair:
+      row_name: UCW...XI
+      value: -1.3053
+  - name: PYN.COXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0366
+  - name: PYN.COXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.0038
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0015
+  - name: PYN.COXI
+    first_pair:
+      row_name: BNF...XI
+      value: 0.0057
+    second_pair:
+      row_name: BDF...XI
+      value: 0.0223
+  - name: PYN.COXI
+    first_pair:
+      row_name: BHF...XI
+      value: 0.0394
+    second_pair:
+      row_name: BGF...XI
+      value: 0.0735
+  - name: PYN.COXI
+    first_pair:
+      row_name: BSB...XI
+      value: 0.1533
+    second_pair:
+      row_name: BCK...XI
+      value: 0.6529
+  - name: PYN.COXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0023
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0011
+  - name: PYN.COXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.1289
+    second_pair:
+      row_name: B6H...XI
+      value: 0.0045
+  - name: PYN.COXI
+    first_pair:
+      row_name: C...LEXI
+      value: -0.011
+    second_pair:
+      row_name: C...RAXI
+      value: -0.0011
+  - name: PYN.COXI
+    first_pair:
+      row_name: CON.CXXI
+      value: -1
+    second_pair:
+      row_name: CTK.CXXI
+      value: -1
+  - name: PYN.COXI
+    first_pair:
+      row_name: C...RDXI
+      value: -0.0519
+    second_pair: ~
+  - name: PAN.CRXI
+    first_pair:
+      row_name: UKW...XI
+      value: -12.91
+    second_pair:
+      row_name: USM...XI
+      value: -0.223
+  - name: PAN.CRXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.1544
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0996
+  - name: PAN.CRXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0996
+    second_pair:
+      row_name: UCW...XI
+      value: -1.4738
+  - name: PAN.CRXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair:
+      row_name: BCK...XI
+      value: -0.5
+  - name: PAN.CRXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.1917
+    second_pair:
+      row_name: BCE...XI
+      value: 1.5
+  - name: PAN.CRXI
+    first_pair:
+      row_name: CON.CXXI
+      value: -1.037
+    second_pair:
+      row_name: CTK.CXXI
+      value: -1
+  - name: PAN.CRXI
+    first_pair:
+      row_name: COF.CAXI
+      value: -1.5
+    second_pair: ~
+  - name: PYN.CRXI
+    first_pair:
+      row_name: UKW...XI
+      value: -12.91
+    second_pair:
+      row_name: USM...XI
+      value: -0.223
+  - name: PYN.CRXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.1544
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0996
+  - name: PYN.CRXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0996
+    second_pair:
+      row_name: UCW...XI
+      value: -1.4738
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0437
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.0045
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0015
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BNF...XI
+      value: 0.0063
+    second_pair:
+      row_name: BDF...XI
+      value: 0.025
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BHF...XI
+      value: 0.0441
+    second_pair:
+      row_name: BGF...XI
+      value: 0.0826
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BCK...XI
+      value: 0.7861
+    second_pair:
+      row_name: BHS...XI
+      value: 0.0023
+  - name: PYN.CRXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0011
+    second_pair:
+      row_name: BWS...XI
+      value: 0.1917
+  - name: PYN.CRXI
+    first_pair:
+      row_name: B6H...XI
+      value: 0.0055
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0123
+  - name: PYN.CRXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0011
+    second_pair:
+      row_name: C...RDXI
+      value: -0.0519
+  - name: PYN.CRXI
+    first_pair:
+      row_name: CON.CXXI
+      value: -1.037
+    second_pair:
+      row_name: CTK.CXXI
+      value: -1
+  - name: PHS.CUXI
+    first_pair:
+      row_name: UKW...XI
+      value: -88.454
+    second_pair:
+      row_name: UBW...XI
+      value: -3.17
+  - name: PHS.CUXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.061
+    second_pair:
+      row_name: UOL...XI
+      value: 3.17
+  - name: PHS.CUXI
+    first_pair:
+      row_name: BHS...XI
+      value: -1.064
+    second_pair:
+      row_name: BPS...XI
+      value: 1
+  - name: PHS.CUXI
+    first_pair:
+      row_name: C...STXI
+      value: -0.05
+    second_pair:
+      row_name: CON.CUXI
+      value: -1
+  - name: PAB.FGXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0944
+    second_pair:
+      row_name: UCW...XI
+      value: -1.1371
+  - name: PAB.FGXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0025
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0944
+  - name: PAB.FGXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.0126
+    second_pair:
+      row_name: UKW...XI
+      value: -5.9631
+  - name: PAB.FGXI
+    first_pair:
+      row_name: BAB...XI
+      value: -1
+    second_pair:
+      row_name: BG1...XI
+      value: -0.0245
+  - name: PAB.FGXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0076
+    second_pair:
+      row_name: BYG...XI
+      value: 0.0245
+  - name: PAB.FGXI
+    first_pair:
+      row_name: BAG...XI
+      value: 1
+    second_pair:
+      row_name: CON.FGXI
+      value: -1
+  - name: PPX.FGXI
+    first_pair:
+      row_name: UBW...XI
+      value: -0.0944
+    second_pair:
+      row_name: UCW...XI
+      value: -1.1371
+  - name: PPX.FGXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0025
+    second_pair:
+      row_name: UOL...XI
+      value: 0.0944
+  - name: PPX.FGXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.0126
+    second_pair:
+      row_name: UKW...XI
+      value: -5.9631
+  - name: PPX.FGXI
+    first_pair:
+      row_name: BG1...XI
+      value: -0.0245
+    second_pair:
+      row_name: BPX...XI
+      value: -1
+  - name: PPX.FGXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0076
+    second_pair:
+      row_name: BYG...XI
+      value: 1.0245
+  - name: PPX.FGXI
+    first_pair:
+      row_name: CON.FGXI
+      value: -1
+    second_pair:
+      row_name: KFG.PRXI
+      value: -1
+  - name: P...FOXI
+    first_pair:
+      row_name: USM...XI
+      value: -0.003
+    second_pair:
+      row_name: USL...XI
+      value: -0.0136
+  - name: P...FOXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.0006
+    second_pair:
+      row_name: C...FOXI
+      value: 1
+  - name: P...FOXI
+    first_pair:
+      row_name: CTK.FOXI
+      value: -1
+    second_pair: ~
+  - name: P...F1XI
+    first_pair:
+      row_name: UKW...XI
+      value: -27.8678
+    second_pair:
+      row_name: UFF...XI
+      value: -1.1224
+  - name: P...F1XI
+    first_pair:
+      row_name: UHE...XI
+      value: 1
+    second_pair:
+      row_name: CON.F1XI
+      value: -1
+  - name: PAD.GXXI
+    first_pair:
+      row_name: BAD...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: PAG.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair:
+      row_name: BAG...XI
+      value: -1
+  - name: PAH.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair:
+      row_name: BAH...XI
+      value: -1
+  - name: PAN.GXXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: PYD.GXXI
+    first_pair:
+      row_name: BYD...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: PYG.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair:
+      row_name: BYG...XI
+      value: -1
+  - name: PYH.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair:
+      row_name: BYH...XI
+      value: -1
+  - name: PYN.GXXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: PAD.HOXI
+    first_pair:
+      row_name: BAD...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAD.HOXI
+    first_pair:
+      row_name: CON.HOXI
+      value: -1
+    second_pair:
+      row_name: COF.HOXI
+      value: -1
+  - name: PAD.HOXI
+    first_pair:
+      row_name: CTK.HOXI
+      value: -1
+    second_pair: ~
+  - name: PAN.HOXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: CON.HOXI
+      value: -1.02188
+  - name: PAN.HOXI
+    first_pair:
+      row_name: COF.HOXI
+      value: -1.0162
+    second_pair:
+      row_name: CTK.HOXI
+      value: -1.0094
+  - name: PAN.HOXI
+    first_pair:
+      row_name: BAN...XI
+      value: -1
+    second_pair: ~
+  - name: PYD.HOXI
+    first_pair:
+      row_name: UKW...XI
+      value: -152
+    second_pair:
+      row_name: UTW...XI
+      value: -247.1
+  - name: PYD.HOXI
+    first_pair:
+      row_name: UCW...XI
+      value: -20.92
+    second_pair:
+      row_name: UDW...XI
+      value: -2.184
+  - name: PYD.HOXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.23
+    second_pair:
+      row_name: UMC...XI
+      value: -1.15
+  - name: PYD.HOXI
+    first_pair:
+      row_name: BYD...XI
+      value: -1
+    second_pair:
+      row_name: BG1...XI
+      value: -0.0251
+  - name: PYD.HOXI
+    first_pair:
+      row_name: BO2...XI
+      value: -1.0127
+    second_pair:
+      row_name: B9H...XI
+      value: 0.2082
+  - name: PYD.HOXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.031
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0217
+  - name: PYD.HOXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.5268
+    second_pair:
+      row_name: BCE...XI
+      value: 0.01
+  - name: PYD.HOXI
+    first_pair:
+      row_name: CON.HOXI
+      value: -1
+    second_pair:
+      row_name: COF.HOXI
+      value: -1
+  - name: PYD.HOXI
+    first_pair:
+      row_name: CTK.HOXI
+      value: -1
+    second_pair: ~
+  - name: PYN.HOXI
+    first_pair:
+      row_name: UKW...XI
+      value: -152
+    second_pair:
+      row_name: UTW...XI
+      value: -247.1
+  - name: PYN.HOXI
+    first_pair:
+      row_name: UCW...XI
+      value: -20.92
+    second_pair:
+      row_name: UDW...XI
+      value: -2.184
+  - name: PYN.HOXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.23
+    second_pair:
+      row_name: UMC...XI
+      value: -1.15
+  - name: PYN.HOXI
+    first_pair:
+      row_name: BG1...XI
+      value: -0.0251
+    second_pair:
+      row_name: BO2...XI
+      value: -1.0127
+  - name: PYN.HOXI
+    first_pair:
+      row_name: B9H...XI
+      value: 0.2097
+    second_pair:
+      row_name: BHB...XI
+      value: 0.031
+  - name: PYN.HOXI
+    first_pair:
+      row_name: BPS...XI
+      value: 0.0202
+    second_pair:
+      row_name: BWS...XI
+      value: 0.5268
+  - name: PYN.HOXI
+    first_pair:
+      row_name: BCE...XI
+      value: 0.01
+    second_pair:
+      row_name: CON.HOXI
+      value: -1.02188
+  - name: PYN.HOXI
+    first_pair:
+      row_name: COF.HOXI
+      value: -1.0162
+    second_pair:
+      row_name: CTK.HOXI
+      value: -1.0094
+  - name: PYN.HOXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair: ~
+  - name: PAC.HSXI
+    first_pair:
+      row_name: BAC...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAC.HSXI
+    first_pair:
+      row_name: CON.HSXI
+      value: -1
+    second_pair:
+      row_name: COF.HSXI
+      value: -1
+  - name: PAC.HSXI
+    first_pair:
+      row_name: CTK.HSXI
+      value: -1
+    second_pair: ~
+  - name: PAF.HSXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: CON.HSXI
+      value: -0.9
+  - name: PAF.HSXI
+    first_pair:
+      row_name: COF.HSXI
+      value: -1.81
+    second_pair:
+      row_name: CTK.HSXI
+      value: -1
+  - name: PAF.HSXI
+    first_pair:
+      row_name: BAF...XI
+      value: -1
+    second_pair: ~
+  - name: PAY.HSXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: CON.HSXI
+      value: -0.9
+  - name: PAY.HSXI
+    first_pair:
+      row_name: COF.HSXI
+      value: -2.14
+    second_pair:
+      row_name: CTK.HSXI
+      value: -1
+  - name: PAY.HSXI
+    first_pair:
+      row_name: BAY...XI
+      value: -1
+    second_pair: ~
+  - name: PIC.HSXI
+    first_pair:
+      row_name: UKW...XI
+      value: -176.9
+    second_pair:
+      row_name: UTW...XI
+      value: -231.1
+  - name: PIC.HSXI
+    first_pair:
+      row_name: UCW...XI
+      value: -15.85
+    second_pair:
+      row_name: UDW...XI
+      value: -1.733
+  - name: PIC.HSXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.053
+    second_pair:
+      row_name: UMC...XI
+      value: -1.15
+  - name: PIC.HSXI
+    first_pair:
+      row_name: BIC...XI
+      value: -1
+    second_pair:
+      row_name: BO2...XI
+      value: -0.7955
+  - name: PIC.HSXI
+    first_pair:
+      row_name: B9H...XI
+      value: 0.1715
+    second_pair:
+      row_name: BHB...XI
+      value: 0.0376
+  - name: PIC.HSXI
+    first_pair:
+      row_name: BPS...XI
+      value: 0.0487
+    second_pair:
+      row_name: BWS...XI
+      value: 0.5268
+  - name: PIC.HSXI
+    first_pair:
+      row_name: BCE...XI
+      value: 0.026
+    second_pair:
+      row_name: CON.HSXI
+      value: -1
+  - name: PIC.HSXI
+    first_pair:
+      row_name: COF.HSXI
+      value: -1
+    second_pair:
+      row_name: CTK.HSXI
+      value: -1
+  - name: PYF.HSXI
+    first_pair:
+      row_name: UKW...XI
+      value: -176.9
+    second_pair:
+      row_name: UTW...XI
+      value: -231.1
+  - name: PYF.HSXI
+    first_pair:
+      row_name: UCW...XI
+      value: -15.85
+    second_pair:
+      row_name: UDW...XI
+      value: -1.733
+  - name: PYF.HSXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.053
+    second_pair:
+      row_name: UMC...XI
+      value: -1.15
+  - name: PYF.HSXI
+    first_pair:
+      row_name: BO2...XI
+      value: -1
+    second_pair:
+      row_name: B9H...XI
+      value: 0.2
+  - name: PYF.HSXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.0376
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0316
+  - name: PYF.HSXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.5268
+    second_pair:
+      row_name: BCE...XI
+      value: 0.026
+  - name: PYF.HSXI
+    first_pair:
+      row_name: CON.HSXI
+      value: -0.9
+    second_pair:
+      row_name: COF.HSXI
+      value: -1.81
+  - name: PYF.HSXI
+    first_pair:
+      row_name: CTK.HSXI
+      value: -1
+    second_pair:
+      row_name: BYF...XI
+      value: -1
+  - name: PYY.HSXI
+    first_pair:
+      row_name: UKW...XI
+      value: -176.9
+    second_pair:
+      row_name: UTW...XI
+      value: -231.1
+  - name: PYY.HSXI
+    first_pair:
+      row_name: UCW...XI
+      value: -15.85
+    second_pair:
+      row_name: UDW...XI
+      value: -1.733
+  - name: PYY.HSXI
+    first_pair:
+      row_name: USL...XI
+      value: -1.053
+    second_pair:
+      row_name: UMC...XI
+      value: -1.15
+  - name: PYY.HSXI
+    first_pair:
+      row_name: BO2...XI
+      value: -1
+    second_pair:
+      row_name: B9H...XI
+      value: 0.2
+  - name: PYY.HSXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.0376
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0403
+  - name: PYY.HSXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.5268
+    second_pair:
+      row_name: BCE...XI
+      value: 0.026
+  - name: PYY.HSXI
+    first_pair:
+      row_name: CON.HSXI
+      value: -0.9
+    second_pair:
+      row_name: COF.HSXI
+      value: -2.14
+  - name: PYY.HSXI
+    first_pair:
+      row_name: CTK.HSXI
+      value: -1
+    second_pair:
+      row_name: BYY...XI
+      value: -1
+  - name: PC2.HYXI
+    first_pair:
+      row_name: UKW...XI
+      value: -71.7838
+    second_pair:
+      row_name: UTW...XI
+      value: -130.53
+  - name: PC2.HYXI
+    first_pair:
+      row_name: USM...XI
+      value: -0.1065
+    second_pair:
+      row_name: UCW...XI
+      value: -5.867
+  - name: PC2.HYXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.1676
+    second_pair:
+      row_name: BC2...XI
+      value: -1
+  - name: PC2.HYXI
+    first_pair:
+      row_name: BN1...XI
+      value: -0.0158
+    second_pair:
+      row_name: BHB...XI
+      value: 1.0126
+  - name: PC2.HYXI
+    first_pair:
+      row_name: BPR...XI
+      value: 0.0015
+    second_pair:
+      row_name: CON.HYXI
+      value: -1
+  - name: PC3.HYXI
+    first_pair:
+      row_name: UKW...XI
+      value: -225.0204
+    second_pair:
+      row_name: UTW...XI
+      value: -130.53
+  - name: PC3.HYXI
+    first_pair:
+      row_name: USM...XI
+      value: -0.1065
+    second_pair:
+      row_name: UCW...XI
+      value: -5.867
+  - name: PC3.HYXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.1676
+    second_pair:
+      row_name: BC3...XI
+      value: -1
+  - name: PC3.HYXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.1805
+    second_pair:
+      row_name: BPR...XI
+      value: 0.7863
+  - name: PC3.HYXI
+    first_pair:
+      row_name: BBT...XI
+      value: 0.0222
+    second_pair:
+      row_name: CON.HYXI
+      value: -1
+  - name: PC4.HYXI
+    first_pair:
+      row_name: UKW...XI
+      value: -225.0204
+    second_pair:
+      row_name: UTW...XI
+      value: -130.53
+  - name: PC4.HYXI
+    first_pair:
+      row_name: USM...XI
+      value: -0.1065
+    second_pair:
+      row_name: UCW...XI
+      value: -5.867
+  - name: PC4.HYXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.1676
+    second_pair:
+      row_name: BC4...XI
+      value: -1
+  - name: PC4.HYXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.1003
+    second_pair:
+      row_name: BPR...XI
+      value: 0.0335
+  - name: PC4.HYXI
+    first_pair:
+      row_name: BBT...XI
+      value: 0.8223
+    second_pair:
+      row_name: BNH...XI
+      value: 0.0257
+  - name: PC4.HYXI
+    first_pair:
+      row_name: CON.HYXI
+      value: -1
+    second_pair: ~
+  - name: P6H.HYXI
+    first_pair:
+      row_name: UKW...XI
+      value: -76.0552
+    second_pair:
+      row_name: UTW...XI
+      value: -1426.904
+  - name: P6H.HYXI
+    first_pair:
+      row_name: USM...XI
+      value: -0.1065
+    second_pair:
+      row_name: UCW...XI
+      value: -62.674
+  - name: P6H.HYXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.1676
+    second_pair:
+      row_name: B6H...XI
+      value: -1
+  - name: P6H.HYXI
+    first_pair:
+      row_name: B9H...XI
+      value: 0.8703
+    second_pair:
+      row_name: BHB...XI
+      value: 0.0689
+  - name: P6H.HYXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.1828
+    second_pair:
+      row_name: CON.HYXI
+      value: -1
+  - name: P...LEXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.724
+    second_pair:
+      row_name: USM...XI
+      value: -0.2575
+  - name: P...LEXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.0018
+    second_pair:
+      row_name: UCW...XI
+      value: -8.6439
+  - name: P...LEXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0001
+    second_pair:
+      row_name: UMC...XI
+      value: -0.0054
+  - name: P...LEXI
+    first_pair:
+      row_name: C...LEXI
+      value: 1
+    second_pair:
+      row_name: CON.LEXI
+      value: -1
+  - name: P...LEXI
+    first_pair:
+      row_name: CTK.LEXI
+      value: -1
+    second_pair: ~
+  - name: PIC.M3XI
+    first_pair:
+      row_name: UKW...XI
+      value: -39.37
+    second_pair:
+      row_name: UCW...XI
+      value: -2.15
+  - name: PIC.M3XI
+    first_pair:
+      row_name: USL...XI
+      value: -0.091
+    second_pair:
+      row_name: UHE...XI
+      value: -0.0541
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BC2...XI
+      value: 0.07085
+    second_pair:
+      row_name: BC3...XI
+      value: 0.03069
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BC4...XI
+      value: 0.0176
+    second_pair:
+      row_name: BD1...XI
+      value: 0.21287
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BG1...XI
+      value: 0.0418
+    second_pair:
+      row_name: BHS...XI
+      value: 0.03223
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BH1...XI
+      value: 0.05688
+    second_pair:
+      row_name: BIC...XI
+      value: -1
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.00572
+    second_pair:
+      row_name: BN1...XI
+      value: 0.16403
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BPX...XI
+      value: 0.30363
+    second_pair:
+      row_name: BRS...XI
+      value: -1.2
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BSS...XI
+      value: 1.2
+    second_pair:
+      row_name: BWP...XI
+      value: 0.1647
+  - name: PIC.M3XI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.132
+    second_pair:
+      row_name: B6H...XI
+      value: 0.01331
+  - name: PIC.M3XI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.05138
+    second_pair:
+      row_name: C...RAXI
+      value: -0.0057
+  - name: PIC.M3XI
+    first_pair:
+      row_name: C...RDXI
+      value: -0.244
+    second_pair:
+      row_name: C...LEXI
+      value: -0.2123
+  - name: PIC.M3XI
+    first_pair:
+      row_name: CON.M3XI
+      value: -1
+    second_pair:
+      row_name: C...OFXI
+      value: -1
+  - name: PIC.M3XI
+    first_pair:
+      row_name: KLQ.PRXI
+      value: -1
+    second_pair:
+      row_name: KFG.PRXI
+      value: 0.30363
+  - name: PGF.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PGF.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PGF.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PGF.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PGF.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PGF.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.079
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PGF.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BGF...XI
+      value: -1
+  - name: PGF.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PGF.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PGF.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PG1.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PG1.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PG1.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PG1.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PG1.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PG1.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.0784
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PG1.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BG1...XI
+      value: -1
+  - name: PG1.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PG1.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PG1.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PHF.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PHF.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PHF.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PHF.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PHF.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PHF.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.074
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PHF.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BHF...XI
+      value: -1
+  - name: PHF.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PHF.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PHF.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PHH.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PHH.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PHH.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PHH.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PHH.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PHH.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.042
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PHH.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BHH...XI
+      value: -1
+  - name: PHH.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PHH.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PHH.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PH1.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PH1.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PH1.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PH1.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PH1.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PH1.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.0521
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PH1.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BH1...XI
+      value: -1
+  - name: PH1.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PH1.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PH1.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PP1.NCXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.22
+    second_pair:
+      row_name: UKW...XI
+      value: -29.4
+  - name: PP1.NCXI
+    first_pair:
+      row_name: UTW...XI
+      value: -53.4
+    second_pair:
+      row_name: UMC...XI
+      value: -3.24
+  - name: PP1.NCXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0503
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0129
+  - name: PP1.NCXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.0352
+  - name: PP1.NCXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0088
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0422
+  - name: PP1.NCXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.087
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0134
+  - name: PP1.NCXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.2803
+    second_pair:
+      row_name: BP1...XI
+      value: -1
+  - name: PP1.NCXI
+    first_pair:
+      row_name: CON.NCXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.0502
+  - name: PP1.NCXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0134
+    second_pair:
+      row_name: C...RDXI
+      value: -0.072
+  - name: PP1.NCXI
+    first_pair:
+      row_name: BDC...XI
+      value: 0.6532
+    second_pair: ~
+  - name: PNF.NFXI
+    first_pair:
+      row_name: UCW...XI
+      value: -1.256
+    second_pair:
+      row_name: UKW...XI
+      value: -18.02
+  - name: PNF.NFXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.539
+    second_pair:
+      row_name: UFF...XI
+      value: -0.0026
+  - name: PNF.NFXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0007
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0023
+  - name: PNF.NFXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.0023
+    second_pair:
+      row_name: BHS...XI
+      value: 0.00459
+  - name: PNF.NFXI
+    first_pair:
+      row_name: BNF...XI
+      value: -1
+    second_pair:
+      row_name: BNH...XI
+      value: 0.677
+  - name: PNF.NFXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.01096
+    second_pair:
+      row_name: BNP...XI
+      value: 0.323
+  - name: PNF.NFXI
+    first_pair:
+      row_name: CON.NFXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: 0.9977
+  - name: PNF.NFXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0007
+    second_pair:
+      row_name: C...RDXI
+      value: -0.0375
+  - name: PN1.NFXI
+    first_pair:
+      row_name: UCW...XI
+      value: -1.256
+    second_pair:
+      row_name: UKW...XI
+      value: -18.02
+  - name: PN1.NFXI
+    first_pair:
+      row_name: UMC...XI
+      value: -1.539
+    second_pair:
+      row_name: UFF...XI
+      value: -0.0026
+  - name: PN1.NFXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0007
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0023
+  - name: PN1.NFXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.0023
+    second_pair:
+      row_name: BHS...XI
+      value: 0.00459
+  - name: PN1.NFXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.677
+    second_pair:
+      row_name: BN1...XI
+      value: -1
+  - name: PN1.NFXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.01096
+    second_pair:
+      row_name: BNP...XI
+      value: 0.323
+  - name: PN1.NFXI
+    first_pair:
+      row_name: CON.NFXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: 0.9977
+  - name: PN1.NFXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0007
+    second_pair:
+      row_name: C...RDXI
+      value: -0.0375
+  - name: PNH.NPXI
+    first_pair:
+      row_name: UCW...XI
+      value: -0.907
+    second_pair:
+      row_name: UKW...XI
+      value: -29.02
+  - name: PNH.NPXI
+    first_pair:
+      row_name: UMC...XI
+      value: -0.459
+    second_pair:
+      row_name: UFF...XI
+      value: -0.0407
+  - name: PNH.NPXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.015
+    second_pair:
+      row_name: BC4...XI
+      value: 0.023
+  - name: PNH.NPXI
+    first_pair:
+      row_name: BHB...XI
+      value: 0.02
+    second_pair:
+      row_name: BNH...XI
+      value: -1
+  - name: PNH.NPXI
+    first_pair:
+      row_name: B9H...XI
+      value: 0.034
+    second_pair:
+      row_name: BNP...XI
+      value: 0.9078
+  - name: PNH.NPXI
+    first_pair:
+      row_name: CON.NPXI
+      value: -1
+    second_pair:
+      row_name: C...LEXI
+      value: -0.038
+  - name: P...OFXI
+    first_pair:
+      row_name: UKW...XI
+      value: -5.6433
+    second_pair:
+      row_name: UCW...XI
+      value: -0.3123
+  - name: P...OFXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.0167
+    second_pair:
+      row_name: UMC...XI
+      value: -0.002
+  - name: P...OFXI
+    first_pair:
+      row_name: C...OFXI
+      value: 1
+    second_pair:
+      row_name: COF.OFXI
+      value: -1
+  - name: P...OPXI
+    first_pair:
+      row_name: UTW...XI
+      value: -428.564
+    second_pair:
+      row_name: UCW...XI
+      value: -24.459
+  - name: P...OPXI
+    first_pair:
+      row_name: BO2...XI
+      value: 1
+    second_pair:
+      row_name: CON.OPXI
+      value: -1
+  - name: PWP.PHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.6753
+    second_pair:
+      row_name: USL...XI
+      value: -0.0342
+  - name: PWP.PHXI
+    first_pair:
+      row_name: UCW...XI
+      value: -1.5815
+    second_pair:
+      row_name: UMC...XI
+      value: -0.0725
+  - name: PWP.PHXI
+    first_pair:
+      row_name: BWP...XI
+      value: -1
+    second_pair:
+      row_name: BWW...XI
+      value: 1
+  - name: PWP.PHXI
+    first_pair:
+      row_name: CON.PHXI
+      value: -1
+    second_pair:
+      row_name: CTK.PHXI
+      value: -1
+  - name: PAD.POXI
+    first_pair:
+      row_name: BAD...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAD.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1
+    second_pair:
+      row_name: COF.POXI
+      value: -1
+  - name: PAG.POXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: CON.POXI
+      value: -1.0806
+  - name: PAG.POXI
+    first_pair:
+      row_name: COF.POXI
+      value: -1.1032
+    second_pair:
+      row_name: BAG...XI
+      value: -1
+  - name: PAH.POXI
+    first_pair:
+      row_name: BAH...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 1
+  - name: PAH.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1.00594
+    second_pair:
+      row_name: COF.POXI
+      value: -1.2542
+  - name: PAN.POXI
+    first_pair:
+      row_name: BCE...XI
+      value: 1
+    second_pair:
+      row_name: CON.POXI
+      value: -1.02315
+  - name: PAN.POXI
+    first_pair:
+      row_name: COF.POXI
+      value: -1.01605
+    second_pair:
+      row_name: BAN...XI
+      value: -1
+  - name: PG1.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -69.7
+    second_pair:
+      row_name: UTW...XI
+      value: -69.5
+  - name: PG1.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.5
+    second_pair:
+      row_name: USL...XI
+      value: -0.079
+  - name: PG1.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8523
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4972
+  - name: PG1.POXI
+    first_pair:
+      row_name: BG1...XI
+      value: -1
+    second_pair:
+      row_name: BO2...XI
+      value: -0.989
+  - name: PG1.POXI
+    first_pair:
+      row_name: BIP...XI
+      value: 0.7726
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0051
+  - name: PG1.POXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0325
+    second_pair:
+      row_name: BCE...XI
+      value: 0.01
+  - name: PG1.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1.08765
+    second_pair:
+      row_name: COF.POXI
+      value: -0.2514
+  - name: PH1.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -72
+    second_pair:
+      row_name: UTW...XI
+      value: -70
+  - name: PH1.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.5
+    second_pair:
+      row_name: USL...XI
+      value: -0.079
+  - name: PH1.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8523
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4972
+  - name: PH1.POXI
+    first_pair:
+      row_name: BO2...XI
+      value: -1.0216
+    second_pair:
+      row_name: BIP...XI
+      value: 0.8173
+  - name: PH1.POXI
+    first_pair:
+      row_name: BPS...XI
+      value: 0.0035
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0325
+  - name: PH1.POXI
+    first_pair:
+      row_name: BH1...XI
+      value: -1
+    second_pair:
+      row_name: BCE...XI
+      value: 0.01
+  - name: PH1.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1.0871
+    second_pair:
+      row_name: COF.POXI
+      value: -0.2514
+  - name: PYD.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -64.78
+    second_pair:
+      row_name: UTW...XI
+      value: -62.44
+  - name: PYD.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.1946
+    second_pair:
+      row_name: USL...XI
+      value: -0.0789
+  - name: PYD.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8523
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4972
+  - name: PYD.POXI
+    first_pair:
+      row_name: BYD...XI
+      value: -1
+    second_pair:
+      row_name: BG1...XI
+      value: -0.0251
+  - name: PYD.POXI
+    first_pair:
+      row_name: BO2...XI
+      value: -1.0127
+    second_pair:
+      row_name: BIP...XI
+      value: 0.7338
+  - name: PYD.POXI
+    first_pair:
+      row_name: BPS...XI
+      value: 0.0217
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0325
+  - name: PYD.POXI
+    first_pair:
+      row_name: BCE...XI
+      value: 0.01
+    second_pair:
+      row_name: CON.POXI
+      value: -1
+  - name: PYD.POXI
+    first_pair:
+      row_name: COF.POXI
+      value: -1
+    second_pair: ~
+  - name: PYG.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -70.85
+    second_pair:
+      row_name: UTW...XI
+      value: -62.51
+  - name: PYG.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.198
+    second_pair:
+      row_name: USL...XI
+      value: -0.0939
+  - name: PYG.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8484
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4708
+  - name: PYG.POXI
+    first_pair:
+      row_name: BG1...XI
+      value: -0.0261
+    second_pair:
+      row_name: BO2...XI
+      value: -1.0148
+  - name: PYG.POXI
+    first_pair:
+      row_name: BIP...XI
+      value: 0.7175
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0303
+  - name: PYG.POXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0138
+    second_pair:
+      row_name: BCE...XI
+      value: 0.01
+  - name: PYG.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1.0806
+    second_pair:
+      row_name: COF.POXI
+      value: -1.1032
+  - name: PYG.POXI
+    first_pair:
+      row_name: BYG...XI
+      value: -1
+    second_pair: ~
+  - name: PYH.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -81.14
+    second_pair:
+      row_name: UTW...XI
+      value: -62.63
+  - name: PYH.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.205
+    second_pair:
+      row_name: USL...XI
+      value: -0.1192
+  - name: PYH.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8617
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4738
+  - name: PYH.POXI
+    first_pair:
+      row_name: BG1...XI
+      value: -0.0282
+    second_pair:
+      row_name: BO2...XI
+      value: -1.0169
+  - name: PYH.POXI
+    first_pair:
+      row_name: BIP...XI
+      value: 0.719
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0385
+  - name: PYH.POXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0177
+    second_pair:
+      row_name: BYH...XI
+      value: -1
+  - name: PYH.POXI
+    first_pair:
+      row_name: BCE...XI
+      value: 0.01
+    second_pair:
+      row_name: CON.POXI
+      value: -1.00594
+  - name: PYH.POXI
+    first_pair:
+      row_name: COF.POXI
+      value: -1.2542
+    second_pair: ~
+  - name: PYN.POXI
+    first_pair:
+      row_name: UKW...XI
+      value: -64.78
+    second_pair:
+      row_name: UTW...XI
+      value: -62.44
+  - name: PYN.POXI
+    first_pair:
+      row_name: UCW...XI
+      value: -3.1946
+    second_pair:
+      row_name: USL...XI
+      value: -0.0789
+  - name: PYN.POXI
+    first_pair:
+      row_name: UBW...XI
+      value: -1.8523
+    second_pair:
+      row_name: UOH...XI
+      value: 1.4972
+  - name: PYN.POXI
+    first_pair:
+      row_name: BG1...XI
+      value: -0.0251
+    second_pair:
+      row_name: BO2...XI
+      value: -1.0127
+  - name: PYN.POXI
+    first_pair:
+      row_name: BIP...XI
+      value: 0.7389
+    second_pair:
+      row_name: BPS...XI
+      value: 0.0197
+  - name: PYN.POXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0325
+    second_pair:
+      row_name: BCE...XI
+      value: 0.01
+  - name: PYN.POXI
+    first_pair:
+      row_name: CON.POXI
+      value: -1.02315
+    second_pair:
+      row_name: COF.POXI
+      value: -1.01605
+  - name: PYN.POXI
+    first_pair:
+      row_name: BYN...XI
+      value: -1
+    second_pair: ~
+  - name: PAR.PPXI
+    first_pair:
+      row_name: UKW...XI
+      value: -6.4569
+    second_pair:
+      row_name: BAR...XI
+      value: -1
+  - name: PAR.PPXI
+    first_pair:
+      row_name: BAC...XI
+      value: 1
+    second_pair:
+      row_name: COF.PPXI
+      value: -1
+  - name: PMR.PPXI
+    first_pair:
+      row_name: UKW...XI
+      value: -6.4569
+    second_pair:
+      row_name: BMR...XI
+      value: -1
+  - name: PMR.PPXI
+    first_pair:
+      row_name: BIC...XI
+      value: 1
+    second_pair:
+      row_name: COF.PPXI
+      value: -1
+  - name: P...RAXI
+    first_pair:
+      row_name: UKW...XI
+      value: -258.877
+    second_pair:
+      row_name: UCW...XI
+      value: -79.2522
+  - name: P...RAXI
+    first_pair:
+      row_name: UMC...XI
+      value: -5.6863
+    second_pair:
+      row_name: C...RAXI
+      value: 1
+  - name: P...RAXI
+    first_pair:
+      row_name: CON.RAXI
+      value: -1
+    second_pair:
+      row_name: CTK.RAXI
+      value: -1
+  - name: P...RDXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.4221
+    second_pair:
+      row_name: UKW...XI
+      value: -9.183
+  - name: P...RDXI
+    first_pair:
+      row_name: UCW...XI
+      value: -2.4961
+    second_pair:
+      row_name: UDW...XI
+      value: -0.0089
+  - name: P...RDXI
+    first_pair:
+      row_name: UMC...XI
+      value: -0.1546
+    second_pair:
+      row_name: C...RDXI
+      value: 1
+  - name: P...RDXI
+    first_pair:
+      row_name: CON.RDXI
+      value: -1
+    second_pair:
+      row_name: COF.RDXI
+      value: -1
+  - name: PAD.SFXI
+    first_pair:
+      row_name: UKW...XI
+      value: -144
+    second_pair:
+      row_name: UCW...XI
+      value: -8
+  - name: PAD.SFXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.1
+    second_pair:
+      row_name: BAD...XI
+      value: -1
+  - name: PAD.SFXI
+    first_pair:
+      row_name: BAS...XI
+      value: 1
+    second_pair:
+      row_name: BWS...XI
+      value: 0.1
+  - name: PAD.SFXI
+    first_pair:
+      row_name: COF.SFXI
+      value: -1
+    second_pair: ~
+  - name: PAG.SFXI
+    first_pair:
+      row_name: UKW...XI
+      value: -144
+    second_pair:
+      row_name: UCW...XI
+      value: -8
+  - name: PAG.SFXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.1
+    second_pair:
+      row_name: BWS...XI
+      value: 0.1
+  - name: PAG.SFXI
+    first_pair:
+      row_name: COF.SFXI
+      value: -1
+    second_pair:
+      row_name: BAG...XI
+      value: -1
+  - name: PAG.SFXI
+    first_pair:
+      row_name: BAF...XI
+      value: 1
+    second_pair: ~
+  - name: PYD.SFXI
+    first_pair:
+      row_name: UKW...XI
+      value: -144
+    second_pair:
+      row_name: UCW...XI
+      value: -8
+  - name: PYD.SFXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.1
+    second_pair:
+      row_name: BYD...XI
+      value: -1
+  - name: PYD.SFXI
+    first_pair:
+      row_name: BYS...XI
+      value: 1
+    second_pair:
+      row_name: BWS...XI
+      value: 0.1
+  - name: PYD.SFXI
+    first_pair:
+      row_name: COF.SFXI
+      value: -1
+    second_pair: ~
+  - name: PYG.SFXI
+    first_pair:
+      row_name: UKW...XI
+      value: -144
+    second_pair:
+      row_name: UCW...XI
+      value: -8
+  - name: PYG.SFXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.1
+    second_pair:
+      row_name: BWS...XI
+      value: 0.1
+  - name: PYG.SFXI
+    first_pair:
+      row_name: COF.SFXI
+      value: -1
+    second_pair:
+      row_name: BYG...XI
+      value: -1
+  - name: PYG.SFXI
+    first_pair:
+      row_name: BYF...XI
+      value: 1
+    second_pair: ~
+  - name: PD1.SHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.0695
+    second_pair:
+      row_name: UCW...XI
+      value: -0.8357
+  - name: PD1.SHXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0022
+    second_pair:
+      row_name: USL...XI
+      value: -0.0703
+  - name: PD1.SHXI
+    first_pair:
+      row_name: UTW...XI
+      value: -8.8803
+    second_pair:
+      row_name: UDW...XI
+      value: -0.0084
+  - name: PD1.SHXI
+    first_pair:
+      row_name: UMC...XI
+      value: -0.6196
+    second_pair:
+      row_name: BD1...XI
+      value: -1
+  - name: PD1.SHXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.0103
+    second_pair:
+      row_name: BDH...XI
+      value: 0.9811
+  - name: PD1.SHXI
+    first_pair:
+      row_name: BC2...XI
+      value: 0.0013
+    second_pair:
+      row_name: BC3...XI
+      value: 0.0001
+  - name: PD1.SHXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.0124
+    second_pair:
+      row_name: BHS...XI
+      value: 0.0023
+  - name: PD1.SHXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0007
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0184
+  - name: PD1.SHXI
+    first_pair:
+      row_name: B6H...XI
+      value: 0.0016
+    second_pair:
+      row_name: CON.SHXI
+      value: -1
+  - name: PD1.SHXI
+    first_pair:
+      row_name: COF.SHXI
+      value: -1
+    second_pair:
+      row_name: CTK.SHXI
+      value: -1
+  - name: PD1.SHXI
+    first_pair:
+      row_name: C...RDXI
+      value: -0.0144
+    second_pair:
+      row_name: C...RAXI
+      value: -0.0007
+  - name: PH1.SHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.0695
+    second_pair:
+      row_name: UCW...XI
+      value: -0.8357
+  - name: PH1.SHXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0022
+    second_pair:
+      row_name: USL...XI
+      value: -0.0703
+  - name: PH1.SHXI
+    first_pair:
+      row_name: UTW...XI
+      value: -8.8803
+    second_pair:
+      row_name: UDW...XI
+      value: -0.0084
+  - name: PH1.SHXI
+    first_pair:
+      row_name: UMC...XI
+      value: -0.6196
+    second_pair:
+      row_name: BH1...XI
+      value: -1
+  - name: PH1.SHXI
+    first_pair:
+      row_name: B9H...XI
+      value: -0.0103
+    second_pair:
+      row_name: BHH...XI
+      value: 0.9811
+  - name: PH1.SHXI
+    first_pair:
+      row_name: BC2...XI
+      value: 0.0013
+    second_pair:
+      row_name: BC3...XI
+      value: 0.0001
+  - name: PH1.SHXI
+    first_pair:
+      row_name: BNH...XI
+      value: 0.0124
+    second_pair:
+      row_name: BHS...XI
+      value: 0.0023
+  - name: PH1.SHXI
+    first_pair:
+      row_name: BMM...XI
+      value: 0.0007
+    second_pair:
+      row_name: BWS...XI
+      value: 0.0184
+  - name: PH1.SHXI
+    first_pair:
+      row_name: B6H...XI
+      value: 0.0016
+    second_pair:
+      row_name: CON.SHXI
+      value: -1
+  - name: PH1.SHXI
+    first_pair:
+      row_name: COF.SHXI
+      value: -1
+    second_pair:
+      row_name: CTK.SHXI
+      value: -1
+  - name: PH1.SHXI
+    first_pair:
+      row_name: C...RDXI
+      value: -0.0144
+    second_pair:
+      row_name: C...RAXI
+      value: -0.0007
+  - name: PSS.SHXI
+    first_pair:
+      row_name: UKW...XI
+      value: -1.0695
+    second_pair:
+      row_name: UCW...XI
+      value: -0.8357
+  - name: PSS.SHXI
+    first_pair:
+      row_name: UFF...XI
+      value: -0.0022
+    second_pair:
+      row_name: UTW...XI
+      value: -8.8803
+  - name: PSS.SHXI
+    first_pair:
+      row_name: UDW...XI
+      value: -0.0084
+    second_pair:
+      row_name: UMC...XI
+      value: -0.6196
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BSS...XI
+      value: -1
+    second_pair:
+      row_name: BD1...XI
+      value: -0.0154
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BH1...XI
+      value: -0.0039
+    second_pair:
+      row_name: B9H...XI
+      value: -0.0103
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BRS...XI
+      value: 1
+    second_pair:
+      row_name: BC2...XI
+      value: 0.0013
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BC3...XI
+      value: 0.0001
+    second_pair:
+      row_name: BNH...XI
+      value: 0.0124
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BHS...XI
+      value: 0.0023
+    second_pair:
+      row_name: BMM...XI
+      value: 0.0007
+  - name: PSS.SHXI
+    first_pair:
+      row_name: BWS...XI
+      value: 0.0184
+    second_pair:
+      row_name: B6H...XI
+      value: 0.0016
+  - name: PSS.SHXI
+    first_pair:
+      row_name: CON.SHXI
+      value: -1
+    second_pair:
+      row_name: COF.SHXI
+      value: -1
+  - name: PSS.SHXI
+    first_pair:
+      row_name: CTK.SHXI
+      value: -1
+    second_pair:
+      row_name: C...RDXI
+      value: -0.0144
+  - name: PSS.SHXI
+    first_pair:
+      row_name: C...RAXI
+      value: -0.0007
+    second_pair: ~
+  - name: P...STXI
+    first_pair:
+      row_name: UKW...XI
+      value: -1137.988
+    second_pair:
+      row_name: USL...XI
+      value: -2.9706
+  - name: P...STXI
+    first_pair:
+      row_name: UDW...XI
+      value: -12.4507
+    second_pair:
+      row_name: UMC...XI
+      value: -41.1737
+  - name: P...STXI
+    first_pair:
+      row_name: C...STXI
+      value: 1
+    second_pair:
+      row_name: CON.STXI
+      value: -1
+  - name: P...STXI
+    first_pair:
+      row_name: CTK.STXI
+      value: -1
+    second_pair: ~
+  - name: PWS.SWXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.7547
+    second_pair:
+      row_name: USL...XI
+      value: -0.3277
+  - name: PWS.SWXI
+    first_pair:
+      row_name: BWS...XI
+      value: -1
+    second_pair:
+      row_name: BWP...XI
+      value: 1
+  - name: PWS.SWXI
+    first_pair:
+      row_name: CON.SWXI
+      value: -1
+    second_pair: ~
+  - name: PCE.TAXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.5422
+    second_pair:
+      row_name: UMC...XI
+      value: -7.381
+  - name: PCE.TAXI
+    first_pair:
+      row_name: BCE...XI
+      value: -1
+    second_pair:
+      row_name: COF.TAXI
+      value: -1.2
+  - name: PWW.WTXI
+    first_pair:
+      row_name: UKW...XI
+      value: -7.955
+    second_pair:
+      row_name: UMC...XI
+      value: -0.6206
+  - name: PWW.WTXI
+    first_pair:
+      row_name: UPW...XI
+      value: 0.5362
+    second_pair:
+      row_name: BWW...XI
+      value: -1
+  - name: PWW.WTXI
+    first_pair:
+      row_name: COF.WTXI
+      value: -1.3
+    second_pair:
+      row_name: CUT.RTXI
+      value: -0.5878
+  - name: PWW.WTXI
+    first_pair:
+      row_name: CUT.RSXI
+      value: -0.5878
+    second_pair: ~
+  - name: UPH.BYXI
+    first_pair:
+      row_name: UPH...XI
+      value: 1
+    second_pair: ~
+  - name: UPK.BYXI
+    first_pair:
+      row_name: UPK...XI
+      value: 1
+    second_pair: ~
+  - name: UPL.BYXI
+    first_pair:
+      row_name: UPL...XI
+      value: 1
+    second_pair: ~
+  - name: UPM.BYXI
+    first_pair:
+      row_name: UPM...XI
+      value: 1
+    second_pair: ~
+  - name: URW.BYXI
+    first_pair:
+      row_name: URW...XI
+      value: 1
+    second_pair: ~
+  - name: UPL.GMXI
+    first_pair:
+      row_name: UPL...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -1
+  - name: UPL.GMXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.1
+    second_pair: ~
+  - name: UFF.GNXI
+    first_pair:
+      row_name: UFF...XI
+      value: 1
+    second_pair:
+      row_name: BFF...XI
+      value: -1
+  - name: UFS.GNXI
+    first_pair:
+      row_name: UFS...XI
+      value: 1
+    second_pair:
+      row_name: BFS...XI
+      value: -1
+  - name: UMC.GNXI
+    first_pair:
+      row_name: UMC...XI
+      value: 1
+    second_pair:
+      row_name: CMC...XI
+      value: -1
+  - name: UPB.GNXI
+    first_pair:
+      row_name: UPB...XI
+      value: 1
+    second_pair:
+      row_name: UKW...XI
+      value: -1.7328
+  - name: UPB.GNXI
+    first_pair:
+      row_name: UPD...XI
+      value: -0.5971
+    second_pair:
+      row_name: CUT.BFXI
+      value: -1.1
+  - name: UPB.GNXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.046
+    second_pair:
+      row_name: UMC...XI
+      value: -0.0142
+  - name: UPC.GNXI
+    first_pair:
+      row_name: UPC...XI
+      value: 1
+    second_pair:
+      row_name: UKW...XI
+      value: -0.3213
+  - name: UPC.GNXI
+    first_pair:
+      row_name: UPW...XI
+      value: -0.0449
+    second_pair:
+      row_name: CUT.CTXI
+      value: -1.1
+  - name: UPC.GNXI
+    first_pair:
+      row_name: USL...XI
+      value: -0.0031
+    second_pair:
+      row_name: UMC...XI
+      value: -0.0112
+  - name: UPD.GNXI
+    first_pair:
+      row_name: UPD...XI
+      value: 1
+    second_pair:
+      row_name: URW...XI
+      value: 0.1358
+  - name: UPD.GNXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.3984
+    second_pair:
+      row_name: UPW...XI
+      value: -1.1358
+  - name: UPD.GNXI
+    first_pair:
+      row_name: CUT.PDXI
+      value: -1.1
+    second_pair:
+      row_name: UMC...XI
+      value: -0.005
+  - name: UPL.GNXI
+    first_pair:
+      row_name: UPL...XI
+      value: 1
+    second_pair:
+      row_name: UPM...XI
+      value: -1
+  - name: UPL.GNXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.1
+    second_pair: ~
+  - name: UPM.GNXI
+    first_pair:
+      row_name: UPM...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -1
+  - name: UPM.GNXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.1
+    second_pair: ~
+  - name: UPT.GNXI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: UKW...XI
+      value: -0.9091
+  - name: UPW.GNXI
+    first_pair:
+      row_name: UPW...XI
+      value: 1
+    second_pair:
+      row_name: URW...XI
+      value: -1
+  - name: UPW.GNXI
+    first_pair:
+      row_name: UKW...XI
+      value: -0.1989
+    second_pair:
+      row_name: CUT.RTXI
+      value: -1.1
+  - name: UPW.GNXI
+    first_pair:
+      row_name: UMC...XI
+      value: -0.0157
+    second_pair: ~
+  - name: URW.GNXI
+    first_pair:
+      row_name: URW...XI
+      value: 1
+    second_pair:
+      row_name: UKW...XI
+      value: -1.5952
+  - name: URW.GNXI
+    first_pair:
+      row_name: CUT.RSXI
+      value: -1.1
+    second_pair: ~
+  - name: UPH.GOXI
+    first_pair:
+      row_name: UPH...XI
+      value: 1
+    second_pair:
+      row_name: UOH...XI
+      value: -1
+  - name: UPL.GOXI
+    first_pair:
+      row_name: UPL...XI
+      value: 1
+    second_pair:
+      row_name: UOL...XI
+      value: -1
+  - name: UPM.GOXI
+    first_pair:
+      row_name: UPM...XI
+      value: 1
+    second_pair:
+      row_name: UOM...XI
+      value: -1
+  - name: UBW.GPXI
+    first_pair:
+      row_name: UBW...XI
+      value: 1
+    second_pair:
+      row_name: UPB...XI
+      value: -1.15
+  - name: UCW.GPXI
+    first_pair:
+      row_name: UCW...XI
+      value: 1
+    second_pair:
+      row_name: UPC...XI
+      value: -1.15
+  - name: UDW.GPXI
+    first_pair:
+      row_name: UDW...XI
+      value: 1
+    second_pair:
+      row_name: UPD...XI
+      value: -1.3
+  - name: UKW.GPXI
+    first_pair:
+      row_name: UKW...XI
+      value: 1
+    second_pair:
+      row_name: CUT.KWXI
+      value: -1.265
+  - name: UKW.GPXI
+    first_pair:
+      row_name: UPK...XI
+      value: -1.15
+    second_pair: ~
+  - name: USH.GPXI
+    first_pair:
+      row_name: USH...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -1.15
+  - name: USH.GPXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.265
+    second_pair: ~
+  - name: USL.GPXI
+    first_pair:
+      row_name: USL...XI
+      value: 1
+    second_pair:
+      row_name: UPL...XI
+      value: -1.15
+  - name: USL.GPXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.265
+    second_pair: ~
+  - name: USM.GPXI
+    first_pair:
+      row_name: USM...XI
+      value: 1
+    second_pair:
+      row_name: UPM...XI
+      value: -1.15
+  - name: USM.GPXI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -1.265
+    second_pair: ~
+  - name: UTW.GPXI
+    first_pair:
+      row_name: UTW...XI
+      value: 1
+    second_pair:
+      row_name: UPT...XI
+      value: -1.1
+  - name: UFF.GXXI
+    first_pair:
+      row_name: UFF...XI
+      value: -1
+    second_pair:
+      row_name: BFF...XI
+      value: -1
+  - name: UFF.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair: ~
+  - name: UFS.GXXI
+    first_pair:
+      row_name: UFS...XI
+      value: -1
+    second_pair:
+      row_name: BFS...XI
+      value: -1
+  - name: UFS.GXXI
+    first_pair:
+      row_name: CON.GXXI
+      value: -1
+    second_pair: ~
+  - name: UPH.GXXI
+    first_pair:
+      row_name: UPH...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: UPL.GXXI
+    first_pair:
+      row_name: UPL...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: UPM.GXXI
+    first_pair:
+      row_name: UPM...XI
+      value: -1
+    second_pair:
+      row_name: CON.GXXI
+      value: -1
+  - name: UPK.G1XI
+    first_pair:
+      row_name: UPK...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -0.0235
+  - name: UPK.G1XI
+    first_pair:
+      row_name: UPM...XI
+      value: 0.0235
+    second_pair:
+      row_name: CUT.TGXI
+      value: -1.1
+  - name: UPT.G1XI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: CUT.TWXI
+      value: -1.1
+  - name: UPT.G1XI
+    first_pair:
+      row_name: UPH...XI
+      value: -0.0352
+    second_pair:
+      row_name: UPM...XI
+      value: 0.0352
+  - name: UPT.G1XI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -0.0387
+    second_pair: ~
+  - name: UPK.G2XI
+    first_pair:
+      row_name: UPK...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -0.0082
+  - name: UPK.G2XI
+    first_pair:
+      row_name: UPL...XI
+      value: 0.0082
+    second_pair:
+      row_name: CUT.TGXI
+      value: -1.1
+  - name: UPT.G2XI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: CUT.TWXI
+      value: -1.1
+  - name: UPT.G2XI
+    first_pair:
+      row_name: UPH...XI
+      value: -0.0118
+    second_pair:
+      row_name: UPL...XI
+      value: 0.0118
+  - name: UPT.G2XI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -0.013
+    second_pair: ~
+  - name: UPK.G3XI
+    first_pair:
+      row_name: UPK...XI
+      value: 1
+    second_pair:
+      row_name: UPH...XI
+      value: -0.0044
+  - name: UPK.G3XI
+    first_pair:
+      row_name: UCW...XI
+      value: -0.1271
+    second_pair:
+      row_name: UPB...XI
+      value: 0.0044
+  - name: UPK.G3XI
+    first_pair:
+      row_name: CUT.TGXI
+      value: -1.1
+    second_pair: ~
+  - name: UPT.G3XI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: CUT.TWXI
+      value: -1.1
+  - name: UPT.G3XI
+    first_pair:
+      row_name: UPH...XI
+      value: -0.0057
+    second_pair:
+      row_name: UCW...XI
+      value: -0.0883
+  - name: UPT.G3XI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -0.0063
+    second_pair: ~
+  - name: UPT.G4XI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: CUT.TWXI
+      value: -1.1
+  - name: UPT.G4XI
+    first_pair:
+      row_name: UPM...XI
+      value: -0.0183
+    second_pair:
+      row_name: UPL...XI
+      value: 0.0183
+  - name: UPT.G4XI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -0.0201
+    second_pair: ~
+  - name: UPT.G5XI
+    first_pair:
+      row_name: UPT...XI
+      value: 1
+    second_pair:
+      row_name: CUT.TWXI
+      value: -1.1
+  - name: UPT.G5XI
+    first_pair:
+      row_name: UPM...XI
+      value: -0.0073
+    second_pair:
+      row_name: UCW...XI
+      value: -0.1131
+  - name: UPT.G5XI
+    first_pair:
+      row_name: CUT.DSXI
+      value: -0.008
+    second_pair: ~
+  - name: B.FNXI
+    first_pair:
+      row_name: B...XI
+      value: -1
+    second_pair: ~
+  - name: QVO0FHXI
+    first_pair:
+      row_name: BFH.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.FHXI
+      value: -10
+  - name: QWT0FHXI
+    first_pair:
+      row_name: BFH...XI
+      value: 1
+    second_pair:
+      row_name: BFH.WTXI
+      value: -1
+  - name: QWT0FHXI
+    first_pair:
+      row_name: XSU.FHXI
+      value: -0.3
+    second_pair:
+      row_name: XGS.FHXI
+      value: 1
+  - name: QVO0FLXI
+    first_pair:
+      row_name: BFL.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.FLXI
+      value: -10
+  - name: QWT0FLXI
+    first_pair:
+      row_name: BFL...XI
+      value: 1
+    second_pair:
+      row_name: BFL.WTXI
+      value: -1
+  - name: QWT0FLXI
+    first_pair:
+      row_name: XSU.FLXI
+      value: -0.3
+    second_pair:
+      row_name: XGS.FLXI
+      value: 1
+  - name: QVO0FNXI
+    first_pair:
+      row_name: BFN.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.FNXI
+      value: -10
+  - name: QWT0FNXI
+    first_pair:
+      row_name: BFN...XI
+      value: 1
+    second_pair:
+      row_name: BFN.WTXI
+      value: -1
+  - name: QWT0FNXI
+    first_pair:
+      row_name: XSU.FNXI
+      value: -1
+    second_pair:
+      row_name: XGS.FNXI
+      value: 1
+  - name: QVO0F1XI
+    first_pair:
+      row_name: BF1.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.F1XI
+      value: -10
+  - name: QWT0F1XI
+    first_pair:
+      row_name: BF1...XI
+      value: 1
+    second_pair:
+      row_name: BF1.WTXI
+      value: -1
+  - name: QWT0F1XI
+    first_pair:
+      row_name: XSU.F1XI
+      value: -0.3
+    second_pair:
+      row_name: XGS.F1XI
+      value: 1
+  - name: QVO0F2XI
+    first_pair:
+      row_name: BF2.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.F2XI
+      value: -10
+  - name: QWT0F2XI
+    first_pair:
+      row_name: BF2...XI
+      value: 1
+    second_pair:
+      row_name: BF2.WTXI
+      value: -1
+  - name: QWT0F2XI
+    first_pair:
+      row_name: XSU.F2XI
+      value: -10
+    second_pair:
+      row_name: XGS.F2XI
+      value: 1
+  - name: QVO0F3XI
+    first_pair:
+      row_name: BF3.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.F3XI
+      value: -10
+  - name: QWT0F3XI
+    first_pair:
+      row_name: BF3...XI
+      value: 1
+    second_pair:
+      row_name: BF3.WTXI
+      value: -1
+  - name: QWT0F3XI
+    first_pair:
+      row_name: XSU.F3XI
+      value: -10
+    second_pair:
+      row_name: XGS.F3XI
+      value: 1
+  - name: QWT0F3XI
+    first_pair:
+      row_name: XSL.F3XI
+      value: -0.15
+    second_pair: ~
+  - name: QVO0F4XI
+    first_pair:
+      row_name: BF4.VOXI
+      value: -1
+    second_pair:
+      row_name: XGS.F4XI
+      value: -10
+  - name: QWT0F4XI
+    first_pair:
+      row_name: BF4...XI
+      value: 1
+    second_pair:
+      row_name: BF4.WTXI
+      value: -1
+  - name: QWT0F4XI
+    first_pair:
+      row_name: XSU.F4XI
+      value: -0.3
+    second_pair:
+      row_name: XGS.F4XI
+      value: 1
+rhs: ~
+ranges: ~
+bounds: ~
+
