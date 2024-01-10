@@ -1,0 +1,7438 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/capri\"))?"
+---
+name: CAPRI
+rows:
+  - row_type: Eq
+    row_name: VLRES
+  - row_type: Nr
+    row_name: OBJEC
+  - row_type: Eq
+    row_name: RAI72
+  - row_type: Geq
+    row_name: CVI72
+  - row_type: Geq
+    row_name: TRS72
+  - row_type: Eq
+    row_name: FPR72
+  - row_type: Eq
+    row_name: DEP72
+  - row_type: Eq
+    row_name: DEP73
+  - row_type: Eq
+    row_name: INV72
+  - row_type: Eq
+    row_name: INC72
+  - row_type: Eq
+    row_name: INT72
+  - row_type: Geq
+    row_name: TRS73
+  - row_type: Geq
+    row_name: CAF72
+  - row_type: Eq
+    row_name: FPR73
+  - row_type: Eq
+    row_name: RAI73
+  - row_type: Geq
+    row_name: CVI73
+  - row_type: Eq
+    row_name: DEP74
+  - row_type: Eq
+    row_name: INV73
+  - row_type: Eq
+    row_name: INC73
+  - row_type: Eq
+    row_name: INT73
+  - row_type: Geq
+    row_name: TRS74
+  - row_type: Geq
+    row_name: CAF73
+  - row_type: Eq
+    row_name: FPR74
+  - row_type: Eq
+    row_name: RAI74
+  - row_type: Geq
+    row_name: CVI74
+  - row_type: Eq
+    row_name: DEP75
+  - row_type: Eq
+    row_name: INV74
+  - row_type: Eq
+    row_name: INC74
+  - row_type: Eq
+    row_name: INT74
+  - row_type: Geq
+    row_name: TRS75
+  - row_type: Geq
+    row_name: CAF74
+  - row_type: Eq
+    row_name: FPR75
+  - row_type: Eq
+    row_name: RAI75
+  - row_type: Geq
+    row_name: CVI75
+  - row_type: Eq
+    row_name: DEP76
+  - row_type: Eq
+    row_name: INV75
+  - row_type: Eq
+    row_name: INC75
+  - row_type: Eq
+    row_name: INT75
+  - row_type: Geq
+    row_name: TRS76
+  - row_type: Geq
+    row_name: CAF75
+  - row_type: Eq
+    row_name: FPR76
+  - row_type: Eq
+    row_name: RAI76
+  - row_type: Geq
+    row_name: CVI76
+  - row_type: Eq
+    row_name: DEP77
+  - row_type: Eq
+    row_name: INV76
+  - row_type: Eq
+    row_name: INC76
+  - row_type: Eq
+    row_name: INT76
+  - row_type: Geq
+    row_name: TRS77
+  - row_type: Geq
+    row_name: CAF76
+  - row_type: Eq
+    row_name: FPR77
+  - row_type: Eq
+    row_name: RAI77
+  - row_type: Geq
+    row_name: CVI77
+  - row_type: Eq
+    row_name: DEP78
+  - row_type: Eq
+    row_name: INV77
+  - row_type: Eq
+    row_name: INC77
+  - row_type: Eq
+    row_name: INT77
+  - row_type: Geq
+    row_name: TRS78
+  - row_type: Geq
+    row_name: CAF77
+  - row_type: Eq
+    row_name: FPR78
+  - row_type: Eq
+    row_name: RAI78
+  - row_type: Geq
+    row_name: CVI78
+  - row_type: Eq
+    row_name: DEP79
+  - row_type: Eq
+    row_name: INV78
+  - row_type: Eq
+    row_name: INC78
+  - row_type: Eq
+    row_name: INT78
+  - row_type: Geq
+    row_name: TRS79
+  - row_type: Geq
+    row_name: CAF78
+  - row_type: Eq
+    row_name: FPR79
+  - row_type: Eq
+    row_name: RAI79
+  - row_type: Geq
+    row_name: CVI79
+  - row_type: Eq
+    row_name: DEP80
+  - row_type: Eq
+    row_name: INV79
+  - row_type: Eq
+    row_name: INC79
+  - row_type: Eq
+    row_name: INT79
+  - row_type: Geq
+    row_name: TRS80
+  - row_type: Geq
+    row_name: CAF79
+  - row_type: Eq
+    row_name: FPR80
+  - row_type: Eq
+    row_name: RAI80
+  - row_type: Geq
+    row_name: CVI80
+  - row_type: Eq
+    row_name: DEP81
+  - row_type: Eq
+    row_name: INV80
+  - row_type: Eq
+    row_name: INC80
+  - row_type: Eq
+    row_name: INT80
+  - row_type: Geq
+    row_name: TRS81
+  - row_type: Geq
+    row_name: CAF80
+  - row_type: Eq
+    row_name: FPR81
+  - row_type: Eq
+    row_name: RAI81
+  - row_type: Geq
+    row_name: CVI81
+  - row_type: Eq
+    row_name: INV81
+  - row_type: Eq
+    row_name: INC81
+  - row_type: Eq
+    row_name: INT81
+  - row_type: Geq
+    row_name: CAF81
+  - row_type: Eq
+    row_name: L1378
+  - row_type: Eq
+    row_name: L1379
+  - row_type: Leq
+    row_name: R1378
+  - row_type: Eq
+    row_name: FXE78
+  - row_type: Eq
+    row_name: FXE79
+  - row_type: Eq
+    row_name: FXE80
+  - row_type: Eq
+    row_name: FXE81
+  - row_type: Eq
+    row_name: XX178
+  - row_type: Eq
+    row_name: XX179
+  - row_type: Eq
+    row_name: XX378
+  - row_type: Eq
+    row_name: XX379
+  - row_type: Eq
+    row_name: L2378
+  - row_type: Eq
+    row_name: L2379
+  - row_type: Leq
+    row_name: R2378
+  - row_type: Eq
+    row_name: XX278
+  - row_type: Eq
+    row_name: XX279
+  - row_type: Eq
+    row_name: L3578
+  - row_type: Eq
+    row_name: L3579
+  - row_type: Leq
+    row_name: R3578
+  - row_type: Eq
+    row_name: XX578
+  - row_type: Eq
+    row_name: XX579
+  - row_type: Eq
+    row_name: L5478
+  - row_type: Eq
+    row_name: L5479
+  - row_type: Leq
+    row_name: R5478
+  - row_type: Eq
+    row_name: L5678
+  - row_type: Eq
+    row_name: L5679
+  - row_type: Leq
+    row_name: R5678
+  - row_type: Eq
+    row_name: L1380
+  - row_type: Leq
+    row_name: R1379
+  - row_type: Eq
+    row_name: XX180
+  - row_type: Eq
+    row_name: XX380
+  - row_type: Eq
+    row_name: L2380
+  - row_type: Leq
+    row_name: R2379
+  - row_type: Eq
+    row_name: XX280
+  - row_type: Eq
+    row_name: L3580
+  - row_type: Leq
+    row_name: R3579
+  - row_type: Eq
+    row_name: XX580
+  - row_type: Eq
+    row_name: L5480
+  - row_type: Leq
+    row_name: R5479
+  - row_type: Eq
+    row_name: L5680
+  - row_type: Leq
+    row_name: R5679
+  - row_type: Eq
+    row_name: L1381
+  - row_type: Leq
+    row_name: R1380
+  - row_type: Eq
+    row_name: XX181
+  - row_type: Eq
+    row_name: XX381
+  - row_type: Eq
+    row_name: L2381
+  - row_type: Leq
+    row_name: R2380
+  - row_type: Eq
+    row_name: XX281
+  - row_type: Eq
+    row_name: L3581
+  - row_type: Leq
+    row_name: R3580
+  - row_type: Eq
+    row_name: XX581
+  - row_type: Eq
+    row_name: L5481
+  - row_type: Leq
+    row_name: R5480
+  - row_type: Eq
+    row_name: L5681
+  - row_type: Leq
+    row_name: R5680
+  - row_type: Leq
+    row_name: R1381
+  - row_type: Leq
+    row_name: R2381
+  - row_type: Leq
+    row_name: R3581
+  - row_type: Leq
+    row_name: R5481
+  - row_type: Leq
+    row_name: R5681
+  - row_type: Eq
+    row_name: HCP78
+  - row_type: Eq
+    row_name: HED78
+  - row_type: Eq
+    row_name: RES78
+  - row_type: Eq
+    row_name: RES79
+  - row_type: Eq
+    row_name: RES80
+  - row_type: Eq
+    row_name: RES81
+  - row_type: Leq
+    row_name: OUT2X
+  - row_type: Eq
+    row_name: HCP79
+  - row_type: Eq
+    row_name: HED79
+  - row_type: Eq
+    row_name: HCP80
+  - row_type: Eq
+    row_name: HED80
+  - row_type: Leq
+    row_name: CASCX
+  - row_type: Eq
+    row_name: HCP81
+  - row_type: Eq
+    row_name: HED81
+  - row_type: Leq
+    row_name: CHALX
+  - row_type: Eq
+    row_name: RCP78
+  - row_type: Eq
+    row_name: RCP79
+  - row_type: Eq
+    row_name: RCP80
+  - row_type: Eq
+    row_name: RCP81
+  - row_type: Eq
+    row_name: GCP78
+  - row_type: Eq
+    row_name: GCP79
+  - row_type: Eq
+    row_name: GCP80
+  - row_type: Eq
+    row_name: GCP81
+  - row_type: Eq
+    row_name: NCP78
+  - row_type: Eq
+    row_name: NCP79
+  - row_type: Eq
+    row_name: NCP80
+  - row_type: Eq
+    row_name: NCP81
+  - row_type: Eq
+    row_name: BCP78
+  - row_type: Eq
+    row_name: BCP79
+  - row_type: Eq
+    row_name: BCP80
+  - row_type: Eq
+    row_name: BCP81
+  - row_type: Eq
+    row_name: ACP78
+  - row_type: Geq
+    row_name: CRS78
+  - row_type: Eq
+    row_name: ACP79
+  - row_type: Geq
+    row_name: AAH78
+  - row_type: Leq
+    row_name: CCH78
+  - row_type: Geq
+    row_name: AAN78
+  - row_type: Leq
+    row_name: CCN78
+  - row_type: Geq
+    row_name: AAT78
+  - row_type: Leq
+    row_name: CCT78
+  - row_type: Geq
+    row_name: AAB78
+  - row_type: Leq
+    row_name: CCB78
+  - row_type: Geq
+    row_name: AAR78
+  - row_type: Leq
+    row_name: CCR78
+  - row_type: Eq
+    row_name: AAG78
+  - row_type: Leq
+    row_name: CCG78
+  - row_type: Geq
+    row_name: CRS79
+  - row_type: Eq
+    row_name: ACP80
+  - row_type: Geq
+    row_name: AAH79
+  - row_type: Leq
+    row_name: CCH79
+  - row_type: Geq
+    row_name: AAN79
+  - row_type: Leq
+    row_name: CCN79
+  - row_type: Geq
+    row_name: AAT79
+  - row_type: Leq
+    row_name: CCT79
+  - row_type: Geq
+    row_name: AAB79
+  - row_type: Leq
+    row_name: CCB79
+  - row_type: Geq
+    row_name: AAR79
+  - row_type: Leq
+    row_name: CCR79
+  - row_type: Eq
+    row_name: AAG79
+  - row_type: Leq
+    row_name: CCG79
+  - row_type: Geq
+    row_name: CRS80
+  - row_type: Eq
+    row_name: ACP81
+  - row_type: Geq
+    row_name: AAH80
+  - row_type: Leq
+    row_name: CCH80
+  - row_type: Geq
+    row_name: AAN80
+  - row_type: Leq
+    row_name: CCN80
+  - row_type: Geq
+    row_name: AAT80
+  - row_type: Leq
+    row_name: CCT80
+  - row_type: Geq
+    row_name: AAB80
+  - row_type: Leq
+    row_name: CCB80
+  - row_type: Geq
+    row_name: AAR80
+  - row_type: Leq
+    row_name: CCR80
+  - row_type: Eq
+    row_name: AAG80
+  - row_type: Leq
+    row_name: CCG80
+  - row_type: Geq
+    row_name: CRS81
+  - row_type: Geq
+    row_name: AAH81
+  - row_type: Leq
+    row_name: CCH81
+  - row_type: Geq
+    row_name: AAN81
+  - row_type: Leq
+    row_name: CCN81
+  - row_type: Geq
+    row_name: AAT81
+  - row_type: Leq
+    row_name: CCT81
+  - row_type: Geq
+    row_name: AAB81
+  - row_type: Leq
+    row_name: CCB81
+  - row_type: Geq
+    row_name: AAR81
+  - row_type: Leq
+    row_name: CCR81
+  - row_type: Eq
+    row_name: AAG81
+  - row_type: Leq
+    row_name: CCG81
+  - row_type: Leq
+    row_name: EEH78
+  - row_type: Leq
+    row_name: EEH79
+  - row_type: Leq
+    row_name: RPM78
+  - row_type: Leq
+    row_name: EEN78
+  - row_type: Eq
+    row_name: TCP78
+  - row_type: Eq
+    row_name: TCP79
+  - row_type: Leq
+    row_name: EET78
+  - row_type: Leq
+    row_name: EET79
+  - row_type: Leq
+    row_name: EET80
+  - row_type: Leq
+    row_name: EET81
+  - row_type: Leq
+    row_name: EEB78
+  - row_type: Leq
+    row_name: EEB79
+  - row_type: Leq
+    row_name: EEB80
+  - row_type: Leq
+    row_name: EEB81
+  - row_type: Leq
+    row_name: EER78
+  - row_type: Leq
+    row_name: EEG78
+  - row_type: Leq
+    row_name: EEH80
+  - row_type: Leq
+    row_name: RPM79
+  - row_type: Leq
+    row_name: EEN79
+  - row_type: Eq
+    row_name: TCP80
+  - row_type: Leq
+    row_name: EER79
+  - row_type: Leq
+    row_name: EEG79
+  - row_type: Leq
+    row_name: EEH81
+  - row_type: Leq
+    row_name: RPM80
+  - row_type: Leq
+    row_name: EEN80
+  - row_type: Eq
+    row_name: TCP81
+  - row_type: Leq
+    row_name: EER80
+  - row_type: Leq
+    row_name: EEG80
+  - row_type: Leq
+    row_name: RPM81
+  - row_type: Leq
+    row_name: EEN81
+  - row_type: Leq
+    row_name: EER81
+  - row_type: Leq
+    row_name: EEG81
+  - row_type: Eq
+    row_name: DGRES
+columns:
+  - name: VALRES
+    first_pair:
+      row_name: VLRES
+      value: -1
+    second_pair:
+      row_name: OBJEC
+      value: 0.42409
+  - name: RNAI72
+    first_pair:
+      row_name: RAI72
+      value: -1
+    second_pair:
+      row_name: CVI72
+      value: 1
+  - name: RNAI72
+    first_pair:
+      row_name: TRS72
+      value: 1
+    second_pair:
+      row_name: FPR72
+      value: 1
+  - name: RVAD72
+    first_pair:
+      row_name: RAI72
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 1
+  - name: DEPN72
+    first_pair:
+      row_name: DEP72
+      value: -1
+    second_pair:
+      row_name: DEP73
+      value: 1
+  - name: DEPN72
+    first_pair:
+      row_name: RAI72
+      value: -1
+    second_pair:
+      row_name: TRS72
+      value: 1
+  - name: INVT72
+    first_pair:
+      row_name: INV72
+      value: -1
+    second_pair:
+      row_name: TRS72
+      value: -1
+  - name: INTC72
+    first_pair:
+      row_name: INC72
+      value: -1
+    second_pair:
+      row_name: FPR72
+      value: 1
+  - name: INTC72
+    first_pair:
+      row_name: TRS72
+      value: 1
+    second_pair: ~
+  - name: INTT72
+    first_pair:
+      row_name: INT72
+      value: -1
+    second_pair:
+      row_name: CVI72
+      value: -1.25002
+  - name: INTT72
+    first_pair:
+      row_name: TRS72
+      value: -1
+    second_pair:
+      row_name: FPR72
+      value: -1
+  - name: DETT72
+    first_pair:
+      row_name: INT72
+      value: 0.085
+    second_pair:
+      row_name: TRS72
+      value: 1
+  - name: DETT72
+    first_pair:
+      row_name: TRS73
+      value: -1
+    second_pair:
+      row_name: CAF72
+      value: -1
+  - name: FOPR72
+    first_pair:
+      row_name: FPR72
+      value: -1
+    second_pair:
+      row_name: FPR73
+      value: 1
+  - name: FOPR72
+    first_pair:
+      row_name: CAF72
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI73
+    first_pair:
+      row_name: RAI73
+      value: -1
+    second_pair:
+      row_name: CVI73
+      value: 1
+  - name: RNAI73
+    first_pair:
+      row_name: TRS73
+      value: 1
+    second_pair:
+      row_name: FPR73
+      value: 1
+  - name: RVAD73
+    first_pair:
+      row_name: RAI73
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.90909
+  - name: DEPN73
+    first_pair:
+      row_name: DEP73
+      value: -1
+    second_pair:
+      row_name: DEP74
+      value: 1
+  - name: DEPN73
+    first_pair:
+      row_name: RAI73
+      value: -1
+    second_pair:
+      row_name: TRS73
+      value: 1
+  - name: INVT73
+    first_pair:
+      row_name: INV73
+      value: -1
+    second_pair:
+      row_name: TRS73
+      value: -1
+  - name: INTC73
+    first_pair:
+      row_name: INC73
+      value: -1
+    second_pair:
+      row_name: FPR73
+      value: 1
+  - name: INTC73
+    first_pair:
+      row_name: TRS73
+      value: 1
+    second_pair: ~
+  - name: INTT73
+    first_pair:
+      row_name: INT73
+      value: -1
+    second_pair:
+      row_name: CVI73
+      value: -1.25002
+  - name: INTT73
+    first_pair:
+      row_name: TRS73
+      value: -1
+    second_pair:
+      row_name: FPR73
+      value: -1
+  - name: DETT73
+    first_pair:
+      row_name: INT73
+      value: 0.085
+    second_pair:
+      row_name: TRS73
+      value: 1
+  - name: DETT73
+    first_pair:
+      row_name: TRS74
+      value: -1
+    second_pair:
+      row_name: CAF73
+      value: -1
+  - name: FOPR73
+    first_pair:
+      row_name: FPR73
+      value: -1
+    second_pair:
+      row_name: FPR74
+      value: 1
+  - name: FOPR73
+    first_pair:
+      row_name: CAF73
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI74
+    first_pair:
+      row_name: RAI74
+      value: -1
+    second_pair:
+      row_name: CVI74
+      value: 1
+  - name: RNAI74
+    first_pair:
+      row_name: TRS74
+      value: 1
+    second_pair:
+      row_name: FPR74
+      value: 1
+  - name: RVAD74
+    first_pair:
+      row_name: RAI74
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.82644
+  - name: DEPN74
+    first_pair:
+      row_name: DEP74
+      value: -1
+    second_pair:
+      row_name: DEP75
+      value: 1
+  - name: DEPN74
+    first_pair:
+      row_name: RAI74
+      value: -1
+    second_pair:
+      row_name: TRS74
+      value: 1
+  - name: INVT74
+    first_pair:
+      row_name: INV74
+      value: -1
+    second_pair:
+      row_name: TRS74
+      value: -1
+  - name: INTC74
+    first_pair:
+      row_name: INC74
+      value: -1
+    second_pair:
+      row_name: FPR74
+      value: 1
+  - name: INTC74
+    first_pair:
+      row_name: TRS74
+      value: 1
+    second_pair: ~
+  - name: INTT74
+    first_pair:
+      row_name: INT74
+      value: -1
+    second_pair:
+      row_name: CVI74
+      value: -1.25002
+  - name: INTT74
+    first_pair:
+      row_name: TRS74
+      value: -1
+    second_pair:
+      row_name: FPR74
+      value: -1
+  - name: DETT74
+    first_pair:
+      row_name: INT74
+      value: 0.085
+    second_pair:
+      row_name: TRS74
+      value: 1
+  - name: DETT74
+    first_pair:
+      row_name: TRS75
+      value: -1
+    second_pair:
+      row_name: CAF74
+      value: -1
+  - name: FOPR74
+    first_pair:
+      row_name: FPR74
+      value: -1
+    second_pair:
+      row_name: FPR75
+      value: 1
+  - name: FOPR74
+    first_pair:
+      row_name: CAF74
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI75
+    first_pair:
+      row_name: RAI75
+      value: -1
+    second_pair:
+      row_name: CVI75
+      value: 1
+  - name: RNAI75
+    first_pair:
+      row_name: TRS75
+      value: 1
+    second_pair:
+      row_name: FPR75
+      value: 1
+  - name: RVAD75
+    first_pair:
+      row_name: RAI75
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.75131
+  - name: DEPN75
+    first_pair:
+      row_name: DEP75
+      value: -1
+    second_pair:
+      row_name: DEP76
+      value: 1
+  - name: DEPN75
+    first_pair:
+      row_name: RAI75
+      value: -1
+    second_pair:
+      row_name: TRS75
+      value: 1
+  - name: INVT75
+    first_pair:
+      row_name: INV75
+      value: -1
+    second_pair:
+      row_name: TRS75
+      value: -1
+  - name: INTC75
+    first_pair:
+      row_name: INC75
+      value: -1
+    second_pair:
+      row_name: FPR75
+      value: 1
+  - name: INTC75
+    first_pair:
+      row_name: TRS75
+      value: 1
+    second_pair: ~
+  - name: INTT75
+    first_pair:
+      row_name: INT75
+      value: -1
+    second_pair:
+      row_name: CVI75
+      value: -1.25002
+  - name: INTT75
+    first_pair:
+      row_name: TRS75
+      value: -1
+    second_pair:
+      row_name: FPR75
+      value: -1
+  - name: DETT75
+    first_pair:
+      row_name: INT75
+      value: 0.085
+    second_pair:
+      row_name: TRS75
+      value: 1
+  - name: DETT75
+    first_pair:
+      row_name: TRS76
+      value: -1
+    second_pair:
+      row_name: CAF75
+      value: -1
+  - name: FOPR75
+    first_pair:
+      row_name: FPR75
+      value: -1
+    second_pair:
+      row_name: FPR76
+      value: 1
+  - name: FOPR75
+    first_pair:
+      row_name: CAF75
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI76
+    first_pair:
+      row_name: RAI76
+      value: -1
+    second_pair:
+      row_name: CVI76
+      value: 1
+  - name: RNAI76
+    first_pair:
+      row_name: TRS76
+      value: 1
+    second_pair:
+      row_name: FPR76
+      value: 1
+  - name: RVAD76
+    first_pair:
+      row_name: RAI76
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.68301
+  - name: DEPN76
+    first_pair:
+      row_name: DEP76
+      value: -1
+    second_pair:
+      row_name: DEP77
+      value: 1
+  - name: DEPN76
+    first_pair:
+      row_name: RAI76
+      value: -1
+    second_pair:
+      row_name: TRS76
+      value: 1
+  - name: INVT76
+    first_pair:
+      row_name: INV76
+      value: -1
+    second_pair:
+      row_name: TRS76
+      value: -1
+  - name: INTC76
+    first_pair:
+      row_name: INC76
+      value: -1
+    second_pair:
+      row_name: FPR76
+      value: 1
+  - name: INTC76
+    first_pair:
+      row_name: TRS76
+      value: 1
+    second_pair: ~
+  - name: INTT76
+    first_pair:
+      row_name: INT76
+      value: -1
+    second_pair:
+      row_name: CVI76
+      value: -1.25002
+  - name: INTT76
+    first_pair:
+      row_name: TRS76
+      value: -1
+    second_pair:
+      row_name: FPR76
+      value: -1
+  - name: DETT76
+    first_pair:
+      row_name: INT76
+      value: 0.085
+    second_pair:
+      row_name: TRS76
+      value: 1
+  - name: DETT76
+    first_pair:
+      row_name: TRS77
+      value: -1
+    second_pair:
+      row_name: CAF76
+      value: -1
+  - name: FOPR76
+    first_pair:
+      row_name: FPR76
+      value: -1
+    second_pair:
+      row_name: FPR77
+      value: 1
+  - name: FOPR76
+    first_pair:
+      row_name: CAF76
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI77
+    first_pair:
+      row_name: RAI77
+      value: -1
+    second_pair:
+      row_name: CVI77
+      value: 1
+  - name: RNAI77
+    first_pair:
+      row_name: TRS77
+      value: 1
+    second_pair:
+      row_name: FPR77
+      value: 1
+  - name: RVAD77
+    first_pair:
+      row_name: RAI77
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.62092
+  - name: DEPN77
+    first_pair:
+      row_name: DEP77
+      value: -1
+    second_pair:
+      row_name: DEP78
+      value: 1
+  - name: DEPN77
+    first_pair:
+      row_name: RAI77
+      value: -1
+    second_pair:
+      row_name: TRS77
+      value: 1
+  - name: INVT77
+    first_pair:
+      row_name: INV77
+      value: -1
+    second_pair:
+      row_name: TRS77
+      value: -1
+  - name: INTC77
+    first_pair:
+      row_name: INC77
+      value: -1
+    second_pair:
+      row_name: FPR77
+      value: 1
+  - name: INTC77
+    first_pair:
+      row_name: TRS77
+      value: 1
+    second_pair: ~
+  - name: INTT77
+    first_pair:
+      row_name: INT77
+      value: -1
+    second_pair:
+      row_name: CVI77
+      value: -1.25002
+  - name: INTT77
+    first_pair:
+      row_name: TRS77
+      value: -1
+    second_pair:
+      row_name: FPR77
+      value: -1
+  - name: DETT77
+    first_pair:
+      row_name: INT77
+      value: 0.085
+    second_pair:
+      row_name: TRS77
+      value: 1
+  - name: DETT77
+    first_pair:
+      row_name: TRS78
+      value: -1
+    second_pair:
+      row_name: CAF77
+      value: -1
+  - name: FOPR77
+    first_pair:
+      row_name: FPR77
+      value: -1
+    second_pair:
+      row_name: FPR78
+      value: 1
+  - name: FOPR77
+    first_pair:
+      row_name: CAF77
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI78
+    first_pair:
+      row_name: RAI78
+      value: -1
+    second_pair:
+      row_name: CVI78
+      value: 1
+  - name: RNAI78
+    first_pair:
+      row_name: TRS78
+      value: 1
+    second_pair:
+      row_name: FPR78
+      value: 1
+  - name: RVAD78
+    first_pair:
+      row_name: RAI78
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.56447
+  - name: DEPN78
+    first_pair:
+      row_name: DEP78
+      value: -1
+    second_pair:
+      row_name: DEP79
+      value: 1
+  - name: DEPN78
+    first_pair:
+      row_name: RAI78
+      value: -1
+    second_pair:
+      row_name: TRS78
+      value: 1
+  - name: INVT78
+    first_pair:
+      row_name: INV78
+      value: -1
+    second_pair:
+      row_name: TRS78
+      value: -1
+  - name: INTC78
+    first_pair:
+      row_name: INC78
+      value: -1
+    second_pair:
+      row_name: FPR78
+      value: 1
+  - name: INTC78
+    first_pair:
+      row_name: TRS78
+      value: 1
+    second_pair: ~
+  - name: INTT78
+    first_pair:
+      row_name: INT78
+      value: -1
+    second_pair:
+      row_name: CVI78
+      value: -1.25002
+  - name: INTT78
+    first_pair:
+      row_name: TRS78
+      value: -1
+    second_pair:
+      row_name: FPR78
+      value: -1
+  - name: DETT78
+    first_pair:
+      row_name: INT78
+      value: 0.085
+    second_pair:
+      row_name: TRS78
+      value: 1
+  - name: DETT78
+    first_pair:
+      row_name: TRS79
+      value: -1
+    second_pair:
+      row_name: CAF78
+      value: -1
+  - name: FOPR78
+    first_pair:
+      row_name: FPR78
+      value: -1
+    second_pair:
+      row_name: FPR79
+      value: 1
+  - name: FOPR78
+    first_pair:
+      row_name: CAF78
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI79
+    first_pair:
+      row_name: RAI79
+      value: -1
+    second_pair:
+      row_name: CVI79
+      value: 1
+  - name: RNAI79
+    first_pair:
+      row_name: TRS79
+      value: 1
+    second_pair:
+      row_name: FPR79
+      value: 1
+  - name: RVAD79
+    first_pair:
+      row_name: RAI79
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.51315
+  - name: DEPN79
+    first_pair:
+      row_name: DEP79
+      value: -1
+    second_pair:
+      row_name: DEP80
+      value: 1
+  - name: DEPN79
+    first_pair:
+      row_name: RAI79
+      value: -1
+    second_pair:
+      row_name: TRS79
+      value: 1
+  - name: INVT79
+    first_pair:
+      row_name: INV79
+      value: -1
+    second_pair:
+      row_name: TRS79
+      value: -1
+  - name: INTC79
+    first_pair:
+      row_name: INC79
+      value: -1
+    second_pair:
+      row_name: FPR79
+      value: 1
+  - name: INTC79
+    first_pair:
+      row_name: TRS79
+      value: 1
+    second_pair: ~
+  - name: INTT79
+    first_pair:
+      row_name: INT79
+      value: -1
+    second_pair:
+      row_name: CVI79
+      value: -1.25002
+  - name: INTT79
+    first_pair:
+      row_name: TRS79
+      value: -1
+    second_pair:
+      row_name: FPR79
+      value: -1
+  - name: DETT79
+    first_pair:
+      row_name: INT79
+      value: 0.085
+    second_pair:
+      row_name: TRS79
+      value: 1
+  - name: DETT79
+    first_pair:
+      row_name: TRS80
+      value: -1
+    second_pair:
+      row_name: CAF79
+      value: -1
+  - name: FOPR79
+    first_pair:
+      row_name: FPR79
+      value: -1
+    second_pair:
+      row_name: FPR80
+      value: 1
+  - name: FOPR79
+    first_pair:
+      row_name: CAF79
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI80
+    first_pair:
+      row_name: RAI80
+      value: -1
+    second_pair:
+      row_name: CVI80
+      value: 1
+  - name: RNAI80
+    first_pair:
+      row_name: TRS80
+      value: 1
+    second_pair:
+      row_name: FPR80
+      value: 1
+  - name: RVAD80
+    first_pair:
+      row_name: RAI80
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.4665
+  - name: DEPN80
+    first_pair:
+      row_name: DEP80
+      value: -1
+    second_pair:
+      row_name: DEP81
+      value: 1
+  - name: DEPN80
+    first_pair:
+      row_name: RAI80
+      value: -1
+    second_pair:
+      row_name: TRS80
+      value: 1
+  - name: INVT80
+    first_pair:
+      row_name: INV80
+      value: -1
+    second_pair:
+      row_name: TRS80
+      value: -1
+  - name: INTC80
+    first_pair:
+      row_name: INC80
+      value: -1
+    second_pair:
+      row_name: FPR80
+      value: 1
+  - name: INTC80
+    first_pair:
+      row_name: TRS80
+      value: 1
+    second_pair: ~
+  - name: INTT80
+    first_pair:
+      row_name: INT80
+      value: -1
+    second_pair:
+      row_name: CVI80
+      value: -1.25002
+  - name: INTT80
+    first_pair:
+      row_name: TRS80
+      value: -1
+    second_pair:
+      row_name: FPR80
+      value: -1
+  - name: DETT80
+    first_pair:
+      row_name: INT80
+      value: 0.085
+    second_pair:
+      row_name: TRS80
+      value: 1
+  - name: DETT80
+    first_pair:
+      row_name: TRS81
+      value: -1
+    second_pair:
+      row_name: CAF80
+      value: -1
+  - name: FOPR80
+    first_pair:
+      row_name: FPR80
+      value: -1
+    second_pair:
+      row_name: FPR81
+      value: 1
+  - name: FOPR80
+    first_pair:
+      row_name: CAF80
+      value: 4.00007
+    second_pair: ~
+  - name: RNAI81
+    first_pair:
+      row_name: RAI81
+      value: -1
+    second_pair:
+      row_name: CVI81
+      value: 1
+  - name: RNAI81
+    first_pair:
+      row_name: TRS81
+      value: 1
+    second_pair:
+      row_name: FPR81
+      value: 1
+  - name: RVAD81
+    first_pair:
+      row_name: RAI81
+      value: 1
+    second_pair:
+      row_name: OBJEC
+      value: 0.42409
+  - name: DEPN81
+    first_pair:
+      row_name: DEP81
+      value: -1
+    second_pair:
+      row_name: RAI81
+      value: -1
+  - name: DEPN81
+    first_pair:
+      row_name: TRS81
+      value: 1
+    second_pair: ~
+  - name: INVT81
+    first_pair:
+      row_name: INV81
+      value: -1
+    second_pair:
+      row_name: TRS81
+      value: -1
+  - name: INTC81
+    first_pair:
+      row_name: INC81
+      value: -1
+    second_pair:
+      row_name: FPR81
+      value: 1
+  - name: INTC81
+    first_pair:
+      row_name: TRS81
+      value: 1
+    second_pair: ~
+  - name: INTT81
+    first_pair:
+      row_name: INT81
+      value: -1
+    second_pair:
+      row_name: CVI81
+      value: -1.25002
+  - name: INTT81
+    first_pair:
+      row_name: TRS81
+      value: -1
+    second_pair:
+      row_name: FPR81
+      value: -1
+  - name: INTT81
+    first_pair:
+      row_name: VLRES
+      value: 9.99983
+    second_pair: ~
+  - name: DETT81
+    first_pair:
+      row_name: INT81
+      value: 0.085
+    second_pair:
+      row_name: TRS81
+      value: 1
+  - name: DETT81
+    first_pair:
+      row_name: CAF81
+      value: -1
+    second_pair: ~
+  - name: FOPR81
+    first_pair:
+      row_name: FPR81
+      value: -1
+    second_pair:
+      row_name: CAF81
+      value: 4.00007
+  - name: CP1378
+    first_pair:
+      row_name: L1378
+      value: -1
+    second_pair:
+      row_name: L1379
+      value: 1
+  - name: CP1378
+    first_pair:
+      row_name: R1378
+      value: -1
+    second_pair: ~
+  - name: XX1378
+    first_pair:
+      row_name: R1378
+      value: 1
+    second_pair:
+      row_name: XX178
+      value: -1
+  - name: XX1378
+    first_pair:
+      row_name: XX179
+      value: 1
+    second_pair:
+      row_name: XX378
+      value: 1
+  - name: XX1378
+    first_pair:
+      row_name: XX379
+      value: -1
+    second_pair: ~
+  - name: CP2378
+    first_pair:
+      row_name: L2378
+      value: -1
+    second_pair:
+      row_name: L2379
+      value: 1
+  - name: CP2378
+    first_pair:
+      row_name: R2378
+      value: -1
+    second_pair: ~
+  - name: XX2378
+    first_pair:
+      row_name: R2378
+      value: 1
+    second_pair:
+      row_name: XX278
+      value: -1
+  - name: XX2378
+    first_pair:
+      row_name: XX279
+      value: 1
+    second_pair:
+      row_name: XX378
+      value: 1
+  - name: XX2378
+    first_pair:
+      row_name: XX379
+      value: -1
+    second_pair: ~
+  - name: CP3578
+    first_pair:
+      row_name: L3578
+      value: -1
+    second_pair:
+      row_name: L3579
+      value: 1
+  - name: CP3578
+    first_pair:
+      row_name: R3578
+      value: -1
+    second_pair: ~
+  - name: XX3578
+    first_pair:
+      row_name: R3578
+      value: 1
+    second_pair:
+      row_name: XX378
+      value: -1
+  - name: XX3578
+    first_pair:
+      row_name: XX379
+      value: 1
+    second_pair:
+      row_name: XX578
+      value: 1
+  - name: XX3578
+    first_pair:
+      row_name: XX579
+      value: -1
+    second_pair: ~
+  - name: CP5478
+    first_pair:
+      row_name: L5478
+      value: -1
+    second_pair:
+      row_name: L5479
+      value: 1
+  - name: CP5478
+    first_pair:
+      row_name: R5478
+      value: -1
+    second_pair: ~
+  - name: XX5478
+    first_pair:
+      row_name: R5478
+      value: 1
+    second_pair:
+      row_name: XX578
+      value: -1
+  - name: XX5478
+    first_pair:
+      row_name: XX579
+      value: 1
+    second_pair: ~
+  - name: CP5678
+    first_pair:
+      row_name: L5678
+      value: -1
+    second_pair:
+      row_name: L5679
+      value: 1
+  - name: CP5678
+    first_pair:
+      row_name: R5678
+      value: -1
+    second_pair: ~
+  - name: XX5678
+    first_pair:
+      row_name: R5678
+      value: 1
+    second_pair:
+      row_name: XX578
+      value: -1
+  - name: XX5678
+    first_pair:
+      row_name: XX579
+      value: 1
+    second_pair: ~
+  - name: CP1379
+    first_pair:
+      row_name: L1379
+      value: -1
+    second_pair:
+      row_name: L1380
+      value: 1
+  - name: CP1379
+    first_pair:
+      row_name: R1379
+      value: -1
+    second_pair: ~
+  - name: XX1379
+    first_pair:
+      row_name: R1379
+      value: 1
+    second_pair:
+      row_name: XX179
+      value: -1
+  - name: XX1379
+    first_pair:
+      row_name: XX180
+      value: 1
+    second_pair:
+      row_name: XX379
+      value: 1
+  - name: XX1379
+    first_pair:
+      row_name: XX380
+      value: -1
+    second_pair: ~
+  - name: CP2379
+    first_pair:
+      row_name: L2379
+      value: -1
+    second_pair:
+      row_name: L2380
+      value: 1
+  - name: CP2379
+    first_pair:
+      row_name: R2379
+      value: -1
+    second_pair: ~
+  - name: XX2379
+    first_pair:
+      row_name: R2379
+      value: 1
+    second_pair:
+      row_name: XX279
+      value: -1
+  - name: XX2379
+    first_pair:
+      row_name: XX280
+      value: 1
+    second_pair:
+      row_name: XX379
+      value: 1
+  - name: XX2379
+    first_pair:
+      row_name: XX380
+      value: -1
+    second_pair: ~
+  - name: CP3579
+    first_pair:
+      row_name: L3579
+      value: -1
+    second_pair:
+      row_name: L3580
+      value: 1
+  - name: CP3579
+    first_pair:
+      row_name: R3579
+      value: -1
+    second_pair: ~
+  - name: XX3579
+    first_pair:
+      row_name: R3579
+      value: 1
+    second_pair:
+      row_name: XX379
+      value: -1
+  - name: XX3579
+    first_pair:
+      row_name: XX380
+      value: 1
+    second_pair:
+      row_name: XX579
+      value: 1
+  - name: XX3579
+    first_pair:
+      row_name: XX580
+      value: -1
+    second_pair: ~
+  - name: CP5479
+    first_pair:
+      row_name: L5479
+      value: -1
+    second_pair:
+      row_name: L5480
+      value: 1
+  - name: CP5479
+    first_pair:
+      row_name: R5479
+      value: -1
+    second_pair: ~
+  - name: XX5479
+    first_pair:
+      row_name: R5479
+      value: 1
+    second_pair:
+      row_name: XX579
+      value: -1
+  - name: XX5479
+    first_pair:
+      row_name: XX580
+      value: 1
+    second_pair: ~
+  - name: CP5679
+    first_pair:
+      row_name: L5679
+      value: -1
+    second_pair:
+      row_name: L5680
+      value: 1
+  - name: CP5679
+    first_pair:
+      row_name: R5679
+      value: -1
+    second_pair: ~
+  - name: XX5679
+    first_pair:
+      row_name: R5679
+      value: 1
+    second_pair:
+      row_name: XX579
+      value: -1
+  - name: XX5679
+    first_pair:
+      row_name: XX580
+      value: 1
+    second_pair: ~
+  - name: CP1380
+    first_pair:
+      row_name: L1380
+      value: -1
+    second_pair:
+      row_name: L1381
+      value: 1
+  - name: CP1380
+    first_pair:
+      row_name: R1380
+      value: -1
+    second_pair: ~
+  - name: XX1380
+    first_pair:
+      row_name: R1380
+      value: 1
+    second_pair:
+      row_name: XX180
+      value: -1
+  - name: XX1380
+    first_pair:
+      row_name: XX181
+      value: 1
+    second_pair:
+      row_name: XX380
+      value: 1
+  - name: XX1380
+    first_pair:
+      row_name: XX381
+      value: -1
+    second_pair: ~
+  - name: CP2380
+    first_pair:
+      row_name: L2380
+      value: -1
+    second_pair:
+      row_name: L2381
+      value: 1
+  - name: CP2380
+    first_pair:
+      row_name: R2380
+      value: -1
+    second_pair: ~
+  - name: XX2380
+    first_pair:
+      row_name: R2380
+      value: 1
+    second_pair:
+      row_name: XX280
+      value: -1
+  - name: XX2380
+    first_pair:
+      row_name: XX281
+      value: 1
+    second_pair:
+      row_name: XX380
+      value: 1
+  - name: XX2380
+    first_pair:
+      row_name: XX381
+      value: -1
+    second_pair: ~
+  - name: CP3580
+    first_pair:
+      row_name: L3580
+      value: -1
+    second_pair:
+      row_name: L3581
+      value: 1
+  - name: CP3580
+    first_pair:
+      row_name: R3580
+      value: -1
+    second_pair: ~
+  - name: XX3580
+    first_pair:
+      row_name: R3580
+      value: 1
+    second_pair:
+      row_name: XX380
+      value: -1
+  - name: XX3580
+    first_pair:
+      row_name: XX381
+      value: 1
+    second_pair:
+      row_name: XX580
+      value: 1
+  - name: XX3580
+    first_pair:
+      row_name: XX581
+      value: -1
+    second_pair: ~
+  - name: CP5480
+    first_pair:
+      row_name: L5480
+      value: -1
+    second_pair:
+      row_name: L5481
+      value: 1
+  - name: CP5480
+    first_pair:
+      row_name: R5480
+      value: -1
+    second_pair: ~
+  - name: XX5480
+    first_pair:
+      row_name: R5480
+      value: 1
+    second_pair:
+      row_name: XX580
+      value: -1
+  - name: XX5480
+    first_pair:
+      row_name: XX581
+      value: 1
+    second_pair: ~
+  - name: CP5680
+    first_pair:
+      row_name: L5680
+      value: -1
+    second_pair:
+      row_name: L5681
+      value: 1
+  - name: CP5680
+    first_pair:
+      row_name: R5680
+      value: -1
+    second_pair: ~
+  - name: XX5680
+    first_pair:
+      row_name: R5680
+      value: 1
+    second_pair:
+      row_name: XX580
+      value: -1
+  - name: XX5680
+    first_pair:
+      row_name: XX581
+      value: 1
+    second_pair: ~
+  - name: CP1381
+    first_pair:
+      row_name: L1381
+      value: -1
+    second_pair:
+      row_name: R1381
+      value: -1
+  - name: XX1381
+    first_pair:
+      row_name: R1381
+      value: 1
+    second_pair:
+      row_name: XX181
+      value: -1
+  - name: XX1381
+    first_pair:
+      row_name: XX381
+      value: 1
+    second_pair: ~
+  - name: CP2381
+    first_pair:
+      row_name: L2381
+      value: -1
+    second_pair:
+      row_name: R2381
+      value: -1
+  - name: XX2381
+    first_pair:
+      row_name: R2381
+      value: 1
+    second_pair:
+      row_name: XX281
+      value: -1
+  - name: XX2381
+    first_pair:
+      row_name: XX381
+      value: 1
+    second_pair: ~
+  - name: CP3581
+    first_pair:
+      row_name: L3581
+      value: -1
+    second_pair:
+      row_name: R3581
+      value: -1
+  - name: XX3581
+    first_pair:
+      row_name: R3581
+      value: 1
+    second_pair:
+      row_name: XX381
+      value: -1
+  - name: XX3581
+    first_pair:
+      row_name: XX581
+      value: 1
+    second_pair: ~
+  - name: CP5481
+    first_pair:
+      row_name: L5481
+      value: -1
+    second_pair:
+      row_name: R5481
+      value: -1
+  - name: XX5481
+    first_pair:
+      row_name: R5481
+      value: 1
+    second_pair:
+      row_name: XX581
+      value: -1
+  - name: CP5681
+    first_pair:
+      row_name: L5681
+      value: -1
+    second_pair:
+      row_name: R5681
+      value: -1
+  - name: XX5681
+    first_pair:
+      row_name: R5681
+      value: 1
+    second_pair:
+      row_name: XX581
+      value: -1
+  - name: FEXE78
+    first_pair:
+      row_name: FXE78
+      value: -1
+    second_pair:
+      row_name: RAI78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: ACP78
+      value: -1
+    second_pair:
+      row_name: CRS78
+      value: 0.11416
+  - name: ACHT78
+    first_pair:
+      row_name: ACP79
+      value: 1
+    second_pair:
+      row_name: AAH78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCH78
+      value: -0.11416
+    second_pair:
+      row_name: AAN78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCN78
+      value: -0.11416
+    second_pair:
+      row_name: AAT78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCT78
+      value: -0.11416
+    second_pair:
+      row_name: AAB78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCB78
+      value: -0.11416
+    second_pair:
+      row_name: AAR78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCR78
+      value: -0.11416
+    second_pair:
+      row_name: AAG78
+      value: -1
+  - name: ACHT78
+    first_pair:
+      row_name: CCG78
+      value: -0.11416
+    second_pair: ~
+  - name: FEXE79
+    first_pair:
+      row_name: FXE79
+      value: -1
+    second_pair:
+      row_name: RAI79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: ACP79
+      value: -1
+    second_pair:
+      row_name: CRS79
+      value: 0.11416
+  - name: ACHT79
+    first_pair:
+      row_name: ACP80
+      value: 1
+    second_pair:
+      row_name: AAH79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCH79
+      value: -0.11416
+    second_pair:
+      row_name: AAN79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCN79
+      value: -0.11416
+    second_pair:
+      row_name: AAT79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCT79
+      value: -0.11416
+    second_pair:
+      row_name: AAB79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCB79
+      value: -0.11416
+    second_pair:
+      row_name: AAR79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCR79
+      value: -0.11416
+    second_pair:
+      row_name: AAG79
+      value: -1
+  - name: ACHT79
+    first_pair:
+      row_name: CCG79
+      value: -0.11416
+    second_pair: ~
+  - name: FEXE80
+    first_pair:
+      row_name: FXE80
+      value: -1
+    second_pair:
+      row_name: RAI80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: ACP80
+      value: -1
+    second_pair:
+      row_name: CRS80
+      value: 0.11416
+  - name: ACHT80
+    first_pair:
+      row_name: ACP81
+      value: 1
+    second_pair:
+      row_name: AAH80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCH80
+      value: -0.11416
+    second_pair:
+      row_name: AAN80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCN80
+      value: -0.11416
+    second_pair:
+      row_name: AAT80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCT80
+      value: -0.11416
+    second_pair:
+      row_name: AAB80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCB80
+      value: -0.11416
+    second_pair:
+      row_name: AAR80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCR80
+      value: -0.11416
+    second_pair:
+      row_name: AAG80
+      value: -1
+  - name: ACHT80
+    first_pair:
+      row_name: CCG80
+      value: -0.11416
+    second_pair: ~
+  - name: FEXE81
+    first_pair:
+      row_name: FXE81
+      value: -1
+    second_pair:
+      row_name: RAI81
+      value: -1
+  - name: ACHT81
+    first_pair:
+      row_name: ACP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAH81
+      value: -1
+    second_pair:
+      row_name: CCH81
+      value: -0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAN81
+      value: -1
+    second_pair:
+      row_name: CCN81
+      value: -0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAT81
+      value: -1
+    second_pair:
+      row_name: CCT81
+      value: -0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAB81
+      value: -1
+    second_pair:
+      row_name: CCB81
+      value: -0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAR81
+      value: -1
+    second_pair:
+      row_name: CCR81
+      value: -0.11416
+  - name: ACHT81
+    first_pair:
+      row_name: AAG81
+      value: -1
+    second_pair:
+      row_name: CCG81
+      value: -0.11416
+  - name: ESEC78
+    first_pair:
+      row_name: EEH78
+      value: 1
+    second_pair:
+      row_name: RAI78
+      value: -0.35001
+  - name: ESEC78
+    first_pair:
+      row_name: OBJEC
+      value: -0.28224
+    second_pair: ~
+  - name: GRES78
+    first_pair:
+      row_name: EEH78
+      value: 0.02433
+    second_pair:
+      row_name: EEH79
+      value: -0.02508
+  - name: HEND78
+    first_pair:
+      row_name: HED78
+      value: -1
+    second_pair:
+      row_name: HED79
+      value: 1
+  - name: HEND78
+    first_pair:
+      row_name: EEH78
+      value: -1
+    second_pair: ~
+  - name: HCAP78
+    first_pair:
+      row_name: HCP78
+      value: -1
+    second_pair:
+      row_name: HCP79
+      value: 1
+  - name: HCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: CCH78
+      value: -0.98802
+  - name: HCAP78
+    first_pair:
+      row_name: CCN78
+      value: -0.98802
+    second_pair:
+      row_name: CCT78
+      value: -0.98802
+  - name: HCAP78
+    first_pair:
+      row_name: CCB78
+      value: -0.98802
+    second_pair:
+      row_name: CCR78
+      value: -0.98802
+  - name: HCAP78
+    first_pair:
+      row_name: CCG78
+      value: -0.98802
+    second_pair: ~
+  - name: WK1H78
+    first_pair:
+      row_name: AAH78
+      value: 8.76015
+    second_pair:
+      row_name: CCH78
+      value: 1
+  - name: WK2H78
+    first_pair:
+      row_name: AAH78
+      value: 6.1321
+    second_pair:
+      row_name: CCH78
+      value: 1
+  - name: WK3H78
+    first_pair:
+      row_name: AAH78
+      value: 4.02967
+    second_pair:
+      row_name: CCH78
+      value: 1
+  - name: WK4H78
+    first_pair:
+      row_name: AAH78
+      value: 1.75203
+    second_pair:
+      row_name: CCH78
+      value: 1
+  - name: EHRP78
+    first_pair:
+      row_name: EEH78
+      value: 1
+    second_pair:
+      row_name: RPM78
+      value: -0.75001
+  - name: EHRP78
+    first_pair:
+      row_name: RAI78
+      value: -0.50001
+    second_pair: ~
+  - name: HENE78
+    first_pair:
+      row_name: RAI78
+      value: -0.50001
+    second_pair:
+      row_name: AAH78
+      value: -1
+  - name: HENE78
+    first_pair:
+      row_name: AAN78
+      value: -1
+    second_pair:
+      row_name: AAT78
+      value: -1
+  - name: HENE78
+    first_pair:
+      row_name: AAB78
+      value: -1
+    second_pair:
+      row_name: AAR78
+      value: -1
+  - name: HENE78
+    first_pair:
+      row_name: AAG78
+      value: -1
+    second_pair:
+      row_name: EEH78
+      value: 1
+  - name: HENE78
+    first_pair:
+      row_name: OBJEC
+      value: -0.28224
+    second_pair: ~
+  - name: NCAP78
+    first_pair:
+      row_name: NCP78
+      value: -1
+    second_pair:
+      row_name: NCP79
+      value: 1
+  - name: NCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: EEN78
+      value: -7.00813
+  - name: NCAP78
+    first_pair:
+      row_name: CCN78
+      value: -0.85001
+    second_pair:
+      row_name: CCT78
+      value: -0.85001
+  - name: NCAP78
+    first_pair:
+      row_name: CCB78
+      value: -0.85001
+    second_pair:
+      row_name: CCR78
+      value: -0.85001
+  - name: NCAP78
+    first_pair:
+      row_name: CCG78
+      value: -0.85001
+    second_pair: ~
+  - name: WK1N78
+    first_pair:
+      row_name: AAN78
+      value: 8.76015
+    second_pair:
+      row_name: CCN78
+      value: 1
+  - name: WK2N78
+    first_pair:
+      row_name: AAN78
+      value: 6.1321
+    second_pair:
+      row_name: CCN78
+      value: 1
+  - name: WK3N78
+    first_pair:
+      row_name: AAN78
+      value: 4.02967
+    second_pair:
+      row_name: CCN78
+      value: 1
+  - name: WK4N78
+    first_pair:
+      row_name: AAN78
+      value: 1.75203
+    second_pair:
+      row_name: CCN78
+      value: 1
+  - name: ENRP78
+    first_pair:
+      row_name: EEN78
+      value: 1
+    second_pair:
+      row_name: RPM78
+      value: -0.75001
+  - name: ENRP78
+    first_pair:
+      row_name: RAI78
+      value: -0.74282
+    second_pair: ~
+  - name: NENE78
+    first_pair:
+      row_name: RAI78
+      value: -0.74282
+    second_pair:
+      row_name: AAN78
+      value: -1
+  - name: NENE78
+    first_pair:
+      row_name: AAT78
+      value: -1
+    second_pair:
+      row_name: AAB78
+      value: -1
+  - name: NENE78
+    first_pair:
+      row_name: AAR78
+      value: -1
+    second_pair:
+      row_name: AAG78
+      value: -1
+  - name: NENE78
+    first_pair:
+      row_name: EEN78
+      value: 1
+    second_pair: ~
+  - name: TCAP78
+    first_pair:
+      row_name: TCP78
+      value: -1
+    second_pair:
+      row_name: TCP79
+      value: 1
+  - name: TCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: EET78
+      value: -6.13201
+  - name: TCAP78
+    first_pair:
+      row_name: EET79
+      value: -0.438
+    second_pair:
+      row_name: EET80
+      value: -0.2628
+  - name: TCAP78
+    first_pair:
+      row_name: EET81
+      value: -0.1752
+    second_pair:
+      row_name: CCT78
+      value: -0.75
+  - name: TCAP78
+    first_pair:
+      row_name: CCT79
+      value: -0.07
+    second_pair:
+      row_name: CCT80
+      value: -0.03
+  - name: TCAP78
+    first_pair:
+      row_name: CCB78
+      value: -0.75
+    second_pair:
+      row_name: CCB79
+      value: -0.07
+  - name: TCAP78
+    first_pair:
+      row_name: CCB80
+      value: -0.03
+    second_pair:
+      row_name: CCR78
+      value: -0.75
+  - name: TCAP78
+    first_pair:
+      row_name: CCR79
+      value: -0.07
+    second_pair:
+      row_name: CCR80
+      value: -0.03
+  - name: TCAP78
+    first_pair:
+      row_name: CCG78
+      value: -0.75
+    second_pair:
+      row_name: CCG79
+      value: -0.07
+  - name: TCAP78
+    first_pair:
+      row_name: CCG80
+      value: -0.03
+    second_pair: ~
+  - name: WK1T78
+    first_pair:
+      row_name: AAT78
+      value: 8.76015
+    second_pair:
+      row_name: CCT78
+      value: 1
+  - name: WK2T78
+    first_pair:
+      row_name: AAT78
+      value: 6.1321
+    second_pair:
+      row_name: CCT78
+      value: 1
+  - name: WK3T78
+    first_pair:
+      row_name: AAT78
+      value: 4.02967
+    second_pair:
+      row_name: CCT78
+      value: 1
+  - name: WK4T78
+    first_pair:
+      row_name: AAT78
+      value: 1.75203
+    second_pair:
+      row_name: CCT78
+      value: 1
+  - name: ETRP78
+    first_pair:
+      row_name: EET78
+      value: 1
+    second_pair:
+      row_name: RPM78
+      value: -0.75001
+  - name: ETRP78
+    first_pair:
+      row_name: RAI78
+      value: -5.06437
+    second_pair: ~
+  - name: TENE78
+    first_pair:
+      row_name: RAI78
+      value: -5.06437
+    second_pair:
+      row_name: AAT78
+      value: -1
+  - name: TENE78
+    first_pair:
+      row_name: AAB78
+      value: -1
+    second_pair:
+      row_name: AAR78
+      value: -1
+  - name: TENE78
+    first_pair:
+      row_name: AAG78
+      value: -1
+    second_pair:
+      row_name: EET78
+      value: 1
+  - name: BCAP78
+    first_pair:
+      row_name: BCP78
+      value: -1
+    second_pair:
+      row_name: BCP79
+      value: 1
+  - name: BCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: EEB78
+      value: -7.00813
+  - name: BCAP78
+    first_pair:
+      row_name: CCB78
+      value: -0.75001
+    second_pair:
+      row_name: CCB79
+      value: -0.05
+  - name: BCAP78
+    first_pair:
+      row_name: CCB80
+      value: -0.03
+    second_pair:
+      row_name: CCB81
+      value: -0.02
+  - name: BCAP78
+    first_pair:
+      row_name: CCR78
+      value: -0.75001
+    second_pair:
+      row_name: CCR79
+      value: -0.05
+  - name: BCAP78
+    first_pair:
+      row_name: CCR80
+      value: -0.03
+    second_pair:
+      row_name: CCR81
+      value: -0.02
+  - name: BCAP78
+    first_pair:
+      row_name: CCG78
+      value: -0.75001
+    second_pair:
+      row_name: CCG79
+      value: -0.05
+  - name: BCAP78
+    first_pair:
+      row_name: CCG80
+      value: -0.03
+    second_pair:
+      row_name: CCG81
+      value: -0.02
+  - name: WK1B78
+    first_pair:
+      row_name: AAB78
+      value: 8.76015
+    second_pair:
+      row_name: CCB78
+      value: 1
+  - name: WK2B78
+    first_pair:
+      row_name: AAB78
+      value: 6.1321
+    second_pair:
+      row_name: CCB78
+      value: 1
+  - name: WK3B78
+    first_pair:
+      row_name: AAB78
+      value: 4.02967
+    second_pair:
+      row_name: CCB78
+      value: 1
+  - name: WK4B78
+    first_pair:
+      row_name: AAB78
+      value: 1.75203
+    second_pair:
+      row_name: CCB78
+      value: 1
+  - name: EBRP78
+    first_pair:
+      row_name: EEB78
+      value: 1
+    second_pair:
+      row_name: RPM78
+      value: -0.75001
+  - name: EBRP78
+    first_pair:
+      row_name: RAI78
+      value: -5.40147
+    second_pair: ~
+  - name: BENE78
+    first_pair:
+      row_name: RAI78
+      value: -5.40147
+    second_pair:
+      row_name: AAB78
+      value: -1
+  - name: BENE78
+    first_pair:
+      row_name: AAR78
+      value: -1
+    second_pair:
+      row_name: AAG78
+      value: -1
+  - name: BENE78
+    first_pair:
+      row_name: EEB78
+      value: 1
+    second_pair: ~
+  - name: RCAP78
+    first_pair:
+      row_name: RCP78
+      value: -1
+    second_pair:
+      row_name: RCP79
+      value: 1
+  - name: RCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: EER78
+      value: -2.19004
+  - name: RCAP78
+    first_pair:
+      row_name: CCR78
+      value: -0.98802
+    second_pair:
+      row_name: CCG78
+      value: -0.98802
+  - name: WK1R78
+    first_pair:
+      row_name: AAR78
+      value: 8.76015
+    second_pair:
+      row_name: CCR78
+      value: 1
+  - name: WK2R78
+    first_pair:
+      row_name: AAR78
+      value: 6.1321
+    second_pair:
+      row_name: CCR78
+      value: 1
+  - name: WK3R78
+    first_pair:
+      row_name: AAR78
+      value: 4.02967
+    second_pair:
+      row_name: CCR78
+      value: 1
+  - name: WK4R78
+    first_pair:
+      row_name: AAR78
+      value: 1.75203
+    second_pair:
+      row_name: CCR78
+      value: 1
+  - name: RENE78
+    first_pair:
+      row_name: AAR78
+      value: -1
+    second_pair:
+      row_name: AAG78
+      value: -1
+  - name: RENE78
+    first_pair:
+      row_name: EER78
+      value: 1
+    second_pair:
+      row_name: RPM78
+      value: 1
+  - name: GCAP78
+    first_pair:
+      row_name: GCP78
+      value: -1
+    second_pair:
+      row_name: GCP79
+      value: 1
+  - name: GCAP78
+    first_pair:
+      row_name: CRS78
+      value: 1
+    second_pair:
+      row_name: EEG78
+      value: -3.50406
+  - name: GCAP78
+    first_pair:
+      row_name: CCG78
+      value: -0.90002
+    second_pair: ~
+  - name: WK1G78
+    first_pair:
+      row_name: AAG78
+      value: 8.76015
+    second_pair:
+      row_name: CCG78
+      value: 1
+  - name: WK2G78
+    first_pair:
+      row_name: AAG78
+      value: 6.1321
+    second_pair:
+      row_name: CCG78
+      value: 1
+  - name: WK3G78
+    first_pair:
+      row_name: AAG78
+      value: 4.02967
+    second_pair:
+      row_name: CCG78
+      value: 1
+  - name: WK4G78
+    first_pair:
+      row_name: AAG78
+      value: 1.75203
+    second_pair:
+      row_name: CCG78
+      value: 1
+  - name: GENE78
+    first_pair:
+      row_name: RAI78
+      value: -16.09344
+    second_pair:
+      row_name: AAG78
+      value: -1
+  - name: GENE78
+    first_pair:
+      row_name: EEG78
+      value: 1
+    second_pair: ~
+  - name: ESEC79
+    first_pair:
+      row_name: EEH79
+      value: 1
+    second_pair:
+      row_name: RAI79
+      value: -0.35001
+  - name: ESEC79
+    first_pair:
+      row_name: OBJEC
+      value: -0.25659
+    second_pair: ~
+  - name: GRES79
+    first_pair:
+      row_name: EEH79
+      value: 0.02433
+    second_pair:
+      row_name: EEH80
+      value: -0.02508
+  - name: HEND79
+    first_pair:
+      row_name: HED79
+      value: -1
+    second_pair:
+      row_name: HED80
+      value: 1
+  - name: HEND79
+    first_pair:
+      row_name: EEH79
+      value: -1
+    second_pair: ~
+  - name: HCAP79
+    first_pair:
+      row_name: HCP79
+      value: -1
+    second_pair:
+      row_name: HCP80
+      value: 1
+  - name: HCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: CCH79
+      value: -0.98802
+  - name: HCAP79
+    first_pair:
+      row_name: CCN79
+      value: -0.98802
+    second_pair:
+      row_name: CCT79
+      value: -0.98802
+  - name: HCAP79
+    first_pair:
+      row_name: CCB79
+      value: -0.98802
+    second_pair:
+      row_name: CCR79
+      value: -0.98802
+  - name: HCAP79
+    first_pair:
+      row_name: CCG79
+      value: -0.98802
+    second_pair: ~
+  - name: WK1H79
+    first_pair:
+      row_name: AAH79
+      value: 8.76015
+    second_pair:
+      row_name: CCH79
+      value: 1
+  - name: WK2H79
+    first_pair:
+      row_name: AAH79
+      value: 6.1321
+    second_pair:
+      row_name: CCH79
+      value: 1
+  - name: WK3H79
+    first_pair:
+      row_name: AAH79
+      value: 4.02967
+    second_pair:
+      row_name: CCH79
+      value: 1
+  - name: WK4H79
+    first_pair:
+      row_name: AAH79
+      value: 1.75203
+    second_pair:
+      row_name: CCH79
+      value: 1
+  - name: EHRP79
+    first_pair:
+      row_name: EEH79
+      value: 1
+    second_pair:
+      row_name: RPM79
+      value: -0.75001
+  - name: EHRP79
+    first_pair:
+      row_name: RAI79
+      value: -0.50001
+    second_pair: ~
+  - name: HENE79
+    first_pair:
+      row_name: RAI79
+      value: -0.50001
+    second_pair:
+      row_name: AAH79
+      value: -1
+  - name: HENE79
+    first_pair:
+      row_name: AAN79
+      value: -1
+    second_pair:
+      row_name: AAT79
+      value: -1
+  - name: HENE79
+    first_pair:
+      row_name: AAB79
+      value: -1
+    second_pair:
+      row_name: AAR79
+      value: -1
+  - name: HENE79
+    first_pair:
+      row_name: AAG79
+      value: -1
+    second_pair:
+      row_name: EEH79
+      value: 1
+  - name: HENE79
+    first_pair:
+      row_name: OBJEC
+      value: -0.25659
+    second_pair: ~
+  - name: NCAP79
+    first_pair:
+      row_name: NCP79
+      value: -1
+    second_pair:
+      row_name: NCP80
+      value: 1
+  - name: NCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: EEN79
+      value: -7.00813
+  - name: NCAP79
+    first_pair:
+      row_name: CCN79
+      value: -0.85001
+    second_pair:
+      row_name: CCT79
+      value: -0.85001
+  - name: NCAP79
+    first_pair:
+      row_name: CCB79
+      value: -0.85001
+    second_pair:
+      row_name: CCR79
+      value: -0.85001
+  - name: NCAP79
+    first_pair:
+      row_name: CCG79
+      value: -0.85001
+    second_pair: ~
+  - name: WK1N79
+    first_pair:
+      row_name: AAN79
+      value: 8.76015
+    second_pair:
+      row_name: CCN79
+      value: 1
+  - name: WK2N79
+    first_pair:
+      row_name: AAN79
+      value: 6.1321
+    second_pair:
+      row_name: CCN79
+      value: 1
+  - name: WK3N79
+    first_pair:
+      row_name: AAN79
+      value: 4.02967
+    second_pair:
+      row_name: CCN79
+      value: 1
+  - name: WK4N79
+    first_pair:
+      row_name: AAN79
+      value: 1.75203
+    second_pair:
+      row_name: CCN79
+      value: 1
+  - name: ENRP79
+    first_pair:
+      row_name: EEN79
+      value: 1
+    second_pair:
+      row_name: RPM79
+      value: -0.75001
+  - name: ENRP79
+    first_pair:
+      row_name: RAI79
+      value: -0.75025
+    second_pair: ~
+  - name: NENE79
+    first_pair:
+      row_name: RAI79
+      value: -0.75025
+    second_pair:
+      row_name: AAN79
+      value: -1
+  - name: NENE79
+    first_pair:
+      row_name: AAT79
+      value: -1
+    second_pair:
+      row_name: AAB79
+      value: -1
+  - name: NENE79
+    first_pair:
+      row_name: AAR79
+      value: -1
+    second_pair:
+      row_name: AAG79
+      value: -1
+  - name: NENE79
+    first_pair:
+      row_name: EEN79
+      value: 1
+    second_pair: ~
+  - name: TCAP79
+    first_pair:
+      row_name: TCP79
+      value: -1
+    second_pair:
+      row_name: TCP80
+      value: 1
+  - name: TCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: EET79
+      value: -6.13201
+  - name: TCAP79
+    first_pair:
+      row_name: EET80
+      value: -0.438
+    second_pair:
+      row_name: EET81
+      value: -0.2628
+  - name: TCAP79
+    first_pair:
+      row_name: CCT79
+      value: -0.75
+    second_pair:
+      row_name: CCT80
+      value: -0.07
+  - name: TCAP79
+    first_pair:
+      row_name: CCT81
+      value: -0.03
+    second_pair:
+      row_name: CCB79
+      value: -0.75
+  - name: TCAP79
+    first_pair:
+      row_name: CCB80
+      value: -0.07
+    second_pair:
+      row_name: CCB81
+      value: -0.03
+  - name: TCAP79
+    first_pair:
+      row_name: CCR79
+      value: -0.75
+    second_pair:
+      row_name: CCR80
+      value: -0.07
+  - name: TCAP79
+    first_pair:
+      row_name: CCR81
+      value: -0.03
+    second_pair:
+      row_name: CCG79
+      value: -0.75
+  - name: TCAP79
+    first_pair:
+      row_name: CCG80
+      value: -0.07
+    second_pair:
+      row_name: CCG81
+      value: -0.03
+  - name: WK1T79
+    first_pair:
+      row_name: AAT79
+      value: 8.76015
+    second_pair:
+      row_name: CCT79
+      value: 1
+  - name: WK2T79
+    first_pair:
+      row_name: AAT79
+      value: 6.1321
+    second_pair:
+      row_name: CCT79
+      value: 1
+  - name: WK3T79
+    first_pair:
+      row_name: AAT79
+      value: 4.02967
+    second_pair:
+      row_name: CCT79
+      value: 1
+  - name: WK4T79
+    first_pair:
+      row_name: AAT79
+      value: 1.75203
+    second_pair:
+      row_name: CCT79
+      value: 1
+  - name: ETRP79
+    first_pair:
+      row_name: EET79
+      value: 1
+    second_pair:
+      row_name: RPM79
+      value: -0.75001
+  - name: ETRP79
+    first_pair:
+      row_name: RAI79
+      value: -5.16566
+    second_pair: ~
+  - name: TENE79
+    first_pair:
+      row_name: RAI79
+      value: -5.16566
+    second_pair:
+      row_name: AAT79
+      value: -1
+  - name: TENE79
+    first_pair:
+      row_name: AAB79
+      value: -1
+    second_pair:
+      row_name: AAR79
+      value: -1
+  - name: TENE79
+    first_pair:
+      row_name: AAG79
+      value: -1
+    second_pair:
+      row_name: EET79
+      value: 1
+  - name: BCAP79
+    first_pair:
+      row_name: BCP79
+      value: -1
+    second_pair:
+      row_name: BCP80
+      value: 1
+  - name: BCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: EEB79
+      value: -7.00813
+  - name: BCAP79
+    first_pair:
+      row_name: CCB79
+      value: -0.75001
+    second_pair:
+      row_name: CCB80
+      value: -0.05
+  - name: BCAP79
+    first_pair:
+      row_name: CCB81
+      value: -0.03
+    second_pair:
+      row_name: CCR79
+      value: -0.75001
+  - name: BCAP79
+    first_pair:
+      row_name: CCR80
+      value: -0.05
+    second_pair:
+      row_name: CCR81
+      value: -0.03
+  - name: BCAP79
+    first_pair:
+      row_name: CCG79
+      value: -0.75001
+    second_pair:
+      row_name: CCG80
+      value: -0.05
+  - name: BCAP79
+    first_pair:
+      row_name: CCG81
+      value: -0.03
+    second_pair: ~
+  - name: WK1B79
+    first_pair:
+      row_name: AAB79
+      value: 8.76015
+    second_pair:
+      row_name: CCB79
+      value: 1
+  - name: WK2B79
+    first_pair:
+      row_name: AAB79
+      value: 6.1321
+    second_pair:
+      row_name: CCB79
+      value: 1
+  - name: WK3B79
+    first_pair:
+      row_name: AAB79
+      value: 4.02967
+    second_pair:
+      row_name: CCB79
+      value: 1
+  - name: WK4B79
+    first_pair:
+      row_name: AAB79
+      value: 1.75203
+    second_pair:
+      row_name: CCB79
+      value: 1
+  - name: EBRP79
+    first_pair:
+      row_name: EEB79
+      value: 1
+    second_pair:
+      row_name: RPM79
+      value: -0.75001
+  - name: EBRP79
+    first_pair:
+      row_name: RAI79
+      value: -5.50949
+    second_pair: ~
+  - name: BENE79
+    first_pair:
+      row_name: RAI79
+      value: -5.50949
+    second_pair:
+      row_name: AAB79
+      value: -1
+  - name: BENE79
+    first_pair:
+      row_name: AAR79
+      value: -1
+    second_pair:
+      row_name: AAG79
+      value: -1
+  - name: BENE79
+    first_pair:
+      row_name: EEB79
+      value: 1
+    second_pair: ~
+  - name: RCAP79
+    first_pair:
+      row_name: RCP79
+      value: -1
+    second_pair:
+      row_name: RCP80
+      value: 1
+  - name: RCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: EER79
+      value: -2.19004
+  - name: RCAP79
+    first_pair:
+      row_name: CCR79
+      value: -0.98802
+    second_pair:
+      row_name: CCG79
+      value: -0.98802
+  - name: WK1R79
+    first_pair:
+      row_name: AAR79
+      value: 8.76015
+    second_pair:
+      row_name: CCR79
+      value: 1
+  - name: WK2R79
+    first_pair:
+      row_name: AAR79
+      value: 6.1321
+    second_pair:
+      row_name: CCR79
+      value: 1
+  - name: WK3R79
+    first_pair:
+      row_name: AAR79
+      value: 4.02967
+    second_pair:
+      row_name: CCR79
+      value: 1
+  - name: WK4R79
+    first_pair:
+      row_name: AAR79
+      value: 1.75203
+    second_pair:
+      row_name: CCR79
+      value: 1
+  - name: RENE79
+    first_pair:
+      row_name: AAR79
+      value: -1
+    second_pair:
+      row_name: AAG79
+      value: -1
+  - name: RENE79
+    first_pair:
+      row_name: EER79
+      value: 1
+    second_pair:
+      row_name: RPM79
+      value: 1
+  - name: GCAP79
+    first_pair:
+      row_name: GCP79
+      value: -1
+    second_pair:
+      row_name: GCP80
+      value: 1
+  - name: GCAP79
+    first_pair:
+      row_name: CRS79
+      value: 1
+    second_pair:
+      row_name: EEG79
+      value: -3.50406
+  - name: GCAP79
+    first_pair:
+      row_name: CCG79
+      value: -0.90002
+    second_pair: ~
+  - name: WK1G79
+    first_pair:
+      row_name: AAG79
+      value: 8.76015
+    second_pair:
+      row_name: CCG79
+      value: 1
+  - name: WK2G79
+    first_pair:
+      row_name: AAG79
+      value: 6.1321
+    second_pair:
+      row_name: CCG79
+      value: 1
+  - name: WK3G79
+    first_pair:
+      row_name: AAG79
+      value: 4.02967
+    second_pair:
+      row_name: CCG79
+      value: 1
+  - name: WK4G79
+    first_pair:
+      row_name: AAG79
+      value: 1.75203
+    second_pair:
+      row_name: CCG79
+      value: 1
+  - name: GENE79
+    first_pair:
+      row_name: RAI79
+      value: -16.4153
+    second_pair:
+      row_name: AAG79
+      value: -1
+  - name: GENE79
+    first_pair:
+      row_name: EEG79
+      value: 1
+    second_pair: ~
+  - name: ESEC80
+    first_pair:
+      row_name: EEH80
+      value: 1
+    second_pair:
+      row_name: RAI80
+      value: -0.35001
+  - name: ESEC80
+    first_pair:
+      row_name: OBJEC
+      value: -0.23326
+    second_pair: ~
+  - name: GRES80
+    first_pair:
+      row_name: EEH80
+      value: 0.02433
+    second_pair:
+      row_name: EEH81
+      value: -0.02508
+  - name: GRES80
+    first_pair:
+      row_name: DGRES
+      value: -1
+    second_pair: ~
+  - name: HEND80
+    first_pair:
+      row_name: HED80
+      value: -1
+    second_pair:
+      row_name: HED81
+      value: 1
+  - name: HEND80
+    first_pair:
+      row_name: EEH80
+      value: -1
+    second_pair: ~
+  - name: HCAP80
+    first_pair:
+      row_name: HCP80
+      value: -1
+    second_pair:
+      row_name: HCP81
+      value: 1
+  - name: HCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: CCH80
+      value: -0.98802
+  - name: HCAP80
+    first_pair:
+      row_name: CCN80
+      value: -0.98802
+    second_pair:
+      row_name: CCT80
+      value: -0.98802
+  - name: HCAP80
+    first_pair:
+      row_name: CCB80
+      value: -0.98802
+    second_pair:
+      row_name: CCR80
+      value: -0.98802
+  - name: HCAP80
+    first_pair:
+      row_name: CCG80
+      value: -0.98802
+    second_pair: ~
+  - name: WK1H80
+    first_pair:
+      row_name: AAH80
+      value: 8.76015
+    second_pair:
+      row_name: CCH80
+      value: 1
+  - name: WK2H80
+    first_pair:
+      row_name: AAH80
+      value: 6.1321
+    second_pair:
+      row_name: CCH80
+      value: 1
+  - name: WK3H80
+    first_pair:
+      row_name: AAH80
+      value: 4.02967
+    second_pair:
+      row_name: CCH80
+      value: 1
+  - name: WK4H80
+    first_pair:
+      row_name: AAH80
+      value: 1.75203
+    second_pair:
+      row_name: CCH80
+      value: 1
+  - name: EHRP80
+    first_pair:
+      row_name: EEH80
+      value: 1
+    second_pair:
+      row_name: RPM80
+      value: -0.75001
+  - name: EHRP80
+    first_pair:
+      row_name: RAI80
+      value: -0.50001
+    second_pair: ~
+  - name: HENE80
+    first_pair:
+      row_name: RAI80
+      value: -0.50001
+    second_pair:
+      row_name: AAH80
+      value: -1
+  - name: HENE80
+    first_pair:
+      row_name: AAN80
+      value: -1
+    second_pair:
+      row_name: AAT80
+      value: -1
+  - name: HENE80
+    first_pair:
+      row_name: AAB80
+      value: -1
+    second_pair:
+      row_name: AAR80
+      value: -1
+  - name: HENE80
+    first_pair:
+      row_name: AAG80
+      value: -1
+    second_pair:
+      row_name: EEH80
+      value: 1
+  - name: HENE80
+    first_pair:
+      row_name: OBJEC
+      value: -0.23326
+    second_pair: ~
+  - name: NCAP80
+    first_pair:
+      row_name: NCP80
+      value: -1
+    second_pair:
+      row_name: NCP81
+      value: 1
+  - name: NCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: EEN80
+      value: -7.00813
+  - name: NCAP80
+    first_pair:
+      row_name: CCN80
+      value: -0.85001
+    second_pair:
+      row_name: CCT80
+      value: -0.85001
+  - name: NCAP80
+    first_pair:
+      row_name: CCB80
+      value: -0.85001
+    second_pair:
+      row_name: CCR80
+      value: -0.85001
+  - name: NCAP80
+    first_pair:
+      row_name: CCG80
+      value: -0.85001
+    second_pair: ~
+  - name: WK1N80
+    first_pair:
+      row_name: AAN80
+      value: 8.76015
+    second_pair:
+      row_name: CCN80
+      value: 1
+  - name: WK2N80
+    first_pair:
+      row_name: AAN80
+      value: 6.1321
+    second_pair:
+      row_name: CCN80
+      value: 1
+  - name: WK3N80
+    first_pair:
+      row_name: AAN80
+      value: 4.02967
+    second_pair:
+      row_name: CCN80
+      value: 1
+  - name: WK4N80
+    first_pair:
+      row_name: AAN80
+      value: 1.75203
+    second_pair:
+      row_name: CCN80
+      value: 1
+  - name: ENRP80
+    first_pair:
+      row_name: EEN80
+      value: 1
+    second_pair:
+      row_name: RPM80
+      value: -0.75001
+  - name: ENRP80
+    first_pair:
+      row_name: RAI80
+      value: -0.75775
+    second_pair: ~
+  - name: NENE80
+    first_pair:
+      row_name: RAI80
+      value: -0.75775
+    second_pair:
+      row_name: AAN80
+      value: -1
+  - name: NENE80
+    first_pair:
+      row_name: AAT80
+      value: -1
+    second_pair:
+      row_name: AAB80
+      value: -1
+  - name: NENE80
+    first_pair:
+      row_name: AAR80
+      value: -1
+    second_pair:
+      row_name: AAG80
+      value: -1
+  - name: NENE80
+    first_pair:
+      row_name: EEN80
+      value: 1
+    second_pair: ~
+  - name: TCAP80
+    first_pair:
+      row_name: TCP80
+      value: -1
+    second_pair:
+      row_name: TCP81
+      value: 1
+  - name: TCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: EET80
+      value: -6.13201
+  - name: TCAP80
+    first_pair:
+      row_name: EET81
+      value: -0.438
+    second_pair:
+      row_name: CCT80
+      value: -0.75
+  - name: TCAP80
+    first_pair:
+      row_name: CCT81
+      value: -0.07
+    second_pair:
+      row_name: CCB80
+      value: -0.75
+  - name: TCAP80
+    first_pair:
+      row_name: CCB81
+      value: -0.07
+    second_pair:
+      row_name: CCR80
+      value: -0.75
+  - name: TCAP80
+    first_pair:
+      row_name: CCR81
+      value: -0.07
+    second_pair:
+      row_name: CCG80
+      value: -0.75
+  - name: TCAP80
+    first_pair:
+      row_name: CCG81
+      value: -0.07
+    second_pair: ~
+  - name: WK1T80
+    first_pair:
+      row_name: AAT80
+      value: 8.76015
+    second_pair:
+      row_name: CCT80
+      value: 1
+  - name: WK2T80
+    first_pair:
+      row_name: AAT80
+      value: 6.1321
+    second_pair:
+      row_name: CCT80
+      value: 1
+  - name: WK3T80
+    first_pair:
+      row_name: AAT80
+      value: 4.02967
+    second_pair:
+      row_name: CCT80
+      value: 1
+  - name: WK4T80
+    first_pair:
+      row_name: AAT80
+      value: 1.75203
+    second_pair:
+      row_name: CCT80
+      value: 1
+  - name: ETRP80
+    first_pair:
+      row_name: EET80
+      value: 1
+    second_pair:
+      row_name: RPM80
+      value: -0.75001
+  - name: ETRP80
+    first_pair:
+      row_name: RAI80
+      value: -5.26896
+    second_pair: ~
+  - name: TENE80
+    first_pair:
+      row_name: RAI80
+      value: -5.26896
+    second_pair:
+      row_name: AAT80
+      value: -1
+  - name: TENE80
+    first_pair:
+      row_name: AAB80
+      value: -1
+    second_pair:
+      row_name: AAR80
+      value: -1
+  - name: TENE80
+    first_pair:
+      row_name: AAG80
+      value: -1
+    second_pair:
+      row_name: EET80
+      value: 1
+  - name: BCAP80
+    first_pair:
+      row_name: BCP80
+      value: -1
+    second_pair:
+      row_name: BCP81
+      value: 1
+  - name: BCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: EEB80
+      value: -7.00813
+  - name: BCAP80
+    first_pair:
+      row_name: CCB80
+      value: -0.75001
+    second_pair:
+      row_name: CCB81
+      value: -0.05
+  - name: BCAP80
+    first_pair:
+      row_name: CCR80
+      value: -0.75001
+    second_pair:
+      row_name: CCR81
+      value: -0.05
+  - name: BCAP80
+    first_pair:
+      row_name: CCG80
+      value: -0.75001
+    second_pair:
+      row_name: CCG81
+      value: -0.05
+  - name: WK1B80
+    first_pair:
+      row_name: AAB80
+      value: 8.76015
+    second_pair:
+      row_name: CCB80
+      value: 1
+  - name: WK2B80
+    first_pair:
+      row_name: AAB80
+      value: 6.1321
+    second_pair:
+      row_name: CCB80
+      value: 1
+  - name: WK3B80
+    first_pair:
+      row_name: AAB80
+      value: 4.02967
+    second_pair:
+      row_name: CCB80
+      value: 1
+  - name: WK4B80
+    first_pair:
+      row_name: AAB80
+      value: 1.75203
+    second_pair:
+      row_name: CCB80
+      value: 1
+  - name: EBRP80
+    first_pair:
+      row_name: EEB80
+      value: 1
+    second_pair:
+      row_name: RPM80
+      value: -0.75001
+  - name: EBRP80
+    first_pair:
+      row_name: RAI80
+      value: -5.61968
+    second_pair: ~
+  - name: BENE80
+    first_pair:
+      row_name: RAI80
+      value: -5.61968
+    second_pair:
+      row_name: AAB80
+      value: -1
+  - name: BENE80
+    first_pair:
+      row_name: AAR80
+      value: -1
+    second_pair:
+      row_name: AAG80
+      value: -1
+  - name: BENE80
+    first_pair:
+      row_name: EEB80
+      value: 1
+    second_pair: ~
+  - name: RCAP80
+    first_pair:
+      row_name: RCP80
+      value: -1
+    second_pair:
+      row_name: RCP81
+      value: 1
+  - name: RCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: EER80
+      value: -2.19004
+  - name: RCAP80
+    first_pair:
+      row_name: CCR80
+      value: -0.98802
+    second_pair:
+      row_name: CCG80
+      value: -0.98802
+  - name: WK1R80
+    first_pair:
+      row_name: AAR80
+      value: 8.76015
+    second_pair:
+      row_name: CCR80
+      value: 1
+  - name: WK2R80
+    first_pair:
+      row_name: AAR80
+      value: 6.1321
+    second_pair:
+      row_name: CCR80
+      value: 1
+  - name: WK3R80
+    first_pair:
+      row_name: AAR80
+      value: 4.02967
+    second_pair:
+      row_name: CCR80
+      value: 1
+  - name: WK4R80
+    first_pair:
+      row_name: AAR80
+      value: 1.75203
+    second_pair:
+      row_name: CCR80
+      value: 1
+  - name: RENE80
+    first_pair:
+      row_name: AAR80
+      value: -1
+    second_pair:
+      row_name: AAG80
+      value: -1
+  - name: RENE80
+    first_pair:
+      row_name: EER80
+      value: 1
+    second_pair:
+      row_name: RPM80
+      value: 1
+  - name: GCAP80
+    first_pair:
+      row_name: GCP80
+      value: -1
+    second_pair:
+      row_name: GCP81
+      value: 1
+  - name: GCAP80
+    first_pair:
+      row_name: CRS80
+      value: 1
+    second_pair:
+      row_name: EEG80
+      value: -3.50406
+  - name: GCAP80
+    first_pair:
+      row_name: CCG80
+      value: -0.90002
+    second_pair: ~
+  - name: WK1G80
+    first_pair:
+      row_name: AAG80
+      value: 8.76015
+    second_pair:
+      row_name: CCG80
+      value: 1
+  - name: WK2G80
+    first_pair:
+      row_name: AAG80
+      value: 6.1321
+    second_pair:
+      row_name: CCG80
+      value: 1
+  - name: WK3G80
+    first_pair:
+      row_name: AAG80
+      value: 4.02967
+    second_pair:
+      row_name: CCG80
+      value: 1
+  - name: WK4G80
+    first_pair:
+      row_name: AAG80
+      value: 1.75203
+    second_pair:
+      row_name: CCG80
+      value: 1
+  - name: GENE80
+    first_pair:
+      row_name: RAI80
+      value: -16.74359
+    second_pair:
+      row_name: AAG80
+      value: -1
+  - name: GENE80
+    first_pair:
+      row_name: EEG80
+      value: 1
+    second_pair: ~
+  - name: ESEC81
+    first_pair:
+      row_name: EEH81
+      value: 1
+    second_pair:
+      row_name: RAI81
+      value: -0.35001
+  - name: ESEC81
+    first_pair:
+      row_name: OBJEC
+      value: -0.21205
+    second_pair:
+      row_name: VLRES
+      value: -1.50001
+  - name: GRES81
+    first_pair:
+      row_name: EEH81
+      value: 0.02433
+    second_pair:
+      row_name: DGRES
+      value: 1
+  - name: HEND81
+    first_pair:
+      row_name: HED81
+      value: -1
+    second_pair:
+      row_name: EEH81
+      value: -1
+  - name: HCAP81
+    first_pair:
+      row_name: HCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: HCAP81
+    first_pair:
+      row_name: CCH81
+      value: -0.98802
+    second_pair:
+      row_name: CCN81
+      value: -0.98802
+  - name: HCAP81
+    first_pair:
+      row_name: CCT81
+      value: -0.98802
+    second_pair:
+      row_name: CCB81
+      value: -0.98802
+  - name: HCAP81
+    first_pair:
+      row_name: CCR81
+      value: -0.98802
+    second_pair:
+      row_name: CCG81
+      value: -0.98802
+  - name: WK1H81
+    first_pair:
+      row_name: AAH81
+      value: 8.76015
+    second_pair:
+      row_name: CCH81
+      value: 1
+  - name: WK2H81
+    first_pair:
+      row_name: AAH81
+      value: 6.1321
+    second_pair:
+      row_name: CCH81
+      value: 1
+  - name: WK3H81
+    first_pair:
+      row_name: AAH81
+      value: 4.02967
+    second_pair:
+      row_name: CCH81
+      value: 1
+  - name: WK4H81
+    first_pair:
+      row_name: AAH81
+      value: 1.75203
+    second_pair:
+      row_name: CCH81
+      value: 1
+  - name: EHRP81
+    first_pair:
+      row_name: EEH81
+      value: 1
+    second_pair:
+      row_name: RPM81
+      value: -0.75001
+  - name: EHRP81
+    first_pair:
+      row_name: RAI81
+      value: -0.50001
+    second_pair:
+      row_name: VLRES
+      value: -0.00009
+  - name: HENE81
+    first_pair:
+      row_name: RAI81
+      value: -0.50001
+    second_pair:
+      row_name: AAH81
+      value: -1
+  - name: HENE81
+    first_pair:
+      row_name: AAN81
+      value: -1
+    second_pair:
+      row_name: AAT81
+      value: -1
+  - name: HENE81
+    first_pair:
+      row_name: AAB81
+      value: -1
+    second_pair:
+      row_name: AAR81
+      value: -1
+  - name: HENE81
+    first_pair:
+      row_name: AAG81
+      value: -1
+    second_pair:
+      row_name: EEH81
+      value: 1
+  - name: HENE81
+    first_pair:
+      row_name: OBJEC
+      value: -0.21205
+    second_pair:
+      row_name: VLRES
+      value: -0.00009
+  - name: NCAP81
+    first_pair:
+      row_name: NCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: NCAP81
+    first_pair:
+      row_name: EEN81
+      value: -7.00813
+    second_pair:
+      row_name: CCN81
+      value: -0.85001
+  - name: NCAP81
+    first_pair:
+      row_name: CCT81
+      value: -0.85001
+    second_pair:
+      row_name: CCB81
+      value: -0.85001
+  - name: NCAP81
+    first_pair:
+      row_name: CCR81
+      value: -0.85001
+    second_pair:
+      row_name: CCG81
+      value: -0.85001
+  - name: WK1N81
+    first_pair:
+      row_name: AAN81
+      value: 8.76015
+    second_pair:
+      row_name: CCN81
+      value: 1
+  - name: WK2N81
+    first_pair:
+      row_name: AAN81
+      value: 6.1321
+    second_pair:
+      row_name: CCN81
+      value: 1
+  - name: WK3N81
+    first_pair:
+      row_name: AAN81
+      value: 4.02967
+    second_pair:
+      row_name: CCN81
+      value: 1
+  - name: WK4N81
+    first_pair:
+      row_name: AAN81
+      value: 1.75203
+    second_pair:
+      row_name: CCN81
+      value: 1
+  - name: ENRP81
+    first_pair:
+      row_name: EEN81
+      value: 1
+    second_pair:
+      row_name: RPM81
+      value: -0.75001
+  - name: ENRP81
+    first_pair:
+      row_name: RAI81
+      value: -0.76533
+    second_pair:
+      row_name: VLRES
+      value: 8.58846
+  - name: NENE81
+    first_pair:
+      row_name: RAI81
+      value: -0.76533
+    second_pair:
+      row_name: AAN81
+      value: -1
+  - name: NENE81
+    first_pair:
+      row_name: AAT81
+      value: -1
+    second_pair:
+      row_name: AAB81
+      value: -1
+  - name: NENE81
+    first_pair:
+      row_name: AAR81
+      value: -1
+    second_pair:
+      row_name: AAG81
+      value: -1
+  - name: NENE81
+    first_pair:
+      row_name: EEN81
+      value: 1
+    second_pair:
+      row_name: VLRES
+      value: 8.58846
+  - name: TCAP81
+    first_pair:
+      row_name: TCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: TCAP81
+    first_pair:
+      row_name: EET81
+      value: -6.13201
+    second_pair:
+      row_name: CCT81
+      value: -0.75
+  - name: TCAP81
+    first_pair:
+      row_name: CCB81
+      value: -0.75
+    second_pair:
+      row_name: CCR81
+      value: -0.75
+  - name: TCAP81
+    first_pair:
+      row_name: CCG81
+      value: -0.75
+    second_pair: ~
+  - name: WK1T81
+    first_pair:
+      row_name: AAT81
+      value: 8.76015
+    second_pair:
+      row_name: CCT81
+      value: 1
+  - name: WK2T81
+    first_pair:
+      row_name: AAT81
+      value: 6.1321
+    second_pair:
+      row_name: CCT81
+      value: 1
+  - name: WK3T81
+    first_pair:
+      row_name: AAT81
+      value: 4.02967
+    second_pair:
+      row_name: CCT81
+      value: 1
+  - name: WK4T81
+    first_pair:
+      row_name: AAT81
+      value: 1.75203
+    second_pair:
+      row_name: CCT81
+      value: 1
+  - name: ETRP81
+    first_pair:
+      row_name: EET81
+      value: 1
+    second_pair:
+      row_name: RPM81
+      value: -0.75001
+  - name: ETRP81
+    first_pair:
+      row_name: RAI81
+      value: -5.37434
+    second_pair:
+      row_name: VLRES
+      value: 68.52119
+  - name: TENE81
+    first_pair:
+      row_name: RAI81
+      value: -5.37434
+    second_pair:
+      row_name: AAT81
+      value: -1
+  - name: TENE81
+    first_pair:
+      row_name: AAB81
+      value: -1
+    second_pair:
+      row_name: AAR81
+      value: -1
+  - name: TENE81
+    first_pair:
+      row_name: AAG81
+      value: -1
+    second_pair:
+      row_name: EET81
+      value: 1
+  - name: TENE81
+    first_pair:
+      row_name: VLRES
+      value: 68.52119
+    second_pair: ~
+  - name: BCAP81
+    first_pair:
+      row_name: BCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: BCAP81
+    first_pair:
+      row_name: EEB81
+      value: -7.00813
+    second_pair:
+      row_name: CCB81
+      value: -0.75001
+  - name: BCAP81
+    first_pair:
+      row_name: CCR81
+      value: -0.75001
+    second_pair:
+      row_name: CCG81
+      value: -0.75001
+  - name: WK1B81
+    first_pair:
+      row_name: AAB81
+      value: 8.76015
+    second_pair:
+      row_name: CCB81
+      value: 1
+  - name: WK2B81
+    first_pair:
+      row_name: AAB81
+      value: 6.1321
+    second_pair:
+      row_name: CCB81
+      value: 1
+  - name: WK3B81
+    first_pair:
+      row_name: AAB81
+      value: 4.02967
+    second_pair:
+      row_name: CCB81
+      value: 1
+  - name: WK4B81
+    first_pair:
+      row_name: AAB81
+      value: 1.75203
+    second_pair:
+      row_name: CCB81
+      value: 1
+  - name: EBRP81
+    first_pair:
+      row_name: EEB81
+      value: 1
+    second_pair:
+      row_name: RPM81
+      value: -0.75001
+  - name: EBRP81
+    first_pair:
+      row_name: RAI81
+      value: -5.73207
+    second_pair:
+      row_name: VLRES
+      value: 73.08212
+  - name: BENE81
+    first_pair:
+      row_name: RAI81
+      value: -5.73207
+    second_pair:
+      row_name: AAB81
+      value: -1
+  - name: BENE81
+    first_pair:
+      row_name: AAR81
+      value: -1
+    second_pair:
+      row_name: AAG81
+      value: -1
+  - name: BENE81
+    first_pair:
+      row_name: EEB81
+      value: 1
+    second_pair:
+      row_name: VLRES
+      value: 73.08212
+  - name: RCAP81
+    first_pair:
+      row_name: RCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: RCAP81
+    first_pair:
+      row_name: EER81
+      value: -2.19004
+    second_pair:
+      row_name: CCR81
+      value: -0.98802
+  - name: RCAP81
+    first_pair:
+      row_name: CCG81
+      value: -0.98802
+    second_pair: ~
+  - name: WK1R81
+    first_pair:
+      row_name: AAR81
+      value: 8.76015
+    second_pair:
+      row_name: CCR81
+      value: 1
+  - name: WK2R81
+    first_pair:
+      row_name: AAR81
+      value: 6.1321
+    second_pair:
+      row_name: CCR81
+      value: 1
+  - name: WK3R81
+    first_pair:
+      row_name: AAR81
+      value: 4.02967
+    second_pair:
+      row_name: CCR81
+      value: 1
+  - name: WK4R81
+    first_pair:
+      row_name: AAR81
+      value: 1.75203
+    second_pair:
+      row_name: CCR81
+      value: 1
+  - name: RENE81
+    first_pair:
+      row_name: AAR81
+      value: -1
+    second_pair:
+      row_name: AAG81
+      value: -1
+  - name: RENE81
+    first_pair:
+      row_name: EER81
+      value: 1
+    second_pair:
+      row_name: RPM81
+      value: 1
+  - name: GCAP81
+    first_pair:
+      row_name: GCP81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: 1
+  - name: GCAP81
+    first_pair:
+      row_name: EEG81
+      value: -3.50406
+    second_pair:
+      row_name: CCG81
+      value: -0.90002
+  - name: WK1G81
+    first_pair:
+      row_name: AAG81
+      value: 8.76015
+    second_pair:
+      row_name: CCG81
+      value: 1
+  - name: WK2G81
+    first_pair:
+      row_name: AAG81
+      value: 6.1321
+    second_pair:
+      row_name: CCG81
+      value: 1
+  - name: WK3G81
+    first_pair:
+      row_name: AAG81
+      value: 4.02967
+    second_pair:
+      row_name: CCG81
+      value: 1
+  - name: WK4G81
+    first_pair:
+      row_name: AAG81
+      value: 1.75203
+    second_pair:
+      row_name: CCG81
+      value: 1
+  - name: GENE81
+    first_pair:
+      row_name: RAI81
+      value: -17.07845
+    second_pair:
+      row_name: AAG81
+      value: -1
+  - name: GENE81
+    first_pair:
+      row_name: EEG81
+      value: 1
+    second_pair:
+      row_name: VLRES
+      value: 217.74481
+  - name: RESV78
+    first_pair:
+      row_name: RES78
+      value: -1
+    second_pair:
+      row_name: CRS78
+      value: -1
+  - name: RESV79
+    first_pair:
+      row_name: RES79
+      value: -1
+    second_pair:
+      row_name: CRS79
+      value: -1
+  - name: RESV80
+    first_pair:
+      row_name: RES80
+      value: -1
+    second_pair:
+      row_name: CRS80
+      value: -1
+  - name: RESV81
+    first_pair:
+      row_name: RES81
+      value: -1
+    second_pair:
+      row_name: CRS81
+      value: -1
+  - name: EGRP81
+    first_pair:
+      row_name: VLRES
+      value: 217.74481
+    second_pair: ~
+  - name: AD1378
+    first_pair:
+      row_name: L1378
+      value: 0.50001
+    second_pair:
+      row_name: INV76
+      value: 2.25538
+  - name: AD1378
+    first_pair:
+      row_name: INC76
+      value: 0.09195
+    second_pair:
+      row_name: INV77
+      value: 1.57199
+  - name: AD1378
+    first_pair:
+      row_name: INC77
+      value: 0.24798
+    second_pair:
+      row_name: DEP78
+      value: 0.01688
+  - name: AD1378
+    first_pair:
+      row_name: FXE78
+      value: 0.23175
+    second_pair:
+      row_name: FXE79
+      value: 0.23754
+  - name: AD1378
+    first_pair:
+      row_name: FXE80
+      value: 0.24348
+    second_pair:
+      row_name: FXE81
+      value: 0.24957
+  - name: AD2378
+    first_pair:
+      row_name: L2378
+      value: 0.50001
+    second_pair:
+      row_name: INV76
+      value: 3.38307
+  - name: AD2378
+    first_pair:
+      row_name: INC76
+      value: 0.13792
+    second_pair:
+      row_name: INV77
+      value: 2.47302
+  - name: AD2378
+    first_pair:
+      row_name: INC77
+      value: 0.37666
+    second_pair:
+      row_name: DEP78
+      value: 0.02926
+  - name: AD2378
+    first_pair:
+      row_name: FXE78
+      value: 0.57937
+    second_pair:
+      row_name: FXE79
+      value: 0.59385
+  - name: AD2378
+    first_pair:
+      row_name: FXE80
+      value: 0.6087
+    second_pair:
+      row_name: FXE81
+      value: 0.62391
+  - name: AD3578
+    first_pair:
+      row_name: L3578
+      value: 1.00002
+    second_pair:
+      row_name: INV76
+      value: 0.90215
+  - name: AD3578
+    first_pair:
+      row_name: INC76
+      value: 0.03678
+    second_pair:
+      row_name: INV77
+      value: 1.1119
+  - name: AD3578
+    first_pair:
+      row_name: INC77
+      value: 0.11889
+    second_pair:
+      row_name: DEP78
+      value: 0.00788
+  - name: AD3578
+    first_pair:
+      row_name: FXE78
+      value: 0.08111
+    second_pair:
+      row_name: FXE79
+      value: 0.08314
+  - name: AD3578
+    first_pair:
+      row_name: FXE80
+      value: 0.08522
+    second_pair:
+      row_name: FXE81
+      value: 0.08735
+  - name: AD5478
+    first_pair:
+      row_name: L5478
+      value: 0.50001
+    second_pair:
+      row_name: INV76
+      value: 2.25538
+  - name: AD5478
+    first_pair:
+      row_name: INC76
+      value: 0.09195
+    second_pair:
+      row_name: INV77
+      value: 1.57199
+  - name: AD5478
+    first_pair:
+      row_name: INC77
+      value: 0.24798
+    second_pair:
+      row_name: DEP78
+      value: 0.01688
+  - name: AD5478
+    first_pair:
+      row_name: FXE78
+      value: 0.02317
+    second_pair:
+      row_name: FXE79
+      value: 0.02375
+  - name: AD5478
+    first_pair:
+      row_name: FXE80
+      value: 0.02435
+    second_pair:
+      row_name: FXE81
+      value: 0.02496
+  - name: AD5678
+    first_pair:
+      row_name: L5678
+      value: 0.2
+    second_pair:
+      row_name: INV76
+      value: 5.63844
+  - name: AD5678
+    first_pair:
+      row_name: INC76
+      value: 0.22986
+    second_pair:
+      row_name: INV77
+      value: 2.5497
+  - name: AD5678
+    first_pair:
+      row_name: INC77
+      value: 0.56367
+    second_pair:
+      row_name: DEP78
+      value: 0.06752
+  - name: AD5678
+    first_pair:
+      row_name: FXE78
+      value: 0.40556
+    second_pair:
+      row_name: FXE79
+      value: 0.41569
+  - name: AD5678
+    first_pair:
+      row_name: FXE80
+      value: 0.42609
+    second_pair:
+      row_name: FXE81
+      value: 0.43674
+  - name: AD1379
+    first_pair:
+      row_name: L1379
+      value: 0.50001
+    second_pair:
+      row_name: INV77
+      value: 2.30048
+  - name: AD1379
+    first_pair:
+      row_name: INC77
+      value: 0.09378
+    second_pair:
+      row_name: INV78
+      value: 1.60343
+  - name: AD1379
+    first_pair:
+      row_name: INC78
+      value: 0.25294
+    second_pair:
+      row_name: DEP79
+      value: 0.01722
+  - name: AD1379
+    first_pair:
+      row_name: FXE79
+      value: 0.23754
+    second_pair:
+      row_name: FXE80
+      value: 0.24348
+  - name: AD1379
+    first_pair:
+      row_name: FXE81
+      value: 0.24956
+    second_pair: ~
+  - name: AD2379
+    first_pair:
+      row_name: L2379
+      value: 0.50001
+    second_pair:
+      row_name: INV77
+      value: 3.45072
+  - name: AD2379
+    first_pair:
+      row_name: INC77
+      value: 0.14068
+    second_pair:
+      row_name: INV78
+      value: 2.52247
+  - name: AD2379
+    first_pair:
+      row_name: INC78
+      value: 0.38419
+    second_pair:
+      row_name: DEP79
+      value: 0.02985
+  - name: AD2379
+    first_pair:
+      row_name: FXE79
+      value: 0.59385
+    second_pair:
+      row_name: FXE80
+      value: 0.6087
+  - name: AD2379
+    first_pair:
+      row_name: FXE81
+      value: 0.62391
+    second_pair: ~
+  - name: AD3579
+    first_pair:
+      row_name: L3579
+      value: 1.00002
+    second_pair:
+      row_name: INV77
+      value: 0.92019
+  - name: AD3579
+    first_pair:
+      row_name: INC77
+      value: 0.03751
+    second_pair:
+      row_name: INV78
+      value: 1.13414
+  - name: AD3579
+    first_pair:
+      row_name: INC78
+      value: 0.12126
+    second_pair:
+      row_name: DEP79
+      value: 0.00804
+  - name: AD3579
+    first_pair:
+      row_name: FXE79
+      value: 0.08314
+    second_pair:
+      row_name: FXE80
+      value: 0.08522
+  - name: AD3579
+    first_pair:
+      row_name: FXE81
+      value: 0.08735
+    second_pair: ~
+  - name: AD5479
+    first_pair:
+      row_name: L5479
+      value: 0.50001
+    second_pair:
+      row_name: INV77
+      value: 2.30048
+  - name: AD5479
+    first_pair:
+      row_name: INC77
+      value: 0.09378
+    second_pair:
+      row_name: INV78
+      value: 1.60343
+  - name: AD5479
+    first_pair:
+      row_name: INC78
+      value: 0.25294
+    second_pair:
+      row_name: DEP79
+      value: 0.01722
+  - name: AD5479
+    first_pair:
+      row_name: FXE79
+      value: 0.02375
+    second_pair:
+      row_name: FXE80
+      value: 0.02435
+  - name: AD5479
+    first_pair:
+      row_name: FXE81
+      value: 0.02496
+    second_pair: ~
+  - name: AD5679
+    first_pair:
+      row_name: L5679
+      value: 0.2
+    second_pair:
+      row_name: INV77
+      value: 5.75121
+  - name: AD5679
+    first_pair:
+      row_name: INC77
+      value: 0.23446
+    second_pair:
+      row_name: INV78
+      value: 2.60069
+  - name: AD5679
+    first_pair:
+      row_name: INC78
+      value: 0.57495
+    second_pair:
+      row_name: DEP79
+      value: 0.06888
+  - name: AD5679
+    first_pair:
+      row_name: FXE79
+      value: 0.41569
+    second_pair:
+      row_name: FXE80
+      value: 0.42609
+  - name: AD5679
+    first_pair:
+      row_name: FXE81
+      value: 0.43674
+    second_pair: ~
+  - name: AD1380
+    first_pair:
+      row_name: L1380
+      value: 0.50001
+    second_pair:
+      row_name: INV78
+      value: 2.34649
+  - name: AD1380
+    first_pair:
+      row_name: INC78
+      value: 0.09566
+    second_pair:
+      row_name: INV79
+      value: 1.6355
+  - name: AD1380
+    first_pair:
+      row_name: INC79
+      value: 0.258
+    second_pair:
+      row_name: DEP80
+      value: 0.01756
+  - name: AD1380
+    first_pair:
+      row_name: FXE80
+      value: 0.24348
+    second_pair:
+      row_name: FXE81
+      value: 0.24956
+  - name: AD2380
+    first_pair:
+      row_name: L2380
+      value: 0.50001
+    second_pair:
+      row_name: INV78
+      value: 3.51973
+  - name: AD2380
+    first_pair:
+      row_name: INC78
+      value: 0.14349
+    second_pair:
+      row_name: INV79
+      value: 2.57292
+  - name: AD2380
+    first_pair:
+      row_name: INC79
+      value: 0.39187
+    second_pair:
+      row_name: DEP80
+      value: 0.03044
+  - name: AD2380
+    first_pair:
+      row_name: FXE80
+      value: 0.6087
+    second_pair:
+      row_name: FXE81
+      value: 0.62391
+  - name: AD3580
+    first_pair:
+      row_name: L3580
+      value: 1.00002
+    second_pair:
+      row_name: INV78
+      value: 0.9386
+  - name: AD3580
+    first_pair:
+      row_name: INC78
+      value: 0.03826
+    second_pair:
+      row_name: INV79
+      value: 1.15682
+  - name: AD3580
+    first_pair:
+      row_name: INC79
+      value: 0.12369
+    second_pair:
+      row_name: DEP80
+      value: 0.0082
+  - name: AD3580
+    first_pair:
+      row_name: FXE80
+      value: 0.08522
+    second_pair:
+      row_name: FXE81
+      value: 0.08735
+  - name: AD5480
+    first_pair:
+      row_name: L5480
+      value: 0.50001
+    second_pair:
+      row_name: INV78
+      value: 2.34649
+  - name: AD5480
+    first_pair:
+      row_name: INC78
+      value: 0.09566
+    second_pair:
+      row_name: INV79
+      value: 1.6355
+  - name: AD5480
+    first_pair:
+      row_name: INC79
+      value: 0.258
+    second_pair:
+      row_name: DEP80
+      value: 0.01756
+  - name: AD5480
+    first_pair:
+      row_name: FXE80
+      value: 0.02435
+    second_pair:
+      row_name: FXE81
+      value: 0.02496
+  - name: AD5680
+    first_pair:
+      row_name: L5680
+      value: 0.2
+    second_pair:
+      row_name: INV78
+      value: 5.86623
+  - name: AD5680
+    first_pair:
+      row_name: INC78
+      value: 0.23915
+    second_pair:
+      row_name: INV79
+      value: 2.6527
+  - name: AD5680
+    first_pair:
+      row_name: INC79
+      value: 0.58645
+    second_pair:
+      row_name: DEP80
+      value: 0.07025
+  - name: AD5680
+    first_pair:
+      row_name: FXE80
+      value: 0.42609
+    second_pair:
+      row_name: FXE81
+      value: 0.43674
+  - name: AD1381
+    first_pair:
+      row_name: L1381
+      value: 0.50001
+    second_pair:
+      row_name: INV79
+      value: 2.39342
+  - name: AD1381
+    first_pair:
+      row_name: INC79
+      value: 0.09757
+    second_pair:
+      row_name: INV80
+      value: 1.66821
+  - name: AD1381
+    first_pair:
+      row_name: INC80
+      value: 0.26316
+    second_pair:
+      row_name: DEP81
+      value: 0.01791
+  - name: AD1381
+    first_pair:
+      row_name: FXE81
+      value: 0.24956
+    second_pair: ~
+  - name: AD2381
+    first_pair:
+      row_name: L2381
+      value: 0.50001
+    second_pair:
+      row_name: INV79
+      value: 3.59013
+  - name: AD2381
+    first_pair:
+      row_name: INC79
+      value: 0.14636
+    second_pair:
+      row_name: INV80
+      value: 2.62438
+  - name: AD2381
+    first_pair:
+      row_name: INC80
+      value: 0.39971
+    second_pair:
+      row_name: DEP81
+      value: 0.03105
+  - name: AD2381
+    first_pair:
+      row_name: FXE81
+      value: 0.62391
+    second_pair: ~
+  - name: AD3581
+    first_pair:
+      row_name: L3581
+      value: 1.00002
+    second_pair:
+      row_name: INV79
+      value: 0.95737
+  - name: AD3581
+    first_pair:
+      row_name: INC79
+      value: 0.03903
+    second_pair:
+      row_name: INV80
+      value: 1.17995
+  - name: AD3581
+    first_pair:
+      row_name: INC80
+      value: 0.12616
+    second_pair:
+      row_name: DEP81
+      value: 0.00836
+  - name: AD3581
+    first_pair:
+      row_name: FXE81
+      value: 0.08735
+    second_pair: ~
+  - name: AD5481
+    first_pair:
+      row_name: L5481
+      value: 0.50001
+    second_pair:
+      row_name: INV79
+      value: 2.39342
+  - name: AD5481
+    first_pair:
+      row_name: INC79
+      value: 0.09757
+    second_pair:
+      row_name: INV80
+      value: 1.66821
+  - name: AD5481
+    first_pair:
+      row_name: INC80
+      value: 0.26316
+    second_pair:
+      row_name: DEP81
+      value: 0.01791
+  - name: AD5481
+    first_pair:
+      row_name: FXE81
+      value: 0.02496
+    second_pair: ~
+  - name: AD5681
+    first_pair:
+      row_name: L5681
+      value: 0.2
+    second_pair:
+      row_name: INV79
+      value: 5.98354
+  - name: AD5681
+    first_pair:
+      row_name: INC79
+      value: 0.24393
+    second_pair:
+      row_name: INV80
+      value: 2.70575
+  - name: AD5681
+    first_pair:
+      row_name: INC80
+      value: 0.59817
+    second_pair:
+      row_name: DEP81
+      value: 0.07166
+  - name: AD5681
+    first_pair:
+      row_name: FXE81
+      value: 0.43674
+    second_pair: ~
+  - name: OUT278
+    first_pair:
+      row_name: INV72
+      value: 1.65574
+    second_pair:
+      row_name: INC72
+      value: 0.06486
+  - name: OUT278
+    first_pair:
+      row_name: INV73
+      value: 5.67333
+    second_pair:
+      row_name: INC73
+      value: 0.34686
+  - name: OUT278
+    first_pair:
+      row_name: INV74
+      value: 22.61821
+    second_pair:
+      row_name: INC74
+      value: 1.4279
+  - name: OUT278
+    first_pair:
+      row_name: INV75
+      value: 47.27449
+    second_pair:
+      row_name: INC75
+      value: 4.05381
+  - name: OUT278
+    first_pair:
+      row_name: INV76
+      value: 53.49582
+    second_pair:
+      row_name: INC76
+      value: 7.68351
+  - name: OUT278
+    first_pair:
+      row_name: INV77
+      value: 32.85997
+    second_pair:
+      row_name: INC77
+      value: 10.46422
+  - name: OUT278
+    first_pair:
+      row_name: DEP78
+      value: 1.43546
+    second_pair:
+      row_name: FXE78
+      value: 0.50139
+  - name: OUT278
+    first_pair:
+      row_name: FXE79
+      value: 0.52577
+    second_pair:
+      row_name: FXE80
+      value: 0.55136
+  - name: OUT278
+    first_pair:
+      row_name: FXE81
+      value: 0.57821
+    second_pair:
+      row_name: HCP78
+      value: 0.39701
+  - name: OUT278
+    first_pair:
+      row_name: HED78
+      value: 2.07003
+    second_pair:
+      row_name: RES78
+      value: 0.02779
+  - name: OUT278
+    first_pair:
+      row_name: RES79
+      value: 0.02779
+    second_pair:
+      row_name: RES80
+      value: 0.02724
+  - name: OUT278
+    first_pair:
+      row_name: RES81
+      value: 0.01264
+    second_pair:
+      row_name: VLRES
+      value: 27.45341
+  - name: OUT278
+    first_pair:
+      row_name: OUT2X
+      value: 1
+    second_pair: ~
+  - name: OUT279
+    first_pair:
+      row_name: INV73
+      value: 1.72197
+    second_pair:
+      row_name: INC73
+      value: 0.06745
+  - name: OUT279
+    first_pair:
+      row_name: INV74
+      value: 5.90026
+    second_pair:
+      row_name: INC74
+      value: 0.36074
+  - name: OUT279
+    first_pair:
+      row_name: INV75
+      value: 23.52068
+    second_pair:
+      row_name: INC75
+      value: 1.48493
+  - name: OUT279
+    first_pair:
+      row_name: INV76
+      value: 49.16049
+    second_pair:
+      row_name: INC76
+      value: 4.2156
+  - name: OUT279
+    first_pair:
+      row_name: INV77
+      value: 55.61571
+    second_pair:
+      row_name: INC77
+      value: 7.98954
+  - name: OUT279
+    first_pair:
+      row_name: INV78
+      value: 34.14847
+    second_pair:
+      row_name: INC78
+      value: 10.87979
+  - name: OUT279
+    first_pair:
+      row_name: DEP79
+      value: 1.49269
+    second_pair:
+      row_name: FXE79
+      value: 0.52577
+  - name: OUT279
+    first_pair:
+      row_name: FXE80
+      value: 0.55136
+    second_pair:
+      row_name: FXE81
+      value: 0.57821
+  - name: OUT279
+    first_pair:
+      row_name: HCP79
+      value: 0.39701
+    second_pair:
+      row_name: HED79
+      value: 2.07003
+  - name: OUT279
+    first_pair:
+      row_name: RES79
+      value: 0.02779
+    second_pair:
+      row_name: RES80
+      value: 0.02751
+  - name: OUT279
+    first_pair:
+      row_name: RES81
+      value: 0.02696
+    second_pair:
+      row_name: VLRES
+      value: 27.96248
+  - name: OUT279
+    first_pair:
+      row_name: OUT2X
+      value: 1
+    second_pair: ~
+  - name: OUT280
+    first_pair:
+      row_name: INV74
+      value: 1.79085
+    second_pair:
+      row_name: INC74
+      value: 0.07015
+  - name: OUT280
+    first_pair:
+      row_name: INV75
+      value: 6.13627
+    second_pair:
+      row_name: INC75
+      value: 0.37517
+  - name: OUT280
+    first_pair:
+      row_name: INV76
+      value: 24.45918
+    second_pair:
+      row_name: INC76
+      value: 1.54423
+  - name: OUT280
+    first_pair:
+      row_name: INV77
+      value: 51.1218
+    second_pair:
+      row_name: INC77
+      value: 4.38385
+  - name: OUT280
+    first_pair:
+      row_name: INV78
+      value: 57.81995
+    second_pair:
+      row_name: INC78
+      value: 8.30778
+  - name: OUT280
+    first_pair:
+      row_name: INV79
+      value: 35.48801
+    second_pair:
+      row_name: INC79
+      value: 11.3119
+  - name: OUT280
+    first_pair:
+      row_name: DEP80
+      value: 1.5522
+    second_pair:
+      row_name: FXE80
+      value: 0.55136
+  - name: OUT280
+    first_pair:
+      row_name: FXE81
+      value: 0.57821
+    second_pair:
+      row_name: HCP80
+      value: 0.39701
+  - name: OUT280
+    first_pair:
+      row_name: HED80
+      value: 2.07003
+    second_pair:
+      row_name: RES80
+      value: 0.02751
+  - name: OUT280
+    first_pair:
+      row_name: RES81
+      value: 0.02724
+    second_pair:
+      row_name: VLRES
+      value: 28.49783
+  - name: OUT280
+    first_pair:
+      row_name: OUT2X
+      value: 1
+    second_pair: ~
+  - name: CASC78
+    first_pair:
+      row_name: INV74
+      value: 3.50541
+    second_pair:
+      row_name: INC74
+      value: 0.13731
+  - name: CASC78
+    first_pair:
+      row_name: INV75
+      value: 13.65878
+    second_pair:
+      row_name: INC75
+      value: 0.79889
+  - name: CASC78
+    first_pair:
+      row_name: INV76
+      value: 18.45009
+    second_pair:
+      row_name: INC76
+      value: 1.99405
+  - name: CASC78
+    first_pair:
+      row_name: INV77
+      value: 13.03732
+    second_pair:
+      row_name: INC77
+      value: 3.07123
+  - name: CASC78
+    first_pair:
+      row_name: DEP78
+      value: 0.44353
+    second_pair:
+      row_name: FXE78
+      value: 0.30957
+  - name: CASC78
+    first_pair:
+      row_name: FXE79
+      value: 0.32504
+    second_pair:
+      row_name: FXE80
+      value: 0.3413
+  - name: CASC78
+    first_pair:
+      row_name: FXE81
+      value: 0.35836
+    second_pair:
+      row_name: HCP78
+      value: 0.224
+  - name: CASC78
+    first_pair:
+      row_name: HED78
+      value: 0.46701
+    second_pair:
+      row_name: RES78
+      value: 0.01568
+  - name: CASC78
+    first_pair:
+      row_name: RES79
+      value: 0.01568
+    second_pair:
+      row_name: RES80
+      value: 0.01537
+  - name: CASC78
+    first_pair:
+      row_name: RES81
+      value: 0.00713
+    second_pair:
+      row_name: XX378
+      value: 0.224
+  - name: CASC78
+    first_pair:
+      row_name: VLRES
+      value: 12.32012
+    second_pair:
+      row_name: CASCX
+      value: 1
+  - name: CASC79
+    first_pair:
+      row_name: INV75
+      value: 3.64563
+    second_pair:
+      row_name: INC75
+      value: 0.1428
+  - name: CASC79
+    first_pair:
+      row_name: INV76
+      value: 14.20513
+    second_pair:
+      row_name: INC76
+      value: 0.83085
+  - name: CASC79
+    first_pair:
+      row_name: INV77
+      value: 19.1881
+    second_pair:
+      row_name: INC77
+      value: 2.07381
+  - name: CASC79
+    first_pair:
+      row_name: INV78
+      value: 13.55881
+    second_pair:
+      row_name: INC78
+      value: 3.19407
+  - name: CASC79
+    first_pair:
+      row_name: DEP79
+      value: 0.46127
+    second_pair:
+      row_name: FXE79
+      value: 0.32504
+  - name: CASC79
+    first_pair:
+      row_name: FXE80
+      value: 0.3413
+    second_pair:
+      row_name: FXE81
+      value: 0.35836
+  - name: CASC79
+    first_pair:
+      row_name: HCP79
+      value: 0.224
+    second_pair:
+      row_name: HED79
+      value: 0.46701
+  - name: CASC79
+    first_pair:
+      row_name: RES79
+      value: 0.01568
+    second_pair:
+      row_name: RES80
+      value: 0.01552
+  - name: CASC79
+    first_pair:
+      row_name: RES81
+      value: 0.01521
+    second_pair:
+      row_name: XX379
+      value: 0.224
+  - name: CASC79
+    first_pair:
+      row_name: VLRES
+      value: 12.47792
+    second_pair:
+      row_name: CASCX
+      value: 1
+  - name: CASC80
+    first_pair:
+      row_name: INV76
+      value: 3.79145
+    second_pair:
+      row_name: INC76
+      value: 0.14852
+  - name: CASC80
+    first_pair:
+      row_name: INV77
+      value: 14.77332
+    second_pair:
+      row_name: INC77
+      value: 0.86408
+  - name: CASC80
+    first_pair:
+      row_name: INV78
+      value: 19.9556
+    second_pair:
+      row_name: INC78
+      value: 2.15676
+  - name: CASC80
+    first_pair:
+      row_name: INV79
+      value: 14.10115
+    second_pair:
+      row_name: INC79
+      value: 3.32183
+  - name: CASC80
+    first_pair:
+      row_name: DEP80
+      value: 0.47972
+    second_pair:
+      row_name: FXE80
+      value: 0.3413
+  - name: CASC80
+    first_pair:
+      row_name: FXE81
+      value: 0.35836
+    second_pair:
+      row_name: HCP80
+      value: 0.224
+  - name: CASC80
+    first_pair:
+      row_name: HED80
+      value: 0.46701
+    second_pair:
+      row_name: RES80
+      value: 0.01552
+  - name: CASC80
+    first_pair:
+      row_name: RES81
+      value: 0.01537
+    second_pair:
+      row_name: XX380
+      value: 0.224
+  - name: CASC80
+    first_pair:
+      row_name: VLRES
+      value: 12.64388
+    second_pair:
+      row_name: CASCX
+      value: 1
+  - name: CASC81
+    first_pair:
+      row_name: INV77
+      value: 3.9431
+    second_pair:
+      row_name: INC77
+      value: 0.15446
+  - name: CASC81
+    first_pair:
+      row_name: INV78
+      value: 15.36425
+    second_pair:
+      row_name: INC78
+      value: 0.89865
+  - name: CASC81
+    first_pair:
+      row_name: INV79
+      value: 20.75381
+    second_pair:
+      row_name: INC79
+      value: 2.24303
+  - name: CASC81
+    first_pair:
+      row_name: INV80
+      value: 14.66519
+    second_pair:
+      row_name: INC80
+      value: 3.45471
+  - name: CASC81
+    first_pair:
+      row_name: DEP81
+      value: 0.49891
+    second_pair:
+      row_name: FXE81
+      value: 0.35836
+  - name: CASC81
+    first_pair:
+      row_name: HCP81
+      value: 0.224
+    second_pair:
+      row_name: HED81
+      value: 0.46701
+  - name: CASC81
+    first_pair:
+      row_name: RES81
+      value: 0.01537
+    second_pair:
+      row_name: XX381
+      value: 0.224
+  - name: CASC81
+    first_pair:
+      row_name: VLRES
+      value: 12.81823
+    second_pair:
+      row_name: CASCX
+      value: 1
+  - name: CHAL78
+    first_pair:
+      row_name: INV74
+      value: 2.9618
+    second_pair:
+      row_name: INC74
+      value: 0.11602
+  - name: CHAL78
+    first_pair:
+      row_name: INV75
+      value: 13.08475
+    second_pair:
+      row_name: INC75
+      value: 0.73549
+  - name: CHAL78
+    first_pair:
+      row_name: INV76
+      value: 17.00111
+    second_pair:
+      row_name: INC76
+      value: 1.85637
+  - name: CHAL78
+    first_pair:
+      row_name: INV77
+      value: 12.92585
+    second_pair:
+      row_name: INC77
+      value: 2.88321
+  - name: CHAL78
+    first_pair:
+      row_name: DEP78
+      value: 0.3985
+    second_pair:
+      row_name: FXE78
+      value: 0.34173
+  - name: CHAL78
+    first_pair:
+      row_name: FXE79
+      value: 0.35785
+    second_pair:
+      row_name: FXE80
+      value: 0.37476
+  - name: CHAL78
+    first_pair:
+      row_name: FXE81
+      value: 0.39249
+    second_pair:
+      row_name: HCP78
+      value: 0.124
+  - name: CHAL78
+    first_pair:
+      row_name: HED78
+      value: 0.19
+    second_pair:
+      row_name: RES78
+      value: 0.00868
+  - name: CHAL78
+    first_pair:
+      row_name: RES79
+      value: 0.00868
+    second_pair:
+      row_name: RES80
+      value: 0.00851
+  - name: CHAL78
+    first_pair:
+      row_name: RES81
+      value: 0.00395
+    second_pair:
+      row_name: XX378
+      value: 0.124
+  - name: CHAL78
+    first_pair:
+      row_name: VLRES
+      value: 12.26072
+    second_pair:
+      row_name: CHALX
+      value: 1
+  - name: CHAL79
+    first_pair:
+      row_name: INV75
+      value: 3.07718
+    second_pair:
+      row_name: INC75
+      value: 0.12054
+  - name: CHAL79
+    first_pair:
+      row_name: INV76
+      value: 13.6013
+    second_pair:
+      row_name: INC76
+      value: 0.76441
+  - name: CHAL79
+    first_pair:
+      row_name: INV77
+      value: 17.65373
+    second_pair:
+      row_name: INC77
+      value: 1.92882
+  - name: CHAL79
+    first_pair:
+      row_name: INV78
+      value: 13.40728
+    second_pair:
+      row_name: INC78
+      value: 2.9944
+  - name: CHAL79
+    first_pair:
+      row_name: DEP79
+      value: 0.41417
+    second_pair:
+      row_name: FXE79
+      value: 0.35785
+  - name: CHAL79
+    first_pair:
+      row_name: FXE80
+      value: 0.37476
+    second_pair:
+      row_name: FXE81
+      value: 0.39249
+  - name: CHAL79
+    first_pair:
+      row_name: HCP79
+      value: 0.124
+    second_pair:
+      row_name: HED79
+      value: 0.19
+  - name: CHAL79
+    first_pair:
+      row_name: RES79
+      value: 0.00868
+    second_pair:
+      row_name: RES80
+      value: 0.00859
+  - name: CHAL79
+    first_pair:
+      row_name: RES81
+      value: 0.00842
+    second_pair:
+      row_name: XX379
+      value: 0.124
+  - name: CHAL79
+    first_pair:
+      row_name: VLRES
+      value: 12.40026
+    second_pair:
+      row_name: CHALX
+      value: 1
+  - name: CHAL80
+    first_pair:
+      row_name: INV76
+      value: 3.19711
+    second_pair:
+      row_name: INC76
+      value: 0.12523
+  - name: CHAL80
+    first_pair:
+      row_name: INV77
+      value: 14.13837
+    second_pair:
+      row_name: INC77
+      value: 0.79447
+  - name: CHAL80
+    first_pair:
+      row_name: INV78
+      value: 18.33189
+    second_pair:
+      row_name: INC78
+      value: 2.00413
+  - name: CHAL80
+    first_pair:
+      row_name: INV79
+      value: 13.90725
+    second_pair:
+      row_name: INC79
+      value: 3.10996
+  - name: CHAL80
+    first_pair:
+      row_name: DEP80
+      value: 0.43047
+    second_pair:
+      row_name: FXE80
+      value: 0.37476
+  - name: CHAL80
+    first_pair:
+      row_name: FXE81
+      value: 0.39249
+    second_pair:
+      row_name: HCP80
+      value: 0.124
+  - name: CHAL80
+    first_pair:
+      row_name: HED80
+      value: 0.19
+    second_pair:
+      row_name: RES80
+      value: 0.00859
+  - name: CHAL80
+    first_pair:
+      row_name: RES81
+      value: 0.00851
+    second_pair:
+      row_name: XX380
+      value: 0.124
+  - name: CHAL80
+    first_pair:
+      row_name: VLRES
+      value: 12.54695
+    second_pair:
+      row_name: CHALX
+      value: 1
+  - name: CHAL81
+    first_pair:
+      row_name: INV77
+      value: 3.32177
+    second_pair:
+      row_name: INC77
+      value: 0.13012
+  - name: CHAL81
+    first_pair:
+      row_name: INV78
+      value: 14.69678
+    second_pair:
+      row_name: INC78
+      value: 0.82573
+  - name: CHAL81
+    first_pair:
+      row_name: INV79
+      value: 19.03664
+    second_pair:
+      row_name: INC79
+      value: 2.08242
+  - name: CHAL81
+    first_pair:
+      row_name: INV80
+      value: 14.4265
+    second_pair:
+      row_name: INC80
+      value: 3.23006
+  - name: CHAL81
+    first_pair:
+      row_name: DEP81
+      value: 0.44742
+    second_pair:
+      row_name: FXE81
+      value: 0.39249
+  - name: CHAL81
+    first_pair:
+      row_name: HCP81
+      value: 0.124
+    second_pair:
+      row_name: HED81
+      value: 0.19
+  - name: CHAL81
+    first_pair:
+      row_name: RES81
+      value: 0.00851
+    second_pair:
+      row_name: XX381
+      value: 0.124
+  - name: CHAL81
+    first_pair:
+      row_name: VLRES
+      value: 12.70101
+    second_pair:
+      row_name: CHALX
+      value: 1
+  - name: CHAI78
+    first_pair:
+      row_name: INV72
+      value: 1.15012
+    second_pair:
+      row_name: INC72
+      value: 0.04505
+  - name: CHAI78
+    first_pair:
+      row_name: INV73
+      value: 11.88958
+    second_pair:
+      row_name: INC73
+      value: 0.5523
+  - name: CHAI78
+    first_pair:
+      row_name: INV74
+      value: 26.33287
+    second_pair:
+      row_name: INC74
+      value: 2.00625
+  - name: CHAI78
+    first_pair:
+      row_name: INV75
+      value: 38.2083
+    second_pair:
+      row_name: INC75
+      value: 4.37723
+  - name: CHAI78
+    first_pair:
+      row_name: INV76
+      value: 55.27832
+    second_pair:
+      row_name: INC76
+      value: 7.69628
+  - name: CHAI78
+    first_pair:
+      row_name: INV77
+      value: 36.20004
+    second_pair:
+      row_name: INC77
+      value: 10.67664
+  - name: CHAI78
+    first_pair:
+      row_name: DEP78
+      value: 1.4172
+    second_pair:
+      row_name: FXE78
+      value: 0.61043
+  - name: CHAI78
+    first_pair:
+      row_name: FXE79
+      value: 0.63754
+    second_pair:
+      row_name: FXE80
+      value: 0.66594
+  - name: CHAI78
+    first_pair:
+      row_name: FXE81
+      value: 0.69569
+    second_pair:
+      row_name: RCP78
+      value: 0.80001
+  - name: CHAI78
+    first_pair:
+      row_name: RES78
+      value: 0.088
+    second_pair:
+      row_name: RES79
+      value: 0.08554
+  - name: CHAI78
+    first_pair:
+      row_name: RES80
+      value: 0.08311
+    second_pair:
+      row_name: RES81
+      value: 0.06272
+  - name: CHAI78
+    first_pair:
+      row_name: XX378
+      value: 0.80001
+    second_pair:
+      row_name: VLRES
+      value: 28.90616
+  - name: CHAI79
+    first_pair:
+      row_name: INV73
+      value: 1.19612
+    second_pair:
+      row_name: INC73
+      value: 0.04685
+  - name: CHAI79
+    first_pair:
+      row_name: INV74
+      value: 12.36516
+    second_pair:
+      row_name: INC74
+      value: 0.57439
+  - name: CHAI79
+    first_pair:
+      row_name: INV75
+      value: 27.37502
+    second_pair:
+      row_name: INC75
+      value: 2.08606
+  - name: CHAI79
+    first_pair:
+      row_name: INV76
+      value: 39.71201
+    second_pair:
+      row_name: INC76
+      value: 4.55051
+  - name: CHAI79
+    first_pair:
+      row_name: INV77
+      value: 57.39073
+    second_pair:
+      row_name: INC77
+      value: 7.99763
+  - name: CHAI79
+    first_pair:
+      row_name: INV78
+      value: 37.5199
+    second_pair:
+      row_name: INC78
+      value: 11.08884
+  - name: CHAI79
+    first_pair:
+      row_name: DEP79
+      value: 1.47295
+    second_pair:
+      row_name: FXE79
+      value: 0.63754
+  - name: CHAI79
+    first_pair:
+      row_name: FXE80
+      value: 0.66594
+    second_pair:
+      row_name: FXE81
+      value: 0.69569
+  - name: CHAI79
+    first_pair:
+      row_name: RCP79
+      value: 0.80001
+    second_pair:
+      row_name: RES79
+      value: 0.08712
+  - name: CHAI79
+    first_pair:
+      row_name: RES80
+      value: 0.08467
+    second_pair:
+      row_name: RES81
+      value: 0.08311
+  - name: CHAI79
+    first_pair:
+      row_name: XX379
+      value: 0.80001
+    second_pair:
+      row_name: VLRES
+      value: 29.4023
+  - name: CHAI80
+    first_pair:
+      row_name: INV74
+      value: 1.24397
+    second_pair:
+      row_name: INC74
+      value: 0.04873
+  - name: CHAI80
+    first_pair:
+      row_name: INV75
+      value: 12.85976
+    second_pair:
+      row_name: INC75
+      value: 0.59737
+  - name: CHAI80
+    first_pair:
+      row_name: INV76
+      value: 28.4586
+    second_pair:
+      row_name: INC76
+      value: 2.16906
+  - name: CHAI80
+    first_pair:
+      row_name: INV77
+      value: 41.27533
+    second_pair:
+      row_name: INC77
+      value: 4.73069
+  - name: CHAI80
+    first_pair:
+      row_name: INV78
+      value: 59.5856
+    second_pair:
+      row_name: INC78
+      value: 8.31091
+  - name: CHAI80
+    first_pair:
+      row_name: INV79
+      value: 38.89
+    second_pair:
+      row_name: INC79
+      value: 11.51721
+  - name: CHAI80
+    first_pair:
+      row_name: DEP80
+      value: 1.53091
+    second_pair:
+      row_name: FXE80
+      value: 0.66594
+  - name: CHAI80
+    first_pair:
+      row_name: FXE81
+      value: 0.69569
+    second_pair:
+      row_name: RCP80
+      value: 0.80001
+  - name: CHAI80
+    first_pair:
+      row_name: RES80
+      value: 0.08624
+    second_pair:
+      row_name: RES81
+      value: 0.08467
+  - name: CHAI80
+    first_pair:
+      row_name: XX380
+      value: 0.80001
+    second_pair:
+      row_name: VLRES
+      value: 29.92389
+  - name: CHAI81
+    first_pair:
+      row_name: INV75
+      value: 1.29373
+    second_pair:
+      row_name: INC75
+      value: 0.05068
+  - name: CHAI81
+    first_pair:
+      row_name: INV76
+      value: 13.37415
+    second_pair:
+      row_name: INC76
+      value: 0.62126
+  - name: CHAI81
+    first_pair:
+      row_name: INV77
+      value: 29.5853
+    second_pair:
+      row_name: INC77
+      value: 2.25536
+  - name: CHAI81
+    first_pair:
+      row_name: INV78
+      value: 42.90071
+    second_pair:
+      row_name: INC78
+      value: 4.91803
+  - name: CHAI81
+    first_pair:
+      row_name: INV79
+      value: 61.86629
+    second_pair:
+      row_name: INC79
+      value: 8.63658
+  - name: CHAI81
+    first_pair:
+      row_name: INV80
+      value: 40.31227
+    second_pair:
+      row_name: INC80
+      value: 11.96242
+  - name: CHAI81
+    first_pair:
+      row_name: DEP81
+      value: 1.59116
+    second_pair:
+      row_name: FXE81
+      value: 0.69569
+  - name: CHAI81
+    first_pair:
+      row_name: RCP81
+      value: 0.80001
+    second_pair:
+      row_name: RES81
+      value: 0.08624
+  - name: CHAI81
+    first_pair:
+      row_name: XX381
+      value: 0.80001
+    second_pair:
+      row_name: VLRES
+      value: 30.47165
+  - name: TGAZ78
+    first_pair:
+      row_name: INV76
+      value: 0.88587
+    second_pair:
+      row_name: INC76
+      value: 0.0347
+  - name: TGAZ78
+    first_pair:
+      row_name: INV77
+      value: 5.88239
+    second_pair:
+      row_name: INC77
+      value: 0.2971
+  - name: TGAZ78
+    first_pair:
+      row_name: DEP78
+      value: 0.26102
+    second_pair:
+      row_name: FXE78
+      value: 0.06932
+  - name: TGAZ78
+    first_pair:
+      row_name: FXE79
+      value: 0.07265
+    second_pair:
+      row_name: FXE80
+      value: 0.07614
+  - name: TGAZ78
+    first_pair:
+      row_name: FXE81
+      value: 0.07981
+    second_pair:
+      row_name: GCP78
+      value: 0.06
+  - name: TGAZ78
+    first_pair:
+      row_name: RES78
+      value: 0.0075
+    second_pair:
+      row_name: RES79
+      value: 0.00731
+  - name: TGAZ78
+    first_pair:
+      row_name: RES80
+      value: 0.00719
+    second_pair:
+      row_name: RES81
+      value: 0.00706
+  - name: TGAZ78
+    first_pair:
+      row_name: XX378
+      value: 0.06
+    second_pair:
+      row_name: VLRES
+      value: 5.0256
+  - name: TGAZ79
+    first_pair:
+      row_name: INV77
+      value: 0.91423
+    second_pair:
+      row_name: INC77
+      value: 0.03581
+  - name: TGAZ79
+    first_pair:
+      row_name: INV78
+      value: 6.08514
+    second_pair:
+      row_name: INC78
+      value: 0.30718
+  - name: TGAZ79
+    first_pair:
+      row_name: DEP79
+      value: 0.27
+    second_pair:
+      row_name: FXE79
+      value: 0.07265
+  - name: TGAZ79
+    first_pair:
+      row_name: FXE80
+      value: 0.07614
+    second_pair:
+      row_name: FXE81
+      value: 0.07981
+  - name: TGAZ79
+    first_pair:
+      row_name: GCP79
+      value: 0.06
+    second_pair:
+      row_name: RES79
+      value: 0.00743
+  - name: TGAZ79
+    first_pair:
+      row_name: RES80
+      value: 0.00731
+    second_pair:
+      row_name: RES81
+      value: 0.00711
+  - name: TGAZ79
+    first_pair:
+      row_name: XX379
+      value: 0.06
+    second_pair:
+      row_name: VLRES
+      value: 5.06904
+  - name: TGAZ80
+    first_pair:
+      row_name: INV78
+      value: 0.94353
+    second_pair:
+      row_name: INC78
+      value: 0.03696
+  - name: TGAZ80
+    first_pair:
+      row_name: INV79
+      value: 6.29493
+    second_pair:
+      row_name: INC79
+      value: 0.3176
+  - name: TGAZ80
+    first_pair:
+      row_name: DEP80
+      value: 0.27928
+    second_pair:
+      row_name: FXE80
+      value: 0.07614
+  - name: TGAZ80
+    first_pair:
+      row_name: FXE81
+      value: 0.07981
+    second_pair:
+      row_name: GCP80
+      value: 0.06
+  - name: TGAZ80
+    first_pair:
+      row_name: RES80
+      value: 0.00743
+    second_pair:
+      row_name: RES81
+      value: 0.00723
+  - name: TGAZ80
+    first_pair:
+      row_name: XX380
+      value: 0.06
+    second_pair:
+      row_name: VLRES
+      value: 5.11833
+  - name: TGAZ81
+    first_pair:
+      row_name: INV79
+      value: 0.9738
+    second_pair:
+      row_name: INC79
+      value: 0.03814
+  - name: TGAZ81
+    first_pair:
+      row_name: INV80
+      value: 6.51199
+    second_pair:
+      row_name: INC80
+      value: 0.32838
+  - name: TGAZ81
+    first_pair:
+      row_name: DEP81
+      value: 0.28888
+    second_pair:
+      row_name: FXE81
+      value: 0.07981
+  - name: TGAZ81
+    first_pair:
+      row_name: GCP81
+      value: 0.06
+    second_pair:
+      row_name: RES81
+      value: 0.00735
+  - name: TGAZ81
+    first_pair:
+      row_name: XX381
+      value: 0.06
+    second_pair:
+      row_name: VLRES
+      value: 5.17342
+  - name: N60078
+    first_pair:
+      row_name: INV72
+      value: 16.92413
+    second_pair:
+      row_name: INC72
+      value: 0.66294
+  - name: N60078
+    first_pair:
+      row_name: INV73
+      value: 36.58653
+    second_pair:
+      row_name: INC73
+      value: 2.70708
+  - name: N60078
+    first_pair:
+      row_name: INV74
+      value: 65.80643
+    second_pair:
+      row_name: INC74
+      value: 6.50584
+  - name: N60078
+    first_pair:
+      row_name: INV75
+      value: 77.6349
+    second_pair:
+      row_name: INC75
+      value: 11.61492
+  - name: N60078
+    first_pair:
+      row_name: INV76
+      value: 76.10367
+    second_pair:
+      row_name: INC76
+      value: 16.72708
+  - name: N60078
+    first_pair:
+      row_name: INV77
+      value: 64.4689
+    second_pair:
+      row_name: INC77
+      value: 20.92299
+  - name: N60078
+    first_pair:
+      row_name: DEP78
+      value: 7.19542
+    second_pair:
+      row_name: FXE78
+      value: 3.01304
+  - name: N60078
+    first_pair:
+      row_name: FXE79
+      value: 3.0733
+    second_pair:
+      row_name: FXE80
+      value: 3.13476
+  - name: N60078
+    first_pair:
+      row_name: FXE81
+      value: 3.19745
+    second_pair:
+      row_name: NCP78
+      value: 0.60001
+  - name: N60078
+    first_pair:
+      row_name: RES78
+      value: 0.29101
+    second_pair:
+      row_name: RES79
+      value: 0.2287
+  - name: N60078
+    first_pair:
+      row_name: RES80
+      value: 0.16759
+    second_pair:
+      row_name: RES81
+      value: 0.15133
+  - name: N60078
+    first_pair:
+      row_name: XX178
+      value: 0.60001
+    second_pair:
+      row_name: VLRES
+      value: 129.2112
+  - name: N60079
+    first_pair:
+      row_name: INV73
+      value: 17.60109
+    second_pair:
+      row_name: INC73
+      value: 0.68946
+  - name: N60079
+    first_pair:
+      row_name: INV74
+      value: 38.04999
+    second_pair:
+      row_name: INC74
+      value: 2.81536
+  - name: N60079
+    first_pair:
+      row_name: INV75
+      value: 68.43272
+    second_pair:
+      row_name: INC75
+      value: 6.76584
+  - name: N60079
+    first_pair:
+      row_name: INV76
+      value: 80.72719
+    second_pair:
+      row_name: INC76
+      value: 12.07855
+  - name: N60079
+    first_pair:
+      row_name: INV77
+      value: 79.09523
+    second_pair:
+      row_name: INC77
+      value: 17.39268
+  - name: N60079
+    first_pair:
+      row_name: INV78
+      value: 66.97932
+    second_pair:
+      row_name: INC78
+      value: 21.75198
+  - name: N60079
+    first_pair:
+      row_name: DEP79
+      value: 7.48138
+    second_pair:
+      row_name: FXE79
+      value: 3.0733
+  - name: N60079
+    first_pair:
+      row_name: FXE80
+      value: 3.13476
+    second_pair:
+      row_name: FXE81
+      value: 3.19745
+  - name: N60079
+    first_pair:
+      row_name: NCP79
+      value: 0.60001
+    second_pair:
+      row_name: RES79
+      value: 0.2881
+  - name: N60079
+    first_pair:
+      row_name: RES80
+      value: 0.22639
+    second_pair:
+      row_name: RES81
+      value: 0.16588
+  - name: N60079
+    first_pair:
+      row_name: XX179
+      value: 0.60001
+    second_pair:
+      row_name: VLRES
+      value: 131.16989
+  - name: N60080
+    first_pair:
+      row_name: INV74
+      value: 18.30511
+    second_pair:
+      row_name: INC74
+      value: 0.71703
+  - name: N60080
+    first_pair:
+      row_name: INV75
+      value: 39.57196
+    second_pair:
+      row_name: INC75
+      value: 2.92797
+  - name: N60080
+    first_pair:
+      row_name: INV76
+      value: 71.16388
+    second_pair:
+      row_name: INC76
+      value: 7.03623
+  - name: N60080
+    first_pair:
+      row_name: INV77
+      value: 83.94284
+    second_pair:
+      row_name: INC77
+      value: 12.56071
+  - name: N60080
+    first_pair:
+      row_name: INV78
+      value: 82.2054
+    second_pair:
+      row_name: INC78
+      value: 18.08487
+  - name: N60080
+    first_pair:
+      row_name: INV79
+      value: 69.58878
+    second_pair:
+      row_name: INC79
+      value: 22.61397
+  - name: N60080
+    first_pair:
+      row_name: DEP80
+      value: 7.77874
+    second_pair:
+      row_name: FXE80
+      value: 3.13476
+  - name: N60080
+    first_pair:
+      row_name: FXE81
+      value: 3.19745
+    second_pair:
+      row_name: NCP80
+      value: 0.60001
+  - name: N60080
+    first_pair:
+      row_name: RES80
+      value: 0.28519
+    second_pair:
+      row_name: RES81
+      value: 0.22408
+  - name: N60080
+    first_pair:
+      row_name: XX180
+      value: 0.60001
+    second_pair:
+      row_name: VLRES
+      value: 133.29187
+  - name: N60081
+    first_pair:
+      row_name: INV75
+      value: 19.03732
+    second_pair:
+      row_name: INC75
+      value: 0.74571
+  - name: N60081
+    first_pair:
+      row_name: INV76
+      value: 41.15482
+    second_pair:
+      row_name: INC76
+      value: 3.04509
+  - name: N60081
+    first_pair:
+      row_name: INV77
+      value: 74.00421
+    second_pair:
+      row_name: INC77
+      value: 7.31744
+  - name: N60081
+    first_pair:
+      row_name: INV78
+      value: 87.28688
+    second_pair:
+      row_name: INC78
+      value: 13.06213
+  - name: N60081
+    first_pair:
+      row_name: INV79
+      value: 85.43887
+    second_pair:
+      row_name: INC79
+      value: 18.80464
+  - name: N60081
+    first_pair:
+      row_name: INV80
+      value: 72.30124
+    second_pair:
+      row_name: INC80
+      value: 23.51027
+  - name: N60081
+    first_pair:
+      row_name: DEP81
+      value: 8.08795
+    second_pair:
+      row_name: FXE81
+      value: 3.19745
+  - name: N60081
+    first_pair:
+      row_name: NCP81
+      value: 0.60001
+    second_pair:
+      row_name: RES81
+      value: 0.28228
+  - name: N60081
+    first_pair:
+      row_name: XX181
+      value: 0.60001
+    second_pair:
+      row_name: VLRES
+      value: 135.57887
+  - name: T75078
+    first_pair:
+      row_name: INV73
+      value: 2.25458
+    second_pair:
+      row_name: INC73
+      value: 0.08831
+  - name: T75078
+    first_pair:
+      row_name: INV74
+      value: 16.5063
+    second_pair:
+      row_name: INC74
+      value: 0.81628
+  - name: T75078
+    first_pair:
+      row_name: INV75
+      value: 31.35274
+    second_pair:
+      row_name: INC75
+      value: 2.62702
+  - name: T75078
+    first_pair:
+      row_name: INV76
+      value: 60.29823
+    second_pair:
+      row_name: INC76
+      value: 6.01129
+  - name: T75078
+    first_pair:
+      row_name: INV77
+      value: 38.60837
+    second_pair:
+      row_name: INC77
+      value: 9.41463
+  - name: T75078
+    first_pair:
+      row_name: DEP78
+      value: 3.3623
+    second_pair:
+      row_name: FXE78
+      value: 1.76342
+  - name: T75078
+    first_pair:
+      row_name: FXE79
+      value: 1.80724
+    second_pair:
+      row_name: FXE80
+      value: 1.85216
+  - name: T75078
+    first_pair:
+      row_name: FXE81
+      value: 1.89819
+    second_pair:
+      row_name: BCP78
+      value: 0.75001
+  - name: T75078
+    first_pair:
+      row_name: RES78
+      value: 0.43126
+    second_pair:
+      row_name: RES79
+      value: 0.3527
+  - name: T75078
+    first_pair:
+      row_name: RES80
+      value: 0.27563
+    second_pair:
+      row_name: RES81
+      value: 0.23645
+  - name: T75078
+    first_pair:
+      row_name: XX278
+      value: 0.75001
+    second_pair:
+      row_name: VLRES
+      value: 67.22089
+  - name: T75079
+    first_pair:
+      row_name: INV74
+      value: 2.34476
+    second_pair:
+      row_name: INC74
+      value: 0.09185
+  - name: T75079
+    first_pair:
+      row_name: INV75
+      value: 17.16382
+    second_pair:
+      row_name: INC75
+      value: 0.84883
+  - name: T75079
+    first_pair:
+      row_name: INV76
+      value: 32.60081
+    second_pair:
+      row_name: INC76
+      value: 2.73166
+  - name: T75079
+    first_pair:
+      row_name: INV77
+      value: 62.68602
+    second_pair:
+      row_name: INC77
+      value: 6.25015
+  - name: T75079
+    first_pair:
+      row_name: INV78
+      value: 40.12126
+    second_pair:
+      row_name: INC78
+      value: 9.78758
+  - name: T75079
+    first_pair:
+      row_name: DEP79
+      value: 3.49594
+    second_pair:
+      row_name: FXE79
+      value: 1.80724
+  - name: T75079
+    first_pair:
+      row_name: FXE80
+      value: 1.85216
+    second_pair:
+      row_name: FXE81
+      value: 1.89819
+  - name: T75079
+    first_pair:
+      row_name: BCP79
+      value: 0.75001
+    second_pair:
+      row_name: RES79
+      value: 0.42695
+  - name: T75079
+    first_pair:
+      row_name: RES80
+      value: 0.34914
+    second_pair:
+      row_name: RES81
+      value: 0.27282
+  - name: T75079
+    first_pair:
+      row_name: XX279
+      value: 0.75001
+    second_pair:
+      row_name: VLRES
+      value: 68.13623
+  - name: T75080
+    first_pair:
+      row_name: INV75
+      value: 2.43855
+    second_pair:
+      row_name: INC75
+      value: 0.09552
+  - name: T75080
+    first_pair:
+      row_name: INV76
+      value: 17.84756
+    second_pair:
+      row_name: INC76
+      value: 0.88267
+  - name: T75080
+    first_pair:
+      row_name: INV77
+      value: 33.89868
+    second_pair:
+      row_name: INC77
+      value: 2.84048
+  - name: T75080
+    first_pair:
+      row_name: INV78
+      value: 65.16879
+    second_pair:
+      row_name: INC78
+      value: 6.49853
+  - name: T75080
+    first_pair:
+      row_name: INV79
+      value: 41.69402
+    second_pair:
+      row_name: INC79
+      value: 10.17536
+  - name: T75080
+    first_pair:
+      row_name: DEP80
+      value: 3.6349
+    second_pair:
+      row_name: FXE80
+      value: 1.85216
+  - name: T75080
+    first_pair:
+      row_name: FXE81
+      value: 1.89819
+    second_pair:
+      row_name: BCP80
+      value: 0.75001
+  - name: T75080
+    first_pair:
+      row_name: RES80
+      value: 0.42264
+    second_pair:
+      row_name: RES81
+      value: 0.34557
+  - name: T75080
+    first_pair:
+      row_name: XX280
+      value: 0.75001
+    second_pair:
+      row_name: VLRES
+      value: 69.12788
+  - name: T75081
+    first_pair:
+      row_name: INV76
+      value: 2.5361
+    second_pair:
+      row_name: INC76
+      value: 0.09934
+  - name: T75081
+    first_pair:
+      row_name: INV77
+      value: 18.55862
+    second_pair:
+      row_name: INC77
+      value: 0.91786
+  - name: T75081
+    first_pair:
+      row_name: INV78
+      value: 35.24835
+    second_pair:
+      row_name: INC78
+      value: 2.95364
+  - name: T75081
+    first_pair:
+      row_name: INV79
+      value: 67.75043
+    second_pair:
+      row_name: INC79
+      value: 6.75682
+  - name: T75081
+    first_pair:
+      row_name: INV80
+      value: 43.32906
+    second_pair:
+      row_name: INC80
+      value: 10.57858
+  - name: T75081
+    first_pair:
+      row_name: DEP81
+      value: 3.77941
+    second_pair:
+      row_name: FXE81
+      value: 1.89819
+  - name: T75081
+    first_pair:
+      row_name: BCP81
+      value: 0.75001
+    second_pair:
+      row_name: RES81
+      value: 0.41833
+  - name: T75081
+    first_pair:
+      row_name: XX281
+      value: 0.75001
+    second_pair:
+      row_name: VLRES
+      value: 70.19667
+rhs:
+  - name: RHS1
+    first_pair:
+      row_name: RAI72
+      value: -329.0056
+    second_pair:
+      row_name: TRS72
+      value: 73.00125
+  - name: RHS1
+    first_pair:
+      row_name: FPR72
+      value: -1048.0178
+    second_pair:
+      row_name: DEP72
+      value: -65.00111
+  - name: RHS1
+    first_pair:
+      row_name: DEP73
+      value: -5.00011
+    second_pair:
+      row_name: INV72
+      value: -349.00586
+  - name: RHS1
+    first_pair:
+      row_name: INC72
+      value: -54.00093
+    second_pair:
+      row_name: INT72
+      value: -192.00334
+  - name: RHS1
+    first_pair:
+      row_name: TRS73
+      value: 139.82237
+    second_pair:
+      row_name: CAF72
+      value: 2846.049
+  - name: RHS1
+    first_pair:
+      row_name: FPR73
+      value: -6.0001
+    second_pair:
+      row_name: RAI73
+      value: -336.45654
+  - name: RHS1
+    first_pair:
+      row_name: DEP74
+      value: -4.00006
+    second_pair:
+      row_name: INV73
+      value: -313.00537
+  - name: RHS1
+    first_pair:
+      row_name: INC73
+      value: -50.00087
+    second_pair:
+      row_name: INT73
+      value: -191.0033
+  - name: RHS1
+    first_pair:
+      row_name: TRS74
+      value: 148.63713
+    second_pair:
+      row_name: CAF73
+      value: 2697.0461
+  - name: RHS1
+    first_pair:
+      row_name: FPR74
+      value: -6.0001
+    second_pair:
+      row_name: RAI74
+      value: -343.0564
+  - name: RHS1
+    first_pair:
+      row_name: DEP75
+      value: -4.00006
+    second_pair:
+      row_name: INV74
+      value: -302.00513
+  - name: RHS1
+    first_pair:
+      row_name: INC74
+      value: -49.00082
+    second_pair:
+      row_name: INT74
+      value: -184.0032
+  - name: RHS1
+    first_pair:
+      row_name: TRS75
+      value: 160.4463
+    second_pair:
+      row_name: CAF74
+      value: 2539.0432
+  - name: RHS1
+    first_pair:
+      row_name: FPR75
+      value: -5.00009
+    second_pair:
+      row_name: RAI75
+      value: -345.83228
+  - name: RHS1
+    first_pair:
+      row_name: DEP76
+      value: -9.00015
+    second_pair:
+      row_name: INV75
+      value: -320.0056
+  - name: RHS1
+    first_pair:
+      row_name: INC75
+      value: -60.00102
+    second_pair:
+      row_name: INT75
+      value: -174.00296
+  - name: RHS1
+    first_pair:
+      row_name: TRS76
+      value: 100.24867
+    second_pair:
+      row_name: CAF75
+      value: 2369.04
+  - name: RHS1
+    first_pair:
+      row_name: FPR76
+      value: -4.00007
+    second_pair:
+      row_name: RAI76
+      value: -367.80737
+  - name: RHS1
+    first_pair:
+      row_name: DEP77
+      value: -4.00006
+    second_pair:
+      row_name: INV76
+      value: -267.00464
+  - name: RHS1
+    first_pair:
+      row_name: INC76
+      value: -65.00111
+    second_pair:
+      row_name: INT76
+      value: -167.00285
+  - name: RHS1
+    first_pair:
+      row_name: TRS77
+      value: 105.04611
+    second_pair:
+      row_name: CAF76
+      value: 2259.038
+  - name: RHS1
+    first_pair:
+      row_name: FPR77
+      value: -4.00007
+    second_pair:
+      row_name: RAI77
+      value: -387.00073
+  - name: RHS1
+    first_pair:
+      row_name: DEP78
+      value: -3.00003
+    second_pair:
+      row_name: INV77
+      value: -231.00404
+  - name: RHS1
+    first_pair:
+      row_name: INC77
+      value: -33.00056
+    second_pair:
+      row_name: INT77
+      value: -161.00279
+  - name: RHS1
+    first_pair:
+      row_name: TRS78
+      value: 117.83769
+    second_pair:
+      row_name: CAF77
+      value: 2144.036
+  - name: RHS1
+    first_pair:
+      row_name: FPR78
+      value: -3.00005
+    second_pair:
+      row_name: RAI78
+      value: -399.1919
+  - name: RHS1
+    first_pair:
+      row_name: DEP79
+      value: -5.00009
+    second_pair:
+      row_name: INV78
+      value: -190.00325
+  - name: RHS1
+    first_pair:
+      row_name: INC78
+      value: -30.00052
+    second_pair:
+      row_name: INT78
+      value: -154.0027
+  - name: RHS1
+    first_pair:
+      row_name: TRS79
+      value: 98.62241
+    second_pair:
+      row_name: CAF78
+      value: 2016.0334
+  - name: RHS1
+    first_pair:
+      row_name: FPR79
+      value: -2.00004
+    second_pair:
+      row_name: RAI79
+      value: -427.51025
+  - name: RHS1
+    first_pair:
+      row_name: DEP80
+      value: -3.00011
+    second_pair:
+      row_name: INV79
+      value: -183.00316
+  - name: RHS1
+    first_pair:
+      row_name: INC79
+      value: -31.00053
+    second_pair:
+      row_name: INT79
+      value: -151.00256
+  - name: RHS1
+    first_pair:
+      row_name: TRS80
+      value: 113.40132
+    second_pair:
+      row_name: CAF79
+      value: 1907.0313
+  - name: RHS1
+    first_pair:
+      row_name: FPR80
+      value: -1.00002
+    second_pair:
+      row_name: RAI80
+      value: -456.94946
+  - name: RHS1
+    first_pair:
+      row_name: DEP81
+      value: -7.00009
+    second_pair:
+      row_name: INV80
+      value: -192.00334
+  - name: RHS1
+    first_pair:
+      row_name: INC80
+      value: -30.00052
+    second_pair:
+      row_name: INT80
+      value: -144.00246
+  - name: RHS1
+    first_pair:
+      row_name: TRS81
+      value: 161.17412
+    second_pair:
+      row_name: CAF80
+      value: 1783.0288
+  - name: RHS1
+    first_pair:
+      row_name: FPR81
+      value: -1.00002
+    second_pair:
+      row_name: RAI81
+      value: -487.49097
+  - name: RHS1
+    first_pair:
+      row_name: INV81
+      value: -202.00348
+    second_pair:
+      row_name: INC81
+      value: -30.00052
+  - name: RHS1
+    first_pair:
+      row_name: INT81
+      value: -137.00235
+    second_pair:
+      row_name: CAF81
+      value: 1611.0256
+  - name: RHS1
+    first_pair:
+      row_name: L1378
+      value: -3.00005
+    second_pair:
+      row_name: XX178
+      value: -2.99005
+  - name: RHS1
+    first_pair:
+      row_name: XX179
+      value: -0.11
+    second_pair:
+      row_name: XX378
+      value: 0.1
+  - name: RHS1
+    first_pair:
+      row_name: XX379
+      value: -0.1
+    second_pair:
+      row_name: L2378
+      value: -4.00007
+  - name: RHS1
+    first_pair:
+      row_name: L2379
+      value: -0.1
+    second_pair:
+      row_name: XX278
+      value: -3.90007
+  - name: RHS1
+    first_pair:
+      row_name: XX279
+      value: 0.2
+    second_pair:
+      row_name: L3578
+      value: -7.00012
+  - name: RHS1
+    first_pair:
+      row_name: XX578
+      value: 0.70001
+    second_pair:
+      row_name: L5478
+      value: -4.00007
+  - name: RHS1
+    first_pair:
+      row_name: L5678
+      value: -3.00005
+    second_pair:
+      row_name: L5679
+      value: 0.90002
+  - name: RHS1
+    first_pair:
+      row_name: XX180
+      value: -0.40001
+    second_pair:
+      row_name: XX280
+      value: 0.2
+  - name: RHS1
+    first_pair:
+      row_name: XX580
+      value: -0.1
+    second_pair:
+      row_name: XX281
+      value: 0.1
+  - name: RHS1
+    first_pair:
+      row_name: HCP78
+      value: -10.00017
+    second_pair:
+      row_name: HED78
+      value: -93.46956
+  - name: RHS1
+    first_pair:
+      row_name: RES78
+      value: -2.30004
+    second_pair:
+      row_name: RES79
+      value: -2.20004
+  - name: RHS1
+    first_pair:
+      row_name: RES80
+      value: -2.10003
+    second_pair:
+      row_name: RES81
+      value: -2.10003
+  - name: RHS1
+    first_pair:
+      row_name: OUT2X
+      value: 1
+    second_pair:
+      row_name: CASCX
+      value: 1
+  - name: RHS1
+    first_pair:
+      row_name: CHALX
+      value: 1
+    second_pair:
+      row_name: RCP78
+      value: -4
+  - name: RHS1
+    first_pair:
+      row_name: GCP78
+      value: -0.50001
+    second_pair:
+      row_name: NCP78
+      value: -1.00002
+  - name: RHS1
+    first_pair:
+      row_name: ACP78
+      value: -0.35501
+    second_pair:
+      row_name: CRS78
+      value: 15.35027
+  - name: RHS1
+    first_pair:
+      row_name: ACP79
+      value: 0.037
+    second_pair:
+      row_name: CCT78
+      value: 0.085
+  - name: RHS1
+    first_pair:
+      row_name: CCB78
+      value: 0.085
+    second_pair:
+      row_name: CCR78
+      value: 0.085
+  - name: RHS1
+    first_pair:
+      row_name: CCG78
+      value: 0.085
+    second_pair:
+      row_name: CRS79
+      value: 16.56027
+  - name: RHS1
+    first_pair:
+      row_name: CCT79
+      value: 0.03
+    second_pair:
+      row_name: CCB79
+      value: 0.03
+  - name: RHS1
+    first_pair:
+      row_name: CCR79
+      value: 0.03
+    second_pair:
+      row_name: CCG79
+      value: 0.03
+  - name: RHS1
+    first_pair:
+      row_name: CRS80
+      value: 17.86028
+    second_pair:
+      row_name: ACP81
+      value: 0.202
+  - name: RHS1
+    first_pair:
+      row_name: CRS81
+      value: 19.27029
+    second_pair:
+      row_name: EEH78
+      value: 7.12154
+  - name: RHS1
+    first_pair:
+      row_name: TCP78
+      value: -1.00002
+    second_pair:
+      row_name: EET78
+      value: 0.62196
+  - name: RHS1
+    first_pair:
+      row_name: EET79
+      value: 0.3504
+    second_pair:
+      row_name: EET80
+      value: 0.1752
+ranges: ~
+bounds: ~
+

@@ -1,0 +1,2962 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/recipe\"))?"
+---
+name: RECIPE
+rows:
+  - row_type: Eq
+    row_name: BAL...BE
+  - row_type: Eq
+    row_name: BCC...BE
+  - row_type: Eq
+    row_name: BCH...BE
+  - row_type: Eq
+    row_name: BCL...BE
+  - row_type: Eq
+    row_name: BHH...BE
+  - row_type: Eq
+    row_name: BHL...BE
+  - row_type: Eq
+    row_name: BHX...BE
+  - row_type: Eq
+    row_name: BLV...BE
+  - row_type: Eq
+    row_name: BN4...BE
+  - row_type: Eq
+    row_name: BP8...BE
+  - row_type: Eq
+    row_name: B3E...BE
+  - row_type: Eq
+    row_name: B3P...BE
+  - row_type: Eq
+    row_name: B3R...BE
+  - row_type: Eq
+    row_name: B3T...BE
+  - row_type: Eq
+    row_name: B3E.VOBE
+  - row_type: Eq
+    row_name: B3P.VOBE
+  - row_type: Eq
+    row_name: B3R.VOBE
+  - row_type: Geq
+    row_name: NOM.3EBE
+  - row_type: Geq
+    row_name: NRO.3EBE
+  - row_type: Geq
+    row_name: N13.3EBE
+  - row_type: Geq
+    row_name: N14.3EBE
+  - row_type: Geq
+    row_name: N24.3EBE
+  - row_type: Geq
+    row_name: N36.3EBE
+  - row_type: Geq
+    row_name: NOM.3PBE
+  - row_type: Geq
+    row_name: NRO.3PBE
+  - row_type: Geq
+    row_name: N13.3PBE
+  - row_type: Geq
+    row_name: N14.3PBE
+  - row_type: Geq
+    row_name: N24.3PBE
+  - row_type: Geq
+    row_name: N36.3PBE
+  - row_type: Geq
+    row_name: NOM.3RBE
+  - row_type: Geq
+    row_name: NRO.3RBE
+  - row_type: Geq
+    row_name: N13.3RBE
+  - row_type: Geq
+    row_name: N14.3RBE
+  - row_type: Geq
+    row_name: N24.3RBE
+  - row_type: Geq
+    row_name: N36.3RBE
+  - row_type: Eq
+    row_name: WMO.3EBE
+  - row_type: Eq
+    row_name: WRO.3EBE
+  - row_type: Eq
+    row_name: WMO.3PBE
+  - row_type: Eq
+    row_name: WRO.3PBE
+  - row_type: Eq
+    row_name: WMO.3RBE
+  - row_type: Eq
+    row_name: WRO.3RBE
+  - row_type: Leq
+    row_name: XRV.3EBE
+  - row_type: Leq
+    row_name: X15.3EBE
+  - row_type: Leq
+    row_name: XRV.3PBE
+  - row_type: Leq
+    row_name: X15.3PBE
+  - row_type: Leq
+    row_name: XRV.3RBE
+  - row_type: Leq
+    row_name: X15.3RBE
+  - row_type: Nr
+    row_name: FAT...J.
+  - row_type: Eq
+    row_name: "B&,1..BE"
+  - row_type: Eq
+    row_name: BAL1..BE
+  - row_type: Eq
+    row_name: BCC1..BE
+  - row_type: Eq
+    row_name: BCH1..BE
+  - row_type: Eq
+    row_name: BCL1..BE
+  - row_type: Eq
+    row_name: BHH1..BE
+  - row_type: Eq
+    row_name: BHL1..BE
+  - row_type: Eq
+    row_name: BHX1..BE
+  - row_type: Eq
+    row_name: BLV1..BE
+  - row_type: Eq
+    row_name: BN41..BE
+  - row_type: Eq
+    row_name: BP81..BE
+  - row_type: Eq
+    row_name: "B&,2..BE"
+  - row_type: Eq
+    row_name: BAL2..BE
+  - row_type: Eq
+    row_name: BCC2..BE
+  - row_type: Eq
+    row_name: BCH2..BE
+  - row_type: Eq
+    row_name: BCL2..BE
+  - row_type: Eq
+    row_name: BHH2..BE
+  - row_type: Eq
+    row_name: BHL2..BE
+  - row_type: Eq
+    row_name: BHX2..BE
+  - row_type: Eq
+    row_name: BLV2..BE
+  - row_type: Eq
+    row_name: BN42..BE
+  - row_type: Eq
+    row_name: BP82..BE
+  - row_type: Eq
+    row_name: "B&,3..BE"
+  - row_type: Eq
+    row_name: BAL3..BE
+  - row_type: Eq
+    row_name: BCC3..BE
+  - row_type: Eq
+    row_name: BCH3..BE
+  - row_type: Eq
+    row_name: BCL3..BE
+  - row_type: Eq
+    row_name: BHH3..BE
+  - row_type: Eq
+    row_name: BHL3..BE
+  - row_type: Eq
+    row_name: BHX3..BE
+  - row_type: Eq
+    row_name: BLV3..BE
+  - row_type: Eq
+    row_name: BN43..BE
+  - row_type: Eq
+    row_name: BP83..BE
+  - row_type: Eq
+    row_name: "B&,4..BE"
+  - row_type: Eq
+    row_name: BAL4..BE
+  - row_type: Eq
+    row_name: BCC4..BE
+  - row_type: Eq
+    row_name: BCH4..BE
+  - row_type: Eq
+    row_name: BCL4..BE
+  - row_type: Eq
+    row_name: BHH4..BE
+  - row_type: Eq
+    row_name: BHL4..BE
+  - row_type: Eq
+    row_name: BHX4..BE
+  - row_type: Eq
+    row_name: BLV4..BE
+  - row_type: Eq
+    row_name: BN44..BE
+  - row_type: Eq
+    row_name: BP84..BE
+columns:
+  - name: BAL.3EBE
+    first_pair:
+      row_name: BAL...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BAL.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 8.2
+    second_pair:
+      row_name: N13.3EBE
+      value: 9
+  - name: BAL.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 12
+    second_pair:
+      row_name: N24.3EBE
+      value: 80
+  - name: BAL.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 99
+    second_pair:
+      row_name: X15.3EBE
+      value: 16
+  - name: BAL.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 93.61705
+    second_pair:
+      row_name: WMO.3EBE
+      value: 88.6782
+  - name: BCC.3EBE
+    first_pair:
+      row_name: BCC...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BCC.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 21.1
+    second_pair:
+      row_name: N13.3EBE
+      value: 116.8
+  - name: BCC.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 114
+    second_pair:
+      row_name: N24.3EBE
+      value: 100
+  - name: BCC.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 100
+    second_pair:
+      row_name: X15.3EBE
+      value: 100
+  - name: BCC.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 99.22401
+    second_pair:
+      row_name: WMO.3EBE
+      value: 80.06283
+  - name: BCH.3EBE
+    first_pair:
+      row_name: BCH...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BCH.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 2
+    second_pair:
+      row_name: N13.3EBE
+      value: -14.8
+  - name: BCH.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -12
+    second_pair:
+      row_name: N24.3EBE
+      value: 2.4
+  - name: BCH.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 90
+    second_pair:
+      row_name: X15.3EBE
+      value: -8.2
+  - name: BCH.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 83.80122
+    second_pair:
+      row_name: WMO.3EBE
+      value: 74.69736
+  - name: BCL.3EBE
+    first_pair:
+      row_name: BCL...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BCL.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 8
+    second_pair:
+      row_name: N13.3EBE
+      value: 2
+  - name: BCL.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 9
+    second_pair:
+      row_name: N24.3EBE
+      value: 95
+  - name: BCL.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 100
+    second_pair:
+      row_name: X15.3EBE
+      value: 43
+  - name: BCL.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 90.17511
+    second_pair:
+      row_name: WMO.3EBE
+      value: 79.19421
+  - name: BHH.3EBE
+    first_pair:
+      row_name: BHH...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BHH.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 1
+    second_pair:
+      row_name: N13.3EBE
+      value: -21.9
+  - name: BHH.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -18
+    second_pair:
+      row_name: N24.3EBE
+      value: 4
+  - name: BHH.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3EBE
+      value: -12.5
+  - name: BHH.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 85.9962
+    second_pair:
+      row_name: WMO.3EBE
+      value: 78.56822
+  - name: BHL.3EBE
+    first_pair:
+      row_name: BHL...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BHL.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 12.5
+    second_pair:
+      row_name: N13.3EBE
+      value: 37
+  - name: BHL.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 49
+    second_pair:
+      row_name: N24.3EBE
+      value: 98
+  - name: BHL.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 100
+    second_pair:
+      row_name: X15.3EBE
+      value: 65
+  - name: BHL.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 86.96338
+    second_pair:
+      row_name: WMO.3EBE
+      value: 82.92224
+  - name: BHX.3EBE
+    first_pair:
+      row_name: BHX...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BHX.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 1
+    second_pair:
+      row_name: N13.3EBE
+      value: -21.9
+  - name: BHX.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -18
+    second_pair:
+      row_name: N24.3EBE
+      value: 4
+  - name: BHX.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3EBE
+      value: -12
+  - name: BHX.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 93.1476
+    second_pair:
+      row_name: WMO.3EBE
+      value: 82.59274
+  - name: BLV.3EBE
+    first_pair:
+      row_name: BLV...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BLV.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 12
+    second_pair:
+      row_name: N13.3EBE
+      value: 61
+  - name: BLV.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 68
+    second_pair:
+      row_name: N24.3EBE
+      value: 95
+  - name: BLV.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 100
+    second_pair:
+      row_name: X15.3EBE
+      value: 79
+  - name: BLV.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 78.21025
+    second_pair:
+      row_name: WMO.3EBE
+      value: 76.50646
+  - name: BN4.3EBE
+    first_pair:
+      row_name: BN4...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BN4.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 61.3
+    second_pair:
+      row_name: N13.3EBE
+      value: 145
+  - name: BN4.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 145
+    second_pair:
+      row_name: N24.3EBE
+      value: 100
+  - name: BN4.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 100
+    second_pair:
+      row_name: X15.3EBE
+      value: 125
+  - name: BN4.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 94.25784
+    second_pair:
+      row_name: WMO.3EBE
+      value: 88.35746
+  - name: BP8.3EBE
+    first_pair:
+      row_name: BP8...BE
+      value: -1
+    second_pair:
+      row_name: B3E.VOBE
+      value: 1
+  - name: BP8.3EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: 6
+    second_pair:
+      row_name: N13.3EBE
+      value: 3.6
+  - name: BP8.3EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: 4
+    second_pair:
+      row_name: N24.3EBE
+      value: 28.5
+  - name: BP8.3EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: 97
+    second_pair:
+      row_name: X15.3EBE
+      value: 6.2
+  - name: BP8.3EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: 105.82863
+    second_pair:
+      row_name: WMO.3EBE
+      value: 90.59047
+  - name: BAL.3PBE
+    first_pair:
+      row_name: BAL...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BAL.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 8.2
+    second_pair:
+      row_name: N13.3PBE
+      value: 9
+  - name: BAL.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 12
+    second_pair:
+      row_name: N24.3PBE
+      value: 80
+  - name: BAL.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 99
+    second_pair:
+      row_name: X15.3PBE
+      value: 16
+  - name: BAL.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 93.61705
+    second_pair:
+      row_name: WMO.3PBE
+      value: 88.6782
+  - name: BCC.3PBE
+    first_pair:
+      row_name: BCC...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BCC.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 21.1
+    second_pair:
+      row_name: N13.3PBE
+      value: 116.8
+  - name: BCC.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 114
+    second_pair:
+      row_name: N24.3PBE
+      value: 100
+  - name: BCC.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 100
+    second_pair:
+      row_name: X15.3PBE
+      value: 100
+  - name: BCC.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 99.22401
+    second_pair:
+      row_name: WMO.3PBE
+      value: 80.06283
+  - name: BCH.3PBE
+    first_pair:
+      row_name: BCH...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BCH.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 2
+    second_pair:
+      row_name: N13.3PBE
+      value: -14.8
+  - name: BCH.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -12
+    second_pair:
+      row_name: N24.3PBE
+      value: 2.4
+  - name: BCH.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 90
+    second_pair:
+      row_name: X15.3PBE
+      value: -8.2
+  - name: BCH.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 83.80122
+    second_pair:
+      row_name: WMO.3PBE
+      value: 74.69736
+  - name: BCL.3PBE
+    first_pair:
+      row_name: BCL...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BCL.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 8
+    second_pair:
+      row_name: N13.3PBE
+      value: 2
+  - name: BCL.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 9
+    second_pair:
+      row_name: N24.3PBE
+      value: 95
+  - name: BCL.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 100
+    second_pair:
+      row_name: X15.3PBE
+      value: 43
+  - name: BCL.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 90.17511
+    second_pair:
+      row_name: WMO.3PBE
+      value: 79.19421
+  - name: BHH.3PBE
+    first_pair:
+      row_name: BHH...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BHH.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 1
+    second_pair:
+      row_name: N13.3PBE
+      value: -21.9
+  - name: BHH.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -18
+    second_pair:
+      row_name: N24.3PBE
+      value: 4
+  - name: BHH.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3PBE
+      value: -12.5
+  - name: BHH.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 85.9962
+    second_pair:
+      row_name: WMO.3PBE
+      value: 78.56822
+  - name: BHL.3PBE
+    first_pair:
+      row_name: BHL...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BHL.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 12.5
+    second_pair:
+      row_name: N13.3PBE
+      value: 37
+  - name: BHL.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 49
+    second_pair:
+      row_name: N24.3PBE
+      value: 98
+  - name: BHL.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 100
+    second_pair:
+      row_name: X15.3PBE
+      value: 65
+  - name: BHL.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 86.96338
+    second_pair:
+      row_name: WMO.3PBE
+      value: 82.92224
+  - name: BHX.3PBE
+    first_pair:
+      row_name: BHX...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BHX.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 1
+    second_pair:
+      row_name: N13.3PBE
+      value: -21.9
+  - name: BHX.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -18
+    second_pair:
+      row_name: N24.3PBE
+      value: 4
+  - name: BHX.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3PBE
+      value: -12
+  - name: BHX.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 93.1476
+    second_pair:
+      row_name: WMO.3PBE
+      value: 82.59274
+  - name: BLV.3PBE
+    first_pair:
+      row_name: BLV...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BLV.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 12
+    second_pair:
+      row_name: N13.3PBE
+      value: 61
+  - name: BLV.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 68
+    second_pair:
+      row_name: N24.3PBE
+      value: 95
+  - name: BLV.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 100
+    second_pair:
+      row_name: X15.3PBE
+      value: 79
+  - name: BLV.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 78.21025
+    second_pair:
+      row_name: WMO.3PBE
+      value: 76.50646
+  - name: BN4.3PBE
+    first_pair:
+      row_name: BN4...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BN4.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 61.3
+    second_pair:
+      row_name: N13.3PBE
+      value: 145
+  - name: BN4.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 145
+    second_pair:
+      row_name: N24.3PBE
+      value: 100
+  - name: BN4.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 100
+    second_pair:
+      row_name: X15.3PBE
+      value: 125
+  - name: BN4.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 94.25784
+    second_pair:
+      row_name: WMO.3PBE
+      value: 88.35746
+  - name: BP8.3PBE
+    first_pair:
+      row_name: BP8...BE
+      value: -1
+    second_pair:
+      row_name: B3P.VOBE
+      value: 1
+  - name: BP8.3PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: 6
+    second_pair:
+      row_name: N13.3PBE
+      value: 3.6
+  - name: BP8.3PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: 4
+    second_pair:
+      row_name: N24.3PBE
+      value: 28.5
+  - name: BP8.3PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: 97
+    second_pair:
+      row_name: X15.3PBE
+      value: 6.2
+  - name: BP8.3PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: 105.82863
+    second_pair:
+      row_name: WMO.3PBE
+      value: 90.59047
+  - name: BAL.3RBE
+    first_pair:
+      row_name: BAL...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BAL.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 8.2
+    second_pair:
+      row_name: N13.3RBE
+      value: 9
+  - name: BAL.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 12
+    second_pair:
+      row_name: N24.3RBE
+      value: 80
+  - name: BAL.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 99
+    second_pair:
+      row_name: X15.3RBE
+      value: 16
+  - name: BAL.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 93.61705
+    second_pair:
+      row_name: WMO.3RBE
+      value: 88.6782
+  - name: BCC.3RBE
+    first_pair:
+      row_name: BCC...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BCC.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 21.1
+    second_pair:
+      row_name: N13.3RBE
+      value: 116.8
+  - name: BCC.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 114
+    second_pair:
+      row_name: N24.3RBE
+      value: 100
+  - name: BCC.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 100
+    second_pair:
+      row_name: X15.3RBE
+      value: 100
+  - name: BCC.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 99.22401
+    second_pair:
+      row_name: WMO.3RBE
+      value: 80.06283
+  - name: BCH.3RBE
+    first_pair:
+      row_name: BCH...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BCH.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 2
+    second_pair:
+      row_name: N13.3RBE
+      value: -14.8
+  - name: BCH.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -12
+    second_pair:
+      row_name: N24.3RBE
+      value: 2.4
+  - name: BCH.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 90
+    second_pair:
+      row_name: X15.3RBE
+      value: -8.2
+  - name: BCH.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 83.80122
+    second_pair:
+      row_name: WMO.3RBE
+      value: 74.69736
+  - name: BCL.3RBE
+    first_pair:
+      row_name: BCL...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BCL.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 8
+    second_pair:
+      row_name: N13.3RBE
+      value: 2
+  - name: BCL.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 9
+    second_pair:
+      row_name: N24.3RBE
+      value: 95
+  - name: BCL.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 100
+    second_pair:
+      row_name: X15.3RBE
+      value: 43
+  - name: BCL.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 90.17511
+    second_pair:
+      row_name: WMO.3RBE
+      value: 79.19421
+  - name: BHH.3RBE
+    first_pair:
+      row_name: BHH...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BHH.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 1
+    second_pair:
+      row_name: N13.3RBE
+      value: -21.9
+  - name: BHH.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -18
+    second_pair:
+      row_name: N24.3RBE
+      value: 4
+  - name: BHH.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3RBE
+      value: -12.5
+  - name: BHH.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 85.9962
+    second_pair:
+      row_name: WMO.3RBE
+      value: 78.56822
+  - name: BHL.3RBE
+    first_pair:
+      row_name: BHL...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BHL.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 12.5
+    second_pair:
+      row_name: N13.3RBE
+      value: 37
+  - name: BHL.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 49
+    second_pair:
+      row_name: N24.3RBE
+      value: 98
+  - name: BHL.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 100
+    second_pair:
+      row_name: X15.3RBE
+      value: 65
+  - name: BHL.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 86.96338
+    second_pair:
+      row_name: WMO.3RBE
+      value: 82.92224
+  - name: BHX.3RBE
+    first_pair:
+      row_name: BHX...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BHX.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 1
+    second_pair:
+      row_name: N13.3RBE
+      value: -21.9
+  - name: BHX.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -18
+    second_pair:
+      row_name: N24.3RBE
+      value: 4
+  - name: BHX.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 96.5
+    second_pair:
+      row_name: X15.3RBE
+      value: -12
+  - name: BHX.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 93.1476
+    second_pair:
+      row_name: WMO.3RBE
+      value: 82.59274
+  - name: BLV.3RBE
+    first_pair:
+      row_name: BLV...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BLV.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 12
+    second_pair:
+      row_name: N13.3RBE
+      value: 61
+  - name: BLV.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 68
+    second_pair:
+      row_name: N24.3RBE
+      value: 95
+  - name: BLV.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 100
+    second_pair:
+      row_name: X15.3RBE
+      value: 79
+  - name: BLV.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 78.21025
+    second_pair:
+      row_name: WMO.3RBE
+      value: 76.50646
+  - name: BN4.3RBE
+    first_pair:
+      row_name: BN4...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BN4.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 61.3
+    second_pair:
+      row_name: N13.3RBE
+      value: 145
+  - name: BN4.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 145
+    second_pair:
+      row_name: N24.3RBE
+      value: 100
+  - name: BN4.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 100
+    second_pair:
+      row_name: X15.3RBE
+      value: 125
+  - name: BN4.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 94.25784
+    second_pair:
+      row_name: WMO.3RBE
+      value: 88.35746
+  - name: BP8.3RBE
+    first_pair:
+      row_name: BP8...BE
+      value: -1
+    second_pair:
+      row_name: B3R.VOBE
+      value: 1
+  - name: BP8.3RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: 6
+    second_pair:
+      row_name: N13.3RBE
+      value: 3.6
+  - name: BP8.3RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: 4
+    second_pair:
+      row_name: N24.3RBE
+      value: 28.5
+  - name: BP8.3RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: 97
+    second_pair:
+      row_name: X15.3RBE
+      value: 6.2
+  - name: BP8.3RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: 105.82863
+    second_pair:
+      row_name: WMO.3RBE
+      value: 90.59047
+  - name: D3E...BE
+    first_pair:
+      row_name: B3E...BE
+      value: -1
+    second_pair: ~
+  - name: D3P...BE
+    first_pair:
+      row_name: B3P...BE
+      value: -1
+    second_pair: ~
+  - name: D3R...BE
+    first_pair:
+      row_name: B3R...BE
+      value: -1
+    second_pair: ~
+  - name: D3T...BE
+    first_pair:
+      row_name: B3T...BE
+      value: -1
+    second_pair: ~
+  - name: EAL...BE
+    first_pair:
+      row_name: BAL...BE
+      value: 1
+    second_pair: ~
+  - name: ECC...BE
+    first_pair:
+      row_name: BCC...BE
+      value: 1
+    second_pair: ~
+  - name: ECH...BE
+    first_pair:
+      row_name: BCH...BE
+      value: 1
+    second_pair: ~
+  - name: ECL...BE
+    first_pair:
+      row_name: BCL...BE
+      value: 1
+    second_pair: ~
+  - name: EHH...BE
+    first_pair:
+      row_name: BHH...BE
+      value: 1
+    second_pair: ~
+  - name: EHL...BE
+    first_pair:
+      row_name: BHL...BE
+      value: 1
+    second_pair: ~
+  - name: EHX...BE
+    first_pair:
+      row_name: BHX...BE
+      value: 1
+    second_pair: ~
+  - name: ELV...BE
+    first_pair:
+      row_name: BLV...BE
+      value: 1
+    second_pair: ~
+  - name: EN4...BE
+    first_pair:
+      row_name: BN4...BE
+      value: 1
+    second_pair: ~
+  - name: EP8...BE
+    first_pair:
+      row_name: BP8...BE
+      value: 1
+    second_pair: ~
+  - name: M3..3TBE
+    first_pair:
+      row_name: B3T...BE
+      value: 1
+    second_pair:
+      row_name: B3E...BE
+      value: -0.12
+  - name: M3..3TBE
+    first_pair:
+      row_name: B3P...BE
+      value: -0.38
+    second_pair:
+      row_name: B3R...BE
+      value: -0.5
+  - name: "J&,1IOBE"
+    first_pair:
+      row_name: "B&,1..BE"
+      value: 1
+    second_pair: ~
+  - name: JAL1IOBE
+    first_pair:
+      row_name: BAL1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JCC1IOBE
+    first_pair:
+      row_name: BCC1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JCH1IOBE
+    first_pair:
+      row_name: BCH1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JCL1IOBE
+    first_pair:
+      row_name: BCL1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JHH1IOBE
+    first_pair:
+      row_name: BHH1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JHL1IOBE
+    first_pair:
+      row_name: BHL1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JHX1IOBE
+    first_pair:
+      row_name: BHX1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JLV1IOBE
+    first_pair:
+      row_name: BLV1..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: JN41IOBE
+    first_pair:
+      row_name: BN41..BE
+      value: 1
+    second_pair: ~
+  - name: JP81IOBE
+    first_pair:
+      row_name: BP81..BE
+      value: 1
+    second_pair:
+      row_name: FAT...J.
+      value: -2
+  - name: "J&,1MXBE"
+    first_pair:
+      row_name: "B&,1..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,2..BE"
+      value: 1
+  - name: JAL1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BAL1..BE
+      value: -1
+  - name: JAL1MXBE
+    first_pair:
+      row_name: BAL2..BE
+      value: 1
+    second_pair: ~
+  - name: JCC1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCC1..BE
+      value: -1
+  - name: JCC1MXBE
+    first_pair:
+      row_name: BCC2..BE
+      value: 1
+    second_pair: ~
+  - name: JCH1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCH1..BE
+      value: -1
+  - name: JCH1MXBE
+    first_pair:
+      row_name: BCH2..BE
+      value: 1
+    second_pair: ~
+  - name: JCL1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCL1..BE
+      value: -1
+  - name: JCL1MXBE
+    first_pair:
+      row_name: BCL2..BE
+      value: 1
+    second_pair: ~
+  - name: JHH1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHH1..BE
+      value: -1
+  - name: JHH1MXBE
+    first_pair:
+      row_name: BHH2..BE
+      value: 1
+    second_pair: ~
+  - name: JHL1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHL1..BE
+      value: -1
+  - name: JHL1MXBE
+    first_pair:
+      row_name: BHL2..BE
+      value: 1
+    second_pair: ~
+  - name: JHX1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.001
+    second_pair:
+      row_name: BHX1..BE
+      value: -1
+  - name: JHX1MXBE
+    first_pair:
+      row_name: BHX2..BE
+      value: 1
+    second_pair: ~
+  - name: JLV1MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BLV1..BE
+      value: -1
+  - name: JLV1MXBE
+    first_pair:
+      row_name: BLV2..BE
+      value: 1
+    second_pair: ~
+  - name: JN41MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BN41..BE
+      value: -1
+  - name: JN41MXBE
+    first_pair:
+      row_name: BN42..BE
+      value: 1
+    second_pair: ~
+  - name: JP81MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BP81..BE
+      value: -1
+  - name: JP81MXBE
+    first_pair:
+      row_name: BP82..BE
+      value: 1
+    second_pair: ~
+  - name: "J&,1TGBE"
+    first_pair:
+      row_name: "B&,1..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,2..BE"
+      value: 1
+  - name: JAL1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BAL1..BE
+      value: -1
+  - name: JAL1TGBE
+    first_pair:
+      row_name: BAL2..BE
+      value: 1
+    second_pair: ~
+  - name: JCC1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCC1..BE
+      value: -1
+  - name: JCC1TGBE
+    first_pair:
+      row_name: BCC2..BE
+      value: 1
+    second_pair: ~
+  - name: JCH1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCH1..BE
+      value: -1
+  - name: JCH1TGBE
+    first_pair:
+      row_name: BCH2..BE
+      value: 1
+    second_pair: ~
+  - name: JCL1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCL1..BE
+      value: -1
+  - name: JCL1TGBE
+    first_pair:
+      row_name: BCL2..BE
+      value: 1
+    second_pair: ~
+  - name: JHH1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHH1..BE
+      value: -1
+  - name: JHH1TGBE
+    first_pair:
+      row_name: BHH2..BE
+      value: 1
+    second_pair: ~
+  - name: JHL1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHL1..BE
+      value: -1
+  - name: JHL1TGBE
+    first_pair:
+      row_name: BHL2..BE
+      value: 1
+    second_pair: ~
+  - name: JHX1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.001
+    second_pair:
+      row_name: BHX1..BE
+      value: -1
+  - name: JHX1TGBE
+    first_pair:
+      row_name: BHX2..BE
+      value: 1
+    second_pair: ~
+  - name: JLV1TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BLV1..BE
+      value: -1
+  - name: JLV1TGBE
+    first_pair:
+      row_name: BLV2..BE
+      value: 1
+    second_pair: ~
+  - name: JN41TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BN41..BE
+      value: -1
+  - name: JN41TGBE
+    first_pair:
+      row_name: BN42..BE
+      value: 1
+    second_pair: ~
+  - name: JP81TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BP81..BE
+      value: -1
+  - name: JP81TGBE
+    first_pair:
+      row_name: BP82..BE
+      value: 1
+    second_pair: ~
+  - name: QVO13EBE
+    first_pair:
+      row_name: B3E...BE
+      value: 1
+    second_pair:
+      row_name: B3E.VOBE
+      value: -1
+  - name: QVO13EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3EBE
+      value: -10
+  - name: QVO13EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -10
+    second_pair:
+      row_name: N24.3EBE
+      value: -50
+  - name: QVO13EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: -90
+    second_pair:
+      row_name: X15.3EBE
+      value: -47
+  - name: QVO13EBE
+    first_pair:
+      row_name: NOM.3EBE
+      value: -89
+    second_pair:
+      row_name: NRO.3EBE
+      value: -93
+  - name: QVO13PBE
+    first_pair:
+      row_name: B3P...BE
+      value: 1
+    second_pair:
+      row_name: B3P.VOBE
+      value: -1
+  - name: QVO13PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3PBE
+      value: -10
+  - name: QVO13PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -10
+    second_pair:
+      row_name: N24.3PBE
+      value: -50
+  - name: QVO13PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: -90
+    second_pair:
+      row_name: X15.3PBE
+      value: -47
+  - name: QVO13PBE
+    first_pair:
+      row_name: NOM.3PBE
+      value: -85
+    second_pair:
+      row_name: NRO.3PBE
+      value: -89
+  - name: QVO13RBE
+    first_pair:
+      row_name: B3R...BE
+      value: 1
+    second_pair:
+      row_name: B3R.VOBE
+      value: -1
+  - name: QVO13RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3RBE
+      value: -10
+  - name: QVO13RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -10
+    second_pair:
+      row_name: N24.3RBE
+      value: -50
+  - name: QVO13RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: -90
+    second_pair:
+      row_name: X15.3RBE
+      value: -47
+  - name: QVO13RBE
+    first_pair:
+      row_name: NOM.3RBE
+      value: -88
+    second_pair:
+      row_name: NRO.3RBE
+      value: -91
+  - name: WMO13EBE
+    first_pair:
+      row_name: WMO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO13EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO13EBE
+    first_pair:
+      row_name: NRO.3EBE
+      value: 1
+    second_pair: ~
+  - name: WMO13PBE
+    first_pair:
+      row_name: WMO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO13PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO13PBE
+    first_pair:
+      row_name: NRO.3PBE
+      value: 1
+    second_pair: ~
+  - name: WMO13RBE
+    first_pair:
+      row_name: WMO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO13RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO13RBE
+    first_pair:
+      row_name: NRO.3RBE
+      value: 1
+    second_pair: ~
+  - name: "J&,2MXBE"
+    first_pair:
+      row_name: "B&,2..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,3..BE"
+      value: 1
+  - name: JAL2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BAL2..BE
+      value: -1
+  - name: JAL2MXBE
+    first_pair:
+      row_name: BAL3..BE
+      value: 1
+    second_pair: ~
+  - name: JCC2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCC2..BE
+      value: -1
+  - name: JCC2MXBE
+    first_pair:
+      row_name: BCC3..BE
+      value: 1
+    second_pair: ~
+  - name: JCH2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCH2..BE
+      value: -1
+  - name: JCH2MXBE
+    first_pair:
+      row_name: BCH3..BE
+      value: 1
+    second_pair: ~
+  - name: JCL2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCL2..BE
+      value: -1
+  - name: JCL2MXBE
+    first_pair:
+      row_name: BCL3..BE
+      value: 1
+    second_pair: ~
+  - name: JHH2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHH2..BE
+      value: -1
+  - name: JHH2MXBE
+    first_pair:
+      row_name: BHH3..BE
+      value: 1
+    second_pair: ~
+  - name: JHL2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHL2..BE
+      value: -1
+  - name: JHL2MXBE
+    first_pair:
+      row_name: BHL3..BE
+      value: 1
+    second_pair: ~
+  - name: JHX2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.001
+    second_pair:
+      row_name: BHX2..BE
+      value: -1
+  - name: JHX2MXBE
+    first_pair:
+      row_name: BHX3..BE
+      value: 1
+    second_pair: ~
+  - name: JLV2MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BLV2..BE
+      value: -1
+  - name: JLV2MXBE
+    first_pair:
+      row_name: BLV3..BE
+      value: 1
+    second_pair: ~
+  - name: JN42MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BN42..BE
+      value: -1
+  - name: JN42MXBE
+    first_pair:
+      row_name: BN43..BE
+      value: 1
+    second_pair: ~
+  - name: JP82MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BP82..BE
+      value: -1
+  - name: JP82MXBE
+    first_pair:
+      row_name: BP83..BE
+      value: 1
+    second_pair: ~
+  - name: "J&,2TGBE"
+    first_pair:
+      row_name: "B&,2..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,3..BE"
+      value: 1
+  - name: JAL2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BAL2..BE
+      value: -1
+  - name: JAL2TGBE
+    first_pair:
+      row_name: BAL3..BE
+      value: 1
+    second_pair: ~
+  - name: JCC2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCC2..BE
+      value: -1
+  - name: JCC2TGBE
+    first_pair:
+      row_name: BCC3..BE
+      value: 1
+    second_pair: ~
+  - name: JCH2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCH2..BE
+      value: -1
+  - name: JCH2TGBE
+    first_pair:
+      row_name: BCH3..BE
+      value: 1
+    second_pair: ~
+  - name: JCL2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCL2..BE
+      value: -1
+  - name: JCL2TGBE
+    first_pair:
+      row_name: BCL3..BE
+      value: 1
+    second_pair: ~
+  - name: JHH2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHH2..BE
+      value: -1
+  - name: JHH2TGBE
+    first_pair:
+      row_name: BHH3..BE
+      value: 1
+    second_pair: ~
+  - name: JHL2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHL2..BE
+      value: -1
+  - name: JHL2TGBE
+    first_pair:
+      row_name: BHL3..BE
+      value: 1
+    second_pair: ~
+  - name: JHX2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.001
+    second_pair:
+      row_name: BHX2..BE
+      value: -1
+  - name: JHX2TGBE
+    first_pair:
+      row_name: BHX3..BE
+      value: 1
+    second_pair: ~
+  - name: JLV2TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BLV2..BE
+      value: -1
+  - name: JLV2TGBE
+    first_pair:
+      row_name: BLV3..BE
+      value: 1
+    second_pair: ~
+  - name: JN42TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BN42..BE
+      value: -1
+  - name: JN42TGBE
+    first_pair:
+      row_name: BN43..BE
+      value: 1
+    second_pair: ~
+  - name: JP82TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BP82..BE
+      value: -1
+  - name: JP82TGBE
+    first_pair:
+      row_name: BP83..BE
+      value: 1
+    second_pair: ~
+  - name: QVO23EBE
+    first_pair:
+      row_name: B3E...BE
+      value: 1
+    second_pair:
+      row_name: B3E.VOBE
+      value: -1
+  - name: QVO23EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3EBE
+      value: -10
+  - name: QVO23EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -10
+    second_pair:
+      row_name: N24.3EBE
+      value: -50
+  - name: QVO23EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: -90
+    second_pair:
+      row_name: X15.3EBE
+      value: -47
+  - name: QVO23EBE
+    first_pair:
+      row_name: NOM.3EBE
+      value: -89
+    second_pair:
+      row_name: NRO.3EBE
+      value: -93
+  - name: QVO23PBE
+    first_pair:
+      row_name: B3P...BE
+      value: 1
+    second_pair:
+      row_name: B3P.VOBE
+      value: -1
+  - name: QVO23PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3PBE
+      value: -10
+  - name: QVO23PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -10
+    second_pair:
+      row_name: N24.3PBE
+      value: -50
+  - name: QVO23PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: -90
+    second_pair:
+      row_name: X15.3PBE
+      value: -47
+  - name: QVO23PBE
+    first_pair:
+      row_name: NOM.3PBE
+      value: -85
+    second_pair:
+      row_name: NRO.3PBE
+      value: -89
+  - name: QVO23RBE
+    first_pair:
+      row_name: B3R...BE
+      value: 1
+    second_pair:
+      row_name: B3R.VOBE
+      value: -1
+  - name: QVO23RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3RBE
+      value: -10
+  - name: QVO23RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -10
+    second_pair:
+      row_name: N24.3RBE
+      value: -50
+  - name: QVO23RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: -90
+    second_pair:
+      row_name: X15.3RBE
+      value: -47
+  - name: QVO23RBE
+    first_pair:
+      row_name: NOM.3RBE
+      value: -88
+    second_pair:
+      row_name: NRO.3RBE
+      value: -91
+  - name: WMO23EBE
+    first_pair:
+      row_name: WMO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO23EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO23EBE
+    first_pair:
+      row_name: NRO.3EBE
+      value: 1
+    second_pair: ~
+  - name: WMO23PBE
+    first_pair:
+      row_name: WMO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO23PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO23PBE
+    first_pair:
+      row_name: NRO.3PBE
+      value: 1
+    second_pair: ~
+  - name: WMO23RBE
+    first_pair:
+      row_name: WMO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO23RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO23RBE
+    first_pair:
+      row_name: NRO.3RBE
+      value: 1
+    second_pair: ~
+  - name: "J&,3MXBE"
+    first_pair:
+      row_name: "B&,3..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,4..BE"
+      value: 1
+  - name: JAL3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BAL3..BE
+      value: -1
+  - name: JAL3MXBE
+    first_pair:
+      row_name: BAL4..BE
+      value: 1
+    second_pair: ~
+  - name: JCC3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCC3..BE
+      value: -1
+  - name: JCC3MXBE
+    first_pair:
+      row_name: BCC4..BE
+      value: 1
+    second_pair: ~
+  - name: JCH3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCH3..BE
+      value: -1
+  - name: JCH3MXBE
+    first_pair:
+      row_name: BCH4..BE
+      value: 1
+    second_pair: ~
+  - name: JCL3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BCL3..BE
+      value: -1
+  - name: JCL3MXBE
+    first_pair:
+      row_name: BCL4..BE
+      value: 1
+    second_pair: ~
+  - name: JHH3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHH3..BE
+      value: -1
+  - name: JHH3MXBE
+    first_pair:
+      row_name: BHH4..BE
+      value: 1
+    second_pair: ~
+  - name: JHL3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BHL3..BE
+      value: -1
+  - name: JHL3MXBE
+    first_pair:
+      row_name: BHL4..BE
+      value: 1
+    second_pair: ~
+  - name: JHX3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.001
+    second_pair:
+      row_name: BHX3..BE
+      value: -1
+  - name: JHX3MXBE
+    first_pair:
+      row_name: BHX4..BE
+      value: 1
+    second_pair: ~
+  - name: JLV3MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BLV3..BE
+      value: -1
+  - name: JLV3MXBE
+    first_pair:
+      row_name: BLV4..BE
+      value: 1
+    second_pair: ~
+  - name: JN43MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BN43..BE
+      value: -1
+  - name: JN43MXBE
+    first_pair:
+      row_name: BN44..BE
+      value: 1
+    second_pair: ~
+  - name: JP83MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.002
+    second_pair:
+      row_name: BP83..BE
+      value: -1
+  - name: JP83MXBE
+    first_pair:
+      row_name: BP84..BE
+      value: 1
+    second_pair: ~
+  - name: "J&,3TGBE"
+    first_pair:
+      row_name: "B&,3..BE"
+      value: -1
+    second_pair:
+      row_name: "B&,4..BE"
+      value: 1
+  - name: JAL3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BAL3..BE
+      value: -1
+  - name: JAL3TGBE
+    first_pair:
+      row_name: BAL4..BE
+      value: 1
+    second_pair: ~
+  - name: JCC3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCC3..BE
+      value: -1
+  - name: JCC3TGBE
+    first_pair:
+      row_name: BCC4..BE
+      value: 1
+    second_pair: ~
+  - name: JCH3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCH3..BE
+      value: -1
+  - name: JCH3TGBE
+    first_pair:
+      row_name: BCH4..BE
+      value: 1
+    second_pair: ~
+  - name: JCL3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BCL3..BE
+      value: -1
+  - name: JCL3TGBE
+    first_pair:
+      row_name: BCL4..BE
+      value: 1
+    second_pair: ~
+  - name: JHH3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHH3..BE
+      value: -1
+  - name: JHH3TGBE
+    first_pair:
+      row_name: BHH4..BE
+      value: 1
+    second_pair: ~
+  - name: JHL3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BHL3..BE
+      value: -1
+  - name: JHL3TGBE
+    first_pair:
+      row_name: BHL4..BE
+      value: 1
+    second_pair: ~
+  - name: JHX3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.001
+    second_pair:
+      row_name: BHX3..BE
+      value: -1
+  - name: JHX3TGBE
+    first_pair:
+      row_name: BHX4..BE
+      value: 1
+    second_pair: ~
+  - name: JLV3TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BLV3..BE
+      value: -1
+  - name: JLV3TGBE
+    first_pair:
+      row_name: BLV4..BE
+      value: 1
+    second_pair: ~
+  - name: JN43TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BN43..BE
+      value: -1
+  - name: JN43TGBE
+    first_pair:
+      row_name: BN44..BE
+      value: 1
+    second_pair: ~
+  - name: JP83TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.002
+    second_pair:
+      row_name: BP83..BE
+      value: -1
+  - name: JP83TGBE
+    first_pair:
+      row_name: BP84..BE
+      value: 1
+    second_pair: ~
+  - name: QVO33EBE
+    first_pair:
+      row_name: B3E...BE
+      value: 1
+    second_pair:
+      row_name: B3E.VOBE
+      value: -1
+  - name: QVO33EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3EBE
+      value: -10
+  - name: QVO33EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -10
+    second_pair:
+      row_name: N24.3EBE
+      value: -50
+  - name: QVO33EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: -90
+    second_pair:
+      row_name: X15.3EBE
+      value: -47
+  - name: QVO33EBE
+    first_pair:
+      row_name: NOM.3EBE
+      value: -89
+    second_pair:
+      row_name: NRO.3EBE
+      value: -93
+  - name: QVO33PBE
+    first_pair:
+      row_name: B3P...BE
+      value: 1
+    second_pair:
+      row_name: B3P.VOBE
+      value: -1
+  - name: QVO33PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3PBE
+      value: -10
+  - name: QVO33PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -10
+    second_pair:
+      row_name: N24.3PBE
+      value: -50
+  - name: QVO33PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: -90
+    second_pair:
+      row_name: X15.3PBE
+      value: -47
+  - name: QVO33PBE
+    first_pair:
+      row_name: NOM.3PBE
+      value: -85
+    second_pair:
+      row_name: NRO.3PBE
+      value: -89
+  - name: QVO33RBE
+    first_pair:
+      row_name: B3R...BE
+      value: 1
+    second_pair:
+      row_name: B3R.VOBE
+      value: -1
+  - name: QVO33RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3RBE
+      value: -10
+  - name: QVO33RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -10
+    second_pair:
+      row_name: N24.3RBE
+      value: -50
+  - name: QVO33RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: -90
+    second_pair:
+      row_name: X15.3RBE
+      value: -47
+  - name: QVO33RBE
+    first_pair:
+      row_name: NOM.3RBE
+      value: -88
+    second_pair:
+      row_name: NRO.3RBE
+      value: -91
+  - name: WMO33EBE
+    first_pair:
+      row_name: WMO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO33EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO33EBE
+    first_pair:
+      row_name: NRO.3EBE
+      value: 1
+    second_pair: ~
+  - name: WMO33PBE
+    first_pair:
+      row_name: WMO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO33PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO33PBE
+    first_pair:
+      row_name: NRO.3PBE
+      value: 1
+    second_pair: ~
+  - name: WMO33RBE
+    first_pair:
+      row_name: WMO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO33RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO33RBE
+    first_pair:
+      row_name: NRO.3RBE
+      value: 1
+    second_pair: ~
+  - name: "J&,4MXBE"
+    first_pair:
+      row_name: "B&,4..BE"
+      value: -1
+    second_pair: ~
+  - name: JAL4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BAL4..BE
+      value: -1
+  - name: JCC4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BCC4..BE
+      value: -1
+  - name: JCH4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BCH4..BE
+      value: -1
+  - name: JCL4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BCL4..BE
+      value: -1
+  - name: JHH4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BHH4..BE
+      value: -1
+  - name: JHL4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BHL4..BE
+      value: -1
+  - name: JHX4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BHX4..BE
+      value: -1
+  - name: JLV4MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BLV4..BE
+      value: -1
+  - name: JN44MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BN44..BE
+      value: -1
+  - name: JP84MXBE
+    first_pair:
+      row_name: FAT...J.
+      value: 0.1
+    second_pair:
+      row_name: BP84..BE
+      value: -1
+  - name: "J&,4TGBE"
+    first_pair:
+      row_name: "B&,4..BE"
+      value: -1
+    second_pair: ~
+  - name: JAL4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BAL4..BE
+      value: -1
+  - name: JCC4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BCC4..BE
+      value: -1
+  - name: JCH4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BCH4..BE
+      value: -1
+  - name: JCL4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BCL4..BE
+      value: -1
+  - name: JHH4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BHH4..BE
+      value: -1
+  - name: JHL4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BHL4..BE
+      value: -1
+  - name: JHX4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BHX4..BE
+      value: -1
+  - name: JLV4TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BLV4..BE
+      value: -1
+  - name: JN44TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BN44..BE
+      value: -1
+  - name: JP84TGBE
+    first_pair:
+      row_name: FAT...J.
+      value: -0.1
+    second_pair:
+      row_name: BP84..BE
+      value: -1
+  - name: QVO43EBE
+    first_pair:
+      row_name: B3E...BE
+      value: 1
+    second_pair:
+      row_name: B3E.VOBE
+      value: -1
+  - name: QVO43EBE
+    first_pair:
+      row_name: XRV.3EBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3EBE
+      value: -10
+  - name: QVO43EBE
+    first_pair:
+      row_name: N14.3EBE
+      value: -10
+    second_pair:
+      row_name: N24.3EBE
+      value: -50
+  - name: QVO43EBE
+    first_pair:
+      row_name: N36.3EBE
+      value: -90
+    second_pair:
+      row_name: X15.3EBE
+      value: -47
+  - name: QVO43EBE
+    first_pair:
+      row_name: NOM.3EBE
+      value: -89
+    second_pair:
+      row_name: NRO.3EBE
+      value: -93
+  - name: QVO43PBE
+    first_pair:
+      row_name: B3P...BE
+      value: 1
+    second_pair:
+      row_name: B3P.VOBE
+      value: -1
+  - name: QVO43PBE
+    first_pair:
+      row_name: XRV.3PBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3PBE
+      value: -10
+  - name: QVO43PBE
+    first_pair:
+      row_name: N14.3PBE
+      value: -10
+    second_pair:
+      row_name: N24.3PBE
+      value: -50
+  - name: QVO43PBE
+    first_pair:
+      row_name: N36.3PBE
+      value: -90
+    second_pair:
+      row_name: X15.3PBE
+      value: -47
+  - name: QVO43PBE
+    first_pair:
+      row_name: NOM.3PBE
+      value: -85
+    second_pair:
+      row_name: NRO.3PBE
+      value: -89
+  - name: QVO43RBE
+    first_pair:
+      row_name: B3R...BE
+      value: 1
+    second_pair:
+      row_name: B3R.VOBE
+      value: -1
+  - name: QVO43RBE
+    first_pair:
+      row_name: XRV.3RBE
+      value: -8.7
+    second_pair:
+      row_name: N13.3RBE
+      value: -10
+  - name: QVO43RBE
+    first_pair:
+      row_name: N14.3RBE
+      value: -10
+    second_pair:
+      row_name: N24.3RBE
+      value: -50
+  - name: QVO43RBE
+    first_pair:
+      row_name: N36.3RBE
+      value: -90
+    second_pair:
+      row_name: X15.3RBE
+      value: -47
+  - name: QVO43RBE
+    first_pair:
+      row_name: NOM.3RBE
+      value: -88
+    second_pair:
+      row_name: NRO.3RBE
+      value: -91
+  - name: WMO43EBE
+    first_pair:
+      row_name: WMO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO43EBE
+    first_pair:
+      row_name: WRO.3EBE
+      value: -1
+    second_pair:
+      row_name: NOM.3EBE
+      value: 0.5
+  - name: WRO43EBE
+    first_pair:
+      row_name: NRO.3EBE
+      value: 1
+    second_pair: ~
+  - name: WMO43PBE
+    first_pair:
+      row_name: WMO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO43PBE
+    first_pair:
+      row_name: WRO.3PBE
+      value: -1
+    second_pair:
+      row_name: NOM.3PBE
+      value: 0.5
+  - name: WRO43PBE
+    first_pair:
+      row_name: NRO.3PBE
+      value: 1
+    second_pair: ~
+  - name: WMO43RBE
+    first_pair:
+      row_name: WMO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO43RBE
+    first_pair:
+      row_name: WRO.3RBE
+      value: -1
+    second_pair:
+      row_name: NOM.3RBE
+      value: 0.5
+  - name: WRO43RBE
+    first_pair:
+      row_name: NRO.3RBE
+      value: 1
+    second_pair: ~
+rhs: ~
+ranges: ~
+bounds: ~
+

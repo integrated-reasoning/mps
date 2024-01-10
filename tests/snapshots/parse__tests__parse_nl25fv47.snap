@@ -1,0 +1,6093 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/25fv47\"))?"
+---
+name: 25FV47
+rows:
+  - row_type: Nr
+    row_name: R0000
+  - row_type: Eq
+    row_name: F1X.0
+  - row_type: Eq
+    row_name: 2SF145
+  - row_type: Eq
+    row_name: 2SF089
+  - row_type: Eq
+    row_name: 2SF129
+  - row_type: Eq
+    row_name: 30M00
+  - row_type: Eq
+    row_name: 30M94
+  - row_type: Eq
+    row_name: 30M91
+  - row_type: Eq
+    row_name: 30ATK
+  - row_type: Eq
+    row_name: 30PGK
+  - row_type: Eq
+    row_name: 30G30
+  - row_type: Eq
+    row_name: 30G17
+  - row_type: Eq
+    row_name: 30G44
+  - row_type: Eq
+    row_name: 30G22
+  - row_type: Eq
+    row_name: 30D22
+  - row_type: Eq
+    row_name: 30D30
+  - row_type: Eq
+    row_name: "30121"
+  - row_type: Eq
+    row_name: 30F52
+  - row_type: Eq
+    row_name: 30F48
+  - row_type: Eq
+    row_name: "30128"
+  - row_type: Eq
+    row_name: RB017
+  - row_type: Eq
+    row_name: 2RB018
+  - row_type: Eq
+    row_name: 1RB019
+  - row_type: Eq
+    row_name: 2RB020
+  - row_type: Eq
+    row_name: RC0ST
+  - row_type: Leq
+    row_name: RCRFT
+  - row_type: Eq
+    row_name: RMSEX
+  - row_type: Eq
+    row_name: RLDEX
+  - row_type: Eq
+    row_name: RPKEX
+  - row_type: Eq
+    row_name: RRKEX
+  - row_type: Eq
+    row_name: RG0EX
+  - row_type: Eq
+    row_name: RF0EX
+  - row_type: Eq
+    row_name: KW1RC
+  - row_type: Eq
+    row_name: RA001
+  - row_type: Eq
+    row_name: RA002
+  - row_type: Eq
+    row_name: 1RA002
+  - row_type: Eq
+    row_name: RA004
+  - row_type: Eq
+    row_name: RA005
+  - row_type: Eq
+    row_name: 2RA005
+  - row_type: Eq
+    row_name: RA006
+  - row_type: Eq
+    row_name: RA007
+  - row_type: Eq
+    row_name: RA008
+  - row_type: Eq
+    row_name: RA009
+  - row_type: Eq
+    row_name: RA010
+  - row_type: Eq
+    row_name: RA011
+  - row_type: Eq
+    row_name: RA012
+  - row_type: Eq
+    row_name: RA013
+  - row_type: Eq
+    row_name: RA014
+  - row_type: Eq
+    row_name: RA015
+  - row_type: Eq
+    row_name: RA016
+  - row_type: Eq
+    row_name: RA017
+  - row_type: Eq
+    row_name: RA018
+  - row_type: Eq
+    row_name: RA019
+  - row_type: Eq
+    row_name: RA020
+  - row_type: Eq
+    row_name: 1RA020
+  - row_type: Eq
+    row_name: RA022
+  - row_type: Eq
+    row_name: RA023
+  - row_type: Eq
+    row_name: RA024
+  - row_type: Eq
+    row_name: RA026
+  - row_type: Eq
+    row_name: RA027
+  - row_type: Eq
+    row_name: RA028
+  - row_type: Eq
+    row_name: RA029
+  - row_type: Eq
+    row_name: 1RA029
+  - row_type: Eq
+    row_name: RA031
+  - row_type: Eq
+    row_name: RA032
+  - row_type: Eq
+    row_name: RA033
+  - row_type: Eq
+    row_name: RA034
+  - row_type: Eq
+    row_name: 1RA034
+  - row_type: Eq
+    row_name: 2RA034
+  - row_type: Eq
+    row_name: RA035
+  - row_type: Eq
+    row_name: RA036
+  - row_type: Leq
+    row_name: RA037
+  - row_type: Eq
+    row_name: RA038
+  - row_type: Eq
+    row_name: RA039
+  - row_type: Eq
+    row_name: RA040
+  - row_type: Eq
+    row_name: RA041
+  - row_type: Eq
+    row_name: RA043
+  - row_type: Eq
+    row_name: 1RA043
+  - row_type: Eq
+    row_name: RA044
+  - row_type: Eq
+    row_name: RA045
+  - row_type: Eq
+    row_name: RA046
+  - row_type: Eq
+    row_name: RA047
+  - row_type: Eq
+    row_name: 1RA047
+  - row_type: Eq
+    row_name: RA048
+  - row_type: Eq
+    row_name: RA049
+  - row_type: Eq
+    row_name: RA051
+  - row_type: Eq
+    row_name: RA052
+  - row_type: Eq
+    row_name: 1RA052
+  - row_type: Eq
+    row_name: 1RA053
+  - row_type: Eq
+    row_name: RA054
+  - row_type: Leq
+    row_name: RA055
+  - row_type: Leq
+    row_name: 1RA055
+  - row_type: Leq
+    row_name: RA056
+  - row_type: Leq
+    row_name: RA057
+  - row_type: Leq
+    row_name: RA058
+  - row_type: Eq
+    row_name: 1RA058
+  - row_type: Leq
+    row_name: RA059
+  - row_type: Leq
+    row_name: RA060
+  - row_type: Leq
+    row_name: 2RA060
+  - row_type: Leq
+    row_name: 3RA060
+  - row_type: Leq
+    row_name: RA061
+  - row_type: Leq
+    row_name: RA062
+  - row_type: Leq
+    row_name: RA063
+  - row_type: Leq
+    row_name: RA064
+  - row_type: Leq
+    row_name: RA065
+  - row_type: Leq
+    row_name: RA066
+  - row_type: Leq
+    row_name: RA067
+  - row_type: Leq
+    row_name: RA068
+  - row_type: Leq
+    row_name: RA069
+  - row_type: Leq
+    row_name: RA070
+  - row_type: Leq
+    row_name: RA072
+  - row_type: Leq
+    row_name: RA075
+  - row_type: Leq
+    row_name: 1RA075
+  - row_type: Leq
+    row_name: RA076
+  - row_type: Leq
+    row_name: 1RA076
+  - row_type: Leq
+    row_name: RA077
+  - row_type: Leq
+    row_name: RA078
+  - row_type: Leq
+    row_name: 1RA078
+  - row_type: Leq
+    row_name: RA079
+  - row_type: Leq
+    row_name: 1RA079
+  - row_type: Leq
+    row_name: RA081
+  - row_type: Leq
+    row_name: 1RA081
+  - row_type: Leq
+    row_name: RA082
+  - row_type: Leq
+    row_name: RA083
+  - row_type: Leq
+    row_name: RA084
+  - row_type: Leq
+    row_name: RA085
+  - row_type: Leq
+    row_name: RA086
+  - row_type: Leq
+    row_name: RA087
+  - row_type: Leq
+    row_name: RA088
+  - row_type: Leq
+    row_name: RA089
+  - row_type: Leq
+    row_name: RA090
+  - row_type: Leq
+    row_name: RA091
+  - row_type: Leq
+    row_name: RA092
+  - row_type: Leq
+    row_name: RA093
+  - row_type: Leq
+    row_name: RA094
+  - row_type: Leq
+    row_name: RA095
+  - row_type: Leq
+    row_name: RA096
+  - row_type: Eq
+    row_name: RA097
+  - row_type: Eq
+    row_name: 1RA099
+  - row_type: Leq
+    row_name: RA100
+  - row_type: Eq
+    row_name: RB001
+  - row_type: Eq
+    row_name: 1RB001
+  - row_type: Eq
+    row_name: RB002
+  - row_type: Eq
+    row_name: RB003
+  - row_type: Eq
+    row_name: 1RB003
+  - row_type: Eq
+    row_name: RB004
+  - row_type: Eq
+    row_name: 1RB004
+  - row_type: Eq
+    row_name: RB005
+  - row_type: Eq
+    row_name: 1RB005
+  - row_type: Eq
+    row_name: 2RB005
+  - row_type: Eq
+    row_name: RB006
+  - row_type: Eq
+    row_name: 1RB006
+  - row_type: Eq
+    row_name: RB007
+  - row_type: Eq
+    row_name: 1RB007
+  - row_type: Eq
+    row_name: 2RB007
+  - row_type: Eq
+    row_name: RB008
+  - row_type: Eq
+    row_name: 1RB008
+  - row_type: Eq
+    row_name: 2RB008
+  - row_type: Eq
+    row_name: 3RB008
+  - row_type: Eq
+    row_name: RB009
+  - row_type: Eq
+    row_name: RB010
+  - row_type: Eq
+    row_name: RB011
+  - row_type: Eq
+    row_name: RB012
+  - row_type: Eq
+    row_name: RB013
+  - row_type: Eq
+    row_name: 1RB013
+  - row_type: Eq
+    row_name: RB014
+  - row_type: Eq
+    row_name: RB015
+  - row_type: Eq
+    row_name: 1RB015
+  - row_type: Eq
+    row_name: 2RB015
+  - row_type: Eq
+    row_name: RB016
+  - row_type: Eq
+    row_name: 1RB016
+  - row_type: Eq
+    row_name: RB018
+  - row_type: Eq
+    row_name: 1RB018
+  - row_type: Eq
+    row_name: RB019
+  - row_type: Eq
+    row_name: RB020
+  - row_type: Eq
+    row_name: 1RB020
+  - row_type: Eq
+    row_name: 1RB021
+  - row_type: Eq
+    row_name: RB022
+  - row_type: Eq
+    row_name: 1RB022
+  - row_type: Eq
+    row_name: 1RB023
+  - row_type: Eq
+    row_name: RB024
+  - row_type: Eq
+    row_name: 1RB024
+  - row_type: Eq
+    row_name: RB025
+  - row_type: Eq
+    row_name: 1RB025
+  - row_type: Eq
+    row_name: 2RB025
+  - row_type: Eq
+    row_name: RB026
+  - row_type: Eq
+    row_name: RB027
+  - row_type: Eq
+    row_name: RB028
+  - row_type: Eq
+    row_name: RB029
+  - row_type: Eq
+    row_name: RB030
+  - row_type: Eq
+    row_name: 1RB030
+  - row_type: Eq
+    row_name: 2RB030
+  - row_type: Eq
+    row_name: RB031
+  - row_type: Eq
+    row_name: 1RB031
+  - row_type: Eq
+    row_name: RB033
+  - row_type: Eq
+    row_name: RB034
+  - row_type: Eq
+    row_name: RB035
+  - row_type: Eq
+    row_name: RB036
+  - row_type: Eq
+    row_name: RB037
+  - row_type: Eq
+    row_name: RB038
+  - row_type: Eq
+    row_name: 1RB038
+  - row_type: Eq
+    row_name: RB039
+  - row_type: Eq
+    row_name: RB040
+  - row_type: Eq
+    row_name: 1RB040
+  - row_type: Eq
+    row_name: 2RB040
+  - row_type: Eq
+    row_name: RB041
+  - row_type: Eq
+    row_name: RB042
+  - row_type: Eq
+    row_name: 1RB043
+  - row_type: Eq
+    row_name: 1RB044
+  - row_type: Eq
+    row_name: RB045
+  - row_type: Eq
+    row_name: 1RB045
+  - row_type: Eq
+    row_name: 4RB045
+  - row_type: Leq
+    row_name: RB046
+  - row_type: Eq
+    row_name: RB047
+  - row_type: Eq
+    row_name: 2RB047
+  - row_type: Eq
+    row_name: 3RB047
+  - row_type: Eq
+    row_name: RB048
+  - row_type: Eq
+    row_name: 2RB049
+  - row_type: Eq
+    row_name: RB050
+  - row_type: Eq
+    row_name: 1RB050
+  - row_type: Eq
+    row_name: RB051
+  - row_type: Eq
+    row_name: 1RB051
+  - row_type: Eq
+    row_name: 2RB051
+  - row_type: Eq
+    row_name: RB052
+  - row_type: Eq
+    row_name: RB053
+  - row_type: Eq
+    row_name: 1RB053
+  - row_type: Eq
+    row_name: RB054
+  - row_type: Eq
+    row_name: 1RB054
+  - row_type: Eq
+    row_name: RB055
+  - row_type: Leq
+    row_name: RB057
+  - row_type: Leq
+    row_name: RB058
+  - row_type: Leq
+    row_name: 1RB058
+  - row_type: Leq
+    row_name: RB059
+  - row_type: Leq
+    row_name: RB060
+  - row_type: Leq
+    row_name: RB061
+  - row_type: Leq
+    row_name: RB062
+  - row_type: Leq
+    row_name: RB063
+  - row_type: Eq
+    row_name: RB064
+  - row_type: Leq
+    row_name: RB065
+  - row_type: Leq
+    row_name: RB066
+  - row_type: Leq
+    row_name: RB067
+  - row_type: Eq
+    row_name: RB068
+  - row_type: Leq
+    row_name: RB069
+  - row_type: Leq
+    row_name: RB070
+  - row_type: Leq
+    row_name: RB071
+  - row_type: Leq
+    row_name: RB072
+  - row_type: Eq
+    row_name: RB073
+  - row_type: Leq
+    row_name: RB074
+  - row_type: Leq
+    row_name: RB075
+  - row_type: Leq
+    row_name: RB076
+  - row_type: Leq
+    row_name: RB077
+  - row_type: Leq
+    row_name: RB078
+  - row_type: Leq
+    row_name: RB079
+  - row_type: Leq
+    row_name: RB080
+  - row_type: Leq
+    row_name: RB081
+  - row_type: Leq
+    row_name: RB082
+  - row_type: Leq
+    row_name: RB083
+  - row_type: Leq
+    row_name: RB084
+  - row_type: Leq
+    row_name: RB085
+  - row_type: Leq
+    row_name: RB086
+  - row_type: Leq
+    row_name: RB087
+  - row_type: Leq
+    row_name: 1RB087
+  - row_type: Leq
+    row_name: RB088
+  - row_type: Leq
+    row_name: RB089
+  - row_type: Leq
+    row_name: RB090
+  - row_type: Leq
+    row_name: 1RB090
+  - row_type: Leq
+    row_name: RB091
+  - row_type: Leq
+    row_name: RB092
+  - row_type: Leq
+    row_name: 1RB092
+  - row_type: Leq
+    row_name: RB093
+  - row_type: Leq
+    row_name: 1RB093
+  - row_type: Leq
+    row_name: RB094
+  - row_type: Leq
+    row_name: RB095
+  - row_type: Leq
+    row_name: RB096
+  - row_type: Leq
+    row_name: RB097
+  - row_type: Leq
+    row_name: RB098
+  - row_type: Leq
+    row_name: RB099
+  - row_type: Leq
+    row_name: RB100
+  - row_type: Leq
+    row_name: RB101
+  - row_type: Leq
+    row_name: RB102
+  - row_type: Leq
+    row_name: RB103
+  - row_type: Leq
+    row_name: RB104
+  - row_type: Leq
+    row_name: RB105
+  - row_type: Leq
+    row_name: RB106
+  - row_type: Eq
+    row_name: RCLD4
+  - row_type: Eq
+    row_name: RCF35
+  - row_type: Eq
+    row_name: RCF80
+  - row_type: Eq
+    row_name: RDBMS
+  - row_type: Eq
+    row_name: RDLD4
+  - row_type: Eq
+    row_name: RDK19
+  - row_type: Eq
+    row_name: RDG55
+  - row_type: Eq
+    row_name: RDF35
+  - row_type: Eq
+    row_name: RE001
+  - row_type: Eq
+    row_name: RE002
+  - row_type: Eq
+    row_name: RE004
+  - row_type: Leq
+    row_name: RE005
+  - row_type: Eq
+    row_name: RE008
+  - row_type: Eq
+    row_name: RE009
+  - row_type: Eq
+    row_name: RE010
+  - row_type: Eq
+    row_name: RE011
+  - row_type: Eq
+    row_name: RE012
+  - row_type: Eq
+    row_name: RE013
+  - row_type: Eq
+    row_name: RE014
+  - row_type: Eq
+    row_name: RE015
+  - row_type: Eq
+    row_name: RE016
+  - row_type: Eq
+    row_name: RE017
+  - row_type: Eq
+    row_name: RE018
+  - row_type: Eq
+    row_name: RE019
+  - row_type: Eq
+    row_name: RE021
+  - row_type: Eq
+    row_name: RE022
+  - row_type: Eq
+    row_name: RE024
+  - row_type: Eq
+    row_name: RE025
+  - row_type: Eq
+    row_name: RE026
+  - row_type: Eq
+    row_name: RE028
+  - row_type: Eq
+    row_name: RE030
+  - row_type: Eq
+    row_name: RE035
+  - row_type: Eq
+    row_name: RE036
+  - row_type: Eq
+    row_name: RE037
+  - row_type: Eq
+    row_name: RE039
+  - row_type: Eq
+    row_name: RE040
+  - row_type: Eq
+    row_name: RE044
+  - row_type: Eq
+    row_name: RE045
+  - row_type: Eq
+    row_name: RE046
+  - row_type: Eq
+    row_name: RE047
+  - row_type: Eq
+    row_name: RE048
+  - row_type: Eq
+    row_name: RE049
+  - row_type: Eq
+    row_name: RE050
+  - row_type: Eq
+    row_name: RE051
+  - row_type: Eq
+    row_name: RE055
+  - row_type: Eq
+    row_name: 1RE056
+  - row_type: Eq
+    row_name: RE057
+  - row_type: Eq
+    row_name: RE058
+  - row_type: Eq
+    row_name: RE060
+  - row_type: Leq
+    row_name: RE061
+  - row_type: Leq
+    row_name: 1RE061
+  - row_type: Leq
+    row_name: 2RE061
+  - row_type: Leq
+    row_name: RE062
+  - row_type: Leq
+    row_name: RE063
+  - row_type: Leq
+    row_name: RE064
+  - row_type: Leq
+    row_name: RE066
+  - row_type: Leq
+    row_name: RE068
+  - row_type: Leq
+    row_name: RE069
+  - row_type: Leq
+    row_name: RE070
+  - row_type: Leq
+    row_name: RE071
+  - row_type: Leq
+    row_name: RE072
+  - row_type: Leq
+    row_name: RE073
+  - row_type: Leq
+    row_name: RE074
+  - row_type: Leq
+    row_name: RE075
+  - row_type: Leq
+    row_name: RE084
+  - row_type: Leq
+    row_name: RE085
+  - row_type: Leq
+    row_name: RE086
+  - row_type: Leq
+    row_name: RE087
+  - row_type: Leq
+    row_name: RE088
+  - row_type: Leq
+    row_name: RE089
+  - row_type: Leq
+    row_name: RE090
+  - row_type: Leq
+    row_name: RE091
+  - row_type: Leq
+    row_name: RE092
+  - row_type: Leq
+    row_name: RE098
+  - row_type: Leq
+    row_name: RE099
+  - row_type: Leq
+    row_name: RE100
+  - row_type: Leq
+    row_name: RE101
+  - row_type: Leq
+    row_name: RE102
+  - row_type: Eq
+    row_name: RE103
+  - row_type: Leq
+    row_name: RE104
+  - row_type: Leq
+    row_name: RH001
+  - row_type: Eq
+    row_name: 1RH001
+  - row_type: Eq
+    row_name: 2RH001
+  - row_type: Eq
+    row_name: RH002
+  - row_type: Eq
+    row_name: RH003
+  - row_type: Eq
+    row_name: RH004
+  - row_type: Eq
+    row_name: RH005
+  - row_type: Eq
+    row_name: 1RH005
+  - row_type: Eq
+    row_name: RH006
+  - row_type: Eq
+    row_name: 1RH006
+  - row_type: Eq
+    row_name: RH007
+  - row_type: Eq
+    row_name: RH008
+  - row_type: Eq
+    row_name: 1RH008
+  - row_type: Eq
+    row_name: RH009
+  - row_type: Eq
+    row_name: RH010
+  - row_type: Eq
+    row_name: RH011
+  - row_type: Eq
+    row_name: RH012
+  - row_type: Eq
+    row_name: RH013
+  - row_type: Eq
+    row_name: RH014
+  - row_type: Eq
+    row_name: RH015
+  - row_type: Eq
+    row_name: RH016
+  - row_type: Eq
+    row_name: RH017
+  - row_type: Eq
+    row_name: 1RH017
+  - row_type: Eq
+    row_name: 2RH017
+  - row_type: Eq
+    row_name: RH018
+  - row_type: Eq
+    row_name: 1RH018
+  - row_type: Eq
+    row_name: 2RH018
+  - row_type: Eq
+    row_name: 3RH018
+  - row_type: Eq
+    row_name: RH019
+  - row_type: Eq
+    row_name: 1RH019
+  - row_type: Eq
+    row_name: RH020
+  - row_type: Eq
+    row_name: RH021
+  - row_type: Eq
+    row_name: 1RH021
+  - row_type: Eq
+    row_name: RH022
+  - row_type: Eq
+    row_name: 1RH022
+  - row_type: Eq
+    row_name: 2RH022
+  - row_type: Eq
+    row_name: 3RH022
+  - row_type: Eq
+    row_name: 4RH022
+  - row_type: Eq
+    row_name: RH023
+  - row_type: Eq
+    row_name: 2RH023
+  - row_type: Eq
+    row_name: RH024
+  - row_type: Eq
+    row_name: 1RH024
+  - row_type: Eq
+    row_name: RH025
+  - row_type: Eq
+    row_name: 1RH025
+  - row_type: Eq
+    row_name: 2RH025
+  - row_type: Eq
+    row_name: RH026
+  - row_type: Eq
+    row_name: 1RH026
+  - row_type: Eq
+    row_name: 2RH026
+  - row_type: Eq
+    row_name: RH027
+  - row_type: Eq
+    row_name: 1RH027
+  - row_type: Eq
+    row_name: RH028
+  - row_type: Eq
+    row_name: 1RH028
+  - row_type: Eq
+    row_name: 2RH028
+  - row_type: Eq
+    row_name: RH029
+  - row_type: Eq
+    row_name: 1RH029
+  - row_type: Eq
+    row_name: RH030
+  - row_type: Eq
+    row_name: 1RH030
+  - row_type: Eq
+    row_name: 2RH030
+  - row_type: Eq
+    row_name: 3RH030
+  - row_type: Eq
+    row_name: 4RH030
+  - row_type: Eq
+    row_name: RH031
+  - row_type: Eq
+    row_name: RH032
+  - row_type: Eq
+    row_name: 1RH033
+  - row_type: Eq
+    row_name: 2RH033
+  - row_type: Eq
+    row_name: RH034
+  - row_type: Eq
+    row_name: 1RH034
+  - row_type: Eq
+    row_name: RH035
+  - row_type: Eq
+    row_name: 1RH035
+  - row_type: Eq
+    row_name: RH036
+  - row_type: Eq
+    row_name: 1RH036
+  - row_type: Eq
+    row_name: RH038
+  - row_type: Eq
+    row_name: 1RH038
+  - row_type: Eq
+    row_name: 2RH038
+  - row_type: Eq
+    row_name: RH039
+  - row_type: Eq
+    row_name: 2RH039
+  - row_type: Eq
+    row_name: RH041
+  - row_type: Eq
+    row_name: RH042
+  - row_type: Eq
+    row_name: 2RH042
+  - row_type: Eq
+    row_name: RH043
+  - row_type: Eq
+    row_name: 2RH043
+  - row_type: Eq
+    row_name: RH046
+  - row_type: Eq
+    row_name: RH048
+  - row_type: Eq
+    row_name: 2RH048
+  - row_type: Eq
+    row_name: 3RH048
+  - row_type: Eq
+    row_name: RH050
+  - row_type: Eq
+    row_name: RH051
+  - row_type: Eq
+    row_name: 1RH051
+  - row_type: Eq
+    row_name: 2RH051
+  - row_type: Eq
+    row_name: RH052
+  - row_type: Eq
+    row_name: 2RH052
+  - row_type: Eq
+    row_name: 3RH052
+  - row_type: Eq
+    row_name: 4RH052
+  - row_type: Eq
+    row_name: RH053
+  - row_type: Eq
+    row_name: 2RH053
+  - row_type: Eq
+    row_name: 3RH053
+  - row_type: Leq
+    row_name: RH054
+  - row_type: Leq
+    row_name: 1RH054
+  - row_type: Leq
+    row_name: RH055
+  - row_type: Leq
+    row_name: RH056
+  - row_type: Leq
+    row_name: RH057
+  - row_type: Leq
+    row_name: RH058
+  - row_type: Leq
+    row_name: RH059
+  - row_type: Leq
+    row_name: RH060
+  - row_type: Leq
+    row_name: 1RH060
+  - row_type: Leq
+    row_name: RH061
+  - row_type: Leq
+    row_name: RH062
+  - row_type: Eq
+    row_name: RH063
+  - row_type: Leq
+    row_name: RH064
+  - row_type: Leq
+    row_name: RH065
+  - row_type: Leq
+    row_name: RH066
+  - row_type: Leq
+    row_name: 1RH066
+  - row_type: Eq
+    row_name: RH067
+  - row_type: Leq
+    row_name: RH068
+  - row_type: Leq
+    row_name: RH069
+  - row_type: Leq
+    row_name: RH070
+  - row_type: Leq
+    row_name: RH071
+  - row_type: Eq
+    row_name: RH072
+  - row_type: Leq
+    row_name: RH073
+  - row_type: Leq
+    row_name: RH074
+  - row_type: Leq
+    row_name: RH075
+  - row_type: Leq
+    row_name: RH080
+  - row_type: Leq
+    row_name: RH081
+  - row_type: Leq
+    row_name: RH082
+  - row_type: Leq
+    row_name: RH083
+  - row_type: Leq
+    row_name: RH084
+  - row_type: Leq
+    row_name: RH085
+  - row_type: Leq
+    row_name: RH086
+  - row_type: Leq
+    row_name: RH087
+  - row_type: Leq
+    row_name: RH088
+  - row_type: Leq
+    row_name: RH089
+  - row_type: Leq
+    row_name: 1RH089
+  - row_type: Leq
+    row_name: 2RH089
+  - row_type: Leq
+    row_name: 3RH089
+  - row_type: Leq
+    row_name: RH090
+  - row_type: Leq
+    row_name: 1RH090
+  - row_type: Leq
+    row_name: 2RH090
+  - row_type: Leq
+    row_name: RH091
+  - row_type: Leq
+    row_name: RH093
+  - row_type: Leq
+    row_name: 1RH093
+  - row_type: Leq
+    row_name: RH094
+  - row_type: Eq
+    row_name: RH095
+  - row_type: Eq
+    row_name: RH096
+  - row_type: Leq
+    row_name: RH099
+  - row_type: Leq
+    row_name: RH103
+  - row_type: Leq
+    row_name: RH105
+  - row_type: Leq
+    row_name: RH106
+  - row_type: Leq
+    row_name: 1RH106
+  - row_type: Leq
+    row_name: 2RH106
+  - row_type: Leq
+    row_name: RH107
+  - row_type: Leq
+    row_name: 1RH107
+  - row_type: Leq
+    row_name: 2RH107
+  - row_type: Leq
+    row_name: RH108
+  - row_type: Eq
+    row_name: RH109
+  - row_type: Leq
+    row_name: 1RH109
+  - row_type: Leq
+    row_name: 2RH109
+  - row_type: Leq
+    row_name: RH110
+  - row_type: Eq
+    row_name: RH113
+  - row_type: Eq
+    row_name: RH114
+  - row_type: Leq
+    row_name: RH115
+  - row_type: Leq
+    row_name: RH116
+  - row_type: Leq
+    row_name: RH117
+  - row_type: Leq
+    row_name: RH118
+  - row_type: Leq
+    row_name: 1RH118
+  - row_type: Eq
+    row_name: R1002
+  - row_type: Eq
+    row_name: R1003
+  - row_type: Eq
+    row_name: R1004
+  - row_type: Eq
+    row_name: 1R1004
+  - row_type: Eq
+    row_name: R1005
+  - row_type: Eq
+    row_name: 1R1006
+  - row_type: Leq
+    row_name: 2R1006
+  - row_type: Eq
+    row_name: R1007
+  - row_type: Eq
+    row_name: 1R1007
+  - row_type: Eq
+    row_name: R1008
+  - row_type: Eq
+    row_name: R1009
+  - row_type: Leq
+    row_name: 1R1009
+  - row_type: Eq
+    row_name: R1010
+  - row_type: Eq
+    row_name: R1012
+  - row_type: Eq
+    row_name: R1013
+  - row_type: Eq
+    row_name: R1014
+  - row_type: Eq
+    row_name: R1015
+  - row_type: Eq
+    row_name: R1016
+  - row_type: Eq
+    row_name: R1017
+  - row_type: Eq
+    row_name: R1018
+  - row_type: Eq
+    row_name: R1019
+  - row_type: Eq
+    row_name: 1R1019
+  - row_type: Eq
+    row_name: R1020
+  - row_type: Eq
+    row_name: 1R1020
+  - row_type: Eq
+    row_name: R1021
+  - row_type: Eq
+    row_name: 1R1021
+  - row_type: Eq
+    row_name: 2R1021
+  - row_type: Eq
+    row_name: 3R1021
+  - row_type: Eq
+    row_name: R1022
+  - row_type: Eq
+    row_name: R1023
+  - row_type: Eq
+    row_name: R1024
+  - row_type: Eq
+    row_name: R1025
+  - row_type: Eq
+    row_name: R1026
+  - row_type: Eq
+    row_name: R1027
+  - row_type: Eq
+    row_name: 1R1027
+  - row_type: Eq
+    row_name: R1028
+  - row_type: Eq
+    row_name: 1R1028
+  - row_type: Eq
+    row_name: 2R1028
+  - row_type: Eq
+    row_name: 3R1028
+  - row_type: Eq
+    row_name: R1029
+  - row_type: Eq
+    row_name: R1030
+  - row_type: Eq
+    row_name: R1031
+  - row_type: Eq
+    row_name: R1032
+  - row_type: Eq
+    row_name: R1033
+  - row_type: Eq
+    row_name: 1R1033
+  - row_type: Eq
+    row_name: 2R1033
+  - row_type: Eq
+    row_name: 3R1033
+  - row_type: Eq
+    row_name: R1034
+  - row_type: Eq
+    row_name: R1035
+  - row_type: Eq
+    row_name: R1036
+  - row_type: Eq
+    row_name: R1037
+  - row_type: Eq
+    row_name: R1038
+  - row_type: Eq
+    row_name: 1R1038
+  - row_type: Eq
+    row_name: 2R1038
+  - row_type: Eq
+    row_name: R1039
+  - row_type: Leq
+    row_name: 1R1039
+  - row_type: Eq
+    row_name: R1040
+  - row_type: Eq
+    row_name: R1041
+  - row_type: Leq
+    row_name: R1042
+  - row_type: Eq
+    row_name: R1043
+  - row_type: Eq
+    row_name: R1045
+  - row_type: Eq
+    row_name: R1046
+  - row_type: Eq
+    row_name: R1047
+  - row_type: Eq
+    row_name: R1050
+  - row_type: Eq
+    row_name: R1051
+  - row_type: Eq
+    row_name: R1054
+  - row_type: Eq
+    row_name: R1055
+  - row_type: Eq
+    row_name: R1057
+  - row_type: Leq
+    row_name: 1R1057
+  - row_type: Eq
+    row_name: R1058
+  - row_type: Eq
+    row_name: R1060
+  - row_type: Eq
+    row_name: R1061
+  - row_type: Eq
+    row_name: R1062
+  - row_type: Eq
+    row_name: 2R1062
+  - row_type: Eq
+    row_name: R1063
+  - row_type: Eq
+    row_name: 1R1063
+  - row_type: Eq
+    row_name: 2R1063
+  - row_type: Eq
+    row_name: R1064
+  - row_type: Eq
+    row_name: 1R1064
+  - row_type: Eq
+    row_name: R1065
+  - row_type: Eq
+    row_name: R1066
+  - row_type: Eq
+    row_name: R1068
+  - row_type: Eq
+    row_name: 1R1068
+  - row_type: Eq
+    row_name: R1069
+  - row_type: Leq
+    row_name: R1070
+  - row_type: Leq
+    row_name: R1071
+  - row_type: Leq
+    row_name: 1R1071
+  - row_type: Leq
+    row_name: 2R1071
+  - row_type: Leq
+    row_name: R1072
+  - row_type: Leq
+    row_name: R1073
+  - row_type: Leq
+    row_name: R1074
+  - row_type: Eq
+    row_name: R1075
+  - row_type: Leq
+    row_name: R1076
+  - row_type: Leq
+    row_name: R1077
+  - row_type: Leq
+    row_name: R1078
+  - row_type: Eq
+    row_name: R1079
+  - row_type: Leq
+    row_name: R1080
+  - row_type: Leq
+    row_name: R1081
+  - row_type: Leq
+    row_name: R1082
+  - row_type: Leq
+    row_name: R1086
+  - row_type: Leq
+    row_name: R1087
+  - row_type: Leq
+    row_name: R1088
+  - row_type: Leq
+    row_name: R1089
+  - row_type: Leq
+    row_name: R1090
+  - row_type: Leq
+    row_name: R1091
+  - row_type: Leq
+    row_name: R1092
+  - row_type: Leq
+    row_name: R1093
+  - row_type: Leq
+    row_name: R1094
+  - row_type: Leq
+    row_name: R1095
+  - row_type: Leq
+    row_name: R1096
+  - row_type: Leq
+    row_name: R1097
+  - row_type: Leq
+    row_name: R1098
+  - row_type: Leq
+    row_name: R1099
+  - row_type: Leq
+    row_name: R1100
+  - row_type: Leq
+    row_name: R1101
+  - row_type: Leq
+    row_name: R1102
+  - row_type: Leq
+    row_name: 1R1102
+  - row_type: Leq
+    row_name: R1103
+  - row_type: Leq
+    row_name: R1104
+  - row_type: Leq
+    row_name: R1105
+  - row_type: Leq
+    row_name: R1106
+  - row_type: Leq
+    row_name: R1107
+  - row_type: Leq
+    row_name: R1108
+  - row_type: Leq
+    row_name: R1109
+  - row_type: Leq
+    row_name: R1110
+  - row_type: Leq
+    row_name: R1111
+  - row_type: Leq
+    row_name: R1112
+  - row_type: Leq
+    row_name: R1113
+  - row_type: Leq
+    row_name: R1114
+  - row_type: Leq
+    row_name: R1115
+  - row_type: Eq
+    row_name: RJ001
+  - row_type: Eq
+    row_name: 1RJ001
+  - row_type: Eq
+    row_name: RJ002
+  - row_type: Eq
+    row_name: RJ003
+  - row_type: Eq
+    row_name: RJ004
+  - row_type: Eq
+    row_name: RJ005
+  - row_type: Eq
+    row_name: RJ006
+  - row_type: Eq
+    row_name: 1RJ006
+  - row_type: Eq
+    row_name: RJ007
+  - row_type: Eq
+    row_name: 1RJ007
+  - row_type: Eq
+    row_name: RJ008
+  - row_type: Eq
+    row_name: 1RJ008
+  - row_type: Eq
+    row_name: RJ009
+  - row_type: Eq
+    row_name: RJ010
+  - row_type: Eq
+    row_name: RJ011
+  - row_type: Eq
+    row_name: 1RJ011
+  - row_type: Eq
+    row_name: RJ012
+  - row_type: Eq
+    row_name: RJ013
+  - row_type: Eq
+    row_name: RJ014
+  - row_type: Eq
+    row_name: RJ015
+  - row_type: Eq
+    row_name: RJ016
+  - row_type: Eq
+    row_name: RJ018
+  - row_type: Eq
+    row_name: RJ019
+  - row_type: Eq
+    row_name: RJ020
+  - row_type: Eq
+    row_name: RJ021
+  - row_type: Eq
+    row_name: RJ024
+  - row_type: Eq
+    row_name: RJ025
+  - row_type: Eq
+    row_name: RJ026
+  - row_type: Eq
+    row_name: RJ027
+  - row_type: Eq
+    row_name: RJ028
+  - row_type: Eq
+    row_name: RJ029
+  - row_type: Eq
+    row_name: RJ030
+  - row_type: Eq
+    row_name: RJ031
+  - row_type: Eq
+    row_name: RJ032
+  - row_type: Eq
+    row_name: RJ033
+  - row_type: Leq
+    row_name: RJ034
+  - row_type: Eq
+    row_name: RJ035
+  - row_type: Eq
+    row_name: RJ036
+  - row_type: Eq
+    row_name: 1RJ036
+  - row_type: Eq
+    row_name: 1RJ037
+  - row_type: Leq
+    row_name: 2RJ037
+  - row_type: Eq
+    row_name: RJ038
+  - row_type: Eq
+    row_name: RJ039
+  - row_type: Eq
+    row_name: RJ040
+  - row_type: Eq
+    row_name: 1RJ041
+  - row_type: Eq
+    row_name: RJ042
+  - row_type: Eq
+    row_name: RJ043
+  - row_type: Eq
+    row_name: RJ045
+  - row_type: Eq
+    row_name: 2RJ045
+  - row_type: Eq
+    row_name: RJ046
+  - row_type: Eq
+    row_name: 2RJ046
+  - row_type: Eq
+    row_name: RJ047
+  - row_type: Leq
+    row_name: RJ048
+  - row_type: Leq
+    row_name: RJ049
+  - row_type: Leq
+    row_name: RJ050
+  - row_type: Leq
+    row_name: 1RJ050
+  - row_type: Leq
+    row_name: RJ051
+  - row_type: Eq
+    row_name: RJ052
+  - row_type: Leq
+    row_name: RJ053
+  - row_type: Leq
+    row_name: RJ054
+  - row_type: Eq
+    row_name: RJ055
+  - row_type: Leq
+    row_name: RJ056
+  - row_type: Leq
+    row_name: RJ057
+  - row_type: Leq
+    row_name: RJ061
+  - row_type: Leq
+    row_name: RJ062
+  - row_type: Leq
+    row_name: RJ063
+  - row_type: Leq
+    row_name: RJ064
+  - row_type: Leq
+    row_name: RJ065
+  - row_type: Leq
+    row_name: RJ066
+  - row_type: Leq
+    row_name: RJ067
+  - row_type: Leq
+    row_name: RJ068
+  - row_type: Leq
+    row_name: RJ069
+  - row_type: Leq
+    row_name: RJ070
+  - row_type: Leq
+    row_name: RJ071
+  - row_type: Leq
+    row_name: RJ072
+  - row_type: Leq
+    row_name: RJ073
+  - row_type: Leq
+    row_name: 1RJ073
+  - row_type: Leq
+    row_name: RJ074
+  - row_type: Leq
+    row_name: 1RJ074
+  - row_type: Leq
+    row_name: RJ075
+  - row_type: Leq
+    row_name: RJ076
+  - row_type: Leq
+    row_name: 1RJ076
+  - row_type: Leq
+    row_name: RJ077
+  - row_type: Leq
+    row_name: RJ078
+  - row_type: Leq
+    row_name: RJ079
+  - row_type: Leq
+    row_name: RJ080
+  - row_type: Eq
+    row_name: RJ081
+  - row_type: Eq
+    row_name: RJ082
+  - row_type: Eq
+    row_name: RJ083
+  - row_type: Eq
+    row_name: RJ084
+  - row_type: Eq
+    row_name: 1RJ084
+  - row_type: Eq
+    row_name: RJ089
+  - row_type: Eq
+    row_name: RJ091
+  - row_type: Eq
+    row_name: RJ092
+  - row_type: Leq
+    row_name: RJ095
+  - row_type: Leq
+    row_name: RJ096
+  - row_type: Eq
+    row_name: RJ097
+  - row_type: Eq
+    row_name: 1RJ097
+  - row_type: Eq
+    row_name: RJ098
+  - row_type: Eq
+    row_name: 1RJ098
+  - row_type: Leq
+    row_name: RJ099
+  - row_type: Leq
+    row_name: RJ100
+  - row_type: Leq
+    row_name: RJ102
+  - row_type: Leq
+    row_name: RJ103
+  - row_type: Leq
+    row_name: RJ104
+  - row_type: Leq
+    row_name: RJ105
+  - row_type: Leq
+    row_name: RJ106
+  - row_type: Leq
+    row_name: 1RM001
+  - row_type: Eq
+    row_name: RM002
+  - row_type: Eq
+    row_name: 1RM003
+  - row_type: Eq
+    row_name: 2RM003
+  - row_type: Eq
+    row_name: RM004
+  - row_type: Eq
+    row_name: RM005
+  - row_type: Eq
+    row_name: RM006
+  - row_type: Eq
+    row_name: 1RM006
+  - row_type: Eq
+    row_name: 2RM006
+  - row_type: Eq
+    row_name: RM011
+  - row_type: Eq
+    row_name: RM012
+  - row_type: Eq
+    row_name: RN009
+  - row_type: Eq
+    row_name: 1RN014
+  - row_type: Eq
+    row_name: RR010
+  - row_type: Eq
+    row_name: RR021
+  - row_type: Eq
+    row_name: RRG29
+  - row_type: Leq
+    row_name: UKLDF
+  - row_type: Leq
+    row_name: HSPMS
+  - row_type: Leq
+    row_name: HSRMS
+  - row_type: Leq
+    row_name: HSLDF
+  - row_type: Leq
+    row_name: HSATK
+  - row_type: Leq
+    row_name: NSG17
+  - row_type: Leq
+    row_name: HSG58
+  - row_type: Leq
+    row_name: HSF80
+  - row_type: Eq
+    row_name: RT005
+  - row_type: Eq
+    row_name: RT006
+  - row_type: Eq
+    row_name: 3RT006
+  - row_type: Eq
+    row_name: 4RT006
+  - row_type: Eq
+    row_name: RV001
+  - row_type: Eq
+    row_name: RV002
+  - row_type: Eq
+    row_name: RV003
+  - row_type: Eq
+    row_name: RXATG
+  - row_type: Eq
+    row_name: RXF72
+  - row_type: Eq
+    row_name: RY001
+  - row_type: Eq
+    row_name: 1RY001
+  - row_type: Eq
+    row_name: RY002
+  - row_type: Eq
+    row_name: RY004
+  - row_type: Leq
+    row_name: RY005
+  - row_type: Eq
+    row_name: RZ001
+  - row_type: Eq
+    row_name: RZ002
+  - row_type: Eq
+    row_name: RZ004
+  - row_type: Eq
+    row_name: RZ005
+  - row_type: Eq
+    row_name: RZ006
+  - row_type: Eq
+    row_name: RZ012
+  - row_type: Eq
+    row_name: RZ016
+  - row_type: Eq
+    row_name: RZ019
+  - row_type: Eq
+    row_name: RZ020
+  - row_type: Leq
+    row_name: RABDH
+  - row_type: Eq
+    row_name: RAGJA
+  - row_type: Leq
+    row_name: RGACH
+  - row_type: Leq
+    row_name: RHN1G
+  - row_type: Leq
+    row_name: RK1RK
+  - row_type: Eq
+    row_name: RKUWT
+  - row_type: Leq
+    row_name: RL1BY
+  - row_type: Leq
+    row_name: RMN1G
+  - row_type: Leq
+    row_name: RMURB
+  - row_type: Leq
+    row_name: RQATR
+  - row_type: Leq
+    row_name: RT1JA
+columns:
+  - name: MSEXP
+    first_pair:
+      row_name: R0000
+      value: -0.1
+    second_pair:
+      row_name: RMSEX
+      value: -1
+  - name: MS1MP
+    first_pair:
+      row_name: R0000
+      value: 0.101
+    second_pair:
+      row_name: RMSEX
+      value: 1
+  - name: LDEXP
+    first_pair:
+      row_name: R0000
+      value: -0.075
+    second_pair:
+      row_name: RLDEX
+      value: -1
+  - name: LD1MP
+    first_pair:
+      row_name: R0000
+      value: 0.076
+    second_pair:
+      row_name: RLDEX
+      value: 1
+  - name: PKEXP
+    first_pair:
+      row_name: R0000
+      value: -0.1
+    second_pair:
+      row_name: RPKEX
+      value: -1
+  - name: PK1MP
+    first_pair:
+      row_name: R0000
+      value: 0.101
+    second_pair:
+      row_name: RPKEX
+      value: 1
+  - name: RKEXP
+    first_pair:
+      row_name: R0000
+      value: -0.0875
+    second_pair:
+      row_name: RRKEX
+      value: -1
+  - name: RK1MP
+    first_pair:
+      row_name: R0000
+      value: 0.0885
+    second_pair:
+      row_name: RRKEX
+      value: 1
+  - name: 1G0EXP
+    first_pair:
+      row_name: RG0EX
+      value: -1
+    second_pair: ~
+  - name: 1G01MP
+    first_pair:
+      row_name: RG0EX
+      value: 1
+    second_pair: ~
+  - name: 1F0EXP
+    first_pair:
+      row_name: RF0EX
+      value: -1
+    second_pair: ~
+  - name: 1F01MP
+    first_pair:
+      row_name: RF0EX
+      value: 1
+    second_pair: ~
+  - name: 5C0ST
+    first_pair:
+      row_name: R0000
+      value: 0.2
+    second_pair:
+      row_name: RC0ST
+      value: -1
+  - name: 6C0ST
+    first_pair:
+      row_name: R0000
+      value: 0.25
+    second_pair:
+      row_name: RC0ST
+      value: -1
+  - name: CCRFT
+    first_pair:
+      row_name: R0000
+      value: 0.001
+    second_pair:
+      row_name: RCRFT
+      value: -1
+  - name: CRUDE
+    first_pair:
+      row_name: R0000
+      value: 2.275
+    second_pair:
+      row_name: RKUWT
+      value: -1
+  - name: AABDH
+    first_pair:
+      row_name: R0000
+      value: -1.5303
+    second_pair:
+      row_name: 1RA002
+      value: -1
+  - name: AABDH
+    first_pair:
+      row_name: RABDH
+      value: 1
+    second_pair: ~
+  - name: HABDH
+    first_pair:
+      row_name: R0000
+      value: 0.9632
+    second_pair:
+      row_name: RH006
+      value: -1
+  - name: HABDH
+    first_pair:
+      row_name: RABDH
+      value: 1
+    second_pair: ~
+  - name: JABDH
+    first_pair:
+      row_name: R0000
+      value: 0.3687
+    second_pair:
+      row_name: RJ006
+      value: -1
+  - name: JABDH
+    first_pair:
+      row_name: RABDH
+      value: 1
+    second_pair: ~
+  - name: 1AAGJA
+    first_pair:
+      row_name: R0000
+      value: -1.4254
+    second_pair:
+      row_name: RA001
+      value: -1
+  - name: 1AAGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: 1BAGJA
+    first_pair:
+      row_name: R0000
+      value: 1.007
+    second_pair:
+      row_name: RB001
+      value: -1
+  - name: 1BAGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: EAGJA
+    first_pair:
+      row_name: R0000
+      value: -1.1387
+    second_pair:
+      row_name: RE002
+      value: -1
+  - name: EAGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: 1HAGJA
+    first_pair:
+      row_name: R0000
+      value: 0.9839
+    second_pair:
+      row_name: RH002
+      value: -1
+  - name: 1HAGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: 11AGJA
+    first_pair:
+      row_name: R0000
+      value: 1.0109
+    second_pair:
+      row_name: R1004
+      value: -1
+  - name: 11AGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: 1JAGJA
+    first_pair:
+      row_name: R0000
+      value: 0.3969
+    second_pair:
+      row_name: RJ002
+      value: -1
+  - name: 1JAGJA
+    first_pair:
+      row_name: RAGJA
+      value: 1
+    second_pair: ~
+  - name: AGACH
+    first_pair:
+      row_name: R0000
+      value: -1.2464
+    second_pair:
+      row_name: RA004
+      value: -1
+  - name: AGACH
+    first_pair:
+      row_name: RGACH
+      value: 1
+    second_pair: ~
+  - name: BGACH
+    first_pair:
+      row_name: R0000
+      value: 1.007
+    second_pair:
+      row_name: RB003
+      value: -1
+  - name: BGACH
+    first_pair:
+      row_name: RGACH
+      value: 1
+    second_pair: ~
+  - name: EGACH
+    first_pair:
+      row_name: R0000
+      value: -1.0122
+    second_pair:
+      row_name: RE004
+      value: -1
+  - name: EGACH
+    first_pair:
+      row_name: RGACH
+      value: 1
+    second_pair: ~
+  - name: 1GACH
+    first_pair:
+      row_name: R0000
+      value: 1.0109
+    second_pair:
+      row_name: R1005
+      value: -1
+  - name: 1GACH
+    first_pair:
+      row_name: RGACH
+      value: 1
+    second_pair: ~
+  - name: JGACH
+    first_pair:
+      row_name: R0000
+      value: 0.3969
+    second_pair:
+      row_name: RJ005
+      value: -1
+  - name: JGACH
+    first_pair:
+      row_name: RGACH
+      value: 1
+    second_pair: ~
+  - name: BHN1G
+    first_pair:
+      row_name: R0000
+      value: 0.8625
+    second_pair:
+      row_name: RB004
+      value: -1
+  - name: BHN1G
+    first_pair:
+      row_name: RHN1G
+      value: 1
+    second_pair: ~
+  - name: HHN1G
+    first_pair:
+      row_name: R0000
+      value: 0.6674
+    second_pair:
+      row_name: RH005
+      value: -1
+  - name: HHN1G
+    first_pair:
+      row_name: RHN1G
+      value: 1
+    second_pair: ~
+  - name: 1HN1G
+    first_pair:
+      row_name: R0000
+      value: 0.6943
+    second_pair:
+      row_name: R1007
+      value: -1
+  - name: 1HN1G
+    first_pair:
+      row_name: RHN1G
+      value: 1
+    second_pair: ~
+  - name: BK1RK
+    first_pair:
+      row_name: R0000
+      value: 0.3075
+    second_pair:
+      row_name: 1RB001
+      value: -1
+  - name: BK1RK
+    first_pair:
+      row_name: 1RB038
+      value: -0.02
+    second_pair:
+      row_name: RB042
+      value: -0.02
+  - name: BK1RK
+    first_pair:
+      row_name: RB047
+      value: -0.02
+    second_pair:
+      row_name: RB052
+      value: 0.06
+  - name: BK1RK
+    first_pair:
+      row_name: RK1RK
+      value: 1
+    second_pair: ~
+  - name: HK1RK
+    first_pair:
+      row_name: R0000
+      value: 0.4249
+    second_pair:
+      row_name: RH003
+      value: -1
+  - name: HK1RK
+    first_pair:
+      row_name: RH039
+      value: -0.02
+    second_pair:
+      row_name: RH042
+      value: -0.02
+  - name: HK1RK
+    first_pair:
+      row_name: RH048
+      value: -0.02
+    second_pair:
+      row_name: 3RH052
+      value: 0.06
+  - name: HK1RK
+    first_pair:
+      row_name: RK1RK
+      value: 1
+    second_pair: ~
+  - name: 1K1RK
+    first_pair:
+      row_name: R0000
+      value: 0.3059
+    second_pair:
+      row_name: R1002
+      value: -1
+  - name: 1K1RK
+    first_pair:
+      row_name: R1055
+      value: -0.02
+    second_pair:
+      row_name: R1057
+      value: -0.02
+  - name: 1K1RK
+    first_pair:
+      row_name: 1R1057
+      value: -0.02
+    second_pair:
+      row_name: R1062
+      value: -0.02
+  - name: 1K1RK
+    first_pair:
+      row_name: R1068
+      value: 0.06
+    second_pair:
+      row_name: RK1RK
+      value: 1
+  - name: AKUWT
+    first_pair:
+      row_name: R0000
+      value: -1.2063
+    second_pair:
+      row_name: RA005
+      value: -1
+  - name: AKUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: BKUWT
+    first_pair:
+      row_name: R0000
+      value: 1.0114
+    second_pair:
+      row_name: RB002
+      value: -1
+  - name: BKUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: EKUWT
+    first_pair:
+      row_name: R0000
+      value: -0.9791
+    second_pair:
+      row_name: RE001
+      value: -1
+  - name: EKUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: HKUWT
+    first_pair:
+      row_name: R0000
+      value: 0.9886
+    second_pair:
+      row_name: 1RH001
+      value: -1
+  - name: HKUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: 1KUWT
+    first_pair:
+      row_name: R0000
+      value: 1.0154
+    second_pair:
+      row_name: R1003
+      value: -1
+  - name: 1KUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: JKUWT
+    first_pair:
+      row_name: R0000
+      value: 0.4033
+    second_pair:
+      row_name: RJ001
+      value: -1
+  - name: JKUWT
+    first_pair:
+      row_name: RKUWT
+      value: 1
+    second_pair: ~
+  - name: BL1BY
+    first_pair:
+      row_name: R0000
+      value: 0.3657
+    second_pair:
+      row_name: 1RB003
+      value: -1
+  - name: BL1BY
+    first_pair:
+      row_name: RL1BY
+      value: 1
+    second_pair: ~
+  - name: HL1BY
+    first_pair:
+      row_name: R0000
+      value: 0.345
+    second_pair:
+      row_name: 1RH006
+      value: -1
+  - name: HL1BY
+    first_pair:
+      row_name: RL1BY
+      value: 1
+    second_pair: ~
+  - name: 1L1BY
+    first_pair:
+      row_name: R0000
+      value: 0.6832
+    second_pair:
+      row_name: 1R1006
+      value: -1
+  - name: 1L1BY
+    first_pair:
+      row_name: RL1BY
+      value: 1
+    second_pair: ~
+  - name: BMN1G
+    first_pair:
+      row_name: R0000
+      value: 0.8625
+    second_pair:
+      row_name: 1RB004
+      value: -1
+  - name: BMN1G
+    first_pair:
+      row_name: RMN1G
+      value: 1
+    second_pair: ~
+  - name: HMN1G
+    first_pair:
+      row_name: R0000
+      value: 0.6674
+    second_pair:
+      row_name: 1RH005
+      value: -1
+  - name: HMN1G
+    first_pair:
+      row_name: RMN1G
+      value: 1
+    second_pair: ~
+  - name: 1MN1G
+    first_pair:
+      row_name: R0000
+      value: 0.6943
+    second_pair:
+      row_name: 1R1004
+      value: -1
+  - name: 1MN1G
+    first_pair:
+      row_name: RMN1G
+      value: 1
+    second_pair: ~
+  - name: 1MURB
+    first_pair:
+      row_name: R0000
+      value: 1.0199
+    second_pair:
+      row_name: 1R1007
+      value: -1
+  - name: 1MURB
+    first_pair:
+      row_name: RMURB
+      value: 1
+    second_pair: ~
+  - name: JMURB
+    first_pair:
+      row_name: R0000
+      value: 0.4094
+    second_pair:
+      row_name: 1RJ006
+      value: -1
+  - name: JMURB
+    first_pair:
+      row_name: RMURB
+      value: 1
+    second_pair: ~
+  - name: AQATR
+    first_pair:
+      row_name: R0000
+      value: -1.6519
+    second_pair:
+      row_name: RA002
+      value: -1
+  - name: AQATR
+    first_pair:
+      row_name: RQATR
+      value: 1
+    second_pair: ~
+  - name: JQATR
+    first_pair:
+      row_name: R0000
+      value: 0.4001
+    second_pair:
+      row_name: RJ004
+      value: -1
+  - name: JQATR
+    first_pair:
+      row_name: RQATR
+      value: 1
+    second_pair: ~
+  - name: ASPKU
+    first_pair:
+      row_name: R0000
+      value: -1.3823
+    second_pair:
+      row_name: 2RA005
+      value: -1
+  - name: ASPKU
+    first_pair:
+      row_name: RY001
+      value: 0.15
+    second_pair:
+      row_name: RKUWT
+      value: 0.85
+  - name: HSPKU
+    first_pair:
+      row_name: R0000
+      value: 0.9886
+    second_pair:
+      row_name: 2RH001
+      value: -1
+  - name: HSPKU
+    first_pair:
+      row_name: RY001
+      value: 0.1
+    second_pair:
+      row_name: RKUWT
+      value: 0.9
+  - name: JSPKU
+    first_pair:
+      row_name: R0000
+      value: 0.4033
+    second_pair:
+      row_name: 1RJ001
+      value: -1
+  - name: JSPKU
+    first_pair:
+      row_name: RY001
+      value: 0.1
+    second_pair:
+      row_name: RKUWT
+      value: 0.9
+  - name: BT1JA
+    first_pair:
+      row_name: R0000
+      value: 0.4183
+    second_pair:
+      row_name: RB005
+      value: -1
+  - name: BT1JA
+    first_pair:
+      row_name: RT1JA
+      value: 1
+    second_pair: ~
+  - name: HT1JA
+    first_pair:
+      row_name: R0000
+      value: 0.4022
+    second_pair:
+      row_name: RH004
+      value: -1
+  - name: HT1JA
+    first_pair:
+      row_name: RT1JA
+      value: 1
+    second_pair: ~
+  - name: HC3
+    first_pair:
+      row_name: R0000
+      value: 100
+    second_pair:
+      row_name: 1RH008
+      value: 1
+  - name: AVGAS
+    first_pair:
+      row_name: R0000
+      value: 20.8248
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: AVGAS
+    first_pair:
+      row_name: RMSEX
+      value: -1
+    second_pair:
+      row_name: RH031
+      value: 1
+  - name: KWPMS
+    first_pair:
+      row_name: R0000
+      value: 20
+    second_pair:
+      row_name: RA039
+      value: 1
+  - name: PMS
+    first_pair:
+      row_name: R0000
+      value: 13.9748
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: PMS
+    first_pair:
+      row_name: RMSEX
+      value: -1
+    second_pair:
+      row_name: 1RH035
+      value: 1
+  - name: RMS
+    first_pair:
+      row_name: R0000
+      value: 11.5968
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: RMS
+    first_pair:
+      row_name: RMSEX
+      value: -1
+    second_pair:
+      row_name: 1RH036
+      value: 1
+  - name: PGB0
+    first_pair:
+      row_name: R0000
+      value: 12.0848
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: PGB0
+    first_pair:
+      row_name: RPKEX
+      value: -1
+    second_pair:
+      row_name: RH041
+      value: 1
+  - name: ATK
+    first_pair:
+      row_name: R0000
+      value: 11.1467
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: ATK
+    first_pair:
+      row_name: RRKEX
+      value: -1
+    second_pair:
+      row_name: RH042
+      value: 1
+  - name: KWG20
+    first_pair:
+      row_name: R0000
+      value: 15
+    second_pair:
+      row_name: RA044
+      value: 1
+  - name: G29
+    first_pair:
+      row_name: R0000
+      value: 7.9067
+    second_pair:
+      row_name: RC0ST
+      value: 1.646
+  - name: G29
+    first_pair:
+      row_name: RRG29
+      value: 1
+    second_pair: ~
+  - name: G44
+    first_pair:
+      row_name: R0000
+      value: 9.5828
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: G44
+    first_pair:
+      row_name: RG0EX
+      value: -1
+    second_pair:
+      row_name: RH043
+      value: 1
+  - name: G44
+    first_pair:
+      row_name: RH082
+      value: -5
+    second_pair: ~
+  - name: G58
+    first_pair:
+      row_name: R0000
+      value: 8.0198
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: G58
+    first_pair:
+      row_name: RG0EX
+      value: -1
+    second_pair:
+      row_name: 2RH048
+      value: 1
+  - name: F28
+    first_pair:
+      row_name: R0000
+      value: 5.9417
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: F28
+    first_pair:
+      row_name: RF0EX
+      value: -1
+    second_pair:
+      row_name: 1RH051
+      value: 1
+  - name: F80
+    first_pair:
+      row_name: R0000
+      value: 4.6059
+    second_pair:
+      row_name: RC0ST
+      value: 1.658
+  - name: F80
+    first_pair:
+      row_name: RF0EX
+      value: -1
+    second_pair:
+      row_name: 2RH052
+      value: 1
+  - name: F81
+    first_pair:
+      row_name: R0000
+      value: 5.535
+    second_pair:
+      row_name: RC0ST
+      value: 1.562
+  - name: F81
+    first_pair:
+      row_name: RF0EX
+      value: -1
+    second_pair:
+      row_name: RB054
+      value: 1
+  - name: ADDAE
+    first_pair:
+      row_name: R0000
+      value: 0.6374
+    second_pair:
+      row_name: KW1RC
+      value: 1
+  - name: CA001
+    first_pair:
+      row_name: R0000
+      value: 0.0174
+    second_pair:
+      row_name: 1RA002
+      value: 1.0125
+  - name: CA001
+    first_pair:
+      row_name: RA009
+      value: 0.167
+    second_pair:
+      row_name: RA011
+      value: 0.06
+  - name: CA001
+    first_pair:
+      row_name: RA012
+      value: 0.045
+    second_pair:
+      row_name: RA013
+      value: 0.1
+  - name: CA001
+    first_pair:
+      row_name: RA014
+      value: 0.09
+    second_pair:
+      row_name: RA016
+      value: 0.116
+  - name: CA001
+    first_pair:
+      row_name: 1RA020
+      value: 0.404
+    second_pair:
+      row_name: RA035
+      value: 0.018
+  - name: CA001
+    first_pair:
+      row_name: RA036
+      value: -0.0223
+    second_pair:
+      row_name: RA055
+      value: 1.13
+  - name: CA001
+    first_pair:
+      row_name: 1RA055
+      value: 1.13
+    second_pair: ~
+  - name: CA002
+    first_pair:
+      row_name: R0000
+      value: 0.0111
+    second_pair:
+      row_name: RA001
+      value: 1.0115
+  - name: CA002
+    first_pair:
+      row_name: RA008
+      value: 0.037
+    second_pair:
+      row_name: RA009
+      value: 0.151
+  - name: CA002
+    first_pair:
+      row_name: RA010
+      value: 0.053
+    second_pair:
+      row_name: RA013
+      value: 0.088
+  - name: CA002
+    first_pair:
+      row_name: RA014
+      value: 0.08
+    second_pair:
+      row_name: RA016
+      value: 0.104
+  - name: CA002
+    first_pair:
+      row_name: RA018
+      value: 0.467
+    second_pair:
+      row_name: RA035
+      value: 0.02
+  - name: CA002
+    first_pair:
+      row_name: RA036
+      value: -0.0217
+    second_pair:
+      row_name: RA055
+      value: 1.02
+  - name: CA002
+    first_pair:
+      row_name: 1RA055
+      value: 1.02
+    second_pair: ~
+  - name: CA003
+    first_pair:
+      row_name: R0000
+      value: 0.0088
+    second_pair:
+      row_name: RA005
+      value: 1.0085
+  - name: CA003
+    first_pair:
+      row_name: RA009
+      value: 0.131
+    second_pair:
+      row_name: RA011
+      value: 0.042
+  - name: CA003
+    first_pair:
+      row_name: RA012
+      value: 0.033
+    second_pair:
+      row_name: RA013
+      value: 0.076
+  - name: CA003
+    first_pair:
+      row_name: RA015
+      value: 0.091
+    second_pair:
+      row_name: RA017
+      value: 0.06
+  - name: CA003
+    first_pair:
+      row_name: RA019
+      value: 0.546
+    second_pair:
+      row_name: RA035
+      value: 0.021
+  - name: CA003
+    first_pair:
+      row_name: RA036
+      value: -0.0223
+    second_pair:
+      row_name: RA055
+      value: 1
+  - name: CA003
+    first_pair:
+      row_name: RA072
+      value: -0.101
+    second_pair: ~
+  - name: CA004
+    first_pair:
+      row_name: R0000
+      value: 0.0174
+    second_pair:
+      row_name: RA002
+      value: 1.0125
+  - name: CA004
+    first_pair:
+      row_name: RA009
+      value: 0.192
+    second_pair:
+      row_name: RA011
+      value: 0.07
+  - name: CA004
+    first_pair:
+      row_name: RA012
+      value: 0.048
+    second_pair:
+      row_name: RA013
+      value: 0.115
+  - name: CA004
+    first_pair:
+      row_name: RA014
+      value: 0.113
+    second_pair:
+      row_name: RA016
+      value: 0.074
+  - name: CA004
+    first_pair:
+      row_name: RA020
+      value: 0.355
+    second_pair:
+      row_name: RA035
+      value: 0.033
+  - name: CA004
+    first_pair:
+      row_name: RA036
+      value: -0.0223
+    second_pair:
+      row_name: RA055
+      value: 1.25
+  - name: CA006
+    first_pair:
+      row_name: R0000
+      value: 0.0114
+    second_pair:
+      row_name: RA004
+      value: 1.0115
+  - name: CA006
+    first_pair:
+      row_name: RA006
+      value: 0.533
+    second_pair:
+      row_name: RA008
+      value: 0.037
+  - name: CA006
+    first_pair:
+      row_name: RA009
+      value: 0.147
+    second_pair:
+      row_name: RA010
+      value: 0.037
+  - name: CA006
+    first_pair:
+      row_name: RA013
+      value: 0.08
+    second_pair:
+      row_name: RA014
+      value: 0.074
+  - name: CA006
+    first_pair:
+      row_name: RA016
+      value: 0.073
+    second_pair:
+      row_name: RA035
+      value: 0.019
+  - name: CA006
+    first_pair:
+      row_name: RA036
+      value: -0.0223
+    second_pair:
+      row_name: RA055
+      value: 1
+  - name: CA006
+    first_pair:
+      row_name: 1RA055
+      value: 1
+    second_pair: ~
+  - name: CA008
+    first_pair:
+      row_name: R0000
+      value: 0.2564
+    second_pair:
+      row_name: RA061
+      value: -10.52
+  - name: CA008
+    first_pair:
+      row_name: RA062
+      value: 1
+    second_pair: ~
+  - name: CA009
+    first_pair:
+      row_name: R0000
+      value: 0.2564
+    second_pair:
+      row_name: RA066
+      value: -15.27
+  - name: CA009
+    first_pair:
+      row_name: RA067
+      value: 1
+    second_pair: ~
+  - name: CA010
+    first_pair:
+      row_name: R0000
+      value: 0.0819
+    second_pair:
+      row_name: RA035
+      value: -1
+  - name: CA010
+    first_pair:
+      row_name: RA039
+      value: 1
+    second_pair:
+      row_name: RA061
+      value: 5.17
+  - name: CA010
+    first_pair:
+      row_name: RA062
+      value: -0.541
+    second_pair:
+      row_name: RA063
+      value: -155.1599
+  - name: CA010
+    first_pair:
+      row_name: RA064
+      value: 218.26
+    second_pair:
+      row_name: RA065
+      value: 95.51
+  - name: CA011
+    first_pair:
+      row_name: R0000
+      value: 0.0495
+    second_pair:
+      row_name: RA035
+      value: -1
+  - name: CA011
+    first_pair:
+      row_name: RA040
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: -18.96
+  - name: CA011
+    first_pair:
+      row_name: RA067
+      value: -0.734
+    second_pair:
+      row_name: RA068
+      value: -155.1599
+  - name: CA011
+    first_pair:
+      row_name: RA069
+      value: 218.26
+    second_pair:
+      row_name: RA070
+      value: 95.51
+  - name: CA012
+    first_pair:
+      row_name: R0000
+      value: 0.0404
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA012
+    first_pair:
+      row_name: RA040
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: 33.79
+  - name: CA012
+    first_pair:
+      row_name: RA067
+      value: -0.599
+    second_pair:
+      row_name: RA068
+      value: -14.08
+  - name: CA012
+    first_pair:
+      row_name: RA069
+      value: -14.78
+    second_pair:
+      row_name: RA070
+      value: -6.899
+  - name: CA013
+    first_pair:
+      row_name: R0000
+      value: 0.1593
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA013
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA022
+      value: 0.149
+  - name: CA013
+    first_pair:
+      row_name: RA035
+      value: 0.241
+    second_pair:
+      row_name: RA036
+      value: -0.115
+  - name: CA013
+    first_pair:
+      row_name: RA039
+      value: 0.59
+    second_pair:
+      row_name: RA056
+      value: 1.405
+  - name: CA013
+    first_pair:
+      row_name: RA061
+      value: 0.39
+    second_pair:
+      row_name: RA062
+      value: -0.242
+  - name: CA013
+    first_pair:
+      row_name: RA063
+      value: -3.855
+    second_pair:
+      row_name: RA064
+      value: -4.7
+  - name: CA013
+    first_pair:
+      row_name: RA065
+      value: -3.55
+    second_pair: ~
+  - name: CA014
+    first_pair:
+      row_name: R0000
+      value: 0.0543
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA014
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA022
+      value: 0.149
+  - name: CA014
+    first_pair:
+      row_name: RA035
+      value: 0.112
+    second_pair:
+      row_name: RA036
+      value: -0.082
+  - name: CA014
+    first_pair:
+      row_name: RA040
+      value: 0.719
+    second_pair:
+      row_name: RA056
+      value: 1.117
+  - name: CA014
+    first_pair:
+      row_name: RA066
+      value: -0.78
+    second_pair:
+      row_name: RA067
+      value: -0.414
+  - name: CA014
+    first_pair:
+      row_name: RA068
+      value: 0.972
+    second_pair:
+      row_name: RA069
+      value: -13.22
+  - name: CA014
+    first_pair:
+      row_name: RA070
+      value: -4.471
+    second_pair: ~
+  - name: CA015
+    first_pair:
+      row_name: R0000
+      value: 0.1001
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA015
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA023
+      value: 0.446
+  - name: CA015
+    first_pair:
+      row_name: RA035
+      value: 0.153
+    second_pair:
+      row_name: RA036
+      value: -0.074
+  - name: CA015
+    first_pair:
+      row_name: RA039
+      value: 0.381
+    second_pair:
+      row_name: RA056
+      value: 0.801
+  - name: CA015
+    first_pair:
+      row_name: RA061
+      value: 0.24
+    second_pair:
+      row_name: RA062
+      value: -0.153
+  - name: CA015
+    first_pair:
+      row_name: RA063
+      value: 7.32
+    second_pair:
+      row_name: RA064
+      value: -4
+  - name: CA015
+    first_pair:
+      row_name: RA065
+      value: -2.24
+    second_pair: ~
+  - name: CA016
+    first_pair:
+      row_name: R0000
+      value: 0.0382
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA016
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA023
+      value: 0.446
+  - name: CA016
+    first_pair:
+      row_name: RA035
+      value: 0.043
+    second_pair:
+      row_name: RA036
+      value: -0.0527
+  - name: CA016
+    first_pair:
+      row_name: RA040
+      value: 0.491
+    second_pair:
+      row_name: RA056
+      value: 0.879
+  - name: CA016
+    first_pair:
+      row_name: RA066
+      value: -0.52
+    second_pair:
+      row_name: RA067
+      value: -0.277
+  - name: CA016
+    first_pair:
+      row_name: RA068
+      value: 16.25
+    second_pair:
+      row_name: RA069
+      value: -10.4
+  - name: CA016
+    first_pair:
+      row_name: RA070
+      value: -2.99
+    second_pair: ~
+  - name: CA017
+    first_pair:
+      row_name: R0000
+      value: 0.1087
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA017
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA022
+      value: 0.149
+  - name: CA017
+    first_pair:
+      row_name: RA035
+      value: 0.191
+    second_pair:
+      row_name: RA036
+      value: -0.1099
+  - name: CA017
+    first_pair:
+      row_name: RA039
+      value: 0.64
+    second_pair:
+      row_name: RA056
+      value: 1.245
+  - name: CA017
+    first_pair:
+      row_name: RA061
+      value: 3.73
+    second_pair:
+      row_name: RA062
+      value: -0.266
+  - name: CA017
+    first_pair:
+      row_name: RA063
+      value: -1.696
+    second_pair:
+      row_name: RA064
+      value: -8.06
+  - name: CA017
+    first_pair:
+      row_name: RA065
+      value: -3.9
+    second_pair: ~
+  - name: CA018
+    first_pair:
+      row_name: R0000
+      value: 0.0928
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA018
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA022
+      value: 0.149
+  - name: CA018
+    first_pair:
+      row_name: RA035
+      value: 0.191
+    second_pair:
+      row_name: RA036
+      value: -0.1099
+  - name: CA018
+    first_pair:
+      row_name: RA040
+      value: 0.64
+    second_pair:
+      row_name: RA056
+      value: 1.245
+  - name: CA018
+    first_pair:
+      row_name: RA066
+      value: -7.97
+    second_pair:
+      row_name: RA067
+      value: -0.361
+  - name: CA018
+    first_pair:
+      row_name: RA068
+      value: -1.696
+    second_pair:
+      row_name: RA069
+      value: -8.06
+  - name: CA018
+    first_pair:
+      row_name: RA070
+      value: -3.9
+    second_pair: ~
+  - name: CA019
+    first_pair:
+      row_name: R0000
+      value: 0.071
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA019
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA023
+      value: 0.446
+  - name: CA019
+    first_pair:
+      row_name: RA035
+      value: 0.083
+    second_pair:
+      row_name: RA036
+      value: -0.0706
+  - name: CA019
+    first_pair:
+      row_name: RA039
+      value: 0.451
+    second_pair:
+      row_name: RA056
+      value: 0.939
+  - name: CA019
+    first_pair:
+      row_name: RA061
+      value: 2.58
+    second_pair:
+      row_name: RA062
+      value: -0.184
+  - name: CA019
+    first_pair:
+      row_name: RA063
+      value: 11.72
+    second_pair:
+      row_name: RA064
+      value: -6.91
+  - name: CA019
+    first_pair:
+      row_name: RA065
+      value: -2.695
+    second_pair: ~
+  - name: CA020
+    first_pair:
+      row_name: R0000
+      value: 0.06
+    second_pair:
+      row_name: RA009
+      value: -1
+  - name: CA020
+    first_pair:
+      row_name: RA013
+      value: 0.02
+    second_pair:
+      row_name: RA023
+      value: 0.446
+  - name: CA020
+    first_pair:
+      row_name: RA035
+      value: 0.083
+    second_pair:
+      row_name: RA036
+      value: -0.0706
+  - name: CA020
+    first_pair:
+      row_name: RA040
+      value: 0.451
+    second_pair:
+      row_name: RA056
+      value: 0.939
+  - name: CA020
+    first_pair:
+      row_name: RA066
+      value: -5.51
+    second_pair:
+      row_name: RA067
+      value: -0.249
+  - name: CA020
+    first_pair:
+      row_name: RA068
+      value: 11.72
+    second_pair:
+      row_name: RA069
+      value: -6.91
+  - name: CA020
+    first_pair:
+      row_name: RA070
+      value: -2.695
+    second_pair: ~
+  - name: CA021
+    first_pair:
+      row_name: R0000
+      value: 0.1724
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA021
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA021
+    first_pair:
+      row_name: RA022
+      value: 0.083
+    second_pair:
+      row_name: RA035
+      value: 0.207
+  - name: CA021
+    first_pair:
+      row_name: RA036
+      value: -0.124
+    second_pair:
+      row_name: RA039
+      value: 0.69
+  - name: CA021
+    first_pair:
+      row_name: RA056
+      value: 1.447
+    second_pair:
+      row_name: RA061
+      value: 0.45
+  - name: CA021
+    first_pair:
+      row_name: RA062
+      value: -0.279
+    second_pair:
+      row_name: RA063
+      value: 3.56
+  - name: CA021
+    first_pair:
+      row_name: RA064
+      value: -8.72
+    second_pair:
+      row_name: RA065
+      value: -4.09
+  - name: CA022
+    first_pair:
+      row_name: R0000
+      value: 0.065
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA022
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA022
+    first_pair:
+      row_name: RA022
+      value: 0.083
+    second_pair:
+      row_name: RA035
+      value: 0.069
+  - name: CA022
+    first_pair:
+      row_name: RA036
+      value: -0.088
+    second_pair:
+      row_name: RA040
+      value: 0.828
+  - name: CA022
+    first_pair:
+      row_name: RA056
+      value: 1.068
+    second_pair:
+      row_name: RA066
+      value: -0.88
+  - name: CA022
+    first_pair:
+      row_name: RA067
+      value: -0.47
+    second_pair:
+      row_name: RA068
+      value: 8.832
+  - name: CA022
+    first_pair:
+      row_name: RA069
+      value: -20.2
+    second_pair:
+      row_name: RA070
+      value: -5.078
+  - name: CA024
+    first_pair:
+      row_name: R0000
+      value: 0.1417
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA024
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA024
+    first_pair:
+      row_name: RA023
+      value: 0.25
+    second_pair:
+      row_name: RA035
+      value: 0.125
+  - name: CA024
+    first_pair:
+      row_name: RA036
+      value: -0.101
+    second_pair:
+      row_name: RA039
+      value: 0.605
+  - name: CA024
+    first_pair:
+      row_name: RA056
+      value: 1.162
+    second_pair:
+      row_name: RA061
+      value: 0.38
+  - name: CA024
+    first_pair:
+      row_name: RA062
+      value: -0.24
+    second_pair:
+      row_name: RA063
+      value: 20.682
+  - name: CA024
+    first_pair:
+      row_name: RA064
+      value: -9.12
+    second_pair:
+      row_name: RA065
+      value: -3.52
+  - name: CA025
+    first_pair:
+      row_name: R0000
+      value: 0.053
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA025
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA025
+    first_pair:
+      row_name: RA023
+      value: 0.25
+    second_pair:
+      row_name: RA035
+      value: 0.039
+  - name: CA025
+    first_pair:
+      row_name: RA036
+      value: -0.072
+    second_pair:
+      row_name: RA040
+      value: 0.691
+  - name: CA025
+    first_pair:
+      row_name: RA056
+      value: 0.858
+    second_pair:
+      row_name: RA066
+      value: -0.72
+  - name: CA025
+    first_pair:
+      row_name: RA067
+      value: -0.384
+    second_pair:
+      row_name: RA068
+      value: 29.8
+  - name: CA025
+    first_pair:
+      row_name: RA069
+      value: -18.69
+    second_pair:
+      row_name: RA070
+      value: -4.153
+  - name: CA027
+    first_pair:
+      row_name: R0000
+      value: 0.1138
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA027
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA027
+    first_pair:
+      row_name: RA022
+      value: 0.1
+    second_pair:
+      row_name: RA035
+      value: 0.185
+  - name: CA027
+    first_pair:
+      row_name: RA036
+      value: -0.116
+    second_pair:
+      row_name: RA039
+      value: 0.695
+  - name: CA027
+    first_pair:
+      row_name: RA056
+      value: 1.239
+    second_pair:
+      row_name: RA061
+      value: 4
+  - name: CA027
+    first_pair:
+      row_name: RA062
+      value: -0.285
+    second_pair:
+      row_name: RA063
+      value: 3.632
+  - name: CA027
+    first_pair:
+      row_name: RA064
+      value: -11.26
+    second_pair:
+      row_name: RA065
+      value: -4.177
+  - name: CA028
+    first_pair:
+      row_name: R0000
+      value: 0.0968
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA028
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA028
+    first_pair:
+      row_name: RA022
+      value: 0.1
+    second_pair:
+      row_name: RA035
+      value: 0.185
+  - name: CA028
+    first_pair:
+      row_name: RA036
+      value: -0.116
+    second_pair:
+      row_name: RA040
+      value: 0.695
+  - name: CA028
+    first_pair:
+      row_name: RA056
+      value: 1.239
+    second_pair:
+      row_name: RA066
+      value: -8.54
+  - name: CA028
+    first_pair:
+      row_name: RA067
+      value: -0.386
+    second_pair:
+      row_name: RA068
+      value: 3.632
+  - name: CA028
+    first_pair:
+      row_name: RA069
+      value: -11.26
+    second_pair:
+      row_name: RA070
+      value: -4.177
+  - name: CA029
+    first_pair:
+      row_name: R0000
+      value: 0.1033
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA029
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA029
+    first_pair:
+      row_name: RA022
+      value: 0.1
+    second_pair:
+      row_name: RA035
+      value: 0.185
+  - name: CA029
+    first_pair:
+      row_name: RA036
+      value: -0.131
+    second_pair:
+      row_name: RA039
+      value: 0.347
+  - name: CA029
+    first_pair:
+      row_name: RA040
+      value: 0.348
+    second_pair:
+      row_name: RA056
+      value: 1.239
+  - name: CA029
+    first_pair:
+      row_name: RA061
+      value: -2.07
+    second_pair:
+      row_name: RA062
+      value: -0.129
+  - name: CA029
+    first_pair:
+      row_name: RA063
+      value: 18.585
+    second_pair:
+      row_name: RA064
+      value: -12.06
+  - name: CA029
+    first_pair:
+      row_name: RA065
+      value: -3.965
+    second_pair:
+      row_name: RA066
+      value: 2.96
+  - name: CA029
+    first_pair:
+      row_name: RA067
+      value: -0.21
+    second_pair:
+      row_name: RA068
+      value: -7.26
+  - name: CA029
+    first_pair:
+      row_name: RA069
+      value: -1.63
+    second_pair:
+      row_name: RA070
+      value: -0.79
+  - name: CA030
+    first_pair:
+      row_name: R0000
+      value: 0.0977
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA030
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA030
+    first_pair:
+      row_name: RA023
+      value: 0.25
+    second_pair:
+      row_name: RA035
+      value: 0.088
+  - name: CA030
+    first_pair:
+      row_name: RA036
+      value: -0.0966
+    second_pair:
+      row_name: RA039
+      value: 0.642
+  - name: CA030
+    first_pair:
+      row_name: RA056
+      value: 1
+    second_pair:
+      row_name: RA061
+      value: 3.62
+  - name: CA030
+    first_pair:
+      row_name: RA062
+      value: -0.258
+    second_pair:
+      row_name: RA063
+      value: 23.86
+  - name: CA030
+    first_pair:
+      row_name: RA064
+      value: -12.67
+    second_pair:
+      row_name: RA065
+      value: -3.786
+  - name: CA031
+    first_pair:
+      row_name: R0000
+      value: 0.0823
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA031
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA031
+    first_pair:
+      row_name: RA023
+      value: 0.25
+    second_pair:
+      row_name: RA035
+      value: 0.088
+  - name: CA031
+    first_pair:
+      row_name: RA036
+      value: -0.0966
+    second_pair:
+      row_name: RA040
+      value: 0.642
+  - name: CA031
+    first_pair:
+      row_name: RA056
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: -7.74
+  - name: CA031
+    first_pair:
+      row_name: RA067
+      value: -0.35
+    second_pair:
+      row_name: RA068
+      value: 23.86
+  - name: CA031
+    first_pair:
+      row_name: RA069
+      value: -12.67
+    second_pair:
+      row_name: RA070
+      value: -3.786
+  - name: CA032
+    first_pair:
+      row_name: R0000
+      value: 0.0976
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA032
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA032
+    first_pair:
+      row_name: RA023
+      value: 0.25
+    second_pair:
+      row_name: RA035
+      value: 0.088
+  - name: CA032
+    first_pair:
+      row_name: RA036
+      value: -0.1086
+    second_pair:
+      row_name: RA039
+      value: 0.321
+  - name: CA032
+    first_pair:
+      row_name: RA040
+      value: 0.321
+    second_pair:
+      row_name: RA056
+      value: 1
+  - name: CA032
+    first_pair:
+      row_name: RA061
+      value: -1.88
+    second_pair:
+      row_name: RA062
+      value: -0.118
+  - name: CA032
+    first_pair:
+      row_name: RA063
+      value: 20.625
+    second_pair:
+      row_name: RA064
+      value: -10.95
+  - name: CA032
+    first_pair:
+      row_name: RA065
+      value: -3.6
+    second_pair:
+      row_name: RA066
+      value: 2.23
+  - name: CA032
+    first_pair:
+      row_name: RA067
+      value: -0.19
+    second_pair:
+      row_name: RA068
+      value: -2.23
+  - name: CA032
+    first_pair:
+      row_name: RA069
+      value: -3.08
+    second_pair:
+      row_name: RA070
+      value: -0.714
+  - name: CA033
+    first_pair:
+      row_name: R0000
+      value: 0.1655
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA033
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA033
+    first_pair:
+      row_name: RA022
+      value: 0.1
+    second_pair:
+      row_name: RA035
+      value: 0.249
+  - name: CA033
+    first_pair:
+      row_name: RA036
+      value: -0.122
+    second_pair:
+      row_name: RA039
+      value: 0.631
+  - name: CA033
+    first_pair:
+      row_name: RA056
+      value: 1.438
+    second_pair:
+      row_name: RA061
+      value: 0.41
+  - name: CA033
+    first_pair:
+      row_name: RA062
+      value: -0.255
+    second_pair:
+      row_name: RA063
+      value: 2.442
+  - name: CA033
+    first_pair:
+      row_name: RA064
+      value: -5.7
+    second_pair:
+      row_name: RA065
+      value: -3.74
+  - name: CA034
+    first_pair:
+      row_name: R0000
+      value: 0.0621
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA034
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA034
+    first_pair:
+      row_name: RA022
+      value: 0.1
+    second_pair:
+      row_name: RA035
+      value: 0.099
+  - name: CA034
+    first_pair:
+      row_name: RA036
+      value: -0.087
+    second_pair:
+      row_name: RA040
+      value: 0.781
+  - name: CA034
+    first_pair:
+      row_name: RA056
+      value: 1.062
+    second_pair:
+      row_name: RA066
+      value: -0.83
+  - name: CA034
+    first_pair:
+      row_name: RA067
+      value: -0.443
+    second_pair:
+      row_name: RA068
+      value: 7.287
+  - name: CA034
+    first_pair:
+      row_name: RA069
+      value: -18.43
+    second_pair:
+      row_name: RA070
+      value: -4.789
+  - name: CA035
+    first_pair:
+      row_name: R0000
+      value: 0.1291
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA035
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA035
+    first_pair:
+      row_name: RA023
+      value: 0.3
+    second_pair:
+      row_name: RA035
+      value: 0.139
+  - name: CA035
+    first_pair:
+      row_name: RA036
+      value: -0.094
+    second_pair:
+      row_name: RA039
+      value: 0.541
+  - name: CA035
+    first_pair:
+      row_name: RA056
+      value: 1.172
+    second_pair:
+      row_name: RA061
+      value: 0.34
+  - name: CA035
+    first_pair:
+      row_name: RA062
+      value: -0.215
+    second_pair:
+      row_name: RA063
+      value: 17.125
+  - name: CA035
+    first_pair:
+      row_name: RA064
+      value: -7.54
+    second_pair:
+      row_name: RA065
+      value: -3.15
+  - name: CA036
+    first_pair:
+      row_name: R0000
+      value: 0.0491
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA036
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA036
+    first_pair:
+      row_name: RA023
+      value: 0.3
+    second_pair:
+      row_name: RA035
+      value: 0.045
+  - name: CA036
+    first_pair:
+      row_name: RA036
+      value: -0.0671
+    second_pair:
+      row_name: RA040
+      value: 0.635
+  - name: CA036
+    first_pair:
+      row_name: RA056
+      value: 0.872
+    second_pair:
+      row_name: RA066
+      value: -0.66
+  - name: CA036
+    first_pair:
+      row_name: RA067
+      value: -0.353
+    second_pair:
+      row_name: RA068
+      value: 25.73
+  - name: CA036
+    first_pair:
+      row_name: RA069
+      value: -16.68
+    second_pair:
+      row_name: RA070
+      value: -3.818
+  - name: CA037
+    first_pair:
+      row_name: R0000
+      value: 0.1181
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA037
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA037
+    first_pair:
+      row_name: RA022
+      value: 0.083
+    second_pair:
+      row_name: RA035
+      value: 0.162
+  - name: CA037
+    first_pair:
+      row_name: RA036
+      value: -0.119
+    second_pair:
+      row_name: RA039
+      value: 0.735
+  - name: CA037
+    first_pair:
+      row_name: RA056
+      value: 1.246
+    second_pair:
+      row_name: RA061
+      value: 4.23
+  - name: CA037
+    first_pair:
+      row_name: RA062
+      value: -0.301
+    second_pair:
+      row_name: RA063
+      value: 4.805
+  - name: CA037
+    first_pair:
+      row_name: RA064
+      value: -12.49
+    second_pair:
+      row_name: RA065
+      value: -4.421
+  - name: CA038
+    first_pair:
+      row_name: R0000
+      value: 0.1
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA038
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA038
+    first_pair:
+      row_name: RA022
+      value: 0.083
+    second_pair:
+      row_name: RA035
+      value: 0.162
+  - name: CA038
+    first_pair:
+      row_name: RA036
+      value: -0.119
+    second_pair:
+      row_name: RA040
+      value: 0.735
+  - name: CA038
+    first_pair:
+      row_name: RA056
+      value: 1.246
+    second_pair:
+      row_name: RA066
+      value: -9.03
+  - name: CA038
+    first_pair:
+      row_name: RA067
+      value: -0.409
+    second_pair:
+      row_name: RA068
+      value: 4.805
+  - name: CA038
+    first_pair:
+      row_name: RA069
+      value: -12.59
+    second_pair:
+      row_name: RA070
+      value: -4.421
+  - name: CA039
+    first_pair:
+      row_name: R0000
+      value: 0.118
+    second_pair:
+      row_name: RA009
+      value: -0.745
+  - name: CA039
+    first_pair:
+      row_name: RA010
+      value: -0.255
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA039
+    first_pair:
+      row_name: RA022
+      value: 0.083
+    second_pair:
+      row_name: RA035
+      value: 0.162
+  - name: CA039
+    first_pair:
+      row_name: RA036
+      value: -0.133
+    second_pair:
+      row_name: RA039
+      value: 0.367
+  - name: CA039
+    first_pair:
+      row_name: RA040
+      value: 0.368
+    second_pair:
+      row_name: RA056
+      value: 1.246
+  - name: CA039
+    first_pair:
+      row_name: RA061
+      value: -2.18
+    second_pair:
+      row_name: RA062
+      value: -0.137
+  - name: CA039
+    first_pair:
+      row_name: RA063
+      value: 19.62
+    second_pair:
+      row_name: RA064
+      value: -12.73
+  - name: CA039
+    first_pair:
+      row_name: RA065
+      value: -4.186
+    second_pair:
+      row_name: RA066
+      value: 3.13
+  - name: CA039
+    first_pair:
+      row_name: RA067
+      value: -0.222
+    second_pair:
+      row_name: RA068
+      value: -7.83
+  - name: CA039
+    first_pair:
+      row_name: RA069
+      value: -2.35
+    second_pair:
+      row_name: RA070
+      value: -0.835
+  - name: CA040
+    first_pair:
+      row_name: R0000
+      value: 0.0906
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA040
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA040
+    first_pair:
+      row_name: RA023
+      value: 0.3
+    second_pair:
+      row_name: RA035
+      value: 0.09
+  - name: CA040
+    first_pair:
+      row_name: RA036
+      value: -0.09
+    second_pair:
+      row_name: RA039
+      value: 0.59
+  - name: CA040
+    first_pair:
+      row_name: RA056
+      value: 1
+    second_pair:
+      row_name: RA061
+      value: 3.33
+  - name: CA040
+    first_pair:
+      row_name: RA062
+      value: -0.237
+    second_pair:
+      row_name: RA063
+      value: 20.412
+  - name: CA040
+    first_pair:
+      row_name: RA064
+      value: -11.19
+    second_pair:
+      row_name: RA065
+      value: -3.478
+  - name: CA041
+    first_pair:
+      row_name: R0000
+      value: 0.0764
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA041
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA041
+    first_pair:
+      row_name: RA023
+      value: 0.3
+    second_pair:
+      row_name: RA035
+      value: 0.09
+  - name: CA041
+    first_pair:
+      row_name: RA036
+      value: -0.09
+    second_pair:
+      row_name: RA040
+      value: 0.59
+  - name: CA041
+    first_pair:
+      row_name: RA056
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: -7.11
+  - name: CA041
+    first_pair:
+      row_name: RA067
+      value: -0.322
+    second_pair:
+      row_name: RA068
+      value: 20.412
+  - name: CA041
+    first_pair:
+      row_name: RA069
+      value: -11.19
+    second_pair:
+      row_name: RA070
+      value: -3.478
+  - name: CA042
+    first_pair:
+      row_name: R0000
+      value: 0.0905
+    second_pair:
+      row_name: RA009
+      value: -0.747
+  - name: CA042
+    first_pair:
+      row_name: RA011
+      value: -0.253
+    second_pair:
+      row_name: RA013
+      value: 0.02
+  - name: CA042
+    first_pair:
+      row_name: RA023
+      value: 0.3
+    second_pair:
+      row_name: RA035
+      value: 0.09
+  - name: CA042
+    first_pair:
+      row_name: RA036
+      value: -0.1011
+    second_pair:
+      row_name: RA039
+      value: 0.295
+  - name: CA042
+    first_pair:
+      row_name: RA040
+      value: 0.295
+    second_pair:
+      row_name: RA056
+      value: 1
+  - name: CA042
+    first_pair:
+      row_name: RA061
+      value: -1.73
+    second_pair:
+      row_name: RA062
+      value: -0.108
+  - name: CA042
+    first_pair:
+      row_name: RA063
+      value: 18.975
+    second_pair:
+      row_name: RA064
+      value: -10.07
+  - name: CA042
+    first_pair:
+      row_name: RA065
+      value: -3.312
+    second_pair:
+      row_name: RA066
+      value: 2.05
+  - name: CA042
+    first_pair:
+      row_name: RA067
+      value: -0.174
+    second_pair:
+      row_name: RA068
+      value: -2.05
+  - name: CA042
+    first_pair:
+      row_name: RA069
+      value: -2.34
+    second_pair:
+      row_name: RA070
+      value: -0.656
+  - name: CA043
+    first_pair:
+      row_name: RA010
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA043
+    first_pair:
+      row_name: RA075
+      value: -9.27
+    second_pair:
+      row_name: RA076
+      value: 7.82
+  - name: CA043
+    first_pair:
+      row_name: RA077
+      value: -3.5
+    second_pair:
+      row_name: RA078
+      value: 33.89
+  - name: CA043
+    first_pair:
+      row_name: RA079
+      value: -16
+    second_pair: ~
+  - name: 1CA043
+    first_pair:
+      row_name: RA010
+      value: -1
+    second_pair:
+      row_name: RA044
+      value: 1
+  - name: 1CA043
+    first_pair:
+      row_name: 1RA075
+      value: -9.27
+    second_pair:
+      row_name: 1RA076
+      value: 7.82
+  - name: 1CA043
+    first_pair:
+      row_name: 1RA078
+      value: 33.89
+    second_pair:
+      row_name: 1RA079
+      value: -16
+  - name: CA044
+    first_pair:
+      row_name: RA010
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA044
+    first_pair:
+      row_name: RA082
+      value: -13.98
+    second_pair:
+      row_name: RA083
+      value: 10.15
+  - name: CA044
+    first_pair:
+      row_name: RA084
+      value: 33.89
+    second_pair:
+      row_name: RA085
+      value: -13.5
+  - name: CA044
+    first_pair:
+      row_name: RA086
+      value: -20
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA044
+    first_pair:
+      row_name: RA088
+      value: -21.5
+    second_pair: ~
+  - name: CA045
+    first_pair:
+      row_name: R0000
+      value: 0.0095
+    second_pair:
+      row_name: RA009
+      value: 0.27
+  - name: CA045
+    first_pair:
+      row_name: RA011
+      value: -0.42
+    second_pair:
+      row_name: RA012
+      value: -0.33
+  - name: CA045
+    first_pair:
+      row_name: RA013
+      value: -0.52
+    second_pair:
+      row_name: RA041
+      value: 1
+  - name: CA045
+    first_pair:
+      row_name: RA072
+      value: 0.5
+    second_pair: ~
+  - name: 1CA045
+    first_pair:
+      row_name: R0000
+      value: 0.0095
+    second_pair:
+      row_name: RA009
+      value: -0.07
+  - name: 1CA045
+    first_pair:
+      row_name: RA011
+      value: -0.29
+    second_pair:
+      row_name: RA012
+      value: -0.23
+  - name: 1CA045
+    first_pair:
+      row_name: RA013
+      value: -0.41
+    second_pair:
+      row_name: RA041
+      value: 1
+  - name: 1CA045
+    first_pair:
+      row_name: RA055
+      value: 0.6
+    second_pair:
+      row_name: RA072
+      value: 0.5
+  - name: CA046
+    first_pair:
+      row_name: RA011
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA046
+    first_pair:
+      row_name: RA075
+      value: -9.27
+    second_pair:
+      row_name: RA076
+      value: 7.82
+  - name: CA046
+    first_pair:
+      row_name: RA077
+      value: -3.5
+    second_pair:
+      row_name: RA078
+      value: 33.89
+  - name: CA046
+    first_pair:
+      row_name: RA079
+      value: -16
+    second_pair: ~
+  - name: 1CA046
+    first_pair:
+      row_name: RA011
+      value: -1
+    second_pair:
+      row_name: RA044
+      value: 1
+  - name: 1CA046
+    first_pair:
+      row_name: 1RA075
+      value: -9.27
+    second_pair:
+      row_name: 1RA076
+      value: 7.82
+  - name: 1CA046
+    first_pair:
+      row_name: 1RA078
+      value: 33.89
+    second_pair:
+      row_name: 1RA079
+      value: -16
+  - name: CA048
+    first_pair:
+      row_name: RA011
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA048
+    first_pair:
+      row_name: RA082
+      value: -13.98
+    second_pair:
+      row_name: RA083
+      value: 10.15
+  - name: CA048
+    first_pair:
+      row_name: RA084
+      value: 33.89
+    second_pair:
+      row_name: RA085
+      value: -13.5
+  - name: CA048
+    first_pair:
+      row_name: RA086
+      value: -20
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA048
+    first_pair:
+      row_name: RA088
+      value: -21.5
+    second_pair: ~
+  - name: CA049
+    first_pair:
+      row_name: RA012
+      value: -1
+    second_pair:
+      row_name: RA013
+      value: 1
+  - name: 1CA050
+    first_pair:
+      row_name: R0000
+      value: 0.0104
+    second_pair:
+      row_name: RA012
+      value: -0.44
+  - name: 1CA050
+    first_pair:
+      row_name: RA013
+      value: -0.65
+    second_pair:
+      row_name: RA015
+      value: 0.09
+  - name: 1CA050
+    first_pair:
+      row_name: 1RA043
+      value: 1
+    second_pair: ~
+  - name: CA051
+    first_pair:
+      row_name: R0000
+      value: 0.0218
+    second_pair:
+      row_name: RA013
+      value: -1
+  - name: CA051
+    first_pair:
+      row_name: RA036
+      value: -0.0409
+    second_pair:
+      row_name: RA044
+      value: 0.997
+  - name: CA051
+    first_pair:
+      row_name: RA059
+      value: 0.933
+    second_pair:
+      row_name: 1RA075
+      value: -4.76
+  - name: CA051
+    first_pair:
+      row_name: 1RA076
+      value: 3.31
+    second_pair:
+      row_name: 1RA078
+      value: 2.3
+  - name: CA051
+    first_pair:
+      row_name: 1RA079
+      value: -11.96
+    second_pair: ~
+  - name: CA052
+    first_pair:
+      row_name: RA013
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA052
+    first_pair:
+      row_name: RA075
+      value: -4.46
+    second_pair:
+      row_name: RA076
+      value: 3.01
+  - name: CA052
+    first_pair:
+      row_name: RA077
+      value: -2
+    second_pair:
+      row_name: RA078
+      value: 2.3
+  - name: CA052
+    first_pair:
+      row_name: RA079
+      value: -12
+    second_pair: ~
+  - name: CA053
+    first_pair:
+      row_name: RA013
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA053
+    first_pair:
+      row_name: RA082
+      value: -9.15
+    second_pair:
+      row_name: RA083
+      value: 5.32
+  - name: CA053
+    first_pair:
+      row_name: RA084
+      value: 2.3
+    second_pair:
+      row_name: RA085
+      value: -12
+  - name: CA053
+    first_pair:
+      row_name: RA086
+      value: -16
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA053
+    first_pair:
+      row_name: RA088
+      value: -19
+    second_pair: ~
+  - name: CA054
+    first_pair:
+      row_name: RA013
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA054
+    first_pair:
+      row_name: RA089
+      value: -26.96
+    second_pair:
+      row_name: RA090
+      value: 26.15
+  - name: CA054
+    first_pair:
+      row_name: RA091
+      value: -22
+    second_pair:
+      row_name: RA092
+      value: -69
+  - name: CA055
+    first_pair:
+      row_name: RA013
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA055
+    first_pair:
+      row_name: RA093
+      value: -26.96
+    second_pair:
+      row_name: RA094
+      value: 26.15
+  - name: CA055
+    first_pair:
+      row_name: RA095
+      value: -30.5
+    second_pair:
+      row_name: RA096
+      value: -60
+  - name: CA056
+    first_pair:
+      row_name: R0000
+      value: 0.0218
+    second_pair:
+      row_name: RA014
+      value: -1
+  - name: CA056
+    first_pair:
+      row_name: RA036
+      value: -0.0409
+    second_pair:
+      row_name: RA044
+      value: 0.987
+  - name: CA056
+    first_pair:
+      row_name: RA059
+      value: 1
+    second_pair:
+      row_name: 1RA075
+      value: -0.286
+  - name: CA056
+    first_pair:
+      row_name: 1RA076
+      value: -1.14
+    second_pair:
+      row_name: 1RA078
+      value: -3.13
+  - name: CA056
+    first_pair:
+      row_name: 1RA079
+      value: -0.987
+    second_pair: ~
+  - name: CA057
+    first_pair:
+      row_name: RA014
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA057
+    first_pair:
+      row_name: RA075
+      value: 0.71
+    second_pair:
+      row_name: RA076
+      value: -2.16
+  - name: CA057
+    first_pair:
+      row_name: RA077
+      value: 2.75
+    second_pair:
+      row_name: RA078
+      value: -3.17
+  - name: CA057
+    first_pair:
+      row_name: RA079
+      value: -1
+    second_pair: ~
+  - name: CA058
+    first_pair:
+      row_name: RA014
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA058
+    first_pair:
+      row_name: RA082
+      value: -3.98
+    second_pair:
+      row_name: RA083
+      value: 0.15
+  - name: CA058
+    first_pair:
+      row_name: RA084
+      value: -3.17
+    second_pair:
+      row_name: RA085
+      value: -7.25
+  - name: CA058
+    first_pair:
+      row_name: RA086
+      value: -5
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA058
+    first_pair:
+      row_name: RA088
+      value: -15
+    second_pair: ~
+  - name: CA059
+    first_pair:
+      row_name: RA014
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA059
+    first_pair:
+      row_name: RA089
+      value: -19.06
+    second_pair:
+      row_name: RA090
+      value: 18.25
+  - name: CA059
+    first_pair:
+      row_name: RA091
+      value: -17.25
+    second_pair:
+      row_name: RA092
+      value: -53
+  - name: CA060
+    first_pair:
+      row_name: RA014
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA060
+    first_pair:
+      row_name: RA093
+      value: -19.06
+    second_pair:
+      row_name: RA094
+      value: 18.25
+  - name: CA060
+    first_pair:
+      row_name: RA095
+      value: -25.75
+    second_pair:
+      row_name: RA096
+      value: -44
+  - name: CA061
+    first_pair:
+      row_name: R0000
+      value: 0.0218
+    second_pair:
+      row_name: RA015
+      value: -1
+  - name: CA061
+    first_pair:
+      row_name: RA036
+      value: -0.0409
+    second_pair:
+      row_name: RA044
+      value: 0.98
+  - name: CA061
+    first_pair:
+      row_name: RA059
+      value: 1.005
+    second_pair:
+      row_name: 1RA075
+      value: -1.57
+  - name: CA061
+    first_pair:
+      row_name: 1RA076
+      value: 0.14
+    second_pair:
+      row_name: 1RA078
+      value: -3.19
+  - name: CA061
+    first_pair:
+      row_name: 1RA079
+      value: -1.47
+    second_pair: ~
+  - name: CA062
+    first_pair:
+      row_name: RA015
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA062
+    first_pair:
+      row_name: RA076
+      value: -1.45
+    second_pair:
+      row_name: RA077
+      value: 6.5
+  - name: CA062
+    first_pair:
+      row_name: RA078
+      value: -3.26
+    second_pair:
+      row_name: RA079
+      value: -1.5
+  - name: CA063
+    first_pair:
+      row_name: RA015
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA063
+    first_pair:
+      row_name: RA082
+      value: -4.69
+    second_pair:
+      row_name: RA083
+      value: 0.86
+  - name: CA063
+    first_pair:
+      row_name: RA084
+      value: -3.26
+    second_pair:
+      row_name: RA085
+      value: -3.5
+  - name: CA063
+    first_pair:
+      row_name: RA086
+      value: -5.5
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA063
+    first_pair:
+      row_name: RA088
+      value: -16
+    second_pair: ~
+  - name: CA064
+    first_pair:
+      row_name: RA015
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA064
+    first_pair:
+      row_name: RA089
+      value: -18.96
+    second_pair:
+      row_name: RA090
+      value: 18.15
+  - name: CA064
+    first_pair:
+      row_name: RA091
+      value: -13.5
+    second_pair:
+      row_name: RA092
+      value: -54
+  - name: CA065
+    first_pair:
+      row_name: RA015
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA065
+    first_pair:
+      row_name: RA093
+      value: -18.96
+    second_pair:
+      row_name: RA094
+      value: 18.15
+  - name: CA065
+    first_pair:
+      row_name: RA095
+      value: -22
+    second_pair:
+      row_name: RA096
+      value: -45
+  - name: CA066
+    first_pair:
+      row_name: R0000
+      value: -0.0027
+    second_pair:
+      row_name: RA016
+      value: -1
+  - name: CA066
+    first_pair:
+      row_name: RA026
+      value: 1
+    second_pair:
+      row_name: RA032
+      value: -0.054
+  - name: CA066
+    first_pair:
+      row_name: RA034
+      value: 0.023
+    second_pair:
+      row_name: RA035
+      value: 0.031
+  - name: CA068
+    first_pair:
+      row_name: R0000
+      value: 0.0218
+    second_pair:
+      row_name: RA016
+      value: -1
+  - name: CA068
+    first_pair:
+      row_name: RA036
+      value: -0.0409
+    second_pair:
+      row_name: RA044
+      value: 0.976
+  - name: CA068
+    first_pair:
+      row_name: RA059
+      value: 1.835
+    second_pair:
+      row_name: 1RA075
+      value: 2.33
+  - name: CA068
+    first_pair:
+      row_name: 1RA076
+      value: -3.75
+    second_pair:
+      row_name: 1RA078
+      value: -3.51
+  - name: CA068
+    first_pair:
+      row_name: 1RA079
+      value: 20.5
+    second_pair: ~
+  - name: CA069
+    first_pair:
+      row_name: RA016
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA069
+    first_pair:
+      row_name: RA075
+      value: 4.15
+    second_pair:
+      row_name: RA076
+      value: -5.6
+  - name: CA069
+    first_pair:
+      row_name: RA077
+      value: 8.5
+    second_pair:
+      row_name: RA078
+      value: -3.6
+  - name: CA069
+    first_pair:
+      row_name: RA079
+      value: 21
+    second_pair: ~
+  - name: CA070
+    first_pair:
+      row_name: RA016
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA070
+    first_pair:
+      row_name: RA082
+      value: -0.54
+    second_pair:
+      row_name: RA083
+      value: -3.29
+  - name: CA070
+    first_pair:
+      row_name: RA084
+      value: -3.6
+    second_pair:
+      row_name: RA085
+      value: -1.5
+  - name: CA070
+    first_pair:
+      row_name: RA086
+      value: 17
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA070
+    first_pair:
+      row_name: RA088
+      value: -9
+    second_pair: ~
+  - name: CA071
+    first_pair:
+      row_name: RA016
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA071
+    first_pair:
+      row_name: RA089
+      value: -12.36
+    second_pair:
+      row_name: RA090
+      value: 11.55
+  - name: CA071
+    first_pair:
+      row_name: RA091
+      value: -11.5
+    second_pair:
+      row_name: RA092
+      value: -30
+  - name: CA072
+    first_pair:
+      row_name: RA016
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA072
+    first_pair:
+      row_name: RA093
+      value: -12.36
+    second_pair:
+      row_name: RA094
+      value: 11.55
+  - name: CA072
+    first_pair:
+      row_name: RA095
+      value: -20
+    second_pair:
+      row_name: RA096
+      value: -21
+  - name: CA073
+    first_pair:
+      row_name: R0000
+      value: -0.0027
+    second_pair:
+      row_name: RA017
+      value: -1
+  - name: CA073
+    first_pair:
+      row_name: RA026
+      value: 1
+    second_pair:
+      row_name: RA032
+      value: -0.054
+  - name: CA073
+    first_pair:
+      row_name: RA034
+      value: 0.023
+    second_pair:
+      row_name: RA035
+      value: 0.031
+  - name: CA075
+    first_pair:
+      row_name: R0000
+      value: 0.0218
+    second_pair:
+      row_name: RA017
+      value: -1
+  - name: CA075
+    first_pair:
+      row_name: RA036
+      value: -0.0409
+    second_pair:
+      row_name: RA044
+      value: 0.964
+  - name: CA075
+    first_pair:
+      row_name: RA059
+      value: 1.835
+    second_pair:
+      row_name: 1RA075
+      value: 6.63
+  - name: CA075
+    first_pair:
+      row_name: 1RA076
+      value: -2.77
+    second_pair:
+      row_name: 1RA078
+      value: -3.46
+  - name: CA075
+    first_pair:
+      row_name: 1RA079
+      value: 25.06
+    second_pair: ~
+  - name: CA076
+    first_pair:
+      row_name: RA017
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA076
+    first_pair:
+      row_name: RA075
+      value: 4.15
+    second_pair:
+      row_name: RA076
+      value: -5.6
+  - name: CA076
+    first_pair:
+      row_name: RA077
+      value: 14.5
+    second_pair:
+      row_name: RA078
+      value: -3.59
+  - name: CA076
+    first_pair:
+      row_name: RA079
+      value: 26
+    second_pair: ~
+  - name: CA077
+    first_pair:
+      row_name: RA017
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA077
+    first_pair:
+      row_name: RA082
+      value: -0.54
+    second_pair:
+      row_name: RA083
+      value: -3.29
+  - name: CA077
+    first_pair:
+      row_name: RA084
+      value: -3.59
+    second_pair:
+      row_name: RA085
+      value: 4.5
+  - name: CA077
+    first_pair:
+      row_name: RA086
+      value: 22
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA077
+    first_pair:
+      row_name: RA088
+      value: -6
+    second_pair: ~
+  - name: CA078
+    first_pair:
+      row_name: RA017
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA078
+    first_pair:
+      row_name: RA089
+      value: -11.56
+    second_pair:
+      row_name: RA090
+      value: 10.75
+  - name: CA078
+    first_pair:
+      row_name: RA091
+      value: -5.5
+    second_pair:
+      row_name: RA092
+      value: -25
+  - name: CA079
+    first_pair:
+      row_name: RA017
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA079
+    first_pair:
+      row_name: RA093
+      value: -11.56
+    second_pair:
+      row_name: RA094
+      value: 10.75
+  - name: CA079
+    first_pair:
+      row_name: RA095
+      value: -14
+    second_pair:
+      row_name: RA096
+      value: -16
+  - name: CA080
+    first_pair:
+      row_name: R0000
+      value: 0.0075
+    second_pair:
+      row_name: RA018
+      value: -1
+  - name: CA080
+    first_pair:
+      row_name: RA024
+      value: 0.081
+    second_pair:
+      row_name: RA026
+      value: 0.508
+  - name: CA080
+    first_pair:
+      row_name: RA027
+      value: 0.401
+    second_pair:
+      row_name: RA034
+      value: 0.01
+  - name: CA080
+    first_pair:
+      row_name: RA036
+      value: -0.0029
+    second_pair:
+      row_name: RA057
+      value: 1
+  - name: CA081
+    first_pair:
+      row_name: RA018
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA081
+    first_pair:
+      row_name: RA089
+      value: 3.44
+    second_pair:
+      row_name: RA090
+      value: -4.25
+  - name: CA081
+    first_pair:
+      row_name: RA091
+      value: 0.5
+    second_pair:
+      row_name: RA092
+      value: 15
+  - name: CA082
+    first_pair:
+      row_name: RA018
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA082
+    first_pair:
+      row_name: RA093
+      value: 3.44
+    second_pair:
+      row_name: RA094
+      value: -4.25
+  - name: CA082
+    first_pair:
+      row_name: RA095
+      value: -8
+    second_pair:
+      row_name: RA096
+      value: 24
+  - name: CA083
+    first_pair:
+      row_name: R0000
+      value: 0.0075
+    second_pair:
+      row_name: RA019
+      value: -1
+  - name: CA083
+    first_pair:
+      row_name: RA024
+      value: 0.068
+    second_pair:
+      row_name: RA026
+      value: 0.427
+  - name: CA083
+    first_pair:
+      row_name: RA028
+      value: 0.495
+    second_pair:
+      row_name: RA034
+      value: 0.01
+  - name: CA083
+    first_pair:
+      row_name: RA036
+      value: -0.0029
+    second_pair:
+      row_name: RA057
+      value: 0.949
+  - name: CA084
+    first_pair:
+      row_name: RA019
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA084
+    first_pair:
+      row_name: RA093
+      value: 5.64
+    second_pair:
+      row_name: RA094
+      value: -6.45
+  - name: CA084
+    first_pair:
+      row_name: RA095
+      value: 8.5
+    second_pair:
+      row_name: RA096
+      value: 4
+  - name: CA085
+    first_pair:
+      row_name: R0000
+      value: 0.0075
+    second_pair:
+      row_name: RA020
+      value: -1
+  - name: CA085
+    first_pair:
+      row_name: RA024
+      value: 0.113
+    second_pair:
+      row_name: RA026
+      value: 0.545
+  - name: CA085
+    first_pair:
+      row_name: RA029
+      value: 0.332
+    second_pair:
+      row_name: RA034
+      value: 0.01
+  - name: CA085
+    first_pair:
+      row_name: RA036
+      value: -0.0032
+    second_pair:
+      row_name: RA057
+      value: 1.074
+  - name: 1CA085
+    first_pair:
+      row_name: R0000
+      value: 0.0075
+    second_pair:
+      row_name: 1RA020
+      value: -1
+  - name: 1CA085
+    first_pair:
+      row_name: RA024
+      value: 0.109
+    second_pair:
+      row_name: RA026
+      value: 0.51
+  - name: 1CA085
+    first_pair:
+      row_name: 1RA029
+      value: 0.371
+    second_pair:
+      row_name: RA034
+      value: 0.01
+  - name: 1CA085
+    first_pair:
+      row_name: RA036
+      value: -0.0032
+    second_pair:
+      row_name: RA057
+      value: 1.008
+  - name: CA086
+    first_pair:
+      row_name: RA020
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA086
+    first_pair:
+      row_name: RA089
+      value: -0.56
+    second_pair:
+      row_name: RA090
+      value: -0.25
+  - name: CA086
+    first_pair:
+      row_name: RA091
+      value: 0.5
+    second_pair:
+      row_name: RA092
+      value: 22
+  - name: 1CA086
+    first_pair:
+      row_name: 1RA020
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: 1CA086
+    first_pair:
+      row_name: RA089
+      value: 1.34
+    second_pair:
+      row_name: RA090
+      value: -2.15
+  - name: 1CA086
+    first_pair:
+      row_name: RA091
+      value: 3.5
+    second_pair:
+      row_name: RA092
+      value: 8
+  - name: CA087
+    first_pair:
+      row_name: RA020
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA087
+    first_pair:
+      row_name: RA093
+      value: -0.56
+    second_pair:
+      row_name: RA094
+      value: -0.25
+  - name: CA087
+    first_pair:
+      row_name: RA095
+      value: -8
+    second_pair:
+      row_name: RA096
+      value: 31
+  - name: 1CA087
+    first_pair:
+      row_name: 1RA020
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: 1CA087
+    first_pair:
+      row_name: RA093
+      value: 1.34
+    second_pair:
+      row_name: RA094
+      value: -2.15
+  - name: 1CA087
+    first_pair:
+      row_name: RA095
+      value: -5
+    second_pair:
+      row_name: RA096
+      value: 17
+  - name: CA091
+    first_pair:
+      row_name: R0000
+      value: 0.0748
+    second_pair:
+      row_name: RA022
+      value: -1
+  - name: CA091
+    first_pair:
+      row_name: RA039
+      value: 1
+    second_pair:
+      row_name: RA061
+      value: 29.91
+  - name: CA091
+    first_pair:
+      row_name: RA062
+      value: -0.494
+    second_pair:
+      row_name: RA063
+      value: -102.3101
+  - name: CA091
+    first_pair:
+      row_name: RA064
+      value: 83.5801
+    second_pair:
+      row_name: RA065
+      value: 10.074
+  - name: CA092
+    first_pair:
+      row_name: R0000
+      value: 0.0453
+    second_pair:
+      row_name: RA022
+      value: -1
+  - name: CA092
+    first_pair:
+      row_name: RA040
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: 7.87
+  - name: CA092
+    first_pair:
+      row_name: RA067
+      value: -0.67
+    second_pair:
+      row_name: RA068
+      value: -102.3101
+  - name: CA092
+    first_pair:
+      row_name: RA069
+      value: 83.5801
+    second_pair:
+      row_name: RA070
+      value: 10.074
+  - name: CA093
+    first_pair:
+      row_name: R0000
+      value: 0.0709
+    second_pair:
+      row_name: RA023
+      value: -1
+  - name: CA093
+    first_pair:
+      row_name: RA039
+      value: 1
+    second_pair:
+      row_name: RA061
+      value: 45.54
+  - name: CA093
+    first_pair:
+      row_name: RA062
+      value: -0.468
+    second_pair:
+      row_name: RA063
+      value: -74.6499
+  - name: CA093
+    first_pair:
+      row_name: RA064
+      value: 41.8
+    second_pair:
+      row_name: RA065
+      value: -1.642
+  - name: CA094
+    first_pair:
+      row_name: R0000
+      value: 0.0429
+    second_pair:
+      row_name: RA023
+      value: -1
+  - name: CA094
+    first_pair:
+      row_name: RA040
+      value: 1
+    second_pair:
+      row_name: RA066
+      value: 24.63
+  - name: CA094
+    first_pair:
+      row_name: RA067
+      value: -0.635
+    second_pair:
+      row_name: RA068
+      value: -74.6499
+  - name: CA094
+    first_pair:
+      row_name: RA069
+      value: 41.8
+    second_pair:
+      row_name: RA070
+      value: -1.642
+  - name: 1CA095
+    first_pair:
+      row_name: R0000
+      value: -0.0017
+    second_pair:
+      row_name: RA024
+      value: -1
+  - name: 1CA095
+    first_pair:
+      row_name: RA026
+      value: 1
+    second_pair:
+      row_name: RA032
+      value: -0.034
+  - name: 1CA095
+    first_pair:
+      row_name: RA034
+      value: 0.015
+    second_pair:
+      row_name: RA035
+      value: 0.019
+  - name: CA096
+    first_pair:
+      row_name: RA024
+      value: -1
+    second_pair:
+      row_name: RA043
+      value: 1
+  - name: CA096
+    first_pair:
+      row_name: RA075
+      value: 6.13
+    second_pair:
+      row_name: RA076
+      value: -7.58
+  - name: CA096
+    first_pair:
+      row_name: RA077
+      value: 16.5
+    second_pair:
+      row_name: RA078
+      value: -3.52
+  - name: CA096
+    first_pair:
+      row_name: RA079
+      value: 17
+    second_pair: ~
+  - name: CA097
+    first_pair:
+      row_name: RA024
+      value: -1
+    second_pair:
+      row_name: RA046
+      value: 1
+  - name: CA097
+    first_pair:
+      row_name: RA082
+      value: 1.43
+    second_pair:
+      row_name: RA083
+      value: -5.26
+  - name: CA097
+    first_pair:
+      row_name: RA084
+      value: -3.52
+    second_pair:
+      row_name: RA085
+      value: 6.5
+  - name: CA097
+    first_pair:
+      row_name: RA086
+      value: 13
+    second_pair:
+      row_name: RA087
+      value: -14
+  - name: CA097
+    first_pair:
+      row_name: RA088
+      value: 1
+    second_pair: ~
+  - name: CA098
+    first_pair:
+      row_name: RA024
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA098
+    first_pair:
+      row_name: RA089
+      value: -12.56
+    second_pair:
+      row_name: RA090
+      value: 11.75
+  - name: CA098
+    first_pair:
+      row_name: RA091
+      value: -3.5
+    second_pair:
+      row_name: RA092
+      value: -35
+  - name: CA099
+    first_pair:
+      row_name: RA024
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA099
+    first_pair:
+      row_name: RA093
+      value: -12.56
+    second_pair:
+      row_name: RA094
+      value: 11.75
+  - name: CA099
+    first_pair:
+      row_name: RA095
+      value: -12
+    second_pair:
+      row_name: RA096
+      value: -26
+  - name: CA100
+    first_pair:
+      row_name: R0000
+      value: 0.0534
+    second_pair:
+      row_name: RA026
+      value: -1
+  - name: CA100
+    first_pair:
+      row_name: RA031
+      value: 0.255
+    second_pair:
+      row_name: RA032
+      value: 0.058
+  - name: CA100
+    first_pair:
+      row_name: RA033
+      value: 0.24
+    second_pair:
+      row_name: RA034
+      value: 0.082
+  - name: CA100
+    first_pair:
+      row_name: 1RA034
+      value: 0.065
+    second_pair:
+      row_name: 2RA034
+      value: 0.076
+  - name: CA100
+    first_pair:
+      row_name: RA035
+      value: 0.154
+    second_pair:
+      row_name: RA058
+      value: 1.17
+  - name: CA100
+    first_pair:
+      row_name: 1RA058
+      value: 1
+    second_pair: ~
+  - name: CA101
+    first_pair:
+      row_name: R0000
+      value: 0.0521
+    second_pair:
+      row_name: RA026
+      value: -1
+  - name: CA101
+    first_pair:
+      row_name: RA031
+      value: 0.182
+    second_pair:
+      row_name: RA032
+      value: 0.059
+  - name: CA101
+    first_pair:
+      row_name: RA033
+      value: 0.24
+    second_pair:
+      row_name: RA034
+      value: 0.253
+  - name: CA101
+    first_pair:
+      row_name: 1RA034
+      value: 0.07
+    second_pair:
+      row_name: 2RA034
+      value: 0.076
+  - name: CA101
+    first_pair:
+      row_name: RA035
+      value: 0.065
+    second_pair:
+      row_name: RA058
+      value: 0.92
+  - name: CA102
+    first_pair:
+      row_name: R0000
+      value: 0.0067
+    second_pair:
+      row_name: RA031
+      value: 0.37
+  - name: CA102
+    first_pair:
+      row_name: 1RA034
+      value: -1
+    second_pair:
+      row_name: RA035
+      value: 0.48
+  - name: CA102
+    first_pair:
+      row_name: RA058
+      value: 2.5
+    second_pair: ~
+  - name: 1CA102
+    first_pair:
+      row_name: RA034
+      value: 1
+    second_pair:
+      row_name: 1RA034
+      value: -1
+  - name: CA103
+    first_pair:
+      row_name: R0000
+      value: 0.0155
+    second_pair:
+      row_name: RA031
+      value: 0.55
+  - name: CA103
+    first_pair:
+      row_name: RA032
+      value: 0.11
+    second_pair:
+      row_name: 2RA034
+      value: -1
+  - name: CA103
+    first_pair:
+      row_name: RA035
+      value: 0.17
+    second_pair:
+      row_name: RA058
+      value: 2.83
+  - name: 1CA103
+    first_pair:
+      row_name: RA034
+      value: 1
+    second_pair:
+      row_name: 2RA034
+      value: -1
+  - name: CA104
+    first_pair:
+      row_name: R0000
+      value: 0.036
+    second_pair:
+      row_name: RA019
+      value: -1
+  - name: CA104
+    first_pair:
+      row_name: RA024
+      value: 0.077
+    second_pair:
+      row_name: RA026
+      value: 0.193
+  - name: CA104
+    first_pair:
+      row_name: RA028
+      value: 0.328
+    second_pair:
+      row_name: RA034
+      value: 0.008
+  - name: CA104
+    first_pair:
+      row_name: RA035
+      value: 0.001
+    second_pair:
+      row_name: RA036
+      value: -0.006
+  - name: CA104
+    first_pair:
+      row_name: RA051
+      value: 0.276
+    second_pair:
+      row_name: RA054
+      value: 0.117
+  - name: CA104
+    first_pair:
+      row_name: RA093
+      value: 2.88
+    second_pair:
+      row_name: RA094
+      value: -3.1
+  - name: CA104
+    first_pair:
+      row_name: RA095
+      value: 6.35
+    second_pair:
+      row_name: RA096
+      value: 1.1
+  - name: CA106
+    first_pair:
+      row_name: RA027
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA106
+    first_pair:
+      row_name: RA089
+      value: 14.23
+    second_pair:
+      row_name: RA090
+      value: -15.04
+  - name: CA106
+    first_pair:
+      row_name: RA091
+      value: 8.7
+    second_pair:
+      row_name: RA092
+      value: -34
+  - name: 1CA106
+    first_pair:
+      row_name: RA026
+      value: -0.154
+    second_pair:
+      row_name: RA027
+      value: -0.846
+  - name: 1CA106
+    first_pair:
+      row_name: RA036
+      value: 0.0002
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: 1CA106
+    first_pair:
+      row_name: RA057
+      value: -0.078
+    second_pair:
+      row_name: RA089
+      value: 12.39
+  - name: 1CA106
+    first_pair:
+      row_name: RA090
+      value: -13.2
+    second_pair:
+      row_name: RA091
+      value: 7
+  - name: 1CA106
+    first_pair:
+      row_name: RA092
+      value: -21
+    second_pair: ~
+  - name: CA107
+    first_pair:
+      row_name: RA027
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA107
+    first_pair:
+      row_name: RA093
+      value: 14.23
+    second_pair:
+      row_name: RA094
+      value: -15.04
+  - name: CA107
+    first_pair:
+      row_name: RA095
+      value: 0.2
+    second_pair:
+      row_name: RA096
+      value: -25
+  - name: 1CA107
+    first_pair:
+      row_name: RA026
+      value: -0.154
+    second_pair:
+      row_name: RA027
+      value: -0.846
+  - name: 1CA107
+    first_pair:
+      row_name: RA036
+      value: 0.0002
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: 1CA107
+    first_pair:
+      row_name: RA057
+      value: -0.078
+    second_pair:
+      row_name: RA093
+      value: 12.39
+  - name: 1CA107
+    first_pair:
+      row_name: RA094
+      value: -13.2
+    second_pair:
+      row_name: RA095
+      value: -1.5
+  - name: 1CA107
+    first_pair:
+      row_name: RA096
+      value: -12
+    second_pair: ~
+  - name: CA108
+    first_pair:
+      row_name: RA028
+      value: -1
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: CA108
+    first_pair:
+      row_name: RA093
+      value: 14.47
+    second_pair:
+      row_name: RA094
+      value: -15.28
+  - name: CA108
+    first_pair:
+      row_name: RA095
+      value: 19.5
+    second_pair:
+      row_name: RA096
+      value: -31
+  - name: 1CA108
+    first_pair:
+      row_name: RA026
+      value: -0.13
+    second_pair:
+      row_name: RA028
+      value: -0.87
+  - name: 1CA108
+    first_pair:
+      row_name: RA036
+      value: 0.0002
+    second_pair:
+      row_name: RA051
+      value: 1
+  - name: 1CA108
+    first_pair:
+      row_name: RA057
+      value: -0.132
+    second_pair:
+      row_name: RA093
+      value: 12.73
+  - name: 1CA108
+    first_pair:
+      row_name: RA094
+      value: -13.54
+    second_pair:
+      row_name: RA095
+      value: 17.2
+  - name: 1CA108
+    first_pair:
+      row_name: RA096
+      value: -17
+    second_pair: ~
+  - name: CA109
+    first_pair:
+      row_name: RA029
+      value: -1
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: CA109
+    first_pair:
+      row_name: RA089
+      value: 9.13
+    second_pair:
+      row_name: RA090
+      value: -9.94
+  - name: CA109
+    first_pair:
+      row_name: RA091
+      value: 6.8
+    second_pair:
+      row_name: RA092
+      value: -38
+  - name: 1CA109
+    first_pair:
+      row_name: RA026
+      value: -0.186
+    second_pair:
+      row_name: RA029
+      value: -0.814
+  - name: 1CA109
+    first_pair:
+      row_name: RA036
+      value: 0.0004
+    second_pair:
+      row_name: RA048
+      value: 1
+  - name: 1CA109
+    first_pair:
+      row_name: RA057
+      value: -0.05
+    second_pair:
+      row_name: RA089
+      value: 7.8
+  - name: 1CA109
+    first_pair:
+      row_name: RA090
+      value: -8.61
+    second_pair:
+      row_name: RA091
+      value: 5.2
+rhs: ~
+ranges: ~
+bounds: ~
+

@@ -1,0 +1,1971 @@
+---
+source: tests/unit.rs
+expression: parsed
+---
+- "\n"
+- name: STOCFOR1 (STOCHFOR)
+  rows:
+    - row_type: Nr
+      row_name: HARV
+    - row_type: Leq
+      row_name: BOUND301
+    - row_type: Leq
+      row_name: BOUND401
+    - row_type: Leq
+      row_name: BOUND501
+    - row_type: Leq
+      row_name: BOUND601
+    - row_type: Leq
+      row_name: BOUND701
+    - row_type: Leq
+      row_name: BOUND801
+    - row_type: Eq
+      row_name: REGEN101
+    - row_type: Eq
+      row_name: REGEN201
+    - row_type: Eq
+      row_name: REGEN301
+    - row_type: Eq
+      row_name: REGEN401
+    - row_type: Eq
+      row_name: REGEN501
+    - row_type: Eq
+      row_name: REGEN601
+    - row_type: Eq
+      row_name: REGEN701
+    - row_type: Eq
+      row_name: REGEN801
+    - row_type: Eq
+      row_name: YIELD101
+    - row_type: Leq
+      row_name: BOUND302
+    - row_type: Leq
+      row_name: BOUND402
+    - row_type: Leq
+      row_name: BOUND502
+    - row_type: Leq
+      row_name: BOUND602
+    - row_type: Leq
+      row_name: BOUND702
+    - row_type: Leq
+      row_name: BOUND802
+    - row_type: Eq
+      row_name: REGEN102
+    - row_type: Eq
+      row_name: REGEN202
+    - row_type: Eq
+      row_name: REGEN302
+    - row_type: Eq
+      row_name: REGEN402
+    - row_type: Eq
+      row_name: REGEN502
+    - row_type: Eq
+      row_name: REGEN602
+    - row_type: Eq
+      row_name: REGEN702
+    - row_type: Eq
+      row_name: REGEN802
+    - row_type: Leq
+      row_name: TFLOW102
+    - row_type: Geq
+      row_name: TFLOW202
+    - row_type: Eq
+      row_name: YIELD202
+    - row_type: Leq
+      row_name: BOUND303
+    - row_type: Leq
+      row_name: BOUND403
+    - row_type: Leq
+      row_name: BOUND503
+    - row_type: Leq
+      row_name: BOUND603
+    - row_type: Leq
+      row_name: BOUND703
+    - row_type: Leq
+      row_name: BOUND803
+    - row_type: Eq
+      row_name: REGEN103
+    - row_type: Eq
+      row_name: REGEN203
+    - row_type: Eq
+      row_name: REGEN303
+    - row_type: Eq
+      row_name: REGEN403
+    - row_type: Eq
+      row_name: REGEN503
+    - row_type: Eq
+      row_name: REGEN603
+    - row_type: Eq
+      row_name: REGEN703
+    - row_type: Eq
+      row_name: REGEN803
+    - row_type: Leq
+      row_name: TFLOW103
+    - row_type: Geq
+      row_name: TFLOW203
+    - row_type: Eq
+      row_name: YIELD303
+    - row_type: Leq
+      row_name: BOUND304
+    - row_type: Leq
+      row_name: BOUND404
+    - row_type: Leq
+      row_name: BOUND504
+    - row_type: Leq
+      row_name: BOUND604
+    - row_type: Leq
+      row_name: BOUND704
+    - row_type: Leq
+      row_name: BOUND804
+    - row_type: Eq
+      row_name: REGEN104
+    - row_type: Eq
+      row_name: REGEN204
+    - row_type: Eq
+      row_name: REGEN304
+    - row_type: Eq
+      row_name: REGEN404
+    - row_type: Eq
+      row_name: REGEN504
+    - row_type: Eq
+      row_name: REGEN604
+    - row_type: Eq
+      row_name: REGEN704
+    - row_type: Eq
+      row_name: REGEN804
+    - row_type: Leq
+      row_name: TFLOW104
+    - row_type: Geq
+      row_name: TFLOW204
+    - row_type: Eq
+      row_name: YIELD404
+    - row_type: Leq
+      row_name: BOUND305
+    - row_type: Leq
+      row_name: BOUND405
+    - row_type: Leq
+      row_name: BOUND505
+    - row_type: Leq
+      row_name: BOUND605
+    - row_type: Leq
+      row_name: BOUND705
+    - row_type: Leq
+      row_name: BOUND805
+    - row_type: Eq
+      row_name: REGEN105
+    - row_type: Eq
+      row_name: REGEN205
+    - row_type: Eq
+      row_name: REGEN305
+    - row_type: Eq
+      row_name: REGEN405
+    - row_type: Eq
+      row_name: REGEN505
+    - row_type: Eq
+      row_name: REGEN605
+    - row_type: Eq
+      row_name: REGEN705
+    - row_type: Eq
+      row_name: REGEN805
+    - row_type: Leq
+      row_name: TFLOW105
+    - row_type: Geq
+      row_name: TFLOW205
+    - row_type: Eq
+      row_name: YIELD505
+    - row_type: Leq
+      row_name: BOUND306
+    - row_type: Leq
+      row_name: BOUND406
+    - row_type: Leq
+      row_name: BOUND506
+    - row_type: Leq
+      row_name: BOUND606
+    - row_type: Leq
+      row_name: BOUND706
+    - row_type: Leq
+      row_name: BOUND806
+    - row_type: Eq
+      row_name: REGEN106
+    - row_type: Eq
+      row_name: REGEN206
+    - row_type: Eq
+      row_name: REGEN306
+    - row_type: Eq
+      row_name: REGEN406
+    - row_type: Eq
+      row_name: REGEN506
+    - row_type: Eq
+      row_name: REGEN606
+    - row_type: Eq
+      row_name: REGEN706
+    - row_type: Eq
+      row_name: REGEN806
+    - row_type: Leq
+      row_name: TFLOW106
+    - row_type: Geq
+      row_name: TFLOW206
+    - row_type: Eq
+      row_name: YIELD606
+    - row_type: Leq
+      row_name: BOUND307
+    - row_type: Leq
+      row_name: BOUND407
+    - row_type: Leq
+      row_name: BOUND507
+    - row_type: Leq
+      row_name: BOUND607
+    - row_type: Leq
+      row_name: BOUND707
+    - row_type: Leq
+      row_name: BOUND807
+    - row_type: Eq
+      row_name: REGEN107
+    - row_type: Eq
+      row_name: REGEN207
+    - row_type: Eq
+      row_name: REGEN307
+    - row_type: Eq
+      row_name: REGEN407
+    - row_type: Eq
+      row_name: REGEN507
+    - row_type: Eq
+      row_name: REGEN607
+    - row_type: Eq
+      row_name: REGEN707
+    - row_type: Eq
+      row_name: REGEN807
+    - row_type: Leq
+      row_name: TFLOW107
+    - row_type: Geq
+      row_name: TFLOW207
+    - row_type: Eq
+      row_name: YIELD707
+  columns:
+    - name: CLASS301
+      first_pair:
+        row_name: BOUND301
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 16
+    - name: CLASS301
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN402
+        value: 0.93742
+    - name: CLASS301
+      first_pair:
+        row_name: TFLOW102
+        value: 14.4
+      second_pair:
+        row_name: TFLOW202
+        value: 17.6
+    - name: CLASS401
+      first_pair:
+        row_name: BOUND401
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 107
+    - name: CLASS401
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN502
+        value: 0.93742
+    - name: CLASS401
+      first_pair:
+        row_name: TFLOW102
+        value: 96.3
+      second_pair:
+        row_name: TFLOW202
+        value: 117.7
+    - name: CLASS501
+      first_pair:
+        row_name: BOUND501
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 217
+    - name: CLASS501
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN602
+        value: 0.93742
+    - name: CLASS501
+      first_pair:
+        row_name: TFLOW102
+        value: 195.3
+      second_pair:
+        row_name: TFLOW202
+        value: 238.7
+    - name: CLASS601
+      first_pair:
+        row_name: BOUND601
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 275
+    - name: CLASS601
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN702
+        value: 0.93742
+    - name: CLASS601
+      first_pair:
+        row_name: TFLOW102
+        value: 247.5
+      second_pair:
+        row_name: TFLOW202
+        value: 302.5
+    - name: CLASS701
+      first_pair:
+        row_name: BOUND701
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 298
+    - name: CLASS701
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN802
+        value: 0.93742
+    - name: CLASS701
+      first_pair:
+        row_name: TFLOW102
+        value: 268.2
+      second_pair:
+        row_name: TFLOW202
+        value: 327.8
+    - name: CLASS801
+      first_pair:
+        row_name: BOUND801
+        value: 1
+      second_pair:
+        row_name: YIELD101
+        value: 306
+    - name: CLASS801
+      first_pair:
+        row_name: REGEN102
+        value: -0.93742
+      second_pair:
+        row_name: REGEN802
+        value: 0.93742
+    - name: CLASS801
+      first_pair:
+        row_name: TFLOW102
+        value: 275.4
+      second_pair:
+        row_name: TFLOW202
+        value: 336.6
+    - name: STATE101
+      first_pair:
+        row_name: REGEN101
+        value: 1
+      second_pair:
+        row_name: REGEN102
+        value: -0.06258
+    - name: STATE101
+      first_pair:
+        row_name: REGEN202
+        value: -0.93742
+      second_pair: ~
+    - name: STATE201
+      first_pair:
+        row_name: REGEN201
+        value: 1
+      second_pair:
+        row_name: REGEN102
+        value: -0.06258
+    - name: STATE201
+      first_pair:
+        row_name: REGEN302
+        value: -0.93742
+      second_pair: ~
+    - name: STATE301
+      first_pair:
+        row_name: BOUND301
+        value: -1
+      second_pair:
+        row_name: REGEN301
+        value: 1
+    - name: STATE301
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN402
+        value: -0.93742
+    - name: STATE401
+      first_pair:
+        row_name: BOUND401
+        value: -1
+      second_pair:
+        row_name: REGEN401
+        value: 1
+    - name: STATE401
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN502
+        value: -0.93742
+    - name: STATE501
+      first_pair:
+        row_name: BOUND501
+        value: -1
+      second_pair:
+        row_name: REGEN501
+        value: 1
+    - name: STATE501
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN602
+        value: -0.93742
+    - name: STATE601
+      first_pair:
+        row_name: BOUND601
+        value: -1
+      second_pair:
+        row_name: REGEN601
+        value: 1
+    - name: STATE601
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN702
+        value: -0.93742
+    - name: STATE701
+      first_pair:
+        row_name: BOUND701
+        value: -1
+      second_pair:
+        row_name: REGEN701
+        value: 1
+    - name: STATE701
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN802
+        value: -0.93742
+    - name: STATE801
+      first_pair:
+        row_name: BOUND801
+        value: -1
+      second_pair:
+        row_name: REGEN801
+        value: 1
+    - name: STATE801
+      first_pair:
+        row_name: REGEN102
+        value: -0.06258
+      second_pair:
+        row_name: REGEN802
+        value: -0.93742
+    - name: BALAN101
+      first_pair:
+        row_name: HARV
+        value: -1
+      second_pair:
+        row_name: YIELD101
+        value: -1
+    - name: CLASS302
+      first_pair:
+        row_name: BOUND302
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 16
+    - name: CLASS302
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN403
+        value: 0.93742
+    - name: CLASS302
+      first_pair:
+        row_name: TFLOW103
+        value: 14.4
+      second_pair:
+        row_name: TFLOW203
+        value: 17.6
+    - name: CLASS402
+      first_pair:
+        row_name: BOUND402
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 107
+    - name: CLASS402
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN503
+        value: 0.93742
+    - name: CLASS402
+      first_pair:
+        row_name: TFLOW103
+        value: 96.3
+      second_pair:
+        row_name: TFLOW203
+        value: 117.7
+    - name: CLASS502
+      first_pair:
+        row_name: BOUND502
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 217
+    - name: CLASS502
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN603
+        value: 0.93742
+    - name: CLASS502
+      first_pair:
+        row_name: TFLOW103
+        value: 195.3
+      second_pair:
+        row_name: TFLOW203
+        value: 238.7
+    - name: CLASS602
+      first_pair:
+        row_name: BOUND602
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 275
+    - name: CLASS602
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN703
+        value: 0.93742
+    - name: CLASS602
+      first_pair:
+        row_name: TFLOW103
+        value: 247.5
+      second_pair:
+        row_name: TFLOW203
+        value: 302.5
+    - name: CLASS702
+      first_pair:
+        row_name: BOUND702
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 298
+    - name: CLASS702
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN803
+        value: 0.93742
+    - name: CLASS702
+      first_pair:
+        row_name: TFLOW103
+        value: 268.2
+      second_pair:
+        row_name: TFLOW203
+        value: 327.8
+    - name: CLASS802
+      first_pair:
+        row_name: BOUND802
+        value: 1
+      second_pair:
+        row_name: YIELD202
+        value: 306
+    - name: CLASS802
+      first_pair:
+        row_name: REGEN103
+        value: -0.93742
+      second_pair:
+        row_name: REGEN803
+        value: 0.93742
+    - name: CLASS802
+      first_pair:
+        row_name: TFLOW103
+        value: 275.4
+      second_pair:
+        row_name: TFLOW203
+        value: 336.6
+    - name: STATE102
+      first_pair:
+        row_name: REGEN102
+        value: 1
+      second_pair:
+        row_name: REGEN103
+        value: -0.06258
+    - name: STATE102
+      first_pair:
+        row_name: REGEN203
+        value: -0.93742
+      second_pair: ~
+    - name: STATE202
+      first_pair:
+        row_name: REGEN202
+        value: 1
+      second_pair:
+        row_name: REGEN103
+        value: -0.06258
+    - name: STATE202
+      first_pair:
+        row_name: REGEN303
+        value: -0.93742
+      second_pair: ~
+    - name: STATE302
+      first_pair:
+        row_name: BOUND302
+        value: -1
+      second_pair:
+        row_name: REGEN302
+        value: 1
+    - name: STATE302
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN403
+        value: -0.93742
+    - name: STATE402
+      first_pair:
+        row_name: BOUND402
+        value: -1
+      second_pair:
+        row_name: REGEN402
+        value: 1
+    - name: STATE402
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN503
+        value: -0.93742
+    - name: STATE502
+      first_pair:
+        row_name: BOUND502
+        value: -1
+      second_pair:
+        row_name: REGEN502
+        value: 1
+    - name: STATE502
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN603
+        value: -0.93742
+    - name: STATE602
+      first_pair:
+        row_name: BOUND602
+        value: -1
+      second_pair:
+        row_name: REGEN602
+        value: 1
+    - name: STATE602
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN703
+        value: -0.93742
+    - name: STATE702
+      first_pair:
+        row_name: BOUND702
+        value: -1
+      second_pair:
+        row_name: REGEN702
+        value: 1
+    - name: STATE702
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN803
+        value: -0.93742
+    - name: STATE802
+      first_pair:
+        row_name: BOUND802
+        value: -1
+      second_pair:
+        row_name: REGEN802
+        value: 1
+    - name: STATE802
+      first_pair:
+        row_name: REGEN103
+        value: -0.06258
+      second_pair:
+        row_name: REGEN803
+        value: -0.93742
+    - name: BALAN202
+      first_pair:
+        row_name: HARV
+        value: -0.905063
+      second_pair:
+        row_name: TFLOW102
+        value: -1
+    - name: BALAN202
+      first_pair:
+        row_name: TFLOW202
+        value: -1
+      second_pair:
+        row_name: YIELD202
+        value: -1
+    - name: PNLTY202
+      first_pair:
+        row_name: HARV
+        value: 50
+      second_pair:
+        row_name: TFLOW102
+        value: -1
+    - name: CLASS303
+      first_pair:
+        row_name: BOUND303
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 16
+    - name: CLASS303
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN404
+        value: 0.93742
+    - name: CLASS303
+      first_pair:
+        row_name: TFLOW104
+        value: 14.4
+      second_pair:
+        row_name: TFLOW204
+        value: 17.6
+    - name: CLASS403
+      first_pair:
+        row_name: BOUND403
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 107
+    - name: CLASS403
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN504
+        value: 0.93742
+    - name: CLASS403
+      first_pair:
+        row_name: TFLOW104
+        value: 96.3
+      second_pair:
+        row_name: TFLOW204
+        value: 117.7
+    - name: CLASS503
+      first_pair:
+        row_name: BOUND503
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 217
+    - name: CLASS503
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN604
+        value: 0.93742
+    - name: CLASS503
+      first_pair:
+        row_name: TFLOW104
+        value: 195.3
+      second_pair:
+        row_name: TFLOW204
+        value: 238.7
+    - name: CLASS603
+      first_pair:
+        row_name: BOUND603
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 275
+    - name: CLASS603
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN704
+        value: 0.93742
+    - name: CLASS603
+      first_pair:
+        row_name: TFLOW104
+        value: 247.5
+      second_pair:
+        row_name: TFLOW204
+        value: 302.5
+    - name: CLASS703
+      first_pair:
+        row_name: BOUND703
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 298
+    - name: CLASS703
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN804
+        value: 0.93742
+    - name: CLASS703
+      first_pair:
+        row_name: TFLOW104
+        value: 268.2
+      second_pair:
+        row_name: TFLOW204
+        value: 327.8
+    - name: CLASS803
+      first_pair:
+        row_name: BOUND803
+        value: 1
+      second_pair:
+        row_name: YIELD303
+        value: 306
+    - name: CLASS803
+      first_pair:
+        row_name: REGEN104
+        value: -0.93742
+      second_pair:
+        row_name: REGEN804
+        value: 0.93742
+    - name: CLASS803
+      first_pair:
+        row_name: TFLOW104
+        value: 275.4
+      second_pair:
+        row_name: TFLOW204
+        value: 336.6
+    - name: STATE103
+      first_pair:
+        row_name: REGEN103
+        value: 1
+      second_pair:
+        row_name: REGEN104
+        value: -0.06258
+    - name: STATE103
+      first_pair:
+        row_name: REGEN204
+        value: -0.93742
+      second_pair: ~
+    - name: STATE203
+      first_pair:
+        row_name: REGEN203
+        value: 1
+      second_pair:
+        row_name: REGEN104
+        value: -0.06258
+    - name: STATE203
+      first_pair:
+        row_name: REGEN304
+        value: -0.93742
+      second_pair: ~
+    - name: STATE303
+      first_pair:
+        row_name: BOUND303
+        value: -1
+      second_pair:
+        row_name: REGEN303
+        value: 1
+    - name: STATE303
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN404
+        value: -0.93742
+    - name: STATE403
+      first_pair:
+        row_name: BOUND403
+        value: -1
+      second_pair:
+        row_name: REGEN403
+        value: 1
+    - name: STATE403
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN504
+        value: -0.93742
+    - name: STATE503
+      first_pair:
+        row_name: BOUND503
+        value: -1
+      second_pair:
+        row_name: REGEN503
+        value: 1
+    - name: STATE503
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN604
+        value: -0.93742
+    - name: STATE603
+      first_pair:
+        row_name: BOUND603
+        value: -1
+      second_pair:
+        row_name: REGEN603
+        value: 1
+    - name: STATE603
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN704
+        value: -0.93742
+    - name: STATE703
+      first_pair:
+        row_name: BOUND703
+        value: -1
+      second_pair:
+        row_name: REGEN703
+        value: 1
+    - name: STATE703
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN804
+        value: -0.93742
+    - name: STATE803
+      first_pair:
+        row_name: BOUND803
+        value: -1
+      second_pair:
+        row_name: REGEN803
+        value: 1
+    - name: STATE803
+      first_pair:
+        row_name: REGEN104
+        value: -0.06258
+      second_pair:
+        row_name: REGEN804
+        value: -0.93742
+    - name: BALAN303
+      first_pair:
+        row_name: HARV
+        value: -0.819139
+      second_pair:
+        row_name: TFLOW103
+        value: -1
+    - name: BALAN303
+      first_pair:
+        row_name: TFLOW203
+        value: -1
+      second_pair:
+        row_name: YIELD303
+        value: -1
+    - name: PNLTY303
+      first_pair:
+        row_name: HARV
+        value: 45.25
+      second_pair:
+        row_name: TFLOW103
+        value: -1
+    - name: CLASS304
+      first_pair:
+        row_name: BOUND304
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 16
+    - name: CLASS304
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN405
+        value: 0.93742
+    - name: CLASS304
+      first_pair:
+        row_name: TFLOW105
+        value: 14.4
+      second_pair:
+        row_name: TFLOW205
+        value: 17.6
+    - name: CLASS404
+      first_pair:
+        row_name: BOUND404
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 107
+    - name: CLASS404
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN505
+        value: 0.93742
+    - name: CLASS404
+      first_pair:
+        row_name: TFLOW105
+        value: 96.3
+      second_pair:
+        row_name: TFLOW205
+        value: 117.7
+    - name: CLASS504
+      first_pair:
+        row_name: BOUND504
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 217
+    - name: CLASS504
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN605
+        value: 0.93742
+    - name: CLASS504
+      first_pair:
+        row_name: TFLOW105
+        value: 195.3
+      second_pair:
+        row_name: TFLOW205
+        value: 238.7
+    - name: CLASS604
+      first_pair:
+        row_name: BOUND604
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 275
+    - name: CLASS604
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN705
+        value: 0.93742
+    - name: CLASS604
+      first_pair:
+        row_name: TFLOW105
+        value: 247.5
+      second_pair:
+        row_name: TFLOW205
+        value: 302.5
+    - name: CLASS704
+      first_pair:
+        row_name: BOUND704
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 298
+    - name: CLASS704
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN805
+        value: 0.93742
+    - name: CLASS704
+      first_pair:
+        row_name: TFLOW105
+        value: 268.2
+      second_pair:
+        row_name: TFLOW205
+        value: 327.8
+    - name: CLASS804
+      first_pair:
+        row_name: BOUND804
+        value: 1
+      second_pair:
+        row_name: YIELD404
+        value: 306
+    - name: CLASS804
+      first_pair:
+        row_name: REGEN105
+        value: -0.93742
+      second_pair:
+        row_name: REGEN805
+        value: 0.93742
+    - name: CLASS804
+      first_pair:
+        row_name: TFLOW105
+        value: 275.4
+      second_pair:
+        row_name: TFLOW205
+        value: 336.6
+    - name: STATE104
+      first_pair:
+        row_name: REGEN104
+        value: 1
+      second_pair:
+        row_name: REGEN105
+        value: -0.06258
+    - name: STATE104
+      first_pair:
+        row_name: REGEN205
+        value: -0.93742
+      second_pair: ~
+    - name: STATE204
+      first_pair:
+        row_name: REGEN204
+        value: 1
+      second_pair:
+        row_name: REGEN105
+        value: -0.06258
+    - name: STATE204
+      first_pair:
+        row_name: REGEN305
+        value: -0.93742
+      second_pair: ~
+    - name: STATE304
+      first_pair:
+        row_name: BOUND304
+        value: -1
+      second_pair:
+        row_name: REGEN304
+        value: 1
+    - name: STATE304
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN405
+        value: -0.93742
+    - name: STATE404
+      first_pair:
+        row_name: BOUND404
+        value: -1
+      second_pair:
+        row_name: REGEN404
+        value: 1
+    - name: STATE404
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN505
+        value: -0.93742
+    - name: STATE504
+      first_pair:
+        row_name: BOUND504
+        value: -1
+      second_pair:
+        row_name: REGEN504
+        value: 1
+    - name: STATE504
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN605
+        value: -0.93742
+    - name: STATE604
+      first_pair:
+        row_name: BOUND604
+        value: -1
+      second_pair:
+        row_name: REGEN604
+        value: 1
+    - name: STATE604
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN705
+        value: -0.93742
+    - name: STATE704
+      first_pair:
+        row_name: BOUND704
+        value: -1
+      second_pair:
+        row_name: REGEN704
+        value: 1
+    - name: STATE704
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN805
+        value: -0.93742
+    - name: STATE804
+      first_pair:
+        row_name: BOUND804
+        value: -1
+      second_pair:
+        row_name: REGEN804
+        value: 1
+    - name: STATE804
+      first_pair:
+        row_name: REGEN105
+        value: -0.06258
+      second_pair:
+        row_name: REGEN805
+        value: -0.93742
+    - name: BALAN404
+      first_pair:
+        row_name: HARV
+        value: -0.741372
+      second_pair:
+        row_name: TFLOW104
+        value: -1
+    - name: BALAN404
+      first_pair:
+        row_name: TFLOW204
+        value: -1
+      second_pair:
+        row_name: YIELD404
+        value: -1
+    - name: PNLTY404
+      first_pair:
+        row_name: HARV
+        value: 40.96
+      second_pair:
+        row_name: TFLOW104
+        value: -1
+    - name: CLASS305
+      first_pair:
+        row_name: BOUND305
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 16
+    - name: CLASS305
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN406
+        value: 0.93742
+    - name: CLASS305
+      first_pair:
+        row_name: TFLOW106
+        value: 14.4
+      second_pair:
+        row_name: TFLOW206
+        value: 17.6
+    - name: CLASS405
+      first_pair:
+        row_name: BOUND405
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 107
+    - name: CLASS405
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN506
+        value: 0.93742
+    - name: CLASS405
+      first_pair:
+        row_name: TFLOW106
+        value: 96.3
+      second_pair:
+        row_name: TFLOW206
+        value: 117.7
+    - name: CLASS505
+      first_pair:
+        row_name: BOUND505
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 217
+    - name: CLASS505
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN606
+        value: 0.93742
+    - name: CLASS505
+      first_pair:
+        row_name: TFLOW106
+        value: 195.3
+      second_pair:
+        row_name: TFLOW206
+        value: 238.7
+    - name: CLASS605
+      first_pair:
+        row_name: BOUND605
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 275
+    - name: CLASS605
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN706
+        value: 0.93742
+    - name: CLASS605
+      first_pair:
+        row_name: TFLOW106
+        value: 247.5
+      second_pair:
+        row_name: TFLOW206
+        value: 302.5
+    - name: CLASS705
+      first_pair:
+        row_name: BOUND705
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 298
+    - name: CLASS705
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN806
+        value: 0.93742
+    - name: CLASS705
+      first_pair:
+        row_name: TFLOW106
+        value: 268.2
+      second_pair:
+        row_name: TFLOW206
+        value: 327.8
+    - name: CLASS805
+      first_pair:
+        row_name: BOUND805
+        value: 1
+      second_pair:
+        row_name: YIELD505
+        value: 306
+    - name: CLASS805
+      first_pair:
+        row_name: REGEN106
+        value: -0.93742
+      second_pair:
+        row_name: REGEN806
+        value: 0.93742
+    - name: CLASS805
+      first_pair:
+        row_name: TFLOW106
+        value: 275.4
+      second_pair:
+        row_name: TFLOW206
+        value: 336.6
+    - name: STATE105
+      first_pair:
+        row_name: REGEN105
+        value: 1
+      second_pair:
+        row_name: REGEN106
+        value: -0.06258
+    - name: STATE105
+      first_pair:
+        row_name: REGEN206
+        value: -0.93742
+      second_pair: ~
+    - name: STATE205
+      first_pair:
+        row_name: REGEN205
+        value: 1
+      second_pair:
+        row_name: REGEN106
+        value: -0.06258
+    - name: STATE205
+      first_pair:
+        row_name: REGEN306
+        value: -0.93742
+      second_pair: ~
+    - name: STATE305
+      first_pair:
+        row_name: BOUND305
+        value: -1
+      second_pair:
+        row_name: REGEN305
+        value: 1
+    - name: STATE305
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN406
+        value: -0.93742
+    - name: STATE405
+      first_pair:
+        row_name: BOUND405
+        value: -1
+      second_pair:
+        row_name: REGEN405
+        value: 1
+    - name: STATE405
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN506
+        value: -0.93742
+    - name: STATE505
+      first_pair:
+        row_name: BOUND505
+        value: -1
+      second_pair:
+        row_name: REGEN505
+        value: 1
+    - name: STATE505
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN606
+        value: -0.93742
+    - name: STATE605
+      first_pair:
+        row_name: BOUND605
+        value: -1
+      second_pair:
+        row_name: REGEN605
+        value: 1
+    - name: STATE605
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN706
+        value: -0.93742
+    - name: STATE705
+      first_pair:
+        row_name: BOUND705
+        value: -1
+      second_pair:
+        row_name: REGEN705
+        value: 1
+    - name: STATE705
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN806
+        value: -0.93742
+    - name: STATE805
+      first_pair:
+        row_name: BOUND805
+        value: -1
+      second_pair:
+        row_name: REGEN805
+        value: 1
+    - name: STATE805
+      first_pair:
+        row_name: REGEN106
+        value: -0.06258
+      second_pair:
+        row_name: REGEN806
+        value: -0.93742
+    - name: BALAN505
+      first_pair:
+        row_name: HARV
+        value: -0.670989
+      second_pair:
+        row_name: TFLOW105
+        value: -1
+    - name: BALAN505
+      first_pair:
+        row_name: TFLOW205
+        value: -1
+      second_pair:
+        row_name: YIELD505
+        value: -1
+    - name: PNLTY505
+      first_pair:
+        row_name: HARV
+        value: 37.07
+      second_pair:
+        row_name: TFLOW105
+        value: -1
+    - name: CLASS306
+      first_pair:
+        row_name: BOUND306
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 16
+    - name: CLASS306
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN407
+        value: 0.93742
+    - name: CLASS306
+      first_pair:
+        row_name: TFLOW107
+        value: 14.4
+      second_pair:
+        row_name: TFLOW207
+        value: 17.6
+    - name: CLASS406
+      first_pair:
+        row_name: BOUND406
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 107
+    - name: CLASS406
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN507
+        value: 0.93742
+    - name: CLASS406
+      first_pair:
+        row_name: TFLOW107
+        value: 96.3
+      second_pair:
+        row_name: TFLOW207
+        value: 117.7
+    - name: CLASS506
+      first_pair:
+        row_name: BOUND506
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 217
+    - name: CLASS506
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN607
+        value: 0.93742
+    - name: CLASS506
+      first_pair:
+        row_name: TFLOW107
+        value: 195.3
+      second_pair:
+        row_name: TFLOW207
+        value: 238.7
+    - name: CLASS606
+      first_pair:
+        row_name: BOUND606
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 275
+    - name: CLASS606
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN707
+        value: 0.93742
+    - name: CLASS606
+      first_pair:
+        row_name: TFLOW107
+        value: 247.5
+      second_pair:
+        row_name: TFLOW207
+        value: 302.5
+    - name: CLASS706
+      first_pair:
+        row_name: BOUND706
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 298
+    - name: CLASS706
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN807
+        value: 0.93742
+    - name: CLASS706
+      first_pair:
+        row_name: TFLOW107
+        value: 268.2
+      second_pair:
+        row_name: TFLOW207
+        value: 327.8
+    - name: CLASS806
+      first_pair:
+        row_name: BOUND806
+        value: 1
+      second_pair:
+        row_name: YIELD606
+        value: 306
+    - name: CLASS806
+      first_pair:
+        row_name: REGEN107
+        value: -0.93742
+      second_pair:
+        row_name: REGEN807
+        value: 0.93742
+    - name: CLASS806
+      first_pair:
+        row_name: TFLOW107
+        value: 275.4
+      second_pair:
+        row_name: TFLOW207
+        value: 336.6
+    - name: STATE106
+      first_pair:
+        row_name: REGEN106
+        value: 1
+      second_pair:
+        row_name: REGEN107
+        value: -0.06258
+    - name: STATE106
+      first_pair:
+        row_name: REGEN207
+        value: -0.93742
+      second_pair: ~
+    - name: STATE206
+      first_pair:
+        row_name: REGEN206
+        value: 1
+      second_pair:
+        row_name: REGEN107
+        value: -0.06258
+    - name: STATE206
+      first_pair:
+        row_name: REGEN307
+        value: -0.93742
+      second_pair: ~
+    - name: STATE306
+      first_pair:
+        row_name: BOUND306
+        value: -1
+      second_pair:
+        row_name: REGEN306
+        value: 1
+    - name: STATE306
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN407
+        value: -0.93742
+    - name: STATE406
+      first_pair:
+        row_name: BOUND406
+        value: -1
+      second_pair:
+        row_name: REGEN406
+        value: 1
+    - name: STATE406
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN507
+        value: -0.93742
+    - name: STATE506
+      first_pair:
+        row_name: BOUND506
+        value: -1
+      second_pair:
+        row_name: REGEN506
+        value: 1
+    - name: STATE506
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN607
+        value: -0.93742
+    - name: STATE606
+      first_pair:
+        row_name: BOUND606
+        value: -1
+      second_pair:
+        row_name: REGEN606
+        value: 1
+    - name: STATE606
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN707
+        value: -0.93742
+    - name: STATE706
+      first_pair:
+        row_name: BOUND706
+        value: -1
+      second_pair:
+        row_name: REGEN706
+        value: 1
+    - name: STATE706
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN807
+        value: -0.93742
+    - name: STATE806
+      first_pair:
+        row_name: BOUND806
+        value: -1
+      second_pair:
+        row_name: REGEN806
+        value: 1
+    - name: STATE806
+      first_pair:
+        row_name: REGEN107
+        value: -0.06258
+      second_pair:
+        row_name: REGEN807
+        value: -0.93742
+    - name: BALAN606
+      first_pair:
+        row_name: HARV
+        value: -0.607287
+      second_pair:
+        row_name: TFLOW106
+        value: -1
+    - name: BALAN606
+      first_pair:
+        row_name: TFLOW206
+        value: -1
+      second_pair:
+        row_name: YIELD606
+        value: -1
+    - name: PNLTY606
+      first_pair:
+        row_name: HARV
+        value: 33.55
+      second_pair:
+        row_name: TFLOW106
+        value: -1
+    - name: CLASS307
+      first_pair:
+        row_name: HARV
+        value: 198.203
+      second_pair:
+        row_name: BOUND307
+        value: 1
+    - name: CLASS307
+      first_pair:
+        row_name: YIELD707
+        value: 16
+      second_pair: ~
+    - name: CLASS407
+      first_pair:
+        row_name: HARV
+        value: 222.975
+      second_pair:
+        row_name: BOUND407
+        value: 1
+    - name: CLASS407
+      first_pair:
+        row_name: YIELD707
+        value: 107
+      second_pair: ~
+    - name: CLASS507
+      first_pair:
+        row_name: HARV
+        value: 252.173
+      second_pair:
+        row_name: BOUND507
+        value: 1
+    - name: CLASS507
+      first_pair:
+        row_name: YIELD707
+        value: 217
+      second_pair: ~
+    - name: CLASS607
+      first_pair:
+        row_name: HARV
+        value: 281.025
+      second_pair:
+        row_name: BOUND607
+        value: 1
+    - name: CLASS607
+      first_pair:
+        row_name: YIELD707
+        value: 275
+      second_pair: ~
+    - name: CLASS707
+      first_pair:
+        row_name: HARV
+        value: 292.467
+      second_pair:
+        row_name: BOUND707
+        value: 1
+    - name: CLASS707
+      first_pair:
+        row_name: YIELD707
+        value: 298
+      second_pair: ~
+    - name: CLASS807
+      first_pair:
+        row_name: HARV
+        value: 296.446
+      second_pair:
+        row_name: BOUND807
+        value: 1
+    - name: CLASS807
+      first_pair:
+        row_name: YIELD707
+        value: 306
+      second_pair: ~
+    - name: STATE107
+      first_pair:
+        row_name: HARV
+        value: -159.355
+      second_pair:
+        row_name: REGEN107
+        value: 1
+    - name: STATE207
+      first_pair:
+        row_name: HARV
+        value: -177.186
+      second_pair:
+        row_name: REGEN207
+        value: 1
+    - name: STATE307
+      first_pair:
+        row_name: HARV
+        value: -198.203
+      second_pair:
+        row_name: BOUND307
+        value: -1
+    - name: STATE307
+      first_pair:
+        row_name: REGEN307
+        value: 1
+      second_pair: ~
+    - name: STATE407
+      first_pair:
+        row_name: HARV
+        value: -222.975
+      second_pair:
+        row_name: BOUND407
+        value: -1
+    - name: STATE407
+      first_pair:
+        row_name: REGEN407
+        value: 1
+      second_pair: ~
+    - name: STATE507
+      first_pair:
+        row_name: HARV
+        value: -252.173
+      second_pair:
+        row_name: BOUND507
+        value: -1
+    - name: STATE507
+      first_pair:
+        row_name: REGEN507
+        value: 1
+      second_pair: ~
+    - name: STATE607
+      first_pair:
+        row_name: HARV
+        value: -281.025
+      second_pair:
+        row_name: BOUND607
+        value: -1
+    - name: STATE607
+      first_pair:
+        row_name: REGEN607
+        value: 1
+      second_pair: ~
+    - name: STATE707
+      first_pair:
+        row_name: HARV
+        value: -292.467
+      second_pair:
+        row_name: BOUND707
+        value: -1
+    - name: STATE707
+      first_pair:
+        row_name: REGEN707
+        value: 1
+      second_pair: ~
+    - name: STATE807
+      first_pair:
+        row_name: HARV
+        value: -296.446
+      second_pair:
+        row_name: BOUND807
+        value: -1
+    - name: STATE807
+      first_pair:
+        row_name: REGEN807
+        value: 1
+      second_pair: ~
+    - name: BALAN707
+      first_pair:
+        row_name: HARV
+        value: -0.549633
+      second_pair:
+        row_name: TFLOW107
+        value: -1
+    - name: BALAN707
+      first_pair:
+        row_name: TFLOW207
+        value: -1
+      second_pair:
+        row_name: YIELD707
+        value: -1
+    - name: PNLTY707
+      first_pair:
+        row_name: HARV
+        value: 30.36
+      second_pair:
+        row_name: TFLOW107
+        value: -1
+  rhs:
+    - name: RHS
+      first_pair:
+        row_name: REGEN101
+        value: 0.241
+      second_pair:
+        row_name: REGEN201
+        value: 0.125
+    - name: RHS
+      first_pair:
+        row_name: REGEN301
+        value: 1.404
+      second_pair:
+        row_name: REGEN401
+        value: 2.004
+    - name: RHS
+      first_pair:
+        row_name: REGEN501
+        value: 9.768
+      second_pair:
+        row_name: REGEN601
+        value: 16.385
+    - name: RHS
+      first_pair:
+        row_name: REGEN701
+        value: 2.815
+      second_pair:
+        row_name: REGEN801
+        value: 61.995
+  ranges: ~
+  bounds: ~
+

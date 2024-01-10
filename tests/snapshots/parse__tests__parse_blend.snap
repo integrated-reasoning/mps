@@ -1,0 +1,259 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/blend\"))?"
+---
+name: BLEND    BRUCE MURTAGHS BLENDING PROBLEM (MINIMIZE).
+rows:
+  - row_type: Eq
+    row_name: "1"
+  - row_type: Eq
+    row_name: "2"
+  - row_type: Eq
+    row_name: "3"
+  - row_type: Eq
+    row_name: "4"
+  - row_type: Eq
+    row_name: "5"
+  - row_type: Eq
+    row_name: "6"
+  - row_type: Eq
+    row_name: "7"
+  - row_type: Eq
+    row_name: "8"
+  - row_type: Eq
+    row_name: "9"
+  - row_type: Eq
+    row_name: "10"
+  - row_type: Eq
+    row_name: "11"
+  - row_type: Eq
+    row_name: "12"
+  - row_type: Eq
+    row_name: "13"
+  - row_type: Eq
+    row_name: "14"
+  - row_type: Eq
+    row_name: "15"
+  - row_type: Eq
+    row_name: "16"
+  - row_type: Eq
+    row_name: "17"
+  - row_type: Eq
+    row_name: "18"
+  - row_type: Eq
+    row_name: "19"
+  - row_type: Eq
+    row_name: "20"
+  - row_type: Eq
+    row_name: "21"
+  - row_type: Eq
+    row_name: "22"
+  - row_type: Eq
+    row_name: "23"
+  - row_type: Eq
+    row_name: "24"
+  - row_type: Eq
+    row_name: "25"
+  - row_type: Eq
+    row_name: "26"
+  - row_type: Eq
+    row_name: "27"
+  - row_type: Eq
+    row_name: "28"
+  - row_type: Eq
+    row_name: "29"
+  - row_type: Eq
+    row_name: "30"
+  - row_type: Eq
+    row_name: "31"
+  - row_type: Eq
+    row_name: "32"
+  - row_type: Eq
+    row_name: "33"
+  - row_type: Eq
+    row_name: "34"
+  - row_type: Eq
+    row_name: "35"
+  - row_type: Eq
+    row_name: "36"
+  - row_type: Eq
+    row_name: "37"
+  - row_type: Eq
+    row_name: "38"
+  - row_type: Eq
+    row_name: "39"
+  - row_type: Eq
+    row_name: "40"
+  - row_type: Eq
+    row_name: "41"
+  - row_type: Eq
+    row_name: "42"
+  - row_type: Eq
+    row_name: "43"
+  - row_type: Leq
+    row_name: "44"
+  - row_type: Leq
+    row_name: "45"
+  - row_type: Leq
+    row_name: "46"
+  - row_type: Leq
+    row_name: "47"
+  - row_type: Leq
+    row_name: "48"
+  - row_type: Leq
+    row_name: "49"
+  - row_type: Leq
+    row_name: "50"
+  - row_type: Leq
+    row_name: "51"
+  - row_type: Leq
+    row_name: "52"
+  - row_type: Leq
+    row_name: "53"
+  - row_type: Leq
+    row_name: "54"
+  - row_type: Leq
+    row_name: "55"
+  - row_type: Leq
+    row_name: "56"
+  - row_type: Leq
+    row_name: "57"
+  - row_type: Leq
+    row_name: "58"
+  - row_type: Leq
+    row_name: "59"
+  - row_type: Leq
+    row_name: "60"
+  - row_type: Leq
+    row_name: "61"
+  - row_type: Leq
+    row_name: "62"
+  - row_type: Leq
+    row_name: "63"
+  - row_type: Leq
+    row_name: "64"
+  - row_type: Leq
+    row_name: "65"
+  - row_type: Leq
+    row_name: "66"
+  - row_type: Leq
+    row_name: "67"
+  - row_type: Leq
+    row_name: "68"
+  - row_type: Leq
+    row_name: "69"
+  - row_type: Leq
+    row_name: "70"
+  - row_type: Leq
+    row_name: "71"
+  - row_type: Leq
+    row_name: "72"
+  - row_type: Leq
+    row_name: "73"
+  - row_type: Leq
+    row_name: "74"
+  - row_type: Nr
+    row_name: C
+columns:
+  - name: "1"
+    first_pair:
+      row_name: "2"
+      value: -0.537
+    second_pair:
+      row_name: "3"
+      value: -0.131
+  - name: "1"
+    first_pair:
+      row_name: "4"
+      value: -0.1155
+    second_pair:
+      row_name: "5"
+      value: -0.0365
+  - name: "1"
+    first_pair:
+      row_name: "6"
+      value: -0.143
+    second_pair:
+      row_name: "7"
+      value: -0.037
+  - name: "1"
+    first_pair:
+      row_name: "40"
+      value: 0.003
+    second_pair:
+      row_name: "41"
+      value: 0.0587
+  - name: "1"
+    first_pair:
+      row_name: "42"
+      value: 0.15
+    second_pair:
+      row_name: "43"
+      value: 0.302
+  - name: "1"
+    first_pair:
+      row_name: "67"
+      value: 1
+    second_pair:
+      row_name: C
+      value: 3.2
+  - name: "2"
+    first_pair:
+      row_name: "1"
+      value: -0.2931
+    second_pair:
+      row_name: "3"
+      value: -0.117
+  - name: "2"
+    first_pair:
+      row_name: "4"
+      value: -0.0649
+    second_pair:
+      row_name: "5"
+      value: -0.1233
+  - name: "2"
+    first_pair:
+      row_name: "6"
+      value: -0.2217
+    second_pair:
+      row_name: "8"
+      value: -0.18
+  - name: "2"
+    first_pair:
+      row_name: "39"
+      value: 0.0042
+    second_pair:
+      row_name: "40"
+      value: 0.003
+  - name: "2"
+    first_pair:
+      row_name: "41"
+      value: 0.1053
+    second_pair:
+      row_name: "42"
+      value: 0.185
+  - name: "2"
+    first_pair:
+      row_name: "43"
+      value: 0.384
+    second_pair:
+      row_name: "50"
+      value: -0.00862
+  - name: "2"
+    first_pair:
+      row_name: "51"
+      value: -0.00862
+    second_pair:
+      row_name: "56"
+      value: -0.0101
+  - name: "2"
+    first_pair:
+      row_name: "57"
+      value: -0.0101
+    second_pair:
+      row_name: "68"
+      value: 1
+rhs: ~
+ranges: ~
+bounds: ~
+

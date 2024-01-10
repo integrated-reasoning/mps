@@ -1,0 +1,699 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scfxm1\"))?"
+---
+name: SCFXM1
+rows:
+  - row_type: Nr
+    row_name: ".COSTA"
+  - row_type: Eq
+    row_name: 1DT001
+  - row_type: Eq
+    row_name: 1DT002
+  - row_type: Eq
+    row_name: 1DT003
+  - row_type: Eq
+    row_name: 1DT004
+  - row_type: Eq
+    row_name: 1DT005
+  - row_type: Eq
+    row_name: 1DT006
+  - row_type: Eq
+    row_name: 1DT007
+  - row_type: Eq
+    row_name: 1DT008
+  - row_type: Leq
+    row_name: 1DT009
+  - row_type: Eq
+    row_name: 1DT010
+  - row_type: Eq
+    row_name: 1DT011
+  - row_type: Eq
+    row_name: 1DT012
+  - row_type: Eq
+    row_name: 1DT013
+  - row_type: Eq
+    row_name: 1DT014
+  - row_type: Eq
+    row_name: 1DT015
+  - row_type: Eq
+    row_name: 1DT016
+  - row_type: Leq
+    row_name: 1DT017
+  - row_type: Eq
+    row_name: 1DT018
+  - row_type: Eq
+    row_name: 1DT021
+  - row_type: Eq
+    row_name: 1DT022
+  - row_type: Eq
+    row_name: 1DT023
+  - row_type: Eq
+    row_name: 1DT024
+  - row_type: Leq
+    row_name: 1DT025
+  - row_type: Eq
+    row_name: 1DT026
+  - row_type: Leq
+    row_name: 1DT027
+  - row_type: Leq
+    row_name: 1DT028
+  - row_type: Leq
+    row_name: 1DT029
+  - row_type: Leq
+    row_name: 1DT030
+  - row_type: Eq
+    row_name: 1DT031
+  - row_type: Leq
+    row_name: 1DT032
+  - row_type: Leq
+    row_name: 1DT033
+  - row_type: Eq
+    row_name: 1DT034
+  - row_type: Eq
+    row_name: 1DT035
+  - row_type: Eq
+    row_name: 1DT036
+  - row_type: Eq
+    row_name: 1DT037
+  - row_type: Leq
+    row_name: 1DT038
+  - row_type: Leq
+    row_name: 1DT039
+  - row_type: Leq
+    row_name: 1DT040
+  - row_type: Leq
+    row_name: 1DT041
+  - row_type: Leq
+    row_name: 1DT042
+  - row_type: Eq
+    row_name: 1DT043
+  - row_type: Eq
+    row_name: 1DT044
+  - row_type: Leq
+    row_name: 1DT045
+  - row_type: Leq
+    row_name: 1DT047
+  - row_type: Leq
+    row_name: 1DT048
+  - row_type: Leq
+    row_name: 1DT049
+  - row_type: Eq
+    row_name: 1DT050
+  - row_type: Leq
+    row_name: 1DT051
+  - row_type: Eq
+    row_name: 1DT052
+  - row_type: Leq
+    row_name: 1DT053
+  - row_type: Leq
+    row_name: 1DT055
+  - row_type: Eq
+    row_name: 1DT056
+  - row_type: Leq
+    row_name: 1DT057
+  - row_type: Eq
+    row_name: 1DT059
+  - row_type: Leq
+    row_name: 1DT060
+  - row_type: Leq
+    row_name: 1DT062
+  - row_type: Leq
+    row_name: 1DT063
+  - row_type: Leq
+    row_name: 1DT064
+  - row_type: Leq
+    row_name: 1DT066
+  - row_type: Leq
+    row_name: 1DT067
+  - row_type: Eq
+    row_name: 1DT068
+  - row_type: Eq
+    row_name: 1DT069
+  - row_type: Leq
+    row_name: 1DT070
+  - row_type: Eq
+    row_name: 1DT071
+  - row_type: Eq
+    row_name: 1DT072
+  - row_type: Eq
+    row_name: 1DT073
+  - row_type: Leq
+    row_name: 1DT074
+  - row_type: Eq
+    row_name: 1DT075
+  - row_type: Leq
+    row_name: 1DT076
+  - row_type: Leq
+    row_name: 1DT077
+  - row_type: Eq
+    row_name: 1DT078
+  - row_type: Eq
+    row_name: 1DT079
+  - row_type: Eq
+    row_name: 1DT080
+  - row_type: Eq
+    row_name: 1DT081
+  - row_type: Eq
+    row_name: 1DT082
+  - row_type: Eq
+    row_name: 1DT083
+  - row_type: Eq
+    row_name: 1DT084
+  - row_type: Eq
+    row_name: 1DT087
+  - row_type: Eq
+    row_name: 1DT088
+  - row_type: Eq
+    row_name: 1DT089
+  - row_type: Eq
+    row_name: 1DT090
+  - row_type: Eq
+    row_name: 1DT091
+  - row_type: Eq
+    row_name: 1DT092
+  - row_type: Eq
+    row_name: 1DT094
+  - row_type: Leq
+    row_name: 1DT095
+  - row_type: Leq
+    row_name: 1DT096
+  - row_type: Leq
+    row_name: 1DT097
+  - row_type: Leq
+    row_name: 1DT098
+  - row_type: Leq
+    row_name: 1DT099
+  - row_type: Eq
+    row_name: 1DT100
+  - row_type: Eq
+    row_name: 1DT101
+  - row_type: Eq
+    row_name: 1DT102
+  - row_type: Eq
+    row_name: 1DT019
+  - row_type: Eq
+    row_name: 1DT020
+  - row_type: Eq
+    row_name: 1DT046
+  - row_type: Leq
+    row_name: 1DT093
+  - row_type: Eq
+    row_name: SCROW1
+  - row_type: Eq
+    row_name: SCROW2
+  - row_type: Eq
+    row_name: SCROW3
+  - row_type: Eq
+    row_name: SCROW4
+  - row_type: Eq
+    row_name: SCROW5
+  - row_type: Eq
+    row_name: 1MS001
+  - row_type: Eq
+    row_name: 1MS002
+  - row_type: Eq
+    row_name: 1MS003
+  - row_type: Eq
+    row_name: 1MS004
+  - row_type: Eq
+    row_name: 1MS005
+  - row_type: Eq
+    row_name: 1MS006
+  - row_type: Eq
+    row_name: 1MS007
+  - row_type: Eq
+    row_name: 1MS008
+  - row_type: Eq
+    row_name: 1MS009
+  - row_type: Eq
+    row_name: 1MS010
+  - row_type: Eq
+    row_name: 1MS011
+  - row_type: Eq
+    row_name: 1MS012
+  - row_type: Eq
+    row_name: 1MS013
+  - row_type: Eq
+    row_name: 1MS014
+  - row_type: Eq
+    row_name: 1MS015
+  - row_type: Eq
+    row_name: 1MS016
+  - row_type: Eq
+    row_name: 1MS017
+  - row_type: Eq
+    row_name: 1MS018
+  - row_type: Eq
+    row_name: 1MS019
+  - row_type: Eq
+    row_name: 1MS020
+  - row_type: Eq
+    row_name: 1MS021
+  - row_type: Leq
+    row_name: 1MS022
+  - row_type: Eq
+    row_name: 1MS023
+  - row_type: Eq
+    row_name: 1MS024
+  - row_type: Eq
+    row_name: 1MS025
+  - row_type: Eq
+    row_name: 1MS026
+  - row_type: Eq
+    row_name: 1MS027
+  - row_type: Eq
+    row_name: 1MS028
+  - row_type: Eq
+    row_name: 1MS029
+  - row_type: Eq
+    row_name: 1MS030
+  - row_type: Eq
+    row_name: 1MS031
+  - row_type: Eq
+    row_name: 1MS032
+  - row_type: Eq
+    row_name: 1MS033
+  - row_type: Eq
+    row_name: 1MS034
+  - row_type: Eq
+    row_name: 1MS035
+  - row_type: Eq
+    row_name: 1MS036
+  - row_type: Leq
+    row_name: 1MS037
+  - row_type: Eq
+    row_name: 1MS038
+  - row_type: Eq
+    row_name: 1MS039
+  - row_type: Eq
+    row_name: 1MS040
+  - row_type: Eq
+    row_name: 1MS041
+  - row_type: Leq
+    row_name: 1MS043
+  - row_type: Leq
+    row_name: 1MS044
+  - row_type: Leq
+    row_name: 1MS045
+  - row_type: Leq
+    row_name: 1MS046
+  - row_type: Leq
+    row_name: 1MS047
+  - row_type: Leq
+    row_name: 1MS048
+  - row_type: Leq
+    row_name: 1MS049
+  - row_type: Leq
+    row_name: 1MS050
+  - row_type: Leq
+    row_name: 1MS051
+  - row_type: Leq
+    row_name: 1MS052
+  - row_type: Leq
+    row_name: 1MS053
+  - row_type: Leq
+    row_name: 1MS054
+  - row_type: Eq
+    row_name: 1MS055
+  - row_type: Eq
+    row_name: 1MS059
+  - row_type: Leq
+    row_name: 1MS060
+  - row_type: Leq
+    row_name: 1MS061
+  - row_type: Leq
+    row_name: 1MS062
+  - row_type: Leq
+    row_name: 1MS063
+  - row_type: Leq
+    row_name: 1MS064
+  - row_type: Eq
+    row_name: 1MS065
+  - row_type: Eq
+    row_name: 1MS067
+  - row_type: Eq
+    row_name: 1MS068
+  - row_type: Eq
+    row_name: 1MS069
+  - row_type: Eq
+    row_name: 1MS070
+  - row_type: Eq
+    row_name: 1MS071
+  - row_type: Eq
+    row_name: 1MS072
+  - row_type: Eq
+    row_name: 1MS073
+  - row_type: Eq
+    row_name: 1MS074
+  - row_type: Leq
+    row_name: 1MS075
+  - row_type: Leq
+    row_name: 1MS076
+  - row_type: Leq
+    row_name: 1MS078
+  - row_type: Leq
+    row_name: 1MS077
+  - row_type: Eq
+    row_name: 1MS042
+  - row_type: Eq
+    row_name: 1MS056
+  - row_type: Eq
+    row_name: 1MS057
+  - row_type: Eq
+    row_name: 1MS058
+  - row_type: Eq
+    row_name: SCROW6
+  - row_type: Eq
+    row_name: 1DT054
+  - row_type: Eq
+    row_name: 1DT058
+  - row_type: Eq
+    row_name: 1DT061
+  - row_type: Eq
+    row_name: 1DT065
+  - row_type: Eq
+    row_name: 1PD004
+  - row_type: Eq
+    row_name: 1PD009
+  - row_type: Eq
+    row_name: 1PD010
+  - row_type: Eq
+    row_name: 1PD011
+  - row_type: Eq
+    row_name: 1PD012
+  - row_type: Eq
+    row_name: 1PD013
+  - row_type: Eq
+    row_name: 1PD014
+  - row_type: Eq
+    row_name: 1PD015
+  - row_type: Eq
+    row_name: 1PD016
+  - row_type: Eq
+    row_name: 1PD017
+  - row_type: Eq
+    row_name: 1PD018
+  - row_type: Eq
+    row_name: 1PD019
+  - row_type: Eq
+    row_name: 1PD020
+  - row_type: Leq
+    row_name: 1PD021
+  - row_type: Leq
+    row_name: 1PD022
+  - row_type: Leq
+    row_name: 1PD023
+  - row_type: Leq
+    row_name: 1PD024
+  - row_type: Eq
+    row_name: 1PD025
+  - row_type: Eq
+    row_name: 1PD026
+  - row_type: Eq
+    row_name: 1PD027
+  - row_type: Eq
+    row_name: 1PD028
+  - row_type: Eq
+    row_name: 1PD029
+  - row_type: Eq
+    row_name: 1PD030
+  - row_type: Eq
+    row_name: 1PD031
+  - row_type: Eq
+    row_name: 1PD032
+  - row_type: Eq
+    row_name: 1PD033
+  - row_type: Eq
+    row_name: 1PD034
+  - row_type: Leq
+    row_name: 1PD035
+  - row_type: Leq
+    row_name: 1PD036
+  - row_type: Leq
+    row_name: 1PD037
+  - row_type: Leq
+    row_name: 1PD038
+  - row_type: Eq
+    row_name: 1PD039
+  - row_type: Eq
+    row_name: 1PD040
+  - row_type: Eq
+    row_name: 1PD049
+  - row_type: Eq
+    row_name: 1PD050
+  - row_type: Eq
+    row_name: 1PD051
+  - row_type: Eq
+    row_name: 1PD052
+  - row_type: Eq
+    row_name: 1PD053
+  - row_type: Eq
+    row_name: 1PD054
+  - row_type: Eq
+    row_name: 1PD055
+  - row_type: Eq
+    row_name: 1PD056
+  - row_type: Eq
+    row_name: 1PD057
+  - row_type: Eq
+    row_name: 1PD058
+  - row_type: Eq
+    row_name: 1PD059
+  - row_type: Eq
+    row_name: 1PD060
+  - row_type: Eq
+    row_name: 1PD061
+  - row_type: Eq
+    row_name: 1PD062
+  - row_type: Eq
+    row_name: 1PD063
+  - row_type: Eq
+    row_name: 1PD064
+  - row_type: Eq
+    row_name: 1PD065
+  - row_type: Eq
+    row_name: 1PD066
+  - row_type: Eq
+    row_name: 1PD067
+  - row_type: Eq
+    row_name: 1PD068
+  - row_type: Eq
+    row_name: 1PD069
+  - row_type: Eq
+    row_name: 1PD070
+  - row_type: Eq
+    row_name: 1PD071
+  - row_type: Eq
+    row_name: 1PD072
+  - row_type: Eq
+    row_name: 1RB045
+  - row_type: Eq
+    row_name: 1RB038
+  - row_type: Eq
+    row_name: 1RB039
+  - row_type: Eq
+    row_name: 1RB040
+  - row_type: Eq
+    row_name: 1RB041
+  - row_type: Leq
+    row_name: 1RB001
+  - row_type: Leq
+    row_name: 1RB002
+  - row_type: Leq
+    row_name: 1RB003
+  - row_type: Leq
+    row_name: 1RB004
+  - row_type: Leq
+    row_name: 1RB005
+  - row_type: Leq
+    row_name: 1RB006
+  - row_type: Leq
+    row_name: 1RB059
+  - row_type: Leq
+    row_name: 1RB060
+  - row_type: Leq
+    row_name: 1RB061
+  - row_type: Leq
+    row_name: 1RB063
+  - row_type: Leq
+    row_name: 1RB064
+  - row_type: Leq
+    row_name: 1RB065
+  - row_type: Leq
+    row_name: 1RB066
+  - row_type: Leq
+    row_name: 1RB067
+  - row_type: Leq
+    row_name: 1RB068
+  - row_type: Eq
+    row_name: 1RB070
+  - row_type: Leq
+    row_name: 1RB073
+  - row_type: Eq
+    row_name: 1RB076
+  - row_type: Leq
+    row_name: 1RB077
+  - row_type: Leq
+    row_name: 1RB079
+  - row_type: Eq
+    row_name: 1RB080
+  - row_type: Eq
+    row_name: 1RB083
+  - row_type: Leq
+    row_name: 1RB084
+  - row_type: Eq
+    row_name: 1RB086
+  - row_type: Eq
+    row_name: 1RB087
+  - row_type: Eq
+    row_name: 1RB088
+  - row_type: Leq
+    row_name: 1RB092
+  - row_type: Leq
+    row_name: 1RB007
+  - row_type: Leq
+    row_name: 1RB008
+  - row_type: Leq
+    row_name: 1RB009
+  - row_type: Leq
+    row_name: 1RB010
+  - row_type: Leq
+    row_name: 1RB011
+  - row_type: Leq
+    row_name: 1RB012
+  - row_type: Leq
+    row_name: 1RB013
+  - row_type: Leq
+    row_name: 1RB014
+  - row_type: Leq
+    row_name: 1RB015
+  - row_type: Leq
+    row_name: 1RB016
+  - row_type: Leq
+    row_name: 1RB017
+  - row_type: Leq
+    row_name: 1RB018
+  - row_type: Leq
+    row_name: 1RB019
+  - row_type: Leq
+    row_name: 1RB020
+  - row_type: Leq
+    row_name: 1RB021
+  - row_type: Leq
+    row_name: 1RB022
+  - row_type: Leq
+    row_name: 1RB023
+  - row_type: Leq
+    row_name: 1RB024
+  - row_type: Leq
+    row_name: 1RB025
+  - row_type: Leq
+    row_name: 1RB026
+  - row_type: Leq
+    row_name: 1RB027
+  - row_type: Leq
+    row_name: 1RB028
+  - row_type: Leq
+    row_name: 1RB029
+  - row_type: Leq
+    row_name: 1RB030
+  - row_type: Eq
+    row_name: 1RB031
+  - row_type: Eq
+    row_name: 1RB032
+  - row_type: Leq
+    row_name: 1RB033
+  - row_type: Leq
+    row_name: 1RB034
+  - row_type: Leq
+    row_name: 1RB035
+  - row_type: Leq
+    row_name: 1RB036
+  - row_type: Leq
+    row_name: 1RB037
+  - row_type: Eq
+    row_name: 1RB042
+  - row_type: Leq
+    row_name: 1RB043
+  - row_type: Leq
+    row_name: 1RB044
+  - row_type: Leq
+    row_name: 1RB046
+  - row_type: Leq
+    row_name: 1RB047
+  - row_type: Leq
+    row_name: 1RB048
+  - row_type: Leq
+    row_name: 1RB049
+  - row_type: Leq
+    row_name: 1RB050
+  - row_type: Leq
+    row_name: 1RB051
+  - row_type: Leq
+    row_name: 1RB052
+  - row_type: Leq
+    row_name: 1RB053
+  - row_type: Leq
+    row_name: 1RB054
+  - row_type: Leq
+    row_name: 1RB055
+  - row_type: Leq
+    row_name: 1RB056
+  - row_type: Leq
+    row_name: 1RB057
+  - row_type: Leq
+    row_name: 1RB058
+  - row_type: Leq
+    row_name: 1RB062
+  - row_type: Eq
+    row_name: 1RB069
+  - row_type: Leq
+    row_name: 1RB071
+  - row_type: Leq
+    row_name: 1RB072
+  - row_type: Leq
+    row_name: 1RB078
+  - row_type: Leq
+    row_name: 1RB081
+  - row_type: Leq
+    row_name: 1RB082
+  - row_type: Leq
+    row_name: 1RB085
+  - row_type: Leq
+    row_name: 1RB089
+  - row_type: Leq
+    row_name: 1RB090
+  - row_type: Leq
+    row_name: 1RB091
+columns:
+  - name: 1D1IK
+    first_pair:
+      row_name: 1DT012
+      value: 1
+    second_pair:
+      row_name: 1DT060
+      value: -0.13
+  - name: 1D1IK
+    first_pair:
+      row_name: SCROW4
+      value: 1
+    second_pair: ~
+  - name: 1D1IN
+    first_pair:
+      row_name: SCROW4
+      value: -1
+    second_pair:
+      row_name: 1DT098
+      value: 1
+  - name: 1D1MK
+    first_pair:
+      row_name: 1DT011
+      value: 1
+    second_pair:
+      row_name: 1DT060
+      value: -0.154
+rhs: ~
+ranges: ~
+bounds: ~
+

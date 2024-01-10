@@ -1,0 +1,407 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/afiro\"))?"
+---
+name: AFIRO
+rows:
+  - row_type: Eq
+    row_name: R09
+  - row_type: Eq
+    row_name: R10
+  - row_type: Leq
+    row_name: X05
+  - row_type: Leq
+    row_name: X21
+  - row_type: Eq
+    row_name: R12
+  - row_type: Eq
+    row_name: R13
+  - row_type: Leq
+    row_name: X17
+  - row_type: Leq
+    row_name: X18
+  - row_type: Leq
+    row_name: X19
+  - row_type: Leq
+    row_name: X20
+  - row_type: Eq
+    row_name: R19
+  - row_type: Eq
+    row_name: R20
+  - row_type: Leq
+    row_name: X27
+  - row_type: Leq
+    row_name: X44
+  - row_type: Eq
+    row_name: R22
+  - row_type: Eq
+    row_name: R23
+  - row_type: Leq
+    row_name: X40
+  - row_type: Leq
+    row_name: X41
+  - row_type: Leq
+    row_name: X42
+  - row_type: Leq
+    row_name: X43
+  - row_type: Leq
+    row_name: X45
+  - row_type: Leq
+    row_name: X46
+  - row_type: Leq
+    row_name: X47
+  - row_type: Leq
+    row_name: X48
+  - row_type: Leq
+    row_name: X49
+  - row_type: Leq
+    row_name: X50
+  - row_type: Leq
+    row_name: X51
+  - row_type: Nr
+    row_name: COST
+columns:
+  - name: X01
+    first_pair:
+      row_name: X48
+      value: 0.301
+    second_pair:
+      row_name: R09
+      value: -1
+  - name: X01
+    first_pair:
+      row_name: R10
+      value: -1.06
+    second_pair:
+      row_name: X05
+      value: 1
+  - name: X02
+    first_pair:
+      row_name: X21
+      value: -1
+    second_pair:
+      row_name: R09
+      value: 1
+  - name: X02
+    first_pair:
+      row_name: COST
+      value: -0.4
+    second_pair: ~
+  - name: X03
+    first_pair:
+      row_name: X46
+      value: -1
+    second_pair:
+      row_name: R09
+      value: 1
+  - name: X04
+    first_pair:
+      row_name: X50
+      value: 1
+    second_pair:
+      row_name: R10
+      value: 1
+  - name: X06
+    first_pair:
+      row_name: X49
+      value: 0.301
+    second_pair:
+      row_name: R12
+      value: -1
+  - name: X06
+    first_pair:
+      row_name: R13
+      value: -1.06
+    second_pair:
+      row_name: X17
+      value: 1
+  - name: X07
+    first_pair:
+      row_name: X49
+      value: 0.313
+    second_pair:
+      row_name: R12
+      value: -1
+  - name: X07
+    first_pair:
+      row_name: R13
+      value: -1.06
+    second_pair:
+      row_name: X18
+      value: 1
+  - name: X08
+    first_pair:
+      row_name: X49
+      value: 0.313
+    second_pair:
+      row_name: R12
+      value: -1
+  - name: X08
+    first_pair:
+      row_name: R13
+      value: -0.96
+    second_pair:
+      row_name: X19
+      value: 1
+  - name: X09
+    first_pair:
+      row_name: X49
+      value: 0.326
+    second_pair:
+      row_name: R12
+      value: -1
+  - name: X09
+    first_pair:
+      row_name: R13
+      value: -0.86
+    second_pair:
+      row_name: X20
+      value: 1
+  - name: X10
+    first_pair:
+      row_name: X45
+      value: 2.364
+    second_pair:
+      row_name: X17
+      value: -1
+  - name: X11
+    first_pair:
+      row_name: X45
+      value: 2.386
+    second_pair:
+      row_name: X18
+      value: -1
+  - name: X12
+    first_pair:
+      row_name: X45
+      value: 2.408
+    second_pair:
+      row_name: X19
+      value: -1
+  - name: X13
+    first_pair:
+      row_name: X45
+      value: 2.429
+    second_pair:
+      row_name: X20
+      value: -1
+  - name: X14
+    first_pair:
+      row_name: X21
+      value: 1.4
+    second_pair:
+      row_name: R12
+      value: 1
+  - name: X14
+    first_pair:
+      row_name: COST
+      value: -0.32
+    second_pair: ~
+  - name: X15
+    first_pair:
+      row_name: X47
+      value: -1
+    second_pair:
+      row_name: R12
+      value: 1
+  - name: X16
+    first_pair:
+      row_name: X51
+      value: 1
+    second_pair:
+      row_name: R13
+      value: 1
+  - name: X22
+    first_pair:
+      row_name: X46
+      value: 0.109
+    second_pair:
+      row_name: R19
+      value: -1
+  - name: X22
+    first_pair:
+      row_name: R20
+      value: -0.43
+    second_pair:
+      row_name: X27
+      value: 1
+  - name: X23
+    first_pair:
+      row_name: X44
+      value: -1
+    second_pair:
+      row_name: R19
+      value: 1
+  - name: X23
+    first_pair:
+      row_name: COST
+      value: -0.6
+    second_pair: ~
+  - name: X24
+    first_pair:
+      row_name: X48
+      value: -1
+    second_pair:
+      row_name: R19
+      value: 1
+  - name: X25
+    first_pair:
+      row_name: X45
+      value: -1
+    second_pair:
+      row_name: R19
+      value: 1
+  - name: X26
+    first_pair:
+      row_name: X50
+      value: 1
+    second_pair:
+      row_name: R20
+      value: 1
+  - name: X28
+    first_pair:
+      row_name: X47
+      value: 0.109
+    second_pair:
+      row_name: R22
+      value: -0.43
+  - name: X28
+    first_pair:
+      row_name: R23
+      value: 1
+    second_pair:
+      row_name: X40
+      value: 1
+  - name: X29
+    first_pair:
+      row_name: X47
+      value: 0.108
+    second_pair:
+      row_name: R22
+      value: -0.43
+  - name: X29
+    first_pair:
+      row_name: R23
+      value: 1
+    second_pair:
+      row_name: X41
+      value: 1
+  - name: X30
+    first_pair:
+      row_name: X47
+      value: 0.108
+    second_pair:
+      row_name: R22
+      value: -0.39
+  - name: X30
+    first_pair:
+      row_name: R23
+      value: 1
+    second_pair:
+      row_name: X42
+      value: 1
+  - name: X31
+    first_pair:
+      row_name: X47
+      value: 0.107
+    second_pair:
+      row_name: R22
+      value: -0.37
+  - name: X31
+    first_pair:
+      row_name: R23
+      value: 1
+    second_pair:
+      row_name: X43
+      value: 1
+  - name: X32
+    first_pair:
+      row_name: X45
+      value: 2.191
+    second_pair:
+      row_name: X40
+      value: -1
+  - name: X33
+    first_pair:
+      row_name: X45
+      value: 2.219
+    second_pair:
+      row_name: X41
+      value: -1
+  - name: X34
+    first_pair:
+      row_name: X45
+      value: 2.249
+    second_pair:
+      row_name: X42
+      value: -1
+  - name: X35
+    first_pair:
+      row_name: X45
+      value: 2.279
+    second_pair:
+      row_name: X43
+      value: -1
+  - name: X36
+    first_pair:
+      row_name: X44
+      value: 1.4
+    second_pair:
+      row_name: R23
+      value: -1
+  - name: X36
+    first_pair:
+      row_name: COST
+      value: -0.48
+    second_pair: ~
+  - name: X37
+    first_pair:
+      row_name: X49
+      value: -1
+    second_pair:
+      row_name: R23
+      value: 1
+  - name: X38
+    first_pair:
+      row_name: X51
+      value: 1
+    second_pair:
+      row_name: R22
+      value: 1
+  - name: X39
+    first_pair:
+      row_name: R23
+      value: 1
+    second_pair:
+      row_name: COST
+      value: 10
+rhs:
+  - name: B
+    first_pair:
+      row_name: X50
+      value: 310
+    second_pair:
+      row_name: X51
+      value: 300
+  - name: B
+    first_pair:
+      row_name: X05
+      value: 80
+    second_pair:
+      row_name: X17
+      value: 80
+  - name: B
+    first_pair:
+      row_name: X27
+      value: 500
+    second_pair:
+      row_name: R23
+      value: 44
+  - name: B
+    first_pair:
+      row_name: X40
+      value: 500
+    second_pair: ~
+ranges: ~
+bounds: ~
+

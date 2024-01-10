@@ -1,0 +1,814 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scsd8\"))?"
+---
+name: SCSD8
+rows:
+  - row_type: Nr
+    row_name: "50000000"
+  - row_type: Eq
+    row_name: "10000001"
+  - row_type: Eq
+    row_name: "20000001"
+  - row_type: Eq
+    row_name: "10000002"
+  - row_type: Eq
+    row_name: "20000002"
+  - row_type: Eq
+    row_name: "10000003"
+  - row_type: Eq
+    row_name: "20000003"
+  - row_type: Eq
+    row_name: "10000004"
+  - row_type: Eq
+    row_name: "20000004"
+  - row_type: Eq
+    row_name: "10000005"
+  - row_type: Eq
+    row_name: "20000005"
+  - row_type: Eq
+    row_name: "10000006"
+  - row_type: Eq
+    row_name: "20000006"
+  - row_type: Eq
+    row_name: "10000007"
+  - row_type: Eq
+    row_name: "20000007"
+  - row_type: Eq
+    row_name: "10000008"
+  - row_type: Eq
+    row_name: "20000008"
+  - row_type: Eq
+    row_name: "10000009"
+  - row_type: Eq
+    row_name: "20000009"
+  - row_type: Eq
+    row_name: "10000010"
+  - row_type: Eq
+    row_name: "20000010"
+  - row_type: Eq
+    row_name: "10000011"
+  - row_type: Eq
+    row_name: "20000011"
+  - row_type: Eq
+    row_name: "10000012"
+  - row_type: Eq
+    row_name: "20000012"
+  - row_type: Eq
+    row_name: "10000013"
+  - row_type: Eq
+    row_name: "20000013"
+  - row_type: Eq
+    row_name: "10000014"
+  - row_type: Eq
+    row_name: "20000014"
+  - row_type: Eq
+    row_name: "10000015"
+  - row_type: Eq
+    row_name: "20000015"
+  - row_type: Eq
+    row_name: "10000016"
+  - row_type: Eq
+    row_name: "20000016"
+  - row_type: Eq
+    row_name: "10000017"
+  - row_type: Eq
+    row_name: "20000017"
+  - row_type: Eq
+    row_name: "10000018"
+  - row_type: Eq
+    row_name: "20000018"
+  - row_type: Eq
+    row_name: "10000019"
+  - row_type: Eq
+    row_name: "20000019"
+  - row_type: Eq
+    row_name: "10000020"
+  - row_type: Eq
+    row_name: "20000020"
+  - row_type: Eq
+    row_name: "10000021"
+  - row_type: Eq
+    row_name: "20000021"
+  - row_type: Eq
+    row_name: "10000022"
+  - row_type: Eq
+    row_name: "20000022"
+  - row_type: Eq
+    row_name: "10000023"
+  - row_type: Eq
+    row_name: "20000023"
+  - row_type: Eq
+    row_name: "10000024"
+  - row_type: Eq
+    row_name: "20000024"
+  - row_type: Eq
+    row_name: "10000025"
+  - row_type: Eq
+    row_name: "20000025"
+  - row_type: Eq
+    row_name: "10000026"
+  - row_type: Eq
+    row_name: "20000026"
+  - row_type: Eq
+    row_name: "10000027"
+  - row_type: Eq
+    row_name: "20000027"
+  - row_type: Eq
+    row_name: "10000028"
+  - row_type: Eq
+    row_name: "20000028"
+  - row_type: Eq
+    row_name: "10000029"
+  - row_type: Eq
+    row_name: "20000029"
+  - row_type: Eq
+    row_name: "10000030"
+  - row_type: Eq
+    row_name: "20000030"
+  - row_type: Eq
+    row_name: "10000031"
+  - row_type: Eq
+    row_name: "20000031"
+  - row_type: Eq
+    row_name: "10000032"
+  - row_type: Eq
+    row_name: "20000032"
+  - row_type: Eq
+    row_name: "10000033"
+  - row_type: Eq
+    row_name: "20000033"
+  - row_type: Eq
+    row_name: "10000034"
+  - row_type: Eq
+    row_name: "20000034"
+  - row_type: Eq
+    row_name: "10000035"
+  - row_type: Eq
+    row_name: "20000035"
+  - row_type: Eq
+    row_name: "10000036"
+  - row_type: Eq
+    row_name: "20000036"
+  - row_type: Eq
+    row_name: "10000037"
+  - row_type: Eq
+    row_name: "20000037"
+  - row_type: Eq
+    row_name: "10000038"
+  - row_type: Eq
+    row_name: "20000038"
+  - row_type: Eq
+    row_name: "10000039"
+  - row_type: Eq
+    row_name: "20000039"
+  - row_type: Eq
+    row_name: "10000040"
+  - row_type: Eq
+    row_name: "20000040"
+  - row_type: Eq
+    row_name: "10000041"
+  - row_type: Eq
+    row_name: "20000041"
+  - row_type: Eq
+    row_name: "10000042"
+  - row_type: Eq
+    row_name: "20000042"
+  - row_type: Eq
+    row_name: "10000043"
+  - row_type: Eq
+    row_name: "20000043"
+  - row_type: Eq
+    row_name: "10000044"
+  - row_type: Eq
+    row_name: "20000044"
+  - row_type: Eq
+    row_name: "10000045"
+  - row_type: Eq
+    row_name: "20000045"
+  - row_type: Eq
+    row_name: "10000046"
+  - row_type: Eq
+    row_name: "20000046"
+  - row_type: Eq
+    row_name: "10000047"
+  - row_type: Eq
+    row_name: "20000047"
+  - row_type: Eq
+    row_name: "10000048"
+  - row_type: Eq
+    row_name: "20000048"
+  - row_type: Eq
+    row_name: "10000049"
+  - row_type: Eq
+    row_name: "20000049"
+  - row_type: Eq
+    row_name: "10000050"
+  - row_type: Eq
+    row_name: "20000050"
+  - row_type: Eq
+    row_name: "10000051"
+  - row_type: Eq
+    row_name: "20000051"
+  - row_type: Eq
+    row_name: "10000052"
+  - row_type: Eq
+    row_name: "20000052"
+  - row_type: Eq
+    row_name: "10000053"
+  - row_type: Eq
+    row_name: "20000053"
+  - row_type: Eq
+    row_name: "10000054"
+  - row_type: Eq
+    row_name: "20000054"
+  - row_type: Eq
+    row_name: "10000055"
+  - row_type: Eq
+    row_name: "20000055"
+  - row_type: Eq
+    row_name: "10000056"
+  - row_type: Eq
+    row_name: "20000056"
+  - row_type: Eq
+    row_name: "10000057"
+  - row_type: Eq
+    row_name: "20000057"
+  - row_type: Eq
+    row_name: "10000058"
+  - row_type: Eq
+    row_name: "20000058"
+  - row_type: Eq
+    row_name: "10000059"
+  - row_type: Eq
+    row_name: "20000059"
+  - row_type: Eq
+    row_name: "10000060"
+  - row_type: Eq
+    row_name: "20000060"
+  - row_type: Eq
+    row_name: "10000061"
+  - row_type: Eq
+    row_name: "20000061"
+  - row_type: Eq
+    row_name: "10000062"
+  - row_type: Eq
+    row_name: "20000062"
+  - row_type: Eq
+    row_name: "10000063"
+  - row_type: Eq
+    row_name: "20000063"
+  - row_type: Eq
+    row_name: "10000064"
+  - row_type: Eq
+    row_name: "20000064"
+  - row_type: Eq
+    row_name: "10000065"
+  - row_type: Eq
+    row_name: "20000065"
+  - row_type: Eq
+    row_name: "10000066"
+  - row_type: Eq
+    row_name: "20000066"
+  - row_type: Eq
+    row_name: "10000067"
+  - row_type: Eq
+    row_name: "20000067"
+  - row_type: Eq
+    row_name: "10000068"
+  - row_type: Eq
+    row_name: "20000068"
+  - row_type: Eq
+    row_name: "10000069"
+  - row_type: Eq
+    row_name: "20000069"
+  - row_type: Eq
+    row_name: "10000070"
+  - row_type: Eq
+    row_name: "20000070"
+  - row_type: Eq
+    row_name: "10000071"
+  - row_type: Eq
+    row_name: "20000071"
+  - row_type: Eq
+    row_name: "10000072"
+  - row_type: Eq
+    row_name: "20000072"
+  - row_type: Eq
+    row_name: "10000073"
+  - row_type: Eq
+    row_name: "20000073"
+  - row_type: Eq
+    row_name: "10000074"
+  - row_type: Eq
+    row_name: "20000074"
+  - row_type: Eq
+    row_name: "10000075"
+  - row_type: Eq
+    row_name: "20000075"
+  - row_type: Eq
+    row_name: "10000076"
+  - row_type: Eq
+    row_name: "20000076"
+  - row_type: Eq
+    row_name: "10000077"
+  - row_type: Eq
+    row_name: "20000077"
+  - row_type: Eq
+    row_name: "10000078"
+  - row_type: Eq
+    row_name: "20000078"
+  - row_type: Eq
+    row_name: "10000079"
+  - row_type: Eq
+    row_name: "20000079"
+  - row_type: Eq
+    row_name: "10000080"
+  - row_type: Eq
+    row_name: "20000080"
+  - row_type: Eq
+    row_name: "10000081"
+  - row_type: Eq
+    row_name: "20000081"
+  - row_type: Eq
+    row_name: "10000082"
+  - row_type: Eq
+    row_name: "20000082"
+  - row_type: Eq
+    row_name: "10000083"
+  - row_type: Eq
+    row_name: "20000083"
+  - row_type: Eq
+    row_name: "10000084"
+  - row_type: Eq
+    row_name: "20000084"
+  - row_type: Eq
+    row_name: "10000085"
+  - row_type: Eq
+    row_name: "20000085"
+  - row_type: Eq
+    row_name: "10000086"
+  - row_type: Eq
+    row_name: "20000086"
+  - row_type: Eq
+    row_name: "10000087"
+  - row_type: Eq
+    row_name: "20000087"
+  - row_type: Eq
+    row_name: "10000088"
+  - row_type: Eq
+    row_name: "20000088"
+  - row_type: Eq
+    row_name: "10000089"
+  - row_type: Eq
+    row_name: "20000089"
+  - row_type: Eq
+    row_name: "10000090"
+  - row_type: Eq
+    row_name: "20000090"
+  - row_type: Eq
+    row_name: "10000091"
+  - row_type: Eq
+    row_name: "20000091"
+  - row_type: Eq
+    row_name: "10000092"
+  - row_type: Eq
+    row_name: "20000092"
+  - row_type: Eq
+    row_name: "10000093"
+  - row_type: Eq
+    row_name: "20000093"
+  - row_type: Eq
+    row_name: "10000094"
+  - row_type: Eq
+    row_name: "20000094"
+  - row_type: Eq
+    row_name: "10000095"
+  - row_type: Eq
+    row_name: "20000095"
+  - row_type: Eq
+    row_name: "10000096"
+  - row_type: Eq
+    row_name: "20000096"
+  - row_type: Eq
+    row_name: "10000097"
+  - row_type: Eq
+    row_name: "20000097"
+  - row_type: Eq
+    row_name: "10000098"
+  - row_type: Eq
+    row_name: "20000098"
+  - row_type: Eq
+    row_name: "10000099"
+  - row_type: Eq
+    row_name: "20000099"
+  - row_type: Eq
+    row_name: "10000100"
+  - row_type: Eq
+    row_name: "20000100"
+  - row_type: Eq
+    row_name: "10000101"
+  - row_type: Eq
+    row_name: "20000101"
+  - row_type: Eq
+    row_name: "10000102"
+  - row_type: Eq
+    row_name: "20000102"
+  - row_type: Eq
+    row_name: "10000103"
+  - row_type: Eq
+    row_name: "20000103"
+  - row_type: Eq
+    row_name: "10000104"
+  - row_type: Eq
+    row_name: "20000104"
+  - row_type: Eq
+    row_name: "10000105"
+  - row_type: Eq
+    row_name: "20000105"
+  - row_type: Eq
+    row_name: "10000106"
+  - row_type: Eq
+    row_name: "20000106"
+  - row_type: Eq
+    row_name: "10000107"
+  - row_type: Eq
+    row_name: "20000107"
+  - row_type: Eq
+    row_name: "10000108"
+  - row_type: Eq
+    row_name: "20000108"
+  - row_type: Eq
+    row_name: "10000109"
+  - row_type: Eq
+    row_name: "20000109"
+  - row_type: Eq
+    row_name: "10000110"
+  - row_type: Eq
+    row_name: "20000110"
+  - row_type: Eq
+    row_name: "10000111"
+  - row_type: Eq
+    row_name: "20000111"
+  - row_type: Eq
+    row_name: "10000112"
+  - row_type: Eq
+    row_name: "20000112"
+  - row_type: Eq
+    row_name: "10000113"
+  - row_type: Eq
+    row_name: "20000113"
+  - row_type: Eq
+    row_name: "10000114"
+  - row_type: Eq
+    row_name: "20000114"
+  - row_type: Eq
+    row_name: "10000115"
+  - row_type: Eq
+    row_name: "20000115"
+  - row_type: Eq
+    row_name: "10000116"
+  - row_type: Eq
+    row_name: "20000116"
+  - row_type: Eq
+    row_name: "10000117"
+  - row_type: Eq
+    row_name: "20000117"
+  - row_type: Eq
+    row_name: "10000118"
+  - row_type: Eq
+    row_name: "20000118"
+  - row_type: Eq
+    row_name: "10000119"
+  - row_type: Eq
+    row_name: "20000119"
+  - row_type: Eq
+    row_name: "10000120"
+  - row_type: Eq
+    row_name: "20000120"
+  - row_type: Eq
+    row_name: "10000121"
+  - row_type: Eq
+    row_name: "20000121"
+  - row_type: Eq
+    row_name: "10000122"
+  - row_type: Eq
+    row_name: "20000122"
+  - row_type: Eq
+    row_name: "10000123"
+  - row_type: Eq
+    row_name: "20000123"
+  - row_type: Eq
+    row_name: "10000124"
+  - row_type: Eq
+    row_name: "20000124"
+  - row_type: Eq
+    row_name: "10000125"
+  - row_type: Eq
+    row_name: "20000125"
+  - row_type: Eq
+    row_name: "10000126"
+  - row_type: Eq
+    row_name: "20000126"
+  - row_type: Eq
+    row_name: "10000127"
+  - row_type: Eq
+    row_name: "20000127"
+  - row_type: Eq
+    row_name: "10000128"
+  - row_type: Eq
+    row_name: "20000128"
+  - row_type: Eq
+    row_name: "10000129"
+  - row_type: Eq
+    row_name: "20000129"
+  - row_type: Eq
+    row_name: "10000130"
+  - row_type: Eq
+    row_name: "20000130"
+  - row_type: Eq
+    row_name: "10000131"
+  - row_type: Eq
+    row_name: "20000131"
+  - row_type: Eq
+    row_name: "10000132"
+  - row_type: Eq
+    row_name: "20000132"
+  - row_type: Eq
+    row_name: "10000133"
+  - row_type: Eq
+    row_name: "20000133"
+  - row_type: Eq
+    row_name: "10000134"
+  - row_type: Eq
+    row_name: "20000134"
+  - row_type: Eq
+    row_name: "10000135"
+  - row_type: Eq
+    row_name: "20000135"
+  - row_type: Eq
+    row_name: "10000136"
+  - row_type: Eq
+    row_name: "20000136"
+  - row_type: Eq
+    row_name: "10000137"
+  - row_type: Eq
+    row_name: "20000137"
+  - row_type: Eq
+    row_name: "10000138"
+  - row_type: Eq
+    row_name: "20000138"
+  - row_type: Eq
+    row_name: "10000139"
+  - row_type: Eq
+    row_name: "20000139"
+  - row_type: Eq
+    row_name: "10000140"
+  - row_type: Eq
+    row_name: "20000140"
+  - row_type: Eq
+    row_name: "10000141"
+  - row_type: Eq
+    row_name: "20000141"
+  - row_type: Eq
+    row_name: "10000142"
+  - row_type: Eq
+    row_name: "20000142"
+  - row_type: Eq
+    row_name: "10000143"
+  - row_type: Eq
+    row_name: "20000143"
+  - row_type: Eq
+    row_name: "10000144"
+  - row_type: Eq
+    row_name: "20000144"
+  - row_type: Eq
+    row_name: "10000145"
+  - row_type: Eq
+    row_name: "20000145"
+  - row_type: Eq
+    row_name: "10000146"
+  - row_type: Eq
+    row_name: "20000146"
+  - row_type: Eq
+    row_name: "10000147"
+  - row_type: Eq
+    row_name: "20000147"
+  - row_type: Eq
+    row_name: "10000148"
+  - row_type: Eq
+    row_name: "20000148"
+  - row_type: Eq
+    row_name: "10000149"
+  - row_type: Eq
+    row_name: "20000149"
+  - row_type: Eq
+    row_name: "10000150"
+  - row_type: Eq
+    row_name: "20000150"
+  - row_type: Eq
+    row_name: "10000151"
+  - row_type: Eq
+    row_name: "20000151"
+  - row_type: Eq
+    row_name: "10000152"
+  - row_type: Eq
+    row_name: "20000152"
+  - row_type: Eq
+    row_name: "10000153"
+  - row_type: Eq
+    row_name: "20000153"
+  - row_type: Eq
+    row_name: "10000154"
+  - row_type: Eq
+    row_name: "20000154"
+  - row_type: Eq
+    row_name: "10000155"
+  - row_type: Eq
+    row_name: "20000155"
+  - row_type: Eq
+    row_name: "10000156"
+  - row_type: Eq
+    row_name: "20000156"
+  - row_type: Eq
+    row_name: "10000157"
+  - row_type: Eq
+    row_name: "20000157"
+  - row_type: Eq
+    row_name: "10000158"
+  - row_type: Eq
+    row_name: "20000158"
+  - row_type: Eq
+    row_name: "10000159"
+  - row_type: Eq
+    row_name: "20000159"
+  - row_type: Eq
+    row_name: "10000160"
+  - row_type: Eq
+    row_name: "20000160"
+  - row_type: Eq
+    row_name: "10000161"
+  - row_type: Eq
+    row_name: "20000161"
+  - row_type: Eq
+    row_name: "10000162"
+  - row_type: Eq
+    row_name: "20000162"
+  - row_type: Eq
+    row_name: "10000163"
+  - row_type: Eq
+    row_name: "20000163"
+  - row_type: Eq
+    row_name: "10000164"
+  - row_type: Eq
+    row_name: "20000164"
+  - row_type: Eq
+    row_name: "10000165"
+  - row_type: Eq
+    row_name: "20000165"
+  - row_type: Eq
+    row_name: "10000166"
+  - row_type: Eq
+    row_name: "20000166"
+  - row_type: Eq
+    row_name: "10000167"
+  - row_type: Eq
+    row_name: "20000167"
+  - row_type: Eq
+    row_name: "10000168"
+  - row_type: Eq
+    row_name: "20000168"
+  - row_type: Eq
+    row_name: "10000169"
+  - row_type: Eq
+    row_name: "20000169"
+  - row_type: Eq
+    row_name: "10000170"
+  - row_type: Eq
+    row_name: "20000170"
+  - row_type: Eq
+    row_name: "10000171"
+  - row_type: Eq
+    row_name: "20000171"
+  - row_type: Eq
+    row_name: "10000172"
+  - row_type: Eq
+    row_name: "20000172"
+  - row_type: Eq
+    row_name: "10000173"
+  - row_type: Eq
+    row_name: "20000173"
+  - row_type: Eq
+    row_name: "10000174"
+  - row_type: Eq
+    row_name: "20000174"
+  - row_type: Eq
+    row_name: "10000175"
+  - row_type: Eq
+    row_name: "20000175"
+  - row_type: Eq
+    row_name: "10000176"
+  - row_type: Eq
+    row_name: "20000176"
+  - row_type: Eq
+    row_name: "10000177"
+  - row_type: Eq
+    row_name: "20000177"
+  - row_type: Eq
+    row_name: "10000178"
+  - row_type: Eq
+    row_name: "20000178"
+  - row_type: Eq
+    row_name: "10000179"
+  - row_type: Eq
+    row_name: "20000179"
+  - row_type: Eq
+    row_name: "10000180"
+  - row_type: Eq
+    row_name: "20000180"
+  - row_type: Eq
+    row_name: "10000181"
+  - row_type: Eq
+    row_name: "20000181"
+  - row_type: Eq
+    row_name: "10000182"
+  - row_type: Eq
+    row_name: "20000182"
+  - row_type: Eq
+    row_name: "10000183"
+  - row_type: Eq
+    row_name: "20000183"
+  - row_type: Eq
+    row_name: "10000184"
+  - row_type: Eq
+    row_name: "20000184"
+  - row_type: Eq
+    row_name: "10000185"
+  - row_type: Eq
+    row_name: "20000185"
+  - row_type: Eq
+    row_name: "10000186"
+  - row_type: Eq
+    row_name: "20000186"
+  - row_type: Eq
+    row_name: "10000187"
+  - row_type: Eq
+    row_name: "20000187"
+  - row_type: Eq
+    row_name: "10000188"
+  - row_type: Eq
+    row_name: "20000188"
+  - row_type: Eq
+    row_name: "10000189"
+  - row_type: Eq
+    row_name: "20000189"
+  - row_type: Eq
+    row_name: "10000190"
+  - row_type: Eq
+    row_name: "20000190"
+  - row_type: Eq
+    row_name: "10000191"
+  - row_type: Eq
+    row_name: "20000191"
+  - row_type: Eq
+    row_name: "10000192"
+  - row_type: Eq
+    row_name: "20000192"
+  - row_type: Eq
+    row_name: "10000193"
+  - row_type: Eq
+    row_name: "20000193"
+  - row_type: Eq
+    row_name: "10000194"
+  - row_type: Eq
+    row_name: "20000194"
+  - row_type: Eq
+    row_name: "10000195"
+  - row_type: Eq
+    row_name: "20000195"
+  - row_type: Eq
+    row_name: "10000197"
+  - row_type: Eq
+    row_name: "20000197"
+  - row_type: Eq
+    row_name: "10000198"
+  - row_type: Eq
+    row_name: "20000198"
+  - row_type: Eq
+    row_name: "10000199"
+  - row_type: Eq
+    row_name: "20000199"
+  - row_type: Eq
+    row_name: "10000200"
+columns:
+  - name: "30001002"
+    first_pair:
+      row_name: "50000000"
+      value: 1
+    second_pair:
+      row_name: "10000001"
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+

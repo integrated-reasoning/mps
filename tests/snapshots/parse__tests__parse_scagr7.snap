@@ -1,0 +1,2437 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scagr7\"))?"
+---
+name: SCAGR7
+rows:
+  - row_type: Nr
+    row_name: FOB00001
+  - row_type: Eq
+    row_name: ROW00001
+  - row_type: Eq
+    row_name: ROW00002
+  - row_type: Eq
+    row_name: ROW00003
+  - row_type: Eq
+    row_name: ROW00004
+  - row_type: Eq
+    row_name: ROW00005
+  - row_type: Leq
+    row_name: ROW00006
+  - row_type: Eq
+    row_name: ROW00007
+  - row_type: Leq
+    row_name: ROW00008
+  - row_type: Geq
+    row_name: ROW00009
+  - row_type: Eq
+    row_name: ROW00010
+  - row_type: Eq
+    row_name: ROW00011
+  - row_type: Eq
+    row_name: ROW00012
+  - row_type: Eq
+    row_name: ROW00013
+  - row_type: Eq
+    row_name: ROW00014
+  - row_type: Eq
+    row_name: ROW00015
+  - row_type: Eq
+    row_name: ROW00016
+  - row_type: Eq
+    row_name: ROW00017
+  - row_type: Eq
+    row_name: ROW00018
+  - row_type: Eq
+    row_name: ROW00019
+  - row_type: Leq
+    row_name: ROW00020
+  - row_type: Leq
+    row_name: ROW00021
+  - row_type: Leq
+    row_name: ROW00022
+  - row_type: Eq
+    row_name: ROW00023
+  - row_type: Leq
+    row_name: ROW00024
+  - row_type: Eq
+    row_name: ROW00025
+  - row_type: Leq
+    row_name: ROW00026
+  - row_type: Geq
+    row_name: ROW00027
+  - row_type: Eq
+    row_name: ROW00028
+  - row_type: Eq
+    row_name: ROW00029
+  - row_type: Eq
+    row_name: ROW00030
+  - row_type: Eq
+    row_name: ROW00031
+  - row_type: Eq
+    row_name: ROW00032
+  - row_type: Eq
+    row_name: ROW00033
+  - row_type: Leq
+    row_name: ROW00034
+  - row_type: Eq
+    row_name: ROW00035
+  - row_type: Eq
+    row_name: ROW00036
+  - row_type: Eq
+    row_name: ROW00037
+  - row_type: Eq
+    row_name: ROW00038
+  - row_type: Leq
+    row_name: ROW00039
+  - row_type: Leq
+    row_name: ROW00040
+  - row_type: Leq
+    row_name: ROW00041
+  - row_type: Eq
+    row_name: ROW00042
+  - row_type: Leq
+    row_name: ROW00043
+  - row_type: Eq
+    row_name: ROW00044
+  - row_type: Leq
+    row_name: ROW00045
+  - row_type: Geq
+    row_name: ROW00046
+  - row_type: Eq
+    row_name: ROW00047
+  - row_type: Eq
+    row_name: ROW00048
+  - row_type: Eq
+    row_name: ROW00049
+  - row_type: Eq
+    row_name: ROW00050
+  - row_type: Eq
+    row_name: ROW00051
+  - row_type: Eq
+    row_name: ROW00052
+  - row_type: Leq
+    row_name: ROW00053
+  - row_type: Eq
+    row_name: ROW00054
+  - row_type: Eq
+    row_name: ROW00055
+  - row_type: Eq
+    row_name: ROW00056
+  - row_type: Eq
+    row_name: ROW00057
+  - row_type: Leq
+    row_name: ROW00058
+  - row_type: Leq
+    row_name: ROW00059
+  - row_type: Leq
+    row_name: ROW00060
+  - row_type: Eq
+    row_name: ROW00061
+  - row_type: Leq
+    row_name: ROW00062
+  - row_type: Eq
+    row_name: ROW00063
+  - row_type: Leq
+    row_name: ROW00064
+  - row_type: Geq
+    row_name: ROW00065
+  - row_type: Eq
+    row_name: ROW00066
+  - row_type: Eq
+    row_name: ROW00067
+  - row_type: Eq
+    row_name: ROW00068
+  - row_type: Eq
+    row_name: ROW00069
+  - row_type: Eq
+    row_name: ROW00070
+  - row_type: Eq
+    row_name: ROW00071
+  - row_type: Leq
+    row_name: ROW00072
+  - row_type: Eq
+    row_name: ROW00073
+  - row_type: Eq
+    row_name: ROW00074
+  - row_type: Eq
+    row_name: ROW00075
+  - row_type: Eq
+    row_name: ROW00076
+  - row_type: Leq
+    row_name: ROW00077
+  - row_type: Leq
+    row_name: ROW00078
+  - row_type: Leq
+    row_name: ROW00079
+  - row_type: Eq
+    row_name: ROW00080
+  - row_type: Leq
+    row_name: ROW00081
+  - row_type: Eq
+    row_name: ROW00082
+  - row_type: Leq
+    row_name: ROW00083
+  - row_type: Geq
+    row_name: ROW00084
+  - row_type: Eq
+    row_name: ROW00085
+  - row_type: Eq
+    row_name: ROW00086
+  - row_type: Eq
+    row_name: ROW00087
+  - row_type: Eq
+    row_name: ROW00088
+  - row_type: Eq
+    row_name: ROW00089
+  - row_type: Eq
+    row_name: ROW00090
+  - row_type: Leq
+    row_name: ROW00091
+  - row_type: Eq
+    row_name: ROW00092
+  - row_type: Eq
+    row_name: ROW00093
+  - row_type: Eq
+    row_name: ROW00094
+  - row_type: Eq
+    row_name: ROW00095
+  - row_type: Leq
+    row_name: ROW00096
+  - row_type: Leq
+    row_name: ROW00097
+  - row_type: Leq
+    row_name: ROW00098
+  - row_type: Eq
+    row_name: ROW00099
+  - row_type: Leq
+    row_name: ROW00100
+  - row_type: Eq
+    row_name: ROW00101
+  - row_type: Leq
+    row_name: ROW00102
+  - row_type: Geq
+    row_name: ROW00103
+  - row_type: Eq
+    row_name: ROW00104
+  - row_type: Eq
+    row_name: ROW00105
+  - row_type: Eq
+    row_name: ROW00106
+  - row_type: Eq
+    row_name: ROW00107
+  - row_type: Eq
+    row_name: ROW00108
+  - row_type: Eq
+    row_name: ROW00109
+  - row_type: Leq
+    row_name: ROW00110
+  - row_type: Eq
+    row_name: ROW00111
+  - row_type: Eq
+    row_name: ROW00112
+  - row_type: Eq
+    row_name: ROW00113
+  - row_type: Eq
+    row_name: ROW00114
+  - row_type: Leq
+    row_name: ROW00115
+  - row_type: Leq
+    row_name: ROW00116
+  - row_type: Leq
+    row_name: ROW00117
+  - row_type: Eq
+    row_name: ROW00118
+  - row_type: Leq
+    row_name: ROW00119
+  - row_type: Eq
+    row_name: ROW00120
+  - row_type: Leq
+    row_name: ROW00121
+  - row_type: Geq
+    row_name: ROW00122
+  - row_type: Eq
+    row_name: ROW00123
+  - row_type: Eq
+    row_name: ROW00124
+  - row_type: Eq
+    row_name: ROW00125
+  - row_type: Eq
+    row_name: ROW00126
+  - row_type: Eq
+    row_name: ROW00127
+  - row_type: Eq
+    row_name: ROW00128
+  - row_type: Leq
+    row_name: ROW00129
+columns:
+  - name: COL00001
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00001
+      value: 1
+  - name: COL00002
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00001
+      value: 1
+  - name: COL00002
+    first_pair:
+      row_name: ROW00003
+      value: 1
+    second_pair:
+      row_name: ROW00005
+      value: -0.4
+  - name: COL00002
+    first_pair:
+      row_name: ROW00015
+      value: -0.5
+    second_pair: ~
+  - name: COL00003
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00002
+      value: 1
+  - name: COL00003
+    first_pair:
+      row_name: ROW00004
+      value: 1
+    second_pair:
+      row_name: ROW00005
+      value: -0.4
+  - name: COL00003
+    first_pair:
+      row_name: ROW00015
+      value: -0.5
+    second_pair: ~
+  - name: COL00004
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00002
+      value: 1
+  - name: COL00005
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00003
+      value: -1
+  - name: COL00005
+    first_pair:
+      row_name: ROW00005
+      value: -1.7
+    second_pair:
+      row_name: ROW00010
+      value: 1
+  - name: COL00005
+    first_pair:
+      row_name: ROW00013
+      value: -0.245
+    second_pair:
+      row_name: ROW00015
+      value: -1.4
+  - name: COL00006
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00004
+      value: -1
+  - name: COL00006
+    first_pair:
+      row_name: ROW00005
+      value: -1.7
+    second_pair:
+      row_name: ROW00011
+      value: 1
+  - name: COL00006
+    first_pair:
+      row_name: ROW00013
+      value: -0.245
+    second_pair:
+      row_name: ROW00015
+      value: -1.4
+  - name: COL00007
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00007
+      value: 1
+  - name: COL00007
+    first_pair:
+      row_name: ROW00013
+      value: 0.2
+    second_pair: ~
+  - name: COL00008
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00005
+      value: 1.5
+  - name: COL00008
+    first_pair:
+      row_name: ROW00006
+      value: 1
+    second_pair:
+      row_name: ROW00007
+      value: 1
+  - name: COL00009
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00007
+      value: 1
+  - name: COL00009
+    first_pair:
+      row_name: ROW00009
+      value: 1
+    second_pair:
+      row_name: ROW00014
+      value: 1.2
+  - name: COL00010
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00007
+      value: 1
+  - name: COL00010
+    first_pair:
+      row_name: ROW00009
+      value: 1
+    second_pair:
+      row_name: ROW00015
+      value: 1
+  - name: COL00011
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00005
+      value: 1
+  - name: COL00012
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00015
+      value: 1
+  - name: COL00013
+    first_pair:
+      row_name: ROW00007
+      value: 1
+    second_pair:
+      row_name: ROW00008
+      value: 1
+  - name: COL00014
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00010
+      value: -1
+  - name: COL00014
+    first_pair:
+      row_name: ROW00023
+      value: -0.48
+    second_pair:
+      row_name: ROW00031
+      value: -0.49
+  - name: COL00015
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00010
+      value: -1
+  - name: COL00015
+    first_pair:
+      row_name: ROW00023
+      value: -0.48
+    second_pair:
+      row_name: ROW00030
+      value: 1
+  - name: COL00015
+    first_pair:
+      row_name: ROW00031
+      value: -0.49
+    second_pair: ~
+  - name: COL00016
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00011
+      value: -1
+  - name: COL00016
+    first_pair:
+      row_name: ROW00023
+      value: -0.48
+    second_pair:
+      row_name: ROW00031
+      value: -0.49
+  - name: COL00017
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00012
+      value: -1
+  - name: COL00017
+    first_pair:
+      row_name: ROW00016
+      value: -0.5
+    second_pair:
+      row_name: ROW00017
+      value: -0.5
+  - name: COL00017
+    first_pair:
+      row_name: ROW00023
+      value: -9.32
+    second_pair:
+      row_name: ROW00030
+      value: 0.7
+  - name: COL00017
+    first_pair:
+      row_name: ROW00031
+      value: -0.56
+    second_pair:
+      row_name: ROW00032
+      value: -1
+  - name: COL00017
+    first_pair:
+      row_name: ROW00034
+      value: 1
+    second_pair: ~
+  - name: COL00018
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00013
+      value: -1
+  - name: COL00018
+    first_pair:
+      row_name: ROW00020
+      value: 1
+    second_pair:
+      row_name: ROW00031
+      value: 1
+  - name: COL00019
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00014
+      value: -1
+  - name: COL00019
+    first_pair:
+      row_name: ROW00021
+      value: 1
+    second_pair:
+      row_name: ROW00032
+      value: 1
+  - name: COL00020
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00015
+      value: -1
+  - name: COL00020
+    first_pair:
+      row_name: ROW00022
+      value: 1
+    second_pair:
+      row_name: ROW00033
+      value: 1
+  - name: COL00021
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00016
+      value: 1
+  - name: COL00022
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00016
+      value: 1
+  - name: COL00022
+    first_pair:
+      row_name: ROW00018
+      value: 1
+    second_pair:
+      row_name: ROW00023
+      value: -0.4
+  - name: COL00022
+    first_pair:
+      row_name: ROW00033
+      value: -0.5
+    second_pair: ~
+  - name: COL00023
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00017
+      value: 1
+  - name: COL00023
+    first_pair:
+      row_name: ROW00019
+      value: 1
+    second_pair:
+      row_name: ROW00023
+      value: -0.4
+  - name: COL00023
+    first_pair:
+      row_name: ROW00033
+      value: -0.5
+    second_pair: ~
+  - name: COL00024
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00017
+      value: 1
+  - name: COL00025
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00018
+      value: -1
+  - name: COL00025
+    first_pair:
+      row_name: ROW00023
+      value: -1.7
+    second_pair:
+      row_name: ROW00028
+      value: 1
+  - name: COL00025
+    first_pair:
+      row_name: ROW00031
+      value: -0.245
+    second_pair:
+      row_name: ROW00033
+      value: -1.4
+  - name: COL00026
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00019
+      value: -1
+  - name: COL00026
+    first_pair:
+      row_name: ROW00023
+      value: -1.7
+    second_pair:
+      row_name: ROW00029
+      value: 1
+  - name: COL00026
+    first_pair:
+      row_name: ROW00031
+      value: -0.245
+    second_pair:
+      row_name: ROW00033
+      value: -1.4
+  - name: COL00027
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00025
+      value: 1
+  - name: COL00027
+    first_pair:
+      row_name: ROW00031
+      value: 0.2
+    second_pair: ~
+  - name: COL00028
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00023
+      value: 1.5
+  - name: COL00028
+    first_pair:
+      row_name: ROW00024
+      value: 1
+    second_pair:
+      row_name: ROW00025
+      value: 1
+  - name: COL00029
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00025
+      value: 1
+  - name: COL00029
+    first_pair:
+      row_name: ROW00027
+      value: 1
+    second_pair:
+      row_name: ROW00032
+      value: 1.2
+  - name: COL00030
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00025
+      value: 1
+  - name: COL00030
+    first_pair:
+      row_name: ROW00027
+      value: 1
+    second_pair:
+      row_name: ROW00033
+      value: 1
+  - name: COL00031
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00023
+      value: 1
+  - name: COL00032
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00033
+      value: 1
+  - name: COL00033
+    first_pair:
+      row_name: ROW00025
+      value: 1
+    second_pair:
+      row_name: ROW00026
+      value: 1
+  - name: COL00034
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00028
+      value: -1
+  - name: COL00034
+    first_pair:
+      row_name: ROW00042
+      value: -0.48
+    second_pair:
+      row_name: ROW00050
+      value: -0.49
+  - name: COL00035
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00028
+      value: -1
+  - name: COL00035
+    first_pair:
+      row_name: ROW00042
+      value: -0.48
+    second_pair:
+      row_name: ROW00049
+      value: 1
+  - name: COL00035
+    first_pair:
+      row_name: ROW00050
+      value: -0.49
+    second_pair: ~
+  - name: COL00036
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00029
+      value: -1
+  - name: COL00036
+    first_pair:
+      row_name: ROW00042
+      value: -0.48
+    second_pair:
+      row_name: ROW00050
+      value: -0.49
+  - name: COL00037
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00030
+      value: -1
+  - name: COL00037
+    first_pair:
+      row_name: ROW00034
+      value: -1
+    second_pair:
+      row_name: ROW00035
+      value: -0.5
+  - name: COL00037
+    first_pair:
+      row_name: ROW00036
+      value: -0.5
+    second_pair:
+      row_name: ROW00042
+      value: -9.32
+  - name: COL00037
+    first_pair:
+      row_name: ROW00049
+      value: 0.7
+    second_pair:
+      row_name: ROW00050
+      value: -0.56
+  - name: COL00037
+    first_pair:
+      row_name: ROW00051
+      value: -1
+    second_pair:
+      row_name: ROW00053
+      value: 1
+  - name: COL00038
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00031
+      value: -1
+  - name: COL00038
+    first_pair:
+      row_name: ROW00039
+      value: 1
+    second_pair:
+      row_name: ROW00050
+      value: 1
+  - name: COL00039
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00032
+      value: -1
+  - name: COL00039
+    first_pair:
+      row_name: ROW00040
+      value: 1
+    second_pair:
+      row_name: ROW00051
+      value: 1
+  - name: COL00040
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00033
+      value: -1
+  - name: COL00040
+    first_pair:
+      row_name: ROW00041
+      value: 1
+    second_pair:
+      row_name: ROW00052
+      value: 1
+  - name: COL00041
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00035
+      value: 1
+  - name: COL00042
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00035
+      value: 1
+  - name: COL00042
+    first_pair:
+      row_name: ROW00037
+      value: 1
+    second_pair:
+      row_name: ROW00042
+      value: -0.4
+  - name: COL00042
+    first_pair:
+      row_name: ROW00052
+      value: -0.5
+    second_pair: ~
+  - name: COL00043
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00036
+      value: 1
+  - name: COL00043
+    first_pair:
+      row_name: ROW00038
+      value: 1
+    second_pair:
+      row_name: ROW00042
+      value: -0.4
+  - name: COL00043
+    first_pair:
+      row_name: ROW00052
+      value: -0.5
+    second_pair: ~
+  - name: COL00044
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00036
+      value: 1
+  - name: COL00045
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00037
+      value: -1
+  - name: COL00045
+    first_pair:
+      row_name: ROW00042
+      value: -1.7
+    second_pair:
+      row_name: ROW00047
+      value: 1
+  - name: COL00045
+    first_pair:
+      row_name: ROW00050
+      value: -0.245
+    second_pair:
+      row_name: ROW00052
+      value: -1.4
+  - name: COL00046
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00038
+      value: -1
+  - name: COL00046
+    first_pair:
+      row_name: ROW00042
+      value: -1.7
+    second_pair:
+      row_name: ROW00048
+      value: 1
+  - name: COL00046
+    first_pair:
+      row_name: ROW00050
+      value: -0.245
+    second_pair:
+      row_name: ROW00052
+      value: -1.4
+  - name: COL00047
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00044
+      value: 1
+  - name: COL00047
+    first_pair:
+      row_name: ROW00050
+      value: 0.2
+    second_pair: ~
+  - name: COL00048
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00042
+      value: 1.5
+  - name: COL00048
+    first_pair:
+      row_name: ROW00043
+      value: 1
+    second_pair:
+      row_name: ROW00044
+      value: 1
+  - name: COL00049
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00044
+      value: 1
+  - name: COL00049
+    first_pair:
+      row_name: ROW00046
+      value: 1
+    second_pair:
+      row_name: ROW00051
+      value: 1.2
+  - name: COL00050
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00044
+      value: 1
+  - name: COL00050
+    first_pair:
+      row_name: ROW00046
+      value: 1
+    second_pair:
+      row_name: ROW00052
+      value: 1
+  - name: COL00051
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00042
+      value: 1
+  - name: COL00052
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00052
+      value: 1
+  - name: COL00053
+    first_pair:
+      row_name: ROW00044
+      value: 1
+    second_pair:
+      row_name: ROW00045
+      value: 1
+  - name: COL00054
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00047
+      value: -1
+  - name: COL00054
+    first_pair:
+      row_name: ROW00061
+      value: -0.48
+    second_pair:
+      row_name: ROW00069
+      value: -0.49
+  - name: COL00055
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00047
+      value: -1
+  - name: COL00055
+    first_pair:
+      row_name: ROW00061
+      value: -0.48
+    second_pair:
+      row_name: ROW00068
+      value: 1
+  - name: COL00055
+    first_pair:
+      row_name: ROW00069
+      value: -0.49
+    second_pair: ~
+  - name: COL00056
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00048
+      value: -1
+  - name: COL00056
+    first_pair:
+      row_name: ROW00061
+      value: -0.48
+    second_pair:
+      row_name: ROW00069
+      value: -0.49
+  - name: COL00057
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00049
+      value: -1
+  - name: COL00057
+    first_pair:
+      row_name: ROW00053
+      value: -1
+    second_pair:
+      row_name: ROW00054
+      value: -0.5
+  - name: COL00057
+    first_pair:
+      row_name: ROW00055
+      value: -0.5
+    second_pair:
+      row_name: ROW00061
+      value: -9.32
+  - name: COL00057
+    first_pair:
+      row_name: ROW00068
+      value: 0.7
+    second_pair:
+      row_name: ROW00069
+      value: -0.56
+  - name: COL00057
+    first_pair:
+      row_name: ROW00070
+      value: -1
+    second_pair:
+      row_name: ROW00072
+      value: 1
+  - name: COL00058
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00050
+      value: -1
+  - name: COL00058
+    first_pair:
+      row_name: ROW00058
+      value: 1
+    second_pair:
+      row_name: ROW00069
+      value: 1
+  - name: COL00059
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00051
+      value: -1
+  - name: COL00059
+    first_pair:
+      row_name: ROW00059
+      value: 1
+    second_pair:
+      row_name: ROW00070
+      value: 1
+  - name: COL00060
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00052
+      value: -1
+  - name: COL00060
+    first_pair:
+      row_name: ROW00060
+      value: 1
+    second_pair:
+      row_name: ROW00071
+      value: 1
+  - name: COL00061
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00054
+      value: 1
+  - name: COL00062
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00054
+      value: 1
+  - name: COL00062
+    first_pair:
+      row_name: ROW00056
+      value: 1
+    second_pair:
+      row_name: ROW00061
+      value: -0.4
+  - name: COL00062
+    first_pair:
+      row_name: ROW00071
+      value: -0.5
+    second_pair: ~
+  - name: COL00063
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00055
+      value: 1
+  - name: COL00063
+    first_pair:
+      row_name: ROW00057
+      value: 1
+    second_pair:
+      row_name: ROW00061
+      value: -0.4
+  - name: COL00063
+    first_pair:
+      row_name: ROW00071
+      value: -0.5
+    second_pair: ~
+  - name: COL00064
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00055
+      value: 1
+  - name: COL00065
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00056
+      value: -1
+  - name: COL00065
+    first_pair:
+      row_name: ROW00061
+      value: -1.7
+    second_pair:
+      row_name: ROW00066
+      value: 1
+  - name: COL00065
+    first_pair:
+      row_name: ROW00069
+      value: -0.245
+    second_pair:
+      row_name: ROW00071
+      value: -1.4
+  - name: COL00066
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00057
+      value: -1
+  - name: COL00066
+    first_pair:
+      row_name: ROW00061
+      value: -1.7
+    second_pair:
+      row_name: ROW00067
+      value: 1
+  - name: COL00066
+    first_pair:
+      row_name: ROW00069
+      value: -0.245
+    second_pair:
+      row_name: ROW00071
+      value: -1.4
+  - name: COL00067
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00063
+      value: 1
+  - name: COL00067
+    first_pair:
+      row_name: ROW00069
+      value: 0.2
+    second_pair: ~
+  - name: COL00068
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00061
+      value: 1.5
+  - name: COL00068
+    first_pair:
+      row_name: ROW00062
+      value: 1
+    second_pair:
+      row_name: ROW00063
+      value: 1
+  - name: COL00069
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00063
+      value: 1
+  - name: COL00069
+    first_pair:
+      row_name: ROW00065
+      value: 1
+    second_pair:
+      row_name: ROW00070
+      value: 1.2
+  - name: COL00070
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00063
+      value: 1
+  - name: COL00070
+    first_pair:
+      row_name: ROW00065
+      value: 1
+    second_pair:
+      row_name: ROW00071
+      value: 1
+  - name: COL00071
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00061
+      value: 1
+  - name: COL00072
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00071
+      value: 1
+  - name: COL00073
+    first_pair:
+      row_name: ROW00063
+      value: 1
+    second_pair:
+      row_name: ROW00064
+      value: 1
+  - name: COL00074
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00066
+      value: -1
+  - name: COL00074
+    first_pair:
+      row_name: ROW00080
+      value: -0.48
+    second_pair:
+      row_name: ROW00088
+      value: -0.49
+  - name: COL00075
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00066
+      value: -1
+  - name: COL00075
+    first_pair:
+      row_name: ROW00080
+      value: -0.48
+    second_pair:
+      row_name: ROW00087
+      value: 1
+  - name: COL00075
+    first_pair:
+      row_name: ROW00088
+      value: -0.49
+    second_pair: ~
+  - name: COL00076
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00067
+      value: -1
+  - name: COL00076
+    first_pair:
+      row_name: ROW00080
+      value: -0.48
+    second_pair:
+      row_name: ROW00088
+      value: -0.49
+  - name: COL00077
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00068
+      value: -1
+  - name: COL00077
+    first_pair:
+      row_name: ROW00072
+      value: -1
+    second_pair:
+      row_name: ROW00073
+      value: -0.5
+  - name: COL00077
+    first_pair:
+      row_name: ROW00074
+      value: -0.5
+    second_pair:
+      row_name: ROW00080
+      value: -9.32
+  - name: COL00077
+    first_pair:
+      row_name: ROW00087
+      value: 0.7
+    second_pair:
+      row_name: ROW00088
+      value: -0.56
+  - name: COL00077
+    first_pair:
+      row_name: ROW00089
+      value: -1
+    second_pair:
+      row_name: ROW00091
+      value: 1
+  - name: COL00078
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00069
+      value: -1
+  - name: COL00078
+    first_pair:
+      row_name: ROW00077
+      value: 1
+    second_pair:
+      row_name: ROW00088
+      value: 1
+  - name: COL00079
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00070
+      value: -1
+  - name: COL00079
+    first_pair:
+      row_name: ROW00078
+      value: 1
+    second_pair:
+      row_name: ROW00089
+      value: 1
+  - name: COL00080
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00071
+      value: -1
+  - name: COL00080
+    first_pair:
+      row_name: ROW00079
+      value: 1
+    second_pair:
+      row_name: ROW00090
+      value: 1
+  - name: COL00081
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00073
+      value: 1
+  - name: COL00082
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00073
+      value: 1
+  - name: COL00082
+    first_pair:
+      row_name: ROW00075
+      value: 1
+    second_pair:
+      row_name: ROW00080
+      value: -0.4
+  - name: COL00082
+    first_pair:
+      row_name: ROW00090
+      value: -0.5
+    second_pair: ~
+  - name: COL00083
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00074
+      value: 1
+  - name: COL00083
+    first_pair:
+      row_name: ROW00076
+      value: 1
+    second_pair:
+      row_name: ROW00080
+      value: -0.4
+  - name: COL00083
+    first_pair:
+      row_name: ROW00090
+      value: -0.5
+    second_pair: ~
+  - name: COL00084
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00074
+      value: 1
+  - name: COL00085
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00075
+      value: -1
+  - name: COL00085
+    first_pair:
+      row_name: ROW00080
+      value: -1.7
+    second_pair:
+      row_name: ROW00085
+      value: 1
+  - name: COL00085
+    first_pair:
+      row_name: ROW00088
+      value: -0.245
+    second_pair:
+      row_name: ROW00090
+      value: -1.4
+  - name: COL00086
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00076
+      value: -1
+  - name: COL00086
+    first_pair:
+      row_name: ROW00080
+      value: -1.7
+    second_pair:
+      row_name: ROW00086
+      value: 1
+  - name: COL00086
+    first_pair:
+      row_name: ROW00088
+      value: -0.245
+    second_pair:
+      row_name: ROW00090
+      value: -1.4
+  - name: COL00087
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00082
+      value: 1
+  - name: COL00087
+    first_pair:
+      row_name: ROW00088
+      value: 0.2
+    second_pair: ~
+  - name: COL00088
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00080
+      value: 1.5
+  - name: COL00088
+    first_pair:
+      row_name: ROW00081
+      value: 1
+    second_pair:
+      row_name: ROW00082
+      value: 1
+  - name: COL00089
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00082
+      value: 1
+  - name: COL00089
+    first_pair:
+      row_name: ROW00084
+      value: 1
+    second_pair:
+      row_name: ROW00089
+      value: 1.2
+  - name: COL00090
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00082
+      value: 1
+  - name: COL00090
+    first_pair:
+      row_name: ROW00084
+      value: 1
+    second_pair:
+      row_name: ROW00090
+      value: 1
+  - name: COL00091
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00080
+      value: 1
+  - name: COL00092
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00090
+      value: 1
+  - name: COL00093
+    first_pair:
+      row_name: ROW00082
+      value: 1
+    second_pair:
+      row_name: ROW00083
+      value: 1
+  - name: COL00094
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00085
+      value: -1
+  - name: COL00094
+    first_pair:
+      row_name: ROW00099
+      value: -0.48
+    second_pair:
+      row_name: ROW00107
+      value: -0.49
+  - name: COL00095
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00085
+      value: -1
+  - name: COL00095
+    first_pair:
+      row_name: ROW00099
+      value: -0.48
+    second_pair:
+      row_name: ROW00106
+      value: 1
+  - name: COL00095
+    first_pair:
+      row_name: ROW00107
+      value: -0.49
+    second_pair: ~
+  - name: COL00096
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00086
+      value: -1
+  - name: COL00096
+    first_pair:
+      row_name: ROW00099
+      value: -0.48
+    second_pair:
+      row_name: ROW00107
+      value: -0.49
+  - name: COL00097
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00087
+      value: -1
+  - name: COL00097
+    first_pair:
+      row_name: ROW00091
+      value: -1
+    second_pair:
+      row_name: ROW00092
+      value: -0.5
+  - name: COL00097
+    first_pair:
+      row_name: ROW00093
+      value: -0.5
+    second_pair:
+      row_name: ROW00099
+      value: -9.32
+  - name: COL00097
+    first_pair:
+      row_name: ROW00106
+      value: 0.7
+    second_pair:
+      row_name: ROW00107
+      value: -0.56
+  - name: COL00097
+    first_pair:
+      row_name: ROW00108
+      value: -1
+    second_pair:
+      row_name: ROW00110
+      value: 1
+  - name: COL00098
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00088
+      value: -1
+  - name: COL00098
+    first_pair:
+      row_name: ROW00096
+      value: 1
+    second_pair:
+      row_name: ROW00107
+      value: 1
+  - name: COL00099
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00089
+      value: -1
+  - name: COL00099
+    first_pair:
+      row_name: ROW00097
+      value: 1
+    second_pair:
+      row_name: ROW00108
+      value: 1
+  - name: COL00100
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00090
+      value: -1
+  - name: COL00100
+    first_pair:
+      row_name: ROW00098
+      value: 1
+    second_pair:
+      row_name: ROW00109
+      value: 1
+  - name: COL00101
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00092
+      value: 1
+  - name: COL00102
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00092
+      value: 1
+  - name: COL00102
+    first_pair:
+      row_name: ROW00094
+      value: 1
+    second_pair:
+      row_name: ROW00099
+      value: -0.4
+  - name: COL00102
+    first_pair:
+      row_name: ROW00109
+      value: -0.5
+    second_pair: ~
+  - name: COL00103
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00093
+      value: 1
+  - name: COL00103
+    first_pair:
+      row_name: ROW00095
+      value: 1
+    second_pair:
+      row_name: ROW00099
+      value: -0.4
+  - name: COL00103
+    first_pair:
+      row_name: ROW00109
+      value: -0.5
+    second_pair: ~
+  - name: COL00104
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00093
+      value: 1
+  - name: COL00105
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00094
+      value: -1
+  - name: COL00105
+    first_pair:
+      row_name: ROW00099
+      value: -1.7
+    second_pair:
+      row_name: ROW00104
+      value: 1
+  - name: COL00105
+    first_pair:
+      row_name: ROW00107
+      value: -0.245
+    second_pair:
+      row_name: ROW00109
+      value: -1.4
+  - name: COL00106
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00095
+      value: -1
+  - name: COL00106
+    first_pair:
+      row_name: ROW00099
+      value: -1.7
+    second_pair:
+      row_name: ROW00105
+      value: 1
+  - name: COL00106
+    first_pair:
+      row_name: ROW00107
+      value: -0.245
+    second_pair:
+      row_name: ROW00109
+      value: -1.4
+  - name: COL00107
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00101
+      value: 1
+  - name: COL00107
+    first_pair:
+      row_name: ROW00107
+      value: 0.2
+    second_pair: ~
+  - name: COL00108
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00099
+      value: 1.5
+  - name: COL00108
+    first_pair:
+      row_name: ROW00100
+      value: 1
+    second_pair:
+      row_name: ROW00101
+      value: 1
+  - name: COL00109
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00101
+      value: 1
+  - name: COL00109
+    first_pair:
+      row_name: ROW00103
+      value: 1
+    second_pair:
+      row_name: ROW00108
+      value: 1.2
+  - name: COL00110
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00101
+      value: 1
+  - name: COL00110
+    first_pair:
+      row_name: ROW00103
+      value: 1
+    second_pair:
+      row_name: ROW00109
+      value: 1
+  - name: COL00111
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00099
+      value: 1
+  - name: COL00112
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00109
+      value: 1
+  - name: COL00113
+    first_pair:
+      row_name: ROW00101
+      value: 1
+    second_pair:
+      row_name: ROW00102
+      value: 1
+  - name: COL00114
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00104
+      value: -1
+  - name: COL00114
+    first_pair:
+      row_name: ROW00118
+      value: -0.48
+    second_pair:
+      row_name: ROW00126
+      value: -0.49
+  - name: COL00115
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00104
+      value: -1
+  - name: COL00115
+    first_pair:
+      row_name: ROW00118
+      value: -0.48
+    second_pair:
+      row_name: ROW00125
+      value: 1
+  - name: COL00115
+    first_pair:
+      row_name: ROW00126
+      value: -0.49
+    second_pair: ~
+  - name: COL00116
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00105
+      value: -1
+  - name: COL00116
+    first_pair:
+      row_name: ROW00118
+      value: -0.48
+    second_pair:
+      row_name: ROW00126
+      value: -0.49
+  - name: COL00117
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00106
+      value: -1
+  - name: COL00117
+    first_pair:
+      row_name: ROW00110
+      value: -1
+    second_pair:
+      row_name: ROW00111
+      value: -0.5
+  - name: COL00117
+    first_pair:
+      row_name: ROW00112
+      value: -0.5
+    second_pair:
+      row_name: ROW00118
+      value: -9.32
+  - name: COL00117
+    first_pair:
+      row_name: ROW00125
+      value: 0.7
+    second_pair:
+      row_name: ROW00126
+      value: -0.56
+  - name: COL00117
+    first_pair:
+      row_name: ROW00127
+      value: -1
+    second_pair:
+      row_name: ROW00129
+      value: 1
+  - name: COL00118
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00107
+      value: -1
+  - name: COL00118
+    first_pair:
+      row_name: ROW00115
+      value: 1
+    second_pair:
+      row_name: ROW00126
+      value: 1
+  - name: COL00119
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00108
+      value: -1
+  - name: COL00119
+    first_pair:
+      row_name: ROW00116
+      value: 1
+    second_pair:
+      row_name: ROW00127
+      value: 1
+  - name: COL00120
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00109
+      value: -1
+  - name: COL00120
+    first_pair:
+      row_name: ROW00117
+      value: 1
+    second_pair:
+      row_name: ROW00128
+      value: 1
+  - name: COL00121
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00111
+      value: 1
+  - name: COL00122
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00111
+      value: 1
+  - name: COL00122
+    first_pair:
+      row_name: ROW00113
+      value: 1
+    second_pair:
+      row_name: ROW00118
+      value: -0.4
+  - name: COL00122
+    first_pair:
+      row_name: ROW00128
+      value: -0.5
+    second_pair: ~
+  - name: COL00123
+    first_pair:
+      row_name: FOB00001
+      value: 54.9
+    second_pair:
+      row_name: ROW00112
+      value: 1
+  - name: COL00123
+    first_pair:
+      row_name: ROW00114
+      value: 1
+    second_pair:
+      row_name: ROW00118
+      value: -0.4
+  - name: COL00123
+    first_pair:
+      row_name: ROW00128
+      value: -0.5
+    second_pair: ~
+  - name: COL00124
+    first_pair:
+      row_name: FOB00001
+      value: -35
+    second_pair:
+      row_name: ROW00112
+      value: 1
+  - name: COL00125
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00113
+      value: -1
+  - name: COL00125
+    first_pair:
+      row_name: ROW00118
+      value: -1.7
+    second_pair:
+      row_name: ROW00123
+      value: 1
+  - name: COL00125
+    first_pair:
+      row_name: ROW00126
+      value: -0.245
+    second_pair:
+      row_name: ROW00128
+      value: -1.4
+  - name: COL00126
+    first_pair:
+      row_name: FOB00001
+      value: 23.5
+    second_pair:
+      row_name: ROW00114
+      value: -1
+  - name: COL00126
+    first_pair:
+      row_name: ROW00118
+      value: -1.7
+    second_pair:
+      row_name: ROW00124
+      value: 1
+  - name: COL00126
+    first_pair:
+      row_name: ROW00126
+      value: -0.245
+    second_pair:
+      row_name: ROW00128
+      value: -1.4
+  - name: COL00127
+    first_pair:
+      row_name: FOB00001
+      value: 8.72
+    second_pair:
+      row_name: ROW00120
+      value: 1
+  - name: COL00127
+    first_pair:
+      row_name: ROW00126
+      value: 0.2
+    second_pair: ~
+  - name: COL00128
+    first_pair:
+      row_name: FOB00001
+      value: 9.72
+    second_pair:
+      row_name: ROW00118
+      value: 1.5
+  - name: COL00128
+    first_pair:
+      row_name: ROW00119
+      value: 1
+    second_pair:
+      row_name: ROW00120
+      value: 1
+  - name: COL00129
+    first_pair:
+      row_name: FOB00001
+      value: 6.74
+    second_pair:
+      row_name: ROW00120
+      value: 1
+  - name: COL00129
+    first_pair:
+      row_name: ROW00122
+      value: 1
+    second_pair:
+      row_name: ROW00127
+      value: 1.2
+  - name: COL00130
+    first_pair:
+      row_name: FOB00001
+      value: 6.84
+    second_pair:
+      row_name: ROW00120
+      value: 1
+  - name: COL00130
+    first_pair:
+      row_name: ROW00122
+      value: 1
+    second_pair:
+      row_name: ROW00128
+      value: 1
+  - name: COL00131
+    first_pair:
+      row_name: FOB00001
+      value: 15
+    second_pair:
+      row_name: ROW00118
+      value: 1
+  - name: COL00132
+    first_pair:
+      row_name: FOB00001
+      value: 22.5
+    second_pair:
+      row_name: ROW00128
+      value: 1
+  - name: COL00133
+    first_pair:
+      row_name: ROW00120
+      value: 1
+    second_pair:
+      row_name: ROW00121
+      value: 1
+  - name: COL00134
+    first_pair:
+      row_name: FOB00001
+      value: -500
+    second_pair:
+      row_name: ROW00123
+      value: -1
+  - name: COL00135
+    first_pair:
+      row_name: FOB00001
+      value: 18.7
+    second_pair:
+      row_name: ROW00123
+      value: -1
+  - name: COL00136
+    first_pair:
+      row_name: FOB00001
+      value: -258.3
+    second_pair:
+      row_name: ROW00124
+      value: -1
+  - name: COL00137
+    first_pair:
+      row_name: FOB00001
+      value: -662
+    second_pair:
+      row_name: ROW00125
+      value: -1
+  - name: COL00137
+    first_pair:
+      row_name: ROW00129
+      value: -1
+    second_pair: ~
+  - name: COL00138
+    first_pair:
+      row_name: FOB00001
+      value: 3
+    second_pair:
+      row_name: ROW00126
+      value: -1
+  - name: COL00139
+    first_pair:
+      row_name: FOB00001
+      value: 0.39
+    second_pair:
+      row_name: ROW00127
+      value: -1
+  - name: COL00140
+    first_pair:
+      row_name: FOB00001
+      value: 0.47
+    second_pair:
+      row_name: ROW00128
+      value: -1
+rhs:
+  - name: RHS
+    first_pair:
+      row_name: ROW00001
+      value: 158
+    second_pair:
+      row_name: ROW00002
+      value: 158
+  - name: RHS
+    first_pair:
+      row_name: ROW00005
+      value: 3092.96
+    second_pair:
+      row_name: ROW00006
+      value: 2566.67
+  - name: RHS
+    first_pair:
+      row_name: ROW00007
+      value: 6900
+    second_pair:
+      row_name: ROW00008
+      value: 1600
+  - name: RHS
+    first_pair:
+      row_name: ROW00009
+      value: 800
+    second_pair:
+      row_name: ROW00012
+      value: -375.2
+  - name: RHS
+    first_pair:
+      row_name: ROW00013
+      value: -92.12
+    second_pair:
+      row_name: ROW00014
+      value: -684
+  - name: RHS
+    first_pair:
+      row_name: ROW00015
+      value: -150
+    second_pair:
+      row_name: ROW00020
+      value: 1800
+  - name: RHS
+    first_pair:
+      row_name: ROW00021
+      value: 2400
+    second_pair:
+      row_name: ROW00022
+      value: 1200
+  - name: RHS
+    first_pair:
+      row_name: ROW00024
+      value: 2566.67
+    second_pair:
+      row_name: ROW00025
+      value: 6900
+  - name: RHS
+    first_pair:
+      row_name: ROW00026
+      value: 1600
+    second_pair:
+      row_name: ROW00027
+      value: 800
+  - name: RHS
+    first_pair:
+      row_name: ROW00039
+      value: 1800
+    second_pair:
+      row_name: ROW00040
+      value: 2400
+  - name: RHS
+    first_pair:
+      row_name: ROW00041
+      value: 1200
+    second_pair:
+      row_name: ROW00043
+      value: 2566.67
+  - name: RHS
+    first_pair:
+      row_name: ROW00044
+      value: 6900
+    second_pair:
+      row_name: ROW00045
+      value: 1600
+  - name: RHS
+    first_pair:
+      row_name: ROW00046
+      value: 800
+    second_pair:
+      row_name: ROW00058
+      value: 1800
+  - name: RHS
+    first_pair:
+      row_name: ROW00059
+      value: 2400
+    second_pair:
+      row_name: ROW00060
+      value: 1200
+  - name: RHS
+    first_pair:
+      row_name: ROW00062
+      value: 2566.67
+    second_pair:
+      row_name: ROW00063
+      value: 6900
+  - name: RHS
+    first_pair:
+      row_name: ROW00064
+      value: 1600
+    second_pair:
+      row_name: ROW00065
+      value: 800
+  - name: RHS
+    first_pair:
+      row_name: ROW00077
+      value: 1800
+    second_pair:
+      row_name: ROW00078
+      value: 2400
+  - name: RHS
+    first_pair:
+      row_name: ROW00079
+      value: 1200
+    second_pair:
+      row_name: ROW00081
+      value: 2566.67
+  - name: RHS
+    first_pair:
+      row_name: ROW00082
+      value: 6900
+    second_pair:
+      row_name: ROW00083
+      value: 1600
+  - name: RHS
+    first_pair:
+      row_name: ROW00084
+      value: 800
+    second_pair:
+      row_name: ROW00096
+      value: 1800
+  - name: RHS
+    first_pair:
+      row_name: ROW00097
+      value: 2400
+    second_pair:
+      row_name: ROW00098
+      value: 1200
+  - name: RHS
+    first_pair:
+      row_name: ROW00100
+      value: 2566.67
+    second_pair:
+      row_name: ROW00101
+      value: 6900
+  - name: RHS
+    first_pair:
+      row_name: ROW00102
+      value: 1600
+    second_pair:
+      row_name: ROW00103
+      value: 800
+  - name: RHS
+    first_pair:
+      row_name: ROW00115
+      value: 1800
+    second_pair:
+      row_name: ROW00116
+      value: 2400
+  - name: RHS
+    first_pair:
+      row_name: ROW00117
+      value: 1200
+    second_pair:
+      row_name: ROW00119
+      value: 2566.67
+  - name: RHS
+    first_pair:
+      row_name: ROW00120
+      value: 6900
+    second_pair:
+      row_name: ROW00121
+      value: 1600
+  - name: RHS
+    first_pair:
+      row_name: ROW00122
+      value: 800
+    second_pair: ~
+ranges: ~
+bounds: ~
+

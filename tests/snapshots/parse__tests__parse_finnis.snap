@@ -1,0 +1,1210 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/finnis\"))?"
+---
+name: FINNIS   (PTABLES3)
+rows:
+  - row_type: Nr
+    row_name: PRICER
+  - row_type: Geq
+    row_name: 1BALHCO
+  - row_type: Geq
+    row_name: 1BALCOK
+  - row_type: Geq
+    row_name: 1BALOIK
+  - row_type: Geq
+    row_name: 1BALOIL
+  - row_type: Geq
+    row_name: 1BALGSL
+  - row_type: Geq
+    row_name: 1BALDSL
+  - row_type: Geq
+    row_name: 1BALDSH
+  - row_type: Geq
+    row_name: 1BALDSR
+  - row_type: Geq
+    row_name: 1BALGAK
+  - row_type: Geq
+    row_name: 1BALGAS
+  - row_type: Geq
+    row_name: 1BALALC
+  - row_type: Geq
+    row_name: 1BALHYD
+  - row_type: Geq
+    row_name: 1BALURN
+  - row_type: Geq
+    row_name: 1BALUDP
+  - row_type: Geq
+    row_name: 1BALPLU
+  - row_type: Geq
+    row_name: 1BALMAG
+  - row_type: Geq
+    row_name: 1BALAGR
+  - row_type: Geq
+    row_name: 1BALAGS
+  - row_type: Geq
+    row_name: 1BALLMF
+  - row_type: Geq
+    row_name: 1BALLMS
+  - row_type: Geq
+    row_name: 2BALHCO
+  - row_type: Geq
+    row_name: 2BALCOK
+  - row_type: Geq
+    row_name: 2BALOIK
+  - row_type: Geq
+    row_name: 2BALOIL
+  - row_type: Geq
+    row_name: 2BALGSL
+  - row_type: Geq
+    row_name: 2BALDSL
+  - row_type: Geq
+    row_name: 2BALDSH
+  - row_type: Geq
+    row_name: 2BALDSR
+  - row_type: Geq
+    row_name: 2BALGAK
+  - row_type: Geq
+    row_name: 2BALGAS
+  - row_type: Geq
+    row_name: 2BALALC
+  - row_type: Geq
+    row_name: 2BALHYD
+  - row_type: Geq
+    row_name: 2BALURN
+  - row_type: Geq
+    row_name: 2BALUDP
+  - row_type: Geq
+    row_name: 2BALPLU
+  - row_type: Geq
+    row_name: 2BALMAG
+  - row_type: Geq
+    row_name: 2BALAGR
+  - row_type: Geq
+    row_name: 2BALAGS
+  - row_type: Geq
+    row_name: 2BALLMF
+  - row_type: Geq
+    row_name: 2BALLMS
+  - row_type: Geq
+    row_name: 3BALHCO
+  - row_type: Geq
+    row_name: 3BALCOK
+  - row_type: Geq
+    row_name: 3BALOIK
+  - row_type: Geq
+    row_name: 3BALOIL
+  - row_type: Geq
+    row_name: 3BALGSL
+  - row_type: Geq
+    row_name: 3BALDSL
+  - row_type: Geq
+    row_name: 3BALDSH
+  - row_type: Geq
+    row_name: 3BALDSR
+  - row_type: Geq
+    row_name: 3BALGAK
+  - row_type: Geq
+    row_name: 3BALGAS
+  - row_type: Geq
+    row_name: 3BALALC
+  - row_type: Geq
+    row_name: 3BALHYD
+  - row_type: Geq
+    row_name: 3BALURN
+  - row_type: Geq
+    row_name: 3BALUDP
+  - row_type: Geq
+    row_name: 3BALPLU
+  - row_type: Geq
+    row_name: 3BALMAG
+  - row_type: Geq
+    row_name: 3BALAGR
+  - row_type: Geq
+    row_name: 3BALAGS
+  - row_type: Geq
+    row_name: 3BALLMF
+  - row_type: Geq
+    row_name: 3BALLMS
+  - row_type: Eq
+    row_name: 1CPTEC3
+  - row_type: Eq
+    row_name: 1CPTEP1
+  - row_type: Eq
+    row_name: 1CPTE14
+  - row_type: Eq
+    row_name: 1CPTE22
+  - row_type: Eq
+    row_name: 1CPTE23
+  - row_type: Eq
+    row_name: 1CPTE31
+  - row_type: Eq
+    row_name: 1CPTE51
+  - row_type: Eq
+    row_name: 1CPTS06
+  - row_type: Eq
+    row_name: 1CPTS08
+  - row_type: Eq
+    row_name: 1CPTS09
+  - row_type: Eq
+    row_name: 1CPTS21
+  - row_type: Eq
+    row_name: 1CPTS23
+  - row_type: Eq
+    row_name: 1CPTS28
+  - row_type: Eq
+    row_name: 2CPTEC3
+  - row_type: Eq
+    row_name: 2CPTEP1
+  - row_type: Eq
+    row_name: 2CPTE14
+  - row_type: Eq
+    row_name: 2CPTE22
+  - row_type: Eq
+    row_name: 2CPTE23
+  - row_type: Eq
+    row_name: 2CPTE31
+  - row_type: Eq
+    row_name: 2CPTE35
+  - row_type: Eq
+    row_name: 2CPTE51
+  - row_type: Eq
+    row_name: 2CPTS06
+  - row_type: Eq
+    row_name: 2CPTS08
+  - row_type: Eq
+    row_name: 2CPTS09
+  - row_type: Eq
+    row_name: 2CPTS21
+  - row_type: Eq
+    row_name: 2CPTS23
+  - row_type: Eq
+    row_name: 2CPTS28
+  - row_type: Eq
+    row_name: 3CPTEC3
+  - row_type: Eq
+    row_name: 3CPTEP1
+  - row_type: Eq
+    row_name: 3CPTE14
+  - row_type: Eq
+    row_name: 3CPTE22
+  - row_type: Eq
+    row_name: 3CPTE23
+  - row_type: Eq
+    row_name: 3CPTE31
+  - row_type: Eq
+    row_name: 3CPTE35
+  - row_type: Eq
+    row_name: 3CPTE94
+  - row_type: Eq
+    row_name: 3CPTE60
+  - row_type: Eq
+    row_name: 3CPTE51
+  - row_type: Eq
+    row_name: 3CPTS01
+  - row_type: Eq
+    row_name: 3CPTS04
+  - row_type: Eq
+    row_name: 3CPTS06
+  - row_type: Eq
+    row_name: 3CPTS08
+  - row_type: Eq
+    row_name: 3CPTS09
+  - row_type: Eq
+    row_name: 3CPTS21
+  - row_type: Eq
+    row_name: 3CPTS23
+  - row_type: Eq
+    row_name: 3CPTS28
+  - row_type: Eq
+    row_name: 3CPTS29
+  - row_type: Eq
+    row_name: 3CPTS80
+  - row_type: Leq
+    row_name: 1CPTIJ6
+  - row_type: Leq
+    row_name: 1CPTIJ7
+  - row_type: Leq
+    row_name: 1CPTIJ8
+  - row_type: Leq
+    row_name: 1CPTR20
+  - row_type: Leq
+    row_name: 1CPTR21
+  - row_type: Leq
+    row_name: 1CPTR23
+  - row_type: Leq
+    row_name: 1CPTR27
+  - row_type: Leq
+    row_name: 1CPTR28
+  - row_type: Leq
+    row_name: 1CPTR2D
+  - row_type: Leq
+    row_name: 1CPTR2L
+  - row_type: Leq
+    row_name: 1CPTRT0
+  - row_type: Leq
+    row_name: 1CPTRT1
+  - row_type: Leq
+    row_name: 1CPTRT3
+  - row_type: Leq
+    row_name: 1CPTRT7
+  - row_type: Leq
+    row_name: 1CPTRT8
+  - row_type: Leq
+    row_name: 1CPTR50
+  - row_type: Leq
+    row_name: 1CPTR51
+  - row_type: Leq
+    row_name: 1CPTR53
+  - row_type: Leq
+    row_name: 1CPTR57
+  - row_type: Leq
+    row_name: 1CPTR58
+  - row_type: Leq
+    row_name: 1CPTR5H
+  - row_type: Leq
+    row_name: 1CPTR5L
+  - row_type: Leq
+    row_name: 1CPTR5M
+  - row_type: Leq
+    row_name: 2CPTIJ6
+  - row_type: Leq
+    row_name: 2CPTIJ7
+  - row_type: Leq
+    row_name: 2CPTIJ8
+  - row_type: Leq
+    row_name: 2CPTR20
+  - row_type: Leq
+    row_name: 2CPTR21
+  - row_type: Leq
+    row_name: 2CPTR23
+  - row_type: Leq
+    row_name: 2CPTR27
+  - row_type: Leq
+    row_name: 2CPTR28
+  - row_type: Leq
+    row_name: 2CPTR2A
+  - row_type: Leq
+    row_name: 2CPTR2B
+  - row_type: Leq
+    row_name: 2CPTR2C
+  - row_type: Leq
+    row_name: 2CPTR2D
+  - row_type: Leq
+    row_name: 2CPTR2L
+  - row_type: Leq
+    row_name: 2CPTRT0
+  - row_type: Leq
+    row_name: 2CPTRT1
+  - row_type: Leq
+    row_name: 2CPTRT3
+  - row_type: Leq
+    row_name: 2CPTRT7
+  - row_type: Leq
+    row_name: 2CPTRT8
+  - row_type: Leq
+    row_name: 2CPTRTB
+  - row_type: Leq
+    row_name: 2CPTRTC
+  - row_type: Leq
+    row_name: 2CPTR50
+  - row_type: Leq
+    row_name: 2CPTR51
+  - row_type: Leq
+    row_name: 2CPTR53
+  - row_type: Leq
+    row_name: 2CPTR57
+  - row_type: Leq
+    row_name: 2CPTR58
+  - row_type: Leq
+    row_name: 2CPTR5A
+  - row_type: Leq
+    row_name: 2CPTR5H
+  - row_type: Leq
+    row_name: 2CPTR5L
+  - row_type: Leq
+    row_name: 2CPTR5M
+  - row_type: Leq
+    row_name: 3CPTIJ6
+  - row_type: Leq
+    row_name: 3CPTIJ7
+  - row_type: Leq
+    row_name: 3CPTIJ8
+  - row_type: Leq
+    row_name: 3CPTR20
+  - row_type: Leq
+    row_name: 3CPTR21
+  - row_type: Leq
+    row_name: 3CPTR23
+  - row_type: Leq
+    row_name: 3CPTR27
+  - row_type: Leq
+    row_name: 3CPTR28
+  - row_type: Leq
+    row_name: 3CPTR2A
+  - row_type: Leq
+    row_name: 3CPTR2B
+  - row_type: Leq
+    row_name: 3CPTR2C
+  - row_type: Leq
+    row_name: 3CPTR2D
+  - row_type: Leq
+    row_name: 3CPTR2L
+  - row_type: Leq
+    row_name: 3CPTRT0
+  - row_type: Leq
+    row_name: 3CPTRT1
+  - row_type: Leq
+    row_name: 3CPTRT3
+  - row_type: Leq
+    row_name: 3CPTRT7
+  - row_type: Leq
+    row_name: 3CPTRT8
+  - row_type: Leq
+    row_name: 3CPTRTB
+  - row_type: Leq
+    row_name: 3CPTRTC
+  - row_type: Leq
+    row_name: 3CPTR50
+  - row_type: Leq
+    row_name: 3CPTR51
+  - row_type: Leq
+    row_name: 3CPTR53
+  - row_type: Leq
+    row_name: 3CPTR57
+  - row_type: Leq
+    row_name: 3CPTR58
+  - row_type: Leq
+    row_name: 3CPTR5A
+  - row_type: Leq
+    row_name: 3CPTR5C
+  - row_type: Leq
+    row_name: 3CPTR5H
+  - row_type: Leq
+    row_name: 3CPTR5L
+  - row_type: Leq
+    row_name: 3CPTR5M
+  - row_type: Leq
+    row_name: 3GRCE35
+  - row_type: Leq
+    row_name: 2GRCT80
+  - row_type: Leq
+    row_name: 3GRCT80
+  - row_type: Geq
+    row_name: 1DEMI1
+  - row_type: Geq
+    row_name: 1DEMII
+  - row_type: Geq
+    row_name: 1DEMIJ
+  - row_type: Geq
+    row_name: 1DEMNY
+  - row_type: Geq
+    row_name: 1DEMR2
+  - row_type: Geq
+    row_name: 1DEMRT
+  - row_type: Geq
+    row_name: 1DEMR5
+  - row_type: Geq
+    row_name: 1DEMRD
+  - row_type: Geq
+    row_name: 1DEMT8
+  - row_type: Geq
+    row_name: 1DEMTX
+  - row_type: Geq
+    row_name: 2DEMI1
+  - row_type: Geq
+    row_name: 2DEMII
+  - row_type: Geq
+    row_name: 2DEMIJ
+  - row_type: Geq
+    row_name: 2DEMNY
+  - row_type: Geq
+    row_name: 2DEMR2
+  - row_type: Geq
+    row_name: 2DEMRT
+  - row_type: Geq
+    row_name: 2DEMR5
+  - row_type: Geq
+    row_name: 2DEMRD
+  - row_type: Geq
+    row_name: 2DEMT8
+  - row_type: Geq
+    row_name: 2DEMTX
+  - row_type: Geq
+    row_name: 3DEMI1
+  - row_type: Geq
+    row_name: 3DEMII
+  - row_type: Geq
+    row_name: 3DEMIJ
+  - row_type: Geq
+    row_name: 3DEMNY
+  - row_type: Geq
+    row_name: 3DEMR2
+  - row_type: Geq
+    row_name: 3DEMRT
+  - row_type: Geq
+    row_name: 3DEMR5
+  - row_type: Geq
+    row_name: 3DEMRD
+  - row_type: Geq
+    row_name: 3DEMT8
+  - row_type: Geq
+    row_name: 3DEMTX
+  - row_type: Leq
+    row_name: 1UTLS06
+  - row_type: Leq
+    row_name: 1UTLS08
+  - row_type: Leq
+    row_name: 1UTLS09
+  - row_type: Leq
+    row_name: 1UTLS21
+  - row_type: Leq
+    row_name: 1UTLS23
+  - row_type: Leq
+    row_name: 1UTLS28
+  - row_type: Leq
+    row_name: 2UTLS06
+  - row_type: Leq
+    row_name: 2UTLS08
+  - row_type: Leq
+    row_name: 2UTLS09
+  - row_type: Leq
+    row_name: 2UTLS21
+  - row_type: Leq
+    row_name: 2UTLS23
+  - row_type: Leq
+    row_name: 2UTLS28
+  - row_type: Leq
+    row_name: 3UTLS01
+  - row_type: Leq
+    row_name: 3UTLS04
+  - row_type: Leq
+    row_name: 3UTLS06
+  - row_type: Leq
+    row_name: 3UTLS08
+  - row_type: Leq
+    row_name: 3UTLS09
+  - row_type: Leq
+    row_name: 3UTLS21
+  - row_type: Leq
+    row_name: 3UTLS23
+  - row_type: Leq
+    row_name: 3UTLS28
+  - row_type: Leq
+    row_name: 3UTLS29
+  - row_type: Leq
+    row_name: 3UTLS80
+  - row_type: Geq
+    row_name: 1UTLEC1
+  - row_type: Geq
+    row_name: 1UTLEC2
+  - row_type: Geq
+    row_name: 1UTLEP1
+  - row_type: Geq
+    row_name: 1UTLE22
+  - row_type: Geq
+    row_name: 1UTLE23
+  - row_type: Geq
+    row_name: 2UTLEC1
+  - row_type: Geq
+    row_name: 2UTLEC2
+  - row_type: Geq
+    row_name: 2UTLEP1
+  - row_type: Geq
+    row_name: 2UTLE22
+  - row_type: Geq
+    row_name: 2UTLE23
+  - row_type: Geq
+    row_name: 3UTLEC1
+  - row_type: Geq
+    row_name: 3UTLEC2
+  - row_type: Geq
+    row_name: 3UTLEP1
+  - row_type: Geq
+    row_name: 3UTLE22
+  - row_type: Geq
+    row_name: 3UTLE23
+  - row_type: Geq
+    row_name: 1BNDEP1L
+  - row_type: Geq
+    row_name: 2BNDEP1L
+  - row_type: Geq
+    row_name: 1BALEWD
+  - row_type: Geq
+    row_name: 1BALEWN
+  - row_type: Geq
+    row_name: 1BALEID
+  - row_type: Geq
+    row_name: 1BALEIN
+  - row_type: Geq
+    row_name: 1BALESD
+  - row_type: Geq
+    row_name: 1BALESN
+  - row_type: Geq
+    row_name: 2BALEWD
+  - row_type: Geq
+    row_name: 2BALEWN
+  - row_type: Geq
+    row_name: 2BALEID
+  - row_type: Geq
+    row_name: 2BALEIN
+  - row_type: Geq
+    row_name: 2BALESD
+  - row_type: Geq
+    row_name: 2BALESN
+  - row_type: Geq
+    row_name: 3BALEWD
+  - row_type: Geq
+    row_name: 3BALEWN
+  - row_type: Geq
+    row_name: 3BALEID
+  - row_type: Geq
+    row_name: 3BALEIN
+  - row_type: Geq
+    row_name: 3BALESD
+  - row_type: Geq
+    row_name: 3BALESN
+  - row_type: Geq
+    row_name: 1EPKWD
+  - row_type: Geq
+    row_name: 1EPKSD
+  - row_type: Geq
+    row_name: 2EPKWD
+  - row_type: Geq
+    row_name: 2EPKSD
+  - row_type: Geq
+    row_name: 3EPKWD
+  - row_type: Geq
+    row_name: 3EPKSD
+  - row_type: Leq
+    row_name: 1EWDEC1
+  - row_type: Leq
+    row_name: 1EWDEC2
+  - row_type: Leq
+    row_name: 1EWDEC3
+  - row_type: Leq
+    row_name: 1EWDEP1
+  - row_type: Leq
+    row_name: 1EWDE14
+  - row_type: Leq
+    row_name: 1EWDE22
+  - row_type: Leq
+    row_name: 1EWDE23
+  - row_type: Leq
+    row_name: 1EWDE31
+  - row_type: Leq
+    row_name: 1EWDE51
+  - row_type: Leq
+    row_name: 1EIDEC1
+  - row_type: Leq
+    row_name: 1EIDEC2
+  - row_type: Leq
+    row_name: 1EIDEC3
+  - row_type: Leq
+    row_name: 1EIDEP1
+  - row_type: Leq
+    row_name: 1EIDE14
+  - row_type: Leq
+    row_name: 1EIDE22
+  - row_type: Leq
+    row_name: 1EIDE23
+  - row_type: Leq
+    row_name: 1EIDE31
+  - row_type: Leq
+    row_name: 1EIDE51
+  - row_type: Leq
+    row_name: 1ESDEC1
+  - row_type: Leq
+    row_name: 1ESDEC2
+  - row_type: Leq
+    row_name: 1ESDEC3
+  - row_type: Leq
+    row_name: 1ESDEP1
+  - row_type: Leq
+    row_name: 1ESDE14
+  - row_type: Leq
+    row_name: 1ESDE22
+  - row_type: Leq
+    row_name: 1ESDE23
+  - row_type: Leq
+    row_name: 1ESDE31
+  - row_type: Leq
+    row_name: 1ESDE51
+  - row_type: Leq
+    row_name: 2EWDEC1
+  - row_type: Leq
+    row_name: 2EWDEC2
+  - row_type: Leq
+    row_name: 2EWDEC3
+  - row_type: Leq
+    row_name: 2EWDEP1
+  - row_type: Leq
+    row_name: 2EWDE14
+  - row_type: Leq
+    row_name: 2EWDE22
+  - row_type: Leq
+    row_name: 2EWDE23
+  - row_type: Leq
+    row_name: 2EWDE31
+  - row_type: Leq
+    row_name: 2EWDE35
+  - row_type: Leq
+    row_name: 2EWDE51
+  - row_type: Leq
+    row_name: 2EIDEC1
+  - row_type: Leq
+    row_name: 2EIDEC2
+  - row_type: Leq
+    row_name: 2EIDEC3
+  - row_type: Leq
+    row_name: 2EIDEP1
+  - row_type: Leq
+    row_name: 2EIDE14
+  - row_type: Leq
+    row_name: 2EIDE22
+  - row_type: Leq
+    row_name: 2EIDE23
+  - row_type: Leq
+    row_name: 2EIDE31
+  - row_type: Leq
+    row_name: 2EIDE35
+  - row_type: Leq
+    row_name: 2EIDE51
+  - row_type: Leq
+    row_name: 2ESDEC1
+  - row_type: Leq
+    row_name: 2ESDEC2
+  - row_type: Leq
+    row_name: 2ESDEC3
+  - row_type: Leq
+    row_name: 2ESDEP1
+  - row_type: Leq
+    row_name: 2ESDE14
+  - row_type: Leq
+    row_name: 2ESDE22
+  - row_type: Leq
+    row_name: 2ESDE23
+  - row_type: Leq
+    row_name: 2ESDE31
+  - row_type: Leq
+    row_name: 2ESDE35
+  - row_type: Leq
+    row_name: 2ESDE51
+  - row_type: Leq
+    row_name: 3EWDEC1
+  - row_type: Leq
+    row_name: 3EWDEC2
+  - row_type: Leq
+    row_name: 3EWDEC3
+  - row_type: Leq
+    row_name: 3EWDEP1
+  - row_type: Leq
+    row_name: 3EWDE14
+  - row_type: Leq
+    row_name: 3EWDE22
+  - row_type: Leq
+    row_name: 3EWDE23
+  - row_type: Leq
+    row_name: 3EWDE31
+  - row_type: Leq
+    row_name: 3EWDE35
+  - row_type: Leq
+    row_name: 3EWDE94
+  - row_type: Leq
+    row_name: 3EWDE60
+  - row_type: Leq
+    row_name: 3EWDE51
+  - row_type: Leq
+    row_name: 3EIDEC1
+  - row_type: Leq
+    row_name: 3EIDEC2
+  - row_type: Leq
+    row_name: 3EIDEC3
+  - row_type: Leq
+    row_name: 3EIDEP1
+  - row_type: Leq
+    row_name: 3EIDE14
+  - row_type: Leq
+    row_name: 3EIDE22
+  - row_type: Leq
+    row_name: 3EIDE23
+  - row_type: Leq
+    row_name: 3EIDE31
+  - row_type: Leq
+    row_name: 3EIDE35
+  - row_type: Leq
+    row_name: 3EIDE94
+  - row_type: Leq
+    row_name: 3EIDE60
+  - row_type: Leq
+    row_name: 3EIDE51
+  - row_type: Leq
+    row_name: 3ESDEC1
+  - row_type: Leq
+    row_name: 3ESDEC2
+  - row_type: Leq
+    row_name: 3ESDEC3
+  - row_type: Leq
+    row_name: 3ESDEP1
+  - row_type: Leq
+    row_name: 3ESDE14
+  - row_type: Leq
+    row_name: 3ESDE22
+  - row_type: Leq
+    row_name: 3ESDE23
+  - row_type: Leq
+    row_name: 3ESDE31
+  - row_type: Leq
+    row_name: 3ESDE35
+  - row_type: Leq
+    row_name: 3ESDE94
+  - row_type: Leq
+    row_name: 3ESDE60
+  - row_type: Leq
+    row_name: 3ESDE51
+  - row_type: Leq
+    row_name: 1EWNEC1
+  - row_type: Leq
+    row_name: 1EWNEC2
+  - row_type: Leq
+    row_name: 1EWNEC3
+  - row_type: Leq
+    row_name: 1EWNEP1
+  - row_type: Leq
+    row_name: 1EWNE14
+  - row_type: Leq
+    row_name: 1EWNE31
+  - row_type: Leq
+    row_name: 1EINEC1
+  - row_type: Leq
+    row_name: 1EINEC2
+  - row_type: Leq
+    row_name: 1EINEC3
+  - row_type: Leq
+    row_name: 1EINEP1
+  - row_type: Leq
+    row_name: 1EINE14
+  - row_type: Leq
+    row_name: 1EINE31
+  - row_type: Leq
+    row_name: 1ESNEC1
+  - row_type: Leq
+    row_name: 1ESNEC2
+  - row_type: Leq
+    row_name: 1ESNEC3
+  - row_type: Leq
+    row_name: 1ESNEP1
+  - row_type: Leq
+    row_name: 1ESNE14
+  - row_type: Leq
+    row_name: 1ESNE31
+  - row_type: Leq
+    row_name: 2EWNEC1
+  - row_type: Leq
+    row_name: 2EWNEC2
+  - row_type: Leq
+    row_name: 2EWNEC3
+  - row_type: Leq
+    row_name: 2EWNEP1
+  - row_type: Leq
+    row_name: 2EWNE14
+  - row_type: Leq
+    row_name: 2EWNE31
+  - row_type: Leq
+    row_name: 2EWNE35
+  - row_type: Leq
+    row_name: 2EINEC1
+  - row_type: Leq
+    row_name: 2EINEC2
+  - row_type: Leq
+    row_name: 2EINEC3
+  - row_type: Leq
+    row_name: 2EINEP1
+  - row_type: Leq
+    row_name: 2EINE14
+  - row_type: Leq
+    row_name: 2EINE31
+  - row_type: Leq
+    row_name: 2EINE35
+  - row_type: Leq
+    row_name: 2ESNEC1
+  - row_type: Leq
+    row_name: 2ESNEC2
+  - row_type: Leq
+    row_name: 2ESNEC3
+  - row_type: Leq
+    row_name: 2ESNEP1
+  - row_type: Leq
+    row_name: 2ESNE14
+  - row_type: Leq
+    row_name: 2ESNE31
+  - row_type: Leq
+    row_name: 2ESNE35
+  - row_type: Leq
+    row_name: 3EWNEC1
+  - row_type: Leq
+    row_name: 3EWNEC2
+  - row_type: Leq
+    row_name: 3EWNEC3
+  - row_type: Leq
+    row_name: 3EWNEP1
+  - row_type: Leq
+    row_name: 3EWNE14
+  - row_type: Leq
+    row_name: 3EWNE31
+  - row_type: Leq
+    row_name: 3EWNE35
+  - row_type: Leq
+    row_name: 3EWNE94
+  - row_type: Leq
+    row_name: 3EWNE60
+  - row_type: Leq
+    row_name: 3EINEC1
+  - row_type: Leq
+    row_name: 3EINEC2
+  - row_type: Leq
+    row_name: 3EINEC3
+  - row_type: Leq
+    row_name: 3EINEP1
+  - row_type: Leq
+    row_name: 3EINE14
+  - row_type: Leq
+    row_name: 3EINE31
+  - row_type: Leq
+    row_name: 3EINE35
+  - row_type: Leq
+    row_name: 3EINE94
+  - row_type: Leq
+    row_name: 3EINE60
+  - row_type: Leq
+    row_name: 3ESNEC1
+  - row_type: Leq
+    row_name: 3ESNEC2
+  - row_type: Leq
+    row_name: 3ESNEC3
+  - row_type: Leq
+    row_name: 3ESNEP1
+  - row_type: Leq
+    row_name: 3ESNE14
+  - row_type: Leq
+    row_name: 3ESNE31
+  - row_type: Leq
+    row_name: 3ESNE35
+  - row_type: Leq
+    row_name: 3ESNE94
+  - row_type: Leq
+    row_name: 3ESNE60
+  - row_type: Leq
+    row_name: 1BASW
+  - row_type: Leq
+    row_name: 1BASI
+  - row_type: Leq
+    row_name: 1BASS
+  - row_type: Leq
+    row_name: 2BASW
+  - row_type: Leq
+    row_name: 2BASI
+  - row_type: Leq
+    row_name: 2BASS
+  - row_type: Leq
+    row_name: 3BASW
+  - row_type: Leq
+    row_name: 3BASI
+  - row_type: Leq
+    row_name: 3BASS
+  - row_type: Geq
+    row_name: 2BALDHW
+  - row_type: Geq
+    row_name: 2BALDHI
+  - row_type: Geq
+    row_name: 2BALDHS
+  - row_type: Geq
+    row_name: 3BALDHW
+  - row_type: Geq
+    row_name: 3BALDHI
+  - row_type: Geq
+    row_name: 3BALDHS
+  - row_type: Geq
+    row_name: 2HPKW
+  - row_type: Geq
+    row_name: 3HPKW
+  - row_type: Geq
+    row_name: 1RAT001
+  - row_type: Geq
+    row_name: 2RAT001
+  - row_type: Geq
+    row_name: 3RAT001
+  - row_type: Geq
+    row_name: 1RAT002
+  - row_type: Geq
+    row_name: 2RAT002
+  - row_type: Geq
+    row_name: 3RAT002
+  - row_type: Geq
+    row_name: 1RAT003
+  - row_type: Geq
+    row_name: 2RAT003
+  - row_type: Geq
+    row_name: 3RAT003
+  - row_type: Leq
+    row_name: 1RAT004
+  - row_type: Leq
+    row_name: 2RAT004
+  - row_type: Leq
+    row_name: 3RAT004
+  - row_type: Leq
+    row_name: 1RAT005
+  - row_type: Leq
+    row_name: 2RAT005
+  - row_type: Leq
+    row_name: 3RAT005
+  - row_type: Leq
+    row_name: 1RAT006
+  - row_type: Leq
+    row_name: 2RAT006
+  - row_type: Leq
+    row_name: 3RAT006
+  - row_type: Leq
+    row_name: 1RAT007
+  - row_type: Leq
+    row_name: 2RAT007
+  - row_type: Leq
+    row_name: 3RAT007
+  - row_type: Leq
+    row_name: 2RAT008
+  - row_type: Leq
+    row_name: 3RAT008
+  - row_type: Leq
+    row_name: 2RAT009
+  - row_type: Leq
+    row_name: 3RAT009
+  - row_type: Leq
+    row_name: 1RAT010
+  - row_type: Leq
+    row_name: 2RAT010
+  - row_type: Leq
+    row_name: 3RAT010
+  - row_type: Leq
+    row_name: 1RAT011
+  - row_type: Leq
+    row_name: 2RAT011
+  - row_type: Leq
+    row_name: 3RAT011
+  - row_type: Leq
+    row_name: 2RAT012
+  - row_type: Leq
+    row_name: 3RAT012
+  - row_type: Leq
+    row_name: 1RAT013
+  - row_type: Leq
+    row_name: 2RAT013
+  - row_type: Leq
+    row_name: 3RAT013
+columns:
+  - name: 1MINHCO1
+    first_pair:
+      row_name: PRICER
+      value: 10.330608
+    second_pair:
+      row_name: 1BALHCO
+      value: 1
+  - name: 1MINHCO1
+    first_pair:
+      row_name: 1BALEWD
+      value: -0.000659
+    second_pair:
+      row_name: 1BALEWN
+      value: -0.000659
+  - name: 1MINHCO1
+    first_pair:
+      row_name: 1BALEID
+      value: -0.000857
+    second_pair:
+      row_name: 1BALEIN
+      value: -0.000461
+  - name: 1MINHCO1
+    first_pair:
+      row_name: 1BALESD
+      value: -0.002834
+    second_pair:
+      row_name: 1BALESN
+      value: -0.00112
+  - name: 1MINHCO1
+    first_pair:
+      row_name: 1EPKWD
+      value: -0.00659
+    second_pair:
+      row_name: 1EPKSD
+      value: -0.00659
+  - name: 2MINHCO1
+    first_pair:
+      row_name: PRICER
+      value: 9.170958
+    second_pair:
+      row_name: 2BALHCO
+      value: 1
+  - name: 2MINHCO1
+    first_pair:
+      row_name: 2BALEWD
+      value: -0.000659
+    second_pair:
+      row_name: 2BALEWN
+      value: -0.000659
+  - name: 2MINHCO1
+    first_pair:
+      row_name: 2BALEID
+      value: -0.000857
+    second_pair:
+      row_name: 2BALEIN
+      value: -0.000461
+  - name: 2MINHCO1
+    first_pair:
+      row_name: 2BALESD
+      value: -0.002834
+    second_pair:
+      row_name: 2BALESN
+      value: -0.00112
+  - name: 2MINHCO1
+    first_pair:
+      row_name: 2EPKWD
+      value: -0.00659
+    second_pair:
+      row_name: 2EPKSD
+      value: -0.00659
+  - name: 3MINHCO1
+    first_pair:
+      row_name: PRICER
+      value: 7.93182
+    second_pair:
+      row_name: 3BALHCO
+      value: 1
+  - name: 3MINHCO1
+    first_pair:
+      row_name: 3BALEWD
+      value: -0.000659
+    second_pair:
+      row_name: 3BALEWN
+      value: -0.000659
+  - name: 3MINHCO1
+    first_pair:
+      row_name: 3BALEID
+      value: -0.000857
+    second_pair:
+      row_name: 3BALEIN
+      value: -0.000461
+  - name: 3MINHCO1
+    first_pair:
+      row_name: 3BALESD
+      value: -0.002834
+    second_pair:
+      row_name: 3BALESN
+      value: -0.00112
+  - name: 3MINHCO1
+    first_pair:
+      row_name: 3EPKWD
+      value: -0.00659
+    second_pair:
+      row_name: 3EPKSD
+      value: -0.00659
+  - name: 1IMPHCO1
+    first_pair:
+      row_name: PRICER
+      value: 16.167389
+    second_pair:
+      row_name: 1BALHCO
+      value: 1
+  - name: 2IMPHCO1
+    first_pair:
+      row_name: PRICER
+      value: 13.355014
+    second_pair:
+      row_name: 2BALHCO
+      value: 1
+  - name: 3IMPHCO1
+    first_pair:
+      row_name: PRICER
+      value: 10.93149
+    second_pair:
+      row_name: 3BALHCO
+      value: 1
+  - name: 1EXPHCO1
+    first_pair:
+      row_name: PRICER
+      value: -16.167389
+    second_pair:
+      row_name: 1BALHCO
+      value: -1
+  - name: 2EXPHCO1
+    first_pair:
+      row_name: PRICER
+      value: -13.355014
+    second_pair:
+      row_name: 2BALHCO
+      value: -1
+  - name: 3EXPHCO1
+    first_pair:
+      row_name: PRICER
+      value: -10.93149
+    second_pair:
+      row_name: 3BALHCO
+      value: -1
+  - name: 1IMPOIL1
+    first_pair:
+      row_name: PRICER
+      value: 27.995941
+    second_pair:
+      row_name: 1BALOIL
+      value: 1
+  - name: 2IMPOIL1
+    first_pair:
+      row_name: PRICER
+      value: 22.001038
+    second_pair:
+      row_name: 2BALOIL
+      value: 1
+  - name: 3IMPOIL1
+    first_pair:
+      row_name: PRICER
+      value: 17.248093
+    second_pair:
+      row_name: 3BALOIL
+      value: 1
+  - name: 1EXPOIL1
+    first_pair:
+      row_name: PRICER
+      value: -27.995941
+    second_pair:
+      row_name: 1BALOIL
+      value: -1
+  - name: 2EXPOIL1
+    first_pair:
+      row_name: PRICER
+      value: -22.001038
+    second_pair:
+      row_name: 2BALOIL
+      value: -1
+  - name: 3EXPOIL1
+    first_pair:
+      row_name: PRICER
+      value: -17.248093
+    second_pair:
+      row_name: 3BALOIL
+      value: -1
+  - name: 1STKOIK1
+    first_pair:
+      row_name: 1BALOIK
+      value: 1
+    second_pair:
+      row_name: 1RAT011
+      value: -1
+  - name: 2STKOIK1
+    first_pair:
+      row_name: 2BALOIK
+      value: 1
+    second_pair:
+      row_name: 1BALOIK
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+

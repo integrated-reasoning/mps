@@ -1,0 +1,1161 @@
+---
+source: tests/parse.rs
+expression: "parse::<f32>(include_str!(\"../tests/data/netlib/kb2\"))?"
+---
+name: KB2
+rows:
+  - row_type: Nr
+    row_name: FAT7..J.
+  - row_type: Eq
+    row_name: BAL...BW
+  - row_type: Eq
+    row_name: BHC...BW
+  - row_type: Eq
+    row_name: BLC...BW
+  - row_type: Eq
+    row_name: BLV...BW
+  - row_type: Eq
+    row_name: BN4...BW
+  - row_type: Eq
+    row_name: BP8...BW
+  - row_type: Eq
+    row_name: BTO...BW
+  - row_type: Eq
+    row_name: B3E...BW
+  - row_type: Eq
+    row_name: B3P...BW
+  - row_type: Eq
+    row_name: B3R...BW
+  - row_type: Eq
+    row_name: B3T...BW
+  - row_type: Eq
+    row_name: B3E.VOBW
+  - row_type: Eq
+    row_name: B3P.VOBW
+  - row_type: Eq
+    row_name: B3R.VOBW
+  - row_type: Geq
+    row_name: HMH.3EBW
+  - row_type: Geq
+    row_name: HML.3EBW
+  - row_type: Geq
+    row_name: HMM.3EBW
+  - row_type: Geq
+    row_name: HRH.3EBW
+  - row_type: Geq
+    row_name: HRL.3EBW
+  - row_type: Geq
+    row_name: HRM.3EBW
+  - row_type: Geq
+    row_name: HMH.3RBW
+  - row_type: Geq
+    row_name: HML.3RBW
+  - row_type: Geq
+    row_name: HMM.3RBW
+  - row_type: Geq
+    row_name: HRH.3RBW
+  - row_type: Geq
+    row_name: HRL.3RBW
+  - row_type: Geq
+    row_name: HRM.3RBW
+  - row_type: Geq
+    row_name: NOI.3EBW
+  - row_type: Geq
+    row_name: NOI.3PBW
+  - row_type: Geq
+    row_name: NOI.3RBW
+  - row_type: Eq
+    row_name: WMO.3PBW
+  - row_type: Eq
+    row_name: WRO.3PBW
+  - row_type: Leq
+    row_name: XPB.3ABW
+  - row_type: Leq
+    row_name: XCV.3EBW
+  - row_type: Leq
+    row_name: XPB.3EBW
+  - row_type: Leq
+    row_name: XRV.3EBW
+  - row_type: Leq
+    row_name: X12.3EBW
+  - row_type: Leq
+    row_name: XCV.3PBW
+  - row_type: Leq
+    row_name: XRV.3PBW
+  - row_type: Leq
+    row_name: X12.3PBW
+  - row_type: Leq
+    row_name: XCV.3RBW
+  - row_type: Leq
+    row_name: XPB.3RBW
+  - row_type: Leq
+    row_name: XRV.3RBW
+  - row_type: Leq
+    row_name: X12.3RBW
+columns:
+  - name: BAL.3EBW
+    first_pair:
+      row_name: BAL...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BAL.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: 6
+    second_pair:
+      row_name: XRV.3EBW
+      value: 4
+  - name: BAL.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 50.3
+    second_pair:
+      row_name: HRL.3EBW
+      value: 98.70277
+  - name: BAL.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 94.63568
+    second_pair:
+      row_name: HRM.3EBW
+      value: 102.02191
+  - name: BAL.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 98.08976
+    second_pair:
+      row_name: HRH.3EBW
+      value: 103.0581
+  - name: BAL.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 99.18559
+    second_pair: ~
+  - name: BHC.3EBW
+    first_pair:
+      row_name: BHC...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BHC.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: -2
+    second_pair:
+      row_name: XRV.3EBW
+      value: 0.5
+  - name: BHC.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: -15.6
+    second_pair:
+      row_name: HRL.3EBW
+      value: 92.89535
+  - name: BHC.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 79.40534
+    second_pair:
+      row_name: HRM.3EBW
+      value: 94.57094
+  - name: BHC.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 81.47009
+    second_pair:
+      row_name: HRH.3EBW
+      value: 95.02163
+  - name: BHC.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 82.04308
+    second_pair: ~
+  - name: BLC.3EBW
+    first_pair:
+      row_name: BLC...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BLC.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: 7
+    second_pair:
+      row_name: XRV.3EBW
+      value: 4.5
+  - name: BLC.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 57.9
+    second_pair:
+      row_name: HRL.3EBW
+      value: 95.38345
+  - name: BLC.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 80.37873
+    second_pair:
+      row_name: HRM.3EBW
+      value: 97.97965
+  - name: BLC.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 83.22026
+    second_pair:
+      row_name: HRH.3EBW
+      value: 98.64634
+  - name: BLC.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 83.9937
+    second_pair: ~
+  - name: BLV.3EBW
+    first_pair:
+      row_name: BLV...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BLV.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: 14
+    second_pair:
+      row_name: XRV.3EBW
+      value: 7.2
+  - name: BLV.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 102.3
+    second_pair:
+      row_name: HRL.3EBW
+      value: 82.8797
+  - name: BLV.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 80.36789
+    second_pair:
+      row_name: HRM.3EBW
+      value: 87.33298
+  - name: BLV.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 84.5191
+    second_pair:
+      row_name: HRH.3EBW
+      value: 88.46612
+  - name: BLV.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 85.61385
+    second_pair: ~
+  - name: BN4.3EBW
+    first_pair:
+      row_name: BN4...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BN4.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: 80
+    second_pair:
+      row_name: XRV.3EBW
+      value: 70
+  - name: BN4.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 113
+    second_pair:
+      row_name: HRL.3EBW
+      value: 97.32996
+  - name: BN4.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 92.71594
+    second_pair:
+      row_name: HRM.3EBW
+      value: 100.65
+  - name: BN4.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 96.86628
+    second_pair:
+      row_name: HRH.3EBW
+      value: 101.66321
+  - name: BN4.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 98.06433
+    second_pair: ~
+  - name: BP8.3EBW
+    first_pair:
+      row_name: BP8...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BP8.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: 4
+    second_pair:
+      row_name: XRV.3EBW
+      value: 3.6
+  - name: BP8.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 28.9
+    second_pair:
+      row_name: HRL.3EBW
+      value: 101.17309
+  - name: BP8.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 90.03844
+    second_pair:
+      row_name: HRM.3EBW
+      value: 102.21363
+  - name: BP8.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 91.26611
+    second_pair:
+      row_name: HRH.3EBW
+      value: 102.51818
+  - name: BP8.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 91.62642
+    second_pair: ~
+  - name: BTO.3EBW
+    first_pair:
+      row_name: BTO...BW
+      value: -1
+    second_pair:
+      row_name: B3E.VOBW
+      value: 1
+  - name: BTO.3EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: -1
+    second_pair:
+      row_name: XRV.3EBW
+      value: 1.2
+  - name: BTO.3EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: 5
+    second_pair:
+      row_name: HRL.3EBW
+      value: 105.47666
+  - name: BTO.3EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: 89.10432
+    second_pair:
+      row_name: HRM.3EBW
+      value: 106.21918
+  - name: BTO.3EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: 90.14887
+    second_pair:
+      row_name: HRH.3EBW
+      value: 106.46719
+  - name: BTO.3EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: 90.49629
+    second_pair: ~
+  - name: BAL.3PBW
+    first_pair:
+      row_name: BAL...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BAL.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: 6
+    second_pair:
+      row_name: XRV.3PBW
+      value: 4
+  - name: BAL.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 50.3
+    second_pair:
+      row_name: WRO.3PBW
+      value: 96.13556
+  - name: BAL.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 91.96313
+    second_pair: ~
+  - name: BHC.3PBW
+    first_pair:
+      row_name: BHC...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BHC.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: -2
+    second_pair:
+      row_name: XRV.3PBW
+      value: 0.5
+  - name: BHC.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: -15.6
+    second_pair:
+      row_name: WRO.3PBW
+      value: 90.99637
+  - name: BHC.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 78.09095
+    second_pair: ~
+  - name: BLC.3PBW
+    first_pair:
+      row_name: BLC...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BLC.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: 7
+    second_pair:
+      row_name: XRV.3PBW
+      value: 4.5
+  - name: BLC.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 57.9
+    second_pair:
+      row_name: WRO.3PBW
+      value: 93.95665
+  - name: BLC.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 80.74635
+    second_pair: ~
+  - name: BLV.3PBW
+    first_pair:
+      row_name: BLV...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BLV.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: 14
+    second_pair:
+      row_name: XRV.3PBW
+      value: 7.2
+  - name: BLV.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 102.3
+    second_pair:
+      row_name: WRO.3PBW
+      value: 79.78002
+  - name: BLV.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 77.37441
+    second_pair: ~
+  - name: BN4.3PBW
+    first_pair:
+      row_name: BN4...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BN4.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: 80
+    second_pair:
+      row_name: XRV.3PBW
+      value: 70
+  - name: BN4.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 113
+    second_pair:
+      row_name: WRO.3PBW
+      value: 94.11062
+  - name: BN4.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 88.35436
+    second_pair: ~
+  - name: BP8.3PBW
+    first_pair:
+      row_name: BP8...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BP8.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: 4
+    second_pair:
+      row_name: XRV.3PBW
+      value: 3.6
+  - name: BP8.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 28.9
+    second_pair:
+      row_name: WRO.3PBW
+      value: 99.83178
+  - name: BP8.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 88.58029
+    second_pair: ~
+  - name: BTO.3PBW
+    first_pair:
+      row_name: BTO...BW
+      value: -1
+    second_pair:
+      row_name: B3P.VOBW
+      value: 1
+  - name: BTO.3PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: -1
+    second_pair:
+      row_name: XRV.3PBW
+      value: 1.2
+  - name: BTO.3PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: 5
+    second_pair:
+      row_name: WRO.3PBW
+      value: 105.07558
+  - name: BTO.3PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: 88.18188
+    second_pair: ~
+  - name: BAL.3RBW
+    first_pair:
+      row_name: BAL...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BAL.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: 6
+    second_pair:
+      row_name: XRV.3RBW
+      value: 4
+  - name: BAL.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 50.3
+    second_pair:
+      row_name: HRL.3RBW
+      value: 99.19039
+  - name: BAL.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 95.17073
+    second_pair:
+      row_name: HRM.3RBW
+      value: 101.0885
+  - name: BAL.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 97.11016
+    second_pair:
+      row_name: HRH.3RBW
+      value: 103.0581
+  - name: BAL.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 99.18559
+    second_pair: ~
+  - name: BHC.3RBW
+    first_pair:
+      row_name: BHC...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BHC.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: -2
+    second_pair:
+      row_name: XRV.3RBW
+      value: 0.5
+  - name: BHC.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: -15.6
+    second_pair:
+      row_name: HRL.3RBW
+      value: 93.16124
+  - name: BHC.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 79.72867
+    second_pair:
+      row_name: HRM.3RBW
+      value: 94.14769
+  - name: BHC.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 80.94047
+    second_pair:
+      row_name: HRH.3RBW
+      value: 95.02163
+  - name: BHC.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 82.04308
+    second_pair: ~
+  - name: BLC.3RBW
+    first_pair:
+      row_name: BLC...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BLC.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: 7
+    second_pair:
+      row_name: XRV.3RBW
+      value: 4.5
+  - name: BLC.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 57.9
+    second_pair:
+      row_name: HRL.3RBW
+      value: 95.80861
+  - name: BLC.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 80.82888
+    second_pair:
+      row_name: HRM.3RBW
+      value: 97.34183
+  - name: BLC.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 82.49926
+    second_pair:
+      row_name: HRH.3RBW
+      value: 98.64634
+  - name: BLC.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 83.9937
+    second_pair: ~
+  - name: BLV.3RBW
+    first_pair:
+      row_name: BLV...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BLV.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: 14
+    second_pair:
+      row_name: XRV.3RBW
+      value: 7.2
+  - name: BLV.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 102.3
+    second_pair:
+      row_name: HRL.3RBW
+      value: 83.61375
+  - name: BLV.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 81.03825
+    second_pair:
+      row_name: HRM.3RBW
+      value: 86.24515
+  - name: BLV.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 83.48458
+    second_pair:
+      row_name: HRH.3RBW
+      value: 88.46612
+  - name: BLV.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 85.61385
+    second_pair: ~
+  - name: BN4.3RBW
+    first_pair:
+      row_name: BN4...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BN4.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: 80
+    second_pair:
+      row_name: XRV.3RBW
+      value: 70
+  - name: BN4.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 113
+    second_pair:
+      row_name: HRL.3RBW
+      value: 97.86876
+  - name: BN4.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 93.41749
+    second_pair:
+      row_name: HRM.3RBW
+      value: 99.77765
+  - name: BN4.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 95.86635
+    second_pair:
+      row_name: HRH.3RBW
+      value: 101.66321
+  - name: BN4.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 98.06433
+    second_pair: ~
+  - name: BP8.3RBW
+    first_pair:
+      row_name: BP8...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BP8.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: 4
+    second_pair:
+      row_name: XRV.3RBW
+      value: 3.6
+  - name: BP8.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 28.9
+    second_pair:
+      row_name: HRL.3RBW
+      value: 101.32905
+  - name: BP8.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 90.22411
+    second_pair:
+      row_name: HRM.3RBW
+      value: 101.93754
+  - name: BP8.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 90.94112
+    second_pair:
+      row_name: HRH.3RBW
+      value: 102.51818
+  - name: BP8.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 91.62642
+    second_pair: ~
+  - name: BTO.3RBW
+    first_pair:
+      row_name: BTO...BW
+      value: -1
+    second_pair:
+      row_name: B3R.VOBW
+      value: 1
+  - name: BTO.3RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: -1
+    second_pair:
+      row_name: XRV.3RBW
+      value: 1.2
+  - name: BTO.3RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: 5
+    second_pair:
+      row_name: HRL.3RBW
+      value: 105.58392
+  - name: BTO.3RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: 89.25587
+    second_pair:
+      row_name: HRM.3RBW
+      value: 106.0019
+  - name: BTO.3RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: 89.84584
+    second_pair:
+      row_name: HRH.3RBW
+      value: 106.46719
+  - name: BTO.3RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: 90.49629
+    second_pair: ~
+  - name: D3T...BW
+    first_pair:
+      row_name: B3T...BW
+      value: -1
+    second_pair:
+      row_name: FAT7..J.
+      value: -16.5
+  - name: EAL...BW
+    first_pair:
+      row_name: BAL...BW
+      value: 1
+    second_pair: ~
+  - name: EHC...BW
+    first_pair:
+      row_name: BHC...BW
+      value: 1
+    second_pair: ~
+  - name: ELC...BW
+    first_pair:
+      row_name: BLC...BW
+      value: 1
+    second_pair: ~
+  - name: ELV...BW
+    first_pair:
+      row_name: BLV...BW
+      value: 1
+    second_pair: ~
+  - name: EN4...BW
+    first_pair:
+      row_name: BN4...BW
+      value: 1
+    second_pair:
+      row_name: FAT7..J.
+      value: 12
+  - name: EP8...BW
+    first_pair:
+      row_name: BP8...BW
+      value: 1
+    second_pair: ~
+  - name: ETO...BW
+    first_pair:
+      row_name: BTO...BW
+      value: 1
+    second_pair:
+      row_name: FAT7..J.
+      value: 16
+  - name: M3..3TBW
+    first_pair:
+      row_name: B3T...BW
+      value: 1
+    second_pair:
+      row_name: B3E...BW
+      value: -0.29
+  - name: M3..3TBW
+    first_pair:
+      row_name: B3P...BW
+      value: -0.17
+    second_pair:
+      row_name: B3R...BW
+      value: -0.54
+  - name: QPB73EBW
+    first_pair:
+      row_name: FAT7..J.
+      value: 0.08757
+    second_pair:
+      row_name: XPB.3EBW
+      value: 1
+  - name: QPB73EBW
+    first_pair:
+      row_name: HRL.3EBW
+      value: 2.52143
+    second_pair:
+      row_name: HML.3EBW
+      value: 3.42918
+  - name: QPB73EBW
+    first_pair:
+      row_name: HRM.3EBW
+      value: 1.54954
+    second_pair:
+      row_name: HMM.3EBW
+      value: 1.55751
+  - name: QPB73EBW
+    first_pair:
+      row_name: HRH.3EBW
+      value: 1.27141
+    second_pair:
+      row_name: HMH.3EBW
+      value: 1.23842
+  - name: QPB73EBW
+    first_pair:
+      row_name: XPB.3ABW
+      value: 1
+    second_pair: ~
+  - name: QVO73EBW
+    first_pair:
+      row_name: B3E...BW
+      value: 1
+    second_pair:
+      row_name: B3E.VOBW
+      value: -1
+  - name: QVO73EBW
+    first_pair:
+      row_name: XCV.3EBW
+      value: -16
+    second_pair:
+      row_name: XRV.3EBW
+      value: -12
+  - name: QVO73EBW
+    first_pair:
+      row_name: X12.3EBW
+      value: -61
+    second_pair:
+      row_name: NOI.3EBW
+      value: -107.52
+  - name: QVO73EBW
+    first_pair:
+      row_name: XPB.3EBW
+      value: -1.7
+    second_pair:
+      row_name: HRL.3EBW
+      value: -1.00857
+  - name: QVO73EBW
+    first_pair:
+      row_name: HML.3EBW
+      value: -1.37167
+    second_pair:
+      row_name: HRM.3EBW
+      value: -2.0144
+  - name: QVO73EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: -2.02477
+    second_pair:
+      row_name: HRH.3EBW
+      value: -2.16139
+  - name: QVO73EBW
+    first_pair:
+      row_name: HMH.3EBW
+      value: -2.10531
+    second_pair:
+      row_name: XPB.3ABW
+      value: -1.5
+  - name: QVO73PBW
+    first_pair:
+      row_name: B3P...BW
+      value: 1
+    second_pair:
+      row_name: B3P.VOBW
+      value: -1
+  - name: QVO73PBW
+    first_pair:
+      row_name: XCV.3PBW
+      value: -16
+    second_pair:
+      row_name: XRV.3PBW
+      value: -12
+  - name: QVO73PBW
+    first_pair:
+      row_name: X12.3PBW
+      value: -61
+    second_pair:
+      row_name: NOI.3PBW
+      value: -97.41
+  - name: QVO73PBW
+    first_pair:
+      row_name: XPB.3ABW
+      value: -1.5
+    second_pair: ~
+  - name: QPB73RBW
+    first_pair:
+      row_name: FAT7..J.
+      value: 0.08757
+    second_pair:
+      row_name: XPB.3RBW
+      value: 1
+  - name: QPB73RBW
+    first_pair:
+      row_name: HRL.3RBW
+      value: 4.31949
+    second_pair:
+      row_name: HML.3RBW
+      value: 4.41873
+  - name: QPB73RBW
+    first_pair:
+      row_name: HRM.3RBW
+      value: 2.62696
+    second_pair:
+      row_name: HMM.3RBW
+      value: 2.74531
+  - name: QPB73RBW
+    first_pair:
+      row_name: HRH.3RBW
+      value: 1.64391
+    second_pair:
+      row_name: HMH.3RBW
+      value: 1.75028
+  - name: QPB73RBW
+    first_pair:
+      row_name: XPB.3ABW
+      value: 1
+    second_pair: ~
+  - name: QVO73RBW
+    first_pair:
+      row_name: B3R...BW
+      value: 1
+    second_pair:
+      row_name: B3R.VOBW
+      value: -1
+  - name: QVO73RBW
+    first_pair:
+      row_name: XCV.3RBW
+      value: -16
+    second_pair:
+      row_name: XRV.3RBW
+      value: -12
+  - name: QVO73RBW
+    first_pair:
+      row_name: X12.3RBW
+      value: -61
+    second_pair:
+      row_name: NOI.3RBW
+      value: -98.5
+  - name: QVO73RBW
+    first_pair:
+      row_name: XPB.3RBW
+      value: -1.7
+    second_pair:
+      row_name: HRL.3RBW
+      value: -2.15975
+  - name: QVO73RBW
+    first_pair:
+      row_name: HML.3RBW
+      value: -2.20937
+    second_pair:
+      row_name: HRM.3RBW
+      value: -2.62696
+  - name: QVO73RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: -2.74531
+    second_pair:
+      row_name: HRH.3RBW
+      value: -2.79464
+  - name: QVO73RBW
+    first_pair:
+      row_name: HMH.3RBW
+      value: -2.97548
+    second_pair:
+      row_name: XPB.3ABW
+      value: -1.5
+  - name: WMO73EBW
+    first_pair:
+      row_name: NOI.3EBW
+      value: 0.73
+    second_pair:
+      row_name: HML.3EBW
+      value: -1
+  - name: WMO73EBW
+    first_pair:
+      row_name: HMM.3EBW
+      value: -1
+    second_pair:
+      row_name: HMH.3EBW
+      value: -1
+  - name: WRO73EBW
+    first_pair:
+      row_name: NOI.3EBW
+      value: 0.41
+    second_pair:
+      row_name: HRL.3EBW
+      value: -1
+  - name: WRO73EBW
+    first_pair:
+      row_name: HRM.3EBW
+      value: -1
+    second_pair:
+      row_name: HRH.3EBW
+      value: -1
+  - name: WMO73PBW
+    first_pair:
+      row_name: WMO.3PBW
+      value: -1
+    second_pair:
+      row_name: NOI.3PBW
+      value: 0.84
+  - name: WRO73PBW
+    first_pair:
+      row_name: WRO.3PBW
+      value: -1
+    second_pair:
+      row_name: NOI.3PBW
+      value: 0.27
+  - name: WMO73RBW
+    first_pair:
+      row_name: NOI.3RBW
+      value: 0.81
+    second_pair:
+      row_name: HML.3RBW
+      value: -1
+  - name: WMO73RBW
+    first_pair:
+      row_name: HMM.3RBW
+      value: -1
+    second_pair:
+      row_name: HMH.3RBW
+      value: -1
+  - name: WRO73RBW
+    first_pair:
+      row_name: NOI.3RBW
+      value: 0.31
+    second_pair:
+      row_name: HRL.3RBW
+      value: -1
+  - name: WRO73RBW
+    first_pair:
+      row_name: HRM.3RBW
+      value: -1
+    second_pair:
+      row_name: HRH.3RBW
+      value: -1
+rhs: ~
+ranges: ~
+bounds: ~
+
