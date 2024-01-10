@@ -13,7 +13,7 @@ use nom::{
 use nom_tracable::tracable_parser;
 use num_traits::float::Float;
 cfg_if::cfg_if! {
-  if #[cfg(feature = "located")] {
+  if #[cfg(feature = "trace")] {
     use nom_locate::LocatedSpan;
     use nom_tracable::TracableInfo;
   }
@@ -38,14 +38,14 @@ cfg_if::cfg_if! {
 ///
 /// # Feature-Dependent Behavior
 ///
-/// When compiled with the `located` feature, this function extracts the fragment
+/// When compiled with the `trace` feature, this function extracts the fragment
 /// from the `LocatedSpan` after parsing, providing additional context like line and
 /// column information in case of errors. Without this feature, it behaves as a
 /// standard `nom` parser function.
 fn not_whitespace1(s: Span) -> IResult<Span, &str> {
   let p = take_while1(|c: char| !c.is_whitespace());
   cfg_if::cfg_if! {
-    if #[cfg(feature = "located")] {
+    if #[cfg(feature = "trace")] {
       let (s, x) = p(s)?;
       Ok((s, x.fragment()))
     } else { p(s) }
@@ -62,13 +62,13 @@ impl<'a, T: Float> Parser<'a, T> {
   /// # Arguments
   ///
   /// * `s`: A `Span` representing the input MPS data. The type of `Span` depends on the compilation feature.
-  ///        With the `located` feature, it includes additional context for precise error reporting.
+  ///        With the `trace` feature, it includes additional context for precise error reporting.
   ///
   /// # Returns
   ///
   /// Returns an `IResult<Span, Parser<f32>>`:
   /// - On success: Contains the parsed `Parser` instance and the remaining unparsed input.
-  /// - On failure: Contains a parsing error, with detailed information if `located` is enabled.
+  /// - On failure: Contains a parsing error, with detailed information if `trace` is enabled.
   ///
   /// # Errors
   ///
@@ -76,8 +76,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting including detailed location tracking.
   ///
   /// # Examples
   ///
@@ -91,7 +91,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// }
   /// ```
   ///
-  /// Usage with tracing enabled (`located` feature):
+  /// Usage with tracing enabled (`trace` feature):
   /// ```ignore
   /// use mps::Parser;
   /// use nom_locate::LocatedSpan;
@@ -130,7 +130,7 @@ impl<'a, T: Float> Parser<'a, T> {
       },
     );
     cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
             let (s, x) = p(s)?;
             Ok((s, x))
         } else { p(s) }
@@ -146,7 +146,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// # Arguments
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. The `Span` can either be
-  ///        a simple string slice or a `LocatedSpan` depending on the `located` feature.
+  ///        a simple string slice or a `LocatedSpan` depending on the `trace` feature.
   ///
   /// # Returns
   ///
@@ -160,8 +160,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Basic parsing with standard error information.
-  /// - With `located`: Enhanced error reporting including detailed location tracking.
+  /// - Without `trace`: Basic parsing with standard error information.
+  /// - With `trace`: Enhanced error reporting including detailed location tracking.
   ///
   /// # Example
   ///
@@ -179,7 +179,7 @@ impl<'a, T: Float> Parser<'a, T> {
       newline,
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x.fragment()))
       } else { p(s) }
@@ -195,7 +195,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// # Arguments
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. This can be a simple string slice
-  ///        or a `LocatedSpan` if the `located` feature is enabled.
+  ///        or a `LocatedSpan` if the `trace` feature is enabled.
   ///
   /// # Returns
   ///
@@ -209,8 +209,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting including detailed location tracking.
   ///
   /// # Example
   ///
@@ -243,7 +243,7 @@ impl<'a, T: Float> Parser<'a, T> {
       },
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -276,8 +276,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing with basic error information.
-  /// - With `located`: Offers enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Performs standard parsing with basic error information.
+  /// - With `trace`: Offers enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -300,7 +300,7 @@ impl<'a, T: Float> Parser<'a, T> {
       peek(anychar),
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -316,7 +316,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// # Arguments
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. The type of `Span` can
-  ///        either be a simple string slice or a `LocatedSpan` if the `located` feature is enabled.
+  ///        either be a simple string slice or a `LocatedSpan` if the `trace` feature is enabled.
   ///
   /// # Returns
   ///
@@ -331,8 +331,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing with basic error information.
-  /// - With `located`: Enhances error reporting with detailed location tracking.
+  /// - Without `trace`: Performs standard parsing with basic error information.
+  /// - With `trace`: Enhances error reporting with detailed location tracking.
   ///
   /// # Example
   ///
@@ -376,7 +376,7 @@ impl<'a, T: Float> Parser<'a, T> {
       },
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -393,7 +393,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. The type of `Span` can
   ///        vary based on the compilation feature; it can be a simple string slice or a
-  ///        `LocatedSpan` for enhanced error reporting with the `located` feature.
+  ///        `LocatedSpan` for enhanced error reporting with the `trace` feature.
   ///
   /// # Returns
   ///
@@ -408,8 +408,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -428,7 +428,7 @@ impl<'a, T: Float> Parser<'a, T> {
   pub fn columns_line(s: Span) -> IResult<Span, WideLine<f32>> {
     let p = Self::line;
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -445,7 +445,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. Depending on the
   ///        compilation feature, this can be either a simple string slice or a `LocatedSpan`
-  ///        for enhanced error reporting with the `located` feature.
+  ///        for enhanced error reporting with the `trace` feature.
   ///
   /// # Returns
   ///
@@ -461,8 +461,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing with basic error information.
-  /// - With `located`: Provides enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Performs standard parsing with basic error information.
+  /// - With `trace`: Provides enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -487,7 +487,7 @@ impl<'a, T: Float> Parser<'a, T> {
       peek(anychar),
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -505,7 +505,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. The type of `Span` can
   ///        vary based on the compilation feature; it can be a simple string slice or a
-  ///        `LocatedSpan` for enhanced error reporting with the `located` feature.
+  ///        `LocatedSpan` for enhanced error reporting with the `trace` feature.
   ///
   /// # Returns
   ///
@@ -520,8 +520,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -540,7 +540,7 @@ impl<'a, T: Float> Parser<'a, T> {
   pub fn rhs_line(s: Span) -> IResult<Span, WideLine<f32>> {
     let p = Self::line;
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -557,7 +557,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. Depending on the
   ///        compilation feature, this can be either a simple string slice or a `LocatedSpan`
-  ///        for enhanced error reporting with the `located` feature.
+  ///        for enhanced error reporting with the `trace` feature.
   ///
   /// # Returns
   ///
@@ -573,8 +573,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing with basic error information.
-  /// - With `located`: Provides enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Performs standard parsing with basic error information.
+  /// - With `trace`: Provides enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -596,7 +596,7 @@ impl<'a, T: Float> Parser<'a, T> {
       peek(anychar),
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -613,7 +613,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// * `s`: A `Span` representing the part of the MPS file to be parsed. The type of `Span`
   ///        can vary based on the compilation feature; it can be a simple string slice or a
-  ///        `LocatedSpan` for enhanced error reporting with the `located` feature.
+  ///        `LocatedSpan` for enhanced error reporting with the `trace` feature.
   ///
   /// # Returns
   ///
@@ -628,8 +628,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -648,7 +648,7 @@ impl<'a, T: Float> Parser<'a, T> {
   pub fn ranges_line(s: Span) -> IResult<Span, WideLine<f32>> {
     let p = Self::line;
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -678,8 +678,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - `located` disabled: Standard parsing with basic error information.
-  /// - `located` enabled: Enhanced error reporting, including detailed location tracking.
+  /// - `trace` disabled: Standard parsing with basic error information.
+  /// - `trace` enabled: Enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -700,7 +700,7 @@ impl<'a, T: Float> Parser<'a, T> {
       peek(anychar),
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -729,8 +729,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing.
-  /// - With `located`: Enhanced parsing with detailed error reporting, leveraging `LocatedSpan`.
+  /// - Without `trace`: Performs standard parsing.
+  /// - With `trace`: Enhanced parsing with detailed error reporting, leveraging `LocatedSpan`.
   ///
   /// # Example
   ///
@@ -747,7 +747,7 @@ impl<'a, T: Float> Parser<'a, T> {
   #[tracable_parser]
   pub fn bound_type(s: Span) -> IResult<Span, BoundType> {
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let f = |z: LocatedSpan<&str, TracableInfo>| BoundType::try_from(*z.fragment());
       } else {
         let f = BoundType::try_from;
@@ -769,7 +769,7 @@ impl<'a, T: Float> Parser<'a, T> {
       f,
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -798,8 +798,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing with basic error information.
-  /// - With `located`: Enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Standard parsing with basic error information.
+  /// - With `trace`: Enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -841,7 +841,7 @@ impl<'a, T: Float> Parser<'a, T> {
       },
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -871,8 +871,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Performs standard parsing with basic error information.
-  /// - With `located`: Offers enhanced error reporting, including detailed location tracking.
+  /// - Without `trace`: Performs standard parsing with basic error information.
+  /// - With `trace`: Offers enhanced error reporting, including detailed location tracking.
   ///
   /// # Example
   ///
@@ -893,7 +893,7 @@ impl<'a, T: Float> Parser<'a, T> {
       peek(anychar),
     );
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x))
       } else { p(s) }
@@ -922,8 +922,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Features
   ///
-  /// - Without `located`: Standard parsing.
-  /// - With `located`: Enhanced parsing with detailed error reporting.
+  /// - Without `trace`: Standard parsing.
+  /// - With `trace`: Enhanced parsing with detailed error reporting.
   ///
   /// # Example
   ///
@@ -940,7 +940,7 @@ impl<'a, T: Float> Parser<'a, T> {
   pub fn endata(s: Span) -> IResult<Span, &str> {
     let p = tag("ENDATA");
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
         Ok((s, x.fragment()))
       } else { p(s) }

@@ -2,25 +2,25 @@ use color_eyre::{eyre::eyre, Result};
 use num_traits::float::Float;
 
 cfg_if::cfg_if! {
-  if #[cfg(feature = "located")] {
+  if #[cfg(feature = "trace")] {
     use nom_locate::LocatedSpan;
     use nom_tracable::TracableInfo;
 
     /// Conditionally compiles different `Span` types based on the crate's feature flags.
     ///
-    /// When the `located` feature is enabled, it utilizes `nom_locate::LocatedSpan` and `nom_tracable::TracableInfo`
+    /// When the `trace` feature is enabled, it utilizes `nom_locate::LocatedSpan` and `nom_tracable::TracableInfo`
     /// to provide enhanced error reporting and debugging capabilities. This allows the parser to track the location
     /// of tokens within the input, making it easier to diagnose parsing errors and understand the parsing flow.
     ///
-    /// Without the `located` feature, a simpler `Span` type is used, which is a reference to a slice of the input string.
+    /// Without the `trace` feature, a simpler `Span` type is used, which is a reference to a slice of the input string.
     /// This simpler span is more performant but lacks the detailed tracking and error reporting capabilities.
 
     /// A `Span` type that includes location and tracing information.
-    /// Used when the `located` feature is enabled.
+    /// Used when the `trace` feature is enabled.
     pub type Span<'a> = LocatedSpan<&'a str, TracableInfo>;
   } else {
     /// A simple `Span` type representing a reference to a slice of the input string.
-    /// Used when the `located` feature is not enabled.
+    /// Used when the `trace` feature is not enabled.
     pub type Span<'a> = &'a str;
   }
 }

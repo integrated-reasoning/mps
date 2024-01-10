@@ -38,7 +38,6 @@ default = ["proptest", "clap"]
 clap = ["dep:clap"]
 proptest = []
 trace = ["nom-tracable/trace", "located"]
-located = []
 
 [package.metadata.cargo-all-features]
 always_include_features = ["clap"]
