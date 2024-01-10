@@ -1,5 +1,5 @@
 use crate::types::*;
-use color_eyre::Result;
+use color_eyre::{eyre::eyre, Result};
 use nom::{
   branch::alt,
   bytes::complete::{tag, take_while1},
@@ -53,63 +53,76 @@ fn not_whitespace1(s: Span) -> IResult<Span, &str> {
 }
 
 impl<'a, T: Float> Parser<'a, T> {
-  /// Parses an MPS (Mathematical Programming System) formatted string into a `Parser` instance.
+  /// Parses an MPS formatted string into a `Parser` instance.
   ///
-  /// This method is the primary interface for converting MPS formatted data into a structured format.
-  /// It sequentially processes different sections of the MPS file (name, rows, columns, rhs, ranges, bounds),
-  /// integrating them into a single `Parser` object.
+  /// This acts as the primary public interface for converting MPS
+  /// formatted data into a structured `Parser` format. It is designed
+  /// to be the main entry point for most use cases.
+  ///
+  /// The `parse` method handles:
+  ///
+  /// - Wrapping the input with tracing infrastructure if enabled
+  /// - Calling the lower-level `mps` parsing method
+  /// - Mapping any parsing errors to a custom `nom` error
+  /// - Returning a simplified `Result<Parser, Error>`
+  ///
+  /// By handling these internals, it provides a simplified interface
+  /// focused on the end goal of parsing MPS data. This frees calling
+  /// code from interacting directly with nom parser details.
   ///
   /// # Arguments
   ///
-  /// * `s`: A `Span` representing the input MPS data. The type of `Span` depends on the compilation feature.
-  ///        With the `trace` feature, it includes additional context for precise error reporting.
+  /// * `input`: &str - A string slice containing the MPS formatted data
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, Parser<f32>>`:
-  /// - On success: Contains the parsed `Parser` instance and the remaining unparsed input.
-  /// - On failure: Contains a parsing error, with detailed information if `trace` is enabled.
+  /// Result<Parser, Error>
   ///
-  /// # Errors
-  ///
-  /// Errors occur if the input does not conform to the expected MPS format or if issues arise in any parsing stages.
-  ///
-  /// # Features
-  ///
-  /// - Without `trace`: Standard parsing with basic error information.
-  /// - With `trace`: Enhanced error reporting including detailed location tracking.
+  /// - Ok(Parser): The parsed MPS data as a `Parser` struct
+  /// - Err(Error): A nom error if parsing failed
   ///
   /// # Examples
   ///
-  /// Basic usage without tracing:
-  /// ```ignore
+  /// ```
   /// use mps::Parser;
-  /// let contents = "MPS data here...";
-  /// match Parser::<f32>::parse(&contents) {
-  ///     Ok((_, parsed)) => println!("{:#?}", parsed),
-  ///     Err(e) => eprintln!("Error parsing MPS file: {}", e),
+  /// let input = "MPS formatted data...";
+  /// match Parser::<f32>::parse(input) {
+  ///     Ok(parsed) => { /* use parsed */ },
+  ///     Err(err) => { /* handle error */ }
   /// }
   /// ```
+  pub fn parse(
+    input: &'a str,
+  ) -> Result<Parser<'a, f32>, nom::error::Error<String>> {
+    cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+            let info = TracableInfo::new().forward(false).backward(false);
+            let input = LocatedSpan::new_extra(input, info);
+        }
+    }
+    let (_, parsed) = Parser::<f32>::mps_file(input).map_err(|_| {
+      nom::error::Error::new(input.to_string(), nom::error::ErrorKind::Fail)
+    })?;
+    Ok(parsed)
+  }
+
+  /// Low-level parser directly exposing the MPS format.
   ///
-  /// Usage with tracing enabled (`trace` feature):
-  /// ```ignore
-  /// use mps::Parser;
-  /// use nom_locate::LocatedSpan;
-  /// use nom_tracable::{TracableInfo, cumulative_histogram};
-  /// let contents = "MPS data with tracing...";
-  /// let info = TracableInfo::new().forward(true).backward(true);
-  /// match Parser::<f32>::parse(LocatedSpan::new_extra(&contents, info)) {
-  ///     Ok((_, parsed)) => println!("{:#?}", parsed),
-  ///     Err(e) => eprintln!("Error parsing MPS file with tracing: {}", e),
-  /// }
-  /// cumulative_histogram();
-  /// ```
+  /// This method performs the direct parsing of MPS formatted sections
+  /// (name, rows, columns, etc.) into a `Parser` instance.
   ///
-  /// The `cumulative_histogram` function from `nom_tracable` can be used to obtain cumulative
-  /// parser invocation statistics, providing insights into the parsing process.
+  /// It uses parser combinators from the nom library and returns
+  /// an IResult<Span, Parser> representing either success or failure.
+  ///
+  /// The `mps_file` method is called internally by `parse` but exposed
+  /// publicly for advanced use cases needing direct access to the
+  /// underlying nom-based parser.
+  ///
+  /// For most use cases, the simplified `parse` interface should
+  /// be preferred over directly calling this method.
   ///
   #[tracable_parser]
-  pub fn parse(s: Span<'a>) -> IResult<Span<'a>, Parser<'a, f32>> {
+  pub fn mps_file(s: Span<'a>) -> IResult<Span<'a>, Parser<'a, f32>> {
     let mut p = map(
       tuple((
         Self::name,

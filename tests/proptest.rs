@@ -179,15 +179,22 @@ mod tests {
 
   proptest! {
     #[test]
-    fn test_parse_doesnt_crash(s in "\\PC*") {
+    fn test_mps_doesnt_crash(s in "\\PC*") {
       cfg_if::cfg_if! {
         if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = Parser::<f32>::parse(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::mps_file(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = Parser::<f32>::parse(&s);
+          let _ = Parser::<f32>::mps_file(&s);
         }
       }
+    }
+  }
+
+  proptest! {
+    #[test]
+    fn test_parse_doesnt_crash(s in "\\PC*") {
+          let _ = Parser::<f32>::parse(&s);
     }
   }
 }

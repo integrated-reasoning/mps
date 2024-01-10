@@ -42,7 +42,7 @@ mod tests {
 
   #[test]
   fn test_conflicting_rhs_line() -> Result<()> {
-    let (_, parsed) = Parser::<f32>::parse(include_str!(
+    let parsed = Parser::<f32>::parse(include_str!(
       "../../tests/data/should_fail/conflicting_rhs_line"
     ))?;
     let error = eyre!(
@@ -57,7 +57,7 @@ mod tests {
 
   #[test]
   fn test_conflicting_rows_line() -> Result<()> {
-    let (_, parsed) = Parser::<f32>::parse(include_str!(
+    let parsed = Parser::<f32>::parse(include_str!(
       "../../tests/data/should_fail/conflicting_rows_line"
     ))?;
     let error =
@@ -71,7 +71,7 @@ mod tests {
 
   #[test]
   fn test_unspecified_row_type() -> Result<()> {
-    let (_, parsed) = Parser::<f32>::parse(include_str!(
+    let parsed = Parser::<f32>::parse(include_str!(
       "../../tests/data/should_fail/unspecified_row_type"
     ))?;
     let error = eyre!("referenced row of unspecified type: X27");
@@ -84,16 +84,18 @@ mod tests {
 
   #[test]
   fn test_try_from_afiro() -> Result<()> {
-    let (_, parsed) =
-      Parser::<f32>::parse(include_str!("../../tests/data/netlib/afiro"))?;
+    let parsed = Parser::<f32>::parse(include_str!(
+      "../../tests/data/netlib/afiro"
+    ))?;
     Model::try_from(parsed)?;
     Ok(())
   }
 
   #[test]
   fn test_try_from_bnl1() -> Result<()> {
-    let (_, parsed) =
-      Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
+    let parsed = Parser::<f32>::parse(include_str!(
+      "../../tests/data/netlib/bnl1"
+    ))?;
     Model::try_from(parsed)?;
     Ok(())
   }
