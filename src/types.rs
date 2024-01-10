@@ -1,5 +1,7 @@
 use color_eyre::{eyre::eyre, Result};
 use num_traits::float::Float;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 cfg_if::cfg_if! {
   if #[cfg(feature = "trace")] {
@@ -48,6 +50,7 @@ cfg_if::cfg_if! {
 /// Each of these fields corresponds to a specific section of the MPS format, allowing for a comprehensive
 /// representation of the MPS file structure.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct Parser<'a, T: Float> {
   pub name: &'a str,
   pub rows: Rows<'a>,
@@ -71,6 +74,7 @@ pub struct Parser<'a, T: Float> {
 /// The combination of `row_type` and `row_name` allows for precise definition and
 /// identification of constraints within linear programming models.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RowLine<'a> {
   pub row_type: RowType,
   pub row_name: &'a str,
@@ -88,6 +92,7 @@ pub struct RowLine<'a> {
 /// * `Geq`: Represents a greater than or equal to constraint (`G` in MPS format).
 /// * `Nr`: Represents a special type or non-standard row (`N` in MPS format).
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub enum RowType {
   #[default]
   Eq,
@@ -148,6 +153,7 @@ pub type Columns<'a, T> = Vec<WideLine<'a, T>>;
 /// * `row_name`: A string slice referring to the name of the row.
 /// * `value`: A numeric value associated with the row.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RowValuePair<'a, T> {
   pub row_name: &'a str,
   pub value: T,
@@ -169,6 +175,7 @@ pub struct RowValuePair<'a, T> {
 /// * `first_pair`: The first `RowValuePair` representing the primary data.
 /// * `second_pair`: An optional second `RowValuePair`, used when the line spans multiple rows.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct WideLine<'a, T> {
   pub name: &'a str,
   pub first_pair: RowValuePair<'a, T>,
@@ -204,6 +211,7 @@ pub type Ranges<'a, T> = Vec<WideLine<'a, T>>;
 /// * `column_name`: A string slice representing the name of the column to which the bound applies.
 /// * `value`: The numeric value of the bound.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct BoundsLine<'a, T> {
   pub bound_type: BoundType,
   pub bound_name: &'a str,
@@ -243,6 +251,7 @@ pub type Bounds<'a, T> = Vec<BoundsLine<'a, T>>;
 /// * `Pl`: Unbounded Above (denoted as `0 <= x_j <= inf` in MPS format).
 ///   Specifies that the variable has no upper bound but is bounded below by zero.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub enum BoundType {
   #[default]
   Lo, // lower bound     :  l_j <= x_j <= inf
@@ -328,6 +337,7 @@ impl TryFrom<&str> for BoundType {
 ///
 /// Reference: Maros, I. Computational Techniques of the Simplex Method (CTSM).
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub enum RangeType {
   #[default]
   _Le, // Less than or Equal
