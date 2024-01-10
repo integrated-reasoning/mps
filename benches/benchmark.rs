@@ -1,7 +1,7 @@
 use criterion::*;
 use mps::Parser;
 cfg_if::cfg_if! {
-  if #[cfg(feature = "located")] {
+  if #[cfg(feature = "trace")] {
     use nom_locate::LocatedSpan;
     use nom_tracable::TracableInfo;
   }
@@ -113,7 +113,7 @@ fn netlib(c: &mut Criterion) {
       |b, &content| {
         b.iter(|| {
           cfg_if::cfg_if! {
-            if #[cfg(feature = "located")] {
+            if #[cfg(feature = "trace")] {
               let info = TracableInfo::new().forward(false).backward(false);
               Parser::<f32>::parse(LocatedSpan::new_extra(content, info))
             } else {

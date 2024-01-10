@@ -3,7 +3,7 @@ mod tests {
   use mps::types::*;
   use num_traits::float::Float;
   cfg_if::cfg_if! {
-    if #[cfg(feature = "located")] {
+    if #[cfg(feature = "trace")] {
       use nom_locate::LocatedSpan;
       use nom_tracable::TracableInfo;
     }
@@ -23,7 +23,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::name(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -82,7 +82,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::row_line(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -123,7 +123,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::rows(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -174,7 +174,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::columns_line(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -256,7 +256,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::columns(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -307,7 +307,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::rhs_line(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -353,7 +353,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::rhs(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -404,7 +404,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::ranges_line(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -474,7 +474,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::ranges(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -517,7 +517,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::bound_type(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -572,7 +572,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::bounds_line(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -618,7 +618,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::bounds(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -1299,7 +1299,7 @@ mod tests {
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::parse(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -1326,7 +1326,7 @@ mod tests {
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
-        if #[cfg(feature = "located")] {
+        if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
           let (s, x) = Parser::<f32>::endata(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
@@ -1341,7 +1341,7 @@ mod tests {
 
   fn parse<T: Float>(input: &'static str) -> Result<()> {
     cfg_if::cfg_if! {
-      if #[cfg(feature = "located")] {
+      if #[cfg(feature = "trace")] {
         let info = TracableInfo::new().forward(false).backward(false);
         Parser::<T>::parse(LocatedSpan::new_extra(input, info))?;
       } else {

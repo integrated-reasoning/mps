@@ -41,7 +41,7 @@
 //! ENDATA";
 //!
 //! cfg_if::cfg_if! {
-//!   if #[cfg(feature = "located")] {
+//!   if #[cfg(feature = "trace")] {
 //!     use nom_locate::LocatedSpan;
 //!     use nom_tracable::TracableInfo;
 //!     let info = TracableInfo::new().forward(true).backward(true);
