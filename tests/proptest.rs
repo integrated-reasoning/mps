@@ -1,4 +1,3 @@
-#[cfg(feature = "proptest")]
 #[cfg(test)]
 mod tests {
   use mps::types::*;
