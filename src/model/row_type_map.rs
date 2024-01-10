@@ -1,4 +1,4 @@
-use crate::types::{RowType, Rows};
+use crate::types::{Parser, RowType, Rows};
 use color_eyre::{eyre::eyre, Result};
 use hashbrown::HashMap;
 
@@ -47,7 +47,7 @@ mod tests {
 
   #[test]
   fn test_conflicting_rows_line() -> Result<()> {
-    let (_, parsed) = Parser::<f32>::parse(include_str!(
+    let parsed = Parser::<f32>::parse(include_str!(
       "../../tests/data/should_fail/conflicting_rows_line"
     ))?;
     let error =

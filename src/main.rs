@@ -18,14 +18,14 @@ fn main() -> Result<()> {
   cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
         let info = TracableInfo::new().forward(true).backward(true);
-        match mps::Parser::<f32>::parse(LocatedSpan::new_extra(&contents, info)) {
+        match mps::Parser::<f32>::mps_file(LocatedSpan::new_extra(&contents, info)) {
           Ok((_, parsed)) => Ok(println!("{:#?}", parsed)),
           Err(e) => Err(eyre!(e.to_string())),
         }?;
         nom_tracable::cumulative_histogram();
       } else {
-        match mps::Parser::<f32>::parse(&contents) {
-          Ok((_, parsed)) => Ok(println!("{:#?}", parsed)),
+        match mps::Parser::<f32>::mps_file(&contents) {
+          Ok(parsed) => Ok(println!("{:#?}", parsed)),
           Err(e) => Err(eyre!(e.to_string())),
         }?;
       }

@@ -1,7 +1,6 @@
 mod tests {
   use color_eyre::Result;
   use mps::types::*;
-  use num_traits::float::Float;
   cfg_if::cfg_if! {
     if #[cfg(feature = "trace")] {
       use nom_locate::LocatedSpan;
@@ -1301,10 +1300,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = Parser::<f32>::parse(LocatedSpan::new_extra(case.input, info))?;
+          let (s, x) = Parser::<f32>::mps_file(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = Parser::<f32>::parse(case.input)?;
+          let (s, x) = Parser::<f32>::mps_file(case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
