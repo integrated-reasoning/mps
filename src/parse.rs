@@ -363,29 +363,29 @@ impl<'a, T: Float> Parser<'a, T> {
   /// handling optional secondary data pairs if present in the line.
   #[tracable_parser]
   pub fn line(s: Span) -> IResult<Span, WideLine<f32>> {
-    let mut p = map(
-      preceded(
-        multispace1,
-        terminated(
-          tuple((
-            terminated(not_whitespace1, multispace1),
-            terminated(not_whitespace1, multispace1),
-            float,
-            opt(preceded(
-              multispace1,
-              tuple((terminated(not_whitespace1, multispace1), float)),
-            )),
-          )),
-          newline,
-        ),
-      ),
-      |(column_name, row_name, value, opt)| WideLine::<f32> {
-        name: column_name,
-        first_pair: RowValuePair { row_name, value },
-        second_pair: opt.map(|(opt_row_name, opt_value)| RowValuePair {
-          row_name: opt_row_name,
-          value: opt_value,
-        }),
+    let mut p = map_res(
+      terminated(preceded(tag(" "), not_line_ending), newline),
+      |line: Span| -> Result<WideLine<f32>> {
+        let first_pair = RowValuePair {
+          row_name: line.get(13..21).ok_or_eyre("incomplete")?,
+          value: fast_float::parse(
+            line.get(23..35).ok_or_eyre("incomplete")?.trim(),
+          )?,
+        };
+        let second_pair = match line.get(38..46) {
+          Some(row_name) => Some(RowValuePair {
+            row_name,
+            value: fast_float::parse(
+              line.get(48..60).ok_or_eyre("incomplete")?.trim(),
+            )?,
+          }),
+          None => None,
+        };
+        Ok(WideLine::<f32> {
+          name: line.get(3..11).ok_or_eyre("incomplete")?,
+          first_pair,
+          second_pair,
+        })
       },
     );
     cfg_if::cfg_if! {
