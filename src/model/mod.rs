@@ -1,9 +1,11 @@
 mod bounds_map;
+mod ranges_map;
 mod rhs_map;
 mod row_column_value_map;
 mod row_type_map;
 
 use crate::model::bounds_map::BoundsMap;
+use crate::model::ranges_map::RangesMap;
 use crate::model::rhs_map::RhsMap;
 use crate::model::row_column_value_map::RowColumnValueMap;
 use crate::model::row_type_map::RowTypeMap;
@@ -18,6 +20,7 @@ pub struct Model {
   pub values: RowColumnValueMap,
   pub rhs: RhsMap,
   pub bounds: BoundsMap,
+  pub ranges: RangesMap,
 }
 
 impl TryFrom<Parser<'_, f32>> for Model {
@@ -38,12 +41,17 @@ impl TryFrom<Parser<'_, f32>> for Model {
       Some(bounds) => BoundsMap::try_from((&bounds, &column_names)),
       None => Ok(BoundsMap::default()),
     }?;
+    let ranges = match parsed.ranges {
+      Some(ranges) => RangesMap::try_from((&ranges, &row_types)),
+      None => Ok(RangesMap::default()),
+    }?;
     Ok(Model {
       name: parsed.name.to_string(),
       row_types,
       values,
       rhs,
       bounds,
+      ranges,
     })
   }
 }
@@ -52,6 +60,21 @@ impl TryFrom<Parser<'_, f32>> for Model {
 mod tests {
   use super::*;
   use color_eyre::{eyre::eyre, Result};
+
+  #[test]
+  fn test_conflicting_ranges_line() -> Result<()> {
+    let parsed = Parser::<f32>::parse(include_str!(
+      "../../tests/data/should_fail/conflicting_ranges_line"
+    ))?;
+    let error = eyre!(
+      "duplicate entry in BOUNDS \"BOUND\" for column \"UGTD03\": found 0.2 and 20.2"
+    );
+    match Model::try_from(parsed) {
+      Ok(_) => panic!(),
+      Err(e) => assert_eq!(e.to_string(), error.to_string()),
+    };
+    Ok(())
+  }
 
   #[test]
   fn test_conflicting_bounds_line() -> Result<()> {
