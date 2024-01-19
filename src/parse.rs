@@ -131,7 +131,7 @@ impl<'a, T: Float> Parser<'a, T> {
         opt(Self::rhs),
         opt(Self::ranges),
         opt(Self::bounds),
-        opt(Self::endata),
+        Self::endata,
       )),
       |(name, rows, columns, rhs, ranges, bounds, _)| Parser {
         name,
