@@ -1,11 +1,11 @@
 use crate::types::*;
-use color_eyre::{eyre::eyre, Result};
+use color_eyre::{eyre::OptionExt, Result};
 use nom::{
   branch::alt,
   bytes::complete::{tag, take_while1},
   character::complete::*,
   combinator::{map, map_res, opt, peek},
-  multi::{count, many1},
+  multi::{count, many0},
   number::complete::float,
   sequence::{preceded, separated_pair, terminated, tuple},
   IResult,
@@ -303,14 +303,14 @@ impl<'a, T: Float> Parser<'a, T> {
   /// }
   /// ```
   ///
-  /// The function employs `many1` to parse one or more row lines and collects them into a vector.
+  /// The function employs `many0` to parse row lines and collects them into a vector.
   /// It uses `terminated` to delineate the end of the ROWS section, allowing for seamless transition
   /// to subsequent sections of the MPS file.
   #[tracable_parser]
   pub fn rows(s: Span) -> IResult<Span, Vec<RowLine>> {
     let mut p = terminated(
-      preceded(terminated(tag("ROWS"), newline), many1(Self::row_line)),
-      peek(anychar),
+      preceded(terminated(tag("ROWS"), newline), many0(Self::row_line)),
+      peek(not_whitespace1),
     );
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -488,16 +488,16 @@ impl<'a, T: Float> Parser<'a, T> {
   /// }
   /// ```
   ///
-  /// The function employs `many1` to parse one or more column lines and collects them into a vector.
+  /// The function employs `many0` to parse column lines and collects them into a vector.
   /// It uses `terminated` and `preceded` combinators to delineate the start and end of the COLUMNS section.
   #[tracable_parser]
   pub fn columns(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
     let mut p = terminated(
       preceded(
         terminated(tag("COLUMNS"), newline),
-        many1(Self::columns_line),
+        many0(Self::columns_line),
       ),
-      peek(anychar),
+      peek(not_whitespace1),
     );
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -600,13 +600,13 @@ impl<'a, T: Float> Parser<'a, T> {
   /// }
   /// ```
   ///
-  /// The function employs `many1` to parse one or more RHS lines and collects them into a vector.
+  /// The function employs `many0` to parse RHS lines and collects them into a vector.
   /// It uses `terminated` and `preceded` combinators to delineate the start and end of the RHS section.
   #[tracable_parser]
   pub fn rhs(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
     let mut p = terminated(
-      preceded(terminated(tag("RHS"), newline), many1(Self::rhs_line)),
-      peek(anychar),
+      preceded(terminated(tag("RHS"), newline), many0(Self::rhs_line)),
+      peek(not_whitespace1),
     );
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -709,8 +709,8 @@ impl<'a, T: Float> Parser<'a, T> {
   #[tracable_parser]
   pub fn ranges(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
     let mut p = terminated(
-      preceded(terminated(tag("RANGES"), newline), many1(Self::ranges_line)),
-      peek(anychar),
+      preceded(terminated(tag("RANGES"), newline), many0(Self::ranges_line)),
+      peek(not_whitespace1),
     );
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -902,8 +902,8 @@ impl<'a, T: Float> Parser<'a, T> {
   #[tracable_parser]
   pub fn bounds(s: Span) -> IResult<Span, Vec<BoundsLine<f32>>> {
     let mut p = terminated(
-      preceded(terminated(tag("BOUNDS"), newline), many1(Self::bounds_line)),
-      peek(anychar),
+      preceded(terminated(tag("BOUNDS"), newline), many0(Self::bounds_line)),
+      peek(not_whitespace1),
     );
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
