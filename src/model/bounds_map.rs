@@ -3,7 +3,7 @@ use color_eyre::{eyre::eyre, Result};
 use hashbrown::{HashMap, HashSet};
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct BoundsMap(HashMap<String, HashMap<String, (f32, BoundType)>>);
+pub struct BoundsMap(HashMap<String, HashMap<(String, BoundType), f32>>);
 
 impl TryFrom<(&Bounds<'_, f32>, &HashSet<&str>)> for BoundsMap {
   type Error = color_eyre::Report;
@@ -40,14 +40,14 @@ impl BoundsMap {
     match self.0.get_mut(bound_name) {
       None => {
         let mut bounds = HashMap::new();
-        bounds.insert(column_name.to_string(), (value, bound_type));
+        bounds.insert((column_name.to_string(), bound_type), value);
         self.0.insert(bound_name.to_string(), bounds);
         Ok(())
       }
       Some(bounds) => {
-        match bounds.insert(column_name.to_string(), (value, bound_type)) {
+        match bounds.insert((column_name.to_string(), bound_type), value) {
           Some(conflicting_value) => Err(eyre!(format!(
-            "duplicate entry in bound {:?} at column {:?}: found {:?} and {:?}",
+            "duplicate entry in BOUNDS {:?} for column {:?}: found {:?} and {:?}",
             bound_name, column_name, value, conflicting_value
           ))),
           None => Ok(()),
