@@ -54,6 +54,21 @@ mod tests {
   use color_eyre::{eyre::eyre, Result};
 
   #[test]
+  fn test_conflicting_bounds_line() -> Result<()> {
+    let parsed = Parser::<f32>::parse(include_str!(
+      "../../tests/data/should_fail/conflicting_bounds_line"
+    ))?;
+    let error = eyre!(
+      "duplicate entry in BOUNDS \"BOUND\" for column \"UGTD03\": found 0.2 and 20.2"
+    );
+    match Model::try_from(parsed) {
+      Ok(_) => panic!(),
+      Err(e) => assert_eq!(e.to_string(), error.to_string()),
+    };
+    Ok(())
+  }
+
+  #[test]
   fn test_conflicting_rhs_line() -> Result<()> {
     let parsed = Parser::<f32>::parse(include_str!(
       "../../tests/data/should_fail/conflicting_rhs_line"
