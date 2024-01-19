@@ -1,12 +1,15 @@
+mod bounds_map;
 mod rhs_map;
 mod row_column_value_map;
 mod row_type_map;
 
+use crate::model::bounds_map::BoundsMap;
 use crate::model::rhs_map::RhsMap;
 use crate::model::row_column_value_map::RowColumnValueMap;
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Parser;
 use color_eyre::Result;
+use hashbrown::HashSet;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 pub struct Model {
@@ -14,6 +17,7 @@ pub struct Model {
   pub row_types: RowTypeMap,
   pub values: RowColumnValueMap,
   pub rhs: RhsMap,
+  pub bounds: BoundsMap,
 }
 
 impl TryFrom<Parser<'_, f32>> for Model {
@@ -26,11 +30,20 @@ impl TryFrom<Parser<'_, f32>> for Model {
       Some(rhs) => RhsMap::try_from((&rhs, &row_types)),
       None => Ok(RhsMap::default()),
     }?;
+    let mut column_names = HashSet::<&str>::new();
+    for c in &parsed.columns {
+      column_names.insert(c.name);
+    }
+    let bounds = match parsed.bounds {
+      Some(bounds) => BoundsMap::try_from((&bounds, &column_names)),
+      None => Ok(BoundsMap::default()),
+    }?;
     Ok(Model {
       name: parsed.name.to_string(),
       row_types,
       values,
       rhs,
+      bounds,
     })
   }
 }
@@ -84,19 +97,26 @@ mod tests {
 
   #[test]
   fn test_try_from_afiro() -> Result<()> {
-    let parsed = Parser::<f32>::parse(include_str!(
-      "../../tests/data/netlib/afiro"
-    ))?;
+    let parsed =
+      Parser::<f32>::parse(include_str!("../../tests/data/netlib/afiro"))?;
     Model::try_from(parsed)?;
     Ok(())
   }
 
   #[test]
   fn test_try_from_bnl1() -> Result<()> {
-    let parsed = Parser::<f32>::parse(include_str!(
-      "../../tests/data/netlib/bnl1"
-    ))?;
+    let parsed =
+      Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
     Model::try_from(parsed)?;
+    Ok(())
+  }
+
+  #[test]
+  fn test_try_from_bnl1_snapshot() -> Result<()> {
+    let parsed =
+      Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
+    let model = format!("{:?}", Model::try_from(parsed)?);
+    insta::assert_yaml_snapshot!(model);
     Ok(())
   }
 }
