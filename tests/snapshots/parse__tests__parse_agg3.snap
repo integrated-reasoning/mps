@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/agg3\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/agg3\"))?"
 ---
 name: AGG3
 rows:
@@ -17137,1638 +17137,1638 @@ columns:
       row_name: OBJECTIV
       value: 100.08
 rhs:
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00101
       value: 21402.352
     second_pair:
       row_name: CAP00201
       value: 1109.564
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00301
       value: 6398.867
     second_pair:
       row_name: CAP00401
       value: 4994.207
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00501
       value: 25473.793
     second_pair:
       row_name: CAP00601
       value: 2976.586
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00701
       value: 11731.258
     second_pair:
       row_name: CAP00801
       value: 1349.467
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00901
       value: 40824
     second_pair:
       row_name: CAP01001
       value: 26535.277
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01101
       value: 6237
     second_pair:
       row_name: CAP01201
       value: 2349.025
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01301
       value: 1701
     second_pair:
       row_name: CAP01401
       value: 5820.91
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01501
       value: 451.772
     second_pair:
       row_name: CAP01601
       value: 539.978
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01701
       value: 539.978
     second_pair:
       row_name: CAP01801
       value: 1019.816
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02001
       value: 976.719
     second_pair:
       row_name: CAP02201
       value: 441.6
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02501
       value: 530.082
     second_pair:
       row_name: CAP02701
       value: 2349.458
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03101
       value: 560.095
     second_pair:
       row_name: CAP03301
       value: 1280.882
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03401
       value: 2206.437
     second_pair:
       row_name: CAP03601
       value: 1360.8
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03701
       value: 2989.774
     second_pair:
       row_name: CAP03801
       value: 1215.202
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04001
       value: 243.007
     second_pair:
       row_name: CAP04101
       value: 747.091
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04201
       value: 1048.789
     second_pair:
       row_name: CAP04301
       value: 1191.972
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04401
       value: 345.16
     second_pair:
       row_name: CAP04501
       value: 1041.932
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04601
       value: 1495.486
     second_pair:
       row_name: CAP04701
       value: 1425.113
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04801
       value: 751.68
     second_pair:
       row_name: CAP04901
       value: 728.351
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05001
       value: 715.696
     second_pair:
       row_name: CAP05101
       value: 741.069
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05201
       value: 1879.199
     second_pair:
       row_name: CAP05301
       value: 617.378
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05401
       value: 762.48
     second_pair:
       row_name: CAP05501
       value: 1769.04
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05601
       value: 1108.08
     second_pair:
       row_name: CAP05701
       value: 1010.88
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05801
       value: 1108.08
     second_pair:
       row_name: CAP05901
       value: 758.16
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06001
       value: 4445.168
     second_pair:
       row_name: CAP06101
       value: 3762.83
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06201
       value: 766.48
     second_pair:
       row_name: CAP06301
       value: 3491.335
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06501
       value: 2103.447
     second_pair:
       row_name: CAP00102
       value: 21329.559
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00202
       value: 1895.961
     second_pair:
       row_name: CAP00302
       value: 5687.883
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00402
       value: 7109.852
     second_pair:
       row_name: CAP00502
       value: 26069.46
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00602
       value: 6635.863
     second_pair:
       row_name: CAP00702
       value: 10427.785
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00802
       value: 1421.971
     second_pair:
       row_name: CAP00902
       value: 36288
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01002
       value: 24192
     second_pair:
       row_name: CAP01102
       value: 5544
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01202
       value: 2520
     second_pair:
       row_name: CAP01302
       value: 1512
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01402
       value: 5759.766
     second_pair:
       row_name: CAP01502
       value: 479.981
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01602
       value: 479.981
     second_pair:
       row_name: CAP01702
       value: 479.981
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01802
       value: 959.961
     second_pair:
       row_name: CAP01902
       value: 622.498
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02002
       value: 862.428
     second_pair:
       row_name: CAP02102
       value: 850.085
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02202
       value: 384
     second_pair:
       row_name: CAP02302
       value: 571.335
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02402
       value: 576
     second_pair:
       row_name: CAP02502
       value: 480
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02602
       value: 1486.165
     second_pair:
       row_name: CAP02702
       value: 2153.096
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02802
       value: 1380.153
     second_pair:
       row_name: CAP02902
       value: 432
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03002
       value: 480
     second_pair:
       row_name: CAP03102
       value: 579.611
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03202
       value: 1217.973
     second_pair:
       row_name: CAP03302
       value: 1152
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03402
       value: 2102.399
     second_pair:
       row_name: CAP03502
       value: 115.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03602
       value: 1209.6
     second_pair:
       row_name: CAP03702
       value: 2678.4
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03802
       value: 1157.76
     second_pair:
       row_name: CAP03902
       value: 299.52
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04002
       value: 328.32
     second_pair:
       row_name: CAP04102
       value: 668.16
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04202
       value: 1036.8
     second_pair:
       row_name: CAP04302
       value: 1088.64
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04402
       value: 362.88
     second_pair:
       row_name: CAP04502
       value: 1002.24
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04602
       value: 1336.319
     second_pair:
       row_name: CAP04702
       value: 1336.319
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04802
       value: 668.16
     second_pair:
       row_name: CAP04902
       value: 668.16
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05002
       value: 668.16
     second_pair:
       row_name: CAP05102
       value: 679.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05202
       value: 1670.399
     second_pair:
       row_name: CAP05302
       value: 576
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05402
       value: 725.76
     second_pair:
       row_name: CAP05502
       value: 1572.48
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05602
       value: 984.959
     second_pair:
       row_name: CAP05702
       value: 898.56
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05802
       value: 984.959
     second_pair:
       row_name: CAP05902
       value: 673.92
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06002
       value: 3922.548
     second_pair:
       row_name: CAP06102
       value: 3360
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06202
       value: 1260
     second_pair:
       row_name: CAP06302
       value: 3317.932
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06402
       value: 1726.687
     second_pair:
       row_name: CAP06502
       value: 2303.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00103
       value: 23107.027
     second_pair:
       row_name: CAP00203
       value: 2053.958
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00303
       value: 6161.871
     second_pair:
       row_name: CAP00403
       value: 7702.34
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00503
       value: 28241.922
     second_pair:
       row_name: CAP00603
       value: 7188.852
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00703
       value: 11296.766
     second_pair:
       row_name: CAP00803
       value: 1540.469
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00903
       value: 39312
     second_pair:
       row_name: CAP01003
       value: 26208
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01103
       value: 6006
     second_pair:
       row_name: CAP01203
       value: 2730
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01303
       value: 1638
     second_pair:
       row_name: CAP01403
       value: 6239.746
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01503
       value: 519.979
     second_pair:
       row_name: CAP01603
       value: 519.979
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01703
       value: 519.979
     second_pair:
       row_name: CAP01803
       value: 1039.958
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01903
       value: 685.44
     second_pair:
       row_name: CAP02003
       value: 907.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02103
       value: 902.664
     second_pair:
       row_name: CAP02203
       value: 403.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02303
       value: 601.776
     second_pair:
       row_name: CAP02403
       value: 604.8
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02503
       value: 504
     second_pair:
       row_name: CAP02603
       value: 1562.399
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02703
       value: 2328.479
     second_pair:
       row_name: CAP02803
       value: 1461.599
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02903
       value: 453.6
     second_pair:
       row_name: CAP03003
       value: 504
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03103
       value: 665.28
     second_pair:
       row_name: CAP03203
       value: 1280.159
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03303
       value: 1248
     second_pair:
       row_name: CAP03403
       value: 2277.599
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03503
       value: 124.8
     second_pair:
       row_name: CAP03603
       value: 1310.399
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03703
       value: 2901.599
     second_pair:
       row_name: CAP03803
       value: 1254.24
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03903
       value: 324.48
     second_pair:
       row_name: CAP04003
       value: 355.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04103
       value: 723.84
     second_pair:
       row_name: CAP04203
       value: 1123.199
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04303
       value: 1179.36
     second_pair:
       row_name: CAP04403
       value: 393.12
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04503
       value: 1085.76
     second_pair:
       row_name: CAP04603
       value: 1447.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04703
       value: 1447.68
     second_pair:
       row_name: CAP04803
       value: 723.84
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04903
       value: 723.84
     second_pair:
       row_name: CAP05003
       value: 723.84
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05103
       value: 736.32
     second_pair:
       row_name: CAP05203
       value: 1809.6
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05303
       value: 624
     second_pair:
       row_name: CAP05403
       value: 786.24
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05503
       value: 1703.52
     second_pair:
       row_name: CAP05603
       value: 1067.04
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05703
       value: 973.44
     second_pair:
       row_name: CAP05803
       value: 1067.04
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05903
       value: 730.08
     second_pair:
       row_name: CAP06003
       value: 4157.996
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06103
       value: 3528
     second_pair:
       row_name: CAP06203
       value: 1323
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06303
       value: 3594.427
     second_pair:
       row_name: CAP06403
       value: 1814.399
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06503
       value: 2419.2
     second_pair:
       row_name: CAP00104
       value: 23107.027
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00204
       value: 2053.958
     second_pair:
       row_name: CAP00304
       value: 6161.871
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00404
       value: 7702.34
     second_pair:
       row_name: CAP00504
       value: 28241.922
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00604
       value: 7188.852
     second_pair:
       row_name: CAP00704
       value: 11296.766
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00804
       value: 1540.469
     second_pair:
       row_name: CAP00904
       value: 39312
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01004
       value: 26208
     second_pair:
       row_name: CAP01104
       value: 6006
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01204
       value: 2730
     second_pair:
       row_name: CAP01304
       value: 1638
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01404
       value: 6239.746
     second_pair:
       row_name: CAP01504
       value: 519.979
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01604
       value: 519.979
     second_pair:
       row_name: CAP01704
       value: 519.979
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01804
       value: 1039.958
     second_pair:
       row_name: CAP01904
       value: 718.08
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02004
       value: 950.4
     second_pair:
       row_name: CAP02104
       value: 945.647
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02204
       value: 422.4
     second_pair:
       row_name: CAP02304
       value: 630.432
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02404
       value: 633.6
     second_pair:
       row_name: CAP02504
       value: 528
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02604
       value: 1636.799
     second_pair:
       row_name: CAP02704
       value: 2439.36
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02804
       value: 1531.2
     second_pair:
       row_name: CAP02904
       value: 475.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03004
       value: 528
     second_pair:
       row_name: CAP03104
       value: 696.96
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03204
       value: 1341.119
     second_pair:
       row_name: CAP03304
       value: 1248
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03404
       value: 2277.599
     second_pair:
       row_name: CAP03504
       value: 124.8
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03604
       value: 1310.399
     second_pair:
       row_name: CAP03704
       value: 2901.599
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03804
       value: 1254.24
     second_pair:
       row_name: CAP03904
       value: 324.48
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04004
       value: 355.68
     second_pair:
       row_name: CAP04104
       value: 723.84
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04204
       value: 1123.199
     second_pair:
       row_name: CAP04304
       value: 1179.36
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04404
       value: 393.12
     second_pair:
       row_name: CAP04504
       value: 1085.76
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04604
       value: 1447.68
     second_pair:
       row_name: CAP04704
       value: 1447.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04804
       value: 723.84
     second_pair:
       row_name: CAP04904
       value: 723.84
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05004
       value: 723.84
     second_pair:
       row_name: CAP05104
       value: 736.32
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05204
       value: 1809.6
     second_pair:
       row_name: CAP05304
       value: 624
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05404
       value: 786.24
     second_pair:
       row_name: CAP05504
       value: 1703.52
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05604
       value: 1067.04
     second_pair:
       row_name: CAP05704
       value: 973.44
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05804
       value: 1067.04
     second_pair:
       row_name: CAP05904
       value: 730.08
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06004
       value: 4355.996
     second_pair:
       row_name: CAP06104
       value: 3696
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06204
       value: 1386
     second_pair:
       row_name: CAP06304
       value: 3594.427
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06404
       value: 1900.8
     second_pair:
       row_name: CAP06504
       value: 2534.399
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00105
       value: 23995.754
     second_pair:
       row_name: CAP00205
       value: 2132.956
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00305
       value: 6398.867
     second_pair:
       row_name: CAP00405
       value: 7998.582
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00505
       value: 29328.145
     second_pair:
       row_name: CAP00605
       value: 7465.344
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00705
       value: 11731.258
     second_pair:
       row_name: CAP00805
       value: 1599.717
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00905
       value: 40824
     second_pair:
       row_name: CAP01005
       value: 27216
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01105
       value: 6237
     second_pair:
       row_name: CAP01205
       value: 2835
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01305
       value: 1701
     second_pair:
       row_name: CAP01405
       value: 6479.738
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01505
       value: 539.978
     second_pair:
       row_name: CAP01605
       value: 539.978
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01705
       value: 539.978
     second_pair:
       row_name: CAP01805
       value: 1079.957
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01905
       value: 718.08
     second_pair:
       row_name: CAP02005
       value: 950.4
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02105
       value: 945.647
     second_pair:
       row_name: CAP02205
       value: 422.4
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02305
       value: 630.432
     second_pair:
       row_name: CAP02405
       value: 633.6
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02505
       value: 528
     second_pair:
       row_name: CAP02605
       value: 1636.799
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02705
       value: 2439.36
     second_pair:
       row_name: CAP02805
       value: 1531.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02905
       value: 475.2
     second_pair:
       row_name: CAP03005
       value: 528
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03105
       value: 696.96
     second_pair:
       row_name: CAP03205
       value: 1341.119
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03305
       value: 1296
     second_pair:
       row_name: CAP03405
       value: 2365.199
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03505
       value: 129.6
     second_pair:
       row_name: CAP03605
       value: 1360.8
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03705
       value: 3013.199
     second_pair:
       row_name: CAP03805
       value: 1302.48
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03905
       value: 336.96
     second_pair:
       row_name: CAP04005
       value: 369.36
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04105
       value: 751.68
     second_pair:
       row_name: CAP04205
       value: 1166.399
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04305
       value: 1224.72
     second_pair:
       row_name: CAP04405
       value: 408.24
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04505
       value: 1127.52
     second_pair:
       row_name: CAP04605
       value: 1503.359
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04705
       value: 1503.359
     second_pair:
       row_name: CAP04805
       value: 751.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04905
       value: 751.68
     second_pair:
       row_name: CAP05005
       value: 751.68
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05105
       value: 764.64
     second_pair:
       row_name: CAP05205
       value: 1879.199
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05305
       value: 648
     second_pair:
       row_name: CAP05405
       value: 816.48
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05505
       value: 1769.04
     second_pair:
       row_name: CAP05605
       value: 1108.08
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05705
       value: 1010.88
     second_pair:
       row_name: CAP05805
       value: 1108.08
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05905
       value: 758.16
     second_pair:
       row_name: CAP06005
       value: 4355.996
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06105
       value: 3696
     second_pair:
       row_name: CAP06205
       value: 1386
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06305
       value: 3732.673
     second_pair:
       row_name: CAP06405
       value: 1900.8
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06505
       value: 2534.399
     second_pair:
       row_name: CAP00106
       value: 22218.285
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00206
       value: 1974.959
     second_pair:
       row_name: CAP00306
       value: 5924.875
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00406
       value: 7406.094
     second_pair:
       row_name: CAP00506
       value: 27155.684
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00606
       value: 6912.355
     second_pair:
       row_name: CAP00706
       value: 10862.273
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP00806
       value: 1481.219
     second_pair:
       row_name: CAP00906
       value: 37800
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01006
       value: 25200
     second_pair:
       row_name: CAP01106
       value: 5775
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01206
       value: 2625
     second_pair:
       row_name: CAP01306
       value: 1575
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01406
       value: 1999.92
     second_pair:
       row_name: CAP01506
       value: 166.66
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01606
       value: 166.66
     second_pair:
       row_name: CAP01706
       value: 166.66
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP01806
       value: 333.32
     second_pair:
       row_name: CAP01906
       value: 685.44
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02006
       value: 907.2
     second_pair:
       row_name: CAP02106
       value: 902.664
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02206
       value: 403.2
     second_pair:
       row_name: CAP02306
       value: 601.776
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02406
       value: 604.8
     second_pair:
       row_name: CAP02506
       value: 504
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02606
       value: 1562.399
     second_pair:
       row_name: CAP02706
       value: 2328.479
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP02806
       value: 1461.599
     second_pair:
       row_name: CAP02906
       value: 453.6
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03006
       value: 504
     second_pair:
       row_name: CAP03106
       value: 665.28
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03206
       value: 1280.159
     second_pair:
       row_name: CAP03306
       value: 1200
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03406
       value: 2189.999
     second_pair:
       row_name: CAP03506
       value: 120
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03606
       value: 1259.999
     second_pair:
       row_name: CAP03706
       value: 2789.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP03806
       value: 1205.999
     second_pair:
       row_name: CAP03906
       value: 312
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04006
       value: 342
     second_pair:
       row_name: CAP04106
       value: 696
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04206
       value: 1079.999
     second_pair:
       row_name: CAP04306
       value: 1133.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04406
       value: 378
     second_pair:
       row_name: CAP04506
       value: 1043.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04606
       value: 1391.999
     second_pair:
       row_name: CAP04706
       value: 1391.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP04806
       value: 696
     second_pair:
       row_name: CAP04906
       value: 696
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05006
       value: 696
     second_pair:
       row_name: CAP05106
       value: 708
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05206
       value: 1739.999
     second_pair:
       row_name: CAP05306
       value: 600
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05406
       value: 756
     second_pair:
       row_name: CAP05506
       value: 1637.999
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05606
       value: 1025.999
     second_pair:
       row_name: CAP05706
       value: 936
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP05806
       value: 1025.999
     second_pair:
       row_name: CAP05906
       value: 702
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06006
       value: 4157.996
     second_pair:
       row_name: CAP06106
       value: 3528
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06206
       value: 1323
     second_pair:
       row_name: CAP06306
       value: 3456.178
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CAP06406
       value: 1814.399
     second_pair:
       row_name: CAP06506
       value: 2419.2
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0010102
       value: 22000
     second_pair:
       row_name: U0020102
       value: 80000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0050102
       value: 350000
     second_pair:
       row_name: U0070102
       value: 14000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0080102
       value: 7000
     second_pair:
       row_name: U0090102
       value: 699.99
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0100102
       value: 300
     second_pair:
       row_name: U0110102
       value: 36000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0120102
       value: 66699.93
     second_pair:
       row_name: U0130102
       value: 33300
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0140102
       value: 135300
     second_pair:
       row_name: U0150102
       value: 67699.93
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0160102
       value: 128000
     second_pair:
       row_name: U0010103
       value: 43000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0020103
       value: 122856.93
     second_pair:
       row_name: U0030103
       value: 34712
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0040103
       value: 1600
     second_pair:
       row_name: U0050103
       value: 700000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0060103
       value: 5000
     second_pair:
       row_name: U0070103
       value: 34000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0080103
       value: 17000
     second_pair:
       row_name: U0090103
       value: 4399.99
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0100103
       value: 2199.99
     second_pair:
       row_name: U0110103
       value: 66000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0120103
       value: 126699.93
     second_pair:
       row_name: U0130103
       value: 63300
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0140103
       value: 335300
     second_pair:
       row_name: U0150103
       value: 167699.94
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0160103
       value: 248000
     second_pair:
       row_name: U0010104
       value: 83000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0020104
       value: 144285.94
     second_pair:
       row_name: U0030104
       value: 93536
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0040104
       value: 3400
     second_pair:
       row_name: U0050104
       value: 1000000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0060104
       value: 12000
     second_pair:
       row_name: U0070104
       value: 47300
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0080104
       value: 23699.99
     second_pair:
       row_name: U0090104
       value: 7999.99
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0100104
       value: 3899.99
     second_pair:
       row_name: U0110104
       value: 96000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0120104
       value: 226699.94
     second_pair:
       row_name: U0130104
       value: 113300
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0140104
       value: 548600
     second_pair:
       row_name: U0150104
       value: 274399.88
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0160104
       value: 348000
     second_pair:
       row_name: U0010105
       value: 123000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0020105
       value: 144856.88
     second_pair:
       row_name: U0030105
       value: 164123.94
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0040105
       value: 5299.99
     second_pair:
       row_name: U0050105
       value: 1200000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0060105
       value: 19000
     second_pair:
       row_name: U0070105
       value: 60600
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0080105
       value: 30399.99
     second_pair:
       row_name: U0090105
       value: 11599.99
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0100105
       value: 5599.99
     second_pair:
       row_name: U0110105
       value: 126000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0120105
       value: 326699.94
     second_pair:
       row_name: U0130105
       value: 163300
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0140105
       value: 748600
     second_pair:
       row_name: U0150105
       value: 374399.88
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0160105
       value: 448000
     second_pair:
       row_name: U0010106
       value: 163000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0020106
       value: 145427.81
     second_pair:
       row_name: U0030106
       value: 234711.88
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0040106
       value: 7299.99
     second_pair:
       row_name: U0050106
       value: 1400000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0060106
       value: 25000
     second_pair:
       row_name: U0070106
       value: 73900
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0080106
       value: 37099.98
     second_pair:
       row_name: U0090106
       value: 14899.99
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0100106
       value: 7299.99
     second_pair:
       row_name: U0110106
       value: 156000
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0120106
       value: 459999.94
     second_pair:
       row_name: U0130106
       value: 229999.94
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0140106
       value: 948600
     second_pair:
       row_name: U0150106
       value: 474399.88
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: U0160106
       value: 548000
     second_pair:
       row_name: I0010101
       value: -29070.688
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0010102
       value: -397600
     second_pair:
       row_name: I0020101
       value: -1009.996
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0020102
       value: -6749.996
     second_pair:
       row_name: I0030101
       value: -54160.625
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0040101
       value: -32169.137
     second_pair:
       row_name: I0050101
       value: -121518.25
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0050201
       value: -119183.19
     second_pair:
       row_name: I0060101
       value: -60804.09
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0060201
       value: -59546.707
     second_pair:
       row_name: I0070101
       value: -127276.75
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: I0080101
       value: -2259.4

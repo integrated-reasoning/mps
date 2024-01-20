@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/kb2\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/kb2\"))?"
 ---
 name: KB2
 rows:
@@ -1155,7 +1155,43 @@ columns:
     second_pair:
       row_name: HRH.3RBW
       value: -1
-rhs: ~
+rhs: []
 ranges: ~
-bounds: ~
+bounds:
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: BHC.3EBW
+    value: 10
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: D3T...BW
+    value: 200
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: EAL...BW
+    value: 10
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: EHC...BW
+    value: 20
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: ELC...BW
+    value: 25
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: ELV...BW
+    value: 12
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: EN4...BW
+    value: 100
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: EP8...BW
+    value: 35
+  - bound_type: Up
+    bound_name: "77BOUND "
+    column_name: ETO...BW
+    value: 5
 

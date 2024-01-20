@@ -143,14 +143,14 @@ mod tests {
           "    X01       X48               .301   R09                -1.\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "X01",
+          WideLine {
+            name: "X01     ",
             first_pair: RowValuePair {
-              row_name: "X48",
+              row_name: "X48     ",
               value: 0.301,
             },
             second_pair: Some(RowValuePair {
-              row_name: "R09",
+              row_name: "R09     ",
               value: -1.0,
             }),
           },
@@ -160,10 +160,10 @@ mod tests {
         input: "    X02       COST               -.4\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "X02",
+          WideLine {
+            name: "X02     ",
             first_pair: RowValuePair {
-              row_name: "COST",
+              row_name: "COST    ",
               value: -0.4,
             },
             second_pair: None,
@@ -198,55 +198,55 @@ mod tests {
       expected: (
         "RHS",
         vec![
-          WideLine::<f32> {
-            name: "X01",
+          WideLine {
+            name: "X01     ",
             first_pair: RowValuePair {
-              row_name: "X48",
+              row_name: "X48     ",
               value: 0.301,
             },
             second_pair: Some(RowValuePair {
-              row_name: "R09",
+              row_name: "R09     ",
               value: -1.0,
             }),
           },
-          WideLine::<f32> {
-            name: "X01",
+          WideLine {
+            name: "X01     ",
             first_pair: RowValuePair {
-              row_name: "R10",
+              row_name: "R10     ",
               value: -1.06,
             },
             second_pair: Some(RowValuePair {
-              row_name: "X05",
+              row_name: "X05     ",
               value: 1.0,
             }),
           },
-          WideLine::<f32> {
-            name: "X02",
+          WideLine {
+            name: "X02     ",
             first_pair: RowValuePair {
-              row_name: "X21",
+              row_name: "X21     ",
               value: -1.0,
             },
             second_pair: Some(RowValuePair {
-              row_name: "R09",
+              row_name: "R09     ",
               value: 1.0,
             }),
           },
-          WideLine::<f32> {
-            name: "X02",
+          WideLine {
+            name: "X02     ",
             first_pair: RowValuePair {
-              row_name: "COST",
+              row_name: "COST    ",
               value: -0.4,
             },
             second_pair: None,
           },
-          WideLine::<f32> {
-            name: "X03",
+          WideLine {
+            name: "X03     ",
             first_pair: RowValuePair {
-              row_name: "X46",
+              row_name: "X46     ",
               value: -1.0,
             },
             second_pair: Some(RowValuePair {
-              row_name: "R09",
+              row_name: "R09     ",
               value: 1.0,
             }),
           },
@@ -276,14 +276,14 @@ mod tests {
           "    RHS1      LIM1                 5   LIM2                10\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "RHS1",
+          WideLine {
+            name: "RHS1    ",
             first_pair: RowValuePair {
-              row_name: "LIM1",
+              row_name: "LIM1    ",
               value: 5.0,
             },
             second_pair: Some(RowValuePair {
-              row_name: "LIM2",
+              row_name: "LIM2    ",
               value: 10.0,
             }),
           },
@@ -293,10 +293,10 @@ mod tests {
         input: "    RHS1      MYEQN                7\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "RHS1",
+          WideLine {
+            name: "RHS1    ",
             first_pair: RowValuePair {
-              row_name: "MYEQN",
+              row_name: "MYEQN   ",
               value: 7.0,
             },
             second_pair: None,
@@ -328,21 +328,21 @@ mod tests {
       expected: (
         "BOUNDS",
         vec![
-          WideLine::<f32> {
-            name: "RHS1",
+          WideLine {
+            name: "RHS1    ",
             first_pair: RowValuePair {
-              row_name: "LIM1",
+              row_name: "LIM1    ",
               value: 5.0,
             },
             second_pair: Some(RowValuePair {
-              row_name: "LIM2",
+              row_name: "LIM2    ",
               value: 10.0,
             }),
           },
-          WideLine::<f32> {
-            name: "RHS1",
+          WideLine {
+            name: "RHS1    ",
             first_pair: RowValuePair {
-              row_name: "MYEQN",
+              row_name: "MYEQN   ",
               value: 7.0,
             },
             second_pair: None,
@@ -373,8 +373,8 @@ mod tests {
           "    RANGE1    VILLKOR6           2.5   VILLKOR7           30.\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR6",
               value: 2.5,
@@ -390,8 +390,8 @@ mod tests {
         input: "    RANGE1    VILLKOR8           7.5\n",
         expected: (
           "",
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR8",
               value: 7.5,
@@ -427,8 +427,8 @@ mod tests {
       expected: (
         "BOUNDS",
         vec![
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR2",
               value: 7.0,
@@ -438,8 +438,8 @@ mod tests {
               value: 7.0,
             }),
           },
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR4",
               value: 3.5,
@@ -449,8 +449,8 @@ mod tests {
               value: 10.0,
             }),
           },
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR6",
               value: 2.5,
@@ -460,8 +460,8 @@ mod tests {
               value: 30.0,
             }),
           },
-          WideLine::<f32> {
-            name: "RANGE1",
+          WideLine {
+            name: "RANGE1  ",
             first_pair: RowValuePair {
               row_name: "VILLKOR8",
               value: 7.5,
@@ -536,11 +536,11 @@ mod tests {
         input: " UP BND1      XONE                 4\n",
         expected: (
           "",
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Up,
-            bound_name: "BND1",
-            column_name: "XONE",
-            value: 4.0,
+            bound_name: "BND1    ",
+            column_name: "XONE    ",
+            value: Some(4.0),
           },
         ),
       },
@@ -548,11 +548,11 @@ mod tests {
         input: " LO BND1      YTWO                -1\n",
         expected: (
           "",
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Lo,
-            bound_name: "BND1",
-            column_name: "YTWO",
-            value: -1.0,
+            bound_name: "BND1    ",
+            column_name: "YTWO    ",
+            value: Some(-1.0),
           },
         ),
       },
@@ -560,11 +560,11 @@ mod tests {
         input: " UP BND1      YTWO                 1\n",
         expected: (
           "",
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Up,
-            bound_name: "BND1",
-            column_name: "YTWO",
-            value: 1.0,
+            bound_name: "BND1    ",
+            column_name: "YTWO    ",
+            value: Some(1.0),
           },
         ),
       },
@@ -594,23 +594,23 @@ mod tests {
       expected: (
         "ENDATA",
         vec![
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Up,
-            bound_name: "BND1",
-            column_name: "XONE",
-            value: 4.0,
+            bound_name: "BND1    ",
+            column_name: "XONE    ",
+            value: Some(4.0),
           },
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Lo,
-            bound_name: "BND1",
-            column_name: "YTWO",
-            value: -1.0,
+            bound_name: "BND1    ",
+            column_name: "YTWO    ",
+            value: Some(-1.0),
           },
-          BoundsLine::<f32> {
+          BoundsLine {
             bound_type: BoundType::Up,
-            bound_name: "BND1",
-            column_name: "YTWO",
-            value: 1.0,
+            bound_name: "BND1    ",
+            column_name: "YTWO    ",
+            value: Some(1.0),
           },
         ],
       ),
@@ -634,7 +634,7 @@ mod tests {
   fn test_parse() -> Result<()> {
     let test_cases = vec![TestData {
       input: include_str!("../tests/data/netlib/afiro"),
-      expected: (
+      expected: ((
         "\n",
         Parser {
           name: "AFIRO",
@@ -754,538 +754,538 @@ mod tests {
           ],
           columns: vec![
             WideLine {
-              name: "X01",
+              name: "X01     ",
               first_pair: RowValuePair {
-                row_name: "X48",
+                row_name: "X48     ",
                 value: 0.301,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R09",
+                row_name: "R09     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X01",
+              name: "X01     ",
               first_pair: RowValuePair {
-                row_name: "R10",
+                row_name: "R10     ",
                 value: -1.06,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X05",
+                row_name: "X05     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X02",
+              name: "X02     ",
               first_pair: RowValuePair {
-                row_name: "X21",
+                row_name: "X21     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R09",
+                row_name: "R09     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X02",
+              name: "X02     ",
               first_pair: RowValuePair {
-                row_name: "COST",
+                row_name: "COST    ",
                 value: -0.4,
               },
               second_pair: None,
             },
             WideLine {
-              name: "X03",
+              name: "X03     ",
               first_pair: RowValuePair {
-                row_name: "X46",
+                row_name: "X46     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R09",
+                row_name: "R09     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X04",
+              name: "X04     ",
               first_pair: RowValuePair {
-                row_name: "X50",
+                row_name: "X50     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R10",
+                row_name: "R10     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X06",
+              name: "X06     ",
               first_pair: RowValuePair {
-                row_name: "X49",
+                row_name: "X49     ",
                 value: 0.301,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X06",
+              name: "X06     ",
               first_pair: RowValuePair {
-                row_name: "R13",
+                row_name: "R13     ",
                 value: -1.06,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X17",
+                row_name: "X17     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X07",
+              name: "X07     ",
               first_pair: RowValuePair {
-                row_name: "X49",
+                row_name: "X49     ",
                 value: 0.313,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X07",
+              name: "X07     ",
               first_pair: RowValuePair {
-                row_name: "R13",
+                row_name: "R13     ",
                 value: -1.06,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X18",
+                row_name: "X18     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X08",
+              name: "X08     ",
               first_pair: RowValuePair {
-                row_name: "X49",
+                row_name: "X49     ",
                 value: 0.313,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X08",
+              name: "X08     ",
               first_pair: RowValuePair {
-                row_name: "R13",
+                row_name: "R13     ",
                 value: -0.96,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X19",
+                row_name: "X19     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X09",
+              name: "X09     ",
               first_pair: RowValuePair {
-                row_name: "X49",
+                row_name: "X49     ",
                 value: 0.326,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X09",
+              name: "X09     ",
               first_pair: RowValuePair {
-                row_name: "R13",
+                row_name: "R13     ",
                 value: -0.86,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X20",
+                row_name: "X20     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X10",
+              name: "X10     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.364,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X17",
+                row_name: "X17     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X11",
+              name: "X11     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.386,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X18",
+                row_name: "X18     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X12",
+              name: "X12     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.408,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X19",
+                row_name: "X19     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X13",
+              name: "X13     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.429,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X20",
+                row_name: "X20     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X14",
+              name: "X14     ",
               first_pair: RowValuePair {
-                row_name: "X21",
+                row_name: "X21     ",
                 value: 1.4,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X14",
+              name: "X14     ",
               first_pair: RowValuePair {
-                row_name: "COST",
+                row_name: "COST    ",
                 value: -0.32,
               },
               second_pair: None,
             },
             WideLine {
-              name: "X15",
+              name: "X15     ",
               first_pair: RowValuePair {
-                row_name: "X47",
+                row_name: "X47     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R12",
+                row_name: "R12     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X16",
+              name: "X16     ",
               first_pair: RowValuePair {
-                row_name: "X51",
+                row_name: "X51     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R13",
+                row_name: "R13     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X22",
+              name: "X22     ",
               first_pair: RowValuePair {
-                row_name: "X46",
+                row_name: "X46     ",
                 value: 0.109,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R19",
+                row_name: "R19     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X22",
+              name: "X22     ",
               first_pair: RowValuePair {
-                row_name: "R20",
+                row_name: "R20     ",
                 value: -0.43,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X27",
+                row_name: "X27     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X23",
+              name: "X23     ",
               first_pair: RowValuePair {
-                row_name: "X44",
+                row_name: "X44     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R19",
+                row_name: "R19     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X23",
+              name: "X23     ",
               first_pair: RowValuePair {
-                row_name: "COST",
+                row_name: "COST    ",
                 value: -0.6,
               },
               second_pair: None,
             },
             WideLine {
-              name: "X24",
+              name: "X24     ",
               first_pair: RowValuePair {
-                row_name: "X48",
+                row_name: "X48     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R19",
+                row_name: "R19     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X25",
+              name: "X25     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R19",
+                row_name: "R19     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X26",
+              name: "X26     ",
               first_pair: RowValuePair {
-                row_name: "X50",
+                row_name: "X50     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R20",
+                row_name: "R20     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X28",
+              name: "X28     ",
               first_pair: RowValuePair {
-                row_name: "X47",
+                row_name: "X47     ",
                 value: 0.109,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R22",
+                row_name: "R22     ",
                 value: -0.43,
               }),
             },
             WideLine {
-              name: "X28",
+              name: "X28     ",
               first_pair: RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X40",
+                row_name: "X40     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X29",
+              name: "X29     ",
               first_pair: RowValuePair {
-                row_name: "X47",
+                row_name: "X47     ",
                 value: 0.108,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R22",
+                row_name: "R22     ",
                 value: -0.43,
               }),
             },
             WideLine {
-              name: "X29",
+              name: "X29     ",
               first_pair: RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X41",
+                row_name: "X41     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X30",
+              name: "X30     ",
               first_pair: RowValuePair {
-                row_name: "X47",
+                row_name: "X47     ",
                 value: 0.108,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R22",
+                row_name: "R22     ",
                 value: -0.39,
               }),
             },
             WideLine {
-              name: "X30",
+              name: "X30     ",
               first_pair: RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X42",
+                row_name: "X42     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X31",
+              name: "X31     ",
               first_pair: RowValuePair {
-                row_name: "X47",
+                row_name: "X47     ",
                 value: 0.107,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R22",
+                row_name: "R22     ",
                 value: -0.37,
               }),
             },
             WideLine {
-              name: "X31",
+              name: "X31     ",
               first_pair: RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X43",
+                row_name: "X43     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X32",
+              name: "X32     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.191,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X40",
+                row_name: "X40     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X33",
+              name: "X33     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.219,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X41",
+                row_name: "X41     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X34",
+              name: "X34     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.249,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X42",
+                row_name: "X42     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X35",
+              name: "X35     ",
               first_pair: RowValuePair {
-                row_name: "X45",
+                row_name: "X45     ",
                 value: 2.279,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X43",
+                row_name: "X43     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X36",
+              name: "X36     ",
               first_pair: RowValuePair {
-                row_name: "X44",
+                row_name: "X44     ",
                 value: 1.4,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: -1.0,
               }),
             },
             WideLine {
-              name: "X36",
+              name: "X36     ",
               first_pair: RowValuePair {
-                row_name: "COST",
+                row_name: "COST    ",
                 value: -0.48,
               },
               second_pair: None,
             },
             WideLine {
-              name: "X37",
+              name: "X37     ",
               first_pair: RowValuePair {
-                row_name: "X49",
+                row_name: "X49     ",
                 value: -1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X38",
+              name: "X38     ",
               first_pair: RowValuePair {
-                row_name: "X51",
+                row_name: "X51     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R22",
+                row_name: "R22     ",
                 value: 1.0,
               }),
             },
             WideLine {
-              name: "X39",
+              name: "X39     ",
               first_pair: RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 1.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "COST",
+                row_name: "COST    ",
                 value: 10.0,
               }),
             },
           ],
           rhs: Some(vec![
             WideLine {
-              name: "B",
+              name: "B       ",
               first_pair: RowValuePair {
-                row_name: "X50",
+                row_name: "X50     ",
                 value: 310.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X51",
+                row_name: "X51     ",
                 value: 300.0,
               }),
             },
             WideLine {
-              name: "B",
+              name: "B       ",
               first_pair: RowValuePair {
-                row_name: "X05",
+                row_name: "X05     ",
                 value: 80.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "X17",
+                row_name: "X17     ",
                 value: 80.0,
               }),
             },
             WideLine {
-              name: "B",
+              name: "B       ",
               first_pair: RowValuePair {
-                row_name: "X27",
+                row_name: "X27     ",
                 value: 500.0,
               },
               second_pair: Some(RowValuePair {
-                row_name: "R23",
+                row_name: "R23     ",
                 value: 44.0,
               }),
             },
             WideLine {
-              name: "B",
+              name: "B       ",
               first_pair: RowValuePair {
-                row_name: "X40",
+                row_name: "X40     ",
                 value: 500.0,
               },
               second_pair: None,
@@ -1294,7 +1294,7 @@ mod tests {
           ranges: None,
           bounds: None,
         },
-      ),
+      )),
     }];
     for case in test_cases {
       cfg_if::cfg_if! {

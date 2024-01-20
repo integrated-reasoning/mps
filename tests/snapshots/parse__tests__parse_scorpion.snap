@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scorpion\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/scorpion\"))?"
 ---
 name: SCORPION
 rows:
@@ -783,6511 +783,6511 @@ rows:
   - row_type: Leq
     row_name: C0006
 columns:
-  - name: X0001
+  - name: "X0001   "
     first_pair:
-      row_name: C0001
+      row_name: "C0001   "
       value: 1
     second_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: -0.94
-  - name: X0001
+  - name: "X0001   "
     first_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 20.64
-  - name: X0007
+  - name: "X0007   "
     first_pair:
-      row_name: C0007
+      row_name: "C0007   "
       value: 1
     second_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: -0.94
-  - name: X0007
+  - name: "X0007   "
     first_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 102.27
-  - name: X0013
+  - name: "X0013   "
     first_pair:
-      row_name: C0013
+      row_name: "C0013   "
       value: 1
     second_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: -0.94
-  - name: X0013
+  - name: "X0013   "
     first_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
     second_pair: ~
-  - name: X0019
+  - name: "X0019   "
     first_pair:
-      row_name: C0025
+      row_name: "C0025   "
       value: -0.94
     second_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
-  - name: X0019
+  - name: "X0019   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 189.84
     second_pair: ~
-  - name: X0025
+  - name: "X0025   "
     first_pair:
-      row_name: C0031
+      row_name: "C0031   "
       value: -0.94
     second_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
-  - name: X0025
+  - name: "X0025   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 180.48
     second_pair: ~
-  - name: X0031
+  - name: "X0031   "
     first_pair:
-      row_name: C0037
+      row_name: "C0037   "
       value: -0.94
     second_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1
-  - name: X0031
+  - name: "X0031   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 171.32
     second_pair: ~
-  - name: X0037
+  - name: "X0037   "
     first_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0037
+  - name: "X0037   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0163
+      row_name: "C0163   "
       value: 0.985
-  - name: X0037
+  - name: "X0037   "
     first_pair:
-      row_name: C0169
+      row_name: "C0169   "
       value: -0.4
     second_pair:
-      row_name: C0175
+      row_name: "C0175   "
       value: -0.105
-  - name: X0037
+  - name: "X0037   "
     first_pair:
-      row_name: C0181
+      row_name: "C0181   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0043
+  - name: "X0043   "
     first_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: 1
     second_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
-  - name: X0043
+  - name: "X0043   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0163
+      row_name: "C0163   "
       value: -0.015
-  - name: X0043
+  - name: "X0043   "
     first_pair:
-      row_name: C0169
+      row_name: "C0169   "
       value: 0.6
     second_pair:
-      row_name: C0175
+      row_name: "C0175   "
       value: -0.105
-  - name: X0043
+  - name: "X0043   "
     first_pair:
-      row_name: C0181
+      row_name: "C0181   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0049
+  - name: "X0049   "
     first_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: 1
     second_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
-  - name: X0049
+  - name: "X0049   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0163
+      row_name: "C0163   "
       value: -0.015
-  - name: X0049
+  - name: "X0049   "
     first_pair:
-      row_name: C0169
+      row_name: "C0169   "
       value: -0.4
     second_pair:
-      row_name: C0175
+      row_name: "C0175   "
       value: 0.895
-  - name: X0049
+  - name: "X0049   "
     first_pair:
-      row_name: C0181
+      row_name: "C0181   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0055
+  - name: "X0055   "
     first_pair:
-      row_name: C0019
+      row_name: "C0019   "
       value: 1
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: -1
-  - name: X0055
+  - name: "X0055   "
     first_pair:
-      row_name: C0163
+      row_name: "C0163   "
       value: -0.015
     second_pair:
-      row_name: C0169
+      row_name: "C0169   "
       value: -0.4
-  - name: X0055
+  - name: "X0055   "
     first_pair:
-      row_name: C0175
+      row_name: "C0175   "
       value: -0.105
     second_pair:
-      row_name: C0181
+      row_name: "C0181   "
       value: 0.52
-  - name: X0055
+  - name: "X0055   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
     second_pair: ~
-  - name: X0061
+  - name: "X0061   "
     first_pair:
-      row_name: C0025
+      row_name: "C0025   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0061
+  - name: "X0061   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0187
+      row_name: "C0187   "
       value: 0.98
-  - name: X0061
+  - name: "X0061   "
     first_pair:
-      row_name: C0193
+      row_name: "C0193   "
       value: -0.39
     second_pair:
-      row_name: C0199
+      row_name: "C0199   "
       value: -0.2
-  - name: X0061
+  - name: "X0061   "
     first_pair:
-      row_name: C0205
+      row_name: "C0205   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0067
+  - name: "X0067   "
     first_pair:
-      row_name: C0025
+      row_name: "C0025   "
       value: 1
     second_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
-  - name: X0067
+  - name: "X0067   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0187
+      row_name: "C0187   "
       value: -0.02
-  - name: X0067
+  - name: "X0067   "
     first_pair:
-      row_name: C0193
+      row_name: "C0193   "
       value: 0.61
     second_pair:
-      row_name: C0199
+      row_name: "C0199   "
       value: -0.2
-  - name: X0067
+  - name: "X0067   "
     first_pair:
-      row_name: C0205
+      row_name: "C0205   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0073
+  - name: "X0073   "
     first_pair:
-      row_name: C0025
+      row_name: "C0025   "
       value: 1
     second_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
-  - name: X0073
+  - name: "X0073   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0187
+      row_name: "C0187   "
       value: -0.02
-  - name: X0073
+  - name: "X0073   "
     first_pair:
-      row_name: C0193
+      row_name: "C0193   "
       value: -0.39
     second_pair:
-      row_name: C0199
+      row_name: "C0199   "
       value: 0.8
-  - name: X0073
+  - name: "X0073   "
     first_pair:
-      row_name: C0205
+      row_name: "C0205   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0079
+  - name: "X0079   "
     first_pair:
-      row_name: C0025
+      row_name: "C0025   "
       value: 1
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: -1
-  - name: X0079
+  - name: "X0079   "
     first_pair:
-      row_name: C0187
+      row_name: "C0187   "
       value: -0.02
     second_pair:
-      row_name: C0193
+      row_name: "C0193   "
       value: -0.39
-  - name: X0079
+  - name: "X0079   "
     first_pair:
-      row_name: C0199
+      row_name: "C0199   "
       value: -0.2
     second_pair:
-      row_name: C0205
+      row_name: "C0205   "
       value: 0.61
-  - name: X0079
+  - name: "X0079   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
     second_pair: ~
-  - name: X0085
+  - name: "X0085   "
     first_pair:
-      row_name: C0031
+      row_name: "C0031   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0085
+  - name: "X0085   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0211
+      row_name: "C0211   "
       value: 0.985
-  - name: X0085
+  - name: "X0085   "
     first_pair:
-      row_name: C0217
+      row_name: "C0217   "
       value: -0.35
     second_pair:
-      row_name: C0223
+      row_name: "C0223   "
       value: -0.175
-  - name: X0085
+  - name: "X0085   "
     first_pair:
-      row_name: C0229
+      row_name: "C0229   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0091
+  - name: "X0091   "
     first_pair:
-      row_name: C0031
+      row_name: "C0031   "
       value: 1
     second_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
-  - name: X0091
+  - name: "X0091   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0211
+      row_name: "C0211   "
       value: -0.015
-  - name: X0091
+  - name: "X0091   "
     first_pair:
-      row_name: C0217
+      row_name: "C0217   "
       value: 0.65
     second_pair:
-      row_name: C0223
+      row_name: "C0223   "
       value: -0.175
-  - name: X0091
+  - name: "X0091   "
     first_pair:
-      row_name: C0229
+      row_name: "C0229   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0097
+  - name: "X0097   "
     first_pair:
-      row_name: C0031
+      row_name: "C0031   "
       value: 1
     second_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
-  - name: X0097
+  - name: "X0097   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0211
+      row_name: "C0211   "
       value: -0.015
-  - name: X0097
+  - name: "X0097   "
     first_pair:
-      row_name: C0217
+      row_name: "C0217   "
       value: -0.35
     second_pair:
-      row_name: C0223
+      row_name: "C0223   "
       value: 0.825
-  - name: X0097
+  - name: "X0097   "
     first_pair:
-      row_name: C0229
+      row_name: "C0229   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0103
+  - name: "X0103   "
     first_pair:
-      row_name: C0031
+      row_name: "C0031   "
       value: 1
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: -1
-  - name: X0103
+  - name: "X0103   "
     first_pair:
-      row_name: C0211
+      row_name: "C0211   "
       value: -0.015
     second_pair:
-      row_name: C0217
+      row_name: "C0217   "
       value: -0.35
-  - name: X0103
+  - name: "X0103   "
     first_pair:
-      row_name: C0223
+      row_name: "C0223   "
       value: -0.175
     second_pair:
-      row_name: C0229
+      row_name: "C0229   "
       value: 0.54
-  - name: X0103
+  - name: "X0103   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
     second_pair: ~
-  - name: X0109
+  - name: "X0109   "
     first_pair:
-      row_name: C0037
+      row_name: "C0037   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0109
+  - name: "X0109   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0235
+      row_name: "C0235   "
       value: 0.99
-  - name: X0109
+  - name: "X0109   "
     first_pair:
-      row_name: C0241
+      row_name: "C0241   "
       value: -0.27
     second_pair:
-      row_name: C0247
+      row_name: "C0247   "
       value: -0.016
-  - name: X0109
+  - name: "X0109   "
     first_pair:
-      row_name: C0253
+      row_name: "C0253   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0115
+  - name: "X0115   "
     first_pair:
-      row_name: C0037
+      row_name: "C0037   "
       value: 1
     second_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
-  - name: X0115
+  - name: "X0115   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0235
+      row_name: "C0235   "
       value: -0.01
-  - name: X0115
+  - name: "X0115   "
     first_pair:
-      row_name: C0241
+      row_name: "C0241   "
       value: 0.73
     second_pair:
-      row_name: C0247
+      row_name: "C0247   "
       value: -0.016
-  - name: X0115
+  - name: "X0115   "
     first_pair:
-      row_name: C0253
+      row_name: "C0253   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0121
+  - name: "X0121   "
     first_pair:
-      row_name: C0037
+      row_name: "C0037   "
       value: 1
     second_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
-  - name: X0121
+  - name: "X0121   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0235
+      row_name: "C0235   "
       value: -0.01
-  - name: X0121
+  - name: "X0121   "
     first_pair:
-      row_name: C0241
+      row_name: "C0241   "
       value: -0.27
     second_pair:
-      row_name: C0247
+      row_name: "C0247   "
       value: 0.984
-  - name: X0121
+  - name: "X0121   "
     first_pair:
-      row_name: C0253
+      row_name: "C0253   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
-  - name: X0127
+  - name: "X0127   "
     first_pair:
-      row_name: C0037
+      row_name: "C0037   "
       value: 1
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: -1
-  - name: X0127
+  - name: "X0127   "
     first_pair:
-      row_name: C0235
+      row_name: "C0235   "
       value: -0.01
     second_pair:
-      row_name: C0241
+      row_name: "C0241   "
       value: -0.27
-  - name: X0127
+  - name: "X0127   "
     first_pair:
-      row_name: C0247
+      row_name: "C0247   "
       value: -0.016
     second_pair:
-      row_name: C0253
+      row_name: "C0253   "
       value: 0.44
-  - name: X0127
+  - name: "X0127   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
     second_pair: ~
-  - name: X0133
+  - name: "X0133   "
     first_pair:
-      row_name: C0043
+      row_name: "C0043   "
       value: -0.94
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: 1
-  - name: X0133
+  - name: "X0133   "
     first_pair:
-      row_name: C0139
+      row_name: "C0139   "
       value: 1
     second_pair: ~
-  - name: X0139
+  - name: "X0139   "
     first_pair:
-      row_name: C0061
+      row_name: "C0061   "
       value: -0.94
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: 1
-  - name: X0139
+  - name: "X0139   "
     first_pair:
-      row_name: C0140
+      row_name: "C0140   "
       value: 1
     second_pair: ~
-  - name: X0145
+  - name: "X0145   "
     first_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: -0.99
     second_pair:
-      row_name: C0073
+      row_name: "C0073   "
       value: 1
-  - name: X0145
+  - name: "X0145   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair: ~
-  - name: X0151
+  - name: "X0151   "
     first_pair:
-      row_name: C0043
+      row_name: "C0043   "
       value: 1
     second_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: -0.99
-  - name: X0151
+  - name: "X0151   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0259
+      row_name: "C0259   "
       value: 0.765
-  - name: X0151
+  - name: "X0151   "
     first_pair:
-      row_name: C0265
+      row_name: "C0265   "
       value: -0.12
     second_pair:
-      row_name: C0271
+      row_name: "C0271   "
       value: -0.325
-  - name: X0151
+  - name: "X0151   "
     first_pair:
-      row_name: C0277
+      row_name: "C0277   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.91
-  - name: X0157
+  - name: "X0157   "
     first_pair:
-      row_name: C0043
+      row_name: "C0043   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0157
+  - name: "X0157   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0259
+      row_name: "C0259   "
       value: -0.235
-  - name: X0157
+  - name: "X0157   "
     first_pair:
-      row_name: C0265
+      row_name: "C0265   "
       value: 0.88
     second_pair:
-      row_name: C0271
+      row_name: "C0271   "
       value: -0.325
-  - name: X0157
+  - name: "X0157   "
     first_pair:
-      row_name: C0277
+      row_name: "C0277   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.91
-  - name: X0163
+  - name: "X0163   "
     first_pair:
-      row_name: C0043
+      row_name: "C0043   "
       value: 1
     second_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
-  - name: X0163
+  - name: "X0163   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0259
+      row_name: "C0259   "
       value: -0.235
-  - name: X0163
+  - name: "X0163   "
     first_pair:
-      row_name: C0265
+      row_name: "C0265   "
       value: -0.12
     second_pair:
-      row_name: C0271
+      row_name: "C0271   "
       value: 0.675
-  - name: X0163
+  - name: "X0163   "
     first_pair:
-      row_name: C0277
+      row_name: "C0277   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.91
-  - name: X0169
+  - name: "X0169   "
     first_pair:
-      row_name: C0043
+      row_name: "C0043   "
       value: 1
     second_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
-  - name: X0169
+  - name: "X0169   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0259
+      row_name: "C0259   "
       value: -0.235
-  - name: X0169
+  - name: "X0169   "
     first_pair:
-      row_name: C0265
+      row_name: "C0265   "
       value: -0.12
     second_pair:
-      row_name: C0271
+      row_name: "C0271   "
       value: -0.325
-  - name: X0169
+  - name: "X0169   "
     first_pair:
-      row_name: C0277
+      row_name: "C0277   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.91
-  - name: X0175
+  - name: "X0175   "
     first_pair:
-      row_name: C0061
+      row_name: "C0061   "
       value: 1
     second_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: -0.99
-  - name: X0175
+  - name: "X0175   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0283
+      row_name: "C0283   "
       value: 1
-  - name: X0175
+  - name: "X0175   "
     first_pair:
-      row_name: C0289
+      row_name: "C0289   "
       value: -0.12
     second_pair:
-      row_name: C0301
+      row_name: "C0301   "
       value: -0.88
-  - name: X0175
+  - name: "X0175   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.81
     second_pair: ~
-  - name: X0181
+  - name: "X0181   "
     first_pair:
-      row_name: C0061
+      row_name: "C0061   "
       value: 1
     second_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: -1
-  - name: X0181
+  - name: "X0181   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: 0.1
     second_pair:
-      row_name: C0289
+      row_name: "C0289   "
       value: 0.88
-  - name: X0181
+  - name: "X0181   "
     first_pair:
-      row_name: C0301
+      row_name: "C0301   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.81
-  - name: X0187
+  - name: "X0187   "
     first_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: -0.99
     second_pair:
-      row_name: C0061
+      row_name: "C0061   "
       value: 1
-  - name: X0187
+  - name: "X0187   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0289
+      row_name: "C0289   "
       value: -0.12
-  - name: X0187
+  - name: "X0187   "
     first_pair:
-      row_name: C0295
+      row_name: "C0295   "
       value: 1
     second_pair:
-      row_name: C0301
+      row_name: "C0301   "
       value: -0.88
-  - name: X0187
+  - name: "X0187   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.81
     second_pair: ~
-  - name: X0193
+  - name: "X0193   "
     first_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: -0.99
     second_pair:
-      row_name: C0061
+      row_name: "C0061   "
       value: 1
-  - name: X0193
+  - name: "X0193   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.25
     second_pair:
-      row_name: C0289
+      row_name: "C0289   "
       value: -0.12
-  - name: X0193
+  - name: "X0193   "
     first_pair:
-      row_name: C0301
+      row_name: "C0301   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.81
-  - name: X0199
+  - name: "X0199   "
     first_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: 1
     second_pair:
-      row_name: C0361
+      row_name: "C0361   "
       value: 1
-  - name: X0205
+  - name: "X0205   "
     first_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: 1
     second_pair:
-      row_name: C0085
+      row_name: "C0085   "
       value: -1
-  - name: X0211
+  - name: "X0211   "
     first_pair:
-      row_name: C0067
+      row_name: "C0067   "
       value: 1
     second_pair:
-      row_name: C0091
+      row_name: "C0091   "
       value: -1
-  - name: X0217
+  - name: "X0217   "
     first_pair:
-      row_name: C0049
+      row_name: "C0049   "
       value: 1
     second_pair:
-      row_name: C0097
+      row_name: "C0097   "
       value: -1
-  - name: X0223
+  - name: "X0223   "
     first_pair:
-      row_name: C0055
+      row_name: "C0055   "
       value: 1
     second_pair:
-      row_name: C0103
+      row_name: "C0103   "
       value: -1
-  - name: X0229
+  - name: "X0229   "
     first_pair:
-      row_name: C0097
+      row_name: "C0097   "
       value: 1
     second_pair:
-      row_name: C0109
+      row_name: "C0109   "
       value: -1
-  - name: X0229
+  - name: "X0229   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0235
+  - name: "X0235   "
     first_pair:
-      row_name: C0097
+      row_name: "C0097   "
       value: 1
     second_pair:
-      row_name: C0115
+      row_name: "C0115   "
       value: -1
-  - name: X0235
+  - name: "X0235   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0241
+  - name: "X0241   "
     first_pair:
-      row_name: C0097
+      row_name: "C0097   "
       value: 1
     second_pair:
-      row_name: C0121
+      row_name: "C0121   "
       value: -1
-  - name: X0241
+  - name: "X0241   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0247
+  - name: "X0247   "
     first_pair:
-      row_name: C0103
+      row_name: "C0103   "
       value: 1
     second_pair:
-      row_name: C0127
+      row_name: "C0127   "
       value: -1
-  - name: X0247
+  - name: "X0247   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0253
+  - name: "X0253   "
     first_pair:
-      row_name: C0085
+      row_name: "C0085   "
       value: 1
     second_pair:
-      row_name: C0355
+      row_name: "C0355   "
       value: 1
-  - name: X0253
+  - name: "X0253   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.27
     second_pair: ~
-  - name: X0259
+  - name: "X0259   "
     first_pair:
-      row_name: C0091
+      row_name: "C0091   "
       value: 1
     second_pair:
-      row_name: C0349
+      row_name: "C0349   "
       value: 1
-  - name: X0259
+  - name: "X0259   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0265
+  - name: "X0265   "
     first_pair:
-      row_name: C0091
+      row_name: "C0091   "
       value: 1
     second_pair:
-      row_name: C0343
+      row_name: "C0343   "
       value: 1
-  - name: X0265
+  - name: "X0265   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0271
+  - name: "X0271   "
     first_pair:
-      row_name: C0079
+      row_name: "C0079   "
       value: 1
     second_pair:
-      row_name: C0337
+      row_name: "C0337   "
       value: 1
-  - name: X0271
+  - name: "X0271   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.45
     second_pair: ~
-  - name: X0277
+  - name: "X0277   "
     first_pair:
-      row_name: C0109
+      row_name: "C0109   "
       value: 1
     second_pair:
-      row_name: C0331
+      row_name: "C0331   "
       value: 1
-  - name: X0277
+  - name: "X0277   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0283
+  - name: "X0283   "
     first_pair:
-      row_name: C0115
+      row_name: "C0115   "
       value: 1
     second_pair:
-      row_name: C0325
+      row_name: "C0325   "
       value: 1
-  - name: X0283
+  - name: "X0283   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 56.69
     second_pair: ~
-  - name: X0289
+  - name: "X0289   "
     first_pair:
-      row_name: C0121
+      row_name: "C0121   "
       value: 1
     second_pair:
-      row_name: C0319
+      row_name: "C0319   "
       value: 1
-  - name: X0289
+  - name: "X0289   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 25.62
     second_pair: ~
-  - name: X0295
+  - name: "X0295   "
     first_pair:
-      row_name: C0127
+      row_name: "C0127   "
       value: 1
     second_pair:
-      row_name: C0313
+      row_name: "C0313   "
       value: 1
-  - name: X0295
+  - name: "X0295   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 56.69
     second_pair: ~
-  - name: X0301
+  - name: "X0301   "
     first_pair:
-      row_name: C0103
+      row_name: "C0103   "
       value: 1
     second_pair:
-      row_name: C0307
+      row_name: "C0307   "
       value: 1
-  - name: X0301
+  - name: "X0301   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.54
     second_pair: ~
-  - name: X0308
+  - name: "X0308   "
     first_pair:
-      row_name: C0151
+      row_name: "C0151   "
       value: -1
     second_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: -1
-  - name: X0308
+  - name: "X0308   "
     first_pair:
-      row_name: C1152
+      row_name: "C1152   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 200.96
-  - name: X0314
+  - name: "X0314   "
     first_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: -1
     second_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: -1
-  - name: X0314
+  - name: "X0314   "
     first_pair:
-      row_name: C1158
+      row_name: "C1158   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 74.45
-  - name: X0320
+  - name: "X0320   "
     first_pair:
-      row_name: C0140
+      row_name: "C0140   "
       value: -0.85
     second_pair:
-      row_name: C0142
+      row_name: "C0142   "
       value: -0.85
-  - name: X0320
+  - name: "X0320   "
     first_pair:
-      row_name: C1142
+      row_name: "C1142   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 184.65
-  - name: X0326
+  - name: "X0326   "
     first_pair:
-      row_name: C0139
+      row_name: "C0139   "
       value: -0.85
     second_pair:
-      row_name: C0141
+      row_name: "C0141   "
       value: -0.85
-  - name: X0326
+  - name: "X0326   "
     first_pair:
-      row_name: C1141
+      row_name: "C1141   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 118.7
-  - name: X0332
+  - name: "X0332   "
     first_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: -0.95
     second_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: -0.95
-  - name: X0332
+  - name: "X0332   "
     first_pair:
-      row_name: C1134
+      row_name: "C1134   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 35.91
-  - name: X0002
+  - name: "X0002   "
     first_pair:
-      row_name: C0002
+      row_name: "C0002   "
       value: 1
     second_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: -0.94
-  - name: X0002
+  - name: "X0002   "
     first_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 17.57
-  - name: X0008
+  - name: "X0008   "
     first_pair:
-      row_name: C0008
+      row_name: "C0008   "
       value: 1
     second_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: -0.94
-  - name: X0008
+  - name: "X0008   "
     first_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 87.05
-  - name: X0014
+  - name: "X0014   "
     first_pair:
-      row_name: C0014
+      row_name: "C0014   "
       value: 1
     second_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: -0.94
-  - name: X0014
+  - name: "X0014   "
     first_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
     second_pair: ~
-  - name: X0020
+  - name: "X0020   "
     first_pair:
-      row_name: C0026
+      row_name: "C0026   "
       value: -0.94
     second_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
-  - name: X0020
+  - name: "X0020   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 177.18
     second_pair: ~
-  - name: X0026
+  - name: "X0026   "
     first_pair:
-      row_name: C0032
+      row_name: "C0032   "
       value: -0.94
     second_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
-  - name: X0026
+  - name: "X0026   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 168.44
     second_pair: ~
-  - name: X0032
+  - name: "X0032   "
     first_pair:
-      row_name: C0038
+      row_name: "C0038   "
       value: -0.94
     second_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1
-  - name: X0032
+  - name: "X0032   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 160.06
     second_pair: ~
-  - name: X0038
+  - name: "X0038   "
     first_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0038
+  - name: "X0038   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0164
+      row_name: "C0164   "
       value: 0.985
-  - name: X0038
+  - name: "X0038   "
     first_pair:
-      row_name: C0170
+      row_name: "C0170   "
       value: -0.4
     second_pair:
-      row_name: C0176
+      row_name: "C0176   "
       value: -0.105
-  - name: X0038
+  - name: "X0038   "
     first_pair:
-      row_name: C0182
+      row_name: "C0182   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0044
+  - name: "X0044   "
     first_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: 1
     second_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
-  - name: X0044
+  - name: "X0044   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0164
+      row_name: "C0164   "
       value: -0.015
-  - name: X0044
+  - name: "X0044   "
     first_pair:
-      row_name: C0170
+      row_name: "C0170   "
       value: 0.6
     second_pair:
-      row_name: C0176
+      row_name: "C0176   "
       value: -0.105
-  - name: X0044
+  - name: "X0044   "
     first_pair:
-      row_name: C0182
+      row_name: "C0182   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0050
+  - name: "X0050   "
     first_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: 1
     second_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
-  - name: X0050
+  - name: "X0050   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0164
+      row_name: "C0164   "
       value: -0.015
-  - name: X0050
+  - name: "X0050   "
     first_pair:
-      row_name: C0170
+      row_name: "C0170   "
       value: -0.4
     second_pair:
-      row_name: C0176
+      row_name: "C0176   "
       value: 0.895
-  - name: X0050
+  - name: "X0050   "
     first_pair:
-      row_name: C0182
+      row_name: "C0182   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0056
+  - name: "X0056   "
     first_pair:
-      row_name: C0020
+      row_name: "C0020   "
       value: 1
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: -1
-  - name: X0056
+  - name: "X0056   "
     first_pair:
-      row_name: C0164
+      row_name: "C0164   "
       value: -0.015
     second_pair:
-      row_name: C0170
+      row_name: "C0170   "
       value: -0.4
-  - name: X0056
+  - name: "X0056   "
     first_pair:
-      row_name: C0176
+      row_name: "C0176   "
       value: -0.105
     second_pair:
-      row_name: C0182
+      row_name: "C0182   "
       value: 0.52
-  - name: X0056
+  - name: "X0056   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
     second_pair: ~
-  - name: X0062
+  - name: "X0062   "
     first_pair:
-      row_name: C0026
+      row_name: "C0026   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0062
+  - name: "X0062   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0188
+      row_name: "C0188   "
       value: 0.98
-  - name: X0062
+  - name: "X0062   "
     first_pair:
-      row_name: C0194
+      row_name: "C0194   "
       value: -0.39
     second_pair:
-      row_name: C0200
+      row_name: "C0200   "
       value: -0.2
-  - name: X0062
+  - name: "X0062   "
     first_pair:
-      row_name: C0206
+      row_name: "C0206   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0068
+  - name: "X0068   "
     first_pair:
-      row_name: C0026
+      row_name: "C0026   "
       value: 1
     second_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
-  - name: X0068
+  - name: "X0068   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0188
+      row_name: "C0188   "
       value: -0.02
-  - name: X0068
+  - name: "X0068   "
     first_pair:
-      row_name: C0194
+      row_name: "C0194   "
       value: 0.61
     second_pair:
-      row_name: C0200
+      row_name: "C0200   "
       value: -0.2
-  - name: X0068
+  - name: "X0068   "
     first_pair:
-      row_name: C0206
+      row_name: "C0206   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0074
+  - name: "X0074   "
     first_pair:
-      row_name: C0026
+      row_name: "C0026   "
       value: 1
     second_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
-  - name: X0074
+  - name: "X0074   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0188
+      row_name: "C0188   "
       value: -0.02
-  - name: X0074
+  - name: "X0074   "
     first_pair:
-      row_name: C0194
+      row_name: "C0194   "
       value: -0.39
     second_pair:
-      row_name: C0200
+      row_name: "C0200   "
       value: 0.8
-  - name: X0074
+  - name: "X0074   "
     first_pair:
-      row_name: C0206
+      row_name: "C0206   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0080
+  - name: "X0080   "
     first_pair:
-      row_name: C0026
+      row_name: "C0026   "
       value: 1
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: -1
-  - name: X0080
+  - name: "X0080   "
     first_pair:
-      row_name: C0188
+      row_name: "C0188   "
       value: -0.02
     second_pair:
-      row_name: C0194
+      row_name: "C0194   "
       value: -0.39
-  - name: X0080
+  - name: "X0080   "
     first_pair:
-      row_name: C0200
+      row_name: "C0200   "
       value: -0.2
     second_pair:
-      row_name: C0206
+      row_name: "C0206   "
       value: 0.61
-  - name: X0080
+  - name: "X0080   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
     second_pair: ~
-  - name: X0086
+  - name: "X0086   "
     first_pair:
-      row_name: C0032
+      row_name: "C0032   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0086
+  - name: "X0086   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0212
+      row_name: "C0212   "
       value: 0.985
-  - name: X0086
+  - name: "X0086   "
     first_pair:
-      row_name: C0218
+      row_name: "C0218   "
       value: -0.35
     second_pair:
-      row_name: C0224
+      row_name: "C0224   "
       value: -0.175
-  - name: X0086
+  - name: "X0086   "
     first_pair:
-      row_name: C0230
+      row_name: "C0230   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0092
+  - name: "X0092   "
     first_pair:
-      row_name: C0032
+      row_name: "C0032   "
       value: 1
     second_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
-  - name: X0092
+  - name: "X0092   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0212
+      row_name: "C0212   "
       value: -0.015
-  - name: X0092
+  - name: "X0092   "
     first_pair:
-      row_name: C0218
+      row_name: "C0218   "
       value: 0.65
     second_pair:
-      row_name: C0224
+      row_name: "C0224   "
       value: -0.175
-  - name: X0092
+  - name: "X0092   "
     first_pair:
-      row_name: C0230
+      row_name: "C0230   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0098
+  - name: "X0098   "
     first_pair:
-      row_name: C0032
+      row_name: "C0032   "
       value: 1
     second_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
-  - name: X0098
+  - name: "X0098   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0212
+      row_name: "C0212   "
       value: -0.015
-  - name: X0098
+  - name: "X0098   "
     first_pair:
-      row_name: C0218
+      row_name: "C0218   "
       value: -0.35
     second_pair:
-      row_name: C0224
+      row_name: "C0224   "
       value: 0.825
-  - name: X0098
+  - name: "X0098   "
     first_pair:
-      row_name: C0230
+      row_name: "C0230   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0104
+  - name: "X0104   "
     first_pair:
-      row_name: C0032
+      row_name: "C0032   "
       value: 1
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: -1
-  - name: X0104
+  - name: "X0104   "
     first_pair:
-      row_name: C0212
+      row_name: "C0212   "
       value: -0.015
     second_pair:
-      row_name: C0218
+      row_name: "C0218   "
       value: -0.35
-  - name: X0104
+  - name: "X0104   "
     first_pair:
-      row_name: C0224
+      row_name: "C0224   "
       value: -0.175
     second_pair:
-      row_name: C0230
+      row_name: "C0230   "
       value: 0.54
-  - name: X0104
+  - name: "X0104   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
     second_pair: ~
-  - name: X0110
+  - name: "X0110   "
     first_pair:
-      row_name: C0038
+      row_name: "C0038   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0110
+  - name: "X0110   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0236
+      row_name: "C0236   "
       value: 0.99
-  - name: X0110
+  - name: "X0110   "
     first_pair:
-      row_name: C0242
+      row_name: "C0242   "
       value: -0.27
     second_pair:
-      row_name: C0248
+      row_name: "C0248   "
       value: -0.016
-  - name: X0110
+  - name: "X0110   "
     first_pair:
-      row_name: C0254
+      row_name: "C0254   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0116
+  - name: "X0116   "
     first_pair:
-      row_name: C0038
+      row_name: "C0038   "
       value: 1
     second_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
-  - name: X0116
+  - name: "X0116   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0236
+      row_name: "C0236   "
       value: -0.01
-  - name: X0116
+  - name: "X0116   "
     first_pair:
-      row_name: C0242
+      row_name: "C0242   "
       value: 0.73
     second_pair:
-      row_name: C0248
+      row_name: "C0248   "
       value: -0.016
-  - name: X0116
+  - name: "X0116   "
     first_pair:
-      row_name: C0254
+      row_name: "C0254   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0122
+  - name: "X0122   "
     first_pair:
-      row_name: C0038
+      row_name: "C0038   "
       value: 1
     second_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
-  - name: X0122
+  - name: "X0122   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0236
+      row_name: "C0236   "
       value: -0.01
-  - name: X0122
+  - name: "X0122   "
     first_pair:
-      row_name: C0242
+      row_name: "C0242   "
       value: -0.27
     second_pair:
-      row_name: C0248
+      row_name: "C0248   "
       value: 0.984
-  - name: X0122
+  - name: "X0122   "
     first_pair:
-      row_name: C0254
+      row_name: "C0254   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
-  - name: X0128
+  - name: "X0128   "
     first_pair:
-      row_name: C0038
+      row_name: "C0038   "
       value: 1
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: -1
-  - name: X0128
+  - name: "X0128   "
     first_pair:
-      row_name: C0236
+      row_name: "C0236   "
       value: -0.01
     second_pair:
-      row_name: C0242
+      row_name: "C0242   "
       value: -0.27
-  - name: X0128
+  - name: "X0128   "
     first_pair:
-      row_name: C0248
+      row_name: "C0248   "
       value: -0.016
     second_pair:
-      row_name: C0254
+      row_name: "C0254   "
       value: 0.44
-  - name: X0128
+  - name: "X0128   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
     second_pair: ~
-  - name: X0134
+  - name: "X0134   "
     first_pair:
-      row_name: C0044
+      row_name: "C0044   "
       value: -0.94
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: 1
-  - name: X0134
+  - name: "X0134   "
     first_pair:
-      row_name: C0141
+      row_name: "C0141   "
       value: 1
     second_pair: ~
-  - name: X0140
+  - name: "X0140   "
     first_pair:
-      row_name: C0062
+      row_name: "C0062   "
       value: -0.94
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: 1
-  - name: X0140
+  - name: "X0140   "
     first_pair:
-      row_name: C0142
+      row_name: "C0142   "
       value: 1
     second_pair: ~
-  - name: X0146
+  - name: "X0146   "
     first_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: -0.99
     second_pair:
-      row_name: C0074
+      row_name: "C0074   "
       value: 1
-  - name: X0146
+  - name: "X0146   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair: ~
-  - name: X0152
+  - name: "X0152   "
     first_pair:
-      row_name: C0044
+      row_name: "C0044   "
       value: 1
     second_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: -0.99
-  - name: X0152
+  - name: "X0152   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0260
+      row_name: "C0260   "
       value: 0.765
-  - name: X0152
+  - name: "X0152   "
     first_pair:
-      row_name: C0266
+      row_name: "C0266   "
       value: -0.12
     second_pair:
-      row_name: C0272
+      row_name: "C0272   "
       value: -0.325
-  - name: X0152
+  - name: "X0152   "
     first_pair:
-      row_name: C0278
+      row_name: "C0278   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.77
-  - name: X0158
+  - name: "X0158   "
     first_pair:
-      row_name: C0044
+      row_name: "C0044   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0158
+  - name: "X0158   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0260
+      row_name: "C0260   "
       value: -0.235
-  - name: X0158
+  - name: "X0158   "
     first_pair:
-      row_name: C0266
+      row_name: "C0266   "
       value: 0.88
     second_pair:
-      row_name: C0272
+      row_name: "C0272   "
       value: -0.325
-  - name: X0158
+  - name: "X0158   "
     first_pair:
-      row_name: C0278
+      row_name: "C0278   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.77
-  - name: X0164
+  - name: "X0164   "
     first_pair:
-      row_name: C0044
+      row_name: "C0044   "
       value: 1
     second_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
-  - name: X0164
+  - name: "X0164   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0260
+      row_name: "C0260   "
       value: -0.235
-  - name: X0164
+  - name: "X0164   "
     first_pair:
-      row_name: C0266
+      row_name: "C0266   "
       value: -0.12
     second_pair:
-      row_name: C0272
+      row_name: "C0272   "
       value: 0.675
-  - name: X0164
+  - name: "X0164   "
     first_pair:
-      row_name: C0278
+      row_name: "C0278   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.77
-  - name: X0170
+  - name: "X0170   "
     first_pair:
-      row_name: C0044
+      row_name: "C0044   "
       value: 1
     second_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
-  - name: X0170
+  - name: "X0170   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0260
+      row_name: "C0260   "
       value: -0.235
-  - name: X0170
+  - name: "X0170   "
     first_pair:
-      row_name: C0266
+      row_name: "C0266   "
       value: -0.12
     second_pair:
-      row_name: C0272
+      row_name: "C0272   "
       value: -0.325
-  - name: X0170
+  - name: "X0170   "
     first_pair:
-      row_name: C0278
+      row_name: "C0278   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.77
-  - name: X0176
+  - name: "X0176   "
     first_pair:
-      row_name: C0062
+      row_name: "C0062   "
       value: 1
     second_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: -0.99
-  - name: X0176
+  - name: "X0176   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0284
+      row_name: "C0284   "
       value: 1
-  - name: X0176
+  - name: "X0176   "
     first_pair:
-      row_name: C0290
+      row_name: "C0290   "
       value: -0.12
     second_pair:
-      row_name: C0302
+      row_name: "C0302   "
       value: -0.88
-  - name: X0176
+  - name: "X0176   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.54
     second_pair: ~
-  - name: X0182
+  - name: "X0182   "
     first_pair:
-      row_name: C0062
+      row_name: "C0062   "
       value: 1
     second_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: -1
-  - name: X0182
+  - name: "X0182   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: 0.1
     second_pair:
-      row_name: C0290
+      row_name: "C0290   "
       value: 0.88
-  - name: X0182
+  - name: "X0182   "
     first_pair:
-      row_name: C0302
+      row_name: "C0302   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.54
-  - name: X0188
+  - name: "X0188   "
     first_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: -0.99
     second_pair:
-      row_name: C0062
+      row_name: "C0062   "
       value: 1
-  - name: X0188
+  - name: "X0188   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0290
+      row_name: "C0290   "
       value: -0.12
-  - name: X0188
+  - name: "X0188   "
     first_pair:
-      row_name: C0296
+      row_name: "C0296   "
       value: 1
     second_pair:
-      row_name: C0302
+      row_name: "C0302   "
       value: -0.88
-  - name: X0188
+  - name: "X0188   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.54
     second_pair: ~
-  - name: X0194
+  - name: "X0194   "
     first_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: -0.99
     second_pair:
-      row_name: C0062
+      row_name: "C0062   "
       value: 1
-  - name: X0194
+  - name: "X0194   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.25
     second_pair:
-      row_name: C0290
+      row_name: "C0290   "
       value: -0.12
-  - name: X0194
+  - name: "X0194   "
     first_pair:
-      row_name: C0302
+      row_name: "C0302   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.54
-  - name: X0200
+  - name: "X0200   "
     first_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: 1
     second_pair:
-      row_name: C0362
+      row_name: "C0362   "
       value: 1
-  - name: X0206
+  - name: "X0206   "
     first_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: 1
     second_pair:
-      row_name: C0086
+      row_name: "C0086   "
       value: -1
-  - name: X0212
+  - name: "X0212   "
     first_pair:
-      row_name: C0068
+      row_name: "C0068   "
       value: 1
     second_pair:
-      row_name: C0092
+      row_name: "C0092   "
       value: -1
-  - name: X0218
+  - name: "X0218   "
     first_pair:
-      row_name: C0050
+      row_name: "C0050   "
       value: 1
     second_pair:
-      row_name: C0098
+      row_name: "C0098   "
       value: -1
-  - name: X0224
+  - name: "X0224   "
     first_pair:
-      row_name: C0056
+      row_name: "C0056   "
       value: 1
     second_pair:
-      row_name: C0104
+      row_name: "C0104   "
       value: -1
-  - name: X0230
+  - name: "X0230   "
     first_pair:
-      row_name: C0098
+      row_name: "C0098   "
       value: 1
     second_pair:
-      row_name: C0110
+      row_name: "C0110   "
       value: -1
-  - name: X0230
+  - name: "X0230   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0236
+  - name: "X0236   "
     first_pair:
-      row_name: C0098
+      row_name: "C0098   "
       value: 1
     second_pair:
-      row_name: C0116
+      row_name: "C0116   "
       value: -1
-  - name: X0236
+  - name: "X0236   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0242
+  - name: "X0242   "
     first_pair:
-      row_name: C0098
+      row_name: "C0098   "
       value: 1
     second_pair:
-      row_name: C0122
+      row_name: "C0122   "
       value: -1
-  - name: X0242
+  - name: "X0242   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0248
+  - name: "X0248   "
     first_pair:
-      row_name: C0104
+      row_name: "C0104   "
       value: 1
     second_pair:
-      row_name: C0128
+      row_name: "C0128   "
       value: -1
-  - name: X0248
+  - name: "X0248   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0254
+  - name: "X0254   "
     first_pair:
-      row_name: C0086
+      row_name: "C0086   "
       value: 1
     second_pair:
-      row_name: C0356
+      row_name: "C0356   "
       value: 1
-  - name: X0254
+  - name: "X0254   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.93
     second_pair: ~
-  - name: X0260
+  - name: "X0260   "
     first_pair:
-      row_name: C0092
+      row_name: "C0092   "
       value: 1
     second_pair:
-      row_name: C0350
+      row_name: "C0350   "
       value: 1
-  - name: X0260
+  - name: "X0260   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0266
+  - name: "X0266   "
     first_pair:
-      row_name: C0092
+      row_name: "C0092   "
       value: 1
     second_pair:
-      row_name: C0344
+      row_name: "C0344   "
       value: 1
-  - name: X0266
+  - name: "X0266   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0272
+  - name: "X0272   "
     first_pair:
-      row_name: C0080
+      row_name: "C0080   "
       value: 1
     second_pair:
-      row_name: C0338
+      row_name: "C0338   "
       value: 1
-  - name: X0272
+  - name: "X0272   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.39
     second_pair: ~
-  - name: X0278
+  - name: "X0278   "
     first_pair:
-      row_name: C0110
+      row_name: "C0110   "
       value: 1
     second_pair:
-      row_name: C0332
+      row_name: "C0332   "
       value: 1
-  - name: X0278
+  - name: "X0278   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0284
+  - name: "X0284   "
     first_pair:
-      row_name: C0116
+      row_name: "C0116   "
       value: 1
     second_pair:
-      row_name: C0326
+      row_name: "C0326   "
       value: 1
-  - name: X0284
+  - name: "X0284   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 48.26
     second_pair: ~
-  - name: X0290
+  - name: "X0290   "
     first_pair:
-      row_name: C0122
+      row_name: "C0122   "
       value: 1
     second_pair:
-      row_name: C0320
+      row_name: "C0320   "
       value: 1
-  - name: X0290
+  - name: "X0290   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 21.81
     second_pair: ~
-  - name: X0296
+  - name: "X0296   "
     first_pair:
-      row_name: C0128
+      row_name: "C0128   "
       value: 1
     second_pair:
-      row_name: C0314
+      row_name: "C0314   "
       value: 1
-  - name: X0296
+  - name: "X0296   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 48.26
     second_pair: ~
-  - name: X0302
+  - name: "X0302   "
     first_pair:
-      row_name: C0104
+      row_name: "C0104   "
       value: 1
     second_pair:
-      row_name: C0308
+      row_name: "C0308   "
       value: 1
-  - name: X0302
+  - name: "X0302   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.86
     second_pair: ~
-  - name: X0309
+  - name: "X0309   "
     first_pair:
-      row_name: C0152
+      row_name: "C0152   "
       value: -1
     second_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: -1
-  - name: X0309
+  - name: "X0309   "
     first_pair:
-      row_name: C2153
+      row_name: "C2153   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 146.54
-  - name: X0315
+  - name: "X0315   "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: -1
     second_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: -1
-  - name: X0315
+  - name: "X0315   "
     first_pair:
-      row_name: C2159
+      row_name: "C2159   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 54.29
-  - name: X0321
+  - name: "X0321   "
     first_pair:
-      row_name: C0142
+      row_name: "C0142   "
       value: -0.85
     second_pair:
-      row_name: C0144
+      row_name: "C0144   "
       value: -0.85
-  - name: X0321
+  - name: "X0321   "
     first_pair:
-      row_name: C2144
+      row_name: "C2144   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 136.67
-  - name: X0327
+  - name: "X0327   "
     first_pair:
-      row_name: C0141
+      row_name: "C0141   "
       value: -0.85
     second_pair:
-      row_name: C0143
+      row_name: "C0143   "
       value: -0.85
-  - name: X0327
+  - name: "X0327   "
     first_pair:
-      row_name: C2143
+      row_name: "C2143   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 87.86
-  - name: X0333
+  - name: "X0333   "
     first_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: -0.95
     second_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: -0.95
-  - name: X0333
+  - name: "X0333   "
     first_pair:
-      row_name: C2135
+      row_name: "C2135   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 26.58
-  - name: X2308
+  - name: "X2308   "
     first_pair:
-      row_name: C1152
+      row_name: "C1152   "
       value: -1
     second_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: -1
-  - name: X2308
+  - name: "X2308   "
     first_pair:
-      row_name: C1153
+      row_name: "C1153   "
       value: 1
     second_pair: ~
-  - name: X2314
+  - name: "X2314   "
     first_pair:
-      row_name: C1158
+      row_name: "C1158   "
       value: -1
     second_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: -1
-  - name: X2314
+  - name: "X2314   "
     first_pair:
-      row_name: C1159
+      row_name: "C1159   "
       value: 1
     second_pair: ~
-  - name: X2320
+  - name: "X2320   "
     first_pair:
-      row_name: C1142
+      row_name: "C1142   "
       value: -1
     second_pair:
-      row_name: C0144
+      row_name: "C0144   "
       value: -0.85
-  - name: X2320
+  - name: "X2320   "
     first_pair:
-      row_name: C1144
+      row_name: "C1144   "
       value: 1
     second_pair: ~
-  - name: X2326
+  - name: "X2326   "
     first_pair:
-      row_name: C1141
+      row_name: "C1141   "
       value: -1
     second_pair:
-      row_name: C0143
+      row_name: "C0143   "
       value: -0.85
-  - name: X2326
+  - name: "X2326   "
     first_pair:
-      row_name: C1143
+      row_name: "C1143   "
       value: 1
     second_pair: ~
-  - name: X2332
+  - name: "X2332   "
     first_pair:
-      row_name: C1134
+      row_name: "C1134   "
       value: -1
     second_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: -0.95
-  - name: X2332
+  - name: "X2332   "
     first_pair:
-      row_name: C1135
+      row_name: "C1135   "
       value: 1
     second_pair: ~
-  - name: X0003
+  - name: "X0003   "
     first_pair:
-      row_name: C0003
+      row_name: "C0003   "
       value: 1
     second_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: -0.94
-  - name: X0003
+  - name: "X0003   "
     first_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 15.52
-  - name: X0009
+  - name: "X0009   "
     first_pair:
-      row_name: C0009
+      row_name: "C0009   "
       value: 1
     second_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: -0.94
-  - name: X0009
+  - name: "X0009   "
     first_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 76.91
-  - name: X0015
+  - name: "X0015   "
     first_pair:
-      row_name: C0015
+      row_name: "C0015   "
       value: 1
     second_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: -0.94
-  - name: X0015
+  - name: "X0015   "
     first_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
     second_pair: ~
-  - name: X0021
+  - name: "X0021   "
     first_pair:
-      row_name: C0027
+      row_name: "C0027   "
       value: -0.94
     second_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
-  - name: X0021
+  - name: "X0021   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 173.26
     second_pair: ~
-  - name: X0027
+  - name: "X0027   "
     first_pair:
-      row_name: C0033
+      row_name: "C0033   "
       value: -0.94
     second_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
-  - name: X0027
+  - name: "X0027   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 164.72
     second_pair: ~
-  - name: X0033
+  - name: "X0033   "
     first_pair:
-      row_name: C0039
+      row_name: "C0039   "
       value: -0.94
     second_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 1
-  - name: X0033
+  - name: "X0033   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 156.5
     second_pair: ~
-  - name: X0039
+  - name: "X0039   "
     first_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0039
+  - name: "X0039   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0165
+      row_name: "C0165   "
       value: 0.985
-  - name: X0039
+  - name: "X0039   "
     first_pair:
-      row_name: C0171
+      row_name: "C0171   "
       value: -0.4
     second_pair:
-      row_name: C0177
+      row_name: "C0177   "
       value: -0.105
-  - name: X0039
+  - name: "X0039   "
     first_pair:
-      row_name: C0183
+      row_name: "C0183   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0045
+  - name: "X0045   "
     first_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: 1
     second_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
-  - name: X0045
+  - name: "X0045   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0165
+      row_name: "C0165   "
       value: -0.015
-  - name: X0045
+  - name: "X0045   "
     first_pair:
-      row_name: C0171
+      row_name: "C0171   "
       value: 0.6
     second_pair:
-      row_name: C0177
+      row_name: "C0177   "
       value: -0.105
-  - name: X0045
+  - name: "X0045   "
     first_pair:
-      row_name: C0183
+      row_name: "C0183   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0051
+  - name: "X0051   "
     first_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: 1
     second_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
-  - name: X0051
+  - name: "X0051   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0165
+      row_name: "C0165   "
       value: -0.015
-  - name: X0051
+  - name: "X0051   "
     first_pair:
-      row_name: C0171
+      row_name: "C0171   "
       value: -0.4
     second_pair:
-      row_name: C0177
+      row_name: "C0177   "
       value: 0.895
-  - name: X0051
+  - name: "X0051   "
     first_pair:
-      row_name: C0183
+      row_name: "C0183   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0057
+  - name: "X0057   "
     first_pair:
-      row_name: C0021
+      row_name: "C0021   "
       value: 1
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: -1
-  - name: X0057
+  - name: "X0057   "
     first_pair:
-      row_name: C0165
+      row_name: "C0165   "
       value: -0.015
     second_pair:
-      row_name: C0171
+      row_name: "C0171   "
       value: -0.4
-  - name: X0057
+  - name: "X0057   "
     first_pair:
-      row_name: C0177
+      row_name: "C0177   "
       value: -0.105
     second_pair:
-      row_name: C0183
+      row_name: "C0183   "
       value: 0.52
-  - name: X0057
+  - name: "X0057   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
     second_pair: ~
-  - name: X0063
+  - name: "X0063   "
     first_pair:
-      row_name: C0027
+      row_name: "C0027   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0063
+  - name: "X0063   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0189
+      row_name: "C0189   "
       value: 0.98
-  - name: X0063
+  - name: "X0063   "
     first_pair:
-      row_name: C0195
+      row_name: "C0195   "
       value: -0.39
     second_pair:
-      row_name: C0201
+      row_name: "C0201   "
       value: -0.2
-  - name: X0063
+  - name: "X0063   "
     first_pair:
-      row_name: C0207
+      row_name: "C0207   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0069
+  - name: "X0069   "
     first_pair:
-      row_name: C0027
+      row_name: "C0027   "
       value: 1
     second_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
-  - name: X0069
+  - name: "X0069   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0189
+      row_name: "C0189   "
       value: -0.02
-  - name: X0069
+  - name: "X0069   "
     first_pair:
-      row_name: C0195
+      row_name: "C0195   "
       value: 0.61
     second_pair:
-      row_name: C0201
+      row_name: "C0201   "
       value: -0.2
-  - name: X0069
+  - name: "X0069   "
     first_pair:
-      row_name: C0207
+      row_name: "C0207   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0075
+  - name: "X0075   "
     first_pair:
-      row_name: C0027
+      row_name: "C0027   "
       value: 1
     second_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
-  - name: X0075
+  - name: "X0075   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0189
+      row_name: "C0189   "
       value: -0.02
-  - name: X0075
+  - name: "X0075   "
     first_pair:
-      row_name: C0195
+      row_name: "C0195   "
       value: -0.39
     second_pair:
-      row_name: C0201
+      row_name: "C0201   "
       value: 0.8
-  - name: X0075
+  - name: "X0075   "
     first_pair:
-      row_name: C0207
+      row_name: "C0207   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0081
+  - name: "X0081   "
     first_pair:
-      row_name: C0027
+      row_name: "C0027   "
       value: 1
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: -1
-  - name: X0081
+  - name: "X0081   "
     first_pair:
-      row_name: C0189
+      row_name: "C0189   "
       value: -0.02
     second_pair:
-      row_name: C0195
+      row_name: "C0195   "
       value: -0.39
-  - name: X0081
+  - name: "X0081   "
     first_pair:
-      row_name: C0201
+      row_name: "C0201   "
       value: -0.2
     second_pair:
-      row_name: C0207
+      row_name: "C0207   "
       value: 0.61
-  - name: X0081
+  - name: "X0081   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
     second_pair: ~
-  - name: X0087
+  - name: "X0087   "
     first_pair:
-      row_name: C0033
+      row_name: "C0033   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0087
+  - name: "X0087   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0213
+      row_name: "C0213   "
       value: 0.985
-  - name: X0087
+  - name: "X0087   "
     first_pair:
-      row_name: C0219
+      row_name: "C0219   "
       value: -0.35
     second_pair:
-      row_name: C0225
+      row_name: "C0225   "
       value: -0.175
-  - name: X0087
+  - name: "X0087   "
     first_pair:
-      row_name: C0231
+      row_name: "C0231   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0093
+  - name: "X0093   "
     first_pair:
-      row_name: C0033
+      row_name: "C0033   "
       value: 1
     second_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
-  - name: X0093
+  - name: "X0093   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0213
+      row_name: "C0213   "
       value: -0.015
-  - name: X0093
+  - name: "X0093   "
     first_pair:
-      row_name: C0219
+      row_name: "C0219   "
       value: 0.65
     second_pair:
-      row_name: C0225
+      row_name: "C0225   "
       value: -0.175
-  - name: X0093
+  - name: "X0093   "
     first_pair:
-      row_name: C0231
+      row_name: "C0231   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0099
+  - name: "X0099   "
     first_pair:
-      row_name: C0033
+      row_name: "C0033   "
       value: 1
     second_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
-  - name: X0099
+  - name: "X0099   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0213
+      row_name: "C0213   "
       value: -0.015
-  - name: X0099
+  - name: "X0099   "
     first_pair:
-      row_name: C0219
+      row_name: "C0219   "
       value: -0.35
     second_pair:
-      row_name: C0225
+      row_name: "C0225   "
       value: 0.825
-  - name: X0099
+  - name: "X0099   "
     first_pair:
-      row_name: C0231
+      row_name: "C0231   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0105
+  - name: "X0105   "
     first_pair:
-      row_name: C0033
+      row_name: "C0033   "
       value: 1
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: -1
-  - name: X0105
+  - name: "X0105   "
     first_pair:
-      row_name: C0213
+      row_name: "C0213   "
       value: -0.015
     second_pair:
-      row_name: C0219
+      row_name: "C0219   "
       value: -0.35
-  - name: X0105
+  - name: "X0105   "
     first_pair:
-      row_name: C0225
+      row_name: "C0225   "
       value: -0.175
     second_pair:
-      row_name: C0231
+      row_name: "C0231   "
       value: 0.54
-  - name: X0105
+  - name: "X0105   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
     second_pair: ~
-  - name: X0111
+  - name: "X0111   "
     first_pair:
-      row_name: C0039
+      row_name: "C0039   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0111
+  - name: "X0111   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0237
+      row_name: "C0237   "
       value: 0.99
-  - name: X0111
+  - name: "X0111   "
     first_pair:
-      row_name: C0243
+      row_name: "C0243   "
       value: -0.27
     second_pair:
-      row_name: C0249
+      row_name: "C0249   "
       value: -0.016
-  - name: X0111
+  - name: "X0111   "
     first_pair:
-      row_name: C0255
+      row_name: "C0255   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0117
+  - name: "X0117   "
     first_pair:
-      row_name: C0039
+      row_name: "C0039   "
       value: 1
     second_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
-  - name: X0117
+  - name: "X0117   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0237
+      row_name: "C0237   "
       value: -0.01
-  - name: X0117
+  - name: "X0117   "
     first_pair:
-      row_name: C0243
+      row_name: "C0243   "
       value: 0.73
     second_pair:
-      row_name: C0249
+      row_name: "C0249   "
       value: -0.016
-  - name: X0117
+  - name: "X0117   "
     first_pair:
-      row_name: C0255
+      row_name: "C0255   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0123
+  - name: "X0123   "
     first_pair:
-      row_name: C0039
+      row_name: "C0039   "
       value: 1
     second_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
-  - name: X0123
+  - name: "X0123   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0237
+      row_name: "C0237   "
       value: -0.01
-  - name: X0123
+  - name: "X0123   "
     first_pair:
-      row_name: C0243
+      row_name: "C0243   "
       value: -0.27
     second_pair:
-      row_name: C0249
+      row_name: "C0249   "
       value: 0.984
-  - name: X0123
+  - name: "X0123   "
     first_pair:
-      row_name: C0255
+      row_name: "C0255   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
-  - name: X0129
+  - name: "X0129   "
     first_pair:
-      row_name: C0039
+      row_name: "C0039   "
       value: 1
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: -1
-  - name: X0129
+  - name: "X0129   "
     first_pair:
-      row_name: C0237
+      row_name: "C0237   "
       value: -0.01
     second_pair:
-      row_name: C0243
+      row_name: "C0243   "
       value: -0.27
-  - name: X0129
+  - name: "X0129   "
     first_pair:
-      row_name: C0249
+      row_name: "C0249   "
       value: -0.016
     second_pair:
-      row_name: C0255
+      row_name: "C0255   "
       value: 0.44
-  - name: X0129
+  - name: "X0129   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
     second_pair: ~
-  - name: X0135
+  - name: "X0135   "
     first_pair:
-      row_name: C0045
+      row_name: "C0045   "
       value: -0.94
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: 1
-  - name: X0135
+  - name: "X0135   "
     first_pair:
-      row_name: C0143
+      row_name: "C0143   "
       value: 1
     second_pair: ~
-  - name: X0141
+  - name: "X0141   "
     first_pair:
-      row_name: C0063
+      row_name: "C0063   "
       value: -0.94
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: 1
-  - name: X0141
+  - name: "X0141   "
     first_pair:
-      row_name: C0144
+      row_name: "C0144   "
       value: 1
     second_pair: ~
-  - name: X0147
+  - name: "X0147   "
     first_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: -0.99
     second_pair:
-      row_name: C0075
+      row_name: "C0075   "
       value: 1
-  - name: X0147
+  - name: "X0147   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair: ~
-  - name: X0153
+  - name: "X0153   "
     first_pair:
-      row_name: C0045
+      row_name: "C0045   "
       value: 1
     second_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: -0.99
-  - name: X0153
+  - name: "X0153   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0261
+      row_name: "C0261   "
       value: 0.765
-  - name: X0153
+  - name: "X0153   "
     first_pair:
-      row_name: C0267
+      row_name: "C0267   "
       value: -0.12
     second_pair:
-      row_name: C0273
+      row_name: "C0273   "
       value: -0.325
-  - name: X0153
+  - name: "X0153   "
     first_pair:
-      row_name: C0279
+      row_name: "C0279   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.68
-  - name: X0159
+  - name: "X0159   "
     first_pair:
-      row_name: C0045
+      row_name: "C0045   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0159
+  - name: "X0159   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0261
+      row_name: "C0261   "
       value: -0.235
-  - name: X0159
+  - name: "X0159   "
     first_pair:
-      row_name: C0267
+      row_name: "C0267   "
       value: 0.88
     second_pair:
-      row_name: C0273
+      row_name: "C0273   "
       value: -0.325
-  - name: X0159
+  - name: "X0159   "
     first_pair:
-      row_name: C0279
+      row_name: "C0279   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.68
-  - name: X0165
+  - name: "X0165   "
     first_pair:
-      row_name: C0045
+      row_name: "C0045   "
       value: 1
     second_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
-  - name: X0165
+  - name: "X0165   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0261
+      row_name: "C0261   "
       value: -0.235
-  - name: X0165
+  - name: "X0165   "
     first_pair:
-      row_name: C0267
+      row_name: "C0267   "
       value: -0.12
     second_pair:
-      row_name: C0273
+      row_name: "C0273   "
       value: 0.675
-  - name: X0165
+  - name: "X0165   "
     first_pair:
-      row_name: C0279
+      row_name: "C0279   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.68
-  - name: X0171
+  - name: "X0171   "
     first_pair:
-      row_name: C0045
+      row_name: "C0045   "
       value: 1
     second_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
-  - name: X0171
+  - name: "X0171   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0261
+      row_name: "C0261   "
       value: -0.235
-  - name: X0171
+  - name: "X0171   "
     first_pair:
-      row_name: C0267
+      row_name: "C0267   "
       value: -0.12
     second_pair:
-      row_name: C0273
+      row_name: "C0273   "
       value: -0.325
-  - name: X0171
+  - name: "X0171   "
     first_pair:
-      row_name: C0279
+      row_name: "C0279   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.68
-  - name: X0177
+  - name: "X0177   "
     first_pair:
-      row_name: C0063
+      row_name: "C0063   "
       value: 1
     second_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: -0.99
-  - name: X0177
+  - name: "X0177   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0285
+      row_name: "C0285   "
       value: 1
-  - name: X0177
+  - name: "X0177   "
     first_pair:
-      row_name: C0291
+      row_name: "C0291   "
       value: -0.12
     second_pair:
-      row_name: C0303
+      row_name: "C0303   "
       value: -0.88
-  - name: X0177
+  - name: "X0177   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.36
     second_pair: ~
-  - name: X0183
+  - name: "X0183   "
     first_pair:
-      row_name: C0063
+      row_name: "C0063   "
       value: 1
     second_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: -1
-  - name: X0183
+  - name: "X0183   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: 0.1
     second_pair:
-      row_name: C0291
+      row_name: "C0291   "
       value: 0.88
-  - name: X0183
+  - name: "X0183   "
     first_pair:
-      row_name: C0303
+      row_name: "C0303   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.36
-  - name: X0189
+  - name: "X0189   "
     first_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: -0.99
     second_pair:
-      row_name: C0063
+      row_name: "C0063   "
       value: 1
-  - name: X0189
+  - name: "X0189   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0291
+      row_name: "C0291   "
       value: -0.12
-  - name: X0189
+  - name: "X0189   "
     first_pair:
-      row_name: C0297
+      row_name: "C0297   "
       value: 1
     second_pair:
-      row_name: C0303
+      row_name: "C0303   "
       value: -0.88
-  - name: X0189
+  - name: "X0189   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.36
     second_pair: ~
-  - name: X0195
+  - name: "X0195   "
     first_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: -0.99
     second_pair:
-      row_name: C0063
+      row_name: "C0063   "
       value: 1
-  - name: X0195
+  - name: "X0195   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.25
     second_pair:
-      row_name: C0291
+      row_name: "C0291   "
       value: -0.12
-  - name: X0195
+  - name: "X0195   "
     first_pair:
-      row_name: C0303
+      row_name: "C0303   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.36
-  - name: X0201
+  - name: "X0201   "
     first_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: 1
     second_pair:
-      row_name: C0363
+      row_name: "C0363   "
       value: 1
-  - name: X0207
+  - name: "X0207   "
     first_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: 1
     second_pair:
-      row_name: C0087
+      row_name: "C0087   "
       value: -1
-  - name: X0213
+  - name: "X0213   "
     first_pair:
-      row_name: C0069
+      row_name: "C0069   "
       value: 1
     second_pair:
-      row_name: C0093
+      row_name: "C0093   "
       value: -1
-  - name: X0219
+  - name: "X0219   "
     first_pair:
-      row_name: C0051
+      row_name: "C0051   "
       value: 1
     second_pair:
-      row_name: C0099
+      row_name: "C0099   "
       value: -1
-  - name: X0225
+  - name: "X0225   "
     first_pair:
-      row_name: C0057
+      row_name: "C0057   "
       value: 1
     second_pair:
-      row_name: C0105
+      row_name: "C0105   "
       value: -1
-  - name: X0231
+  - name: "X0231   "
     first_pair:
-      row_name: C0099
+      row_name: "C0099   "
       value: 1
     second_pair:
-      row_name: C0111
+      row_name: "C0111   "
       value: -1
-  - name: X0231
+  - name: "X0231   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0237
+  - name: "X0237   "
     first_pair:
-      row_name: C0099
+      row_name: "C0099   "
       value: 1
     second_pair:
-      row_name: C0117
+      row_name: "C0117   "
       value: -1
-  - name: X0237
+  - name: "X0237   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0243
+  - name: "X0243   "
     first_pair:
-      row_name: C0099
+      row_name: "C0099   "
       value: 1
     second_pair:
-      row_name: C0123
+      row_name: "C0123   "
       value: -1
-  - name: X0243
+  - name: "X0243   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0249
+  - name: "X0249   "
     first_pair:
-      row_name: C0105
+      row_name: "C0105   "
       value: 1
     second_pair:
-      row_name: C0129
+      row_name: "C0129   "
       value: -1
-  - name: X0249
+  - name: "X0249   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0255
+  - name: "X0255   "
     first_pair:
-      row_name: C0087
+      row_name: "C0087   "
       value: 1
     second_pair:
-      row_name: C0357
+      row_name: "C0357   "
       value: 1
-  - name: X0255
+  - name: "X0255   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.71
     second_pair: ~
-  - name: X0261
+  - name: "X0261   "
     first_pair:
-      row_name: C0093
+      row_name: "C0093   "
       value: 1
     second_pair:
-      row_name: C0351
+      row_name: "C0351   "
       value: 1
-  - name: X0261
+  - name: "X0261   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0267
+  - name: "X0267   "
     first_pair:
-      row_name: C0093
+      row_name: "C0093   "
       value: 1
     second_pair:
-      row_name: C0345
+      row_name: "C0345   "
       value: 1
-  - name: X0267
+  - name: "X0267   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0273
+  - name: "X0273   "
     first_pair:
-      row_name: C0081
+      row_name: "C0081   "
       value: 1
     second_pair:
-      row_name: C0339
+      row_name: "C0339   "
       value: 1
-  - name: X0273
+  - name: "X0273   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.34
     second_pair: ~
-  - name: X0279
+  - name: "X0279   "
     first_pair:
-      row_name: C0111
+      row_name: "C0111   "
       value: 1
     second_pair:
-      row_name: C0333
+      row_name: "C0333   "
       value: 1
-  - name: X0279
+  - name: "X0279   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0285
+  - name: "X0285   "
     first_pair:
-      row_name: C0117
+      row_name: "C0117   "
       value: 1
     second_pair:
-      row_name: C0327
+      row_name: "C0327   "
       value: 1
-  - name: X0285
+  - name: "X0285   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 42.63
     second_pair: ~
-  - name: X0291
+  - name: "X0291   "
     first_pair:
-      row_name: C0123
+      row_name: "C0123   "
       value: 1
     second_pair:
-      row_name: C0321
+      row_name: "C0321   "
       value: 1
-  - name: X0291
+  - name: "X0291   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 19.27
     second_pair: ~
-  - name: X0297
+  - name: "X0297   "
     first_pair:
-      row_name: C0129
+      row_name: "C0129   "
       value: 1
     second_pair:
-      row_name: C0315
+      row_name: "C0315   "
       value: 1
-  - name: X0297
+  - name: "X0297   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 42.63
     second_pair: ~
-  - name: X0303
+  - name: "X0303   "
     first_pair:
-      row_name: C0105
+      row_name: "C0105   "
       value: 1
     second_pair:
-      row_name: C0309
+      row_name: "C0309   "
       value: 1
-  - name: X0303
+  - name: "X0303   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.41
     second_pair: ~
-  - name: X0310
+  - name: "X0310   "
     first_pair:
-      row_name: C0153
+      row_name: "C0153   "
       value: -1
     second_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: -1
-  - name: X0310
+  - name: "X0310   "
     first_pair:
-      row_name: C3154
+      row_name: "C3154   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 101.71
-  - name: X0316
+  - name: "X0316   "
     first_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: -1
     second_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: -1
-  - name: X0316
+  - name: "X0316   "
     first_pair:
-      row_name: C3160
+      row_name: "C3160   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 37.68
-  - name: X0322
+  - name: "X0322   "
     first_pair:
-      row_name: C0144
+      row_name: "C0144   "
       value: -0.85
     second_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: -0.85
-  - name: X0322
+  - name: "X0322   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 96.49
     second_pair: ~
-  - name: X0328
+  - name: "X0328   "
     first_pair:
-      row_name: C0143
+      row_name: "C0143   "
       value: -0.85
     second_pair:
-      row_name: C0145
+      row_name: "C0145   "
       value: -0.85
-  - name: X0328
+  - name: "X0328   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 62.03
     second_pair: ~
-  - name: X0334
+  - name: "X0334   "
     first_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: -0.95
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: -0.95
-  - name: X0334
+  - name: "X0334   "
     first_pair:
-      row_name: C1136
+      row_name: "C1136   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 18.76
-  - name: X3308
+  - name: "X3308   "
     first_pair:
-      row_name: C1153
+      row_name: "C1153   "
       value: -1
     second_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: -1
-  - name: X3308
+  - name: "X3308   "
     first_pair:
-      row_name: C1154
+      row_name: "C1154   "
       value: 1
     second_pair: ~
-  - name: X3309
+  - name: "X3309   "
     first_pair:
-      row_name: C2153
+      row_name: "C2153   "
       value: -1
     second_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: -1
-  - name: X3309
+  - name: "X3309   "
     first_pair:
-      row_name: C2154
+      row_name: "C2154   "
       value: 1
     second_pair: ~
-  - name: X3314
+  - name: "X3314   "
     first_pair:
-      row_name: C1159
+      row_name: "C1159   "
       value: -1
     second_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: -1
-  - name: X3314
+  - name: "X3314   "
     first_pair:
-      row_name: C2160
+      row_name: "C2160   "
       value: 1
     second_pair: ~
-  - name: X3315
+  - name: "X3315   "
     first_pair:
-      row_name: C2159
+      row_name: "C2159   "
       value: -1
     second_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: -1
-  - name: X3315
+  - name: "X3315   "
     first_pair:
-      row_name: C2160
+      row_name: "C2160   "
       value: 1
     second_pair: ~
-  - name: X3320
+  - name: "X3320   "
     first_pair:
-      row_name: C1144
+      row_name: "C1144   "
       value: -1
     second_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: -0.85
-  - name: X3321
+  - name: "X3321   "
     first_pair:
-      row_name: C2144
+      row_name: "C2144   "
       value: -1
     second_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: -0.85
-  - name: X3326
+  - name: "X3326   "
     first_pair:
-      row_name: C1143
+      row_name: "C1143   "
       value: -1
     second_pair:
-      row_name: C0145
+      row_name: "C0145   "
       value: -0.85
-  - name: X3327
+  - name: "X3327   "
     first_pair:
-      row_name: C2143
+      row_name: "C2143   "
       value: -1
     second_pair:
-      row_name: C0145
+      row_name: "C0145   "
       value: -0.85
-  - name: X3332
+  - name: "X3332   "
     first_pair:
-      row_name: C1135
+      row_name: "C1135   "
       value: -1
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: -0.95
-  - name: X3333
+  - name: "X3333   "
     first_pair:
-      row_name: C2135
+      row_name: "C2135   "
       value: -1
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: -0.95
-  - name: X0004
+  - name: "X0004   "
     first_pair:
-      row_name: C0004
+      row_name: "C0004   "
       value: 1
     second_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: -0.94
-  - name: X0004
+  - name: "X0004   "
     first_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 14.54
-  - name: X0010
+  - name: "X0010   "
     first_pair:
-      row_name: C0010
+      row_name: "C0010   "
       value: 1
     second_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: -0.94
-  - name: X0010
+  - name: "X0010   "
     first_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 72.04
-  - name: X0016
+  - name: "X0016   "
     first_pair:
-      row_name: C0016
+      row_name: "C0016   "
       value: 1
     second_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: -0.94
-  - name: X0016
+  - name: "X0016   "
     first_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
     second_pair: ~
-  - name: X0022
+  - name: "X0022   "
     first_pair:
-      row_name: C0028
+      row_name: "C0028   "
       value: -0.94
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
-  - name: X0022
+  - name: "X0022   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 185.42
     second_pair: ~
-  - name: X0028
+  - name: "X0028   "
     first_pair:
-      row_name: C0034
+      row_name: "C0034   "
       value: -0.94
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
-  - name: X0028
+  - name: "X0028   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 176.26
     second_pair: ~
-  - name: X0034
+  - name: "X0034   "
     first_pair:
-      row_name: C0040
+      row_name: "C0040   "
       value: -0.94
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 1
-  - name: X0034
+  - name: "X0034   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 167.3
     second_pair: ~
-  - name: X0040
+  - name: "X0040   "
     first_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0040
+  - name: "X0040   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0166
+      row_name: "C0166   "
       value: 0.985
-  - name: X0040
+  - name: "X0040   "
     first_pair:
-      row_name: C0172
+      row_name: "C0172   "
       value: -0.4
     second_pair:
-      row_name: C0178
+      row_name: "C0178   "
       value: -0.105
-  - name: X0040
+  - name: "X0040   "
     first_pair:
-      row_name: C0184
+      row_name: "C0184   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0046
+  - name: "X0046   "
     first_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: 1
     second_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
-  - name: X0046
+  - name: "X0046   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0166
+      row_name: "C0166   "
       value: -0.015
-  - name: X0046
+  - name: "X0046   "
     first_pair:
-      row_name: C0172
+      row_name: "C0172   "
       value: 0.6
     second_pair:
-      row_name: C0178
+      row_name: "C0178   "
       value: -0.105
-  - name: X0046
+  - name: "X0046   "
     first_pair:
-      row_name: C0184
+      row_name: "C0184   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0052
+  - name: "X0052   "
     first_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: 1
     second_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
-  - name: X0052
+  - name: "X0052   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0166
+      row_name: "C0166   "
       value: -0.015
-  - name: X0052
+  - name: "X0052   "
     first_pair:
-      row_name: C0172
+      row_name: "C0172   "
       value: -0.4
     second_pair:
-      row_name: C0178
+      row_name: "C0178   "
       value: 0.895
-  - name: X0052
+  - name: "X0052   "
     first_pair:
-      row_name: C0184
+      row_name: "C0184   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0058
+  - name: "X0058   "
     first_pair:
-      row_name: C0022
+      row_name: "C0022   "
       value: 1
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: -1
-  - name: X0058
+  - name: "X0058   "
     first_pair:
-      row_name: C0166
+      row_name: "C0166   "
       value: -0.015
     second_pair:
-      row_name: C0172
+      row_name: "C0172   "
       value: -0.4
-  - name: X0058
+  - name: "X0058   "
     first_pair:
-      row_name: C0178
+      row_name: "C0178   "
       value: -0.105
     second_pair:
-      row_name: C0184
+      row_name: "C0184   "
       value: 0.52
-  - name: X0058
+  - name: "X0058   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
     second_pair: ~
-  - name: X0064
+  - name: "X0064   "
     first_pair:
-      row_name: C0028
+      row_name: "C0028   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0064
+  - name: "X0064   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0190
+      row_name: "C0190   "
       value: 0.98
-  - name: X0064
+  - name: "X0064   "
     first_pair:
-      row_name: C0196
+      row_name: "C0196   "
       value: -0.39
     second_pair:
-      row_name: C0202
+      row_name: "C0202   "
       value: -0.2
-  - name: X0064
+  - name: "X0064   "
     first_pair:
-      row_name: C0208
+      row_name: "C0208   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0070
+  - name: "X0070   "
     first_pair:
-      row_name: C0028
+      row_name: "C0028   "
       value: 1
     second_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
-  - name: X0070
+  - name: "X0070   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0190
+      row_name: "C0190   "
       value: -0.02
-  - name: X0070
+  - name: "X0070   "
     first_pair:
-      row_name: C0196
+      row_name: "C0196   "
       value: 0.61
     second_pair:
-      row_name: C0202
+      row_name: "C0202   "
       value: -0.2
-  - name: X0070
+  - name: "X0070   "
     first_pair:
-      row_name: C0208
+      row_name: "C0208   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0076
+  - name: "X0076   "
     first_pair:
-      row_name: C0028
+      row_name: "C0028   "
       value: 1
     second_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
-  - name: X0076
+  - name: "X0076   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0190
+      row_name: "C0190   "
       value: -0.02
-  - name: X0076
+  - name: "X0076   "
     first_pair:
-      row_name: C0196
+      row_name: "C0196   "
       value: -0.39
     second_pair:
-      row_name: C0202
+      row_name: "C0202   "
       value: 0.8
-  - name: X0076
+  - name: "X0076   "
     first_pair:
-      row_name: C0208
+      row_name: "C0208   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0082
+  - name: "X0082   "
     first_pair:
-      row_name: C0028
+      row_name: "C0028   "
       value: 1
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: -1
-  - name: X0082
+  - name: "X0082   "
     first_pair:
-      row_name: C0190
+      row_name: "C0190   "
       value: -0.02
     second_pair:
-      row_name: C0196
+      row_name: "C0196   "
       value: -0.39
-  - name: X0082
+  - name: "X0082   "
     first_pair:
-      row_name: C0202
+      row_name: "C0202   "
       value: -0.2
     second_pair:
-      row_name: C0208
+      row_name: "C0208   "
       value: 0.61
-  - name: X0082
+  - name: "X0082   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
     second_pair: ~
-  - name: X0088
+  - name: "X0088   "
     first_pair:
-      row_name: C0034
+      row_name: "C0034   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0088
+  - name: "X0088   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0214
+      row_name: "C0214   "
       value: 0.985
-  - name: X0088
+  - name: "X0088   "
     first_pair:
-      row_name: C0220
+      row_name: "C0220   "
       value: -0.35
     second_pair:
-      row_name: C0226
+      row_name: "C0226   "
       value: -0.175
-  - name: X0088
+  - name: "X0088   "
     first_pair:
-      row_name: C0232
+      row_name: "C0232   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0094
+  - name: "X0094   "
     first_pair:
-      row_name: C0034
+      row_name: "C0034   "
       value: 1
     second_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
-  - name: X0094
+  - name: "X0094   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0214
+      row_name: "C0214   "
       value: -0.015
-  - name: X0094
+  - name: "X0094   "
     first_pair:
-      row_name: C0220
+      row_name: "C0220   "
       value: 0.65
     second_pair:
-      row_name: C0226
+      row_name: "C0226   "
       value: -0.175
-  - name: X0094
+  - name: "X0094   "
     first_pair:
-      row_name: C0232
+      row_name: "C0232   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0100
+  - name: "X0100   "
     first_pair:
-      row_name: C0034
+      row_name: "C0034   "
       value: 1
     second_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
-  - name: X0100
+  - name: "X0100   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0214
+      row_name: "C0214   "
       value: -0.015
-  - name: X0100
+  - name: "X0100   "
     first_pair:
-      row_name: C0220
+      row_name: "C0220   "
       value: -0.35
     second_pair:
-      row_name: C0226
+      row_name: "C0226   "
       value: 0.825
-  - name: X0100
+  - name: "X0100   "
     first_pair:
-      row_name: C0232
+      row_name: "C0232   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0106
+  - name: "X0106   "
     first_pair:
-      row_name: C0034
+      row_name: "C0034   "
       value: 1
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: -1
-  - name: X0106
+  - name: "X0106   "
     first_pair:
-      row_name: C0214
+      row_name: "C0214   "
       value: -0.015
     second_pair:
-      row_name: C0220
+      row_name: "C0220   "
       value: -0.35
-  - name: X0106
+  - name: "X0106   "
     first_pair:
-      row_name: C0226
+      row_name: "C0226   "
       value: -0.175
     second_pair:
-      row_name: C0232
+      row_name: "C0232   "
       value: 0.54
-  - name: X0106
+  - name: "X0106   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
     second_pair: ~
-  - name: X0112
+  - name: "X0112   "
     first_pair:
-      row_name: C0040
+      row_name: "C0040   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0112
+  - name: "X0112   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0238
+      row_name: "C0238   "
       value: 0.99
-  - name: X0112
+  - name: "X0112   "
     first_pair:
-      row_name: C0244
+      row_name: "C0244   "
       value: -0.27
     second_pair:
-      row_name: C0250
+      row_name: "C0250   "
       value: -0.016
-  - name: X0112
+  - name: "X0112   "
     first_pair:
-      row_name: C0256
+      row_name: "C0256   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0118
+  - name: "X0118   "
     first_pair:
-      row_name: C0040
+      row_name: "C0040   "
       value: 1
     second_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
-  - name: X0118
+  - name: "X0118   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0238
+      row_name: "C0238   "
       value: -0.01
-  - name: X0118
+  - name: "X0118   "
     first_pair:
-      row_name: C0244
+      row_name: "C0244   "
       value: 0.73
     second_pair:
-      row_name: C0250
+      row_name: "C0250   "
       value: -0.016
-  - name: X0118
+  - name: "X0118   "
     first_pair:
-      row_name: C0256
+      row_name: "C0256   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0124
+  - name: "X0124   "
     first_pair:
-      row_name: C0040
+      row_name: "C0040   "
       value: 1
     second_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
-  - name: X0124
+  - name: "X0124   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0238
+      row_name: "C0238   "
       value: -0.01
-  - name: X0124
+  - name: "X0124   "
     first_pair:
-      row_name: C0244
+      row_name: "C0244   "
       value: -0.27
     second_pair:
-      row_name: C0250
+      row_name: "C0250   "
       value: 0.984
-  - name: X0124
+  - name: "X0124   "
     first_pair:
-      row_name: C0256
+      row_name: "C0256   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
-  - name: X0130
+  - name: "X0130   "
     first_pair:
-      row_name: C0040
+      row_name: "C0040   "
       value: 1
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: -1
-  - name: X0130
+  - name: "X0130   "
     first_pair:
-      row_name: C0238
+      row_name: "C0238   "
       value: -0.01
     second_pair:
-      row_name: C0244
+      row_name: "C0244   "
       value: -0.27
-  - name: X0130
+  - name: "X0130   "
     first_pair:
-      row_name: C0250
+      row_name: "C0250   "
       value: -0.016
     second_pair:
-      row_name: C0256
+      row_name: "C0256   "
       value: 0.44
-  - name: X0130
+  - name: "X0130   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
     second_pair: ~
-  - name: X0136
+  - name: "X0136   "
     first_pair:
-      row_name: C0046
+      row_name: "C0046   "
       value: -0.94
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: 1
-  - name: X0136
+  - name: "X0136   "
     first_pair:
-      row_name: C0145
+      row_name: "C0145   "
       value: 1
     second_pair: ~
-  - name: X0142
+  - name: "X0142   "
     first_pair:
-      row_name: C0064
+      row_name: "C0064   "
       value: -0.94
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: 1
-  - name: X0142
+  - name: "X0142   "
     first_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: 1
     second_pair: ~
-  - name: X0148
+  - name: "X0148   "
     first_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: -0.99
     second_pair:
-      row_name: C0076
+      row_name: "C0076   "
       value: 1
-  - name: X0148
+  - name: "X0148   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair: ~
-  - name: X0154
+  - name: "X0154   "
     first_pair:
-      row_name: C0046
+      row_name: "C0046   "
       value: 1
     second_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: -0.99
-  - name: X0154
+  - name: "X0154   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0262
+      row_name: "C0262   "
       value: 0.765
-  - name: X0154
+  - name: "X0154   "
     first_pair:
-      row_name: C0268
+      row_name: "C0268   "
       value: -0.12
     second_pair:
-      row_name: C0274
+      row_name: "C0274   "
       value: -0.325
-  - name: X0154
+  - name: "X0154   "
     first_pair:
-      row_name: C0280
+      row_name: "C0280   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.64
-  - name: X0160
+  - name: "X0160   "
     first_pair:
-      row_name: C0046
+      row_name: "C0046   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0160
+  - name: "X0160   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0262
+      row_name: "C0262   "
       value: -0.235
-  - name: X0160
+  - name: "X0160   "
     first_pair:
-      row_name: C0268
+      row_name: "C0268   "
       value: 0.88
     second_pair:
-      row_name: C0274
+      row_name: "C0274   "
       value: -0.325
-  - name: X0160
+  - name: "X0160   "
     first_pair:
-      row_name: C0280
+      row_name: "C0280   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.64
-  - name: X0166
+  - name: "X0166   "
     first_pair:
-      row_name: C0046
+      row_name: "C0046   "
       value: 1
     second_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
-  - name: X0166
+  - name: "X0166   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0262
+      row_name: "C0262   "
       value: -0.235
-  - name: X0166
+  - name: "X0166   "
     first_pair:
-      row_name: C0268
+      row_name: "C0268   "
       value: -0.12
     second_pair:
-      row_name: C0274
+      row_name: "C0274   "
       value: 0.675
-  - name: X0166
+  - name: "X0166   "
     first_pair:
-      row_name: C0280
+      row_name: "C0280   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.64
-  - name: X0172
+  - name: "X0172   "
     first_pair:
-      row_name: C0046
+      row_name: "C0046   "
       value: 1
     second_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
-  - name: X0172
+  - name: "X0172   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0262
+      row_name: "C0262   "
       value: -0.235
-  - name: X0172
+  - name: "X0172   "
     first_pair:
-      row_name: C0268
+      row_name: "C0268   "
       value: -0.12
     second_pair:
-      row_name: C0274
+      row_name: "C0274   "
       value: -0.325
-  - name: X0172
+  - name: "X0172   "
     first_pair:
-      row_name: C0280
+      row_name: "C0280   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.64
-  - name: X0178
+  - name: "X0178   "
     first_pair:
-      row_name: C0064
+      row_name: "C0064   "
       value: 1
     second_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: -0.99
-  - name: X0178
+  - name: "X0178   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0286
+      row_name: "C0286   "
       value: 1
-  - name: X0178
+  - name: "X0178   "
     first_pair:
-      row_name: C0292
+      row_name: "C0292   "
       value: -0.12
     second_pair:
-      row_name: C0304
+      row_name: "C0304   "
       value: -0.88
-  - name: X0178
+  - name: "X0178   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.28
     second_pair: ~
-  - name: X0184
+  - name: "X0184   "
     first_pair:
-      row_name: C0064
+      row_name: "C0064   "
       value: 1
     second_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: -1
-  - name: X0184
+  - name: "X0184   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: 0.1
     second_pair:
-      row_name: C0292
+      row_name: "C0292   "
       value: 0.88
-  - name: X0184
+  - name: "X0184   "
     first_pair:
-      row_name: C0304
+      row_name: "C0304   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.28
-  - name: X0190
+  - name: "X0190   "
     first_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: -0.99
     second_pair:
-      row_name: C0064
+      row_name: "C0064   "
       value: 1
-  - name: X0190
+  - name: "X0190   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0292
+      row_name: "C0292   "
       value: -0.12
-  - name: X0190
+  - name: "X0190   "
     first_pair:
-      row_name: C0298
+      row_name: "C0298   "
       value: 1
     second_pair:
-      row_name: C0304
+      row_name: "C0304   "
       value: -0.88
-  - name: X0190
+  - name: "X0190   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.28
     second_pair: ~
-  - name: X0196
+  - name: "X0196   "
     first_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: -0.99
     second_pair:
-      row_name: C0064
+      row_name: "C0064   "
       value: 1
-  - name: X0196
+  - name: "X0196   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.25
     second_pair:
-      row_name: C0292
+      row_name: "C0292   "
       value: -0.12
-  - name: X0196
+  - name: "X0196   "
     first_pair:
-      row_name: C0304
+      row_name: "C0304   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.28
-  - name: X0202
+  - name: "X0202   "
     first_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: 1
     second_pair:
-      row_name: C0364
+      row_name: "C0364   "
       value: 1
-  - name: X0208
+  - name: "X0208   "
     first_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: 1
     second_pair:
-      row_name: C0088
+      row_name: "C0088   "
       value: -1
-  - name: X0214
+  - name: "X0214   "
     first_pair:
-      row_name: C0070
+      row_name: "C0070   "
       value: 1
     second_pair:
-      row_name: C0094
+      row_name: "C0094   "
       value: -1
-  - name: X0220
+  - name: "X0220   "
     first_pair:
-      row_name: C0052
+      row_name: "C0052   "
       value: 1
     second_pair:
-      row_name: C0100
+      row_name: "C0100   "
       value: -1
-  - name: X0226
+  - name: "X0226   "
     first_pair:
-      row_name: C0058
+      row_name: "C0058   "
       value: 1
     second_pair:
-      row_name: C0106
+      row_name: "C0106   "
       value: -1
-  - name: X0232
+  - name: "X0232   "
     first_pair:
-      row_name: C0100
+      row_name: "C0100   "
       value: 1
     second_pair:
-      row_name: C0112
+      row_name: "C0112   "
       value: -1
-  - name: X0232
+  - name: "X0232   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0238
+  - name: "X0238   "
     first_pair:
-      row_name: C0100
+      row_name: "C0100   "
       value: 1
     second_pair:
-      row_name: C0118
+      row_name: "C0118   "
       value: -1
-  - name: X0238
+  - name: "X0238   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0244
+  - name: "X0244   "
     first_pair:
-      row_name: C0100
+      row_name: "C0100   "
       value: 1
     second_pair:
-      row_name: C0124
+      row_name: "C0124   "
       value: -1
-  - name: X0244
+  - name: "X0244   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0250
+  - name: "X0250   "
     first_pair:
-      row_name: C0106
+      row_name: "C0106   "
       value: 1
     second_pair:
-      row_name: C0130
+      row_name: "C0130   "
       value: -1
-  - name: X0250
+  - name: "X0250   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0256
+  - name: "X0256   "
     first_pair:
-      row_name: C0088
+      row_name: "C0088   "
       value: 1
     second_pair:
-      row_name: C0358
+      row_name: "C0358   "
       value: 1
-  - name: X0256
+  - name: "X0256   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.6
     second_pair: ~
-  - name: X0262
+  - name: "X0262   "
     first_pair:
-      row_name: C0094
+      row_name: "C0094   "
       value: 1
     second_pair:
-      row_name: C0352
+      row_name: "C0352   "
       value: 1
-  - name: X0262
+  - name: "X0262   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0268
+  - name: "X0268   "
     first_pair:
-      row_name: C0094
+      row_name: "C0094   "
       value: 1
     second_pair:
-      row_name: C0346
+      row_name: "C0346   "
       value: 1
-  - name: X0268
+  - name: "X0268   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0274
+  - name: "X0274   "
     first_pair:
-      row_name: C0082
+      row_name: "C0082   "
       value: 1
     second_pair:
-      row_name: C0340
+      row_name: "C0340   "
       value: 1
-  - name: X0274
+  - name: "X0274   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.32
     second_pair: ~
-  - name: X0280
+  - name: "X0280   "
     first_pair:
-      row_name: C0112
+      row_name: "C0112   "
       value: 1
     second_pair:
-      row_name: C0334
+      row_name: "C0334   "
       value: 1
-  - name: X0280
+  - name: "X0280   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0286
+  - name: "X0286   "
     first_pair:
-      row_name: C0118
+      row_name: "C0118   "
       value: 1
     second_pair:
-      row_name: C0328
+      row_name: "C0328   "
       value: 1
-  - name: X0286
+  - name: "X0286   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 39.93
     second_pair: ~
-  - name: X0292
+  - name: "X0292   "
     first_pair:
-      row_name: C0124
+      row_name: "C0124   "
       value: 1
     second_pair:
-      row_name: C0322
+      row_name: "C0322   "
       value: 1
-  - name: X0292
+  - name: "X0292   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 18.05
     second_pair: ~
-  - name: X0298
+  - name: "X0298   "
     first_pair:
-      row_name: C0130
+      row_name: "C0130   "
       value: 1
     second_pair:
-      row_name: C0316
+      row_name: "C0316   "
       value: 1
-  - name: X0298
+  - name: "X0298   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 39.93
     second_pair: ~
-  - name: X0304
+  - name: "X0304   "
     first_pair:
-      row_name: C0106
+      row_name: "C0106   "
       value: 1
     second_pair:
-      row_name: C0310
+      row_name: "C0310   "
       value: 1
-  - name: X0304
+  - name: "X0304   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.19
     second_pair: ~
-  - name: X0311
+  - name: "X0311   "
     first_pair:
-      row_name: C0154
+      row_name: "C0154   "
       value: -1
     second_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: -1
-  - name: X0311
+  - name: "X0311   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 63.6
     second_pair: ~
-  - name: X0317
+  - name: "X0317   "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: -1
     second_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: -1
-  - name: X0317
+  - name: "X0317   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 23.56
     second_pair: ~
-  - name: X0323
+  - name: "X0323   "
     first_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: -0.85
     second_pair:
-      row_name: C0148
+      row_name: "C0148   "
       value: -0.85
-  - name: X0323
+  - name: "X0323   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 61.67
     second_pair: ~
-  - name: X0329
+  - name: "X0329   "
     first_pair:
-      row_name: C0145
+      row_name: "C0145   "
       value: -0.85
     second_pair:
-      row_name: C0147
+      row_name: "C0147   "
       value: -0.85
-  - name: X0329
+  - name: "X0329   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 39.65
     second_pair: ~
-  - name: X0335
+  - name: "X0335   "
     first_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: -0.95
     second_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: -0.95
-  - name: X0335
+  - name: "X0335   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 11.99
     second_pair: ~
-  - name: X4308
+  - name: "X4308   "
     first_pair:
-      row_name: C1154
+      row_name: "C1154   "
       value: -1
     second_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: -1
-  - name: X4309
+  - name: "X4309   "
     first_pair:
-      row_name: C2154
+      row_name: "C2154   "
       value: -1
     second_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: -1
-  - name: X4310
+  - name: "X4310   "
     first_pair:
-      row_name: C3154
+      row_name: "C3154   "
       value: -1
     second_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: -1
-  - name: X4314
+  - name: "X4314   "
     first_pair:
-      row_name: C1160
+      row_name: "C1160   "
       value: -1
     second_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: -1
-  - name: X4315
+  - name: "X4315   "
     first_pair:
-      row_name: C2160
+      row_name: "C2160   "
       value: -1
     second_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: -1
-  - name: X4316
+  - name: "X4316   "
     first_pair:
-      row_name: C3160
+      row_name: "C3160   "
       value: -1
     second_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: -1
-  - name: X4334
+  - name: "X4334   "
     first_pair:
-      row_name: C1136
+      row_name: "C1136   "
       value: -1
     second_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: -0.95
-  - name: X0005
+  - name: "X0005   "
     first_pair:
-      row_name: C0005
+      row_name: "C0005   "
       value: 1
     second_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: -0.94
-  - name: X0005
+  - name: "X0005   "
     first_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 10.79
-  - name: X0011
+  - name: "X0011   "
     first_pair:
-      row_name: C0011
+      row_name: "C0011   "
       value: 1
     second_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: -0.94
-  - name: X0011
+  - name: "X0011   "
     first_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 53.48
-  - name: X0017
+  - name: "X0017   "
     first_pair:
-      row_name: C0017
+      row_name: "C0017   "
       value: 1
     second_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: -0.94
-  - name: X0017
+  - name: "X0017   "
     first_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
     second_pair: ~
-  - name: X0023
+  - name: "X0023   "
     first_pair:
-      row_name: C0029
+      row_name: "C0029   "
       value: -0.94
     second_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
-  - name: X0023
+  - name: "X0023   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 159.51
     second_pair: ~
-  - name: X0029
+  - name: "X0029   "
     first_pair:
-      row_name: C0035
+      row_name: "C0035   "
       value: -0.94
     second_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
-  - name: X0029
+  - name: "X0029   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 151.62
     second_pair: ~
-  - name: X0035
+  - name: "X0035   "
     first_pair:
-      row_name: C0041
+      row_name: "C0041   "
       value: -0.94
     second_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: 1
-  - name: X0035
+  - name: "X0035   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 143.96
     second_pair: ~
-  - name: X0041
+  - name: "X0041   "
     first_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0041
+  - name: "X0041   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0167
+      row_name: "C0167   "
       value: 0.985
-  - name: X0041
+  - name: "X0041   "
     first_pair:
-      row_name: C0173
+      row_name: "C0173   "
       value: -0.4
     second_pair:
-      row_name: C0179
+      row_name: "C0179   "
       value: -0.105
-  - name: X0041
+  - name: "X0041   "
     first_pair:
-      row_name: C0185
+      row_name: "C0185   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0047
+  - name: "X0047   "
     first_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: 1
     second_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
-  - name: X0047
+  - name: "X0047   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0167
+      row_name: "C0167   "
       value: -0.015
-  - name: X0047
+  - name: "X0047   "
     first_pair:
-      row_name: C0173
+      row_name: "C0173   "
       value: 0.6
     second_pair:
-      row_name: C0179
+      row_name: "C0179   "
       value: -0.105
-  - name: X0047
+  - name: "X0047   "
     first_pair:
-      row_name: C0185
+      row_name: "C0185   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0053
+  - name: "X0053   "
     first_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: 1
     second_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
-  - name: X0053
+  - name: "X0053   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0167
+      row_name: "C0167   "
       value: -0.015
-  - name: X0053
+  - name: "X0053   "
     first_pair:
-      row_name: C0173
+      row_name: "C0173   "
       value: -0.4
     second_pair:
-      row_name: C0179
+      row_name: "C0179   "
       value: 0.895
-  - name: X0053
+  - name: "X0053   "
     first_pair:
-      row_name: C0185
+      row_name: "C0185   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0059
+  - name: "X0059   "
     first_pair:
-      row_name: C0023
+      row_name: "C0023   "
       value: 1
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: -1
-  - name: X0059
+  - name: "X0059   "
     first_pair:
-      row_name: C0167
+      row_name: "C0167   "
       value: -0.015
     second_pair:
-      row_name: C0173
+      row_name: "C0173   "
       value: -0.4
-  - name: X0059
+  - name: "X0059   "
     first_pair:
-      row_name: C0179
+      row_name: "C0179   "
       value: -0.105
     second_pair:
-      row_name: C0185
+      row_name: "C0185   "
       value: 0.52
-  - name: X0059
+  - name: "X0059   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0065
+  - name: "X0065   "
     first_pair:
-      row_name: C0029
+      row_name: "C0029   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0065
+  - name: "X0065   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0191
+      row_name: "C0191   "
       value: 0.98
-  - name: X0065
+  - name: "X0065   "
     first_pair:
-      row_name: C0197
+      row_name: "C0197   "
       value: -0.39
     second_pair:
-      row_name: C0203
+      row_name: "C0203   "
       value: -0.2
-  - name: X0065
+  - name: "X0065   "
     first_pair:
-      row_name: C0209
+      row_name: "C0209   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0071
+  - name: "X0071   "
     first_pair:
-      row_name: C0029
+      row_name: "C0029   "
       value: 1
     second_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
-  - name: X0071
+  - name: "X0071   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0191
+      row_name: "C0191   "
       value: -0.02
-  - name: X0071
+  - name: "X0071   "
     first_pair:
-      row_name: C0197
+      row_name: "C0197   "
       value: 0.61
     second_pair:
-      row_name: C0203
+      row_name: "C0203   "
       value: -0.2
-  - name: X0071
+  - name: "X0071   "
     first_pair:
-      row_name: C0209
+      row_name: "C0209   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0077
+  - name: "X0077   "
     first_pair:
-      row_name: C0029
+      row_name: "C0029   "
       value: 1
     second_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
-  - name: X0077
+  - name: "X0077   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0191
+      row_name: "C0191   "
       value: -0.02
-  - name: X0077
+  - name: "X0077   "
     first_pair:
-      row_name: C0197
+      row_name: "C0197   "
       value: -0.39
     second_pair:
-      row_name: C0203
+      row_name: "C0203   "
       value: 0.8
-  - name: X0077
+  - name: "X0077   "
     first_pair:
-      row_name: C0209
+      row_name: "C0209   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0083
+  - name: "X0083   "
     first_pair:
-      row_name: C0029
+      row_name: "C0029   "
       value: 1
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: -1
-  - name: X0083
+  - name: "X0083   "
     first_pair:
-      row_name: C0191
+      row_name: "C0191   "
       value: -0.02
     second_pair:
-      row_name: C0197
+      row_name: "C0197   "
       value: -0.39
-  - name: X0083
+  - name: "X0083   "
     first_pair:
-      row_name: C0203
+      row_name: "C0203   "
       value: -0.2
     second_pair:
-      row_name: C0209
+      row_name: "C0209   "
       value: 0.61
-  - name: X0083
+  - name: "X0083   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0089
+  - name: "X0089   "
     first_pair:
-      row_name: C0035
+      row_name: "C0035   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0089
+  - name: "X0089   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0215
+      row_name: "C0215   "
       value: 0.985
-  - name: X0089
+  - name: "X0089   "
     first_pair:
-      row_name: C0221
+      row_name: "C0221   "
       value: -0.35
     second_pair:
-      row_name: C0227
+      row_name: "C0227   "
       value: -0.175
-  - name: X0089
+  - name: "X0089   "
     first_pair:
-      row_name: C0233
+      row_name: "C0233   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0095
+  - name: "X0095   "
     first_pair:
-      row_name: C0035
+      row_name: "C0035   "
       value: 1
     second_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
-  - name: X0095
+  - name: "X0095   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0215
+      row_name: "C0215   "
       value: -0.015
-  - name: X0095
+  - name: "X0095   "
     first_pair:
-      row_name: C0221
+      row_name: "C0221   "
       value: 0.65
     second_pair:
-      row_name: C0227
+      row_name: "C0227   "
       value: -0.175
-  - name: X0095
+  - name: "X0095   "
     first_pair:
-      row_name: C0233
+      row_name: "C0233   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0101
+  - name: "X0101   "
     first_pair:
-      row_name: C0035
+      row_name: "C0035   "
       value: 1
     second_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
-  - name: X0101
+  - name: "X0101   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0215
+      row_name: "C0215   "
       value: -0.015
-  - name: X0101
+  - name: "X0101   "
     first_pair:
-      row_name: C0221
+      row_name: "C0221   "
       value: -0.35
     second_pair:
-      row_name: C0227
+      row_name: "C0227   "
       value: 0.825
-  - name: X0101
+  - name: "X0101   "
     first_pair:
-      row_name: C0233
+      row_name: "C0233   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0107
+  - name: "X0107   "
     first_pair:
-      row_name: C0035
+      row_name: "C0035   "
       value: 1
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: -1
-  - name: X0107
+  - name: "X0107   "
     first_pair:
-      row_name: C0215
+      row_name: "C0215   "
       value: -0.015
     second_pair:
-      row_name: C0221
+      row_name: "C0221   "
       value: -0.35
-  - name: X0107
+  - name: "X0107   "
     first_pair:
-      row_name: C0227
+      row_name: "C0227   "
       value: -0.175
     second_pair:
-      row_name: C0233
+      row_name: "C0233   "
       value: 0.54
-  - name: X0107
+  - name: "X0107   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0113
+  - name: "X0113   "
     first_pair:
-      row_name: C0041
+      row_name: "C0041   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0113
+  - name: "X0113   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0239
+      row_name: "C0239   "
       value: 0.99
-  - name: X0113
+  - name: "X0113   "
     first_pair:
-      row_name: C0245
+      row_name: "C0245   "
       value: -0.27
     second_pair:
-      row_name: C0251
+      row_name: "C0251   "
       value: -0.016
-  - name: X0113
+  - name: "X0113   "
     first_pair:
-      row_name: C0257
+      row_name: "C0257   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0119
+  - name: "X0119   "
     first_pair:
-      row_name: C0041
+      row_name: "C0041   "
       value: 1
     second_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
-  - name: X0119
+  - name: "X0119   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0239
+      row_name: "C0239   "
       value: -0.01
-  - name: X0119
+  - name: "X0119   "
     first_pair:
-      row_name: C0245
+      row_name: "C0245   "
       value: 0.73
     second_pair:
-      row_name: C0251
+      row_name: "C0251   "
       value: -0.016
-  - name: X0119
+  - name: "X0119   "
     first_pair:
-      row_name: C0257
+      row_name: "C0257   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0125
+  - name: "X0125   "
     first_pair:
-      row_name: C0041
+      row_name: "C0041   "
       value: 1
     second_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
-  - name: X0125
+  - name: "X0125   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0239
+      row_name: "C0239   "
       value: -0.01
-  - name: X0125
+  - name: "X0125   "
     first_pair:
-      row_name: C0245
+      row_name: "C0245   "
       value: -0.27
     second_pair:
-      row_name: C0251
+      row_name: "C0251   "
       value: 0.984
-  - name: X0125
+  - name: "X0125   "
     first_pair:
-      row_name: C0257
+      row_name: "C0257   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0131
+  - name: "X0131   "
     first_pair:
-      row_name: C0041
+      row_name: "C0041   "
       value: 1
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: -1
-  - name: X0131
+  - name: "X0131   "
     first_pair:
-      row_name: C0239
+      row_name: "C0239   "
       value: -0.01
     second_pair:
-      row_name: C0245
+      row_name: "C0245   "
       value: -0.27
-  - name: X0131
+  - name: "X0131   "
     first_pair:
-      row_name: C0251
+      row_name: "C0251   "
       value: -0.016
     second_pair:
-      row_name: C0257
+      row_name: "C0257   "
       value: 0.44
-  - name: X0131
+  - name: "X0131   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0137
+  - name: "X0137   "
     first_pair:
-      row_name: C0047
+      row_name: "C0047   "
       value: -0.94
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: 1
-  - name: X0137
+  - name: "X0137   "
     first_pair:
-      row_name: C0147
+      row_name: "C0147   "
       value: 1
     second_pair: ~
-  - name: X0143
+  - name: "X0143   "
     first_pair:
-      row_name: C0065
+      row_name: "C0065   "
       value: -0.94
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: 1
-  - name: X0143
+  - name: "X0143   "
     first_pair:
-      row_name: C0148
+      row_name: "C0148   "
       value: 1
     second_pair: ~
-  - name: X0149
+  - name: "X0149   "
     first_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: -0.99
     second_pair:
-      row_name: C0077
+      row_name: "C0077   "
       value: 1
-  - name: X0149
+  - name: "X0149   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair: ~
-  - name: X0155
+  - name: "X0155   "
     first_pair:
-      row_name: C0047
+      row_name: "C0047   "
       value: 1
     second_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: -0.99
-  - name: X0155
+  - name: "X0155   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0263
+      row_name: "C0263   "
       value: 0.765
-  - name: X0155
+  - name: "X0155   "
     first_pair:
-      row_name: C0269
+      row_name: "C0269   "
       value: -0.12
     second_pair:
-      row_name: C0275
+      row_name: "C0275   "
       value: -0.325
-  - name: X0155
+  - name: "X0155   "
     first_pair:
-      row_name: C0281
+      row_name: "C0281   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.47
-  - name: X0161
+  - name: "X0161   "
     first_pair:
-      row_name: C0047
+      row_name: "C0047   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0161
+  - name: "X0161   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0263
+      row_name: "C0263   "
       value: -0.235
-  - name: X0161
+  - name: "X0161   "
     first_pair:
-      row_name: C0269
+      row_name: "C0269   "
       value: 0.88
     second_pair:
-      row_name: C0275
+      row_name: "C0275   "
       value: -0.325
-  - name: X0161
+  - name: "X0161   "
     first_pair:
-      row_name: C0281
+      row_name: "C0281   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.47
-  - name: X0167
+  - name: "X0167   "
     first_pair:
-      row_name: C0047
+      row_name: "C0047   "
       value: 1
     second_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
-  - name: X0167
+  - name: "X0167   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0263
+      row_name: "C0263   "
       value: -0.235
-  - name: X0167
+  - name: "X0167   "
     first_pair:
-      row_name: C0269
+      row_name: "C0269   "
       value: -0.12
     second_pair:
-      row_name: C0275
+      row_name: "C0275   "
       value: 0.675
-  - name: X0167
+  - name: "X0167   "
     first_pair:
-      row_name: C0281
+      row_name: "C0281   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.47
-  - name: X0173
+  - name: "X0173   "
     first_pair:
-      row_name: C0047
+      row_name: "C0047   "
       value: 1
     second_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
-  - name: X0173
+  - name: "X0173   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0263
+      row_name: "C0263   "
       value: -0.235
-  - name: X0173
+  - name: "X0173   "
     first_pair:
-      row_name: C0269
+      row_name: "C0269   "
       value: -0.12
     second_pair:
-      row_name: C0275
+      row_name: "C0275   "
       value: -0.325
-  - name: X0173
+  - name: "X0173   "
     first_pair:
-      row_name: C0281
+      row_name: "C0281   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.47
-  - name: X0179
+  - name: "X0179   "
     first_pair:
-      row_name: C0065
+      row_name: "C0065   "
       value: 1
     second_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: -0.99
-  - name: X0179
+  - name: "X0179   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0287
+      row_name: "C0287   "
       value: 1
-  - name: X0179
+  - name: "X0179   "
     first_pair:
-      row_name: C0293
+      row_name: "C0293   "
       value: -0.12
     second_pair:
-      row_name: C0305
+      row_name: "C0305   "
       value: -0.88
-  - name: X0179
+  - name: "X0179   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.95
     second_pair: ~
-  - name: X0185
+  - name: "X0185   "
     first_pair:
-      row_name: C0065
+      row_name: "C0065   "
       value: 1
     second_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: -1
-  - name: X0185
+  - name: "X0185   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: 0.1
     second_pair:
-      row_name: C0293
+      row_name: "C0293   "
       value: 0.88
-  - name: X0185
+  - name: "X0185   "
     first_pair:
-      row_name: C0305
+      row_name: "C0305   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.95
-  - name: X0191
+  - name: "X0191   "
     first_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: -0.99
     second_pair:
-      row_name: C0065
+      row_name: "C0065   "
       value: 1
-  - name: X0191
+  - name: "X0191   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0293
+      row_name: "C0293   "
       value: -0.12
-  - name: X0191
+  - name: "X0191   "
     first_pair:
-      row_name: C0299
+      row_name: "C0299   "
       value: 1
     second_pair:
-      row_name: C0305
+      row_name: "C0305   "
       value: -0.88
-  - name: X0191
+  - name: "X0191   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.95
     second_pair: ~
-  - name: X0197
+  - name: "X0197   "
     first_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: -0.99
     second_pair:
-      row_name: C0065
+      row_name: "C0065   "
       value: 1
-  - name: X0197
+  - name: "X0197   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: 0.25
     second_pair:
-      row_name: C0293
+      row_name: "C0293   "
       value: -0.12
-  - name: X0197
+  - name: "X0197   "
     first_pair:
-      row_name: C0305
+      row_name: "C0305   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.95
-  - name: X0203
+  - name: "X0203   "
     first_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: 1
     second_pair:
-      row_name: C0365
+      row_name: "C0365   "
       value: 1
-  - name: X0209
+  - name: "X0209   "
     first_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: 1
     second_pair:
-      row_name: C0089
+      row_name: "C0089   "
       value: -1
-  - name: X0215
+  - name: "X0215   "
     first_pair:
-      row_name: C0071
+      row_name: "C0071   "
       value: 1
     second_pair:
-      row_name: C0095
+      row_name: "C0095   "
       value: -1
-  - name: X0221
+  - name: "X0221   "
     first_pair:
-      row_name: C0053
+      row_name: "C0053   "
       value: 1
     second_pair:
-      row_name: C0101
+      row_name: "C0101   "
       value: -1
-  - name: X0227
+  - name: "X0227   "
     first_pair:
-      row_name: C0059
+      row_name: "C0059   "
       value: 1
     second_pair:
-      row_name: C0107
+      row_name: "C0107   "
       value: -1
-  - name: X0233
+  - name: "X0233   "
     first_pair:
-      row_name: C0101
+      row_name: "C0101   "
       value: 1
     second_pair:
-      row_name: C0113
+      row_name: "C0113   "
       value: -1
-  - name: X0233
+  - name: "X0233   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0239
+  - name: "X0239   "
     first_pair:
-      row_name: C0101
+      row_name: "C0101   "
       value: 1
     second_pair:
-      row_name: C0119
+      row_name: "C0119   "
       value: -1
-  - name: X0239
+  - name: "X0239   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0245
+  - name: "X0245   "
     first_pair:
-      row_name: C0101
+      row_name: "C0101   "
       value: 1
     second_pair:
-      row_name: C0125
+      row_name: "C0125   "
       value: -1
-  - name: X0245
+  - name: "X0245   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0251
+  - name: "X0251   "
     first_pair:
-      row_name: C0107
+      row_name: "C0107   "
       value: 1
     second_pair:
-      row_name: C0131
+      row_name: "C0131   "
       value: -1
-  - name: X0251
+  - name: "X0251   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0257
+  - name: "X0257   "
     first_pair:
-      row_name: C0089
+      row_name: "C0089   "
       value: 1
     second_pair:
-      row_name: C0359
+      row_name: "C0359   "
       value: 1
-  - name: X0257
+  - name: "X0257   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.19
     second_pair: ~
-  - name: X0263
+  - name: "X0263   "
     first_pair:
-      row_name: C0095
+      row_name: "C0095   "
       value: 1
     second_pair:
-      row_name: C0353
+      row_name: "C0353   "
       value: 1
-  - name: X0263
+  - name: "X0263   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0269
+  - name: "X0269   "
     first_pair:
-      row_name: C0095
+      row_name: "C0095   "
       value: 1
     second_pair:
-      row_name: C0347
+      row_name: "C0347   "
       value: 1
-  - name: X0269
+  - name: "X0269   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0275
+  - name: "X0275   "
     first_pair:
-      row_name: C0083
+      row_name: "C0083   "
       value: 1
     second_pair:
-      row_name: C0341
+      row_name: "C0341   "
       value: 1
-  - name: X0275
+  - name: "X0275   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0281
+  - name: "X0281   "
     first_pair:
-      row_name: C0113
+      row_name: "C0113   "
       value: 1
     second_pair:
-      row_name: C0335
+      row_name: "C0335   "
       value: 1
-  - name: X0281
+  - name: "X0281   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0287
+  - name: "X0287   "
     first_pair:
-      row_name: C0119
+      row_name: "C0119   "
       value: 1
     second_pair:
-      row_name: C0329
+      row_name: "C0329   "
       value: 1
-  - name: X0287
+  - name: "X0287   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 29.65
     second_pair: ~
-  - name: X0293
+  - name: "X0293   "
     first_pair:
-      row_name: C0125
+      row_name: "C0125   "
       value: 1
     second_pair:
-      row_name: C0323
+      row_name: "C0323   "
       value: 1
-  - name: X0293
+  - name: "X0293   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 13.4
     second_pair: ~
-  - name: X0299
+  - name: "X0299   "
     first_pair:
-      row_name: C0131
+      row_name: "C0131   "
       value: 1
     second_pair:
-      row_name: C0317
+      row_name: "C0317   "
       value: 1
-  - name: X0299
+  - name: "X0299   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 29.65
     second_pair: ~
-  - name: X0305
+  - name: "X0305   "
     first_pair:
-      row_name: C0107
+      row_name: "C0107   "
       value: 1
     second_pair:
-      row_name: C0311
+      row_name: "C0311   "
       value: 1
-  - name: X0305
+  - name: "X0305   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.37
     second_pair: ~
-  - name: X0312
+  - name: "X0312   "
     first_pair:
-      row_name: C0155
+      row_name: "C0155   "
       value: -1
     second_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: -1
-  - name: X0312
+  - name: "X0312   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 29.89
     second_pair: ~
-  - name: X0318
+  - name: "X0318   "
     first_pair:
-      row_name: C0161
+      row_name: "C0161   "
       value: -1
     second_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: -1
-  - name: X0318
+  - name: "X0318   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 11.07
     second_pair: ~
-  - name: X0324
+  - name: "X0324   "
     first_pair:
-      row_name: C0148
+      row_name: "C0148   "
       value: -0.85
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 29.99
-  - name: X0330
+  - name: "X0330   "
     first_pair:
-      row_name: C0147
+      row_name: "C0147   "
       value: -0.85
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 19.28
-  - name: X0336
+  - name: "X0336   "
     first_pair:
-      row_name: C0137
+      row_name: "C0137   "
       value: -0.95
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 5.83
-  - name: X0006
+  - name: "X0006   "
     first_pair:
-      row_name: C0006
+      row_name: "C0006   "
       value: 1
     second_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: -0.94
-  - name: X0006
+  - name: "X0006   "
     first_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.68
-  - name: X0012
+  - name: "X0012   "
     first_pair:
-      row_name: C0012
+      row_name: "C0012   "
       value: 1
     second_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: -0.94
-  - name: X0012
+  - name: "X0012   "
     first_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 13.3
-  - name: X0018
+  - name: "X0018   "
     first_pair:
-      row_name: C0018
+      row_name: "C0018   "
       value: 1
     second_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: -0.94
-  - name: X0018
+  - name: "X0018   "
     first_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
     second_pair: ~
-  - name: X0024
+  - name: "X0024   "
     first_pair:
-      row_name: C0030
+      row_name: "C0030   "
       value: -0.94
     second_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
-  - name: X0024
+  - name: "X0024   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 45.39
     second_pair: ~
-  - name: X0030
+  - name: "X0030   "
     first_pair:
-      row_name: C0036
+      row_name: "C0036   "
       value: -0.94
     second_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
-  - name: X0030
+  - name: "X0030   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 43.14
     second_pair: ~
-  - name: X0036
+  - name: "X0036   "
     first_pair:
-      row_name: C0042
+      row_name: "C0042   "
       value: -0.94
     second_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: 1
-  - name: X0036
+  - name: "X0036   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 40.98
     second_pair: ~
-  - name: X0042
+  - name: "X0042   "
     first_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0042
+  - name: "X0042   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0168
+      row_name: "C0168   "
       value: 0.985
-  - name: X0042
+  - name: "X0042   "
     first_pair:
-      row_name: C0174
+      row_name: "C0174   "
       value: -0.4
     second_pair:
-      row_name: C0180
+      row_name: "C0180   "
       value: -0.105
-  - name: X0042
+  - name: "X0042   "
     first_pair:
-      row_name: C0186
+      row_name: "C0186   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0048
+  - name: "X0048   "
     first_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: 1
     second_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
-  - name: X0048
+  - name: "X0048   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0168
+      row_name: "C0168   "
       value: -0.015
-  - name: X0048
+  - name: "X0048   "
     first_pair:
-      row_name: C0174
+      row_name: "C0174   "
       value: 0.6
     second_pair:
-      row_name: C0180
+      row_name: "C0180   "
       value: -0.105
-  - name: X0048
+  - name: "X0048   "
     first_pair:
-      row_name: C0186
+      row_name: "C0186   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0054
+  - name: "X0054   "
     first_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: 1
     second_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
-  - name: X0054
+  - name: "X0054   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0168
+      row_name: "C0168   "
       value: -0.015
-  - name: X0054
+  - name: "X0054   "
     first_pair:
-      row_name: C0174
+      row_name: "C0174   "
       value: -0.4
     second_pair:
-      row_name: C0180
+      row_name: "C0180   "
       value: 0.895
-  - name: X0054
+  - name: "X0054   "
     first_pair:
-      row_name: C0186
+      row_name: "C0186   "
       value: -0.48
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0060
+  - name: "X0060   "
     first_pair:
-      row_name: C0024
+      row_name: "C0024   "
       value: 1
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: -1
-  - name: X0060
+  - name: "X0060   "
     first_pair:
-      row_name: C0168
+      row_name: "C0168   "
       value: -0.015
     second_pair:
-      row_name: C0174
+      row_name: "C0174   "
       value: -0.4
-  - name: X0060
+  - name: "X0060   "
     first_pair:
-      row_name: C0180
+      row_name: "C0180   "
       value: -0.105
     second_pair:
-      row_name: C0186
+      row_name: "C0186   "
       value: 0.52
-  - name: X0060
+  - name: "X0060   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
     second_pair: ~
-  - name: X0066
+  - name: "X0066   "
     first_pair:
-      row_name: C0030
+      row_name: "C0030   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0066
+  - name: "X0066   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0192
+      row_name: "C0192   "
       value: 0.98
-  - name: X0066
+  - name: "X0066   "
     first_pair:
-      row_name: C0198
+      row_name: "C0198   "
       value: -0.39
     second_pair:
-      row_name: C0204
+      row_name: "C0204   "
       value: -0.2
-  - name: X0066
+  - name: "X0066   "
     first_pair:
-      row_name: C0210
+      row_name: "C0210   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0072
+  - name: "X0072   "
     first_pair:
-      row_name: C0030
+      row_name: "C0030   "
       value: 1
     second_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
-  - name: X0072
+  - name: "X0072   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0192
+      row_name: "C0192   "
       value: -0.02
-  - name: X0072
+  - name: "X0072   "
     first_pair:
-      row_name: C0198
+      row_name: "C0198   "
       value: 0.61
     second_pair:
-      row_name: C0204
+      row_name: "C0204   "
       value: -0.2
-  - name: X0072
+  - name: "X0072   "
     first_pair:
-      row_name: C0210
+      row_name: "C0210   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0078
+  - name: "X0078   "
     first_pair:
-      row_name: C0030
+      row_name: "C0030   "
       value: 1
     second_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
-  - name: X0078
+  - name: "X0078   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0192
+      row_name: "C0192   "
       value: -0.02
-  - name: X0078
+  - name: "X0078   "
     first_pair:
-      row_name: C0198
+      row_name: "C0198   "
       value: -0.39
     second_pair:
-      row_name: C0204
+      row_name: "C0204   "
       value: 0.8
-  - name: X0078
+  - name: "X0078   "
     first_pair:
-      row_name: C0210
+      row_name: "C0210   "
       value: -0.39
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0084
+  - name: "X0084   "
     first_pair:
-      row_name: C0030
+      row_name: "C0030   "
       value: 1
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: -1
-  - name: X0084
+  - name: "X0084   "
     first_pair:
-      row_name: C0192
+      row_name: "C0192   "
       value: -0.02
     second_pair:
-      row_name: C0198
+      row_name: "C0198   "
       value: -0.39
-  - name: X0084
+  - name: "X0084   "
     first_pair:
-      row_name: C0204
+      row_name: "C0204   "
       value: -0.2
     second_pair:
-      row_name: C0210
+      row_name: "C0210   "
       value: 0.61
-  - name: X0084
+  - name: "X0084   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
     second_pair: ~
-  - name: X0090
+  - name: "X0090   "
     first_pair:
-      row_name: C0036
+      row_name: "C0036   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0090
+  - name: "X0090   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0216
+      row_name: "C0216   "
       value: 0.985
-  - name: X0090
+  - name: "X0090   "
     first_pair:
-      row_name: C0222
+      row_name: "C0222   "
       value: -0.35
     second_pair:
-      row_name: C0228
+      row_name: "C0228   "
       value: -0.175
-  - name: X0090
+  - name: "X0090   "
     first_pair:
-      row_name: C0234
+      row_name: "C0234   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0096
+  - name: "X0096   "
     first_pair:
-      row_name: C0036
+      row_name: "C0036   "
       value: 1
     second_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
-  - name: X0096
+  - name: "X0096   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0216
+      row_name: "C0216   "
       value: -0.015
-  - name: X0096
+  - name: "X0096   "
     first_pair:
-      row_name: C0222
+      row_name: "C0222   "
       value: 0.65
     second_pair:
-      row_name: C0228
+      row_name: "C0228   "
       value: -0.175
-  - name: X0096
+  - name: "X0096   "
     first_pair:
-      row_name: C0234
+      row_name: "C0234   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0102
+  - name: "X0102   "
     first_pair:
-      row_name: C0036
+      row_name: "C0036   "
       value: 1
     second_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
-  - name: X0102
+  - name: "X0102   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0216
+      row_name: "C0216   "
       value: -0.015
-  - name: X0102
+  - name: "X0102   "
     first_pair:
-      row_name: C0222
+      row_name: "C0222   "
       value: -0.35
     second_pair:
-      row_name: C0228
+      row_name: "C0228   "
       value: 0.825
-  - name: X0102
+  - name: "X0102   "
     first_pair:
-      row_name: C0234
+      row_name: "C0234   "
       value: -0.46
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0108
+  - name: "X0108   "
     first_pair:
-      row_name: C0036
+      row_name: "C0036   "
       value: 1
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: -1
-  - name: X0108
+  - name: "X0108   "
     first_pair:
-      row_name: C0216
+      row_name: "C0216   "
       value: -0.015
     second_pair:
-      row_name: C0222
+      row_name: "C0222   "
       value: -0.35
-  - name: X0108
+  - name: "X0108   "
     first_pair:
-      row_name: C0228
+      row_name: "C0228   "
       value: -0.175
     second_pair:
-      row_name: C0234
+      row_name: "C0234   "
       value: 0.54
-  - name: X0108
+  - name: "X0108   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
     second_pair: ~
-  - name: X0114
+  - name: "X0114   "
     first_pair:
-      row_name: C0042
+      row_name: "C0042   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0114
+  - name: "X0114   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0240
+      row_name: "C0240   "
       value: 0.99
-  - name: X0114
+  - name: "X0114   "
     first_pair:
-      row_name: C0246
+      row_name: "C0246   "
       value: -0.27
     second_pair:
-      row_name: C0252
+      row_name: "C0252   "
       value: -0.016
-  - name: X0114
+  - name: "X0114   "
     first_pair:
-      row_name: C0258
+      row_name: "C0258   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0120
+  - name: "X0120   "
     first_pair:
-      row_name: C0042
+      row_name: "C0042   "
       value: 1
     second_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
-  - name: X0120
+  - name: "X0120   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0240
+      row_name: "C0240   "
       value: -0.01
-  - name: X0120
+  - name: "X0120   "
     first_pair:
-      row_name: C0246
+      row_name: "C0246   "
       value: 0.73
     second_pair:
-      row_name: C0252
+      row_name: "C0252   "
       value: -0.016
-  - name: X0120
+  - name: "X0120   "
     first_pair:
-      row_name: C0258
+      row_name: "C0258   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0126
+  - name: "X0126   "
     first_pair:
-      row_name: C0042
+      row_name: "C0042   "
       value: 1
     second_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
-  - name: X0126
+  - name: "X0126   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0240
+      row_name: "C0240   "
       value: -0.01
-  - name: X0126
+  - name: "X0126   "
     first_pair:
-      row_name: C0246
+      row_name: "C0246   "
       value: -0.27
     second_pair:
-      row_name: C0252
+      row_name: "C0252   "
       value: 0.984
-  - name: X0126
+  - name: "X0126   "
     first_pair:
-      row_name: C0258
+      row_name: "C0258   "
       value: -0.56
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
-  - name: X0132
+  - name: "X0132   "
     first_pair:
-      row_name: C0042
+      row_name: "C0042   "
       value: 1
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: -1
-  - name: X0132
+  - name: "X0132   "
     first_pair:
-      row_name: C0240
+      row_name: "C0240   "
       value: -0.01
     second_pair:
-      row_name: C0246
+      row_name: "C0246   "
       value: -0.27
-  - name: X0132
+  - name: "X0132   "
     first_pair:
-      row_name: C0252
+      row_name: "C0252   "
       value: -0.016
     second_pair:
-      row_name: C0258
+      row_name: "C0258   "
       value: 0.44
-  - name: X0132
+  - name: "X0132   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
     second_pair: ~
-  - name: X0138
+  - name: "X0138   "
     first_pair:
-      row_name: C0048
+      row_name: "C0048   "
       value: -0.94
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: 1
-  - name: X0138
+  - name: "X0138   "
     first_pair:
-      row_name: C0149
+      row_name: "C0149   "
       value: 1
     second_pair: ~
-  - name: X0144
+  - name: "X0144   "
     first_pair:
-      row_name: C0066
+      row_name: "C0066   "
       value: -0.94
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: 1
-  - name: X0144
+  - name: "X0144   "
     first_pair:
-      row_name: C0150
+      row_name: "C0150   "
       value: 1
     second_pair: ~
-  - name: X0150
+  - name: "X0150   "
     first_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: -0.99
     second_pair:
-      row_name: C0078
+      row_name: "C0078   "
       value: 1
-  - name: X0150
+  - name: "X0150   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair: ~
-  - name: X0156
+  - name: "X0156   "
     first_pair:
-      row_name: C0048
+      row_name: "C0048   "
       value: 1
     second_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: -0.99
-  - name: X0156
+  - name: "X0156   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0264
+      row_name: "C0264   "
       value: 0.765
-  - name: X0156
+  - name: "X0156   "
     first_pair:
-      row_name: C0270
+      row_name: "C0270   "
       value: -0.12
     second_pair:
-      row_name: C0276
+      row_name: "C0276   "
       value: -0.325
-  - name: X0156
+  - name: "X0156   "
     first_pair:
-      row_name: C0282
+      row_name: "C0282   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.12
-  - name: X0162
+  - name: "X0162   "
     first_pair:
-      row_name: C0048
+      row_name: "C0048   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0162
+  - name: "X0162   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0264
+      row_name: "C0264   "
       value: -0.235
-  - name: X0162
+  - name: "X0162   "
     first_pair:
-      row_name: C0270
+      row_name: "C0270   "
       value: 0.88
     second_pair:
-      row_name: C0276
+      row_name: "C0276   "
       value: -0.325
-  - name: X0162
+  - name: "X0162   "
     first_pair:
-      row_name: C0282
+      row_name: "C0282   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.12
-  - name: X0168
+  - name: "X0168   "
     first_pair:
-      row_name: C0048
+      row_name: "C0048   "
       value: 1
     second_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
-  - name: X0168
+  - name: "X0168   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0264
+      row_name: "C0264   "
       value: -0.235
-  - name: X0168
+  - name: "X0168   "
     first_pair:
-      row_name: C0270
+      row_name: "C0270   "
       value: -0.12
     second_pair:
-      row_name: C0276
+      row_name: "C0276   "
       value: 0.675
-  - name: X0168
+  - name: "X0168   "
     first_pair:
-      row_name: C0282
+      row_name: "C0282   "
       value: -0.32
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.12
-  - name: X0174
+  - name: "X0174   "
     first_pair:
-      row_name: C0048
+      row_name: "C0048   "
       value: 1
     second_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
-  - name: X0174
+  - name: "X0174   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0264
+      row_name: "C0264   "
       value: -0.235
-  - name: X0174
+  - name: "X0174   "
     first_pair:
-      row_name: C0270
+      row_name: "C0270   "
       value: -0.12
     second_pair:
-      row_name: C0276
+      row_name: "C0276   "
       value: -0.325
-  - name: X0174
+  - name: "X0174   "
     first_pair:
-      row_name: C0282
+      row_name: "C0282   "
       value: 0.68
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.12
-  - name: X0180
+  - name: "X0180   "
     first_pair:
-      row_name: C0066
+      row_name: "C0066   "
       value: 1
     second_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: -0.99
-  - name: X0180
+  - name: "X0180   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0288
+      row_name: "C0288   "
       value: 1
-  - name: X0180
+  - name: "X0180   "
     first_pair:
-      row_name: C0294
+      row_name: "C0294   "
       value: -0.12
     second_pair:
-      row_name: C0306
+      row_name: "C0306   "
       value: -0.88
-  - name: X0180
+  - name: "X0180   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0186
+  - name: "X0186   "
     first_pair:
-      row_name: C0066
+      row_name: "C0066   "
       value: 1
     second_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: -1
-  - name: X0186
+  - name: "X0186   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: 0.1
     second_pair:
-      row_name: C0294
+      row_name: "C0294   "
       value: 0.88
-  - name: X0186
+  - name: "X0186   "
     first_pair:
-      row_name: C0306
+      row_name: "C0306   "
       value: -0.88
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0192
+  - name: "X0192   "
     first_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: -0.99
     second_pair:
-      row_name: C0066
+      row_name: "C0066   "
       value: 1
-  - name: X0192
+  - name: "X0192   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0294
+      row_name: "C0294   "
       value: -0.12
-  - name: X0192
+  - name: "X0192   "
     first_pair:
-      row_name: C0300
+      row_name: "C0300   "
       value: 1
     second_pair:
-      row_name: C0306
+      row_name: "C0306   "
       value: -0.88
-  - name: X0192
+  - name: "X0192   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
     second_pair: ~
-  - name: X0198
+  - name: "X0198   "
     first_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: -0.99
     second_pair:
-      row_name: C0066
+      row_name: "C0066   "
       value: 1
-  - name: X0198
+  - name: "X0198   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: 0.25
     second_pair:
-      row_name: C0294
+      row_name: "C0294   "
       value: -0.12
-  - name: X0198
+  - name: "X0198   "
     first_pair:
-      row_name: C0306
+      row_name: "C0306   "
       value: 0.12
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.24
-  - name: X0204
+  - name: "X0204   "
     first_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: 1
     second_pair:
-      row_name: C0366
+      row_name: "C0366   "
       value: 1
-  - name: X0210
+  - name: "X0210   "
     first_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: 1
     second_pair:
-      row_name: C0090
+      row_name: "C0090   "
       value: -1
-  - name: X0216
+  - name: "X0216   "
     first_pair:
-      row_name: C0072
+      row_name: "C0072   "
       value: 1
     second_pair:
-      row_name: C0096
+      row_name: "C0096   "
       value: -1
-  - name: X0222
+  - name: "X0222   "
     first_pair:
-      row_name: C0054
+      row_name: "C0054   "
       value: 1
     second_pair:
-      row_name: C0102
+      row_name: "C0102   "
       value: -1
-  - name: X0228
+  - name: "X0228   "
     first_pair:
-      row_name: C0060
+      row_name: "C0060   "
       value: 1
     second_pair:
-      row_name: C0108
+      row_name: "C0108   "
       value: -1
-  - name: X0234
+  - name: "X0234   "
     first_pair:
-      row_name: C0102
+      row_name: "C0102   "
       value: 1
     second_pair:
-      row_name: C0114
+      row_name: "C0114   "
       value: -1
-  - name: X0234
+  - name: "X0234   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0240
+  - name: "X0240   "
     first_pair:
-      row_name: C0102
+      row_name: "C0102   "
       value: 1
     second_pair:
-      row_name: C0120
+      row_name: "C0120   "
       value: -1
-  - name: X0240
+  - name: "X0240   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0246
+  - name: "X0246   "
     first_pair:
-      row_name: C0102
+      row_name: "C0102   "
       value: 1
     second_pair:
-      row_name: C0126
+      row_name: "C0126   "
       value: -1
-  - name: X0246
+  - name: "X0246   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0252
+  - name: "X0252   "
     first_pair:
-      row_name: C0108
+      row_name: "C0108   "
       value: 1
     second_pair:
-      row_name: C0132
+      row_name: "C0132   "
       value: -1
-  - name: X0252
+  - name: "X0252   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0258
+  - name: "X0258   "
     first_pair:
-      row_name: C0090
+      row_name: "C0090   "
       value: 1
     second_pair:
-      row_name: C0360
+      row_name: "C0360   "
       value: 1
-  - name: X0258
+  - name: "X0258   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.29
     second_pair: ~
-  - name: X0264
+  - name: "X0264   "
     first_pair:
-      row_name: C0096
+      row_name: "C0096   "
       value: 1
     second_pair:
-      row_name: C0354
+      row_name: "C0354   "
       value: 1
-  - name: X0264
+  - name: "X0264   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0270
+  - name: "X0270   "
     first_pair:
-      row_name: C0096
+      row_name: "C0096   "
       value: 1
     second_pair:
-      row_name: C0348
+      row_name: "C0348   "
       value: 1
-  - name: X0270
+  - name: "X0270   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0276
+  - name: "X0276   "
     first_pair:
-      row_name: C0084
+      row_name: "C0084   "
       value: 1
     second_pair:
-      row_name: C0342
+      row_name: "C0342   "
       value: 1
-  - name: X0276
+  - name: "X0276   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.06
     second_pair: ~
-  - name: X0282
+  - name: "X0282   "
     first_pair:
-      row_name: C0114
+      row_name: "C0114   "
       value: 1
     second_pair:
-      row_name: C0336
+      row_name: "C0336   "
       value: 1
-  - name: X0282
+  - name: "X0282   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0288
+  - name: "X0288   "
     first_pair:
-      row_name: C0120
+      row_name: "C0120   "
       value: 1
     second_pair:
-      row_name: C0330
+      row_name: "C0330   "
       value: 1
-  - name: X0288
+  - name: "X0288   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 7.37
     second_pair: ~
-  - name: X0294
+  - name: "X0294   "
     first_pair:
-      row_name: C0126
+      row_name: "C0126   "
       value: 1
     second_pair:
-      row_name: C0324
+      row_name: "C0324   "
       value: 1
-  - name: X0294
+  - name: "X0294   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 3.33
     second_pair: ~
-  - name: X0300
+  - name: "X0300   "
     first_pair:
-      row_name: C0132
+      row_name: "C0132   "
       value: 1
     second_pair:
-      row_name: C0318
+      row_name: "C0318   "
       value: 1
-  - name: X0300
+  - name: "X0300   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 7.37
     second_pair: ~
-  - name: X0306
+  - name: "X0306   "
     first_pair:
-      row_name: C0108
+      row_name: "C0108   "
       value: 1
     second_pair:
-      row_name: C0312
+      row_name: "C0312   "
       value: 1
-  - name: X0306
+  - name: "X0306   "
     first_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 0.59
     second_pair: ~
-  - name: X0313
+  - name: "X0313   "
     first_pair:
-      row_name: C0156
+      row_name: "C0156   "
       value: -1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 7.04
-  - name: X0319
+  - name: "X0319   "
     first_pair:
-      row_name: C0162
+      row_name: "C0162   "
       value: -1
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 2.61
-  - name: X0325
+  - name: "X0325   "
     first_pair:
-      row_name: C0150
+      row_name: "C0150   "
       value: -0.6375
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 7.52
-  - name: X0331
+  - name: "X0331   "
     first_pair:
-      row_name: C0149
+      row_name: "C0149   "
       value: -0.6375
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 4.83
-  - name: X0337
+  - name: "X0337   "
     first_pair:
-      row_name: C0138
+      row_name: "C0138   "
       value: -0.95
     second_pair:
-      row_name: C9999
+      row_name: "C9999   "
       value: 1.46
 rhs:
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0001
+      row_name: "C0001   "
       value: 0.0085
     second_pair:
-      row_name: C0002
+      row_name: "C0002   "
       value: 0.007
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0003
+      row_name: "C0003   "
       value: 0.002
     second_pair:
-      row_name: C0007
+      row_name: "C0007   "
       value: 0.002
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0008
+      row_name: "C0008   "
       value: 0.006
     second_pair:
-      row_name: C0009
+      row_name: "C0009   "
       value: 0.018
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0010
+      row_name: "C0010   "
       value: 0.03
     second_pair:
-      row_name: C0011
+      row_name: "C0011   "
       value: 0.01
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0133
+      row_name: "C0133   "
       value: 1.444
     second_pair:
-      row_name: C0134
+      row_name: "C0134   "
       value: 1.235
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0135
+      row_name: "C0135   "
       value: 0.854999
     second_pair:
-      row_name: C0136
+      row_name: "C0136   "
       value: 0.095
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0139
+      row_name: "C0139   "
       value: 0.068
     second_pair:
-      row_name: C0140
+      row_name: "C0140   "
       value: 0.0034
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0141
+      row_name: "C0141   "
       value: 0.0459
     second_pair:
-      row_name: C0142
+      row_name: "C0142   "
       value: 0.0034
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0143
+      row_name: "C0143   "
       value: 0.0255
     second_pair:
-      row_name: C0144
+      row_name: "C0144   "
       value: 0.0034
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0146
+      row_name: "C0146   "
       value: 0.0034
     second_pair:
-      row_name: C0157
+      row_name: "C0157   "
       value: 0.52
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0158
+      row_name: "C0158   "
       value: 0.47
     second_pair:
-      row_name: C0159
+      row_name: "C0159   "
       value: 0.39
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0160
+      row_name: "C0160   "
       value: 0.2
     second_pair:
-      row_name: C0307
+      row_name: "C0307   "
       value: 0.062
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0308
+      row_name: "C0308   "
       value: 0.073
     second_pair:
-      row_name: C0309
+      row_name: "C0309   "
       value: 0.087
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0310
+      row_name: "C0310   "
       value: 0.11
     second_pair:
-      row_name: C0311
+      row_name: "C0311   "
       value: 0.15
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0312
+      row_name: "C0312   "
       value: 0.2
     second_pair:
-      row_name: C0313
+      row_name: "C0313   "
       value: 0.25
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0314
+      row_name: "C0314   "
       value: 0.29
     second_pair:
-      row_name: C0315
+      row_name: "C0315   "
       value: 0.33
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0316
+      row_name: "C0316   "
       value: 0.41
     second_pair:
-      row_name: C0317
+      row_name: "C0317   "
       value: 0.5
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0318
+      row_name: "C0318   "
       value: 0.68
     second_pair:
-      row_name: C0319
+      row_name: "C0319   "
       value: 0.4
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0320
+      row_name: "C0320   "
       value: 0.42
     second_pair:
-      row_name: C0321
+      row_name: "C0321   "
       value: 0.45
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0322
+      row_name: "C0322   "
       value: 0.5
     second_pair:
-      row_name: C0323
+      row_name: "C0323   "
       value: 0.55
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0324
+      row_name: "C0324   "
       value: 0.6
     second_pair:
-      row_name: C0325
+      row_name: "C0325   "
       value: 0.12
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0326
+      row_name: "C0326   "
       value: 0.129
     second_pair:
-      row_name: C0327
+      row_name: "C0327   "
       value: 0.1468
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0328
+      row_name: "C0328   "
       value: 0.168
     second_pair:
-      row_name: C0329
+      row_name: "C0329   "
       value: 0.245
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0330
+      row_name: "C0330   "
       value: 0.289
     second_pair:
-      row_name: C0331
+      row_name: "C0331   "
       value: 0.07
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0332
+      row_name: "C0332   "
       value: 0.08
     second_pair:
-      row_name: C0333
+      row_name: "C0333   "
       value: 0.09
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0334
+      row_name: "C0334   "
       value: 0.1
     second_pair:
-      row_name: C0335
+      row_name: "C0335   "
       value: 0.11
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0336
+      row_name: "C0336   "
       value: 0.12
     second_pair:
-      row_name: C0337
+      row_name: "C0337   "
       value: 0.04
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0338
+      row_name: "C0338   "
       value: 0.04
     second_pair:
-      row_name: C0339
+      row_name: "C0339   "
       value: 0.05
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0340
+      row_name: "C0340   "
       value: 0.05
     second_pair:
-      row_name: C0341
+      row_name: "C0341   "
       value: 0.06
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0342
+      row_name: "C0342   "
       value: 0.07
     second_pair:
-      row_name: C0343
+      row_name: "C0343   "
       value: 0.05
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0344
+      row_name: "C0344   "
       value: 0.055
     second_pair:
-      row_name: C0345
+      row_name: "C0345   "
       value: 0.06
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0346
+      row_name: "C0346   "
       value: 0.065
     second_pair:
-      row_name: C0347
+      row_name: "C0347   "
       value: 0.07
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0348
+      row_name: "C0348   "
       value: 0.08
     second_pair:
-      row_name: C0349
+      row_name: "C0349   "
       value: 0.15
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0350
+      row_name: "C0350   "
       value: 0.16
     second_pair:
-      row_name: C0351
+      row_name: "C0351   "
       value: 0.18
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0352
+      row_name: "C0352   "
       value: 0.2
     second_pair:
-      row_name: C0353
+      row_name: "C0353   "
       value: 0.2
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0354
+      row_name: "C0354   "
       value: 0.2
     second_pair:
-      row_name: C0355
+      row_name: "C0355   "
       value: 0.13
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0356
+      row_name: "C0356   "
       value: 0.12
     second_pair:
-      row_name: C0357
+      row_name: "C0357   "
       value: 0.05
-  - name: SM
+  - name: "SM      "
     first_pair:
-      row_name: C0358
+      row_name: "C0358   "
       value: 0.04
     second_pair:
-      row_name: C0359
+      row_name: "C0359   "
       value: 0.04
 ranges: ~
 bounds: ~
