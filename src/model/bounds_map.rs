@@ -3,7 +3,9 @@ use color_eyre::{eyre::eyre, Result};
 use hashbrown::{HashMap, HashSet};
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct BoundsMap(HashMap<String, HashMap<(String, BoundType), f32>>);
+pub struct BoundsMap(
+  HashMap<String, HashMap<(String, BoundType), Option<f32>>>,
+);
 
 impl TryFrom<(&Bounds<'_, f32>, &HashSet<&str>)> for BoundsMap {
   type Error = color_eyre::Report;
@@ -35,7 +37,7 @@ impl BoundsMap {
     bound_name: &str,
     column_name: &str,
     bound_type: BoundType,
-    value: f32,
+    value: Option<f32>,
   ) -> Result<()> {
     match self.0.get_mut(bound_name) {
       None => {

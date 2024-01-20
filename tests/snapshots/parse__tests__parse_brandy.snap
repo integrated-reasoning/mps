@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/brandy\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/brandy\"))?"
 ---
 name: BRANDY
 rows:
@@ -447,63 +447,7901 @@ rows:
   - row_type: Eq
     row_name: 10221A
 columns:
-  - name: "100001"
+  - name: "100001  "
     first_pair:
-      row_name: 10000A
+      row_name: "10000A  "
       value: 1
     second_pair:
-      row_name: 10056A
+      row_name: "10056A  "
       value: -1
-  - name: "100002"
+  - name: "100002  "
     first_pair:
-      row_name: 10000A
+      row_name: "10000A  "
       value: 1
     second_pair:
-      row_name: 10025A
+      row_name: "10025A  "
       value: -1
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10006A
+      row_name: "10006A  "
       value: 1
     second_pair:
-      row_name: 10008A
+      row_name: "10008A  "
       value: 1
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10025A
+      row_name: "10025A  "
       value: 7
     second_pair:
-      row_name: 10043A
+      row_name: "10043A  "
       value: 0.003
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10044A
+      row_name: "10044A  "
       value: 0.067
     second_pair:
-      row_name: 10045A
+      row_name: "10045A  "
       value: 0.022
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10056A
+      row_name: "10056A  "
       value: 0.01
     second_pair:
-      row_name: 10063A
+      row_name: "10063A  "
       value: 0.22
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10064A
+      row_name: "10064A  "
       value: 0.1
     second_pair:
-      row_name: 10065A
+      row_name: "10065A  "
       value: 0.112
-  - name: "100100"
+  - name: "100100  "
     first_pair:
-      row_name: 10066A
+      row_name: "10066A  "
       value: 0.349
     second_pair:
-      row_name: 10068A
+      row_name: "10068A  "
       value: 0.125
-rhs: ~
+  - name: "100100  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.02
+    second_pair: ~
+  - name: "100101  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10014A  "
+      value: 1
+  - name: "100101  "
+    first_pair:
+      row_name: "10025A  "
+      value: 7.05
+    second_pair:
+      row_name: "10043A  "
+      value: 0.002
+  - name: "100101  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.012
+    second_pair:
+      row_name: "10045A  "
+      value: 0.003
+  - name: "100101  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.041
+    second_pair:
+      row_name: "10048A  "
+      value: 0.043
+  - name: "100101  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.017
+    second_pair:
+      row_name: "10050A  "
+      value: 0.09
+  - name: "100101  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.037
+    second_pair:
+      row_name: "10056A  "
+      value: 0.01
+  - name: "100101  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.006
+    second_pair:
+      row_name: "10062A  "
+      value: 0.12
+  - name: "100101  "
+    first_pair:
+      row_name: "10065A  "
+      value: 0.101
+    second_pair:
+      row_name: "10066A  "
+      value: 0.221
+  - name: "100101  "
+    first_pair:
+      row_name: "10068A  "
+      value: 0.161
+    second_pair:
+      row_name: "10144A  "
+      value: 0.02
+  - name: "100101  "
+    first_pair:
+      row_name: "10154A  "
+      value: 0.149
+    second_pair: ~
+  - name: "100103  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10014A  "
+      value: 1
+  - name: "100103  "
+    first_pair:
+      row_name: "10025A  "
+      value: 7.05
+    second_pair:
+      row_name: "10043A  "
+      value: 0.002
+  - name: "100103  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.012
+    second_pair:
+      row_name: "10045A  "
+      value: 0.003
+  - name: "100103  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.041
+    second_pair:
+      row_name: "10048A  "
+      value: 0.043
+  - name: "100103  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.017
+    second_pair:
+      row_name: "10050A  "
+      value: 0.09
+  - name: "100103  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.062
+    second_pair:
+      row_name: "10056A  "
+      value: 0.01
+  - name: "100103  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.007
+    second_pair:
+      row_name: "10063A  "
+      value: 0.173
+  - name: "100103  "
+    first_pair:
+      row_name: "10064A  "
+      value: 0.063
+    second_pair:
+      row_name: "10065A  "
+      value: 0.107
+  - name: "100103  "
+    first_pair:
+      row_name: "10066A  "
+      value: 0.221
+    second_pair:
+      row_name: "10068A  "
+      value: 0.161
+  - name: "100103  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.02
+    second_pair: ~
+  - name: "100109  "
+    first_pair:
+      row_name: "10094A  "
+      value: 1
+    second_pair:
+      row_name: "10107A  "
+      value: 1
+  - name: "100110  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 7.6
+  - name: "100110  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.005
+    second_pair:
+      row_name: "10044A  "
+      value: 0.022
+  - name: "100110  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.005
+    second_pair:
+      row_name: "10047A  "
+      value: 0.061
+  - name: "100110  "
+    first_pair:
+      row_name: "10048A  "
+      value: 0.06
+    second_pair:
+      row_name: "10049A  "
+      value: 0.023
+  - name: "100110  "
+    first_pair:
+      row_name: "10050A  "
+      value: 0.117
+    second_pair:
+      row_name: "10051A  "
+      value: 0.074
+  - name: "100110  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.01
+    second_pair:
+      row_name: "10061A  "
+      value: 0.009
+  - name: "100110  "
+    first_pair:
+      row_name: "10063A  "
+      value: 0.17
+    second_pair:
+      row_name: "10064A  "
+      value: 0.062
+  - name: "100110  "
+    first_pair:
+      row_name: "10065A  "
+      value: 0.107
+    second_pair:
+      row_name: "10066A  "
+      value: 0.205
+  - name: "100110  "
+    first_pair:
+      row_name: "10068A  "
+      value: 0.08
+    second_pair:
+      row_name: "10144A  "
+      value: 0.02
+  - name: "100110  "
+    first_pair:
+      row_name: "10160A  "
+      value: 1
+    second_pair: ~
+  - name: "100112  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 7.24
+  - name: "100112  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.003
+    second_pair:
+      row_name: "10044A  "
+      value: 0.015
+  - name: "100112  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.005
+    second_pair:
+      row_name: "10047A  "
+      value: 0.037
+  - name: "100112  "
+    first_pair:
+      row_name: "10048A  "
+      value: 0.048
+    second_pair:
+      row_name: "10049A  "
+      value: 0.045
+  - name: "100112  "
+    first_pair:
+      row_name: "10050A  "
+      value: 0.127
+    second_pair:
+      row_name: "10051A  "
+      value: 0.052
+  - name: "100112  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.01
+    second_pair:
+      row_name: "10061A  "
+      value: 0.005
+  - name: "100112  "
+    first_pair:
+      row_name: "10063A  "
+      value: 0.164
+    second_pair:
+      row_name: "10064A  "
+      value: 0.081
+  - name: "100112  "
+    first_pair:
+      row_name: "10065A  "
+      value: 0.102
+    second_pair:
+      row_name: "10066A  "
+      value: 0.252
+  - name: "100112  "
+    first_pair:
+      row_name: "10068A  "
+      value: 0.062
+    second_pair:
+      row_name: "10144A  "
+      value: 0.02
+  - name: "100112  "
+    first_pair:
+      row_name: "10162A  "
+      value: 1
+    second_pair: ~
+  - name: "100113  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 7.17
+  - name: "100113  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.002
+    second_pair:
+      row_name: "10044A  "
+      value: 0.007
+  - name: "100113  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.002
+    second_pair:
+      row_name: "10047A  "
+      value: 0.036
+  - name: "100113  "
+    first_pair:
+      row_name: "10048A  "
+      value: 0.041
+    second_pair:
+      row_name: "10049A  "
+      value: 0.019
+  - name: "100113  "
+    first_pair:
+      row_name: "10050A  "
+      value: 0.098
+    second_pair:
+      row_name: "10051A  "
+      value: 0.058
+  - name: "100113  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.01
+    second_pair:
+      row_name: "10061A  "
+      value: 0.006
+  - name: "100113  "
+    first_pair:
+      row_name: "10063A  "
+      value: 0.179
+    second_pair:
+      row_name: "10064A  "
+      value: 0.068
+  - name: "100113  "
+    first_pair:
+      row_name: "10065A  "
+      value: 0.118
+    second_pair:
+      row_name: "10066A  "
+      value: 0.25
+  - name: "100113  "
+    first_pair:
+      row_name: "10068A  "
+      value: 0.117
+    second_pair:
+      row_name: "10144A  "
+      value: 0.02
+  - name: "100113  "
+    first_pair:
+      row_name: "10163A  "
+      value: 1
+    second_pair: ~
+  - name: "100114  "
+    first_pair:
+      row_name: "10014A  "
+      value: -1
+    second_pair:
+      row_name: "10164A  "
+      value: 1
+  - name: "100120  "
+    first_pair:
+      row_name: "10007A  "
+      value: 1
+    second_pair:
+      row_name: "10010A  "
+      value: 1
+  - name: "100120  "
+    first_pair:
+      row_name: "10025A  "
+      value: 6.64
+    second_pair:
+      row_name: "10043A  "
+      value: 0.002
+  - name: "100120  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.01
+    second_pair:
+      row_name: "10045A  "
+      value: 0.003
+  - name: "100120  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.05
+    second_pair:
+      row_name: "10048A  "
+      value: 0.053
+  - name: "100120  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.022
+    second_pair:
+      row_name: "10050A  "
+      value: 0.108
+  - name: "100120  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.065
+    second_pair:
+      row_name: "10053A  "
+      value: 0.133
+  - name: "100120  "
+    first_pair:
+      row_name: "10054A  "
+      value: 0.099
+    second_pair:
+      row_name: "10055A  "
+      value: 0.263
+  - name: "100120  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.02
+    second_pair:
+      row_name: "10057A  "
+      value: 0.181
+  - name: "100120  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.012
+    second_pair:
+      row_name: "10144A  "
+      value: 0.022
+  - name: "100121  "
+    first_pair:
+      row_name: "10007A  "
+      value: 1
+    second_pair:
+      row_name: "10009A  "
+      value: 1
+  - name: "100121  "
+    first_pair:
+      row_name: "10025A  "
+      value: 5.9
+    second_pair:
+      row_name: "10043A  "
+      value: 0.001
+  - name: "100121  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.003
+    second_pair:
+      row_name: "10045A  "
+      value: 0.001
+  - name: "100121  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.021
+    second_pair:
+      row_name: "10048A  "
+      value: 0.022
+  - name: "100121  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.01
+    second_pair:
+      row_name: "10050A  "
+      value: 0.052
+  - name: "100121  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.042
+    second_pair:
+      row_name: "10053A  "
+      value: 0.122
+  - name: "100121  "
+    first_pair:
+      row_name: "10054A  "
+      value: 0.115
+    second_pair:
+      row_name: "10055A  "
+      value: 0.33
+  - name: "100121  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.02
+    second_pair:
+      row_name: "10057A  "
+      value: 0.276
+  - name: "100121  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.008
+    second_pair:
+      row_name: "10144A  "
+      value: 0.022
+  - name: "100122  "
+    first_pair:
+      row_name: "10007A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 6.5
+  - name: "100122  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.001
+    second_pair:
+      row_name: "10044A  "
+      value: 0.004
+  - name: "100122  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.001
+    second_pair:
+      row_name: "10047A  "
+      value: 0.026
+  - name: "100122  "
+    first_pair:
+      row_name: "10048A  "
+      value: 0.028
+    second_pair:
+      row_name: "10049A  "
+      value: 0.013
+  - name: "100122  "
+    first_pair:
+      row_name: "10050A  "
+      value: 0.072
+    second_pair:
+      row_name: "10051A  "
+      value: 0.054
+  - name: "100122  "
+    first_pair:
+      row_name: "10053A  "
+      value: 0.158
+    second_pair:
+      row_name: "10054A  "
+      value: 0.155
+  - name: "100122  "
+    first_pair:
+      row_name: "10055A  "
+      value: 0.326
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100122  "
+    first_pair:
+      row_name: "10057A  "
+      value: 0.154
+    second_pair:
+      row_name: "10061A  "
+      value: 0.011
+  - name: "100122  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.022
+    second_pair:
+      row_name: "10167A  "
+      value: 1
+  - name: "100125  "
+    first_pair:
+      row_name: "10007A  "
+      value: 1
+    second_pair:
+      row_name: "10010A  "
+      value: 1
+  - name: "100125  "
+    first_pair:
+      row_name: "10025A  "
+      value: 6.64
+    second_pair:
+      row_name: "10043A  "
+      value: 0.002
+  - name: "100125  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.01
+    second_pair:
+      row_name: "10045A  "
+      value: 0.003
+  - name: "100125  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.05
+    second_pair:
+      row_name: "10048A  "
+      value: 0.053
+  - name: "100125  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.022
+    second_pair:
+      row_name: "10050A  "
+      value: 0.108
+  - name: "100125  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.065
+    second_pair:
+      row_name: "10054A  "
+      value: 0.032
+  - name: "100125  "
+    first_pair:
+      row_name: "10055A  "
+      value: 0.263
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100125  "
+    first_pair:
+      row_name: "10057A  "
+      value: 0.181
+    second_pair:
+      row_name: "10058A  "
+      value: 0.2
+  - name: "100125  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.012
+    second_pair:
+      row_name: "10144A  "
+      value: 0.022
+  - name: "100125  "
+    first_pair:
+      row_name: "10149A  "
+      value: -2.23
+    second_pair:
+      row_name: "10150A  "
+      value: -0.067
+  - name: "100126  "
+    first_pair:
+      row_name: "10007A  "
+      value: 1
+    second_pair:
+      row_name: "10009A  "
+      value: 1
+  - name: "100126  "
+    first_pair:
+      row_name: "10025A  "
+      value: 5.9
+    second_pair:
+      row_name: "10043A  "
+      value: 0.001
+  - name: "100126  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.003
+    second_pair:
+      row_name: "10045A  "
+      value: 0.001
+  - name: "100126  "
+    first_pair:
+      row_name: "10047A  "
+      value: 0.021
+    second_pair:
+      row_name: "10048A  "
+      value: 0.022
+  - name: "100126  "
+    first_pair:
+      row_name: "10049A  "
+      value: 0.01
+    second_pair:
+      row_name: "10050A  "
+      value: 0.052
+  - name: "100126  "
+    first_pair:
+      row_name: "10051A  "
+      value: 0.042
+    second_pair:
+      row_name: "10054A  "
+      value: 0.04
+  - name: "100126  "
+    first_pair:
+      row_name: "10055A  "
+      value: 0.33
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100126  "
+    first_pair:
+      row_name: "10057A  "
+      value: 0.276
+    second_pair:
+      row_name: "10058A  "
+      value: 0.197
+  - name: "100126  "
+    first_pair:
+      row_name: "10061A  "
+      value: 0.008
+    second_pair:
+      row_name: "10144A  "
+      value: 0.022
+  - name: "100126  "
+    first_pair:
+      row_name: "10149A  "
+      value: -2.52
+    second_pair:
+      row_name: "10150A  "
+      value: -0.112
+  - name: "100130  "
+    first_pair:
+      row_name: "10007A  "
+      value: 0.67
+    second_pair:
+      row_name: "10012A  "
+      value: 1
+  - name: "100130  "
+    first_pair:
+      row_name: "10025A  "
+      value: 5.5
+    second_pair:
+      row_name: "10044A  "
+      value: 0.75
+  - name: "100130  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.25
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100130  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.027
+    second_pair: ~
+  - name: "100131  "
+    first_pair:
+      row_name: "10007A  "
+      value: 0.67
+    second_pair:
+      row_name: "10025A  "
+      value: 7
+  - name: "100131  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.05
+    second_pair:
+      row_name: "10045A  "
+      value: 0.95
+  - name: "100131  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10122A  "
+      value: 1
+  - name: "100131  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.027
+    second_pair: ~
+  - name: "100132  "
+    first_pair:
+      row_name: "10007A  "
+      value: 0.67
+    second_pair:
+      row_name: "10011A  "
+      value: 1
+  - name: "100132  "
+    first_pair:
+      row_name: "10025A  "
+      value: 7.5
+    second_pair:
+      row_name: "10047A  "
+      value: 0.7
+  - name: "100132  "
+    first_pair:
+      row_name: "10048A  "
+      value: 0.2
+    second_pair:
+      row_name: "10049A  "
+      value: 0.1
+  - name: "100132  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.01
+    second_pair:
+      row_name: "10144A  "
+      value: 0.021
+  - name: "100133  "
+    first_pair:
+      row_name: "10006A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 4
+  - name: "100133  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.75
+    second_pair:
+      row_name: "10045A  "
+      value: 0.25
+  - name: "100133  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10144A  "
+      value: 0.027
+  - name: "100133  "
+    first_pair:
+      row_name: "10159A  "
+      value: 1
+    second_pair: ~
+  - name: "100134  "
+    first_pair:
+      row_name: "10025A  "
+      value: 8.5
+    second_pair:
+      row_name: "10044A  "
+      value: 0.05
+  - name: "100134  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.95
+    second_pair: ~
+  - name: "100140  "
+    first_pair:
+      row_name: "10048A  "
+      value: -0.71
+    second_pair:
+      row_name: "10049A  "
+      value: -0.29
+  - name: "100140  "
+    first_pair:
+      row_name: "10151A  "
+      value: 1
+    second_pair: ~
+  - name: "100150  "
+    first_pair:
+      row_name: "10043A  "
+      value: -0.13
+    second_pair:
+      row_name: "10044A  "
+      value: -0.06
+  - name: "100150  "
+    first_pair:
+      row_name: "10045A  "
+      value: -0.05
+    second_pair:
+      row_name: "10046A  "
+      value: -0.04
+  - name: "100150  "
+    first_pair:
+      row_name: "10047A  "
+      value: -0.04
+    second_pair:
+      row_name: "10048A  "
+      value: -0.04
+  - name: "100150  "
+    first_pair:
+      row_name: "10049A  "
+      value: -0.04
+    second_pair:
+      row_name: "10050A  "
+      value: -0.14
+  - name: "100150  "
+    first_pair:
+      row_name: "10051A  "
+      value: -0.05
+    second_pair:
+      row_name: "10070A  "
+      value: -0.08
+  - name: "100150  "
+    first_pair:
+      row_name: "10073A  "
+      value: -0.03
+    second_pair:
+      row_name: "10080A  "
+      value: -0.07
+  - name: "100150  "
+    first_pair:
+      row_name: "10081A  "
+      value: -0.03
+    second_pair:
+      row_name: "10096A  "
+      value: -0.02
+  - name: "100150  "
+    first_pair:
+      row_name: "10097A  "
+      value: -0.01
+    second_pair:
+      row_name: "10098A  "
+      value: -0.01
+  - name: "100150  "
+    first_pair:
+      row_name: "10100A  "
+      value: 1
+    second_pair:
+      row_name: "10104A  "
+      value: -0.0012
+  - name: "100150  "
+    first_pair:
+      row_name: "10105A  "
+      value: -0.0012
+    second_pair:
+      row_name: "10107A  "
+      value: -0.08
+  - name: "100150  "
+    first_pair:
+      row_name: "10120A  "
+      value: -0.06
+    second_pair: ~
+  - name: "100200  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 0.565
+  - name: "100200  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.047
+  - name: "100200  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.007
+    second_pair:
+      row_name: "10045A  "
+      value: 0.027
+  - name: "100200  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.049
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100200  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100200  "
+    first_pair:
+      row_name: "10076A  "
+      value: 0.134
+    second_pair:
+      row_name: "10081A  "
+      value: 0.052
+  - name: "100200  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.18
+    second_pair:
+      row_name: "10087A  "
+      value: 0.152
+  - name: "100200  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.219
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100200  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.043
+    second_pair:
+      row_name: "10144A  "
+      value: 0.055
+  - name: "100200  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100200  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair: ~
+  - name: "100201  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.25
+    second_pair:
+      row_name: "10018A  "
+      value: 0.539
+  - name: "100201  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.041
+  - name: "100201  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.005
+    second_pair:
+      row_name: "10045A  "
+      value: 0.024
+  - name: "100201  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.044
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100201  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100201  "
+    first_pair:
+      row_name: "10076A  "
+      value: 0.149
+    second_pair:
+      row_name: "10081A  "
+      value: 0.056
+  - name: "100201  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.193
+    second_pair:
+      row_name: "10087A  "
+      value: 0.163
+  - name: "100201  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.193
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100201  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.041
+    second_pair:
+      row_name: "10124A  "
+      value: 0.81
+  - name: "100201  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.06
+    second_pair:
+      row_name: "10126A  "
+      value: 0.72
+  - name: "100201  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0015
+    second_pair:
+      row_name: "10144A  "
+      value: 0.058
+  - name: "100201  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100201  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 0.82
+  - name: "100203  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.5
+    second_pair:
+      row_name: "10018A  "
+      value: 0.526
+  - name: "100203  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.037
+  - name: "100203  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.005
+    second_pair:
+      row_name: "10045A  "
+      value: 0.02
+  - name: "100203  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.041
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100203  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100203  "
+    first_pair:
+      row_name: "10076A  "
+      value: 0.16
+    second_pair:
+      row_name: "10081A  "
+      value: 0.058
+  - name: "100203  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.203
+    second_pair:
+      row_name: "10087A  "
+      value: 0.17
+  - name: "100203  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.175
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100203  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.04
+    second_pair:
+      row_name: "10124A  "
+      value: 1.88
+  - name: "100203  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.11
+    second_pair:
+      row_name: "10126A  "
+      value: 1.25
+  - name: "100203  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0025
+    second_pair:
+      row_name: "10144A  "
+      value: 0.061
+  - name: "100203  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100203  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 1.88
+  - name: "100204  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 0.758
+  - name: "100204  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.065
+  - name: "100204  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.014
+    second_pair:
+      row_name: "10045A  "
+      value: 0.045
+  - name: "100204  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.061
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100204  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100204  "
+    first_pair:
+      row_name: "10078A  "
+      value: 0.164
+    second_pair:
+      row_name: "10081A  "
+      value: 0.058
+  - name: "100204  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.157
+    second_pair:
+      row_name: "10087A  "
+      value: 0.127
+  - name: "100204  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.165
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100204  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.058
+    second_pair:
+      row_name: "10144A  "
+      value: 0.066
+  - name: "100204  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100204  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair: ~
+  - name: "100205  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.25
+    second_pair:
+      row_name: "10018A  "
+      value: 0.719
+  - name: "100205  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.06
+  - name: "100205  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.012
+    second_pair:
+      row_name: "10045A  "
+      value: 0.04
+  - name: "100205  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.054
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100205  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100205  "
+    first_pair:
+      row_name: "10078A  "
+      value: 0.183
+    second_pair:
+      row_name: "10081A  "
+      value: 0.063
+  - name: "100205  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.169
+    second_pair:
+      row_name: "10087A  "
+      value: 0.136
+  - name: "100205  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.142
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100205  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.055
+    second_pair:
+      row_name: "10124A  "
+      value: 1.34
+  - name: "100205  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.06
+    second_pair:
+      row_name: "10126A  "
+      value: 0.7
+  - name: "100205  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0008
+    second_pair:
+      row_name: "10144A  "
+      value: 0.068
+  - name: "100205  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100205  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 1.3
+  - name: "100207  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.5
+    second_pair:
+      row_name: "10018A  "
+      value: 0.707
+  - name: "100207  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.053
+  - name: "100207  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.011
+    second_pair:
+      row_name: "10045A  "
+      value: 0.037
+  - name: "100207  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.051
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100207  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100207  "
+    first_pair:
+      row_name: "10078A  "
+      value: 0.196
+    second_pair:
+      row_name: "10081A  "
+      value: 0.066
+  - name: "100207  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.179
+    second_pair:
+      row_name: "10087A  "
+      value: 0.145
+  - name: "100207  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.122
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100207  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.054
+    second_pair:
+      row_name: "10124A  "
+      value: 3.32
+  - name: "100207  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.09
+    second_pair:
+      row_name: "10126A  "
+      value: 0.76
+  - name: "100207  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0017
+    second_pair:
+      row_name: "10144A  "
+      value: 0.072
+  - name: "100207  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100207  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 3.27
+  - name: "100208  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 1.015
+  - name: "100208  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.094
+  - name: "100208  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.023
+    second_pair:
+      row_name: "10045A  "
+      value: 0.066
+  - name: "100208  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.072
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100208  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100208  "
+    first_pair:
+      row_name: "10080A  "
+      value: 0.177
+    second_pair:
+      row_name: "10081A  "
+      value: 0.06
+  - name: "100208  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.134
+    second_pair:
+      row_name: "10087A  "
+      value: 0.102
+  - name: "100208  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.112
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100208  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.078
+    second_pair:
+      row_name: "10144A  "
+      value: 0.078
+  - name: "100208  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100208  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair: ~
+  - name: "100209  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.25
+    second_pair:
+      row_name: "10018A  "
+      value: 0.962
+  - name: "100209  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.082
+  - name: "100209  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.02
+    second_pair:
+      row_name: "10045A  "
+      value: 0.061
+  - name: "100209  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.064
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100209  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100209  "
+    first_pair:
+      row_name: "10080A  "
+      value: 0.204
+    second_pair:
+      row_name: "10081A  "
+      value: 0.066
+  - name: "100209  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.146
+    second_pair:
+      row_name: "10087A  "
+      value: 0.112
+  - name: "100209  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.088
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100209  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.074
+    second_pair:
+      row_name: "10124A  "
+      value: 1.63
+  - name: "100209  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.04
+    second_pair:
+      row_name: "10126A  "
+      value: 0.89
+  - name: "100209  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0009
+    second_pair:
+      row_name: "10144A  "
+      value: 0.081
+  - name: "100209  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100209  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 1.7
+  - name: "100212  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 0.668
+  - name: "100212  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.01
+    second_pair:
+      row_name: "10043A  "
+      value: 0.07
+  - name: "100212  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.015
+    second_pair:
+      row_name: "10045A  "
+      value: 0.058
+  - name: "100212  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.058
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100212  "
+    first_pair:
+      row_name: "10064A  "
+      value: -1
+    second_pair:
+      row_name: "10069A  "
+      value: 1
+  - name: "100212  "
+    first_pair:
+      row_name: "10070A  "
+      value: 0.094
+    second_pair:
+      row_name: "10072A  "
+      value: 6.1
+  - name: "100212  "
+    first_pair:
+      row_name: "10074A  "
+      value: -6.52
+    second_pair:
+      row_name: "10081A  "
+      value: 0.046
+  - name: "100212  "
+    first_pair:
+      row_name: "10082A  "
+      value: 0.165
+    second_pair:
+      row_name: "10086A  "
+      value: 0.159
+  - name: "100212  "
+    first_pair:
+      row_name: "10087A  "
+      value: 0.318
+    second_pair:
+      row_name: "10091A  "
+      value: 0.017
+  - name: "100212  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.01
+    second_pair:
+      row_name: "10093A  "
+      value: 0.051
+  - name: "100212  "
+    first_pair:
+      row_name: "10136A  "
+      value: -0.215
+    second_pair:
+      row_name: "10137A  "
+      value: -3.18
+  - name: "100212  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.061
+    second_pair:
+      row_name: "10208A  "
+      value: 3.13
+  - name: "100213  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 0.468
+  - name: "100213  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.057
+    second_pair:
+      row_name: "10044A  "
+      value: 0.01
+  - name: "100213  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.042
+    second_pair:
+      row_name: "10046A  "
+      value: 0.037
+  - name: "100213  "
+    first_pair:
+      row_name: "10053A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100213  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.081
+  - name: "100213  "
+    first_pair:
+      row_name: "10072A  "
+      value: 3.9
+    second_pair:
+      row_name: "10074A  "
+      value: -12.04
+  - name: "100213  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.234
+    second_pair:
+      row_name: "10083A  "
+      value: 0.138
+  - name: "100213  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.391
+    second_pair:
+      row_name: "10093A  "
+      value: 0.036
+  - name: "100213  "
+    first_pair:
+      row_name: "10136A  "
+      value: -0.02
+    second_pair:
+      row_name: "10137A  "
+      value: -5.86
+  - name: "100213  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.054
+    second_pair:
+      row_name: "10208A  "
+      value: 3.44
+  - name: "100214  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.5
+    second_pair:
+      row_name: "10018A  "
+      value: 1.195
+  - name: "100214  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.031
+    second_pair:
+      row_name: "10043A  "
+      value: 0.11
+  - name: "100214  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.029
+    second_pair:
+      row_name: "10045A  "
+      value: 0.079
+  - name: "100214  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.07
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100214  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100214  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.065
+    second_pair:
+      row_name: "10086A  "
+      value: 0.135
+  - name: "100214  "
+    first_pair:
+      row_name: "10087A  "
+      value: 0.095
+    second_pair:
+      row_name: "10091A  "
+      value: 0.018
+  - name: "100214  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.031
+    second_pair:
+      row_name: "10093A  "
+      value: 0.091
+  - name: "100214  "
+    first_pair:
+      row_name: "10124A  "
+      value: 5.7
+    second_pair:
+      row_name: "10125A  "
+      value: -0.02
+  - name: "100214  "
+    first_pair:
+      row_name: "10126A  "
+      value: 2
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0012
+  - name: "100214  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.096
+    second_pair:
+      row_name: "10145A  "
+      value: -1
+  - name: "100214  "
+    first_pair:
+      row_name: "10146A  "
+      value: -29
+    second_pair:
+      row_name: "10147A  "
+      value: -0.75
+  - name: "100214  "
+    first_pair:
+      row_name: "10158A  "
+      value: 0.231
+    second_pair:
+      row_name: "10207A  "
+      value: 5.45
+  - name: "100215  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.5
+    second_pair:
+      row_name: "10018A  "
+      value: 0.924
+  - name: "100215  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.032
+    second_pair:
+      row_name: "10043A  "
+      value: 0.073
+  - name: "100215  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.02
+    second_pair:
+      row_name: "10045A  "
+      value: 0.057
+  - name: "100215  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.061
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100215  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100215  "
+    first_pair:
+      row_name: "10080A  "
+      value: 0.221
+    second_pair:
+      row_name: "10081A  "
+      value: 0.069
+  - name: "100215  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.156
+    second_pair:
+      row_name: "10087A  "
+      value: 0.12
+  - name: "100215  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.069
+    second_pair:
+      row_name: "10092A  "
+      value: 0.032
+  - name: "100215  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.071
+    second_pair:
+      row_name: "10124A  "
+      value: 4.46
+  - name: "100215  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.06
+    second_pair:
+      row_name: "10126A  "
+      value: 1.45
+  - name: "100215  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0014
+    second_pair:
+      row_name: "10144A  "
+      value: 0.083
+  - name: "100215  "
+    first_pair:
+      row_name: "10145A  "
+      value: -1
+    second_pair:
+      row_name: "10146A  "
+      value: -29
+  - name: "100215  "
+    first_pair:
+      row_name: "10147A  "
+      value: -0.75
+    second_pair:
+      row_name: "10207A  "
+      value: 4.24
+  - name: "100216  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 1.323
+  - name: "100216  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.031
+    second_pair:
+      row_name: "10043A  "
+      value: 0.137
+  - name: "100216  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.033
+    second_pair:
+      row_name: "10045A  "
+      value: 0.089
+  - name: "100216  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.083
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100216  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100216  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.054
+    second_pair:
+      row_name: "10086A  "
+      value: 0.11
+  - name: "100216  "
+    first_pair:
+      row_name: "10087A  "
+      value: 0.075
+    second_pair:
+      row_name: "10091A  "
+      value: 0.066
+  - name: "100216  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.031
+    second_pair:
+      row_name: "10093A  "
+      value: 0.101
+  - name: "100216  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.093
+    second_pair:
+      row_name: "10145A  "
+      value: -1
+  - name: "100216  "
+    first_pair:
+      row_name: "10146A  "
+      value: -29
+    second_pair:
+      row_name: "10147A  "
+      value: -0.75
+  - name: "100216  "
+    first_pair:
+      row_name: "10158A  "
+      value: 0.174
+    second_pair: ~
+  - name: "100217  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1.25
+    second_pair:
+      row_name: "10018A  "
+      value: 1.234
+  - name: "100217  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.031
+    second_pair:
+      row_name: "10043A  "
+      value: 0.122
+  - name: "100217  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.03
+    second_pair:
+      row_name: "10045A  "
+      value: 0.083
+  - name: "100217  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.074
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "100217  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100217  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.061
+    second_pair:
+      row_name: "10086A  "
+      value: 0.124
+  - name: "100217  "
+    first_pair:
+      row_name: "10087A  "
+      value: 0.086
+    second_pair:
+      row_name: "10091A  "
+      value: 0.039
+  - name: "100217  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.031
+    second_pair:
+      row_name: "10093A  "
+      value: 0.094
+  - name: "100217  "
+    first_pair:
+      row_name: "10124A  "
+      value: 2.44
+    second_pair:
+      row_name: "10125A  "
+      value: -0.02
+  - name: "100217  "
+    first_pair:
+      row_name: "10126A  "
+      value: 1.3
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0009
+  - name: "100217  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.094
+    second_pair:
+      row_name: "10145A  "
+      value: -1
+  - name: "100217  "
+    first_pair:
+      row_name: "10146A  "
+      value: -29
+    second_pair:
+      row_name: "10147A  "
+      value: -0.75
+  - name: "100217  "
+    first_pair:
+      row_name: "10158A  "
+      value: 0.211
+    second_pair:
+      row_name: "10207A  "
+      value: 2.39
+  - name: "100218  "
+    first_pair:
+      row_name: "10017A  "
+      value: 1
+    second_pair:
+      row_name: "10018A  "
+      value: 0.588
+  - name: "100218  "
+    first_pair:
+      row_name: "10041A  "
+      value: 0.006
+    second_pair:
+      row_name: "10043A  "
+      value: 0.064
+  - name: "100218  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.012
+    second_pair:
+      row_name: "10045A  "
+      value: 0.051
+  - name: "100218  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.051
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "100218  "
+    first_pair:
+      row_name: "10069A  "
+      value: 1
+    second_pair:
+      row_name: "10070A  "
+      value: 0.081
+  - name: "100218  "
+    first_pair:
+      row_name: "10072A  "
+      value: 8
+    second_pair:
+      row_name: "10074A  "
+      value: -8.03
+  - name: "100218  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.08
+    second_pair:
+      row_name: "10082A  "
+      value: 0.147
+  - name: "100218  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.385
+    second_pair:
+      row_name: "10087A  "
+      value: 0.119
+  - name: "100218  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.01
+    second_pair:
+      row_name: "10092A  "
+      value: 0.006
+  - name: "100218  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.045
+    second_pair:
+      row_name: "10124A  "
+      value: -0.01
+  - name: "100218  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.06
+    second_pair:
+      row_name: "10126A  "
+      value: 0.26
+  - name: "100218  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0022
+    second_pair:
+      row_name: "10136A  "
+      value: -0.247
+  - name: "100218  "
+    first_pair:
+      row_name: "10137A  "
+      value: -0.27
+    second_pair:
+      row_name: "10144A  "
+      value: 0.056
+  - name: "100218  "
+    first_pair:
+      row_name: "10154A  "
+      value: -1
+    second_pair:
+      row_name: "10208A  "
+      value: 4.27
+  - name: "100220  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1
+    second_pair:
+      row_name: "10016A  "
+      value: 0.64
+  - name: "100220  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.051
+    second_pair:
+      row_name: "10044A  "
+      value: 0.007
+  - name: "100220  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.021
+    second_pair:
+      row_name: "10046A  "
+      value: 0.044
+  - name: "100220  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100220  "
+    first_pair:
+      row_name: "10071A  "
+      value: 0.137
+    second_pair:
+      row_name: "10084A  "
+      value: 0.18
+  - name: "100220  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.152
+    second_pair:
+      row_name: "10090A  "
+      value: 0.219
+  - name: "100220  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.032
+  - name: "100220  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.052
+    second_pair:
+      row_name: "10144A  "
+      value: 0.058
+  - name: "100220  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100220  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair: ~
+  - name: "100221  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.25
+    second_pair:
+      row_name: "10016A  "
+      value: 0.628
+  - name: "100221  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.044
+    second_pair:
+      row_name: "10044A  "
+      value: 0.005
+  - name: "100221  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.018
+    second_pair:
+      row_name: "10046A  "
+      value: 0.039
+  - name: "100221  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100221  "
+    first_pair:
+      row_name: "10071A  "
+      value: 0.152
+    second_pair:
+      row_name: "10084A  "
+      value: 0.193
+  - name: "100221  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.163
+    second_pair:
+      row_name: "10090A  "
+      value: 0.193
+  - name: "100221  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.031
+  - name: "100221  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.056
+    second_pair:
+      row_name: "10124A  "
+      value: 0.82
+  - name: "100221  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.07
+    second_pair:
+      row_name: "10126A  "
+      value: 0.68
+  - name: "100221  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0044
+    second_pair:
+      row_name: "10144A  "
+      value: 0.062
+  - name: "100221  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100221  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 0.68
+  - name: "100223  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.5
+    second_pair:
+      row_name: "10016A  "
+      value: 1.099
+  - name: "100223  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.087
+    second_pair:
+      row_name: "10044A  "
+      value: 0.018
+  - name: "100223  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.046
+    second_pair:
+      row_name: "10046A  "
+      value: 0.052
+  - name: "100223  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100223  "
+    first_pair:
+      row_name: "10075A  "
+      value: 0.21
+    second_pair:
+      row_name: "10084A  "
+      value: 0.156
+  - name: "100223  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.12
+    second_pair:
+      row_name: "10090A  "
+      value: 0.069
+  - name: "100223  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.054
+  - name: "100223  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.069
+    second_pair:
+      row_name: "10124A  "
+      value: 4.43
+  - name: "100223  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.1
+    second_pair:
+      row_name: "10126A  "
+      value: 1.48
+  - name: "100223  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0055
+    second_pair:
+      row_name: "10144A  "
+      value: 0.09
+  - name: "100223  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100223  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 4.39
+  - name: "100224  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1
+    second_pair:
+      row_name: "10016A  "
+      value: 0.864
+  - name: "100224  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.074
+    second_pair:
+      row_name: "10044A  "
+      value: 0.014
+  - name: "100224  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.035
+    second_pair:
+      row_name: "10046A  "
+      value: 0.053
+  - name: "100224  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100224  "
+    first_pair:
+      row_name: "10073A  "
+      value: 0.164
+    second_pair:
+      row_name: "10084A  "
+      value: 0.157
+  - name: "100224  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.127
+    second_pair:
+      row_name: "10090A  "
+      value: 0.165
+  - name: "100224  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.043
+  - name: "100224  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.058
+    second_pair:
+      row_name: "10144A  "
+      value: 0.07
+  - name: "100224  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100224  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair: ~
+  - name: "100225  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.25
+    second_pair:
+      row_name: "10016A  "
+      value: 0.85
+  - name: "100225  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.065
+    second_pair:
+      row_name: "10044A  "
+      value: 0.012
+  - name: "100225  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.032
+    second_pair:
+      row_name: "10046A  "
+      value: 0.048
+  - name: "100225  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100225  "
+    first_pair:
+      row_name: "10073A  "
+      value: 0.185
+    second_pair:
+      row_name: "10084A  "
+      value: 0.169
+  - name: "100225  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.136
+    second_pair:
+      row_name: "10090A  "
+      value: 0.142
+  - name: "100225  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.042
+  - name: "100225  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.063
+    second_pair:
+      row_name: "10124A  "
+      value: 1.24
+  - name: "100225  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.07
+    second_pair:
+      row_name: "10126A  "
+      value: 0.75
+  - name: "100225  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0037
+    second_pair:
+      row_name: "10144A  "
+      value: 0.074
+  - name: "100225  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100225  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 1.31
+  - name: "100228  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1
+    second_pair:
+      row_name: "10016A  "
+      value: 1.192
+  - name: "100228  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.112
+    second_pair:
+      row_name: "10044A  "
+      value: 0.021
+  - name: "100228  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.054
+    second_pair:
+      row_name: "10046A  "
+      value: 0.063
+  - name: "100228  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100228  "
+    first_pair:
+      row_name: "10075A  "
+      value: 0.168
+    second_pair:
+      row_name: "10084A  "
+      value: 0.134
+  - name: "100228  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.102
+    second_pair:
+      row_name: "10090A  "
+      value: 0.112
+  - name: "100228  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.059
+  - name: "100228  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.06
+    second_pair:
+      row_name: "10144A  "
+      value: 0.085
+  - name: "100228  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100228  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair: ~
+  - name: "100229  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.25
+    second_pair:
+      row_name: "10016A  "
+      value: 1.113
+  - name: "100229  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.096
+    second_pair:
+      row_name: "10044A  "
+      value: 0.018
+  - name: "100229  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.049
+    second_pair:
+      row_name: "10046A  "
+      value: 0.055
+  - name: "100229  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.14
+  - name: "100229  "
+    first_pair:
+      row_name: "10075A  "
+      value: 0.195
+    second_pair:
+      row_name: "10084A  "
+      value: 0.146
+  - name: "100229  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.112
+    second_pair:
+      row_name: "10090A  "
+      value: 0.088
+  - name: "100229  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.055
+  - name: "100229  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.066
+    second_pair:
+      row_name: "10124A  "
+      value: 1.62
+  - name: "100229  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.07
+    second_pair:
+      row_name: "10126A  "
+      value: 0.95
+  - name: "100229  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0036
+    second_pair:
+      row_name: "10144A  "
+      value: 0.087
+  - name: "100229  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100229  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 1.57
+  - name: "100232  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1
+    second_pair:
+      row_name: "10016A  "
+      value: 1.545
+  - name: "100232  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.166
+    second_pair:
+      row_name: "10044A  "
+      value: 0.031
+  - name: "100232  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.074
+    second_pair:
+      row_name: "10046A  "
+      value: 0.071
+  - name: "100232  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100232  "
+    first_pair:
+      row_name: "10084A  "
+      value: 0.11
+    second_pair:
+      row_name: "10085A  "
+      value: 0.075
+  - name: "100232  "
+    first_pair:
+      row_name: "10090A  "
+      value: 0.066
+    second_pair:
+      row_name: "10092A  "
+      value: 0.031
+  - name: "100232  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.076
+    second_pair:
+      row_name: "10098A  "
+      value: 0.054
+  - name: "100232  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.102
+    second_pair:
+      row_name: "10148A  "
+      value: -1
+  - name: "100232  "
+    first_pair:
+      row_name: "10149A  "
+      value: -26
+    second_pair:
+      row_name: "10150A  "
+      value: -2.1
+  - name: "100232  "
+    first_pair:
+      row_name: "10156A  "
+      value: 0.151
+    second_pair: ~
+  - name: "100233  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.25
+    second_pair:
+      row_name: "10016A  "
+      value: 1.44
+  - name: "100233  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.14
+    second_pair:
+      row_name: "10044A  "
+      value: 0.028
+  - name: "100233  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.069
+    second_pair:
+      row_name: "10046A  "
+      value: 0.063
+  - name: "100233  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100233  "
+    first_pair:
+      row_name: "10084A  "
+      value: 0.124
+    second_pair:
+      row_name: "10085A  "
+      value: 0.086
+  - name: "100233  "
+    first_pair:
+      row_name: "10090A  "
+      value: 0.039
+    second_pair:
+      row_name: "10092A  "
+      value: 0.031
+  - name: "100233  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.071
+    second_pair:
+      row_name: "10098A  "
+      value: 0.061
+  - name: "100233  "
+    first_pair:
+      row_name: "10124A  "
+      value: 2.53
+    second_pair:
+      row_name: "10125A  "
+      value: 0.04
+  - name: "100233  "
+    first_pair:
+      row_name: "10126A  "
+      value: 1.7
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0039
+  - name: "100233  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.102
+    second_pair:
+      row_name: "10148A  "
+      value: -1
+  - name: "100233  "
+    first_pair:
+      row_name: "10149A  "
+      value: -26
+    second_pair:
+      row_name: "10150A  "
+      value: -2.1
+  - name: "100233  "
+    first_pair:
+      row_name: "10156A  "
+      value: 0.192
+    second_pair:
+      row_name: "10207A  "
+      value: 2.44
+  - name: "100234  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.5
+    second_pair:
+      row_name: "10016A  "
+      value: 0.616
+  - name: "100234  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.039
+    second_pair:
+      row_name: "10044A  "
+      value: 0.005
+  - name: "100234  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.015
+    second_pair:
+      row_name: "10046A  "
+      value: 0.036
+  - name: "100234  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.12
+  - name: "100234  "
+    first_pair:
+      row_name: "10071A  "
+      value: 0.162
+    second_pair:
+      row_name: "10084A  "
+      value: 0.203
+  - name: "100234  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.17
+    second_pair:
+      row_name: "10090A  "
+      value: 0.175
+  - name: "100234  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.03
+  - name: "100234  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.058
+    second_pair:
+      row_name: "10124A  "
+      value: 2.22
+  - name: "100234  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.12
+    second_pair:
+      row_name: "10126A  "
+      value: 1.13
+  - name: "100234  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0069
+    second_pair:
+      row_name: "10144A  "
+      value: 0.065
+  - name: "100234  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100234  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 1.98
+  - name: "100235  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.5
+    second_pair:
+      row_name: "10016A  "
+      value: 0.838
+  - name: "100235  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.059
+    second_pair:
+      row_name: "10044A  "
+      value: 0.011
+  - name: "100235  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.028
+    second_pair:
+      row_name: "10046A  "
+      value: 0.043
+  - name: "100235  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.13
+  - name: "100235  "
+    first_pair:
+      row_name: "10073A  "
+      value: 0.196
+    second_pair:
+      row_name: "10084A  "
+      value: 0.179
+  - name: "100235  "
+    first_pair:
+      row_name: "10085A  "
+      value: 0.145
+    second_pair:
+      row_name: "10090A  "
+      value: 0.122
+  - name: "100235  "
+    first_pair:
+      row_name: "10092A  "
+      value: 0.032
+    second_pair:
+      row_name: "10093A  "
+      value: 0.041
+  - name: "100235  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.065
+    second_pair:
+      row_name: "10124A  "
+      value: 3.55
+  - name: "100235  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.1
+    second_pair:
+      row_name: "10126A  "
+      value: 1.14
+  - name: "100235  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0058
+    second_pair:
+      row_name: "10144A  "
+      value: 0.077
+  - name: "100235  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "100235  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10207A  "
+      value: 3.58
+  - name: "100236  "
+    first_pair:
+      row_name: "10015A  "
+      value: 1.5
+    second_pair:
+      row_name: "10016A  "
+      value: 1.4
+  - name: "100236  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.131
+    second_pair:
+      row_name: "10044A  "
+      value: 0.027
+  - name: "100236  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.065
+    second_pair:
+      row_name: "10046A  "
+      value: 0.058
+  - name: "100236  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10070A  "
+      value: 0.15
+  - name: "100236  "
+    first_pair:
+      row_name: "10084A  "
+      value: 0.135
+    second_pair:
+      row_name: "10085A  "
+      value: 0.095
+  - name: "100236  "
+    first_pair:
+      row_name: "10090A  "
+      value: 0.018
+    second_pair:
+      row_name: "10092A  "
+      value: 0.031
+  - name: "100236  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.069
+    second_pair:
+      row_name: "10098A  "
+      value: 0.065
+  - name: "100236  "
+    first_pair:
+      row_name: "10124A  "
+      value: 5.94
+    second_pair:
+      row_name: "10125A  "
+      value: 0.06
+  - name: "100236  "
+    first_pair:
+      row_name: "10126A  "
+      value: 2.49
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0059
+  - name: "100236  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.104
+    second_pair:
+      row_name: "10148A  "
+      value: -1
+  - name: "100236  "
+    first_pair:
+      row_name: "10149A  "
+      value: -26
+    second_pair:
+      row_name: "10150A  "
+      value: -2.1
+  - name: "100236  "
+    first_pair:
+      row_name: "10156A  "
+      value: 0.211
+    second_pair:
+      row_name: "10207A  "
+      value: 5.8
+  - name: "100240  "
+    first_pair:
+      row_name: "10017A  "
+      value: 0.15
+    second_pair:
+      row_name: "10065A  "
+      value: -1.15
+  - name: "100240  "
+    first_pair:
+      row_name: "10081A  "
+      value: 0.15
+    second_pair:
+      row_name: "10145A  "
+      value: 1
+  - name: "100240  "
+    first_pair:
+      row_name: "10146A  "
+      value: 32.3
+    second_pair:
+      row_name: "10147A  "
+      value: 0.357
+  - name: "100241  "
+    first_pair:
+      row_name: "10066A  "
+      value: -1
+    second_pair:
+      row_name: "10145A  "
+      value: 1
+  - name: "100241  "
+    first_pair:
+      row_name: "10146A  "
+      value: 27
+    second_pair:
+      row_name: "10147A  "
+      value: 0.512
+  - name: "100242  "
+    first_pair:
+      row_name: "10101A  "
+      value: -1
+    second_pair:
+      row_name: "10145A  "
+      value: 1
+  - name: "100242  "
+    first_pair:
+      row_name: "10146A  "
+      value: 30.6
+    second_pair:
+      row_name: "10147A  "
+      value: 0.78
+  - name: "100243  "
+    first_pair:
+      row_name: "10054A  "
+      value: -1
+    second_pair:
+      row_name: "10145A  "
+      value: 1
+  - name: "100243  "
+    first_pair:
+      row_name: "10146A  "
+      value: 31.4
+    second_pair:
+      row_name: "10147A  "
+      value: 1.57
+  - name: "100245  "
+    first_pair:
+      row_name: "10102A  "
+      value: -1
+    second_pair:
+      row_name: "10145A  "
+      value: 1
+  - name: "100245  "
+    first_pair:
+      row_name: "10146A  "
+      value: 25.6
+    second_pair:
+      row_name: "10147A  "
+      value: 2.6
+  - name: "100250  "
+    first_pair:
+      row_name: "10054A  "
+      value: -1
+    second_pair:
+      row_name: "10148A  "
+      value: 1
+  - name: "100250  "
+    first_pair:
+      row_name: "10149A  "
+      value: 31.6
+    second_pair:
+      row_name: "10150A  "
+      value: 1.54
+  - name: "100251  "
+    first_pair:
+      row_name: "10015A  "
+      value: 0.05
+    second_pair:
+      row_name: "10055A  "
+      value: -1.05
+  - name: "100251  "
+    first_pair:
+      row_name: "10098A  "
+      value: 0.05
+    second_pair:
+      row_name: "10148A  "
+      value: 1
+  - name: "100251  "
+    first_pair:
+      row_name: "10149A  "
+      value: 22.7
+    second_pair:
+      row_name: "10150A  "
+      value: 2.51
+  - name: "100252  "
+    first_pair:
+      row_name: "10102A  "
+      value: -1
+    second_pair:
+      row_name: "10148A  "
+      value: 1
+  - name: "100252  "
+    first_pair:
+      row_name: "10149A  "
+      value: 25.6
+    second_pair:
+      row_name: "10150A  "
+      value: 2.6
+  - name: "100254  "
+    first_pair:
+      row_name: "10101A  "
+      value: -1
+    second_pair:
+      row_name: "10148A  "
+      value: 1
+  - name: "100254  "
+    first_pair:
+      row_name: "10149A  "
+      value: 30.6
+    second_pair:
+      row_name: "10150A  "
+      value: 0.78
+  - name: "100270  "
+    first_pair:
+      row_name: "10069A  "
+      value: -1
+    second_pair: ~
+  - name: "100280  "
+    first_pair:
+      row_name: "10018A  "
+      value: -0.004
+    second_pair:
+      row_name: "10041A  "
+      value: -0.004
+  - name: "100280  "
+    first_pair:
+      row_name: "10044A  "
+      value: -0.003
+    second_pair:
+      row_name: "10045A  "
+      value: -0.006
+  - name: "100280  "
+    first_pair:
+      row_name: "10046A  "
+      value: -0.005
+    second_pair:
+      row_name: "10056A  "
+      value: -0.001
+  - name: "100280  "
+    first_pair:
+      row_name: "10070A  "
+      value: -0.004
+    second_pair:
+      row_name: "10072A  "
+      value: -0.13
+  - name: "100280  "
+    first_pair:
+      row_name: "10074A  "
+      value: 1.33
+    second_pair:
+      row_name: "10080A  "
+      value: -0.006
+  - name: "100280  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.006
+    second_pair:
+      row_name: "10087A  "
+      value: 0.019
+  - name: "100280  "
+    first_pair:
+      row_name: "10091A  "
+      value: -0.003
+    second_pair:
+      row_name: "10092A  "
+      value: -0.004
+  - name: "100280  "
+    first_pair:
+      row_name: "10124A  "
+      value: -0.15
+    second_pair:
+      row_name: "10125A  "
+      value: -0.07
+  - name: "100280  "
+    first_pair:
+      row_name: "10126A  "
+      value: -0.12
+    second_pair:
+      row_name: "10127A  "
+      value: 0.0142
+  - name: "100280  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.088
+    second_pair:
+      row_name: "10137A  "
+      value: -0.23
+  - name: "100280  "
+    first_pair:
+      row_name: "10139A  "
+      value: 0.025
+    second_pair:
+      row_name: "10140A  "
+      value: -0.27
+  - name: "100280  "
+    first_pair:
+      row_name: "10144A  "
+      value: -0.001
+    second_pair:
+      row_name: "10147A  "
+      value: -0.32
+  - name: "100280  "
+    first_pair:
+      row_name: "10207A  "
+      value: -0.15
+    second_pair:
+      row_name: "10208A  "
+      value: -0.05
+  - name: "100281  "
+    first_pair:
+      row_name: "10018A  "
+      value: 0.004
+    second_pair:
+      row_name: "10041A  "
+      value: 0.004
+  - name: "100281  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.003
+    second_pair:
+      row_name: "10045A  "
+      value: 0.006
+  - name: "100281  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.005
+    second_pair:
+      row_name: "10056A  "
+      value: 0.001
+  - name: "100281  "
+    first_pair:
+      row_name: "10070A  "
+      value: 0.004
+    second_pair:
+      row_name: "10072A  "
+      value: 0.13
+  - name: "100281  "
+    first_pair:
+      row_name: "10074A  "
+      value: -1.33
+    second_pair:
+      row_name: "10080A  "
+      value: 0.006
+  - name: "100281  "
+    first_pair:
+      row_name: "10086A  "
+      value: -0.006
+    second_pair:
+      row_name: "10087A  "
+      value: -0.019
+  - name: "100281  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.003
+    second_pair:
+      row_name: "10092A  "
+      value: 0.004
+  - name: "100281  "
+    first_pair:
+      row_name: "10124A  "
+      value: 0.15
+    second_pair:
+      row_name: "10125A  "
+      value: 0.07
+  - name: "100281  "
+    first_pair:
+      row_name: "10126A  "
+      value: 0.12
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0142
+  - name: "100281  "
+    first_pair:
+      row_name: "10136A  "
+      value: -0.088
+    second_pair:
+      row_name: "10137A  "
+      value: 0.23
+  - name: "100281  "
+    first_pair:
+      row_name: "10139A  "
+      value: -0.025
+    second_pair:
+      row_name: "10140A  "
+      value: 0.27
+  - name: "100281  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.001
+    second_pair:
+      row_name: "10147A  "
+      value: 0.32
+  - name: "100281  "
+    first_pair:
+      row_name: "10207A  "
+      value: 0.15
+    second_pair:
+      row_name: "10208A  "
+      value: 0.05
+  - name: "100282  "
+    first_pair:
+      row_name: "10018A  "
+      value: -0.336
+    second_pair:
+      row_name: "10041A  "
+      value: -0.021
+  - name: "100282  "
+    first_pair:
+      row_name: "10043A  "
+      value: -0.036
+    second_pair:
+      row_name: "10044A  "
+      value: -0.009
+  - name: "100282  "
+    first_pair:
+      row_name: "10045A  "
+      value: -0.007
+    second_pair:
+      row_name: "10046A  "
+      value: -0.017
+  - name: "100282  "
+    first_pair:
+      row_name: "10056A  "
+      value: -0.003
+    second_pair:
+      row_name: "10070A  "
+      value: -0.03
+  - name: "100282  "
+    first_pair:
+      row_name: "10072A  "
+      value: 2.47
+    second_pair:
+      row_name: "10074A  "
+      value: 3.35
+  - name: "100282  "
+    first_pair:
+      row_name: "10080A  "
+      value: -0.045
+    second_pair:
+      row_name: "10081A  "
+      value: 0.005
+  - name: "100282  "
+    first_pair:
+      row_name: "10086A  "
+      value: 0.018
+    second_pair:
+      row_name: "10087A  "
+      value: 0.112
+  - name: "100282  "
+    first_pair:
+      row_name: "10091A  "
+      value: 0.017
+    second_pair:
+      row_name: "10092A  "
+      value: -0.021
+  - name: "100282  "
+    first_pair:
+      row_name: "10093A  "
+      value: -0.026
+    second_pair:
+      row_name: "10124A  "
+      value: -0.34
+  - name: "100282  "
+    first_pair:
+      row_name: "10125A  "
+      value: -0.1
+    second_pair:
+      row_name: "10126A  "
+      value: 0.15
+  - name: "100282  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.0027
+    second_pair:
+      row_name: "10136A  "
+      value: 0.016
+  - name: "100282  "
+    first_pair:
+      row_name: "10137A  "
+      value: -4.65
+    second_pair:
+      row_name: "10139A  "
+      value: -0.013
+  - name: "100282  "
+    first_pair:
+      row_name: "10140A  "
+      value: -1.18
+    second_pair:
+      row_name: "10144A  "
+      value: -0.018
+  - name: "100282  "
+    first_pair:
+      row_name: "10146A  "
+      value: -5
+    second_pair:
+      row_name: "10207A  "
+      value: -0.34
+  - name: "100282  "
+    first_pair:
+      row_name: "10208A  "
+      value: 1.15
+    second_pair: ~
+  - name: "100283  "
+    first_pair:
+      row_name: "10018A  "
+      value: 0.336
+    second_pair:
+      row_name: "10041A  "
+      value: 0.021
+  - name: "100283  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.036
+    second_pair:
+      row_name: "10044A  "
+      value: 0.009
+  - name: "100283  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.007
+    second_pair:
+      row_name: "10046A  "
+      value: 0.017
+  - name: "100283  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.003
+    second_pair:
+      row_name: "10070A  "
+      value: 0.03
+  - name: "100283  "
+    first_pair:
+      row_name: "10072A  "
+      value: -2.47
+    second_pair:
+      row_name: "10074A  "
+      value: -3.35
+  - name: "100283  "
+    first_pair:
+      row_name: "10080A  "
+      value: 0.045
+    second_pair:
+      row_name: "10081A  "
+      value: -0.005
+  - name: "100283  "
+    first_pair:
+      row_name: "10086A  "
+      value: -0.018
+    second_pair:
+      row_name: "10087A  "
+      value: -0.112
+  - name: "100283  "
+    first_pair:
+      row_name: "10091A  "
+      value: -0.017
+    second_pair:
+      row_name: "10092A  "
+      value: 0.021
+  - name: "100283  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.026
+    second_pair:
+      row_name: "10124A  "
+      value: 0.34
+  - name: "100283  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.1
+    second_pair:
+      row_name: "10126A  "
+      value: -0.15
+  - name: "100283  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0027
+    second_pair:
+      row_name: "10136A  "
+      value: -0.016
+  - name: "100283  "
+    first_pair:
+      row_name: "10137A  "
+      value: 4.65
+    second_pair:
+      row_name: "10139A  "
+      value: 0.013
+  - name: "100283  "
+    first_pair:
+      row_name: "10140A  "
+      value: 1.18
+    second_pair:
+      row_name: "10144A  "
+      value: 0.018
+  - name: "100283  "
+    first_pair:
+      row_name: "10146A  "
+      value: 5
+    second_pair:
+      row_name: "10207A  "
+      value: 0.34
+  - name: "100283  "
+    first_pair:
+      row_name: "10208A  "
+      value: -1.15
+    second_pair: ~
+  - name: "100290  "
+    first_pair:
+      row_name: "10016A  "
+      value: -0.026
+    second_pair:
+      row_name: "10043A  "
+      value: -0.002
+  - name: "100290  "
+    first_pair:
+      row_name: "10044A  "
+      value: -0.003
+    second_pair:
+      row_name: "10045A  "
+      value: -0.006
+  - name: "100290  "
+    first_pair:
+      row_name: "10046A  "
+      value: -0.006
+    second_pair:
+      row_name: "10056A  "
+      value: -0.001
+  - name: "100290  "
+    first_pair:
+      row_name: "10070A  "
+      value: -0.008
+    second_pair:
+      row_name: "10072A  "
+      value: -0.14
+  - name: "100290  "
+    first_pair:
+      row_name: "10073A  "
+      value: -0.011
+    second_pair:
+      row_name: "10074A  "
+      value: -2.08
+  - name: "100290  "
+    first_pair:
+      row_name: "10084A  "
+      value: 0.003
+    second_pair:
+      row_name: "10085A  "
+      value: 0.029
+  - name: "100290  "
+    first_pair:
+      row_name: "10090A  "
+      value: 0.003
+    second_pair:
+      row_name: "10092A  "
+      value: -0.006
+  - name: "100290  "
+    first_pair:
+      row_name: "10093A  "
+      value: -0.001
+    second_pair:
+      row_name: "10124A  "
+      value: -0.09
+  - name: "100290  "
+    first_pair:
+      row_name: "10125A  "
+      value: -0.05
+    second_pair:
+      row_name: "10126A  "
+      value: -0.04
+  - name: "100290  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.0247
+    second_pair:
+      row_name: "10136A  "
+      value: 0.121
+  - name: "100290  "
+    first_pair:
+      row_name: "10137A  "
+      value: -1.47
+    second_pair:
+      row_name: "10139A  "
+      value: 0.067
+  - name: "100290  "
+    first_pair:
+      row_name: "10140A  "
+      value: -0.74
+    second_pair:
+      row_name: "10144A  "
+      value: -0.002
+  - name: "100290  "
+    first_pair:
+      row_name: "10150A  "
+      value: -0.5
+    second_pair:
+      row_name: "10207A  "
+      value: -0.09
+  - name: "100290  "
+    first_pair:
+      row_name: "10208A  "
+      value: -0.08
+    second_pair: ~
+  - name: "100291  "
+    first_pair:
+      row_name: "10016A  "
+      value: -0.245
+    second_pair:
+      row_name: "10043A  "
+      value: -0.008
+  - name: "100291  "
+    first_pair:
+      row_name: "10044A  "
+      value: -0.008
+    second_pair:
+      row_name: "10045A  "
+      value: -0.008
+  - name: "100291  "
+    first_pair:
+      row_name: "10046A  "
+      value: -0.015
+    second_pair:
+      row_name: "10056A  "
+      value: -0.003
+  - name: "100291  "
+    first_pair:
+      row_name: "10070A  "
+      value: -0.032
+    second_pair:
+      row_name: "10072A  "
+      value: 4.52
+  - name: "100291  "
+    first_pair:
+      row_name: "10073A  "
+      value: -0.048
+    second_pair:
+      row_name: "10074A  "
+      value: -7.83
+  - name: "100291  "
+    first_pair:
+      row_name: "10084A  "
+      value: 0.019
+    second_pair:
+      row_name: "10085A  "
+      value: 0.17
+  - name: "100291  "
+    first_pair:
+      row_name: "10090A  "
+      value: -0.059
+    second_pair:
+      row_name: "10092A  "
+      value: -0.025
+  - name: "100291  "
+    first_pair:
+      row_name: "10093A  "
+      value: -0.012
+    second_pair:
+      row_name: "10098A  "
+      value: 0.001
+  - name: "100291  "
+    first_pair:
+      row_name: "10124A  "
+      value: -0.08
+    second_pair:
+      row_name: "10125A  "
+      value: -0.07
+  - name: "100291  "
+    first_pair:
+      row_name: "10126A  "
+      value: 0.13
+    second_pair:
+      row_name: "10127A  "
+      value: 0.0128
+  - name: "100291  "
+    first_pair:
+      row_name: "10136A  "
+      value: -0.107
+    second_pair:
+      row_name: "10137A  "
+      value: -2.77
+  - name: "100291  "
+    first_pair:
+      row_name: "10139A  "
+      value: 0.015
+    second_pair:
+      row_name: "10140A  "
+      value: -1.54
+  - name: "100291  "
+    first_pair:
+      row_name: "10144A  "
+      value: -0.014
+    second_pair:
+      row_name: "10149A  "
+      value: -5
+  - name: "100291  "
+    first_pair:
+      row_name: "10207A  "
+      value: -0.08
+    second_pair:
+      row_name: "10208A  "
+      value: 2.29
+  - name: "100292  "
+    first_pair:
+      row_name: "10016A  "
+      value: 0.245
+    second_pair:
+      row_name: "10043A  "
+      value: 0.008
+  - name: "100292  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.008
+    second_pair:
+      row_name: "10045A  "
+      value: 0.008
+  - name: "100292  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.015
+    second_pair:
+      row_name: "10056A  "
+      value: 0.003
+  - name: "100292  "
+    first_pair:
+      row_name: "10070A  "
+      value: 0.032
+    second_pair:
+      row_name: "10072A  "
+      value: -4.52
+  - name: "100292  "
+    first_pair:
+      row_name: "10073A  "
+      value: 0.048
+    second_pair:
+      row_name: "10074A  "
+      value: 7.83
+  - name: "100292  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.019
+    second_pair:
+      row_name: "10085A  "
+      value: -0.17
+  - name: "100292  "
+    first_pair:
+      row_name: "10090A  "
+      value: 0.059
+    second_pair:
+      row_name: "10092A  "
+      value: 0.025
+  - name: "100292  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.012
+    second_pair:
+      row_name: "10098A  "
+      value: -0.001
+  - name: "100292  "
+    first_pair:
+      row_name: "10124A  "
+      value: 0.08
+    second_pair:
+      row_name: "10125A  "
+      value: 0.07
+  - name: "100292  "
+    first_pair:
+      row_name: "10126A  "
+      value: -0.13
+    second_pair:
+      row_name: "10127A  "
+      value: -0.0128
+  - name: "100292  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.107
+    second_pair:
+      row_name: "10137A  "
+      value: 2.77
+  - name: "100292  "
+    first_pair:
+      row_name: "10139A  "
+      value: -0.015
+    second_pair:
+      row_name: "10140A  "
+      value: 1.54
+  - name: "100292  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.014
+    second_pair:
+      row_name: "10149A  "
+      value: 5
+  - name: "100292  "
+    first_pair:
+      row_name: "10207A  "
+      value: 0.08
+    second_pair:
+      row_name: "10208A  "
+      value: -2.29
+  - name: "100293  "
+    first_pair:
+      row_name: "10016A  "
+      value: 0.026
+    second_pair:
+      row_name: "10043A  "
+      value: 0.002
+  - name: "100293  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.003
+    second_pair:
+      row_name: "10045A  "
+      value: 0.006
+  - name: "100293  "
+    first_pair:
+      row_name: "10046A  "
+      value: 0.006
+    second_pair:
+      row_name: "10056A  "
+      value: 0.001
+  - name: "100293  "
+    first_pair:
+      row_name: "10070A  "
+      value: 0.008
+    second_pair:
+      row_name: "10072A  "
+      value: 0.14
+  - name: "100293  "
+    first_pair:
+      row_name: "10073A  "
+      value: 0.011
+    second_pair:
+      row_name: "10074A  "
+      value: 2.08
+  - name: "100293  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.003
+    second_pair:
+      row_name: "10085A  "
+      value: -0.029
+  - name: "100293  "
+    first_pair:
+      row_name: "10090A  "
+      value: -0.003
+    second_pair:
+      row_name: "10092A  "
+      value: 0.006
+  - name: "100293  "
+    first_pair:
+      row_name: "10093A  "
+      value: 0.001
+    second_pair:
+      row_name: "10124A  "
+      value: 0.09
+  - name: "100293  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.05
+    second_pair:
+      row_name: "10126A  "
+      value: 0.04
+  - name: "100293  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.0247
+    second_pair:
+      row_name: "10136A  "
+      value: -0.121
+  - name: "100293  "
+    first_pair:
+      row_name: "10137A  "
+      value: 1.47
+    second_pair:
+      row_name: "10139A  "
+      value: -0.067
+  - name: "100293  "
+    first_pair:
+      row_name: "10140A  "
+      value: 0.74
+    second_pair:
+      row_name: "10144A  "
+      value: 0.002
+  - name: "100293  "
+    first_pair:
+      row_name: "10150A  "
+      value: 0.5
+    second_pair:
+      row_name: "10207A  "
+      value: 0.09
+  - name: "100293  "
+    first_pair:
+      row_name: "10208A  "
+      value: 0.08
+    second_pair: ~
+  - name: "100400  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.098
+    second_pair:
+      row_name: "10044A  "
+      value: 0.033
+  - name: "100400  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.022
+    second_pair:
+      row_name: "10052A  "
+      value: -1
+  - name: "100400  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.44
+    second_pair:
+      row_name: "10106A  "
+      value: 0.838
+  - name: "100400  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.078
+    second_pair:
+      row_name: "10168A  "
+      value: 1
+  - name: "100401  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.105
+    second_pair:
+      row_name: "10044A  "
+      value: 0.037
+  - name: "100401  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.024
+    second_pair:
+      row_name: "10052A  "
+      value: -1
+  - name: "100401  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.44
+    second_pair:
+      row_name: "10107A  "
+      value: 0.821
+  - name: "100401  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.08
+    second_pair:
+      row_name: "10168A  "
+      value: 1
+  - name: "100402  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.044
+    second_pair:
+      row_name: "10044A  "
+      value: -0.33
+  - name: "100402  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.294
+    second_pair:
+      row_name: "10056A  "
+      value: 0.49
+  - name: "100402  "
+    first_pair:
+      row_name: "10089A  "
+      value: 1
+    second_pair:
+      row_name: "10144A  "
+      value: 0.031
+  - name: "100402  "
+    first_pair:
+      row_name: "10168A  "
+      value: 2.5
+    second_pair: ~
+  - name: "100403  "
+    first_pair:
+      row_name: "10023A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.098
+  - name: "100403  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.033
+    second_pair:
+      row_name: "10045A  "
+      value: 0.022
+  - name: "100403  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.4
+  - name: "100403  "
+    first_pair:
+      row_name: "10106A  "
+      value: 0.838
+    second_pair:
+      row_name: "10144A  "
+      value: 0.062
+  - name: "100404  "
+    first_pair:
+      row_name: "10023A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.105
+  - name: "100404  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.037
+    second_pair:
+      row_name: "10045A  "
+      value: 0.024
+  - name: "100404  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.4
+  - name: "100404  "
+    first_pair:
+      row_name: "10107A  "
+      value: 0.821
+    second_pair:
+      row_name: "10144A  "
+      value: 0.063
+  - name: "100405  "
+    first_pair:
+      row_name: "10023A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.116
+  - name: "100405  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.043
+    second_pair:
+      row_name: "10045A  "
+      value: 0.029
+  - name: "100405  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.4
+  - name: "100405  "
+    first_pair:
+      row_name: "10108A  "
+      value: 0.798
+    second_pair:
+      row_name: "10144A  "
+      value: 0.065
+  - name: "100410  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.098
+  - name: "100410  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.033
+    second_pair:
+      row_name: "10045A  "
+      value: 0.022
+  - name: "100410  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.11
+  - name: "100410  "
+    first_pair:
+      row_name: "10106A  "
+      value: 0.838
+    second_pair:
+      row_name: "10144A  "
+      value: 0.067
+  - name: "100411  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.105
+  - name: "100411  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.037
+    second_pair:
+      row_name: "10045A  "
+      value: 0.024
+  - name: "100411  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.11
+  - name: "100411  "
+    first_pair:
+      row_name: "10107A  "
+      value: 0.821
+    second_pair:
+      row_name: "10144A  "
+      value: 0.068
+  - name: "100412  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.116
+  - name: "100412  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.043
+    second_pair:
+      row_name: "10045A  "
+      value: 0.029
+  - name: "100412  "
+    first_pair:
+      row_name: "10052A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.11
+  - name: "100412  "
+    first_pair:
+      row_name: "10108A  "
+      value: 0.798
+    second_pair:
+      row_name: "10144A  "
+      value: 0.07
+  - name: "100413  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.1
+  - name: "100413  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.033
+    second_pair:
+      row_name: "10045A  "
+      value: 0.022
+  - name: "100413  "
+    first_pair:
+      row_name: "10049A  "
+      value: -0.33
+    second_pair:
+      row_name: "10052A  "
+      value: -0.67
+  - name: "100413  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.11
+    second_pair:
+      row_name: "10106A  "
+      value: 0.832
+  - name: "100413  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.33
+    second_pair:
+      row_name: "10126A  "
+      value: 1.16
+  - name: "100413  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.067
+    second_pair: ~
+  - name: "100414  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.107
+  - name: "100414  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.037
+    second_pair:
+      row_name: "10045A  "
+      value: 0.025
+  - name: "100414  "
+    first_pair:
+      row_name: "10049A  "
+      value: -0.33
+    second_pair:
+      row_name: "10052A  "
+      value: -0.67
+  - name: "100414  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.11
+    second_pair:
+      row_name: "10107A  "
+      value: 0.815
+  - name: "100414  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.33
+    second_pair:
+      row_name: "10126A  "
+      value: 1.06
+  - name: "100414  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.068
+    second_pair: ~
+  - name: "100415  "
+    first_pair:
+      row_name: "10024A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.119
+  - name: "100415  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.043
+    second_pair:
+      row_name: "10045A  "
+      value: 0.03
+  - name: "100415  "
+    first_pair:
+      row_name: "10049A  "
+      value: -0.33
+    second_pair:
+      row_name: "10052A  "
+      value: -0.67
+  - name: "100415  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.11
+    second_pair:
+      row_name: "10108A  "
+      value: 0.793
+  - name: "100415  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.24
+    second_pair:
+      row_name: "10126A  "
+      value: 0.63
+  - name: "100415  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.07
+    second_pair: ~
+  - name: "100440  "
+    first_pair:
+      row_name: "10050A  "
+      value: -1
+    second_pair:
+      row_name: "10052A  "
+      value: 1
+  - name: "100441  "
+    first_pair:
+      row_name: "10051A  "
+      value: -1
+    second_pair:
+      row_name: "10052A  "
+      value: 1
+  - name: "100500  "
+    first_pair:
+      row_name: "10019A  "
+      value: 1
+    second_pair:
+      row_name: "10022A  "
+      value: 0.067
+  - name: "100500  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.053
+    second_pair:
+      row_name: "10044A  "
+      value: 0.009
+  - name: "100500  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.002
+    second_pair:
+      row_name: "10046A  "
+      value: 0.007
+  - name: "100500  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.25
+    second_pair:
+      row_name: "10057A  "
+      value: -1
+  - name: "100500  "
+    first_pair:
+      row_name: "10095A  "
+      value: 0.039
+    second_pair:
+      row_name: "10097A  "
+      value: 0.148
+  - name: "100500  "
+    first_pair:
+      row_name: "10102A  "
+      value: 0.523
+    second_pair:
+      row_name: "10105A  "
+      value: 0.067
+  - name: "100500  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.058
+    second_pair: ~
+  - name: "100502  "
+    first_pair:
+      row_name: "10019A  "
+      value: 1
+    second_pair:
+      row_name: "10022A  "
+      value: 0.06
+  - name: "100502  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.056
+    second_pair:
+      row_name: "10044A  "
+      value: 0.011
+  - name: "100502  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.002
+    second_pair:
+      row_name: "10046A  "
+      value: 0.009
+  - name: "100502  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.24
+    second_pair:
+      row_name: "10068A  "
+      value: -1
+  - name: "100502  "
+    first_pair:
+      row_name: "10095A  "
+      value: 0.052
+    second_pair:
+      row_name: "10096A  "
+      value: 0.19
+  - name: "100502  "
+    first_pair:
+      row_name: "10101A  "
+      value: 0.515
+    second_pair:
+      row_name: "10104A  "
+      value: 0.06
+  - name: "100502  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.06
+    second_pair: ~
+  - name: "100503  "
+    first_pair:
+      row_name: "10020A  "
+      value: 1
+    second_pair:
+      row_name: "10021A  "
+      value: 0.06
+  - name: "100503  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.056
+    second_pair:
+      row_name: "10044A  "
+      value: 0.011
+  - name: "100503  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.002
+    second_pair:
+      row_name: "10046A  "
+      value: 0.009
+  - name: "100503  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.19
+    second_pair:
+      row_name: "10068A  "
+      value: -1
+  - name: "100503  "
+    first_pair:
+      row_name: "10095A  "
+      value: 0.052
+    second_pair:
+      row_name: "10096A  "
+      value: 0.19
+  - name: "100503  "
+    first_pair:
+      row_name: "10101A  "
+      value: 0.515
+    second_pair:
+      row_name: "10104A  "
+      value: 0.06
+  - name: "100503  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.061
+    second_pair: ~
+  - name: "100505  "
+    first_pair:
+      row_name: "10020A  "
+      value: 1
+    second_pair:
+      row_name: "10021A  "
+      value: 0.067
+  - name: "100505  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.053
+    second_pair:
+      row_name: "10044A  "
+      value: 0.009
+  - name: "100505  "
+    first_pair:
+      row_name: "10045A  "
+      value: 0.002
+    second_pair:
+      row_name: "10046A  "
+      value: 0.007
+  - name: "100505  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.2
+    second_pair:
+      row_name: "10057A  "
+      value: -1
+  - name: "100505  "
+    first_pair:
+      row_name: "10095A  "
+      value: 0.039
+    second_pair:
+      row_name: "10097A  "
+      value: 0.148
+  - name: "100505  "
+    first_pair:
+      row_name: "10102A  "
+      value: 0.523
+    second_pair:
+      row_name: "10105A  "
+      value: 0.067
+  - name: "100505  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.059
+    second_pair: ~
+  - name: "100506  "
+    first_pair:
+      row_name: "10019A  "
+      value: 1
+    second_pair:
+      row_name: "10022A  "
+      value: 0.009
+  - name: "100506  "
+    first_pair:
+      row_name: "10042A  "
+      value: 1
+    second_pair:
+      row_name: "10043A  "
+      value: 0.008
+  - name: "100506  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.001
+    second_pair:
+      row_name: "10046A  "
+      value: 0.001
+  - name: "100506  "
+    first_pair:
+      row_name: "10051A  "
+      value: -0.053
+    second_pair:
+      row_name: "10053A  "
+      value: -0.096
+  - name: "100506  "
+    first_pair:
+      row_name: "10054A  "
+      value: -0.078
+    second_pair:
+      row_name: "10055A  "
+      value: -0.061
+  - name: "100506  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.07
+    second_pair:
+      row_name: "10057A  "
+      value: -0.041
+  - name: "100506  "
+    first_pair:
+      row_name: "10063A  "
+      value: -0.143
+    second_pair:
+      row_name: "10065A  "
+      value: -0.164
+  - name: "100506  "
+    first_pair:
+      row_name: "10066A  "
+      value: -0.054
+    second_pair:
+      row_name: "10068A  "
+      value: -0.1
+  - name: "100506  "
+    first_pair:
+      row_name: "10080A  "
+      value: -0.21
+    second_pair:
+      row_name: "10095A  "
+      value: 0.007
+  - name: "100506  "
+    first_pair:
+      row_name: "10096A  "
+      value: 0.195
+    second_pair:
+      row_name: "10097A  "
+      value: 0.093
+  - name: "100506  "
+    first_pair:
+      row_name: "10101A  "
+      value: 0.648
+    second_pair:
+      row_name: "10102A  "
+      value: 0.021
+  - name: "100506  "
+    first_pair:
+      row_name: "10104A  "
+      value: 0.006
+    second_pair:
+      row_name: "10105A  "
+      value: 0.003
+  - name: "100506  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.047
+    second_pair: ~
+  - name: "100600  "
+    first_pair:
+      row_name: "10045A  "
+      value: -1
+    second_pair:
+      row_name: "10116A  "
+      value: 1
+  - name: "100601  "
+    first_pair:
+      row_name: "10046A  "
+      value: -1
+    second_pair:
+      row_name: "10117A  "
+      value: 1
+  - name: "100602  "
+    first_pair:
+      row_name: "10043A  "
+      value: 0.625
+    second_pair:
+      row_name: "10044A  "
+      value: -0.368
+  - name: "100602  "
+    first_pair:
+      row_name: "10045A  "
+      value: -0.562
+    second_pair:
+      row_name: "10046A  "
+      value: -0.241
+  - name: "100602  "
+    first_pair:
+      row_name: "10118A  "
+      value: 0.018
+    second_pair:
+      row_name: "10119A  "
+      value: 0.153
+  - name: "100602  "
+    first_pair:
+      row_name: "10204A  "
+      value: 1
+    second_pair: ~
+  - name: "100700  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.76
+    second_pair:
+      row_name: "10116A  "
+      value: -0.663
+  - name: "100700  "
+    first_pair:
+      row_name: "10117A  "
+      value: -0.571
+    second_pair:
+      row_name: "10120A  "
+      value: 1
+  - name: "100700  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.02
+    second_pair: ~
+  - name: "100702  "
+    first_pair:
+      row_name: "10056A  "
+      value: 1.56
+    second_pair:
+      row_name: "10060A  "
+      value: 1
+  - name: "100702  "
+    first_pair:
+      row_name: "10070A  "
+      value: -0.606
+    second_pair:
+      row_name: "10116A  "
+      value: -0.606
+  - name: "100702  "
+    first_pair:
+      row_name: "10120A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 1.6
+  - name: "100702  "
+    first_pair:
+      row_name: "10125A  "
+      value: -3.6
+    second_pair:
+      row_name: "10126A  "
+      value: -12.1
+  - name: "100702  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.024
+    second_pair:
+      row_name: "10130A  "
+      value: 13.7
+  - name: "100702  "
+    first_pair:
+      row_name: "10131A  "
+      value: 16.1
+    second_pair:
+      row_name: "10132A  "
+      value: -0.3
+  - name: "100702  "
+    first_pair:
+      row_name: "10133A  "
+      value: -9.9
+    second_pair:
+      row_name: "10144A  "
+      value: 0.02
+  - name: "100702  "
+    first_pair:
+      row_name: "10207A  "
+      value: 1.2
+    second_pair: ~
+  - name: "100796  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10076A  "
+      value: -1
+  - name: "100796  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 12.9
+  - name: "100796  "
+    first_pair:
+      row_name: "10125A  "
+      value: 3.4
+    second_pair:
+      row_name: "10126A  "
+      value: -0.5
+  - name: "100796  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.185
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100796  "
+    first_pair:
+      row_name: "10207A  "
+      value: 2
+    second_pair: ~
+  - name: "100797  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100797  "
+    first_pair:
+      row_name: "10124A  "
+      value: 8.1
+    second_pair:
+      row_name: "10125A  "
+      value: 5.3
+  - name: "100797  "
+    first_pair:
+      row_name: "10126A  "
+      value: 5.4
+    second_pair:
+      row_name: "10127A  "
+      value: 0.019
+  - name: "100797  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10158A  "
+      value: -1
+  - name: "100797  "
+    first_pair:
+      row_name: "10207A  "
+      value: -3.4
+    second_pair: ~
+  - name: "100798  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10071A  "
+      value: -1
+  - name: "100798  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 20.4
+  - name: "100798  "
+    first_pair:
+      row_name: "10125A  "
+      value: 3.4
+    second_pair:
+      row_name: "10126A  "
+      value: -1
+  - name: "100798  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.416
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100798  "
+    first_pair:
+      row_name: "10207A  "
+      value: 6.4
+    second_pair: ~
+  - name: "100799  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100799  "
+    first_pair:
+      row_name: "10124A  "
+      value: 10.4
+    second_pair:
+      row_name: "10125A  "
+      value: 5.4
+  - name: "100799  "
+    first_pair:
+      row_name: "10126A  "
+      value: 5.3
+    second_pair:
+      row_name: "10127A  "
+      value: 0.057
+  - name: "100799  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10156A  "
+      value: -1
+  - name: "100799  "
+    first_pair:
+      row_name: "10207A  "
+      value: -3.3
+    second_pair: ~
+  - name: "100800  "
+    first_pair:
+      row_name: "10044A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100800  "
+    first_pair:
+      row_name: "10124A  "
+      value: -4.5
+    second_pair:
+      row_name: "10125A  "
+      value: 65
+  - name: "100800  "
+    first_pair:
+      row_name: "10126A  "
+      value: 125
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100800  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -1.4
+  - name: "100801  "
+    first_pair:
+      row_name: "10116A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100801  "
+    first_pair:
+      row_name: "10124A  "
+      value: -22.2
+    second_pair:
+      row_name: "10125A  "
+      value: 87
+  - name: "100801  "
+    first_pair:
+      row_name: "10126A  "
+      value: 125
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100801  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -20.2
+  - name: "100802  "
+    first_pair:
+      row_name: "10117A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100802  "
+    first_pair:
+      row_name: "10124A  "
+      value: -6.6
+    second_pair:
+      row_name: "10125A  "
+      value: 70
+  - name: "100802  "
+    first_pair:
+      row_name: "10126A  "
+      value: 125
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100802  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -16.5
+  - name: "100803  "
+    first_pair:
+      row_name: "10118A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100803  "
+    first_pair:
+      row_name: "10124A  "
+      value: -22.2
+    second_pair:
+      row_name: "10125A  "
+      value: 87
+  - name: "100803  "
+    first_pair:
+      row_name: "10126A  "
+      value: 125
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100803  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -20.2
+  - name: "100804  "
+    first_pair:
+      row_name: "10119A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100804  "
+    first_pair:
+      row_name: "10124A  "
+      value: -6.6
+    second_pair:
+      row_name: "10125A  "
+      value: 70
+  - name: "100804  "
+    first_pair:
+      row_name: "10126A  "
+      value: 125
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100804  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -16.5
+  - name: "100805  "
+    first_pair:
+      row_name: "10047A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100805  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 49.3
+  - name: "100805  "
+    first_pair:
+      row_name: "10125A  "
+      value: 9.7
+    second_pair:
+      row_name: "10126A  "
+      value: 58.3
+  - name: "100805  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.051
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100805  "
+    first_pair:
+      row_name: "10207A  "
+      value: 58.6
+    second_pair: ~
+  - name: "100806  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: -1
+  - name: "100806  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 9
+  - name: "100806  "
+    first_pair:
+      row_name: "10125A  "
+      value: 12.5
+    second_pair:
+      row_name: "10126A  "
+      value: 70
+  - name: "100806  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.05
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100806  "
+    first_pair:
+      row_name: "10207A  "
+      value: -6.5
+    second_pair: ~
+  - name: "100807  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10095A  "
+      value: -1
+  - name: "100807  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 55.5
+  - name: "100807  "
+    first_pair:
+      row_name: "10125A  "
+      value: 12.5
+    second_pair:
+      row_name: "10126A  "
+      value: 70
+  - name: "100807  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.08
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100807  "
+    first_pair:
+      row_name: "10207A  "
+      value: 47.3
+    second_pair: ~
+  - name: "100810  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10078A  "
+      value: -1
+  - name: "100810  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 12.4
+  - name: "100810  "
+    first_pair:
+      row_name: "10125A  "
+      value: 4
+    second_pair:
+      row_name: "10126A  "
+      value: 1.5
+  - name: "100810  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.094
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100810  "
+    first_pair:
+      row_name: "10207A  "
+      value: 0.7
+    second_pair: ~
+  - name: "100812  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10080A  "
+      value: -1
+  - name: "100812  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 10.4
+  - name: "100812  "
+    first_pair:
+      row_name: "10125A  "
+      value: 4.7
+    second_pair:
+      row_name: "10126A  "
+      value: 3.5
+  - name: "100812  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.047
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100812  "
+    first_pair:
+      row_name: "10207A  "
+      value: -1.6
+    second_pair: ~
+  - name: "100813  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10081A  "
+      value: -1
+  - name: "100813  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 76
+  - name: "100813  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.5
+    second_pair:
+      row_name: "10126A  "
+      value: -3.6
+  - name: "100813  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.16
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100813  "
+    first_pair:
+      row_name: "10207A  "
+      value: 50.5
+    second_pair: ~
+  - name: "100814  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10082A  "
+      value: -1
+  - name: "100814  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: -9.8
+  - name: "100814  "
+    first_pair:
+      row_name: "10125A  "
+      value: 9.4
+    second_pair:
+      row_name: "10126A  "
+      value: 9
+  - name: "100814  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.008
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100814  "
+    first_pair:
+      row_name: "10207A  "
+      value: -33.4
+    second_pair: ~
+  - name: "100815  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10083A  "
+      value: -1
+  - name: "100815  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 203.7
+  - name: "100815  "
+    first_pair:
+      row_name: "10125A  "
+      value: 6.8
+    second_pair:
+      row_name: "10126A  "
+      value: 26
+  - name: "100815  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.564
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100815  "
+    first_pair:
+      row_name: "10207A  "
+      value: 176
+    second_pair: ~
+  - name: "100818  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10073A  "
+      value: -1
+  - name: "100818  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 18.5
+  - name: "100818  "
+    first_pair:
+      row_name: "10125A  "
+      value: 4
+    second_pair:
+      row_name: "10126A  "
+      value: 1.1
+  - name: "100818  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.212
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100818  "
+    first_pair:
+      row_name: "10207A  "
+      value: 4.1
+    second_pair: ~
+  - name: "100820  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10075A  "
+      value: -1
+  - name: "100820  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 14.9
+  - name: "100820  "
+    first_pair:
+      row_name: "10125A  "
+      value: 4.7
+    second_pair:
+      row_name: "10126A  "
+      value: 3.1
+  - name: "100820  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.111
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100820  "
+    first_pair:
+      row_name: "10207A  "
+      value: 0.4
+    second_pair: ~
+  - name: "100821  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10096A  "
+      value: -1
+  - name: "100821  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 129
+  - name: "100821  "
+    first_pair:
+      row_name: "10125A  "
+      value: 6
+    second_pair:
+      row_name: "10126A  "
+      value: -7.5
+  - name: "100821  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.2
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100821  "
+    first_pair:
+      row_name: "10207A  "
+      value: 125
+    second_pair: ~
+  - name: "100822  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10097A  "
+      value: -1
+  - name: "100822  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 143
+  - name: "100822  "
+    first_pair:
+      row_name: "10125A  "
+      value: 6
+    second_pair:
+      row_name: "10126A  "
+      value: -7.5
+  - name: "100822  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.9
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100822  "
+    first_pair:
+      row_name: "10207A  "
+      value: 139
+    second_pair: ~
+  - name: "100823  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10098A  "
+      value: -1
+  - name: "100823  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 81
+  - name: "100823  "
+    first_pair:
+      row_name: "10125A  "
+      value: 0.5
+    second_pair:
+      row_name: "10126A  "
+      value: -2.7
+  - name: "100823  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.6
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100823  "
+    first_pair:
+      row_name: "10207A  "
+      value: 53
+    second_pair: ~
+  - name: "100825  "
+    first_pair:
+      row_name: "10106A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100825  "
+    first_pair:
+      row_name: "10124A  "
+      value: 7.2
+    second_pair:
+      row_name: "10125A  "
+      value: 3.1
+  - name: "100825  "
+    first_pair:
+      row_name: "10126A  "
+      value: 3.6
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100826  "
+    first_pair:
+      row_name: "10107A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100826  "
+    first_pair:
+      row_name: "10124A  "
+      value: 0.5
+    second_pair:
+      row_name: "10125A  "
+      value: 3.4
+  - name: "100826  "
+    first_pair:
+      row_name: "10126A  "
+      value: 4.8
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100826  "
+    first_pair:
+      row_name: "10207A  "
+      value: -8.5
+    second_pair: ~
+  - name: "100827  "
+    first_pair:
+      row_name: "10108A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100827  "
+    first_pair:
+      row_name: "10124A  "
+      value: -5.8
+    second_pair:
+      row_name: "10125A  "
+      value: 3.8
+  - name: "100827  "
+    first_pair:
+      row_name: "10126A  "
+      value: 6.8
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100827  "
+    first_pair:
+      row_name: "10207A  "
+      value: -18.3
+    second_pair: ~
+  - name: "100835  "
+    first_pair:
+      row_name: "10120A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100835  "
+    first_pair:
+      row_name: "10124A  "
+      value: -11.1
+    second_pair:
+      row_name: "10125A  "
+      value: 2.7
+  - name: "100835  "
+    first_pair:
+      row_name: "10126A  "
+      value: 1.2
+    second_pair:
+      row_name: "10127A  "
+      value: 0.01
+  - name: "100835  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: -6.5
+  - name: "100836  "
+    first_pair:
+      row_name: "10121A  "
+      value: -1
+    second_pair:
+      row_name: "10123A  "
+      value: 1
+  - name: "100836  "
+    first_pair:
+      row_name: "10124A  "
+      value: 26.1
+    second_pair:
+      row_name: "10125A  "
+      value: 0.5
+  - name: "100836  "
+    first_pair:
+      row_name: "10126A  "
+      value: -6
+    second_pair:
+      row_name: "10127A  "
+      value: 0.02
+  - name: "100836  "
+    first_pair:
+      row_name: "10128A  "
+      value: 1
+    second_pair:
+      row_name: "10207A  "
+      value: 31.5
+  - name: "100838  "
+    first_pair:
+      row_name: "10048A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100838  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 62.4
+  - name: "100838  "
+    first_pair:
+      row_name: "10125A  "
+      value: 6.4
+    second_pair:
+      row_name: "10126A  "
+      value: 36.1
+  - name: "100838  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.044
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100838  "
+    first_pair:
+      row_name: "10207A  "
+      value: 70.8
+    second_pair: ~
+  - name: "100839  "
+    first_pair:
+      row_name: "10049A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100839  "
+    first_pair:
+      row_name: "10123A  "
+      value: 1
+    second_pair:
+      row_name: "10124A  "
+      value: 91.2
+  - name: "100839  "
+    first_pair:
+      row_name: "10125A  "
+      value: 1.8
+    second_pair:
+      row_name: "10126A  "
+      value: -5.1
+  - name: "100839  "
+    first_pair:
+      row_name: "10127A  "
+      value: 0.039
+    second_pair:
+      row_name: "10128A  "
+      value: 1
+  - name: "100839  "
+    first_pair:
+      row_name: "10207A  "
+      value: 97.1
+    second_pair: ~
+  - name: "100840  "
+    first_pair:
+      row_name: "10027A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.295
+  - name: "100840  "
+    first_pair:
+      row_name: "10123A  "
+      value: -1
+    second_pair:
+      row_name: "10124A  "
+      value: -20.6
+  - name: "100840  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.115
+    second_pair: ~
+  - name: "100841  "
+    first_pair:
+      row_name: "10027A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.395
+  - name: "100841  "
+    first_pair:
+      row_name: "10123A  "
+      value: -1
+    second_pair:
+      row_name: "10124A  "
+      value: -25.6
+  - name: "100841  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.115
+    second_pair: ~
+  - name: "100842  "
+    first_pair:
+      row_name: "10027A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.495
+  - name: "100842  "
+    first_pair:
+      row_name: "10123A  "
+      value: -1
+    second_pair:
+      row_name: "10124A  "
+      value: -29.8
+  - name: "100842  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.115
+    second_pair: ~
+  - name: "100843  "
+    first_pair:
+      row_name: "10027A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.595
+  - name: "100843  "
+    first_pair:
+      row_name: "10123A  "
+      value: -1
+    second_pair:
+      row_name: "10124A  "
+      value: -33.5
+  - name: "100843  "
+    first_pair:
+      row_name: "10127A  "
+      value: -0.115
+    second_pair: ~
+  - name: "100845  "
+    first_pair:
+      row_name: "10125A  "
+      value: -11.3
+    second_pair:
+      row_name: "10126A  "
+      value: -33.2
+  - name: "100845  "
+    first_pair:
+      row_name: "10128A  "
+      value: -1
+    second_pair: ~
+  - name: "100846  "
+    first_pair:
+      row_name: "10125A  "
+      value: -11.5
+    second_pair:
+      row_name: "10126A  "
+      value: -31.2
+  - name: "100846  "
+    first_pair:
+      row_name: "10128A  "
+      value: -1
+    second_pair: ~
+  - name: "100847  "
+    first_pair:
+      row_name: "10125A  "
+      value: -11.7
+    second_pair:
+      row_name: "10126A  "
+      value: -27.2
+  - name: "100847  "
+    first_pair:
+      row_name: "10128A  "
+      value: -1
+    second_pair: ~
+  - name: "100848  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10125A  "
+      value: -12.85
+  - name: "100848  "
+    first_pair:
+      row_name: "10126A  "
+      value: -35.75
+    second_pair:
+      row_name: "10128A  "
+      value: -1
+  - name: "100849  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10125A  "
+      value: -12.85
+  - name: "100849  "
+    first_pair:
+      row_name: "10126A  "
+      value: -22
+    second_pair:
+      row_name: "10128A  "
+      value: -1
+  - name: "100850  "
+    first_pair:
+      row_name: "10044A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100850  "
+    first_pair:
+      row_name: "10130A  "
+      value: 8.6
+    second_pair:
+      row_name: "10131A  "
+      value: 13.2
+  - name: "100850  "
+    first_pair:
+      row_name: "10132A  "
+      value: 65
+    second_pair:
+      row_name: "10133A  "
+      value: 125
+  - name: "100855  "
+    first_pair:
+      row_name: "10047A  "
+      value: -1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.02
+  - name: "100855  "
+    first_pair:
+      row_name: "10129A  "
+      value: 1
+    second_pair:
+      row_name: "10130A  "
+      value: 78.7
+  - name: "100855  "
+    first_pair:
+      row_name: "10131A  "
+      value: 92.2
+    second_pair:
+      row_name: "10132A  "
+      value: 10.2
+  - name: "100855  "
+    first_pair:
+      row_name: "10133A  "
+      value: 54.7
+    second_pair: ~
+  - name: "100856  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10070A  "
+      value: -1
+  - name: "100856  "
+    first_pair:
+      row_name: "10129A  "
+      value: 1
+    second_pair:
+      row_name: "10130A  "
+      value: 43
+  - name: "100856  "
+    first_pair:
+      row_name: "10131A  "
+      value: 24
+    second_pair:
+      row_name: "10132A  "
+      value: 12.5
+  - name: "100856  "
+    first_pair:
+      row_name: "10133A  "
+      value: 70
+    second_pair: ~
+  - name: "100857  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.02
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100857  "
+    first_pair:
+      row_name: "10130A  "
+      value: 92
+    second_pair:
+      row_name: "10131A  "
+      value: 105.4
+  - name: "100857  "
+    first_pair:
+      row_name: "10132A  "
+      value: 5.1
+    second_pair:
+      row_name: "10133A  "
+      value: 24.2
+  - name: "100857  "
+    first_pair:
+      row_name: "10151A  "
+      value: -1
+    second_pair: ~
+  - name: "100875  "
+    first_pair:
+      row_name: "10106A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100875  "
+    first_pair:
+      row_name: "10130A  "
+      value: 34
+    second_pair:
+      row_name: "10131A  "
+      value: 31.3
+  - name: "100875  "
+    first_pair:
+      row_name: "10132A  "
+      value: 3.1
+    second_pair:
+      row_name: "10133A  "
+      value: 3.6
+  - name: "100876  "
+    first_pair:
+      row_name: "10107A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100876  "
+    first_pair:
+      row_name: "10130A  "
+      value: 26.5
+    second_pair:
+      row_name: "10131A  "
+      value: 21.5
+  - name: "100876  "
+    first_pair:
+      row_name: "10132A  "
+      value: 3.4
+    second_pair:
+      row_name: "10133A  "
+      value: 4.8
+  - name: "100877  "
+    first_pair:
+      row_name: "10108A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100877  "
+    first_pair:
+      row_name: "10130A  "
+      value: 18.5
+    second_pair:
+      row_name: "10131A  "
+      value: 11.2
+  - name: "100877  "
+    first_pair:
+      row_name: "10132A  "
+      value: 3.8
+    second_pair:
+      row_name: "10133A  "
+      value: 6.8
+  - name: "100885  "
+    first_pair:
+      row_name: "10120A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100885  "
+    first_pair:
+      row_name: "10130A  "
+      value: 0.5
+    second_pair:
+      row_name: "10131A  "
+      value: 9.2
+  - name: "100885  "
+    first_pair:
+      row_name: "10132A  "
+      value: 2.7
+    second_pair:
+      row_name: "10133A  "
+      value: 1.2
+  - name: "100886  "
+    first_pair:
+      row_name: "10121A  "
+      value: -1
+    second_pair:
+      row_name: "10129A  "
+      value: 1
+  - name: "100886  "
+    first_pair:
+      row_name: "10130A  "
+      value: 39.8
+    second_pair:
+      row_name: "10131A  "
+      value: 45.5
+  - name: "100886  "
+    first_pair:
+      row_name: "10132A  "
+      value: 0.5
+    second_pair:
+      row_name: "10133A  "
+      value: -6
+  - name: "100890  "
+    first_pair:
+      row_name: "10026A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.323
+  - name: "100890  "
+    first_pair:
+      row_name: "10129A  "
+      value: -1
+    second_pair:
+      row_name: "10130A  "
+      value: -18.6
+  - name: "100890  "
+    first_pair:
+      row_name: "10131A  "
+      value: -21.1
+    second_pair:
+      row_name: "10134A  "
+      value: -1
+  - name: "100891  "
+    first_pair:
+      row_name: "10026A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.423
+  - name: "100891  "
+    first_pair:
+      row_name: "10129A  "
+      value: -1
+    second_pair:
+      row_name: "10130A  "
+      value: -23.6
+  - name: "100891  "
+    first_pair:
+      row_name: "10131A  "
+      value: -26.1
+    second_pair:
+      row_name: "10134A  "
+      value: -1
+  - name: "100892  "
+    first_pair:
+      row_name: "10026A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.523
+  - name: "100892  "
+    first_pair:
+      row_name: "10129A  "
+      value: -1
+    second_pair:
+      row_name: "10130A  "
+      value: -27.8
+  - name: "100892  "
+    first_pair:
+      row_name: "10131A  "
+      value: -30.3
+    second_pair:
+      row_name: "10134A  "
+      value: -1
+  - name: "100893  "
+    first_pair:
+      row_name: "10026A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.623
+  - name: "100893  "
+    first_pair:
+      row_name: "10129A  "
+      value: -1
+    second_pair:
+      row_name: "10130A  "
+      value: -31.5
+  - name: "100893  "
+    first_pair:
+      row_name: "10131A  "
+      value: -34
+    second_pair:
+      row_name: "10134A  "
+      value: -1
+  - name: "100895  "
+    first_pair:
+      row_name: "10132A  "
+      value: -11.3
+    second_pair:
+      row_name: "10133A  "
+      value: -33.2
+  - name: "100895  "
+    first_pair:
+      row_name: "10134A  "
+      value: 1
+    second_pair: ~
+  - name: "100896  "
+    first_pair:
+      row_name: "10132A  "
+      value: -11.5
+    second_pair:
+      row_name: "10133A  "
+      value: -31.2
+  - name: "100896  "
+    first_pair:
+      row_name: "10134A  "
+      value: 1
+    second_pair: ~
+  - name: "100897  "
+    first_pair:
+      row_name: "10132A  "
+      value: -11.7
+    second_pair:
+      row_name: "10133A  "
+      value: -27.2
+  - name: "100897  "
+    first_pair:
+      row_name: "10134A  "
+      value: 1
+    second_pair: ~
+  - name: "100898  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10132A  "
+      value: -12.85
+  - name: "100898  "
+    first_pair:
+      row_name: "10133A  "
+      value: -35.2
+    second_pair:
+      row_name: "10134A  "
+      value: 1
+  - name: "100899  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10132A  "
+      value: -12.85
+  - name: "100899  "
+    first_pair:
+      row_name: "10133A  "
+      value: -22
+    second_pair:
+      row_name: "10134A  "
+      value: 1
+  - name: "100900  "
+    first_pair:
+      row_name: "10028A  "
+      value: 1
+    second_pair:
+      row_name: "10044A  "
+      value: -0.05
+  - name: "100900  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.89
+    second_pair:
+      row_name: "10110A  "
+      value: -0.05
+  - name: "100900  "
+    first_pair:
+      row_name: "10120A  "
+      value: -0.889
+    second_pair:
+      row_name: "10121A  "
+      value: 0.089
+  - name: "100900  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.02
+    second_pair:
+      row_name: "10151A  "
+      value: -0.1
+  - name: "101000  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10062A  "
+      value: -0.5
+  - name: "101000  "
+    first_pair:
+      row_name: "10063A  "
+      value: -0.5
+    second_pair:
+      row_name: "10152A  "
+      value: 1
+  - name: "101012  "
+    first_pair:
+      row_name: "10029A  "
+      value: 1
+    second_pair:
+      row_name: "10051A  "
+      value: -0.4
+  - name: "101012  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.27
+    second_pair:
+      row_name: "10062A  "
+      value: -0.25
+  - name: "101012  "
+    first_pair:
+      row_name: "10151A  "
+      value: -0.35
+    second_pair: ~
+  - name: "101013  "
+    first_pair:
+      row_name: "10029A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.27
+  - name: "101013  "
+    first_pair:
+      row_name: "10061A  "
+      value: -0.4
+    second_pair:
+      row_name: "10062A  "
+      value: -0.25
+  - name: "101013  "
+    first_pair:
+      row_name: "10151A  "
+      value: -0.35
+    second_pair: ~
+  - name: "101021  "
+    first_pair:
+      row_name: "10030A  "
+      value: 1
+    second_pair:
+      row_name: "10051A  "
+      value: -0.45
+  - name: "101021  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.05
+    second_pair:
+      row_name: "10062A  "
+      value: -0.55
+  - name: "101099  "
+    first_pair:
+      row_name: "10031A  "
+      value: 1
+    second_pair:
+      row_name: "10051A  "
+      value: -1
+  - name: "101099  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair: ~
+  - name: "101100  "
+    first_pair:
+      row_name: "10031A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "101100  "
+    first_pair:
+      row_name: "10063A  "
+      value: -1
+    second_pair: ~
+  - name: "101101  "
+    first_pair:
+      row_name: "10031A  "
+      value: 1
+    second_pair:
+      row_name: "10053A  "
+      value: -0.15
+  - name: "101101  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.03
+    second_pair:
+      row_name: "10063A  "
+      value: -0.85
+  - name: "101102  "
+    first_pair:
+      row_name: "10032A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "101102  "
+    first_pair:
+      row_name: "10063A  "
+      value: -0.8
+    second_pair:
+      row_name: "10064A  "
+      value: -0.2
+  - name: "101103  "
+    first_pair:
+      row_name: "10032A  "
+      value: 1
+    second_pair:
+      row_name: "10053A  "
+      value: -0.12
+  - name: "101103  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10063A  "
+      value: -0.68
+  - name: "101103  "
+    first_pair:
+      row_name: "10064A  "
+      value: -0.2
+    second_pair: ~
+  - name: "101107  "
+    first_pair:
+      row_name: "10034A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "101107  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.67
+    second_pair:
+      row_name: "10086A  "
+      value: -0.13
+  - name: "101107  "
+    first_pair:
+      row_name: "10087A  "
+      value: -0.2
+    second_pair: ~
+  - name: "101108  "
+    first_pair:
+      row_name: "10034A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "101108  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.38
+    second_pair:
+      row_name: "10085A  "
+      value: -0.29
+  - name: "101108  "
+    first_pair:
+      row_name: "10086A  "
+      value: -0.17
+    second_pair:
+      row_name: "10087A  "
+      value: -0.03
+  - name: "101108  "
+    first_pair:
+      row_name: "10098A  "
+      value: -0.13
+    second_pair: ~
+  - name: "101109  "
+    first_pair:
+      row_name: "10034A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.03
+  - name: "101109  "
+    first_pair:
+      row_name: "10086A  "
+      value: -0.85
+    second_pair:
+      row_name: "10087A  "
+      value: -0.15
+  - name: "101110  "
+    first_pair:
+      row_name: "10063A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 54.1
+  - name: "101110  "
+    first_pair:
+      row_name: "10074A  "
+      value: -23.6
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101110  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.072
+    second_pair:
+      row_name: "10137A  "
+      value: -18
+  - name: "101110  "
+    first_pair:
+      row_name: "10208A  "
+      value: 42.1
+    second_pair: ~
+  - name: "101111  "
+    first_pair:
+      row_name: "10064A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 60.7
+  - name: "101111  "
+    first_pair:
+      row_name: "10074A  "
+      value: 0.7
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101111  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.217
+    second_pair:
+      row_name: "10137A  "
+      value: 61
+  - name: "101111  "
+    first_pair:
+      row_name: "10208A  "
+      value: 35.7
+    second_pair: ~
+  - name: "101112  "
+    first_pair:
+      row_name: "10053A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 48.9
+  - name: "101112  "
+    first_pair:
+      row_name: "10074A  "
+      value: -31
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101112  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.61
+    second_pair:
+      row_name: "10137A  "
+      value: -29
+  - name: "101112  "
+    first_pair:
+      row_name: "10208A  "
+      value: 40.3
+    second_pair: ~
+  - name: "101113  "
+    first_pair:
+      row_name: "10072A  "
+      value: 28.5
+    second_pair:
+      row_name: "10074A  "
+      value: -4.2
+  - name: "101113  "
+    first_pair:
+      row_name: "10084A  "
+      value: -1
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101113  "
+    first_pair:
+      row_name: "10136A  "
+      value: 1.9
+    second_pair:
+      row_name: "10137A  "
+      value: -21
+  - name: "101113  "
+    first_pair:
+      row_name: "10208A  "
+      value: 26.6
+    second_pair: ~
+  - name: "101114  "
+    first_pair:
+      row_name: "10072A  "
+      value: 36
+    second_pair:
+      row_name: "10074A  "
+      value: 4.3
+  - name: "101114  "
+    first_pair:
+      row_name: "10085A  "
+      value: -1
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101114  "
+    first_pair:
+      row_name: "10136A  "
+      value: 1.95
+    second_pair:
+      row_name: "10137A  "
+      value: 32
+  - name: "101114  "
+    first_pair:
+      row_name: "10208A  "
+      value: 22.9
+    second_pair: ~
+  - name: "101115  "
+    first_pair:
+      row_name: "10072A  "
+      value: 30
+    second_pair:
+      row_name: "10074A  "
+      value: 4.5
+  - name: "101115  "
+    first_pair:
+      row_name: "10086A  "
+      value: -1
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101115  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.67
+    second_pair:
+      row_name: "10137A  "
+      value: -16
+  - name: "101115  "
+    first_pair:
+      row_name: "10208A  "
+      value: 27.8
+    second_pair: ~
+  - name: "101116  "
+    first_pair:
+      row_name: "10072A  "
+      value: 41
+    second_pair:
+      row_name: "10074A  "
+      value: 11
+  - name: "101116  "
+    first_pair:
+      row_name: "10087A  "
+      value: -1
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101116  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.71
+    second_pair:
+      row_name: "10137A  "
+      value: 54
+  - name: "101116  "
+    first_pair:
+      row_name: "10208A  "
+      value: 25.4
+    second_pair: ~
+  - name: "101117  "
+    first_pair:
+      row_name: "10058A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 50.3
+  - name: "101117  "
+    first_pair:
+      row_name: "10074A  "
+      value: -20.2
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101117  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.893
+    second_pair:
+      row_name: "10137A  "
+      value: -16
+  - name: "101117  "
+    first_pair:
+      row_name: "10208A  "
+      value: 37.3
+    second_pair: ~
+  - name: "101118  "
+    first_pair:
+      row_name: "10072A  "
+      value: 58.9
+    second_pair:
+      row_name: "10074A  "
+      value: -6.2
+  - name: "101118  "
+    first_pair:
+      row_name: "10135A  "
+      value: 1
+    second_pair:
+      row_name: "10136A  "
+      value: 0.185
+  - name: "101118  "
+    first_pair:
+      row_name: "10137A  "
+      value: 26
+    second_pair:
+      row_name: "10154A  "
+      value: -1
+  - name: "101118  "
+    first_pair:
+      row_name: "10208A  "
+      value: 37.3
+    second_pair: ~
+  - name: "101119  "
+    first_pair:
+      row_name: "10061A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 50
+  - name: "101119  "
+    first_pair:
+      row_name: "10074A  "
+      value: -30
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101119  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.11
+    second_pair:
+      row_name: "10137A  "
+      value: -39
+  - name: "101119  "
+    first_pair:
+      row_name: "10208A  "
+      value: 48.2
+    second_pair: ~
+  - name: "101120  "
+    first_pair:
+      row_name: "10072A  "
+      value: 31
+    second_pair:
+      row_name: "10074A  "
+      value: -18.2
+  - name: "101120  "
+    first_pair:
+      row_name: "10081A  "
+      value: -1
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101120  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.16
+    second_pair:
+      row_name: "10137A  "
+      value: -38
+  - name: "101120  "
+    first_pair:
+      row_name: "10208A  "
+      value: 36.3
+    second_pair: ~
+  - name: "101121  "
+    first_pair:
+      row_name: "10051A  "
+      value: -1
+    second_pair:
+      row_name: "10072A  "
+      value: 50
+  - name: "101121  "
+    first_pair:
+      row_name: "10074A  "
+      value: -30
+    second_pair:
+      row_name: "10135A  "
+      value: 1
+  - name: "101121  "
+    first_pair:
+      row_name: "10136A  "
+      value: 0.11
+    second_pair:
+      row_name: "10137A  "
+      value: -40
+  - name: "101121  "
+    first_pair:
+      row_name: "10208A  "
+      value: 48.7
+    second_pair: ~
+  - name: "101122  "
+    first_pair:
+      row_name: "10072A  "
+      value: 28
+    second_pair:
+      row_name: "10074A  "
+      value: -8.7
+  - name: "101122  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.728
+    second_pair:
+      row_name: "10098A  "
+      value: -0.272
+  - name: "101122  "
+    first_pair:
+      row_name: "10135A  "
+      value: 1
+    second_pair:
+      row_name: "10136A  "
+      value: 1.55
+  - name: "101122  "
+    first_pair:
+      row_name: "10137A  "
+      value: -26
+    second_pair:
+      row_name: "10208A  "
+      value: 28.5
+  - name: "101123  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.02
+    second_pair:
+      row_name: "10137A  "
+      value: -5
+  - name: "101123  "
+    first_pair:
+      row_name: "10211A  "
+      value: 1
+    second_pair: ~
+  - name: "101124  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10137A  "
+      value: -10
+  - name: "101124  "
+    first_pair:
+      row_name: "10211A  "
+      value: 1
+    second_pair: ~
+  - name: "101125  "
+    first_pair:
+      row_name: "10033A  "
+      value: 1
+    second_pair:
+      row_name: "10056A  "
+      value: 0.04
+  - name: "101125  "
+    first_pair:
+      row_name: "10135A  "
+      value: -1
+    second_pair:
+      row_name: "10136A  "
+      value: -0.65
+  - name: "101125  "
+    first_pair:
+      row_name: "10137A  "
+      value: 10
+    second_pair:
+      row_name: "10211A  "
+      value: -1
+  - name: "101126  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10033A  "
+      value: 1
+  - name: "101126  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.04
+    second_pair:
+      row_name: "10135A  "
+      value: -1
+  - name: "101126  "
+    first_pair:
+      row_name: "10136A  "
+      value: -0.65
+    second_pair:
+      row_name: "10137A  "
+      value: 13
+  - name: "101126  "
+    first_pair:
+      row_name: "10211A  "
+      value: -1
+    second_pair: ~
+  - name: "101API  "
+    first_pair:
+      row_name: "10208A  "
+      value: -1
+    second_pair: ~
+  - name: "101201  "
+    first_pair:
+      row_name: "10035A  "
+      value: 1
+    second_pair:
+      row_name: "10084A  "
+      value: -0.245
+  - name: "101201  "
+    first_pair:
+      row_name: "10086A  "
+      value: -0.272
+    second_pair:
+      row_name: "10141A  "
+      value: -0.483
+  - name: "101202  "
+    first_pair:
+      row_name: "10035A  "
+      value: 1
+    second_pair:
+      row_name: "10084A  "
+      value: -0.154
+  - name: "101202  "
+    first_pair:
+      row_name: "10085A  "
+      value: -0.124
+    second_pair:
+      row_name: "10086A  "
+      value: -0.149
+  - name: "101202  "
+    first_pair:
+      row_name: "10087A  "
+      value: -0.114
+    second_pair:
+      row_name: "10141A  "
+      value: -0.459
+  - name: "101203  "
+    first_pair:
+      row_name: "10036A  "
+      value: 1
+    second_pair:
+      row_name: "10090A  "
+      value: -0.13
+  - name: "101203  "
+    first_pair:
+      row_name: "10091A  "
+      value: -0.13
+    second_pair:
+      row_name: "10141A  "
+      value: -0.74
+  - name: "101204  "
+    first_pair:
+      row_name: "10037A  "
+      value: 1
+    second_pair:
+      row_name: "10194A  "
+      value: -1
+  - name: "101204  "
+    first_pair:
+      row_name: "10195A  "
+      value: -1.05
+    second_pair:
+      row_name: "10196A  "
+      value: -60
+  - name: "101206  "
+    first_pair:
+      row_name: "10038A  "
+      value: 1
+    second_pair:
+      row_name: "10141A  "
+      value: -1
+  - name: "101207  "
+    first_pair:
+      row_name: "10035A  "
+      value: 1
+    second_pair:
+      row_name: "10086A  "
+      value: -0.327
+  - name: "101207  "
+    first_pair:
+      row_name: "10087A  "
+      value: -0.25
+    second_pair:
+      row_name: "10141A  "
+      value: -0.423
+  - name: "101210  "
+    first_pair:
+      row_name: "10057A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101210  "
+    first_pair:
+      row_name: "10139A  "
+      value: 4.14
+    second_pair:
+      row_name: "10140A  "
+      value: 96.9
+  - name: "101211  "
+    first_pair:
+      row_name: "10068A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101211  "
+    first_pair:
+      row_name: "10139A  "
+      value: 0.939
+    second_pair:
+      row_name: "10140A  "
+      value: 89.2
+  - name: "101213  "
+    first_pair:
+      row_name: "10090A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101213  "
+    first_pair:
+      row_name: "10139A  "
+      value: 2.3
+    second_pair:
+      row_name: "10140A  "
+      value: 8
+  - name: "101214  "
+    first_pair:
+      row_name: "10091A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101214  "
+    first_pair:
+      row_name: "10139A  "
+      value: 0.82
+    second_pair:
+      row_name: "10140A  "
+      value: 8
+  - name: "101215  "
+    first_pair:
+      row_name: "10085A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101215  "
+    first_pair:
+      row_name: "10139A  "
+      value: 1.95
+    second_pair:
+      row_name: "10140A  "
+      value: -2.1
+  - name: "101216  "
+    first_pair:
+      row_name: "10086A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101216  "
+    first_pair:
+      row_name: "10139A  "
+      value: 0.71
+    second_pair:
+      row_name: "10140A  "
+      value: 4.6
+  - name: "101217  "
+    first_pair:
+      row_name: "10084A  "
+      value: -1
+    second_pair:
+      row_name: "10138A  "
+      value: 1
+  - name: "101217  "
+    first_pair:
+      row_name: "10139A  "
+      value: 1.9
+    second_pair:
+      row_name: "10140A  "
+      value: -10.6
+  - name: "101219  "
+    first_pair:
+      row_name: "10138A  "
+      value: -1
+    second_pair:
+      row_name: "10139A  "
+      value: -2.8
+  - name: "101219  "
+    first_pair:
+      row_name: "10140A  "
+      value: -60
+    second_pair:
+      row_name: "10141A  "
+      value: 1
+  - name: "101220  "
+    first_pair:
+      row_name: "10092A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 0.977
+  - name: "101220  "
+    first_pair:
+      row_name: "10143A  "
+      value: 0.977
+    second_pair: ~
+  - name: "101221  "
+    first_pair:
+      row_name: "10040A  "
+      value: 1
+    second_pair:
+      row_name: "10068A  "
+      value: -1
+  - name: "101221  "
+    first_pair:
+      row_name: "10142A  "
+      value: 0.972
+    second_pair:
+      row_name: "10143A  "
+      value: 0.972
+  - name: "101222  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10057A  "
+      value: -0.7
+  - name: "101222  "
+    first_pair:
+      row_name: "10090A  "
+      value: -0.3
+    second_pair:
+      row_name: "10142A  "
+      value: 0.947
+  - name: "101222  "
+    first_pair:
+      row_name: "10143A  "
+      value: 0.947
+    second_pair: ~
+  - name: "101224  "
+    first_pair:
+      row_name: "10090A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 0.918
+  - name: "101224  "
+    first_pair:
+      row_name: "10143A  "
+      value: 0.918
+    second_pair: ~
+  - name: "101225  "
+    first_pair:
+      row_name: "10043A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 1
+  - name: "101226  "
+    first_pair:
+      row_name: "10093A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 1
+  - name: "101227  "
+    first_pair:
+      row_name: "10025A  "
+      value: 6.21
+    second_pair:
+      row_name: "10142A  "
+      value: 1
+  - name: "101227  "
+    first_pair:
+      row_name: "10169A  "
+      value: 1
+    second_pair: ~
+  - name: "101228  "
+    first_pair:
+      row_name: "10013A  "
+      value: 1
+    second_pair:
+      row_name: "10025A  "
+      value: 4.97
+  - name: "101228  "
+    first_pair:
+      row_name: "10142A  "
+      value: 1
+    second_pair: ~
+  - name: "101229  "
+    first_pair:
+      row_name: "10044A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 0.636
+  - name: "101230  "
+    first_pair:
+      row_name: "10141A  "
+      value: -1
+    second_pair:
+      row_name: "10142A  "
+      value: 0.943
+  - name: "101230  "
+    first_pair:
+      row_name: "10143A  "
+      value: 0.943
+    second_pair: ~
+  - name: "101231  "
+    first_pair:
+      row_name: "10142A  "
+      value: 0.931
+    second_pair:
+      row_name: "10143A  "
+      value: 0.931
+  - name: "101231  "
+    first_pair:
+      row_name: "10153A  "
+      value: -1
+    second_pair: ~
+  - name: "101232  "
+    first_pair:
+      row_name: "10085A  "
+      value: -0.5
+    second_pair:
+      row_name: "10090A  "
+      value: -0.5
+  - name: "101232  "
+    first_pair:
+      row_name: "10142A  "
+      value: 0.915
+    second_pair:
+      row_name: "10143A  "
+      value: 0.915
+  - name: "101234  "
+    first_pair:
+      row_name: "10143A  "
+      value: -1
+    second_pair: ~
+  - name: "101235  "
+    first_pair:
+      row_name: "10142A  "
+      value: -1
+    second_pair:
+      row_name: "10144A  "
+      value: -1
+  - name: "101236  "
+    first_pair:
+      row_name: "10068A  "
+      value: -1
+    second_pair:
+      row_name: "10194A  "
+      value: 1
+  - name: "101236  "
+    first_pair:
+      row_name: "10195A  "
+      value: 0.939
+    second_pair:
+      row_name: "10196A  "
+      value: 89.2
+  - name: "101237  "
+    first_pair:
+      row_name: "10091A  "
+      value: -1
+    second_pair:
+      row_name: "10194A  "
+      value: 1
+  - name: "101237  "
+    first_pair:
+      row_name: "10195A  "
+      value: 0.82
+    second_pair:
+      row_name: "10196A  "
+      value: 8
+  - name: "101238  "
+    first_pair:
+      row_name: "10064A  "
+      value: -1
+    second_pair:
+      row_name: "10194A  "
+      value: 1
+  - name: "101238  "
+    first_pair:
+      row_name: "10195A  "
+      value: 0.22
+    second_pair:
+      row_name: "10196A  "
+      value: -4.9
+  - name: "101239  "
+    first_pair:
+      row_name: "10041A  "
+      value: -1
+    second_pair:
+      row_name: "10092A  "
+      value: -1
+  - name: "101239  "
+    first_pair:
+      row_name: "10194A  "
+      value: 1
+    second_pair:
+      row_name: "10195A  "
+      value: 1.26
+  - name: "101239  "
+    first_pair:
+      row_name: "10196A  "
+      value: 61.5
+    second_pair: ~
+  - name: "101300  "
+    first_pair:
+      row_name: "10039A  "
+      value: 1
+    second_pair:
+      row_name: "10051A  "
+      value: -0.016
+  - name: "101300  "
+    first_pair:
+      row_name: "10056A  "
+      value: 0.18
+    second_pair:
+      row_name: "10062A  "
+      value: -0.005
+  - name: "101300  "
+    first_pair:
+      row_name: "10065A  "
+      value: -0.325
+    second_pair:
+      row_name: "10066A  "
+      value: -0.755
+  - name: "101300  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.065
+    second_pair:
+      row_name: "10085A  "
+      value: -0.054
+  - name: "101300  "
+    first_pair:
+      row_name: "10144A  "
+      value: 0.042
+    second_pair:
+      row_name: "10147A  "
+      value: 0.31
+  - name: "101300  "
+    first_pair:
+      row_name: "10153A  "
+      value: 0.22
+    second_pair: ~
+  - name: "101CET  "
+    first_pair:
+      row_name: "10072A  "
+      value: -1
+    second_pair: ~
+  - name: "101400  "
+    first_pair:
+      row_name: "10057A  "
+      value: 0.75
+    second_pair:
+      row_name: "10197A  "
+      value: 1
+  - name: "101400  "
+    first_pair:
+      row_name: "10203A  "
+      value: 0.25
+    second_pair: ~
+  - name: "101401  "
+    first_pair:
+      row_name: "10066A  "
+      value: 0.075
+    second_pair:
+      row_name: "10068A  "
+      value: 0.525
+  - name: "101401  "
+    first_pair:
+      row_name: "10198A  "
+      value: 1
+    second_pair:
+      row_name: "10203A  "
+      value: 0.4
+  - name: "101402  "
+    first_pair:
+      row_name: "10057A  "
+      value: 1
+    second_pair:
+      row_name: "10199A  "
+      value: 1
+  - name: "101403  "
+    first_pair:
+      row_name: "10066A  "
+      value: 0.17
+    second_pair:
+      row_name: "10068A  "
+      value: 0.83
+  - name: "101403  "
+    first_pair:
+      row_name: "10200A  "
+      value: 1
+    second_pair: ~
+  - name: "101404  "
+    first_pair:
+      row_name: "10057A  "
+      value: -0.75
+    second_pair:
+      row_name: "10203A  "
+      value: -0.25
+  - name: "101404  "
+    first_pair:
+      row_name: "10209A  "
+      value: 1
+    second_pair: ~
+  - name: "101405  "
+    first_pair:
+      row_name: "10066A  "
+      value: -0.075
+    second_pair:
+      row_name: "10068A  "
+      value: -0.525
+  - name: "101405  "
+    first_pair:
+      row_name: "10203A  "
+      value: -0.4
+    second_pair:
+      row_name: "10210A  "
+      value: 1
+  - name: "101406  "
+    first_pair:
+      row_name: "10057A  "
+      value: -1
+    second_pair:
+      row_name: "10201A  "
+      value: 1
+  - name: "101407  "
+    first_pair:
+      row_name: "10066A  "
+      value: -0.17
+    second_pair:
+      row_name: "10068A  "
+      value: -0.83
+  - name: "101407  "
+    first_pair:
+      row_name: "10202A  "
+      value: 1
+    second_pair: ~
+  - name: "101408  "
+    first_pair:
+      row_name: "10051A  "
+      value: -0.47
+    second_pair:
+      row_name: "10084A  "
+      value: -0.36
+  - name: "101408  "
+    first_pair:
+      row_name: "10090A  "
+      value: -0.17
+    second_pair:
+      row_name: "10203A  "
+      value: 1
+  - name: "101VIS  "
+    first_pair:
+      row_name: "10074A  "
+      value: 1
+    second_pair: ~
+  - name: "101600  "
+    first_pair:
+      row_name: "10025A  "
+      value: -17.86
+    second_pair:
+      row_name: "10105A  "
+      value: -1
+  - name: "101601  "
+    first_pair:
+      row_name: "10025A  "
+      value: -23.21
+    second_pair:
+      row_name: "10104A  "
+      value: -1
+  - name: "101I93  "
+    first_pair:
+      row_name: "10207A  "
+      value: -1
+    second_pair: ~
+  - name: "102000  "
+    first_pair:
+      row_name: "10001A  "
+      value: -1
+    second_pair:
+      row_name: "10025A  "
+      value: 10.5
+  - name: "102000  "
+    first_pair:
+      row_name: "10027A  "
+      value: 1
+    second_pair: ~
+  - name: "102001  "
+    first_pair:
+      row_name: "10025A  "
+      value: 15
+    second_pair:
+      row_name: "10026A  "
+      value: 1
+  - name: "102002  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10031A  "
+      value: 1
+  - name: "102003  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10033A  "
+      value: 1
+  - name: "102004  "
+    first_pair:
+      row_name: "10025A  "
+      value: 50
+    second_pair:
+      row_name: "10038A  "
+      value: 1
+  - name: "102006  "
+    first_pair:
+      row_name: "10025A  "
+      value: 20
+    second_pair:
+      row_name: "10110A  "
+      value: 1
+  - name: "102500  "
+    first_pair:
+      row_name: "10027A  "
+      value: -1
+    second_pair: ~
+  - name: "102502  "
+    first_pair:
+      row_name: "10031A  "
+      value: -1
+    second_pair: ~
+  - name: "102503  "
+    first_pair:
+      row_name: "10033A  "
+      value: -1
+    second_pair: ~
+  - name: "102504  "
+    first_pair:
+      row_name: "10038A  "
+      value: -1
+    second_pair: ~
+  - name: "102I93  "
+    first_pair:
+      row_name: "10207A  "
+      value: 1
+    second_pair: ~
+  - name: "103000  "
+    first_pair:
+      row_name: "10031A  "
+      value: 1
+    second_pair:
+      row_name: "10170A  "
+      value: 1
+  - name: "103001  "
+    first_pair:
+      row_name: "10033A  "
+      value: 1
+    second_pair:
+      row_name: "10171A  "
+      value: 1
+  - name: "103002  "
+    first_pair:
+      row_name: "10038A  "
+      value: 1
+    second_pair:
+      row_name: "10172A  "
+      value: 1
+  - name: "103003  "
+    first_pair:
+      row_name: "10037A  "
+      value: 1
+    second_pair:
+      row_name: "10173A  "
+      value: 1
+  - name: "103005  "
+    first_pair:
+      row_name: "10145A  "
+      value: 1
+    second_pair:
+      row_name: "10146A  "
+      value: 29
+  - name: "103005  "
+    first_pair:
+      row_name: "10147A  "
+      value: 0.75
+    second_pair:
+      row_name: "10175A  "
+      value: 1
+  - name: "103006  "
+    first_pair:
+      row_name: "10148A  "
+      value: 1
+    second_pair:
+      row_name: "10149A  "
+      value: 26
+  - name: "103006  "
+    first_pair:
+      row_name: "10150A  "
+      value: 2.1
+    second_pair:
+      row_name: "10176A  "
+      value: 1
+  - name: "103007  "
+    first_pair:
+      row_name: "10044A  "
+      value: 0.25
+    second_pair:
+      row_name: "10116A  "
+      value: 0.3
+  - name: "103007  "
+    first_pair:
+      row_name: "10117A  "
+      value: 0.45
+    second_pair:
+      row_name: "10177A  "
+      value: 1
+  - name: "104003  "
+    first_pair:
+      row_name: "10215A  "
+      value: 100
+    second_pair: ~
+  - name: "104004  "
+    first_pair:
+      row_name: "10038A  "
+      value: -1
+    second_pair:
+      row_name: "10183A  "
+      value: 1
+  - name: "104004  "
+    first_pair:
+      row_name: "10219A  "
+      value: 100
+    second_pair: ~
+  - name: "104030  "
+    first_pair:
+      row_name: "10059A  "
+      value: 1
+    second_pair:
+      row_name: "10090A  "
+      value: -1
+  - name: "104030  "
+    first_pair:
+      row_name: "10183A  "
+      value: 1
+    second_pair:
+      row_name: "10216A  "
+      value: 100
+  - name: "104120  "
+    first_pair:
+      row_name: "10084A  "
+      value: -1
+    second_pair:
+      row_name: "10190A  "
+      value: 1
+  - name: "104120  "
+    first_pair:
+      row_name: "10193A  "
+      value: 1
+    second_pair:
+      row_name: "10217A  "
+      value: 100
+  - name: "104171  "
+    first_pair:
+      row_name: "10148A  "
+      value: -1
+    second_pair:
+      row_name: "10149A  "
+      value: -26
+  - name: "104171  "
+    first_pair:
+      row_name: "10150A  "
+      value: -2.1
+    second_pair:
+      row_name: "10191A  "
+      value: 1
+  - name: "104171  "
+    first_pair:
+      row_name: "10192A  "
+      value: 1
+    second_pair:
+      row_name: "10218A  "
+      value: 100
+  - name: "104191  "
+    first_pair:
+      row_name: "10084A  "
+      value: -0.6
+    second_pair:
+      row_name: "10085A  "
+      value: -0.4
+  - name: "104191  "
+    first_pair:
+      row_name: "10191A  "
+      value: 1
+    second_pair:
+      row_name: "10193A  "
+      value: 1
+  - name: "104191  "
+    first_pair:
+      row_name: "10220A  "
+      value: 100
+    second_pair: ~
+rhs:
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10006A  "
+      value: 132.5
+    second_pair:
+      row_name: "10007A  "
+      value: 87.5
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10008A  "
+      value: 8.1
+    second_pair:
+      row_name: "10009A  "
+      value: 55
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10010A  "
+      value: 45
+    second_pair:
+      row_name: "10011A  "
+      value: 3
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10012A  "
+      value: 2.6
+    second_pair:
+      row_name: "10013A  "
+      value: 2.6
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10014A  "
+      value: 80
+    second_pair:
+      row_name: "10015A  "
+      value: 52
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10016A  "
+      value: 30
+    second_pair:
+      row_name: "10017A  "
+      value: 65.6
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10018A  "
+      value: 45
+    second_pair:
+      row_name: "10019A  "
+      value: 12.5
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10020A  "
+      value: 15
+    second_pair:
+      row_name: "10021A  "
+      value: 0.834
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10022A  "
+      value: 0.536
+    second_pair:
+      row_name: "10024A  "
+      value: 20.2
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10026A  "
+      value: 21.4
+    second_pair:
+      row_name: "10027A  "
+      value: 65.6
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10028A  "
+      value: 2
+    second_pair:
+      row_name: "10029A  "
+      value: 5.7
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10030A  "
+      value: 3.3
+    second_pair:
+      row_name: "10031A  "
+      value: 10.3
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10032A  "
+      value: 9
+    second_pair:
+      row_name: "10033A  "
+      value: 33
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10034A  "
+      value: 3
+    second_pair:
+      row_name: "10035A  "
+      value: 4.35
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10036A  "
+      value: 0.65
+    second_pair:
+      row_name: "10037A  "
+      value: 4
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10038A  "
+      value: 13.4
+    second_pair:
+      row_name: "10039A  "
+      value: 7.2
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10040A  "
+      value: 1.5
+    second_pair:
+      row_name: "10042A  "
+      value: 4
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10043A  "
+      value: 3.5
+    second_pair:
+      row_name: "10060A  "
+      value: 0.8
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10089A  "
+      value: 5
+    second_pair:
+      row_name: "10094A  "
+      value: 0.2
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10100A  "
+      value: 2
+    second_pair:
+      row_name: "10143A  "
+      value: 3.5
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10144A  "
+      value: -6.8
+    second_pair:
+      row_name: "10152A  "
+      value: 1.7
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10159A  "
+      value: 0.6
+    second_pair:
+      row_name: "10160A  "
+      value: 40
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10163A  "
+      value: 8
+    second_pair:
+      row_name: "10164A  "
+      value: 14
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10167A  "
+      value: 5
+    second_pair:
+      row_name: "10168A  "
+      value: 10.6
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10169A  "
+      value: 0.9
+    second_pair:
+      row_name: "10201A  "
+      value: 2.9
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10202A  "
+      value: 2.5
+    second_pair:
+      row_name: "10204A  "
+      value: 1.06
+  - name: ZZZZ0001
+    first_pair:
+      row_name: "10209A  "
+      value: 2.1
+    second_pair:
+      row_name: "10210A  "
+      value: 0.5
 ranges: ~
 bounds: ~
 

@@ -216,7 +216,7 @@ pub struct BoundsLine<'a, T> {
   pub bound_type: BoundType,
   pub bound_name: &'a str,
   pub column_name: &'a str,
-  pub value: T,
+  pub value: Option<T>,
 }
 
 /// Type alias for a collection of `BoundsLine` instances.

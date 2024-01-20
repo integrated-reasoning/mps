@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/scrs8\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/scrs8\"))?"
 ---
 name: SCRS8
 rows:
@@ -1003,7 +1003,7 @@ columns:
       value: 0.844
   - name: PCCOAL00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 634.54095
     second_pair: ~
   - name: PCLWRX00
@@ -1036,7 +1036,7 @@ columns:
       value: -0.007
   - name: PCLWRX00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 185.20865
     second_pair: ~
   - name: PCFBRX00
@@ -1058,7 +1058,7 @@ columns:
       row_name: DIBRGN05
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 185.20865
   - name: PCADVX00
     first_pair:
@@ -1072,7 +1072,7 @@ columns:
       row_name: CPADVX05
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 105.4884
   - name: PCPETG00
     first_pair:
@@ -1090,7 +1090,7 @@ columns:
       value: 0.844
   - name: PCPETG00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.07882
     second_pair: ~
   - name: PCSYNF00
@@ -1109,7 +1109,7 @@ columns:
       value: 0.844
   - name: PCSYNF00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.13137
     second_pair: ~
   - name: PCHTRB00
@@ -1135,7 +1135,7 @@ columns:
       value: -0.005
   - name: PCHTRB00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 112.7357
     second_pair: ~
   - name: PCELHY00
@@ -1180,7 +1180,7 @@ columns:
       value: 0.7
   - name: DPCOAL00
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5305.3823
     second_pair: ~
   - name: DPPETG00
@@ -1298,7 +1298,7 @@ columns:
       value: 5
   - name: NURQ0100
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 241.5765
     second_pair: ~
   - name: NURQ0200
@@ -1310,7 +1310,7 @@ columns:
       value: 5
   - name: NURQ0200
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 483.153
     second_pair: ~
   - name: NURQ0300
@@ -1322,7 +1322,7 @@ columns:
       value: 5
   - name: NURQ0300
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 748.88715
     second_pair: ~
   - name: NURQ0400
@@ -1334,7 +1334,7 @@ columns:
       value: 5
   - name: NURQ0400
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 990.4636
     second_pair: ~
   - name: NURQ0500
@@ -1346,7 +1346,7 @@ columns:
       value: 5
   - name: NURQ0500
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1215.935
     second_pair: ~
   - name: NURQ0600
@@ -1358,7 +1358,7 @@ columns:
       value: 5
   - name: NURQ0600
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1425.3014
     second_pair: ~
   - name: NURQ0700
@@ -1370,7 +1370,7 @@ columns:
       value: 5
   - name: NURQ0700
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1610.51
     second_pair: ~
   - name: NURQ0800
@@ -1382,7 +1382,7 @@ columns:
       value: 5
   - name: NURQ0800
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1779.6135
     second_pair: ~
   - name: NURQ0900
@@ -1394,7 +1394,7 @@ columns:
       value: 5
   - name: NURQ0900
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1924.5594
     second_pair: ~
   - name: NURQ1000
@@ -1406,7 +1406,7 @@ columns:
       value: 5
   - name: NURQ1000
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2053.4001
     second_pair: ~
   - name: PCCOAL05
@@ -1425,7 +1425,7 @@ columns:
       value: 0.844
   - name: PCCOAL05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 394
     second_pair: ~
   - name: PCLWRX05
@@ -1458,7 +1458,7 @@ columns:
       value: -0.007
   - name: PCLWRX05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 115
     second_pair: ~
   - name: PCFBRX05
@@ -1480,7 +1480,7 @@ columns:
       row_name: DIBRGN10
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 115
   - name: PCADVX05
     first_pair:
@@ -1494,7 +1494,7 @@ columns:
       row_name: CPADVX10
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 65.5
   - name: PCPETG05
     first_pair:
@@ -1512,7 +1512,7 @@ columns:
       value: 0.844
   - name: PCPETG05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.5
     second_pair: ~
   - name: PCSYNF05
@@ -1531,7 +1531,7 @@ columns:
       value: 0.844
   - name: PCSYNF05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.5
     second_pair: ~
   - name: PCHTRB05
@@ -1557,7 +1557,7 @@ columns:
       value: -0.005
   - name: PCHTRB05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 70
     second_pair: ~
   - name: PCELHY05
@@ -1602,7 +1602,7 @@ columns:
       value: 0.7
   - name: DPCOAL05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3294.225
     second_pair: ~
   - name: DPLWRX05
@@ -1621,7 +1621,7 @@ columns:
       value: -0.3
   - name: DPLWRX05
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4392.3
     second_pair: ~
   - name: DPPETG05
@@ -1739,7 +1739,7 @@ columns:
       value: 5
   - name: NURQ0105
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 150
     second_pair: ~
   - name: NURQ0205
@@ -1751,7 +1751,7 @@ columns:
       value: 5
   - name: NURQ0205
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 300
     second_pair: ~
   - name: NURQ0305
@@ -1763,7 +1763,7 @@ columns:
       value: 5
   - name: NURQ0305
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 465
     second_pair: ~
   - name: NURQ0405
@@ -1775,7 +1775,7 @@ columns:
       value: 5
   - name: NURQ0405
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 615
     second_pair: ~
   - name: NURQ0505
@@ -1787,7 +1787,7 @@ columns:
       value: 5
   - name: NURQ0505
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 755
     second_pair: ~
   - name: NURQ0605
@@ -1799,7 +1799,7 @@ columns:
       value: 5
   - name: NURQ0605
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 885
     second_pair: ~
   - name: NURQ0705
@@ -1811,7 +1811,7 @@ columns:
       value: 5
   - name: NURQ0705
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1000
     second_pair: ~
   - name: NURQ0805
@@ -1823,7 +1823,7 @@ columns:
       value: 5
   - name: NURQ0805
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1105
     second_pair: ~
   - name: NURQ0905
@@ -1835,7 +1835,7 @@ columns:
       value: 5
   - name: NURQ0905
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1195
     second_pair: ~
   - name: NURQ1005
@@ -1847,7 +1847,7 @@ columns:
       value: 5
   - name: NURQ1005
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1275
     second_pair: ~
   - name: PCCOAL10
@@ -1866,7 +1866,7 @@ columns:
       value: 0.0657
   - name: PCCOAL10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 244.643
     second_pair: ~
   - name: PCLWRX10
@@ -1899,7 +1899,7 @@ columns:
       value: -0.007
   - name: PCLWRX10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 71.40595
     second_pair: ~
   - name: PCFBRX10
@@ -1921,7 +1921,7 @@ columns:
       row_name: DIBRGN15
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 71.40595
   - name: PCADVX10
     first_pair:
@@ -1935,7 +1935,7 @@ columns:
       row_name: CPADVX15
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 40.67035
   - name: PCPETG10
     first_pair:
@@ -1953,7 +1953,7 @@ columns:
       value: 0.844
   - name: PCPETG10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.65691
     second_pair: ~
   - name: PCSYNF10
@@ -1972,7 +1972,7 @@ columns:
       value: 0.844
   - name: PCSYNF10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.7615166
     second_pair: ~
   - name: PCHTRB10
@@ -1998,7 +1998,7 @@ columns:
       value: -0.005
   - name: PCHTRB10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 43.46449
     second_pair: ~
   - name: PCELHY10
@@ -2043,7 +2043,7 @@ columns:
       value: 0.7
   - name: DPCOAL10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2045.4546
     second_pair: ~
   - name: DPLWRX10
@@ -2062,7 +2062,7 @@ columns:
       value: -0.3
   - name: DPLWRX10
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2727.2727
     second_pair: ~
   - name: DPPETG10
@@ -2180,7 +2180,7 @@ columns:
       value: 5
   - name: NURQ0110
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 93.1382
     second_pair: ~
   - name: NURQ0210
@@ -2192,7 +2192,7 @@ columns:
       value: 5
   - name: NURQ0210
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 186.2764
     second_pair: ~
   - name: NURQ0310
@@ -2204,7 +2204,7 @@ columns:
       value: 5
   - name: NURQ0310
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 288.72842
     second_pair: ~
   - name: NURQ0410
@@ -2216,7 +2216,7 @@ columns:
       value: 5
   - name: NURQ0410
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 381.8666
     second_pair: ~
   - name: NURQ0510
@@ -2228,7 +2228,7 @@ columns:
       value: 5
   - name: NURQ0510
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 468.7956
     second_pair: ~
   - name: NURQ0610
@@ -2240,7 +2240,7 @@ columns:
       value: 5
   - name: NURQ0610
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 549.5154
     second_pair: ~
   - name: NURQ0710
@@ -2252,7 +2252,7 @@ columns:
       value: 5
   - name: NURQ0710
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 620.9213
     second_pair: ~
   - name: NURQ0810
@@ -2264,7 +2264,7 @@ columns:
       value: 5
   - name: NURQ0810
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 686.11804
     second_pair: ~
   - name: NURQ0910
@@ -2276,7 +2276,7 @@ columns:
       value: 5
   - name: NURQ0910
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 742.001
     second_pair: ~
   - name: NURQ1010
@@ -2288,7 +2288,7 @@ columns:
       value: 5
   - name: NURQ1010
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 791.6747
     second_pair: ~
   - name: ELECDM10
@@ -2317,7 +2317,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.26761
   - name: WT251810
     first_pair:
@@ -2331,7 +2331,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.07933
   - name: WT252110
     first_pair:
@@ -2345,7 +2345,7 @@ columns:
       row_name: WTNELE10
       value: 54.47663
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.02464
   - name: WT252410
     first_pair:
@@ -2359,7 +2359,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.098914
   - name: WT252710
     first_pair:
@@ -2373,7 +2373,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.297683
   - name: WT253010
     first_pair:
@@ -2387,7 +2387,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.61665416
   - name: WT281510
     first_pair:
@@ -2401,7 +2401,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 18.17842
   - name: WT281810
     first_pair:
@@ -2415,7 +2415,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.0509
   - name: WT282110
     first_pair:
@@ -2429,7 +2429,7 @@ columns:
       row_name: WTNELE10
       value: 54.47663
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.05503
   - name: WT282410
     first_pair:
@@ -2443,7 +2443,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.1862497
   - name: WT282710
     first_pair:
@@ -2457,7 +2457,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4401615
   - name: WT283010
     first_pair:
@@ -2471,7 +2471,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1874682
   - name: WT311510
     first_pair:
@@ -2485,7 +2485,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.12549
   - name: WT311810
     first_pair:
@@ -2499,7 +2499,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.05767
   - name: WT312110
     first_pair:
@@ -2513,7 +2513,7 @@ columns:
       row_name: WTNELE10
       value: 54.47663
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.119604
   - name: WT312410
     first_pair:
@@ -2527,7 +2527,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.3067846
   - name: WT312710
     first_pair:
@@ -2541,7 +2541,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.61488205
   - name: WT313010
     first_pair:
@@ -2555,7 +2555,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.9602757
   - name: WT341510
     first_pair:
@@ -2569,7 +2569,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.1081
   - name: WT341810
     first_pair:
@@ -2583,7 +2583,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.09895
   - name: WT342110
     first_pair:
@@ -2597,7 +2597,7 @@ columns:
       row_name: WTNELE10
       value: 54.47663
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.2176757
   - name: WT342410
     first_pair:
@@ -2611,7 +2611,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4598484
   - name: WT342710
     first_pair:
@@ -2625,7 +2625,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1788067
   - name: WT343010
     first_pair:
@@ -2639,7 +2639,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.7024
   - name: WT371510
     first_pair:
@@ -2653,7 +2653,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.12552
   - name: WT371810
     first_pair:
@@ -2667,7 +2667,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.174023
   - name: WT372110
     first_pair:
@@ -2681,7 +2681,7 @@ columns:
       row_name: INTSUM10
       value: 1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.3485703
   - name: WT372410
     first_pair:
@@ -2695,7 +2695,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.64478564
   - name: WT372710
     first_pair:
@@ -2709,7 +2709,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.9415407
   - name: WT373010
     first_pair:
@@ -2723,7 +2723,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.41446
   - name: WT401510
     first_pair:
@@ -2737,7 +2737,7 @@ columns:
       row_name: WTNELE10
       value: 52.89464
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.17705
   - name: WT401810
     first_pair:
@@ -2751,7 +2751,7 @@ columns:
       row_name: WTNELE10
       value: 53.68097
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.282224
   - name: WT402110
     first_pair:
@@ -2765,7 +2765,7 @@ columns:
       row_name: WTNELE10
       value: 54.47663
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5116289
   - name: WT402410
     first_pair:
@@ -2779,7 +2779,7 @@ columns:
       row_name: WTNELE10
       value: 55.28169
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1390433
   - name: WT402710
     first_pair:
@@ -2793,7 +2793,7 @@ columns:
       row_name: WTNELE10
       value: 56.09623
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.673941
   - name: WT403010
     first_pair:
@@ -2807,7 +2807,7 @@ columns:
       row_name: WTNELE10
       value: 56.92036
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -8.097059
   - name: PCCOAL15
     first_pair:
@@ -2825,7 +2825,7 @@ columns:
       value: 0.844
   - name: PCCOAL15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 151.90405
     second_pair: ~
   - name: PCLWRX15
@@ -2858,7 +2858,7 @@ columns:
       value: -0.007
   - name: PCLWRX15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 44.33748
     second_pair: ~
   - name: PCFBRX15
@@ -2880,7 +2880,7 @@ columns:
       row_name: DIBRGN20
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 44.33748
   - name: PCADVX15
     first_pair:
@@ -2894,7 +2894,7 @@ columns:
       row_name: CPADVX20
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 25.25309
   - name: PCPETG15
     first_pair:
@@ -2912,7 +2912,7 @@ columns:
       value: 0.844
   - name: PCPETG15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.8915746
     second_pair: ~
   - name: PCSYNF15
@@ -2931,7 +2931,7 @@ columns:
       value: 0.844
   - name: PCSYNF15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.819291
     second_pair: ~
   - name: PCHTRB15
@@ -2957,7 +2957,7 @@ columns:
       value: -0.005
   - name: PCHTRB15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.98803
     second_pair: ~
   - name: PCELHY15
@@ -3002,7 +3002,7 @@ columns:
       value: 0.7
   - name: DPCOAL15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1270.0663
     second_pair: ~
   - name: DPLWRX15
@@ -3021,7 +3021,7 @@ columns:
       value: -0.3
   - name: DPLWRX15
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1693.4218
     second_pair: ~
   - name: DPPETG15
@@ -3139,7 +3139,7 @@ columns:
       value: 5
   - name: NURQ0115
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 57.83149
     second_pair: ~
   - name: NURQ0215
@@ -3151,7 +3151,7 @@ columns:
       value: 5
   - name: NURQ0215
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 115.66299
     second_pair: ~
   - name: NURQ0315
@@ -3163,7 +3163,7 @@ columns:
       value: 5
   - name: NURQ0315
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 179.27763
     second_pair: ~
   - name: NURQ0415
@@ -3175,7 +3175,7 @@ columns:
       value: 5
   - name: NURQ0415
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 237.10912
     second_pair: ~
   - name: NURQ0515
@@ -3187,7 +3187,7 @@ columns:
       value: 5
   - name: NURQ0515
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 291.08517
     second_pair: ~
   - name: NURQ0615
@@ -3199,7 +3199,7 @@ columns:
       value: 5
   - name: NURQ0615
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 341.2058
     second_pair: ~
   - name: NURQ0715
@@ -3211,7 +3211,7 @@ columns:
       value: 5
   - name: NURQ0715
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 385.5433
     second_pair: ~
   - name: NURQ0815
@@ -3223,7 +3223,7 @@ columns:
       value: 5
   - name: NURQ0815
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 426.02533
     second_pair: ~
   - name: NURQ0915
@@ -3235,7 +3235,7 @@ columns:
       value: 5
   - name: NURQ0915
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 460.72424
     second_pair: ~
   - name: NURQ1015
@@ -3247,7 +3247,7 @@ columns:
       value: 5
   - name: NURQ1015
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 491.5677
     second_pair: ~
   - name: ELECDM15
@@ -3276,7 +3276,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.90358
   - name: WT251815
     first_pair:
@@ -3290,7 +3290,7 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.5772
   - name: WT252115
     first_pair:
@@ -3304,7 +3304,7 @@ columns:
       row_name: WTNELE15
       value: 60.44201
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.63047
   - name: WT252415
     first_pair:
@@ -3318,7 +3318,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.039589
   - name: WT252715
     first_pair:
@@ -3332,7 +3332,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.7823186
   - name: WT253015
     first_pair:
@@ -3346,7 +3346,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1621385
   - name: WT281515
     first_pair:
@@ -3360,7 +3360,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 23.72453
   - name: WT281815
     first_pair:
@@ -3374,7 +3374,7 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.58036
   - name: WT282115
     first_pair:
@@ -3388,7 +3388,7 @@ columns:
       row_name: WTNELE15
       value: 60.44201
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.80491
   - name: WT282415
     first_pair:
@@ -3402,7 +3402,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.3750677
   - name: WT282715
     first_pair:
@@ -3416,7 +3416,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2692208
   - name: WT283015
     first_pair:
@@ -3430,7 +3430,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.532823
   - name: WT311515
     first_pair:
@@ -3444,7 +3444,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.64591
   - name: WT311815
     first_pair:
@@ -3458,7 +3458,7 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.6782
   - name: WT312115
     first_pair:
@@ -3472,7 +3472,7 @@ columns:
       row_name: WTNELE15
       value: 60.44201
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.068625
   - name: WT312415
     first_pair:
@@ -3486,7 +3486,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.7947235
   - name: WT312715
     first_pair:
@@ -3500,7 +3500,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.164484
   - name: WT313015
     first_pair:
@@ -3514,7 +3514,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.8286138
   - name: WT341515
     first_pair:
@@ -3528,7 +3528,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.66427
   - name: WT341815
     first_pair:
@@ -3542,7 +3542,7 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.86747
   - name: WT342115
     first_pair:
@@ -3556,7 +3556,7 @@ columns:
       row_name: WTNELE15
       value: 60.44201
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.418533
   - name: WT342415
     first_pair:
@@ -3570,7 +3570,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2956632
   - name: WT342715
     first_pair:
@@ -3584,7 +3584,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.5215244
   - name: WT343015
     first_pair:
@@ -3598,7 +3598,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -8.052084
   - name: WT371515
     first_pair:
@@ -3612,7 +3612,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.77629
   - name: WT371815
     first_pair:
@@ -3626,11 +3626,11 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.145018
   - name: WT372115
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.8516831
     second_pair:
       row_name: WTNELE15
@@ -3654,7 +3654,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1248983
   - name: WT372715
     first_pair:
@@ -3668,7 +3668,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.804527
   - name: WT373015
     first_pair:
@@ -3682,7 +3682,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -10.20571
   - name: WT401515
     first_pair:
@@ -3696,7 +3696,7 @@ columns:
       row_name: WTNELE15
       value: 56.98255
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.97877
   - name: WT401815
     first_pair:
@@ -3710,7 +3710,7 @@ columns:
       row_name: WTNELE15
       value: 58.68935
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.507841
   - name: WT402115
     first_pair:
@@ -3724,7 +3724,7 @@ columns:
       row_name: WTNELE15
       value: 60.44201
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3652318
   - name: WT402415
     first_pair:
@@ -3738,7 +3738,7 @@ columns:
       row_name: WTNELE15
       value: 62.24164
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.4696436
   - name: WT402715
     first_pair:
@@ -3752,7 +3752,7 @@ columns:
       row_name: WTNELE15
       value: 64.08936
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -8.016022
   - name: WT403015
     first_pair:
@@ -3766,7 +3766,7 @@ columns:
       row_name: WTNELE15
       value: 65.98629
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -12.29189
   - name: PCCOAL20
     first_pair:
@@ -3784,7 +3784,7 @@ columns:
       value: 0.844
   - name: PCCOAL20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 94.32047
     second_pair: ~
   - name: PCLWRX20
@@ -3817,7 +3817,7 @@ columns:
       value: -0.007
   - name: PCLWRX20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 27.53009
     second_pair: ~
   - name: PCFBRX20
@@ -3839,7 +3839,7 @@ columns:
       row_name: DIBRGN25
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 27.53009
   - name: PCADVX20
     first_pair:
@@ -3853,7 +3853,7 @@ columns:
       row_name: CPADVX25
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 15.68018
   - name: PCPETG20
     first_pair:
@@ -3871,7 +3871,7 @@ columns:
       value: 0.844
   - name: PCPETG20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.7954403
     second_pair: ~
   - name: PCSYNF20
@@ -3890,7 +3890,7 @@ columns:
       value: 0.844
   - name: PCSYNF20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.9924006
     second_pair: ~
   - name: PCHTRB20
@@ -3916,7 +3916,7 @@ columns:
       value: -0.005
   - name: PCHTRB20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.75744
     second_pair: ~
   - name: PCELHY20
@@ -3961,7 +3961,7 @@ columns:
       value: 0.7
   - name: DPCOAL20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 788.61127
     second_pair: ~
   - name: DPLWRX20
@@ -3980,7 +3980,7 @@ columns:
       value: -0.3
   - name: DPLWRX20
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1051.4817
     second_pair: ~
   - name: DPPETG20
@@ -4098,7 +4098,7 @@ columns:
       value: 5
   - name: NURQ0120
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 35.90881
     second_pair: ~
   - name: NURQ0220
@@ -4110,7 +4110,7 @@ columns:
       value: 5
   - name: NURQ0220
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 71.81761
     second_pair: ~
   - name: NURQ0320
@@ -4122,7 +4122,7 @@ columns:
       value: 5
   - name: NURQ0320
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 111.3173
     second_pair: ~
   - name: NURQ0420
@@ -4134,7 +4134,7 @@ columns:
       value: 5
   - name: NURQ0420
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 147.2261
     second_pair: ~
   - name: NURQ0520
@@ -4146,7 +4146,7 @@ columns:
       value: 5
   - name: NURQ0520
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 180.741
     second_pair: ~
   - name: NURQ0620
@@ -4158,7 +4158,7 @@ columns:
       value: 5
   - name: NURQ0620
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 211.86195
     second_pair: ~
   - name: NURQ0720
@@ -4170,7 +4170,7 @@ columns:
       value: 5
   - name: NURQ0720
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 239.39204
     second_pair: ~
   - name: NURQ0820
@@ -4182,7 +4182,7 @@ columns:
       value: 5
   - name: NURQ0820
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 264.5282
     second_pair: ~
   - name: NURQ0920
@@ -4194,7 +4194,7 @@ columns:
       value: 5
   - name: NURQ0920
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 286.0735
     second_pair: ~
   - name: NURQ1020
@@ -4206,7 +4206,7 @@ columns:
       value: 5
   - name: NURQ1020
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 305.22485
     second_pair: ~
   - name: ELECDM20
@@ -4235,7 +4235,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 27.06297
   - name: WT251820
     first_pair:
@@ -4249,7 +4249,7 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 19.98275
   - name: WT252120
     first_pair:
@@ -4263,7 +4263,7 @@ columns:
       row_name: WTNELE20
       value: 67.06063
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.52069
   - name: WT252420
     first_pair:
@@ -4277,7 +4277,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.621241
   - name: WT252720
     first_pair:
@@ -4291,7 +4291,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.2339852
   - name: WT253020
     first_pair:
@@ -4305,7 +4305,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.6868534
   - name: WT281520
     first_pair:
@@ -4319,7 +4319,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 23.47899
   - name: WT281820
     first_pair:
@@ -4333,7 +4333,7 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.70245
   - name: WT282120
     first_pair:
@@ -4347,7 +4347,7 @@ columns:
       row_name: WTNELE20
       value: 67.06063
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.51756
   - name: WT282420
     first_pair:
@@ -4361,7 +4361,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.871146
   - name: WT282720
     first_pair:
@@ -4375,7 +4375,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.28504306
   - name: WT283020
     first_pair:
@@ -4389,7 +4389,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.9948206
   - name: WT311520
     first_pair:
@@ -4403,7 +4403,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.05852
   - name: WT311820
     first_pair:
@@ -4417,7 +4417,7 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.5718
   - name: WT312120
     first_pair:
@@ -4431,7 +4431,7 @@ columns:
       row_name: WTNELE20
       value: 67.06063
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.6514306
   - name: WT312420
     first_pair:
@@ -4445,7 +4445,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.2465105
   - name: WT312720
     first_pair:
@@ -4459,7 +4459,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.6891537
   - name: WT313020
     first_pair:
@@ -4473,7 +4473,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.1974983
   - name: WT341520
     first_pair:
@@ -4487,7 +4487,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.79364
   - name: WT341820
     first_pair:
@@ -4501,7 +4501,7 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.58357
   - name: WT342120
     first_pair:
@@ -4515,7 +4515,7 @@ columns:
       row_name: WTNELE20
       value: 67.06063
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.9156837
   - name: WT342420
     first_pair:
@@ -4529,7 +4529,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.25873026
   - name: WT342720
     first_pair:
@@ -4543,7 +4543,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.983901
   - name: WT343020
     first_pair:
@@ -4557,7 +4557,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -9.299976
   - name: WT371520
     first_pair:
@@ -4571,7 +4571,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.67686
   - name: WT371820
     first_pair:
@@ -4585,14 +4585,14 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.7308803
   - name: WT372120
     first_pair:
       row_name: INTSUM20
       value: 1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.304034
   - name: WT372120
     first_pair:
@@ -4613,7 +4613,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.65033
   - name: WT372720
     first_pair:
@@ -4627,7 +4627,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.1745553
   - name: WT373020
     first_pair:
@@ -4641,7 +4641,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -11.30708
   - name: WT401520
     first_pair:
@@ -4655,7 +4655,7 @@ columns:
       row_name: WTNELE20
       value: 61.38639
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.70107
   - name: WT401820
     first_pair:
@@ -4669,7 +4669,7 @@ columns:
       row_name: WTNELE20
       value: 64.16499
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.0072303
   - name: WT402120
     first_pair:
@@ -4683,7 +4683,7 @@ columns:
       row_name: WTNELE20
       value: 67.06063
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.1894833
   - name: WT402420
     first_pair:
@@ -4697,7 +4697,7 @@ columns:
       row_name: WTNELE20
       value: 70.07786
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.9337506
   - name: WT402720
     first_pair:
@@ -4711,7 +4711,7 @@ columns:
       row_name: WTNELE20
       value: 73.22142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -9.26612
   - name: WT403020
     first_pair:
@@ -4725,7 +4725,7 @@ columns:
       row_name: WTNELE20
       value: 76.4962
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -13.2234
   - name: PCCOAL25
     first_pair:
@@ -4743,7 +4743,7 @@ columns:
       value: 0.844
   - name: PCCOAL25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 58.56559
     second_pair: ~
   - name: PCLWRX25
@@ -4776,7 +4776,7 @@ columns:
       value: -0.007
   - name: PCLWRX25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.09402
     second_pair: ~
   - name: PCFBRX25
@@ -4798,7 +4798,7 @@ columns:
       row_name: DIBRGN30
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.09402
   - name: PCADVX25
     first_pair:
@@ -4812,7 +4812,7 @@ columns:
       row_name: CPADVX30
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.736157
   - name: PCPETG25
     first_pair:
@@ -4830,7 +4830,7 @@ columns:
       value: 0.844
   - name: PCPETG25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.1148272
     second_pair: ~
   - name: PCSYNF25
@@ -4849,7 +4849,7 @@ columns:
       value: 0.844
   - name: PCSYNF25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.8580453
     second_pair: ~
   - name: PCHTRB25
@@ -4875,7 +4875,7 @@ columns:
       value: -0.005
   - name: PCHTRB25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.40505
     second_pair: ~
   - name: PCELHY25
@@ -4923,7 +4923,7 @@ columns:
       row_name: NCFBRX25
       value: 0.2
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 489.66556
   - name: DPLWRX25
     first_pair:
@@ -4944,7 +4944,7 @@ columns:
       row_name: NCFBRX25
       value: 0.2
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 652.8874
   - name: DPFBRX25
     first_pair:
@@ -4962,7 +4962,7 @@ columns:
       value: -0.8
   - name: DPFBRX25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 707.2947
     second_pair: ~
   - name: DPPETG25
@@ -4987,7 +4987,7 @@ columns:
       row_name: SMNATU25
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 287.27045
   - name: DPELHY25
     first_pair:
@@ -4998,7 +4998,7 @@ columns:
       value: 0.3
   - name: DPELHY25
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 65.28874
     second_pair: ~
   - name: DPSWUX25
@@ -5106,7 +5106,7 @@ columns:
       value: 5
   - name: NURQ0125
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 22.29654
     second_pair: ~
   - name: NURQ0225
@@ -5118,7 +5118,7 @@ columns:
       value: 5
   - name: NURQ0225
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 44.59309
     second_pair: ~
   - name: NURQ0325
@@ -5130,7 +5130,7 @@ columns:
       value: 5
   - name: NURQ0325
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 69.11929
     second_pair: ~
   - name: NURQ0425
@@ -5142,7 +5142,7 @@ columns:
       value: 5
   - name: NURQ0425
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 91.41583
     second_pair: ~
   - name: NURQ0525
@@ -5154,7 +5154,7 @@ columns:
       value: 5
   - name: NURQ0525
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 112.22594
     second_pair: ~
   - name: NURQ0625
@@ -5166,7 +5166,7 @@ columns:
       value: 5
   - name: NURQ0625
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 131.5496
     second_pair: ~
   - name: NURQ0725
@@ -5178,7 +5178,7 @@ columns:
       value: 5
   - name: NURQ0725
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 148.64363
     second_pair: ~
   - name: NURQ0825
@@ -5190,7 +5190,7 @@ columns:
       value: 5
   - name: NURQ0825
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 164.2512
     second_pair: ~
   - name: NURQ0925
@@ -5202,7 +5202,7 @@ columns:
       value: 5
   - name: NURQ0925
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 177.62914
     second_pair: ~
   - name: NURQ1025
@@ -5214,7 +5214,7 @@ columns:
       value: 5
   - name: NURQ1025
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 189.52063
     second_pair: ~
   - name: ELECDM25
@@ -5243,7 +5243,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 24.47698
   - name: WT251825
     first_pair:
@@ -5257,7 +5257,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.48034
   - name: WT252125
     first_pair:
@@ -5271,7 +5271,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.28002
   - name: WT252425
     first_pair:
@@ -5285,7 +5285,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.7834325
   - name: WT252725
     first_pair:
@@ -5299,7 +5299,7 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9089863
   - name: WT253025
     first_pair:
@@ -5313,7 +5313,7 @@ columns:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.4152544
   - name: WT281525
     first_pair:
@@ -5327,7 +5327,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.90952
   - name: WT281825
     first_pair:
@@ -5341,7 +5341,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.31011
   - name: WT282125
     first_pair:
@@ -5355,7 +5355,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.46182
   - name: WT282425
     first_pair:
@@ -5369,7 +5369,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.2773042
   - name: WT282725
     first_pair:
@@ -5383,7 +5383,7 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.3203924
   - name: WT283025
     first_pair:
@@ -5397,7 +5397,7 @@ columns:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.3991218
   - name: WT311525
     first_pair:
@@ -5411,7 +5411,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.55412
   - name: WT311825
     first_pair:
@@ -5425,7 +5425,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.32834
   - name: WT312125
     first_pair:
@@ -5439,7 +5439,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.8111463
   - name: WT312425
     first_pair:
@@ -5453,7 +5453,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9201523
   - name: WT312725
     first_pair:
@@ -5467,7 +5467,7 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.4172459
   - name: WT313025
     first_pair:
@@ -5481,7 +5481,7 @@ columns:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.265058
   - name: WT341525
     first_pair:
@@ -5495,7 +5495,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.39762
   - name: WT341825
     first_pair:
@@ -5509,7 +5509,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.523317
   - name: WT342125
     first_pair:
@@ -5523,7 +5523,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.3175976
   - name: WT342425
     first_pair:
@@ -5537,7 +5537,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2972744
   - name: WT342725
     first_pair:
@@ -5551,7 +5551,7 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.389804
   - name: WT343025
     first_pair:
@@ -5565,7 +5565,7 @@ columns:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -9.020387
   - name: WT371525
     first_pair:
@@ -5579,7 +5579,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.4277
   - name: WT371825
     first_pair:
@@ -5593,7 +5593,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.8841004
   - name: WT372125
     first_pair:
@@ -5607,7 +5607,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9714436
   - name: WT372425
     first_pair:
@@ -5621,7 +5621,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.3836281
   - name: WT372725
     first_pair:
@@ -5635,7 +5635,7 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.2457633
   - name: WT373025
     first_pair:
@@ -5649,7 +5649,7 @@ columns:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -10.67196
   - name: WT401525
     first_pair:
@@ -5663,7 +5663,7 @@ columns:
       row_name: WTNELE25
       value: 66.13058
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.632841
   - name: WT401825
     first_pair:
@@ -5677,7 +5677,7 @@ columns:
       row_name: WTNELE25
       value: 70.15151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.400451
   - name: WT402125
     first_pair:
@@ -5691,7 +5691,7 @@ columns:
       row_name: WTNELE25
       value: 74.40401
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2364177
   - name: WT402425
     first_pair:
@@ -5705,7 +5705,7 @@ columns:
       row_name: WTNELE25
       value: 78.90066
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.347003
   - name: WT402725
     first_pair:
@@ -5719,14 +5719,14 @@ columns:
       row_name: WTNELE25
       value: 83.6547
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -8.992324
   - name: WT403025
     first_pair:
       row_name: WTNELE25
       value: 88.68006
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -12.22618
   - name: WT403025
     first_pair:
@@ -5751,7 +5751,7 @@ columns:
       value: 0.844
   - name: PCCOAL30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 36.36462
     second_pair: ~
   - name: PCLWRX30
@@ -5784,7 +5784,7 @@ columns:
       value: -0.007
   - name: PCLWRX30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.61404
     second_pair: ~
   - name: PCFBRX30
@@ -5806,7 +5806,7 @@ columns:
       row_name: DIBRGN35
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.61404
   - name: PCADVX30
     first_pair:
@@ -5820,7 +5820,7 @@ columns:
       row_name: CPADVX35
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.0453877
   - name: PCPETG30
     first_pair:
@@ -5838,7 +5838,7 @@ columns:
       value: 0.844
   - name: PCPETG30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.69222
     second_pair: ~
   - name: PCSYNF30
@@ -5857,7 +5857,7 @@ columns:
       value: 0.844
   - name: PCSYNF30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.1537
     second_pair: ~
   - name: PCHTRB30
@@ -5883,7 +5883,7 @@ columns:
       value: -0.005
   - name: PCHTRB30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.46072
     second_pair: ~
   - name: PCELHY30
@@ -5931,7 +5931,7 @@ columns:
       row_name: NCFBRX30
       value: 0.4
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 304.0438
   - name: DPLWRX30
     first_pair:
@@ -5952,7 +5952,7 @@ columns:
       row_name: NCFBRX30
       value: 0.4
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 405.39172
   - name: DPFBRX30
     first_pair:
@@ -5970,7 +5970,7 @@ columns:
       value: -0.6
   - name: DPFBRX30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 439.17435
     second_pair: ~
   - name: DPPETG30
@@ -5995,7 +5995,7 @@ columns:
       row_name: SMNATU30
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 178.37234
   - name: DPELHY30
     first_pair:
@@ -6006,7 +6006,7 @@ columns:
       value: 0.3
   - name: DPELHY30
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 40.53917
     second_pair: ~
   - name: DPSWUX30
@@ -6114,7 +6114,7 @@ columns:
       value: 5
   - name: NURQ0130
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.8444
     second_pair: ~
   - name: NURQ0230
@@ -6126,7 +6126,7 @@ columns:
       value: 5
   - name: NURQ0230
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 27.6888
     second_pair: ~
   - name: NURQ0330
@@ -6138,7 +6138,7 @@ columns:
       value: 5
   - name: NURQ0330
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 42.91764
     second_pair: ~
   - name: NURQ0430
@@ -6150,7 +6150,7 @@ columns:
       value: 5
   - name: NURQ0430
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 56.76204
     second_pair: ~
   - name: NURQ0530
@@ -6162,7 +6162,7 @@ columns:
       value: 5
   - name: NURQ0530
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 69.68348
     second_pair: ~
   - name: NURQ0630
@@ -6174,7 +6174,7 @@ columns:
       value: 5
   - name: NURQ0630
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 81.68196
     second_pair: ~
   - name: NURQ0730
@@ -6186,7 +6186,7 @@ columns:
       value: 5
   - name: NURQ0730
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 92.296
     second_pair: ~
   - name: NURQ0830
@@ -6198,7 +6198,7 @@ columns:
       value: 5
   - name: NURQ0830
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 101.98708
     second_pair: ~
   - name: NURQ0930
@@ -6210,7 +6210,7 @@ columns:
       value: 5
   - name: NURQ0930
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 110.29372
     second_pair: ~
   - name: NURQ1030
@@ -6222,7 +6222,7 @@ columns:
       value: 5
   - name: NURQ1030
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 117.6774
     second_pair: ~
   - name: ELECDM30
@@ -6251,7 +6251,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 20.94583
   - name: WT251830
     first_pair:
@@ -6265,7 +6265,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.48872
   - name: WT252130
     first_pair:
@@ -6279,7 +6279,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.932702
   - name: WT252430
     first_pair:
@@ -6293,7 +6293,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.149917
   - name: WT252730
     first_pair:
@@ -6307,7 +6307,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.03094628
   - name: WT253030
     first_pair:
@@ -6321,7 +6321,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.5178914
   - name: WT281530
     first_pair:
@@ -6335,7 +6335,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.62966
   - name: WT281830
     first_pair:
@@ -6349,7 +6349,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.62751
   - name: WT282130
     first_pair:
@@ -6363,7 +6363,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.4629564
   - name: WT282430
     first_pair:
@@ -6377,7 +6377,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0171595
   - name: WT282730
     first_pair:
@@ -6391,7 +6391,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8115946
   - name: WT283030
     first_pair:
@@ -6405,7 +6405,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.1103864
   - name: WT311530
     first_pair:
@@ -6419,7 +6419,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.5558
   - name: WT311830
     first_pair:
@@ -6433,7 +6433,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.975361
   - name: WT312130
     first_pair:
@@ -6447,7 +6447,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.1736746
   - name: WT312430
     first_pair:
@@ -6461,7 +6461,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.04024204
   - name: WT312730
     first_pair:
@@ -6475,7 +6475,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.5195014
   - name: WT313030
     first_pair:
@@ -6489,7 +6489,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.5865183
   - name: WT341530
     first_pair:
@@ -6503,7 +6503,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.70592
   - name: WT341830
     first_pair:
@@ -6517,7 +6517,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.5164633
   - name: WT342130
     first_pair:
@@ -6531,7 +6531,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0512016
   - name: WT342430
     first_pair:
@@ -6545,7 +6545,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7926271
   - name: WT342730
     first_pair:
@@ -6559,7 +6559,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.1029615
   - name: WT343030
     first_pair:
@@ -6573,7 +6573,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.9550915
   - name: WT371530
     first_pair:
@@ -6587,7 +6587,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.063108
   - name: WT371830
     first_pair:
@@ -6601,7 +6601,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.236233
   - name: WT372130
     first_pair:
@@ -6615,7 +6615,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.08295081
   - name: WT372430
     first_pair:
@@ -6629,7 +6629,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.4923172
   - name: WT372730
     first_pair:
@@ -6643,7 +6643,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.571365
   - name: WT373030
     first_pair:
@@ -6657,7 +6657,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -9.224222
   - name: WT401530
     first_pair:
@@ -6671,7 +6671,7 @@ columns:
       row_name: WTNELE30
       value: 71.24142
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.6117973
   - name: WT401830
     first_pair:
@@ -6685,7 +6685,7 @@ columns:
       row_name: WTNELE30
       value: 76.69657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.1212265
   - name: WT402130
     first_pair:
@@ -6699,7 +6699,7 @@ columns:
       row_name: WTNELE30
       value: 82.55151
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7426823
   - name: WT402430
     first_pair:
@@ -6713,7 +6713,7 @@ columns:
       row_name: WTNELE30
       value: 88.83424
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.068849
   - name: WT402730
     first_pair:
@@ -6727,7 +6727,7 @@ columns:
       row_name: WTNELE30
       value: 95.57462
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.933369
   - name: WT403030
     first_pair:
@@ -6741,7 +6741,7 @@ columns:
       row_name: WTNELE30
       value: 102.8045
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -10.40139
   - name: PCCOAL35
     first_pair:
@@ -6759,7 +6759,7 @@ columns:
       value: 0.844
   - name: PCCOAL35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 22.57957
     second_pair: ~
   - name: PCLWRX35
@@ -6792,7 +6792,7 @@ columns:
       value: -0.007
   - name: PCLWRX35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.5904837
     second_pair: ~
   - name: PCFBRX35
@@ -6814,7 +6814,7 @@ columns:
       row_name: DIBRGN40
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.5904837
   - name: PCADVX35
     first_pair:
@@ -6828,7 +6828,7 @@ columns:
       row_name: CPADVX40
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.7537103
   - name: PCPETG35
     first_pair:
@@ -6846,7 +6846,7 @@ columns:
       value: 0.844
   - name: PCPETG35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.42981416
     second_pair: ~
   - name: PCSYNF35
@@ -6865,7 +6865,7 @@ columns:
       value: -1
   - name: PCSYNF35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.71635693
     second_pair: ~
   - name: PCHTRB35
@@ -6891,7 +6891,7 @@ columns:
       value: -0.005
   - name: PCHTRB35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.0115986
     second_pair: ~
   - name: PCELHY35
@@ -6939,7 +6939,7 @@ columns:
       row_name: NCFBRX35
       value: 0.8
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 188.78728
   - name: DPLWRX35
     first_pair:
@@ -6960,7 +6960,7 @@ columns:
       row_name: NCFBRX35
       value: 0.8
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 251.71635
   - name: DPFBRX35
     first_pair:
@@ -6978,7 +6978,7 @@ columns:
       value: -0.2
   - name: DPFBRX35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 272.69272
     second_pair: ~
   - name: DPPETG35
@@ -7003,7 +7003,7 @@ columns:
       row_name: SMNATU35
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 110.7552
   - name: DPELHY35
     first_pair:
@@ -7014,7 +7014,7 @@ columns:
       value: 0.2
   - name: DPELHY35
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 25.17164
     second_pair: ~
   - name: DPSWUX35
@@ -7122,7 +7122,7 @@ columns:
       value: 5
   - name: NURQ0135
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.596283
     second_pair: ~
   - name: NURQ0235
@@ -7134,7 +7134,7 @@ columns:
       value: 5
   - name: NURQ0235
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.19257
     second_pair: ~
   - name: NURQ0335
@@ -7146,7 +7146,7 @@ columns:
       value: 5
   - name: NURQ0335
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.64848
     second_pair: ~
   - name: NURQ0435
@@ -7158,7 +7158,7 @@ columns:
       value: 5
   - name: NURQ0435
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 35.24476
     second_pair: ~
   - name: NURQ0535
@@ -7170,7 +7170,7 @@ columns:
       value: 5
   - name: NURQ0535
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 43.26796
     second_pair: ~
   - name: NURQ0635
@@ -7182,7 +7182,7 @@ columns:
       value: 5
   - name: NURQ0635
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 50.71807
     second_pair: ~
   - name: NURQ0735
@@ -7194,7 +7194,7 @@ columns:
       value: 5
   - name: NURQ0735
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 57.30855
     second_pair: ~
   - name: NURQ0835
@@ -7206,7 +7206,7 @@ columns:
       value: 5
   - name: NURQ0835
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 63.32595
     second_pair: ~
   - name: NURQ0935
@@ -7218,7 +7218,7 @@ columns:
       value: 5
   - name: NURQ0935
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 68.48372
     second_pair: ~
   - name: NURQ1035
@@ -7230,7 +7230,7 @@ columns:
       value: 5
   - name: NURQ1035
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 73.06841
     second_pair: ~
   - name: ELECDM35
@@ -7259,7 +7259,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.37481
   - name: WT251835
     first_pair:
@@ -7273,7 +7273,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.66085
   - name: WT252135
     first_pair:
@@ -7287,7 +7287,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.8870635
   - name: WT252435
     first_pair:
@@ -7301,7 +7301,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.8966465
   - name: WT252735
     first_pair:
@@ -7315,7 +7315,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.44070214
   - name: WT253035
     first_pair:
@@ -7329,7 +7329,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.233321
   - name: WT281535
     first_pair:
@@ -7343,7 +7343,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.41924
   - name: WT281835
     first_pair:
@@ -7357,7 +7357,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.18493
   - name: WT282135
     first_pair:
@@ -7371,7 +7371,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.811869
   - name: WT282435
     first_pair:
@@ -7385,7 +7385,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.1564195
   - name: WT282735
     first_pair:
@@ -7399,7 +7399,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.9007822
   - name: WT283035
     first_pair:
@@ -7413,7 +7413,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.4589806
   - name: WT311535
     first_pair:
@@ -7427,7 +7427,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.71933
   - name: WT311835
     first_pair:
@@ -7441,7 +7441,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.9231706
   - name: WT312135
     first_pair:
@@ -7455,7 +7455,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.9161735
   - name: WT312435
     first_pair:
@@ -7469,7 +7469,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.43328238
   - name: WT312735
     first_pair:
@@ -7483,7 +7483,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.2345693
   - name: WT313035
     first_pair:
@@ -7497,7 +7497,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.578624
   - name: WT341535
     first_pair:
@@ -7511,7 +7511,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.252294
   - name: WT341835
     first_pair:
@@ -7525,7 +7525,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.856503
   - name: WT342135
     first_pair:
@@ -7539,7 +7539,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.1839948
   - name: WT342435
     first_pair:
@@ -7553,7 +7553,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8858616
   - name: WT342735
     first_pair:
@@ -7567,7 +7567,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.453308
   - name: WT343035
     first_pair:
@@ -7581,7 +7581,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.60169
   - name: WT371535
     first_pair:
@@ -7595,7 +7595,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.9974704
   - name: WT371835
     first_pair:
@@ -7609,7 +7609,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.967606
   - name: WT372135
     first_pair:
@@ -7623,7 +7623,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.39918596
   - name: WT372435
     first_pair:
@@ -7637,7 +7637,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.2134933
   - name: WT372735
     first_pair:
@@ -7651,7 +7651,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.5672135
   - name: WT373035
     first_pair:
@@ -7665,7 +7665,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -7.536754
   - name: WT401535
     first_pair:
@@ -7679,7 +7679,7 @@ columns:
       row_name: WTNELE35
       value: 76.74724
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.9360657
   - name: WT401835
     first_pair:
@@ -7693,7 +7693,7 @@ columns:
       row_name: WTNELE35
       value: 83.85227
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.240738
   - name: WT402135
     first_pair:
@@ -7707,7 +7707,7 @@ columns:
       row_name: WTNELE35
       value: 91.5912
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8465617
   - name: WT402435
     first_pair:
@@ -7721,7 +7721,7 @@ columns:
       row_name: WTNELE35
       value: 100.01847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.427241
   - name: WT402735
     first_pair:
@@ -7735,7 +7735,7 @@ columns:
       row_name: WTNELE35
       value: 109.193
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.5855684
   - name: WT403035
     first_pair:
@@ -7749,7 +7749,7 @@ columns:
       row_name: WTNELE35
       value: 119.17859
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -8.391609
   - name: PCCOAL40
     first_pair:
@@ -7767,7 +7767,7 @@ columns:
       value: 0.844
   - name: PCCOAL40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.02014
     second_pair: ~
   - name: PCLWRX40
@@ -7800,7 +7800,7 @@ columns:
       value: -0.007
   - name: PCLWRX40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.0921717
     second_pair: ~
   - name: PCFBRX40
@@ -7822,7 +7822,7 @@ columns:
       row_name: DIBRGN45
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.0921717
   - name: PCADVX40
     first_pair:
@@ -7836,7 +7836,7 @@ columns:
       row_name: CPADVX45
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.3307588
   - name: PCPETG40
     first_pair:
@@ -7854,7 +7854,7 @@ columns:
       value: 0.844
   - name: PCPETG40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.26688078
     second_pair: ~
   - name: PCSYNF40
@@ -7873,7 +7873,7 @@ columns:
       value: 0.844
   - name: PCSYNF40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.44480127
     second_pair: ~
   - name: PCHTRB40
@@ -7899,7 +7899,7 @@ columns:
       value: -0.005
   - name: PCHTRB40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4908872
     second_pair: ~
   - name: PCELHY40
@@ -7944,7 +7944,7 @@ columns:
       value: 0.9
   - name: DPCOAL40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 117.22204
     second_pair: ~
   - name: DPLWRX40
@@ -7963,7 +7963,7 @@ columns:
       value: -0.1
   - name: DPLWRX40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 156.29605
     second_pair: ~
   - name: DPFBRX40
@@ -7978,7 +7978,7 @@ columns:
       row_name: NCCOAL40
       value: -0.1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 169.32072
   - name: DPPETG40
     first_pair:
@@ -8002,7 +8002,7 @@ columns:
       row_name: SMNATU40
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 68.77026
   - name: DPELHY40
     first_pair:
@@ -8013,7 +8013,7 @@ columns:
       value: 0.1
   - name: DPELHY40
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 15.62961
     second_pair: ~
   - name: DPSWUX40
@@ -8121,7 +8121,7 @@ columns:
       value: 5
   - name: NURQ0140
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.3376155
     second_pair: ~
   - name: NURQ0240
@@ -8133,7 +8133,7 @@ columns:
       value: 5
   - name: NURQ0240
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.67523
     second_pair: ~
   - name: NURQ0340
@@ -8145,7 +8145,7 @@ columns:
       value: 5
   - name: NURQ0340
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.54661
     second_pair: ~
   - name: NURQ0440
@@ -8157,7 +8157,7 @@ columns:
       value: 5
   - name: NURQ0440
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 21.88422
     second_pair: ~
   - name: NURQ0540
@@ -8169,7 +8169,7 @@ columns:
       value: 5
   - name: NURQ0540
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.866
     second_pair: ~
   - name: NURQ0640
@@ -8181,7 +8181,7 @@ columns:
       value: 5
   - name: NURQ0640
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 31.49193
     second_pair: ~
   - name: NURQ0740
@@ -8193,7 +8193,7 @@ columns:
       value: 5
   - name: NURQ0740
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 35.5841
     second_pair: ~
   - name: NURQ0840
@@ -8205,7 +8205,7 @@ columns:
       value: 5
   - name: NURQ0840
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 39.32043
     second_pair: ~
   - name: NURQ0940
@@ -8217,7 +8217,7 @@ columns:
       value: 5
   - name: NURQ0940
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 42.523
     second_pair: ~
   - name: NURQ1040
@@ -8229,7 +8229,7 @@ columns:
       value: 5
   - name: NURQ1040
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 45.36973
     second_pair: ~
   - name: ELECDM40
@@ -8258,7 +8258,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.13038
   - name: WT251840
     first_pair:
@@ -8272,7 +8272,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.213874
   - name: WT252140
     first_pair:
@@ -8286,7 +8286,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.225618
   - name: WT252440
     first_pair:
@@ -8300,7 +8300,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.988368
   - name: WT252740
     first_pair:
@@ -8314,7 +8314,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6408998
   - name: WT253040
     first_pair:
@@ -8328,7 +8328,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.777668
   - name: WT281540
     first_pair:
@@ -8342,7 +8342,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.5692
   - name: WT281840
     first_pair:
@@ -8356,7 +8356,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.1307263
   - name: WT282140
     first_pair:
@@ -8370,7 +8370,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.5302556
   - name: WT282440
     first_pair:
@@ -8384,7 +8384,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6077693
   - name: WT282740
     first_pair:
@@ -8398,7 +8398,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7658503
   - name: WT283040
     first_pair:
@@ -8412,7 +8412,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.6948566
   - name: WT311540
     first_pair:
@@ -8426,7 +8426,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.263435
   - name: WT311840
     first_pair:
@@ -8440,7 +8440,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.2553325
   - name: WT312140
     first_pair:
@@ -8454,7 +8454,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0039728
   - name: WT312440
     first_pair:
@@ -8468,7 +8468,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6351416
   - name: WT312740
     first_pair:
@@ -8482,7 +8482,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.7786088
   - name: WT313040
     first_pair:
@@ -8496,7 +8496,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.5205736
   - name: WT341540
     first_pair:
@@ -8510,7 +8510,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.1869965
   - name: WT341840
     first_pair:
@@ -8524,7 +8524,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.5664566
   - name: WT342140
     first_pair:
@@ -8538,7 +8538,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6294868
   - name: WT342440
     first_pair:
@@ -8552,7 +8552,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7544384
   - name: WT342740
     first_pair:
@@ -8566,7 +8566,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.690643
   - name: WT343040
     first_pair:
@@ -8580,7 +8580,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.2641687
   - name: WT371540
     first_pair:
@@ -8594,7 +8594,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.316501
   - name: WT371840
     first_pair:
@@ -8608,7 +8608,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0450857
   - name: WT372140
     first_pair:
@@ -8622,7 +8622,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6086755
   - name: WT372440
     first_pair:
@@ -8636,7 +8636,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.7627215
   - name: WT372740
     first_pair:
@@ -8650,7 +8650,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.5122204
   - name: WT373040
     first_pair:
@@ -8664,7 +8664,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.934013
   - name: WT401540
     first_pair:
@@ -8678,7 +8678,7 @@ columns:
       row_name: WTNELE40
       value: 82.67857
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.6310158
   - name: WT401840
     first_pair:
@@ -8692,7 +8692,7 @@ columns:
       row_name: WTNELE40
       value: 91.67559
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6741927
   - name: WT402140
     first_pair:
@@ -8706,7 +8706,7 @@ columns:
       row_name: WTNELE40
       value: 101.62077
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.724372
   - name: WT402440
     first_pair:
@@ -8720,7 +8720,7 @@ columns:
       row_name: WTNELE40
       value: 112.61078
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.6712763
   - name: WT402740
     first_pair:
@@ -8734,7 +8734,7 @@ columns:
       row_name: WTNELE40
       value: 124.75186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -5.2525363
   - name: WT403040
     first_pair:
@@ -8748,7 +8748,7 @@ columns:
       row_name: WTNELE40
       value: 138.16064
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -6.5376034
   - name: PCCOAL45
     first_pair:
@@ -8766,7 +8766,7 @@ columns:
       value: 0.844
   - name: PCCOAL45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.705401
     second_pair: ~
   - name: PCLWRX45
@@ -8799,7 +8799,7 @@ columns:
       value: -0.007
   - name: PCLWRX45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5409167
     second_pair: ~
   - name: PCFBRX45
@@ -8821,7 +8821,7 @@ columns:
       row_name: DIBRGN50
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5409167
   - name: PCADVX45
     first_pair:
@@ -8835,7 +8835,7 @@ columns:
       row_name: CPADVX50
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.4472178
   - name: PCPETG45
     first_pair:
@@ -8853,7 +8853,7 @@ columns:
       value: 0.844
   - name: PCPETG45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.16571195
     second_pair: ~
   - name: PCSYNF45
@@ -8872,7 +8872,7 @@ columns:
       value: 0.844
   - name: PCSYNF45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.2761866
     second_pair: ~
   - name: PCHTRB45
@@ -8898,7 +8898,7 @@ columns:
       value: -0.005
   - name: PCHTRB45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.5466449
     second_pair: ~
   - name: PCELHY45
@@ -8943,7 +8943,7 @@ columns:
       value: 0.2
   - name: DPCOAL45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 72.78566
     second_pair: ~
   - name: DPLWRX45
@@ -8962,7 +8962,7 @@ columns:
       value: 0.2
   - name: DPLWRX45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 97.04755
     second_pair: ~
   - name: DPFBRX45
@@ -8977,7 +8977,7 @@ columns:
       row_name: NCADVX45
       value: 0.2
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 105.13485
   - name: DPADVX45
     first_pair:
@@ -8988,7 +8988,7 @@ columns:
       value: -0.8
   - name: DPADVX45
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 97.04755
     second_pair: ~
   - name: DPPETG45
@@ -9013,14 +9013,14 @@ columns:
       row_name: SMNATU45
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 42.70092
   - name: DPELHY45
     first_pair:
       row_name: CPELHY45
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.704755
   - name: DPSWUX45
     first_pair:
@@ -9127,7 +9127,7 @@ columns:
       value: 5
   - name: NURQ0145
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.3142393
     second_pair: ~
   - name: NURQ0245
@@ -9139,7 +9139,7 @@ columns:
       value: 5
   - name: NURQ0245
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.6284785
     second_pair: ~
   - name: NURQ0345
@@ -9151,7 +9151,7 @@ columns:
       value: 5
   - name: NURQ0345
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.27414
     second_pair: ~
   - name: NURQ0445
@@ -9163,7 +9163,7 @@ columns:
       value: 5
   - name: NURQ0445
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.58838
     second_pair: ~
   - name: NURQ0545
@@ -9175,7 +9175,7 @@ columns:
       value: 5
   - name: NURQ0545
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.68167
     second_pair: ~
   - name: NURQ0645
@@ -9187,7 +9187,7 @@ columns:
       value: 5
   - name: NURQ0645
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 19.55401
     second_pair: ~
   - name: NURQ0745
@@ -9199,7 +9199,7 @@ columns:
       value: 5
   - name: NURQ0745
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 22.09493
     second_pair: ~
   - name: NURQ0845
@@ -9211,7 +9211,7 @@ columns:
       value: 5
   - name: NURQ0845
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 24.4149
     second_pair: ~
   - name: NURQ0945
@@ -9223,7 +9223,7 @@ columns:
       value: 5
   - name: NURQ0945
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.40344
     second_pair: ~
   - name: NURQ1045
@@ -9235,7 +9235,7 @@ columns:
       value: 5
   - name: NURQ1045
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 28.17103
     second_pair: ~
   - name: ELECDM45
@@ -9264,7 +9264,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 11.33469
   - name: WT251845
     first_pair:
@@ -9278,7 +9278,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.188756
   - name: WT252145
     first_pair:
@@ -9292,7 +9292,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.9232676
   - name: WT252445
     first_pair:
@@ -9306,7 +9306,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3494427
   - name: WT252745
     first_pair:
@@ -9320,7 +9320,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6806356
   - name: WT253045
     first_pair:
@@ -9334,7 +9334,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.2829497
   - name: WT281545
     first_pair:
@@ -9348,7 +9348,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.159662
   - name: WT281845
     first_pair:
@@ -9362,7 +9362,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.4711447
   - name: WT282145
     first_pair:
@@ -9376,7 +9376,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5659306
   - name: WT282445
     first_pair:
@@ -9390,7 +9390,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.27606988
   - name: WT282745
     first_pair:
@@ -9404,7 +9404,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.5300344
   - name: WT283045
     first_pair:
@@ -9418,7 +9418,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.9555688
   - name: WT311545
     first_pair:
@@ -9432,7 +9432,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.2299223
   - name: WT311845
     first_pair:
@@ -9446,7 +9446,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.947232
   - name: WT312145
     first_pair:
@@ -9460,7 +9460,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3616631
   - name: WT312445
     first_pair:
@@ -9474,7 +9474,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.67625636
   - name: WT312745
     first_pair:
@@ -9488,7 +9488,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.2836447
   - name: WT313045
     first_pair:
@@ -9502,7 +9502,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.552335
   - name: WT341545
     first_pair:
@@ -9516,7 +9516,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.517206
   - name: WT341845
     first_pair:
@@ -9530,7 +9530,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5947034
   - name: WT342145
     first_pair:
@@ -9544,7 +9544,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.29283145
   - name: WT342445
     first_pair:
@@ -9558,7 +9558,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.521481
   - name: WT342745
     first_pair:
@@ -9572,7 +9572,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.9525015
   - name: WT343045
     first_pair:
@@ -9586,7 +9586,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.0819874
   - name: WT371545
     first_pair:
@@ -9600,7 +9600,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.9965818
   - name: WT371845
     first_pair:
@@ -9614,7 +9614,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.393869
   - name: WT372145
     first_pair:
@@ -9628,7 +9628,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6561245
   - name: WT372445
     first_pair:
@@ -9642,7 +9642,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.2719088
   - name: WT372745
     first_pair:
@@ -9656,7 +9656,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.5463421
   - name: WT373045
     first_pair:
@@ -9670,7 +9670,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.5522356
   - name: WT401545
     first_pair:
@@ -9684,7 +9684,7 @@ columns:
       row_name: WTNELE45
       value: 89.0683
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.6460395
   - name: WT401845
     first_pair:
@@ -9698,7 +9698,7 @@ columns:
       row_name: WTNELE45
       value: 100.22882
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3273482
   - name: WT402145
     first_pair:
@@ -9712,7 +9712,7 @@ columns:
       row_name: WTNELE45
       value: 112.7486
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.4989394
   - name: WT402445
     first_pair:
@@ -9726,7 +9726,7 @@ columns:
       row_name: WTNELE45
       value: 126.78847
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.938401
   - name: WT402745
     first_pair:
@@ -9740,7 +9740,7 @@ columns:
       row_name: WTNELE45
       value: 142.5277
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.0737615
   - name: WT403045
     first_pair:
@@ -9754,7 +9754,7 @@ columns:
       row_name: WTNELE45
       value: 160.16606
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -4.969887
   - name: PCCOAL50
     first_pair:
@@ -9772,7 +9772,7 @@ columns:
       value: 0.844
   - name: PCCOAL50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.4053698
     second_pair: ~
   - name: PCLWRX50
@@ -9805,7 +9805,7 @@ columns:
       value: -0.007
   - name: PCLWRX50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.5777094
     second_pair: ~
   - name: PCFBRX50
@@ -9827,7 +9827,7 @@ columns:
       row_name: DIBRGN55
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.5777094
   - name: PCADVX50
     first_pair:
@@ -9841,7 +9841,7 @@ columns:
       row_name: CPADVX55
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.8986084
   - name: PCPETG50
     first_pair:
@@ -9859,7 +9859,7 @@ columns:
       value: 0.844
   - name: PCPETG50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.10289409
     second_pair: ~
   - name: PCSYNF50
@@ -9878,7 +9878,7 @@ columns:
       value: 0.844
   - name: PCSYNF50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.17149015
     second_pair: ~
   - name: PCHTRB50
@@ -9904,7 +9904,7 @@ columns:
       value: -0.005
   - name: PCHTRB50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.96034485
     second_pair: ~
   - name: PCELHY50
@@ -9949,7 +9949,7 @@ columns:
       value: 0.4
   - name: DPCOAL50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 45.19417
     second_pair: ~
   - name: DPLWRX50
@@ -9968,7 +9968,7 @@ columns:
       value: 0.4
   - name: DPLWRX50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 60.25889
     second_pair: ~
   - name: DPFBRX50
@@ -9983,7 +9983,7 @@ columns:
       row_name: NCADVX50
       value: 0.4
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 65.28047
   - name: DPADVX50
     first_pair:
@@ -9994,7 +9994,7 @@ columns:
       value: -0.6
   - name: DPADVX50
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 60.25889
     second_pair: ~
   - name: DPPETG50
@@ -10019,14 +10019,14 @@ columns:
       row_name: SMNATU50
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 26.51391
   - name: DPELHY50
     first_pair:
       row_name: CPELHY50
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.0258894
   - name: DPSWUX50
     first_pair:
@@ -10133,7 +10133,7 @@ columns:
       value: 5
   - name: NURQ0150
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0578818
     second_pair: ~
   - name: NURQ0250
@@ -10145,7 +10145,7 @@ columns:
       value: 5
   - name: NURQ0250
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.1157637
     second_pair: ~
   - name: NURQ0350
@@ -10157,7 +10157,7 @@ columns:
       value: 5
   - name: NURQ0350
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.3794336
     second_pair: ~
   - name: NURQ0450
@@ -10169,7 +10169,7 @@ columns:
       value: 5
   - name: NURQ0450
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.437315
     second_pair: ~
   - name: NURQ0550
@@ -10181,7 +10181,7 @@ columns:
       value: 5
   - name: NURQ0550
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.35801
     second_pair: ~
   - name: NURQ0650
@@ -10193,7 +10193,7 @@ columns:
       value: 5
   - name: NURQ0650
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 12.1415
     second_pair: ~
   - name: NURQ0750
@@ -10205,7 +10205,7 @@ columns:
       value: 5
   - name: NURQ0750
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 13.71921
     second_pair: ~
   - name: NURQ0850
@@ -10217,7 +10217,7 @@ columns:
       value: 5
   - name: NURQ0850
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 15.15973
     second_pair: ~
   - name: NURQ0950
@@ -10229,7 +10229,7 @@ columns:
       value: 5
   - name: NURQ0950
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.39446
     second_pair: ~
   - name: NURQ1050
@@ -10241,7 +10241,7 @@ columns:
       value: 5
   - name: NURQ1050
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.492
     second_pair: ~
   - name: ELECDM50
@@ -10270,7 +10270,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.030076
   - name: WT251850
     first_pair:
@@ -10284,7 +10284,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.5790668
   - name: WT252150
     first_pair:
@@ -10298,7 +10298,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.939867
   - name: WT252450
     first_pair:
@@ -10312,7 +10312,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9199166
   - name: WT252750
     first_pair:
@@ -10326,7 +10326,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.62729394
   - name: WT253050
     first_pair:
@@ -10340,7 +10340,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.813326
   - name: WT281550
     first_pair:
@@ -10354,7 +10354,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.2069297
   - name: WT281850
     first_pair:
@@ -10368,7 +10368,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.1812015
   - name: WT282150
     first_pair:
@@ -10382,7 +10382,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.8672404
   - name: WT282450
     first_pair:
@@ -10396,7 +10396,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.0962163
   - name: WT282750
     first_pair:
@@ -10410,7 +10410,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2603256
   - name: WT283050
     first_pair:
@@ -10424,7 +10424,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.3001983
   - name: WT311550
     first_pair:
@@ -10438,7 +10438,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.612816
   - name: WT311850
     first_pair:
@@ -10452,7 +10452,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.958943
   - name: WT312150
     first_pair:
@@ -10466,7 +10466,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.92936254
   - name: WT312450
     first_pair:
@@ -10480,7 +10480,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.62400675
   - name: WT312750
     first_pair:
@@ -10494,7 +10494,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8138326
   - name: WT313050
     first_pair:
@@ -10508,7 +10508,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.7259073
   - name: WT341550
     first_pair:
@@ -10522,7 +10522,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.2184176
   - name: WT341850
     first_pair:
@@ -10536,7 +10536,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.889813
   - name: WT342150
     first_pair:
@@ -10550,7 +10550,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.108985
   - name: WT342450
     first_pair:
@@ -10564,7 +10564,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2539979
   - name: WT342750
     first_pair:
@@ -10578,7 +10578,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.2979946
   - name: WT343050
     first_pair:
@@ -10592,7 +10592,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.0982823
   - name: WT371550
     first_pair:
@@ -10606,7 +10606,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.9982407
   - name: WT371850
     first_pair:
@@ -10620,7 +10620,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9542637
   - name: WT372150
     first_pair:
@@ -10634,7 +10634,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6088917
   - name: WT372450
     first_pair:
@@ -10648,7 +10648,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8052758
   - name: WT372750
     first_pair:
@@ -10662,7 +10662,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.7216637
   - name: WT373050
     first_pair:
@@ -10676,7 +10676,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.4241314
   - name: WT401550
     first_pair:
@@ -10690,7 +10690,7 @@ columns:
       row_name: WTNELE50
       value: 95.95186
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.9301044
   - name: WT401850
     first_pair:
@@ -10704,7 +10704,7 @@ columns:
       row_name: WTNELE50
       value: 109.58005
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.13528906
   - name: WT402150
     first_pair:
@@ -10718,7 +10718,7 @@ columns:
       row_name: WTNELE50
       value: 125.09498
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2373171
   - name: WT402450
     first_pair:
@@ -10732,7 +10732,7 @@ columns:
       row_name: WTNELE50
       value: 142.75113
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.2878613
   - name: WT402750
     first_pair:
@@ -10746,7 +10746,7 @@ columns:
       row_name: WTNELE50
       value: 162.8364
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.0925412
   - name: WT403050
     first_pair:
@@ -10760,7 +10760,7 @@ columns:
       row_name: WTNELE50
       value: 185.67636
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -3.7093778
   - name: PCCOAL55
     first_pair:
@@ -10778,7 +10778,7 @@ columns:
       value: 0.844
   - name: PCCOAL55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.3563092
     second_pair: ~
   - name: PCLWRX55
@@ -10811,7 +10811,7 @@ columns:
       value: -0.007
   - name: PCLWRX55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9796334
     second_pair: ~
   - name: PCFBRX55
@@ -10833,7 +10833,7 @@ columns:
       row_name: DIBRGN60
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9796334
   - name: PCADVX55
     first_pair:
@@ -10847,7 +10847,7 @@ columns:
       row_name: CPADVX60
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5579651
   - name: PCPETG55
     first_pair:
@@ -10865,7 +10865,7 @@ columns:
       value: 0.844
   - name: PCPETG55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.06388913
     second_pair: ~
   - name: PCSYNF55
@@ -10884,7 +10884,7 @@ columns:
       value: 0.844
   - name: PCSYNF55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.10648189
     second_pair: ~
   - name: PCHTRB55
@@ -10910,7 +10910,7 @@ columns:
       value: -0.005
   - name: PCHTRB55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5962986
     second_pair: ~
   - name: PCELHY55
@@ -10955,7 +10955,7 @@ columns:
       value: 0.8
   - name: DPCOAL55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 28.06202
     second_pair: ~
   - name: DPLWRX55
@@ -10974,7 +10974,7 @@ columns:
       value: 0.8
   - name: DPLWRX55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 37.41603
     second_pair: ~
   - name: DPFBRX55
@@ -10989,7 +10989,7 @@ columns:
       row_name: NCADVX55
       value: 0.8
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 40.53404
   - name: DPADVX55
     first_pair:
@@ -11000,7 +11000,7 @@ columns:
       value: -0.2
   - name: DPADVX55
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 37.41603
     second_pair: ~
   - name: DPPETG55
@@ -11025,14 +11025,14 @@ columns:
       row_name: SMNATU55
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 16.46305
   - name: DPELHY55
     first_pair:
       row_name: CPELHY55
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.7416034
   - name: DPSWUX55
     first_pair:
@@ -11139,7 +11139,7 @@ columns:
       value: 5
   - name: NURQ0155
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2777827
     second_pair: ~
   - name: NURQ0255
@@ -11151,7 +11151,7 @@ columns:
       value: 5
   - name: NURQ0255
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5555654
     second_pair: ~
   - name: NURQ0355
@@ -11163,7 +11163,7 @@ columns:
       value: 5
   - name: NURQ0355
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.9611263
     second_pair: ~
   - name: NURQ0455
@@ -11175,7 +11175,7 @@ columns:
       value: 5
   - name: NURQ0455
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.2389092
     second_pair: ~
   - name: NURQ0555
@@ -11187,7 +11187,7 @@ columns:
       value: 5
   - name: NURQ0555
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.431506
     second_pair: ~
   - name: NURQ0655
@@ -11199,7 +11199,7 @@ columns:
       value: 5
   - name: NURQ0655
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.538918
     second_pair: ~
   - name: NURQ0755
@@ -11211,7 +11211,7 @@ columns:
       value: 5
   - name: NURQ0755
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.518551
     second_pair: ~
   - name: NURQ0855
@@ -11223,7 +11223,7 @@ columns:
       value: 5
   - name: NURQ0855
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.412999
     second_pair: ~
   - name: NURQ0955
@@ -11235,7 +11235,7 @@ columns:
       value: 5
   - name: NURQ0955
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.17967
     second_pair: ~
   - name: NURQ1055
@@ -11247,7 +11247,7 @@ columns:
       value: 5
   - name: NURQ1055
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.86115
     second_pair: ~
   - name: ELECDM55
@@ -11276,7 +11276,7 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 7.1436186
   - name: WT251855
     first_pair:
@@ -11290,7 +11290,7 @@ columns:
       row_name: WTNELE55
       value: 119.80374
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.3026886
   - name: WT252155
     first_pair:
@@ -11304,7 +11304,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.193155
   - name: WT252455
     first_pair:
@@ -11318,7 +11318,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6253493
   - name: WT252755
     first_pair:
@@ -11332,7 +11332,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.540858
   - name: WT253055
     first_pair:
@@ -11346,7 +11346,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.4090878
   - name: WT281555
     first_pair:
@@ -11360,7 +11360,7 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.6323357
   - name: WT281855
     first_pair:
@@ -11374,7 +11374,7 @@ columns:
       row_name: WTNELE55
       value: 119.80374
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.1776376
   - name: WT282155
     first_pair:
@@ -11388,7 +11388,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3549007
   - name: WT282455
     first_pair:
@@ -11402,7 +11402,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.00024228
   - name: WT282755
     first_pair:
@@ -11416,7 +11416,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.007416
   - name: WT283055
     first_pair:
@@ -11430,7 +11430,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7576077
   - name: WT311555
     first_pair:
@@ -11444,7 +11444,7 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.33005
   - name: WT311855
     first_pair:
@@ -11458,7 +11458,7 @@ columns:
       row_name: WTNELE55
       value: 119.80374
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.2081714
   - name: WT312155
     first_pair:
@@ -11472,7 +11472,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.63256973
   - name: WT312455
     first_pair:
@@ -11486,7 +11486,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.53841776
   - name: WT312755
     first_pair:
@@ -11500,7 +11500,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.409453
   - name: WT313055
     first_pair:
@@ -11514,7 +11514,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.0579302
   - name: WT341555
     first_pair:
@@ -11528,7 +11528,7 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.2073736
   - name: WT341855
     first_pair:
@@ -11542,7 +11542,7 @@ columns:
       row_name: WTNELE55
       value: 119.80374
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3724124
   - name: WT342155
     first_pair:
@@ -11556,7 +11556,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.00986145
   - name: WT342455
     first_pair:
@@ -11570,7 +11570,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.0027868
   - name: WT342755
     first_pair:
@@ -11584,7 +11584,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7560418
   - name: WT343055
     first_pair:
@@ -11598,7 +11598,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.3168328
   - name: WT371555
     first_pair:
@@ -11612,14 +11612,14 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.2391179
   - name: WT371855
     first_pair:
       row_name: INTSUM55
       value: 1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.65160954
   - name: WT371855
     first_pair:
@@ -11640,7 +11640,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.5271952
   - name: WT372455
     first_pair:
@@ -11654,7 +11654,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.4032831
   - name: WT372755
     first_pair:
@@ -11668,7 +11668,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.0549583
   - name: WT373055
     first_pair:
@@ -11682,7 +11682,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.5401242
   - name: WT401555
     first_pair:
@@ -11696,7 +11696,7 @@ columns:
       row_name: WTNELE55
       value: 103.3674
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.403685
   - name: WT401855
     first_pair:
@@ -11710,7 +11710,7 @@ columns:
       row_name: WTNELE55
       value: 119.80374
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.02968468
   - name: WT402155
     first_pair:
@@ -11724,7 +11724,7 @@ columns:
       row_name: WTNELE55
       value: 138.79333
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.9905797
   - name: WT402455
     first_pair:
@@ -11738,7 +11738,7 @@ columns:
       row_name: WTNELE55
       value: 160.72348
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7488405
   - name: WT402755
     first_pair:
@@ -11752,7 +11752,7 @@ columns:
       row_name: WTNELE55
       value: 186.03886
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.3128703
   - name: WT403055
     first_pair:
@@ -11766,7 +11766,7 @@ columns:
       row_name: WTNELE55
       value: 215.24979
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -2.732785
   - name: PCCOAL60
     first_pair:
@@ -11784,7 +11784,7 @@ columns:
       value: 0.844
   - name: PCCOAL60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.084004
     second_pair: ~
   - name: PCLWRX60
@@ -11817,7 +11817,7 @@ columns:
       value: -0.007
   - name: PCLWRX60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6082753
     second_pair: ~
   - name: PCFBRX60
@@ -11839,7 +11839,7 @@ columns:
       row_name: DIBRGN65
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6082753
   - name: PCADVX60
     first_pair:
@@ -11853,7 +11853,7 @@ columns:
       row_name: CPADVX65
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.34645244
   - name: PCPETG60
     first_pair:
@@ -11871,7 +11871,7 @@ columns:
       value: 0.844
   - name: PCPETG60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.03967013
     second_pair: ~
   - name: PCSYNF60
@@ -11890,7 +11890,7 @@ columns:
       value: 0.844
   - name: PCSYNF60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.06611688
     second_pair: ~
   - name: PCHTRB60
@@ -11916,7 +11916,7 @@ columns:
       value: -0.005
   - name: PCHTRB60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.37025452
     second_pair: ~
   - name: PCELHY60
@@ -11957,7 +11957,7 @@ columns:
       row_name: CPCOAL60
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 17.42431
   - name: DPLWRX60
     first_pair:
@@ -11971,7 +11971,7 @@ columns:
       row_name: SMNATU60
       value: 0.5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 23.23241
   - name: DPFBRX60
     first_pair:
@@ -11982,7 +11982,7 @@ columns:
       value: -2
   - name: DPFBRX60
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 25.16845
     second_pair: ~
   - name: DPADVX60
@@ -11990,7 +11990,7 @@ columns:
       row_name: CPADVX60
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 23.23241
   - name: DPPETG60
     first_pair:
@@ -12014,14 +12014,14 @@ columns:
       row_name: SMNATU60
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.22226
   - name: DPELHY60
     first_pair:
       row_name: CPELHY60
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.3232412
   - name: DPSWUX60
     first_pair:
@@ -12128,7 +12128,7 @@ columns:
       value: 5
   - name: NURQ0160
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.7934025
     second_pair: ~
   - name: NURQ0260
@@ -12140,7 +12140,7 @@ columns:
       value: 5
   - name: NURQ0260
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.586805
     second_pair: ~
   - name: NURQ0360
@@ -12152,7 +12152,7 @@ columns:
       value: 5
   - name: NURQ0360
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4595478
     second_pair: ~
   - name: NURQ0460
@@ -12164,7 +12164,7 @@ columns:
       value: 5
   - name: NURQ0460
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.2529504
     second_pair: ~
   - name: NURQ0560
@@ -12176,7 +12176,7 @@ columns:
       value: 5
   - name: NURQ0560
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.9934595
     second_pair: ~
   - name: NURQ0660
@@ -12188,7 +12188,7 @@ columns:
       value: 5
   - name: NURQ0660
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.681075
     second_pair: ~
   - name: NURQ0760
@@ -12200,7 +12200,7 @@ columns:
       value: 5
   - name: NURQ0760
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.28935
     second_pair: ~
   - name: NURQ0860
@@ -12212,7 +12212,7 @@ columns:
       value: 5
   - name: NURQ0860
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.844732
     second_pair: ~
   - name: NURQ0960
@@ -12224,7 +12224,7 @@ columns:
       value: 5
   - name: NURQ0960
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.3207736
     second_pair: ~
   - name: NURQ1060
@@ -12236,7 +12236,7 @@ columns:
       value: 5
   - name: NURQ1060
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.7439213
     second_pair: ~
   - name: ELECDM60
@@ -12265,7 +12265,7 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.626852
   - name: WT251860
     first_pair:
@@ -12279,7 +12279,7 @@ columns:
       row_name: WTNELE60
       value: 130.9813
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.3067334
   - name: WT252160
     first_pair:
@@ -12293,7 +12293,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.6339656
   - name: WT252460
     first_pair:
@@ -12307,7 +12307,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.4267672
   - name: WT252760
     first_pair:
@@ -12321,7 +12321,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.44527343
   - name: WT253060
     first_pair:
@@ -12335,7 +12335,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.0758059
   - name: WT281560
     first_pair:
@@ -12349,7 +12349,7 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.384108
   - name: WT281860
     first_pair:
@@ -12363,7 +12363,7 @@ columns:
       row_name: WTNELE60
       value: 130.9813
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4084969
   - name: WT282160
     first_pair:
@@ -12377,7 +12377,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9841133
   - name: WT282460
     first_pair:
@@ -12391,7 +12391,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.04383189
   - name: WT282760
     first_pair:
@@ -12405,7 +12405,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.78638583
   - name: WT283060
     first_pair:
@@ -12419,7 +12419,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.3232924
   - name: WT311560
     first_pair:
@@ -12433,7 +12433,7 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.3287385
   - name: WT311860
     first_pair:
@@ -12447,7 +12447,7 @@ columns:
       row_name: WTNELE60
       value: 130.9813
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.6456916
   - name: WT312160
     first_pair:
@@ -12461,7 +12461,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.43224224
   - name: WT312460
     first_pair:
@@ -12475,7 +12475,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.4434765
   - name: WT312760
     first_pair:
@@ -12489,7 +12489,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.0760671
   - name: WT313060
     first_pair:
@@ -12503,7 +12503,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.5334642
   - name: WT341560
     first_pair:
@@ -12517,7 +12517,7 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4320655
   - name: WT341860
     first_pair:
@@ -12531,7 +12531,7 @@ columns:
       row_name: WTNELE60
       value: 130.9813
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.99759007
   - name: WT342160
     first_pair:
@@ -12545,7 +12545,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.03664347
   - name: WT342460
     first_pair:
@@ -12559,7 +12559,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.7830263
   - name: WT342760
     first_pair:
@@ -12573,7 +12573,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.3221887
   - name: WT343060
     first_pair:
@@ -12587,7 +12587,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7120323
   - name: WT371560
     first_pair:
@@ -12601,14 +12601,14 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.6698658
   - name: WT371860
     first_pair:
       row_name: INTSUM60
       value: 1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.44668365
   - name: WT371860
     first_pair:
@@ -12629,7 +12629,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.43521088
   - name: WT372460
     first_pair:
@@ -12643,7 +12643,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.0716541
   - name: WT372760
     first_pair:
@@ -12657,7 +12657,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.5313998
   - name: WT373060
     first_pair:
@@ -12671,7 +12671,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.8638208
   - name: WT401560
     first_pair:
@@ -12685,7 +12685,7 @@ columns:
       row_name: WTNELE60
       value: 111.35605
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.0216678
   - name: WT401860
     first_pair:
@@ -12699,7 +12699,7 @@ columns:
       row_name: WTNELE60
       value: 130.9813
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.0218241
   - name: WT402160
     first_pair:
@@ -12713,7 +12713,7 @@ columns:
       row_name: WTNELE60
       value: 153.9917
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.77416486
   - name: WT402460
     first_pair:
@@ -12727,7 +12727,7 @@ columns:
       row_name: WTNELE60
       value: 180.95856
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.317112
   - name: WT402760
     first_pair:
@@ -12741,7 +12741,7 @@ columns:
       row_name: WTNELE60
       value: 212.54745
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.7093194
   - name: WT403060
     first_pair:
@@ -12755,7 +12755,7 @@ columns:
       row_name: WTNELE60
       value: 249.5335
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.9929063
   - name: PCCOAL65
     first_pair:
@@ -12773,7 +12773,7 @@ columns:
       value: 0.844
   - name: PCCOAL65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2940025
     second_pair: ~
   - name: PCLWRX65
@@ -12806,7 +12806,7 @@ columns:
       value: -0.007
   - name: PCLWRX65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3776911
     second_pair: ~
   - name: PCFBRX65
@@ -12828,7 +12828,7 @@ columns:
       row_name: DIBRGN70
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3776911
   - name: PCADVX65
     first_pair:
@@ -12842,7 +12842,7 @@ columns:
       row_name: CPADVX70
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.2151197
   - name: PCPETG65
     first_pair:
@@ -12860,7 +12860,7 @@ columns:
       value: 0.844
   - name: PCPETG65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.02463203
     second_pair: ~
   - name: PCSYNF65
@@ -12879,7 +12879,7 @@ columns:
       value: 0.844
   - name: PCSYNF65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.04105338
     second_pair: ~
   - name: PCHTRB65
@@ -12905,7 +12905,7 @@ columns:
       value: -0.005
   - name: PCHTRB65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.22989891
     second_pair: ~
   - name: PCELHY65
@@ -12946,7 +12946,7 @@ columns:
       row_name: CPCOAL65
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 10.81913
   - name: DPLWRX65
     first_pair:
@@ -12960,7 +12960,7 @@ columns:
       row_name: SMNATU65
       value: 0.5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.4255
   - name: DPFBRX65
     first_pair:
@@ -12971,7 +12971,7 @@ columns:
       value: -2
   - name: DPFBRX65
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 15.62763
     second_pair: ~
   - name: DPADVX65
@@ -12979,7 +12979,7 @@ columns:
       row_name: CPADVX65
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 14.4255
   - name: DPPETG65
     first_pair:
@@ -13003,14 +13003,14 @@ columns:
       row_name: SMNATU65
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.34722
   - name: DPELHY65
     first_pair:
       row_name: CPELHY65
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.4425501
   - name: DPSWUX65
     first_pair:
@@ -13117,7 +13117,7 @@ columns:
       value: 5
   - name: NURQ0165
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.49264053
     second_pair: ~
   - name: NURQ0265
@@ -13129,7 +13129,7 @@ columns:
       value: 5
   - name: NURQ0265
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.98528105
     second_pair: ~
   - name: NURQ0365
@@ -13141,7 +13141,7 @@ columns:
       value: 5
   - name: NURQ0365
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.5271857
     second_pair: ~
   - name: NURQ0465
@@ -13153,7 +13153,7 @@ columns:
       value: 5
   - name: NURQ0465
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0198262
     second_pair: ~
   - name: NURQ0565
@@ -13165,7 +13165,7 @@ columns:
       value: 5
   - name: NURQ0565
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.479624
     second_pair: ~
   - name: NURQ0665
@@ -13177,7 +13177,7 @@ columns:
       value: 5
   - name: NURQ0665
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.9065793
     second_pair: ~
   - name: NURQ0765
@@ -13189,7 +13189,7 @@ columns:
       value: 5
   - name: NURQ0765
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.2842703
     second_pair: ~
   - name: NURQ0865
@@ -13201,7 +13201,7 @@ columns:
       value: 5
   - name: NURQ0865
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.6291187
     second_pair: ~
   - name: NURQ0965
@@ -13213,7 +13213,7 @@ columns:
       value: 5
   - name: NURQ0965
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.924703
     second_pair: ~
   - name: NURQ1065
@@ -13225,7 +13225,7 @@ columns:
       value: 5
   - name: NURQ1065
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.1874447
     second_pair: ~
   - name: ELECDM65
@@ -13254,7 +13254,7 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.4171305
   - name: WT251865
     first_pair:
@@ -13268,7 +13268,7 @@ columns:
       row_name: WTNELE65
       value: 143.2017
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5336456
   - name: WT252165
     first_pair:
@@ -13282,7 +13282,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.215125
   - name: WT252465
     first_pair:
@@ -13296,7 +13296,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.29113558
   - name: WT252765
     first_pair:
@@ -13310,7 +13310,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.35705015
   - name: WT253065
     first_pair:
@@ -13324,7 +13324,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.8122287
   - name: WT281565
     first_pair:
@@ -13338,7 +13338,7 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.4013586
   - name: WT281865
     first_pair:
@@ -13352,7 +13352,7 @@ columns:
       row_name: WTNELE65
       value: 143.2017
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.8208126
   - name: WT282165
     first_pair:
@@ -13366,7 +13366,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.71436197
   - name: WT282465
     first_pair:
@@ -13380,7 +13380,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.06101343
   - name: WT282765
     first_pair:
@@ -13394,7 +13394,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6049453
   - name: WT283065
     first_pair:
@@ -13408,7 +13408,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.98691314
   - name: WT311565
     first_pair:
@@ -13422,7 +13422,7 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.5512362
   - name: WT311865
     first_pair:
@@ -13436,7 +13436,7 @@ columns:
       row_name: WTNELE65
       value: 143.2017
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2242262
   - name: WT312165
     first_pair:
@@ -13450,7 +13450,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.29526207
   - name: WT312465
     first_pair:
@@ -13464,7 +13464,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.35573494
   - name: WT312765
     first_pair:
@@ -13478,7 +13478,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.8124144
   - name: WT313065
     first_pair:
@@ -13492,7 +13492,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1331105
   - name: WT341565
     first_pair:
@@ -13506,7 +13506,7 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.8393805
   - name: WT341865
     first_pair:
@@ -13520,7 +13520,7 @@ columns:
       row_name: WTNELE65
       value: 143.2017
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.7246709
   - name: WT342165
     first_pair:
@@ -13534,7 +13534,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.05567395
   - name: WT342465
     first_pair:
@@ -13548,7 +13548,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6025219
   - name: WT342765
     first_pair:
@@ -13562,7 +13562,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.98613995
   - name: WT343065
     first_pair:
@@ -13576,7 +13576,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2555299
   - name: WT371565
     first_pair:
@@ -13590,11 +13590,11 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2429965
   - name: WT371865
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3061495
     second_pair:
       row_name: WTNELE65
@@ -13618,7 +13618,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.34968385
   - name: WT372465
     first_pair:
@@ -13632,7 +13632,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.809277
   - name: WT372765
     first_pair:
@@ -13646,7 +13646,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.1316851
   - name: WT373065
     first_pair:
@@ -13660,7 +13660,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.3580914
   - name: WT401565
     first_pair:
@@ -13674,7 +13674,7 @@ columns:
       row_name: WTNELE65
       value: 119.96209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.74309736
   - name: WT401865
     first_pair:
@@ -13688,7 +13688,7 @@ columns:
       row_name: WTNELE65
       value: 143.2017
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.0446622
   - name: WT402165
     first_pair:
@@ -13702,7 +13702,7 @@ columns:
       row_name: WTNELE65
       value: 170.85434
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.5961279
   - name: WT402465
     first_pair:
@@ -13716,7 +13716,7 @@ columns:
       row_name: WTNELE65
       value: 203.74121
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.9825826
   - name: WT402765
     first_pair:
@@ -13730,7 +13730,7 @@ columns:
       row_name: WTNELE65
       value: 242.83324
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.2536836
   - name: WT403065
     first_pair:
@@ -13744,7 +13744,7 @@ columns:
       row_name: WTNELE65
       value: 289.2777
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.4440601
   - name: PCCOAL70
     first_pair:
@@ -13762,7 +13762,7 @@ columns:
       value: 0.844
   - name: PCCOAL70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.8034737
     second_pair: ~
   - name: PCLWRX70
@@ -13795,7 +13795,7 @@ columns:
       value: -0.007
   - name: PCLWRX70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.23451646
     second_pair: ~
   - name: PCFBRX70
@@ -13817,7 +13817,7 @@ columns:
       row_name: DIBRGN75
       value: -1
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.23451646
   - name: PCADVX70
     first_pair:
@@ -13831,7 +13831,7 @@ columns:
       row_name: CPADVX75
       value: 0.844
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.13357241
   - name: PCPETG70
     first_pair:
@@ -13849,7 +13849,7 @@ columns:
       value: 0.844
   - name: PCPETG70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.01529455
     second_pair: ~
   - name: PCSYNF70
@@ -13868,7 +13868,7 @@ columns:
       value: 0.844
   - name: PCSYNF70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.02549092
     second_pair: ~
   - name: PCHTRB70
@@ -13894,7 +13894,7 @@ columns:
       value: -0.005
   - name: PCHTRB70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.14274915
     second_pair: ~
   - name: PCELHY70
@@ -13935,7 +13935,7 @@ columns:
       row_name: CPCOAL70
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.7178254
   - name: DPLWRX70
     first_pair:
@@ -13949,7 +13949,7 @@ columns:
       row_name: SMNATU70
       value: 0.5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.957101
   - name: DPFBRX70
     first_pair:
@@ -13960,7 +13960,7 @@ columns:
       value: -2
   - name: DPFBRX70
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 9.703526
     second_pair: ~
   - name: DPADVX70
@@ -13968,7 +13968,7 @@ columns:
       row_name: CPADVX70
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 8.957101
   - name: DPPETG70
     first_pair:
@@ -13992,14 +13992,14 @@ columns:
       row_name: SMNATU70
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.9411244
   - name: DPELHY70
     first_pair:
       row_name: CPELHY70
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.89571005
   - name: DPSWUX70
     first_pair:
@@ -14106,7 +14106,7 @@ columns:
       value: 5
   - name: NURQ0170
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.305891
     second_pair: ~
   - name: NURQ0270
@@ -14118,7 +14118,7 @@ columns:
       value: 5
   - name: NURQ0270
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.611782
     second_pair: ~
   - name: NURQ0370
@@ -14130,7 +14130,7 @@ columns:
       value: 5
   - name: NURQ0370
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.94826216
     second_pair: ~
   - name: NURQ0470
@@ -14142,7 +14142,7 @@ columns:
       value: 5
   - name: NURQ0470
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2541531
     second_pair: ~
   - name: NURQ0570
@@ -14154,7 +14154,7 @@ columns:
       value: 5
   - name: NURQ0570
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.5396514
     second_pair: ~
   - name: NURQ0670
@@ -14166,7 +14166,7 @@ columns:
       value: 5
   - name: NURQ0670
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.804757
     second_pair: ~
   - name: NURQ0770
@@ -14178,7 +14178,7 @@ columns:
       value: 5
   - name: NURQ0770
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0392735
     second_pair: ~
   - name: NURQ0870
@@ -14190,7 +14190,7 @@ columns:
       value: 5
   - name: NURQ0870
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.2533972
     second_pair: ~
   - name: NURQ0970
@@ -14202,7 +14202,7 @@ columns:
       value: 5
   - name: NURQ0970
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.4369318
     second_pair: ~
   - name: NURQ1070
@@ -14214,7 +14214,7 @@ columns:
       value: 5
   - name: NURQ1070
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.6000736
     second_pair: ~
   - name: ELECDM70
@@ -14243,7 +14243,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 3.4606063
   - name: WT251870
     first_pair:
@@ -14257,7 +14257,7 @@ columns:
       row_name: WTNELE70
       value: 156.56226
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.9387844
   - name: WT252170
     first_pair:
@@ -14271,7 +14271,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9043859
   - name: WT252470
     first_pair:
@@ -14285,7 +14285,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.2004961
   - name: WT252770
     first_pair:
@@ -14299,7 +14299,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.27902904
   - name: WT253070
     first_pair:
@@ -14313,7 +14313,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.60607225
   - name: WT281570
     first_pair:
@@ -14327,7 +14327,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.634308
   - name: WT281870
     first_pair:
@@ -14341,7 +14341,7 @@ columns:
       row_name: WTNELE70
       value: 156.56226
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3757808
   - name: WT282170
     first_pair:
@@ -14355,7 +14355,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.52034646
   - name: WT282470
     first_pair:
@@ -14369,7 +14369,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.06176142
   - name: WT282770
     first_pair:
@@ -14383,7 +14383,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.4583226
   - name: WT283070
     first_pair:
@@ -14397,7 +14397,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.72878313
   - name: WT311570
     first_pair:
@@ -14411,7 +14411,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.9527786
   - name: WT311870
     first_pair:
@@ -14425,7 +14425,7 @@ columns:
       row_name: WTNELE70
       value: 156.56226
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9114163
   - name: WT312170
     first_pair:
@@ -14439,7 +14439,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.20359133
   - name: WT312470
     first_pair:
@@ -14453,7 +14453,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.27807102
   - name: WT312770
     first_pair:
@@ -14467,7 +14467,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6062036
   - name: WT313070
     first_pair:
@@ -14481,7 +14481,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.8299949
   - name: WT341570
     first_pair:
@@ -14495,7 +14495,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3903389
   - name: WT341870
     first_pair:
@@ -14509,7 +14509,7 @@ columns:
       row_name: WTNELE70
       value: 156.56226
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5281945
   - name: WT342170
     first_pair:
@@ -14523,7 +14523,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.05781428
   - name: WT342470
     first_pair:
@@ -14537,7 +14537,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.45658284
   - name: WT342770
     first_pair:
@@ -14551,7 +14551,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.72824407
   - name: WT343070
     first_pair:
@@ -14565,7 +14565,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.913521
   - name: WT371570
     first_pair:
@@ -14579,7 +14579,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.92592084
   - name: WT371870
     first_pair:
@@ -14593,7 +14593,7 @@ columns:
       row_name: WTELEC70
       value: 3.6278162
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.21176021
   - name: WT372170
     first_pair:
@@ -14607,7 +14607,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.27366233
   - name: WT372470
     first_pair:
@@ -14621,7 +14621,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6039838
   - name: WT372770
     first_pair:
@@ -14635,7 +14635,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.8290154
   - name: WT373070
     first_pair:
@@ -14649,7 +14649,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.98249024
   - name: WT401570
     first_pair:
@@ -14663,7 +14663,7 @@ columns:
       row_name: WTNELE70
       value: 129.23325
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5422286
   - name: WT401870
     first_pair:
@@ -14677,7 +14677,7 @@ columns:
       row_name: WTNELE70
       value: 156.56226
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.04967097
   - name: WT402170
     first_pair:
@@ -14691,7 +14691,7 @@ columns:
       row_name: WTNELE70
       value: 189.5635
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.45199138
   - name: WT402470
     first_pair:
@@ -14705,7 +14705,7 @@ columns:
       row_name: WTNELE70
       value: 229.39221
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.72576326
   - name: WT402770
     first_pair:
@@ -14719,7 +14719,7 @@ columns:
       row_name: WTNELE70
       value: 277.43442
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.9122705
   - name: WT403070
     first_pair:
@@ -14733,7 +14733,7 @@ columns:
       row_name: WTNELE70
       value: 335.35214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -1.0394711
   - name: PCCOAL75
     first_pair:
@@ -14747,7 +14747,7 @@ columns:
       row_name: SMCOAL75
       value: 0.0657
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.44660413
   - name: PCLWRX75
     first_pair:
@@ -14765,7 +14765,7 @@ columns:
       value: 0.11
   - name: PCLWRX75
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.130354
     second_pair: ~
   - name: PCFBRX75
@@ -14777,7 +14777,7 @@ columns:
       value: 1
   - name: PCFBRX75
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.130354
     second_pair: ~
   - name: PCADVX75
@@ -14789,7 +14789,7 @@ columns:
       value: 1
   - name: PCADVX75
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.0742451
     second_pair: ~
   - name: PCPETG75
@@ -14804,7 +14804,7 @@ columns:
       row_name: SMPETG75
       value: 0.001
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.00850135
   - name: PCSYNF75
     first_pair:
@@ -14818,7 +14818,7 @@ columns:
       row_name: SMCOAL75
       value: 0.00133
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.01416891
   - name: PCHTRB75
     first_pair:
@@ -14832,7 +14832,7 @@ columns:
       row_name: DIBRGN75
       value: 0.3
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.07934591
   - name: PCELHY75
     first_pair:
@@ -14865,7 +14865,7 @@ columns:
       row_name: CPCOAL75
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 4.1712413
   - name: DPLWRX75
     first_pair:
@@ -14879,7 +14879,7 @@ columns:
       row_name: SMNATU75
       value: 0.5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.561655
   - name: DPFBRX75
     first_pair:
@@ -14890,7 +14890,7 @@ columns:
       value: -2
   - name: DPFBRX75
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 6.025126
     second_pair: ~
   - name: DPADVX75
@@ -14898,7 +14898,7 @@ columns:
       row_name: CPADVX75
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 5.561655
   - name: DPPETG75
     first_pair:
@@ -14922,14 +14922,14 @@ columns:
       row_name: SMNATU75
       value: 0.216
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.447128
   - name: DPELHY75
     first_pair:
       row_name: CPELHY75
       value: 5
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5561655
   - name: DPSWUX75
     first_pair:
@@ -14962,7 +14962,7 @@ columns:
       value: 5
   - name: NURQ0175
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.18993425
     second_pair: ~
   - name: NURQ0275
@@ -14974,7 +14974,7 @@ columns:
       value: 5
   - name: NURQ0275
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3798685
     second_pair: ~
   - name: NURQ0375
@@ -14986,7 +14986,7 @@ columns:
       value: 5
   - name: NURQ0375
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.5887962
     second_pair: ~
   - name: NURQ0475
@@ -14998,7 +14998,7 @@ columns:
       value: 5
   - name: NURQ0475
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.77873045
     second_pair: ~
   - name: NURQ0575
@@ -15010,7 +15010,7 @@ columns:
       value: 5
   - name: NURQ0575
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.9560024
     second_pair: ~
   - name: NURQ0675
@@ -15022,7 +15022,7 @@ columns:
       value: 5
   - name: NURQ0675
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.1206121
     second_pair: ~
   - name: NURQ0775
@@ -15034,7 +15034,7 @@ columns:
       value: 5
   - name: NURQ0775
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.2662283
     second_pair: ~
   - name: NURQ0875
@@ -15046,7 +15046,7 @@ columns:
       value: 5
   - name: NURQ0875
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.3991823
     second_pair: ~
   - name: NURQ0975
@@ -15058,7 +15058,7 @@ columns:
       value: 5
   - name: NURQ0975
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.513143
     second_pair: ~
   - name: NURQ1075
@@ -15070,7 +15070,7 @@ columns:
       value: 5
   - name: NURQ1075
     first_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.6144412
     second_pair: ~
   - name: ELECDM75
@@ -15099,7 +15099,7 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.7070436
   - name: WT251875
     first_pair:
@@ -15113,7 +15113,7 @@ columns:
       row_name: WTNELE75
       value: 171.16933
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.4820396
   - name: WT252175
     first_pair:
@@ -15127,7 +15127,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.6735757
   - name: WT252475
     first_pair:
@@ -15141,7 +15141,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.13936318
   - name: WT252775
     first_pair:
@@ -15155,7 +15155,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.21405983
   - name: WT253075
     first_pair:
@@ -15169,7 +15169,7 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.44815895
   - name: WT281575
     first_pair:
@@ -15183,7 +15183,7 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 2.0374274
   - name: WT281875
     first_pair:
@@ -15197,7 +15197,7 @@ columns:
       row_name: WTNELE75
       value: 171.16933
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.0390607
   - name: WT282175
     first_pair:
@@ -15211,7 +15211,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.3801704
   - name: WT282475
     first_pair:
@@ -15225,7 +15225,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.05520774
   - name: WT282775
     first_pair:
@@ -15239,7 +15239,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.34324414
   - name: WT283075
     first_pair:
@@ -15253,7 +15253,7 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.5340327
   - name: WT311575
     first_pair:
@@ -15267,7 +15267,7 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.4931302
   - name: WT311875
     first_pair:
@@ -15281,7 +15281,7 @@ columns:
       row_name: WTNELE75
       value: 171.16933
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.67898566
   - name: WT312175
     first_pair:
@@ -15295,7 +15295,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.14167602
   - name: WT312475
     first_pair:
@@ -15309,7 +15309,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.21336463
   - name: WT312775
     first_pair:
@@ -15323,7 +15323,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.44825155
   - name: WT313075
     first_pair:
@@ -15337,7 +15337,7 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.60383517
   - name: WT341575
     first_pair:
@@ -15351,7 +15351,7 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 1.0504316
   - name: WT341875
     first_pair:
@@ -15365,7 +15365,7 @@ columns:
       row_name: WTNELE75
       value: 171.16933
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.38612217
   - name: WT342175
     first_pair:
@@ -15379,7 +15379,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.05230098
   - name: WT342475
     first_pair:
@@ -15393,7 +15393,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.34199995
   - name: WT342775
     first_pair:
@@ -15407,7 +15407,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.53365827
   - name: WT343075
     first_pair:
@@ -15421,7 +15421,7 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.66060823
   - name: WT371575
     first_pair:
@@ -15435,14 +15435,14 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.69015115
   - name: WT371875
     first_pair:
       row_name: WTELEC75
       value: 4.3504987
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.14778177
   - name: WT371875
     first_pair:
@@ -15463,7 +15463,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.21016483
   - name: WT372475
     first_pair:
@@ -15477,7 +15477,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.44668692
   - name: WT372775
     first_pair:
@@ -15491,7 +15491,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6031646
   - name: WT373075
     first_pair:
@@ -15505,7 +15505,7 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.7068118
   - name: WT401575
     first_pair:
@@ -15519,7 +15519,7 @@ columns:
       row_name: WTNELE75
       value: 139.2209
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: 0.39677018
   - name: WT401875
     first_pair:
@@ -15533,7 +15533,7 @@ columns:
       row_name: WTNELE75
       value: 171.16933
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.04630188
   - name: WT402175
     first_pair:
@@ -15547,7 +15547,7 @@ columns:
       row_name: WTNELE75
       value: 210.3214
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.33871537
   - name: WT402475
     first_pair:
@@ -15561,7 +15561,7 @@ columns:
       row_name: WTNELE75
       value: 258.27267
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.53193486
   - name: WT402775
     first_pair:
@@ -15575,7 +15575,7 @@ columns:
       row_name: WTNELE75
       value: 316.9659
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.6597645
   - name: WT403075
     first_pair:
@@ -15589,276 +15589,276 @@ columns:
       row_name: WTNELE75
       value: 388.76505
     second_pair:
-      row_name: COST
+      row_name: "COST    "
       value: -0.7444359
 rhs:
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC05
       value: 0.101835
     second_pair:
       row_name: DMELEC10
       value: -0.225654
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC15
       value: -0.204548
     second_pair:
       row_name: DMELEC20
       value: -0.174152
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC25
       value: -0.130688
     second_pair:
       row_name: DMELEC30
       value: -0.053914
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC35
       value: -0.056664
     second_pair:
       row_name: DMELEC40
       value: -0.059555
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC45
       value: -0.062592
     second_pair:
       row_name: DMELEC50
       value: -0.065785
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC55
       value: -0.069141
     second_pair:
       row_name: DMELEC60
       value: -0.072668
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC65
       value: -0.076375
     second_pair:
       row_name: DMELEC70
       value: -0.080271
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMELEC75
       value: -0.084365
     second_pair:
       row_name: DMNELE05
       value: 1.1911
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE10
       value: -43.234
     second_pair:
       row_name: DMNELE15
       value: -37.6373
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE20
       value: -32.9564
     second_pair:
       row_name: DMNELE25
       value: -27.0076
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE30
       value: -20
     second_pair:
       row_name: DMNELE35
       value: -22
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE40
       value: -24
     second_pair:
       row_name: DMNELE45
       value: -26
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE50
       value: -28
     second_pair:
       row_name: DMNELE55
       value: -30
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE60
       value: -32
     second_pair:
       row_name: DMNELE65
       value: -34
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: DMNELE70
       value: -36
     second_pair:
       row_name: DMNELE75
       value: -38
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM10
       value: 1
     second_pair:
       row_name: INTSUM15
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM20
       value: 1
     second_pair:
       row_name: INTSUM25
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM30
       value: 1
     second_pair:
       row_name: INTSUM35
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM40
       value: 1
     second_pair:
       row_name: INTSUM45
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM50
       value: 1
     second_pair:
       row_name: INTSUM55
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM60
       value: 1
     second_pair:
       row_name: INTSUM65
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: INTSUM70
       value: 1
     second_pair:
       row_name: INTSUM75
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL00
       value: -0.01298
     second_pair:
       row_name: SMCOAL05
       value: -0.01341
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL10
       value: -0.01381
     second_pair:
       row_name: SMCOAL15
       value: -0.01412
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL20
       value: -0.01427
     second_pair:
       row_name: SMCOAL25
       value: -0.01418
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL30
       value: -0.01310722
     second_pair:
       row_name: SMCOAL35
       value: -0.01519486
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL40
       value: -0.017615
     second_pair:
       row_name: SMCOAL45
       value: -0.02042062
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL50
       value: -0.02367309
     second_pair:
       row_name: SMCOAL55
       value: -0.0274436
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL60
       value: -0.03181466
     second_pair:
       row_name: SMCOAL65
       value: -0.03688191
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMCOAL70
       value: -0.04275624
     second_pair:
       row_name: SMCOAL75
       value: -0.0495662
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMPETG00
       value: -0.044
     second_pair:
       row_name: SMPETG05
       value: -0.03975
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMPETG10
       value: -0.03459
     second_pair:
       row_name: SMPETG15
       value: -0.0283
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: SMPETG20
       value: -0.02065
     second_pair:
       row_name: SMPETG25
       value: -0.01135
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRQU0275
       value: 1
     second_pair:
       row_name: CRQU0375
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRQU0475
       value: 1
     second_pair:
       row_name: CRQU0575
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRQU0675
       value: 1
     second_pair:
       row_name: CRQU0775
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRQU0875
       value: 1
     second_pair:
       row_name: CRQU0975
       value: 1
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRQU1075
       value: 1
     second_pair:
       row_name: CRQU0175
       value: 1.5
-  - name: RHS
+  - name: "RHS     "
     first_pair:
       row_name: CRPETG75
       value: 2

@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/greenbea\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/greenbea\"))?"
 ---
 name: GREENBEA
 rows:
@@ -98897,7 +98897,7 @@ columns:
       value: 0.773
   - name: TB4.VEU3
     first_pair:
-      row_name: KLM.VGU
+      row_name: "KLM.VGU "
       value: 1
     second_pair: ~
   - name: TB5.VEU3
@@ -98923,7 +98923,7 @@ columns:
       value: 0.773
   - name: TB5.VEU3
     first_pair:
-      row_name: KLM.VGU
+      row_name: "KLM.VGU "
       value: 1
     second_pair: ~
   - name: TDH.VEU3
@@ -116941,7 +116941,1735 @@ columns:
     second_pair:
       row_name: XVL.GPVE
       value: 0.1
-rhs: ~
+rhs: []
 ranges: ~
-bounds: ~
+bounds:
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAG.....
+    value: 205
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAH.....
+    value: 1825
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAM.....
+    value: 2325
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAS.....
+    value: 400
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAW.....
+    value: 572
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AAX.....
+    value: 850
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ABA.....
+    value: 2600
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ABQ.....
+    value: 955
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ABR.....
+    value: 427
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ACA.....
+    value: 763
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ACN.....
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ADA.....
+    value: 617
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AEL.....
+    value: 600
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AEO.....
+    value: 134
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AES.....
+    value: 499
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AIH.....
+    value: 3546
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AIL.....
+    value: 2337
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AKH.....
+    value: 601
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AKK.....
+    value: 2100
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AKU.....
+    value: 2550
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AME.....
+    value: 389
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AMI.....
+    value: 954
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AMU.....
+    value: 2500
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ANF.....
+    value: 858
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ANL.....
+    value: 1716
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ANM.....
+    value: 236
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AN1.....
+    value: 180
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AN5.....
+    value: 1586
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AOM.....
+    value: 685
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AON.....
+    value: 50
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AQA.....
+    value: 470
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ARE.....
+    value: 790
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ASA.....
+    value: 1029
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ASE.....
+    value: 1371
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ASH.....
+    value: 14
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ASI.....
+    value: 10
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AS1.....
+    value: 260
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ATA.....
+    value: 396
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ATL.....
+    value: 520
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ATM.....
+    value: 650
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ATR.....
+    value: 280
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AUH.....
+    value: 1937
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AUL.....
+    value: 1937
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AYV.....
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: AZA.....
+    value: 158
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KMC.CA..
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KP1.CA..
+    value: 1297.9434
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KTC.CA..
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KVG.CA..
+    value: 34.1564
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KWC.CA..
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KWF.CA..
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.AN
+    value: 660
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: POE.D3AN
+    value: 168
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.AW
+    value: 98
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..B.BA
+    value: 355
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.BA
+    value: 187
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.BA
+    value: 2735
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..F.BA
+    value: 264
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.BA
+    value: 500
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.BA
+    value: 195
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: CF..R.BA
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.BA
+    value: 525
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...BA
+    value: 66
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...BA
+    value: 68
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDM...BA
+    value: 16
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFS...BA
+    value: 64
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFW...BA
+    value: 252
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...BA
+    value: 75
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...BA
+    value: 129
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...BA
+    value: 14
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...BA
+    value: 38
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...BA
+    value: 2
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...BA
+    value: 38
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...BA
+    value: 38
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...BA
+    value: 6
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: IF..Q.BA
+    value: 150
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: DGP...CA
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.BACA
+    value: 3
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFY.BACA
+    value: 54
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENI.BACA
+    value: 7
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EOL.U3CA
+    value: 43
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: DGP...CM
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EOL.EZCM
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..B.EH
+    value: 75
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.EH
+    value: 235
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.EH
+    value: 1850
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.EH
+    value: 10
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.EH
+    value: 270
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.EH
+    value: 25
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.EH
+    value: 225
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...EH
+    value: 5
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...EH
+    value: 833
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...EH
+    value: 52
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFT...EH
+    value: 135
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFV...EH
+    value: 148
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFX...EH
+    value: 39
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...EH
+    value: 363
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...EH
+    value: 38
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNE...EH
+    value: 79
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...EH
+    value: 3
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...EH
+    value: 123
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...EH
+    value: 44
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...EH
+    value: 18
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: DRG...EH
+    value: -2
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02EH
+    value: 8
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02EH
+    value: 52
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.CMEH
+    value: 52
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFV.CMEH
+    value: 32
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EGP.CMEH
+    value: 7
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: IFT.C.EH
+    value: 150
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PAH.VAEH
+    value: 21
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PKU.VAEH
+    value: 28
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..B.EM
+    value: 115
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.EM
+    value: 507
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.EM
+    value: 6980
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.EM
+    value: 80
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.EM
+    value: 710
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.EM
+    value: 25
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: CF..R.EM
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.EM
+    value: 700
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...EM
+    value: 14
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...EM
+    value: 1639
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...EM
+    value: 259
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFT...EM
+    value: 285
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFV...EM
+    value: 72
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFX...EM
+    value: 1240
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...EM
+    value: 515
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...EM
+    value: 893
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...EM
+    value: 265
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: DLO...EM
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNE...EM
+    value: 144
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...EM
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...EM
+    value: 18
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...EM
+    value: 311
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...EM
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...EM
+    value: 110
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...EM
+    value: 48
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...EM
+    value: 2
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02EM
+    value: 26
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02EM
+    value: 147
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.CMEM
+    value: 60
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFV.CMEM
+    value: 60
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EGP.CMEM
+    value: 18
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KC5.PREM
+    value: 116
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PAH.VAEM
+    value: 53
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PKU.VAEM
+    value: 70
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.ANEM
+    value: 30
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TOL.U3EM
+    value: 17
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..B.EZ
+    value: 470
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.EZ
+    value: 1163
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.EZ
+    value: 9845
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.EZ
+    value: 130
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..H.EZ
+    value: 65
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.EZ
+    value: 1380
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.EZ
+    value: 75
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.EZ
+    value: 5
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.EZ
+    value: 1155
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...EZ
+    value: 21
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...EZ
+    value: 2967
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...EZ
+    value: 396
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFT...EZ
+    value: 739
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFV...EZ
+    value: 806
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFX...EZ
+    value: 613
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...EZ
+    value: 465
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...EZ
+    value: 1552
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...EZ
+    value: 351
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNE...EZ
+    value: 279
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...EZ
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...EZ
+    value: 20
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...EZ
+    value: 455
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...EZ
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...EZ
+    value: 178
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...EZ
+    value: 84
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...EZ
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02EZ
+    value: 43
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02EZ
+    value: 246
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.CMEZ
+    value: 245
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFV.CMEZ
+    value: 150
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EGP.CMEZ
+    value: 36
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KC5.PREZ
+    value: 254
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL.DNEZ
+    value: 222
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PAH.VAEZ
+    value: 86
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PKU.VAEZ
+    value: 114
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TOL.U3EZ
+    value: 29
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.JP
+    value: 437
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.JP
+    value: 5845
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.JP
+    value: 815
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.JP
+    value: 535
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.JP
+    value: 35
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.JP
+    value: 385
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.JP
+    value: 1125
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...JP
+    value: 21
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...JP
+    value: 860
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...JP
+    value: 714
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFO...JP
+    value: 917
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFQ...JP
+    value: 346
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFU...JP
+    value: 476
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFW...JP
+    value: 432
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...JP
+    value: 372
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...JP
+    value: 687
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...JP
+    value: 817
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...JP
+    value: 45
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...JP
+    value: 669
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...JP
+    value: 335
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...JP
+    value: 117
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...JP
+    value: 45
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...JP
+    value: 23
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02JP
+    value: 31
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ELG.CAJP
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFO.OSJP
+    value: 98
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ELG.OSJP
+    value: 84
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENL.OSJP
+    value: 37
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENP.OSJP
+    value: 75
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: PMI.DBJP
+    value: 127
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PAH.VAJP
+    value: 57
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PKU.VAJP
+    value: 75
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.PGJP
+    value: 628
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...LA
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH.02LA
+    value: 24
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY.02LA
+    value: 49
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP.02LA
+    value: 24
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ELG.U3LA
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EOL.U3LA
+    value: 22
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...OF
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH.02OF
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDP.02OF
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY.02OF
+    value: 100
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EGP.PGOF
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...OS
+    value: 53
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.PGOS
+    value: 92
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDP.PGOS
+    value: 48
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFY.PGOS
+    value: 8
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENJ.PGOS
+    value: 26
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENP.PGOS
+    value: 17
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EOL.U3OS
+    value: 44
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.PG
+    value: 283
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.PG
+    value: 4765
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..F.PG
+    value: 122
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.PG
+    value: 55
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..H.PG
+    value: 260
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.PG
+    value: 400
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.PG
+    value: 15
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.PG
+    value: 25
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.PG
+    value: 700
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCR...PG
+    value: 350
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...PG
+    value: 589
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDL...PG
+    value: 867
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFZ...PG
+    value: 1683
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...PG
+    value: 962
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLP...PG
+    value: 133
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...PG
+    value: 65
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...PG
+    value: 198
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KAR.PSPG
+    value: 1372
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KIR.PSPG
+    value: 1398
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PKU.D1PG
+    value: 611
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PMU.D1PG
+    value: 15
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.SG
+    value: 54
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.SG
+    value: 930
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.SG
+    value: 21
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.SG
+    value: 30
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.SG
+    value: 55
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...SG
+    value: 178
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...SG
+    value: 93
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFU...SG
+    value: 46
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...SG
+    value: 294
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...SG
+    value: 42
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...SG
+    value: 7
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: DNJ...SG
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...SG
+    value: 20
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...SG
+    value: 20
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...SG
+    value: 7
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...SG
+    value: 8
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: TDH.PGSG
+    value: 161
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: TDK.PGSG
+    value: 55
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: TFY.PGSG
+    value: 188
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: TGP.PGSG
+    value: 51
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COF.A.U1
+    value: 34
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.U1
+    value: 650
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.U1
+    value: 1803
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.U1
+    value: 150
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..H.U1
+    value: 60
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..K.U1
+    value: 89
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.U1
+    value: 395
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.U1
+    value: 35
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.U1
+    value: 535
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCD...U1
+    value: 10
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...U1
+    value: 1860
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...U1
+    value: 576
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFP...U1
+    value: 537
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFS...U1
+    value: 702
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFW...U1
+    value: 454
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...U1
+    value: 103
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...U1
+    value: 2329
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLR...U1
+    value: 193
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...U1
+    value: 39
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...U1
+    value: 23
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...U1
+    value: 90
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...U1
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...U1
+    value: 132
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...U1
+    value: 82
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...U1
+    value: 4
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02U1
+    value: 4
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02U1
+    value: 64
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.CEU1
+    value: 4
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDK.CEU1
+    value: 4
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EGP.CEU1
+    value: 4
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EDH.CMU1
+    value: 5
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFS.CMU1
+    value: 25
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IFT.C.U1
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: ITF.D.U1
+    value: 200
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: IF..K.U1
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IF..Q.U1
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KH1.PSU1
+    value: 1081
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KD1.TRU1
+    value: 248
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL.DNU1
+    value: 24
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PBQ.VAU1
+    value: 32
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PTM.VAU1
+    value: 39
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.ANU1
+    value: 18
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: TDH.BAU1
+    value: 160
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: TDK.BAU1
+    value: 60
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: TOA.BAU1
+    value: 33
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.EZU1
+    value: 50
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.PGU1
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.VEU1
+    value: 22
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COF.A.U3
+    value: 387
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.U3
+    value: 4375
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.U3
+    value: 11938
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.U3
+    value: 485
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..H.U3
+    value: 420
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..K.U3
+    value: 741
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.U3
+    value: 2595
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.U3
+    value: 115
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.U3
+    value: 2595
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCD...U3
+    value: 76
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: DCR...U3
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...U3
+    value: 2764
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...U3
+    value: 459
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFP...U3
+    value: 118
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFS...U3
+    value: 885
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...U3
+    value: 293
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...U3
+    value: 3566
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLR...U3
+    value: 1385
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...U3
+    value: 244
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...U3
+    value: 33
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...U3
+    value: 301
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...U3
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...U3
+    value: 320
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...U3
+    value: 103
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...U3
+    value: 50
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02U3
+    value: 26
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02U3
+    value: 88
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: EFY.CAU3
+    value: 86
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ELG.CAU3
+    value: 63
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: ENI.CAU3
+    value: 7
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IFT.C.U3
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: ITF.D.U3
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: IF..K.U3
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IF..Q.U3
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KH1.PSU3
+    value: 5350
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KL1.PSU3
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: KL2.PSU3
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PNL.DIU3
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL.DNU3
+    value: 880
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PN2.P8U3
+    value: 1981
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.ANU3
+    value: 113
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.EZU3
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TLG.VEU3
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COF.A.U5
+    value: 62
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.U5
+    value: 680
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.U5
+    value: 2664
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.U5
+    value: 185
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..H.U5
+    value: 335
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..K.U5
+    value: 392
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.U5
+    value: 585
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..R.U5
+    value: 20
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.U5
+    value: 805
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DCD...U5
+    value: 8
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...U5
+    value: 431
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...U5
+    value: 411
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFP...U5
+    value: 492
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFS...U5
+    value: 45
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...U5
+    value: 74
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...U5
+    value: 1062
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLR...U5
+    value: 58
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...U5
+    value: 26
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNJ...U5
+    value: 24
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...U5
+    value: 13
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNP...U5
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...U5
+    value: 73
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...U5
+    value: 18
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DRG...U5
+    value: 2
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAF.02U5
+    value: 6
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DAJ.02U5
+    value: 24
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: ITF.D.U5
+    value: 0
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: IF..K.U5
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IF..Q.U5
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KH1.PSU5
+    value: 2046
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: KD1.TRU5
+    value: 134
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL.DNU5
+    value: 60
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PN2.P8U5
+    value: 680
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TDH.U3U5
+    value: 14
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TDK.U3U5
+    value: 14
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: TGP.U3U5
+    value: 15
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CFT.C.VE
+    value: 251
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CTF.D.VE
+    value: 1440
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..F.VE
+    value: 94
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..G.VE
+    value: 205
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..P.VE
+    value: 40
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: CF..Q.VE
+    value: 43
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: COH.V.VE
+    value: 353
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDH...VE
+    value: 119
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDK...VE
+    value: 22
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DDM...VE
+    value: 1
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFS...VE
+    value: 3
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFW...VE
+    value: 102
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DFY...VE
+    value: 25
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DGP...VE
+    value: 212
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DLG...VE
+    value: 31
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNI...VE
+    value: 20
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DNL...VE
+    value: 10
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOA...VE
+    value: 14
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: DOL...VE
+    value: 4
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: IF..G.VE
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: IF..Q.VE
+    value: 50
+  - bound_type: Fx
+    bound_name: "85BOUND "
+    column_name: PBQ.DBVE
+    value: 25
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL.DNVE
+    value: 70
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PGL0DNAN
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PGL0DNAW
+    value: 0
+  - bound_type: Lo
+    bound_name: "85BOUND "
+    column_name: PGL0DNPG
+    value: 0
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL5DNAN
+    value: 599
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL5DNAW
+    value: 30
+  - bound_type: Up
+    bound_name: "85BOUND "
+    column_name: PGL5DNPG
+    value: 1332
 

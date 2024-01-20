@@ -12,12 +12,26 @@ use nom::{
 };
 use nom_tracable::tracable_parser;
 use num_traits::float::Float;
+use std::cmp;
 cfg_if::cfg_if! {
   if #[cfg(feature = "trace")] {
     use nom_locate::LocatedSpan;
     use nom_tracable::TracableInfo;
   }
 }
+
+static L1: usize = 0;
+static R1: usize = 2;
+static L2: usize = 3;
+static R2: usize = 11;
+static L3: usize = 13;
+static R3: usize = 21;
+static L4: usize = 23;
+static R4: usize = 35;
+static L5: usize = 38;
+static R5: usize = 46;
+static L6: usize = 48;
+static R6: usize = 60;
 
 /// Parses a sequence of non-whitespace characters from the given input span.
 ///
@@ -367,22 +381,18 @@ impl<'a, T: Float> Parser<'a, T> {
       terminated(preceded(tag(" "), not_line_ending), newline),
       |line: Span| -> Result<WideLine<f32>> {
         let first_pair = RowValuePair {
-          row_name: line.get(13..21).ok_or_eyre("incomplete")?,
-          value: fast_float::parse(
-            line.get(23..35).ok_or_eyre("incomplete")?.trim(),
-          )?,
+          row_name: line.get(L3..R3).ok_or_eyre("")?,
+          value: fast_float::parse(line.get(L4..R4).ok_or_eyre("")?.trim())?,
         };
-        let second_pair = match line.get(38..46) {
+        let second_pair = match line.get(L5..R5) {
           Some(row_name) => Some(RowValuePair {
             row_name,
-            value: fast_float::parse(
-              line.get(48..60).ok_or_eyre("incomplete")?.trim(),
-            )?,
+            value: fast_float::parse(line.get(L6..R6).ok_or_eyre("")?.trim())?,
           }),
           None => None,
         };
         Ok(WideLine::<f32> {
-          name: line.get(3..11).ok_or_eyre("incomplete")?,
+          name: line.get(L2..R2).ok_or_eyre("")?,
           first_pair,
           second_pair,
         })
@@ -829,27 +839,25 @@ impl<'a, T: Float> Parser<'a, T> {
   #[tracable_parser]
   pub fn bounds_line(s: Span) -> IResult<Span, BoundsLine<f32>> {
     let mut p = map_res(
-      preceded(
-        tag(" "),
-        terminated(
-          tuple((
-            terminated(
-              Self::bound_type,
-              multispace1,
-            ),
-            terminated(not_whitespace1, multispace1),
-            terminated(not_whitespace1, multispace1),
-            float,
-          )),
-          newline,
-        ),
-      ),
-      |(bound_type, bound_name, column_name, value)| -> Result<BoundsLine<f32>> {
-        Ok(BoundsLine {
-          bound_type,
-          bound_name,
-          column_name,
-          value,
+      terminated(preceded(tag(" "), not_line_ending), newline),
+      |line: Span| -> Result<BoundsLine<f32>> {
+        let length = line.len();
+        let bound_type = BoundType::try_from(line.get(L1..R1).ok_or_eyre("")?)?;
+        Ok(match bound_type {
+          BoundType::Fr | BoundType::Pl => BoundsLine::<f32> {
+            bound_type,
+            bound_name: line.get(L2..R2).ok_or_eyre("")?,
+            column_name: line.get(L3..cmp::min(length, R3)).ok_or_eyre("")?,
+            value: None,
+          },
+          _ => BoundsLine::<f32> {
+            bound_type,
+            bound_name: line.get(L2..R2).ok_or_eyre("")?,
+            column_name: line.get(L3..R3).ok_or_eyre("")?,
+            value: Some(fast_float::parse(
+              line.get(L4..cmp::min(length, R4)).ok_or_eyre("")?.trim(),
+            )?),
+          },
         })
       },
     );

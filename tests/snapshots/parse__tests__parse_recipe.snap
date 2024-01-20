@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/recipe\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/recipe\"))?"
 ---
 name: RECIPE
 rows:
@@ -2956,7 +2956,487 @@ columns:
       row_name: NRO.3RBE
       value: 1
     second_pair: ~
-rhs: ~
+rhs: []
 ranges: ~
-bounds: ~
+bounds:
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: "J&,1IOBE"
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL1IOBE
+    value: 92
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC1IOBE
+    value: 39
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH1IOBE
+    value: 87
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL1IOBE
+    value: 29
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHH1IOBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL1IOBE
+    value: 20
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHX1IOBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV1IOBE
+    value: 28
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN41IOBE
+    value: 20
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP81IOBE
+    value: 71
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: "J&,1MXBE"
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL1MXBE
+    value: 130
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC1MXBE
+    value: 45
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH1MXBE
+    value: 53
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL1MXBE
+    value: 55
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHH1MXBE
+    value: 75
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL1MXBE
+    value: 112
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX1MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV1MXBE
+    value: 73
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN41MXBE
+    value: 480
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP81MXBE
+    value: 154
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: "J&,1TGBE"
+    value: 121
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JAL1TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL1TGBE
+    value: 50
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCC1TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC1TGBE
+    value: 30
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCH1TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH1TGBE
+    value: 77
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCL1TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL1TGBE
+    value: 20
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHH1TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JHL1TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL1TGBE
+    value: 18
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX1TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JLV1TGBE
+    value: 2
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV1TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN41TGBE
+    value: 20
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JP81TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP81TGBE
+    value: 71
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: "J&,2MXBE"
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL2MXBE
+    value: 130
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC2MXBE
+    value: 55
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH2MXBE
+    value: 93
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL2MXBE
+    value: 60
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHH2MXBE
+    value: 75
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL2MXBE
+    value: 115
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX2MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV2MXBE
+    value: 67
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN42MXBE
+    value: 480
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP82MXBE
+    value: 154
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: "J&,2TGBE"
+    value: 121
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JAL2TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL2TGBE
+    value: 50
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCC2TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC2TGBE
+    value: 20
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCH2TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH2TGBE
+    value: 37
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCL2TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL2TGBE
+    value: 15
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHH2TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JHL2TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL2TGBE
+    value: 15
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX2TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JLV2TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV2TGBE
+    value: 8
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN42TGBE
+    value: 20
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JP82TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP82TGBE
+    value: 71
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: "J&,3MXBE"
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL3MXBE
+    value: 130
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC3MXBE
+    value: 55
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH3MXBE
+    value: 93
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL3MXBE
+    value: 60
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHH3MXBE
+    value: 75
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL3MXBE
+    value: 105
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX3MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV3MXBE
+    value: 67
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN43MXBE
+    value: 4980
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP83MXBE
+    value: 154
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: "J&,3TGBE"
+    value: 110
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JAL3TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL3TGBE
+    value: 50
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCC3TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC3TGBE
+    value: 20
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCH3TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH3TGBE
+    value: 37
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JCL3TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL3TGBE
+    value: 15
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHH3TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JHL3TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL3TGBE
+    value: 25
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX3TGBE
+    value: 0
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JLV3TGBE
+    value: 5
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV3TGBE
+    value: 8
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JN43TGBE
+    value: 20
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: JP83TGBE
+    value: 10
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP83TGBE
+    value: 71
+  - bound_type: Lo
+    bound_name: "BOUND   "
+    column_name: "J&,4MXBE"
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JAL4MXBE
+    value: 20
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCC4MXBE
+    value: 20
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCH4MXBE
+    value: 20
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JCL4MXBE
+    value: 20
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHH4MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JHL4MXBE
+    value: 20
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX4MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JLV4MXBE
+    value: 20
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JN44MXBE
+    value: 0
+  - bound_type: Up
+    bound_name: "BOUND   "
+    column_name: JP84MXBE
+    value: 20
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: "J&,4TGBE"
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JAL4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JCC4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JCH4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JCL4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHH4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHL4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JHX4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JLV4TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JN44TGBE
+    value: 0
+  - bound_type: Fx
+    bound_name: "BOUND   "
+    column_name: JP84TGBE
+    value: 0
 

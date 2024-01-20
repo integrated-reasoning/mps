@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/bore3d\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/bore3d\"))?"
 ---
 name: BORE3D
 rows:
@@ -5829,9 +5829,9 @@ columns:
       row_name: CUT.DSXI
       value: -0.008
     second_pair: ~
-  - name: B.FNXI
+  - name: "B.FNXI  "
     first_pair:
-      row_name: B...XI
+      row_name: "B...XI  "
       value: -1
     second_pair: ~
   - name: QVO0FHXI
@@ -5986,7 +5986,59 @@ columns:
     second_pair:
       row_name: XGS.F4XI
       value: 1
-rhs: ~
+rhs: []
 ranges: ~
-bounds: ~
+bounds:
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DFH...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DFN...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DF1...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DF2...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DF3...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DF4...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DL2...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DL3...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DL4...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DMM...XI
+    value: 100
+  - bound_type: Up
+    bound_name: "0.BOUND "
+    column_name: DPS...XI
+    value: 100
+  - bound_type: Fx
+    bound_name: "0.BOUND "
+    column_name: EMR...XI
+    value: 17.9327
+  - bound_type: Lo
+    bound_name: "0.BOUND "
+    column_name: KLQ.PRXI
+    value: 10
 

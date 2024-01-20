@@ -1,6 +1,6 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/sc50b\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/sc50b\"))?"
 ---
 name: SC50B
 rows:
@@ -130,7 +130,7 @@ columns:
       value: -1
   - name: COL00004
     first_pair:
-      row_name: MAXIM
+      row_name: "MAXIM   "
       value: -1
     second_pair:
       row_name: ROW00004
@@ -550,21 +550,21 @@ columns:
       value: 0.6
     second_pair: ~
 rhs:
-  - name: CONST
+  - name: "CONST   "
     first_pair:
       row_name: ROW00001
       value: 300
     second_pair:
       row_name: ROW00011
       value: 300
-  - name: CONST
+  - name: "CONST   "
     first_pair:
       row_name: ROW00022
       value: 300
     second_pair:
       row_name: ROW00033
       value: 300
-  - name: CONST
+  - name: "CONST   "
     first_pair:
       row_name: ROW00044
       value: 300
