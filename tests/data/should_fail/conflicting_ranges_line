@@ -3165,6 +3165,7 @@ RANGES
     RANGE1    VILLKOR2            7.   VILLKOR3            7.
     RANGE1    VILLKOR4           3.5   VILLKOR5           10.
     RANGE1    VILLKOR6           2.5   VILLKOR7           30.
+    RANGE1    VILLKOR6           2.5   VILLKOR7           30.
     RANGE1    VILLKOR8           7.5
 BOUNDS
  LO BND1      10253000            .5
