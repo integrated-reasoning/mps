@@ -1,12 +1,6 @@
 mod tests {
   use color_eyre::Result;
   use mps::Parser;
-  cfg_if::cfg_if! {
-    if #[cfg(feature = "trace")] {
-      use nom_locate::LocatedSpan;
-      use nom_tracable::TracableInfo;
-    }
-  }
 
   #[test]
   fn test_parse_agg() -> Result<()> {

@@ -1,4 +1,4 @@
-use crate::types::{Parser, RowType, Rows};
+use crate::types::{RowType, Rows};
 use color_eyre::{eyre::eyre, Result};
 use hashbrown::HashMap;
 
@@ -44,6 +44,7 @@ impl RowTypeMap {
 #[cfg(test)]
 mod tests {
   use super::*;
+  use crate::types::Parser;
 
   #[test]
   fn test_conflicting_rows_line() -> Result<()> {

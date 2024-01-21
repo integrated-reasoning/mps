@@ -6,7 +6,6 @@ use nom::{
   character::complete::*,
   combinator::{map, map_res, opt, peek},
   multi::{count, many0},
-  number::complete::float,
   sequence::{preceded, separated_pair, terminated, tuple},
   IResult,
 };

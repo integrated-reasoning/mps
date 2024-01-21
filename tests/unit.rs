@@ -634,7 +634,7 @@ mod tests {
   fn test_parse() -> Result<()> {
     let test_cases = vec![TestData {
       input: include_str!("../tests/data/netlib/afiro"),
-      expected: ((
+      expected: (
         "\n",
         Parser {
           name: "AFIRO",
@@ -1294,7 +1294,7 @@ mod tests {
           ranges: None,
           bounds: None,
         },
-      )),
+      ),
     }];
     for case in test_cases {
       cfg_if::cfg_if! {
