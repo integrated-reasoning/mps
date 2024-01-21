@@ -14,7 +14,7 @@ impl TryFrom<(&Bounds<'_, f32>, &HashSet<&str>)> for BoundsMap {
     let mut bounds = BoundsMap(HashMap::new());
     let (bounds_lines, column_names) = t;
     for b in bounds_lines {
-      match column_names.get(b.column_name) {
+      match column_names.get(b.column_name.trim()) {
         Some(_) => bounds.insert(
           b.bound_name,
           b.column_name,
@@ -39,15 +39,15 @@ impl BoundsMap {
     bound_type: BoundType,
     value: Option<f32>,
   ) -> Result<()> {
-    match self.0.get_mut(bound_name) {
+    match self.0.get_mut(bound_name.trim()) {
       None => {
         let mut bounds = HashMap::new();
-        bounds.insert((column_name.to_string(), bound_type), value);
-        self.0.insert(bound_name.to_string(), bounds);
+        bounds.insert((column_name.trim().to_string(), bound_type), value);
+        self.0.insert(bound_name.trim().to_string(), bounds);
         Ok(())
       }
       Some(bounds) => {
-        match bounds.insert((column_name.to_string(), bound_type), value) {
+        match bounds.insert((column_name.trim().to_string(), bound_type), value) {
           Some(conflicting_value) => Err(eyre!(format!(
             "duplicate entry in BOUNDS {:?} for column {:?}: found {:?} and {:?}",
             bound_name, column_name, value, conflicting_value

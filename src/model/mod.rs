@@ -67,7 +67,7 @@ mod tests {
       "../../tests/data/should_fail/conflicting_ranges_line"
     ))?;
     let error = eyre!(
-      "duplicate entry in BOUNDS \"BOUND\" for column \"UGTD03\": found 0.2 and 20.2"
+        "duplicate entry in RANGES \"RANGE1\" at row \"VILLKOR6\": found 2.5 and 2.5"
     );
     match Model::try_from(parsed) {
       Ok(_) => panic!(),
@@ -82,7 +82,7 @@ mod tests {
       "../../tests/data/should_fail/conflicting_bounds_line"
     ))?;
     let error = eyre!(
-      "duplicate entry in BOUNDS \"BOUND\" for column \"UGTD03\": found 0.2 and 20.2"
+      "duplicate entry in BOUNDS \"BOUND\" for column \"UGTD03\": found Some(0.2) and Some(20.2)"
     );
     match Model::try_from(parsed) {
       Ok(_) => panic!(),

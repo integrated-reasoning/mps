@@ -44566,56 +44566,56 @@ columns:
       value: -1
     second_pair: ~
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000002"
       value: -1
     second_pair:
       row_name: "20000003"
       value: -1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000004"
       value: -1
     second_pair:
       row_name: "20000042"
       value: -2
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000043"
       value: -2
     second_pair:
       row_name: "20000044"
       value: -2
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000082"
       value: -3
     second_pair:
       row_name: "20000083"
       value: -3
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000084"
       value: -3
     second_pair:
       row_name: "20000122"
       value: -4
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000123"
       value: -4
     second_pair:
       row_name: "20000124"
       value: -4
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000162"
       value: -5
     second_pair:
       row_name: "20000163"
       value: -5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000164"
       value: -5

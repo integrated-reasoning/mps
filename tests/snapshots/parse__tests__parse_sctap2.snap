@@ -33220,1827 +33220,1827 @@ columns:
       value: 1
     second_pair: ~
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ1
       value: 5
     second_pair:
       row_name: NCZZ2ZZ1
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ1
       value: 5
     second_pair:
       row_name: NCZ13ZZ1
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ1
       value: 10
     second_pair:
       row_name: CCZZ1ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ1
       value: 1
     second_pair:
       row_name: CCZZ3ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ1
       value: 1
     second_pair:
       row_name: CCZZ5ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ1
       value: 1
     second_pair:
       row_name: CCZZ7ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ1
       value: 1
     second_pair:
       row_name: CCZZ9ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ1
       value: 1
     second_pair:
       row_name: CCZ11ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ1
       value: 1
     second_pair:
       row_name: CCZ13ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ1
       value: 1
     second_pair:
       row_name: CCZ15ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ1
       value: 1
     second_pair:
       row_name: CCZ17ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ1
       value: 1
     second_pair:
       row_name: CCZ19ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ1
       value: 1
     second_pair:
       row_name: CCZ21ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ1
       value: 1
     second_pair:
       row_name: CCZ23ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ1
       value: 1
     second_pair:
       row_name: CCZ25ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ1
       value: 1
     second_pair:
       row_name: CCZ27ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ1
       value: 1
     second_pair:
       row_name: CCZ29ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ1
       value: 1
     second_pair:
       row_name: CCZ31ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ1
       value: 1
     second_pair:
       row_name: CCZ33ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ1
       value: 1
     second_pair:
       row_name: CCZ35ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ1
       value: 1
     second_pair:
       row_name: CCZ37ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ1
       value: 1
     second_pair:
       row_name: CCZ39ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ1
       value: 1
     second_pair:
       row_name: CCZ41ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ1
       value: 1
     second_pair:
       row_name: CCZ43ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ1
       value: 1
     second_pair:
       row_name: CCZ45ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ1
       value: 1
     second_pair:
       row_name: CCZ47ZZ1
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ2
       value: 10
     second_pair:
       row_name: NCZZ2ZZ2
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ3ZZ2
       value: 5
     second_pair:
       row_name: NCZZ6ZZ2
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ2
       value: 5
     second_pair:
       row_name: NCZ13ZZ2
       value: 30
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ2
       value: 10
     second_pair:
       row_name: CCZZ1ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ2
       value: 1
     second_pair:
       row_name: CCZZ3ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ2
       value: 1
     second_pair:
       row_name: CCZZ5ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ2
       value: 1
     second_pair:
       row_name: CCZZ7ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ2
       value: 1
     second_pair:
       row_name: CCZZ9ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ2
       value: 1
     second_pair:
       row_name: CCZ11ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ2
       value: 1
     second_pair:
       row_name: CCZ13ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ2
       value: 1
     second_pair:
       row_name: CCZ15ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ2
       value: 1
     second_pair:
       row_name: CCZ17ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ2
       value: 1
     second_pair:
       row_name: CCZ19ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ2
       value: 1
     second_pair:
       row_name: CCZ21ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ2
       value: 1
     second_pair:
       row_name: CCZ23ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ2
       value: 1
     second_pair:
       row_name: CCZ25ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ2
       value: 1
     second_pair:
       row_name: CCZ27ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ2
       value: 1
     second_pair:
       row_name: CCZ29ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ2
       value: 1
     second_pair:
       row_name: CCZ31ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ2
       value: 1
     second_pair:
       row_name: CCZ33ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ2
       value: 1
     second_pair:
       row_name: CCZ35ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ2
       value: 1
     second_pair:
       row_name: CCZ37ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ2
       value: 1
     second_pair:
       row_name: CCZ39ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ2
       value: 1
     second_pair:
       row_name: CCZ41ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ2
       value: 1
     second_pair:
       row_name: CCZ43ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ2
       value: 1
     second_pair:
       row_name: CCZ45ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ2
       value: 1
     second_pair:
       row_name: CCZ47ZZ2
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ3
       value: 15
     second_pair:
       row_name: NCZZ2ZZ3
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ3ZZ3
       value: 10
     second_pair:
       row_name: NCZZ6ZZ3
       value: 20
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ3
       value: 5
     second_pair:
       row_name: NCZ13ZZ3
       value: 40
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ3
       value: 10
     second_pair:
       row_name: CCZZ1ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ3
       value: 1
     second_pair:
       row_name: CCZZ3ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ3
       value: 1
     second_pair:
       row_name: CCZZ5ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ3
       value: 1
     second_pair:
       row_name: CCZZ7ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ3
       value: 1
     second_pair:
       row_name: CCZZ9ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ3
       value: 1
     second_pair:
       row_name: CCZ11ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ3
       value: 1
     second_pair:
       row_name: CCZ13ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ3
       value: 1
     second_pair:
       row_name: CCZ15ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ3
       value: 1
     second_pair:
       row_name: CCZ17ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ3
       value: 1
     second_pair:
       row_name: CCZ19ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ3
       value: 1
     second_pair:
       row_name: CCZ21ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ3
       value: 1
     second_pair:
       row_name: CCZ23ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ3
       value: 1
     second_pair:
       row_name: CCZ25ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ3
       value: 1
     second_pair:
       row_name: CCZ27ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ3
       value: 1
     second_pair:
       row_name: CCZ29ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ3
       value: 1
     second_pair:
       row_name: CCZ31ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ3
       value: 1
     second_pair:
       row_name: CCZ33ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ3
       value: 1
     second_pair:
       row_name: CCZ35ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ3
       value: 1
     second_pair:
       row_name: CCZ37ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ3
       value: 1
     second_pair:
       row_name: CCZ39ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ3
       value: 1
     second_pair:
       row_name: CCZ41ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ3
       value: 1
     second_pair:
       row_name: CCZ43ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ3
       value: 1
     second_pair:
       row_name: CCZ45ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ3
       value: 1
     second_pair:
       row_name: CCZ47ZZ3
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ4
       value: 20
     second_pair:
       row_name: NCZZ2ZZ4
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ3ZZ4
       value: 20
     second_pair:
       row_name: NCZZ6ZZ4
       value: 30
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ4
       value: 5
     second_pair:
       row_name: NCZ13ZZ4
       value: 20
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ4
       value: 10
     second_pair:
       row_name: CCZZ1ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ4
       value: 1
     second_pair:
       row_name: CCZZ3ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ4
       value: 1
     second_pair:
       row_name: CCZZ5ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ4
       value: 1
     second_pair:
       row_name: CCZZ7ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ4
       value: 1
     second_pair:
       row_name: CCZZ9ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ4
       value: 1
     second_pair:
       row_name: CCZ11ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ4
       value: 1
     second_pair:
       row_name: CCZ13ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ4
       value: 1
     second_pair:
       row_name: CCZ15ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ4
       value: 1
     second_pair:
       row_name: CCZ17ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ4
       value: 1
     second_pair:
       row_name: CCZ19ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ4
       value: 1
     second_pair:
       row_name: CCZ21ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ4
       value: 1
     second_pair:
       row_name: CCZ23ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ4
       value: 1
     second_pair:
       row_name: CCZ25ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ4
       value: 1
     second_pair:
       row_name: CCZ27ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ4
       value: 1
     second_pair:
       row_name: CCZ29ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ4
       value: 1
     second_pair:
       row_name: CCZ31ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ4
       value: 1
     second_pair:
       row_name: CCZ33ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ4
       value: 1
     second_pair:
       row_name: CCZ35ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ4
       value: 1
     second_pair:
       row_name: CCZ37ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ4
       value: 1
     second_pair:
       row_name: CCZ39ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ4
       value: 1
     second_pair:
       row_name: CCZ41ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ4
       value: 1
     second_pair:
       row_name: CCZ43ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ4
       value: 1
     second_pair:
       row_name: CCZ45ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ4
       value: 1
     second_pair:
       row_name: CCZ47ZZ4
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ5
       value: 20
     second_pair:
       row_name: NCZZ2ZZ5
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ3ZZ5
       value: 30
     second_pair:
       row_name: NCZZ6ZZ5
       value: 50
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ5
       value: 10
     second_pair:
       row_name: NCZ13ZZ5
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ5
       value: 10
     second_pair:
       row_name: CCZZ1ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ5
       value: 1
     second_pair:
       row_name: CCZZ3ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ5
       value: 1
     second_pair:
       row_name: CCZZ5ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ5
       value: 1
     second_pair:
       row_name: CCZZ7ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ5
       value: 1
     second_pair:
       row_name: CCZZ9ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ5
       value: 1
     second_pair:
       row_name: CCZ11ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ5
       value: 1
     second_pair:
       row_name: CCZ13ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ5
       value: 1
     second_pair:
       row_name: CCZ15ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ5
       value: 1
     second_pair:
       row_name: CCZ17ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ5
       value: 1
     second_pair:
       row_name: CCZ19ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ5
       value: 1
     second_pair:
       row_name: CCZ21ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ5
       value: 1
     second_pair:
       row_name: CCZ23ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ5
       value: 1
     second_pair:
       row_name: CCZ25ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ5
       value: 1
     second_pair:
       row_name: CCZ27ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ5
       value: 1
     second_pair:
       row_name: CCZ29ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ5
       value: 1
     second_pair:
       row_name: CCZ31ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ5
       value: 1
     second_pair:
       row_name: CCZ33ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ5
       value: 1
     second_pair:
       row_name: CCZ35ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ5
       value: 1
     second_pair:
       row_name: CCZ37ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ5
       value: 1
     second_pair:
       row_name: CCZ39ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ5
       value: 1
     second_pair:
       row_name: CCZ41ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ5
       value: 1
     second_pair:
       row_name: CCZ43ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ5
       value: 1
     second_pair:
       row_name: CCZ45ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ5
       value: 1
     second_pair:
       row_name: CCZ47ZZ5
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ6
       value: 20
     second_pair:
       row_name: NCZZ2ZZ6
       value: 15
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ3ZZ6
       value: 10
     second_pair:
       row_name: NCZZ6ZZ6
       value: 20
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ9ZZ6
       value: 5
     second_pair:
       row_name: NCZ15ZZ6
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ1ZZ6
       value: 1
     second_pair:
       row_name: CCZZ2ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ3ZZ6
       value: 1
     second_pair:
       row_name: CCZZ4ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ5ZZ6
       value: 1
     second_pair:
       row_name: CCZZ6ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ7ZZ6
       value: 1
     second_pair:
       row_name: CCZZ8ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ9ZZ6
       value: 1
     second_pair:
       row_name: CCZ10ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ11ZZ6
       value: 1
     second_pair:
       row_name: CCZ12ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ13ZZ6
       value: 1
     second_pair:
       row_name: CCZ14ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ15ZZ6
       value: 1
     second_pair:
       row_name: CCZ16ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ17ZZ6
       value: 1
     second_pair:
       row_name: CCZ18ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ19ZZ6
       value: 1
     second_pair:
       row_name: CCZ20ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ21ZZ6
       value: 1
     second_pair:
       row_name: CCZ22ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ23ZZ6
       value: 1
     second_pair:
       row_name: CCZ24ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ25ZZ6
       value: 1
     second_pair:
       row_name: CCZ26ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ27ZZ6
       value: 1
     second_pair:
       row_name: CCZ28ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ29ZZ6
       value: 1
     second_pair:
       row_name: CCZ30ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ31ZZ6
       value: 1
     second_pair:
       row_name: CCZ32ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ33ZZ6
       value: 1
     second_pair:
       row_name: CCZ34ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ35ZZ6
       value: 1
     second_pair:
       row_name: CCZ36ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ37ZZ6
       value: 1
     second_pair:
       row_name: CCZ38ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ39ZZ6
       value: 1
     second_pair:
       row_name: CCZ40ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ41ZZ6
       value: 1
     second_pair:
       row_name: CCZ42ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ43ZZ6
       value: 1
     second_pair:
       row_name: CCZ44ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ45ZZ6
       value: 1
     second_pair:
       row_name: CCZ46ZZ6
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ47ZZ6
       value: 1
     second_pair:
       row_name: NCZZ1ZZ7
       value: 10
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ2ZZ7
       value: 10
     second_pair:
       row_name: NCZZ3ZZ7
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ6ZZ7
       value: 30
     second_pair:
       row_name: NCZZ9ZZ7
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ7
       value: 20
     second_pair:
       row_name: CCZZ1ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ7
       value: 1
     second_pair:
       row_name: CCZZ3ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ7
       value: 1
     second_pair:
       row_name: CCZZ5ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ7
       value: 1
     second_pair:
       row_name: CCZZ7ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ7
       value: 1
     second_pair:
       row_name: CCZZ9ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ7
       value: 1
     second_pair:
       row_name: CCZ11ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ7
       value: 1
     second_pair:
       row_name: CCZ13ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ7
       value: 1
     second_pair:
       row_name: CCZ15ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ7
       value: 1
     second_pair:
       row_name: CCZ17ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ7
       value: 1
     second_pair:
       row_name: CCZ19ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ7
       value: 1
     second_pair:
       row_name: CCZ21ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ7
       value: 1
     second_pair:
       row_name: CCZ23ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ7
       value: 1
     second_pair:
       row_name: CCZ25ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ7
       value: 1
     second_pair:
       row_name: CCZ27ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ7
       value: 1
     second_pair:
       row_name: CCZ29ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ7
       value: 1
     second_pair:
       row_name: CCZ31ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ7
       value: 1
     second_pair:
       row_name: CCZ33ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ7
       value: 1
     second_pair:
       row_name: CCZ35ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ7
       value: 1
     second_pair:
       row_name: CCZ37ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ7
       value: 1
     second_pair:
       row_name: CCZ39ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ7
       value: 1
     second_pair:
       row_name: CCZ41ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ7
       value: 1
     second_pair:
       row_name: CCZ43ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ7
       value: 1
     second_pair:
       row_name: CCZ45ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ7
       value: 1
     second_pair:
       row_name: CCZ47ZZ7
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ1ZZ8
       value: 10
     second_pair:
       row_name: NCZZ2ZZ8
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZZ6ZZ8
       value: 10
     second_pair:
       row_name: NCZ15ZZ8
       value: 30
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ1ZZ8
       value: 1
     second_pair:
       row_name: CCZZ2ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ3ZZ8
       value: 1
     second_pair:
       row_name: CCZZ4ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ5ZZ8
       value: 1
     second_pair:
       row_name: CCZZ6ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ7ZZ8
       value: 1
     second_pair:
       row_name: CCZZ8ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ9ZZ8
       value: 1
     second_pair:
       row_name: CCZ10ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ11ZZ8
       value: 1
     second_pair:
       row_name: CCZ12ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ13ZZ8
       value: 1
     second_pair:
       row_name: CCZ14ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ15ZZ8
       value: 1
     second_pair:
       row_name: CCZ16ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ17ZZ8
       value: 1
     second_pair:
       row_name: CCZ18ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ19ZZ8
       value: 1
     second_pair:
       row_name: CCZ20ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ21ZZ8
       value: 1
     second_pair:
       row_name: CCZ22ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ23ZZ8
       value: 1
     second_pair:
       row_name: CCZ24ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ25ZZ8
       value: 1
     second_pair:
       row_name: CCZ26ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ27ZZ8
       value: 1
     second_pair:
       row_name: CCZ28ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ29ZZ8
       value: 1
     second_pair:
       row_name: CCZ30ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ31ZZ8
       value: 1
     second_pair:
       row_name: CCZ32ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ33ZZ8
       value: 1
     second_pair:
       row_name: CCZ34ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ35ZZ8
       value: 1
     second_pair:
       row_name: CCZ36ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ37ZZ8
       value: 1
     second_pair:
       row_name: CCZ38ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ39ZZ8
       value: 1
     second_pair:
       row_name: CCZ40ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ41ZZ8
       value: 1
     second_pair:
       row_name: CCZ42ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ43ZZ8
       value: 1
     second_pair:
       row_name: CCZ44ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ45ZZ8
       value: 1
     second_pair:
       row_name: CCZ46ZZ8
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ47ZZ8
       value: 1
     second_pair:
       row_name: NCZZ6ZZ9
       value: 5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: NCZ15ZZ9
       value: 5
     second_pair:
       row_name: CCZZ1ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ2ZZ9
       value: 1
     second_pair:
       row_name: CCZZ3ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ4ZZ9
       value: 1
     second_pair:
       row_name: CCZZ5ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ6ZZ9
       value: 1
     second_pair:
       row_name: CCZZ7ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ8ZZ9
       value: 1
     second_pair:
       row_name: CCZZ9ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ10ZZ9
       value: 1
     second_pair:
       row_name: CCZ11ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ12ZZ9
       value: 1
     second_pair:
       row_name: CCZ13ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ14ZZ9
       value: 1
     second_pair:
       row_name: CCZ15ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ16ZZ9
       value: 1
     second_pair:
       row_name: CCZ17ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ18ZZ9
       value: 1
     second_pair:
       row_name: CCZ19ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ20ZZ9
       value: 1
     second_pair:
       row_name: CCZ21ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ22ZZ9
       value: 1
     second_pair:
       row_name: CCZ23ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ24ZZ9
       value: 1
     second_pair:
       row_name: CCZ25ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ26ZZ9
       value: 1
     second_pair:
       row_name: CCZ27ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ28ZZ9
       value: 1
     second_pair:
       row_name: CCZ29ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ30ZZ9
       value: 1
     second_pair:
       row_name: CCZ31ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ32ZZ9
       value: 1
     second_pair:
       row_name: CCZ33ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ34ZZ9
       value: 1
     second_pair:
       row_name: CCZ35ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ36ZZ9
       value: 1
     second_pair:
       row_name: CCZ37ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ38ZZ9
       value: 1
     second_pair:
       row_name: CCZ39ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ40ZZ9
       value: 1
     second_pair:
       row_name: CCZ41ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ42ZZ9
       value: 1
     second_pair:
       row_name: CCZ43ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ44ZZ9
       value: 1
     second_pair:
       row_name: CCZ45ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ46ZZ9
       value: 1
     second_pair:
       row_name: CCZ47ZZ9
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ1Z10
       value: 1
     second_pair:
       row_name: CCZZ2Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ3Z10
       value: 1
     second_pair:
       row_name: CCZZ4Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ5Z10
       value: 1
     second_pair:
       row_name: CCZZ6Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ7Z10
       value: 1
     second_pair:
       row_name: CCZZ8Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZZ9Z10
       value: 1
     second_pair:
       row_name: CCZ10Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ11Z10
       value: 1
     second_pair:
       row_name: CCZ12Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ13Z10
       value: 1
     second_pair:
       row_name: CCZ14Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ15Z10
       value: 1
     second_pair:
       row_name: CCZ16Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ17Z10
       value: 1
     second_pair:
       row_name: CCZ18Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ19Z10
       value: 1
     second_pair:
       row_name: CCZ20Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ21Z10
       value: 1
     second_pair:
       row_name: CCZ22Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ23Z10
       value: 1
     second_pair:
       row_name: CCZ24Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ25Z10
       value: 1
     second_pair:
       row_name: CCZ26Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ27Z10
       value: 1
     second_pair:
       row_name: CCZ28Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ29Z10
       value: 1
     second_pair:
       row_name: CCZ30Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ31Z10
       value: 1
     second_pair:
       row_name: CCZ32Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ33Z10
       value: 1
     second_pair:
       row_name: CCZ34Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ35Z10
       value: 1
     second_pair:
       row_name: CCZ36Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ37Z10
       value: 1
     second_pair:
       row_name: CCZ38Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ39Z10
       value: 1
     second_pair:
       row_name: CCZ40Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ41Z10
       value: 1
     second_pair:
       row_name: CCZ42Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ43Z10
       value: 1
     second_pair:
       row_name: CCZ44Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ45Z10
       value: 1
     second_pair:
       row_name: CCZ46Z10
       value: 1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: CCZ47Z10
       value: 1

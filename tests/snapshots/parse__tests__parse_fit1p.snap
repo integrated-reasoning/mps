@@ -30038,7 +30038,7 @@ columns:
     second_pair: ~
   - name: S0100001
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000001
@@ -30050,14 +30050,14 @@ columns:
     second_pair: ~
   - name: S0300001
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000001
       value: -1
   - name: S0100002
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000002
@@ -30069,14 +30069,14 @@ columns:
     second_pair: ~
   - name: S0300002
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000002
       value: -1
   - name: S0100003
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000003
@@ -30088,14 +30088,14 @@ columns:
     second_pair: ~
   - name: S0300003
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000003
       value: -1
   - name: S0100004
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000004
@@ -30107,14 +30107,14 @@ columns:
     second_pair: ~
   - name: S0300004
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000004
       value: -1
   - name: S0100005
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000005
@@ -30126,14 +30126,14 @@ columns:
     second_pair: ~
   - name: S0300005
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000005
       value: -1
   - name: S0100006
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000006
@@ -30145,14 +30145,14 @@ columns:
     second_pair: ~
   - name: S0300006
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000006
       value: -1
   - name: S0100007
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000007
@@ -30164,14 +30164,14 @@ columns:
     second_pair: ~
   - name: S0300007
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000007
       value: -1
   - name: S0100008
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000008
@@ -30183,14 +30183,14 @@ columns:
     second_pair: ~
   - name: S0300008
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000008
       value: -1
   - name: S0100009
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000009
@@ -30202,14 +30202,14 @@ columns:
     second_pair: ~
   - name: S0300009
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000009
       value: -1
   - name: S0100010
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000010
@@ -30221,14 +30221,14 @@ columns:
     second_pair: ~
   - name: S0300010
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000010
       value: -1
   - name: S0100011
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000011
@@ -30240,14 +30240,14 @@ columns:
     second_pair: ~
   - name: S0300011
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000011
       value: -1
   - name: S0100012
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000012
@@ -30259,14 +30259,14 @@ columns:
     second_pair: ~
   - name: S0300012
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000012
       value: -1
   - name: S0100013
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000013
@@ -30278,14 +30278,14 @@ columns:
     second_pair: ~
   - name: S0300013
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000013
       value: -1
   - name: S0100014
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000014
@@ -30297,14 +30297,14 @@ columns:
     second_pair: ~
   - name: S0300014
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000014
       value: -1
   - name: S0100015
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000015
@@ -30316,14 +30316,14 @@ columns:
     second_pair: ~
   - name: S0300015
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000015
       value: -1
   - name: S0100016
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000016
@@ -30335,14 +30335,14 @@ columns:
     second_pair: ~
   - name: S0300016
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000016
       value: -1
   - name: S0100017
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000017
@@ -30354,14 +30354,14 @@ columns:
     second_pair: ~
   - name: S0300017
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000017
       value: -1
   - name: S0100018
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000018
@@ -30373,14 +30373,14 @@ columns:
     second_pair: ~
   - name: S0300018
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000018
       value: -1
   - name: S0100019
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000019
@@ -30392,14 +30392,14 @@ columns:
     second_pair: ~
   - name: S0300019
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000019
       value: -1
   - name: S0100020
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000020
@@ -30411,14 +30411,14 @@ columns:
     second_pair: ~
   - name: S0300020
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000020
       value: -1
   - name: S0100021
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000021
@@ -30430,14 +30430,14 @@ columns:
     second_pair: ~
   - name: S0300021
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000021
       value: -1
   - name: S0100022
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000022
@@ -30449,14 +30449,14 @@ columns:
     second_pair: ~
   - name: S0300022
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000022
       value: -1
   - name: S0100023
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000023
@@ -30468,14 +30468,14 @@ columns:
     second_pair: ~
   - name: S0300023
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000023
       value: -1
   - name: S0100024
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000024
@@ -30487,14 +30487,14 @@ columns:
     second_pair: ~
   - name: S0300024
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000024
       value: -1
   - name: S0100025
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000025
@@ -30506,14 +30506,14 @@ columns:
     second_pair: ~
   - name: S0300025
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000025
       value: -1
   - name: S0100026
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000026
@@ -30525,14 +30525,14 @@ columns:
     second_pair: ~
   - name: S0300026
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000026
       value: -1
   - name: S0100027
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000027
@@ -30544,14 +30544,14 @@ columns:
     second_pair: ~
   - name: S0300027
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000027
       value: -1
   - name: S0100028
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000028
@@ -30563,14 +30563,14 @@ columns:
     second_pair: ~
   - name: S0300028
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000028
       value: -1
   - name: S0100029
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000029
@@ -30582,14 +30582,14 @@ columns:
     second_pair: ~
   - name: S0300029
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000029
       value: -1
   - name: S0100030
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000030
@@ -30601,14 +30601,14 @@ columns:
     second_pair: ~
   - name: S0300030
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000030
       value: -1
   - name: S0100031
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000031
@@ -30620,14 +30620,14 @@ columns:
     second_pair: ~
   - name: S0300031
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000031
       value: -1
   - name: S0100032
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000032
@@ -30639,14 +30639,14 @@ columns:
     second_pair: ~
   - name: S0300032
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000032
       value: -1
   - name: S0100033
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000033
@@ -30658,14 +30658,14 @@ columns:
     second_pair: ~
   - name: S0300033
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000033
       value: -1
   - name: S0100034
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000034
@@ -30677,14 +30677,14 @@ columns:
     second_pair: ~
   - name: S0300034
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000034
       value: -1
   - name: S0100035
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000035
@@ -30696,14 +30696,14 @@ columns:
     second_pair: ~
   - name: S0300035
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000035
       value: -1
   - name: S0100036
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000036
@@ -30715,14 +30715,14 @@ columns:
     second_pair: ~
   - name: S0300036
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000036
       value: -1
   - name: S0100037
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000037
@@ -30734,14 +30734,14 @@ columns:
     second_pair: ~
   - name: S0300037
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000037
       value: -1
   - name: S0100038
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000038
@@ -30753,14 +30753,14 @@ columns:
     second_pair: ~
   - name: S0300038
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000038
       value: -1
   - name: S0100039
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000039
@@ -30772,14 +30772,14 @@ columns:
     second_pair: ~
   - name: S0300039
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000039
       value: -1
   - name: S0100040
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000040
@@ -30791,14 +30791,14 @@ columns:
     second_pair: ~
   - name: S0300040
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000040
       value: -1
   - name: S0100041
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000041
@@ -30810,14 +30810,14 @@ columns:
     second_pair: ~
   - name: S0300041
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000041
       value: -1
   - name: S0100042
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000042
@@ -30829,14 +30829,14 @@ columns:
     second_pair: ~
   - name: S0300042
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000042
       value: -1
   - name: S0100043
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000043
@@ -30848,14 +30848,14 @@ columns:
     second_pair: ~
   - name: S0300043
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000043
       value: -1
   - name: S0100044
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000044
@@ -30867,14 +30867,14 @@ columns:
     second_pair: ~
   - name: S0300044
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000044
       value: -1
   - name: S0100045
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000045
@@ -30886,14 +30886,14 @@ columns:
     second_pair: ~
   - name: S0300045
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000045
       value: -1
   - name: S0100046
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000046
@@ -30905,14 +30905,14 @@ columns:
     second_pair: ~
   - name: S0300046
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000046
       value: -1
   - name: S0100047
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000047
@@ -30924,14 +30924,14 @@ columns:
     second_pair: ~
   - name: S0300047
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000047
       value: -1
   - name: S0100048
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000048
@@ -30943,14 +30943,14 @@ columns:
     second_pair: ~
   - name: S0300048
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000048
       value: -1
   - name: S0100049
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000049
@@ -30962,14 +30962,14 @@ columns:
     second_pair: ~
   - name: S0300049
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000049
       value: -1
   - name: S0100050
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000050
@@ -30981,14 +30981,14 @@ columns:
     second_pair: ~
   - name: S0300050
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000050
       value: -1
   - name: S0100051
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000051
@@ -31000,14 +31000,14 @@ columns:
     second_pair: ~
   - name: S0300051
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000051
       value: -1
   - name: S0100052
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000052
@@ -31019,14 +31019,14 @@ columns:
     second_pair: ~
   - name: S0300052
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000052
       value: -1
   - name: S0100053
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000053
@@ -31038,14 +31038,14 @@ columns:
     second_pair: ~
   - name: S0300053
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000053
       value: -1
   - name: S0100054
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000054
@@ -31057,14 +31057,14 @@ columns:
     second_pair: ~
   - name: S0300054
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000054
       value: -1
   - name: S0100055
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000055
@@ -31076,14 +31076,14 @@ columns:
     second_pair: ~
   - name: S0300055
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000055
       value: -1
   - name: S0100056
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000056
@@ -31095,14 +31095,14 @@ columns:
     second_pair: ~
   - name: S0300056
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000056
       value: -1
   - name: S0100057
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000057
@@ -31114,14 +31114,14 @@ columns:
     second_pair: ~
   - name: S0300057
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000057
       value: -1
   - name: S0100058
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000058
@@ -31133,14 +31133,14 @@ columns:
     second_pair: ~
   - name: S0300058
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000058
       value: -1
   - name: S0100059
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000059
@@ -31152,14 +31152,14 @@ columns:
     second_pair: ~
   - name: S0300059
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000059
       value: -1
   - name: S0100060
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000060
@@ -31171,14 +31171,14 @@ columns:
     second_pair: ~
   - name: S0300060
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000060
       value: -1
   - name: S0100061
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000061
@@ -31190,14 +31190,14 @@ columns:
     second_pair: ~
   - name: S0300061
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000061
       value: -1
   - name: S0100062
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000062
@@ -31209,14 +31209,14 @@ columns:
     second_pair: ~
   - name: S0300062
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000062
       value: -1
   - name: S0100063
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000063
@@ -31228,14 +31228,14 @@ columns:
     second_pair: ~
   - name: S0300063
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000063
       value: -1
   - name: S0100064
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000064
@@ -31247,14 +31247,14 @@ columns:
     second_pair: ~
   - name: S0300064
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000064
       value: -1
   - name: S0100065
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000065
@@ -31266,14 +31266,14 @@ columns:
     second_pair: ~
   - name: S0300065
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000065
       value: -1
   - name: S0100066
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000066
@@ -31285,14 +31285,14 @@ columns:
     second_pair: ~
   - name: S0300066
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000066
       value: -1
   - name: S0100067
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000067
@@ -31304,14 +31304,14 @@ columns:
     second_pair: ~
   - name: S0300067
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000067
       value: -1
   - name: S0100068
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000068
@@ -31323,14 +31323,14 @@ columns:
     second_pair: ~
   - name: S0300068
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000068
       value: -1
   - name: S0100069
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000069
@@ -31342,14 +31342,14 @@ columns:
     second_pair: ~
   - name: S0300069
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000069
       value: -1
   - name: S0100070
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000070
@@ -31361,14 +31361,14 @@ columns:
     second_pair: ~
   - name: S0300070
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000070
       value: -1
   - name: S0100071
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000071
@@ -31380,14 +31380,14 @@ columns:
     second_pair: ~
   - name: S0300071
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000071
       value: -1
   - name: S0100072
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000072
@@ -31399,14 +31399,14 @@ columns:
     second_pair: ~
   - name: S0300072
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000072
       value: -1
   - name: S0100073
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000073
@@ -31418,14 +31418,14 @@ columns:
     second_pair: ~
   - name: S0300073
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000073
       value: -1
   - name: S0100074
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000074
@@ -31437,14 +31437,14 @@ columns:
     second_pair: ~
   - name: S0300074
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000074
       value: -1
   - name: S0100075
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000075
@@ -31456,14 +31456,14 @@ columns:
     second_pair: ~
   - name: S0300075
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000075
       value: -1
   - name: S0100076
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000076
@@ -31475,14 +31475,14 @@ columns:
     second_pair: ~
   - name: S0300076
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000076
       value: -1
   - name: S0100077
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000077
@@ -31494,14 +31494,14 @@ columns:
     second_pair: ~
   - name: S0300077
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000077
       value: -1
   - name: S0100078
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000078
@@ -31513,14 +31513,14 @@ columns:
     second_pair: ~
   - name: S0300078
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000078
       value: -1
   - name: S0100079
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000079
@@ -31532,14 +31532,14 @@ columns:
     second_pair: ~
   - name: S0300079
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000079
       value: -1
   - name: S0100080
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000080
@@ -31551,14 +31551,14 @@ columns:
     second_pair: ~
   - name: S0300080
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000080
       value: -1
   - name: S0100081
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000081
@@ -31570,14 +31570,14 @@ columns:
     second_pair: ~
   - name: S0300081
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000081
       value: -1
   - name: S0100082
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000082
@@ -31589,14 +31589,14 @@ columns:
     second_pair: ~
   - name: S0300082
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000082
       value: -1
   - name: S0100083
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000083
@@ -31608,14 +31608,14 @@ columns:
     second_pair: ~
   - name: S0300083
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000083
       value: -1
   - name: S0100084
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000084
@@ -31627,14 +31627,14 @@ columns:
     second_pair: ~
   - name: S0300084
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000084
       value: -1
   - name: S0100085
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000085
@@ -31646,14 +31646,14 @@ columns:
     second_pair: ~
   - name: S0300085
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000085
       value: -1
   - name: S0100086
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000086
@@ -31665,14 +31665,14 @@ columns:
     second_pair: ~
   - name: S0300086
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000086
       value: -1
   - name: S0100087
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000087
@@ -31684,14 +31684,14 @@ columns:
     second_pair: ~
   - name: S0300087
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000087
       value: -1
   - name: S0100088
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000088
@@ -31703,14 +31703,14 @@ columns:
     second_pair: ~
   - name: S0300088
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000088
       value: -1
   - name: S0100089
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000089
@@ -31722,14 +31722,14 @@ columns:
     second_pair: ~
   - name: S0300089
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000089
       value: -1
   - name: S0100090
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000090
@@ -31741,14 +31741,14 @@ columns:
     second_pair: ~
   - name: S0300090
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000090
       value: -1
   - name: S0100091
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000091
@@ -31760,14 +31760,14 @@ columns:
     second_pair: ~
   - name: S0300091
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000091
       value: -1
   - name: S0100092
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000092
@@ -31779,14 +31779,14 @@ columns:
     second_pair: ~
   - name: S0300092
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000092
       value: -1
   - name: S0100093
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000093
@@ -31798,14 +31798,14 @@ columns:
     second_pair: ~
   - name: S0300093
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000093
       value: -1
   - name: S0100094
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000094
@@ -31817,14 +31817,14 @@ columns:
     second_pair: ~
   - name: S0300094
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000094
       value: -1
   - name: S0100095
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000095
@@ -31836,14 +31836,14 @@ columns:
     second_pair: ~
   - name: S0300095
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000095
       value: -1
   - name: S0100096
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000096
@@ -31855,14 +31855,14 @@ columns:
     second_pair: ~
   - name: S0300096
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000096
       value: -1
   - name: S0100097
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000097
@@ -31874,14 +31874,14 @@ columns:
     second_pair: ~
   - name: S0300097
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000097
       value: -1
   - name: S0100098
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000098
@@ -31893,14 +31893,14 @@ columns:
     second_pair: ~
   - name: S0300098
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000098
       value: -1
   - name: S0100099
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000099
@@ -31912,14 +31912,14 @@ columns:
     second_pair: ~
   - name: S0300099
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000099
       value: -1
   - name: S0100100
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000100
@@ -31931,14 +31931,14 @@ columns:
     second_pair: ~
   - name: S0300100
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000100
       value: -1
   - name: S0100101
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000101
@@ -31950,14 +31950,14 @@ columns:
     second_pair: ~
   - name: S0300101
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000101
       value: -1
   - name: S0100102
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000102
@@ -31969,14 +31969,14 @@ columns:
     second_pair: ~
   - name: S0300102
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000102
       value: -1
   - name: S0100103
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000103
@@ -31988,14 +31988,14 @@ columns:
     second_pair: ~
   - name: S0300103
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000103
       value: -1
   - name: S0100104
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000104
@@ -32007,14 +32007,14 @@ columns:
     second_pair: ~
   - name: S0300104
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000104
       value: -1
   - name: S0100105
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000105
@@ -32026,14 +32026,14 @@ columns:
     second_pair: ~
   - name: S0300105
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000105
       value: -1
   - name: S0100106
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000106
@@ -32045,14 +32045,14 @@ columns:
     second_pair: ~
   - name: S0300106
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000106
       value: -1
   - name: S0100107
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000107
@@ -32064,14 +32064,14 @@ columns:
     second_pair: ~
   - name: S0300107
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000107
       value: -1
   - name: S0100108
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000108
@@ -32083,14 +32083,14 @@ columns:
     second_pair: ~
   - name: S0300108
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000108
       value: -1
   - name: S0100109
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000109
@@ -32102,14 +32102,14 @@ columns:
     second_pair: ~
   - name: S0300109
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000109
       value: -1
   - name: S0100110
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000110
@@ -32121,14 +32121,14 @@ columns:
     second_pair: ~
   - name: S0300110
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000110
       value: -1
   - name: S0100111
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000111
@@ -32140,14 +32140,14 @@ columns:
     second_pair: ~
   - name: S0300111
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000111
       value: -1
   - name: S0100112
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000112
@@ -32159,14 +32159,14 @@ columns:
     second_pair: ~
   - name: S0300112
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000112
       value: -1
   - name: S0100113
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000113
@@ -32178,14 +32178,14 @@ columns:
     second_pair: ~
   - name: S0300113
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000113
       value: -1
   - name: S0100114
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000114
@@ -32197,14 +32197,14 @@ columns:
     second_pair: ~
   - name: S0300114
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000114
       value: -1
   - name: S0100115
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000115
@@ -32216,14 +32216,14 @@ columns:
     second_pair: ~
   - name: S0300115
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000115
       value: -1
   - name: S0100116
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000116
@@ -32235,14 +32235,14 @@ columns:
     second_pair: ~
   - name: S0300116
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000116
       value: -1
   - name: S0100117
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000117
@@ -32254,14 +32254,14 @@ columns:
     second_pair: ~
   - name: S0300117
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000117
       value: -1
   - name: S0100118
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000118
@@ -32273,14 +32273,14 @@ columns:
     second_pair: ~
   - name: S0300118
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000118
       value: -1
   - name: S0100119
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000119
@@ -32292,14 +32292,14 @@ columns:
     second_pair: ~
   - name: S0300119
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000119
       value: -1
   - name: S0100120
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000120
@@ -32311,14 +32311,14 @@ columns:
     second_pair: ~
   - name: S0300120
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000120
       value: -1
   - name: S0100121
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000121
@@ -32330,14 +32330,14 @@ columns:
     second_pair: ~
   - name: S0300121
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000121
       value: -1
   - name: S0100122
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000122
@@ -32349,14 +32349,14 @@ columns:
     second_pair: ~
   - name: S0300122
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000122
       value: -1
   - name: S0100123
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000123
@@ -32368,14 +32368,14 @@ columns:
     second_pair: ~
   - name: S0300123
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000123
       value: -1
   - name: S0100124
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000124
@@ -32387,14 +32387,14 @@ columns:
     second_pair: ~
   - name: S0300124
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000124
       value: -1
   - name: S0100125
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000125
@@ -32406,14 +32406,14 @@ columns:
     second_pair: ~
   - name: S0300125
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000125
       value: -1
   - name: S0100126
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000126
@@ -32425,14 +32425,14 @@ columns:
     second_pair: ~
   - name: S0300126
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000126
       value: -1
   - name: S0100127
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000127
@@ -32444,14 +32444,14 @@ columns:
     second_pair: ~
   - name: S0300127
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000127
       value: -1
   - name: S0100128
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000128
@@ -32463,14 +32463,14 @@ columns:
     second_pair: ~
   - name: S0300128
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000128
       value: -1
   - name: S0100129
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000129
@@ -32482,14 +32482,14 @@ columns:
     second_pair: ~
   - name: S0300129
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000129
       value: -1
   - name: S0100130
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000130
@@ -32501,14 +32501,14 @@ columns:
     second_pair: ~
   - name: S0300130
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000130
       value: -1
   - name: S0100131
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000131
@@ -32520,14 +32520,14 @@ columns:
     second_pair: ~
   - name: S0300131
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000131
       value: -1
   - name: S0100132
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000132
@@ -32539,14 +32539,14 @@ columns:
     second_pair: ~
   - name: S0300132
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000132
       value: -1
   - name: S0100133
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000133
@@ -32558,14 +32558,14 @@ columns:
     second_pair: ~
   - name: S0300133
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000133
       value: -1
   - name: S0100134
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000134
@@ -32577,14 +32577,14 @@ columns:
     second_pair: ~
   - name: S0300134
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000134
       value: -1
   - name: S0100135
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000135
@@ -32596,14 +32596,14 @@ columns:
     second_pair: ~
   - name: S0300135
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000135
       value: -1
   - name: S0100136
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000136
@@ -32615,14 +32615,14 @@ columns:
     second_pair: ~
   - name: S0300136
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000136
       value: -1
   - name: S0100137
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000137
@@ -32634,14 +32634,14 @@ columns:
     second_pair: ~
   - name: S0300137
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000137
       value: -1
   - name: S0100138
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000138
@@ -32653,14 +32653,14 @@ columns:
     second_pair: ~
   - name: S0300138
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000138
       value: -1
   - name: S0100139
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000139
@@ -32672,14 +32672,14 @@ columns:
     second_pair: ~
   - name: S0300139
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000139
       value: -1
   - name: S0100140
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000140
@@ -32691,14 +32691,14 @@ columns:
     second_pair: ~
   - name: S0300140
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000140
       value: -1
   - name: S0100141
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000141
@@ -32710,14 +32710,14 @@ columns:
     second_pair: ~
   - name: S0300141
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000141
       value: -1
   - name: S0100142
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000142
@@ -32729,14 +32729,14 @@ columns:
     second_pair: ~
   - name: S0300142
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000142
       value: -1
   - name: S0100143
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000143
@@ -32748,14 +32748,14 @@ columns:
     second_pair: ~
   - name: S0300143
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000143
       value: -1
   - name: S0100144
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000144
@@ -32767,14 +32767,14 @@ columns:
     second_pair: ~
   - name: S0300144
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000144
       value: -1
   - name: S0100145
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000145
@@ -32786,14 +32786,14 @@ columns:
     second_pair: ~
   - name: S0300145
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000145
       value: -1
   - name: S0100146
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000146
@@ -32805,14 +32805,14 @@ columns:
     second_pair: ~
   - name: S0300146
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000146
       value: -1
   - name: S0100147
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000147
@@ -32824,14 +32824,14 @@ columns:
     second_pair: ~
   - name: S0300147
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000147
       value: -1
   - name: S0100148
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000148
@@ -32843,14 +32843,14 @@ columns:
     second_pair: ~
   - name: S0300148
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000148
       value: -1
   - name: S0100149
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000149
@@ -32862,14 +32862,14 @@ columns:
     second_pair: ~
   - name: S0300149
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000149
       value: -1
   - name: S0100150
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000150
@@ -32881,14 +32881,14 @@ columns:
     second_pair: ~
   - name: S0300150
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000150
       value: -1
   - name: S0100151
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000151
@@ -32900,14 +32900,14 @@ columns:
     second_pair: ~
   - name: S0300151
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000151
       value: -1
   - name: S0100152
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000152
@@ -32919,14 +32919,14 @@ columns:
     second_pair: ~
   - name: S0300152
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000152
       value: -1
   - name: S0100153
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000153
@@ -32938,14 +32938,14 @@ columns:
     second_pair: ~
   - name: S0300153
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000153
       value: -1
   - name: S0100154
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000154
@@ -32957,14 +32957,14 @@ columns:
     second_pair: ~
   - name: S0300154
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000154
       value: -1
   - name: S0100155
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000155
@@ -32976,14 +32976,14 @@ columns:
     second_pair: ~
   - name: S0300155
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000155
       value: -1
   - name: S0100156
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000156
@@ -32995,14 +32995,14 @@ columns:
     second_pair: ~
   - name: S0300156
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000156
       value: -1
   - name: S0100157
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000157
@@ -33014,14 +33014,14 @@ columns:
     second_pair: ~
   - name: S0300157
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000157
       value: -1
   - name: S0100158
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000158
@@ -33033,14 +33033,14 @@ columns:
     second_pair: ~
   - name: S0300158
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000158
       value: -1
   - name: S0100159
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000159
@@ -33052,14 +33052,14 @@ columns:
     second_pair: ~
   - name: S0300159
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000159
       value: -1
   - name: S0100160
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000160
@@ -33071,14 +33071,14 @@ columns:
     second_pair: ~
   - name: S0300160
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000160
       value: -1
   - name: S0100161
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000161
@@ -33090,14 +33090,14 @@ columns:
     second_pair: ~
   - name: S0300161
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000161
       value: -1
   - name: S0100162
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000162
@@ -33109,14 +33109,14 @@ columns:
     second_pair: ~
   - name: S0300162
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000162
       value: -1
   - name: S0100163
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000163
@@ -33128,14 +33128,14 @@ columns:
     second_pair: ~
   - name: S0300163
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000163
       value: -1
   - name: S0100164
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000164
@@ -33147,14 +33147,14 @@ columns:
     second_pair: ~
   - name: S0300164
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000164
       value: -1
   - name: S0100165
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000165
@@ -33166,14 +33166,14 @@ columns:
     second_pair: ~
   - name: S0300165
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000165
       value: -1
   - name: S0100166
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000166
@@ -33185,14 +33185,14 @@ columns:
     second_pair: ~
   - name: S0300166
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000166
       value: -1
   - name: S0100167
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000167
@@ -33204,14 +33204,14 @@ columns:
     second_pair: ~
   - name: S0300167
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000167
       value: -1
   - name: S0100168
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000168
@@ -33223,14 +33223,14 @@ columns:
     second_pair: ~
   - name: S0300168
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000168
       value: -1
   - name: S0100169
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000169
@@ -33242,14 +33242,14 @@ columns:
     second_pair: ~
   - name: S0300169
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000169
       value: -1
   - name: S0100170
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000170
@@ -33261,14 +33261,14 @@ columns:
     second_pair: ~
   - name: S0300170
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000170
       value: -1
   - name: S0100171
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000171
@@ -33280,14 +33280,14 @@ columns:
     second_pair: ~
   - name: S0300171
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000171
       value: -1
   - name: S0100172
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000172
@@ -33299,14 +33299,14 @@ columns:
     second_pair: ~
   - name: S0300172
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000172
       value: -1
   - name: S0100173
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000173
@@ -33318,14 +33318,14 @@ columns:
     second_pair: ~
   - name: S0300173
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000173
       value: -1
   - name: S0100174
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000174
@@ -33337,14 +33337,14 @@ columns:
     second_pair: ~
   - name: S0300174
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000174
       value: -1
   - name: S0100175
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000175
@@ -33356,14 +33356,14 @@ columns:
     second_pair: ~
   - name: S0300175
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000175
       value: -1
   - name: S0100176
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000176
@@ -33375,14 +33375,14 @@ columns:
     second_pair: ~
   - name: S0300176
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000176
       value: -1
   - name: S0100177
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000177
@@ -33394,14 +33394,14 @@ columns:
     second_pair: ~
   - name: S0300177
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000177
       value: -1
   - name: S0100178
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000178
@@ -33413,14 +33413,14 @@ columns:
     second_pair: ~
   - name: S0300178
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000178
       value: -1
   - name: S0100179
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000179
@@ -33432,14 +33432,14 @@ columns:
     second_pair: ~
   - name: S0300179
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000179
       value: -1
   - name: S0100180
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000180
@@ -33451,14 +33451,14 @@ columns:
     second_pair: ~
   - name: S0300180
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000180
       value: -1
   - name: S0100181
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000181
@@ -33470,14 +33470,14 @@ columns:
     second_pair: ~
   - name: S0300181
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000181
       value: -1
   - name: S0100182
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000182
@@ -33489,14 +33489,14 @@ columns:
     second_pair: ~
   - name: S0300182
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000182
       value: -1
   - name: S0100183
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000183
@@ -33508,14 +33508,14 @@ columns:
     second_pair: ~
   - name: S0300183
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000183
       value: -1
   - name: S0100184
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000184
@@ -33527,14 +33527,14 @@ columns:
     second_pair: ~
   - name: S0300184
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000184
       value: -1
   - name: S0100185
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000185
@@ -33546,14 +33546,14 @@ columns:
     second_pair: ~
   - name: S0300185
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000185
       value: -1
   - name: S0100186
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000186
@@ -33565,14 +33565,14 @@ columns:
     second_pair: ~
   - name: S0300186
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000186
       value: -1
   - name: S0100187
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000187
@@ -33584,14 +33584,14 @@ columns:
     second_pair: ~
   - name: S0300187
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000187
       value: -1
   - name: S0100188
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000188
@@ -33603,14 +33603,14 @@ columns:
     second_pair: ~
   - name: S0300188
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000188
       value: -1
   - name: S0100189
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000189
@@ -33622,14 +33622,14 @@ columns:
     second_pair: ~
   - name: S0300189
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000189
       value: -1
   - name: S0100190
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000190
@@ -33641,14 +33641,14 @@ columns:
     second_pair: ~
   - name: S0300190
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000190
       value: -1
   - name: S0100191
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000191
@@ -33660,14 +33660,14 @@ columns:
     second_pair: ~
   - name: S0300191
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000191
       value: -1
   - name: S0100192
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000192
@@ -33679,14 +33679,14 @@ columns:
     second_pair: ~
   - name: S0300192
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000192
       value: -1
   - name: S0100193
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000193
@@ -33698,14 +33698,14 @@ columns:
     second_pair: ~
   - name: S0300193
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000193
       value: -1
   - name: S0100194
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000194
@@ -33717,14 +33717,14 @@ columns:
     second_pair: ~
   - name: S0300194
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000194
       value: -1
   - name: S0100195
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000195
@@ -33736,14 +33736,14 @@ columns:
     second_pair: ~
   - name: S0300195
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000195
       value: -1
   - name: S0100196
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000196
@@ -33755,14 +33755,14 @@ columns:
     second_pair: ~
   - name: S0300196
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000196
       value: -1
   - name: S0100197
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000197
@@ -33774,14 +33774,14 @@ columns:
     second_pair: ~
   - name: S0300197
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000197
       value: -1
   - name: S0100198
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000198
@@ -33793,14 +33793,14 @@ columns:
     second_pair: ~
   - name: S0300198
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000198
       value: -1
   - name: S0100199
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000199
@@ -33812,14 +33812,14 @@ columns:
     second_pair: ~
   - name: S0300199
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000199
       value: -1
   - name: S0100200
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000200
@@ -33831,14 +33831,14 @@ columns:
     second_pair: ~
   - name: S0300200
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000200
       value: -1
   - name: S0100201
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000201
@@ -33850,14 +33850,14 @@ columns:
     second_pair: ~
   - name: S0300201
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000201
       value: -1
   - name: S0100202
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000202
@@ -33869,14 +33869,14 @@ columns:
     second_pair: ~
   - name: S0300202
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000202
       value: -1
   - name: S0100203
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000203
@@ -33888,14 +33888,14 @@ columns:
     second_pair: ~
   - name: S0300203
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000203
       value: -1
   - name: S0100204
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000204
@@ -33907,14 +33907,14 @@ columns:
     second_pair: ~
   - name: S0300204
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000204
       value: -1
   - name: S0100205
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000205
@@ -33926,14 +33926,14 @@ columns:
     second_pair: ~
   - name: S0300205
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000205
       value: -1
   - name: S0100206
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000206
@@ -33945,14 +33945,14 @@ columns:
     second_pair: ~
   - name: S0300206
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000206
       value: -1
   - name: S0100207
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000207
@@ -33964,14 +33964,14 @@ columns:
     second_pair: ~
   - name: S0300207
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000207
       value: -1
   - name: S0100208
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000208
@@ -33983,14 +33983,14 @@ columns:
     second_pair: ~
   - name: S0300208
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000208
       value: -1
   - name: S0100209
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000209
@@ -34002,14 +34002,14 @@ columns:
     second_pair: ~
   - name: S0300209
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000209
       value: -1
   - name: S0100210
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000210
@@ -34021,14 +34021,14 @@ columns:
     second_pair: ~
   - name: S0300210
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000210
       value: -1
   - name: S0100211
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000211
@@ -34040,14 +34040,14 @@ columns:
     second_pair: ~
   - name: S0300211
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000211
       value: -1
   - name: S0100212
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000212
@@ -34059,14 +34059,14 @@ columns:
     second_pair: ~
   - name: S0300212
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000212
       value: -1
   - name: S0100213
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000213
@@ -34078,14 +34078,14 @@ columns:
     second_pair: ~
   - name: S0300213
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000213
       value: -1
   - name: S0100214
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000214
@@ -34097,14 +34097,14 @@ columns:
     second_pair: ~
   - name: S0300214
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000214
       value: -1
   - name: S0100215
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000215
@@ -34116,14 +34116,14 @@ columns:
     second_pair: ~
   - name: S0300215
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000215
       value: -1
   - name: S0100216
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000216
@@ -34135,14 +34135,14 @@ columns:
     second_pair: ~
   - name: S0300216
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000216
       value: -1
   - name: S0100217
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000217
@@ -34154,14 +34154,14 @@ columns:
     second_pair: ~
   - name: S0300217
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000217
       value: -1
   - name: S0100218
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000218
@@ -34173,14 +34173,14 @@ columns:
     second_pair: ~
   - name: S0300218
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000218
       value: -1
   - name: S0100219
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000219
@@ -34192,14 +34192,14 @@ columns:
     second_pair: ~
   - name: S0300219
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000219
       value: -1
   - name: S0100220
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000220
@@ -34211,14 +34211,14 @@ columns:
     second_pair: ~
   - name: S0300220
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000220
       value: -1
   - name: S0100221
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000221
@@ -34230,14 +34230,14 @@ columns:
     second_pair: ~
   - name: S0300221
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000221
       value: -1
   - name: S0100222
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000222
@@ -34249,14 +34249,14 @@ columns:
     second_pair: ~
   - name: S0300222
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000222
       value: -1
   - name: S0100223
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000223
@@ -34268,14 +34268,14 @@ columns:
     second_pair: ~
   - name: S0300223
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000223
       value: -1
   - name: S0100224
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000224
@@ -34287,14 +34287,14 @@ columns:
     second_pair: ~
   - name: S0300224
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000224
       value: -1
   - name: S0100225
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000225
@@ -34306,14 +34306,14 @@ columns:
     second_pair: ~
   - name: S0300225
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000225
       value: -1
   - name: S0100226
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000226
@@ -34325,14 +34325,14 @@ columns:
     second_pair: ~
   - name: S0300226
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000226
       value: -1
   - name: S0100227
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000227
@@ -34344,14 +34344,14 @@ columns:
     second_pair: ~
   - name: S0300227
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000227
       value: -1
   - name: S0100228
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000228
@@ -34363,14 +34363,14 @@ columns:
     second_pair: ~
   - name: S0300228
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000228
       value: -1
   - name: S0100229
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000229
@@ -34382,14 +34382,14 @@ columns:
     second_pair: ~
   - name: S0300229
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000229
       value: -1
   - name: S0100230
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000230
@@ -34401,14 +34401,14 @@ columns:
     second_pair: ~
   - name: S0300230
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000230
       value: -1
   - name: S0100231
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000231
@@ -34420,14 +34420,14 @@ columns:
     second_pair: ~
   - name: S0300231
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000231
       value: -1
   - name: S0100232
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000232
@@ -34439,14 +34439,14 @@ columns:
     second_pair: ~
   - name: S0300232
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000232
       value: -1
   - name: S0100233
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000233
@@ -34458,14 +34458,14 @@ columns:
     second_pair: ~
   - name: S0300233
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000233
       value: -1
   - name: S0100234
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000234
@@ -34477,14 +34477,14 @@ columns:
     second_pair: ~
   - name: S0300234
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000234
       value: -1
   - name: S0100235
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000235
@@ -34496,14 +34496,14 @@ columns:
     second_pair: ~
   - name: S0300235
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000235
       value: -1
   - name: S0100236
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000236
@@ -34515,14 +34515,14 @@ columns:
     second_pair: ~
   - name: S0300236
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000236
       value: -1
   - name: S0100237
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000237
@@ -34534,14 +34534,14 @@ columns:
     second_pair: ~
   - name: S0300237
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000237
       value: -1
   - name: S0100238
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000238
@@ -34553,14 +34553,14 @@ columns:
     second_pair: ~
   - name: S0300238
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000238
       value: -1
   - name: S0100239
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000239
@@ -34572,14 +34572,14 @@ columns:
     second_pair: ~
   - name: S0300239
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000239
       value: -1
   - name: S0100240
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000240
@@ -34591,14 +34591,14 @@ columns:
     second_pair: ~
   - name: S0300240
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000240
       value: -1
   - name: S0100241
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000241
@@ -34610,14 +34610,14 @@ columns:
     second_pair: ~
   - name: S0300241
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000241
       value: -1
   - name: S0100242
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000242
@@ -34629,14 +34629,14 @@ columns:
     second_pair: ~
   - name: S0300242
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000242
       value: -1
   - name: S0100243
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000243
@@ -34648,14 +34648,14 @@ columns:
     second_pair: ~
   - name: S0300243
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000243
       value: -1
   - name: S0100244
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000244
@@ -34667,14 +34667,14 @@ columns:
     second_pair: ~
   - name: S0300244
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000244
       value: -1
   - name: S0100245
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000245
@@ -34686,14 +34686,14 @@ columns:
     second_pair: ~
   - name: S0300245
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000245
       value: -1
   - name: S0100246
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000246
@@ -34705,14 +34705,14 @@ columns:
     second_pair: ~
   - name: S0300246
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000246
       value: -1
   - name: S0100247
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000247
@@ -34724,14 +34724,14 @@ columns:
     second_pair: ~
   - name: S0300247
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000247
       value: -1
   - name: S0100248
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000248
@@ -34743,14 +34743,14 @@ columns:
     second_pair: ~
   - name: S0300248
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000248
       value: -1
   - name: S0100249
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000249
@@ -34762,14 +34762,14 @@ columns:
     second_pair: ~
   - name: S0300249
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000249
       value: -1
   - name: S0100250
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000250
@@ -34781,14 +34781,14 @@ columns:
     second_pair: ~
   - name: S0300250
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000250
       value: -1
   - name: S0100251
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000251
@@ -34800,14 +34800,14 @@ columns:
     second_pair: ~
   - name: S0300251
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000251
       value: -1
   - name: S0100252
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000252
@@ -34819,14 +34819,14 @@ columns:
     second_pair: ~
   - name: S0300252
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000252
       value: -1
   - name: S0100253
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000253
@@ -34838,14 +34838,14 @@ columns:
     second_pair: ~
   - name: S0300253
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000253
       value: -1
   - name: S0100254
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000254
@@ -34857,14 +34857,14 @@ columns:
     second_pair: ~
   - name: S0300254
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000254
       value: -1
   - name: S0100255
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000255
@@ -34876,14 +34876,14 @@ columns:
     second_pair: ~
   - name: S0300255
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000255
       value: -1
   - name: S0100256
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000256
@@ -34895,14 +34895,14 @@ columns:
     second_pair: ~
   - name: S0300256
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000256
       value: -1
   - name: S0100257
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000257
@@ -34914,14 +34914,14 @@ columns:
     second_pair: ~
   - name: S0300257
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000257
       value: -1
   - name: S0100258
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000258
@@ -34933,14 +34933,14 @@ columns:
     second_pair: ~
   - name: S0300258
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000258
       value: -1
   - name: S0100259
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000259
@@ -34952,14 +34952,14 @@ columns:
     second_pair: ~
   - name: S0300259
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000259
       value: -1
   - name: S0100260
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000260
@@ -34971,14 +34971,14 @@ columns:
     second_pair: ~
   - name: S0300260
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000260
       value: -1
   - name: S0100261
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000261
@@ -34990,14 +34990,14 @@ columns:
     second_pair: ~
   - name: S0300261
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000261
       value: -1
   - name: S0100262
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000262
@@ -35009,14 +35009,14 @@ columns:
     second_pair: ~
   - name: S0300262
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000262
       value: -1
   - name: S0100263
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000263
@@ -35028,14 +35028,14 @@ columns:
     second_pair: ~
   - name: S0300263
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000263
       value: -1
   - name: S0100264
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000264
@@ -35047,14 +35047,14 @@ columns:
     second_pair: ~
   - name: S0300264
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000264
       value: -1
   - name: S0100265
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000265
@@ -35066,14 +35066,14 @@ columns:
     second_pair: ~
   - name: S0300265
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000265
       value: -1
   - name: S0100266
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000266
@@ -35085,14 +35085,14 @@ columns:
     second_pair: ~
   - name: S0300266
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000266
       value: -1
   - name: S0100267
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000267
@@ -35104,14 +35104,14 @@ columns:
     second_pair: ~
   - name: S0300267
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000267
       value: -1
   - name: S0100268
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000268
@@ -35123,14 +35123,14 @@ columns:
     second_pair: ~
   - name: S0300268
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000268
       value: -1
   - name: S0100269
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000269
@@ -35142,14 +35142,14 @@ columns:
     second_pair: ~
   - name: S0300269
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000269
       value: -1
   - name: S0100270
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000270
@@ -35161,14 +35161,14 @@ columns:
     second_pair: ~
   - name: S0300270
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000270
       value: -1
   - name: S0100271
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000271
@@ -35180,14 +35180,14 @@ columns:
     second_pair: ~
   - name: S0300271
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000271
       value: -1
   - name: S0100272
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000272
@@ -35199,14 +35199,14 @@ columns:
     second_pair: ~
   - name: S0300272
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000272
       value: -1
   - name: S0100273
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000273
@@ -35218,14 +35218,14 @@ columns:
     second_pair: ~
   - name: S0300273
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000273
       value: -1
   - name: S0100274
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000274
@@ -35237,14 +35237,14 @@ columns:
     second_pair: ~
   - name: S0300274
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000274
       value: -1
   - name: S0100275
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000275
@@ -35256,14 +35256,14 @@ columns:
     second_pair: ~
   - name: S0300275
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000275
       value: -1
   - name: S0100276
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000276
@@ -35275,14 +35275,14 @@ columns:
     second_pair: ~
   - name: S0300276
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000276
       value: -1
   - name: S0100277
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000277
@@ -35294,14 +35294,14 @@ columns:
     second_pair: ~
   - name: S0300277
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000277
       value: -1
   - name: S0100278
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000278
@@ -35313,14 +35313,14 @@ columns:
     second_pair: ~
   - name: S0300278
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000278
       value: -1
   - name: S0100279
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000279
@@ -35332,14 +35332,14 @@ columns:
     second_pair: ~
   - name: S0300279
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000279
       value: -1
   - name: S0100280
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000280
@@ -35351,14 +35351,14 @@ columns:
     second_pair: ~
   - name: S0300280
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000280
       value: -1
   - name: S0100281
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000281
@@ -35370,14 +35370,14 @@ columns:
     second_pair: ~
   - name: S0300281
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000281
       value: -1
   - name: S0100282
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000282
@@ -35389,14 +35389,14 @@ columns:
     second_pair: ~
   - name: S0300282
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000282
       value: -1
   - name: S0100283
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000283
@@ -35408,14 +35408,14 @@ columns:
     second_pair: ~
   - name: S0300283
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000283
       value: -1
   - name: S0100284
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000284
@@ -35427,14 +35427,14 @@ columns:
     second_pair: ~
   - name: S0300284
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000284
       value: -1
   - name: S0100285
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000285
@@ -35446,14 +35446,14 @@ columns:
     second_pair: ~
   - name: S0300285
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000285
       value: -1
   - name: S0100286
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000286
@@ -35465,14 +35465,14 @@ columns:
     second_pair: ~
   - name: S0300286
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000286
       value: -1
   - name: S0100287
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000287
@@ -35484,14 +35484,14 @@ columns:
     second_pair: ~
   - name: S0300287
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000287
       value: -1
   - name: S0100288
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000288
@@ -35503,14 +35503,14 @@ columns:
     second_pair: ~
   - name: S0300288
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000288
       value: -1
   - name: S0100289
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000289
@@ -35522,14 +35522,14 @@ columns:
     second_pair: ~
   - name: S0300289
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000289
       value: -1
   - name: S0100290
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000290
@@ -35541,14 +35541,14 @@ columns:
     second_pair: ~
   - name: S0300290
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000290
       value: -1
   - name: S0100291
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000291
@@ -35560,14 +35560,14 @@ columns:
     second_pair: ~
   - name: S0300291
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000291
       value: -1
   - name: S0100292
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000292
@@ -35579,14 +35579,14 @@ columns:
     second_pair: ~
   - name: S0300292
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000292
       value: -1
   - name: S0100293
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000293
@@ -35598,14 +35598,14 @@ columns:
     second_pair: ~
   - name: S0300293
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000293
       value: -1
   - name: S0100294
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000294
@@ -35617,14 +35617,14 @@ columns:
     second_pair: ~
   - name: S0300294
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000294
       value: -1
   - name: S0100295
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000295
@@ -35636,14 +35636,14 @@ columns:
     second_pair: ~
   - name: S0300295
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000295
       value: -1
   - name: S0100296
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000296
@@ -35655,14 +35655,14 @@ columns:
     second_pair: ~
   - name: S0300296
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000296
       value: -1
   - name: S0100297
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000297
@@ -35674,14 +35674,14 @@ columns:
     second_pair: ~
   - name: S0300297
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000297
       value: -1
   - name: S0100298
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000298
@@ -35693,14 +35693,14 @@ columns:
     second_pair: ~
   - name: S0300298
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000298
       value: -1
   - name: S0100299
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000299
@@ -35712,14 +35712,14 @@ columns:
     second_pair: ~
   - name: S0300299
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000299
       value: -1
   - name: S0100300
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000300
@@ -35731,14 +35731,14 @@ columns:
     second_pair: ~
   - name: S0300300
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000300
       value: -1
   - name: S0100301
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000301
@@ -35750,14 +35750,14 @@ columns:
     second_pair: ~
   - name: S0300301
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000301
       value: -1
   - name: S0100302
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000302
@@ -35769,14 +35769,14 @@ columns:
     second_pair: ~
   - name: S0300302
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000302
       value: -1
   - name: S0100303
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000303
@@ -35788,14 +35788,14 @@ columns:
     second_pair: ~
   - name: S0300303
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000303
       value: -1
   - name: S0100304
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000304
@@ -35807,14 +35807,14 @@ columns:
     second_pair: ~
   - name: S0300304
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000304
       value: -1
   - name: S0100305
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000305
@@ -35826,14 +35826,14 @@ columns:
     second_pair: ~
   - name: S0300305
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000305
       value: -1
   - name: S0100306
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000306
@@ -35845,14 +35845,14 @@ columns:
     second_pair: ~
   - name: S0300306
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000306
       value: -1
   - name: S0100307
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000307
@@ -35864,14 +35864,14 @@ columns:
     second_pair: ~
   - name: S0300307
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000307
       value: -1
   - name: S0100308
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000308
@@ -35883,14 +35883,14 @@ columns:
     second_pair: ~
   - name: S0300308
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000308
       value: -1
   - name: S0100309
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000309
@@ -35902,14 +35902,14 @@ columns:
     second_pair: ~
   - name: S0300309
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000309
       value: -1
   - name: S0100310
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000310
@@ -35921,14 +35921,14 @@ columns:
     second_pair: ~
   - name: S0300310
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000310
       value: -1
   - name: S0100311
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000311
@@ -35940,14 +35940,14 @@ columns:
     second_pair: ~
   - name: S0300311
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000311
       value: -1
   - name: S0100312
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000312
@@ -35959,14 +35959,14 @@ columns:
     second_pair: ~
   - name: S0300312
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000312
       value: -1
   - name: S0100313
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000313
@@ -35978,14 +35978,14 @@ columns:
     second_pair: ~
   - name: S0300313
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000313
       value: -1
   - name: S0100314
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000314
@@ -35997,14 +35997,14 @@ columns:
     second_pair: ~
   - name: S0300314
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000314
       value: -1
   - name: S0100315
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000315
@@ -36016,14 +36016,14 @@ columns:
     second_pair: ~
   - name: S0300315
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000315
       value: -1
   - name: S0100316
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000316
@@ -36035,14 +36035,14 @@ columns:
     second_pair: ~
   - name: S0300316
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000316
       value: -1
   - name: S0100317
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000317
@@ -36054,14 +36054,14 @@ columns:
     second_pair: ~
   - name: S0300317
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000317
       value: -1
   - name: S0100318
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000318
@@ -36073,14 +36073,14 @@ columns:
     second_pair: ~
   - name: S0300318
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000318
       value: -1
   - name: S0100319
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000319
@@ -36092,14 +36092,14 @@ columns:
     second_pair: ~
   - name: S0300319
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000319
       value: -1
   - name: S0100320
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000320
@@ -36111,14 +36111,14 @@ columns:
     second_pair: ~
   - name: S0300320
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000320
       value: -1
   - name: S0100321
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000321
@@ -36130,14 +36130,14 @@ columns:
     second_pair: ~
   - name: S0300321
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000321
       value: -1
   - name: S0100322
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000322
@@ -36149,14 +36149,14 @@ columns:
     second_pair: ~
   - name: S0300322
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000322
       value: -1
   - name: S0100323
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000323
@@ -36168,14 +36168,14 @@ columns:
     second_pair: ~
   - name: S0300323
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000323
       value: -1
   - name: S0100324
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000324
@@ -36187,14 +36187,14 @@ columns:
     second_pair: ~
   - name: S0300324
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000324
       value: -1
   - name: S0100325
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000325
@@ -36206,14 +36206,14 @@ columns:
     second_pair: ~
   - name: S0300325
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000325
       value: -1
   - name: S0100326
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000326
@@ -36225,14 +36225,14 @@ columns:
     second_pair: ~
   - name: S0300326
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000326
       value: -1
   - name: S0100327
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000327
@@ -36244,14 +36244,14 @@ columns:
     second_pair: ~
   - name: S0300327
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000327
       value: -1
   - name: S0100328
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000328
@@ -36263,14 +36263,14 @@ columns:
     second_pair: ~
   - name: S0300328
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000328
       value: -1
   - name: S0100329
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000329
@@ -36282,14 +36282,14 @@ columns:
     second_pair: ~
   - name: S0300329
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000329
       value: -1
   - name: S0100330
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000330
@@ -36301,14 +36301,14 @@ columns:
     second_pair: ~
   - name: S0300330
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000330
       value: -1
   - name: S0100331
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000331
@@ -36320,14 +36320,14 @@ columns:
     second_pair: ~
   - name: S0300331
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000331
       value: -1
   - name: S0100332
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000332
@@ -36339,14 +36339,14 @@ columns:
     second_pair: ~
   - name: S0300332
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000332
       value: -1
   - name: S0100333
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000333
@@ -36358,14 +36358,14 @@ columns:
     second_pair: ~
   - name: S0300333
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000333
       value: -1
   - name: S0100334
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000334
@@ -36377,14 +36377,14 @@ columns:
     second_pair: ~
   - name: S0300334
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000334
       value: -1
   - name: S0100335
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000335
@@ -36396,14 +36396,14 @@ columns:
     second_pair: ~
   - name: S0300335
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000335
       value: -1
   - name: S0100336
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000336
@@ -36415,14 +36415,14 @@ columns:
     second_pair: ~
   - name: S0300336
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000336
       value: -1
   - name: S0100337
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000337
@@ -36434,14 +36434,14 @@ columns:
     second_pair: ~
   - name: S0300337
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000337
       value: -1
   - name: S0100338
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000338
@@ -36453,14 +36453,14 @@ columns:
     second_pair: ~
   - name: S0300338
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000338
       value: -1
   - name: S0100339
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000339
@@ -36472,14 +36472,14 @@ columns:
     second_pair: ~
   - name: S0300339
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000339
       value: -1
   - name: S0100340
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000340
@@ -36491,14 +36491,14 @@ columns:
     second_pair: ~
   - name: S0300340
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000340
       value: -1
   - name: S0100341
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000341
@@ -36510,14 +36510,14 @@ columns:
     second_pair: ~
   - name: S0300341
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000341
       value: -1
   - name: S0100342
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000342
@@ -36529,14 +36529,14 @@ columns:
     second_pair: ~
   - name: S0300342
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000342
       value: -1
   - name: S0100343
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000343
@@ -36548,14 +36548,14 @@ columns:
     second_pair: ~
   - name: S0300343
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000343
       value: -1
   - name: S0100344
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000344
@@ -36567,14 +36567,14 @@ columns:
     second_pair: ~
   - name: S0300344
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000344
       value: -1
   - name: S0100345
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000345
@@ -36586,14 +36586,14 @@ columns:
     second_pair: ~
   - name: S0300345
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000345
       value: -1
   - name: S0100346
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000346
@@ -36605,14 +36605,14 @@ columns:
     second_pair: ~
   - name: S0300346
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000346
       value: -1
   - name: S0100347
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000347
@@ -36624,14 +36624,14 @@ columns:
     second_pair: ~
   - name: S0300347
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000347
       value: -1
   - name: S0100348
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000348
@@ -36643,14 +36643,14 @@ columns:
     second_pair: ~
   - name: S0300348
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000348
       value: -1
   - name: S0100349
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000349
@@ -36662,14 +36662,14 @@ columns:
     second_pair: ~
   - name: S0300349
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000349
       value: -1
   - name: S0100350
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000350
@@ -36681,14 +36681,14 @@ columns:
     second_pair: ~
   - name: S0300350
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000350
       value: -1
   - name: S0100351
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000351
@@ -36700,14 +36700,14 @@ columns:
     second_pair: ~
   - name: S0300351
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000351
       value: -1
   - name: S0100352
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000352
@@ -36719,14 +36719,14 @@ columns:
     second_pair: ~
   - name: S0300352
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000352
       value: -1
   - name: S0100353
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000353
@@ -36738,14 +36738,14 @@ columns:
     second_pair: ~
   - name: S0300353
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000353
       value: -1
   - name: S0100354
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000354
@@ -36757,14 +36757,14 @@ columns:
     second_pair: ~
   - name: S0300354
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000354
       value: -1
   - name: S0100355
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000355
@@ -36776,14 +36776,14 @@ columns:
     second_pair: ~
   - name: S0300355
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000355
       value: -1
   - name: S0100356
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000356
@@ -36795,14 +36795,14 @@ columns:
     second_pair: ~
   - name: S0300356
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000356
       value: -1
   - name: S0100357
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000357
@@ -36814,14 +36814,14 @@ columns:
     second_pair: ~
   - name: S0300357
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000357
       value: -1
   - name: S0100358
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000358
@@ -36833,14 +36833,14 @@ columns:
     second_pair: ~
   - name: S0300358
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000358
       value: -1
   - name: S0100359
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000359
@@ -36852,14 +36852,14 @@ columns:
     second_pair: ~
   - name: S0300359
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000359
       value: -1
   - name: S0100360
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000360
@@ -36871,14 +36871,14 @@ columns:
     second_pair: ~
   - name: S0300360
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000360
       value: -1
   - name: S0100361
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000361
@@ -36890,14 +36890,14 @@ columns:
     second_pair: ~
   - name: S0300361
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000361
       value: -1
   - name: S0100362
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000362
@@ -36909,14 +36909,14 @@ columns:
     second_pair: ~
   - name: S0300362
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000362
       value: -1
   - name: S0100363
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000363
@@ -36928,14 +36928,14 @@ columns:
     second_pair: ~
   - name: S0300363
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000363
       value: -1
   - name: S0100364
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000364
@@ -36947,14 +36947,14 @@ columns:
     second_pair: ~
   - name: S0300364
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000364
       value: -1
   - name: S0100365
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000365
@@ -36966,14 +36966,14 @@ columns:
     second_pair: ~
   - name: S0300365
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000365
       value: -1
   - name: S0100366
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000366
@@ -36985,14 +36985,14 @@ columns:
     second_pair: ~
   - name: S0300366
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000366
       value: -1
   - name: S0100367
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000367
@@ -37004,14 +37004,14 @@ columns:
     second_pair: ~
   - name: S0300367
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000367
       value: -1
   - name: S0100368
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000368
@@ -37023,14 +37023,14 @@ columns:
     second_pair: ~
   - name: S0300368
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000368
       value: -1
   - name: S0100369
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000369
@@ -37042,14 +37042,14 @@ columns:
     second_pair: ~
   - name: S0300369
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000369
       value: -1
   - name: S0100370
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000370
@@ -37061,14 +37061,14 @@ columns:
     second_pair: ~
   - name: S0300370
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000370
       value: -1
   - name: S0100371
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000371
@@ -37080,14 +37080,14 @@ columns:
     second_pair: ~
   - name: S0300371
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000371
       value: -1
   - name: S0100372
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000372
@@ -37099,14 +37099,14 @@ columns:
     second_pair: ~
   - name: S0300372
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000372
       value: -1
   - name: S0100373
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000373
@@ -37118,14 +37118,14 @@ columns:
     second_pair: ~
   - name: S0300373
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000373
       value: -1
   - name: S0100374
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000374
@@ -37137,14 +37137,14 @@ columns:
     second_pair: ~
   - name: S0300374
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000374
       value: -1
   - name: S0100375
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000375
@@ -37156,14 +37156,14 @@ columns:
     second_pair: ~
   - name: S0300375
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000375
       value: -1
   - name: S0100376
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000376
@@ -37175,14 +37175,14 @@ columns:
     second_pair: ~
   - name: S0300376
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000376
       value: -1
   - name: S0100377
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000377
@@ -37194,14 +37194,14 @@ columns:
     second_pair: ~
   - name: S0300377
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000377
       value: -1
   - name: S0100378
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000378
@@ -37213,14 +37213,14 @@ columns:
     second_pair: ~
   - name: S0300378
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000378
       value: -1
   - name: S0100379
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000379
@@ -37232,14 +37232,14 @@ columns:
     second_pair: ~
   - name: S0300379
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000379
       value: -1
   - name: S0100380
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000380
@@ -37251,14 +37251,14 @@ columns:
     second_pair: ~
   - name: S0300380
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000380
       value: -1
   - name: S0100381
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000381
@@ -37270,14 +37270,14 @@ columns:
     second_pair: ~
   - name: S0300381
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000381
       value: -1
   - name: S0100382
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000382
@@ -37289,14 +37289,14 @@ columns:
     second_pair: ~
   - name: S0300382
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000382
       value: -1
   - name: S0100383
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000383
@@ -37308,14 +37308,14 @@ columns:
     second_pair: ~
   - name: S0300383
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000383
       value: -1
   - name: S0100384
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000384
@@ -37327,14 +37327,14 @@ columns:
     second_pair: ~
   - name: S0300384
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000384
       value: -1
   - name: S0100385
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000385
@@ -37346,14 +37346,14 @@ columns:
     second_pair: ~
   - name: S0300385
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000385
       value: -1
   - name: S0100386
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000386
@@ -37365,14 +37365,14 @@ columns:
     second_pair: ~
   - name: S0300386
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000386
       value: -1
   - name: S0100387
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000387
@@ -37384,14 +37384,14 @@ columns:
     second_pair: ~
   - name: S0300387
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000387
       value: -1
   - name: S0100388
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000388
@@ -37403,14 +37403,14 @@ columns:
     second_pair: ~
   - name: S0300388
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000388
       value: -1
   - name: S0100389
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000389
@@ -37422,14 +37422,14 @@ columns:
     second_pair: ~
   - name: S0300389
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000389
       value: -1
   - name: S0100390
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000390
@@ -37441,14 +37441,14 @@ columns:
     second_pair: ~
   - name: S0300390
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000390
       value: -1
   - name: S0100391
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000391
@@ -37460,14 +37460,14 @@ columns:
     second_pair: ~
   - name: S0300391
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000391
       value: -1
   - name: S0100392
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000392
@@ -37479,14 +37479,14 @@ columns:
     second_pair: ~
   - name: S0300392
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000392
       value: -1
   - name: S0100393
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000393
@@ -37498,14 +37498,14 @@ columns:
     second_pair: ~
   - name: S0300393
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000393
       value: -1
   - name: S0100394
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000394
@@ -37517,14 +37517,14 @@ columns:
     second_pair: ~
   - name: S0300394
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000394
       value: -1
   - name: S0100395
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000395
@@ -37536,14 +37536,14 @@ columns:
     second_pair: ~
   - name: S0300395
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000395
       value: -1
   - name: S0100396
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000396
@@ -37555,14 +37555,14 @@ columns:
     second_pair: ~
   - name: S0300396
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000396
       value: -1
   - name: S0100397
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000397
@@ -37574,14 +37574,14 @@ columns:
     second_pair: ~
   - name: S0300397
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000397
       value: -1
   - name: S0100398
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000398
@@ -37593,14 +37593,14 @@ columns:
     second_pair: ~
   - name: S0300398
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000398
       value: -1
   - name: S0100399
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000399
@@ -37612,7 +37612,7 @@ columns:
     second_pair: ~
   - name: S0300399
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 1
     second_pair:
       row_name: R0000399
@@ -37624,7 +37624,7 @@ columns:
     second_pair: ~
   - name: S0200400
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000400
@@ -37636,7 +37636,7 @@ columns:
     second_pair: ~
   - name: S0200401
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000401
@@ -37648,7 +37648,7 @@ columns:
     second_pair: ~
   - name: S0200402
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000402
@@ -37660,7 +37660,7 @@ columns:
     second_pair: ~
   - name: S0200403
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000403
@@ -37672,7 +37672,7 @@ columns:
     second_pair: ~
   - name: S0200404
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000404
@@ -37684,7 +37684,7 @@ columns:
     second_pair: ~
   - name: S0200405
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000405
@@ -37696,7 +37696,7 @@ columns:
     second_pair: ~
   - name: S0200406
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000406
@@ -37708,7 +37708,7 @@ columns:
     second_pair: ~
   - name: S0200407
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000407
@@ -37720,7 +37720,7 @@ columns:
     second_pair: ~
   - name: S0200408
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000408
@@ -37732,7 +37732,7 @@ columns:
     second_pair: ~
   - name: S0200409
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000409
@@ -37744,7 +37744,7 @@ columns:
     second_pair: ~
   - name: S0200410
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000410
@@ -37756,7 +37756,7 @@ columns:
     second_pair: ~
   - name: S0200411
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000411
@@ -37768,7 +37768,7 @@ columns:
     second_pair: ~
   - name: S0200412
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000412
@@ -37780,7 +37780,7 @@ columns:
     second_pair: ~
   - name: S0200413
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000413
@@ -37792,7 +37792,7 @@ columns:
     second_pair: ~
   - name: S0200414
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000414
@@ -37804,7 +37804,7 @@ columns:
     second_pair: ~
   - name: S0200415
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000415
@@ -37816,7 +37816,7 @@ columns:
     second_pair: ~
   - name: S0200416
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000416
@@ -37828,7 +37828,7 @@ columns:
     second_pair: ~
   - name: S0200417
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000417
@@ -37840,7 +37840,7 @@ columns:
     second_pair: ~
   - name: S0200418
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000418
@@ -37852,7 +37852,7 @@ columns:
     second_pair: ~
   - name: S0200419
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000419
@@ -37864,7 +37864,7 @@ columns:
     second_pair: ~
   - name: S0200420
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000420
@@ -37876,7 +37876,7 @@ columns:
     second_pair: ~
   - name: S0200421
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000421
@@ -37888,7 +37888,7 @@ columns:
     second_pair: ~
   - name: S0200422
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000422
@@ -37900,7 +37900,7 @@ columns:
     second_pair: ~
   - name: S0200423
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000423
@@ -37912,7 +37912,7 @@ columns:
     second_pair: ~
   - name: S0200424
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000424
@@ -37924,7 +37924,7 @@ columns:
     second_pair: ~
   - name: S0200425
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000425
@@ -37936,7 +37936,7 @@ columns:
     second_pair: ~
   - name: S0200426
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000426
@@ -37948,7 +37948,7 @@ columns:
     second_pair: ~
   - name: S0200427
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000427
@@ -37960,7 +37960,7 @@ columns:
     second_pair: ~
   - name: S0200428
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000428
@@ -37972,7 +37972,7 @@ columns:
     second_pair: ~
   - name: S0200429
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000429
@@ -37984,7 +37984,7 @@ columns:
     second_pair: ~
   - name: S0200430
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000430
@@ -37996,7 +37996,7 @@ columns:
     second_pair: ~
   - name: S0200431
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000431
@@ -38008,7 +38008,7 @@ columns:
     second_pair: ~
   - name: S0200432
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000432
@@ -38020,7 +38020,7 @@ columns:
     second_pair: ~
   - name: S0200433
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000433
@@ -38032,7 +38032,7 @@ columns:
     second_pair: ~
   - name: S0200434
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000434
@@ -38044,7 +38044,7 @@ columns:
     second_pair: ~
   - name: S0200435
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000435
@@ -38056,7 +38056,7 @@ columns:
     second_pair: ~
   - name: S0200436
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000436
@@ -38068,7 +38068,7 @@ columns:
     second_pair: ~
   - name: S0200437
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000437
@@ -38080,7 +38080,7 @@ columns:
     second_pair: ~
   - name: S0200438
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000438
@@ -38092,7 +38092,7 @@ columns:
     second_pair: ~
   - name: S0200439
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000439
@@ -38104,7 +38104,7 @@ columns:
     second_pair: ~
   - name: S0200440
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000440
@@ -38116,7 +38116,7 @@ columns:
     second_pair: ~
   - name: S0200441
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000441
@@ -38128,7 +38128,7 @@ columns:
     second_pair: ~
   - name: S0200442
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000442
@@ -38140,7 +38140,7 @@ columns:
     second_pair: ~
   - name: S0200443
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000443
@@ -38152,7 +38152,7 @@ columns:
     second_pair: ~
   - name: S0200444
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000444
@@ -38164,7 +38164,7 @@ columns:
     second_pair: ~
   - name: S0200445
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000445
@@ -38176,7 +38176,7 @@ columns:
     second_pair: ~
   - name: S0200446
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000446
@@ -38188,7 +38188,7 @@ columns:
     second_pair: ~
   - name: S0200447
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000447
@@ -38200,7 +38200,7 @@ columns:
     second_pair: ~
   - name: S0200448
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000448
@@ -38212,7 +38212,7 @@ columns:
     second_pair: ~
   - name: S0200449
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000449
@@ -38224,7 +38224,7 @@ columns:
     second_pair: ~
   - name: S0200450
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000450
@@ -38236,7 +38236,7 @@ columns:
     second_pair: ~
   - name: S0200451
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000451
@@ -38248,7 +38248,7 @@ columns:
     second_pair: ~
   - name: S0200452
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000452
@@ -38260,7 +38260,7 @@ columns:
     second_pair: ~
   - name: S0200453
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000453
@@ -38272,7 +38272,7 @@ columns:
     second_pair: ~
   - name: S0200454
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000454
@@ -38284,7 +38284,7 @@ columns:
     second_pair: ~
   - name: S0200455
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000455
@@ -38296,7 +38296,7 @@ columns:
     second_pair: ~
   - name: S0200456
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000456
@@ -38308,7 +38308,7 @@ columns:
     second_pair: ~
   - name: S0200457
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000457
@@ -38320,7 +38320,7 @@ columns:
     second_pair: ~
   - name: S0200458
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000458
@@ -38332,7 +38332,7 @@ columns:
     second_pair: ~
   - name: S0200459
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000459
@@ -38344,7 +38344,7 @@ columns:
     second_pair: ~
   - name: S0200460
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000460
@@ -38356,7 +38356,7 @@ columns:
     second_pair: ~
   - name: S0200461
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000461
@@ -38368,7 +38368,7 @@ columns:
     second_pair: ~
   - name: S0200462
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000462
@@ -38380,7 +38380,7 @@ columns:
     second_pair: ~
   - name: S0200463
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000463
@@ -38392,7 +38392,7 @@ columns:
     second_pair: ~
   - name: S0200464
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000464
@@ -38404,7 +38404,7 @@ columns:
     second_pair: ~
   - name: S0200465
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000465
@@ -38416,7 +38416,7 @@ columns:
     second_pair: ~
   - name: S0200466
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000466
@@ -38428,7 +38428,7 @@ columns:
     second_pair: ~
   - name: S0200467
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000467
@@ -38440,7 +38440,7 @@ columns:
     second_pair: ~
   - name: S0200468
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000468
@@ -38452,7 +38452,7 @@ columns:
     second_pair: ~
   - name: S0200469
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000469
@@ -38464,7 +38464,7 @@ columns:
     second_pair: ~
   - name: S0200470
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000470
@@ -38476,7 +38476,7 @@ columns:
     second_pair: ~
   - name: S0200471
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000471
@@ -38488,7 +38488,7 @@ columns:
     second_pair: ~
   - name: S0200472
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000472
@@ -38500,7 +38500,7 @@ columns:
     second_pair: ~
   - name: S0200473
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000473
@@ -38512,7 +38512,7 @@ columns:
     second_pair: ~
   - name: S0200474
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000474
@@ -38524,7 +38524,7 @@ columns:
     second_pair: ~
   - name: S0200475
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000475
@@ -38536,7 +38536,7 @@ columns:
     second_pair: ~
   - name: S0200476
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000476
@@ -38548,7 +38548,7 @@ columns:
     second_pair: ~
   - name: S0200477
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000477
@@ -38560,7 +38560,7 @@ columns:
     second_pair: ~
   - name: S0200478
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000478
@@ -38572,7 +38572,7 @@ columns:
     second_pair: ~
   - name: S0200479
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000479
@@ -38584,7 +38584,7 @@ columns:
     second_pair: ~
   - name: S0200480
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000480
@@ -38596,7 +38596,7 @@ columns:
     second_pair: ~
   - name: S0200481
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000481
@@ -38608,7 +38608,7 @@ columns:
     second_pair: ~
   - name: S0200482
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000482
@@ -38620,7 +38620,7 @@ columns:
     second_pair: ~
   - name: S0200483
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000483
@@ -38632,7 +38632,7 @@ columns:
     second_pair: ~
   - name: S0200484
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000484
@@ -38644,7 +38644,7 @@ columns:
     second_pair: ~
   - name: S0200485
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000485
@@ -38656,7 +38656,7 @@ columns:
     second_pair: ~
   - name: S0200486
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000486
@@ -38668,7 +38668,7 @@ columns:
     second_pair: ~
   - name: S0200487
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000487
@@ -38680,7 +38680,7 @@ columns:
     second_pair: ~
   - name: S0200488
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000488
@@ -38692,7 +38692,7 @@ columns:
     second_pair: ~
   - name: S0200489
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000489
@@ -38704,7 +38704,7 @@ columns:
     second_pair: ~
   - name: S0200490
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000490
@@ -38716,7 +38716,7 @@ columns:
     second_pair: ~
   - name: S0200491
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000491
@@ -38728,7 +38728,7 @@ columns:
     second_pair: ~
   - name: S0200492
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000492
@@ -38740,7 +38740,7 @@ columns:
     second_pair: ~
   - name: S0200493
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000493
@@ -38752,7 +38752,7 @@ columns:
     second_pair: ~
   - name: S0200494
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000494
@@ -38764,7 +38764,7 @@ columns:
     second_pair: ~
   - name: S0200495
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000495
@@ -38776,7 +38776,7 @@ columns:
     second_pair: ~
   - name: S0200496
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000496
@@ -38788,7 +38788,7 @@ columns:
     second_pair: ~
   - name: S0200497
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000497
@@ -38800,7 +38800,7 @@ columns:
     second_pair: ~
   - name: S0200498
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000498
@@ -38812,7 +38812,7 @@ columns:
     second_pair: ~
   - name: S0200499
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000499
@@ -38824,7 +38824,7 @@ columns:
     second_pair: ~
   - name: S0200500
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000500
@@ -38836,7 +38836,7 @@ columns:
     second_pair: ~
   - name: S0200501
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000501
@@ -38848,7 +38848,7 @@ columns:
     second_pair: ~
   - name: S0200502
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000502
@@ -38860,7 +38860,7 @@ columns:
     second_pair: ~
   - name: S0200503
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000503
@@ -38872,7 +38872,7 @@ columns:
     second_pair: ~
   - name: S0200504
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000504
@@ -38884,7 +38884,7 @@ columns:
     second_pair: ~
   - name: S0200505
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000505
@@ -38896,7 +38896,7 @@ columns:
     second_pair: ~
   - name: S0200506
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000506
@@ -38908,7 +38908,7 @@ columns:
     second_pair: ~
   - name: S0200507
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000507
@@ -38920,7 +38920,7 @@ columns:
     second_pair: ~
   - name: S0200508
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000508
@@ -38932,7 +38932,7 @@ columns:
     second_pair: ~
   - name: S0200509
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000509
@@ -38944,7 +38944,7 @@ columns:
     second_pair: ~
   - name: S0200510
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000510
@@ -38956,7 +38956,7 @@ columns:
     second_pair: ~
   - name: S0200511
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000511
@@ -38968,7 +38968,7 @@ columns:
     second_pair: ~
   - name: S0200512
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000512
@@ -38980,7 +38980,7 @@ columns:
     second_pair: ~
   - name: S0200513
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000513
@@ -38992,7 +38992,7 @@ columns:
     second_pair: ~
   - name: S0200514
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000514
@@ -39004,7 +39004,7 @@ columns:
     second_pair: ~
   - name: S0200515
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000515
@@ -39016,7 +39016,7 @@ columns:
     second_pair: ~
   - name: S0200516
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000516
@@ -39028,7 +39028,7 @@ columns:
     second_pair: ~
   - name: S0200517
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000517
@@ -39040,7 +39040,7 @@ columns:
     second_pair: ~
   - name: S0200518
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000518
@@ -39052,7 +39052,7 @@ columns:
     second_pair: ~
   - name: S0200519
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000519
@@ -39064,7 +39064,7 @@ columns:
     second_pair: ~
   - name: S0200520
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000520
@@ -39076,7 +39076,7 @@ columns:
     second_pair: ~
   - name: S0200521
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000521
@@ -39088,7 +39088,7 @@ columns:
     second_pair: ~
   - name: S0200522
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000522
@@ -39100,7 +39100,7 @@ columns:
     second_pair: ~
   - name: S0200523
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000523
@@ -39112,7 +39112,7 @@ columns:
     second_pair: ~
   - name: S0200524
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000524
@@ -39124,7 +39124,7 @@ columns:
     second_pair: ~
   - name: S0200525
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000525
@@ -39136,7 +39136,7 @@ columns:
     second_pair: ~
   - name: S0200526
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000526
@@ -39148,7 +39148,7 @@ columns:
     second_pair: ~
   - name: S0200527
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000527
@@ -39160,7 +39160,7 @@ columns:
     second_pair: ~
   - name: S0200528
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000528
@@ -39172,7 +39172,7 @@ columns:
     second_pair: ~
   - name: S0200529
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000529
@@ -39184,7 +39184,7 @@ columns:
     second_pair: ~
   - name: S0200530
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000530
@@ -39196,7 +39196,7 @@ columns:
     second_pair: ~
   - name: S0200531
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000531
@@ -39208,7 +39208,7 @@ columns:
     second_pair: ~
   - name: S0200532
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000532
@@ -39220,7 +39220,7 @@ columns:
     second_pair: ~
   - name: S0200533
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000533
@@ -39232,7 +39232,7 @@ columns:
     second_pair: ~
   - name: S0200534
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000534
@@ -39244,7 +39244,7 @@ columns:
     second_pair: ~
   - name: S0200535
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000535
@@ -39256,7 +39256,7 @@ columns:
     second_pair: ~
   - name: S0200536
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000536
@@ -39268,7 +39268,7 @@ columns:
     second_pair: ~
   - name: S0200537
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000537
@@ -39280,7 +39280,7 @@ columns:
     second_pair: ~
   - name: S0200538
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000538
@@ -39292,7 +39292,7 @@ columns:
     second_pair: ~
   - name: S0200539
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000539
@@ -39304,7 +39304,7 @@ columns:
     second_pair: ~
   - name: S0200540
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000540
@@ -39316,7 +39316,7 @@ columns:
     second_pair: ~
   - name: S0200541
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000541
@@ -39328,7 +39328,7 @@ columns:
     second_pair: ~
   - name: S0200542
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000542
@@ -39340,7 +39340,7 @@ columns:
     second_pair: ~
   - name: S0200543
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000543
@@ -39352,7 +39352,7 @@ columns:
     second_pair: ~
   - name: S0200544
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000544
@@ -39364,7 +39364,7 @@ columns:
     second_pair: ~
   - name: S0200545
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000545
@@ -39376,7 +39376,7 @@ columns:
     second_pair: ~
   - name: S0200546
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000546
@@ -39388,7 +39388,7 @@ columns:
     second_pair: ~
   - name: S0200547
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000547
@@ -39400,7 +39400,7 @@ columns:
     second_pair: ~
   - name: S0200548
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000548
@@ -39412,7 +39412,7 @@ columns:
     second_pair: ~
   - name: S0200549
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000549
@@ -39424,7 +39424,7 @@ columns:
     second_pair: ~
   - name: S0200550
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000550
@@ -39436,7 +39436,7 @@ columns:
     second_pair: ~
   - name: S0200551
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000551
@@ -39448,7 +39448,7 @@ columns:
     second_pair: ~
   - name: S0200552
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000552
@@ -39460,7 +39460,7 @@ columns:
     second_pair: ~
   - name: S0200553
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000553
@@ -39472,7 +39472,7 @@ columns:
     second_pair: ~
   - name: S0200554
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000554
@@ -39484,7 +39484,7 @@ columns:
     second_pair: ~
   - name: S0200555
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000555
@@ -39496,7 +39496,7 @@ columns:
     second_pair: ~
   - name: S0200556
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000556
@@ -39508,7 +39508,7 @@ columns:
     second_pair: ~
   - name: S0200557
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000557
@@ -39520,7 +39520,7 @@ columns:
     second_pair: ~
   - name: S0200558
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000558
@@ -39532,7 +39532,7 @@ columns:
     second_pair: ~
   - name: S0200559
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000559
@@ -39544,7 +39544,7 @@ columns:
     second_pair: ~
   - name: S0200560
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000560
@@ -39556,7 +39556,7 @@ columns:
     second_pair: ~
   - name: S0200561
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000561
@@ -39568,7 +39568,7 @@ columns:
     second_pair: ~
   - name: S0200562
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000562
@@ -39580,7 +39580,7 @@ columns:
     second_pair: ~
   - name: S0200563
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000563
@@ -39592,7 +39592,7 @@ columns:
     second_pair: ~
   - name: S0200564
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000564
@@ -39604,7 +39604,7 @@ columns:
     second_pair: ~
   - name: S0200565
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000565
@@ -39616,7 +39616,7 @@ columns:
     second_pair: ~
   - name: S0200566
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000566
@@ -39628,7 +39628,7 @@ columns:
     second_pair: ~
   - name: S0200567
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000567
@@ -39640,7 +39640,7 @@ columns:
     second_pair: ~
   - name: S0200568
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000568
@@ -39652,7 +39652,7 @@ columns:
     second_pair: ~
   - name: S0200569
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000569
@@ -39664,7 +39664,7 @@ columns:
     second_pair: ~
   - name: S0200570
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000570
@@ -39676,7 +39676,7 @@ columns:
     second_pair: ~
   - name: S0200571
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000571
@@ -39688,7 +39688,7 @@ columns:
     second_pair: ~
   - name: S0200572
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000572
@@ -39700,7 +39700,7 @@ columns:
     second_pair: ~
   - name: S0200573
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000573
@@ -39712,7 +39712,7 @@ columns:
     second_pair: ~
   - name: S0200574
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000574
@@ -39724,7 +39724,7 @@ columns:
     second_pair: ~
   - name: S0200575
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000575
@@ -39736,7 +39736,7 @@ columns:
     second_pair: ~
   - name: S0200576
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000576
@@ -39748,7 +39748,7 @@ columns:
     second_pair: ~
   - name: S0200577
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000577
@@ -39760,7 +39760,7 @@ columns:
     second_pair: ~
   - name: S0200578
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000578
@@ -39772,7 +39772,7 @@ columns:
     second_pair: ~
   - name: S0200579
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000579
@@ -39784,7 +39784,7 @@ columns:
     second_pair: ~
   - name: S0200580
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000580
@@ -39796,7 +39796,7 @@ columns:
     second_pair: ~
   - name: S0200581
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000581
@@ -39808,7 +39808,7 @@ columns:
     second_pair: ~
   - name: S0200582
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000582
@@ -39820,7 +39820,7 @@ columns:
     second_pair: ~
   - name: S0200583
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000583
@@ -39832,7 +39832,7 @@ columns:
     second_pair: ~
   - name: S0200584
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000584
@@ -39844,7 +39844,7 @@ columns:
     second_pair: ~
   - name: S0200585
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000585
@@ -39856,7 +39856,7 @@ columns:
     second_pair: ~
   - name: S0200586
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000586
@@ -39868,7 +39868,7 @@ columns:
     second_pair: ~
   - name: S0200587
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000587
@@ -39880,7 +39880,7 @@ columns:
     second_pair: ~
   - name: S0200588
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000588
@@ -39892,7 +39892,7 @@ columns:
     second_pair: ~
   - name: S0200589
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000589
@@ -39904,7 +39904,7 @@ columns:
     second_pair: ~
   - name: S0200590
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000590
@@ -39916,7 +39916,7 @@ columns:
     second_pair: ~
   - name: S0200591
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000591
@@ -39928,7 +39928,7 @@ columns:
     second_pair: ~
   - name: S0200592
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000592
@@ -39940,7 +39940,7 @@ columns:
     second_pair: ~
   - name: S0200593
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000593
@@ -39952,7 +39952,7 @@ columns:
     second_pair: ~
   - name: S0200594
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000594
@@ -39964,7 +39964,7 @@ columns:
     second_pair: ~
   - name: S0200595
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000595
@@ -39976,7 +39976,7 @@ columns:
     second_pair: ~
   - name: S0200596
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000596
@@ -39988,7 +39988,7 @@ columns:
     second_pair: ~
   - name: S0200597
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000597
@@ -40000,7 +40000,7 @@ columns:
     second_pair: ~
   - name: S0200598
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000598
@@ -40012,7 +40012,7 @@ columns:
     second_pair: ~
   - name: S0200599
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000599
@@ -40024,7 +40024,7 @@ columns:
     second_pair: ~
   - name: S0200600
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000600
@@ -40036,7 +40036,7 @@ columns:
     second_pair: ~
   - name: S0200601
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000601
@@ -40048,7 +40048,7 @@ columns:
     second_pair: ~
   - name: S0200602
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000602
@@ -40060,7 +40060,7 @@ columns:
     second_pair: ~
   - name: S0200603
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000603
@@ -40072,7 +40072,7 @@ columns:
     second_pair: ~
   - name: S0200604
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000604
@@ -40084,7 +40084,7 @@ columns:
     second_pair: ~
   - name: S0200605
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000605
@@ -40096,7 +40096,7 @@ columns:
     second_pair: ~
   - name: S0200606
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000606
@@ -40108,7 +40108,7 @@ columns:
     second_pair: ~
   - name: S0200607
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000607
@@ -40120,7 +40120,7 @@ columns:
     second_pair: ~
   - name: S0200608
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000608
@@ -40132,7 +40132,7 @@ columns:
     second_pair: ~
   - name: S0200609
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000609
@@ -40144,7 +40144,7 @@ columns:
     second_pair: ~
   - name: S0200610
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000610
@@ -40156,7 +40156,7 @@ columns:
     second_pair: ~
   - name: S0200611
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000611
@@ -40168,7 +40168,7 @@ columns:
     second_pair: ~
   - name: S0200612
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000612
@@ -40180,7 +40180,7 @@ columns:
     second_pair: ~
   - name: S0200613
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000613
@@ -40192,7 +40192,7 @@ columns:
     second_pair: ~
   - name: S0200614
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000614
@@ -40204,7 +40204,7 @@ columns:
     second_pair: ~
   - name: S0200615
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000615
@@ -40216,7 +40216,7 @@ columns:
     second_pair: ~
   - name: S0200616
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000616
@@ -40228,7 +40228,7 @@ columns:
     second_pair: ~
   - name: S0200617
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000617
@@ -40240,7 +40240,7 @@ columns:
     second_pair: ~
   - name: S0200618
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000618
@@ -40252,7 +40252,7 @@ columns:
     second_pair: ~
   - name: S0200619
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000619
@@ -40264,7 +40264,7 @@ columns:
     second_pair: ~
   - name: S0200620
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000620
@@ -40276,7 +40276,7 @@ columns:
     second_pair: ~
   - name: S0200621
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000621
@@ -40288,7 +40288,7 @@ columns:
     second_pair: ~
   - name: S0200622
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000622
@@ -40300,7 +40300,7 @@ columns:
     second_pair: ~
   - name: S0200623
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000623
@@ -40312,7 +40312,7 @@ columns:
     second_pair: ~
   - name: S0200624
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000624
@@ -40324,7 +40324,7 @@ columns:
     second_pair: ~
   - name: S0200625
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000625
@@ -40336,7 +40336,7 @@ columns:
     second_pair: ~
   - name: S0200626
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000626
@@ -40348,7 +40348,7 @@ columns:
     second_pair: ~
   - name: S0200627
     first_pair:
-      row_name: "PENALTY "
+      row_name: PENALTY
       value: 3
     second_pair:
       row_name: R0000627

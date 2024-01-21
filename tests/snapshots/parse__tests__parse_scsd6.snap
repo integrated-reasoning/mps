@@ -22110,35 +22110,35 @@ columns:
       value: -1
     second_pair: ~
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000002"
       value: -0.25
     second_pair:
       row_name: "20000003"
       value: -0.25
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000004"
       value: -0.25
     second_pair:
       row_name: "20000022"
       value: -0.5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000023"
       value: -0.5
     second_pair:
       row_name: "20000024"
       value: -0.5
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000042"
       value: -1
     second_pair:
       row_name: "20000043"
       value: -1
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000044"
       value: -1

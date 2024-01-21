@@ -155,1901 +155,1901 @@ rows:
   - row_type: Nr
     row_name: C
 columns:
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: -0.537
     second_pair:
-      row_name: "3       "
+      row_name: "3"
       value: -0.131
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: -0.1155
     second_pair:
-      row_name: "5       "
+      row_name: "5"
       value: -0.0365
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: -0.143
     second_pair:
-      row_name: "7       "
+      row_name: "7"
       value: -0.037
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.003
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0587
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.15
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.302
-  - name: "1       "
+  - name: "1"
     first_pair:
-      row_name: "67      "
+      row_name: "67"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 3.2
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: -0.2931
     second_pair:
-      row_name: "3       "
+      row_name: "3"
       value: -0.117
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: -0.0649
     second_pair:
-      row_name: "5       "
+      row_name: "5"
       value: -0.1233
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: -0.2217
     second_pair:
-      row_name: "8       "
+      row_name: "8"
       value: -0.18
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 0.0042
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.003
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.1053
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.185
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.384
     second_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -0.00862
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -0.00862
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -0.0101
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -0.0101
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: 1
-  - name: "2       "
+  - name: "2"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 2.87
     second_pair: ~
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 1
     second_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.0277
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0563
     second_pair:
-      row_name: "11      "
+      row_name: "11"
       value: -0.199
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "12      "
+      row_name: "12"
       value: -0.6873
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.017
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.01303
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0506
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.209
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.495
-  - name: "3       "
+  - name: "3"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair: ~
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.0112
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0378
     second_pair:
-      row_name: "11      "
+      row_name: "11"
       value: -0.1502
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "12      "
+      row_name: "12"
       value: -0.7953
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.0099
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.01303
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0448
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.185
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.721
-  - name: "4       "
+  - name: "4"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair: ~
-  - name: "5       "
+  - name: "5"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.175
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.27
-  - name: "5       "
+  - name: "5"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: -0.028
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.455
-  - name: "5       "
+  - name: "5"
     first_pair:
-      row_name: "21      "
+      row_name: "21"
       value: 1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.01303
-  - name: "5       "
+  - name: "5"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0506
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.209
-  - name: "5       "
+  - name: "5"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.495
     second_pair: ~
-  - name: "6       "
+  - name: "6"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.271
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.3285
-  - name: "6       "
+  - name: "6"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: -0.0255
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.2656
-  - name: "6       "
+  - name: "6"
     first_pair:
-      row_name: "18      "
+      row_name: "18"
       value: 1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.01303
-  - name: "6       "
+  - name: "6"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0506
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.209
-  - name: "6       "
+  - name: "6"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.495
     second_pair: ~
-  - name: "7       "
+  - name: "7"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.2836
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.3285
-  - name: "7       "
+  - name: "7"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: -0.0241
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.2502
-  - name: "7       "
+  - name: "7"
     first_pair:
-      row_name: "17      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.01303
-  - name: "7       "
+  - name: "7"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.0506
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.209
-  - name: "7       "
+  - name: "7"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.495
     second_pair: ~
-  - name: "8       "
+  - name: "8"
     first_pair:
-      row_name: "12      "
+      row_name: "12"
       value: 1
     second_pair:
-      row_name: "14      "
+      row_name: "14"
       value: -1
-  - name: "8       "
+  - name: "8"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 0.0327
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.094
-  - name: "8       "
+  - name: "8"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.045
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.793
-  - name: "8       "
+  - name: "8"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0044
     second_pair: ~
-  - name: "9       "
+  - name: "9"
     first_pair:
-      row_name: "15      "
+      row_name: "15"
       value: -1
     second_pair:
-      row_name: "22      "
+      row_name: "22"
       value: 1
-  - name: "10      "
+  - name: "10"
     first_pair:
-      row_name: "16      "
+      row_name: "16"
       value: -1
     second_pair:
-      row_name: "22      "
+      row_name: "22"
       value: 1
-  - name: "11      "
+  - name: "11"
     first_pair:
-      row_name: "14      "
+      row_name: "14"
       value: 1
     second_pair:
-      row_name: "15      "
+      row_name: "15"
       value: -1
-  - name: "12      "
+  - name: "12"
     first_pair:
-      row_name: "14      "
+      row_name: "14"
       value: 1
     second_pair:
-      row_name: "16      "
+      row_name: "16"
       value: -1
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "15      "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "17      "
+      row_name: "17"
       value: -0.0588
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "19      "
+      row_name: "19"
       value: -0.8145
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.0091
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: -0.8239
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.0081
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2112
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.387
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 1.03
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 1.3
-  - name: "13      "
+  - name: "13"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.07
     second_pair: ~
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "16      "
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "18      "
+      row_name: "18"
       value: -0.0404
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "20      "
+      row_name: "20"
       value: -0.8564
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.0069
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: -0.7689
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.0063
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.156
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.297
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.792
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 1
-  - name: "14      "
+  - name: "14"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0378
     second_pair: ~
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "21      "
+      row_name: "21"
       value: -0.3321
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "22      "
+      row_name: "22"
       value: -0.5875
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.362
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 2.3
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2049
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.826
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 14.61
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "15      "
+  - name: "15"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.155
     second_pair: ~
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "21      "
+      row_name: "21"
       value: -0.3321
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "22      "
+      row_name: "22"
       value: -0.5875
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.362
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 2.3
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2049
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.826
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 14.61
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "16      "
+  - name: "16"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.155
     second_pair: ~
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "21      "
+      row_name: "21"
       value: -0.2414
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "22      "
+      row_name: "22"
       value: -0.6627
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.293
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 2.3
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.1531
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.826
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 14.61
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "17      "
+  - name: "17"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.155
     second_pair: ~
-  - name: "18      "
+  - name: "18"
     first_pair:
-      row_name: "21      "
+      row_name: "21"
       value: -0.2414
     second_pair:
-      row_name: "22      "
+      row_name: "22"
       value: -0.6627
-  - name: "18      "
+  - name: "18"
     first_pair:
-      row_name: "23      "
+      row_name: "23"
       value: -0.293
     second_pair:
-      row_name: "28      "
+      row_name: "28"
       value: 1
-  - name: "18      "
+  - name: "18"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 2.3
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.1531
-  - name: "18      "
+  - name: "18"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.826
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 14.61
-  - name: "18      "
+  - name: "18"
     first_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.155
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0185
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.0568
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: -0.0806
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "25      "
+      row_name: "25"
       value: -0.0658
     second_pair:
-      row_name: "26      "
+      row_name: "26"
       value: -0.0328
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: -0.4934
     second_pair:
-      row_name: "28      "
+      row_name: "28"
       value: -0.2922
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: -0.0096
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -0.0654
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2535
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.632
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.6807
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "19      "
+  - name: "19"
     first_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0528
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0185
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.0568
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: -0.0806
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "25      "
+      row_name: "25"
       value: -0.0658
     second_pair:
-      row_name: "26      "
+      row_name: "26"
       value: -0.0328
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: -0.4934
     second_pair:
-      row_name: "28      "
+      row_name: "28"
       value: -0.2922
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: -0.0096
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -0.0654
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2535
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.632
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.6807
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
-  - name: "20      "
+  - name: "20"
     first_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0528
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0184
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.0564
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: -0.078
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "25      "
+      row_name: "25"
       value: -0.0655
     second_pair:
-      row_name: "26      "
+      row_name: "26"
       value: -0.0303
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: -0.475
     second_pair:
-      row_name: "28      "
+      row_name: "28"
       value: -0.305
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -0.0654
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2703
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.632
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.6807
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
-  - name: "21      "
+  - name: "21"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0528
     second_pair: ~
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0184
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.0564
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: -0.078
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "25      "
+      row_name: "25"
       value: -0.0655
     second_pair:
-      row_name: "26      "
+      row_name: "26"
       value: -0.0303
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: -0.475
     second_pair:
-      row_name: "28      "
+      row_name: "28"
       value: -0.305
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -0.0654
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.2703
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 0.632
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 0.6807
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
-  - name: "22      "
+  - name: "22"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0528
     second_pair: ~
-  - name: "23      "
+  - name: "23"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: 0.76
     second_pair:
-      row_name: "25      "
+      row_name: "25"
       value: 0.5714
-  - name: "23      "
+  - name: "23"
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: -1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.1869
-  - name: "23      "
+  - name: "23"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.2796
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 2.241
-  - name: "23      "
+  - name: "23"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 2.766
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
-  - name: "23      "
+  - name: "23"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.128
     second_pair: ~
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -0.0571
     second_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.0114
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: 0.6571
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: 0.5714
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "31      "
+      row_name: "31"
       value: -1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 0.1724
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 0.2579
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 2.067
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 2.552
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
-  - name: "24      "
+  - name: "24"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.118
     second_pair: ~
-  - name: "25      "
+  - name: "25"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -1
     second_pair:
-      row_name: "25      "
+      row_name: "25"
       value: 1
-  - name: "26      "
+  - name: "26"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -1
     second_pair:
-      row_name: "24      "
+      row_name: "24"
       value: 1
-  - name: "27      "
+  - name: "27"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -1
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: 1
-  - name: "28      "
+  - name: "28"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "28      "
+  - name: "28"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -7.95
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -8.7
-  - name: "28      "
+  - name: "28"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 14
-  - name: "28      "
+  - name: "28"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 1
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -1
-  - name: "29      "
+  - name: "29"
     first_pair:
-      row_name: "23      "
+      row_name: "23"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "29      "
+  - name: "29"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -8.84
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.45
-  - name: "29      "
+  - name: "29"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 12
-  - name: "29      "
+  - name: "29"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 1
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -1
-  - name: "30      "
+  - name: "30"
     first_pair:
-      row_name: "19      "
+      row_name: "19"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "30      "
+  - name: "30"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.43
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.57
-  - name: "30      "
+  - name: "30"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 3.5
-  - name: "30      "
+  - name: "30"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 0.233
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -0.358
-  - name: "31      "
+  - name: "31"
     first_pair:
-      row_name: "20      "
+      row_name: "20"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "31      "
+  - name: "31"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.03
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.32
-  - name: "31      "
+  - name: "31"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 3.5
-  - name: "31      "
+  - name: "31"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 0.205
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -0.333
-  - name: "32      "
+  - name: "32"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "32      "
+  - name: "32"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.23
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.22
-  - name: "32      "
+  - name: "32"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 6
-  - name: "32      "
+  - name: "32"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 0.381
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -0.509
-  - name: "33      "
+  - name: "33"
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "33      "
+  - name: "33"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.4
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.85
-  - name: "33      "
+  - name: "33"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 2.5
-  - name: "33      "
+  - name: "33"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 0.39
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -0.77
-  - name: "34      "
+  - name: "34"
     first_pair:
-      row_name: "31      "
+      row_name: "31"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "34      "
+  - name: "34"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.74
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -10.1
-  - name: "34      "
+  - name: "34"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 3.3
-  - name: "34      "
+  - name: "34"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 0.233
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -0.58
-  - name: "35      "
+  - name: "35"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 1
     second_pair:
-      row_name: "32      "
+      row_name: "32"
       value: -1
-  - name: "35      "
+  - name: "35"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -9.74
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -9.9
-  - name: "35      "
+  - name: "35"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -3
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 66
-  - name: "35      "
+  - name: "35"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 1
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -1
-  - name: "36      "
+  - name: "36"
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -0.493
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -0.165
-  - name: "36      "
+  - name: "36"
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0924
-  - name: "37      "
+  - name: "37"
     first_pair:
-      row_name: "32      "
+      row_name: "32"
       value: 1
     second_pair:
-      row_name: "44      "
+      row_name: "44"
       value: 10.03
-  - name: "37      "
+  - name: "37"
     first_pair:
-      row_name: "45      "
+      row_name: "45"
       value: 10.03
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: -9.5
-  - name: "37      "
+  - name: "37"
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: -0.5
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: 0.5
-  - name: "37      "
+  - name: "37"
     first_pair:
-      row_name: "73      "
+      row_name: "73"
       value: 0.64
     second_pair:
-      row_name: "74      "
+      row_name: "74"
       value: 0.35
-  - name: "37      "
+  - name: "37"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: -5.36
     second_pair: ~
-  - name: "38      "
+  - name: "38"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "38      "
+  - name: "38"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -7.98
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -8.58
-  - name: "38      "
+  - name: "38"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 14
-  - name: "38      "
+  - name: "38"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -1
-  - name: "39      "
+  - name: "39"
     first_pair:
-      row_name: "23      "
+      row_name: "23"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "39      "
+  - name: "39"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -8.87
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -9.33
-  - name: "39      "
+  - name: "39"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 12
-  - name: "39      "
+  - name: "39"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -1
-  - name: "40      "
+  - name: "40"
     first_pair:
-      row_name: "19      "
+      row_name: "19"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "40      "
+  - name: "40"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -9.46
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -9.45
-  - name: "40      "
+  - name: "40"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 3.5
-  - name: "40      "
+  - name: "40"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 0.233
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -0.358
-  - name: "41      "
+  - name: "41"
     first_pair:
-      row_name: "20      "
+      row_name: "20"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "41      "
+  - name: "41"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -9.06
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -9.2
-  - name: "41      "
+  - name: "41"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 3.5
-  - name: "41      "
+  - name: "41"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 0.205
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -0.333
-  - name: "42      "
+  - name: "42"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "42      "
+  - name: "42"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -9.26
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -9.13
-  - name: "42      "
+  - name: "42"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 6
-  - name: "42      "
+  - name: "42"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 0.318
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -0.509
-  - name: "43      "
+  - name: "43"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "43      "
+  - name: "43"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -9.77
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -9.78
-  - name: "43      "
+  - name: "43"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -3
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 66
-  - name: "43      "
+  - name: "43"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -1
-  - name: "44      "
+  - name: "44"
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -0.435
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -0.208
-  - name: "44      "
+  - name: "44"
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0924
-  - name: "45      "
+  - name: "45"
     first_pair:
-      row_name: "33      "
+      row_name: "33"
       value: 1
     second_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 9.65
-  - name: "45      "
+  - name: "45"
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 9.65
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: -9.5
-  - name: "45      "
+  - name: "45"
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: -0.5
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 0.5
-  - name: "45      "
+  - name: "45"
     first_pair:
-      row_name: "73      "
+      row_name: "73"
       value: -0.36
     second_pair:
-      row_name: "74      "
+      row_name: "74"
       value: 0.35
-  - name: "45      "
+  - name: "45"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: -5.08
     second_pair: ~
-  - name: "46      "
+  - name: "46"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "46      "
+  - name: "46"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -7.99
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -8.59
-  - name: "46      "
+  - name: "46"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 14
-  - name: "46      "
+  - name: "46"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -1
-  - name: "47      "
+  - name: "47"
     first_pair:
-      row_name: "23      "
+      row_name: "23"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "47      "
+  - name: "47"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -8.88
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -9.34
-  - name: "47      "
+  - name: "47"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 12
-  - name: "47      "
+  - name: "47"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -1
-  - name: "48      "
+  - name: "48"
     first_pair:
-      row_name: "19      "
+      row_name: "19"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "48      "
+  - name: "48"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -9.47
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -9.46
-  - name: "48      "
+  - name: "48"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 3.5
-  - name: "48      "
+  - name: "48"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 0.233
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -0.358
-  - name: "49      "
+  - name: "49"
     first_pair:
-      row_name: "20      "
+      row_name: "20"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "49      "
+  - name: "49"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -9.07
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -9.21
-  - name: "49      "
+  - name: "49"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 3.5
-  - name: "49      "
+  - name: "49"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 0.205
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -0.333
-  - name: "50      "
+  - name: "50"
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "50      "
+  - name: "50"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -9.27
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -9.14
-  - name: "50      "
+  - name: "50"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 6
-  - name: "50      "
+  - name: "50"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 0.318
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -0.509
-  - name: "51      "
+  - name: "51"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "51      "
+  - name: "51"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -9.78
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -9.79
-  - name: "51      "
+  - name: "51"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -3
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 66
-  - name: "51      "
+  - name: "51"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -1
-  - name: "52      "
+  - name: "52"
     first_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -0.426
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -0.204
-  - name: "52      "
+  - name: "52"
     first_pair:
-      row_name: "58      "
+      row_name: "58"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0924
-  - name: "53      "
+  - name: "53"
     first_pair:
-      row_name: "36      "
+      row_name: "36"
       value: 1
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: 9.05
-  - name: "53      "
+  - name: "53"
     first_pair:
-      row_name: "57      "
+      row_name: "57"
       value: 9.05
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: -9.5
-  - name: "53      "
+  - name: "53"
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: -0.5
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: 0.5
-  - name: "53      "
+  - name: "53"
     first_pair:
-      row_name: "73      "
+      row_name: "73"
       value: -0.36
     second_pair:
-      row_name: "74      "
+      row_name: "74"
       value: -0.65
-  - name: "53      "
+  - name: "53"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: -4.51
     second_pair: ~
-  - name: "54      "
+  - name: "54"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: -1
     second_pair:
-      row_name: "26      "
+      row_name: "26"
       value: 1
-  - name: "55      "
+  - name: "55"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: 1
     second_pair:
-      row_name: "37      "
+      row_name: "37"
       value: -1
-  - name: "56      "
+  - name: "56"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 1
     second_pair:
-      row_name: "37      "
+      row_name: "37"
       value: -1
-  - name: "57      "
+  - name: "57"
     first_pair:
-      row_name: "37      "
+      row_name: "37"
       value: 1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: -2.75
-  - name: "58      "
+  - name: "58"
     first_pair:
-      row_name: "11      "
+      row_name: "11"
       value: 1
     second_pair:
-      row_name: "38      "
+      row_name: "38"
       value: -1
-  - name: "58      "
+  - name: "58"
     first_pair:
-      row_name: "63      "
+      row_name: "63"
       value: -14
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: 14
-  - name: "59      "
+  - name: "59"
     first_pair:
-      row_name: "12      "
+      row_name: "12"
       value: 1
     second_pair:
-      row_name: "38      "
+      row_name: "38"
       value: -1
-  - name: "59      "
+  - name: "59"
     first_pair:
-      row_name: "63      "
+      row_name: "63"
       value: -0.8
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: 0.8
-  - name: "60      "
+  - name: "60"
     first_pair:
-      row_name: "38      "
+      row_name: "38"
       value: 1
     second_pair:
-      row_name: "63      "
+      row_name: "63"
       value: 2
-  - name: "60      "
+  - name: "60"
     first_pair:
-      row_name: "64      "
+      row_name: "64"
       value: -3
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: -4.2
-  - name: "61      "
+  - name: "61"
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "34      "
+      row_name: "34"
       value: -1
-  - name: "62      "
+  - name: "62"
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "34      "
+      row_name: "34"
       value: -1
-  - name: "63      "
+  - name: "63"
     first_pair:
-      row_name: "34      "
+      row_name: "34"
       value: 1
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "63      "
+  - name: "63"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: -3.6
     second_pair: ~
-  - name: "64      "
+  - name: "64"
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "64      "
+  - name: "64"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 10.1
     second_pair: ~
-  - name: "65      "
+  - name: "65"
     first_pair:
-      row_name: "8       "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "65      "
+  - name: "65"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 12.63
     second_pair: ~
-  - name: "66      "
+  - name: "66"
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "66      "
+  - name: "66"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 8.05
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
-  - name: "67      "
+  - name: "67"
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "67      "
+  - name: "67"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 6.9
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "68      "
+  - name: "68"
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "68      "
+  - name: "68"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 8.05
     second_pair: ~
-  - name: "69      "
+  - name: "69"
     first_pair:
-      row_name: "28      "
+      row_name: "28"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "69      "
+  - name: "69"
     first_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 4.4
     second_pair: ~
-  - name: "70      "
+  - name: "70"
     first_pair:
-      row_name: "35      "
+      row_name: "35"
       value: 1
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: -10.1
-  - name: "70      "
+  - name: "70"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: -2
     second_pair: ~
-  - name: "71      "
+  - name: "71"
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -0.325
-  - name: "72      "
+  - name: "72"
     first_pair:
-      row_name: "13      "
+      row_name: "13"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -4.153
-  - name: "73      "
+  - name: "73"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -4.316
-  - name: "74      "
+  - name: "74"
     first_pair:
-      row_name: "9       "
+      row_name: "9"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -3.814
-  - name: "75      "
+  - name: "75"
     first_pair:
-      row_name: "25      "
+      row_name: "25"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -3.808
-  - name: "76      "
+  - name: "76"
     first_pair:
-      row_name: "24      "
+      row_name: "24"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -4.44
-  - name: "77      "
+  - name: "77"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 1.42
-  - name: "77      "
+  - name: "77"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.04
     second_pair: ~
-  - name: "78      "
+  - name: "78"
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 1
     second_pair: ~
-  - name: "79      "
+  - name: "79"
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: -0.5
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: -0.5
-  - name: "79      "
+  - name: "79"
     first_pair:
-      row_name: "C       "
+      row_name: C
       value: 3
     second_pair: ~
-  - name: "80      "
+  - name: "80"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.4
-  - name: "81      "
+  - name: "81"
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 1
     second_pair: ~
-  - name: "82      "
+  - name: "82"
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: -1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.0132
-  - name: "83      "
+  - name: "83"
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: -1
     second_pair:
-      row_name: "C       "
+      row_name: C
       value: 0.01
 rhs:
-  - name: "        "
+  - name: ""
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 23.26
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 5.25
-  - name: "        "
+  - name: ""
     first_pair:
-      row_name: "67      "
+      row_name: "67"
       value: 26.32
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: 21.05
-  - name: "        "
+  - name: ""
     first_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 13.45
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 2.58
-  - name: "        "
+  - name: ""
     first_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 10
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 10
 ranges: ~
 bounds: ~

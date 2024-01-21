@@ -145,7 +145,7 @@ columns:
     second_pair: ~
   - name: COL00004
     first_pair:
-      row_name: "MAXIM   "
+      row_name: MAXIM
       value: -1
     second_pair:
       row_name: ROW00004
@@ -610,35 +610,35 @@ columns:
       row_name: ROW00050
       value: 1
 rhs:
-  - name: "CONST   "
+  - name: CONST
     first_pair:
       row_name: ROW00001
       value: 170
     second_pair:
       row_name: ROW00002
       value: 130
-  - name: "CONST   "
+  - name: CONST
     first_pair:
       row_name: ROW00011
       value: 170
     second_pair:
       row_name: ROW00012
       value: 130
-  - name: "CONST   "
+  - name: CONST
     first_pair:
       row_name: ROW00022
       value: 170
     second_pair:
       row_name: ROW00023
       value: 130
-  - name: "CONST   "
+  - name: CONST
     first_pair:
       row_name: ROW00033
       value: 170
     second_pair:
       row_name: ROW00034
       value: 130
-  - name: "CONST   "
+  - name: CONST
     first_pair:
       row_name: ROW00044
       value: 170
