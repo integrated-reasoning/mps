@@ -313,4156 +313,4156 @@ rows:
   - row_type: Eq
     row_name: "154"
 columns:
-  - name: "ZP1     "
+  - name: ZP1
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: -1
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: 100
-  - name: "ZM1     "
+  - name: ZM1
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: -100
-  - name: "Z2      "
+  - name: Z2
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "144     "
+      row_name: "144"
       value: 1
-  - name: "Z3      "
+  - name: Z3
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "146     "
+      row_name: "146"
       value: 1
-  - name: "Z4      "
+  - name: Z4
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "148     "
+      row_name: "148"
       value: 1
-  - name: "Z5      "
+  - name: Z5
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "150     "
+      row_name: "150"
       value: 1
-  - name: "Z6      "
+  - name: Z6
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "152     "
+      row_name: "152"
       value: 1
-  - name: "Z7      "
+  - name: Z7
     first_pair:
-      row_name: "1       "
+      row_name: "1"
       value: 1
     second_pair:
-      row_name: "154     "
+      row_name: "154"
       value: 1
-  - name: "X1111   "
+  - name: X1111
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 1
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: 1
-  - name: "X1111   "
+  - name: X1111
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
     second_pair: ~
-  - name: "X1121   "
+  - name: X1121
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 1
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 1
-  - name: "X1121   "
+  - name: X1121
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X1131   "
+  - name: X1131
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 1
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: 1
-  - name: "X1131   "
+  - name: X1131
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB11    "
+  - name: SB11
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X2111   "
+  - name: X2111
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: 1
-  - name: "X2111   "
+  - name: X2111
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X2211   "
+  - name: X2211
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: 1
-  - name: "X2211   "
+  - name: X2211
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair: ~
-  - name: "X2121   "
+  - name: X2121
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 1
-  - name: "X2121   "
+  - name: X2121
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X2121   "
+  - name: X2121
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X2221   "
+  - name: X2221
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "63      "
+      row_name: "63"
       value: 1
-  - name: "X2221   "
+  - name: X2221
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X2131   "
+  - name: X2131
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: 1
-  - name: "X2131   "
+  - name: X2131
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X2131   "
+  - name: X2131
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X2231   "
+  - name: X2231
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 1
-  - name: "X2231   "
+  - name: X2231
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB12    "
+  - name: SB12
     first_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X3211   "
+  - name: X3211
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: 1
-  - name: "X3211   "
+  - name: X3211
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X3311   "
+  - name: X3311
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "58      "
+      row_name: "58"
       value: 1
-  - name: "X3311   "
+  - name: X3311
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair: ~
-  - name: "X3221   "
+  - name: X3221
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "63      "
+      row_name: "63"
       value: 1
-  - name: "X3221   "
+  - name: X3221
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X3221   "
+  - name: X3221
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X3321   "
+  - name: X3321
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: 1
-  - name: "X3321   "
+  - name: X3321
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X3231   "
+  - name: X3231
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 1
-  - name: "X3231   "
+  - name: X3231
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X3231   "
+  - name: X3231
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X3331   "
+  - name: X3331
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "X3331   "
+  - name: X3331
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB13    "
+  - name: SB13
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X4311   "
+  - name: X4311
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "58      "
+      row_name: "58"
       value: 1
-  - name: "X4311   "
+  - name: X4311
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X4411   "
+  - name: X4411
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 1
-  - name: "X4411   "
+  - name: X4411
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair: ~
-  - name: "X4321   "
+  - name: X4321
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: 1
-  - name: "X4321   "
+  - name: X4321
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X4321   "
+  - name: X4321
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X4421   "
+  - name: X4421
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "X4421   "
+  - name: X4421
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X4331   "
+  - name: X4331
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "X4331   "
+  - name: X4331
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X4331   "
+  - name: X4331
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X4431   "
+  - name: X4431
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
-  - name: "X4431   "
+  - name: X4431
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB14    "
+  - name: SB14
     first_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X5411   "
+  - name: X5411
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 1
-  - name: "X5411   "
+  - name: X5411
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X5511   "
+  - name: X5511
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
-  - name: "X5511   "
+  - name: X5511
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair: ~
-  - name: "X5421   "
+  - name: X5421
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "X5421   "
+  - name: X5421
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X5421   "
+  - name: X5421
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X5521   "
+  - name: X5521
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
-  - name: "X5521   "
+  - name: X5521
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X5431   "
+  - name: X5431
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
-  - name: "X5431   "
+  - name: X5431
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X5431   "
+  - name: X5431
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X5531   "
+  - name: X5531
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
-  - name: "X5531   "
+  - name: X5531
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -36
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB15    "
+  - name: SB15
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X6511   "
+  - name: X6511
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
-  - name: "X6511   "
+  - name: X6511
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X6611   "
+  - name: X6611
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: 1
-  - name: "X6611   "
+  - name: X6611
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair: ~
-  - name: "X6521   "
+  - name: X6521
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
-  - name: "X6521   "
+  - name: X6521
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X6521   "
+  - name: X6521
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X6621   "
+  - name: X6621
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "67      "
+      row_name: "67"
       value: 1
-  - name: "X6621   "
+  - name: X6621
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X6531   "
+  - name: X6531
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
-  - name: "X6531   "
+  - name: X6531
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "X6531   "
+  - name: X6531
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X6631   "
+  - name: X6631
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "73      "
+      row_name: "73"
       value: 1
-  - name: "X6631   "
+  - name: X6631
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -30
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB16    "
+  - name: SB16
     first_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X1112   "
+  - name: X1112
     first_pair:
-      row_name: "8       "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: 1
-  - name: "X1112   "
+  - name: X1112
     first_pair:
-      row_name: "120     "
+      row_name: "120"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
-  - name: "X1122   "
+  - name: X1122
     first_pair:
-      row_name: "8       "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 1
-  - name: "X1122   "
+  - name: X1122
     first_pair:
-      row_name: "138     "
-      value: -135
-    second_pair: ~
-  - name: "X1132   "
-    first_pair:
-      row_name: "8       "
-      value: 1
-    second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X1132   "
-    first_pair:
-      row_name: "138     "
-      value: -135
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X1142   "
-    first_pair:
-      row_name: "8       "
-      value: 1
-    second_pair:
-      row_name: "74      "
-      value: 1
-  - name: "X1142   "
-    first_pair:
-      row_name: "138     "
-      value: -135
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB21    "
-    first_pair:
-      row_name: "8       "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X2112   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "56      "
-      value: 1
-  - name: "X2112   "
-    first_pair:
-      row_name: "121     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -90
-  - name: "X2112   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X2212   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "57      "
-      value: 1
-  - name: "X2212   "
-    first_pair:
-      row_name: "121     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -90
-  - name: "X2122   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "62      "
-      value: 1
-  - name: "X2122   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X2222   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "63      "
-      value: 1
-  - name: "X2222   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair: ~
-  - name: "X2132   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X2132   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X2132   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X2232   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "69      "
-      value: 1
-  - name: "X2232   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X2142   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "74      "
-      value: 1
-  - name: "X2142   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X2142   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X2242   "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "75      "
-      value: 1
-  - name: "X2242   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB22    "
-    first_pair:
-      row_name: "9       "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X3212   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "57      "
-      value: 1
-  - name: "X3212   "
-    first_pair:
-      row_name: "122     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -66
-  - name: "X3212   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X3312   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "58      "
-      value: 1
-  - name: "X3312   "
-    first_pair:
-      row_name: "122     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -66
-  - name: "X3222   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "63      "
-      value: 1
-  - name: "X3222   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X3322   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "64      "
-      value: 1
-  - name: "X3322   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair: ~
-  - name: "X3232   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "69      "
-      value: 1
-  - name: "X3232   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X3232   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X3332   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "70      "
-      value: 1
-  - name: "X3332   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X3242   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "75      "
-      value: 1
-  - name: "X3242   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X3242   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X3342   "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "76      "
-      value: 1
-  - name: "X3342   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB23    "
-    first_pair:
-      row_name: "10      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X4312   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "58      "
-      value: 1
-  - name: "X4312   "
-    first_pair:
-      row_name: "123     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -48
-  - name: "X4312   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X4412   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "59      "
-      value: 1
-  - name: "X4412   "
-    first_pair:
-      row_name: "123     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -48
-  - name: "X4322   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "64      "
-      value: 1
-  - name: "X4322   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X4422   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "65      "
-      value: 1
-  - name: "X4422   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair: ~
-  - name: "X4332   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "70      "
-      value: 1
-  - name: "X4332   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X4332   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X4432   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "71      "
-      value: 1
-  - name: "X4432   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X4342   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "76      "
-      value: 1
-  - name: "X4342   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X4342   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X4442   "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "77      "
-      value: 1
-  - name: "X4442   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB24    "
-    first_pair:
-      row_name: "11      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X5412   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "59      "
-      value: 1
-  - name: "X5412   "
-    first_pair:
-      row_name: "124     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5412   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X5512   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "60      "
-      value: 1
-  - name: "X5512   "
-    first_pair:
-      row_name: "124     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5422   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "65      "
-      value: 1
-  - name: "X5422   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X5522   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "66      "
-      value: 1
-  - name: "X5522   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair: ~
-  - name: "X5432   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "71      "
-      value: 1
-  - name: "X5432   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X5432   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X5532   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "72      "
-      value: 1
-  - name: "X5532   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X5442   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "77      "
-      value: 1
-  - name: "X5442   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X5442   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X5542   "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "78      "
-      value: 1
-  - name: "X5542   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB25    "
-    first_pair:
-      row_name: "12      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X6512   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "60      "
-      value: 1
-  - name: "X6512   "
-    first_pair:
-      row_name: "125     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6512   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X6612   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "61      "
-      value: 1
-  - name: "X6612   "
-    first_pair:
-      row_name: "125     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6522   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "66      "
-      value: 1
-  - name: "X6522   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X6622   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "67      "
-      value: 1
-  - name: "X6622   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair: ~
-  - name: "X6532   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "72      "
-      value: 1
-  - name: "X6532   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X6532   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X6632   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "73      "
-      value: 1
-  - name: "X6632   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X6542   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "78      "
-      value: 1
-  - name: "X6542   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X6542   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X6642   "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "79      "
-      value: 1
-  - name: "X6642   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB26    "
-    first_pair:
-      row_name: "13      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X1123   "
-    first_pair:
-      row_name: "14      "
-      value: 1
-    second_pair:
-      row_name: "62      "
-      value: 1
-  - name: "X1123   "
-    first_pair:
-      row_name: "126     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -135
-  - name: "X1133   "
-    first_pair:
-      row_name: "14      "
-      value: 1
-    second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X1133   "
-    first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
     second_pair: ~
-  - name: "X1143   "
+  - name: X1132
     first_pair:
-      row_name: "14      "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "74      "
+      row_name: "68"
       value: 1
-  - name: "X1143   "
+  - name: X1132
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
     second_pair:
-      row_name: "143     "
+      row_name: "143"
       value: -1
-  - name: "SB31    "
+  - name: X1142
     first_pair:
-      row_name: "14      "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X2123   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "62      "
-      value: 1
-  - name: "X2123   "
-    first_pair:
-      row_name: "127     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -90
-  - name: "X2123   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X2223   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "63      "
-      value: 1
-  - name: "X2223   "
-    first_pair:
-      row_name: "127     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -90
-  - name: "X2133   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X2133   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X2233   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "69      "
-      value: 1
-  - name: "X2233   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair: ~
-  - name: "X2143   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "74      "
-      value: 1
-  - name: "X2143   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X2143   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X2243   "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "75      "
-      value: 1
-  - name: "X2243   "
-    first_pair:
-      row_name: "138     "
-      value: -90
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB32    "
-    first_pair:
-      row_name: "15      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X3223   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "63      "
-      value: 1
-  - name: "X3223   "
-    first_pair:
-      row_name: "128     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -66
-  - name: "X3223   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X3323   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "64      "
-      value: 1
-  - name: "X3323   "
-    first_pair:
-      row_name: "128     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -66
-  - name: "X3233   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "69      "
-      value: 1
-  - name: "X3233   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X3333   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "70      "
-      value: 1
-  - name: "X3333   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair: ~
-  - name: "X3243   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "75      "
-      value: 1
-  - name: "X3243   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X3243   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X3343   "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "76      "
-      value: 1
-  - name: "X3343   "
-    first_pair:
-      row_name: "138     "
-      value: -66
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB33    "
-    first_pair:
-      row_name: "16      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X4323   "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "64      "
-      value: 1
-  - name: "X4323   "
-    first_pair:
-      row_name: "129     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -48
-  - name: "X4323   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X4423   "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "65      "
-      value: 1
-  - name: "X4423   "
-    first_pair:
-      row_name: "129     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -48
-  - name: "X4333   "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "70      "
-      value: 1
-  - name: "X4333   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X4433   "
-    first_pair:
-      row_name: "17      "
+      row_name: "74"
       value: 1
-    second_pair:
-      row_name: "71      "
-      value: 1
-  - name: "X4433   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair: ~
-  - name: "X4343   "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "76      "
-      value: 1
-  - name: "X4343   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X4343   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X4443   "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "77      "
-      value: 1
-  - name: "X4443   "
-    first_pair:
-      row_name: "138     "
-      value: -48
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB34    "
-    first_pair:
-      row_name: "17      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X5423   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "65      "
-      value: 1
-  - name: "X5423   "
-    first_pair:
-      row_name: "130     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5423   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X5523   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "66      "
-      value: 1
-  - name: "X5523   "
-    first_pair:
-      row_name: "130     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5433   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "71      "
-      value: 1
-  - name: "X5433   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X5533   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "72      "
-      value: 1
-  - name: "X5533   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair: ~
-  - name: "X5443   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "77      "
-      value: 1
-  - name: "X5443   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X5443   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X5543   "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "78      "
-      value: 1
-  - name: "X5543   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB35    "
-    first_pair:
-      row_name: "18      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X6523   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "66      "
-      value: 1
-  - name: "X6523   "
-    first_pair:
-      row_name: "131     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6523   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X6623   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "67      "
-      value: 1
-  - name: "X6623   "
-    first_pair:
-      row_name: "131     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6533   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "72      "
-      value: 1
-  - name: "X6533   "
+  - name: X1142
     first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "X6633   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "73      "
-      value: 1
-  - name: "X6633   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair: ~
-  - name: "X6543   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "78      "
-      value: 1
-  - name: "X6543   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "X6543   "
-    first_pair:
-      row_name: "151     "
-      value: -1
-    second_pair: ~
-  - name: "X6643   "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "79      "
-      value: 1
-  - name: "X6643   "
-    first_pair:
-      row_name: "138     "
-      value: -30
-    second_pair:
-      row_name: "143     "
-      value: -1
-  - name: "SB36    "
-    first_pair:
-      row_name: "19      "
-      value: 1
-    second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "X1134   "
-    first_pair:
-      row_name: "20      "
-      value: 1
-    second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X1134   "
-    first_pair:
-      row_name: "132     "
-      value: 1
-    second_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -135
-  - name: "X1144   "
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB21
     first_pair:
-      row_name: "20      "
+      row_name: "8"
       value: 1
     second_pair:
-      row_name: "74      "
-      value: 1
-  - name: "X1144   "
+      row_name: "145"
+      value: -1
+  - name: X2112
     first_pair:
-      row_name: "138     "
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "56"
+      value: 1
+  - name: X2112
+    first_pair:
+      row_name: "121"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -90
+  - name: X2112
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X2212
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "57"
+      value: 1
+  - name: X2212
+    first_pair:
+      row_name: "121"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -90
+  - name: X2122
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "62"
+      value: 1
+  - name: X2122
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X2222
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "63"
+      value: 1
+  - name: X2222
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair: ~
+  - name: X2132
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "68"
+      value: 1
+  - name: X2132
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X2132
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X2232
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "69"
+      value: 1
+  - name: X2232
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X2142
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "74"
+      value: 1
+  - name: X2142
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X2142
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X2242
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "75"
+      value: 1
+  - name: X2242
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB22
+    first_pair:
+      row_name: "9"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X3212
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "57"
+      value: 1
+  - name: X3212
+    first_pair:
+      row_name: "122"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -66
+  - name: X3212
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X3312
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "58"
+      value: 1
+  - name: X3312
+    first_pair:
+      row_name: "122"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -66
+  - name: X3222
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "63"
+      value: 1
+  - name: X3222
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X3322
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "64"
+      value: 1
+  - name: X3322
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair: ~
+  - name: X3232
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "69"
+      value: 1
+  - name: X3232
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X3232
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X3332
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "70"
+      value: 1
+  - name: X3332
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X3242
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "75"
+      value: 1
+  - name: X3242
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X3242
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X3342
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "76"
+      value: 1
+  - name: X3342
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB23
+    first_pair:
+      row_name: "10"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X4312
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "58"
+      value: 1
+  - name: X4312
+    first_pair:
+      row_name: "123"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -48
+  - name: X4312
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X4412
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "59"
+      value: 1
+  - name: X4412
+    first_pair:
+      row_name: "123"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -48
+  - name: X4322
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "64"
+      value: 1
+  - name: X4322
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X4422
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "65"
+      value: 1
+  - name: X4422
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair: ~
+  - name: X4332
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "70"
+      value: 1
+  - name: X4332
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X4332
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X4432
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "71"
+      value: 1
+  - name: X4432
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X4342
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "76"
+      value: 1
+  - name: X4342
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X4342
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X4442
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "77"
+      value: 1
+  - name: X4442
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB24
+    first_pair:
+      row_name: "11"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X5412
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "59"
+      value: 1
+  - name: X5412
+    first_pair:
+      row_name: "124"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -36
+  - name: X5412
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X5512
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "60"
+      value: 1
+  - name: X5512
+    first_pair:
+      row_name: "124"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -36
+  - name: X5422
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "65"
+      value: 1
+  - name: X5422
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X5522
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "66"
+      value: 1
+  - name: X5522
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair: ~
+  - name: X5432
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "71"
+      value: 1
+  - name: X5432
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X5432
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X5532
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "72"
+      value: 1
+  - name: X5532
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X5442
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "77"
+      value: 1
+  - name: X5442
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X5442
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X5542
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "78"
+      value: 1
+  - name: X5542
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB25
+    first_pair:
+      row_name: "12"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X6512
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "60"
+      value: 1
+  - name: X6512
+    first_pair:
+      row_name: "125"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6512
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6612
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "61"
+      value: 1
+  - name: X6612
+    first_pair:
+      row_name: "125"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6522
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "66"
+      value: 1
+  - name: X6522
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X6622
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "67"
+      value: 1
+  - name: X6622
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair: ~
+  - name: X6532
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "72"
+      value: 1
+  - name: X6532
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X6532
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6632
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "73"
+      value: 1
+  - name: X6632
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X6542
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "78"
+      value: 1
+  - name: X6542
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X6542
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6642
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "79"
+      value: 1
+  - name: X6642
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB26
+    first_pair:
+      row_name: "13"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X1123
+    first_pair:
+      row_name: "14"
+      value: 1
+    second_pair:
+      row_name: "62"
+      value: 1
+  - name: X1123
+    first_pair:
+      row_name: "126"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -135
+  - name: X1133
+    first_pair:
+      row_name: "14"
+      value: 1
+    second_pair:
+      row_name: "68"
+      value: 1
+  - name: X1133
+    first_pair:
+      row_name: "138"
       value: -135
     second_pair: ~
-  - name: "SB41    "
+  - name: X1143
     first_pair:
-      row_name: "20      "
+      row_name: "14"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "74"
+      value: 1
+  - name: X1143
+    first_pair:
+      row_name: "138"
+      value: -135
+    second_pair:
+      row_name: "143"
       value: -1
-  - name: "X2134   "
+  - name: SB31
     first_pair:
-      row_name: "21      "
+      row_name: "14"
       value: 1
     second_pair:
-      row_name: "68      "
-      value: 1
-  - name: "X2134   "
+      row_name: "145"
+      value: -1
+  - name: X2123
     first_pair:
-      row_name: "133     "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "62"
+      value: 1
+  - name: X2123
+    first_pair:
+      row_name: "127"
+      value: 1
+    second_pair:
+      row_name: "138"
       value: -90
-  - name: "X2134   "
+  - name: X2123
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X2234   "
+  - name: X2223
     first_pair:
-      row_name: "21      "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "69      "
+      row_name: "63"
       value: 1
-  - name: "X2234   "
+  - name: X2223
     first_pair:
-      row_name: "133     "
+      row_name: "127"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
-  - name: "X2144   "
+  - name: X2133
     first_pair:
-      row_name: "21      "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "74      "
+      row_name: "68"
       value: 1
-  - name: "X2144   "
+  - name: X2133
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X2244   "
+  - name: X2233
     first_pair:
-      row_name: "21      "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "75      "
+      row_name: "69"
       value: 1
-  - name: "X2244   "
+  - name: X2233
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -90
     second_pair: ~
-  - name: "SB42    "
+  - name: X2143
     first_pair:
-      row_name: "21      "
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "74"
+      value: 1
+  - name: X2143
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
       value: -1
-  - name: "X3234   "
+  - name: X2143
     first_pair:
-      row_name: "22      "
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X2243
+    first_pair:
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "69      "
+      row_name: "75"
       value: 1
-  - name: "X3234   "
+  - name: X2243
     first_pair:
-      row_name: "134     "
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB32
+    first_pair:
+      row_name: "15"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "145"
+      value: -1
+  - name: X3223
+    first_pair:
+      row_name: "16"
+      value: 1
+    second_pair:
+      row_name: "63"
+      value: 1
+  - name: X3223
+    first_pair:
+      row_name: "128"
+      value: 1
+    second_pair:
+      row_name: "138"
       value: -66
-  - name: "X3234   "
+  - name: X3223
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X3334   "
+  - name: X3323
     first_pair:
-      row_name: "22      "
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "64"
       value: 1
-  - name: "X3334   "
+  - name: X3323
     first_pair:
-      row_name: "134     "
+      row_name: "128"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
-  - name: "X3244   "
+  - name: X3233
     first_pair:
-      row_name: "22      "
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "75      "
+      row_name: "69"
       value: 1
-  - name: "X3244   "
+  - name: X3233
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X3344   "
+  - name: X3333
     first_pair:
-      row_name: "22      "
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "76      "
+      row_name: "70"
       value: 1
-  - name: "X3344   "
+  - name: X3333
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -66
     second_pair: ~
-  - name: "SB43    "
+  - name: X3243
     first_pair:
-      row_name: "22      "
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "75"
+      value: 1
+  - name: X3243
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
       value: -1
-  - name: "X4334   "
+  - name: X3243
     first_pair:
-      row_name: "23      "
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X3343
+    first_pair:
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "76"
       value: 1
-  - name: "X4334   "
+  - name: X3343
     first_pair:
-      row_name: "135     "
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB33
+    first_pair:
+      row_name: "16"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "145"
+      value: -1
+  - name: X4323
+    first_pair:
+      row_name: "17"
+      value: 1
+    second_pair:
+      row_name: "64"
+      value: 1
+  - name: X4323
+    first_pair:
+      row_name: "129"
+      value: 1
+    second_pair:
+      row_name: "138"
       value: -48
-  - name: "X4334   "
+  - name: X4323
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X4434   "
+  - name: X4423
     first_pair:
-      row_name: "23      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "65"
       value: 1
-  - name: "X4434   "
+  - name: X4423
     first_pair:
-      row_name: "135     "
+      row_name: "129"
       value: 1
     second_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
-  - name: "X4344   "
+  - name: X4333
     first_pair:
-      row_name: "23      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "76      "
+      row_name: "70"
       value: 1
-  - name: "X4344   "
+  - name: X4333
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X4444   "
+  - name: X4433
     first_pair:
-      row_name: "23      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "77      "
+      row_name: "71"
       value: 1
-  - name: "X4444   "
+  - name: X4433
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: -48
     second_pair: ~
-  - name: "SB44    "
+  - name: X4343
     first_pair:
-      row_name: "23      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "145     "
+      row_name: "76"
+      value: 1
+  - name: X4343
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "143"
       value: -1
-  - name: "X5434   "
+  - name: X4343
     first_pair:
-      row_name: "24      "
-      value: 1
-    second_pair:
-      row_name: "71      "
-      value: 1
-  - name: "X5434   "
-    first_pair:
-      row_name: "136     "
-      value: 1
-    second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5434   "
-    first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X5534   "
+  - name: X4443
     first_pair:
-      row_name: "24      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "72      "
+      row_name: "77"
       value: 1
-  - name: "X5534   "
+  - name: X4443
     first_pair:
-      row_name: "136     "
-      value: 1
+      row_name: "138"
+      value: -48
     second_pair:
-      row_name: "138     "
-      value: -36
-  - name: "X5444   "
-    first_pair:
-      row_name: "24      "
-      value: 1
-    second_pair:
-      row_name: "77      "
-      value: 1
-  - name: "X5444   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair:
-      row_name: "151     "
+      row_name: "143"
       value: -1
-  - name: "X5544   "
+  - name: SB34
     first_pair:
-      row_name: "24      "
+      row_name: "17"
       value: 1
     second_pair:
-      row_name: "78      "
-      value: 1
-  - name: "X5544   "
-    first_pair:
-      row_name: "138     "
-      value: -36
-    second_pair: ~
-  - name: "SB45    "
-    first_pair:
-      row_name: "24      "
-      value: 1
-    second_pair:
-      row_name: "145     "
+      row_name: "145"
       value: -1
-  - name: "X6534   "
+  - name: X5423
     first_pair:
-      row_name: "25      "
+      row_name: "18"
       value: 1
     second_pair:
-      row_name: "72      "
+      row_name: "65"
       value: 1
-  - name: "X6534   "
+  - name: X5423
     first_pair:
-      row_name: "137     "
+      row_name: "130"
       value: 1
     second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6534   "
+      row_name: "138"
+      value: -36
+  - name: X5423
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
     second_pair: ~
-  - name: "X6634   "
+  - name: X5523
     first_pair:
-      row_name: "25      "
+      row_name: "18"
       value: 1
     second_pair:
-      row_name: "73      "
+      row_name: "66"
       value: 1
-  - name: "X6634   "
+  - name: X5523
     first_pair:
-      row_name: "137     "
+      row_name: "130"
       value: 1
     second_pair:
-      row_name: "138     "
-      value: -30
-  - name: "X6544   "
+      row_name: "138"
+      value: -36
+  - name: X5433
     first_pair:
-      row_name: "25      "
+      row_name: "18"
       value: 1
     second_pair:
-      row_name: "78      "
+      row_name: "71"
       value: 1
-  - name: "X6544   "
+  - name: X5433
     first_pair:
-      row_name: "138     "
-      value: -30
+      row_name: "138"
+      value: -36
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "X6644   "
+  - name: X5533
     first_pair:
-      row_name: "25      "
+      row_name: "18"
       value: 1
     second_pair:
-      row_name: "79      "
+      row_name: "72"
       value: 1
-  - name: "X6644   "
+  - name: X5533
     first_pair:
-      row_name: "138     "
+      row_name: "138"
+      value: -36
+    second_pair: ~
+  - name: X5443
+    first_pair:
+      row_name: "18"
+      value: 1
+    second_pair:
+      row_name: "77"
+      value: 1
+  - name: X5443
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X5443
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X5543
+    first_pair:
+      row_name: "18"
+      value: 1
+    second_pair:
+      row_name: "78"
+      value: 1
+  - name: X5543
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB35
+    first_pair:
+      row_name: "18"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X6523
+    first_pair:
+      row_name: "19"
+      value: 1
+    second_pair:
+      row_name: "66"
+      value: 1
+  - name: X6523
+    first_pair:
+      row_name: "131"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6523
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6623
+    first_pair:
+      row_name: "19"
+      value: 1
+    second_pair:
+      row_name: "67"
+      value: 1
+  - name: X6623
+    first_pair:
+      row_name: "131"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6533
+    first_pair:
+      row_name: "19"
+      value: 1
+    second_pair:
+      row_name: "72"
+      value: 1
+  - name: X6533
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X6633
+    first_pair:
+      row_name: "19"
+      value: 1
+    second_pair:
+      row_name: "73"
+      value: 1
+  - name: X6633
+    first_pair:
+      row_name: "138"
       value: -30
     second_pair: ~
-  - name: "SB46    "
+  - name: X6543
     first_pair:
-      row_name: "25      "
+      row_name: "19"
       value: 1
     second_pair:
-      row_name: "145     "
-      value: -1
-  - name: "E11     "
+      row_name: "78"
+      value: 1
+  - name: X6543
     first_pair:
-      row_name: "26      "
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: X6543
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6643
+    first_pair:
+      row_name: "19"
       value: 1
     second_pair:
-      row_name: "32      "
-      value: -1
-  - name: "E11     "
+      row_name: "79"
+      value: 1
+  - name: X6643
     first_pair:
-      row_name: "50      "
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "143"
+      value: -1
+  - name: SB36
+    first_pair:
+      row_name: "19"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X1134
+    first_pair:
+      row_name: "20"
+      value: 1
+    second_pair:
+      row_name: "68"
+      value: 1
+  - name: X1134
+    first_pair:
+      row_name: "132"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -135
+  - name: X1144
+    first_pair:
+      row_name: "20"
+      value: 1
+    second_pair:
+      row_name: "74"
+      value: 1
+  - name: X1144
+    first_pair:
+      row_name: "138"
+      value: -135
+    second_pair: ~
+  - name: SB41
+    first_pair:
+      row_name: "20"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X2134
+    first_pair:
+      row_name: "21"
+      value: 1
+    second_pair:
+      row_name: "68"
+      value: 1
+  - name: X2134
+    first_pair:
+      row_name: "133"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -90
+  - name: X2134
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X2234
+    first_pair:
+      row_name: "21"
+      value: 1
+    second_pair:
+      row_name: "69"
+      value: 1
+  - name: X2234
+    first_pair:
+      row_name: "133"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -90
+  - name: X2144
+    first_pair:
+      row_name: "21"
+      value: 1
+    second_pair:
+      row_name: "74"
+      value: 1
+  - name: X2144
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X2244
+    first_pair:
+      row_name: "21"
+      value: 1
+    second_pair:
+      row_name: "75"
+      value: 1
+  - name: X2244
+    first_pair:
+      row_name: "138"
+      value: -90
+    second_pair: ~
+  - name: SB42
+    first_pair:
+      row_name: "21"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X3234
+    first_pair:
+      row_name: "22"
+      value: 1
+    second_pair:
+      row_name: "69"
+      value: 1
+  - name: X3234
+    first_pair:
+      row_name: "134"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -66
+  - name: X3234
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X3334
+    first_pair:
+      row_name: "22"
+      value: 1
+    second_pair:
+      row_name: "70"
+      value: 1
+  - name: X3334
+    first_pair:
+      row_name: "134"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -66
+  - name: X3244
+    first_pair:
+      row_name: "22"
+      value: 1
+    second_pair:
+      row_name: "75"
+      value: 1
+  - name: X3244
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X3344
+    first_pair:
+      row_name: "22"
+      value: 1
+    second_pair:
+      row_name: "76"
+      value: 1
+  - name: X3344
+    first_pair:
+      row_name: "138"
+      value: -66
+    second_pair: ~
+  - name: SB43
+    first_pair:
+      row_name: "22"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X4334
+    first_pair:
+      row_name: "23"
+      value: 1
+    second_pair:
+      row_name: "70"
+      value: 1
+  - name: X4334
+    first_pair:
+      row_name: "135"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -48
+  - name: X4334
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X4434
+    first_pair:
+      row_name: "23"
+      value: 1
+    second_pair:
+      row_name: "71"
+      value: 1
+  - name: X4434
+    first_pair:
+      row_name: "135"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -48
+  - name: X4344
+    first_pair:
+      row_name: "23"
+      value: 1
+    second_pair:
+      row_name: "76"
+      value: 1
+  - name: X4344
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X4444
+    first_pair:
+      row_name: "23"
+      value: 1
+    second_pair:
+      row_name: "77"
+      value: 1
+  - name: X4444
+    first_pair:
+      row_name: "138"
+      value: -48
+    second_pair: ~
+  - name: SB44
+    first_pair:
+      row_name: "23"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X5434
+    first_pair:
+      row_name: "24"
+      value: 1
+    second_pair:
+      row_name: "71"
+      value: 1
+  - name: X5434
+    first_pair:
+      row_name: "136"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -36
+  - name: X5434
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X5534
+    first_pair:
+      row_name: "24"
+      value: 1
+    second_pair:
+      row_name: "72"
+      value: 1
+  - name: X5534
+    first_pair:
+      row_name: "136"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -36
+  - name: X5444
+    first_pair:
+      row_name: "24"
+      value: 1
+    second_pair:
+      row_name: "77"
+      value: 1
+  - name: X5444
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X5544
+    first_pair:
+      row_name: "24"
+      value: 1
+    second_pair:
+      row_name: "78"
+      value: 1
+  - name: X5544
+    first_pair:
+      row_name: "138"
+      value: -36
+    second_pair: ~
+  - name: SB45
+    first_pair:
+      row_name: "24"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: X6534
+    first_pair:
+      row_name: "25"
+      value: 1
+    second_pair:
+      row_name: "72"
+      value: 1
+  - name: X6534
+    first_pair:
+      row_name: "137"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6534
+    first_pair:
+      row_name: "151"
+      value: -1
+    second_pair: ~
+  - name: X6634
+    first_pair:
+      row_name: "25"
+      value: 1
+    second_pair:
+      row_name: "73"
+      value: 1
+  - name: X6634
+    first_pair:
+      row_name: "137"
+      value: 1
+    second_pair:
+      row_name: "138"
+      value: -30
+  - name: X6544
+    first_pair:
+      row_name: "25"
+      value: 1
+    second_pair:
+      row_name: "78"
+      value: 1
+  - name: X6544
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: X6644
+    first_pair:
+      row_name: "25"
+      value: 1
+    second_pair:
+      row_name: "79"
+      value: 1
+  - name: X6644
+    first_pair:
+      row_name: "138"
+      value: -30
+    second_pair: ~
+  - name: SB46
+    first_pair:
+      row_name: "25"
+      value: 1
+    second_pair:
+      row_name: "145"
+      value: -1
+  - name: E11
+    first_pair:
+      row_name: "26"
+      value: 1
+    second_pair:
+      row_name: "32"
+      value: -1
+  - name: E11
+    first_pair:
+      row_name: "50"
       value: -10
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: -210
-  - name: "E11     "
+  - name: E11
     first_pair:
-      row_name: "96      "
+      row_name: "96"
       value: -100
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -37.5
-  - name: "E12     "
+  - name: E12
     first_pair:
-      row_name: "27      "
+      row_name: "27"
       value: 1
     second_pair:
-      row_name: "33      "
+      row_name: "33"
       value: -1
-  - name: "E12     "
+  - name: E12
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -10
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: -235
-  - name: "E12     "
+  - name: E12
     first_pair:
-      row_name: "80      "
+      row_name: "80"
       value: 1
     second_pair:
-      row_name: "97      "
+      row_name: "97"
       value: -112.5
-  - name: "E12     "
+  - name: E12
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -25.5
     second_pair: ~
-  - name: "E13     "
+  - name: E13
     first_pair:
-      row_name: "28      "
+      row_name: "28"
       value: 1
     second_pair:
-      row_name: "34      "
+      row_name: "34"
       value: -1
-  - name: "E13     "
+  - name: E13
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -18.75
     second_pair:
-      row_name: "58      "
+      row_name: "58"
       value: -368.75
-  - name: "E13     "
+  - name: E13
     first_pair:
-      row_name: "80      "
+      row_name: "80"
       value: -0.0192
     second_pair:
-      row_name: "84      "
+      row_name: "84"
       value: 1
-  - name: "E13     "
+  - name: E13
     first_pair:
-      row_name: "98      "
+      row_name: "98"
       value: -70
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -12
-  - name: "AP13    "
+  - name: AP13
     first_pair:
-      row_name: "28      "
+      row_name: "28"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -20
-  - name: "AP13    "
+  - name: AP13
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM13    "
+  - name: AM13
     first_pair:
-      row_name: "28      "
+      row_name: "28"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -60
-  - name: "AM13    "
+  - name: AM13
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E14     "
+  - name: E14
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: 1
     second_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
-  - name: "E14     "
+  - name: E14
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: -25
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: -475
-  - name: "E14     "
+  - name: E14
     first_pair:
-      row_name: "80      "
+      row_name: "80"
       value: -0.0192
     second_pair:
-      row_name: "84      "
+      row_name: "84"
       value: -0.08329999
-  - name: "E14     "
+  - name: E14
     first_pair:
-      row_name: "88      "
+      row_name: "88"
       value: 1
     second_pair:
-      row_name: "99      "
+      row_name: "99"
       value: -90
-  - name: "E14     "
+  - name: E14
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -8.099999
     second_pair: ~
-  - name: "AP14    "
+  - name: AP14
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -10
-  - name: "AP14    "
+  - name: AP14
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM14    "
+  - name: AM14
     first_pair:
-      row_name: "29      "
+      row_name: "29"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -30
-  - name: "AM14    "
+  - name: AM14
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E15     "
+  - name: E15
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: 1
     second_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
-  - name: "E15     "
+  - name: E15
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: -20
     second_pair:
-      row_name: "60      "
+      row_name: "60"
       value: -470
-  - name: "E15     "
+  - name: E15
     first_pair:
-      row_name: "80      "
+      row_name: "80"
       value: -0.0192
     second_pair:
-      row_name: "84      "
+      row_name: "84"
       value: -0.08329999
-  - name: "E15     "
+  - name: E15
     first_pair:
-      row_name: "88      "
+      row_name: "88"
       value: -0.3333
     second_pair:
-      row_name: "92      "
+      row_name: "92"
       value: 1
-  - name: "E15     "
+  - name: E15
     first_pair:
-      row_name: "100     "
+      row_name: "100"
       value: -90
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -6.5999994
-  - name: "AP15    "
+  - name: AP15
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -5
-  - name: "AP15    "
+  - name: AP15
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM15    "
+  - name: AM15
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -15
-  - name: "AM15    "
+  - name: AM15
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E16     "
+  - name: E16
     first_pair:
-      row_name: "31      "
+      row_name: "31"
       value: 1
     second_pair:
-      row_name: "37      "
+      row_name: "37"
       value: -1
-  - name: "E16     "
+  - name: E16
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -20
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -470
-  - name: "E16     "
+  - name: E16
     first_pair:
-      row_name: "80      "
+      row_name: "80"
       value: -0.0192
     second_pair:
-      row_name: "84      "
+      row_name: "84"
       value: -0.08329999
-  - name: "E16     "
+  - name: E16
     first_pair:
-      row_name: "88      "
+      row_name: "88"
       value: -0.3333
     second_pair:
-      row_name: "92      "
+      row_name: "92"
       value: -0.5
-  - name: "E16     "
+  - name: E16
     first_pair:
-      row_name: "101     "
+      row_name: "101"
       value: -45
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -5.3999996
-  - name: "AP16    "
+  - name: AP16
     first_pair:
-      row_name: "31      "
+      row_name: "31"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -2
-  - name: "AP16    "
+  - name: AP16
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM16    "
+  - name: AM16
     first_pair:
-      row_name: "31      "
+      row_name: "31"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -6
-  - name: "AM16    "
+  - name: AM16
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E21     "
+  - name: E21
     first_pair:
-      row_name: "32      "
+      row_name: "32"
       value: 1
     second_pair:
-      row_name: "38      "
+      row_name: "38"
       value: -1
-  - name: "E21     "
+  - name: E21
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -10
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: -210
-  - name: "E21     "
+  - name: E21
     first_pair:
-      row_name: "102     "
+      row_name: "102"
       value: -100
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -37.5
-  - name: "E22     "
+  - name: E22
     first_pair:
-      row_name: "33      "
+      row_name: "33"
       value: 1
     second_pair:
-      row_name: "39      "
+      row_name: "39"
       value: -1
-  - name: "E22     "
+  - name: E22
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -10
     second_pair:
-      row_name: "63      "
+      row_name: "63"
       value: -235
-  - name: "E22     "
+  - name: E22
     first_pair:
-      row_name: "81      "
+      row_name: "81"
       value: 1
     second_pair:
-      row_name: "103     "
+      row_name: "103"
       value: -112.5
-  - name: "E22     "
+  - name: E22
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -25.5
     second_pair: ~
-  - name: "E23     "
+  - name: E23
     first_pair:
-      row_name: "34      "
+      row_name: "34"
       value: 1
     second_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -1
-  - name: "E23     "
+  - name: E23
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -18.75
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: -368.75
-  - name: "E23     "
+  - name: E23
     first_pair:
-      row_name: "81      "
+      row_name: "81"
       value: -0.0192
     second_pair:
-      row_name: "85      "
+      row_name: "85"
       value: 1
-  - name: "E23     "
+  - name: E23
     first_pair:
-      row_name: "104     "
+      row_name: "104"
       value: -70
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -12
-  - name: "AP23    "
+  - name: AP23
     first_pair:
-      row_name: "34      "
+      row_name: "34"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -20
-  - name: "AP23    "
+  - name: AP23
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM23    "
+  - name: AM23
     first_pair:
-      row_name: "34      "
+      row_name: "34"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -60
-  - name: "AM23    "
+  - name: AM23
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E24     "
+  - name: E24
     first_pair:
-      row_name: "35      "
+      row_name: "35"
       value: 1
     second_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -1
-  - name: "E24     "
+  - name: E24
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: -25
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: -475
-  - name: "E24     "
+  - name: E24
     first_pair:
-      row_name: "81      "
+      row_name: "81"
       value: -0.0192
     second_pair:
-      row_name: "85      "
+      row_name: "85"
       value: -0.08329999
-  - name: "E24     "
+  - name: E24
     first_pair:
-      row_name: "89      "
+      row_name: "89"
       value: 1
     second_pair:
-      row_name: "105     "
+      row_name: "105"
       value: -90
-  - name: "E24     "
+  - name: E24
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -8.099999
     second_pair: ~
-  - name: "AP24    "
+  - name: AP24
     first_pair:
-      row_name: "35      "
+      row_name: "35"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -10
-  - name: "AP24    "
+  - name: AP24
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM24    "
+  - name: AM24
     first_pair:
-      row_name: "35      "
+      row_name: "35"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -30
-  - name: "AM24    "
+  - name: AM24
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E25     "
+  - name: E25
     first_pair:
-      row_name: "36      "
+      row_name: "36"
       value: 1
     second_pair:
-      row_name: "42      "
+      row_name: "42"
       value: -1
-  - name: "E25     "
+  - name: E25
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: -20
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: -470
-  - name: "E25     "
+  - name: E25
     first_pair:
-      row_name: "81      "
+      row_name: "81"
       value: -0.0192
     second_pair:
-      row_name: "85      "
+      row_name: "85"
       value: -0.08329999
-  - name: "E25     "
+  - name: E25
     first_pair:
-      row_name: "89      "
+      row_name: "89"
       value: -0.3333
     second_pair:
-      row_name: "93      "
+      row_name: "93"
       value: 1
-  - name: "E25     "
+  - name: E25
     first_pair:
-      row_name: "106     "
+      row_name: "106"
       value: -90
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -6.5999994
-  - name: "AP25    "
+  - name: AP25
     first_pair:
-      row_name: "36      "
+      row_name: "36"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -5
-  - name: "AP25    "
+  - name: AP25
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM25    "
+  - name: AM25
     first_pair:
-      row_name: "36      "
+      row_name: "36"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -15
-  - name: "AM25    "
+  - name: AM25
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E26     "
+  - name: E26
     first_pair:
-      row_name: "37      "
+      row_name: "37"
       value: 1
     second_pair:
-      row_name: "43      "
+      row_name: "43"
       value: -1
-  - name: "E26     "
+  - name: E26
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -20
     second_pair:
-      row_name: "67      "
+      row_name: "67"
       value: -470
-  - name: "E26     "
+  - name: E26
     first_pair:
-      row_name: "81      "
+      row_name: "81"
       value: -0.0192
     second_pair:
-      row_name: "85      "
+      row_name: "85"
       value: -0.08329999
-  - name: "E26     "
+  - name: E26
     first_pair:
-      row_name: "89      "
+      row_name: "89"
       value: -0.3333
     second_pair:
-      row_name: "93      "
+      row_name: "93"
       value: -0.5
-  - name: "E26     "
+  - name: E26
     first_pair:
-      row_name: "107     "
+      row_name: "107"
       value: -45
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -5.3999996
-  - name: "AP26    "
+  - name: AP26
     first_pair:
-      row_name: "37      "
+      row_name: "37"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -2
-  - name: "AP26    "
+  - name: AP26
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM26    "
+  - name: AM26
     first_pair:
-      row_name: "37      "
+      row_name: "37"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -6
-  - name: "AM26    "
+  - name: AM26
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E31     "
+  - name: E31
     first_pair:
-      row_name: "38      "
+      row_name: "38"
       value: 1
     second_pair:
-      row_name: "44      "
+      row_name: "44"
       value: -1
-  - name: "E31     "
+  - name: E31
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -10
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: -210
-  - name: "E31     "
+  - name: E31
     first_pair:
-      row_name: "108     "
+      row_name: "108"
       value: -100
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -37.5
-  - name: "E32     "
+  - name: E32
     first_pair:
-      row_name: "39      "
+      row_name: "39"
       value: 1
     second_pair:
-      row_name: "45      "
+      row_name: "45"
       value: -1
-  - name: "E32     "
+  - name: E32
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -10
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: -235
-  - name: "E32     "
+  - name: E32
     first_pair:
-      row_name: "82      "
+      row_name: "82"
       value: 1
     second_pair:
-      row_name: "109     "
+      row_name: "109"
       value: -112.5
-  - name: "E32     "
+  - name: E32
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -25.5
     second_pair: ~
-  - name: "E33     "
+  - name: E33
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 1
     second_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -1
-  - name: "E33     "
+  - name: E33
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -18.75
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: -368.75
-  - name: "E33     "
+  - name: E33
     first_pair:
-      row_name: "82      "
+      row_name: "82"
       value: -0.0192
     second_pair:
-      row_name: "86      "
+      row_name: "86"
       value: 1
-  - name: "E33     "
+  - name: E33
     first_pair:
-      row_name: "110     "
+      row_name: "110"
       value: -70
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -12
-  - name: "AP33    "
+  - name: AP33
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -20
-  - name: "AP33    "
+  - name: AP33
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM33    "
+  - name: AM33
     first_pair:
-      row_name: "40      "
+      row_name: "40"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -60
-  - name: "AM33    "
+  - name: AM33
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E34     "
+  - name: E34
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 1
     second_pair:
-      row_name: "47      "
+      row_name: "47"
       value: -1
-  - name: "E34     "
+  - name: E34
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: -25
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: -475
-  - name: "E34     "
+  - name: E34
     first_pair:
-      row_name: "82      "
+      row_name: "82"
       value: -0.0192
     second_pair:
-      row_name: "86      "
+      row_name: "86"
       value: -0.08329999
-  - name: "E34     "
+  - name: E34
     first_pair:
-      row_name: "90      "
+      row_name: "90"
       value: 1
     second_pair:
-      row_name: "111     "
+      row_name: "111"
       value: -90
-  - name: "E34     "
+  - name: E34
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -8.099999
     second_pair: ~
-  - name: "AP34    "
+  - name: AP34
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -10
-  - name: "AP34    "
+  - name: AP34
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM34    "
+  - name: AM34
     first_pair:
-      row_name: "41      "
+      row_name: "41"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -30
-  - name: "AM34    "
+  - name: AM34
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E35     "
+  - name: E35
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 1
     second_pair:
-      row_name: "48      "
+      row_name: "48"
       value: -1
-  - name: "E35     "
+  - name: E35
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: -20
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: -470
-  - name: "E35     "
+  - name: E35
     first_pair:
-      row_name: "82      "
+      row_name: "82"
       value: -0.0192
     second_pair:
-      row_name: "86      "
+      row_name: "86"
       value: -0.08329999
-  - name: "E35     "
+  - name: E35
     first_pair:
-      row_name: "90      "
+      row_name: "90"
       value: -0.3333
     second_pair:
-      row_name: "94      "
+      row_name: "94"
       value: 1
-  - name: "E35     "
+  - name: E35
     first_pair:
-      row_name: "112     "
+      row_name: "112"
       value: -90
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -6.5999994
-  - name: "AP35    "
+  - name: AP35
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -5
-  - name: "AP35    "
+  - name: AP35
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM35    "
+  - name: AM35
     first_pair:
-      row_name: "42      "
+      row_name: "42"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -15
-  - name: "AM35    "
+  - name: AM35
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E36     "
+  - name: E36
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 1
     second_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -1
-  - name: "E36     "
+  - name: E36
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -20
     second_pair:
-      row_name: "73      "
+      row_name: "73"
       value: -470
-  - name: "E36     "
+  - name: E36
     first_pair:
-      row_name: "82      "
+      row_name: "82"
       value: -0.0192
     second_pair:
-      row_name: "86      "
+      row_name: "86"
       value: -0.08329999
-  - name: "E36     "
+  - name: E36
     first_pair:
-      row_name: "90      "
+      row_name: "90"
       value: -0.3333
     second_pair:
-      row_name: "94      "
+      row_name: "94"
       value: -0.5
-  - name: "E36     "
+  - name: E36
     first_pair:
-      row_name: "113     "
+      row_name: "113"
       value: -45
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -5.3999996
-  - name: "AP36    "
+  - name: AP36
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -2
-  - name: "AP36    "
+  - name: AP36
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM36    "
+  - name: AM36
     first_pair:
-      row_name: "43      "
+      row_name: "43"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -6
-  - name: "AM36    "
+  - name: AM36
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E41     "
+  - name: E41
     first_pair:
-      row_name: "44      "
+      row_name: "44"
       value: 1
     second_pair:
-      row_name: "50      "
+      row_name: "50"
       value: -10
-  - name: "E41     "
+  - name: E41
     first_pair:
-      row_name: "74      "
+      row_name: "74"
       value: -210
     second_pair:
-      row_name: "114     "
+      row_name: "114"
       value: -100
-  - name: "E41     "
+  - name: E41
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -37.5
     second_pair: ~
-  - name: "E42     "
+  - name: E42
     first_pair:
-      row_name: "45      "
+      row_name: "45"
       value: 1
     second_pair:
-      row_name: "51      "
+      row_name: "51"
       value: -10
-  - name: "E42     "
+  - name: E42
     first_pair:
-      row_name: "75      "
+      row_name: "75"
       value: -235
     second_pair:
-      row_name: "83      "
+      row_name: "83"
       value: 1
-  - name: "E42     "
+  - name: E42
     first_pair:
-      row_name: "115     "
+      row_name: "115"
       value: -112.5
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -25.5
-  - name: "E43     "
+  - name: E43
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: 1
     second_pair:
-      row_name: "52      "
+      row_name: "52"
       value: -18.75
-  - name: "E43     "
+  - name: E43
     first_pair:
-      row_name: "76      "
+      row_name: "76"
       value: -368.75
     second_pair:
-      row_name: "83      "
+      row_name: "83"
       value: -0.0192
-  - name: "E43     "
+  - name: E43
     first_pair:
-      row_name: "87      "
+      row_name: "87"
       value: 1
     second_pair:
-      row_name: "116     "
+      row_name: "116"
       value: -70
-  - name: "E43     "
+  - name: E43
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -12
     second_pair: ~
-  - name: "AP43    "
+  - name: AP43
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -20
-  - name: "AP43    "
+  - name: AP43
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM43    "
+  - name: AM43
     first_pair:
-      row_name: "46      "
+      row_name: "46"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -60
-  - name: "AM43    "
+  - name: AM43
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E44     "
+  - name: E44
     first_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 1
     second_pair:
-      row_name: "53      "
+      row_name: "53"
       value: -25
-  - name: "E44     "
+  - name: E44
     first_pair:
-      row_name: "77      "
+      row_name: "77"
       value: -475
     second_pair:
-      row_name: "83      "
+      row_name: "83"
       value: -0.0192
-  - name: "E44     "
+  - name: E44
     first_pair:
-      row_name: "87      "
+      row_name: "87"
       value: -0.08329999
     second_pair:
-      row_name: "91      "
+      row_name: "91"
       value: 1
-  - name: "E44     "
+  - name: E44
     first_pair:
-      row_name: "117     "
+      row_name: "117"
       value: -90
     second_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -8.099999
-  - name: "AP44    "
+  - name: AP44
     first_pair:
-      row_name: "47      "
+      row_name: "47"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -10
-  - name: "AP44    "
+  - name: AP44
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM44    "
+  - name: AM44
     first_pair:
-      row_name: "47      "
+      row_name: "47"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -30
-  - name: "AM44    "
+  - name: AM44
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E45     "
+  - name: E45
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 1
     second_pair:
-      row_name: "54      "
+      row_name: "54"
       value: -20
-  - name: "E45     "
+  - name: E45
     first_pair:
-      row_name: "78      "
+      row_name: "78"
       value: -470
     second_pair:
-      row_name: "83      "
+      row_name: "83"
       value: -0.0192
-  - name: "E45     "
+  - name: E45
     first_pair:
-      row_name: "87      "
+      row_name: "87"
       value: -0.08329999
     second_pair:
-      row_name: "91      "
+      row_name: "91"
       value: -0.3333
-  - name: "E45     "
+  - name: E45
     first_pair:
-      row_name: "95      "
+      row_name: "95"
       value: 1
     second_pair:
-      row_name: "118     "
+      row_name: "118"
       value: -90
-  - name: "E45     "
+  - name: E45
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -6.5999994
     second_pair: ~
-  - name: "AP45    "
+  - name: AP45
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -5
-  - name: "AP45    "
+  - name: AP45
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM45    "
+  - name: AM45
     first_pair:
-      row_name: "48      "
+      row_name: "48"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -15
-  - name: "AM45    "
+  - name: AM45
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "E46     "
+  - name: E46
     first_pair:
-      row_name: "49      "
+      row_name: "49"
       value: 1
     second_pair:
-      row_name: "55      "
+      row_name: "55"
       value: -20
-  - name: "E46     "
+  - name: E46
     first_pair:
-      row_name: "79      "
+      row_name: "79"
       value: -470
     second_pair:
-      row_name: "83      "
+      row_name: "83"
       value: -0.0192
-  - name: "E46     "
+  - name: E46
     first_pair:
-      row_name: "87      "
+      row_name: "87"
       value: -0.08329999
     second_pair:
-      row_name: "91      "
+      row_name: "91"
       value: -0.3333
-  - name: "E46     "
+  - name: E46
     first_pair:
-      row_name: "95      "
+      row_name: "95"
       value: -0.5
     second_pair:
-      row_name: "119     "
+      row_name: "119"
       value: -45
-  - name: "E46     "
+  - name: E46
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: -5.3999996
     second_pair: ~
-  - name: "AP46    "
+  - name: AP46
     first_pair:
-      row_name: "49      "
+      row_name: "49"
       value: -1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -2
-  - name: "AP46    "
+  - name: AP46
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: -1
     second_pair: ~
-  - name: "AM46    "
+  - name: AM46
     first_pair:
-      row_name: "49      "
+      row_name: "49"
       value: 1
     second_pair:
-      row_name: "141     "
+      row_name: "141"
       value: -6
-  - name: "AM46    "
+  - name: AM46
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: -1
     second_pair: ~
-  - name: "D11     "
+  - name: D11
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 1
     second_pair:
-      row_name: "56      "
+      row_name: "56"
       value: 1
-  - name: "D21     "
+  - name: D21
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 1
     second_pair:
-      row_name: "62      "
+      row_name: "62"
       value: 1
-  - name: "D31     "
+  - name: D31
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 1
     second_pair:
-      row_name: "68      "
+      row_name: "68"
       value: 1
-  - name: "D41     "
+  - name: D41
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 1
     second_pair:
-      row_name: "74      "
+      row_name: "74"
       value: 1
-  - name: "SP1     "
+  - name: SP1
     first_pair:
-      row_name: "50      "
+      row_name: "50"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "D12     "
+  - name: D12
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 1
     second_pair:
-      row_name: "57      "
+      row_name: "57"
       value: 1
-  - name: "D22     "
+  - name: D22
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 1
     second_pair:
-      row_name: "63      "
+      row_name: "63"
       value: 1
-  - name: "D32     "
+  - name: D32
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 1
     second_pair:
-      row_name: "69      "
+      row_name: "69"
       value: 1
-  - name: "D42     "
+  - name: D42
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 1
     second_pair:
-      row_name: "75      "
+      row_name: "75"
       value: 1
-  - name: "SP2     "
+  - name: SP2
     first_pair:
-      row_name: "51      "
+      row_name: "51"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "D13     "
+  - name: D13
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "58      "
+      row_name: "58"
       value: 1
-  - name: "D23     "
+  - name: D23
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "64      "
+      row_name: "64"
       value: 1
-  - name: "D33     "
+  - name: D33
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "70      "
+      row_name: "70"
       value: 1
-  - name: "D43     "
+  - name: D43
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "76      "
+      row_name: "76"
       value: 1
-  - name: "SP3     "
+  - name: SP3
     first_pair:
-      row_name: "52      "
+      row_name: "52"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "D14     "
+  - name: D14
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 1
     second_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 1
-  - name: "D24     "
+  - name: D24
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 1
     second_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
-  - name: "D34     "
+  - name: D34
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 1
     second_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
-  - name: "D44     "
+  - name: D44
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 1
     second_pair:
-      row_name: "77      "
+      row_name: "77"
       value: 1
-  - name: "SP4     "
+  - name: SP4
     first_pair:
-      row_name: "53      "
+      row_name: "53"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "D15     "
+  - name: D15
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
-  - name: "D25     "
+  - name: D25
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
-  - name: "D35     "
+  - name: D35
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
-  - name: "D45     "
+  - name: D45
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "78      "
+      row_name: "78"
       value: 1
-  - name: "SP5     "
+  - name: SP5
     first_pair:
-      row_name: "54      "
+      row_name: "54"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "D16     "
+  - name: D16
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 1
     second_pair:
-      row_name: "61      "
+      row_name: "61"
       value: 1
-  - name: "D26     "
+  - name: D26
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 1
     second_pair:
-      row_name: "67      "
+      row_name: "67"
       value: 1
-  - name: "D36     "
+  - name: D36
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 1
     second_pair:
-      row_name: "73      "
+      row_name: "73"
       value: 1
-  - name: "D46     "
+  - name: D46
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 1
     second_pair:
-      row_name: "79      "
+      row_name: "79"
       value: 1
-  - name: "SP6     "
+  - name: SP6
     first_pair:
-      row_name: "55      "
+      row_name: "55"
       value: 1
     second_pair:
-      row_name: "153     "
+      row_name: "153"
       value: -1
-  - name: "O11     "
+  - name: O11
     first_pair:
-      row_name: "56      "
-      value: -1
-    second_pair:
-      row_name: "96      "
-      value: 1
-  - name: "I11     "
-    first_pair:
-      row_name: "56      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O12     "
-    first_pair:
-      row_name: "57      "
+      row_name: "56"
       value: -1
     second_pair:
-      row_name: "97      "
+      row_name: "96"
       value: 1
-  - name: "I12     "
+  - name: I11
     first_pair:
-      row_name: "57      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O13     "
-    first_pair:
-      row_name: "58      "
-      value: -1
-    second_pair:
-      row_name: "98      "
-      value: 1
-  - name: "I13     "
-    first_pair:
-      row_name: "58      "
+      row_name: "56"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O14     "
+  - name: O12
     first_pair:
-      row_name: "59      "
+      row_name: "57"
       value: -1
     second_pair:
-      row_name: "99      "
+      row_name: "97"
       value: 1
-  - name: "O14     "
+  - name: I12
     first_pair:
-      row_name: "140     "
+      row_name: "57"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O13
+    first_pair:
+      row_name: "58"
+      value: -1
+    second_pair:
+      row_name: "98"
+      value: 1
+  - name: I13
+    first_pair:
+      row_name: "58"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O14
+    first_pair:
+      row_name: "59"
+      value: -1
+    second_pair:
+      row_name: "99"
+      value: 1
+  - name: O14
+    first_pair:
+      row_name: "140"
       value: -22.279999
     second_pair: ~
-  - name: "I14     "
+  - name: I14
     first_pair:
-      row_name: "59      "
+      row_name: "59"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O15     "
+  - name: O15
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: -1
     second_pair:
-      row_name: "100     "
+      row_name: "100"
       value: 1
-  - name: "O15     "
+  - name: O15
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -18.149994
     second_pair: ~
-  - name: "I15     "
+  - name: I15
     first_pair:
-      row_name: "60      "
+      row_name: "60"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O16     "
+  - name: O16
     first_pair:
-      row_name: "61      "
+      row_name: "61"
       value: -1
     second_pair:
-      row_name: "101     "
+      row_name: "101"
       value: 1
-  - name: "O16     "
+  - name: O16
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -14.849999
     second_pair: ~
-  - name: "I16     "
+  - name: I16
     first_pair:
-      row_name: "61      "
+      row_name: "61"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O21     "
+  - name: O21
     first_pair:
-      row_name: "62      "
-      value: -1
-    second_pair:
-      row_name: "102     "
-      value: 1
-  - name: "I21     "
-    first_pair:
-      row_name: "62      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O22     "
-    first_pair:
-      row_name: "63      "
+      row_name: "62"
       value: -1
     second_pair:
-      row_name: "103     "
+      row_name: "102"
       value: 1
-  - name: "I22     "
+  - name: I21
     first_pair:
-      row_name: "63      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O23     "
-    first_pair:
-      row_name: "64      "
-      value: -1
-    second_pair:
-      row_name: "104     "
-      value: 1
-  - name: "I23     "
-    first_pair:
-      row_name: "64      "
+      row_name: "62"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O24     "
+  - name: O22
     first_pair:
-      row_name: "65      "
+      row_name: "63"
       value: -1
     second_pair:
-      row_name: "105     "
+      row_name: "103"
       value: 1
-  - name: "O24     "
+  - name: I22
     first_pair:
-      row_name: "140     "
+      row_name: "63"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O23
+    first_pair:
+      row_name: "64"
+      value: -1
+    second_pair:
+      row_name: "104"
+      value: 1
+  - name: I23
+    first_pair:
+      row_name: "64"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O24
+    first_pair:
+      row_name: "65"
+      value: -1
+    second_pair:
+      row_name: "105"
+      value: 1
+  - name: O24
+    first_pair:
+      row_name: "140"
       value: -22.279999
     second_pair: ~
-  - name: "I24     "
+  - name: I24
     first_pair:
-      row_name: "65      "
+      row_name: "65"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O25     "
+  - name: O25
     first_pair:
-      row_name: "66      "
+      row_name: "66"
       value: -1
     second_pair:
-      row_name: "106     "
+      row_name: "106"
       value: 1
-  - name: "O25     "
+  - name: O25
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -18.149994
     second_pair: ~
-  - name: "I25     "
+  - name: I25
     first_pair:
-      row_name: "66      "
+      row_name: "66"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O26     "
+  - name: O26
     first_pair:
-      row_name: "67      "
+      row_name: "67"
       value: -1
     second_pair:
-      row_name: "107     "
+      row_name: "107"
       value: 1
-  - name: "O26     "
+  - name: O26
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -14.849999
     second_pair: ~
-  - name: "I26     "
+  - name: I26
     first_pair:
-      row_name: "67      "
+      row_name: "67"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O31     "
+  - name: O31
     first_pair:
-      row_name: "68      "
-      value: -1
-    second_pair:
-      row_name: "108     "
-      value: 1
-  - name: "I31     "
-    first_pair:
-      row_name: "68      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O32     "
-    first_pair:
-      row_name: "69      "
+      row_name: "68"
       value: -1
     second_pair:
-      row_name: "109     "
+      row_name: "108"
       value: 1
-  - name: "I32     "
+  - name: I31
     first_pair:
-      row_name: "69      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O33     "
-    first_pair:
-      row_name: "70      "
-      value: -1
-    second_pair:
-      row_name: "110     "
-      value: 1
-  - name: "I33     "
-    first_pair:
-      row_name: "70      "
+      row_name: "68"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O34     "
+  - name: O32
     first_pair:
-      row_name: "71      "
+      row_name: "69"
       value: -1
     second_pair:
-      row_name: "111     "
+      row_name: "109"
       value: 1
-  - name: "O34     "
+  - name: I32
     first_pair:
-      row_name: "140     "
+      row_name: "69"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O33
+    first_pair:
+      row_name: "70"
+      value: -1
+    second_pair:
+      row_name: "110"
+      value: 1
+  - name: I33
+    first_pair:
+      row_name: "70"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O34
+    first_pair:
+      row_name: "71"
+      value: -1
+    second_pair:
+      row_name: "111"
+      value: 1
+  - name: O34
+    first_pair:
+      row_name: "140"
       value: -22.279999
     second_pair: ~
-  - name: "I34     "
+  - name: I34
     first_pair:
-      row_name: "71      "
+      row_name: "71"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O35     "
+  - name: O35
     first_pair:
-      row_name: "72      "
+      row_name: "72"
       value: -1
     second_pair:
-      row_name: "112     "
+      row_name: "112"
       value: 1
-  - name: "O35     "
+  - name: O35
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -18.149994
     second_pair: ~
-  - name: "I35     "
+  - name: I35
     first_pair:
-      row_name: "72      "
+      row_name: "72"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O36     "
+  - name: O36
     first_pair:
-      row_name: "73      "
+      row_name: "73"
       value: -1
     second_pair:
-      row_name: "113     "
+      row_name: "113"
       value: 1
-  - name: "O36     "
+  - name: O36
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -14.849999
     second_pair: ~
-  - name: "I36     "
+  - name: I36
     first_pair:
-      row_name: "73      "
+      row_name: "73"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O41     "
+  - name: O41
     first_pair:
-      row_name: "74      "
-      value: -1
-    second_pair:
-      row_name: "114     "
-      value: 1
-  - name: "I41     "
-    first_pair:
-      row_name: "74      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O42     "
-    first_pair:
-      row_name: "75      "
+      row_name: "74"
       value: -1
     second_pair:
-      row_name: "115     "
+      row_name: "114"
       value: 1
-  - name: "I42     "
+  - name: I41
     first_pair:
-      row_name: "75      "
-      value: 1
-    second_pair:
-      row_name: "151     "
-      value: -1
-  - name: "O43     "
-    first_pair:
-      row_name: "76      "
-      value: -1
-    second_pair:
-      row_name: "116     "
-      value: 1
-  - name: "I43     "
-    first_pair:
-      row_name: "76      "
+      row_name: "74"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O44     "
+  - name: O42
     first_pair:
-      row_name: "77      "
+      row_name: "75"
       value: -1
     second_pair:
-      row_name: "117     "
+      row_name: "115"
       value: 1
-  - name: "O44     "
+  - name: I42
     first_pair:
-      row_name: "140     "
+      row_name: "75"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O43
+    first_pair:
+      row_name: "76"
+      value: -1
+    second_pair:
+      row_name: "116"
+      value: 1
+  - name: I43
+    first_pair:
+      row_name: "76"
+      value: 1
+    second_pair:
+      row_name: "151"
+      value: -1
+  - name: O44
+    first_pair:
+      row_name: "77"
+      value: -1
+    second_pair:
+      row_name: "117"
+      value: 1
+  - name: O44
+    first_pair:
+      row_name: "140"
       value: -22.279999
     second_pair: ~
-  - name: "I44     "
+  - name: I44
     first_pair:
-      row_name: "77      "
+      row_name: "77"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O45     "
+  - name: O45
     first_pair:
-      row_name: "78      "
+      row_name: "78"
       value: -1
     second_pair:
-      row_name: "118     "
+      row_name: "118"
       value: 1
-  - name: "O45     "
+  - name: O45
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -18.149994
     second_pair: ~
-  - name: "I45     "
+  - name: I45
     first_pair:
-      row_name: "78      "
+      row_name: "78"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "O46     "
+  - name: O46
     first_pair:
-      row_name: "79      "
+      row_name: "79"
       value: -1
     second_pair:
-      row_name: "119     "
+      row_name: "119"
       value: 1
-  - name: "O46     "
+  - name: O46
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: -14.849999
     second_pair: ~
-  - name: "I46     "
+  - name: I46
     first_pair:
-      row_name: "79      "
+      row_name: "79"
       value: 1
     second_pair:
-      row_name: "151     "
+      row_name: "151"
       value: -1
-  - name: "SUM11   "
+  - name: SUM11
     first_pair:
-      row_name: "138     "
+      row_name: "138"
       value: 1000
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: -1
-  - name: "SUM12   "
+  - name: SUM12
     first_pair:
-      row_name: "139     "
+      row_name: "139"
       value: 1
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: 1
-  - name: "SUM13   "
+  - name: SUM13
     first_pair:
-      row_name: "140     "
+      row_name: "140"
       value: 1000
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: 1
-  - name: "SUM14   "
+  - name: SUM14
     first_pair:
-      row_name: "141     "
+      row_name: "141"
       value: 1
     second_pair:
-      row_name: "142     "
+      row_name: "142"
       value: 1
-  - name: "SUM21   "
+  - name: SUM21
     first_pair:
-      row_name: "143     "
+      row_name: "143"
       value: 1000
     second_pair:
-      row_name: "144     "
+      row_name: "144"
       value: -1
-  - name: "SUM31   "
+  - name: SUM31
     first_pair:
-      row_name: "145     "
+      row_name: "145"
       value: 1000
     second_pair:
-      row_name: "146     "
+      row_name: "146"
       value: -1
-  - name: "SUM41   "
+  - name: SUM41
     first_pair:
-      row_name: "147     "
+      row_name: "147"
       value: 1
     second_pair:
-      row_name: "148     "
+      row_name: "148"
       value: -1
-  - name: "SUM51   "
+  - name: SUM51
     first_pair:
-      row_name: "149     "
+      row_name: "149"
       value: 1
     second_pair:
-      row_name: "150     "
+      row_name: "150"
       value: -1
-  - name: "SUM61   "
+  - name: SUM61
     first_pair:
-      row_name: "151     "
+      row_name: "151"
       value: 1000
     second_pair:
-      row_name: "152     "
+      row_name: "152"
       value: -1
-  - name: "SUM71   "
+  - name: SUM71
     first_pair:
-      row_name: "153     "
+      row_name: "153"
       value: 100
     second_pair:
-      row_name: "154     "
+      row_name: "154"
       value: -1
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "2       "
+      row_name: "2"
       value: 132
     second_pair:
-      row_name: "3       "
+      row_name: "3"
       value: 446
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "4       "
+      row_name: "4"
       value: 2079
     second_pair:
-      row_name: "5       "
+      row_name: "5"
       value: 5346
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "6       "
+      row_name: "6"
       value: 5346
     second_pair:
-      row_name: "7       "
+      row_name: "7"
       value: 8019
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "8       "
+      row_name: "8"
       value: 352
     second_pair:
-      row_name: "9       "
+      row_name: "9"
       value: 1188
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "10      "
+      row_name: "10"
       value: 5544
     second_pair:
-      row_name: "11      "
+      row_name: "11"
       value: 14256
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "12      "
+      row_name: "12"
       value: 14256
     second_pair:
-      row_name: "13      "
+      row_name: "13"
       value: 21384
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "14      "
+      row_name: "14"
       value: 220
     second_pair:
-      row_name: "15      "
+      row_name: "15"
       value: 743
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "16      "
+      row_name: "16"
       value: 3465
     second_pair:
-      row_name: "17      "
+      row_name: "17"
       value: 8910
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "18      "
+      row_name: "18"
       value: 8910
     second_pair:
-      row_name: "19      "
+      row_name: "19"
       value: 13365
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "20      "
+      row_name: "20"
       value: 176
     second_pair:
-      row_name: "21      "
+      row_name: "21"
       value: 594
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "22      "
+      row_name: "22"
       value: 2772
     second_pair:
-      row_name: "23      "
+      row_name: "23"
       value: 7128
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "24      "
+      row_name: "24"
       value: 7128
     second_pair:
-      row_name: "25      "
+      row_name: "25"
       value: 10692
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "26      "
+      row_name: "26"
       value: 1
     second_pair:
-      row_name: "27      "
+      row_name: "27"
       value: 3
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "28      "
+      row_name: "28"
       value: 9
     second_pair:
-      row_name: "29      "
+      row_name: "29"
       value: 18
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "30      "
+      row_name: "30"
       value: 18
     second_pair:
-      row_name: "31      "
+      row_name: "31"
       value: 27
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "120     "
+      row_name: "120"
       value: 70.399994
     second_pair:
-      row_name: "121     "
+      row_name: "121"
       value: 237.59999
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "122     "
+      row_name: "122"
       value: 1108.7998
     second_pair:
-      row_name: "123     "
+      row_name: "123"
       value: 2851.2
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "124     "
+      row_name: "124"
       value: 2851.2
     second_pair:
-      row_name: "125     "
+      row_name: "125"
       value: 4276.797
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "126     "
+      row_name: "126"
       value: 44
     second_pair:
-      row_name: "127     "
+      row_name: "127"
       value: 148.59999
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "128     "
+      row_name: "128"
       value: 693
     second_pair:
-      row_name: "129     "
+      row_name: "129"
       value: 1782
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "130     "
+      row_name: "130"
       value: 1782
     second_pair:
-      row_name: "131     "
+      row_name: "131"
       value: 2673
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "132     "
+      row_name: "132"
       value: 35.199997
     second_pair:
-      row_name: "133     "
+      row_name: "133"
       value: 118.79999
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "134     "
+      row_name: "134"
       value: 554.3999
     second_pair:
-      row_name: "135     "
+      row_name: "135"
       value: 1425.5999
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "136     "
+      row_name: "136"
       value: 1425.5999
     second_pair:
-      row_name: "137     "
+      row_name: "137"
       value: 2138.4
-  - name: "RHS     "
+  - name: RHS
     first_pair:
-      row_name: "142     "
+      row_name: "142"
       value: -13.049999
     second_pair: ~
 ranges: ~

@@ -98897,7 +98897,7 @@ columns:
       value: 0.773
   - name: TB4.VEU3
     first_pair:
-      row_name: "KLM.VGU "
+      row_name: KLM.VGU
       value: 1
     second_pair: ~
   - name: TB5.VEU3
@@ -98923,7 +98923,7 @@ columns:
       value: 0.773
   - name: TB5.VEU3
     first_pair:
-      row_name: "KLM.VGU "
+      row_name: KLM.VGU
       value: 1
     second_pair: ~
   - name: TDH.VEU3
@@ -116945,1747 +116945,1747 @@ rhs: []
 ranges: ~
 bounds:
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAG.....
     value: 278
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAH.....
     value: 955
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAM.....
     value: 1130
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAS.....
     value: 400
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAW.....
     value: 603
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AAX.....
     value: 650
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ABA.....
     value: 1800
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ABQ.....
     value: 814
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ABR.....
     value: 405
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ACA.....
     value: 553
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ACN.....
     value: 95
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ADA.....
     value: 501
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AEL.....
     value: 370
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AEO.....
     value: 109
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AES.....
     value: 477
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AIH.....
     value: 3427
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AIL.....
     value: 2472
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AKH.....
     value: 491
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AKK.....
     value: 2100
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AKU.....
     value: 1900
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AME.....
     value: 370
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AMI.....
     value: 944
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AMU.....
     value: 1710
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ANF.....
     value: 875
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ANL.....
     value: 1464
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ANM.....
     value: 239
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AN1.....
     value: 96
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AN5.....
     value: 1142
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AOM.....
     value: 850
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AON.....
     value: 50
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AQA.....
     value: 470
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ARE.....
     value: 830
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ASA.....
     value: 980
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ASE.....
     value: 1411
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ASH.....
     value: 14
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ASI.....
     value: 10
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AS1.....
     value: 198
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ATA.....
     value: 243
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ATL.....
     value: 673
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ATM.....
     value: 673
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ATR.....
     value: 260
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AUH.....
     value: 1386
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AUL.....
     value: 1385
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AYV.....
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: AZA.....
     value: 217
   - bound_type: Fr
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KMC.CA..
     value: ~
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KP1.CA..
     value: 1297.9434
   - bound_type: Fr
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KTC.CA..
     value: ~
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KVG.CA..
     value: 34.1564
   - bound_type: Fr
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KWC.CA..
     value: ~
   - bound_type: Fr
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KWF.CA..
     value: ~
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.AN
     value: 519
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: POE.D3AN
     value: 44
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.AW
     value: 85
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..B.BA
     value: 355
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.BA
     value: 187
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.BA
     value: 2735
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..F.BA
     value: 264
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.BA
     value: 500
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.BA
     value: 195
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.BA
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.BA
     value: 525
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...BA
     value: 69
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...BA
     value: 66
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDM...BA
     value: 14
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFS...BA
     value: 56
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFW...BA
     value: 239
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...BA
     value: 75
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...BA
     value: 121
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...BA
     value: 12
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...BA
     value: 37
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...BA
     value: 2
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...BA
     value: 36
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...BA
     value: 36
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...BA
     value: 6
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..Q.BA
     value: 150
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KVE.PSBA
     value: 385
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...CA
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.BACA
     value: 2
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFY.BACA
     value: 54
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENI.BACA
     value: 4
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EOL.U3CA
     value: 46
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...CM
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EOL.EZCM
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..B.EH
     value: 75
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.EH
     value: 235
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.EH
     value: 1850
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.EH
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.EH
     value: 270
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.EH
     value: 25
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.EH
     value: 225
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...EH
     value: 5
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...EH
     value: 782
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...EH
     value: 46
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFT...EH
     value: 78
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFV...EH
     value: 175
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFX...EH
     value: 43
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...EH
     value: 334
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...EH
     value: 32
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNE...EH
     value: 60
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...EH
     value: 4
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...EH
     value: 118
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...EH
     value: 42
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...EH
     value: 16
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...EH
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02EH
     value: 22
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02EH
     value: 34
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.CMEH
     value: 56
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFV.CMEH
     value: 35
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EGP.CMEH
     value: 8
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IFT.C.EH
     value: 150
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PAH.VAEH
     value: 20
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PKU.VAEH
     value: 27
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..B.EM
     value: 115
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.EM
     value: 501
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.EM
     value: 6715
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.EM
     value: 55
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.EM
     value: 710
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.EM
     value: 25
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.EM
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.EM
     value: 700
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...EM
     value: 13
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...EM
     value: 1384
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...EM
     value: 218
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFT...EM
     value: 185
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFV...EM
     value: 29
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFX...EM
     value: 1192
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...EM
     value: 362
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...EM
     value: 748
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...EM
     value: 222
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLO...EM
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNE...EM
     value: 98
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...EM
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...EM
     value: 18
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...EM
     value: 244
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...EM
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...EM
     value: 93
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...EM
     value: 42
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...EM
     value: 4
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02EM
     value: 61
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02EM
     value: 96
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.CMEM
     value: 65
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFV.CMEM
     value: 65
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EGP.CMEM
     value: 19
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KC5.PREM
     value: 46
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PAH.VAEM
     value: 45
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PKU.VAEM
     value: 60
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.ANEM
     value: 22
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TOL.U3EM
     value: 18
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..B.EZ
     value: 430
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.EZ
     value: 1098
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.EZ
     value: 9820
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.EZ
     value: 130
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..H.EZ
     value: 65
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.EZ
     value: 1380
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.EZ
     value: 75
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.EZ
     value: 5
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.EZ
     value: 1135
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...EZ
     value: 22
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...EZ
     value: 2758
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...EZ
     value: 345
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFT...EZ
     value: 488
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFV...EZ
     value: 602
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFX...EZ
     value: 733
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...EZ
     value: 413
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...EZ
     value: 1401
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...EZ
     value: 250
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNE...EZ
     value: 224
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...EZ
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...EZ
     value: 22
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...EZ
     value: 473
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...EZ
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...EZ
     value: 158
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...EZ
     value: 74
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...EZ
     value: 3
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02EZ
     value: 102
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02EZ
     value: 159
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.CMEZ
     value: 262
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFV.CMEZ
     value: 161
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EGP.CMEZ
     value: 39
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..B.EZ
     value: 100
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IFT.C.EZ
     value: 150
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KC5.PREZ
     value: 95
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL.DNEZ
     value: 181
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PAH.VAEZ
     value: 77
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PKU.VAEZ
     value: 101
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TOL.U3EZ
     value: 31
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.JP
     value: 437
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.JP
     value: 5610
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.JP
     value: 815
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.JP
     value: 535
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.JP
     value: 35
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.JP
     value: 385
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.JP
     value: 1120
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...JP
     value: 78
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...JP
     value: 750
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...JP
     value: 557
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFO...JP
     value: 866
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFQ...JP
     value: 257
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFU...JP
     value: 577
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFW...JP
     value: 502
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...JP
     value: 322
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...JP
     value: 610
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...JP
     value: 470
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...JP
     value: 35
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...JP
     value: 533
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...JP
     value: 267
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...JP
     value: 90
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...JP
     value: 38
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...JP
     value: 21
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02JP
     value: 25
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ELG.CAJP
     value: 8
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFO.OSJP
     value: 131
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ELG.OSJP
     value: 74
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENL.OSJP
     value: 29
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENP.OSJP
     value: 57
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PMI.DBJP
     value: 281
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PAH.VAJP
     value: 44
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PKU.VAJP
     value: 58
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.PGJP
     value: 290
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...LA
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH.02LA
     value: 20
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY.02LA
     value: 38
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP.02LA
     value: 20
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ELG.U3LA
     value: 10
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EOL.U3LA
     value: 23
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...OF
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH.02OF
     value: 18
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDP.02OF
     value: 18
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY.02OF
     value: 36
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EGP.PGOF
     value: 18
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...OS
     value: 53
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.PGOS
     value: 115
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDP.PGOS
     value: 28
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFY.PGOS
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENJ.PGOS
     value: 24
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENP.PGOS
     value: 17
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EOL.U3OS
     value: 47
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.PG
     value: 243
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.PG
     value: 3285
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..F.PG
     value: 122
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.PG
     value: 55
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..H.PG
     value: 215
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.PG
     value: 330
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.PG
     value: 15
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.PG
     value: 25
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.PG
     value: 620
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...PG
     value: 100
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...PG
     value: 383
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDL...PG
     value: 661
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFZ...PG
     value: 1209
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...PG
     value: 460
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLP...PG
     value: 87
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...PG
     value: 42
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...PG
     value: 126
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ITF.D.PG
     value: 10
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KAR.PSPG
     value: 1141
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KIR.PSPG
     value: 979
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PKU.D1PG
     value: 525
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PMU.D1PG
     value: 15
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.SG
     value: 54
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.SG
     value: 930
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.SG
     value: 21
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.SG
     value: 30
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.SG
     value: 55
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...SG
     value: 160
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...SG
     value: 77
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFU...SG
     value: 30
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...SG
     value: 235
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...SG
     value: 41
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...SG
     value: 5
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...SG
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...SG
     value: 7
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...SG
     value: 7
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...SG
     value: 7
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...SG
     value: 8
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDH.PGSG
     value: 143
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDK.PGSG
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TFY.PGSG
     value: 141
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TGP.PGSG
     value: 47
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COF.A.U1
     value: 34
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.U1
     value: 650
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.U1
     value: 1738
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.U1
     value: 150
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..H.U1
     value: 60
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..K.U1
     value: 84
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.U1
     value: 375
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.U1
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.U1
     value: 530
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCD...U1
     value: 9
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...U1
     value: 1697
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...U1
     value: 463
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFP...U1
     value: 540
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFS...U1
     value: 689
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFW...U1
     value: 452
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...U1
     value: 91
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...U1
     value: 2469
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLR...U1
     value: 190
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...U1
     value: 32
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...U1
     value: 49
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...U1
     value: 86
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...U1
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...U1
     value: 124
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...U1
     value: 75
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...U1
     value: 4
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02U1
     value: 4
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02U1
     value: 104
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.CEU1
     value: 16
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDK.CEU1
     value: 17
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EGP.CEU1
     value: 17
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EDH.CMU1
     value: 5
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFS.CMU1
     value: 25
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IFT.C.U1
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ITF.D.U1
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..K.U1
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..Q.U1
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KH1.PSU1
     value: 1081
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KD1.TRU1
     value: 185
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL.DNU1
     value: 26
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PBQ.VAU1
     value: 30
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PTM.VAU1
     value: 37
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.ANU1
     value: 0
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDH.BAU1
     value: 160
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDK.BAU1
     value: 60
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TOA.BAU1
     value: 31
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.EZU1
     value: 50
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.PGU1
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.VEU1
     value: 25
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COF.A.U3
     value: 384
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.U3
     value: 4355
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.U3
     value: 11889
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.U3
     value: 485
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..H.U3
     value: 415
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..K.U3
     value: 732
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.U3
     value: 2575
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.U3
     value: 115
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.U3
     value: 2580
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCD...U3
     value: 71
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCR...U3
     value: 500
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...U3
     value: 2202
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...U3
     value: 398
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFP...U3
     value: 112
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFS...U3
     value: 363
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...U3
     value: 269
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...U3
     value: 3789
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLR...U3
     value: 1333
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...U3
     value: 179
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...U3
     value: 72
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...U3
     value: 246
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...U3
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...U3
     value: 306
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...U3
     value: 96
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...U3
     value: 46
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02U3
     value: 38
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02U3
     value: 142
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: EFY.CAU3
     value: 88
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ELG.CAU3
     value: 145
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ENI.CAU3
     value: 36
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IFT.C.U3
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ITF.D.U3
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..K.U3
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..Q.U3
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KH1.PSU3
     value: 5350
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KL1.PSU3
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KL2.PSU3
     value: 220
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PNL.DIU3
     value: 175
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL.DNU3
     value: 1174
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PN2.P8U3
     value: 2480
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.ANU3
     value: 26
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.EZU3
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TLG.VEU3
     value: 3
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COF.A.U5
     value: 62
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.U5
     value: 675
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.U5
     value: 2628
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.U5
     value: 185
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..H.U5
     value: 330
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..K.U5
     value: 388
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.U5
     value: 580
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..R.U5
     value: 20
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.U5
     value: 800
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DCD...U5
     value: 7
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...U5
     value: 360
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...U5
     value: 300
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFP...U5
     value: 509
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFS...U5
     value: 61
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...U5
     value: 80
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...U5
     value: 1109
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLR...U5
     value: 60
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...U5
     value: 22
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNJ...U5
     value: 49
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...U5
     value: 11
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNP...U5
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...U5
     value: 70
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...U5
     value: 17
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DRG...U5
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAF.02U5
     value: 6
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DAJ.02U5
     value: 40
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: ITF.D.U5
     value: 0
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..K.U5
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..Q.U5
     value: 50
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KH1.PSU5
     value: 1939
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: KD1.TRU5
     value: 87
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL.DNU5
     value: 20
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PN2.P8U5
     value: 486
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDH.U3U5
     value: 42
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TDK.U3U5
     value: 42
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: TGP.U3U5
     value: 42
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CFT.C.VE
     value: 111
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CTF.D.VE
     value: 1370
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..F.VE
     value: 94
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..G.VE
     value: 205
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..P.VE
     value: 20
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: CF..Q.VE
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: COH.V.VE
     value: 315
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDH...VE
     value: 70
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDK...VE
     value: 20
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DDM...VE
     value: 1
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFS...VE
     value: 3
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFW...VE
     value: 78
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DFY...VE
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DGP...VE
     value: 154
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DLG...VE
     value: 23
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNI...VE
     value: 15
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DNL...VE
     value: 7
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOA...VE
     value: 12
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: DOL...VE
     value: 3
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..G.VE
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: IF..Q.VE
     value: 50
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PBQ.DBVE
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL.DNVE
     value: 80
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL0DNAN
     value: 230
   - bound_type: Fx
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL0DNAW
     value: 0
   - bound_type: Up
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL0DNPG
     value: 664
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL5DNAN
     value: 0
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL5DNAW
     value: 0
   - bound_type: Lo
-    bound_name: "80BOUND "
+    bound_name: 80BOUND
     column_name: PGL5DNPG
     value: 0
 

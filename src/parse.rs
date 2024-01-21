@@ -148,7 +148,7 @@ impl<'a, T: Float> Parser<'a, T> {
         Self::endata,
       )),
       |(name, rows, columns, rhs, ranges, bounds, _)| Parser {
-        name,
+        name: name.trim(),
         rows,
         columns,
         rhs,
@@ -265,7 +265,7 @@ impl<'a, T: Float> Parser<'a, T> {
       |(t, n)| -> Result<RowLine> {
         Ok(RowLine {
           row_type: RowType::try_from(t)?,
-          row_name: n,
+          row_name: n.trim(),
         })
       },
     );
@@ -381,18 +381,18 @@ impl<'a, T: Float> Parser<'a, T> {
       terminated(preceded(tag(" "), not_line_ending), newline),
       |line: Span| -> Result<WideLine<f32>> {
         let first_pair = RowValuePair {
-          row_name: line.get(L3..R3).ok_or_eyre("")?,
+          row_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
           value: fast_float::parse(line.get(L4..R4).ok_or_eyre("")?.trim())?,
         };
         let second_pair = match line.get(L5..R5) {
           Some(row_name) => Some(RowValuePair {
-            row_name,
+            row_name: row_name.trim(),
             value: fast_float::parse(line.get(L6..R6).ok_or_eyre("")?.trim())?,
           }),
           None => None,
         };
         Ok(WideLine::<f32> {
-          name: line.get(L2..R2).ok_or_eyre("")?,
+          name: line.get(L2..R2).ok_or_eyre("")?.trim(),
           first_pair,
           second_pair,
         })
@@ -846,14 +846,17 @@ impl<'a, T: Float> Parser<'a, T> {
         Ok(match bound_type {
           BoundType::Fr | BoundType::Pl => BoundsLine::<f32> {
             bound_type,
-            bound_name: line.get(L2..R2).ok_or_eyre("")?,
-            column_name: line.get(L3..cmp::min(length, R3)).ok_or_eyre("")?,
+            bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
+            column_name: line
+              .get(L3..cmp::min(length, R3))
+              .ok_or_eyre("")?
+              .trim(),
             value: None,
           },
           _ => BoundsLine::<f32> {
             bound_type,
-            bound_name: line.get(L2..R2).ok_or_eyre("")?,
-            column_name: line.get(L3..R3).ok_or_eyre("")?,
+            bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
+            column_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
             value: Some(fast_float::parse(
               line.get(L4..cmp::min(length, R4)).ok_or_eyre("")?.trim(),
             )?),

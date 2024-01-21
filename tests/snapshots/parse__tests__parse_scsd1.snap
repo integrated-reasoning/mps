@@ -12254,7 +12254,7 @@ columns:
       value: -1
     second_pair: ~
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: "20000003"
       value: -1

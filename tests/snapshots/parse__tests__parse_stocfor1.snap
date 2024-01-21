@@ -477,7 +477,7 @@ columns:
       value: -0.93742
   - name: BALAN101
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -1
     second_pair:
       row_name: YIELD101
@@ -718,7 +718,7 @@ columns:
       value: -0.93742
   - name: BALAN202
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.905063
     second_pair:
       row_name: TFLOW102
@@ -732,7 +732,7 @@ columns:
       value: -1
   - name: PNLTY202
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 50
     second_pair:
       row_name: TFLOW102
@@ -973,7 +973,7 @@ columns:
       value: -0.93742
   - name: BALAN303
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.819139
     second_pair:
       row_name: TFLOW103
@@ -987,7 +987,7 @@ columns:
       value: -1
   - name: PNLTY303
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 45.25
     second_pair:
       row_name: TFLOW103
@@ -1228,7 +1228,7 @@ columns:
       value: -0.93742
   - name: BALAN404
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.741372
     second_pair:
       row_name: TFLOW104
@@ -1242,7 +1242,7 @@ columns:
       value: -1
   - name: PNLTY404
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 40.96
     second_pair:
       row_name: TFLOW104
@@ -1483,7 +1483,7 @@ columns:
       value: -0.93742
   - name: BALAN505
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.670989
     second_pair:
       row_name: TFLOW105
@@ -1497,7 +1497,7 @@ columns:
       value: -1
   - name: PNLTY505
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 37.07
     second_pair:
       row_name: TFLOW105
@@ -1738,7 +1738,7 @@ columns:
       value: -0.93742
   - name: BALAN606
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.607287
     second_pair:
       row_name: TFLOW106
@@ -1752,14 +1752,14 @@ columns:
       value: -1
   - name: PNLTY606
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 33.55
     second_pair:
       row_name: TFLOW106
       value: -1
   - name: CLASS307
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 198.203
     second_pair:
       row_name: BOUND307
@@ -1771,7 +1771,7 @@ columns:
     second_pair: ~
   - name: CLASS407
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 222.975
     second_pair:
       row_name: BOUND407
@@ -1783,7 +1783,7 @@ columns:
     second_pair: ~
   - name: CLASS507
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 252.173
     second_pair:
       row_name: BOUND507
@@ -1795,7 +1795,7 @@ columns:
     second_pair: ~
   - name: CLASS607
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 281.025
     second_pair:
       row_name: BOUND607
@@ -1807,7 +1807,7 @@ columns:
     second_pair: ~
   - name: CLASS707
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 292.467
     second_pair:
       row_name: BOUND707
@@ -1819,7 +1819,7 @@ columns:
     second_pair: ~
   - name: CLASS807
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 296.446
     second_pair:
       row_name: BOUND807
@@ -1831,21 +1831,21 @@ columns:
     second_pair: ~
   - name: STATE107
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -159.355
     second_pair:
       row_name: REGEN107
       value: 1
   - name: STATE207
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -177.186
     second_pair:
       row_name: REGEN207
       value: 1
   - name: STATE307
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -198.203
     second_pair:
       row_name: BOUND307
@@ -1857,7 +1857,7 @@ columns:
     second_pair: ~
   - name: STATE407
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -222.975
     second_pair:
       row_name: BOUND407
@@ -1869,7 +1869,7 @@ columns:
     second_pair: ~
   - name: STATE507
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -252.173
     second_pair:
       row_name: BOUND507
@@ -1881,7 +1881,7 @@ columns:
     second_pair: ~
   - name: STATE607
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -281.025
     second_pair:
       row_name: BOUND607
@@ -1893,7 +1893,7 @@ columns:
     second_pair: ~
   - name: STATE707
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -292.467
     second_pair:
       row_name: BOUND707
@@ -1905,7 +1905,7 @@ columns:
     second_pair: ~
   - name: STATE807
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -296.446
     second_pair:
       row_name: BOUND807
@@ -1917,7 +1917,7 @@ columns:
     second_pair: ~
   - name: BALAN707
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: -0.549633
     second_pair:
       row_name: TFLOW107
@@ -1931,34 +1931,34 @@ columns:
       value: -1
   - name: PNLTY707
     first_pair:
-      row_name: "HARV    "
+      row_name: HARV
       value: 30.36
     second_pair:
       row_name: TFLOW107
       value: -1
 rhs:
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: REGEN101
       value: 0.241
     second_pair:
       row_name: REGEN201
       value: 0.125
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: REGEN301
       value: 1.404
     second_pair:
       row_name: REGEN401
       value: 2.004
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: REGEN501
       value: 9.768
     second_pair:
       row_name: REGEN601
       value: 16.385
-  - name: "RHS     "
+  - name: RHS
     first_pair:
       row_name: REGEN701
       value: 2.815
