@@ -474,13 +474,13 @@ mod tests {
     Ok(())
   }
 
-  ////#[test]
-  ////fn test_parse_d6cube() -> Result<()> {
-  //  insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
-  //    "../tests/data/netlib/d6cube"
-  //  ))?);
-  //  Ok(())
-  ////}
+  #[test]
+  fn test_parse_d6cube() -> Result<()> {
+    insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
+      "../tests/data/netlib/d6cube"
+    ))?);
+    Ok(())
+  }
 
   #[test]
   fn test_parse_degen3() -> Result<()> {
