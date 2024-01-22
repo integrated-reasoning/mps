@@ -46,10 +46,11 @@ jobs:
       - name: build tests
         run: |
           if [[ $RUNNER_OS == Linux ]]; then
-            nix build .#ci
+            nix develop --command cargo test-all-features
           else
-            nix build .#ci \
-              --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin
+            nix develop \
+            --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin \
+            --command cargo test-all-features
           fi
 
   lint:
