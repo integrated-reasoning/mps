@@ -1,5 +1,10 @@
 use criterion::*;
-use mps::Parser;
+cfg_if::cfg_if! {
+  if #[cfg(feature = "trace")] {
+  } else {
+    use mps::Parser;
+  }
+}
 
 fn netlib(c: &mut Criterion) {
   let files = [
@@ -104,8 +109,15 @@ fn netlib(c: &mut Criterion) {
     group.bench_with_input(
       BenchmarkId::from_parameter(bench_name),
       content,
-      |b, &content| {
-        b.iter(|| Parser::<f32>::parse(content));
+      |b, &_content| {
+        b.iter(|| {
+          cfg_if::cfg_if! {
+            if #[cfg(feature = "trace")] {
+            } else {
+              Parser::<f32>::parse(_content)
+            }
+          }
+        });
       },
     );
   }

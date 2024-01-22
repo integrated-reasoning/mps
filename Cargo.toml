@@ -28,22 +28,26 @@ serde = { version = "1.0.195", features = ["serde_derive"], optional = true }
 criterion = { version = "0.5.1", features = ["html_reports"] }
 insta = { version = "1.34.0", features = ["yaml"] }
 proptest = { version = "1.4.0", features = ["timeout", "std"] }
-serde = { version = "1.0.195", features = ["serde_derive"] }
 
 [[bench]]
 name = "benchmark"
 path = "benches/benchmark.rs"
 harness = false
 
+[[bin]]
+name = "mps"
+required-features = ["cli"]
+
 [features]
-default = ["clap", "serde"]
-clap = ["dep:clap"]
+default = ["insta"]
+cli = ["dep:clap"]
 insta = ["serde"]
 serde = ["serde/serde_derive"]
 trace = ["nom-tracable/trace"]
 
 [package.metadata.cargo-all-features]
-always_include_features = ["clap", "insta"]
+denylist = ["trace"]
+always_include_features = ["cli", "insta"]
 max_combination_size = 4
 
 [profile.dev.package]
