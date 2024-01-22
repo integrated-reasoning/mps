@@ -1,0 +1,4860 @@
+---
+source: tests/model.rs
+expression: model
+---
+name: BORE3D
+row_types:
+  BRS...XI: Eq
+  BAN...XI: Eq
+  CON.SKXI: Eq
+  BNF...XI: Eq
+  USL...XI: Eq
+  BF1...XI: Eq
+  COF.HSXI: Eq
+  CTK.MMXI: Eq
+  UPM...XI: Eq
+  UDW...XI: Eq
+  CON.FHXI: Eq
+  B9H...XI: Eq
+  BF4.VOXI: Eq
+  COF.POXI: Eq
+  UKW...XI: Eq
+  BF2.WTXI: Eq
+  CUT.PDXI: Eq
+  BL3...XI: Eq
+  CON.SHXI: Eq
+  XSL.F1XI: Leq
+  UOH...XI: Eq
+  CON.FDXI: Eq
+  BF4.WTXI: Eq
+  CON.HOXI: Eq
+  XSL.F3XI: Leq
+  BIC...XI: Eq
+  BAC...XI: Eq
+  CON.LEXI: Eq
+  BSS...XI: Eq
+  CUT.KWXI: Eq
+  BF2...XI: Eq
+  CUT.CTXI: Eq
+  UHE...XI: Eq
+  USM...XI: Eq
+  XGS.F3XI: Leq
+  UOM...XI: Eq
+  XSU.F1XI: Leq
+  BAY...XI: Eq
+  C...RDXI: Eq
+  COF.RDXI: Eq
+  CTK.STXI: Eq
+  BFS...XI: Eq
+  BHB...XI: Eq
+  CTK.HSXI: Eq
+  BYH...XI: Eq
+  CTK.PHXI: Eq
+  CON.DHXI: Eq
+  CON.OPXI: Eq
+  COF.CAXI: Eq
+  CON.STXI: Eq
+  COF.WTXI: Eq
+  XGS.F1XI: Leq
+  CUT.DHXI: Eq
+  COF.BBXI: Eq
+  CON.POXI: Eq
+  BFF...XI: Eq
+  CON.FGXI: Eq
+  BFL...XI: Eq
+  CON.NNXI: Eq
+  BAB...XI: Eq
+  BIP...XI: Eq
+  BDH...XI: Eq
+  BYY...XI: Eq
+  UPH...XI: Eq
+  BCC...XI: Eq
+  BC3...XI: Eq
+  BG1...XI: Eq
+  CON.HSXI: Eq
+  CUT.TGXI: Eq
+  XGS.FHXI: Leq
+  BYG...XI: Eq
+  CON.NPXI: Eq
+  C...RAXI: Eq
+  USH...XI: Eq
+  UPT...XI: Eq
+  BPR...XI: Eq
+  CON.RDXI: Eq
+  URW...XI: Eq
+  CTK.RAXI: Eq
+  UPL...XI: Eq
+  CON.NFXI: Eq
+  CUT.DPXI: Eq
+  BO2...XI: Eq
+  TIE.MRAR: Eq
+  BCK...XI: Eq
+  CUT.BCXI: Eq
+  COF.OFXI: Eq
+  CTK.PSXI: Eq
+  UTW...XI: Eq
+  UFS...XI: Eq
+  CON.M3XI: Eq
+  B6H...XI: Eq
+  C...OFXI: Eq
+  BL2...XI: Eq
+  BFN.VOXI: Eq
+  BF3.WTXI: Eq
+  CON.PHXI: Eq
+  BC2...XI: Eq
+  CON.GXXI: Eq
+  CUT.TWXI: Eq
+  B...XI: Eq
+  CON.NCXI: Eq
+  CUT.GTXI: Eq
+  BAH...XI: Eq
+  CTK.HPXI: Eq
+  CUT.BBXI: Eq
+  CON.HYXI: Eq
+  BAF...XI: Eq
+  CON.F1XI: Eq
+  CON.NSXI: Eq
+  CON.SWXI: Eq
+  BF3.VOXI: Eq
+  BMR...XI: Eq
+  BN1...XI: Eq
+  XSU.F2XI: Leq
+  COF.BHXI: Eq
+  BIF...XI: Eq
+  XSU.FLXI: Leq
+  BHS...XI: Eq
+  BAR...XI: Eq
+  CUT.RTXI: Eq
+  BFG...XI: Eq
+  CTK.CXXI: Eq
+  KFG.PRXI: Eq
+  BAG...XI: Eq
+  BF1.VOXI: Eq
+  BDF...XI: Eq
+  BL4...XI: Eq
+  CON.F2XI: Eq
+  C...LEXI: Eq
+  COF.SFXI: Eq
+  FAT0..J.: Nr
+  UPB...XI: Eq
+  BGF...XI: Eq
+  BHF...XI: Eq
+  BNP...XI: Eq
+  XSU.FNXI: Leq
+  XSU.F4XI: Leq
+  UBW...XI: Eq
+  CON.CXXI: Eq
+  XSL.F4XI: Leq
+  CTK.C4XI: Eq
+  BHG...XI: Eq
+  COF.PPXI: Eq
+  BFP...XI: Eq
+  BWW...XI: Eq
+  BP1...XI: Eq
+  CUT.DSXI: Eq
+  BFX...XI: Eq
+  XSL.F2XI: Leq
+  COF.TAXI: Eq
+  BFL.VOXI: Eq
+  BAD...XI: Eq
+  XGS.FLXI: Leq
+  BCE...XI: Eq
+  CON.RAXI: Eq
+  BFH...XI: Eq
+  BNH...XI: Eq
+  CTK.FOXI: Eq
+  CUT.RSXI: Eq
+  COF.SHXI: Eq
+  BHR...XI: Eq
+  COF.SKXI: Eq
+  BWP...XI: Eq
+  BF2.VOXI: Eq
+  CUT.BDXI: Eq
+  UPK...XI: Eq
+  BYN...XI: Eq
+  BIL...XI: Eq
+  XGS.F4XI: Leq
+  CON.SGXI: Eq
+  BYD...XI: Eq
+  CON.M2XI: Eq
+  CTK.DPXI: Eq
+  CON.FNXI: Eq
+  BFN.WTXI: Eq
+  CON.CGXI: Eq
+  BPX...XI: Eq
+  CMC...XI: Eq
+  BF1.WTXI: Eq
+  C...FOXI: Eq
+  BDC...XI: Eq
+  BFH.VOXI: Eq
+  CUT.BHXI: Eq
+  UFF...XI: Eq
+  UMC...XI: Eq
+  CUT.BGXI: Eq
+  CON.M1XI: Eq
+  C...STXI: Eq
+  UOL...XI: Eq
+  BF4...XI: Eq
+  XGS.FNXI: Leq
+  XGS.F2XI: Leq
+  BFN...XI: Eq
+  CTK.SHXI: Eq
+  BSB...XI: Eq
+  BH1...XI: Eq
+  XSU.FHXI: Leq
+  BF3...XI: Eq
+  CTK.C3XI: Eq
+  XSU.F3XI: Leq
+  BD1...XI: Eq
+  BFI...XI: Eq
+  BHP...XI: Eq
+  BMM...XI: Eq
+  BPS...XI: Eq
+  CON.CUXI: Eq
+  BIS...XI: Eq
+  BFL.WTXI: Eq
+  CUT.DLXI: Eq
+  BHH...XI: Eq
+  BYF...XI: Eq
+  CON.L1XI: Eq
+  UCW...XI: Eq
+  UPD...XI: Eq
+  CUT.BFXI: Eq
+  UPW...XI: Eq
+  BBT...XI: Eq
+  COF.HOXI: Eq
+  XSL.FLXI: Leq
+  CTK.LEXI: Eq
+  BHN...XI: Eq
+  KLQ.PRXI: Eq
+  BWS...XI: Eq
+  UPC...XI: Eq
+  BCF...XI: Eq
+  BC4...XI: Eq
+  CON.HPXI: Eq
+  CON.NRXI: Eq
+  BYS...XI: Eq
+  BFH.WTXI: Eq
+  COF.BCXI: Eq
+  CTK.HOXI: Eq
+  BAS...XI: Eq
+values:
+  ? - FAT0..J.
+    - ION.NPXI
+  : 3.83929
+  ? - BHS...XI
+    - PG1.NCXI
+  : 0.0088
+  ? - UPB...XI
+    - UPK.G3XI
+  : 0.0044
+  ? - BF4...XI
+    - QWT0F4XI
+  : 1
+  ? - UPW...XI
+    - PYD.BCXI
+  : -0.7283
+  ? - BP1...XI
+    - PP1.NCXI
+  : -1
+  ? - C...FOXI
+    - BHG.F2XI
+  : -1.5995
+  ? - C...LEXI
+    - PYN.COXI
+  : -0.011
+  ? - C...FOXI
+    - BHG.F3XI
+  : -1.5995
+  ? - BO2...XI
+    - PYF.HSXI
+  : -1
+  ? - FAT0..J.
+    - IOF.OFXI
+  : 1.25224
+  ? - BF1...XI
+    - DF1...XI
+  : -1
+  ? - XSU.F4XI
+    - BHR.F4XI
+  : 0.083
+  ? - UTW...XI
+    - P...OPXI
+  : -428.564
+  ? - CON.POXI
+    - PAG.POXI
+  : -1.0806
+  ? - BG1...XI
+    - PYD.POXI
+  : -0.0251
+  ? - UPT...XI
+    - UPT.G3XI
+  : 1
+  ? - USL...XI
+    - PYN.CRXI
+  : -0.1544
+  ? - UKW...XI
+    - PYH.POXI
+  : -81.14
+  ? - CUT.BCXI
+    - IUT.BCXI
+  : 1
+  ? - BO2...XI
+    - PYD.HOXI
+  : -1.0127
+  ? - BDF...XI
+    - BDF.FLXI
+  : -1
+  ? - CTK.SHXI
+    - ITK.SHXI
+  : 1
+  ? - BHS...XI
+    - PD1.SHXI
+  : 0.0023
+  ? - UPL...XI
+    - UPL.GNXI
+  : 1
+  ? - UCW...XI
+    - PYN.HOXI
+  : -20.92
+  ? - COF.BCXI
+    - PYS.BCXI
+  : -16.8522
+  ? - BC3...XI
+    - PSS.SHXI
+  : 0.0001
+  ? - UPK...XI
+    - UPK.BYXI
+  : 1
+  ? - XSL.F3XI
+    - QWT0F3XI
+  : -0.15
+  ? - C...FOXI
+    - P...FOXI
+  : 1
+  ? - UPT...XI
+    - UPT.G1XI
+  : 1
+  ? - CON.POXI
+    - PAH.POXI
+  : -1.00594
+  ? - BHS...XI
+    - PIC.M3XI
+  : 0.03223
+  ? - BAN...XI
+    - PAN.POXI
+  : -1
+  ? - BC2...XI
+    - PG1.NCXI
+  : 0.0129
+  ? - BHF...XI
+    - PHF.NCXI
+  : -1
+  ? - BMM...XI
+    - PCK.CGXI
+  : 0.0015
+  ? - BF1.WTXI
+    - QWT0F1XI
+  : -1
+  ? - FAT0..J.
+    - IOF.BBXI
+  : 3.34313
+  ? - CUT.GTXI
+    - IUT.GTXI
+  : 1
+  ? - CON.HSXI
+    - PIC.HSXI
+  : -1
+  ? - FAT0..J.
+    - ION.FHXI
+  : 2.75445
+  ? - COF.BCXI
+    - IOF.BCXI
+  : 1
+  ? - BF3.WTXI
+    - BHR.F3XI
+  : 1
+  ? - UMC...XI
+    - PYN.BHXI
+  : -1.9716
+  ? - BWS...XI
+    - PIC.HSXI
+  : 0.5268
+  ? - BO2...XI
+    - PYN.POXI
+  : -1.0127
+  ? - BD1...XI
+    - PD1.SHXI
+  : -1
+  ? - UKW...XI
+    - PYY.HSXI
+  : -176.9
+  ? - BC2...XI
+    - PC2.HYXI
+  : -1
+  ? - UPH...XI
+    - PYS.BCXI
+  : 11.5607
+  ? - BPS...XI
+    - PYD.POXI
+  : 0.0217
+  ? - UPL...XI
+    - UPL.BYXI
+  : 1
+  ? - BMM...XI
+    - PG1.NCXI
+  : 0.0134
+  ? - UPD...XI
+    - UPD.GNXI
+  : 1
+  ? - BF3...XI
+    - BHR.F3XI
+  : -0.6
+  ? - C...RDXI
+    - PN1.NFXI
+  : -0.0375
+  ? - UHE...XI
+    - PYN.BHXI
+  : 0.2441
+  ? - XSU.FLXI
+    - BH1.FLXI
+  : 0.32
+  ? - USL...XI
+    - PWP.PHXI
+  : -0.0342
+  ? - CUT.BCXI
+    - PYD.BCXI
+  : -13.544
+  ? - BFL...XI
+    - BDF.FLXI
+  : -0.5
+  ? - BHB...XI
+    - PNH.NPXI
+  : 0.02
+  ? - BFL.VOXI
+    - BDF.FLXI
+  : 2
+  ? - UMC...XI
+    - P...OFXI
+  : -0.002
+  ? - FAT0..J.
+    - ION.HYXI
+  : 8.56792
+  ? - C...FOXI
+    - BHF.F3XI
+  : -1.812
+  ? - UTW...XI
+    - PHF.NCXI
+  : -53.4
+  ? - BF3...XI
+    - BHP.F3XI
+  : -0.6
+  ? - C...RAXI
+    - PP1.NCXI
+  : -0.0134
+  ? - USL...XI
+    - PYD.POXI
+  : -0.0789
+  ? - BFI...XI
+    - MFI.FFXI
+  : -1
+  ? - BHS...XI
+    - PCK.CGXI
+  : 0.002
+  ? - BYN...XI
+    - PYN.COXI
+  : -1
+  ? - COF.CAXI
+    - PAN.CRXI
+  : -1.5
+  ? - UOL...XI
+    - PHS.CUXI
+  : 3.17
+  ? - CON.HSXI
+    - PYF.HSXI
+  : -0.9
+  ? - COF.HSXI
+    - PYF.HSXI
+  : -1.81
+  ? - BHS...XI
+    - PHS.CUXI
+  : -1.064
+  ? - UDW...XI
+    - UDW.GPXI
+  : 1
+  ? - CON.NSXI
+    - ION.NSXI
+  : 1
+  ? - CUT.DSXI
+    - UPT.G1XI
+  : -0.0387
+  ? - UPB...XI
+    - PYN.BHXI
+  : -7.78
+  ? - C...FOXI
+    - BN1.FNXI
+  : -1.3972
+  ? - USL...XI
+    - PYY.HSXI
+  : -1.053
+  ? - UKW...XI
+    - MBT.L4XI
+  : -1.527
+  ? - C...RAXI
+    - PH1.SHXI
+  : -0.0007
+  ? - BF1.WTXI
+    - BDH.F1XI
+  : 1
+  ? - C...FOXI
+    - BHN.F2XI
+  : -1.5995
+  ? - C...FOXI
+    - BHR.F2XI
+  : -1.5995
+  ? - BF4...XI
+    - DF4...XI
+  : -1
+  ? - UPM...XI
+    - USM.GPXI
+  : -1.15
+  ? - BD1...XI
+    - BD1.F1XI
+  : -1
+  ? - BF3.VOXI
+    - QVO0F3XI
+  : -1
+  ? - XSU.FLXI
+    - BG1.FLXI
+  : 1.02
+  ? - UKW...XI
+    - PC3.HYXI
+  : -225.0204
+  ? - CON.DHXI
+    - MHB.FGXI
+  : -1
+  ? - UKW...XI
+    - PG1.POXI
+  : -69.7
+  ? - BYG...XI
+    - PYG.POXI
+  : -1
+  ? - BF1.VOXI
+    - BD1.F1XI
+  : 1.00705
+  ? - FAT0..J.
+    - ION.M2XI
+  : 6.19878
+  ? - COF.BHXI
+    - PYN.BHXI
+  : -0.2441
+  ? - C...FOXI
+    - BDC.FLXI
+  : -1.5995
+  ? - BL2...XI
+    - DL2...XI
+  : -1
+  ? - UDW...XI
+    - PYY.HSXI
+  : -1.733
+  ? - BF1.WTXI
+    - BDC.F1XI
+  : 1
+  ? - BFS...XI
+    - MFI.FSXI
+  : 1
+  ? - BAD...XI
+    - PAD.SFXI
+  : -1
+  ? - BFL.WTXI
+    - BDC.FLXI
+  : 1
+  ? - BCE...XI
+    - PCE.TAXI
+  : -1
+  ? - COF.BCXI
+    - PYN.BCXI
+  : -5.921
+  ? - BIC...XI
+    - PIC.HSXI
+  : -1
+  ? - CON.POXI
+    - PYH.POXI
+  : -1.00594
+  ? - BDC...XI
+    - BDC.F1XI
+  : -1
+  ? - BC2...XI
+    - MC2.FPXI
+  : -1
+  ? - BFF...XI
+    - UFF.GNXI
+  : -1
+  ? - CON.GXXI
+    - ION.GXXI
+  : 1
+  ? - CON.HSXI
+    - ION.HSXI
+  : 1
+  ? - UBW...XI
+    - PCF.CGXI
+  : -2.095
+  ? - CON.POXI
+    - PG1.POXI
+  : -1.08765
+  ? - BCK...XI
+    - PAN.COXI
+  : -0.5
+  ? - UTW...XI
+    - PCK.CGXI
+  : -253.15
+  ? - XSU.F1XI
+    - BD1.F1XI
+  : 0.22
+  ? - CUT.BDXI
+    - IUT.BDXI
+  : 1
+  ? - CON.F1XI
+    - ION.F1XI
+  : 1
+  ? - BH1...XI
+    - PH1.POXI
+  : -1
+  ? - BMR...XI
+    - PMR.PPXI
+  : -1
+  ? - UCW...XI
+    - UCW.GPXI
+  : 1
+  ? - BC4...XI
+    - PP1.NCXI
+  : 0.0352
+  ? - UPW...XI
+    - UPW.GNXI
+  : 1
+  ? - UCW...XI
+    - MHB.FGXI
+  : -0.4618
+  ? - FAT0..J.
+    - DL4...XI
+  : -1
+  ? - BYF...XI
+    - PYG.SFXI
+  : 1
+  ? - BF4.WTXI
+    - BHG.F4XI
+  : 1
+  ? - BHB...XI
+    - PYD.HOXI
+  : 0.031
+  ? - C...RDXI
+    - PIC.M3XI
+  : -0.244
+  ? - UKW...XI
+    - PWS.SWXI
+  : -0.7547
+  ? - COF.SHXI
+    - PD1.SHXI
+  : -1
+  ? - UKW...XI
+    - PD1.SHXI
+  : -1.0695
+  ? - UMC...XI
+    - UPB.GNXI
+  : -0.0142
+  ? - XGS.F4XI
+    - QVO0F4XI
+  : -10
+  ? - BWS...XI
+    - PYD.HOXI
+  : 0.5268
+  ? - UKW...XI
+    - PYG.SFXI
+  : -144
+  ? - UKW...XI
+    - UKW.GPXI
+  : 1
+  ? - UCW...XI
+    - PYH.POXI
+  : -3.205
+  ? - BCE...XI
+    - PYS.BHXI
+  : 0.13553
+  ? - B9H...XI
+    - PH1.NCXI
+  : -0.0521
+  ? - BPS...XI
+    - PCK.CGXI
+  : 0.0325
+  ? - UCW...XI
+    - PN1.NFXI
+  : -1.256
+  ? - UKW...XI
+    - PAB.FGXI
+  : -5.9631
+  ? - CUT.KWXI
+    - IUT.KWXI
+  : 1
+  ? - BFL.VOXI
+    - BH1.FLXI
+  : 0.9901
+  ? - CON.HYXI
+    - PC2.HYXI
+  : -1
+  ? - UPL...XI
+    - UPK.G2XI
+  : 0.0082
+  ? - BWS...XI
+    - PWS.SWXI
+  : -1
+  ? - UPH...XI
+    - UPT.G2XI
+  : -0.0118
+  ? - UKW...XI
+    - PHH.NCXI
+  : -29.4
+  ? - COF.HSXI
+    - PAF.HSXI
+  : -1.81
+  ? - UTW...XI
+    - PH1.POXI
+  : -70
+  ? - C...RDXI
+    - PNF.NFXI
+  : -0.0375
+  ? - BN1...XI
+    - PN1.NFXI
+  : -1
+  ? - UKW...XI
+    - PYN.POXI
+  : -64.78
+  ? - CUT.DSXI
+    - UPL.GMXI
+  : -1.1
+  ? - UCW...XI
+    - PC3.HYXI
+  : -5.867
+  ? - CON.RDXI
+    - P...RDXI
+  : -1
+  ? - BAG...XI
+    - PAG.POXI
+  : -1
+  ? - BHS...XI
+    - PCF.CGXI
+  : 0.0029
+  ? - UCW...XI
+    - PYG.SFXI
+  : -8
+  ? - UCW...XI
+    - PNH.NPXI
+  : -0.907
+  ? - COF.CAXI
+    - IOF.CAXI
+  : 1
+  ? - COF.RDXI
+    - IOF.RDXI
+  : 1
+  ? - URW...XI
+    - URW.BYXI
+  : 1
+  ? - UTW...XI
+    - PYD.POXI
+  : -62.44
+  ? - UPM...XI
+    - UPM.GNXI
+  : 1
+  ? - BCK...XI
+    - PYN.CRXI
+  : 0.7861
+  ? - UCW...XI
+    - PCC.CGXI
+  : -26.7
+  ? - FAT0..J.
+    - ITK.SHXI
+  : 0.27641
+  ? - UPH...XI
+    - UPH.GOXI
+  : 1
+  ? - FAT0..J.
+    - IUT.CTXI
+  : 0.01064
+  ? - C...FOXI
+    - BDH.F1XI
+  : -1.5995
+  ? - BL2...XI
+    - MHB.L2XI
+  : 1.279
+  ? - CUT.TGXI
+    - UPK.G3XI
+  : -1.1
+  ? - UPM...XI
+    - UPT.G4XI
+  : -0.0183
+  ? - BF3.VOXI
+    - BHN.F3XI
+  : 0.998
+  ? - UPW...XI
+    - UPD.GNXI
+  : -1.1358
+  ? - BWP...XI
+    - PIC.M3XI
+  : 0.1647
+  ? - C...LEXI
+    - PG1.NCXI
+  : -0.0502
+  ? - USM...XI
+    - PC2.HYXI
+  : -0.1065
+  ? - UMC...XI
+    - P...STXI
+  : -41.1737
+  ? - BHB...XI
+    - PIC.HSXI
+  : 0.0376
+  ? - CON.RDXI
+    - ION.RDXI
+  : 1
+  ? - FAT0..J.
+    - IUT.TGXI
+  : 0.00408
+  ? - UPB...XI
+    - PYS.BHXI
+  : -7.824
+  ? - BCE...XI
+    - PYD.BHXI
+  : 0.13553
+  ? - CTK.HSXI
+    - PAY.HSXI
+  : -1
+  ? - XSU.F1XI
+    - BDH.F1XI
+  : 0.01
+  ? - CUT.DHXI
+    - IUT.DHXI
+  : 1
+  ? - UKW...XI
+    - PYD.HOXI
+  : -152
+  ? - UKW...XI
+    - PG1.NCXI
+  : -29.4
+  ? - CTK.LEXI
+    - ITK.LEXI
+  : 1
+  ? - C...RDXI
+    - PH1.NCXI
+  : -0.072
+  ? - CUT.DHXI
+    - MIL.FIXI
+  : -0.146
+  ? - BF1...XI
+    - BDF.F1XI
+  : -0.5
+  ? - CON.HYXI
+    - PC4.HYXI
+  : -1
+  ? - UFF...XI
+    - PD1.SHXI
+  : -0.0022
+  ? - UMC...XI
+    - PD1.SHXI
+  : -0.6196
+  ? - B9H...XI
+    - PD1.SHXI
+  : -0.0103
+  ? - B9H...XI
+    - PSS.SHXI
+  : -0.0103
+  ? - UPH...XI
+    - UPK.G3XI
+  : -0.0044
+  ? - UPL...XI
+    - UPT.G4XI
+  : 0.0183
+  ? - XGS.F2XI
+    - QWT0F2XI
+  : 1
+  ? - BWS...XI
+    - PAN.CRXI
+  : 0.1917
+  ? - BYG...XI
+    - PPX.FGXI
+  : 1.0245
+  ? - CUT.DHXI
+    - MHB.FGXI
+  : -1
+  ? - FAT0..J.
+    - IOF.SFXI
+  : 1.54999
+  ? - CON.GXXI
+    - PYH.GXXI
+  : -1
+  ? - C...FOXI
+    - BG1.FLXI
+  : -2.3923
+  ? - BF2...XI
+    - QWT0F2XI
+  : 1
+  ? - UPL...XI
+    - UPT.G2XI
+  : 0.0118
+  ? - BCE...XI
+    - PAN.POXI
+  : 1
+  ? - BWS...XI
+    - PG1.POXI
+  : 0.0325
+  ? - BCE...XI
+    - PAN.COXI
+  : 1.5
+  ? - BWS...XI
+    - PYD.BCXI
+  : 0.0876
+  ? - BYD...XI
+    - PYD.HOXI
+  : -1
+  ? - CTK.HSXI
+    - PYY.HSXI
+  : -1
+  ? - UPM...XI
+    - UPL.GNXI
+  : -1
+  ? - C...FOXI
+    - BH1.F4XI
+  : -1.5995
+  ? - UCW...XI
+    - PP1.NCXI
+  : -2.22
+  ? - BWS...XI
+    - PYD.POXI
+  : 0.0325
+  ? - C...RAXI
+    - PCC.CGXI
+  : -0.0046
+  ? - BF1.VOXI
+    - BDF.F1XI
+  : 2
+  ? - UOH...XI
+    - PYD.POXI
+  : 1.4972
+  ? - XSU.FLXI
+    - BDH.FLXI
+  : 0.01
+  ? - UOL...XI
+    - PYN.COXI
+  : 0.0996
+  ? - BPS...XI
+    - PYN.HOXI
+  : 0.0202
+  ? - BC2...XI
+    - PIC.M3XI
+  : 0.07085
+  ? - UOM...XI
+    - PCC.CGXI
+  : 2.169
+  ? - CON.FHXI
+    - ION.FHXI
+  : 1
+  ? - CON.HSXI
+    - PYY.HSXI
+  : -0.9
+  ? - BCE...XI
+    - PAD.POXI
+  : 1
+  ? - UKW...XI
+    - PNH.NPXI
+  : -29.02
+  ? - UMC...XI
+    - PYY.HSXI
+  : -1.15
+  ? - BIP...XI
+    - PYD.POXI
+  : 0.7338
+  ? - BIF...XI
+    - MIF.FIXI
+  : -1
+  ? - COF.SFXI
+    - PYG.SFXI
+  : -1
+  ? - UTW...XI
+    - PSS.SHXI
+  : -8.8803
+  ? - USL...XI
+    - PWS.SWXI
+  : -0.3277
+  ? - UKW...XI
+    - PYS.BCXI
+  : -124.2
+  ? - CTK.HSXI
+    - PYF.HSXI
+  : -1
+  ? - UMC...XI
+    - PH1.SHXI
+  : -0.6196
+  ? - BNH...XI
+    - PSS.SHXI
+  : 0.0124
+  ? - CTK.C3XI
+    - ITK.C3XI
+  : 1
+  ? - BF2.WTXI
+    - BHN.F2XI
+  : 1
+  ? - CON.OPXI
+    - ION.OPXI
+  : 1
+  ? - CTK.CXXI
+    - PYN.CRXI
+  : -1
+  ? - UPK...XI
+    - UKW.GPXI
+  : -1.15
+  ? - FAT0..J.
+    - ITK.FOXI
+  : 0.52736
+  ? - UOH...XI
+    - PYN.POXI
+  : 1.4972
+  ? - BF3.VOXI
+    - BHP.F3XI
+  : 0.83333
+  ? - BHR...XI
+    - BHR.F3XI
+  : -1
+  ? - FAT0..J.
+    - IOF.CAXI
+  : 3.57535
+  ? - UFF...XI
+    - PHH.NCXI
+  : -0.0503
+  ? - USL...XI
+    - PAN.CRXI
+  : -0.1544
+  ? - BMM...XI
+    - PCF.CGXI
+  : 0.0046
+  ? - BF4...XI
+    - BHR.F4XI
+  : -0.6
+  ? - FAT0..J.
+    - DFN...XI
+  : -1
+  ? - UFF...XI
+    - PPX.FGXI
+  : -0.0025
+  ? - UDW...XI
+    - PYD.HOXI
+  : -2.184
+  ? - FAT0..J.
+    - ION.LEXI
+  : 0.64005
+  ? - B6H...XI
+    - P6H.HYXI
+  : -1
+  ? - BWS...XI
+    - PP1.NCXI
+  : 0.0422
+  ? - C...STXI
+    - PHS.CUXI
+  : -0.05
+  ? - BBT...XI
+    - MBT.FGXI
+  : -1
+  ? - FAT0..J.
+    - DF1...XI
+  : -1
+  ? - CUT.BHXI
+    - PYD.BHXI
+  : -0.24552
+  ? - CUT.BFXI
+    - IUT.BFXI
+  : 1
+  ? - COF.BCXI
+    - PAD.BCXI
+  : -26.902
+  ? - C...FOXI
+    - BP1.FLXI
+  : -2.3923
+  ? - BHS...XI
+    - PYN.CRXI
+  : 0.0023
+  ? - BHP...XI
+    - BHP.F3XI
+  : -1
+  ? - BDC...XI
+    - PG1.NCXI
+  : 0.6532
+  ? - FAT0..J.
+    - IOF.SKXI
+  : 0.20275
+  ? - FAT0..J.
+    - IOF.SHXI
+  : 0.00907
+  ? - UOH...XI
+    - PYG.POXI
+  : 1.4708
+  ? - CON.POXI
+    - PYG.POXI
+  : -1.0806
+  ? - C...RDXI
+    - PHF.NCXI
+  : -0.072
+  ? - BC3...XI
+    - PHH.NCXI
+  : 0.015
+  ? - CTK.HOXI
+    - PAN.HOXI
+  : -1.0094
+  ? - UTW...XI
+    - PYY.HSXI
+  : -231.1
+  ? - BDF...XI
+    - BDF.F1XI
+  : -1
+  ? - C...RAXI
+    - PCK.CGXI
+  : -0.0015
+  ? - B9H...XI
+    - PP1.NCXI
+  : -0.087
+  ? - C...LEXI
+    - PGF.NCXI
+  : -0.0502
+  ? - BCE...XI
+    - PYG.POXI
+  : 0.01
+  ? - C...FOXI
+    - BP1.F4XI
+  : -2.3923
+  ? - FAT0..J.
+    - ITK.C4XI
+  : 8.10093
+  ? - FAT0..J.
+    - ION.FGXI
+  : 2.28247
+  ? - CTK.RAXI
+    - ITK.RAXI
+  : 1
+  ? - BG1...XI
+    - PYD.HOXI
+  : -0.0251
+  ? - USL...XI
+    - PYN.POXI
+  : -0.0789
+  ? - B6H...XI
+    - PH1.SHXI
+  : 0.0016
+  ? - CTK.HSXI
+    - ITK.HSXI
+  : 1
+  ? - UPH...XI
+    - UPM.GNXI
+  : -1
+  ? - UKW...XI
+    - UPT.GNXI
+  : -0.9091
+  ? - FAT0..J.
+    - ITK.RAXI
+  : 1.73973
+  ? - CUT.TGXI
+    - IUT.TGXI
+  : 1
+  ? - USL...XI
+    - PIC.M3XI
+  : -0.091
+  ? - BYN...XI
+    - PYN.POXI
+  : -1
+  ? - UKW...XI
+    - MPR.L3XI
+  : -1.309
+  ? - USM...XI
+    - USM.GPXI
+  : 1
+  ? - BAG...XI
+    - PAB.FGXI
+  : 1
+  ? - UHE...XI
+    - PYD.BHXI
+  : 0.2455
+  ? - BPS...XI
+    - PYF.HSXI
+  : 0.0316
+  ? - UTW...XI
+    - PHH.NCXI
+  : -53.4
+  ? - BFL...XI
+    - BDH.FLXI
+  : 0.0532
+  ? - FAT0..J.
+    - DFH...XI
+  : -1
+  ? - BAD...XI
+    - PAD.BCXI
+  : -1
+  ? - FAT0..J.
+    - IUT.DPXI
+  : 3.79887
+  ? - BHS...XI
+    - PP1.NCXI
+  : 0.0088
+  ? - CON.M1XI
+    - ION.M1XI
+  : 1
+  ? - BO2...XI
+    - PIC.HSXI
+  : -0.7955
+  ? - BN1...XI
+    - PC2.HYXI
+  : -0.0158
+  ? - C...FOXI
+    - BHP.F3XI
+  : -1.812
+  ? - BYN...XI
+    - PYN.HOXI
+  : -1
+  ? - BCF...XI
+    - PCF.CGXI
+  : -1
+  ? - BG1...XI
+    - PYN.POXI
+  : -0.0251
+  ? - UBW...XI
+    - PCC.CGXI
+  : -2.169
+  ? - C...FOXI
+    - BGF.F2XI
+  : -1.812
+  ? - C...RAXI
+    - PD1.SHXI
+  : -0.0007
+  ? - BFL.WTXI
+    - QWT0FLXI
+  : -1
+  ? - CON.FGXI
+    - PPX.FGXI
+  : -1
+  ? - CUT.DLXI
+    - MFX.FGXI
+  : -1
+  ? - FAT0..J.
+    - ION.SHXI
+  : 1.62408
+  ? - BFN.WTXI
+    - QWT0FNXI
+  : -1
+  ? - CON.FGXI
+    - ION.FGXI
+  : 1
+  ? - XSU.F4XI
+    - BHN.F4XI
+  : 0.08
+  ? - BSB...XI
+    - PYN.COXI
+  : 0.1533
+  ? - UPW...XI
+    - PYG.SFXI
+  : -0.1
+  ? - BFP...XI
+    - MC2.FPXI
+  : 1.227
+  ? - BFL.VOXI
+    - BHG.FLXI
+  : 0.95147
+  ? - BD1...XI
+    - BD1.FLXI
+  : -1
+  ? - UCW...XI
+    - PYD.POXI
+  : -3.1946
+  ? - UDW...XI
+    - P...RDXI
+  : -0.0089
+  ? - XSU.F2XI
+    - BHG.F2XI
+  : 0.2
+  ? - COF.SFXI
+    - PAG.SFXI
+  : -1
+  ? - BHN...XI
+    - BHN.F4XI
+  : -1
+  ? - UOL...XI
+    - PPX.FGXI
+  : 0.0944
+  ? - UCW...XI
+    - PHH.NCXI
+  : -2.22
+  ? - CUT.RTXI
+    - IUT.RTXI
+  : 1
+  ? - USL...XI
+    - PYD.HOXI
+  : -1.23
+  ? - BCE...XI
+    - PAD.BHXI
+  : 1
+  ? - BHS...XI
+    - PGF.NCXI
+  : 0.0088
+  ? - CTK.CXXI
+    - ITK.CXXI
+  : 1
+  ? - BMM...XI
+    - PCC.CGXI
+  : 0.0046
+  ? - USL...XI
+    - PYS.BHXI
+  : -0.2126
+  ? - CON.NCXI
+    - PGF.NCXI
+  : -1
+  ? - URW...XI
+    - URW.GNXI
+  : 1
+  ? - KFG.PRXI
+    - PIC.M3XI
+  : 0.30363
+  ? - BFP...XI
+    - M6H.FPXI
+  : 2.9916
+  ? - CON.LEXI
+    - ION.LEXI
+  : 1
+  ? - BDF...XI
+    - PYN.COXI
+  : 0.0223
+  ? - BIP...XI
+    - PYN.POXI
+  : 0.7389
+  ? - CON.SKXI
+    - ION.SKXI
+  : 1
+  ? - FAT0..J.
+    - ION.SGXI
+  : 2.74321
+  ? - BF3...XI
+    - BHN.F3XI
+  : -0.0007
+  ? - BAB...XI
+    - PAB.FGXI
+  : -1
+  ? - BFG...XI
+    - MBT.FGXI
+  : 1.1391
+  ? - CON.FGXI
+    - PAB.FGXI
+  : -1
+  ? - XGS.FHXI
+    - QVO0FHXI
+  : -10
+  ? - C...FOXI
+    - BHN.F4XI
+  : -1.5995
+  ? - BC3...XI
+    - PP1.NCXI
+  : 0.015
+  ? - FAT0..J.
+    - ITK.DPXI
+  : 52.42278
+  ? - UMC...XI
+    - PNH.NPXI
+  : -0.459
+  ? - CON.POXI
+    - PH1.POXI
+  : -1.0871
+  ? - XSL.F3XI
+    - BHP.F3XI
+  : 3
+  ? - BNH...XI
+    - PGF.NCXI
+  : 0.2803
+  ? - BC4...XI
+    - PYN.CRXI
+  : 0.0015
+  ? - C...RDXI
+    - PHH.NCXI
+  : -0.072
+  ? - BG1...XI
+    - PYH.POXI
+  : -0.0282
+  ? - CON.GXXI
+    - PAH.GXXI
+  : -1
+  ? - BO2...XI
+    - PH1.POXI
+  : -1.0216
+  ? - BFL.WTXI
+    - BDF.FLXI
+  : 1
+  ? - UCW...XI
+    - PYD.HOXI
+  : -20.92
+  ? - C...RAXI
+    - PIC.M3XI
+  : -0.0057
+  ? - BHS...XI
+    - PHH.NCXI
+  : 0.0088
+  ? - UDW...XI
+    - P...STXI
+  : -12.4507
+  ? - BN1...XI
+    - PIC.M3XI
+  : 0.16403
+  ? - B9H...XI
+    - P6H.HYXI
+  : 0.8703
+  ? - C...RDXI
+    - P...RDXI
+  : 1
+  ? - COF.PPXI
+    - PMR.PPXI
+  : -1
+  ? - UKW...XI
+    - MHB.L2XI
+  : -1.844
+  ? - BF4...XI
+    - BHN.F4XI
+  : -0.0007
+  ? - BAG...XI
+    - PAG.SFXI
+  : -1
+  ? - UPT...XI
+    - UPT.GNXI
+  : 1
+  ? - BFH.WTXI
+    - QWT0FHXI
+  : -1
+  ? - BHB...XI
+    - P6H.HYXI
+  : 0.0689
+  ? - BFL.VOXI
+    - BP1.FLXI
+  : 0.86505
+  ? - C...LEXI
+    - PIC.M3XI
+  : -0.2123
+  ? - C...FOXI
+    - BHN.FLXI
+  : -1.5995
+  ? - UCW...XI
+    - P...LEXI
+  : -8.6439
+  ? - COF.POXI
+    - PYH.POXI
+  : -1.2542
+  ? - UPD...XI
+    - UPB.GNXI
+  : -0.5971
+  ? - UKW...XI
+    - UPD.GNXI
+  : -0.3984
+  ? - BFS...XI
+    - MFG.FSXI
+  : 1
+  ? - BHH...XI
+    - BHH.FLXI
+  : -1
+  ? - CON.HOXI
+    - PAD.HOXI
+  : -1
+  ? - COF.POXI
+    - PH1.POXI
+  : -0.2514
+  ? - CON.FDXI
+    - ION.FDXI
+  : 1
+  ? - BO2...XI
+    - PYN.HOXI
+  : -1.0127
+  ? - UFS...XI
+    - UFS.GXXI
+  : -1
+  ? - BSS...XI
+    - PIC.M3XI
+  : 1.2
+  ? - UCW...XI
+    - PAN.COXI
+  : -1.3053
+  ? - FAT0..J.
+    - IUT.DLXI
+  : 2.24091
+  ? - B9H...XI
+    - PIC.M3XI
+  : -0.05138
+  ? - CUT.DHXI
+    - MIS.FIXI
+  : -0.146
+  ? - UMC...XI
+    - PH1.NCXI
+  : -3.24
+  ? - USL...XI
+    - PCK.CGXI
+  : -1.32
+  ? - BFL.WTXI
+    - BD1.FLXI
+  : 1
+  ? - USM...XI
+    - PYN.COXI
+  : -0.1975
+  ? - BC2...XI
+    - PYN.COXI
+  : 0.0366
+  ? - UTW...XI
+    - MHB.L2XI
+  : -243.687
+  ? - UKW...XI
+    - PCF.CGXI
+  : -2
+  ? - FAT0..J.
+    - IOF.PPXI
+  : 0.77973
+  ? - CTK.HOXI
+    - PAD.HOXI
+  : -1
+  ? - BWS...XI
+    - PAD.SFXI
+  : 0.1
+  ? - BWS...XI
+    - PSS.SHXI
+  : 0.0184
+  ? - USL...XI
+    - PYN.COXI
+  : -0.1544
+  ? - CON.GXXI
+    - PAG.GXXI
+  : -1
+  ? - UCW...XI
+    - PCK.CGXI
+  : -14.9
+  ? - BNH...XI
+    - PG1.NCXI
+  : 0.2803
+  ? - UPW...XI
+    - UPC.GNXI
+  : -0.0449
+  ? - UMC...XI
+    - P6H.HYXI
+  : -1.1676
+  ? - UOH...XI
+    - PH1.POXI
+  : 1.4972
+  ? - FAT0..J.
+    - IUT.PDXI
+  : 0.12759
+  ? - USL...XI
+    - MBT.FGXI
+  : -0.3422
+  ? - USL...XI
+    - PD1.SHXI
+  : -0.0703
+  ? - BHB...XI
+    - PYY.HSXI
+  : 0.0376
+  ? - UKW...XI
+    - PYD.SFXI
+  : -144
+  ? - BF2.VOXI
+    - BHN.F2XI
+  : 0.998
+  ? - UTW...XI
+    - PCF.CGXI
+  : -214.7
+  ? - BAC...XI
+    - PAR.PPXI
+  : 1
+  ? - BWS...XI
+    - PYG.SFXI
+  : 0.1
+  ? - CUT.TWXI
+    - UPT.G3XI
+  : -1.1
+  ? - UBW...XI
+    - PYH.POXI
+  : -1.8617
+  ? - COF.BHXI
+    - PAS.BHXI
+  : -1.1619
+  ? - UFS...XI
+    - UFS.GNXI
+  : 1
+  ? - UPH...XI
+    - USH.GPXI
+  : -1.15
+  ? - CON.HSXI
+    - PAY.HSXI
+  : -0.9
+  ? - UDW...XI
+    - PYF.HSXI
+  : -1.733
+  ? - FAT0..J.
+    - IUT.RSXI
+  : 0.12671
+  ? - CUT.BCXI
+    - PYS.BCXI
+  : -13.544
+  ? - UFF...XI
+    - P...LEXI
+  : -0.0001
+  ? - UFF...XI
+    - UFF.GNXI
+  : 1
+  ? - C...FOXI
+    - BDC.F1XI
+  : -1.5995
+  ? - CUT.DSXI
+    - USL.GPXI
+  : -1.265
+  ? - BCE...XI
+    - PIC.HSXI
+  : 0.026
+  ? - USL...XI
+    - PFS.BGXI
+  : -0.7858
+  ? - CON.GXXI
+    - UPL.GXXI
+  : -1
+  ? - BHG...XI
+    - BHG.F2XI
+  : -1
+  ? - UMC...XI
+    - PYN.BCXI
+  : -1.97
+  ? - UPH...XI
+    - UPT.G1XI
+  : -0.0352
+  ? - BC2...XI
+    - PH1.SHXI
+  : 0.0013
+  ? - UPB...XI
+    - PYS.BCXI
+  : -11.5607
+  ? - UPD...XI
+    - UDW.GPXI
+  : -1.3
+  ? - BAH...XI
+    - PAH.POXI
+  : -1
+  ? - BHS...XI
+    - PH1.NCXI
+  : 0.0088
+  ? - C...RAXI
+    - PHF.NCXI
+  : -0.0134
+  ? - BFL.WTXI
+    - BHR.FLXI
+  : 1
+  ? - BPS...XI
+    - PH1.POXI
+  : 0.0035
+  ? - UKW...XI
+    - PN1.NFXI
+  : -18.02
+  ? - BFG...XI
+    - MFX.FGXI
+  : 0.9
+  ? - XSU.FLXI
+    - BHG.FLXI
+  : 0.2
+  ? - C...FOXI
+    - BH1.F3XI
+  : -1.5995
+  ? - CON.CXXI
+    - ION.CXXI
+  : 1
+  ? - FAT0..J.
+    - ITK.PHXI
+  : 0.14539
+  ? - UPT...XI
+    - UPT.G2XI
+  : 1
+  ? - CUT.TWXI
+    - IUT.TWXI
+  : 1
+  ? - UPH...XI
+    - PYD.BCXI
+  : 11.5607
+  ? - COF.BCXI
+    - PYD.BCXI
+  : -5.9552
+  ? - BWS...XI
+    - PYH.POXI
+  : 0.0177
+  ? - BFL...XI
+    - BHN.FLXI
+  : -0.0007
+  ? - BHN...XI
+    - BHN.F3XI
+  : -1
+  ? - UCW...XI
+    - PIC.M3XI
+  : -2.15
+  ? - BCE...XI
+    - PAN.BHXI
+  : 1
+  ? - CON.HOXI
+    - ION.HOXI
+  : 1
+  ? - FAT0..J.
+    - ION.M3XI
+  : 4.54615
+  ? - CUT.DLXI
+    - MIP.FIXI
+  : -0.5
+  ? - FAT0..J.
+    - ION.CUXI
+  : 11.32657
+  ? - UKW...XI
+    - P...LEXI
+  : -0.724
+  ? - FAT0..J.
+    - IUT.RTXI
+  : 0.07221
+  ? - UOL...XI
+    - PAN.COXI
+  : 0.0996
+  ? - KLQ.PRXI
+    - KLQ.PRXI
+  : 1
+  ? - UCW...XI
+    - PYN.POXI
+  : -3.1946
+  ? - UKW...XI
+    - PC4.HYXI
+  : -225.0204
+  ? - UCW...XI
+    - PYN.CRXI
+  : -1.4738
+  ? - CTK.PHXI
+    - PWP.PHXI
+  : -1
+  ? - COF.BHXI
+    - PYD.BHXI
+  : -0.24552
+  ? - C...LEXI
+    - PHH.NCXI
+  : -0.0502
+  ? - C...FOXI
+    - BDF.FLXI
+  : -1.812
+  ? - C...RDXI
+    - PYN.COXI
+  : -0.0519
+  ? - BFL.WTXI
+    - BGF.FLXI
+  : 1
+  ? - XSU.F1XI
+    - BDC.F1XI
+  : 0.01
+  ? - BYS...XI
+    - PYS.BCXI
+  : -1
+  ? - CON.HSXI
+    - PAF.HSXI
+  : -0.9
+  ? - BHF...XI
+    - BHF.FLXI
+  : -1
+  ? - CON.CGXI
+    - PCF.CGXI
+  : -1.0912
+  ? - FAT0..J.
+    - ION.DHXI
+  : 3.69067
+  ? - BDH...XI
+    - BDH.FLXI
+  : -1
+  ? - BWS...XI
+    - PYF.HSXI
+  : 0.5268
+  ? - UFF...XI
+    - PSS.SHXI
+  : -0.0022
+  ? - BCE...XI
+    - PAS.BCXI
+  : 1
+  ? - BFX...XI
+    - MFX.FGXI
+  : -1
+  ? - BPX...XI
+    - PIC.M3XI
+  : 0.30363
+  ? - UTW...XI
+    - PG1.POXI
+  : -69.5
+  ? - XSL.F1XI
+    - BDF.F1XI
+  : 0.3
+  ? - FAT0..J.
+    - ION.L1XI
+  : 4.25757
+  ? - BCE...XI
+    - PAD.HOXI
+  : 1
+  ? - BF2.VOXI
+    - QVO0F2XI
+  : -1
+  ? - C...FOXI
+    - BHG.FLXI
+  : -1.5995
+  ? - BC4...XI
+    - PHF.NCXI
+  : 0.0352
+  ? - CON.GXXI
+    - UFF.GXXI
+  : -1
+  ? - CUT.DPXI
+    - MBT.FGXI
+  : -1
+  ? - UKW...XI
+    - PCK.CGXI
+  : -10.525
+  ? - UPH...XI
+    - UPK.G1XI
+  : -0.0235
+  ? - B9H...XI
+    - PHF.NCXI
+  : -0.074
+  ? - CON.NCXI
+    - PP1.NCXI
+  : -1
+  ? - UFF...XI
+    - PP1.NCXI
+  : -0.0503
+  ? - B9H...XI
+    - PNF.NFXI
+  : -0.01096
+  ? - UKW...XI
+    - PWP.PHXI
+  : -1.6753
+  ? - UKW...XI
+    - UPB.GNXI
+  : -1.7328
+  ? - C...FOXI
+    - BHR.F4XI
+  : -1.5995
+  ? - UPM...XI
+    - UPK.G1XI
+  : 0.0235
+  ? - XSU.FLXI
+    - QWT0FLXI
+  : -0.3
+  ? - COF.WTXI
+    - PWW.WTXI
+  : -1.3
+  ? - BF2.WTXI
+    - QWT0F2XI
+  : -1
+  ? - BNF...XI
+    - PNF.NFXI
+  : -1
+  ? - C...LEXI
+    - PN1.NFXI
+  : 0.9977
+  ? - UKW...XI
+    - PIC.HSXI
+  : -176.9
+  ? - BFL.VOXI
+    - BHN.FLXI
+  : 0.998
+  ? - BCE...XI
+    - PAN.CRXI
+  : 1.5
+  ? - USM...XI
+    - P...LEXI
+  : -0.2575
+  ? - BHF...XI
+    - PYN.CRXI
+  : 0.0441
+  ? - FAT0..J.
+    - ION.POXI
+  : 7.02784
+  ? - FAT0..J.
+    - ION.SWXI
+  : 0.21951
+  ? - BAD...XI
+    - PAD.BHXI
+  : -1
+  ? - C...LEXI
+    - P...LEXI
+  : 1
+  ? - BC3...XI
+    - PD1.SHXI
+  : 0.0001
+  ? - CTK.C3XI
+    - MPR.L3XI
+  : -1
+  ? - USL...XI
+    - P...STXI
+  : -2.9706
+  ? - COF.POXI
+    - PAH.POXI
+  : -1.2542
+  ? - UDW...XI
+    - PCK.CGXI
+  : -0.33
+  ? - CTK.HOXI
+    - PYN.HOXI
+  : -1.0094
+  ? - BNF...XI
+    - PYN.COXI
+  : 0.0057
+  ? - BDC...XI
+    - PH1.NCXI
+  : 0.6532
+  ? - UOL...XI
+    - UPL.GOXI
+  : -1
+  ? - CUT.RTXI
+    - UPW.GNXI
+  : -1.1
+  ? - XSU.F2XI
+    - QWT0F2XI
+  : -10
+  ? - C...FOXI
+    - BG1.F4XI
+  : -2.3923
+  ? - BAN...XI
+    - PAN.CRXI
+  : -1
+  ? - BCE...XI
+    - PYF.HSXI
+  : 0.026
+  ? - BPS...XI
+    - PYD.HOXI
+  : 0.0217
+  ? - UHE...XI
+    - PYS.BHXI
+  : 0.2455
+  ? - BYN...XI
+    - PYN.GXXI
+  : -1
+  ? - C...RDXI
+    - PP1.NCXI
+  : -0.072
+  ? - UCW...XI
+    - PC4.HYXI
+  : -5.867
+  ? - BNP...XI
+    - PNF.NFXI
+  : 0.323
+  ? - BNH...XI
+    - PH1.SHXI
+  : 0.0124
+  ? - BG1...XI
+    - PYG.POXI
+  : -0.0261
+  ? - UCW...XI
+    - PAD.SFXI
+  : -8
+  ? - UPH...XI
+    - UPH.BYXI
+  : 1
+  ? - CUT.DHXI
+    - MFX.FGXI
+  : -0.146
+  ? - BYF...XI
+    - PYF.HSXI
+  : -1
+  ? - USL...XI
+    - P...LEXI
+  : -0.0018
+  ? - UMC...XI
+    - PHF.NCXI
+  : -3.24
+  ? - UMC...XI
+    - PWW.WTXI
+  : -0.6206
+  ? - BIP...XI
+    - MIP.FIXI
+  : -1
+  ? - BFL.VOXI
+    - BGF.FLXI
+  : 0.8547
+  ? - CMC...XI
+    - IMC...XI
+  : 1
+  ? - BC3...XI
+    - PH1.NCXI
+  : 0.015
+  ? - BGF...XI
+    - BGF.FLXI
+  : -1
+  ? - BBT...XI
+    - MBT.L4XI
+  : -1
+  ? - BP1...XI
+    - BP1.FLXI
+  : -1
+  ? - CTK.HPXI
+    - ITK.HPXI
+  : 1
+  ? - FAT0..J.
+    - ITK.HPXI
+  : 1.19412
+  ? - UOL...XI
+    - PAN.CRXI
+  : 0.0996
+  ? - BDC...XI
+    - PP1.NCXI
+  : 0.6532
+  ? - UBW...XI
+    - PYN.POXI
+  : -1.8523
+  ? - UMC...XI
+    - PN1.NFXI
+  : -1.539
+  ? - UDW...XI
+    - PH1.SHXI
+  : -0.0084
+  ? - CUT.BFXI
+    - UPB.GNXI
+  : -1.1
+  ? - CON.RAXI
+    - P...RAXI
+  : -1
+  ? - XSL.F2XI
+    - BHR.F2XI
+  : 2
+  ? - UMC...XI
+    - PCE.TAXI
+  : -7.381
+  ? - B9H...XI
+    - PIC.HSXI
+  : 0.1715
+  ? - C...STXI
+    - PCC.CGXI
+  : -0.0723
+  ? - UCW...XI
+    - PGF.NCXI
+  : -2.22
+  ? - CUT.BHXI
+    - PYS.BHXI
+  : -0.24552
+  ? - UMC...XI
+    - PYD.HOXI
+  : -1.15
+  ? - BO2...XI
+    - PG1.POXI
+  : -0.989
+  ? - UCW...XI
+    - PPX.FGXI
+  : -1.1371
+  ? - FAT0..J.
+    - ION.M1XI
+  : 7.64337
+  ? - FAT0..J.
+    - IUT.GTXI
+  : 13.81608
+  ? - BFL.VOXI
+    - BG1.FLXI
+  : 0.88028
+  ? - B6H...XI
+    - PIC.M3XI
+  : 0.01331
+  ? - BHR...XI
+    - BHR.FLXI
+  : -1
+  ? - BFL...XI
+    - BHF.FLXI
+  : -0.1079
+  ? - CON.GXXI
+    - PYN.GXXI
+  : -1
+  ? - CON.HOXI
+    - PYD.HOXI
+  : -1
+  ? - B9H...XI
+    - PNH.NPXI
+  : 0.034
+  ? - BIP...XI
+    - PYG.POXI
+  : 0.7175
+  ? - BYS...XI
+    - PYS.BHXI
+  : -1
+  ? - UKW...XI
+    - PAR.PPXI
+  : -6.4569
+  ? - B9H...XI
+    - PYN.HOXI
+  : 0.2097
+  ? - CUT.CTXI
+    - UPC.GNXI
+  : -1.1
+  ? - CUT.DSXI
+    - UPL.GNXI
+  : -1.1
+  ? - FAT0..J.
+    - IUT.BGXI
+  : 1.25952
+  ? - CUT.TWXI
+    - UPT.G1XI
+  : -1.1
+  ? - UFF...XI
+    - PCC.CGXI
+  : -0.0262
+  ? - BPS...XI
+    - PYN.POXI
+  : 0.0197
+  ? - XSU.F3XI
+    - BHR.F3XI
+  : 0.083
+  ? - XSL.F3XI
+    - BHR.F3XI
+  : 2
+  ? - CON.NFXI
+    - ION.NFXI
+  : 1
+  ? - BFL...XI
+    - BH1.FLXI
+  : -0.0057
+  ? - FAT0..J.
+    - IOF.TAXI
+  : 0.37688
+  ? - C...FOXI
+    - BHN.F3XI
+  : -1.5995
+  ? - BC4...XI
+    - MC4.FPXI
+  : -1
+  ? - FAT0..J.
+    - ION.RAXI
+  : 6.72031
+  ? - USL...XI
+    - PPX.FGXI
+  : -0.0126
+  ? - BDC...XI
+    - PGF.NCXI
+  : 0.6532
+  ? - BIC...XI
+    - PIC.M3XI
+  : -1
+  ? - BNH...XI
+    - PHH.NCXI
+  : 0.2803
+  ? - UFF...XI
+    - PH1.NCXI
+  : -0.0503
+  ? - UKW...XI
+    - PYD.POXI
+  : -64.78
+  ? - BHS...XI
+    - PCC.CGXI
+  : 0.0029
+  ? - BDC...XI
+    - PHH.NCXI
+  : 0.6532
+  ? - BFL...XI
+    - BG1.FLXI
+  : -0.114
+  ? - FAT0..J.
+    - ION.HSXI
+  : 29.9668
+  ? - UPH...XI
+    - PFS.BGXI
+  : 12.0337
+  ? - BD1...XI
+    - PIC.M3XI
+  : 0.21287
+  ? - CON.NCXI
+    - PHH.NCXI
+  : -1
+  ? - CTK.FOXI
+    - ITK.FOXI
+  : 1
+  ? - BYG...XI
+    - PAB.FGXI
+  : 0.0245
+  ? - BFI...XI
+    - MIF.FIXI
+  : 1
+  ? - BIC...XI
+    - PMR.PPXI
+  : 1
+  ? - BF4.VOXI
+    - BHN.F4XI
+  : 0.998
+  ? - BWS...XI
+    - PPX.FGXI
+  : 0.0076
+  ? - CUT.DHXI
+    - MC3.FPXI
+  : -1
+  ? - BYY...XI
+    - PYY.HSXI
+  : -1
+  ? - BC3...XI
+    - PGF.NCXI
+  : 0.015
+  ? - BC3...XI
+    - PG1.NCXI
+  : 0.015
+  ? - C...FOXI
+    - BD1.FLXI
+  : -1.5995
+  ? - BWS...XI
+    - PYG.POXI
+  : 0.0138
+  ? - UFF...XI
+    - PN1.NFXI
+  : -0.0026
+  ? - UKW...XI
+    - P...RDXI
+  : -9.183
+  ? - USL...XI
+    - PH1.SHXI
+  : -0.0703
+  ? - FAT0..J.
+    - ITK.CXXI
+  : 1.01103
+  ? - BMM...XI
+    - PN1.NFXI
+  : 0.0007
+  ? - BHS...XI
+    - PH1.SHXI
+  : 0.0023
+  ? - C...RAXI
+    - PSS.SHXI
+  : -0.0007
+  ? - BHG...XI
+    - BHG.F3XI
+  : -1
+  ? - USL...XI
+    - UPC.GNXI
+  : -0.0031
+  ? - XSU.FLXI
+    - BHN.FLXI
+  : 0.08
+  ? - CUT.DSXI
+    - UPM.GNXI
+  : -1.1
+  ? - UKW...XI
+    - PYN.CRXI
+  : -12.91
+  ? - UKW...XI
+    - PYN.BHXI
+  : -110.867
+  ? - BFL.VOXI
+    - QVO0FLXI
+  : -1
+  ? - CUT.PDXI
+    - IUT.PDXI
+  : 1
+  ? - B9H...XI
+    - PN1.NFXI
+  : -0.01096
+  ? - FAT0..J.
+    - ION.GXXI
+  : 335.35492
+  ? - BWS...XI
+    - PYD.SFXI
+  : 0.1
+  ? - CUT.DSXI
+    - UPT.G2XI
+  : -0.013
+  ? - UCW...XI
+    - PD1.SHXI
+  : -0.8357
+  ? - CUT.DLXI
+    - MIL.FIXI
+  : -0.5
+  ? - CON.GXXI
+    - PAN.GXXI
+  : -1
+  ? - BWS...XI
+    - PYN.BCXI
+  : 0.09175
+  ? - FAT0..J.
+    - IUT.BHXI
+  : 86.86447
+  ? - USH...XI
+    - USH.GPXI
+  : 1
+  ? - CUT.TGXI
+    - UPK.G1XI
+  : -1.1
+  ? - CON.POXI
+    - ION.POXI
+  : 1
+  ? - BC4...XI
+    - PNH.NPXI
+  : 0.023
+  ? - CON.RAXI
+    - ION.RAXI
+  : 1
+  ? - BYN...XI
+    - PYN.BCXI
+  : -1
+  ? - BAS...XI
+    - PAS.BHXI
+  : -1
+  ? - BIP...XI
+    - PH1.POXI
+  : 0.8173
+  ? - C...FOXI
+    - BD1.F1XI
+  : -1.5995
+  ? - BF4.WTXI
+    - BHR.F4XI
+  : 1
+  ? - XSU.FLXI
+    - BHF.FLXI
+  : 1
+  ? - FAT0..J.
+    - DL2...XI
+  : -1
+  ? - UTW...XI
+    - PG1.NCXI
+  : -53.4
+  ? - BFL.WTXI
+    - BHG.FLXI
+  : 1
+  ? - C...FOXI
+    - BHH.F3XI
+  : -1.5995
+  ? - CUT.DHXI
+    - MC2.FPXI
+  : -1
+  ? - UHE...XI
+    - P...F1XI
+  : 1
+  ? - BPS...XI
+    - PYY.HSXI
+  : 0.0403
+  ? - CUT.DPXI
+    - IUT.DPXI
+  : 1
+  ? - BFP...XI
+    - MC3.FPXI
+  : 1.1546
+  ? - C...FOXI
+    - BGF.F4XI
+  : -1.812
+  ? - COF.HSXI
+    - PYY.HSXI
+  : -2.14
+  ? - BC2...XI
+    - PP1.NCXI
+  : 0.0129
+  ? - BFH...XI
+    - QWT0FHXI
+  : 1
+  ? - CON.HYXI
+    - P6H.HYXI
+  : -1
+  ? - FAT0..J.
+    - IUT.KWXI
+  : 0.00303
+  ? - CTK.HOXI
+    - PYD.HOXI
+  : -1
+  ? - UCW...XI
+    - UPT.G5XI
+  : -0.1131
+  ? - BCK...XI
+    - PCK.CGXI
+  : -1
+  ? - FAT0..J.
+    - ION.OPXI
+  : 5.52621
+  ? - BNH...XI
+    - PHF.NCXI
+  : 0.2803
+  ? - CON.DHXI
+    - ION.DHXI
+  : 1
+  ? - FAT0..J.
+    - IOF.HOXI
+  : 1.66444
+  ? - UCW...XI
+    - PNF.NFXI
+  : -1.256
+  ? - USL...XI
+    - PH1.POXI
+  : -0.079
+  ? - UPC...XI
+    - UPC.GNXI
+  : 1
+  ? - UPL...XI
+    - UPL.GOXI
+  : 1
+  ? - CTK.CXXI
+    - PAN.CRXI
+  : -1
+  ? - C...FOXI
+    - BGF.FLXI
+  : -1.812
+  ? - BF3.WTXI
+    - QWT0F3XI
+  : -1
+  ? - XSU.F4XI
+    - QWT0F4XI
+  : -0.3
+  ? - UCW...XI
+    - PSS.SHXI
+  : -0.8357
+  ? - CON.F2XI
+    - ION.F2XI
+  : 1
+  ? - UFF...XI
+    - UFF.GXXI
+  : -1
+  ? - C...FOXI
+    - BDF.F4XI
+  : -1.812
+  ? - UCW...XI
+    - PG1.NCXI
+  : -2.22
+  ? - UCW...XI
+    - P...OFXI
+  : -0.3123
+  ? - C...FOXI
+    - BDF.F1XI
+  : -1.812
+  ? - UPH...XI
+    - PYS.BHXI
+  : 7.824
+  ? - UPB...XI
+    - PFS.BGXI
+  : -12.0337
+  ? - BWS...XI
+    - PD1.SHXI
+  : 0.0184
+  ? - BWS...XI
+    - PH1.SHXI
+  : 0.0184
+  ? - CTK.C4XI
+    - MBT.L4XI
+  : -1
+  ? - UPL...XI
+    - UPL.GMXI
+  : 1
+  ? - CUT.RSXI
+    - URW.GNXI
+  : -1.1
+  ? - COF.POXI
+    - PG1.POXI
+  : -0.2514
+  ? - UCW...XI
+    - PG1.POXI
+  : -3.5
+  ? - BF2.WTXI
+    - BHR.F2XI
+  : 1
+  ? - CUT.DLXI
+    - MIF.FIXI
+  : -0.5
+  ? - BAF...XI
+    - PAF.HSXI
+  : -1
+  ? - BNH...XI
+    - PP1.NCXI
+  : 0.2803
+  ? - BCE...XI
+    - PAG.POXI
+  : 1
+  ? - FAT0..J.
+    - IMC...XI
+  : 2.29976
+  ? - UTW...XI
+    - PYF.HSXI
+  : -231.1
+  ? - CON.OPXI
+    - P...OPXI
+  : -1
+  ? - BHS...XI
+    - PHF.NCXI
+  : 0.0088
+  ? - UOM...XI
+    - UPM.GOXI
+  : -1
+  ? - CON.SWXI
+    - ION.SWXI
+  : 1
+  ? - USM...XI
+    - PC4.HYXI
+  : -0.1065
+  ? - UDW...XI
+    - PIC.HSXI
+  : -1.733
+  ? - BYS...XI
+    - PYD.SFXI
+  : 1
+  ? - C...FOXI
+    - BGF.F3XI
+  : -1.812
+  ? - BO2...XI
+    - PYH.POXI
+  : -1.0169
+  ? - CUT.TWXI
+    - UPT.G5XI
+  : -1.1
+  ? - BFH.VOXI
+    - QVO0FHXI
+  : -1
+  ? - UKW...XI
+    - PYF.HSXI
+  : -176.9
+  ? - UBW...XI
+    - UBW.GPXI
+  : 1
+  ? - COF.BHXI
+    - PAN.BHXI
+  : -1.2711
+  ? - COF.BCXI
+    - PAN.BCXI
+  : -31.677
+  ? - BMM...XI
+    - PYN.CRXI
+  : 0.0011
+  ? - UPB...XI
+    - PYD.BHXI
+  : -7.824
+  ? - CTK.FOXI
+    - P...FOXI
+  : -1
+  ? - BMM...XI
+    - PNF.NFXI
+  : 0.0007
+  ? - BF4...XI
+    - BHG.F4XI
+  : -0.0484
+  ? - UPW...XI
+    - PCF.CGXI
+  : -0.68
+  ? - UMC...XI
+    - PSS.SHXI
+  : -0.6196
+  ? - UKW...XI
+    - PMR.PPXI
+  : -6.4569
+  ? - UPB...XI
+    - PYD.BCXI
+  : -11.5607
+  ? - C...RAXI
+    - PYN.CRXI
+  : -0.0011
+  ? - BWS...XI
+    - P6H.HYXI
+  : 0.1828
+  ? - UMC...XI
+    - UPW.GNXI
+  : -0.0157
+  ? - XSU.FLXI
+    - BD1.FLXI
+  : 0.22
+  ? - FAT0..J.
+    - IUT.BFXI
+  : 0.08031
+  ? - USL...XI
+    - PCF.CGXI
+  : -1.685
+  ? - BAH...XI
+    - PAH.GXXI
+  : -1
+  ? - C...FOXI
+    - BH1.F2XI
+  : -1.5995
+  ? - C...FOXI
+    - BHH.F4XI
+  : -1.5995
+  ? - BAN...XI
+    - PAN.BCXI
+  : -1
+  ? - USL...XI
+    - PYF.HSXI
+  : -1.053
+  ? - UOH...XI
+    - PYH.POXI
+  : 1.4738
+  ? - BG1...XI
+    - PG1.NCXI
+  : -1
+  ? - UTW...XI
+    - PD1.SHXI
+  : -8.8803
+  ? - CUT.DSXI
+    - IUT.DSXI
+  : 1
+  ? - XSL.FLXI
+    - BDF.FLXI
+  : 0.3
+  ? - UKW...XI
+    - PIC.M3XI
+  : -39.37
+  ? - XSL.F3XI
+    - BSB.F3XI
+  : 0.73
+  ? - COF.TAXI
+    - IOF.TAXI
+  : 1
+  ? - B9H...XI
+    - PHH.NCXI
+  : -0.042
+  ? - BWS...XI
+    - PYN.CRXI
+  : 0.1917
+  ? - FAT0..J.
+    - ION.STXI
+  : 52.06134
+  ? - B6H...XI
+    - PSS.SHXI
+  : 0.0016
+  ? - XSU.F2XI
+    - BHN.F2XI
+  : 0.08
+  ? - BFP...XI
+    - MC4.FPXI
+  : 1.1391
+  ? - UTW...XI
+    - P6H.HYXI
+  : -1426.904
+  ? - BHS...XI
+    - PN1.NFXI
+  : 0.00459
+  ? - FAT0..J.
+    - ITK.HOXI
+  : 0.19963
+  ? - BC2...XI
+    - PYN.CRXI
+  : 0.0437
+  ? - COF.POXI
+    - PAD.POXI
+  : -1
+  ? - CON.SHXI
+    - PSS.SHXI
+  : -1
+  ? - BFL...XI
+    - BDC.FLXI
+  : 0.0817
+  ? - COF.HSXI
+    - PAY.HSXI
+  : -2.14
+  ? - USL...XI
+    - PG1.POXI
+  : -0.079
+  ? - UFF...XI
+    - PH1.SHXI
+  : -0.0022
+  ? - BMM...XI
+    - DMM...XI
+  : -1
+  ? - C...FOXI
+    - BHF.FLXI
+  : -1.812
+  ? - COF.HOXI
+    - IOF.HOXI
+  : 1
+  ? - BFI...XI
+    - MFI.FSXI
+  : -1
+  ? - BCE...XI
+    - PAS.BHXI
+  : 1
+  ? - CON.STXI
+    - ION.STXI
+  : 1
+  ? - USM...XI
+    - PAN.CRXI
+  : -0.223
+  ? - BF3...XI
+    - QWT0F3XI
+  : 1
+  ? - UKW...XI
+    - PFS.BGXI
+  : -118.106
+  ? - UCW...XI
+    - P...RDXI
+  : -2.4961
+  ? - UKW...XI
+    - P6H.HYXI
+  : -76.0552
+  ? - CUT.DHXI
+    - MC4.FPXI
+  : -1
+  ? - UPH...XI
+    - PYD.BHXI
+  : 7.824
+  ? - XSU.FLXI
+    - BP1.FLXI
+  : 1.3
+  ? - BHF...XI
+    - PYN.COXI
+  : 0.0394
+  ? - UKW...XI
+    - PC2.HYXI
+  : -71.7838
+  ? - BMM...XI
+    - PHH.NCXI
+  : 0.0134
+  ? - COF.SFXI
+    - PAD.SFXI
+  : -1
+  ? - CON.HOXI
+    - PAN.HOXI
+  : -1.02188
+  ? - CUT.CTXI
+    - IUT.CTXI
+  : 1
+  ? - UKW...XI
+    - PNF.NFXI
+  : -18.02
+  ? - CON.NPXI
+    - PNH.NPXI
+  : -1
+  ? - XSU.F3XI
+    - BHG.F3XI
+  : 0.2
+  ? - BDC...XI
+    - BDC.FLXI
+  : -1
+  ? - UPW...XI
+    - PYS.BCXI
+  : -0.7283
+  ? - CTK.CXXI
+    - PYN.COXI
+  : -1
+  ? - BC3...XI
+    - PHF.NCXI
+  : 0.015
+  ? - C...OFXI
+    - P...OFXI
+  : 1
+  ? - BAD...XI
+    - PAD.POXI
+  : -1
+  ? - UTW...XI
+    - PYH.POXI
+  : -62.63
+  ? - BMM...XI
+    - PYN.COXI
+  : 0.0011
+  ? - CON.CGXI
+    - PCC.CGXI
+  : -1.113
+  ? - BWS...XI
+    - PYN.COXI
+  : 0.1289
+  ? - BPS...XI
+    - PG1.POXI
+  : 0.0051
+  ? - CTK.SHXI
+    - PD1.SHXI
+  : -1
+  ? - FAT0..J.
+    - ION.SKXI
+  : 21.07328
+  ? - CUT.BHXI
+    - PYN.BHXI
+  : -0.2441
+  ? - CON.NPXI
+    - ION.NPXI
+  : 1
+  ? - UPW...XI
+    - PYS.BHXI
+  : -0.6047
+  ? - C...RDXI
+    - PYN.CRXI
+  : -0.0519
+  ? - UKW...XI
+    - P...F1XI
+  : -27.8678
+  ? - COF.POXI
+    - PYD.POXI
+  : -1
+  ? - BF3.WTXI
+    - BHG.F3XI
+  : 1
+  ? - FAT0..J.
+    - ION.HPXI
+  : 146.6683
+  ? - BDH...XI
+    - PD1.SHXI
+  : 0.9811
+  ? - BH1...XI
+    - BH1.FLXI
+  : -1
+  ? - BBT...XI
+    - PC3.HYXI
+  : 0.0222
+  ? - BRS...XI
+    - PIC.M3XI
+  : -1.2
+  ? - UCW...XI
+    - MHB.L2XI
+  : -1.534
+  ? - BNH...XI
+    - PD1.SHXI
+  : 0.0124
+  ? - UBW...XI
+    - PCK.CGXI
+  : -1.615
+  ? - UPB...XI
+    - UPB.GNXI
+  : 1
+  ? - BFL.WTXI
+    - BG1.FLXI
+  : 1
+  ? - UMC...XI
+    - PC4.HYXI
+  : -1.1676
+  ? - BC2...XI
+    - PSS.SHXI
+  : 0.0013
+  ? - BIP...XI
+    - PG1.POXI
+  : 0.7726
+  ? - BHR...XI
+    - BHR.F2XI
+  : -1
+  ? - UKW...XI
+    - PCE.TAXI
+  : -0.5422
+  ? - CON.GXXI
+    - UFS.GXXI
+  : -1
+  ? - XGS.F2XI
+    - QVO0F2XI
+  : -10
+  ? - UKW...XI
+    - P...FOXI
+  : -0.0006
+  ? - UFF...XI
+    - PCF.CGXI
+  : -0.0253
+  ? - UCW...XI
+    - PH1.NCXI
+  : -2.22
+  ? - BC3...XI
+    - PIC.M3XI
+  : 0.03069
+  ? - BDC...XI
+    - PHF.NCXI
+  : 0.6532
+  ? - BFL.VOXI
+    - BD1.FLXI
+  : 1.00705
+  ? - BWS...XI
+    - PHF.NCXI
+  : 0.0422
+  ? - UCW...XI
+    - UPK.G3XI
+  : -0.1271
+  ? - UKW...XI
+    - MHB.FGXI
+  : -0.5549
+  ? - C...RAXI
+    - PYN.COXI
+  : -0.0011
+  ? - FAT0..J.
+    - IUT.BCXI
+  : 2.64336
+  ? - FAT0..J.
+    - ION.NNXI
+  : 3.69496
+  ? - COF.SFXI
+    - IOF.SFXI
+  : 1
+  ? - USL...XI
+    - PCC.CGXI
+  : -1.72
+  ? - BG1...XI
+    - PG1.POXI
+  : -1
+  ? - FAT0..J.
+    - ION.CGXI
+  : 10.71777
+  ? - CON.GXXI
+    - UPM.GXXI
+  : -1
+  ? - BCE...XI
+    - PAY.HSXI
+  : 1
+  ? - XGS.FHXI
+    - QWT0FHXI
+  : 1
+  ? - UCW...XI
+    - PC2.HYXI
+  : -5.867
+  ? - UBW...XI
+    - PH1.POXI
+  : -1.8523
+  ? - C...FOXI
+    - BDC.F4XI
+  : -1.5995
+  ? - BCK...XI
+    - PYN.COXI
+  : 0.6529
+  ? - CON.SHXI
+    - PH1.SHXI
+  : -1
+  ? - BFL.WTXI
+    - BHN.FLXI
+  : 1
+  ? - UDW...XI
+    - PD1.SHXI
+  : -0.0084
+  ? - FAT0..J.
+    - IUT.BBXI
+  : 24.86637
+  ? - CTK.PSXI
+    - DPS...XI
+  : -1
+  ? - BFG...XI
+    - MFG.FFXI
+  : -1
+  ? - UKW...XI
+    - PYN.HOXI
+  : -152
+  ? - USL...XI
+    - UPB.GNXI
+  : -0.046
+  ? - BYD...XI
+    - PYD.SFXI
+  : -1
+  ? - BF3.VOXI
+    - BHG.F3XI
+  : 0.95147
+  ? - UCW...XI
+    - PAG.SFXI
+  : -8
+  ? - BMM...XI
+    - PGF.NCXI
+  : 0.0134
+  ? - BL3...XI
+    - MPR.L3XI
+  : 1.1833
+  ? - BWS...XI
+    - PCK.CGXI
+  : 0.17
+  ? - CTK.PHXI
+    - ITK.PHXI
+  : 1
+  ? - CTK.HSXI
+    - PAC.HSXI
+  : -1
+  ? - UMC...XI
+    - PYD.BHXI
+  : -1.559
+  ? - C...FOXI
+    - BP1.F2XI
+  : -2.3923
+  ? - CON.GXXI
+    - PYD.GXXI
+  : -1
+  ? - CTK.PSXI
+    - ITK.PSXI
+  : 1
+  ? - C...RDXI
+    - PH1.SHXI
+  : -0.0144
+  ? - COF.POXI
+    - IOF.POXI
+  : 1
+  ? - CON.POXI
+    - PYN.POXI
+  : -1.02315
+  ? - UMC...XI
+    - PC2.HYXI
+  : -1.1676
+  ? - BF1.WTXI
+    - BDF.F1XI
+  : 1
+  ? - UPH...XI
+    - PYN.BCXI
+  : 11.4943
+  ? - BMR...XI
+    - EMR...XI
+  : 1
+  ? - UTW...XI
+    - PC4.HYXI
+  : -130.53
+  ? - BWS...XI
+    - PG1.NCXI
+  : 0.0422
+  ? - CON.SHXI
+    - PD1.SHXI
+  : -1
+  ? - UFS...XI
+    - PFS.BGXI
+  : -1
+  ? - UCW...XI
+    - PWP.PHXI
+  : -1.5815
+  ? - BF1.VOXI
+    - BDH.F1XI
+  : 1.06383
+  ? - CUT.DHXI
+    - MIP.FIXI
+  : -0.146
+  ? - CTK.SHXI
+    - PSS.SHXI
+  : -1
+  ? - CON.CUXI
+    - PHS.CUXI
+  : -1
+  ? - CON.NNXI
+    - ION.NNXI
+  : 1
+  ? - BF4.WTXI
+    - BHN.F4XI
+  : 1
+  ? - BWW...XI
+    - PWW.WTXI
+  : -1
+  ? - BG1...XI
+    - PIC.M3XI
+  : 0.0418
+  ? - CTK.MMXI
+    - DMM...XI
+  : -1
+  ? - BIS...XI
+    - MIS.FIXI
+  : -1
+  ? - UCW...XI
+    - PYG.POXI
+  : -3.198
+  ? - UKW...XI
+    - UPW.GNXI
+  : -0.1989
+  ? - UMC...XI
+    - PWP.PHXI
+  : -0.0725
+  ? - UKW...XI
+    - PAN.COXI
+  : -12.91
+  ? - FAT0..J.
+    - ION.FDXI
+  : 2.05802
+  ? - BD1...XI
+    - PSS.SHXI
+  : -0.0154
+  ? - BHH...XI
+    - PHH.NCXI
+  : -1
+  ? - BG1...XI
+    - PYN.HOXI
+  : -0.0251
+  ? - UKW...XI
+    - PWW.WTXI
+  : -7.955
+  ? - BPS...XI
+    - PCF.CGXI
+  : 0.0547
+  ? - C...RDXI
+    - PGF.NCXI
+  : -0.072
+  ? - FAT0..J.
+    - IOF.HSXI
+  : 0.4855
+  ? - C...FOXI
+    - BH1.FLXI
+  : -1.5995
+  ? - FAT0..J.
+    - IOF.BHXI
+  : 4.72575
+  ? - C...FOXI
+    - BSB.F3XI
+  : -1.812
+  ? - CTK.DPXI
+    - MPR.FGXI
+  : -1
+  ? - UKW...XI
+    - PYN.COXI
+  : -12.91
+  ? - CON.M3XI
+    - ION.M3XI
+  : 1
+  ? - BAS...XI
+    - PAD.SFXI
+  : 1
+  ? - XSU.FLXI
+    - BHH.FLXI
+  : 0.01
+  ? - BNH...XI
+    - PC4.HYXI
+  : 0.0257
+  ? - BPS...XI
+    - PHS.CUXI
+  : 1
+  ? - UTW...XI
+    - PCC.CGXI
+  : -230.7
+  ? - BCE...XI
+    - PG1.POXI
+  : 0.01
+  ? - BYD...XI
+    - PYD.POXI
+  : -1
+  ? - CON.NFXI
+    - PNF.NFXI
+  : -1
+  ? - BF3.VOXI
+    - BHR.F3XI
+  : 1.25
+  ? - BAR...XI
+    - EAR...XI
+  : 1
+  ? - BC3...XI
+    - PC3.HYXI
+  : -1
+  ? - FAT0..J.
+    - DF2...XI
+  : -1
+  ? - BIL...XI
+    - MIL.FIXI
+  : -1
+  ? - BAG...XI
+    - PAG.GXXI
+  : -1
+  ? - BC4...XI
+    - PYN.COXI
+  : 0.0015
+  ? - C...FOXI
+    - BHF.F4XI
+  : -1.812
+  ? - XSL.F4XI
+    - BHR.F4XI
+  : 2
+  ? - UMC...XI
+    - PC3.HYXI
+  : -1.1676
+  ? - UPM...XI
+    - UPT.G1XI
+  : 0.0352
+  ? - CUT.DLXI
+    - MIS.FIXI
+  : -0.5
+  ? - BFS...XI
+    - UFS.GNXI
+  : -1
+  ? - FAT0..J.
+    - DF4...XI
+  : -1
+  ? - CON.FNXI
+    - ION.FNXI
+  : 1
+  ? - URW...XI
+    - UPW.GNXI
+  : -1
+  ? - UPM...XI
+    - UPM.GXXI
+  : -1
+  ? - FAT0..J.
+    - ITK.C3XI
+  : 35.83179
+  ? - BFL.VOXI
+    - BHR.FLXI
+  : 1.25
+  ? - UTW...XI
+    - MHB.FGXI
+  : -73.333
+  ? - BFL.VOXI
+    - BHF.FLXI
+  : 0.87719
+  ? - CUT.DHXI
+    - M6H.FPXI
+  : -1
+  ? - BHS...XI
+    - PYN.COXI
+  : 0.0023
+  ? - UBW...XI
+    - PYN.CRXI
+  : -0.0996
+  ? - UCW...XI
+    - PYN.COXI
+  : -1.3053
+  ? - UTW...XI
+    - PIC.HSXI
+  : -231.1
+  ? - UMC...XI
+    - PG1.NCXI
+  : -3.24
+  ? - USL...XI
+    - PYS.BCXI
+  : -0.2127
+  ? - BAR...XI
+    - PAR.PPXI
+  : -1
+  ? - CON.CGXI
+    - ION.CGXI
+  : 1
+  ? - BF3.WTXI
+    - BSB.F3XI
+  : 1
+  ? - UKW...XI
+    - PYS.BHXI
+  : -123.229
+  ? - BNH...XI
+    - PNF.NFXI
+  : 0.677
+  ? - BWS...XI
+    - PAG.SFXI
+  : 0.1
+  ? - UPM...XI
+    - UPT.G5XI
+  : -0.0073
+  ? - XSU.F1XI
+    - QWT0F1XI
+  : -0.3
+  ? - UKW...XI
+    - PP1.NCXI
+  : -29.4
+  ? - UTW...XI
+    - PYG.POXI
+  : -62.51
+  ? - BFX...XI
+    - PCC.CGXI
+  : 0.661
+  ? - XSU.FNXI
+    - QWT0FNXI
+  : -1
+  ? - BPX...XI
+    - PPX.FGXI
+  : -1
+  ? - BHG...XI
+    - BHG.F4XI
+  : -1
+  ? - BFG...XI
+    - MPR.FGXI
+  : 1.1546
+  ? - BYH...XI
+    - PYH.GXXI
+  : -1
+  ? - USM...XI
+    - P6H.HYXI
+  : -0.1065
+  ? - UBW...XI
+    - PG1.POXI
+  : -1.8523
+  ? - UMC...XI
+    - P...RDXI
+  : -0.1546
+  ? - B9H...XI
+    - PH1.SHXI
+  : -0.0103
+  ? - BFL...XI
+    - BGF.FLXI
+  : -0.1227
+  ? - XSU.FHXI
+    - QWT0FHXI
+  : -0.3
+  ? - BF4.VOXI
+    - BHG.F4XI
+  : 0.95147
+  ? - BF1.VOXI
+    - QVO0F1XI
+  : -1
+  ? - COF.BBXI
+    - IOF.BBXI
+  : 1
+  ? - BWS...XI
+    - PYS.BCXI
+  : 0.0876
+  ? - XGS.F1XI
+    - QWT0F1XI
+  : 1
+  ? - BFL...XI
+    - BP1.FLXI
+  : -0.1471
+  ? - BCE...XI
+    - PAN.BCXI
+  : 1
+  ? - USM...XI
+    - P...FOXI
+  : -0.003
+  ? - UCW...XI
+    - PH1.POXI
+  : -3.5
+  ? - BPR...XI
+    - PC4.HYXI
+  : 0.0335
+  ? - UFF...XI
+    - PGF.NCXI
+  : -0.0503
+  ? - BG1...XI
+    - BG1.FLXI
+  : -1
+  ? - BFI...XI
+    - MIS.FIXI
+  : 1
+  ? - UFF...XI
+    - P...F1XI
+  : -1.1224
+  ? - BHN...XI
+    - BHN.FLXI
+  : -1
+  ? - BFI...XI
+    - MIP.FIXI
+  : 1
+  ? - B6H...XI
+    - PD1.SHXI
+  : 0.0016
+  ? - UFF...XI
+    - PHS.CUXI
+  : -0.061
+  ? - UKW...XI
+    - PH1.POXI
+  : -72
+  ? - UOH...XI
+    - PG1.POXI
+  : 1.4972
+  ? - CUT.DSXI
+    - USM.GPXI
+  : -1.265
+  ? - UCW...XI
+    - P...OPXI
+  : -24.459
+  ? - USL...XI
+    - P...FOXI
+  : -0.0136
+  ? - BHB...XI
+    - PC2.HYXI
+  : 1.0126
+  ? - BWS...XI
+    - PYN.HOXI
+  : 0.5268
+  ? - B...XI
+    - B.FNXI
+  : -1
+  ? - UKW...XI
+    - PYG.POXI
+  : -70.85
+  ? - C...FOXI
+    - BNP.FHXI
+  : -1.3972
+  ? - CON.NFXI
+    - PN1.NFXI
+  : -1
+  ? - CTK.RAXI
+    - P...RAXI
+  : -1
+  ? - BYN...XI
+    - PYN.CRXI
+  : -1
+  ? - BF2...XI
+    - BHR.F2XI
+  : -0.6
+  ? - XSU.F3XI
+    - BHP.F3XI
+  : 0.083
+  ? - BC3...XI
+    - PN1.NFXI
+  : 0.0023
+  ? - UKW...XI
+    - PPX.FGXI
+  : -5.9631
+  ? - BRS...XI
+    - PSS.SHXI
+  : 1
+  ? - COF.PPXI
+    - IOF.PPXI
+  : 1
+  ? - CUT.BGXI
+    - IUT.BGXI
+  : 1
+  ? - CON.PHXI
+    - PWP.PHXI
+  : -1
+  ? - COF.RDXI
+    - P...RDXI
+  : -1
+  ? - UCW...XI
+    - PYD.SFXI
+  : -8
+  ? - BAY...XI
+    - PAY.HSXI
+  : -1
+  ? - UMC...XI
+    - PGF.NCXI
+  : -3.24
+  ? - BSS...XI
+    - PSS.SHXI
+  : -1
+  ? - BMM...XI
+    - PHF.NCXI
+  : 0.0134
+  ? - C...RAXI
+    - PCF.CGXI
+  : -0.0046
+  ? - COF.WTXI
+    - IOF.WTXI
+  : 1
+  ? - BCE...XI
+    - PH1.POXI
+  : 0.01
+  ? - BC2...XI
+    - PNF.NFXI
+  : 0.0023
+  ? - TIE.MRAR
+    - EMR...XI
+  : -9.1
+  ? - BCE...XI
+    - PYD.HOXI
+  : 0.01
+  ? - C...FOXI
+    - BD1.F4XI
+  : -1.5995
+  ? - BAS...XI
+    - PAS.BCXI
+  : -1
+  ? - C...FOXI
+    - BHR.F3XI
+  : -1.5995
+  ? - BC2...XI
+    - PH1.NCXI
+  : 0.0129
+  ? - BCE...XI
+    - PYD.POXI
+  : 0.01
+  ? - COF.HSXI
+    - PAC.HSXI
+  : -1
+  ? - BC2...XI
+    - PN1.NFXI
+  : 0.0023
+  ? - BFL.WTXI
+    - BH1.FLXI
+  : 1
+  ? - BPS...XI
+    - PYH.POXI
+  : 0.0385
+  ? - BWP...XI
+    - PWS.SWXI
+  : 1
+  ? - BGF...XI
+    - PYN.COXI
+  : 0.0735
+  ? - BHG...XI
+    - BHG.FLXI
+  : -1
+  ? - BYG...XI
+    - PYG.GXXI
+  : -1
+  ? - BFX...XI
+    - PCF.CGXI
+  : 0.672
+  ? - B6H...XI
+    - PYN.COXI
+  : 0.0045
+  ? - UMC...XI
+    - P...LEXI
+  : -0.0054
+  ? - BC2...XI
+    - PHF.NCXI
+  : 0.0129
+  ? - BWP...XI
+    - PWP.PHXI
+  : -1
+  ? - UMC...XI
+    - PYS.BCXI
+  : -1.881
+  ? - COF.POXI
+    - PYG.POXI
+  : -1.1032
+  ? - C...FOXI
+    - BHH.FLXI
+  : -1.5995
+  ? - BAF...XI
+    - PAG.SFXI
+  : 1
+  ? - COF.SFXI
+    - PYD.SFXI
+  : -1
+  ? - UCW...XI
+    - PAB.FGXI
+  : -1.1371
+  ? - BHH...XI
+    - PH1.SHXI
+  : 0.9811
+  ? - CTK.CXXI
+    - PAN.COXI
+  : -1
+  ? - COF.SKXI
+    - IOF.SKXI
+  : 1
+  ? - BFG...XI
+    - MFG.FSXI
+  : -1
+  ? - COF.SHXI
+    - PH1.SHXI
+  : -1
+  ? - CUT.TGXI
+    - UPK.G2XI
+  : -1.1
+  ? - BNF...XI
+    - PYN.CRXI
+  : 0.0063
+  ? - UTW...XI
+    - PC3.HYXI
+  : -130.53
+  ? - BFL...XI
+    - BHH.FLXI
+  : -0.5
+  ? - C...FOXI
+    - BG1.F3XI
+  : -2.3923
+  ? - CTK.HSXI
+    - PIC.HSXI
+  : -1
+  ? - BBT...XI
+    - PC4.HYXI
+  : 0.8223
+  ? - UKW...XI
+    - P...STXI
+  : -1137.988
+  ? - UPH...XI
+    - UPT.G3XI
+  : -0.0057
+  ? - UOL...XI
+    - PYN.CRXI
+  : 0.0996
+  ? - UKW...XI
+    - PHS.CUXI
+  : -88.454
+  ? - C...LEXI
+    - PP1.NCXI
+  : -0.0502
+  ? - BNH...XI
+    - PH1.NCXI
+  : 0.2803
+  ? - C...RAXI
+    - PN1.NFXI
+  : -0.0007
+  ? - XGS.F3XI
+    - QWT0F3XI
+  : 1
+  ? - FAT0..J.
+    - IUT.DSXI
+  : 0.24711
+  ? - UCW...XI
+    - PYF.HSXI
+  : -15.85
+  ? - UFF...XI
+    - PHF.NCXI
+  : -0.0503
+  ? - B9H...XI
+    - PG1.NCXI
+  : -0.0784
+  ? - BYD...XI
+    - PYD.BHXI
+  : -1
+  ? - BFH.WTXI
+    - BNP.FHXI
+  : 1
+  ? - BPR...XI
+    - MPR.L3XI
+  : -1
+  ? - BO2...XI
+    - PYG.POXI
+  : -1.0148
+  ? - KFG.PRXI
+    - PPX.FGXI
+  : -1
+  ? - BMM...XI
+    - PH1.SHXI
+  : 0.0007
+  ? - COF.HOXI
+    - PYD.HOXI
+  : -1
+  ? - BFL...XI
+    - BHR.FLXI
+  : -0.6
+  ? - FAT0..J.
+    - ION.NSXI
+  : 2.7243
+  ? - UCW...XI
+    - PCF.CGXI
+  : -25.8
+  ? - UPW...XI
+    - PWW.WTXI
+  : 0.5362
+  ? - COF.BHXI
+    - PYS.BHXI
+  : -0.6624
+  ? - BHB...XI
+    - PC3.HYXI
+  : 0.1805
+  ? - BPR...XI
+    - PC3.HYXI
+  : 0.7863
+  ? - C...FOXI
+    - BNH.FNXI
+  : -1.3972
+  ? - BO2...XI
+    - P...OPXI
+  : 1
+  ? - CUT.BCXI
+    - PYN.BCXI
+  : -13.466
+  ? - UKW...XI
+    - PYD.BHXI
+  : -111.49
+  ? - UMC...XI
+    - PYS.BHXI
+  : -1.559
+  ? - XSL.FLXI
+    - BHR.FLXI
+  : 2
+  ? - CON.CGXI
+    - PCK.CGXI
+  : -1
+  ? - BG1...XI
+    - PAB.FGXI
+  : -0.0245
+  ? - BF3...XI
+    - BHG.F3XI
+  : -0.0484
+  ? - XSL.FLXI
+    - BHH.FLXI
+  : 0.4
+  ? - CUT.RSXI
+    - IUT.RSXI
+  : 1
+  ? - BC3...XI
+    - PYN.COXI
+  : 0.0038
+  ? - UMC...XI
+    - PP1.NCXI
+  : -3.24
+  ? - COF.HSXI
+    - IOF.HSXI
+  : 1
+  ? - CUT.DSXI
+    - UPT.G3XI
+  : -0.0063
+  ? - CUT.DLXI
+    - IUT.DLXI
+  : 1
+  ? - USL...XI
+    - PYN.HOXI
+  : -1.23
+  ? - FAT0..J.
+    - ION.RDXI
+  : 0.60438
+  ? - C...STXI
+    - PCF.CGXI
+  : -0.0547
+  ? - COF.POXI
+    - PAG.POXI
+  : -1.1032
+  ? - C...RDXI
+    - PSS.SHXI
+  : -0.0144
+  ? - BFG...XI
+    - MHB.FGXI
+  : 1.227
+  ? - BNH...XI
+    - PN1.NFXI
+  : 0.677
+  ? - UFF...XI
+    - PG1.NCXI
+  : -0.0503
+  ? - BHS...XI
+    - PSS.SHXI
+  : 0.0023
+  ? - UMC...XI
+    - UMC.GNXI
+  : 1
+  ? - CON.SWXI
+    - PWS.SWXI
+  : -1
+  ? - C...FOXI
+    - BHG.F4XI
+  : -1.5995
+  ? - COF.POXI
+    - PYN.POXI
+  : -1.01605
+  ? - USL...XI
+    - PAN.COXI
+  : -0.1544
+  ? - COF.HOXI
+    - PAN.HOXI
+  : -1.0162
+  ? - FAT0..J.
+    - ION.NFXI
+  : 1.87473
+  ? - C...FOXI
+    - BHF.F2XI
+  : -1.812
+  ? - CTK.DPXI
+    - ITK.DPXI
+  : 1
+  ? - BF1.WTXI
+    - BD1.F1XI
+  : 1
+  ? - BC3...XI
+    - PNF.NFXI
+  : 0.0023
+  ? - URW...XI
+    - UPD.GNXI
+  : 0.1358
+  ? - BHB...XI
+    - PYN.HOXI
+  : 0.031
+  ? - CON.STXI
+    - P...STXI
+  : -1
+  ? - CUT.TWXI
+    - UPT.G4XI
+  : -1.1
+  ? - FAT0..J.
+    - IOF.RDXI
+  : 0.00741
+  ? - USL...XI
+    - PYN.BCXI
+  : -0.8393
+  ? - CON.F1XI
+    - P...F1XI
+  : -1
+  ? - UMC...XI
+    - PNF.NFXI
+  : -1.539
+  ? - BC3...XI
+    - PH1.SHXI
+  : 0.0001
+  ? - FAT0..J.
+    - IOF.POXI
+  : 0.96767
+  ? - BWS...XI
+    - PAN.COXI
+  : 0.1289
+  ? - CON.L1XI
+    - ION.L1XI
+  : 1
+  ? - C...OFXI
+    - PIC.M3XI
+  : -1
+  ? - CUT.BHXI
+    - IUT.BHXI
+  : 1
+  ? - UKW...XI
+    - PYD.BCXI
+  : -111.45
+  ? - BCE...XI
+    - PYS.BCXI
+  : 0.1394
+  ? - UPB...XI
+    - UBW.GPXI
+  : -1.15
+  ? - CTK.C4XI
+    - ITK.C4XI
+  : 1
+  ? - BFL...XI
+    - BHG.FLXI
+  : -0.0484
+  ? - BHB...XI
+    - PC4.HYXI
+  : 0.1003
+  ? - COF.CAXI
+    - PAN.COXI
+  : -1.5
+  ? - FAT0..J.
+    - ION.NRXI
+  : 8.89789
+  ? - UKW...XI
+    - PHF.NCXI
+  : -29.4
+  ? - BFL...XI
+    - QWT0FLXI
+  : 1
+  ? - C...FOXI
+    - BHH.F2XI
+  : -1.5995
+  ? - CON.GXXI
+    - PAD.GXXI
+  : -1
+  ? - UMC...XI
+    - PHH.NCXI
+  : -3.24
+  ? - BAN...XI
+    - PAN.HOXI
+  : -1
+  ? - C...LEXI
+    - PYN.CRXI
+  : -0.0123
+  ? - BC4...XI
+    - PG1.NCXI
+  : 0.0352
+  ? - C...FOXI
+    - BDH.F4XI
+  : -1.5995
+  ? - UPW...XI
+    - PCC.CGXI
+  : -0.68
+  ? - BHB...XI
+    - MHB.FGXI
+  : -1
+  ? - UMC...XI
+    - PYN.HOXI
+  : -1.15
+  ? - UKW...XI
+    - PH1.NCXI
+  : -29.4
+  ? - UTW...XI
+    - PP1.NCXI
+  : -53.4
+  ? - COF.OFXI
+    - P...OFXI
+  : -1
+  ? - UTW...XI
+    - PYN.POXI
+  : -62.44
+  ? - UPK...XI
+    - UPK.G3XI
+  : 1
+  ? - XSU.F2XI
+    - BHR.F2XI
+  : 0.083
+  ? - UCW...XI
+    - PHF.NCXI
+  : -2.22
+  ? - CMC...XI
+    - UMC.GNXI
+  : -1
+  ? - FAT0..J.
+    - ION.NCXI
+  : 10.3509
+  ? - BF2...XI
+    - BHG.F2XI
+  : -0.0484
+  ? - FAT0..J.
+    - DMM...XI
+  : -1
+  ? - FAT0..J.
+    - ION.HOXI
+  : 19.59433
+  ? - COF.POXI
+    - PAN.POXI
+  : -1.01605
+  ? - BHS...XI
+    - PNF.NFXI
+  : 0.00459
+  ? - UPL...XI
+    - UPL.GXXI
+  : -1
+  ? - BCE...XI
+    - PYN.BHXI
+  : 0.14551
+  ? - CUT.KWXI
+    - UKW.GPXI
+  : -1.265
+  ? - BH1...XI
+    - PIC.M3XI
+  : 0.05688
+  ? - UPW...XI
+    - PYD.BHXI
+  : -0.6047
+  ? - CTK.HSXI
+    - PAF.HSXI
+  : -1
+  ? - USL...XI
+    - P...OFXI
+  : -0.0167
+  ? - UOL...XI
+    - PCK.CGXI
+  : 1.615
+  ? - C...STXI
+    - PCK.CGXI
+  : -0.0325
+  ? - XSU.FLXI
+    - BGF.FLXI
+  : 1.1
+  ? - CON.NRXI
+    - ION.NRXI
+  : 1
+  ? - CUT.BBXI
+    - IUT.BBXI
+  : 1
+  ? - BWS...XI
+    - PGF.NCXI
+  : 0.0422
+  ? - USL...XI
+    - PYG.POXI
+  : -0.0939
+  ? - C...RDXI
+    - PD1.SHXI
+  : -0.0144
+  ? - UKW...XI
+    - P...RAXI
+  : -258.877
+  ? - C...RAXI
+    - PG1.NCXI
+  : -0.0134
+  ? - UKW...XI
+    - PH1.SHXI
+  : -1.0695
+  ? - BO2...XI
+    - PYD.POXI
+  : -1.0127
+  ? - UPH...XI
+    - UPK.G2XI
+  : -0.0082
+  ? - UPM...XI
+    - UPM.GOXI
+  : 1
+  ? - XGS.FLXI
+    - QWT0FLXI
+  : 1
+  ? - CON.NCXI
+    - ION.NCXI
+  : 1
+  ? - COF.PPXI
+    - PAR.PPXI
+  : -1
+  ? - UKW...XI
+    - PCC.CGXI
+  : -2
+  ? - CUT.DHXI
+    - MIF.FIXI
+  : -0.146
+  ? - CON.CXXI
+    - PAN.CRXI
+  : -1.037
+  ? - UPW...XI
+    - PAD.SFXI
+  : -0.1
+  ? - CTK.MMXI
+    - ITK.MMXI
+  : 1
+  ? - UTW...XI
+    - UTW.GPXI
+  : 1
+  ? - UPK...XI
+    - UPK.G2XI
+  : 1
+  ? - BFL.VOXI
+    - BHH.FLXI
+  : 0.90909
+  ? - BL4...XI
+    - MBT.L4XI
+  : 1.164
+  ? - BWS...XI
+    - PHH.NCXI
+  : 0.0422
+  ? - BFL.VOXI
+    - BDC.FLXI
+  : 1.08413
+  ? - BFX...XI
+    - PCK.CGXI
+  : 0.663
+  ? - USL...XI
+    - PAB.FGXI
+  : -0.0126
+  ? - BWS...XI
+    - PIC.M3XI
+  : 0.132
+  ? - BF1.VOXI
+    - BDC.F1XI
+  : 1.08413
+  ? - BF3.WTXI
+    - BHN.F3XI
+  : 1
+  ? - BCE...XI
+    - PAN.HOXI
+  : 1
+  ? - BL4...XI
+    - DL4...XI
+  : -1
+  ? - BCE...XI
+    - PAH.POXI
+  : 1
+  ? - XSU.F1XI
+    - BDF.F1XI
+  : 0.9
+  ? - FAT0..J.
+    - ION.FNXI
+  : 1.54625
+  ? - B6H...XI
+    - M6H.FPXI
+  : -1
+  ? - CON.SGXI
+    - ION.SGXI
+  : 1
+  ? - FAT0..J.
+    - DL3...XI
+  : -1
+  ? - FAT0..J.
+    - DPS...XI
+  : -1
+  ? - USM...XI
+    - PYN.CRXI
+  : -0.223
+  ? - BWS...XI
+    - PYY.HSXI
+  : 0.5268
+  ? - CON.LEXI
+    - P...LEXI
+  : -1
+  ? - BMM...XI
+    - PSS.SHXI
+  : 0.0007
+  ? - BCE...XI
+    - PYY.HSXI
+  : 0.026
+  ? - C...RAXI
+    - PHH.NCXI
+  : -0.0134
+  ? - UFF...XI
+    - PNF.NFXI
+  : -0.0026
+  ? - BFL.WTXI
+    - BHF.FLXI
+  : 1
+  ? - BFI...XI
+    - MIL.FIXI
+  : 1
+  ? - C...LEXI
+    - PH1.NCXI
+  : -0.0502
+  ? - UMC...XI
+    - UPC.GNXI
+  : -0.0112
+  ? - UPK...XI
+    - UPK.G1XI
+  : 1
+  ? - CUT.PDXI
+    - UPD.GNXI
+  : -1.1
+  ? - UPT...XI
+    - UPT.G5XI
+  : 1
+  ? - USM...XI
+    - PAN.COXI
+  : -0.1975
+  ? - UCW...XI
+    - PIC.HSXI
+  : -15.85
+  ? - BF1...XI
+    - QWT0F1XI
+  : 1
+  ? - XGS.F3XI
+    - QVO0F3XI
+  : -10
+  ? - C...FOXI
+    - BDH.FLXI
+  : -1.5995
+  ? - UMC...XI
+    - PYD.BCXI
+  : -1.881
+  ? - COF.BHXI
+    - PAD.BHXI
+  : -1.0795
+  ? - BAC...XI
+    - PAC.HSXI
+  : -1
+  ? - BWS...XI
+    - PYN.POXI
+  : 0.0325
+  ? - CON.NCXI
+    - PH1.NCXI
+  : -1
+  ? - FAT0..J.
+    - ITK.PSXI
+  : 0.52005
+  ? - C...FOXI
+    - BP1.F3XI
+  : -2.3923
+  ? - CTK.HOXI
+    - ITK.HOXI
+  : 1
+  ? - USL...XI
+    - PYD.BHXI
+  : -0.8399
+  ? - BFN.VOXI
+    - QVO0FNXI
+  : -1
+  ? - USL...XI
+    - PYH.POXI
+  : -0.1192
+  ? - BFN...XI
+    - DFN...XI
+  : -1
+  ? - BFN...XI
+    - QWT0FNXI
+  : 1
+  ? - C...RAXI
+    - PH1.NCXI
+  : -0.0134
+  ? - BF4.WTXI
+    - QWT0F4XI
+  : -1
+  ? - BMM...XI
+    - PH1.NCXI
+  : 0.0134
+  ? - COF.BCXI
+    - PAS.BCXI
+  : -27.6428
+  ? - CUT.BGXI
+    - PFS.BGXI
+  : -13.2371
+  ? - UPW...XI
+    - PYN.BCXI
+  : -0.7628
+  ? - UKW...XI
+    - UPC.GNXI
+  : -0.3213
+  ? - XSU.FLXI
+    - BDC.FLXI
+  : 0.01
+  ? - BFL...XI
+    - BD1.FLXI
+  : 0.0083
+  ? - USL...XI
+    - PYD.BCXI
+  : -0.8393
+  ? - UKW...XI
+    - PYN.BCXI
+  : -111.45
+  ? - BC2...XI
+    - PHH.NCXI
+  : 0.0129
+  ? - UTW...XI
+    - PH1.NCXI
+  : -53.4
+  ? - C...LEXI
+    - PNF.NFXI
+  : 0.9977
+  ? - UKW...XI
+    - PAN.CRXI
+  : -12.91
+  ? - CUT.DSXI
+    - USH.GPXI
+  : -1.265
+  ? - BNH...XI
+    - PNH.NPXI
+  : -1
+  ? - BF2...XI
+    - BHN.F2XI
+  : -0.0007
+  ? - BF3.WTXI
+    - BHP.F3XI
+  : 1
+  ? - UPH...XI
+    - PYN.BHXI
+  : 7.78
+  ? - USM...XI
+    - PC3.HYXI
+  : -0.1065
+  ? - UCW...XI
+    - P6H.HYXI
+  : -62.674
+  ? - BF3...XI
+    - BSB.F3XI
+  : -0.1471
+  ? - CON.NCXI
+    - PG1.NCXI
+  : -1
+  ? - C...LEXI
+    - PNH.NPXI
+  : -0.038
+  ? - UPB...XI
+    - PYN.BCXI
+  : -11.4943
+  ? - BWW...XI
+    - PWP.PHXI
+  : 1
+  ? - BC2...XI
+    - PD1.SHXI
+  : 0.0013
+  ? - UPL...XI
+    - USL.GPXI
+  : -1.15
+  ? - CON.CXXI
+    - PAN.COXI
+  : -1
+  ? - BWS...XI
+    - PH1.POXI
+  : 0.0325
+  ? - FAT0..J.
+    - EMR...XI
+  : 35.8586
+  ? - BFL.WTXI
+    - BP1.FLXI
+  : 1
+  ? - BFF...XI
+    - MFI.FFXI
+  : 1
+  ? - UPC...XI
+    - UCW.GPXI
+  : -1.15
+  ? - COF.SHXI
+    - PSS.SHXI
+  : -1
+  ? - BFF...XI
+    - UFF.GXXI
+  : -1
+  ? - XGS.F1XI
+    - QVO0F1XI
+  : -10
+  ? - BWS...XI
+    - PH1.NCXI
+  : 0.0422
+  ? - CON.POXI
+    - PAD.POXI
+  : -1
+  ? - FAT0..J.
+    - ITK.MMXI
+  : 36.70052
+  ? - UDW...XI
+    - PYN.HOXI
+  : -2.184
+  ? - BFH.VOXI
+    - BNP.FHXI
+  : 1.24425
+  ? - XSU.FLXI
+    - BDF.FLXI
+  : 0.9
+  ? - BGF...XI
+    - PYN.CRXI
+  : 0.0826
+  ? - USL...XI
+    - MPR.FGXI
+  : -0.3422
+  ? - BAN...XI
+    - PAN.GXXI
+  : -1
+  ? - UTW...XI
+    - PYN.HOXI
+  : -247.1
+  ? - USL...XI
+    - P...RDXI
+  : -0.4221
+  ? - UKW...XI
+    - PAG.SFXI
+  : -144
+  ? - XGS.FLXI
+    - QVO0FLXI
+  : -10
+  ? - BCE...XI
+    - PYD.BCXI
+  : 0.1394
+  ? - COF.OFXI
+    - IOF.OFXI
+  : 1
+  ? - CUT.DPXI
+    - MPR.FGXI
+  : -1
+  ? - BF2.VOXI
+    - BHG.F2XI
+  : 0.95147
+  ? - UPT...XI
+    - UPT.G4XI
+  : 1
+  ? - UPW...XI
+    - PYN.BHXI
+  : -0.60132
+  ? - UBW...XI
+    - PAN.CRXI
+  : -0.0996
+  ? - BC4...XI
+    - PIC.M3XI
+  : 0.0176
+  ? - UFF...XI
+    - PAB.FGXI
+  : -0.0025
+  ? - FAT0..J.
+    - ITK.HSXI
+  : 0.18299
+  ? - CON.HYXI
+    - ION.HYXI
+  : 1
+  ? - CON.HSXI
+    - PAC.HSXI
+  : -1
+  ? - FAT0..J.
+    - IOF.WTXI
+  : 0.94443
+  ? - BPS...XI
+    - PIC.HSXI
+  : 0.0487
+  ? - UTW...XI
+    - PGF.NCXI
+  : -53.4
+  ? - TIE.MRAR
+    - EAR...XI
+  : 90.9
+  ? - BCE...XI
+    - PYN.POXI
+  : 0.01
+  ? - BCE...XI
+    - PYH.POXI
+  : 0.01
+  ? - CTK.STXI
+    - P...STXI
+  : -1
+  ? - UKW...XI
+    - URW.GNXI
+  : -1.5952
+  ? - BF1...XI
+    - BDC.F1XI
+  : 0.0817
+  ? - C...RAXI
+    - PNF.NFXI
+  : -0.0007
+  ? - CUT.RSXI
+    - PWW.WTXI
+  : -0.5878
+  ? - FAT0..J.
+    - ITK.STXI
+  : 2.13127
+  ? - BGF...XI
+    - PGF.NCXI
+  : -1
+  ? - FAT0..J.
+    - ION.PHXI
+  : 0.41798
+  ? - BCE...XI
+    - PYN.BCXI
+  : 0.146
+  ? - BL3...XI
+    - DL3...XI
+  : -1
+  ? - UPT...XI
+    - UTW.GPXI
+  : -1.1
+  ? - COF.BHXI
+    - IOF.BHXI
+  : 1
+  ? - BAD...XI
+    - PAD.HOXI
+  : -1
+  ? - BC3...XI
+    - MC3.FPXI
+  : -1
+  ? - BC4...XI
+    - PGF.NCXI
+  : 0.0352
+  ? - COF.SHXI
+    - IOF.SHXI
+  : 1
+  ? - CON.PHXI
+    - ION.PHXI
+  : 1
+  ? - BCK...XI
+    - PAN.CRXI
+  : -0.5
+  ? - BF2.VOXI
+    - BHR.F2XI
+  : 1.25
+  ? - UBW...XI
+    - PAN.COXI
+  : -0.0996
+  ? - CTK.LEXI
+    - P...LEXI
+  : -1
+  ? - BMM...XI
+    - PP1.NCXI
+  : 0.0134
+  ? - BPS...XI
+    - DPS...XI
+  : -1
+  ? - CON.HPXI
+    - ION.HPXI
+  : 1
+  ? - UMC...XI
+    - PIC.HSXI
+  : -1.15
+  ? - COF.HSXI
+    - PIC.HSXI
+  : -1
+  ? - CON.GXXI
+    - PYG.GXXI
+  : -1
+  ? - BC2...XI
+    - PGF.NCXI
+  : 0.0129
+  ? - BIP...XI
+    - PYH.POXI
+  : 0.719
+  ? - BFL.WTXI
+    - BDH.FLXI
+  : 1
+  ? - UBW...XI
+    - PYN.COXI
+  : -0.0996
+  ? - UKW...XI
+    - P...OFXI
+  : -5.6433
+  ? - UPW...XI
+    - PYD.SFXI
+  : -0.1
+  ? - UKW...XI
+    - PAD.SFXI
+  : -144
+  ? - BCE...XI
+    - PYN.HOXI
+  : 0.01
+  ? - C...FOXI
+    - BNF.FNXI
+  : -1.3972
+  ? - UHE...XI
+    - PIC.M3XI
+  : -0.0541
+  ? - UTW...XI
+    - PYD.HOXI
+  : -247.1
+  ? - UOL...XI
+    - PAB.FGXI
+  : 0.0944
+  ? - UMC...XI
+    - PYF.HSXI
+  : -1.15
+  ? - CON.HOXI
+    - PYN.HOXI
+  : -1.02188
+  ? - BH1...XI
+    - PH1.SHXI
+  : -1
+  ? - B9H...XI
+    - PYF.HSXI
+  : 0.2
+  ? - CON.SHXI
+    - ION.SHXI
+  : 1
+  ? - KLQ.PRXI
+    - PIC.M3XI
+  : -1
+  ? - XGS.FNXI
+    - QWT0FNXI
+  : 1
+  ? - XSU.FLXI
+    - BHR.FLXI
+  : 0.083
+  ? - XSU.F3XI
+    - BSB.F3XI
+  : 1.3
+  ? - BHB...XI
+    - PYF.HSXI
+  : 0.0376
+  ? - C...RDXI
+    - PG1.NCXI
+  : -0.072
+  ? - BAD...XI
+    - PAD.GXXI
+  : -1
+  ? - UBW...XI
+    - PYD.POXI
+  : -1.8523
+  ? - UTW...XI
+    - PH1.SHXI
+  : -8.8803
+  ? - BF4.VOXI
+    - BHR.F4XI
+  : 1.25
+  ? - UMC...XI
+    - UPD.GNXI
+  : -0.005
+  ? - XGS.FNXI
+    - QVO0FNXI
+  : -10
+  ? - CON.HYXI
+    - PC3.HYXI
+  : -1
+  ? - FAT0..J.
+    - DF3...XI
+  : -1
+  ? - CON.GXXI
+    - UPH.GXXI
+  : -1
+  ? - BC3...XI
+    - PNH.NPXI
+  : 0.015
+  ? - COF.TAXI
+    - PCE.TAXI
+  : -1.2
+  ? - FAT0..J.
+    - IOF.BCXI
+  : 0.38919
+  ? - BC4...XI
+    - PC4.HYXI
+  : -1
+  ? - BYH...XI
+    - PYH.POXI
+  : -1
+  ? - BF1...XI
+    - BD1.F1XI
+  : 0.0083
+  ? - BPR...XI
+    - MPR.FGXI
+  : -1
+  ? - BPS...XI
+    - PYG.POXI
+  : 0.0303
+  ? - BSB...XI
+    - BSB.F3XI
+  : -1
+  ? - BWS...XI
+    - PCC.CGXI
+  : 0.5
+  ? - BH1...XI
+    - PH1.NCXI
+  : -1
+  ? - UOH...XI
+    - UPH.GOXI
+  : -1
+  ? - CUT.DSXI
+    - UPT.G4XI
+  : -0.0201
+  ? - BC4...XI
+    - PHH.NCXI
+  : 0.0352
+  ? - BNP...XI
+    - PNH.NPXI
+  : 0.9078
+  ? - CON.CUXI
+    - ION.CUXI
+  : 1
+  ? - UBW...XI
+    - PHS.CUXI
+  : -3.17
+  ? - BNP...XI
+    - PN1.NFXI
+  : 0.323
+  ? - BMM...XI
+    - PD1.SHXI
+  : 0.0007
+  ? - FAT0..J.
+    - IUT.DHXI
+  : 2.61058
+  ? - BG1...XI
+    - PPX.FGXI
+  : -0.0245
+  ? - CUT.DSXI
+    - UPT.G5XI
+  : -0.008
+  ? - BFS...XI
+    - MFX.FGXI
+  : 0.1
+  ? - BF4.VOXI
+    - QVO0F4XI
+  : -1
+  ? - B9H...XI
+    - PYY.HSXI
+  : 0.2
+  ? - UDW...XI
+    - PSS.SHXI
+  : -0.0084
+  ? - BFF...XI
+    - MFG.FFXI
+  : 1
+  ? - BYD...XI
+    - PYD.BCXI
+  : -1
+  ? - BAN...XI
+    - PAN.COXI
+  : -1
+  ? - UCW...XI
+    - UPT.G3XI
+  : -0.0883
+  ? - COF.HOXI
+    - PYN.HOXI
+  : -1.0162
+  ? - BHR...XI
+    - BHR.F4XI
+  : -1
+  ? - BYN...XI
+    - PYN.BHXI
+  : -1
+  ? - FAT0..J.
+    - ION.F1XI
+  : 40.54475
+  ? - C...STXI
+    - P...STXI
+  : 1
+  ? - CON.M3XI
+    - PIC.M3XI
+  : -1
+  ? - BWS...XI
+    - PCF.CGXI
+  : 0.5
+  ? - CUT.TWXI
+    - UPT.G2XI
+  : -1.1
+  ? - UBW...XI
+    - PPX.FGXI
+  : -0.0944
+  ? - BG1...XI
+    - MH1.G1XI
+  : 1
+  ? - BCC...XI
+    - PCC.CGXI
+  : -1
+  ? - UTW...XI
+    - PC2.HYXI
+  : -130.53
+  ? - XSU.F3XI
+    - QWT0F3XI
+  : -10
+  ? - BCE...XI
+    - PAC.HSXI
+  : 1
+  ? - UCW...XI
+    - PH1.SHXI
+  : -0.8357
+  ? - XSU.F4XI
+    - BHG.F4XI
+  : 0.2
+  ? - BDH...XI
+    - BDH.F1XI
+  : -1
+  ? - XSU.F3XI
+    - BHN.F3XI
+  : 0.08
+  ? - BF3...XI
+    - DF3...XI
+  : -1
+  ? - FAT0..J.
+    - ION.CXXI
+  : 1.78087
+  ? - UCW...XI
+    - P...RAXI
+  : -79.2522
+  ? - UPH...XI
+    - UPL.GMXI
+  : -1
+  ? - BFH...XI
+    - BNP.FHXI
+  : 0.0929
+  ? - UKW...XI
+    - PGF.NCXI
+  : -29.4
+  ? - UPM...XI
+    - UPM.BYXI
+  : 1
+  ? - CON.NCXI
+    - PHF.NCXI
+  : -1
+  ? - FAT0..J.
+    - ION.F2XI
+  : 32.44673
+  ? - COF.HOXI
+    - PAD.HOXI
+  : -1
+  ? - UFF...XI
+    - PNH.NPXI
+  : -0.0407
+  ? - CON.POXI
+    - PAN.POXI
+  : -1.02315
+  ? - BCE...XI
+    - PAD.BCXI
+  : 1
+  ? - BFL.WTXI
+    - BHH.FLXI
+  : 1
+  ? - BYD...XI
+    - PYD.GXXI
+  : -1
+  ? - BYG...XI
+    - PYG.SFXI
+  : -1
+  ? - CON.CXXI
+    - PYN.COXI
+  : -1
+  ? - BO2...XI
+    - PYY.HSXI
+  : -1
+  ? - FAT0..J.
+    - IUT.TWXI
+  : 0.00031
+  ? - BH1...XI
+    - MH1.G1XI
+  : -1
+  ? - C...LEXI
+    - PHF.NCXI
+  : -0.0502
+  ? - UCW...XI
+    - PYY.HSXI
+  : -15.85
+  ? - CTK.SHXI
+    - PH1.SHXI
+  : -1
+  ? - BFS...XI
+    - UFS.GXXI
+  : -1
+  ? - UPH...XI
+    - UPH.GXXI
+  : -1
+  ? - XGS.F4XI
+    - QWT0F4XI
+  : 1
+  ? - BHN...XI
+    - BHN.F2XI
+  : -1
+  ? - B6H...XI
+    - PYN.CRXI
+  : 0.0055
+  ? - BWS...XI
+    - PAB.FGXI
+  : 0.0076
+  ? - B9H...XI
+    - PGF.NCXI
+  : -0.079
+  ? - UOM...XI
+    - PCF.CGXI
+  : 2.095
+  ? - BC3...XI
+    - PYN.CRXI
+  : 0.0045
+  ? - BF2.WTXI
+    - BHG.F2XI
+  : 1
+  ? - C...FOXI
+    - BHR.FLXI
+  : -1.5995
+  ? - BAN...XI
+    - PAN.BHXI
+  : -1
+  ? - CUT.RTXI
+    - PWW.WTXI
+  : -0.5878
+  ? - CTK.DPXI
+    - MBT.FGXI
+  : -0.25
+  ? - BF3.VOXI
+    - BSB.F3XI
+  : 0.83963
+  ? - BF2...XI
+    - DF2...XI
+  : -1
+  ? - C...FOXI
+    - BG1.F2XI
+  : -2.3923
+  ? - UBW...XI
+    - PYG.POXI
+  : -1.8484
+  ? - BNP...XI
+    - BNP.FHXI
+  : -1
+  ? - B9H...XI
+    - PYD.HOXI
+  : 0.2082
+  ? - BDF...XI
+    - PYN.CRXI
+  : 0.025
+  ? - BHB...XI
+    - MHB.L2XI
+  : -1
+  ? - BF1...XI
+    - BDH.F1XI
+  : 0.0532
+  ? - CON.SGXI
+    - MHB.L2XI
+  : -1
+  ? - CON.CXXI
+    - PYN.CRXI
+  : -1.037
+  ? - BCE...XI
+    - PAF.HSXI
+  : 1
+  ? - BFH...XI
+    - DFH...XI
+  : -1
+  ? - C...RAXI
+    - PGF.NCXI
+  : -0.0134
+  ? - BMM...XI
+    - PIC.M3XI
+  : 0.00572
+  ? - BPS...XI
+    - PCC.CGXI
+  : 0.0723
+  ? - CON.POXI
+    - PYD.POXI
+  : -1
+  ? - UMC...XI
+    - P...RAXI
+  : -5.6863
+  ? - C...RAXI
+    - P...RAXI
+  : 1
+  ? - CON.M2XI
+    - ION.M2XI
+  : 1
+  ? - UPW...XI
+    - PAG.SFXI
+  : -0.1
+  ? - BFL.VOXI
+    - BDH.FLXI
+  : 1.06383
+  ? - UKW...XI
+    - PSS.SHXI
+  : -1.0695
+  ? - FAT0..J.
+    - ITK.LEXI
+  : 0.68779
+  ? - BH1...XI
+    - PSS.SHXI
+  : -0.0039
+  ? - BC4...XI
+    - PH1.NCXI
+  : 0.0352
+  ? - UBW...XI
+    - PAB.FGXI
+  : -0.0944
+  ? - USL...XI
+    - USL.GPXI
+  : 1
+  ? - UCW...XI
+    - PAN.CRXI
+  : -1.4738
+  ? - BPR...XI
+    - PC2.HYXI
+  : 0.0015
+  ? - USL...XI
+    - PIC.HSXI
+  : -1.053
+  ? - CTK.STXI
+    - ITK.STXI
+  : 1
+  ? - USL...XI
+    - PYN.BHXI
+  : -0.8352
+rhs: {}
+bounds:
+  0.BOUND:
+    ? - DF1...XI
+      - Up
+    : 100
+    ? - DFH...XI
+      - Up
+    : 100
+    ? - DF4...XI
+      - Up
+    : 100
+    ? - DF3...XI
+      - Up
+    : 100
+    ? - DL2...XI
+      - Up
+    : 100
+    ? - KLQ.PRXI
+      - Lo
+    : 10
+    ? - DL4...XI
+      - Up
+    : 100
+    ? - DPS...XI
+      - Up
+    : 100
+    ? - DF2...XI
+      - Up
+    : 100
+    ? - DMM...XI
+      - Up
+    : 100
+    ? - DL3...XI
+      - Up
+    : 100
+    ? - EMR...XI
+      - Fx
+    : 17.9327
+    ? - DFN...XI
+      - Up
+    : 100
+ranges: {}
+

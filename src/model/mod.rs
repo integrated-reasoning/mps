@@ -136,22 +136,4 @@ mod tests {
     };
     Ok(())
   }
-
-  #[test]
-  fn test_try_from_afiro() -> Result<()> {
-    let parsed =
-      Parser::<f32>::parse(include_str!("../../tests/data/netlib/afiro"))?;
-    let model = Model::try_from(parsed)?;
-    insta::assert_yaml_snapshot!(model);
-    Ok(())
-  }
-
-  #[test]
-  fn test_try_from_bnl1() -> Result<()> {
-    let parsed =
-      Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
-    let model = Model::try_from(parsed)?;
-    insta::assert_yaml_snapshot!(model);
-    Ok(())
-  }
 }

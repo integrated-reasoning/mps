@@ -1,0 +1,9135 @@
+---
+source: tests/model.rs
+expression: model
+---
+name: FINNIS   (PTABLES3)
+row_types:
+  2DEMR5: Geq
+  1CPTE23: Eq
+  3CPTEC3: Eq
+  2BALCOK: Geq
+  3HPKW: Geq
+  3BASW: Leq
+  2CPTS08: Eq
+  1EIDEC1: Leq
+  1EIDEC3: Leq
+  2EWDE14: Leq
+  1EWNEC1: Leq
+  2CPTR2C: Leq
+  2EWDE22: Leq
+  2CPTR2B: Leq
+  2BALGAK: Geq
+  3EIDE31: Leq
+  2CPTRT8: Leq
+  3ESNEC1: Leq
+  3CPTIJ8: Leq
+  3BALURN: Geq
+  3EWNE60: Leq
+  3UTLS06: Leq
+  3UTLS04: Leq
+  2EWNE35: Leq
+  3EIDEP1: Leq
+  3BALDSH: Geq
+  1EWNEC3: Leq
+  2EINEC2: Leq
+  2BALGSL: Geq
+  2CPTE35: Eq
+  1CPTR2D: Leq
+  3ESDE22: Leq
+  3EINE14: Leq
+  1EWDE23: Leq
+  2EWDE51: Leq
+  2BALDHW: Geq
+  3ESDE60: Leq
+  3RAT013: Leq
+  2EINEC3: Leq
+  2CPTRT7: Leq
+  1ESDE31: Leq
+  2DEMT8: Geq
+  3EWDE23: Leq
+  2CPTS23: Eq
+  3ESDEC2: Leq
+  3EPKSD: Geq
+  2RAT005: Leq
+  3BALCOK: Geq
+  3CPTR5L: Leq
+  3UTLEC1: Geq
+  2UTLEC1: Geq
+  2DEMI1: Geq
+  2CPTR21: Leq
+  1EPKSD: Geq
+  1CPTRT0: Leq
+  3CPTR5H: Leq
+  1EWDE31: Leq
+  2EINE31: Leq
+  1CPTR5H: Leq
+  3ESNE94: Leq
+  3ESNEC3: Leq
+  1DEMNY: Geq
+  3BALEWN: Geq
+  1ESDEC2: Leq
+  3ESDE94: Leq
+  3ESDEP1: Leq
+  1CPTR50: Leq
+  2BALDSR: Geq
+  1EINE14: Leq
+  3CPTS01: Eq
+  3DEMII: Geq
+  3EWNEC3: Leq
+  3EINEC3: Leq
+  3RAT006: Leq
+  1ESDEC3: Leq
+  2EWNEP1: Leq
+  1DEMI1: Geq
+  2DEMRD: Geq
+  3DEMIJ: Geq
+  3CPTS23: Eq
+  3GRCT80: Leq
+  1EIDEP1: Leq
+  1RAT011: Leq
+  3BALPLU: Geq
+  3ESNEC2: Leq
+  1RAT007: Leq
+  2CPTR57: Leq
+  1RAT002: Geq
+  1CPTE31: Eq
+  PRICER: Nr
+  2RAT006: Leq
+  1BALGAK: Geq
+  3DEMRD: Geq
+  1CPTS28: Eq
+  3CPTIJ6: Leq
+  1BALMAG: Geq
+  3CPTR2C: Leq
+  3DEMI1: Geq
+  1UTLS28: Leq
+  2UTLEC2: Geq
+  3CPTS06: Eq
+  1CPTR58: Leq
+  2CPTRT3: Leq
+  1ESNEC2: Leq
+  2EIDE22: Leq
+  3BALDHW: Geq
+  2UTLS23: Leq
+  2EPKWD: Geq
+  3EWNEP1: Leq
+  1UTLS06: Leq
+  3CPTS28: Eq
+  3RAT012: Leq
+  3BALEWD: Geq
+  3UTLS29: Leq
+  2EWDEC3: Leq
+  2BALEWN: Geq
+  2ESNEC3: Leq
+  1CPTS21: Eq
+  3UTLS23: Leq
+  3EWDE22: Leq
+  2CPTR5M: Leq
+  2UTLEP1: Geq
+  3EIDE14: Leq
+  3DEMR2: Geq
+  3EINEC1: Leq
+  1BALALC: Geq
+  3EIDE23: Leq
+  1EWDEP1: Leq
+  3CPTR28: Leq
+  1BALEID: Geq
+  3BALDHS: Geq
+  3UTLEC2: Geq
+  2DEMR2: Geq
+  1EIDE22: Leq
+  3CPTR23: Leq
+  2RAT001: Geq
+  3EWDE14: Leq
+  2BALOIL: Geq
+  1EPKWD: Geq
+  1BALESN: Geq
+  1BALPLU: Geq
+  3EIDEC1: Leq
+  3EPKWD: Geq
+  3EIDE60: Leq
+  3BALGAS: Geq
+  3RAT010: Leq
+  2CPTR50: Leq
+  3DEMTX: Geq
+  1RAT010: Leq
+  3CPTR57: Leq
+  2BALLMF: Geq
+  1EWNEC2: Leq
+  2CPTRTC: Leq
+  3BALALC: Geq
+  1CPTR5L: Leq
+  1ESDE14: Leq
+  2ESNEC1: Leq
+  1BALCOK: Geq
+  1CPTE51: Eq
+  2UTLS21: Leq
+  1EIDEC2: Leq
+  3RAT003: Geq
+  1BALEWN: Geq
+  1ESDEP1: Leq
+  3ESDEC1: Leq
+  3EWNEC2: Leq
+  3UTLE22: Geq
+  3EWNE94: Leq
+  3BALOIK: Geq
+  3EWDE35: Leq
+  2ESDEC1: Leq
+  2EWNE31: Leq
+  3BALESN: Geq
+  2BNDEP1L: Geq
+  2EWDEC1: Leq
+  3EWDE94: Leq
+  1CPTRT7: Leq
+  3BALEIN: Geq
+  1CPTIJ7: Leq
+  1DEMRT: Geq
+  2UTLS28: Leq
+  2EWDEC2: Leq
+  2BASI: Leq
+  3ESDEC3: Leq
+  1CPTR28: Leq
+  3BALAGS: Geq
+  1BASI: Leq
+  1UTLEC2: Geq
+  1CPTRT8: Leq
+  2UTLS08: Leq
+  1BALOIK: Geq
+  2CPTIJ7: Leq
+  2UTLS06: Leq
+  3EWNE14: Leq
+  3CPTRT3: Leq
+  3BALMAG: Geq
+  2CPTR27: Leq
+  3ESNE60: Leq
+  3UTLS80: Leq
+  1UTLE22: Geq
+  3CPTRT0: Leq
+  1EIDE14: Leq
+  2BALDSL: Geq
+  3EINE35: Leq
+  3EINE60: Leq
+  2CPTS28: Eq
+  2CPTR2L: Leq
+  2CPTIJ8: Leq
+  3CPTE14: Eq
+  2BALESD: Geq
+  2BALEIN: Geq
+  1BASS: Leq
+  2DEMRT: Geq
+  3EIDE35: Leq
+  3BALGAK: Geq
+  3ESDE51: Leq
+  1UTLS08: Leq
+  2EWNEC2: Leq
+  3EINEP1: Leq
+  3CPTE22: Eq
+  3DEMRT: Geq
+  3BALESD: Geq
+  2ESNEP1: Leq
+  3CPTR5M: Leq
+  2CPTR28: Leq
+  1RAT006: Leq
+  2RAT009: Leq
+  1ESDE51: Leq
+  1UTLS21: Leq
+  2CPTE31: Eq
+  2BALGAS: Geq
+  2BALHYD: Geq
+  1UTLEP1: Geq
+  2EIDEC2: Leq
+  3ESNEP1: Leq
+  2BALMAG: Geq
+  1CPTIJ8: Leq
+  1DEMR5: Geq
+  2EWNEC3: Leq
+  1BNDEP1L: Geq
+  1BASW: Leq
+  3CPTE31: Eq
+  1RAT003: Geq
+  1CPTRT1: Leq
+  3CPTRT1: Leq
+  1EIDE51: Leq
+  1EWDEC3: Leq
+  2CPTR2D: Leq
+  2EWDE31: Leq
+  3BASI: Leq
+  3CPTR51: Leq
+  3CPTS04: Eq
+  3CPTR27: Leq
+  3DEMT8: Geq
+  2CPTRT1: Leq
+  1DEMR2: Geq
+  1BALEWD: Geq
+  2RAT013: Leq
+  2ESDE35: Leq
+  1BALGAS: Geq
+  1CPTR20: Leq
+  3CPTR21: Leq
+  2CPTRTB: Leq
+  3CPTRTB: Leq
+  2EIDE14: Leq
+  3BALLMF: Geq
+  1UTLEC1: Geq
+  3EWNE35: Leq
+  2BALDHI: Geq
+  1BALDSH: Geq
+  1DEMT8: Geq
+  3ESNE35: Leq
+  2RAT003: Geq
+  3CPTR50: Leq
+  2BALURN: Geq
+  3CPTEP1: Eq
+  2CPTR51: Leq
+  1EWNEP1: Leq
+  2RAT010: Leq
+  3BALHCO: Geq
+  1CPTR51: Leq
+  2CPTS09: Eq
+  3BALEID: Geq
+  3EIDEC3: Leq
+  3RAT004: Leq
+  3CPTRT7: Leq
+  1ESNEC1: Leq
+  3CPTR58: Leq
+  1DEMTX: Geq
+  2CPTE22: Eq
+  2RAT012: Leq
+  3BALUDP: Geq
+  2CPTEC3: Eq
+  2EIDE23: Leq
+  2DEMII: Geq
+  2ESDE51: Leq
+  3CPTS29: Eq
+  2EWDE35: Leq
+  3BALLMS: Geq
+  1BALAGS: Geq
+  1CPTS08: Eq
+  1BALHYD: Geq
+  2EINEC1: Leq
+  2EWDE23: Leq
+  1UTLS23: Leq
+  1ESNE14: Leq
+  2BALALC: Geq
+  3UTLS21: Leq
+  2CPTS21: Eq
+  1CPTS06: Eq
+  1BALEIN: Geq
+  1ESNEP1: Leq
+  3EIDEC2: Leq
+  2ESNE35: Leq
+  2CPTR5A: Leq
+  1EINEC3: Leq
+  2BALAGS: Geq
+  3EWDE51: Leq
+  3CPTE94: Eq
+  1DEMRD: Geq
+  3BALHYD: Geq
+  1CPTR53: Leq
+  3CPTS21: Eq
+  1CPTIJ6: Leq
+  1CPTEP1: Eq
+  2DEMTX: Geq
+  2UTLS09: Leq
+  3RAT009: Leq
+  3ESNE31: Leq
+  1EINE31: Leq
+  3EINEC2: Leq
+  3BALDSL: Geq
+  1ESDE22: Leq
+  2ESDEP1: Leq
+  3RAT011: Leq
+  3ESDE14: Leq
+  3CPTR2A: Leq
+  1EINEC1: Leq
+  3CPTE35: Eq
+  3GRCE35: Leq
+  3UTLS08: Leq
+  2EINEP1: Leq
+  1EINEC2: Leq
+  2BASS: Leq
+  2BALESN: Geq
+  1EWDE51: Leq
+  1BALGSL: Geq
+  2CPTR5L: Leq
+  1BALLMF: Geq
+  3CPTR5A: Leq
+  2EIDEC1: Leq
+  1BALHCO: Geq
+  2CPTR23: Leq
+  1DEMIJ: Geq
+  3EWNE31: Leq
+  3CPTR20: Leq
+  2RAT011: Leq
+  3ESDE35: Leq
+  3EIDE51: Leq
+  1DEMII: Geq
+  3BALDSR: Geq
+  3CPTRT8: Leq
+  3CPTE60: Eq
+  1BALUDP: Geq
+  1EWNE31: Leq
+  3RAT001: Geq
+  1EWDEC2: Leq
+  2DEMNY: Geq
+  3UTLS09: Leq
+  1RAT001: Geq
+  1CPTR27: Leq
+  3EWDE31: Leq
+  2DEMIJ: Geq
+  1EIDE23: Leq
+  1CPTS09: Eq
+  2CPTR2A: Leq
+  3CPTR53: Leq
+  3BALAGR: Geq
+  1CPTS23: Eq
+  3EWDEC3: Leq
+  3BASS: Leq
+  2CPTR53: Leq
+  1CPTR57: Leq
+  2CPTE23: Eq
+  1ESDE23: Leq
+  2ESDEC3: Leq
+  3CPTIJ7: Leq
+  3EWDEC2: Leq
+  3CPTS80: Eq
+  2EIDE35: Leq
+  3EWDEC1: Leq
+  1EWDEC1: Leq
+  1EWNE14: Leq
+  3DEMR5: Geq
+  2RAT008: Leq
+  2CPTRT0: Leq
+  2CPTS06: Eq
+  2EIDEC3: Leq
+  2EPKSD: Geq
+  2EIDE51: Leq
+  3CPTE51: Eq
+  3EIDE22: Leq
+  1ESNE31: Leq
+  2EINE35: Leq
+  3RAT002: Geq
+  3CPTR2B: Leq
+  1CPTR2L: Leq
+  2GRCT80: Leq
+  3ESNE14: Leq
+  1BALLMS: Geq
+  2ESDEC2: Leq
+  1RAT004: Leq
+  2UTLE22: Geq
+  2CPTR20: Leq
+  3CPTR5C: Leq
+  2ESNE31: Leq
+  2RAT007: Leq
+  1UTLE23: Geq
+  2UTLE23: Geq
+  3UTLS28: Leq
+  2ESNEC2: Leq
+  2CPTIJ6: Leq
+  2BALOIK: Geq
+  1EIDE31: Leq
+  1BALURN: Geq
+  3CPTR2D: Leq
+  2BALHCO: Geq
+  3EIDE94: Leq
+  2HPKW: Geq
+  1RAT013: Leq
+  1BALDSL: Geq
+  1EWDE14: Leq
+  2ESDE14: Leq
+  2BALLMS: Geq
+  3UTLEP1: Geq
+  3ESDE23: Leq
+  1BALOIL: Geq
+  1ESNEC3: Leq
+  1CPTRT3: Leq
+  3BALOIL: Geq
+  3CPTRTC: Leq
+  3DEMNY: Geq
+  3ESDE31: Leq
+  1CPTR21: Leq
+  2BALDSH: Geq
+  2EIDEP1: Leq
+  2BASW: Leq
+  2CPTR5H: Leq
+  3EWDE60: Leq
+  2ESDE22: Leq
+  2BALDHS: Geq
+  2RAT004: Leq
+  3RAT008: Leq
+  1UTLS09: Leq
+  3BALGSL: Geq
+  1RAT005: Leq
+  3EWDEP1: Leq
+  2BALPLU: Geq
+  1BALDSR: Geq
+  3RAT005: Leq
+  3RAT007: Leq
+  2BALEID: Geq
+  2CPTE14: Eq
+  2ESDE31: Leq
+  1CPTE22: Eq
+  2BALUDP: Geq
+  1BALAGR: Geq
+  3EINE31: Leq
+  1BALESD: Geq
+  3BALDHI: Geq
+  3EINE94: Leq
+  3UTLS01: Leq
+  2EWNEC1: Leq
+  2BALEWD: Geq
+  3CPTS09: Eq
+  2EIDE31: Leq
+  3UTLE23: Geq
+  1EINEP1: Leq
+  1CPTEC3: Eq
+  3CPTR2L: Leq
+  2EINE14: Leq
+  1CPTR23: Leq
+  2EWNE14: Leq
+  3CPTE23: Eq
+  2CPTE51: Eq
+  3EWNEC1: Leq
+  2ESNE14: Leq
+  3CPTS08: Eq
+  2CPTEP1: Eq
+  1CPTR5M: Leq
+  1ESDEC1: Leq
+  1CPTE14: Eq
+  2CPTR58: Leq
+  2BALAGR: Geq
+  2EWDEP1: Leq
+  2ESDE23: Leq
+  2RAT002: Geq
+  1EWDE22: Leq
+values:
+  ? - 1BALESD
+    - 1RT1CAP
+  : -0.226667
+  ? - 1BALEID
+    - 1EC2ID
+  : 0.913
+  ? - 2RAT004
+    - 2R21CAP
+  : 0.314
+  ? - 1ESNEC2
+    - 1EC2SM
+  : 0.283333
+  ? - 2BALGAS
+    - 2S06ACT
+  : 0.1425
+  ? - PRICER
+    - 3S45CAP
+  : 1.615207
+  ? - 3EWNEP1
+    - 3EP1WN
+  : 1
+  ? - 3BALPLU
+    - 3S4ACAP
+  : -0.05237
+  ? - 3EWDE22
+    - 3E22WD
+  : 1
+  ? - 3BALEID
+    - 3I1YCAP
+  : -0.017982
+  ? - 2EINE14
+    - 2E14CAP
+  : -2.098739
+  ? - PRICER
+    - 2R2BINV
+  : 0.00001
+  ? - 3CPTE60
+    - 3E60CAP
+  : 1
+  ? - 2BASI
+    - 2E23ID
+  : 0.047932
+  ? - 3BALEID
+    - 3EC3ID
+  : 0.913
+  ? - 2BALCOK
+    - 2S09ACT
+  : 0.64
+  ? - PRICER
+    - 1E31INV
+  : 0.00001
+  ? - 2BALEID
+    - 2R5LCAP
+  : -0.265278
+  ? - PRICER
+    - 3E94SD
+  : 41.750214
+  ? - 2CPTR20
+    - 2R20INV
+  : -1
+  ? - 3BALEID
+    - 3R5MCAP
+  : -0.261644
+  ? - PRICER
+    - 2S06ACT
+  : 1.11935
+  ? - 1BALCOK
+    - 1RDYCAP
+  : -0.009677
+  ? - 1EIDE22
+    - 1E22CAP
+  : -5.365135
+  ? - 3BALDHW
+    - 3E60WN
+  : 2
+  ? - 2HPKW
+    - 2R2CCAP
+  : -2.818182
+  ? - 3CPTR5M
+    - 3R5MINV
+  : -1
+  ? - 2BALAGR
+    - 2S47CAP
+  : 0.734
+  ? - PRICER
+    - 2S54CAP
+  : 3.551044
+  ? - PRICER
+    - 2EC2IN
+  : 3.330964
+  ? - 3RAT010
+    - 3STKGAK1
+  : -1
+  ? - 3EINE31
+    - 3E31CAP
+  : -0.397656
+  ? - PRICER
+    - 2EC3IN
+  : 4.211314
+  ? - 3EPKSD
+    - 3E14CAP
+  : 24.213669
+  ? - 2BALESD
+    - 2I1YCAP
+  : -0.050679
+  ? - 3DEMR2
+    - 3R23CAP
+  : 1
+  ? - PRICER
+    - 3RT7CAP
+  : 10.871583
+  ? - 1BALDSR
+    - 1S21ACT
+  : 0.46
+  ? - 2ESNEC3
+    - 2EC3CAP
+  : -3.594682
+  ? - PRICER
+    - 1EP1CAP
+  : 114.66972
+  ? - 1BALESD
+    - 1IIYCAP
+  : -0.135159
+  ? - 2UTLE23
+    - 2E23WM
+  : 1
+  ? - 1UTLE22
+    - 1E22CAP
+  : -6.311683
+  ? - 1BALHCO
+    - 1EC3IN
+  : -2.7278
+  ? - 1BALEIN
+    - 1RT0CAP
+  : -0.345555
+  ? - 3EINEC1
+    - 3EC1IN
+  : 1
+  ? - 2CPTR23
+    - 2R23CAP
+  : 1
+  ? - 3BALDSL
+    - 3S28ACT
+  : -1
+  ? - 1BALAGR
+    - 1E23SD
+  : -1.457729
+  ? - 3ESNEC1
+    - 3EC1SN
+  : 1
+  ? - 2BALAGS
+    - 2E23ID
+  : 1.457729
+  ? - 1BALDSL
+    - 1EC3SD
+  : -0.05
+  ? - 1ESDE51
+    - 1E51CAP
+  : -12.213717
+  ? - 2BALESD
+    - 2E51SD
+  : 0.913
+  ? - 1BNDEP1L
+    - 1EP1IN
+  : 1
+  ? - 2BALEIN
+    - 2E35IN
+  : 0.913
+  ? - 2BALEIN
+    - 2R50CAP
+  : -0.23
+  ? - 3CPTR5A
+    - 3R5AINV
+  : -1
+  ? - 2BALLMS
+    - 3S54CAP
+  : -0.1
+  ? - 2UTLS09
+    - 2S09ACT
+  : 1
+  ? - 3CPTS28
+    - 1S28INV
+  : -1
+  ? - PRICER
+    - 2R21INV
+  : 6.259433
+  ? - 1BASI
+    - 1EC3IN
+  : -0.77605
+  ? - 3BALEID
+    - 3E35ID
+  : 0.913
+  ? - 3BALHCO
+    - 3EC3IN
+  : -2.7278
+  ? - 3BALESN
+    - 3MINHCO1
+  : -0.00112
+  ? - 1BALEWN
+    - 1R20CAP
+  : -0.482222
+  ? - 3BALESN
+    - 3R51CAP
+  : -0.027778
+  ? - 1BALESN
+    - 1TXYCAP
+  : -0.003536
+  ? - 3EPKWD
+    - 3E22CAP
+  : 24.213669
+  ? - 2CPTE51
+    - 2E51CAP
+  : 1
+  ? - 3BALGAS
+    - 3RTYCAP
+  : -1.538461
+  ? - 2BALDSL
+    - 2E14SD
+  : -3.5971
+  ? - 3EWDEC1
+    - 3EC1CAP
+  : -2.714158
+  ? - 3BALHCO
+    - 3RDYCAP
+  : -0.02846
+  ? - 1UTLEP1
+    - 1EP1WM
+  : 1
+  ? - 3BALAGS
+    - 3E23WD
+  : 1.457729
+  ? - 1BALCOK
+    - 1S06ACT
+  : 0.6
+  ? - 3BALEIN
+    - 3S80ACT
+  : -0.2
+  ? - 1DEMIJ
+    - 1IJ6CAP
+  : 1
+  ? - 1BALHCO
+    - 1S08ACT
+  : -1
+  ? - 3CPTRTC
+    - 3RTCINV
+  : -1
+  ? - 2ESDEP1
+    - 2EP1SD
+  : 1
+  ? - 3BALEID
+    - 3R2ACAP
+  : -0.10375
+  ? - 1BALPLU
+    - 1S54CAP
+  : 0.06318
+  ? - 3BALEID
+    - 3E60ID
+  : 1
+  ? - 1ESDE22
+    - 1E22CAP
+  : -16.095398
+  ? - 3DEMR5
+    - 3R57CAP
+  : 1
+  ? - PRICER
+    - 1S54CAP
+  : 4.752079
+  ? - 3BALDHI
+    - 3R5CCAP
+  : -0.304412
+  ? - 3BALESD
+    - 3MINHCO1
+  : -0.002834
+  ? - 2BALDSL
+    - 2EC3IN
+  : -0.05
+  ? - PRICER
+    - 1R57CAP
+  : 19.469208
+  ? - 3CPTR5H
+    - 3R5HINV
+  : -1
+  ? - 3BALCOK
+    - 3S06ACT
+  : 0.6
+  ? - PRICER
+    - 2EC2WN
+  : 3.330964
+  ? - PRICER
+    - 3EC2IN
+  : 2.489097
+  ? - 1BALEWN
+    - 1EC3WN
+  : 0.913
+  ? - 1ESNE14
+    - 1E14CAP
+  : -5.096938
+  ? - 1BALDSL
+    - 1EC2ID
+  : -0.054545
+  ? - 3BALDHW
+    - 3RTCCAP
+  : -0.563636
+  ? - 2BALDSL
+    - 2EC3ID
+  : -0.05
+  ? - PRICER
+    - 3E60WN
+  : 3.533263
+  ? - PRICER
+    - 3R5CCAP
+  : 6.922315
+  ? - 3RAT011
+    - 3S7ACAP
+  : 2.66
+  ? - 2BALESN
+    - 2EP1SN
+  : 0.913
+  ? - 3CPTS09
+    - 1S09INV
+  : -1
+  ? - 1BALLMS
+    - 2STKLMS1
+  : -1
+  ? - 1DEMIJ
+    - 1IJ7CAP
+  : 1
+  ? - PRICER
+    - 2S4ACAP
+  : 0.46318
+  ? - 3BALEWD
+    - 3R2LCAP
+  : -0.347
+  ? - 3CPTR20
+    - 2R20INV
+  : -1
+  ? - 3ESDE51
+    - 3E51CAP
+  : -12.213717
+  ? - 1BALEIN
+    - 1IIYCAP
+  : -0.017086
+  ? - 3DEMRD
+    - 3RDYCAP
+  : 1
+  ? - PRICER
+    - 1IMPGAS1
+  : 19.886414
+  ? - 3CPTE31
+    - 3E31CAP
+  : 1
+  ? - 3ESNE35
+    - 3E35CAP
+  : -1.234
+  ? - 1BALHYD
+    - 1S6HCAP
+  : -1
+  ? - 2BNDEP1L
+    - 2EP1WD
+  : 1
+  ? - 3BALHCO
+    - 3E60IN
+  : -2.5
+  ? - 3ESNE94
+    - 3E94SN
+  : 1
+  ? - PRICER
+    - 1R5MINV
+  : 17.120865
+  ? - PRICER
+    - 1S06ACT
+  : 1.497937
+  ? - 3BALEIN
+    - 3RT0CAP
+  : -0.345555
+  ? - 1BALEID
+    - 1R51CAP
+  : -0.212222
+  ? - 2BALOIL
+    - 2S7ACAP
+  : 1
+  ? - 3EIDEP1
+    - 3EP1IM
+  : 0.65
+  ? - 2ESNEC2
+    - 2EC2CAP
+  : -4.721376
+  ? - 2BALEWN
+    - 2EC2WN
+  : 0.913
+  ? - 1EPKWD
+    - 1E31CAP
+  : 24.213669
+  ? - 3CPTEP1
+    - 3EP1INV
+  : -1
+  ? - 2CPTE31
+    - 2E31CAP
+  : 1
+  ? - 3EPKSD
+    - 3E23CAP
+  : 24.213669
+  ? - 1EIDEP1
+    - 1EP1ID
+  : 1
+  ? - 3BASW
+    - 3E23WD
+  : 0.068475
+  ? - 3BASW
+    - 3E94WN
+  : -0.85
+  ? - 2BALDHW
+    - 2RTCCAP
+  : -0.563636
+  ? - 3BALESD
+    - 3R21CAP
+  : -0.226667
+  ? - 1DEMRT
+    - 1RTYCAP
+  : 1
+  ? - 3ESDE60
+    - 3E60CAP
+  : -9.092433
+  ? - 3BALOIL
+    - 3IMPOIL1
+  : 1
+  ? - PRICER
+    - 2R27CAP
+  : 14.548593
+  ? - 1BALHCO
+    - 1R28CAP
+  : -2
+  ? - 1BASS
+    - 1EC1SN
+  : -0.77605
+  ? - 1EINEC1
+    - 1EC1IN
+  : 1
+  ? - 2BALDSL
+    - 2S21ACT
+  : 0.32
+  ? - 3BALEWD
+    - 3R21CAP
+  : -0.385555
+  ? - 3DEMR5
+    - 3R5MCAP
+  : 1
+  ? - 2CPTRT8
+    - 2RT8CAP
+  : 1
+  ? - 1BALGAS
+    - 1R27CAP
+  : -1.538461
+  ? - PRICER
+    - 3IMPURN1
+  : 0.299967
+  ? - 3EPKSD
+    - 3RDYCAP
+  : -0.435168
+  ? - 2CPTE31
+    - 1E31INV
+  : -1
+  ? - 2BALHYD
+    - 2S6HCAP
+  : -1
+  ? - 3EIDEC1
+    - 3EC1CAP
+  : -3.528407
+  ? - 1BALDSL
+    - 1IIYCAP
+  : -0.2811
+  ? - PRICER
+    - 3E14INV
+  : 431.8308
+  ? - 2CPTRT1
+    - 2RT1CAP
+  : 1
+  ? - 1CPTE31
+    - 1E31CAP
+  : 1
+  ? - PRICER
+    - 2R2AINV
+  : 0.00001
+  ? - 2EPKWD
+    - 2R5MCAP
+  : -2.208334
+  ? - 1CPTE22
+    - 1E22INV
+  : -1
+  ? - 1EWDEC1
+    - 1EC1WM
+  : 0.5
+  ? - 3EIDE23
+    - 3E23CAP
+  : -5.365135
+  ? - PRICER
+    - 3RTCINV
+  : 8.755
+  ? - 2ESDEC1
+    - 2EC1SD
+  : 1
+  ? - 3CPTS04
+    - 3S04INV
+  : -1
+  ? - 3EPKSD
+    - 3E51CAP
+  : 24.213669
+  ? - 2EPKWD
+    - 2EC2CAP
+  : 24.213669
+  ? - 3CPTE22
+    - 3E22INV
+  : -1
+  ? - 3CPTIJ7
+    - 3IJ7CAP
+  : 1
+  ? - 1DEMRT
+    - 1RT0CAP
+  : 1
+  ? - 1EIDEP1
+    - 1EP1CAP
+  : -3.528407
+  ? - PRICER
+    - 2E23CAP
+  : 55.581573
+  ? - 1BALHCO
+    - 1EC1WD
+  : -3.637
+  ? - 1BALEWN
+    - 1EP1WN
+  : 0.913
+  ? - 1DEMR2
+    - 1R28CAP
+  : 1
+  ? - 2BASW
+    - 2E14WN
+  : -0.77605
+  ? - 3BALEID
+    - 3E14ID
+  : 0.913
+  ? - 2BALESN
+    - 2E22SD
+  : 0.258683
+  ? - 1BALEIN
+    - 1E23ID
+  : 0.31955
+  ? - 1EWDE31
+    - 1E31WD
+  : 1
+  ? - 3BALESN
+    - 3R2LCAP
+  : -0.051
+  ? - 2EWDE22
+    - 2E22WD
+  : 1
+  ? - 1EINE31
+    - 1E31IN
+  : 1
+  ? - 1BALHCO
+    - 1EC1ID
+  : -3.637
+  ? - 3BASW
+    - 3EC1WN
+  : -0.77605
+  ? - 2EPKSD
+    - 2EC3CAP
+  : 24.213669
+  ? - 2BALHCO
+    - 2EXPHCO1
+  : -1
+  ? - 2RAT006
+    - 2R27CAP
+  : 0.314
+  ? - 3BASW
+    - 3EP1WN
+  : -0.77605
+  ? - 1BALGAS
+    - 1NYYCAP
+  : -0.3013
+  ? - 2BALESN
+    - 2MINHCO1
+  : -0.00112
+  ? - 1EINEP1
+    - 1EP1CAP
+  : -1.899911
+  ? - 1EIDEC2
+    - 1EC2ID
+  : 1
+  ? - PRICER
+    - 1S47CAP
+  : 0.619836
+  ? - 2BASS
+    - 2EP1SN
+  : -0.77605
+  ? - 2BALPLU
+    - 1E22WD
+  : 0.007126
+  ? - 3BALOIK
+    - 3STKOIK1
+  : 1
+  ? - PRICER
+    - 2IMPHCO1
+  : 13.355014
+  ? - 2BALDSL
+    - 2R2YCAP
+  : -0.072151
+  ? - 3BALGAS
+    - 3I1YCAP
+  : -0.1777
+  ? - 1BALDSL
+    - 1EXPDSL1
+  : -1
+  ? - 1ESNE31
+    - 1E31SN
+  : 1
+  ? - 2BALEWN
+    - 2RT1CAP
+  : -0.096667
+  ? - 1EINEC2
+    - 1EC2IN
+  : 1
+  ? - 3EPKWD
+    - 3MINHCO1
+  : -0.00659
+  ? - 2BALHCO
+    - 2R58CAP
+  : -2
+  ? - 2DEMT8
+    - 2T80CAP
+  : 1
+  ? - PRICER
+    - 2IJ6INV
+  : 0.812309
+  ? - PRICER
+    - 2S55CAP
+  : 3.551044
+  ? - 1CPTR2D
+    - 1R2DINV
+  : -1
+  ? - 2DEMRT
+    - 2RT7CAP
+  : 1
+  ? - 3CPTS28
+    - 3S28INV
+  : -1
+  ? - 1RAT007
+    - 1R58CAP
+  : -1
+  ? - 3EPKWD
+    - 3R5LCAP
+  : -2.178082
+  ? - 1BALPLU
+    - 1STKPLU1
+  : 1
+  ? - 3BALEIN
+    - 3T80CAP
+  : -0.1
+  ? - 1BALDSH
+    - 1S72CAP
+  : 1
+  ? - 3BALCOK
+    - 3RDYCAP
+  : -0.007786
+  ? - 2ESNEC2
+    - 2EC2SM
+  : 0.283333
+  ? - 1EIDE23
+    - 1E23CAP
+  : -5.365135
+  ? - 2CPTR53
+    - 2R53CAP
+  : 1
+  ? - 2CPTR57
+    - 2R57CAP
+  : 1
+  ? - 3EWDEC1
+    - 3EC1WD
+  : 1
+  ? - PRICER
+    - 2EC2WD
+  : 3.330964
+  ? - 2BALHCO
+    - 2EC3SD
+  : -2.7278
+  ? - 3RAT008
+    - 3R5ACAP
+  : -1
+  ? - PRICER
+    - 2R2BCAP
+  : 11.901143
+  ? - 2BALMAG
+    - 2S44CAP
+  : 0.744
+  ? - 3ESNEP1
+    - 3EP1SN
+  : 1
+  ? - 2CPTR2D
+    - 2R2DINV
+  : -1
+  ? - 2EWDE14
+    - 2E14WD
+  : 1
+  ? - PRICER
+    - 1IMPHCO1
+  : 16.167389
+  ? - 2BALESN
+    - 2R2LCAP
+  : -0.051
+  ? - 1EPKSD
+    - 1RT1CAP
+  : -0.527132
+  ? - 2BALDSL
+    - 2TXYCAP
+  : -0.9808
+  ? - 1BALEIN
+    - 1RDYCAP
+  : -0.033786
+  ? - 3CPTS29
+    - 3S29INV
+  : -1
+  ? - PRICER
+    - 2R57CAP
+  : 14.548593
+  ? - 2EIDE14
+    - 2E14CAP
+  : -3.897659
+  ? - PRICER
+    - 3R21CAP
+  : 3.836116
+  ? - 2BALPLU
+    - 2S55CAP
+  : 0.004783
+  ? - 1DEMRT
+    - 1RT7CAP
+  : 1
+  ? - 2UTLEP1
+    - 2EP1CAP
+  : -4.4184
+  ? - 2DEMR2
+    - 2R23CAP
+  : 1
+  ? - PRICER
+    - 2EC1CAP
+  : 216.15057
+  ? - 3BASW
+    - 3EC3WN
+  : -0.77605
+  ? - PRICER
+    - 3E23WD
+  : 0.634546
+  ? - PRICER
+    - 2EC3WN
+  : 4.211314
+  ? - 2BALMAG
+    - 2E22SD
+  : -12.6582
+  ? - 3CPTR2D
+    - 3R2DINV
+  : -1
+  ? - 1EWDE22
+    - 1E22CAP
+  : -5.365133
+  ? - 2CPTRTC
+    - 2RTCCAP
+  : 1
+  ? - PRICER
+    - 1EC3WD
+  : 5.635665
+  ? - 3BALALC
+    - 3S71CAP
+  : -1
+  ? - 3BALHCO
+    - 3EC3ID
+  : -2.7278
+  ? - PRICER
+    - 2EP1ID
+  : 16.725754
+  ? - 1BALPLU
+    - 1S47CAP
+  : -0.02045
+  ? - 3BALEWN
+    - 3EP1WN
+  : 0.913
+  ? - 1EPKWD
+    - 1R2LCAP
+  : -3.47
+  ? - 1DEMIJ
+    - 1IJ8CAP
+  : 1
+  ? - 2BASS
+    - 2E31SN
+  : -0.77605
+  ? - 3BALDSL
+    - 3EC3ID
+  : -0.05
+  ? - 2BALESN
+    - 2RDYCAP
+  : -0.049603
+  ? - 3CPTR28
+    - 3R28CAP
+  : 1
+  ? - 3BALHYD
+    - 3S80ACT
+  : 0.722
+  ? - 2BALHCO
+    - 2R28CAP
+  : -2
+  ? - PRICER
+    - 2EC1ID
+  : 4.071078
+  ? - PRICER
+    - 3E60SD
+  : 3.533263
+  ? - 2CPTRT0
+    - 2RT0CAP
+  : 1
+  ? - 3CPTR27
+    - 1R27INV
+  : -1
+  ? - 2BALEID
+    - 2RDYCAP
+  : -0.120906
+  ? - 1RAT013
+    - 1R5HCAP
+  : -1
+  ? - 1BALDSL
+    - 1RT3CAP
+  : -1.818181
+  ? - 1BALEWN
+    - 1E23WD
+  : 0.4565
+  ? - 1ESDEC3
+    - 1EC3SD
+  : 1
+  ? - 1BALCOK
+    - 1I1YCAP
+  : -0.4268
+  ? - 1DEMR5
+    - 1R50CAP
+  : 1
+  ? - 2EIDE23
+    - 2E23CAP
+  : -5.365135
+  ? - 2BALLMS
+    - 2S54CAP
+  : -0.9
+  ? - 1BASW
+    - 1E22WD
+  : 0.068475
+  ? - 1EPKWD
+    - 1R5LCAP
+  : -2.239438
+  ? - 3BALHCO
+    - 3EC1ID
+  : -3.637
+  ? - PRICER
+    - 3IJ6CAP
+  : 8.88363
+  ? - PRICER
+    - 3E51CAP
+  : 39.803314
+  ? - 2BALDSL
+    - 2E14ID
+  : -3.5971
+  ? - 1BALEID
+    - 1I1YCAP
+  : -0.016781
+  ? - 1BALURN
+    - 1S46CAP
+  : -0.9841
+  ? - 2BALGAS
+    - 2S6HCAP
+  : 0.95
+  ? - 1BALCOK
+    - 1S08ACT
+  : 0.64
+  ? - PRICER
+    - 1E23CAP
+  : 74.38037
+  ? - 2BALEWD
+    - 2E51WD
+  : 0.913
+  ? - 3ESDE51
+    - 3E51SD
+  : 1
+  ? - 1EWNE31
+    - 1E31CAP
+  : -1.199279
+  ? - 3CPTIJ7
+    - 2IJ7INV
+  : -1
+  ? - 3CPTR50
+    - 3R50CAP
+  : 1
+  ? - 1EWNEC2
+    - 1EC2WM
+  : 0.5
+  ? - 1BALEIN
+    - 1EP1IN
+  : 0.913
+  ? - 2DEMR2
+    - 2R27CAP
+  : 1
+  ? - 3BALDSH
+    - 3NYYCAP
+  : -0.4373
+  ? - 3BALDSH
+    - 3EP1SD
+  : -3.3333
+  ? - 2BALEIN
+    - 2E23ID
+  : 0.31955
+  ? - 3DEMR2
+    - 3R2BCAP
+  : 1
+  ? - 2BALURN
+    - 3STKURN1
+  : -1
+  ? - 2BALEID
+    - 2EP1ID
+  : 0.913
+  ? - 2BALESD
+    - 2EC3SD
+  : 0.913
+  ? - PRICER
+    - 1S09ACT
+  : 1.497937
+  ? - 2UTLS28
+    - 2S28ACT
+  : 1
+  ? - 2BALDSL
+    - 2EC1ID
+  : -0.066667
+  ? - 2EIDE51
+    - 2E51ID
+  : 1
+  ? - 2CPTR57
+    - 1R57INV
+  : -1
+  ? - 1BALESN
+    - 1R2LCAP
+  : -0.051
+  ? - 2BALEWD
+    - 2R51CAP
+  : -0.176667
+  ? - 2BASW
+    - 2E23WD
+  : 0.068475
+  ? - 1BALHCO
+    - 1RTYCAP
+  : -0.634921
+  ? - 2BALPLU
+    - 2S46CAP
+  : -0.01591
+  ? - 3RAT002
+    - 3R2DCAP
+  : -1.8
+  ? - 3RAT013
+    - 3R5LCAP
+  : -1
+  ? - 2EWDEC3
+    - 2EC3WD
+  : 1
+  ? - 3BASW
+    - 3E31WN
+  : -0.77605
+  ? - 1BALEWN
+    - 1MINHCO1
+  : -0.000659
+  ? - PRICER
+    - 3EP1INV
+  : 530.07764
+  ? - 2EPKSD
+    - 2I1YCAP
+  : -0.117859
+  ? - 3BALHCO
+    - 3EXPHCO1
+  : -1
+  ? - 3DEMIJ
+    - 3IJ8CAP
+  : 1
+  ? - 3EIDE94
+    - 3E94CAP
+  : -4.1028
+  ? - 3EWDE14
+    - 3E14WD
+  : 1
+  ? - 2BALEID
+    - 2R5MCAP
+  : -0.265278
+  ? - PRICER
+    - 1EC1SD
+  : 5.448
+  ? - 1BALEIN
+    - 1E51ID
+  : -1.304311
+  ? - 1BALEIN
+    - 1R50CAP
+  : -0.23
+  ? - PRICER
+    - 3S54CAP
+  : 2.653554
+  ? - 3EIDEC3
+    - 3EC3CAP
+  : -2.748875
+  ? - 1EWDE22
+    - 1E22WD
+  : 1
+  ? - PRICER
+    - 2IJ6CAP
+  : 11.88827
+  ? - 2BALESD
+    - 2TXYCAP
+  : -0.008256
+  ? - 1CPTR58
+    - 1R58CAP
+  : 1
+  ? - 1UTLEC2
+    - 1EC2IM
+  : 1
+  ? - PRICER
+    - 2EC1SN
+  : 4.071078
+  ? - 2BALEID
+    - 2E14ID
+  : 0.913
+  ? - 1BASS
+    - 1E31SN
+  : -0.77605
+  ? - 2BALGAS
+    - 2IIYCAP
+  : -0.2453
+  ? - 3BALGSL
+    - 3T8FCAP
+  : -1
+  ? - 2BALOIK
+    - 2S7ACAP
+  : -1
+  ? - 3BALEWD
+    - 3E35WD
+  : 0.913
+  ? - 3UTLEC1
+    - 3EC1CAP
+  : -4.4184
+  ? - 3EWNE60
+    - 3E60WN
+  : 1
+  ? - 1DEMR5
+    - 1R5HCAP
+  : 1
+  ? - 2DEMR2
+    - 2R2LCAP
+  : 1
+  ? - 3BASW
+    - 3E35WN
+  : -0.77605
+  ? - 2BALLMF
+    - 2S4ACAP
+  : 0.95
+  ? - 3CPTRT7
+    - 1RT7INV
+  : -1
+  ? - 2CPTR5L
+    - 1R5LINV
+  : -1
+  ? - 3DEMI1
+    - 3I1YCAP
+  : 1
+  ? - 1BALESN
+    - 1EC1SN
+  : 0.913
+  ? - 1EINEC1
+    - 1EC1IM
+  : 0.35
+  ? - 1BALEIN
+    - 1EC3IN
+  : 0.913
+  ? - 3BALGAS
+    - 3EXPGAS1
+  : -1
+  ? - 2BALGSL
+    - 2S71CAP
+  : 1
+  ? - 1BALHCO
+    - 1EC2WN
+  : -2.9758
+  ? - 3BALPLU
+    - 2E22SD
+  : 0.007126
+  ? - 2CPTR50
+    - 2R50INV
+  : -1
+  ? - 3BALGAK
+    - 3S79CAP
+  : -1
+  ? - 3BALAGS
+    - 3E23SD
+  : 1.457729
+  ? - 3CPTR58
+    - 2R58INV
+  : -1
+  ? - 3BALMAG
+    - 2S44CAP
+  : 0.256
+  ? - PRICER
+    - 3RTBINV
+  : 0.00001
+  ? - 3BASI
+    - 3E60IN
+  : -0.85
+  ? - 3BASI
+    - 3EP1IN
+  : -0.77605
+  ? - 3BALEWN
+    - 3EC1WN
+  : 0.913
+  ? - 1EIDEP1
+    - 1EP1IM
+  : 0.65
+  ? - 2BALEID
+    - 2R2ACAP
+  : -0.10375
+  ? - 2DEMR5
+    - 2R57CAP
+  : 1
+  ? - 1EWDEC1
+    - 1EC1CAP
+  : -2.714158
+  ? - 3CPTS28
+    - 3S28CAP
+  : 1
+  ? - 1EWDE22
+    - 1E22WM
+  : 1
+  ? - 1BASI
+    - 1EP1IN
+  : -0.77605
+  ? - 3BALEIN
+    - 3MINHCO1
+  : -0.000461
+  ? - 2CPTR21
+    - 2R21CAP
+  : 1
+  ? - PRICER
+    - 1R28CAP
+  : 31.92157
+  ? - 3EWDEP1
+    - 3EP1WM
+  : 0.5
+  ? - 3ESDEC3
+    - 3EC3SD
+  : 1
+  ? - 3BALESN
+    - 3E94SN
+  : 1
+  ? - PRICER
+    - 2RT8CAP
+  : 23.853745
+  ? - 1BALEIN
+    - 1EC1IN
+  : 0.913
+  ? - 2BASW
+    - 2EC2WN
+  : -0.77605
+  ? - 3EWDEC2
+    - 3EC2CAP
+  : -2.777279
+  ? - 1EWDE14
+    - 1E14WD
+  : 1
+  ? - 3HPKW
+    - 3R5CCAP
+  : -1.647059
+  ? - 2EWDE51
+    - 2E51WD
+  : 1
+  ? - 2BALESD
+    - 2RT1CAP
+  : -0.226667
+  ? - 2CPTS06
+    - 2S06INV
+  : -1
+  ? - 2BALESN
+    - 2TXYCAP
+  : -0.003264
+  ? - 3ESNEC1
+    - 3EC1CAP
+  : -4.61407
+  ? - 3BALEID
+    - 3E22ID
+  : 0.59345
+  ? - 3CPTR2C
+    - 2R2CINV
+  : -1
+  ? - 1BALAGR
+    - 1S46CAP
+  : 0.734
+  ? - 2RAT003
+    - 2R5HCAP
+  : 1
+  ? - 3EPKWD
+    - 3R2LCAP
+  : -3.47
+  ? - 3BALDSL
+    - 3EC2ID
+  : -0.054545
+  ? - 1CPTR5M
+    - 1R5MINV
+  : -1
+  ? - PRICER
+    - 1EC3IN
+  : 5.635665
+  ? - 1BALPLU
+    - 2STKPLU1
+  : -1
+  ? - 1RAT011
+    - 1STKOIK1
+  : -1
+  ? - 2UTLEC2
+    - 2EC2CAP
+  : -5.049611
+  ? - 2EIDEC3
+    - 2EC3CAP
+  : -2.748875
+  ? - PRICER
+    - 1R23CAP
+  : 15.416441
+  ? - 2CPTE51
+    - 1E51INV
+  : -1
+  ? - 3EWNE35
+    - 3E35WN
+  : 1
+  ? - 2BALEWN
+    - 2R2LCAP
+  : -0.087
+  ? - 2CPTRT3
+    - 2RT3INV
+  : -1
+  ? - 3CPTR58
+    - 3R58CAP
+  : 1
+  ? - 2BALAGS
+    - 2STKAGS1
+  : 1
+  ? - 1CPTIJ6
+    - 1IJ6INV
+  : -1
+  ? - PRICER
+    - 2R28INV
+  : 30.857819
+  ? - 3BALDSL
+    - 3RDYCAP
+  : -0.26084
+  ? - 1BALEWD
+    - 1EC1WD
+  : 0.913
+  ? - 2BALDSH
+    - 2EXPDSH1
+  : -1
+  ? - PRICER
+    - 2R27INV
+  : 22.297272
+  ? - 3BALDSL
+    - 3EC2SD
+  : -0.054545
+  ? - 3BALDSH
+    - 3EP1SN
+  : -3.3333
+  ? - 3BALPLU
+    - 3E22WD
+  : 0.016627
+  ? - 1BALEID
+    - 1E23ID
+  : 0.59345
+  ? - 3BASI
+    - 3E31IN
+  : -0.77605
+  ? - PRICER
+    - 3E94WD
+  : 41.750214
+  ? - 2BALHCO
+    - 2R2YCAP
+  : -0.54554
+  ? - 3CPTR23
+    - 1R23INV
+  : -1
+  ? - 1BALHCO
+    - 1I1YCAP
+  : -0.0135
+  ? - 1BALEID
+    - 1TXYCAP
+  : -0.002704
+  ? - PRICER
+    - 2R5LINV
+  : 9.695297
+  ? - 1BALESD
+    - 1R5MCAP
+  : -0.766197
+  ? - PRICER
+    - 1IJ6INV
+  : 1.43445
+  ? - 2BASS
+    - 2EC3SN
+  : -0.77605
+  ? - 3EWDE14
+    - 3E14CAP
+  : -2.998198
+  ? - 2ESDE35
+    - 2E35SD
+  : 1
+  ? - 2ESNEC2
+    - 2EC2SN
+  : 1
+  ? - 3CPTIJ8
+    - 2IJ8INV
+  : -1
+  ? - 1BALLMS
+    - 2S54CAP
+  : -0.1
+  ? - 2EPKWD
+    - 2R2LCAP
+  : -3.47
+  ? - 1EIDEC2
+    - 1EC2IM
+  : 0.65
+  ? - 3EWDE23
+    - 3E23CAP
+  : -5.365133
+  ? - 3BALEIN
+    - 3R5LCAP
+  : -0.021918
+  ? - 3BALGAS
+    - 3IJ7CAP
+  : -1.538461
+  ? - PRICER
+    - 1T83CAP
+  : 5.475219
+  ? - PRICER
+    - 3E60INV
+  : 721.59033
+  ? - 2RAT007
+    - 2R28CAP
+  : 0.314
+  ? - 1EWNEC2
+    - 1EC2CAP
+  : -2.777279
+  ? - 3BALUDP
+    - ZSTKUDP1
+  : -1
+  ? - 3BALEIN
+    - 3R21CAP
+  : -0.068889
+  ? - 1ESDEP1
+    - 1EP1SD
+  : 1
+  ? - 2EIDE22
+    - 2E22ID
+  : 1
+  ? - 1EINEC1
+    - 1EC1CAP
+  : -1.899911
+  ? - PRICER
+    - 1EC3SD
+  : 5.635665
+  ? - 2ESNEP1
+    - 2EP1SN
+  : 1
+  ? - 1BASS
+    - 1EP1SN
+  : -0.77605
+  ? - 3CPTR51
+    - 1R51INV
+  : -1
+  ? - 2CPTIJ6
+    - 1IJ6INV
+  : -1
+  ? - 1BALEWD
+    - 1EP1WD
+  : 0.913
+  ? - 3EIDE94
+    - 3E94ID
+  : 1
+  ? - 3BALHCO
+    - 3IJ8CAP
+  : -2
+  ? - 3BALESN
+    - 3E23SD
+  : 0.258683
+  ? - 1BALEWN
+    - 1R50CAP
+  : -0.248889
+  ? - 3BALEID
+    - 3R2LCAP
+  : -0.249
+  ? - PRICER
+    - 2EC2SN
+  : 3.330964
+  ? - 2BALESN
+    - 2E23SD
+  : 0.258683
+  ? - 1BALCOK
+    - 1S09ACT
+  : 0.64
+  ? - 1BALEID
+    - 1MINHCO1
+  : -0.000857
+  ? - 2BALHCO
+    - 2EC1SN
+  : -3.637
+  ? - 3BALDHS
+    - 3E60SD
+  : 2
+  ? - 2BALPLU
+    - 2E22SD
+  : 0.016627
+  ? - PRICER
+    - 1S55CAP
+  : 4.752079
+  ? - PRICER
+    - 2EP1WN
+  : 16.725754
+  ? - 2EINEP1
+    - 2EP1IN
+  : 1
+  ? - 3EIDE60
+    - 3E60ID
+  : 1
+  ? - 3UTLE22
+    - 3E22IM
+  : 1
+  ? - 2CPTR58
+    - 1R58INV
+  : -1
+  ? - 2EPKSD
+    - 2R2ACAP
+  : -0.197674
+  ? - 2UTLE22
+    - 2E22WM
+  : 1
+  ? - PRICER
+    - 1E14SN
+  : 4.183896
+  ? - 1BALEID
+    - 1E31ID
+  : 0.913
+  ? - 1BALOIK
+    - 1STKOIK1
+  : 1
+  ? - PRICER
+    - 2IMPURN1
+  : 0.401422
+  ? - 3BALPLU
+    - 3S54CAP
+  : 0.06318
+  ? - 1BALDSL
+    - 1EC1WD
+  : -0.066667
+  ? - 3EPKSD
+    - 3IIYCAP
+  : -0.311542
+  ? - 1DEMRD
+    - 1RDYCAP
+  : 1
+  ? - 3BALEWN
+    - 3RDYCAP
+  : -0.084998
+  ? - 2EWNEC1
+    - 2EC1WN
+  : 1
+  ? - 2CPTRT1
+    - 1RT1INV
+  : -1
+  ? - 3BALESD
+    - 3E31SD
+  : 0.913
+  ? - 2BALGAS
+    - 2RDYCAP
+  : -0.410787
+  ? - 3CPTR5C
+    - 3R5CINV
+  : -1
+  ? - PRICER
+    - 2IJ7CAP
+  : 29.144684
+  ? - PRICER
+    - 2R50CAP
+  : 1.157948
+  ? - 3BALDSL
+    - 3EC3IN
+  : -0.05
+  ? - 1ESDE23
+    - 1E23SD
+  : 1
+  ? - 2BALEWD
+    - 2R2ACAP
+  : -0.144583
+  ? - 2BALEWN
+    - 2E51WD
+  : -1.292807
+  ? - 3EWNE60
+    - 3E60CAP
+  : -2.114518
+  ? - 3BALHCO
+    - 3S08ACT
+  : -1
+  ? - 3CPTR21
+    - 3R21INV
+  : -1
+  ? - 3DEMR2
+    - 3R2YCAP
+  : 1
+  ? - 3BALGAS
+    - 3R27CAP
+  : -1.538461
+  ? - 2BALDSH
+    - 2EP1SN
+  : -3.3333
+  ? - 1DEMR2
+    - 1R21CAP
+  : 1
+  ? - PRICER
+    - 3R5LINV
+  : 4.146439
+  ? - PRICER
+    - 3R50CAP
+  : 0.865289
+  ? - 3BALDSL
+    - 3EC3SN
+  : -0.05
+  ? - 2EPKSD
+    - 2RDYCAP
+  : -0.425371
+  ? - 1CPTR28
+    - 1R28CAP
+  : 1
+  ? - 1CPTE51
+    - 1E51CAP
+  : 1
+  ? - 3CPTR51
+    - 3R51CAP
+  : 1
+  ? - 2RAT008
+    - 2R2ACAP
+  : 0.314
+  ? - 1BALEWD
+    - 1R5MCAP
+  : -0.223944
+  ? - 3EIDE31
+    - 3E31ID
+  : 1
+  ? - 3BALGAK
+    - ZSTKGAK1
+  : -1
+  ? - 3BALEWD
+    - 3MINHCO1
+  : -0.000659
+  ? - 1BALGAS
+    - 1RTYCAP
+  : -0.952381
+  ? - 1CPTS06
+    - 1S06INV
+  : -1
+  ? - PRICER
+    - 3IJ7CAP
+  : 21.778656
+  ? - PRICER
+    - 3IJ8CAP
+  : 6.172396
+  ? - PRICER
+    - 1R53INV
+  : 53.34909
+  ? - 1BALGSL
+    - 1NYYCAP
+  : -0.2795
+  ? - 2RAT011
+    - 2STKOIK1
+  : -1
+  ? - PRICER
+    - 3R5AINV
+  : 0.00001
+  ? - 2BALEWN
+    - 2R5LCAP
+  : -0.090278
+  ? - 3BALEID
+    - 3R5LCAP
+  : -0.261644
+  ? - PRICER
+    - 3R2ACAP
+  : 5.191734
+  ? - 3DEMTX
+    - 3TXYCAP
+  : 1
+  ? - 1BALMAG
+    - 1S44CAP
+  : 0.744
+  ? - 2DEMR5
+    - 2R53CAP
+  : 1
+  ? - 3CPTS80
+    - 3S80CAP
+  : 1
+  ? - 3BALUDP
+    - 3S45CAP
+  : 3.4348
+  ? - 3BALGAS
+    - 3R2BCAP
+  : -0.826447
+  ? - 1RAT004
+    - 1R21CAP
+  : 0.311
+  ? - 1CPTRT8
+    - 1RT8CAP
+  : 1
+  ? - PRICER
+    - 1EC3SN
+  : 5.635665
+  ? - PRICER
+    - 3E14ID
+  : 2.336281
+  ? - 1UTLS08
+    - 1S08CAP
+  : -0.9
+  ? - 2DEMR2
+    - 2R21CAP
+  : 1
+  ? - 1UTLS28
+    - 1S28CAP
+  : -1
+  ? - 1EPKWD
+    - 1E22CAP
+  : 24.213669
+  ? - 2BALEWD
+    - 2R5MCAP
+  : -0.220833
+  ? - 1EWNE31
+    - 1E31WN
+  : 1
+  ? - 3BALGSL
+    - 3S28ACT
+  : 0.67
+  ? - 1DEMT8
+    - 1T80CAP
+  : 1
+  ? - 3BALEWD
+    - 3E51WD
+  : 0.913
+  ? - PRICER
+    - 1EP1WN
+  : 22.382751
+  ? - PRICER
+    - 3IJ6INV
+  : 0.347404
+  ? - 2BALGAS
+    - 2R2YCAP
+  : -1.256371
+  ? - PRICER
+    - 1IMPURN1
+  : 0.537191
+  ? - 1EPKSD
+    - 1RDYCAP
+  : -0.421427
+  ? - 1EWDEP1
+    - 1EP1CAP
+  : -2.714158
+  ? - 2BASS
+    - 2E14SN
+  : -0.77605
+  ? - PRICER
+    - 3R2AINV
+  : 0.00001
+  ? - 2BALEIN
+    - 2E22ID
+  : 0.31955
+  ? - PRICER
+    - 1EC3INV
+  : 2240.9575
+  ? - 3UTLEP1
+    - 3EP1IM
+  : 1
+  ? - 3BALURN
+    - 3S44CAP
+  : -1.02
+  ? - PRICER
+    - 3IJ8INV
+  : 1.197424
+  ? - 3CPTR5L
+    - 2R5LINV
+  : -1
+  ? - 3EPKSD
+    - 3R21CAP
+  : -0.527132
+  ? - 3EPKSD
+    - 3E31CAP
+  : 24.213669
+  ? - 1BALESN
+    - 1R50CAP
+  : -0.632222
+  ? - 3BALDSR
+    - 3S21ACT
+  : 0.46
+  ? - 2BASI
+    - 2EP1IN
+  : -0.77605
+  ? - PRICER
+    - 3S09INV
+  : 1.502365
+  ? - PRICER
+    - 2R2LCAP
+  : 11.039117
+  ? - 2EPKWD
+    - 2E51CAP
+  : 24.213669
+  ? - 3EIDE51
+    - 3E51CAP
+  : -3.692519
+  ? - 3BALHCO
+    - 3EC3WN
+  : -2.7278
+  ? - 1BALESN
+    - 1R5MCAP
+  : -0.035211
+  ? - PRICER
+    - 3E22ID
+  : 1.009503
+  ? - PRICER
+    - 3E94ID
+  : 41.750214
+  ? - 3EPKSD
+    - 3R51CAP
+  : -1.405684
+  ? - 3CPTR51
+    - 3R51INV
+  : -1
+  ? - PRICER
+    - 2R51INV
+  : 4.847649
+  ? - 3ESDE94
+    - 3E94CAP
+  : -13.570797
+  ? - 1BALOIK
+    - 2STKOIK1
+  : -1
+  ? - PRICER
+    - 1R27INV
+  : 39.374603
+  ? - 1BALEWN
+    - 1R21CAP
+  : -0.096667
+  ? - 2BALDHS
+    - 2R2CCAP
+  : -0.331169
+  ? - 3ESNE60
+    - 3E60CAP
+  : -3.594682
+  ? - PRICER
+    - 1E22WD
+  : 1.807856
+  ? - 2BALEWN
+    - 2E31WN
+  : 0.913
+  ? - 3CPTRT0
+    - 1RT0INV
+  : -1
+  ? - PRICER
+    - 2EC1WD
+  : 4.071078
+  ? - PRICER
+    - 3R27INV
+  : 9.536002
+  ? - 1CPTR27
+    - 1R27CAP
+  : 1
+  ? - 3CPTS01
+    - 3S01INV
+  : -1
+  ? - 1CPTS28
+    - 1S28INV
+  : -1
+  ? - 2BALGAS
+    - 2NYYCAP
+  : -0.2875
+  ? - PRICER
+    - 2R23CAP
+  : 11.520109
+  ? - 2CPTR5L
+    - 2R5LCAP
+  : 1
+  ? - 3CPTR5L
+    - 3R5LCAP
+  : 1
+  ? - 1ESDEP1
+    - 1EP1SM
+  : 0.716667
+  ? - 2EPKWD
+    - 2I1YCAP
+  : -0.147576
+  ? - 2CPTIJ7
+    - 1IJ7INV
+  : -1
+  ? - 3EPKSD
+    - 3EC1CAP
+  : 24.213669
+  ? - 2EPKWD
+    - 2E31CAP
+  : 24.213669
+  ? - 2BALHCO
+    - 2EC2IN
+  : -2.9758
+  ? - 3BALDSL
+    - 3EC2WN
+  : -0.054545
+  ? - 2BALDSL
+    - 2EC3WD
+  : -0.05
+  ? - 3BALDSL
+    - 3EC3WD
+  : -0.05
+  ? - 2BALPLU
+    - 1E22SD
+  : 0.007126
+  ? - 2ESNE31
+    - 2E31SN
+  : 1
+  ? - 2BALGAS
+    - 2EXPGAS1
+  : -1
+  ? - 2BALDSL
+    - 2S28ACT
+  : -1
+  ? - 3BALESD
+    - 3R51CAP
+  : -0.604444
+  ? - PRICER
+    - 3RT3INV
+  : 12.920424
+  ? - 3CPTR20
+    - 3R20INV
+  : -1
+  ? - 3CPTR28
+    - 2R28INV
+  : -1
+  ? - 1UTLE23
+    - 1E23SM
+  : 1
+  ? - 3BALDSL
+    - 3S29ACT
+  : -1
+  ? - 2EIDEC3
+    - 2EC3ID
+  : 1
+  ? - 1BALEIN
+    - 1E31IN
+  : 0.913
+  ? - 3EPKSD
+    - 3E94CAP
+  : 26.521011
+  ? - 3UTLS29
+    - 3S29CAP
+  : -1
+  ? - 1CPTIJ8
+    - 1IJ8INV
+  : -1
+  ? - 1BALDSH
+    - 1EP1ID
+  : -3.3333
+  ? - 2DEMRT
+    - 2RT1CAP
+  : 1
+  ? - 2BALESN
+    - 2I1YCAP
+  : -0.013728
+  ? - 3BALEWN
+    - 3R50CAP
+  : -0.248889
+  ? - 1BALUDP
+    - 1S47CAP
+  : -0.9796
+  ? - 3CPTE51
+    - 2E51INV
+  : -1
+  ? - 2BALUDP
+    - 2S47CAP
+  : -0.9796
+  ? - 2BALGAS
+    - 2S79CAP
+  : 0.95
+  ? - 2EPKSD
+    - 2RT1CAP
+  : -0.527132
+  ? - 2GRCT80
+    - 1T80CAP
+  : -1.227805
+  ? - 3BALESD
+    - 3R5LCAP
+  : -0.745205
+  ? - 3EIDE14
+    - 3E14CAP
+  : -3.897659
+  ? - 2EINE14
+    - 2E14IN
+  : 1
+  ? - 2EWNE31
+    - 2E31WN
+  : 1
+  ? - 1BASS
+    - 1E14SN
+  : -0.77605
+  ? - 2BALGAK
+    - 3STKGAK1
+  : -1
+  ? - PRICER
+    - 1S23INV
+  : 5.273388
+  ? - 2EPKSD
+    - 2E22CAP
+  : 24.213669
+  ? - 2UTLEC2
+    - 2EC2WM
+  : 1
+  ? - 2BALDSL
+    - 2S23ACT
+  : 0.5
+  ? - 3BALEWD
+    - 3R2ACAP
+  : -0.144583
+  ? - 3BALHCO
+    - 3EC1IN
+  : -3.637
+  ? - 3BALLMS
+    - 3STKLMS1
+  : 1
+  ? - 1CPTR50
+    - 1R50INV
+  : -1
+  ? - 3BALAGR
+    - 2S47CAP
+  : 0.266
+  ? - 3EINE14
+    - 3E14IN
+  : 1
+  ? - 2DEMR2
+    - 2R2DCAP
+  : 1
+  ? - 2CPTRT7
+    - 1RT7INV
+  : -1
+  ? - 3EIDE22
+    - 3E22ID
+  : 1
+  ? - 3BALEIN
+    - 3EP1IN
+  : 0.913
+  ? - 2EWNEC3
+    - 2EC3CAP
+  : -2.114518
+  ? - PRICER
+    - 1EP1INV
+  : 2188.7188
+  ? - 2CPTE14
+    - 2E14INV
+  : -1
+  ? - 2BASS
+    - 2EC1SN
+  : -0.77605
+  ? - 3CPTE14
+    - 2E14INV
+  : -1
+  ? - 1BALMAG
+    - 1E22WD
+  : -12.6582
+  ? - 1UTLEP1
+    - 1EP1IM
+  : 1
+  ? - 3BALAGR
+    - 3E23ID
+  : -1.457729
+  ? - 3BALESN
+    - 3R20CAP
+  : -0.283333
+  ? - 2BALEWN
+    - 2E35WN
+  : 0.913
+  ? - PRICER
+    - 1RT0INV
+  : 19.863083
+  ? - 2BALHCO
+    - 2IIYCAP
+  : -0.1549
+  ? - PRICER
+    - 2S08INV
+  : 1.4791
+  ? - PRICER
+    - 3S06ACT
+  : 0.836446
+  ? - 3BALURN
+    - 3S46CAP
+  : -0.9841
+  ? - 1CPTE51
+    - 1E51INV
+  : -1
+  ? - 2BALEWN
+    - 2R51CAP
+  : -0.072222
+  ? - 1BALGAS
+    - 1EXPGAS1
+  : -1
+  ? - 1EPKSD
+    - 1R21CAP
+  : -0.527132
+  ? - 2CPTR2A
+    - 2R2ACAP
+  : 1
+  ? - 3CPTE31
+    - 3E31INV
+  : -1
+  ? - 2BALHCO
+    - 2S06ACT
+  : -1
+  ? - 1BALGAS
+    - 1RT7CAP
+  : -1.538461
+  ? - PRICER
+    - 2E22CAP
+  : 60.985336
+  ? - 3EWNE35
+    - 3E35CAP
+  : -0.883679
+  ? - 3RAT006
+    - 3R57CAP
+  : -1
+  ? - 3BALCOK
+    - 3I1YCAP
+  : -0.6166
+  ? - 2CPTRTB
+    - 2RTBCAP
+  : 1
+  ? - 3CPTR20
+    - 3R20CAP
+  : 1
+  ? - 2BALEWD
+    - 2R21CAP
+  : -0.385555
+  ? - 3CPTS23
+    - 3S23INV
+  : -1
+  ? - PRICER
+    - 1EC1IN
+  : 5.448
+  ? - 3EINE31
+    - 3E31IN
+  : 1
+  ? - PRICER
+    - 3R21INV
+  : 2.677005
+  ? - 2BALCOK
+    - 2S06ACT
+  : 0.6
+  ? - 2UTLEC2
+    - 2EC2IM
+  : 1
+  ? - 1UTLE23
+    - 1E23WM
+  : 1
+  ? - 1BNDEP1L
+    - 1EP1WD
+  : 1
+  ? - 3EIDE14
+    - 3E14ID
+  : 1
+  ? - 3BALESN
+    - 3E31SN
+  : 0.913
+  ? - PRICER
+    - 3EXPGAS1
+  : -16.238586
+  ? - 2CPTS06
+    - 1S06INV
+  : -1
+  ? - 3EIDE22
+    - 3E22IM
+  : 1
+  ? - 3BALESD
+    - 3R2ACAP
+  : -0.085
+  ? - 1BALDSH
+    - 1EP1SN
+  : -3.3333
+  ? - 2CPTS23
+    - 2S23INV
+  : -1
+  ? - PRICER
+    - 2R53INV
+  : 30.210815
+  ? - 2CPTR5H
+    - 2R5HINV
+  : -1
+  ? - PRICER
+    - 1EXPOIL1
+  : -27.995941
+  ? - PRICER
+    - 1R51INV
+  : 8.560434
+  ? - 3BALESD
+    - 3EC1SD
+  : 0.913
+  ? - 1BALESD
+    - 1EC2SD
+  : 0.913
+  ? - 1CPTRT3
+    - 1RT3INV
+  : -1
+  ? - 2BALHCO
+    - 2EC3SN
+  : -2.7278
+  ? - 2CPTR28
+    - 2R28INV
+  : -1
+  ? - PRICER
+    - 3S80INV
+  : 1.870049
+  ? - 3BALGAS
+    - 3R57CAP
+  : -1.538461
+  ? - 2BALESD
+    - 2E22SD
+  : 0.654317
+  ? - PRICER
+    - 1E23ID
+  : 1.136366
+  ? - 3BALUDP
+    - 3STKUDP1
+  : 1
+  ? - 1BALUDP
+    - 1S4ACAP
+  : -0.9476
+  ? - 1BALAGS
+    - 1E23ID
+  : 1.457729
+  ? - 2BALESD
+    - 2E35SD
+  : 0.913
+  ? - 2ESNE35
+    - 2E35SN
+  : 1
+  ? - 1EWNEC2
+    - 1EC2WN
+  : 1
+  ? - 1BALEWN
+    - 1RDYCAP
+  : -0.082314
+  ? - 2BALEWD
+    - 2IIYCAP
+  : -0.039487
+  ? - 3EINEC3
+    - 3EC3CAP
+  : -1.480163
+  ? - 2BALDSH
+    - 2IJ6CAP
+  : -1.818181
+  ? - 1BALESD
+    - 1E14SD
+  : 0.913
+  ? - 3EPKSD
+    - 3MINHCO1
+  : -0.00659
+  ? - 2CPTR2C
+    - 2R2CCAP
+  : 1
+  ? - 1BALEWD
+    - 1RDYCAP
+  : -0.148042
+  ? - 2BASI
+    - 2E14IN
+  : -0.77605
+  ? - 1BALHCO
+    - 1EC3SD
+  : -2.7278
+  ? - 1BALDSL
+    - 1R2YCAP
+  : -0.114623
+  ? - 3ESDE23
+    - 3E23SM
+  : 1
+  ? - PRICER
+    - 3EXPHCO1
+  : -10.93149
+  ? - 3BALHCO
+    - 3EC1WD
+  : -3.637
+  ? - 1BALDSL
+    - 1RDYCAP
+  : -0.332697
+  ? - 3BALAGR
+    - 3S47CAP
+  : 0.734
+  ? - 2ESDEC2
+    - 2EC2CAP
+  : -11.942307
+  ? - 3EPKSD
+    - 3E22CAP
+  : 24.213669
+  ? - 3BALAGS
+    - 3STKAGS1
+  : 1
+  ? - 2CPTR21
+    - 1R21INV
+  : -1
+  ? - 3BALGAS
+    - 3RDYCAP
+  : -0.411062
+  ? - 3BALDSH
+    - 3S72CAP
+  : 1
+  ? - 1BALGSL
+    - 1S28ACT
+  : 0.67
+  ? - 3BALESN
+    - 3R2ACAP
+  : -0.02125
+  ? - 1CPTR20
+    - 1R20INV
+  : -1
+  ? - 3CPTS29
+    - 3S29CAP
+  : 1
+  ? - 1BALHCO
+    - 1EC3SN
+  : -2.7278
+  ? - 1EINE14
+    - 1E14IN
+  : 1
+  ? - 2CPTS09
+    - 2S09CAP
+  : 1
+  ? - 2BNDEP1L
+    - 2EP1SN
+  : 1
+  ? - 3BALHCO
+    - 3RT8CAP
+  : -2
+  ? - 3BALESN
+    - 3R5MCAP
+  : -0.034247
+  ? - PRICER
+    - 1R57INV
+  : 39.374603
+  ? - 3UTLE23
+    - 3E23WM
+  : 1
+  ? - PRICER
+    - 3E94WN
+  : 41.750214
+  ? - 2EIDE23
+    - 2E23IM
+  : 1
+  ? - PRICER
+    - 2RT3INV
+  : 30.210815
+  ? - 3DEMII
+    - 3IIYCAP
+  : 1
+  ? - 3EPKWD
+    - 3E31CAP
+  : 24.213669
+  ? - 2BALDSL
+    - 2EC1IN
+  : -0.066667
+  ? - 1BASW
+    - 1E23WD
+  : 0.068475
+  ? - PRICER
+    - 3E60ID
+  : 3.533263
+  ? - 1CPTR53
+    - 1R53INV
+  : -1
+  ? - 2DEMII
+    - 2IIYCAP
+  : 1
+  ? - 3RAT001
+    - 3R5HCAP
+  : 1
+  ? - 1UTLEC1
+    - 1EC1SM
+  : 1
+  ? - 2BALESN
+    - 2EC1SN
+  : 0.913
+  ? - PRICER
+    - 3R2BCAP
+  : 8.862661
+  ? - 2BALEWD
+    - 2EC3WD
+  : 0.913
+  ? - 2BALDSL
+    - 2E14WN
+  : -3.5971
+  ? - PRICER
+    - 1E23WD
+  : 1.136366
+  ? - 3EWNE14
+    - 3E14WN
+  : 1
+  ? - 3EPKWD
+    - 3R5MCAP
+  : -2.178082
+  ? - 1CPTR28
+    - 1R28INV
+  : -1
+  ? - 3CPTR23
+    - 3R23CAP
+  : 1
+  ? - 2UTLEC1
+    - 2EC1CAP
+  : -4.4184
+  ? - 3BALHCO
+    - 3S04ACT
+  : -1
+  ? - 3GRCT80
+    - 2T80CAP
+  : -1.227805
+  ? - 2BALAGS
+    - 2E23WD
+  : 1.457729
+  ? - PRICER
+    - 1R5LINV
+  : 17.120865
+  ? - PRICER
+    - 1RT0CAP
+  : 7.231423
+  ? - PRICER
+    - 3E51INV
+  : 197.14723
+  ? - 1EWDEP1
+    - 1EP1WM
+  : 0.5
+  ? - 2BALHCO
+    - 2EC3ID
+  : -2.7278
+  ? - 3DEMR2
+    - 3R20CAP
+  : 1
+  ? - 3BALDHW
+    - 3E60WD
+  : 2
+  ? - 2BALGAS
+    - 2S09ACT
+  : 0.152
+  ? - 1CPTS08
+    - 1S08CAP
+  : 1
+  ? - 2EIDE51
+    - 2E51CAP
+  : -3.692519
+  ? - 1UTLS09
+    - 1S09ACT
+  : 1
+  ? - 3BALEWD
+    - 3E14WD
+  : 0.913
+  ? - 2DEMT8
+    - 2T83CAP
+  : 1
+  ? - 2BALHCO
+    - 2IJ8CAP
+  : -2
+  ? - 3UTLS29
+    - 3S29ACT
+  : 1
+  ? - 2EINE35
+    - 2E35IN
+  : 1
+  ? - 3CPTRT8
+    - 2RT8INV
+  : -1
+  ? - 3EIDE23
+    - 3E23IM
+  : 1
+  ? - 3BALAGS
+    - 3E23ID
+  : 1.457729
+  ? - 1BALHCO
+    - 1MINHCO1
+  : 1
+  ? - 1EPKSD
+    - 1IIYCAP
+  : -0.314324
+  ? - 3EINE60
+    - 3E60CAP
+  : -1.480163
+  ? - PRICER
+    - 3E23ID
+  : 0.634546
+  ? - 3BALEWD
+    - 3E23WD
+  : 0.4565
+  ? - PRICER
+    - 3E14WN
+  : 2.336281
+  ? - 2DEMR2
+    - 2R2BCAP
+  : 1
+  ? - 2CPTS23
+    - 1S23INV
+  : -1
+  ? - 2CPTR27
+    - 2R27INV
+  : -1
+  ? - 1DEMR5
+    - 1R58CAP
+  : 1
+  ? - 1EIDE22
+    - 1E22ID
+  : 1
+  ? - 2RAT005
+    - 2R53CAP
+  : -1
+  ? - 2CPTS08
+    - 1S08INV
+  : -1
+  ? - 2EPKSD
+    - 2R5ACAP
+  : -0.361462
+  ? - 3BALEWN
+    - 3S80ACT
+  : -0.2
+  ? - 3BALDSL
+    - 3EC1ID
+  : -0.066667
+  ? - 1DEMR5
+    - 1R51CAP
+  : 1
+  ? - PRICER
+    - 2S46CAP
+  : 0.46318
+  ? - 3BALESD
+    - 3EP1SD
+  : 0.913
+  ? - 1CPTRT1
+    - 1RT1INV
+  : -1
+  ? - 2CPTRTB
+    - 2RTBINV
+  : -1
+  ? - 1BNDEP1L
+    - 1EP1SN
+  : 1
+  ? - 3EINE94
+    - 3E94CAP
+  : -2.2092
+  ? - PRICER
+    - 3S55CAP
+  : 2.653554
+  ? - PRICER
+    - 1E51CAP
+  : 71.28119
+  ? - 1BALDSL
+    - 1EC1SD
+  : -0.066667
+  ? - PRICER
+    - 3R58CAP
+  : 17.824951
+  ? - PRICER
+    - 1R2DINV
+  : 0.00001
+  ? - 2BALMAG
+    - 2E22ID
+  : -12.6582
+  ? - 1BASI
+    - 1EC2IN
+  : -0.77605
+  ? - 2CPTIJ7
+    - 2IJ7INV
+  : -1
+  ? - 2CPTR58
+    - 2R58CAP
+  : 1
+  ? - 1BALHCO
+    - 1R58CAP
+  : -2
+  ? - 3BALEWD
+    - 3R5MCAP
+  : -0.217808
+  ? - 3BALEWN
+    - 3RT0CAP
+  : -0.482222
+  ? - PRICER
+    - 3E14WD
+  : 2.336281
+  ? - 3CPTR2A
+    - 3R2AINV
+  : -1
+  ? - 3RAT006
+    - 3R27CAP
+  : 0.317
+  ? - 1EWNE14
+    - 1E14WN
+  : 1
+  ? - 1EPKWD
+    - 1EC2CAP
+  : 24.213669
+  ? - 3DEMRT
+    - 3RTYCAP
+  : 1
+  ? - 1BALEID
+    - 1R5LCAP
+  : -0.269014
+  ? - 2ESNEP1
+    - 2EP1SM
+  : 0.283333
+  ? - 1BALAGR
+    - 1S45CAP
+  : 0.634
+  ? - 3CPTR2C
+    - 3R2CINV
+  : -1
+  ? - 3BALOIL
+    - 3S7ACAP
+  : 1
+  ? - 3UTLS08
+    - 3S08ACT
+  : 1
+  ? - 1EIDE31
+    - 1E31ID
+  : 1
+  ? - 3BALHCO
+    - 3E60WN
+  : -2.5
+  ? - 2CPTE23
+    - 1E23INV
+  : -1
+  ? - 3BALEWD
+    - 3RDYCAP
+  : -0.152869
+  ? - 3CPTR53
+    - 1R53INV
+  : -1
+  ? - 3BALOIK
+    - 3S7ACAP
+  : -1
+  ? - 2ESDE23
+    - 2E23SD
+  : 1
+  ? - 1BALESD
+    - 1E51SD
+  : 0.913
+  ? - PRICER
+    - 3RT8INV
+  : 13.197139
+  ? - 3EPKWD
+    - 3RDYCAP
+  : -1.528695
+  ? - 2CPTS23
+    - 2S23CAP
+  : 1
+  ? - 1BALDSL
+    - 1EC2SN
+  : -0.054545
+  ? - 1BALESN
+    - 1E51SD
+  : -1.304311
+  ? - 3EINEC2
+    - 3EC2CAP
+  : -1.944096
+  ? - PRICER
+    - 1S08INV
+  : 2.611933
+  ? - 2BALEWN
+    - 2R21CAP
+  : -0.096667
+  ? - 3EPKSD
+    - 3R5LCAP
+  : -1.733036
+  ? - 1BALEID
+    - 1E22ID
+  : 0.59345
+  ? - 2EINEP1
+    - 2EP1CAP
+  : -1.899911
+  ? - PRICER
+    - 1E14WN
+  : 4.183896
+  ? - 1CPTR51
+    - 1R51CAP
+  : 1
+  ? - 1EPKSD
+    - 1E23CAP
+  : 24.213669
+  ? - 3EIDE51
+    - 3E51ID
+  : 1
+  ? - 2BALGAS
+    - 2IMPGAS1
+  : 0.95
+  ? - 1EPKWD
+    - 1R5MCAP
+  : -2.239438
+  ? - 1BALGAS
+    - 1S06ACT
+  : 0.1425
+  ? - 2CPTRT8
+    - 1RT8INV
+  : -1
+  ? - PRICER
+    - 2S45CAP
+  : 2.161505
+  ? - PRICER
+    - 1EC2WD
+  : 4.457562
+  ? - 2ESDE22
+    - 2E22SM
+  : 1
+  ? - 3BASI
+    - 3E94IN
+  : -0.85
+  ? - 3EIDE60
+    - 3E60CAP
+  : -2.748875
+  ? - 3BASS
+    - 3EC2SN
+  : -0.77605
+  ? - 2BALEWN
+    - 2EC3WN
+  : 0.913
+  ? - 1RAT002
+    - 1R2DCAP
+  : -1.8
+  ? - 3CPTR2L
+    - 1R2LINV
+  : -1
+  ? - 1BALESD
+    - 1R51CAP
+  : -0.604444
+  ? - 3BALHCO
+    - 3S09ACT
+  : -1
+  ? - 3CPTE23
+    - 2E23INV
+  : -1
+  ? - 2BALEWD
+    - 2E14WD
+  : 0.913
+  ? - 2BASW
+    - 2EP1WN
+  : -0.77605
+  ? - 2BALGAS
+    - 2RTBCAP
+  : -0.833333
+  ? - 1UTLS23
+    - 1S23ACT
+  : 1
+  ? - PRICER
+    - 2EC3WD
+  : 4.211314
+  ? - 2DEMR5
+    - 2R5HCAP
+  : 1
+  ? - 2CPTRT7
+    - 2RT7INV
+  : -1
+  ? - PRICER
+    - 1R53CAP
+  : 16.528961
+  ? - 3UTLS04
+    - 3S04CAP
+  : -0.85
+  ? - 3EPKWD
+    - 3E14CAP
+  : 24.213669
+  ? - 2ESDEC1
+    - 2EC1CAP
+  : -11.670885
+  ? - 3UTLEP1
+    - 3EP1SM
+  : 1
+  ? - 3EIDE35
+    - 3E35CAP
+  : -1.148784
+  ? - PRICER
+    - 1EC2SN
+  : 4.457562
+  ? - 1EWDEC3
+    - 1EC3WD
+  : 1
+  ? - 3UTLS04
+    - 3S04ACT
+  : 1
+  ? - 3BALDHS
+    - 3R5CCAP
+  : -0.836765
+  ? - PRICER
+    - 3RT1CAP
+  : 3.836116
+  ? - 2BALEWN
+    - 2R50CAP
+  : -0.248889
+  ? - 3ESNE31
+    - 3E31CAP
+  : -0.965735
+  ? - 1BALHCO
+    - 1EC3WN
+  : -2.7278
+  ? - 2BALDSH
+    - 2EP1ID
+  : -3.3333
+  ? - 2CPTIJ8
+    - 2IJ8CAP
+  : 1
+  ? - 2BALESN
+    - 2E14SN
+  : 0.913
+  ? - 1RAT006
+    - 1R27CAP
+  : 0.311
+  ? - 3EPKWD
+    - 3RT1CAP
+  : -3.855558
+  ? - 3BASW
+    - 3E60WN
+  : -0.85
+  ? - 3EWDE60
+    - 3E60WD
+  : 1
+  ? - 3BALESN
+    - 3E22SD
+  : 0.258683
+  ? - 2CPTE23
+    - 2E23INV
+  : -1
+  ? - 2BALAGR
+    - 2S46CAP
+  : 0.734
+  ? - 3EWDE31
+    - 3E31CAP
+  : -1.199279
+  ? - 3BALDSH
+    - 3IJ6CAP
+  : -1.818181
+  ? - 3EWDE23
+    - 3E23WD
+  : 1
+  ? - PRICER
+    - 3E94IN
+  : 41.750214
+  ? - 3UTLE23
+    - 3E23CAP
+  : -6.311683
+  ? - PRICER
+    - 2R2CINV
+  : 20.4711
+  ? - 1BALGAS
+    - 1S6HCAP
+  : 0.95
+  ? - 3CPTR5L
+    - 3R5LINV
+  : -1
+  ? - 2BALAGR
+    - 1S47CAP
+  : 0.266
+  ? - 3BALDSL
+    - 3EC2IN
+  : -0.054545
+  ? - 1BALGAS
+    - 1R57CAP
+  : -1.538461
+  ? - PRICER
+    - 1EC1SN
+  : 5.448
+  ? - 1ESDE23
+    - 1E23CAP
+  : -16.095398
+  ? - 3BALUDP
+    - 3S54CAP
+  : 0.9282
+  ? - 3BALDSL
+    - 3E14SD
+  : -3.5971
+  ? - 1CPTS08
+    - 1S08INV
+  : -1
+  ? - 3ESNE60
+    - 3E60SN
+  : 1
+  ? - 2CPTR28
+    - 2R28CAP
+  : 1
+  ? - 3EINE60
+    - 3E60IN
+  : 1
+  ? - 3BALESN
+    - 3E60SN
+  : 1
+  ? - 2BALAGR
+    - 2S45CAP
+  : 0.634
+  ? - 3BALGAS
+    - 3E94ID
+  : -2.5
+  ? - 1BALEWN
+    - 1R5MCAP
+  : -0.091549
+  ? - PRICER
+    - 3S08INV
+  : 0.632575
+  ? - 1BALDSH
+    - 1EXPDSH1
+  : -1
+  ? - PRICER
+    - 3EC3CAP
+  : 64.0314
+  ? - 1BALEID
+    - 1EC1ID
+  : 0.913
+  ? - PRICER
+    - 3R20INV
+  : 4.810567
+  ? - 2DEMR2
+    - 2R2ACAP
+  : 1
+  ? - 2BALEIN
+    - 2EC1IN
+  : 0.913
+  ? - PRICER
+    - 3RT7INV
+  : 9.536002
+  ? - PRICER
+    - 2R50INV
+  : 9.755052
+  ? - 1EINEC2
+    - 1EC2IM
+  : 0.35
+  ? - 3BALESN
+    - 3T80CAP
+  : -0.3
+  ? - 2CPTR27
+    - 1R27INV
+  : -1
+  ? - 2RAT005
+    - 2R23CAP
+  : 0.314
+  ? - PRICER
+    - 3R50INV
+  : 4.172
+  ? - 2CPTR2L
+    - 2R2LCAP
+  : 1
+  ? - PRICER
+    - 3R5HCAP
+  : 47.6649
+  ? - 3DEMRT
+    - 3RT8CAP
+  : 1
+  ? - 3ESDEC1
+    - 3EC1SD
+  : 1
+  ? - 2CPTR2A
+    - 2R2AINV
+  : -1
+  ? - 1BALAGR
+    - 1E23WD
+  : -1.457729
+  ? - 3HPKW
+    - 3R2CCAP
+  : -2.818182
+  ? - 1BALDSL
+    - 1EC1IN
+  : -0.066667
+  ? - 3BALEID
+    - 3EP1ID
+  : 0.913
+  ? - PRICER
+    - 3EC3INV
+  : 542.72925
+  ? - 1EWDEC2
+    - 1EC2WD
+  : 1
+  ? - 1BALHCO
+    - 1IIYCAP
+  : -0.1313
+  ? - 2BALHCO
+    - 2EC1ID
+  : -3.637
+  ? - 3CPTS08
+    - 2S08INV
+  : -1
+  ? - 1DEMII
+    - 1IIYCAP
+  : 1
+  ? - PRICER
+    - 3S21INV
+  : 1.404856
+  ? - 1BALESN
+    - 1R51CAP
+  : -0.027778
+  ? - 2EWDE23
+    - 2E23WD
+  : 1
+  ? - 2EWNEC2
+    - 2EC2WN
+  : 1
+  ? - 1BALDSL
+    - 1EC2SD
+  : -0.054545
+  ? - 2DEMR2
+    - 2R2YCAP
+  : 1
+  ? - 3BALEID
+    - 3E94ID
+  : 1
+  ? - 2DEMRT
+    - 2RTBCAP
+  : 1
+  ? - 1CPTS21
+    - 1S21CAP
+  : 1
+  ? - 3BALEIN
+    - 3EC3IN
+  : 0.913
+  ? - 3CPTR2L
+    - 3R2LINV
+  : -1
+  ? - 2BALHCO
+    - 2EC3IN
+  : -2.7278
+  ? - 3CPTEC3
+    - 1EC3INV
+  : -1
+  ? - 3UTLE23
+    - 3E23SM
+  : 1
+  ? - 3BALESN
+    - 3E14SN
+  : 0.913
+  ? - 1BALDSL
+    - 1EC1SN
+  : -0.066667
+  ? - 3ESNEC3
+    - 3EC3CAP
+  : -3.594682
+  ? - 1BALESD
+    - 1R21CAP
+  : -0.226667
+  ? - 3EWNEC1
+    - 3EC1WN
+  : 1
+  ? - 2BALAGR
+    - 2E23WD
+  : -1.457729
+  ? - 3BALESD
+    - 3E23SD
+  : 0.654317
+  ? - 3DEMR5
+    - 3R5LCAP
+  : 1
+  ? - 3CPTE31
+    - 1E31INV
+  : -1
+  ? - 2EWDE23
+    - 2E23WM
+  : 1
+  ? - 3BALHCO
+    - 3EC2SD
+  : -2.9758
+  ? - 1BALEIN
+    - 1E14IN
+  : 0.913
+  ? - 3ESDEC2
+    - 3EC2CAP
+  : -11.942307
+  ? - 3EWDEC2
+    - 3EC2WD
+  : 1
+  ? - 1BALEWD
+    - 1E51WD
+  : 0.913
+  ? - PRICER
+    - 1EC3WN
+  : 5.635665
+  ? - PRICER
+    - 2S47CAP
+  : 0.46318
+  ? - 1BALESD
+    - 1R2LCAP
+  : -0.204
+  ? - 3BALESD
+    - 3EC3SD
+  : 0.913
+  ? - 1BALEWD
+    - 1E14WD
+  : 0.913
+  ? - 1BALESN
+    - 1T80CAP
+  : -0.3
+  ? - 1EPKWD
+    - 1EC1CAP
+  : 24.213669
+  ? - 1EIDE14
+    - 1E14ID
+  : 1
+  ? - 2BALURN
+    - 2S55CAP
+  : 1.047
+  ? - PRICER
+    - 2IJ7INV
+  : 0.812309
+  ? - 2CPTRT0
+    - 1RT0INV
+  : -1
+  ? - 3BALUDP
+    - 3S47CAP
+  : -0.9796
+  ? - 3CPTEP1
+    - 2EP1INV
+  : -1
+  ? - 3CPTR2A
+    - 3R2ACAP
+  : 1
+  ? - PRICER
+    - 2RT0INV
+  : 11.248174
+  ? - 1BALAGS
+    - 1STKAGS1
+  : 1
+  ? - PRICER
+    - 2E14SD
+  : 3.126463
+  ? - PRICER
+    - 2R5ACAP
+  : 6.947694
+  ? - 2BALEID
+    - 2R5ACAP
+  : -0.054571
+  ? - 1BALDSL
+    - 1EC3WN
+  : -0.05
+  ? - 1BALHCO
+    - 1EC3WD
+  : -2.7278
+  ? - 2BNDEP1L
+    - 2EP1SD
+  : 1
+  ? - PRICER
+    - 2T83CAP
+  : 4.091419
+  ? - PRICER
+    - 3R5ACAP
+  : 5.191734
+  ? - 3BALDSH
+    - 3I1YCAP
+  : -0.0628
+  ? - 3BALEID
+    - 3R51CAP
+  : -0.212222
+  ? - 3EWDE51
+    - 3E51CAP
+  : -2.840398
+  ? - 2ESNEC1
+    - 2EC1SN
+  : 1
+  ? - 1EIDEC1
+    - 1EC1CAP
+  : -3.528407
+  ? - 1CPTRT8
+    - 1RT8INV
+  : -1
+  ? - 1BALEWN
+    - 1E14WN
+  : 0.913
+  ? - 1BALPLU
+    - 1S46CAP
+  : -0.01591
+  ? - 2EIDEP1
+    - 2EP1IM
+  : 0.65
+  ? - 2UTLEP1
+    - 2EP1SM
+  : 1
+  ? - 3BALEWN
+    - 3T80CAP
+  : -0.1
+  ? - 3EIDEC2
+    - 3EC2CAP
+  : -3.610465
+  ? - 3EPKWD
+    - 3E60CAP
+  : 26.521011
+  ? - 2BALESN
+    - 2RT0CAP
+  : -0.283333
+  ? - 1BNDEP1L
+    - 1EP1WN
+  : 1
+  ? - PRICER
+    - 1EXPHCO1
+  : -16.167389
+  ? - 3BALHCO
+    - 3R28CAP
+  : -2
+  ? - 3CPTR51
+    - 2R51INV
+  : -1
+  ? - 2CPTR2D
+    - 1R2DINV
+  : -1
+  ? - 3CPTR2C
+    - 3R2CCAP
+  : 1
+  ? - 2BALEWN
+    - 2R5ACAP
+  : -0.018571
+  ? - 2UTLE22
+    - 2E22CAP
+  : -6.311683
+  ? - 3DEMR2
+    - 3R2LCAP
+  : 1
+  ? - 2ESDE35
+    - 2E35CAP
+  : -3.121283
+  ? - 3BALGAS
+    - 3E94SD
+  : -2.5
+  ? - 1BALDSH
+    - 1NYYCAP
+  : -0.4192
+  ? - 3BALAGR
+    - 2S45CAP
+  : 0.366
+  ? - 2CPTIJ6
+    - 2IJ6CAP
+  : 1
+  ? - 2EWDE31
+    - 2E31WD
+  : 1
+  ? - 1EPKSD
+    - 1E51CAP
+  : 24.213669
+  ? - 3BALDHI
+    - 3RTCCAP
+  : -0.403896
+  ? - 3BALHCO
+    - 3R58CAP
+  : -2
+  ? - 3EIDEC1
+    - 3EC1ID
+  : 1
+  ? - 3EIDEP1
+    - 3EP1CAP
+  : -3.528407
+  ? - 1BALHCO
+    - 1EC2ID
+  : -2.9758
+  ? - 2CPTE22
+    - 2E22INV
+  : -1
+  ? - 2CPTIJ6
+    - 2IJ6INV
+  : -1
+  ? - 3CPTRT8
+    - 3RT8CAP
+  : 1
+  ? - PRICER
+    - 1EC2WN
+  : 4.457562
+  ? - 3BALAGR
+    - 3S45CAP
+  : 0.634
+  ? - 3BALDHW
+    - 3R2CCAP
+  : -0.563636
+  ? - 3CPTR2B
+    - 2R2BINV
+  : -1
+  ? - 3BALDSH
+    - 3S23ACT
+  : 0.5
+  ? - 3BALEIN
+    - 3E23ID
+  : 0.31955
+  ? - 2BALESD
+    - 2R51CAP
+  : -0.604444
+  ? - PRICER
+    - 3E14SD
+  : 2.336281
+  ? - 2BALGAS
+    - 2I1YCAP
+  : -0.1977
+  ? - 2EWNEP1
+    - 2EP1WN
+  : 1
+  ? - 2CPTIJ7
+    - 2IJ7CAP
+  : 1
+  ? - 3BALDHS
+    - 3RTCCAP
+  : -0.331169
+  ? - 1EWDE23
+    - 1E23WM
+  : 1
+  ? - 2BALGSL
+    - 2NYYCAP
+  : -0.285
+  ? - 2RAT002
+    - 2R2LCAP
+  : 1
+  ? - 3CPTR5M
+    - 1R5MINV
+  : -1
+  ? - PRICER
+    - 2RT0CAP
+  : 5.403763
+  ? - 2EWDEC1
+    - 2EC1WM
+  : 0.5
+  ? - 2BALEID
+    - 2E22ID
+  : 0.59345
+  ? - 3DEMR5
+    - 3R5CCAP
+  : 1
+  ? - 3BALEID
+    - 3E31ID
+  : 0.913
+  ? - 3ESNEC2
+    - 3EC2SM
+  : 0.283333
+  ? - 1BALEIN
+    - 1R51CAP
+  : -0.017778
+  ? - 1BALDSL
+    - 1R53CAP
+  : -1.818181
+  ? - 3ESDEC1
+    - 3EC1SM
+  : 0.716667
+  ? - 2CPTS28
+    - 2S28INV
+  : -1
+  ? - 3BASS
+    - 3E60SN
+  : -0.85
+  ? - 2BALEWD
+    - 2R5LCAP
+  : -0.220833
+  ? - 3UTLEP1
+    - 3EP1WM
+  : 1
+  ? - 3ESNEP1
+    - 3EP1SM
+  : 0.283333
+  ? - 3BALEID
+    - 3EC2ID
+  : 0.913
+  ? - 3ESDEP1
+    - 3EP1SM
+  : 0.716667
+  ? - PRICER
+    - 1EC3ID
+  : 5.635665
+  ? - PRICER
+    - 3E23SD
+  : 0.634546
+  ? - PRICER
+    - 2EP1WD
+  : 16.725754
+  ? - 3EINEC2
+    - 3EC2IM
+  : 0.35
+  ? - 2EPKWD
+    - 2R21CAP
+  : -3.855558
+  ? - 3BALESN
+    - 3EP1SN
+  : 0.913
+  ? - 2EIDEC1
+    - 2EC1CAP
+  : -3.528407
+  ? - 2EPKWD
+    - 2EC3CAP
+  : 24.213669
+  ? - 1BALDSH
+    - 1EP1IN
+  : -3.3333
+  ? - 1EPKWD
+    - 1RDYCAP
+  : -1.480425
+  ? - 2DEMR5
+    - 2R5ACAP
+  : 1
+  ? - 1CPTIJ7
+    - 1IJ7CAP
+  : 1
+  ? - 1BALESN
+    - 1RDYCAP
+  : -0.049143
+  ? - 2BALDSL
+    - 2T83CAP
+  : -1
+  ? - 3CPTS09
+    - 3S09CAP
+  : 1
+  ? - 1EPKWD
+    - 1E14CAP
+  : 24.213669
+  ? - 2DEMT8
+    - 2T8FCAP
+  : 1
+  ? - 1EPKWD
+    - 1E23CAP
+  : 24.213669
+  ? - 3ESNEC1
+    - 3EC1SM
+  : 0.283333
+  ? - PRICER
+    - 3EC2ID
+  : 2.489097
+  ? - 1BALEWD
+    - 1EC3WD
+  : 0.913
+  ? - 1BALAGS
+    - 2STKAGS1
+  : -1
+  ? - 1CPTR23
+    - 1R23INV
+  : -1
+  ? - PRICER
+    - 1R28INV
+  : 54.491653
+  ? - 1BALEWN
+    - 1I1YCAP
+  : -0.01104
+  ? - 3BALEWN
+    - 3MINHCO1
+  : -0.000659
+  ? - 1BALHCO
+    - 1IJ8CAP
+  : -2
+  ? - 3BALEID
+    - 3E51ID
+  : 0.913
+  ? - PRICER
+    - 1E22INV
+  : 1260.7788
+  ? - 3CPTS23
+    - 1S23INV
+  : -1
+  ? - 3CPTR28
+    - 3R28INV
+  : -1
+  ? - 1BALEWD
+    - 1RT1CAP
+  : -0.385555
+  ? - 3CPTRT3
+    - 3RT3CAP
+  : 1
+  ? - 2BALGAS
+    - 2RT7CAP
+  : -1.538461
+  ? - 1CPTR5L
+    - 1R5LCAP
+  : 1
+  ? - 1EINE31
+    - 1E31CAP
+  : -0.397656
+  ? - 2BALDSL
+    - 2EC3WN
+  : -0.05
+  ? - 1BALDSL
+    - 1S21ACT
+  : 0.32
+  ? - 2BASI
+    - 2E35IN
+  : -0.77605
+  ? - 2BALEWN
+    - 2TXYCAP
+  : -0.00192
+  ? - 1CPTIJ7
+    - 1IJ7INV
+  : -1
+  ? - 3CPTR5M
+    - 2R5MINV
+  : -1
+  ? - 3BALGSL
+    - 3S21ACT
+  : 0.16
+  ? - 2ESDE22
+    - 2E22CAP
+  : -16.095398
+  ? - 1BALESD
+    - 1E22SD
+  : 0.654317
+  ? - 2BALESD
+    - 2E23SD
+  : 0.654317
+  ? - 3ESDE31
+    - 3E31SD
+  : 1
+  ? - 2BALESD
+    - 2R2LCAP
+  : -0.204
+  ? - PRICER
+    - 2E35CAP
+  : 21.229065
+  ? - 1BALPLU
+    - 1E22SD
+  : 0.016627
+  ? - 1BALAGR
+    - 2E23INV
+  : -11.662
+  ? - 3BALESN
+    - 3I1YCAP
+  : -0.014196
+  ? - 3EPKWD
+    - 3R2ACAP
+  : -1.445833
+  ? - 3EWDEP1
+    - 3EP1CAP
+  : -2.714158
+  ? - 1CPTS06
+    - 1S06CAP
+  : 1
+  ? - 3BALESN
+    - 3R50CAP
+  : -0.632222
+  ? - 3BALEIN
+    - 3R50CAP
+  : -0.23
+  ? - 1CPTR2L
+    - 1R2LINV
+  : -1
+  ? - 2ESDEP1
+    - 2EP1SM
+  : 0.716667
+  ? - 2BALGAS
+    - 2IJ7CAP
+  : -1.538461
+  ? - 2DEMR2
+    - 2R28CAP
+  : 1
+  ? - 3BALDSL
+    - 3T83CAP
+  : -1
+  ? - 2DEMRT
+    - 2RT0CAP
+  : 1
+  ? - 1EINEC3
+    - 1EC3IN
+  : 1
+  ? - 3BALDSH
+    - 3EXPDSH1
+  : -1
+  ? - PRICER
+    - 3EC3SN
+  : 3.146947
+  ? - 1UTLE23
+    - 1E23CAP
+  : -6.311683
+  ? - PRICER
+    - 2S23INV
+  : 2.986242
+  ? - PRICER
+    - 2RT7CAP
+  : 14.548593
+  ? - PRICER
+    - 3IJ7INV
+  : 0.347404
+  ? - 1BALESD
+    - 1MINHCO1
+  : -0.002834
+  ? - 3EIDE22
+    - 3E22CAP
+  : -5.365135
+  ? - 3BASI
+    - 3EC1IN
+  : -0.77605
+  ? - 3DEMR5
+    - 3R50CAP
+  : 1
+  ? - 1DEMR5
+    - 1R5MCAP
+  : 1
+  ? - 2EWNEC2
+    - 2EC2WM
+  : 0.5
+  ? - 2BALUDP
+    - 2S45CAP
+  : 3.4348
+  ? - 1CPTR20
+    - 1R20CAP
+  : 1
+  ? - 3EPKSD
+    - 3RT1CAP
+  : -0.527132
+  ? - 1CPTIJ6
+    - 1IJ6CAP
+  : 1
+  ? - PRICER
+    - 3R53CAP
+  : 9.229751
+  ? - 2EPKSD
+    - 2EC1CAP
+  : 24.213669
+  ? - 1BALEWD
+    - 1R51CAP
+  : -0.176667
+  ? - 2BALEWN
+    - 2R5MCAP
+  : -0.090278
+  ? - 3BALLMF
+    - 2S4ACAP
+  : 0.05
+  ? - 2RAT011
+    - 2S7ACAP
+  : 2.66
+  ? - 3BASI
+    - 3E14IN
+  : -0.77605
+  ? - PRICER
+    - 1EP1IN
+  : 22.382751
+  ? - 3BALEIN
+    - 3RDYCAP
+  : -0.034887
+  ? - 3UTLS23
+    - 3S23CAP
+  : -1
+  ? - 1DEMRT
+    - 1RT3CAP
+  : 1
+  ? - 3BALCOK
+    - 3S08ACT
+  : 0.64
+  ? - 2BALEID
+    - 2E31ID
+  : 0.913
+  ? - 1CPTR51
+    - 1R51INV
+  : -1
+  ? - 1BALEWN
+    - 1RT1CAP
+  : -0.096667
+  ? - 3BALEID
+    - 3RT1CAP
+  : -0.276667
+  ? - 1BALUDP
+    - 1S54CAP
+  : 0.9282
+  ? - 2CPTR2C
+    - 2R2CINV
+  : -1
+  ? - 1EPKWD
+    - 1MINHCO1
+  : -0.00659
+  ? - 1BALEWD
+    - 1TXYCAP
+  : -0.00208
+  ? - 3CPTS01
+    - 3S01CAP
+  : 1
+  ? - 3RAT011
+    - 3STKOIK1
+  : -1
+  ? - 3BALESD
+    - 3E14SD
+  : 0.913
+  ? - 2BALESN
+    - 2R2ACAP
+  : -0.02125
+  ? - PRICER
+    - 3R51INV
+  : 2.073219
+  ? - 1BALEWD
+    - 1IIYCAP
+  : -0.039358
+  ? - 2EWDE35
+    - 2E35CAP
+  : -0.883679
+  ? - 2BALESN
+    - 2T80CAP
+  : -0.3
+  ? - 1DEMRT
+    - 1RT8CAP
+  : 1
+  ? - 1EWDEC1
+    - 1EC1WD
+  : 1
+  ? - 1BALEIN
+    - 1EC2IN
+  : 0.913
+  ? - 3DEMR2
+    - 3R2ACAP
+  : 1
+  ? - 2CPTE35
+    - 2E35INV
+  : -1
+  ? - 2CPTRT0
+    - 2RT0INV
+  : -1
+  ? - PRICER
+    - 3RT0INV
+  : 4.810567
+  ? - 2BALAGR
+    - 3E23INV
+  : -11.662
+  ? - 2DEMR5
+    - 2R58CAP
+  : 1
+  ? - 3CPTR27
+    - 2R27INV
+  : -1
+  ? - 2BALDSL
+    - 2EC1WN
+  : -0.066667
+  ? - 1BALESN
+    - 1E14SN
+  : 0.913
+  ? - 3CPTE23
+    - 1E23INV
+  : -1
+  ? - PRICER
+    - 1S4ACAP
+  : 0.619836
+  ? - 3EPKWD
+    - 3IIYCAP
+  : -0.390096
+  ? - 3CPTRTB
+    - 2RTBINV
+  : -1
+  ? - 1EPKSD
+    - 1R5MCAP
+  : -1.781854
+  ? - PRICER
+    - 3S09ACT
+  : 0.836446
+  ? - 1BALDSH
+    - 1EP1SD
+  : -3.3333
+  ? - 3CPTR20
+    - 1R20INV
+  : -1
+  ? - PRICER
+    - 2S08ACT
+  : 1.11935
+  ? - 2BALEIN
+    - 2R21CAP
+  : -0.068889
+  ? - 2BALHCO
+    - 2I1YCAP
+  : -0.0165
+  ? - 3EIDE23
+    - 3E23ID
+  : 1
+  ? - 3RAT004
+    - 3R51CAP
+  : -1
+  ? - 1UTLS08
+    - 1S08ACT
+  : 1
+  ? - PRICER
+    - 1R5HCAP
+  : 85.94861
+  ? - 1CPTE31
+    - 1E31INV
+  : -1
+  ? - 3BALHCO
+    - 3EC3SN
+  : -2.7278
+  ? - 2BALEWD
+    - 2E31WD
+  : 0.913
+  ? - PRICER
+    - 1E22SD
+  : 1.807856
+  ? - 3BALHCO
+    - 3EC1SN
+  : -3.637
+  ? - 2UTLEC1
+    - 2EC1SM
+  : 1
+  ? - 2EPKWD
+    - 2E23CAP
+  : 24.213669
+  ? - 1UTLS06
+    - 1S06CAP
+  : -0.9
+  ? - PRICER
+    - 2EP1INV
+  : 1239.4395
+  ? - 3CPTR2D
+    - 1R2DINV
+  : -1
+  ? - 2BALEWD
+    - 2RDYCAP
+  : -0.149428
+  ? - 1BALGAS
+    - 1R5HCAP
+  : -1.960784
+  ? - 3BALEWN
+    - 3R2ACAP
+  : -0.03625
+  ? - 2UTLE23
+    - 2E23IM
+  : 1
+  ? - 1CPTR5H
+    - 1R5HINV
+  : -1
+  ? - 2DEMR2
+    - 2R20CAP
+  : 1
+  ? - 2BALURN
+    - 2S45CAP
+  : -4.4348
+  ? - 2EIDEC1
+    - 2EC1ID
+  : 1
+  ? - 2EWDE23
+    - 2E23CAP
+  : -5.365133
+  ? - PRICER
+    - 1R50INV
+  : 17.22638
+  ? - 3CPTR2B
+    - 3R2BCAP
+  : 1
+  ? - 1CPTEP1
+    - 1EP1INV
+  : -1
+  ? - PRICER
+    - 1R50CAP
+  : 1.54959
+  ? - 1BASS
+    - 1E23SD
+  : 0.038802
+  ? - PRICER
+    - 3EC1WD
+  : 3.042154
+  ? - 2BALUDP
+    - 2S4ACAP
+  : -0.9476
+  ? - 3BALEWD
+    - 3RT1CAP
+  : -0.385555
+  ? - 2BALHCO
+    - 2MINHCO1
+  : 1
+  ? - 1BALHCO
+    - 1RT8CAP
+  : -2
+  ? - 3RAT013
+    - 3R5HCAP
+  : -1
+  ? - 2DEMRT
+    - 2RTYCAP
+  : 1
+  ? - 2ESNE14
+    - 2E14CAP
+  : -5.096938
+  ? - 2BALDSR
+    - 2S23ACT
+  : -1
+  ? - PRICER
+    - 3E23INV
+  : 975.8423
+  ? - 3EWDE23
+    - 3E23WM
+  : 1
+  ? - 2RAT013
+    - 2R5HCAP
+  : -1
+  ? - PRICER
+    - 2S28INV
+  : 1.194496
+  ? - 1EIDEC1
+    - 1EC1ID
+  : 1
+  ? - 2BALEWD
+    - 2RT1CAP
+  : -0.385555
+  ? - 1BALDSL
+    - 1E14SN
+  : -3.5971
+  ? - 3BASW
+    - 3E14WN
+  : -0.77605
+  ? - 2RAT002
+    - 2R2DCAP
+  : -1.8
+  ? - 3CPTRT3
+    - 2RT3INV
+  : -1
+  ? - 3CPTR58
+    - 1R58INV
+  : -1
+  ? - PRICER
+    - 2RT7INV
+  : 22.297272
+  ? - PRICER
+    - 2R20CAP
+  : 5.403763
+  ? - 2DEMR5
+    - 2R50CAP
+  : 1
+  ? - 1CPTR5M
+    - 1R5MCAP
+  : 1
+  ? - 2EINEC2
+    - 2EC2IN
+  : 1
+  ? - 2DEMI1
+    - 2I1YCAP
+  : 1
+  ? - 1ESDEC1
+    - 1EC1CAP
+  : -11.670885
+  ? - 1ESDEC1
+    - 1EC1SD
+  : 1
+  ? - 3BALOIK
+    - ZSTKOIK1
+  : -1
+  ? - 3BALMAG
+    - 3E22WD
+  : -12.6582
+  ? - 3BALGAS
+    - 3S06ACT
+  : 0.1425
+  ? - 1EWDE14
+    - 1E14CAP
+  : -2.998198
+  ? - 2BALUDP
+    - 2S54CAP
+  : 0.9282
+  ? - PRICER
+    - 2E22INV
+  : 713.96045
+  ? - 3BALGAS
+    - 3NYYCAP
+  : -0.2712
+  ? - 3BALESD
+    - 3TXYCAP
+  : -0.008127
+  ? - 3EIDEC1
+    - 3EC1IM
+  : 0.65
+  ? - 1CPTR27
+    - 1R27INV
+  : -1
+  ? - 2HPKW
+    - 2RTCCAP
+  : -2.818182
+  ? - 3CPTRTB
+    - 3RTBINV
+  : -1
+  ? - 1EWNEC1
+    - 1EC1CAP
+  : -2.714158
+  ? - 1BALURN
+    - 1IMPURN1
+  : 1
+  ? - 2DEMRD
+    - 2RDYCAP
+  : 1
+  ? - 1BALGAS
+    - 1IJ7CAP
+  : -1.538461
+  ? - 2BALHCO
+    - 2S09ACT
+  : -1
+  ? - 2BALLMS
+    - 3STKLMS1
+  : -1
+  ? - 2ESDE51
+    - 2E51SD
+  : 1
+  ? - 1BALMAG
+    - 1E22ID
+  : -12.6582
+  ? - 3CPTR5C
+    - 3R5CCAP
+  : 1
+  ? - 3BALPLU
+    - 3E22ID
+  : 0.016627
+  ? - 3CPTRT3
+    - 1RT3INV
+  : -1
+  ? - 3BALEID
+    - 3IIYCAP
+  : -0.045965
+  ? - 1EPKWD
+    - 1E51CAP
+  : 24.213669
+  ? - 3BALEWD
+    - 3R5LCAP
+  : -0.217808
+  ? - 3EPKWD
+    - 3E51CAP
+  : 24.213669
+  ? - 3DEMR5
+    - 3R5HCAP
+  : 1
+  ? - 2BALEIN
+    - 2R5ACAP
+  : -0.004571
+  ? - 1EPKSD
+    - 1R5LCAP
+  : -1.781854
+  ? - 2BALESD
+    - 2EC1SD
+  : 0.913
+  ? - 3BALDSL
+    - 3EC1SD
+  : -0.066667
+  ? - 2CPTE31
+    - 2E31INV
+  : -1
+  ? - 2BASS
+    - 2E35SN
+  : -0.77605
+  ? - PRICER
+    - 3S04CAP
+  : 5.710909
+  ? - 3BALEWD
+    - 3TXYCAP
+  : -0.00189
+  ? - 1BALDSL
+    - 1EC2IN
+  : -0.054545
+  ? - PRICER
+    - 1EC2ID
+  : 4.457562
+  ? - 3RAT012
+    - 3R2CCAP
+  : 0.317
+  ? - 3CPTR57
+    - 1R57INV
+  : -1
+  ? - 2BALESD
+    - 2E31SD
+  : 0.913
+  ? - 1ESDEC3
+    - 1EC3CAP
+  : -9.092433
+  ? - 3BALURN
+    - ZSTKURN1
+  : -1
+  ? - 3CPTS04
+    - 3S04CAP
+  : 1
+  ? - 1CPTEP1
+    - 1EP1CAP
+  : 1
+  ? - 3UTLS21
+    - 3S21CAP
+  : -1
+  ? - 1BALDSL
+    - 1EC1ID
+  : -0.066667
+  ? - 3BALEIN
+    - 3I1YCAP
+  : -0.006625
+  ? - 3EPKSD
+    - 3I1YCAP
+  : -0.121876
+  ? - PRICER
+    - 2EC3SN
+  : 4.211314
+  ? - 3BALEIN
+    - 3R5ACAP
+  : -0.004571
+  ? - 3BASI
+    - 3E22ID
+  : 0.047932
+  ? - 3ESNE31
+    - 3E31SN
+  : 1
+  ? - 2BALDSL
+    - 2EC3SN
+  : -0.05
+  ? - 3BALDSL
+    - 3R2YCAP
+  : -0.058718
+  ? - 1BALURN
+    - 1S55CAP
+  : 1.047
+  ? - 3CPTE23
+    - 3E23INV
+  : -1
+  ? - PRICER
+    - 2EP1CAP
+  : 85.68825
+  ? - 3UTLS06
+    - 3S06ACT
+  : 1
+  ? - 3EIDEC3
+    - 3EC3ID
+  : 1
+  ? - PRICER
+    - 2RT8INV
+  : 30.857819
+  ? - PRICER
+    - 3R5HINV
+  : 24.654495
+  ? - PRICER
+    - 1EC2CAP
+  : 289.25684
+  ? - 2CPTR20
+    - 2R20CAP
+  : 1
+  ? - 2ESDE31
+    - 2E31SD
+  : 1
+  ? - 3BALGAK
+    - 3STKGAK1
+  : 1
+  ? - 2EIDEC2
+    - 2EC2ID
+  : 1
+  ? - 2BASS
+    - 2E23SD
+  : 0.038802
+  ? - 1EWDE31
+    - 1E31CAP
+  : -1.199279
+  ? - 2BNDEP1L
+    - 2EP1IN
+  : 1
+  ? - 1BALHCO
+    - 1IMPHCO1
+  : 1
+  ? - 3BALHCO
+    - 3EC1WN
+  : -3.637
+  ? - 1BALEWN
+    - 1EC1WN
+  : 0.913
+  ? - 2EIDE23
+    - 2E23ID
+  : 1
+  ? - 2BALESD
+    - 2R5MCAP
+  : -0.755556
+  ? - 1EPKSD
+    - 1R51CAP
+  : -1.405684
+  ? - 3RAT009
+    - 3R2BCAP
+  : 0.317
+  ? - 3EPKWD
+    - 3EP1CAP
+  : 24.213669
+  ? - 3CPTIJ6
+    - 3IJ6INV
+  : -1
+  ? - 3BALEWN
+    - 3R2LCAP
+  : -0.087
+  ? - 2DEMR5
+    - 2R5MCAP
+  : 1
+  ? - 1ESDE23
+    - 1E23SM
+  : 1
+  ? - 1CPTE14
+    - 1E14INV
+  : -1
+  ? - 3BALDSL
+    - 3EC3WN
+  : -0.05
+  ? - PRICER
+    - 2E22WD
+  : 1.350941
+  ? - 2EIDE35
+    - 2E35ID
+  : 1
+  ? - 3RAT002
+    - 3R2LCAP
+  : 1
+  ? - 2UTLS21
+    - 2S21CAP
+  : -1
+  ? - PRICER
+    - 3EC1IN
+  : 3.042154
+  ? - 1BALDSL
+    - 1EC3SN
+  : -0.05
+  ? - 1BALURN
+    - 1S44CAP
+  : -1.02
+  ? - 2BALGAS
+    - 2R5HCAP
+  : -1.923077
+  ? - 3CPTE35
+    - 2E35INV
+  : -1
+  ? - PRICER
+    - 2EC1IN
+  : 4.071078
+  ? - 1BALGAS
+    - 1IMPGAS1
+  : 0.95
+  ? - 2EINEC1
+    - 2EC1CAP
+  : -1.899911
+  ? - 1BALDSL
+    - 1EC3IN
+  : -0.05
+  ? - 2EPKWD
+    - 2R51CAP
+  : -1.766667
+  ? - 2ESDEC2
+    - 2EC2SM
+  : 0.716667
+  ? - PRICER
+    - 3S01INV
+  : 2.182532
+  ? - PRICER
+    - 3S4ACAP
+  : 0.346116
+  ? - 3EWNEC2
+    - 3EC2WM
+  : 0.5
+  ? - 3CPTS08
+    - 1S08INV
+  : -1
+  ? - 2BALESN
+    - 2RT1CAP
+  : -0.056667
+  ? - 1BALEID
+    - 1RDYCAP
+  : -0.119785
+  ? - 1BALAGS
+    - 1S55CAP
+  : -1
+  ? - 2UTLE22
+    - 2E22IM
+  : 1
+  ? - PRICER
+    - 2EC3ID
+  : 4.211314
+  ? - 1BASS
+    - 1EC2SN
+  : -0.77605
+  ? - 1UTLS28
+    - 1S28ACT
+  : 1
+  ? - 3CPTIJ7
+    - 3IJ7INV
+  : -1
+  ? - 3UTLE23
+    - 3E23IM
+  : 1
+  ? - 2EPKWD
+    - 2EP1CAP
+  : 24.213669
+  ? - PRICER
+    - 3E22WD
+  : 1.009503
+  ? - 2EPKWD
+    - 2E14CAP
+  : 24.213669
+  ? - 2BALURN
+    - 2STKURN1
+  : 1
+  ? - 2RAT009
+    - 2R2BCAP
+  : 0.314
+  ? - 3ESDEC2
+    - 3EC2SM
+  : 0.716667
+  ? - 2BALDSL
+    - 2EC1SD
+  : -0.066667
+  ? - 2CPTS09
+    - 1S09INV
+  : -1
+  ? - 1UTLEC2
+    - 1EC2CAP
+  : -5.049611
+  ? - PRICER
+    - 2EC3INV
+  : 1269.0215
+  ? - 3BALPLU
+    - ZSTKPLU1
+  : -1
+  ? - 3CPTRT0
+    - 2RT0INV
+  : -1
+  ? - PRICER
+    - 2R28CAP
+  : 23.853745
+  ? - PRICER
+    - 2S09ACT
+  : 1.11935
+  ? - 3EPKSD
+    - 3E60CAP
+  : 26.521011
+  ? - 3BALDSH
+    - 3EP1WN
+  : -3.3333
+  ? - 1BALHCO
+    - 1EC1SD
+  : -3.637
+  ? - 3BALEWD
+    - 3E94WD
+  : 1
+  ? - 2BALDSL
+    - 2EC2WN
+  : -0.054545
+  ? - 3BALEWN
+    - 3E60WN
+  : 1
+  ? - 3UTLEC1
+    - 3EC1WM
+  : 1
+  ? - 3EWNEP1
+    - 3EP1WM
+  : 0.5
+  ? - 3EPKWD
+    - 3E94CAP
+  : 26.521011
+  ? - 1ESDE22
+    - 1E22SD
+  : 1
+  ? - 1BALPLU
+    - 1S55CAP
+  : 0.004783
+  ? - 2EWDEP1
+    - 2EP1WM
+  : 0.5
+  ? - PRICER
+    - 2RT3CAP
+  : 12.351457
+  ? - 2BALLMF
+    - 1S4ACAP
+  : 0.05
+  ? - PRICER
+    - 3E94INV
+  : 369.62134
+  ? - 2ESDEC3
+    - 2EC3CAP
+  : -9.092433
+  ? - 2BNDEP1L
+    - 2EP1WN
+  : 1
+  ? - 3CPTRTC
+    - 3RTCCAP
+  : 1
+  ? - 1BALESN
+    - 1RT0CAP
+  : -0.283333
+  ? - 1EPKWD
+    - 1TXYCAP
+  : -0.0208
+  ? - 1ESNEP1
+    - 1EP1SN
+  : 1
+  ? - 1BALESD
+    - 1I1YCAP
+  : -0.048907
+  ? - 2CPTR23
+    - 1R23INV
+  : -1
+  ? - 3CPTR53
+    - 2R53INV
+  : -1
+  ? - PRICER
+    - 3R2LCAP
+  : 8.249092
+  ? - 1DEMR5
+    - 1R57CAP
+  : 1
+  ? - PRICER
+    - 3EP1CAP
+  : 64.0314
+  ? - 3EPKWD
+    - 3EC2CAP
+  : 24.213669
+  ? - 3BALESD
+    - 3RT1CAP
+  : -0.226667
+  ? - PRICER
+    - 1EC2IN
+  : 4.457562
+  ? - 2BALEWN
+    - 2E22WD
+  : 0.4565
+  ? - 2BALEIN
+    - 2E51ID
+  : -1.292807
+  ? - 3BALDSL
+    - 3E14WN
+  : -3.5971
+  ? - 2CPTR5H
+    - 1R5HINV
+  : -1
+  ? - 2BALEWD
+    - 2MINHCO1
+  : -0.000659
+  ? - 3RAT005
+    - 3R53CAP
+  : -1
+  ? - PRICER
+    - 3E60SN
+  : 3.533263
+  ? - 2BALAGR
+    - 1S45CAP
+  : 0.366
+  ? - 3CPTE51
+    - 1E51INV
+  : -1
+  ? - 1BALEIN
+    - 1R21CAP
+  : -0.068889
+  ? - 1BALHCO
+    - 1RDYCAP
+  : -0.034892
+  ? - 3CPTS80
+    - 3S80INV
+  : -1
+  ? - 2BALEID
+    - 2E51ID
+  : 0.913
+  ? - PRICER
+    - 2E14WN
+  : 3.126463
+  ? - 1BALESD
+    - 1R5LCAP
+  : -0.766197
+  ? - 3ESDE22
+    - 3E22SM
+  : 1
+  ? - 2CPTEC3
+    - 1EC3INV
+  : -1
+  ? - 2UTLS08
+    - 2S08CAP
+  : -0.9
+  ? - PRICER
+    - 3EC2SD
+  : 2.489097
+  ? - PRICER
+    - 3EC1ID
+  : 3.042154
+  ? - 2BALOIL
+    - 2IMPOIL1
+  : 1
+  ? - PRICER
+    - 3R27CAP
+  : 10.871583
+  ? - 2BALESD
+    - 2EC2SD
+  : 0.913
+  ? - 1BALDSL
+    - 1EC3ID
+  : -0.05
+  ? - 3BALHCO
+    - 3R2YCAP
+  : -0.418028
+  ? - 1BALGAK
+    - 1STKGAK1
+  : 1
+  ? - 3CPTE51
+    - 3E51CAP
+  : 1
+  ? - 2BALDSL
+    - 2EC2IN
+  : -0.054545
+  ? - PRICER
+    - 3S23INV
+  : 1.277142
+  ? - 1BALUDP
+    - 2STKUDP1
+  : -1
+  ? - 2RAT012
+    - 2R2CCAP
+  : 0.314
+  ? - 2BALDSL
+    - 2EC1WD
+  : -0.066667
+  ? - 2BALDSH
+    - 2EP1WN
+  : -3.3333
+  ? - 1BASI
+    - 1E14IN
+  : -0.77605
+  ? - 3BALESD
+    - 3R5MCAP
+  : -0.745205
+  ? - 1BALOIL
+    - 1IMPOIL1
+  : 1
+  ? - 3CPTS06
+    - 2S06INV
+  : -1
+  ? - 1BALEWN
+    - 1TXYCAP
+  : -0.00208
+  ? - 1UTLS23
+    - 1S23CAP
+  : -1
+  ? - 3BALHCO
+    - 3EC2ID
+  : -2.9758
+  ? - 2BALOIL
+    - 2EXPOIL1
+  : -1
+  ? - 2ESNE35
+    - 2E35CAP
+  : -1.234
+  ? - 2BALEWN
+    - 2EP1WN
+  : 0.913
+  ? - 2BALEIN
+    - 2R2LCAP
+  : -0.062
+  ? - PRICER
+    - 1R2LINV
+  : 55.61508
+  ? - 1BALEWD
+    - 1E22WD
+  : 0.4565
+  ? - 2RAT004
+    - 2R51CAP
+  : -1
+  ? - 2BASI
+    - 2EC3IN
+  : -0.77605
+  ? - 3CPTR5M
+    - 3R5MCAP
+  : 1
+  ? - PRICER
+    - 2EP1SD
+  : 16.725754
+  ? - 3UTLS01
+    - 3S01ACT
+  : 1
+  ? - 3BALAGR
+    - 3S46CAP
+  : 0.734
+  ? - 2DEMR2
+    - 2R2CCAP
+  : 1
+  ? - 3BALEIN
+    - 3R2LCAP
+  : -0.062
+  ? - 2BASW
+    - 2E31WN
+  : -0.77605
+  ? - 1BALESN
+    - 1EP1SN
+  : 0.913
+  ? - PRICER
+    - 3E14SN
+  : 2.336281
+  ? - 3EINE35
+    - 3E35CAP
+  : -0.618576
+  ? - 1RAT007
+    - 1R28CAP
+  : 0.311
+  ? - 3EPKSD
+    - 3R2ACAP
+  : -0.197674
+  ? - 1BALHCO
+    - 1EC2WD
+  : -2.9758
+  ? - 3CPTRT1
+    - 3RT1INV
+  : -1
+  ? - 2CPTR2D
+    - 2R2DCAP
+  : 1
+  ? - PRICER
+    - 3S80CAP
+  : 1.211405
+  ? - 3DEMR5
+    - 3R53CAP
+  : 1
+  ? - 1BALEWN
+    - 1E22WD
+  : 0.4565
+  ? - 1BASS
+    - 1EC3SN
+  : -0.77605
+  ? - 1BALLMF
+    - 1S4ACAP
+  : 0.95
+  ? - 1EPKSD
+    - 1E14CAP
+  : 24.213669
+  ? - 3EWNEC1
+    - 3EC1WM
+  : 0.5
+  ? - 2BALOIK
+    - 2STKOIK1
+  : 1
+  ? - 2RAT013
+    - 2R5MCAP
+  : -1
+  ? - 3BALEIN
+    - 3R5MCAP
+  : -0.021918
+  ? - 3CPTR5H
+    - 1R5HINV
+  : -1
+  ? - 3BALESN
+    - 3R5LCAP
+  : -0.034247
+  ? - 1DEMRT
+    - 1RT1CAP
+  : 1
+  ? - 3BALEWN
+    - 3R20CAP
+  : -0.482222
+  ? - 2BALURN
+    - 2S44CAP
+  : -1.02
+  ? - 3BALDSL
+    - 3S21ACT
+  : 0.32
+  ? - 3BALURN
+    - 3IMPURN1
+  : 1
+  ? - 1UTLEC2
+    - 1EC2SM
+  : 1
+  ? - 3UTLEC2
+    - 3EC2WM
+  : 1
+  ? - 1BASI
+    - 1E31IN
+  : -0.77605
+  ? - 1BALDSL
+    - 1EC3WD
+  : -0.05
+  ? - 1BALEWN
+    - 1E31WN
+  : 0.913
+  ? - 2BALESN
+    - 2E51SD
+  : -1.292807
+  ? - PRICER
+    - 2E31INV
+  : 0.00001
+  ? - PRICER
+    - 3S28INV
+  : 0.510857
+  ? - 2BALEWD
+    - 2I1YCAP
+  : -0.014758
+  ? - 3BALEWN
+    - 3E23WD
+  : 0.4565
+  ? - 1BALEWN
+    - 1RT0CAP
+  : -0.482222
+  ? - 1BALESN
+    - 1E31SN
+  : 0.913
+  ? - PRICER
+    - 3EC1WN
+  : 3.042154
+  ? - 2UTLS09
+    - 2S09CAP
+  : -1
+  ? - 3EINE14
+    - 3E14CAP
+  : -2.098739
+  ? - 3BALHCO
+    - 3E60SN
+  : -2.5
+  ? - 2EPKSD
+    - 2E31CAP
+  : 24.213669
+  ? - 2BALDSL
+    - 2R53CAP
+  : -1.818181
+  ? - 2BALEWD
+    - 2R2LCAP
+  : -0.347
+  ? - 2CPTE23
+    - 2E23CAP
+  : 1
+  ? - 1UTLEP1
+    - 1EP1CAP
+  : -4.4184
+  ? - 2UTLS28
+    - 2S28CAP
+  : -1
+  ? - 1DEMT8
+    - 1T8FCAP
+  : 1
+  ? - PRICER
+    - 2R2LINV
+  : 31.494003
+  ? - PRICER
+    - 1RT7INV
+  : 39.374603
+  ? - 2DEMR5
+    - 2R5LCAP
+  : 1
+  ? - PRICER
+    - 3E23CAP
+  : 41.53389
+  ? - 2BALDSL
+    - 2EC2WD
+  : -0.054545
+  ? - 3CPTS06
+    - 1S06INV
+  : -1
+  ? - PRICER
+    - 3EC3ID
+  : 3.146947
+  ? - 3BALHCO
+    - 3E60WD
+  : -2.5
+  ? - 2CPTR2B
+    - 2R2BINV
+  : -1
+  ? - 1DEMR2
+    - 1R27CAP
+  : 1
+  ? - 3RAT010
+    - 3S79CAP
+  : 2.66
+  ? - 2EWNE14
+    - 2E14CAP
+  : -2.998198
+  ? - 2BALHCO
+    - 2EC1SD
+  : -3.637
+  ? - 3BALESN
+    - 3R5ACAP
+  : -0.007143
+  ? - 2ESNE14
+    - 2E14SN
+  : 1
+  ? - 3BALPLU
+    - 3S46CAP
+  : -0.01591
+  ? - 1EIDE31
+    - 1E31CAP
+  : -0.738504
+  ? - 3BALDSL
+    - 3EXPDSL1
+  : -1
+  ? - 1RAT001
+    - 1R5HCAP
+  : 1
+  ? - 2EPKWD
+    - 2IIYCAP
+  : -0.394869
+  ? - 2CPTR50
+    - 2R50CAP
+  : 1
+  ? - PRICER
+    - 3IMPHCO1
+  : 10.93149
+  ? - 1CPTRT3
+    - 1RT3CAP
+  : 1
+  ? - 3EPKWD
+    - 3EC1CAP
+  : 24.213669
+  ? - 3CPTE14
+    - 3E14CAP
+  : 1
+  ? - 2EINE31
+    - 2E31CAP
+  : -0.397656
+  ? - 3BALEWN
+    - 3TXYCAP
+  : -0.00189
+  ? - PRICER
+    - 3EP1ID
+  : 12.498495
+  ? - PRICER
+    - 2E14SN
+  : 3.126463
+  ? - 3ESNE35
+    - 3E35SN
+  : 1
+  ? - 2EWNEC1
+    - 2EC1WM
+  : 0.5
+  ? - 1BALEWN
+    - 1E51WD
+  : -1.304311
+  ? - PRICER
+    - 2R20INV
+  : 11.248174
+  ? - 2CPTR51
+    - 2R51CAP
+  : 1
+  ? - PRICER
+    - 3S47CAP
+  : 0.346116
+  ? - 3UTLE22
+    - 3E22SM
+  : 1
+  ? - 2BALEIN
+    - 2R5MCAP
+  : -0.022222
+  ? - 3BALESN
+    - 3EC1SN
+  : 0.913
+  ? - 2BALEIN
+    - 2R2ACAP
+  : -0.025833
+  ? - 3BALPLU
+    - 3S47CAP
+  : -0.02045
+  ? - 1BALOIL
+    - 1S21ACT
+  : -1
+  ? - 1BALDSL
+    - 1EC2WD
+  : -0.054545
+  ? - PRICER
+    - 1S45CAP
+  : 2.89257
+  ? - 1BALHCO
+    - 1EC3ID
+  : -2.7278
+  ? - 1UTLEC1
+    - 1EC1IM
+  : 1
+  ? - 2BNDEP1L
+    - 2EP1ID
+  : 1
+  ? - 3BALDSL
+    - 3E14IN
+  : -3.5971
+  ? - 1BALPLU
+    - 1E22ID
+  : 0.016627
+  ? - 3ESDE35
+    - 3E35SD
+  : 1
+  ? - 3BALDHI
+    - 3R2CCAP
+  : -0.403896
+  ? - 1BALDSR
+    - 1S72CAP
+  : -1
+  ? - 3BALDSL
+    - 3RT3CAP
+  : -1.818181
+  ? - 2UTLS23
+    - 2S23ACT
+  : 1
+  ? - 2UTLE23
+    - 2E23SM
+  : 1
+  ? - 2EWDEP1
+    - 2EP1WD
+  : 1
+  ? - 2BALEWN
+    - 2IIYCAP
+  : -0.03061
+  ? - 1BALEWD
+    - 1R2LCAP
+  : -0.347
+  ? - 2BALDHS
+    - 2RTCCAP
+  : -0.331169
+  ? - PRICER
+    - 2EC3CAP
+  : 85.68825
+  ? - PRICER
+    - 3IMPOIL1
+  : 17.248093
+  ? - 3BALDHI
+    - 3E60IN
+  : 2
+  ? - 3BALHCO
+    - 3EC3WD
+  : -2.7278
+  ? - 2BASW
+    - 2E35WN
+  : -0.77605
+  ? - 2BALESN
+    - 2EC2SN
+  : 0.913
+  ? - 3BALESN
+    - 3E51SD
+  : -1.281395
+  ? - 2BALEIN
+    - 2T80CAP
+  : -0.1
+  ? - 1ESDE31
+    - 1E31SD
+  : 1
+  ? - 3DEMR5
+    - 3R58CAP
+  : 1
+  ? - 3UTLS06
+    - 3S06CAP
+  : -0.9
+  ? - 3BALHCO
+    - 3S06ACT
+  : -1
+  ? - PRICER
+    - 3IMPGAS1
+  : 16.238586
+  ? - 2BALAGR
+    - 2E23SD
+  : -1.457729
+  ? - 3CPTR5H
+    - 3R5HCAP
+  : 1
+  ? - 2ESDE23
+    - 2E23CAP
+  : -16.095398
+  ? - 3BALHCO
+    - 3EC3SD
+  : -2.7278
+  ? - 1BALGSL
+    - 1T8FCAP
+  : -1
+  ? - 3BALAGS
+    - 3S55CAP
+  : -0.8
+  ? - 1EWNEC1
+    - 1EC1WN
+  : 1
+  ? - 3CPTIJ8
+    - 3IJ8CAP
+  : 1
+  ? - 1BALEID
+    - 1EC3ID
+  : 0.913
+  ? - 2EPKSD
+    - 2R21CAP
+  : -0.527132
+  ? - 2BALDSR
+    - 2S72CAP
+  : -1
+  ? - 3BALEIN
+    - 3EC2IN
+  : 0.913
+  ? - 2ESNEC1
+    - 2EC1CAP
+  : -4.61407
+  ? - 2BASS
+    - 2EC2SN
+  : -0.77605
+  ? - 1BALESD
+    - 1E23SD
+  : 0.654317
+  ? - 3BALEWD
+    - 3IIYCAP
+  : -0.03901
+  ? - 3CPTR53
+    - 3R53CAP
+  : 1
+  ? - PRICER
+    - 3RTBCAP
+  : 8.893249
+  ? - PRICER
+    - 3S80ACT
+  : 0.365152
+  ? - 3UTLE22
+    - 3E22WM
+  : 1
+  ? - 3CPTE14
+    - 3E14INV
+  : -1
+  ? - 1CPTIJ8
+    - 1IJ8CAP
+  : 1
+  ? - 1EPKSD
+    - 1EC1CAP
+  : 24.213669
+  ? - 2CPTR5M
+    - 1R5MINV
+  : -1
+  ? - 1ESNEC1
+    - 1EC1CAP
+  : -4.61407
+  ? - 2EWDEC3
+    - 2EC3CAP
+  : -2.114518
+  ? - 1BALESN
+    - 1E22SD
+  : 0.258683
+  ? - 1BALEWD
+    - 1I1YCAP
+  : -0.014242
+  ? - 2CPTS28
+    - 2S28CAP
+  : 1
+  ? - 2ESNEC3
+    - 2EC3SN
+  : 1
+  ? - 3EWDE31
+    - 3E31WD
+  : 1
+  ? - 1UTLE23
+    - 1E23IM
+  : 1
+  ? - PRICER
+    - 2EC2SD
+  : 3.330964
+  ? - 1EPKSD
+    - 1I1YCAP
+  : -0.113738
+  ? - 2CPTR57
+    - 2R57INV
+  : -1
+  ? - 3CPTRTB
+    - 3RTBCAP
+  : 1
+  ? - 1EWDEP1
+    - 1EP1WD
+  : 1
+  ? - 1EWDE23
+    - 1E23WD
+  : 1
+  ? - 2EPKWD
+    - 2R2ACAP
+  : -1.445833
+  ? - 1CPTR57
+    - 1R57INV
+  : -1
+  ? - 3BASS
+    - 3E31SN
+  : -0.77605
+  ? - 2BALDHI
+    - 2RTCCAP
+  : -0.403896
+  ? - 3BALHCO
+    - 3E60SD
+  : -2.5
+  ? - 3BALPLU
+    - 3S55CAP
+  : 0.004783
+  ? - 3CPTRT7
+    - 3RT7INV
+  : -1
+  ? - 1BALEWN
+    - 1R2LCAP
+  : -0.087
+  ? - 1DEMR2
+    - 1R2YCAP
+  : 1
+  ? - 2BALHCO
+    - 2EC1WD
+  : -3.637
+  ? - 3EWNEC3
+    - 3EC3WN
+  : 1
+  ? - 3BALESD
+    - 3E35SD
+  : 0.913
+  ? - 3UTLS80
+    - 3S80ACT
+  : 1
+  ? - 2CPTIJ8
+    - 2IJ8INV
+  : -1
+  ? - 1BALESN
+    - 1I1YCAP
+  : -0.013248
+  ? - PRICER
+    - 1RT3CAP
+  : 16.528961
+  ? - 3BALGSL
+    - 3S71CAP
+  : 1
+  ? - 1BASW
+    - 1E31WN
+  : -0.77605
+  ? - 2BALGSL
+    - 2S21ACT
+  : 0.16
+  ? - 3EPKSD
+    - 3EC3CAP
+  : 24.213669
+  ? - 3ESNEC2
+    - 3EC2CAP
+  : -4.721376
+  ? - 2EIDEC2
+    - 2EC2CAP
+  : -3.610465
+  ? - 1BALHCO
+    - 1S09ACT
+  : -1
+  ? - 1BALESN
+    - 1EC2SN
+  : 0.913
+  ? - 3RAT005
+    - 3R23CAP
+  : 0.317
+  ? - PRICER
+    - 2E14ID
+  : 3.126463
+  ? - 2ESDE14
+    - 2E14SD
+  : 1
+  ? - 2CPTR5L
+    - 2R5LINV
+  : -1
+  ? - 3BALESN
+    - 3EC3SN
+  : 0.913
+  ? - 3BASS
+    - 3E22SD
+  : 0.038802
+  ? - 2BALEWD
+    - 2TXYCAP
+  : -0.00192
+  ? - 1EWNEP1
+    - 1EP1CAP
+  : -2.714158
+  ? - 3EPKWD
+    - 3R21CAP
+  : -3.855558
+  ? - PRICER
+    - 3R2LINV
+  : 13.469211
+  ? - 3CPTR50
+    - 1R50INV
+  : -1
+  ? - 3EWNEC3
+    - 3EC3CAP
+  : -2.114518
+  ? - 3HPKW
+    - 3E60CAP
+  : 31.56
+  ? - 3CPTEC3
+    - 3EC3INV
+  : -1
+  ? - 3BALESD
+    - 3RDYCAP
+  : -0.187122
+  ? - 2EINE31
+    - 2E31IN
+  : 1
+  ? - PRICER
+    - 3R57CAP
+  : 10.871583
+  ? - 3EINEC3
+    - 3EC3IN
+  : 1
+  ? - 2BALHCO
+    - 2RDYCAP
+  : -0.030143
+  ? - 2BALESN
+    - 2R5LCAP
+  : -0.034722
+  ? - 2CPTE14
+    - 2E14CAP
+  : 1
+  ? - 1BALESD
+    - 1EC1SD
+  : 0.913
+  ? - 2UTLS08
+    - 2S08ACT
+  : 1
+  ? - 3BALEWD
+    - 3EC2WD
+  : 0.913
+  ? - 3BALEWN
+    - 3EC3WN
+  : 0.913
+  ? - 3ESDE14
+    - 3E14SD
+  : 1
+  ? - PRICER
+    - 1EC2SD
+  : 4.457562
+  ? - 3BASI
+    - 3E23ID
+  : 0.047932
+  ? - 1BALURN
+    - 2STKURN1
+  : -1
+  ? - 3CPTR57
+    - 3R57CAP
+  : 1
+  ? - PRICER
+    - 2R21CAP
+  : 5.133575
+  ? - 3UTLEC2
+    - 3EC2SM
+  : 1
+  ? - 2CPTRTC
+    - 2RTCINV
+  : -1
+  ? - 3EIDEC2
+    - 3EC2IM
+  : 0.65
+  ? - 2BALEID
+    - 2EC1ID
+  : 0.913
+  ? - 2BALEWD
+    - 2E35WD
+  : 0.913
+  ? - PRICER
+    - 2R2ACAP
+  : 6.947694
+  ? - 2RAT001
+    - 2R5LCAP
+  : 1
+  ? - 1ESNEC1
+    - 1EC1SN
+  : 1
+  ? - 2BALEWD
+    - 2E23WD
+  : 0.4565
+  ? - 1BALHCO
+    - 1EC1WN
+  : -3.637
+  ? - PRICER
+    - 3RTCCAP
+  : 6.922315
+  ? - 2BALHCO
+    - 2RTYCAP
+  : -0.3125
+  ? - 2BALHCO
+    - 2EC3WN
+  : -2.7278
+  ? - 1BALHCO
+    - 1EXPHCO1
+  : -1
+  ? - 1BALHCO
+    - 1EC2SN
+  : -2.9758
+  ? - 2BALAGS
+    - 3S55CAP
+  : -0.2
+  ? - 1BASI
+    - 1EC1IN
+  : -0.77605
+  ? - PRICER
+    - 3R58INV
+  : 13.197139
+  ? - 2CPTR50
+    - 1R50INV
+  : -1
+  ? - PRICER
+    - 1E14SD
+  : 4.183896
+  ? - 3ESDE23
+    - 3E23CAP
+  : -16.095398
+  ? - 3BALGAS
+    - 3S01ACT
+  : 0.665
+  ? - 1EWNEC1
+    - 1EC1WM
+  : 0.5
+  ? - PRICER
+    - 2EXPHCO1
+  : -13.355014
+  ? - 2BALESN
+    - 2R50CAP
+  : -0.632222
+  ? - 1EWDEC3
+    - 1EC3CAP
+  : -2.114518
+  ? - 2EIDEP1
+    - 2EP1CAP
+  : -3.528407
+  ? - PRICER
+    - 3EC3IN
+  : 3.146947
+  ? - 3BALEWD
+    - 3E60WD
+  : 1
+  ? - 2BALEIN
+    - 2TXYCAP
+  : -0.001344
+  ? - 2BALPLU
+    - 2S54CAP
+  : 0.06318
+  ? - PRICER
+    - 2R5HINV
+  : 57.647705
+  ? - 1UTLS21
+    - 1S21CAP
+  : -1
+  ? - 2ESNEC1
+    - 2EC1SM
+  : 0.283333
+  ? - 3BALDSR
+    - 3S23ACT
+  : -1
+  ? - 1BALDSL
+    - 1R23CAP
+  : -1.538461
+  ? - 1BALAGS
+    - 1E23WD
+  : 1.457729
+  ? - 2EPKSD
+    - 2R2LCAP
+  : -0.474419
+  ? - 3ESDE94
+    - 3E94SD
+  : 1
+  ? - 2EIDE31
+    - 2E31ID
+  : 1
+  ? - 2CPTR53
+    - 2R53INV
+  : -1
+  ? - 3EPKSD
+    - 3EC2CAP
+  : 24.213669
+  ? - 2BALHCO
+    - 2S08ACT
+  : -1
+  ? - 1EWNEC3
+    - 1EC3CAP
+  : -2.114518
+  ? - 3GRCT80
+    - 3T80CAP
+  : 1
+  ? - PRICER
+    - 2R58CAP
+  : 23.853745
+  ? - 3BALDSL
+    - 3S23ACT
+  : 0.5
+  ? - 2EWDE22
+    - 2E22CAP
+  : -5.365133
+  ? - 3BALDSL
+    - 3EC1WN
+  : -0.066667
+  ? - PRICER
+    - 3R2CCAP
+  : 6.922315
+  ? - 3BALEWD
+    - 3E31WD
+  : 0.913
+  ? - PRICER
+    - 3R2DINV
+  : 0.00001
+  ? - 2BALOIK
+    - 3STKOIK1
+  : -1
+  ? - PRICER
+    - 1R21CAP
+  : 6.869854
+  ? - 3DEMRT
+    - 3RT7CAP
+  : 1
+  ? - 2BALESD
+    - 2R5LCAP
+  : -0.755556
+  ? - 2BALEWD
+    - 2EC2WD
+  : 0.913
+  ? - 3BALDHW
+    - 3R5CCAP
+  : -0.329412
+  ? - 3CPTE94
+    - 3E94INV
+  : -1
+  ? - PRICER
+    - 1EXPGAS1
+  : -19.886414
+  ? - 1CPTRT0
+    - 1RT0INV
+  : -1
+  ? - 1BALESN
+    - 1R5LCAP
+  : -0.035211
+  ? - 1CPTRT7
+    - 1RT7CAP
+  : 1
+  ? - PRICER
+    - 1E51INV
+  : 814.03125
+  ? - 2CPTE14
+    - 1E14INV
+  : -1
+  ? - 2CPTEP1
+    - 1EP1INV
+  : -1
+  ? - 3UTLS23
+    - 3S23ACT
+  : 1
+  ? - 2CPTR53
+    - 1R53INV
+  : -1
+  ? - 3BALEIN
+    - 3RT1CAP
+  : -0.068889
+  ? - 3CPTE94
+    - 3E94CAP
+  : 1
+  ? - PRICER
+    - 3EC1SD
+  : 3.042154
+  ? - 3CPTE22
+    - 2E22INV
+  : -1
+  ? - 1DEMI1
+    - 1I1YCAP
+  : 1
+  ? - 3BALESD
+    - 3E22SD
+  : 0.654317
+  ? - PRICER
+    - 1E23INV
+  : 4029.3042
+  ? - 1BALGAK
+    - 1S79CAP
+  : -1
+  ? - 3BASS
+    - 3EC3SN
+  : -0.77605
+  ? - 1BALEIN
+    - 1T80CAP
+  : -0.1
+  ? - 2BALDHW
+    - 2R2CCAP
+  : -0.563636
+  ? - 2BALESN
+    - 2E31SN
+  : 0.913
+  ? - 3BALGAS
+    - 3E94IN
+  : -2.5
+  ? - 2BALHCO
+    - 2EC2WD
+  : -2.9758
+  ? - 3EWNE31
+    - 3E31WN
+  : 1
+  ? - 3CPTR50
+    - 2R50INV
+  : -1
+  ? - 3BALHYD
+    - 3S6HCAP
+  : -1
+  ? - 2EINEC1
+    - 2EC1IM
+  : 0.35
+  ? - 3BALESN
+    - 3IIYCAP
+  : -0.036288
+  ? - 2BALGAS
+    - 2R27CAP
+  : -1.538461
+  ? - 2BALDSH
+    - 2EP1WD
+  : -3.3333
+  ? - 1BALDSH
+    - 1EP1WD
+  : -3.3333
+  ? - 2CPTR51
+    - 1R51INV
+  : -1
+  ? - 1DEMTX
+    - 1TXYCAP
+  : 1
+  ? - 2BALEIN
+    - 2I1YCAP
+  : -0.006406
+  ? - 2BALDSL
+    - 2RT3CAP
+  : -1.818181
+  ? - PRICER
+    - 2RT1CAP
+  : 5.133575
+  ? - 1BALOIL
+    - 1S7ACAP
+  : 1
+  ? - 1ESNEP1
+    - 1EP1CAP
+  : -4.61407
+  ? - 3CPTR2B
+    - 3R2BINV
+  : -1
+  ? - 3BALESN
+    - 3R21CAP
+  : -0.056667
+  ? - 3CPTR2A
+    - 2R2AINV
+  : -1
+  ? - PRICER
+    - 2IMPOIL1
+  : 22.001038
+  ? - 1ESNE31
+    - 1E31CAP
+  : -0.965735
+  ? - 1BALAGS
+    - 1E23SD
+  : 1.457729
+  ? - 3BALEWD
+    - 3R51CAP
+  : -0.176667
+  ? - 3BALDSL
+    - 3TXYCAP
+  : -0.9981
+  ? - 1BALGAS
+    - 1S79CAP
+  : 0.95
+  ? - 2EPKSD
+    - 2E51CAP
+  : 24.213669
+  ? - 2ESDEC1
+    - 2EC1SM
+  : 0.716667
+  ? - 3ESDE14
+    - 3E14CAP
+  : -12.892257
+  ? - 1BALDSL
+    - 1EC2WN
+  : -0.054545
+  ? - 1BALESD
+    - 1RDYCAP
+  : -0.181214
+  ? - 3EINEC1
+    - 3EC1CAP
+  : -1.899911
+  ? - 2EPKSD
+    - 2R5MCAP
+  : -1.757106
+  ? - 1BALEID
+    - 1R21CAP
+  : -0.276667
+  ? - 2BALGAS
+    - 2R57CAP
+  : -1.538461
+  ? - 1BALEWN
+    - 1R5LCAP
+  : -0.091549
+  ? - 1CPTS21
+    - 1S21INV
+  : -1
+  ? - 3DEMR5
+    - 3R51CAP
+  : 1
+  ? - 1BALEWN
+    - 1T80CAP
+  : -0.1
+  ? - 1UTLEC2
+    - 1EC2WM
+  : 1
+  ? - 1CPTEC3
+    - 1EC3CAP
+  : 1
+  ? - 1EPKWD
+    - 1EC3CAP
+  : 24.213669
+  ? - PRICER
+    - 1E14CAP
+  : 72.83078
+  ? - 3BASI
+    - 3E35IN
+  : -0.77605
+  ? - PRICER
+    - 1RT8CAP
+  : 31.92157
+  ? - 3EWDE22
+    - 3E22WM
+  : 1
+  ? - PRICER
+    - 3E22CAP
+  : 45.5719
+  ? - 1RAT003
+    - 1R5HCAP
+  : 1
+  ? - 2BALDSL
+    - 2EC1SN
+  : -0.066667
+  ? - 2BALEIN
+    - 2E31IN
+  : 0.913
+  ? - 1EWDEC2
+    - 1EC2WM
+  : 0.5
+  ? - 3BALHCO
+    - 3MINHCO1
+  : 1
+  ? - 2BALESN
+    - 2E35SN
+  : 0.913
+  ? - 2BALEIN
+    - 2EP1IN
+  : 0.913
+  ? - 2ESDE23
+    - 2E23SM
+  : 1
+  ? - 1ESNEC1
+    - 1EC1SM
+  : 0.283333
+  ? - 3BALEIN
+    - 3R20CAP
+  : -0.345555
+  ? - 3CPTS23
+    - 2S23INV
+  : -1
+  ? - PRICER
+    - 1R5HINV
+  : 101.79976
+  ? - 3UTLS09
+    - 3S09CAP
+  : -1
+  ? - 1EINEC2
+    - 1EC2CAP
+  : -1.944096
+  ? - PRICER
+    - 1R2LCAP
+  : 14.772768
+  ? - 2BALHCO
+    - 2EC3WD
+  : -2.7278
+  ? - 2UTLS23
+    - 2S23CAP
+  : -1
+  ? - 1UTLE22
+    - 1E22WM
+  : 1
+  ? - 3RAT003
+    - 3R5MCAP
+  : 1
+  ? - PRICER
+    - 3MINHCO1
+  : 7.93182
+  ? - 3BALGAS
+    - 3S79CAP
+  : 0.95
+  ? - PRICER
+    - 3EC2CAP
+  : 161.5207
+  ? - 1BALEWD
+    - 1EC2WD
+  : 0.913
+  ? - PRICER
+    - 3E60IN
+  : 3.533263
+  ? - 3CPTR2L
+    - 2R2LINV
+  : -1
+  ? - 2CPTRT3
+    - 1RT3INV
+  : -1
+  ? - 3CPTIJ7
+    - 1IJ7INV
+  : -1
+  ? - 2UTLS06
+    - 2S06CAP
+  : -0.9
+  ? - 1CPTRT1
+    - 1RT1CAP
+  : 1
+  ? - 1EPKWD
+    - 1EP1CAP
+  : 24.213669
+  ? - 2BALDSL
+    - 2EC3SD
+  : -0.05
+  ? - 1EINEP1
+    - 1EP1IN
+  : 1
+  ? - 2CPTEC3
+    - 2EC3INV
+  : -1
+  ? - 3EWNEP1
+    - 3EP1CAP
+  : -2.714158
+  ? - 2BALEWN
+    - 2MINHCO1
+  : -0.000659
+  ? - 1EPKSD
+    - 1R2LCAP
+  : -0.474419
+  ? - 3CPTRT7
+    - 3RT7CAP
+  : 1
+  ? - 2EIDEP1
+    - 2EP1ID
+  : 1
+  ? - 3BALDSL
+    - 3E14ID
+  : -3.5971
+  ? - 3CPTR28
+    - 1R28INV
+  : -1
+  ? - 3DEMIJ
+    - 3IJ7CAP
+  : 1
+  ? - 1UTLS21
+    - 1S21ACT
+  : 1
+  ? - 3EWDE94
+    - 3E94CAP
+  : -3.156
+  ? - 3BALPLU
+    - 2E22ID
+  : 0.007126
+  ? - 3BALEWN
+    - 3I1YCAP
+  : -0.01183
+  ? - PRICER
+    - 2R58INV
+  : 30.857819
+  ? - 2EPKWD
+    - 2R5LCAP
+  : -2.208334
+  ? - 1CPTE14
+    - 1E14CAP
+  : 1
+  ? - 3BALHCO
+    - 3EC2IN
+  : -2.9758
+  ? - 1BALAGR
+    - 1E23ID
+  : -1.457729
+  ? - 2BALAGS
+    - 2E23SD
+  : 1.457729
+  ? - 3ESDE23
+    - 3E23SD
+  : 1
+  ? - 3BALEID
+    - 3R21CAP
+  : -0.276667
+  ? - 3BALDHI
+    - 3E60ID
+  : 2
+  ? - 1BALEIN
+    - 1MINHCO1
+  : -0.000461
+  ? - 3BALESD
+    - 3R2LCAP
+  : -0.204
+  ? - 3BALLMS
+    - 3S54CAP
+  : -0.9
+  ? - 2BALDHI
+    - 2R2CCAP
+  : -0.403896
+  ? - 3BALGAS
+    - 3S6HCAP
+  : 0.95
+  ? - 2EWNE31
+    - 2E31CAP
+  : -1.199279
+  ? - PRICER
+    - 1EC1CAP
+  : 289.25684
+  ? - 1BNDEP1L
+    - 1EP1SD
+  : 1
+  ? - PRICER
+    - 2S21INV
+  : 3.284866
+  ? - PRICER
+    - 1R20INV
+  : 19.863083
+  ? - 1CPTS23
+    - 1S23CAP
+  : 1
+  ? - 3BALURN
+    - 3S45CAP
+  : -4.4348
+  ? - 2BALPLU
+    - 2S47CAP
+  : -0.02045
+  ? - 1EWNEP1
+    - 1EP1WM
+  : 0.5
+  ? - 1EPKWD
+    - 1R51CAP
+  : -1.766667
+  ? - PRICER
+    - 1S09INV
+  : 6.203342
+  ? - 3CPTS23
+    - 3S23CAP
+  : 1
+  ? - 2EPKSD
+    - 2E23CAP
+  : 24.213669
+  ? - 3EPKSD
+    - 3R5ACAP
+  : -0.361462
+  ? - PRICER
+    - 2EC1SD
+  : 4.071078
+  ? - 3CPTR53
+    - 3R53INV
+  : -1
+  ? - 3BALESN
+    - 3RT0CAP
+  : -0.283333
+  ? - PRICER
+    - 2RTCCAP
+  : 9.263595
+  ? - 2BALPLU
+    - 1E22ID
+  : 0.007126
+  ? - 3CPTR21
+    - 1R21INV
+  : -1
+  ? - 3CPTEP1
+    - 1EP1INV
+  : -1
+  ? - PRICER
+    - 3E35INV
+  : 0.00001
+  ? - 1RAT001
+    - 1R5LCAP
+  : 1
+  ? - 2BALDSR
+    - 2S21ACT
+  : 0.46
+  ? - 2EIDE22
+    - 2E22CAP
+  : -5.365135
+  ? - 3ESDE60
+    - 3E60SD
+  : 1
+  ? - 1BALEID
+    - 1E51ID
+  : 0.913
+  ? - 1EWNEP1
+    - 1EP1WN
+  : 1
+  ? - 1BALURN
+    - 1S45CAP
+  : -4.4348
+  ? - 1DEMR5
+    - 1R53CAP
+  : 1
+  ? - 2BALEWD
+    - 2E22WD
+  : 0.4565
+  ? - 3CPTE22
+    - 1E22INV
+  : -1
+  ? - 2BALMAG
+    - 2E22WD
+  : -12.6582
+  ? - 3BALEID
+    - 3R5ACAP
+  : -0.054571
+  ? - 2CPTS28
+    - 1S28INV
+  : -1
+  ? - 2CPTS08
+    - 2S08CAP
+  : 1
+  ? - 1DEMR2
+    - 1R23CAP
+  : 1
+  ? - 2BALCOK
+    - 2RDYCAP
+  : -0.007975
+  ? - PRICER
+    - 1EC1WD
+  : 5.448
+  ? - 2BALMAG
+    - 1S44CAP
+  : 0.256
+  ? - 2UTLEP1
+    - 2EP1WM
+  : 1
+  ? - 1RAT013
+    - 1R5LCAP
+  : -1
+  ? - 1BALEIN
+    - 1R20CAP
+  : -0.345555
+  ? - 3CPTIJ6
+    - 2IJ6INV
+  : -1
+  ? - 3BALESN
+    - 3S80ACT
+  : -0.6
+  ? - PRICER
+    - 3S01CAP
+  : 4.961
+  ? - 2CPTS21
+    - 2S21INV
+  : -1
+  ? - 3CPTE51
+    - 3E51INV
+  : -1
+  ? - 1EINEP1
+    - 1EP1IM
+  : 0.35
+  ? - 2RAT008
+    - 2R5ACAP
+  : -1
+  ? - 3CPTR5A
+    - 2R5AINV
+  : -1
+  ? - 1CPTR53
+    - 1R53CAP
+  : 1
+  ? - 3CPTR5A
+    - 3R5ACAP
+  : 1
+  ? - 3BALDSL
+    - 3EC1IN
+  : -0.066667
+  ? - 2BALEWD
+    - 2EP1WD
+  : 0.913
+  ? - PRICER
+    - 1E14ID
+  : 4.183896
+  ? - 3BALESD
+    - 3E94SD
+  : 1
+  ? - 1BALEWN
+    - 1EC2WN
+  : 0.913
+  ? - 2BALGSL
+    - 2S28ACT
+  : 0.67
+  ? - 2CPTR20
+    - 1R20INV
+  : -1
+  ? - 2EINEP1
+    - 2EP1IM
+  : 0.35
+  ? - 2EWDEC2
+    - 2EC2CAP
+  : -2.777279
+  ? - 3BALLMF
+    - 3S4ACAP
+  : 0.95
+  ? - 3GRCE35
+    - 2E35CAP
+  : -32
+  ? - 2BALESD
+    - 2EP1SD
+  : 0.913
+  ? - 1DEMR5
+    - 1R5LCAP
+  : 1
+  ? - 3DEMT8
+    - 3T8FCAP
+  : 1
+  ? - 2BALDSH
+    - 2NYYCAP
+  : -0.4275
+  ? - 2BALESD
+    - 2R5ACAP
+  : -0.155429
+  ? - PRICER
+    - 1R23INV
+  : 53.34909
+  ? - PRICER
+    - 1EC1ID
+  : 5.448
+  ? - 3BALHCO
+    - 3S01ACT
+  : -1
+  ? - 3BALURN
+    - 3STKURN1
+  : 1
+  ? - PRICER
+    - 1EP1SN
+  : 22.382751
+  ? - 2BALEWD
+    - 2EC1WD
+  : 0.913
+  ? - 2EPKSD
+    - 2MINHCO1
+  : -0.00659
+  ? - 3BALDSL
+    - 3EC1WD
+  : -0.066667
+  ? - 1BALEWN
+    - 1R51CAP
+  : -0.072222
+  ? - 2BALCOK
+    - 2S08ACT
+  : 0.64
+  ? - 1EIDEC2
+    - 1EC2CAP
+  : -3.610465
+  ? - 3CPTIJ6
+    - 1IJ6INV
+  : -1
+  ? - PRICER
+    - 3E14CAP
+  : 40.668594
+  ? - 3EIDE31
+    - 3E31CAP
+  : -0.738504
+  ? - 1BALGAS
+    - 1IIYCAP
+  : -0.2555
+  ? - 1UTLE22
+    - 1E22IM
+  : 1
+  ? - 2ESDEP1
+    - 2EP1CAP
+  : -11.670885
+  ? - 3ESDEP1
+    - 3EP1CAP
+  : -11.670885
+  ? - PRICER
+    - 1S46CAP
+  : 0.619836
+  ? - 1ESDEP1
+    - 1EP1CAP
+  : -11.670885
+  ? - 1BASW
+    - 1EC3WN
+  : -0.77605
+  ? - 1BALESN
+    - 1E23SD
+  : 0.258683
+  ? - 1BALDSR
+    - 1S23ACT
+  : -1
+  ? - 2BALDSH
+    - 2I1YCAP
+  : -0.1305
+  ? - 2DEMRT
+    - 2RTCCAP
+  : 1
+  ? - 1RAT006
+    - 1R57CAP
+  : -1
+  ? - 1DEMNY
+    - 1NYYCAP
+  : 1
+  ? - 3BASW
+    - 3E22WD
+  : 0.068475
+  ? - 3CPTR5H
+    - 2R5HINV
+  : -1
+  ? - 3EWDEC3
+    - 3EC3CAP
+  : -2.114518
+  ? - 3EPKSD
+    - 3EP1CAP
+  : 24.213669
+  ? - PRICER
+    - 1IJ8CAP
+  : 11.053747
+  ? - 2BALDSH
+    - 2S23ACT
+  : 0.5
+  ? - 2EWNE35
+    - 2E35CAP
+  : -0.883679
+  ? - PRICER
+    - 1R21INV
+  : 11.053495
+  ? - 2BALALC
+    - 2S71CAP
+  : -1
+  ? - 3EINEP1
+    - 3EP1IM
+  : 0.35
+  ? - 2ESDE51
+    - 2E51CAP
+  : -12.213717
+  ? - 3BALDSH
+    - 3EP1WD
+  : -3.3333
+  ? - 3DEMT8
+    - 3T83CAP
+  : 1
+  ? - 1BALEWD
+    - 1E23WD
+  : 0.4565
+  ? - 1BALEWN
+    - 1IIYCAP
+  : -0.03051
+  ? - PRICER
+    - 3RT8CAP
+  : 17.824951
+  ? - 3EWNEC1
+    - 3EC1CAP
+  : -2.714158
+  ? - PRICER
+    - 2E23SD
+  : 0.849163
+  ? - 3CPTE35
+    - 3E35INV
+  : -1
+  ? - 3BALDHS
+    - 3E60SN
+  : 2
+  ? - 3BALEWD
+    - 3EC1WD
+  : 0.913
+  ? - 1BALDSH
+    - 1IJ6CAP
+  : -1.818181
+  ? - 3BALDSL
+    - 3EC2SN
+  : -0.054545
+  ? - 2EWNEC1
+    - 2EC1CAP
+  : -2.714158
+  ? - 3BALDSL
+    - 3E14SN
+  : -3.5971
+  ? - 1BALCOK
+    - 1IIYCAP
+  : -0.027
+  ? - 1DEMT8
+    - 1T83CAP
+  : 1
+  ? - 3BALEIN
+    - 3E22ID
+  : 0.31955
+  ? - 1BALGSL
+    - 1S21ACT
+  : 0.16
+  ? - PRICER
+    - 1RT3INV
+  : 53.34909
+  ? - 2BALUDP
+    - 2STKUDP1
+  : 1
+  ? - 1EPKWD
+    - 1RT1CAP
+  : -3.855558
+  ? - 1ESDEC2
+    - 1EC2CAP
+  : -11.942307
+  ? - 2EWDEC1
+    - 2EC1WD
+  : 1
+  ? - 3BALESD
+    - 3EC2SD
+  : 0.913
+  ? - 2BALESD
+    - 2E14SD
+  : 0.913
+  ? - 2ESDEC2
+    - 2EC2SD
+  : 1
+  ? - 2BALPLU
+    - 2E22WD
+  : 0.016627
+  ? - PRICER
+    - 1E23SD
+  : 1.136366
+  ? - PRICER
+    - 1EP1WD
+  : 22.382751
+  ? - 3BASS
+    - 3E35SN
+  : -0.77605
+  ? - 3EPKSD
+    - 3R2LCAP
+  : -0.474419
+  ? - 3CPTS28
+    - 2S28INV
+  : -1
+  ? - 3DEMNY
+    - 3NYYCAP
+  : 1
+  ? - 3HPKW
+    - 3RTCCAP
+  : -2.818182
+  ? - 2BALGSL
+    - 2T8FCAP
+  : -1
+  ? - 3BALEIN
+    - 3R51CAP
+  : -0.017778
+  ? - 2GRCT80
+    - 2T80CAP
+  : 1
+  ? - 2BALOIL
+    - 2S21ACT
+  : -1
+  ? - 2CPTRT3
+    - 2RT3CAP
+  : 1
+  ? - 1BASW
+    - 1EP1WN
+  : -0.77605
+  ? - 2BASW
+    - 2EC1WN
+  : -0.77605
+  ? - 2RAT003
+    - 2R5MCAP
+  : 1
+  ? - 3CPTEC3
+    - 2EC3INV
+  : -1
+  ? - 2BALEIN
+    - 2R20CAP
+  : -0.345555
+  ? - 2RAT013
+    - 2R5LCAP
+  : -1
+  ? - 2EPKSD
+    - 2TXYCAP
+  : -0.0192
+  ? - 3UTLEC2
+    - 3EC2CAP
+  : -5.049611
+  ? - 3CPTE35
+    - 3E35CAP
+  : 1
+  ? - PRICER
+    - 2EXPOIL1
+  : -22.001038
+  ? - PRICER
+    - 1EC1WN
+  : 5.448
+  ? - 1EPKSD
+    - 1MINHCO1
+  : -0.00659
+  ? - 1BALPLU
+    - 1S4ACAP
+  : -0.05237
+  ? - 1EWDE51
+    - 1E51WD
+  : 1
+  ? - PRICER
+    - 3S04ACT
+  : 1.586364
+  ? - 1BALMAG
+    - 1E22SD
+  : -12.6582
+  ? - 2BALDSL
+    - 2E14IN
+  : -3.5971
+  ? - 3BALEID
+    - 3RDYCAP
+  : -0.123691
+  ? - 1CPTS09
+    - 1S09INV
+  : -1
+  ? - 3BALUDP
+    - 3S4ACAP
+  : -0.9476
+  ? - 2EWNE14
+    - 2E14WN
+  : 1
+  ? - 1CPTS09
+    - 1S09CAP
+  : 1
+  ? - PRICER
+    - 3R53INV
+  : 12.920424
+  ? - 3BALHCO
+    - 3EC2SN
+  : -2.9758
+  ? - 1EWDE23
+    - 1E23CAP
+  : -5.365133
+  ? - 1BALDSL
+    - 1E14WD
+  : -3.5971
+  ? - 1CPTE23
+    - 1E23CAP
+  : 1
+  ? - 2BALDSL
+    - 2E14SN
+  : -3.5971
+  ? - 3CPTS21
+    - 3S21CAP
+  : 1
+  ? - 2BALDSH
+    - 2EP1SD
+  : -3.3333
+  ? - 1BALGAK
+    - 2STKGAK1
+  : -1
+  ? - PRICER
+    - 1EP1SD
+  : 22.382751
+  ? - PRICER
+    - 3E31INV
+  : 0.00001
+  ? - 1UTLEC1
+    - 1EC1CAP
+  : -4.4184
+  ? - PRICER
+    - 1IJ6CAP
+  : 15.909122
+  ? - 3CPTS21
+    - 1S21INV
+  : -1
+  ? - 2DEMIJ
+    - 2IJ6CAP
+  : 1
+  ? - 2BALGAK
+    - 2S79CAP
+  : -1
+  ? - 2BALDSL
+    - 2EXPDSL1
+  : -1
+  ? - 2BALHCO
+    - 2EC2WN
+  : -2.9758
+  ? - 3BASI
+    - 3EC3IN
+  : -0.77605
+  ? - 1BALEWD
+    - 1E31WD
+  : 0.913
+  ? - PRICER
+    - 1R58INV
+  : 54.491653
+  ? - 1DEMR2
+    - 1R20CAP
+  : 1
+  ? - 3BALEIN
+    - 3TXYCAP
+  : -0.001323
+  ? - 1ESDE22
+    - 1E22SM
+  : 1
+  ? - 3EWNE94
+    - 3E94CAP
+  : -3.156
+  ? - 3CPTRT0
+    - 3RT0INV
+  : -1
+  ? - 1BALDSL
+    - 1S28ACT
+  : -1
+  ? - PRICER
+    - 2E14WD
+  : 3.126463
+  ? - 3ESDEC3
+    - 3EC3CAP
+  : -9.092433
+  ? - 3EIDE35
+    - 3E35ID
+  : 1
+  ? - 1BASI
+    - 1E22ID
+  : 0.047932
+  ? - 1BALEIN
+    - 1R5MCAP
+  : -0.022535
+  ? - 2EWDE14
+    - 2E14CAP
+  : -2.998198
+  ? - 3BALDSL
+    - 3R53CAP
+  : -1.818181
+  ? - 3CPTR27
+    - 3R27INV
+  : -1
+  ? - 3BALCOK
+    - 3IIYCAP
+  : -0.038
+  ? - 2EPKSD
+    - 2IIYCAP
+  : -0.315354
+  ? - 3RAT013
+    - 3R5MCAP
+  : -1
+  ? - PRICER
+    - 3EC1SN
+  : 3.042154
+  ? - 3BASS
+    - 3E23SD
+  : 0.038802
+  ? - 3BALGAS
+    - 3S08ACT
+  : 0.152
+  ? - 1BALDSL
+    - 1S23ACT
+  : 0.5
+  ? - 2EPKWD
+    - 2TXYCAP
+  : -0.0192
+  ? - PRICER
+    - 2MINHCO1
+  : 9.170958
+  ? - 1CPTRT7
+    - 1RT7INV
+  : -1
+  ? - 2CPTE22
+    - 2E22CAP
+  : 1
+  ? - 2BALEWD
+    - 2R5ACAP
+  : -0.045429
+  ? - 1EIDEC3
+    - 1EC3ID
+  : 1
+  ? - PRICER
+    - 3E14IN
+  : 2.336281
+  ? - 3EWNE94
+    - 3E94WN
+  : 1
+  ? - 2BALCOK
+    - 2IIYCAP
+  : -0.0318
+  ? - PRICER
+    - 3E60WD
+  : 3.533263
+  ? - 3DEMRT
+    - 3RTBCAP
+  : 1
+  ? - 1BALHCO
+    - 1R2YCAP
+  : -0.923936
+  ? - 1EPKSD
+    - 1EP1CAP
+  : 24.213669
+  ? - 3ESDE22
+    - 3E22SD
+  : 1
+  ? - 3BALESD
+    - 3I1YCAP
+  : -0.052407
+  ? - 3CPTS09
+    - 3S09INV
+  : -1
+  ? - 3BALESN
+    - 3RT1CAP
+  : -0.056667
+  ? - PRICER
+    - 2R2CCAP
+  : 9.263595
+  ? - PRICER
+    - 3S29INV
+  : 1.532571
+  ? - 3EPKSD
+    - 3TXYCAP
+  : -0.0189
+  ? - 3UTLS01
+    - 3S01CAP
+  : -0.85
+  ? - 2EWNEC2
+    - 2EC2CAP
+  : -2.777279
+  ? - 2BALDSL
+    - 2EC2SN
+  : -0.054545
+  ? - 3ESNEC3
+    - 3EC3SN
+  : 1
+  ? - 2DEMIJ
+    - 2IJ7CAP
+  : 1
+  ? - 3EWDE35
+    - 3E35CAP
+  : -0.883679
+  ? - PRICER
+    - 2E22ID
+  : 1.350941
+  ? - 3BALESD
+    - 3E51SD
+  : 0.913
+  ? - 3BALEID
+    - 3E23ID
+  : 0.59345
+  ? - 1BALEIN
+    - 1R2LCAP
+  : -0.062
+  ? - PRICER
+    - 1RT1INV
+  : 11.053495
+  ? - PRICER
+    - 2IJ8CAP
+  : 8.260037
+  ? - 3EINEC1
+    - 3EC1IM
+  : 0.35
+  ? - PRICER
+    - 1E14INV
+  : 1783.0527
+  ? - 3BALALC
+    - 3S04ACT
+  : 0.3
+  ? - 3CPTRT0
+    - 3RT0CAP
+  : 1
+  ? - 3BALEWN
+    - 3E51WD
+  : -1.281395
+  ? - 2EPKWD
+    - 2RDYCAP
+  : -1.494279
+  ? - 2BALESD
+    - 2IIYCAP
+  : -0.135602
+  ? - 2RAT010
+    - 2S79CAP
+  : 2.66
+  ? - 2BALLMS
+    - 2STKLMS1
+  : 1
+  ? - 3CPTS09
+    - 2S09INV
+  : -1
+  ? - 2BALEWN
+    - 2I1YCAP
+  : -0.01144
+  ? - 2BALAGS
+    - 2S55CAP
+  : -0.8
+  ? - 3BALEWN
+    - 3E14WN
+  : 0.913
+  ? - 2BALAGS
+    - 3STKAGS1
+  : -1
+  ? - 1EWNE14
+    - 1E14CAP
+  : -2.998198
+  ? - 1UTLEP1
+    - 1EP1SM
+  : 1
+  ? - 3EPKSD
+    - 3R5MCAP
+  : -1.733036
+  ? - 3UTLS09
+    - 3S09ACT
+  : 1
+  ? - 1UTLS09
+    - 1S09CAP
+  : -1
+  ? - 3BALDSL
+    - 3IIYCAP
+  : -0.2695
+  ? - 3BALEIN
+    - 3EC1IN
+  : 0.913
+  ? - 2CPTR58
+    - 2R58INV
+  : -1
+  ? - 1EPKWD
+    - 1I1YCAP
+  : -0.142416
+  ? - 3ESNEC2
+    - 3EC2SN
+  : 1
+  ? - 1CPTEC3
+    - 1EC3INV
+  : -1
+  ? - 2CPTR5H
+    - 2R5HCAP
+  : 1
+  ? - 3EWNEC2
+    - 3EC2CAP
+  : -2.777279
+  ? - 3EIDEC2
+    - 3EC2ID
+  : 1
+  ? - PRICER
+    - 1E14WD
+  : 4.183896
+  ? - 2UTLE23
+    - 2E23CAP
+  : -6.311683
+  ? - 2BALESN
+    - 2EC3SN
+  : 0.913
+  ? - PRICER
+    - 2R5AINV
+  : 0.00001
+  ? - 3BALDSL
+    - 3I1YCAP
+  : -0.0102
+  ? - 2BALCOK
+    - 2I1YCAP
+  : -0.5198
+  ? - 2BALEID
+    - 2R21CAP
+  : -0.276667
+  ? - 2CPTR51
+    - 2R51INV
+  : -1
+  ? - 2DEMRT
+    - 2RT8CAP
+  : 1
+  ? - 1CPTE22
+    - 1E22CAP
+  : 1
+  ? - 1BALEID
+    - 1R2LCAP
+  : -0.249
+  ? - 1BALPLU
+    - 1E22WD
+  : 0.016627
+  ? - 3BALHCO
+    - 3I1YCAP
+  : -0.0194
+  ? - 3ESDE31
+    - 3E31CAP
+  : -2.442742
+  ? - PRICER
+    - 3RT3CAP
+  : 9.229751
+  ? - 2BALESN
+    - 2R5ACAP
+  : -0.007143
+  ? - 1BALESN
+    - 1EC3SN
+  : 0.913
+  ? - 2BALEWN
+    - 2E14WN
+  : 0.913
+  ? - 2BALEID
+    - 2RT1CAP
+  : -0.276667
+  ? - 1CPTRT0
+    - 1RT0CAP
+  : 1
+  ? - 3DEMR2
+    - 3R2CCAP
+  : 1
+  ? - 3EPKWD
+    - 3EC3CAP
+  : 24.213669
+  ? - 3BALHCO
+    - 3IMPHCO1
+  : 1
+  ? - 3CPTE14
+    - 1E14INV
+  : -1
+  ? - 3BASS
+    - 3E14SN
+  : -0.77605
+  ? - 3CPTR2D
+    - 3R2DCAP
+  : 1
+  ? - 1EWNEC3
+    - 1EC3WN
+  : 1
+  ? - 2CPTS21
+    - 1S21INV
+  : -1
+  ? - 1DEMR2
+    - 1R2DCAP
+  : 1
+  ? - 2CPTEP1
+    - 2EP1INV
+  : -1
+  ? - PRICER
+    - 2R5MINV
+  : 9.695297
+  ? - PRICER
+    - 3E60CAP
+  : 74.414856
+  ? - 1BASS
+    - 1E22SD
+  : 0.038802
+  ? - 1EIDE22
+    - 1E22IM
+  : 1
+  ? - 3CPTIJ8
+    - 1IJ8INV
+  : -1
+  ? - 3CPTRTC
+    - 2RTCINV
+  : -1
+  ? - PRICER
+    - 1S08ACT
+  : 1.497937
+  ? - 3EWDEC2
+    - 3EC2WM
+  : 0.5
+  ? - 3DEMT8
+    - 3T80CAP
+  : 1
+  ? - PRICER
+    - 2E23ID
+  : 0.849163
+  ? - 1CPTR23
+    - 1R23CAP
+  : 1
+  ? - 1RAT004
+    - 1R51CAP
+  : -1
+  ? - 1ESNEP1
+    - 1EP1SM
+  : 0.283333
+  ? - 3BALESN
+    - 3EC2SN
+  : 0.913
+  ? - PRICER
+    - 2E23WD
+  : 0.849163
+  ? - 2CPTR5M
+    - 2R5MCAP
+  : 1
+  ? - 1BALLMS
+    - 1S54CAP
+  : -1
+  ? - 3ESDEC2
+    - 3EC2SD
+  : 1
+  ? - 3BALEWD
+    - 3EP1WD
+  : 0.913
+  ? - 1UTLEC1
+    - 1EC1WM
+  : 1
+  ? - 2EPKWD
+    - 2MINHCO1
+  : -0.00659
+  ? - 2BALDSH
+    - 2EP1IN
+  : -3.3333
+  ? - 3BALAGR
+    - 2S46CAP
+  : 0.266
+  ? - 2UTLEC1
+    - 2EC1IM
+  : 1
+  ? - 1EWDE51
+    - 1E51CAP
+  : -2.840398
+  ? - 1BALESD
+    - 1EP1SD
+  : 0.913
+  ? - 3ESNE94
+    - 3E94CAP
+  : -5.365198
+  ? - 2CPTR5A
+    - 2R5AINV
+  : -1
+  ? - 2BALHCO
+    - 2EC2SD
+  : -2.9758
+  ? - 3EWNE31
+    - 3E31CAP
+  : -1.199279
+  ? - 1BNDEP1L
+    - 1EP1ID
+  : 1
+  ? - PRICER
+    - 2IJ8INV
+  : 2.799844
+  ? - 3ESDE35
+    - 3E35CAP
+  : -3.121283
+  ? - 3CPTS21
+    - 2S21INV
+  : -1
+  ? - 2EWDEC2
+    - 2EC2WM
+  : 0.5
+  ? - 2BALPLU
+    - 2STKPLU1
+  : 1
+  ? - 2ESDE31
+    - 2E31CAP
+  : -2.442742
+  ? - 3CPTS06
+    - 3S06CAP
+  : 1
+  ? - 2EPKSD
+    - 2EC2CAP
+  : 24.213669
+  ? - 2RAT006
+    - 2R57CAP
+  : -1
+  ? - PRICER
+    - 1E22CAP
+  : 81.6118
+  ? - 3BALHCO
+    - 3EC2WN
+  : -2.9758
+  ? - 3BALAGR
+    - 3E23WD
+  : -1.457729
+  ? - PRICER
+    - 3R2CINV
+  : 8.755
+  ? - 1BALUDP
+    - 1STKUDP1
+  : 1
+  ? - 3BALESN
+    - 3E35SN
+  : 0.913
+  ? - 1RAT003
+    - 1R5MCAP
+  : 1
+  ? - 1BALDSL
+    - 1E14IN
+  : -3.5971
+  ? - 3BALEWN
+    - 3E94WN
+  : 1
+  ? - 1EIDE14
+    - 1E14CAP
+  : -3.897659
+  ? - 2ESNE31
+    - 2E31CAP
+  : -0.965735
+  ? - 1BALHCO
+    - 1EC1IN
+  : -3.637
+  ? - 3BALEIN
+    - 3E60IN
+  : 1
+  ? - 2CPTEC3
+    - 2EC3CAP
+  : 1
+  ? - PRICER
+    - 2RT1INV
+  : 6.259433
+  ? - 2BASI
+    - 2EC2IN
+  : -0.77605
+  ? - 3ESDE22
+    - 3E22CAP
+  : -16.095398
+  ? - PRICER
+    - 1R27CAP
+  : 19.469208
+  ? - 2BALDSL
+    - 2I1YCAP
+  : -0.0212
+  ? - 2EWNEP1
+    - 2EP1CAP
+  : -2.714158
+  ? - 1BALESN
+    - 1MINHCO1
+  : -0.00112
+  ? - 1BALEWD
+    - 1MINHCO1
+  : -0.000659
+  ? - 1ESDEC2
+    - 1EC2SM
+  : 0.716667
+  ? - 2BALEWN
+    - 2R20CAP
+  : -0.482222
+  ? - 1EIDE23
+    - 1E23IM
+  : 1
+  ? - 3BALDSL
+    - 3EC1SN
+  : -0.066667
+  ? - 1BALHCO
+    - 1EC2IN
+  : -2.9758
+  ? - 3BALEIN
+    - 3E35IN
+  : 0.913
+  ? - 1RAT005
+    - 1R53CAP
+  : -1
+  ? - 1BALESD
+    - 1EC3SD
+  : 0.913
+  ? - 3BALGAS
+    - 3E94WN
+  : -2.5
+  ? - 1BALAGR
+    - 1S47CAP
+  : 0.734
+  ? - 2BALHCO
+    - 2EC2ID
+  : -2.9758
+  ? - 2CPTR2L
+    - 2R2LINV
+  : -1
+  ? - 2CPTR5A
+    - 2R5ACAP
+  : 1
+  ? - 1BALGSL
+    - 1S71CAP
+  : 1
+  ? - 3CPTRT1
+    - 3RT1CAP
+  : 1
+  ? - 2EWDEC1
+    - 2EC1CAP
+  : -2.714158
+  ? - 3CPTR23
+    - 2R23INV
+  : -1
+  ? - 3CPTR23
+    - 3R23INV
+  : -1
+  ? - 1RAT002
+    - 1R2LCAP
+  : 1
+  ? - 2BALEID
+    - 2MINHCO1
+  : -0.000857
+  ? - 3BALESN
+    - 3TXYCAP
+  : -0.003213
+  ? - 2EWDEC2
+    - 2EC2WD
+  : 1
+  ? - PRICER
+    - 1E14IN
+  : 4.183896
+  ? - 2CPTE35
+    - 2E35CAP
+  : 1
+  ? - 3BALEWD
+    - 3E22WD
+  : 0.4565
+  ? - PRICER
+    - 3EP1WN
+  : 12.498495
+  ? - PRICER
+    - 1R58CAP
+  : 31.92157
+  ? - 3UTLEC2
+    - 3EC2IM
+  : 1
+  ? - 1EIDE23
+    - 1E23ID
+  : 1
+  ? - 1BALDSL
+    - 1E14ID
+  : -3.5971
+  ? - 2BALEID
+    - 2TXYCAP
+  : -0.002496
+  ? - PRICER
+    - 3RT0CAP
+  : 4.038016
+  ? - 3DEMR5
+    - 3R5ACAP
+  : 1
+  ? - 2EPKSD
+    - 2R5LCAP
+  : -1.757106
+  ? - 1CPTR5L
+    - 1R5LINV
+  : -1
+  ? - 1CPTS23
+    - 1S23INV
+  : -1
+  ? - 3CPTR5L
+    - 1R5LINV
+  : -1
+  ? - 1BALEWD
+    - 1R21CAP
+  : -0.385555
+  ? - 3DEMRT
+    - 3RT0CAP
+  : 1
+  ? - 3EWDEC1
+    - 3EC1WM
+  : 0.5
+  ? - 2CPTE51
+    - 2E51INV
+  : -1
+  ? - 3CPTR21
+    - 3R21CAP
+  : 1
+  ? - 2EPKWD
+    - 2RT1CAP
+  : -3.855558
+  ? - 2BALDSH
+    - 2S72CAP
+  : 1
+  ? - 3CPTE22
+    - 3E22CAP
+  : 1
+  ? - 1BALHCO
+    - 1EC1SN
+  : -3.637
+  ? - PRICER
+    - 2E14IN
+  : 3.126463
+  ? - 2ESDE22
+    - 2E22SD
+  : 1
+  ? - 3BASW
+    - 3EC2WN
+  : -0.77605
+  ? - 2EIDEC1
+    - 2EC1IM
+  : 0.65
+  ? - 3EWDE94
+    - 3E94WD
+  : 1
+  ? - PRICER
+    - 3EC3SD
+  : 3.146947
+  ? - 1CPTS28
+    - 1S28CAP
+  : 1
+  ? - 1BALGAS
+    - 1S09ACT
+  : 0.152
+  ? - 3BALESD
+    - 3E60SD
+  : 1
+  ? - 1EIDEC1
+    - 1EC1IM
+  : 0.65
+  ? - 2DEMR5
+    - 2R51CAP
+  : 1
+  ? - 2EWDE31
+    - 2E31CAP
+  : -1.199279
+  ? - 2BALEID
+    - 2EC3ID
+  : 0.913
+  ? - 3BALHCO
+    - 3EC1SD
+  : -3.637
+  ? - 2RAT010
+    - 2STKGAK1
+  : -1
+  ? - PRICER
+    - 2E23INV
+  : 2281.7358
+  ? - 2CPTS09
+    - 2S09INV
+  : -1
+  ? - 2BALHCO
+    - 2IMPHCO1
+  : 1
+  ? - 2BALPLU
+    - 3STKPLU1
+  : -1
+  ? - PRICER
+    - 3R23INV
+  : 12.920424
+  ? - 3BALHCO
+    - 3IIYCAP
+  : -0.1852
+  ? - 2BALEIN
+    - 2RT0CAP
+  : -0.345555
+  ? - 3BALEWD
+    - 3R5ACAP
+  : -0.045429
+  ? - 2ESDE14
+    - 2E14CAP
+  : -12.892257
+  ? - 2EINE35
+    - 2E35CAP
+  : -0.618576
+  ? - 1EIDE51
+    - 1E51CAP
+  : -3.692519
+  ? - 3EINEC2
+    - 3EC2IN
+  : 1
+  ? - 3BALEIN
+    - 3E14IN
+  : 0.913
+  ? - 3DEMIJ
+    - 3IJ6CAP
+  : 1
+  ? - PRICER
+    - 2R53CAP
+  : 12.351457
+  ? - 1EWDEC2
+    - 1EC2CAP
+  : -2.777279
+  ? - 2EPKSD
+    - 2EP1CAP
+  : 24.213669
+  ? - 3BALEWD
+    - 3EC3WD
+  : 0.913
+  ? - PRICER
+    - 2RTBINV
+  : 0.00001
+  ? - 2CPTR27
+    - 2R27CAP
+  : 1
+  ? - 3EINE94
+    - 3E94IN
+  : 1
+  ? - 3RAT012
+    - 3R5CCAP
+  : -1
+  ? - 2BALEIN
+    - 2RDYCAP
+  : -0.034102
+  ? - 2EINEC2
+    - 2EC2IM
+  : 0.35
+  ? - 3BASS
+    - 3E94SN
+  : -0.85
+  ? - 3ESNE14
+    - 3E14CAP
+  : -5.096938
+  ? - PRICER
+    - 2E51INV
+  : 460.97388
+  ? - 3GRCE35
+    - 3E35CAP
+  : 1
+  ? - 3BALGAS
+    - 3R2YCAP
+  : -1.318908
+  ? - 2BALESD
+    - 2RDYCAP
+  : -0.182909
+  ? - PRICER
+    - 2EXPGAS1
+  : -18.295593
+  ? - 2CPTRT1
+    - 2RT1INV
+  : -1
+  ? - PRICER
+    - 2R57INV
+  : 22.297272
+  ? - 2BALHCO
+    - 2RT8CAP
+  : -2
+  ? - 3UTLEC1
+    - 3EC1IM
+  : 1
+  ? - 3EWDE22
+    - 3E22CAP
+  : -5.365133
+  ? - 2BALESD
+    - 2MINHCO1
+  : -0.002834
+  ? - 3BALGAS
+    - 3IIYCAP
+  : -0.2048
+  ? - 3BALGAS
+    - 3E94SN
+  : -2.5
+  ? - 1BALDSH
+    - 1S23ACT
+  : 0.5
+  ? - 3UTLS21
+    - 3S21ACT
+  : 1
+  ? - 1BALEIN
+    - 1R5LCAP
+  : -0.022535
+  ? - 3CPTIJ6
+    - 3IJ6CAP
+  : 1
+  ? - PRICER
+    - 1S21INV
+  : 5.800726
+  ? - 1BALAGS
+    - 2S55CAP
+  : -0.2
+  ? - 1BALESD
+    - 1E31SD
+  : 0.913
+  ? - 2BALEIN
+    - 2R5LCAP
+  : -0.022222
+  ? - 3CPTE31
+    - 2E31INV
+  : -1
+  ? - 2CPTE22
+    - 1E22INV
+  : -1
+  ? - 1ESDEC2
+    - 1EC2SD
+  : 1
+  ? - 2BALEID
+    - 2E35ID
+  : 0.913
+  ? - 2BALURN
+    - 2S46CAP
+  : -0.9841
+  ? - 1BALDSL
+    - 1EC1WN
+  : -0.066667
+  ? - 2CPTEP1
+    - 2EP1CAP
+  : 1
+  ? - 3CPTR57
+    - 2R57INV
+  : -1
+  ? - 1BALURN
+    - 1STKURN1
+  : 1
+  ? - PRICER
+    - 3EC2SN
+  : 2.489097
+  ? - 2BALESN
+    - 2R21CAP
+  : -0.056667
+  ? - 2EPKWD
+    - 2R5ACAP
+  : -0.454286
+  ? - 2CPTRT8
+    - 2RT8INV
+  : -1
+  ? - PRICER
+    - 3EP1WD
+  : 12.498495
+  ? - 2EIDE31
+    - 2E31CAP
+  : -0.738504
+  ? - 2EIDE22
+    - 2E22IM
+  : 1
+  ? - 3BALPLU
+    - 2E22WD
+  : 0.007126
+  ? - PRICER
+    - 2EC2CAP
+  : 216.15057
+  ? - 2BALAGR
+    - 2E23ID
+  : -1.457729
+  ? - 3BALPLU
+    - 3E22SD
+  : 0.016627
+  ? - 1EPKSD
+    - 1E22CAP
+  : 24.213669
+  ? - PRICER
+    - 1IJ8INV
+  : 4.944228
+  ? - 2EPKWD
+    - 2E22CAP
+  : 24.213669
+  ? - 3CPTRT1
+    - 1RT1INV
+  : -1
+  ? - 2CPTR2B
+    - 2R2BCAP
+  : 1
+  ? - PRICER
+    - 1MINHCO1
+  : 10.330608
+  ? - PRICER
+    - 2RTCINV
+  : 20.4711
+  ? - 2BALEWN
+    - 2EC1WN
+  : 0.913
+  ? - 3BALEWD
+    - 3I1YCAP
+  : -0.015261
+  ? - 3BASS
+    - 3EC1SN
+  : -0.77605
+  ? - 3EIDEP1
+    - 3EP1ID
+  : 1
+  ? - 1BASI
+    - 1E23ID
+  : 0.047932
+  ? - 3BALEIN
+    - 3E31IN
+  : 0.913
+  ? - 3ESDEC1
+    - 3EC1CAP
+  : -11.670885
+  ? - 1EPKSD
+    - 1E31CAP
+  : 24.213669
+  ? - 2EWDE22
+    - 2E22WM
+  : 1
+  ? - 2BALEIN
+    - 2IIYCAP
+  : -0.017142
+  ? - 1BALESN
+    - 1R21CAP
+  : -0.056667
+  ? - 1BALDSH
+    - 1EP1WN
+  : -3.3333
+  ? - 1EINE14
+    - 1E14CAP
+  : -2.098739
+  ? - 3BALESD
+    - 3R5ACAP
+  : -0.155429
+  ? - PRICER
+    - 3RT1INV
+  : 2.677005
+  ? - 3BALESN
+    - 3RDYCAP
+  : -0.050745
+  ? - 3EWDE60
+    - 3E60CAP
+  : -2.114518
+  ? - PRICER
+    - 1S28INV
+  : 2.109354
+  ? - 1BALEIN
+    - 1I1YCAP
+  : -0.006182
+  ? - 3BALGSL
+    - 3NYYCAP
+  : -0.2915
+  ? - 3DEMRT
+    - 3RT1CAP
+  : 1
+  ? - 1CPTR50
+    - 1R50CAP
+  : 1
+  ? - 3BALGAS
+    - 3S09ACT
+  : 0.152
+  ? - PRICER
+    - 3E35CAP
+  : 15.863641
+  ? - 3BASI
+    - 3EC2IN
+  : -0.77605
+  ? - 2CPTS08
+    - 2S08INV
+  : -1
+  ? - 1BALLMS
+    - 1STKLMS1
+  : 1
+  ? - 3BALESD
+    - 3IIYCAP
+  : -0.133963
+  ? - 3UTLEC1
+    - 3EC1SM
+  : 1
+  ? - 2EINEC3
+    - 2EC3IN
+  : 1
+  ? - 2EPKWD
+    - 2EC1CAP
+  : 24.213669
+  ? - PRICER
+    - 2E14INV
+  : 1009.7168
+  ? - 1BALOIL
+    - 1EXPOIL1
+  : -1
+  ? - 3CPTR50
+    - 3R50INV
+  : -1
+  ? - PRICER
+    - 3EP1SN
+  : 12.498495
+  ? - 3BASS
+    - 3EP1SN
+  : -0.77605
+  ? - 2BALEWN
+    - 2RT0CAP
+  : -0.482222
+  ? - 3BALEID
+    - 3EC1ID
+  : 0.913
+  ? - 3EINEP1
+    - 3EP1CAP
+  : -1.899911
+  ? - PRICER
+    - 3EC3WD
+  : 3.146947
+  ? - 3BALLMS
+    - ZSTKLMS1
+  : -1
+  ? - 3BALHCO
+    - 3E60ID
+  : -2.5
+  ? - 3EWDE51
+    - 3E51WD
+  : 1
+  ? - PRICER
+    - 3E94CAP
+  : 61.723953
+  ? - 2BALGAK
+    - 2STKGAK1
+  : 1
+  ? - PRICER
+    - 2E51CAP
+  : 53.26567
+  ? - 2UTLS21
+    - 2S21ACT
+  : 1
+  ? - 2BASI
+    - 2E22ID
+  : 0.047932
+  ? - 2BALESN
+    - 2IIYCAP
+  : -0.036732
+  ? - 3BALEIN
+    - 3IIYCAP
+  : -0.016934
+  ? - 1BALGAS
+    - 1RDYCAP
+  : -0.371269
+  ? - 3UTLS80
+    - 3S80CAP
+  : -0.9
+  ? - PRICER
+    - 3S08ACT
+  : 0.836446
+  ? - 3BALGAS
+    - 3R5HCAP
+  : -1.886792
+  ? - 2ESNEP1
+    - 2EP1CAP
+  : -4.61407
+  ? - PRICER
+    - 3EP1SD
+  : 12.498495
+  ? - 1EPKSD
+    - 1TXYCAP
+  : -0.0208
+  ? - 1DEMR2
+    - 1R2LCAP
+  : 1
+  ? - 3UTLEP1
+    - 3EP1CAP
+  : -4.4184
+  ? - 1BALALC
+    - 1S71CAP
+  : -1
+  ? - 1UTLE22
+    - 1E22SM
+  : 1
+  ? - 2BASI
+    - 2E31IN
+  : -0.77605
+  ? - 3CPTIJ8
+    - 3IJ8INV
+  : -1
+  ? - 3RAT004
+    - 3R21CAP
+  : 0.317
+  ? - PRICER
+    - 1IJ7INV
+  : 1.43445
+  ? - 3BALAGS
+    - ZSTKAGS1
+  : -1
+  ? - 3BALDHS
+    - 3R2CCAP
+  : -0.331169
+  ? - PRICER
+    - 3R57INV
+  : 9.536002
+  ? - 1BALDSL
+    - 1TXYCAP
+  : -0.9792
+  ? - PRICER
+    - 2S09INV
+  : 3.512862
+  ? - 1BALDSL
+    - 1I1YCAP
+  : -0.0323
+  ? - 1BALOIK
+    - 1S7ACAP
+  : -1
+  ? - 2BALEIN
+    - 2EC2IN
+  : 0.913
+  ? - 3EWDEC3
+    - 3EC3WD
+  : 1
+  ? - PRICER
+    - 3EC2WD
+  : 2.489097
+  ? - 3EINEP1
+    - 3EP1IN
+  : 1
+  ? - 2CPTS06
+    - 2S06CAP
+  : 1
+  ? - PRICER
+    - 3R5CINV
+  : 8.755
+  ? - 2BALEIN
+    - 2R51CAP
+  : -0.017778
+  ? - 1CPTR5H
+    - 1R5HCAP
+  : 1
+  ? - 1BALEWD
+    - 1R5LCAP
+  : -0.223944
+  ? - 3DEMR2
+    - 3R21CAP
+  : 1
+  ? - 3DEMR2
+    - 3R28CAP
+  : 1
+  ? - 2BALGAS
+    - 2R2BCAP
+  : -0.833333
+  ? - 3UTLS28
+    - 3S28ACT
+  : 1
+  ? - 2BALDSL
+    - 2EC2SD
+  : -0.054545
+  ? - 1UTLS06
+    - 1S06ACT
+  : 1
+  ? - 2BALESN
+    - 2R51CAP
+  : -0.027778
+  ? - PRICER
+    - 3EP1IN
+  : 12.498495
+  ? - PRICER
+    - 1RT7CAP
+  : 19.469208
+  ? - PRICER
+    - 1E22ID
+  : 1.807856
+  ? - 1RAT013
+    - 1R5MCAP
+  : -1
+  ? - PRICER
+    - 2EC2ID
+  : 3.330964
+  ? - 1BASW
+    - 1E14WN
+  : -0.77605
+  ? - 2BALPLU
+    - 2E22ID
+  : 0.016627
+  ? - 3BALURN
+    - 3S55CAP
+  : 1.047
+  ? - 2UTLS06
+    - 2S06ACT
+  : 1
+  ? - 2CPTR5M
+    - 2R5MINV
+  : -1
+  ? - 3DEMR2
+    - 3R27CAP
+  : 1
+  ? - 3UTLS28
+    - 3S28CAP
+  : -1
+  ? - 3CPTR21
+    - 2R21INV
+  : -1
+  ? - 2CPTR23
+    - 2R23INV
+  : -1
+  ? - 1BALEIN
+    - 1RT1CAP
+  : -0.068889
+  ? - 3EPKWD
+    - 3R51CAP
+  : -1.766667
+  ? - 3BALEWN
+    - 3R5ACAP
+  : -0.018571
+  ? - 3BALEWN
+    - 3R5LCAP
+  : -0.089041
+  ? - 1EPKSD
+    - 1EC2CAP
+  : 24.213669
+  ? - 3BALHCO
+    - 3EC2WD
+  : -2.9758
+  ? - 2EIDE14
+    - 2E14ID
+  : 1
+  ? - 2BALEIN
+    - 2E14IN
+  : 0.913
+  ? - PRICER
+    - 3E94SN
+  : 41.750214
+  ? - 2BALESN
+    - 2R5MCAP
+  : -0.034722
+  ? - PRICER
+    - 2RTBCAP
+  : 11.901143
+  ? - 2BALESD
+    - 2R21CAP
+  : -0.226667
+  ? - 2BASS
+    - 2E22SD
+  : 0.038802
+  ? - 3BALDSL
+    - 3EC2WD
+  : -0.054545
+  ? - PRICER
+    - 2E22SD
+  : 1.350941
+  ? - 2BASI
+    - 2EC1IN
+  : -0.77605
+  ? - 3CPTS08
+    - 3S08INV
+  : -1
+  ? - 2BALEID
+    - 2I1YCAP
+  : -0.017389
+  ? - 3RAT001
+    - 3R5LCAP
+  : 1
+  ? - PRICER
+    - 3T83CAP
+  : 3.057354
+  ? - 3BALGSL
+    - 3S29ACT
+  : 0.87
+  ? - 3BALEWN
+    - 3E22WD
+  : 0.4565
+  ? - 3BALEWN
+    - 3E31WN
+  : 0.913
+  ? - 2BALEID
+    - 2E23ID
+  : 0.59345
+  ? - 3BALAGR
+    - 3E23SD
+  : -1.457729
+  ? - 3CPTRT8
+    - 3RT8INV
+  : -1
+  ? - 1BALDSH
+    - 1I1YCAP
+  : -0.1983
+  ? - 1BALESN
+    - 1R20CAP
+  : -0.283333
+  ? - 3BALOIL
+    - 3EXPOIL1
+  : -1
+  ? - 3CPTRT8
+    - 1RT8INV
+  : -1
+  ? - 1BALEID
+    - 1E14ID
+  : 0.913
+  ? - 3CPTS21
+    - 3S21INV
+  : -1
+  ? - PRICER
+    - 1IMPOIL1
+  : 27.995941
+  ? - 1CPTR21
+    - 1R21INV
+  : -1
+  ? - 1BALUDP
+    - 1S45CAP
+  : 3.4348
+  ? - 2UTLEP1
+    - 2EP1IM
+  : 1
+  ? - 2BALEIN
+    - 2MINHCO1
+  : -0.000461
+  ? - 2BALEID
+    - 2EC2ID
+  : 0.913
+  ? - 2UTLEC1
+    - 2EC1WM
+  : 1
+  ? - 2BALESN
+    - 2R20CAP
+  : -0.283333
+  ? - 3EPKWD
+    - 3R5ACAP
+  : -0.454286
+  ? - 1BALEIN
+    - 1E22ID
+  : 0.31955
+  ? - 1ESDE14
+    - 1E14CAP
+  : -12.892257
+  ? - 2EWDE51
+    - 2E51CAP
+  : -2.840398
+  ? - 3DEMRT
+    - 3RTCCAP
+  : 1
+  ? - 3BALEIN
+    - 3E51ID
+  : -1.281395
+  ? - PRICER
+    - 3S04INV
+  : 2.932184
+  ? - 1BALGAS
+    - 1R2YCAP
+  : -1.068479
+  ? - 2DEMNY
+    - 2NYYCAP
+  : 1
+  ? - 1BALEID
+    - 1R5MCAP
+  : -0.269014
+  ? - 2BALDSL
+    - 2IIYCAP
+  : -0.2619
+  ? - 1EIDE51
+    - 1E51ID
+  : 1
+  ? - PRICER
+    - 1RT1CAP
+  : 6.869854
+  ? - 3BALEID
+    - 3TXYCAP
+  : -0.002457
+  ? - 2DEMRT
+    - 2RT3CAP
+  : 1
+  ? - 2CPTS21
+    - 2S21CAP
+  : 1
+  ? - PRICER
+    - 2E14CAP
+  : 54.423615
+  ? - 3BALPLU
+    - 3STKPLU1
+  : 1
+  ? - 1CPTR57
+    - 1R57CAP
+  : 1
+  ? - 3BALGAS
+    - 3E94WD
+  : -2.5
+  ? - 3BALEIN
+    - 3E94IN
+  : 1
+  ? - PRICER
+    - 2R2DINV
+  : 0.00001
+  ? - 3BALGAS
+    - 3IMPGAS1
+  : 0.95
+  ? - 2BALHCO
+    - 2EC1WN
+  : -3.637
+  ? - 3CPTR2L
+    - 3R2LCAP
+  : 1
+  ? - 2BALEID
+    - 2R51CAP
+  : -0.212222
+  ? - 2EWNEP1
+    - 2EP1WM
+  : 0.5
+  ? - 1BALDSL
+    - 1E14WN
+  : -3.5971
+  ? - 1BALEID
+    - 1RT1CAP
+  : -0.276667
+  ? - 2BALGAS
+    - 2RTYCAP
+  : -1.25
+  ? - PRICER
+    - 3R28CAP
+  : 17.824951
+  ? - PRICER
+    - 3R28INV
+  : 13.197139
+  ? - 1BASW
+    - 1EC1WN
+  : -0.77605
+  ? - PRICER
+    - 3R20CAP
+  : 4.038016
+  ? - 1RAT010
+    - 1S79CAP
+  : 2.66
+  ? - 3BALDSH
+    - 3EP1ID
+  : -3.3333
+  ? - 3RAT008
+    - 3R2ACAP
+  : 0.317
+  ? - 3BALEWN
+    - 3R5MCAP
+  : -0.089041
+  ? - 1BALHCO
+    - 1EC2SD
+  : -2.9758
+  ? - 2EIDE35
+    - 2E35CAP
+  : -1.148784
+  ? - PRICER
+    - 2E35INV
+  : 0.00001
+  ? - 1EPKWD
+    - 1R21CAP
+  : -3.855558
+  ? - 3ESNEP1
+    - 3EP1CAP
+  : -4.61407
+  ? - 3CPTE23
+    - 3E23CAP
+  : 1
+  ? - 1BALGAS
+    - 1S08ACT
+  : 0.152
+  ? - PRICER
+    - 3R23CAP
+  : 8.608518
+  ? - PRICER
+    - 2EC1WN
+  : 4.071078
+  ? - 1RAT010
+    - 1STKGAK1
+  : -1
+  ? - 2BALHCO
+    - 2EC2SN
+  : -2.9758
+  ? - 3UTLS08
+    - 3S08CAP
+  : -0.9
+  ? - 2BALDSL
+    - 2R23CAP
+  : -1.538461
+  ? - 2EPKSD
+    - 2R51CAP
+  : -1.405684
+  ? - 3BALOIL
+    - 3S21ACT
+  : -1
+  ? - 3CPTR2D
+    - 2R2DINV
+  : -1
+  ? - 3BALDSL
+    - 3EC3SD
+  : -0.05
+  ? - 3ESDEP1
+    - 3EP1SD
+  : 1
+  ? - 2BALDSL
+    - 2E14WD
+  : -3.5971
+  ? - PRICER
+    - 3EC3WN
+  : 3.146947
+  ? - 2EWNE35
+    - 2E35WN
+  : 1
+  ? - 2RAT007
+    - 2R58CAP
+  : -1
+  ? - 2BALEIN
+    - 2EC3IN
+  : 0.913
+  ? - PRICER
+    - 3R2BINV
+  : 0.00001
+  ? - 1BALESN
+    - 1RT1CAP
+  : -0.056667
+  ? - 2BALEID
+    - 2R2LCAP
+  : -0.249
+  ? - PRICER
+    - 1R20CAP
+  : 7.231423
+  ? - 1BALDSL
+    - 1E14SD
+  : -3.5971
+  ? - 1CPTR58
+    - 1R58INV
+  : -1
+  ? - 3BALMAG
+    - 3E22ID
+  : -12.6582
+  ? - 1ESDE51
+    - 1E51SD
+  : 1
+  ? - 2BALEWN
+    - 2E23WD
+  : 0.4565
+  ? - 1ESDE14
+    - 1E14SD
+  : 1
+  ? - PRICER
+    - 2EC3SD
+  : 4.211314
+  ? - 3BALEWN
+    - 3R51CAP
+  : -0.072222
+  ? - 2BALDSL
+    - 2EC2ID
+  : -0.054545
+  ? - 1CPTR2D
+    - 1R2DCAP
+  : 1
+  ? - 2UTLE22
+    - 2E22SM
+  : 1
+  ? - 3BALMAG
+    - 3S44CAP
+  : 0.744
+  ? - 1BASW
+    - 1EC2WN
+  : -0.77605
+  ? - 1BALEID
+    - 1EP1ID
+  : 0.913
+  ? - 3RAT007
+    - 3R28CAP
+  : 0.317
+  ? - 2CPTR21
+    - 2R21INV
+  : -1
+  ? - PRICER
+    - 1IJ7CAP
+  : 39.002
+  ? - 2BALHCO
+    - 2EC1IN
+  : -3.637
+  ? - PRICER
+    - 3EC2WN
+  : 2.489097
+  ? - PRICER
+    - 2R23INV
+  : 30.210815
+  ? - 3BALDSH
+    - 3EP1IN
+  : -3.3333
+  ? - 2BALESD
+    - 2R2ACAP
+  : -0.085
+  ? - 1BALHCO
+    - 1S06ACT
+  : -1
+  ? - 3ESNE14
+    - 3E14SN
+  : 1
+  ? - PRICER
+    - 3E22SD
+  : 1.009503
+  ? - 3BALCOK
+    - 3S09ACT
+  : 0.64
+  ? - 2BASW
+    - 2E22WD
+  : 0.068475
+  ? - PRICER
+    - 2R5HCAP
+  : 64.00191
+  ? - 1RAT005
+    - 1R23CAP
+  : 0.311
+  ? - 1CPTR2L
+    - 1R2LCAP
+  : 1
+  ? - PRICER
+    - 1RT8INV
+  : 54.491653
+  ? - 1BALEID
+    - 1IIYCAP
+  : -0.046375
+  ? - 2BALEWN
+    - 2R2ACAP
+  : -0.03625
+  ? - 1RAT011
+    - 1S7ACAP
+  : 2.66
+  ? - 2EINEC3
+    - 2EC3CAP
+  : -1.480163
+  ? - 1ESNEC3
+    - 1EC3CAP
+  : -3.594682
+  ? - PRICER
+    - 1EC3CAP
+  : 114.66972
+  ? - 2BASW
+    - 2EC3WN
+  : -0.77605
+  ? - PRICER
+    - 3S01ACT
+  : 1.817107
+  ? - 2EWDE35
+    - 2E35WD
+  : 1
+  ? - 3BALEIN
+    - 3R2ACAP
+  : -0.025833
+  ? - 2BALUDP
+    - 3STKUDP1
+  : -1
+  ? - 1EINEC3
+    - 1EC3CAP
+  : -1.480163
+  ? - 3BALEWN
+    - 3RT1CAP
+  : -0.096667
+  ? - 2BALEIN
+    - 2RT1CAP
+  : -0.068889
+  ? - 2BALGAS
+    - 2S08ACT
+  : 0.152
+  ? - 3CPTR58
+    - 3R58INV
+  : -1
+  ? - 3CPTRT1
+    - 2RT1INV
+  : -1
+  ? - 1CPTR21
+    - 1R21CAP
+  : 1
+  ? - 3EINE35
+    - 3E35IN
+  : 1
+  ? - 2CPTR2L
+    - 1R2LINV
+  : -1
+  ? - 1BALGAS
+    - 1I1YCAP
+  : -0.2186
+  ? - 3BALDSL
+    - 3R23CAP
+  : -1.538461
+  ? - 3EPKWD
+    - 3E23CAP
+  : 24.213669
+  ? - 3BALMAG
+    - 3E22SD
+  : -12.6582
+  ? - 3BALGAS
+    - 3RTBCAP
+  : -0.833333
+  ? - 1EIDEC3
+    - 1EC3CAP
+  : -2.748875
+  ? - 3DEMRT
+    - 3RT3CAP
+  : 1
+  ? - 2BALAGR
+    - 1S46CAP
+  : 0.266
+  ? - 2ESDEC3
+    - 2EC3SD
+  : 1
+  ? - 2BALEWN
+    - 2T80CAP
+  : -0.1
+  ? - 3BALEWN
+    - 3E35WN
+  : 0.913
+  ? - 2RAT001
+    - 2R5HCAP
+  : 1
+  ? - 2CPTIJ8
+    - 1IJ8INV
+  : -1
+  ? - PRICER
+    - 2IMPGAS1
+  : 18.295593
+  ? - 1BALDSL
+    - 1T83CAP
+  : -1
+  ? - 1CPTE23
+    - 1E23INV
+  : -1
+  ? - 3EPKWD
+    - 3I1YCAP
+  : -0.152607
+  ? - 3BALEWN
+    - 3R21CAP
+  : -0.096667
+  ? - 3CPTR27
+    - 3R27CAP
+  : 1
+  ? - PRICER
+    - 3E22INV
+  : 305.3435
+  ? - 3CPTR57
+    - 3R57INV
+  : -1
+  ? - 2BALPLU
+    - 2S4ACAP
+  : -0.05237
+  ? - 3CPTS08
+    - 3S08CAP
+  : 1
+  ? - 1ESNEC2
+    - 1EC2CAP
+  : -4.721376
+  ? - PRICER
+    - 1EP1ID
+  : 22.382751
+  ? - 3CPTEC3
+    - 3EC3CAP
+  : 1
+  ? - 1BALEIN
+    - 1TXYCAP
+  : -0.001456
+  ? - 1EPKSD
+    - 1EC3CAP
+  : 24.213669
+  ? - 3BALEWN
+    - 3EC2WN
+  : 0.913
+  ? - PRICER
+    - 2EP1SN
+  : 16.725754
+  ? - 3BALGAS
+    - 3RT7CAP
+  : -1.538461
+  ? - 3BALDSR
+    - 3S72CAP
+  : -1
+  ? - 1ESNE14
+    - 1E14SN
+  : 1
+  ? - 2BALURN
+    - 2IMPURN1
+  : 1
+  ? - 1EPKWD
+    - 1IIYCAP
+  : -0.393579
+  ? - 3EWNE14
+    - 3E14CAP
+  : -2.998198
+  ? - PRICER
+    - 3EXPOIL1
+  : -17.248093
+  ? - 3DEMR2
+    - 3R2DCAP
+  : 1
+  ? - PRICER
+    - 3S46CAP
+  : 0.346116
+  ? - 3RAT007
+    - 3R58CAP
+  : -1
+  ? - 3CPTRT7
+    - 2RT7INV
+  : -1
+  ? - 2EPKSD
+    - 2E14CAP
+  : 24.213669
+  ? - 2EWDEP1
+    - 2EP1CAP
+  : -2.714158
+  ? - 1ESDE31
+    - 1E31CAP
+  : -2.442742
+  ? - 3CPTS06
+    - 3S06INV
+  : -1
+  ? - 2CPTRT7
+    - 2RT7CAP
+  : 1
+  ? - 2DEMTX
+    - 2TXYCAP
+  : 1
+  ? - 3EWNEC2
+    - 3EC2WN
+  : 1
+  ? - 3CPTEP1
+    - 3EP1CAP
+  : 1
+  ? - 3EWDE35
+    - 3E35WD
+  : 1
+  ? - 2UTLEC2
+    - 2EC2SM
+  : 1
+  ? - 3BALEWN
+    - 3IIYCAP
+  : -0.03024
+  ? - 3EPKWD
+    - 3TXYCAP
+  : -0.0189
+  ? - 2EWNEC3
+    - 2EC3WN
+  : 1
+  ? - 3UTLE22
+    - 3E22CAP
+  : -6.311683
+  ? - 1BALESN
+    - 1IIYCAP
+  : -0.036612
+  ? - PRICER
+    - 3R5MINV
+  : 4.146439
+  ? - 3RAT003
+    - 3R5HCAP
+  : 1
+  ? - 1BALESD
+    - 1TXYCAP
+  : -0.008944
+  ? - 2EINEC1
+    - 2EC1IN
+  : 1
+  ? - 3EWDEP1
+    - 3EP1WD
+  : 1
+  ? - 3BALDSL
+    - 3E14WD
+  : -3.5971
+  ? - 1ESNEC3
+    - 1EC3SN
+  : 1
+  ? - 2BALDSL
+    - 2RDYCAP
+  : -0.282779
+  ? - 3CPTE60
+    - 3E60INV
+  : -1
+  ? - 2BALEID
+    - 2IIYCAP
+  : -0.046527
+  ? - 3BALEID
+    - 3MINHCO1
+  : -0.000857
+  ? - PRICER
+    - 2EP1IN
+  : 16.725754
+  ? - 2BALEWN
+    - 2RDYCAP
+  : -0.083084
+  ? - 2DEMIJ
+    - 2IJ8CAP
+  : 1
+  ? - 1ESNEC2
+    - 1EC2SN
+  : 1
+  ? - 2CPTR28
+    - 1R28INV
+  : -1
+  ? - PRICER
+    - 3EC1CAP
+  : 161.5207
+  ? - 2EINEC2
+    - 2EC2CAP
+  : -1.944096
+  ? - 3CPTRT3
+    - 3RT3INV
+  : -1
+  ? - 1ESDEC1
+    - 1EC1SM
+  : 0.716667
+  ? - 2EIDEC2
+    - 2EC2IM
+  : 0.65
+rhs:
+  REST:
+    2CPTR50: 2
+    1CPTE23: 2
+    3DEMTX: 358.9
+    1DEMT8: 1161.7998
+    3CPTR57: 40
+    3CPTR50: 1
+    2CPTR51: 32
+    3CPTEP1: 7.765
+    1CPTE51: 1
+    3DEMR5: 264.82983
+    2CPTRT0: 15
+    1CPTR51: 65.64
+    2CPTS06: 229
+    2CPTRT8: 8
+    3CPTE51: 1
+    3CPTRT7: 19
+    3CPTR58: 6.5
+    1DEMTX: 327.7
+    2CPTE22: 3.727
+    2BNDEP1L: 24.25
+    1CPTRT7: 76.63
+    1CPTIJ7: 126.78
+    1DEMRT: 277.59985
+    2DEMII: 827.68994
+    2CPTR20: 20
+    1CPTR28: 52.4
+    2CPTIJ6: 150
+    1CPTRT8: 16.63
+    2CPTRT7: 38
+    2DEMT8: 1200
+    2CPTS23: 582
+    2CPTIJ7: 70
+    2CPTS21: 3270
+    1CPTS06: 555
+    3CPTRT3: 21
+    2DEMI1: 328.21997
+    2CPTR21: 12
+    1CPTRT0: 30.689987
+    1CPTRT3: 85.93
+    2CPTR27: 118
+    3DEMNY: 634.9199
+    1DEMRD: 417.99
+    1DEMNY: 616.07983
+    2DEMTX: 338.5
+    1CPTR53: 34.01999
+    1CPTR21: 24.79
+    1CPTIJ6: 248.21
+    1CPTEP1: 12.355
+    3CPTS21: 2453
+    1CPTR50: 4
+    3CPTRT0: 7.5
+    3DEMII: 855.2698
+    1DEMI1: 332.82983
+    2CPTS28: 356
+    2DEMRD: 413.7998
+    3DEMIJ: 376.82983
+    3CPTS23: 437
+    2CPTIJ8: 30
+    3CPTE14: 2.838
+    3GRCE35: 0.01
+    2CPTR57: 80
+    1CPTE31: 1.686
+    2DEMRT: 268.7
+    3DEMRD: 418.57983
+    1CPTS28: 445
+    3CPTIJ6: 50
+    3DEMI1: 291.68994
+    3CPTE22: 2.906
+    3DEMRT: 264.7998
+    3CPTS06: 153
+    1CPTR58: 26.34
+    2CPTRT3: 43
+    2CPTR28: 26
+    2CPTE14: 2.838
+    3CPTS28: 267
+    2CPTR23: 22
+    2CPTE31: 1.686
+    1DEMIJ: 436.18994
+    1CPTE22: 3.727
+    3CPTR20: 10
+    1CPTIJ8: 61.21
+    1DEMII: 826.95996
+    3CPTRT8: 4
+    1CPTS21: 4088
+    1DEMR5: 287.72998
+    1BNDEP1L: 64.65999
+    3CPTE31: 1.686
+    1CPTRT1: 61.37
+    3CPTRT1: 15
+    2DEMNY: 626.84985
+    3DEMR2: 576.83984
+    3CPTR28: 13
+    3CPTR51: 16
+    1CPTR27: 235.17
+    3CPTR27: 59
+    2CPTRT1: 30
+    1DEMR2: 617.73
+    2DEMIJ: 397.09985
+    2DEMR2: 606.09985
+    3CPTR23: 11
+    3DEMT8: 1201.5999
+    1CPTR23: 43.24
+    1CPTR20: 38.95
+    3CPTR21: 6
+    3CPTE23: 2
+    3CPTR53: 8.5
+    2CPTE51: 1
+    2CPTEP1: 8.303
+    1CPTS23: 728
+    1CPTE14: 3.487
+    2CPTR53: 17
+    2CPTR58: 13
+    1CPTR57: 157.73
+    2CPTE23: 2
+    3CPTIJ7: 30
+    2DEMR5: 277.1399
+bounds:
+  BNDSET1:
+    ? - 3E60INV
+      - Up
+    : 0.0001
+    ? - 1IJ7CAP
+      - Lo
+    : 126.78
+    ? - 2RT1CAP
+      - Lo
+    : 30
+    ? - 1E31CAP
+      - Up
+    : 1.686
+    ? - 3IJ6CAP
+      - Lo
+    : 50
+    ? - 1R57CAP
+      - Fx
+    : 157.73
+    ? - 1T80CAP
+      - Fx
+    : 8.32
+    ? - 1E23CAP
+      - Fx
+    : 2
+    ? - 3R50CAP
+      - Lo
+    : 1
+    ? - 3T8FCAP
+      - Fx
+    : 702.6299
+    ? - 1EXPGAS1
+      - Up
+    : 0.1
+    ? - 1RT7CAP
+      - Fx
+    : 76.63
+    ? - 3R21CAP
+      - Lo
+    : 6
+    ? - 1S7ACAP
+      - Fx
+    : 3640
+    ? - 1IJ6CAP
+      - Lo
+    : 248.21
+    ? - 1R23CAP
+      - Lo
+    : 43.24
+    ? - 3RT8CAP
+      - Lo
+    : 4
+    ? - 2RT0CAP
+      - Lo
+    : 15
+    ? - 1S06CAP
+      - Fx
+    : 555
+    ? - 3R28CAP
+      - Lo
+    : 13
+    ? - 2R5ACAP
+      - Up
+    : 0.09
+    ? - 2S79CAP
+      - Up
+    : 1840
+    ? - 3E51CAP
+      - Up
+    : 1.301
+    ? - 3EXPGAS1
+      - Up
+    : 0.1
+    ? - 3R20CAP
+      - Lo
+    : 10
+    ? - 2R53CAP
+      - Lo
+    : 17
+    ? - 3S80INV
+      - Up
+    : 0.001
+    ? - 3EXPDSL1
+      - Fx
+    : 17
+    ? - 3R58CAP
+      - Lo
+    : 6.5
+    ? - 1S08CAP
+      - Up
+    : 115
+    ? - 2T8FCAP
+      - Fx
+    : 728.6299
+    ? - 3E23CAP
+      - Fx
+    : 7.592
+    ? - 1E22CAP
+      - Fx
+    : 3.727
+    ? - 1RT0CAP
+      - Fx
+    : 30.689987
+    ? - 3S08CAP
+      - Up
+    : 458
+    ? - 2E35INV
+      - Up
+    : 0.0001
+    ? - 2R20CAP
+      - Lo
+    : 20
+    ? - 3R27CAP
+      - Lo
+    : 59
+    ? - 1STKLMS1
+      - Up
+    : 0.0001
+    ? - 1EC2CAP
+      - Fx
+    : 35.288
+    ? - 3R57CAP
+      - Lo
+    : 40
+    ? - 2E23CAP
+      - Fx
+    : 5.112
+    ? - 1STKUDP1
+      - Up
+    : 0.1
+    ? - 3EC2CAP
+      - Fx
+    : 33.635986
+    ? - 1RT1CAP
+      - Fx
+    : 61.37
+    ? - 3EXPDSH1
+      - Fx
+    : 61
+    ? - 1R50CAP
+      - Fx
+    : 4
+    ? - 1S79CAP
+      - Fx
+    : 1457
+    ? - 1R20CAP
+      - Lo
+    : 38.95
+    ? - 2IJ8CAP
+      - Lo
+    : 30
+    ? - 1E51CAP
+      - Fx
+    : 1.3
+    ? - 2R50CAP
+      - Lo
+    : 2
+    ? - 2S7ACAP
+      - Up
+    : 4967
+    ? - 3EC1CAP
+      - Fx
+    : 0.622
+    ? - 1R27CAP
+      - Lo
+    : 235.17
+    ? - 2R58CAP
+      - Lo
+    : 13
+    ? - 2EXPDSH1
+      - Fx
+    : 61
+    ? - 1STKGAK1
+      - Up
+    : 12058
+    ? - 2E31CAP
+      - Up
+    : 1.686
+    ? - 3E35CAP
+      - Up
+    : 1
+    ? - 2MINHCO1
+      - Up
+    : 3084.0999
+    ? - 3E22CAP
+      - Fx
+    : 2.906
+    ? - 1R2YCAP
+      - Fx
+    : 223.18
+    ? - 3S79CAP
+      - Up
+    : 2060
+    ? - 3RT0CAP
+      - Lo
+    : 7.5
+    ? - 2R27CAP
+      - Lo
+    : 118
+    ? - 1RT8CAP
+      - Fx
+    : 16.63
+    ? - 2E14CAP
+      - Lo
+    : 3.109
+    ? - 3RT1CAP
+      - Lo
+    : 15
+    ? - 2IJ6CAP
+      - Lo
+    : 150
+    ? - 1T8FCAP
+      - Fx
+    : 754.6299
+    ? - 2S06CAP
+      - Fx
+    : 229
+    ? - 2RT8CAP
+      - Lo
+    : 8
+    ? - 3R5ACAP
+      - Up
+    : 0.18
+    ? - 2EP1CAP
+      - Fx
+    : 14.817
+    ? - 1STKPLU1
+      - Up
+    : 1.5
+    ? - 1STKURN1
+      - Up
+    : 0.1
+    ? - 2EXPDSL1
+      - Fx
+    : 17
+    ? - 2R23CAP
+      - Lo
+    : 22
+    ? - 2E22CAP
+      - Fx
+    : 3.727
+    ? - 3RT7CAP
+      - Lo
+    : 19
+    ? - 1R28CAP
+      - Lo
+    : 52.4
+    ? - 3E31CAP
+      - Up
+    : 1.686
+    ? - 1STKOIK1
+      - Up
+    : 28940
+    ? - 3S7ACAP
+      - Up
+    : 4290
+    ? - 1EC1CAP
+      - Fx
+    : 9.536
+    ? - 3RTYCAP
+      - Fx
+    : 4.2
+    ? - 3E60CAP
+      - Up
+    : 3
+    ? - 2R57CAP
+      - Lo
+    : 80
+    ? - 2R28CAP
+      - Lo
+    : 26
+    ? - 2RT7CAP
+      - Lo
+    : 38
+    ? - 1IJ8CAP
+      - Lo
+    : 61.21
+    ? - 1EP1CAP
+      - Fx
+    : 12.355
+    ? - 1EXPDSH1
+      - Fx
+    : 91
+    ? - 2R2ACAP
+      - Up
+    : 0.29
+    ? - 2S08CAP
+      - Up
+    : 384
+    ? - 2EXPGAS1
+      - Up
+    : 0.1
+    ? - 1EXPDSL1
+      - Fx
+    : 23
+    ? - 2IJ7CAP
+      - Lo
+    : 70
+    ? - 1R58CAP
+      - Fx
+    : 26.34
+    ? - 3R53CAP
+      - Lo
+    : 8.5
+    ? - 1STKAGS1
+      - Up
+    : 0.0001
+    ? - 2EC1CAP
+      - Fx
+    : 4.392
+    ? - 2E35CAP
+      - Up
+    : 0.005
+    ? - 1MINHCO1
+      - Fx
+    : 3084.0999
+    ? - 3R2YCAP
+      - Fx
+    : 205.62
+    ? - 3EC3CAP
+      - Lo
+    : 1.875
+    ? - 3R23CAP
+      - Lo
+    : 11
+    ? - 3MINHCO1
+      - Up
+    : 3039
+    ? - 3E94INV
+      - Up
+    : 0.0001
+    ? - 3E35INV
+      - Up
+    : 0.0001
+    ? - 3IJ7CAP
+      - Lo
+    : 30
+    ? - 1R53CAP
+      - Fx
+    : 34.01999
+    ? - 3S06CAP
+      - Fx
+    : 153
+    ? - 1RTYCAP
+      - Fx
+    : 6.3
+    ? - 2RTYCAP
+      - Fx
+    : 4.9
+    ? - 2R2YCAP
+      - Fx
+    : 218.49
+    ? - 2R21CAP
+      - Lo
+    : 12
+    ? - 2E51CAP
+      - Up
+    : 1.301
+    ? - 2EC2CAP
+      - Fx
+    : 34.874
+    ? - 1R21CAP
+      - Lo
+    : 24.79
+    ? - 3R2ACAP
+      - Up
+    : 0.58
+ranges: {}
+

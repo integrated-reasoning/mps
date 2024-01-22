@@ -1,0 +1,13195 @@
+---
+source: tests/model.rs
+expression: model
+---
+name: MODSZK1
+row_types:
+  ROW0141: Eq
+  ROW0540: Eq
+  ROW0284: Eq
+  ROW0436: Eq
+  ROW0632: Eq
+  ROW0018: Eq
+  ROW0405: Eq
+  ROW0139: Eq
+  ROW0431: Eq
+  ROW0501: Eq
+  ROW0419: Eq
+  ROW0329: Eq
+  ROW0299: Eq
+  ROW0402: Eq
+  ROW0548: Eq
+  ROW0283: Eq
+  ROW0145: Eq
+  ROW0513: Eq
+  ROW0219: Eq
+  ROW0528: Eq
+  ROW0175: Eq
+  ROW0391: Eq
+  ROW0418: Eq
+  ROW0593: Eq
+  ROW0320: Eq
+  ROW0576: Eq
+  ROW0537: Eq
+  ROW0485: Eq
+  ROW0571: Eq
+  ROW0204: Eq
+  ROW0035: Eq
+  ROW0531: Eq
+  ROW0640: Eq
+  ROW0037: Eq
+  ROW0047: Eq
+  ROW0004: Eq
+  ROW0166: Eq
+  ROW0421: Eq
+  ROW0578: Eq
+  ROW0202: Eq
+  ROW0535: Eq
+  ROW0491: Eq
+  ROW0060: Eq
+  ROW0085: Eq
+  ROW0107: Eq
+  ROW0136: Eq
+  ROW0315: Eq
+  ROW0231: Eq
+  ROW0143: Eq
+  ROW0451: Eq
+  ROW0581: Eq
+  ROW0661: Eq
+  ROW0238: Eq
+  ROW0132: Eq
+  ROW0290: Eq
+  ROW0137: Eq
+  ROW0256: Eq
+  ROW0498: Eq
+  ROW0038: Eq
+  ROW0178: Eq
+  ROW0641: Eq
+  ROW0158: Eq
+  ROW0515: Eq
+  ROW0480: Eq
+  ROW0073: Eq
+  ROW0339: Eq
+  ROW0575: Eq
+  ROW0514: Eq
+  ROW0006: Eq
+  ROW0230: Eq
+  ROW0118: Eq
+  ROW0549: Eq
+  ROW0688: Eq
+  ROW0331: Eq
+  ROW0546: Eq
+  ROW0438: Eq
+  ROW0068: Eq
+  ROW0382: Eq
+  ROW0388: Eq
+  ROW0124: Eq
+  ROW0353: Eq
+  ROW0227: Eq
+  ROW0214: Eq
+  ROW0134: Eq
+  ROW0585: Eq
+  ROW0041: Eq
+  ROW0023: Eq
+  ROW0030: Eq
+  ROW0543: Eq
+  ROW0568: Eq
+  ROW0265: Eq
+  ROW0020: Eq
+  ROW0524: Eq
+  ROW0670: Eq
+  ROW0209: Eq
+  ROW0462: Eq
+  ROW0676: Eq
+  ROW0403: Eq
+  ROW0551: Eq
+  ROW0278: Eq
+  ROW0192: Eq
+  ROW0357: Eq
+  ROW0425: Eq
+  ROW0091: Eq
+  ROW0464: Eq
+  ROW0562: Eq
+  ROW0648: Eq
+  ROW0303: Eq
+  ROW0452: Eq
+  ROW0106: Eq
+  ROW0541: Eq
+  ROW0271: Eq
+  ROW0336: Eq
+  ROW0305: Eq
+  ROW0254: Eq
+  ROW0679: Eq
+  ROW0264: Eq
+  ROW0266: Eq
+  ROW0621: Eq
+  ROW0364: Eq
+  ROW0360: Eq
+  ROW0550: Eq
+  ROW0369: Eq
+  ROW0559: Eq
+  ROW0306: Eq
+  ROW0252: Eq
+  ROW0022: Eq
+  ROW0507: Eq
+  ROW0620: Eq
+  ROW0066: Eq
+  ROW0186: Eq
+  ROW0268: Eq
+  ROW0058: Eq
+  ROW0119: Eq
+  ROW0636: Eq
+  ROW0115: Eq
+  ROW0441: Eq
+  ROW0221: Eq
+  ROW0163: Eq
+  ROW0472: Eq
+  ROW0415: Eq
+  ROW0534: Eq
+  ROW0624: Eq
+  ROW0634: Eq
+  ROW0210: Eq
+  ROW0375: Eq
+  ROW0067: Eq
+  ROW0251: Eq
+  ROW0422: Eq
+  ROW0497: Eq
+  ROW0503: Eq
+  ROW0490: Eq
+  ROW0448: Eq
+  ROW0228: Eq
+  ROW0598: Eq
+  ROW0326: Eq
+  ROW0302: Eq
+  ROW0307: Eq
+  ROW0312: Eq
+  ROW0080: Eq
+  ROW0188: Eq
+  ROW0646: Eq
+  ROW0129: Eq
+  ROW0389: Eq
+  ROW0361: Eq
+  ROW0658: Eq
+  ROW0056: Eq
+  ROW0108: Eq
+  ROW0070: Eq
+  ROW0468: Eq
+  ROW0508: Eq
+  ROW0470: Eq
+  ROW0279: Eq
+  ROW0665: Eq
+  ROW0147: Eq
+  ROW0678: Eq
+  ROW0071: Eq
+  ROW0351: Eq
+  ROW0087: Eq
+  ROW0627: Eq
+  ROW0350: Eq
+  ROW0486: Eq
+  ROW0529: Eq
+  ROW0314: Eq
+  ROW0647: Eq
+  ROW0152: Eq
+  ROW0338: Eq
+  ROW0352: Eq
+  ROW0401: Eq
+  ROW0605: Eq
+  ROW0599: Eq
+  ROW0052: Eq
+  ROW0460: Eq
+  ROW0643: Eq
+  ROW0114: Eq
+  ROW0243: Eq
+  ROW0617: Eq
+  ROW0282: Eq
+  ROW0259: Eq
+  ROW0374: Eq
+  ROW0261: Eq
+  ROW0432: Eq
+  ROW0603: Eq
+  ROW0034: Eq
+  ROW0667: Eq
+  ROW0330: Eq
+  ROW0413: Eq
+  ROW0561: Eq
+  ROW0138: Eq
+  ROW0582: Eq
+  ROW0235: Eq
+  ROW0309: Eq
+  ROW0601: Eq
+  ROW0161: Eq
+  ROW0237: Eq
+  ROW0311: Eq
+  ROW0332: Eq
+  ROW0008: Eq
+  ROW0456: Eq
+  ROW0355: Eq
+  ROW0609: Eq
+  ROW0015: Eq
+  ROW0249: Eq
+  ROW0177: Eq
+  ROW0160: Eq
+  ROW0427: Eq
+  ROW0645: Eq
+  ROW0455: Eq
+  ROW0226: Eq
+  ROW0287: Eq
+  ROW0026: Eq
+  ROW0105: Eq
+  ROW0063: Eq
+  ROW0293: Eq
+  ROW0310: Eq
+  ROW0469: Eq
+  ROW0504: Eq
+  ROW0012: Eq
+  ROW0267: Eq
+  ROW0180: Eq
+  ROW0317: Eq
+  ROW0154: Eq
+  ROW0487: Eq
+  ROW0521: Eq
+  ROW0626: Eq
+  ROW0116: Eq
+  ROW0630: Eq
+  ROW0212: Eq
+  ROW0286: Eq
+  ROW0668: Eq
+  ROW0077: Eq
+  ROW0686: Eq
+  ROW0373: Eq
+  ROW0167: Eq
+  ROW0013: Eq
+  ROW0170: Eq
+  ROW0232: Eq
+  ROW0619: Eq
+  ROW0675: Eq
+  ROW0029: Eq
+  ROW0128: Eq
+  ROW0215: Eq
+  ROW0538: Eq
+  ROW0016: Eq
+  ROW0300: Eq
+  ROW0494: Eq
+  ROW0182: Eq
+  ROW0666: Eq
+  ROW0340: Eq
+  ROW0356: Eq
+  ROW0370: Eq
+  ROW0394: Eq
+  ROW0385: Eq
+  ROW0565: Eq
+  ROW0408: Eq
+  ROW0140: Eq
+  ROW0241: Eq
+  ROW0393: Eq
+  ROW0171: Eq
+  ROW0298: Eq
+  ROW0379: Eq
+  ROW0466: Eq
+  ROW0589: Eq
+  ROW0564: Eq
+  ROW0473: Eq
+  ROW0260: Eq
+  ROW0269: Eq
+  ROW0308: Eq
+  ROW0673: Eq
+  ROW0342: Eq
+  ROW0358: Eq
+  ROW0216: Eq
+  ROW0615: Eq
+  ROW0211: Eq
+  ROW0257: Eq
+  ROW0392: Eq
+  ROW0183: Eq
+  ROW0484: Eq
+  OBJ.FUNC: Nr
+  ROW0109: Eq
+  ROW0655: Eq
+  ROW0321: Eq
+  ROW0334: Eq
+  ROW0270: Eq
+  ROW0628: Eq
+  ROW0343: Eq
+  ROW0247: Eq
+  ROW0121: Eq
+  ROW0181: Eq
+  ROW0420: Eq
+  ROW0322: Eq
+  ROW0453: Eq
+  ROW0240: Eq
+  ROW0570: Eq
+  ROW0536: Eq
+  ROW0631: Eq
+  ROW0011: Eq
+  ROW0560: Eq
+  ROW0442: Eq
+  ROW0017: Eq
+  ROW0198: Eq
+  ROW0301: Eq
+  ROW0323: Eq
+  ROW0493: Eq
+  ROW0610: Eq
+  ROW0387: Eq
+  ROW0396: Eq
+  ROW0642: Eq
+  ROW0084: Eq
+  ROW0410: Eq
+  ROW0417: Eq
+  ROW0482: Eq
+  ROW0499: Eq
+  ROW0009: Eq
+  ROW0218: Eq
+  ROW0164: Eq
+  ROW0443: Eq
+  ROW0395: Eq
+  ROW0465: Eq
+  ROW0149: Eq
+  ROW0185: Eq
+  ROW0333: Eq
+  ROW0349: Eq
+  ROW0253: Eq
+  ROW0196: Eq
+  ROW0463: Eq
+  ROW0173: Eq
+  ROW0157: Eq
+  ROW0203: Eq
+  ROW0397: Eq
+  ROW0168: Eq
+  ROW0245: Eq
+  ROW0510: Eq
+  ROW0526: Eq
+  ROW0586: Eq
+  ROW0520: Eq
+  ROW0014: Eq
+  ROW0089: Eq
+  ROW0527: Eq
+  ROW0590: Eq
+  ROW0446: Eq
+  ROW0111: Eq
+  ROW0606: Eq
+  ROW0036: Eq
+  ROW0625: Eq
+  ROW0449: Eq
+  ROW0511: Eq
+  ROW0454: Eq
+  ROW0250: Eq
+  ROW0246: Eq
+  ROW0414: Eq
+  ROW0021: Eq
+  ROW0069: Eq
+  ROW0383: Eq
+  ROW0435: Eq
+  ROW0223: Eq
+  ROW0384: Eq
+  ROW0596: Eq
+  ROW0274: Eq
+  ROW0539: Eq
+  ROW0663: Eq
+  ROW0225: Eq
+  ROW0078: Eq
+  ROW0190: Eq
+  ROW0530: Eq
+  ROW0644: Eq
+  ROW0255: Eq
+  ROW0337: Eq
+  ROW0224: Eq
+  ROW0263: Eq
+  ROW0281: Eq
+  ROW0612: Eq
+  ROW0135: Eq
+  ROW0003: Eq
+  ROW0354: Eq
+  ROW0407: Eq
+  ROW0423: Eq
+  ROW0502: Eq
+  ROW0622: Eq
+  ROW0506: Eq
+  ROW0348: Eq
+  ROW0025: Eq
+  ROW0614: Eq
+  ROW0104: Eq
+  ROW0613: Eq
+  ROW0552: Eq
+  ROW0400: Eq
+  ROW0200: Eq
+  ROW0110: Eq
+  ROW0583: Eq
+  ROW0444: Eq
+  ROW0051: Eq
+  ROW0558: Eq
+  ROW0390: Eq
+  ROW0522: Eq
+  ROW0516: Eq
+  ROW0574: Eq
+  ROW0580: Eq
+  ROW0294: Eq
+  ROW0591: Eq
+  ROW0043: Eq
+  ROW0639: Eq
+  ROW0660: Eq
+  ROW0174: Eq
+  ROW0366: Eq
+  ROW0616: Eq
+  ROW0010: Eq
+  ROW0439: Eq
+  ROW0602: Eq
+  ROW0604: Eq
+  ROW0635: Eq
+  ROW0019: Eq
+  ROW0313: Eq
+  ROW0285: Eq
+  ROW0483: Eq
+  ROW0478: Eq
+  ROW0517: Eq
+  ROW0553: Eq
+  ROW0447: Eq
+  ROW0409: Eq
+  ROW0207: Eq
+  ROW0191: Eq
+  ROW0430: Eq
+  ROW0099: Eq
+  ROW0650: Eq
+  ROW0042: Eq
+  ROW0512: Eq
+  ROW0131: Eq
+  ROW0045: Eq
+  ROW0555: Eq
+  ROW0557: Eq
+  ROW0450: Eq
+  ROW0542: Eq
+  ROW0563: Eq
+  ROW0687: Eq
+  ROW0566: Eq
+  ROW0130: Eq
+  ROW0424: Eq
+  ROW0445: Eq
+  ROW0076: Eq
+  ROW0398: Eq
+  ROW0654: Eq
+  ROW0275: Eq
+  ROW0594: Eq
+  ROW0297: Eq
+  ROW0368: Eq
+  ROW0496: Eq
+  ROW0584: Eq
+  ROW0187: Eq
+  ROW0098: Eq
+  ROW0002: Eq
+  ROW0117: Eq
+  ROW0674: Eq
+  ROW0681: Eq
+  ROW0677: Eq
+  ROW0205: Eq
+  ROW0194: Eq
+  ROW0007: Eq
+  ROW0371: Eq
+  ROW0404: Eq
+  ROW0206: Eq
+  ROW0608: Eq
+  ROW0072: Eq
+  ROW0345: Eq
+  ROW0672: Eq
+  ROW0189: Eq
+  ROW0659: Eq
+  ROW0061: Eq
+  ROW0165: Eq
+  ROW0081: Eq
+  ROW0500: Eq
+  ROW0059: Eq
+  ROW0600: Eq
+  ROW0406: Eq
+  ROW0618: Eq
+  ROW0258: Eq
+  ROW0669: Eq
+  ROW0092: Eq
+  ROW0062: Eq
+  ROW0065: Eq
+  ROW0103: Eq
+  ROW0587: Eq
+  ROW0155: Eq
+  ROW0479: Eq
+  ROW0151: Eq
+  ROW0048: Eq
+  ROW0236: Eq
+  ROW0544: Eq
+  ROW0169: Eq
+  ROW0533: Eq
+  ROW0652: Eq
+  ROW0201: Eq
+  ROW0126: Eq
+  ROW0142: Eq
+  ROW0156: Eq
+  ROW0276: Eq
+  ROW0569: Eq
+  ROW0242: Eq
+  ROW0318: Eq
+  ROW0090: Eq
+  ROW0093: Eq
+  ROW0162: Eq
+  ROW0262: Eq
+  ROW0651: Eq
+  ROW0595: Eq
+  ROW0220: Eq
+  ROW0197: Eq
+  ROW0122: Eq
+  ROW0577: Eq
+  ROW0649: Eq
+  ROW0032: Eq
+  ROW0028: Eq
+  ROW0082: Eq
+  ROW0434: Eq
+  ROW0347: Eq
+  ROW0064: Eq
+  ROW0457: Eq
+  ROW0573: Eq
+  ROW0629: Eq
+  ROW0684: Eq
+  ROW0248: Eq
+  ROW0683: Eq
+  ROW0244: Eq
+  ROW0572: Eq
+  ROW0050: Eq
+  ROW0044: Eq
+  ROW0100: Eq
+  ROW0554: Eq
+  ROW0005: Eq
+  ROW0159: Eq
+  ROW0657: Eq
+  ROW0377: Eq
+  ROW0179: Eq
+  ROW0556: Eq
+  ROW0222: Eq
+  ROW0341: Eq
+  ROW0054: Eq
+  ROW0327: Eq
+  ROW0024: Eq
+  ROW0344: Eq
+  ROW0662: Eq
+  ROW0637: Eq
+  ROW0277: Eq
+  ROW0633: Eq
+  ROW0280: Eq
+  ROW0296: Eq
+  ROW0088: Eq
+  ROW0378: Eq
+  ROW0525: Eq
+  ROW0607: Eq
+  ROW0289: Eq
+  ROW0412: Eq
+  ROW0386: Eq
+  ROW0272: Eq
+  ROW0437: Eq
+  ROW0208: Eq
+  ROW0475: Eq
+  ROW0399: Eq
+  ROW0362: Eq
+  ROW0359: Eq
+  ROW0083: Eq
+  ROW0411: Eq
+  ROW0429: Eq
+  ROW0467: Eq
+  ROW0509: Eq
+  ROW0095: Eq
+  ROW0518: Eq
+  ROW0547: Eq
+  ROW0146: Eq
+  ROW0040: Eq
+  ROW0193: Eq
+  ROW0195: Eq
+  ROW0428: Eq
+  ROW0031: Eq
+  ROW0471: Eq
+  ROW0623: Eq
+  ROW0096: Eq
+  ROW0638: Eq
+  ROW0033: Eq
+  ROW0335: Eq
+  ROW0199: Eq
+  ROW0213: Eq
+  ROW0324: Eq
+  ROW0477: Eq
+  ROW0505: Eq
+  ROW0123: Eq
+  ROW0588: Eq
+  ROW0125: Eq
+  ROW0325: Eq
+  ROW0055: Eq
+  ROW0367: Eq
+  ROW0474: Eq
+  ROW0664: Eq
+  ROW0049: Eq
+  ROW0363: Eq
+  ROW0288: Eq
+  ROW0057: Eq
+  ROW0239: Eq
+  ROW0097: Eq
+  ROW0229: Eq
+  ROW0433: Eq
+  ROW0039: Eq
+  ROW0074: Eq
+  ROW0365: Eq
+  ROW0611: Eq
+  ROW0316: Eq
+  ROW0426: Eq
+  ROW0656: Eq
+  ROW0476: Eq
+  ROW0597: Eq
+  ROW0304: Eq
+  ROW0053: Eq
+  ROW0172: Eq
+  ROW0184: Eq
+  ROW0671: Eq
+  ROW0380: Eq
+  ROW0046: Eq
+  ROW0319: Eq
+  ROW0682: Eq
+  ROW0372: Eq
+  ROW0461: Eq
+  ROW0685: Eq
+  ROW0376: Eq
+  ROW0440: Eq
+  ROW0150: Eq
+  ROW0545: Eq
+  ROW0153: Eq
+  ROW0567: Eq
+  ROW0075: Eq
+  ROW0381: Eq
+  ROW0233: Eq
+  ROW0086: Eq
+  ROW0120: Eq
+  ROW0579: Eq
+  ROW0027: Eq
+  ROW0217: Eq
+  ROW0148: Eq
+  ROW0291: Eq
+  ROW0459: Eq
+  ROW0113: Eq
+  ROW0488: Eq
+  ROW0532: Eq
+  ROW0653: Eq
+  ROW0079: Eq
+  ROW0295: Eq
+  ROW0492: Eq
+  ROW0144: Eq
+  ROW0489: Eq
+  ROW0680: Eq
+  ROW0481: Eq
+  ROW0523: Eq
+  ROW0176: Eq
+  ROW0133: Eq
+  ROW0094: Eq
+  ROW0458: Eq
+  ROW0328: Eq
+  ROW0112: Eq
+  ROW0127: Eq
+  ROW0495: Eq
+  ROW0592: Eq
+  ROW0234: Eq
+  ROW0273: Eq
+  ROW0519: Eq
+  ROW0416: Eq
+  ROW0101: Eq
+  ROW0292: Eq
+  ROW0346: Eq
+  ROW0102: Eq
+values:
+  ? - ROW0370
+    - COL0841
+  : -1
+  ? - ROW0637
+    - COL1461
+  : 1
+  ? - ROW0359
+    - COL0753
+  : -0.03363
+  ? - ROW0348
+    - COL0736
+  : 1
+  ? - ROW0412
+    - COL0879
+  : -0.08404
+  ? - ROW0567
+    - COL1305
+  : 1
+  ? - ROW0144
+    - COL0255
+  : -1
+  ? - ROW0204
+    - COL0379
+  : -0.00814
+  ? - ROW0102
+    - COL0134
+  : -1
+  ? - ROW0243
+    - COL0479
+  : 1
+  ? - OBJ.FUNC
+    - COL0984
+  : 0.33834
+  ? - ROW0463
+    - COL1007
+  : 1
+  ? - ROW0646
+    - COL1491
+  : -1
+  ? - ROW0424
+    - COL1219
+  : -0.85514
+  ? - OBJ.FUNC
+    - COL0875
+  : 20.96436
+  ? - ROW0388
+    - COL0816
+  : 0.89196
+  ? - ROW0435
+    - COL0939
+  : -1
+  ? - OBJ.FUNC
+    - COL1258
+  : 97.46589
+  ? - ROW0146
+    - COL0253
+  : 1
+  ? - ROW0267
+    - COL0537
+  : -1
+  ? - ROW0249
+    - COL0496
+  : 1
+  ? - ROW0467
+    - COL1007
+  : -1
+  ? - ROW0119
+    - COL0270
+  : 1
+  ? - OBJ.FUNC
+    - COL0663
+  : 58.34306
+  ? - ROW0180
+    - COL0334
+  : 1
+  ? - ROW0431
+    - COL0940
+  : 1
+  ? - ROW0607
+    - COL1344
+  : -0.00419
+  ? - OBJ.FUNC
+    - COL0355
+  : 32.11716
+  ? - ROW0439
+    - COL0932
+  : -1
+  ? - ROW0145
+    - COL0247
+  : -1
+  ? - ROW0250
+    - COL0500
+  : 1
+  ? - ROW0437
+    - COL0928
+  : 0.11792
+  ? - OBJ.FUNC
+    - COL1265
+  : 56.05381
+  ? - OBJ.FUNC
+    - COL0099
+  : 510.7252
+  ? - ROW0318
+    - COL0665
+  : 1
+  ? - ROW0566
+    - COL1224
+  : -0.03506
+  ? - ROW0095
+    - COL0124
+  : -0.11069
+  ? - ROW0176
+    - COL0294
+  : -1
+  ? - ROW0197
+    - COL0979
+  : 1
+  ? - ROW0663
+    - COL1544
+  : -1
+  ? - ROW0437
+    - COL0985
+  : -1
+  ? - ROW0046
+    - COL0674
+  : -1
+  ? - OBJ.FUNC
+    - COL1084
+  : 6.70601
+  ? - ROW0479
+    - COL1042
+  : 1
+  ? - ROW0341
+    - COL0720
+  : 1
+  ? - OBJ.FUNC
+    - COL0276
+  : 0.51143
+  ? - ROW0141
+    - COL0242
+  : -1.02126
+  ? - ROW0007
+    - COL0471
+  : 1
+  ? - ROW0423
+    - COL0908
+  : -1
+  ? - ROW0049
+    - COL1455
+  : -1
+  ? - ROW0359
+    - COL0767
+  : 1
+  ? - ROW0335
+    - COL0699
+  : -1.04379
+  ? - OBJ.FUNC
+    - COL1546
+  : 80.38585
+  ? - ROW0570
+    - COL1224
+  : -0.01821
+  ? - OBJ.FUNC
+    - COL0142
+  : 53.4931
+  ? - ROW0257
+    - COL0512
+  : -1
+  ? - ROW0032
+    - COL0029
+  : -0.00652
+  ? - ROW0221
+    - COL0445
+  : -1.03324
+  ? - OBJ.FUNC
+    - COL0781
+  : 49.68697
+  ? - ROW0245
+    - COL0485
+  : 1
+  ? - ROW0388
+    - COL0828
+  : -1
+  ? - ROW0406
+    - COL0858
+  : -1
+  ? - ROW0218
+    - COL0380
+  : -1
+  ? - ROW0409
+    - COL0887
+  : -1
+  ? - ROW0081
+    - COL1436
+  : -0.00229
+  ? - ROW0464
+    - COL1011
+  : 1
+  ? - OBJ.FUNC
+    - COL0286
+  : 6.86248
+  ? - OBJ.FUNC
+    - COL1466
+  : 3.94596
+  ? - OBJ.FUNC
+    - COL0912
+  : 395.8828
+  ? - ROW0040
+    - COL1154
+  : -1
+  ? - OBJ.FUNC
+    - COL0835
+  : 297.619
+  ? - OBJ.FUNC
+    - COL1174
+  : 8.41284
+  ? - OBJ.FUNC
+    - COL1571
+  : 33.99048
+  ? - ROW0110
+    - COL0796
+  : 1
+  ? - ROW0481
+    - COL1021
+  : -0.00564
+  ? - ROW0487
+    - COL1061
+  : -1
+  ? - OBJ.FUNC
+    - COL1605
+  : 13.05688
+  ? - ROW0333
+    - COL0726
+  : -0.74221
+  ? - ROW0161
+    - COL0278
+  : -0.00625
+  ? - ROW0031
+    - COL0070
+  : 1
+  ? - ROW0367
+    - COL0787
+  : -1
+  ? - OBJ.FUNC
+    - COL1117
+  : 179.4044
+  ? - ROW0187
+    - COL1575
+  : -0.00369
+  ? - ROW0678
+    - COL1589
+  : 1
+  ? - ROW0459
+    - COL1002
+  : -1
+  ? - ROW0097
+    - COL0124
+  : -0.02722
+  ? - ROW0152
+    - COL0258
+  : -0.00804
+  ? - OBJ.FUNC
+    - COL0424
+  : 9.33358
+  ? - OBJ.FUNC
+    - COL0108
+  : 680.2721
+  ? - ROW0083
+    - COL0375
+  : 1
+  ? - ROW0247
+    - COL0492
+  : -1
+  ? - ROW0047
+    - COL0855
+  : -1
+  ? - ROW0432
+    - COL0942
+  : 1
+  ? - ROW0291
+    - COL0575
+  : -0.09385
+  ? - ROW0545
+    - COL1187
+  : -1.06863
+  ? - OBJ.FUNC
+    - COL1022
+  : 1.65019
+  ? - OBJ.FUNC
+    - COL0304
+  : 41.79903
+  ? - ROW0523
+    - COL1139
+  : 1
+  ? - ROW0234
+    - COL0457
+  : 1
+  ? - OBJ.FUNC
+    - COL1364
+  : 35.48112
+  ? - OBJ.FUNC
+    - COL0144
+  : 99.56193
+  ? - ROW0047
+    - COL1235
+  : -1
+  ? - OBJ.FUNC
+    - COL0975
+  : 1.67428
+  ? - ROW0422
+    - COL0922
+  : -1
+  ? - ROW0471
+    - COL1241
+  : -1
+  ? - ROW0564
+    - COL1247
+  : 1
+  ? - ROW0267
+    - COL0535
+  : 1
+  ? - OBJ.FUNC
+    - COL1541
+  : 12.51565
+  ? - ROW0041
+    - COL0665
+  : -1
+  ? - ROW0316
+    - COL0657
+  : -0.49026
+  ? - ROW0340
+    - COL0716
+  : 1
+  ? - ROW0616
+    - COL1399
+  : -1
+  ? - ROW0074
+    - COL0181
+  : 1
+  ? - ROW0066
+    - COL0099
+  : 1
+  ? - ROW0607
+    - COL1369
+  : 1
+  ? - OBJ.FUNC
+    - COL0943
+  : 41.35307
+  ? - ROW0653
+    - COL1492
+  : -0.00602
+  ? - ROW0259
+    - COL0471
+  : 0.22695
+  ? - ROW0263
+    - COL0523
+  : 1
+  ? - ROW0387
+    - COL0835
+  : 1
+  ? - ROW0486
+    - COL1056
+  : 1
+  ? - ROW0059
+    - COL0081
+  : 0.8334
+  ? - ROW0079
+    - COL0650
+  : 1
+  ? - ROW0559
+    - COL1234
+  : -1
+  ? - ROW0562
+    - COL1242
+  : 1
+  ? - ROW0494
+    - COL1080
+  : 1
+  ? - ROW0652
+    - COL1510
+  : -1
+  ? - ROW0300
+    - COL0594
+  : -1
+  ? - OBJ.FUNC
+    - COL1018
+  : 1.88337
+  ? - ROW0102
+    - COL0128
+  : -1
+  ? - ROW0048
+    - COL0223
+  : -1
+  ? - OBJ.FUNC
+    - COL0188
+  : 91.82736
+  ? - ROW0257
+    - COL0471
+  : 1
+  ? - ROW0393
+    - COL0852
+  : 1
+  ? - ROW0052
+    - COL0156
+  : 1
+  ? - ROW0307
+    - COL0633
+  : 1
+  ? - ROW0575
+    - COL1238
+  : -1
+  ? - ROW0397
+    - COL0881
+  : -1
+  ? - ROW0366
+    - COL0783
+  : 1
+  ? - ROW0253
+    - COL0504
+  : 1
+  ? - OBJ.FUNC
+    - COL0058
+  : 36.85957
+  ? - ROW0296
+    - COL0611
+  : 1
+  ? - ROW0577
+    - COL1279
+  : 1
+  ? - ROW0045
+    - COL0048
+  : -1
+  ? - ROW0496
+    - COL1086
+  : 1
+  ? - ROW0334
+    - COL0668
+  : -1
+  ? - ROW0399
+    - COL0865
+  : 1
+  ? - ROW0049
+    - COL0143
+  : -1
+  ? - ROW0163
+    - COL0300
+  : 1
+  ? - ROW0265
+    - COL0529
+  : 1
+  ? - ROW0444
+    - COL0959
+  : 1
+  ? - OBJ.FUNC
+    - COL0295
+  : 75.5287
+  ? - ROW0399
+    - COL0867
+  : -1
+  ? - ROW0502
+    - COL1101
+  : -1
+  ? - OBJ.FUNC
+    - COL1453
+  : 4.63019
+  ? - ROW0322
+    - COL0677
+  : 1
+  ? - ROW0199
+    - COL0382
+  : -1
+  ? - ROW0306
+    - COL0632
+  : -1
+  ? - OBJ.FUNC
+    - COL0528
+  : 14.13707
+  ? - ROW0248
+    - COL0471
+  : -0.03079
+  ? - ROW0043
+    - COL1585
+  : -1
+  ? - OBJ.FUNC
+    - COL0934
+  : 21.77226
+  ? - OBJ.FUNC
+    - COL0129
+  : 78.95152
+  ? - OBJ.FUNC
+    - COL0494
+  : 18.37627
+  ? - OBJ.FUNC
+    - COL1077
+  : 0.24576
+  ? - ROW0537
+    - COL1153
+  : -0.08566
+  ? - ROW0204
+    - COL0397
+  : -1
+  ? - ROW0288
+    - COL0575
+  : -0.03807
+  ? - ROW0073
+    - COL0104
+  : -1
+  ? - ROW0186
+    - COL0965
+  : -0.47505
+  ? - ROW0590
+    - COL1305
+  : -0.01728
+  ? - ROW0667
+    - COL1556
+  : -1
+  ? - OBJ.FUNC
+    - COL0495
+  : 18.37627
+  ? - ROW0050
+    - COL1344
+  : -0.08531
+  ? - OBJ.FUNC
+    - COL0040
+  : 53.15756
+  ? - ROW0314
+    - COL0654
+  : 1
+  ? - ROW0083
+    - COL0924
+  : 1
+  ? - ROW0140
+    - COL0217
+  : -1
+  ? - ROW0457
+    - COL0995
+  : 1
+  ? - ROW0257
+    - COL0503
+  : -1
+  ? - OBJ.FUNC
+    - COL1555
+  : 209.1175
+  ? - ROW0218
+    - COL0398
+  : -1
+  ? - ROW0375
+    - COL0801
+  : -1
+  ? - ROW0481
+    - COL1049
+  : 1
+  ? - ROW0499
+    - COL1110
+  : 1
+  ? - ROW0083
+    - COL1336
+  : 1
+  ? - ROW0018
+    - COL0036
+  : 1
+  ? - ROW0353
+    - COL0748
+  : -0.18135
+  ? - ROW0108
+    - COL0178
+  : -1
+  ? - OBJ.FUNC
+    - COL0221
+  : 99.20635
+  ? - ROW0459
+    - COL1001
+  : 1
+  ? - OBJ.FUNC
+    - COL0072
+  : 80.91924
+  ? - ROW0176
+    - COL0325
+  : 0.97069
+  ? - ROW0256
+    - COL0513
+  : 1
+  ? - ROW0044
+    - COL0392
+  : -1
+  ? - OBJ.FUNC
+    - COL1581
+  : 14.1004
+  ? - OBJ.FUNC
+    - COL0500
+  : 3.82272
+  ? - ROW0357
+    - COL0760
+  : 1
+  ? - ROW0461
+    - COL1022
+  : 1
+  ? - ROW0417
+    - COL0906
+  : 1
+  ? - ROW0645
+    - COL1488
+  : -1
+  ? - ROW0093
+    - COL0124
+  : -0.02806
+  ? - ROW0170
+    - COL0318
+  : -1
+  ? - ROW0265
+    - COL0531
+  : -1
+  ? - ROW0299
+    - COL0575
+  : 0.15158
+  ? - ROW0532
+    - COL1153
+  : -0.11186
+  ? - ROW0130
+    - COL0226
+  : 1
+  ? - OBJ.FUNC
+    - COL0271
+  : 505.0505
+  ? - ROW0338
+    - COL0710
+  : 1
+  ? - ROW0674
+    - COL1578
+  : -1
+  ? - OBJ.FUNC
+    - COL0767
+  : 50.66369
+  ? - OBJ.FUNC
+    - COL0477
+  : 31.77226
+  ? - ROW0670
+    - COL1532
+  : -0.00836
+  ? - ROW0024
+    - COL0029
+  : -0.02568
+  ? - OBJ.FUNC
+    - COL0995
+  : 3.19967
+  ? - ROW0049
+    - COL0858
+  : -1
+  ? - OBJ.FUNC
+    - COL1395
+  : 15.75299
+  ? - ROW0239
+    - COL0466
+  : 1
+  ? - ROW0496
+    - COL1079
+  : -0.18671
+  ? - ROW0558
+    - COL1231
+  : -1
+  ? - OBJ.FUNC
+    - COL1040
+  : 205.9308
+  ? - ROW0022
+    - COL0050
+  : -1
+  ? - OBJ.FUNC
+    - COL0027
+  : 0.72061
+  ? - ROW0270
+    - COL0529
+  : -1
+  ? - OBJ.FUNC
+    - COL0890
+  : 349.8951
+  ? - ROW0079
+    - COL1068
+  : 1
+  ? - OBJ.FUNC
+    - COL1410
+  : 27.33884
+  ? - ROW0339
+    - COL0701
+  : -0.05071
+  ? - ROW0113
+    - COL0179
+  : 1
+  ? - ROW0294
+    - COL0606
+  : -1
+  ? - OBJ.FUNC
+    - COL0527
+  : 14.13707
+  ? - OBJ.FUNC
+    - COL0351
+  : 2.98116
+  ? - ROW0095
+    - COL0151
+  : 1
+  ? - ROW0172
+    - COL0322
+  : 1
+  ? - ROW0275
+    - COL0546
+  : -0.3993
+  ? - OBJ.FUNC
+    - COL0709
+  : 300.3003
+  ? - ROW0168
+    - COL0352
+  : -1
+  ? - ROW0439
+    - COL0951
+  : 0.81394
+  ? - ROW0160
+    - COL0291
+  : 1
+  ? - OBJ.FUNC
+    - COL0442
+  : 164.582
+  ? - ROW0267
+    - COL0536
+  : 1
+  ? - ROW0544
+    - COL1154
+  : -1
+  ? - ROW0668
+    - COL1559
+  : -1
+  ? - ROW0278
+    - COL0566
+  : -1
+  ? - ROW0027
+    - COL0064
+  : 1
+  ? - ROW0248
+    - COL0495
+  : -1
+  ? - OBJ.FUNC
+    - COL0632
+  : 353.1073
+  ? - ROW0074
+    - COL0967
+  : 1
+  ? - ROW0176
+    - COL0300
+  : -1
+  ? - ROW0312
+    - COL0648
+  : 1
+  ? - ROW0504
+    - COL1079
+  : -0.13252
+  ? - ROW0013
+    - COL0023
+  : 1
+  ? - ROW0585
+    - COL1282
+  : -1
+  ? - ROW0471
+    - COL1458
+  : -1
+  ? - ROW0177
+    - COL0772
+  : -1
+  ? - ROW0315
+    - COL0644
+  : -1
+  ? - ROW0576
+    - COL1275
+  : 1
+  ? - OBJ.FUNC
+    - COL0007
+  : 0.47176
+  ? - ROW0480
+    - COL1021
+  : -0.00872
+  ? - ROW0237
+    - COL0448
+  : -1
+  ? - ROW0659
+    - COL1492
+  : -0.24672
+  ? - ROW0604
+    - COL1362
+  : -1
+  ? - OBJ.FUNC
+    - COL0182
+  : 58.32944
+  ? - ROW0551
+    - COL1202
+  : -1
+  ? - ROW0353
+    - COL0828
+  : 1
+  ? - ROW0358
+    - COL0763
+  : 1
+  ? - ROW0274
+    - COL0553
+  : 1
+  ? - OBJ.FUNC
+    - COL0241
+  : 609.7561
+  ? - ROW0051
+    - COL1013
+  : -1
+  ? - ROW0052
+    - COL0073
+  : 1
+  ? - ROW0229
+    - COL0707
+  : 1
+  ? - OBJ.FUNC
+    - COL0925
+  : 1.27563
+  ? - ROW0488
+    - COL1063
+  : 1
+  ? - ROW0519
+    - COL1119
+  : -1
+  ? - OBJ.FUNC
+    - COL0807
+  : 40.94334
+  ? - ROW0111
+    - COL0173
+  : 1
+  ? - ROW0348
+    - COL0727
+  : -0.59264
+  ? - ROW0432
+    - COL0943
+  : 1
+  ? - OBJ.FUNC
+    - COL0957
+  : 787.4016
+  ? - ROW0492
+    - COL1065
+  : -1
+  ? - ROW0521
+    - COL1130
+  : -0.13557
+  ? - ROW0538
+    - COL1176
+  : 1
+  ? - ROW0596
+    - COL1317
+  : -1
+  ? - ROW0570
+    - COL1260
+  : 1
+  ? - OBJ.FUNC
+    - COL1478
+  : 86.31107
+  ? - ROW0621
+    - COL1390
+  : -0.00205
+  ? - ROW0208
+    - COL0379
+  : -0.07341
+  ? - ROW0547
+    - COL1194
+  : 1
+  ? - ROW0104
+    - COL0162
+  : -1.04008
+  ? - ROW0577
+    - COL1280
+  : 1
+  ? - ROW0671
+    - COL1567
+  : 1
+  ? - ROW0466
+    - COL1016
+  : 1
+  ? - ROW0529
+    - COL1154
+  : 1
+  ? - ROW0216
+    - COL0468
+  : 1
+  ? - ROW0049
+    - COL0680
+  : -1
+  ? - ROW0190
+    - COL0357
+  : 1
+  ? - OBJ.FUNC
+    - COL0240
+  : 609.7561
+  ? - ROW0200
+    - COL0384
+  : 1
+  ? - ROW0504
+    - COL1107
+  : -1
+  ? - OBJ.FUNC
+    - COL1361
+  : 23.03192
+  ? - ROW0636
+    - COL1460
+  : -1
+  ? - OBJ.FUNC
+    - COL1568
+  : 8.57942
+  ? - OBJ.FUNC
+    - COL1604
+  : 13.05688
+  ? - OBJ.FUNC
+    - COL1170
+  : 5.73513
+  ? - ROW0687
+    - COL1618
+  : -1
+  ? - ROW0093
+    - COL0164
+  : 1
+  ? - OBJ.FUNC
+    - COL0525
+  : 48.4919
+  ? - ROW0283
+    - COL0575
+  : -0.01986
+  ? - ROW0180
+    - COL0335
+  : -1
+  ? - OBJ.FUNC
+    - COL0926
+  : 1.27563
+  ? - ROW0526
+    - COL1133
+  : -1
+  ? - OBJ.FUNC
+    - COL0352
+  : 2.98116
+  ? - ROW0031
+    - COL0029
+  : -0.01496
+  ? - ROW0231
+    - COL0449
+  : 1
+  ? - ROW0049
+    - COL0994
+  : -1
+  ? - ROW0212
+    - COL0379
+  : -0.14135
+  ? - OBJ.FUNC
+    - COL1324
+  : 510.7252
+  ? - OBJ.FUNC
+    - COL1451
+  : 54.91488
+  ? - ROW0668
+    - COL1557
+  : 1
+  ? - ROW0527
+    - COL1149
+  : -0.52588
+  ? - ROW0175
+    - COL0376
+  : 1
+  ? - ROW0400
+    - COL0870
+  : -1
+  ? - OBJ.FUNC
+    - COL0756
+  : 48.62867
+  ? - ROW0514
+    - COL1114
+  : 1
+  ? - ROW0573
+    - COL1224
+  : 1
+  ? - OBJ.FUNC
+    - COL1221
+  : 0.53357
+  ? - ROW0602
+    - COL1344
+  : -0.00278
+  ? - ROW0132
+    - COL0259
+  : 1
+  ? - ROW0474
+    - COL1028
+  : 1
+  ? - OBJ.FUNC
+    - COL1509
+  : 159.5914
+  ? - ROW0035
+    - COL0080
+  : -1
+  ? - ROW0077
+    - COL1311
+  : 1
+  ? - ROW0074
+    - COL1053
+  : 1
+  ? - OBJ.FUNC
+    - COL0887
+  : 128.999
+  ? - ROW0214
+    - COL0411
+  : -1
+  ? - ROW0177
+    - COL1384
+  : -1
+  ? - ROW0018
+    - COL0038
+  : -1
+  ? - OBJ.FUNC
+    - COL0091
+  : 196.2323
+  ? - ROW0152
+    - COL0270
+  : 1
+  ? - ROW0630
+    - COL1440
+  : 1
+  ? - ROW0053
+    - COL0874
+  : -1
+  ? - ROW0479
+    - COL1021
+  : -0.67149
+  ? - ROW0145
+    - COL0253
+  : -1
+  ? - ROW0019
+    - COL0041
+  : -1
+  ? - OBJ.FUNC
+    - COL1321
+  : 1162.791
+  ? - ROW0131
+    - COL0246
+  : -1
+  ? - ROW0260
+    - COL0481
+  : -1
+  ? - ROW0674
+    - COL1577
+  : 1
+  ? - OBJ.FUNC
+    - COL0556
+  : 23.74169
+  ? - ROW0429
+    - COL0953
+  : 1
+  ? - ROW0336
+    - COL0704
+  : 1
+  ? - ROW0446
+    - COL0956
+  : -1
+  ? - ROW0285
+    - COL0584
+  : -1
+  ? - ROW0604
+    - COL1344
+  : -0.00316
+  ? - ROW0165
+    - COL0307
+  : 1
+  ? - ROW0181
+    - COL0337
+  : 1
+  ? - OBJ.FUNC
+    - COL0480
+  : 5.80067
+  ? - ROW0515
+    - COL1110
+  : -0.02751
+  ? - ROW0241
+    - COL0474
+  : -1
+  ? - ROW0632
+    - COL1448
+  : -1
+  ? - ROW0651
+    - COL1492
+  : -0.01165
+  ? - ROW0079
+    - COL0368
+  : 1
+  ? - ROW0299
+    - COL0657
+  : -0.84842
+  ? - ROW0266
+    - COL0532
+  : 1
+  ? - ROW0029
+    - COL0097
+  : -1
+  ? - ROW0195
+    - COL0350
+  : -0.04406
+  ? - ROW0116
+    - COL0192
+  : -1
+  ? - ROW0254
+    - COL0507
+  : 1
+  ? - ROW0357
+    - COL0761
+  : 1
+  ? - OBJ.FUNC
+    - COL1055
+  : 4.65497
+  ? - OBJ.FUNC
+    - COL1377
+  : 1.67564
+  ? - OBJ.FUNC
+    - COL0260
+  : 4.06075
+  ? - ROW0393
+    - COL0853
+  : 1
+  ? - ROW0220
+    - COL0788
+  : 1
+  ? - ROW0344
+    - COL0802
+  : 1
+  ? - ROW0629
+    - COL1439
+  : -1
+  ? - ROW0288
+    - COL0593
+  : -1
+  ? - ROW0062
+    - COL1033
+  : 1
+  ? - ROW0053
+    - COL0417
+  : -1
+  ? - ROW0053
+    - COL1105
+  : -1
+  ? - OBJ.FUNC
+    - COL1535
+  : 68.06425
+  ? - ROW0621
+    - COL1414
+  : -1
+  ? - ROW0127
+    - COL0217
+  : 1
+  ? - ROW0498
+    - COL1094
+  : -1
+  ? - ROW0330
+    - COL0698
+  : -1
+  ? - ROW0307
+    - COL0615
+  : -0.2638
+  ? - ROW0372
+    - COL0772
+  : -1
+  ? - OBJ.FUNC
+    - COL1100
+  : 21.58615
+  ? - OBJ.FUNC
+    - COL1296
+  : 347.7051
+  ? - ROW0613
+    - COL1389
+  : -1
+  ? - ROW0289
+    - COL0594
+  : 1
+  ? - ROW0505
+    - COL1079
+  : 1
+  ? - ROW0173
+    - COL0312
+  : -1
+  ? - ROW0339
+    - COL0715
+  : -1
+  ? - ROW0673
+    - COL1573
+  : 1
+  ? - OBJ.FUNC
+    - COL1209
+  : 9.01778
+  ? - OBJ.FUNC
+    - COL0740
+  : 93.24879
+  ? - ROW0169
+    - COL0313
+  : 1
+  ? - ROW0329
+    - COL0695
+  : -1
+  ? - ROW0612
+    - COL1344
+  : -0.00533
+  ? - ROW0462
+    - COL1055
+  : -1
+  ? - ROW0566
+    - COL1276
+  : 1
+  ? - OBJ.FUNC
+    - COL1309
+  : 438.5965
+  ? - ROW0479
+    - COL1044
+  : -1
+  ? - ROW0172
+    - COL0324
+  : -1
+  ? - ROW0219
+    - COL0607
+  : 1
+  ? - ROW0060
+    - COL0327
+  : 1
+  ? - ROW0053
+    - COL1016
+  : -1
+  ? - ROW0073
+    - COL0101
+  : -1
+  ? - ROW0211
+    - COL0412
+  : 1
+  ? - OBJ.FUNC
+    - COL0409
+  : 38.78374
+  ? - ROW0548
+    - COL1187
+  : -0.40116
+  ? - ROW0238
+    - COL0914
+  : 1
+  ? - ROW0347
+    - COL0733
+  : 1
+  ? - OBJ.FUNC
+    - COL0299
+  : 50.02001
+  ? - ROW0403
+    - COL0868
+  : -1
+  ? - ROW0255
+    - COL0471
+  : -0.11731
+  ? - ROW0415
+    - COL1125
+  : 1
+  ? - ROW0212
+    - COL0416
+  : -1
+  ? - ROW0377
+    - COL0807
+  : -1
+  ? - ROW0508
+    - COL1228
+  : -1
+  ? - OBJ.FUNC
+    - COL0347
+  : 49.2126
+  ? - ROW0351
+    - COL0745
+  : 1
+  ? - OBJ.FUNC
+    - COL0486
+  : 4.21109
+  ? - OBJ.FUNC
+    - COL0268
+  : 379.9392
+  ? - ROW0190
+    - COL0356
+  : 1
+  ? - ROW0039
+    - COL0045
+  : -1
+  ? - OBJ.FUNC
+    - COL0308
+  : 71.02273
+  ? - ROW0343
+    - COL0704
+  : -1
+  ? - ROW0119
+    - COL0739
+  : 1
+  ? - ROW0196
+    - COL0359
+  : -1
+  ? - OBJ.FUNC
+    - COL0037
+  : 42.68761
+  ? - OBJ.FUNC
+    - COL1385
+  : 13.65374
+  ? - ROW0058
+    - COL0090
+  : 1
+  ? - ROW0475
+    - COL1030
+  : 1
+  ? - ROW0372
+    - COL0791
+  : 0.87944
+  ? - ROW0227
+    - COL0422
+  : -0.05671
+  ? - ROW0110
+    - COL0618
+  : 1
+  ? - ROW0081
+    - COL0745
+  : 1
+  ? - ROW0481
+    - COL1048
+  : 1
+  ? - ROW0380
+    - COL0793
+  : 0.88325
+  ? - ROW0395
+    - COL0858
+  : 1
+  ? - ROW0102
+    - COL0137
+  : -1
+  ? - ROW0343
+    - COL0701
+  : 0.93618
+  ? - ROW0051
+    - COL0236
+  : -1
+  ? - ROW0217
+    - COL0379
+  : 1
+  ? - ROW0260
+    - COL0499
+  : -1
+  ? - OBJ.FUNC
+    - COL0344
+  : 19.81532
+  ? - ROW0232
+    - COL0451
+  : 1
+  ? - ROW0455
+    - COL0990
+  : -1
+  ? - ROW0286
+    - COL0585
+  : 1
+  ? - OBJ.FUNC
+    - COL1389
+  : 0.14484
+  ? - ROW0506
+    - COL1152
+  : -1
+  ? - ROW0621
+    - COL1413
+  : 1
+  ? - ROW0603
+    - COL1359
+  : -1
+  ? - OBJ.FUNC
+    - COL0455
+  : 540.5405
+  ? - ROW0051
+    - COL0073
+  : -1
+  ? - ROW0328
+    - COL0661
+  : -0.03607
+  ? - OBJ.FUNC
+    - COL0537
+  : 146.886
+  ? - ROW0532
+    - COL1163
+  : 1
+  ? - ROW0166
+    - COL0309
+  : 1
+  ? - ROW0677
+    - COL1575
+  : -0.00544
+  ? - ROW0555
+    - COL1218
+  : -1
+  ? - ROW0129
+    - COL0224
+  : 1
+  ? - ROW0555
+    - COL1217
+  : 1
+  ? - ROW0177
+    - COL1526
+  : -1
+  ? - ROW0292
+    - COL0639
+  : 1
+  ? - ROW0449
+    - COL0973
+  : 1
+  ? - ROW0030
+    - COL0029
+  : -0.30539
+  ? - OBJ.FUNC
+    - COL0114
+  : 514.933
+  ? - ROW0076
+    - COL0549
+  : 1
+  ? - ROW0595
+    - COL1333
+  : 1
+  ? - ROW0189
+    - COL0354
+  : 1
+  ? - OBJ.FUNC
+    - COL0569
+  : 207.2968
+  ? - ROW0036
+    - COL0094
+  : -0.72888
+  ? - ROW0543
+    - COL1206
+  : -0.74044
+  ? - OBJ.FUNC
+    - COL1567
+  : 8.57942
+  ? - ROW0365
+    - COL0779
+  : 1
+  ? - ROW0373
+    - COL0816
+  : -1.01526
+  ? - OBJ.FUNC
+    - COL1380
+  : 10.80637
+  ? - OBJ.FUNC
+    - COL0844
+  : 75.36931
+  ? - ROW0087
+    - COL0124
+  : -0.00702
+  ? - ROW0469
+    - COL1075
+  : -0.68123
+  ? - ROW0266
+    - COL0533
+  : 1
+  ? - ROW0452
+    - COL0976
+  : -1
+  ? - ROW0129
+    - COL0201
+  : -0.11818
+  ? - ROW0173
+    - COL0322
+  : -1
+  ? - ROW0246
+    - COL0471
+  : -0.03068
+  ? - ROW0504
+    - COL1106
+  : 1
+  ? - ROW0685
+    - COL1575
+  : -0.0089
+  ? - ROW0095
+    - COL0152
+  : -1
+  ? - ROW0664
+    - COL1532
+  : -0.00336
+  ? - ROW0444
+    - COL0960
+  : 1
+  ? - ROW0608
+    - COL1373
+  : 1
+  ? - OBJ.FUNC
+    - COL1011
+  : 24.35579
+  ? - ROW0020
+    - COL0043
+  : 1
+  ? - ROW0162
+    - COL0297
+  : 1
+  ? - ROW0040
+    - COL1539
+  : -1
+  ? - ROW0588
+    - COL1311
+  : 1
+  ? - ROW0140
+    - COL0223
+  : -1
+  ? - ROW0049
+    - COL0060
+  : -1
+  ? - ROW0654
+    - COL1492
+  : -0.04888
+  ? - ROW0515
+    - COL1118
+  : -1
+  ? - OBJ.FUNC
+    - COL0456
+  : 540.5405
+  ? - OBJ.FUNC
+    - COL0829
+  : 337.3819
+  ? - ROW0191
+    - COL0361
+  : -1
+  ? - ROW0046
+    - COL1412
+  : -1
+  ? - OBJ.FUNC
+    - COL1420
+  : 10.41146
+  ? - ROW0658
+    - COL1492
+  : -0.00849
+  ? - ROW0321
+    - COL0675
+  : 1
+  ? - ROW0051
+    - COL0945
+  : -1
+  ? - ROW0489
+    - COL1066
+  : 1
+  ? - ROW0170
+    - COL0317
+  : 1
+  ? - OBJ.FUNC
+    - COL0115
+  : 514.933
+  ? - OBJ.FUNC
+    - COL0498
+  : 23.03723
+  ? - ROW0196
+    - COL0371
+  : -1
+  ? - ROW0622
+    - COL1416
+  : 1
+  ? - ROW0623
+    - COL1420
+  : -1
+  ? - ROW0330
+    - COL0697
+  : 1
+  ? - ROW0196
+    - COL0368
+  : -1
+  ? - ROW0052
+    - COL1261
+  : -1
+  ? - ROW0043
+    - COL1545
+  : -1
+  ? - OBJ.FUNC
+    - COL0519
+  : 6.60546
+  ? - ROW0464
+    - COL1010
+  : 1
+  ? - OBJ.FUNC
+    - COL1611
+  : 30.17501
+  ? - OBJ.FUNC
+    - COL0175
+  : 628.1407
+  ? - ROW0388
+    - COL0831
+  : -1
+  ? - ROW0119
+    - COL0837
+  : -0.44006
+  ? - ROW0449
+    - COL0967
+  : -0.89108
+  ? - ROW0556
+    - COL1213
+  : -1
+  ? - OBJ.FUNC
+    - COL1295
+  : 347.7051
+  ? - OBJ.FUNC
+    - COL0415
+  : 1.96247
+  ? - ROW0317
+    - COL0661
+  : -0.01572
+  ? - ROW0389
+    - COL0838
+  : -0.55478
+  ? - ROW0391
+    - COL0842
+  : -0.18436
+  ? - ROW0038
+    - COL1576
+  : -1
+  ? - OBJ.FUNC
+    - COL1562
+  : 10.92156
+  ? - ROW0242
+    - COL0475
+  : 1
+  ? - ROW0520
+    - COL1129
+  : -0.43586
+  ? - ROW0571
+    - COL1272
+  : 1
+  ? - ROW0044
+    - COL1548
+  : -1
+  ? - ROW0079
+    - COL1210
+  : 1
+  ? - OBJ.FUNC
+    - COL1069
+  : 9.65195
+  ? - ROW0159
+    - COL0278
+  : -0.19128
+  ? - ROW0414
+    - COL0888
+  : -1
+  ? - ROW0053
+    - COL0788
+  : -1
+  ? - ROW0076
+    - COL0448
+  : 1
+  ? - ROW0004
+    - COL0005
+  : 1
+  ? - ROW0582
+    - COL1296
+  : -1
+  ? - ROW0038
+    - COL1345
+  : -1
+  ? - ROW0364
+    - COL0816
+  : 1
+  ? - ROW0098
+    - COL0124
+  : -0.00074
+  ? - OBJ.FUNC
+    - COL1337
+  : 1.32686
+  ? - OBJ.FUNC
+    - COL0759
+  : 107.8981
+  ? - ROW0350
+    - COL0727
+  : -0.03992
+  ? - OBJ.FUNC
+    - COL0266
+  : 102.8172
+  ? - ROW0588
+    - COL1312
+  : 1
+  ? - ROW0651
+    - COL1507
+  : -1
+  ? - ROW0394
+    - COL0842
+  : -0.03549
+  ? - ROW0073
+    - COL0116
+  : -1
+  ? - ROW0083
+    - COL0467
+  : 1
+  ? - ROW0637
+    - COL1462
+  : 1
+  ? - ROW0178
+    - COL0326
+  : 1
+  ? - OBJ.FUNC
+    - COL0859
+  : 76.1035
+  ? - ROW0127
+    - COL0201
+  : -0.00226
+  ? - ROW0173
+    - COL0319
+  : -1
+  ? - OBJ.FUNC
+    - COL1438
+  : 15.78781
+  ? - ROW0279
+    - COL0569
+  : -1
+  ? - ROW0156
+    - COL0281
+  : -1
+  ? - ROW0111
+    - COL1116
+  : 1
+  ? - ROW0554
+    - COL1213
+  : 1
+  ? - ROW0015
+    - COL0027
+  : 1
+  ? - OBJ.FUNC
+    - COL0747
+  : 235.6268
+  ? - OBJ.FUNC
+    - COL1349
+  : 5.31124
+  ? - ROW0113
+    - COL0180
+  : -1
+  ? - ROW0216
+    - COL0469
+  : -1
+  ? - ROW0199
+    - COL0380
+  : 1
+  ? - ROW0026
+    - COL0060
+  : 1
+  ? - OBJ.FUNC
+    - COL0755
+  : 48.62867
+  ? - OBJ.FUNC
+    - COL0281
+  : 13.73966
+  ? - OBJ.FUNC
+    - COL1359
+  : 11.22788
+  ? - OBJ.FUNC
+    - COL1530
+  : 1.71627
+  ? - OBJ.FUNC
+    - COL1374
+  : 3.11493
+  ? - OBJ.FUNC
+    - COL0922
+  : 811.6884
+  ? - ROW0115
+    - COL0188
+  : 1
+  ? - ROW0564
+    - COL1248
+  : 1
+  ? - ROW0187
+    - COL1532
+  : -0.00369
+  ? - ROW0162
+    - COL0299
+  : -1
+  ? - ROW0142
+    - COL0249
+  : -1
+  ? - OBJ.FUNC
+    - COL1200
+  : 1269.036
+  ? - ROW0044
+    - COL1360
+  : -1
+  ? - ROW0092
+    - COL0148
+  : -1
+  ? - ROW0294
+    - COL0575
+  : -0.07191
+  ? - ROW0568
+    - COL1254
+  : 1
+  ? - ROW0516
+    - COL1120
+  : 1
+  ? - ROW0517
+    - COL1110
+  : -0.14357
+  ? - OBJ.FUNC
+    - COL0774
+  : 77.93018
+  ? - OBJ.FUNC
+    - COL1087
+  : 2.77708
+  ? - ROW0289
+    - COL0596
+  : -1
+  ? - OBJ.FUNC
+    - COL0413
+  : 1.9766
+  ? - OBJ.FUNC
+    - COL0012
+  : 0.56582
+  ? - OBJ.FUNC
+    - COL0737
+  : 24.8942
+  ? - ROW0057
+    - COL0089
+  : -1
+  ? - ROW0040
+    - COL1229
+  : -1
+  ? - ROW0369
+    - COL0785
+  : -1
+  ? - OBJ.FUNC
+    - COL1559
+  : 55.8909
+  ? - ROW0398
+    - COL0842
+  : -0.03539
+  ? - ROW0678
+    - COL1588
+  : 1
+  ? - ROW0054
+    - COL1268
+  : -1
+  ? - ROW0503
+    - COL1103
+  : 1
+  ? - ROW0643
+    - COL1480
+  : 1
+  ? - ROW0305
+    - COL0629
+  : -1
+  ? - ROW0440
+    - COL1263
+  : -1
+  ? - ROW0029
+    - COL0029
+  : -0.05092
+  ? - OBJ.FUNC
+    - COL1459
+  : 37.15538
+  ? - ROW0074
+    - COL0095
+  : 1
+  ? - OBJ.FUNC
+    - COL0857
+  : 45.66627
+  ? - ROW0068
+    - COL0104
+  : 1
+  ? - ROW0221
+    - COL0421
+  : 1
+  ? - ROW0438
+    - COL1227
+  : -1
+  ? - ROW0608
+    - COL1374
+  : -1
+  ? - ROW0116
+    - COL0191
+  : 1
+  ? - OBJ.FUNC
+    - COL0441
+  : 164.582
+  ? - ROW0257
+    - COL0502
+  : -1
+  ? - OBJ.FUNC
+    - COL0689
+  : 10.25978
+  ? - ROW0205
+    - COL0379
+  : -0.02237
+  ? - OBJ.FUNC
+    - COL1164
+  : 6.44205
+  ? - ROW0654
+    - COL1514
+  : 1
+  ? - ROW0322
+    - COL0679
+  : -1
+  ? - ROW0090
+    - COL0124
+  : -0.01743
+  ? - ROW0539
+    - COL1180
+  : 1
+  ? - ROW0575
+    - COL1229
+  : -1
+  ? - OBJ.FUNC
+    - COL0768
+  : 50.66369
+  ? - ROW0308
+    - COL0627
+  : -1
+  ? - ROW0046
+    - COL0217
+  : -1
+  ? - ROW0081
+    - COL1492
+  : -0.00229
+  ? - ROW0614
+    - COL1393
+  : -1
+  ? - ROW0547
+    - COL1195
+  : -1
+  ? - ROW0437
+    - COL0966
+  : -0.88208
+  ? - ROW0605
+    - COL1365
+  : -1
+  ? - ROW0108
+    - COL0164
+  : -0.1026
+  ? - OBJ.FUNC
+    - COL0323
+  : 2.49464
+  ? - ROW0411
+    - COL0892
+  : 1
+  ? - OBJ.FUNC
+    - COL0851
+  : 72.72727
+  ? - ROW0425
+    - COL0923
+  : 1
+  ? - ROW0536
+    - COL1209
+  : -1
+  ? - ROW0211
+    - COL0379
+  : -0.34666
+  ? - ROW0111
+    - COL0437
+  : 1
+  ? - ROW0271
+    - COL0544
+  : -0.6866
+  ? - ROW0127
+    - COL0218
+  : 1
+  ? - ROW0103
+    - COL1536
+  : -1
+  ? - OBJ.FUNC
+    - COL1448
+  : 24.9066
+  ? - OBJ.FUNC
+    - COL0207
+  : 14.75013
+  ? - ROW0641
+    - COL1474
+  : 1
+  ? - ROW0088
+    - COL0124
+  : -0.00664
+  ? - ROW0279
+    - COL0546
+  : -0.04573
+  ? - ROW0065
+    - COL0815
+  : 1
+  ? - ROW0607
+    - COL1370
+  : 1
+  ? - ROW0465
+    - COL1013
+  : 1
+  ? - ROW0123
+    - COL0207
+  : -1
+  ? - OBJ.FUNC
+    - COL0640
+  : 30.32325
+  ? - ROW0688
+    - COL1619
+  : 1
+  ? - ROW0025
+    - COL0057
+  : 1
+  ? - OBJ.FUNC
+    - COL1161
+  : 28.74554
+  ? - ROW0540
+    - COL1153
+  : -0.09257
+  ? - ROW0681
+    - COL1597
+  : 1
+  ? - ROW0069
+    - COL0095
+  : -0.03495
+  ? - ROW0674
+    - COL1576
+  : 1
+  ? - ROW0060
+    - COL0244
+  : 1
+  ? - ROW0628
+    - COL1433
+  : 1
+  ? - ROW0240
+    - COL0927
+  : 1
+  ? - ROW0538
+    - COL1178
+  : -1
+  ? - ROW0537
+    - COL1174
+  : 1
+  ? - OBJ.FUNC
+    - COL0903
+  : 45.78754
+  ? - OBJ.FUNC
+    - COL1073
+  : 78.25951
+  ? - ROW0131
+    - COL0245
+  : 1
+  ? - ROW0047
+    - COL0591
+  : -1
+  ? - OBJ.FUNC
+    - COL0790
+  : 14.72277
+  ? - ROW0495
+    - COL1083
+  : 1
+  ? - OBJ.FUNC
+    - COL0573
+  : 0.43741
+  ? - ROW0381
+    - COL0814
+  : 1
+  ? - OBJ.FUNC
+    - COL1245
+  : 35.35068
+  ? - ROW0396
+    - COL0861
+  : 1
+  ? - ROW0398
+    - COL0902
+  : 1
+  ? - OBJ.FUNC
+    - COL0031
+  : 53.15756
+  ? - ROW0412
+    - COL0894
+  : 1
+  ? - OBJ.FUNC
+    - COL0394
+  : 35.35068
+  ? - OBJ.FUNC
+    - COL0403
+  : 46.80333
+  ? - ROW0321
+    - COL0674
+  : 1
+  ? - ROW0073
+    - COL0113
+  : -1
+  ? - ROW0062
+    - COL0885
+  : 1
+  ? - OBJ.FUNC
+    - COL1574
+  : 0.97534
+  ? - ROW0046
+    - COL0588
+  : -1
+  ? - ROW0549
+    - COL1201
+  : -1
+  ? - ROW0575
+    - COL1274
+  : 0.89245
+  ? - OBJ.FUNC
+    - COL0127
+  : 112.6888
+  ? - ROW0343
+    - COL0710
+  : -1
+  ? - ROW0482
+    - COL1048
+  : -1
+  ? - OBJ.FUNC
+    - COL1518
+  : 39.63221
+  ? - OBJ.FUNC
+    - COL1429
+  : 13.07531
+  ? - OBJ.FUNC
+    - COL0482
+  : 23.23528
+  ? - ROW0640
+    - COL1472
+  : 1
+  ? - OBJ.FUNC
+    - COL0955
+  : 43.20028
+  ? - ROW0161
+    - COL0295
+  : 1
+  ? - ROW0310
+    - COL0638
+  : -0.14519
+  ? - ROW0023
+    - COL0052
+  : 1
+  ? - ROW0360
+    - COL0771
+  : -1
+  ? - OBJ.FUNC
+    - COL0776
+  : 11.61872
+  ? - ROW0368
+    - COL0790
+  : -1
+  ? - ROW0549
+    - COL1199
+  : 1
+  ? - ROW0281
+    - COL0570
+  : -0.30604
+  ? - ROW0214
+    - COL0379
+  : 1
+  ? - OBJ.FUNC
+    - COL0639
+  : 30.32325
+  ? - ROW0626
+    - COL1428
+  : 1
+  ? - ROW0684
+    - COL1606
+  : 1
+  ? - OBJ.FUNC
+    - COL0616
+  : 12.83071
+  ? - OBJ.FUNC
+    - COL0862
+  : 10.58358
+  ? - ROW0439
+    - COL0929
+  : -1
+  ? - ROW0136
+    - COL0240
+  : 1
+  ? - ROW0492
+    - COL1059
+  : -1
+  ? - ROW0044
+    - COL0600
+  : 0.92888
+  ? - ROW0647
+    - COL1494
+  : 1
+  ? - ROW0062
+    - COL0428
+  : 1
+  ? - ROW0124
+    - COL0210
+  : -1
+  ? - OBJ.FUNC
+    - COL0968
+  : 1.49192
+  ? - ROW0021
+    - COL0046
+  : 1
+  ? - ROW0273
+    - COL0550
+  : 1
+  ? - ROW0216
+    - COL0379
+  : 0.42494
+  ? - ROW0314
+    - COL0638
+  : -0.08539
+  ? - OBJ.FUNC
+    - COL0008
+  : 0.47176
+  ? - ROW0636
+    - COL1436
+  : -0.0112
+  ? - ROW0661
+    - COL1538
+  : -1
+  ? - ROW0259
+    - COL0545
+  : -0.77305
+  ? - ROW0496
+    - COL1087
+  : 1
+  ? - ROW0158
+    - COL0278
+  : -0.06875
+  ? - ROW0298
+    - COL0614
+  : -1
+  ? - ROW0363
+    - COL0794
+  : 1
+  ? - ROW0280
+    - COL0555
+  : -1
+  ? - ROW0080
+    - COL1148
+  : -0.20882
+  ? - OBJ.FUNC
+    - COL1475
+  : 201.0454
+  ? - ROW0667
+    - COL1554
+  : 1
+  ? - ROW0526
+    - COL1139
+  : -1
+  ? - ROW0260
+    - COL0490
+  : -1
+  ? - ROW0042
+    - COL1400
+  : -1
+  ? - ROW0048
+    - COL1418
+  : -1
+  ? - ROW0125
+    - COL0213
+  : -1
+  ? - OBJ.FUNC
+    - COL1230
+  : 78.86436
+  ? - ROW0405
+    - COL0901
+  : -0.78717
+  ? - ROW0522
+    - COL1136
+  : 1
+  ? - OBJ.FUNC
+    - COL0112
+  : 242.0135
+  ? - ROW0286
+    - COL0586
+  : 1
+  ? - ROW0225
+    - COL0436
+  : -1
+  ? - OBJ.FUNC
+    - COL1516
+  : 8.66326
+  ? - ROW0135
+    - COL0238
+  : -1
+  ? - ROW0588
+    - COL1305
+  : -0.22058
+  ? - OBJ.FUNC
+    - COL1353
+  : 8.79353
+  ? - ROW0628
+    - COL1435
+  : -1
+  ? - ROW0222
+    - COL0426
+  : 1
+  ? - OBJ.FUNC
+    - COL1031
+  : 97.59907
+  ? - OBJ.FUNC
+    - COL0931
+  : 1.79584
+  ? - ROW0610
+    - COL1378
+  : 1
+  ? - ROW0056
+    - COL0081
+  : -0.03909
+  ? - ROW0490
+    - COL1070
+  : -1
+  ? - ROW0626
+    - COL1427
+  : 1
+  ? - ROW0086
+    - COL0124
+  : -0.01181
+  ? - ROW0144
+    - COL0253
+  : 1
+  ? - ROW0345
+    - COL0726
+  : -0.69536
+  ? - ROW0545
+    - COL1186
+  : 1
+  ? - ROW0109
+    - COL0167
+  : -1
+  ? - ROW0460
+    - COL0987
+  : -0.13281
+  ? - ROW0502
+    - COL1100
+  : 1
+  ? - ROW0657
+    - COL1524
+  : 1
+  ? - ROW0074
+    - COL0816
+  : 1
+  ? - ROW0606
+    - COL1367
+  : 1
+  ? - ROW0673
+    - COL1572
+  : 1
+  ? - OBJ.FUNC
+    - COL1046
+  : 189.3222
+  ? - ROW0458
+    - COL0997
+  : 1
+  ? - ROW0228
+    - COL0425
+  : -1
+  ? - ROW0038
+    - COL0279
+  : -1
+  ? - ROW0569
+    - COL1259
+  : -1
+  ? - OBJ.FUNC
+    - COL0377
+  : 0.37809
+  ? - ROW0219
+    - COL0509
+  : 1
+  ? - ROW0419
+    - COL0913
+  : -1
+  ? - OBJ.FUNC
+    - COL1426
+  : 8.60615
+  ? - ROW0047
+    - COL0677
+  : -1
+  ? - ROW0215
+    - COL0421
+  : -1
+  ? - OBJ.FUNC
+    - COL1005
+  : 2.71636
+  ? - ROW0591
+    - COL1322
+  : -1
+  ? - ROW0207
+    - COL0379
+  : -0.16843
+  ? - ROW0217
+    - COL0471
+  : 1
+  ? - ROW0183
+    - COL0342
+  : 1
+  ? - OBJ.FUNC
+    - COL0940
+  : 2.51856
+  ? - ROW0374
+    - COL0793
+  : -0.07252
+  ? - ROW0541
+    - COL1176
+  : -1
+  ? - ROW0047
+    - COL0054
+  : -1
+  ? - ROW0326
+    - COL0728
+  : 1
+  ? - ROW0541
+    - COL1153
+  : 1
+  ? - ROW0551
+    - COL1187
+  : 0.9712
+  ? - ROW0049
+    - COL1600
+  : -1
+  ? - ROW0323
+    - COL0680
+  : 1
+  ? - ROW0458
+    - COL0987
+  : -0.00737
+  ? - ROW0049
+    - COL1157
+  : -1
+  ? - ROW0324
+    - COL0685
+  : -1
+  ? - OBJ.FUNC
+    - COL0676
+  : 54.81254
+  ? - OBJ.FUNC
+    - COL1178
+  : 34.48989
+  ? - OBJ.FUNC
+    - COL0794
+  : 20.53304
+  ? - ROW0464
+    - COL1012
+  : -1
+  ? - OBJ.FUNC
+    - COL1038
+  : 272.4796
+  ? - ROW0238
+    - COL0923
+  : -0.27449
+  ? - OBJ.FUNC
+    - COL1191
+  : 49.02441
+  ? - ROW0332
+    - COL0752
+  : -1
+  ? - ROW0050
+    - COL1492
+  : -0.08531
+  ? - ROW0666
+    - COL1552
+  : 1
+  ? - ROW0452
+    - COL0979
+  : -1
+  ? - ROW0489
+    - COL1067
+  : -1
+  ? - OBJ.FUNC
+    - COL0252
+  : 149.925
+  ? - ROW0615
+    - COL1390
+  : -0.01473
+  ? - ROW0400
+    - COL0842
+  : -0.02717
+  ? - ROW0081
+    - COL0834
+  : 1
+  ? - OBJ.FUNC
+    - COL1613
+  : 1.03933
+  ? - ROW0047
+    - COL1415
+  : -1
+  ? - ROW0331
+    - COL0693
+  : -1
+  ? - OBJ.FUNC
+    - COL1519
+  : 39.63221
+  ? - OBJ.FUNC
+    - COL0068
+  : 3.96489
+  ? - ROW0243
+    - COL0480
+  : -1
+  ? - ROW0176
+    - COL0279
+  : -1
+  ? - ROW0340
+    - COL0701
+  : -0.02035
+  ? - ROW0467
+    - COL1010
+  : -1
+  ? - ROW0238
+    - COL1317
+  : 1
+  ? - OBJ.FUNC
+    - COL0228
+  : 5.68317
+  ? - ROW0498
+    - COL1093
+  : 1
+  ? - ROW0102
+    - COL0143
+  : -1
+  ? - OBJ.FUNC
+    - COL0154
+  : 15.60014
+  ? - OBJ.FUNC
+    - COL0623
+  : 129.4331
+  ? - ROW0016
+    - COL0029
+  : -0.02278
+  ? - ROW0394
+    - COL0856
+  : 1
+  ? - ROW0403
+    - COL0865
+  : -1
+  ? - OBJ.FUNC
+    - COL0504
+  : 26.79959
+  ? - ROW0074
+    - COL1207
+  : 1
+  ? - ROW0371
+    - COL0815
+  : -0.67823
+  ? - ROW0106
+    - COL0171
+  : 1
+  ? - ROW0337
+    - COL0709
+  : -1
+  ? - ROW0087
+    - COL0131
+  : 1
+  ? - ROW0097
+    - COL0156
+  : 1
+  ? - OBJ.FUNC
+    - COL1405
+  : 26.98182
+  ? - OBJ.FUNC
+    - COL0619
+  : 77.3156
+  ? - OBJ.FUNC
+    - COL1552
+  : 175.1927
+  ? - ROW0470
+    - COL0997
+  : -1
+  ? - ROW0406
+    - COL0877
+  : 0.89237
+  ? - ROW0677
+    - COL1585
+  : 1
+  ? - ROW0633
+    - COL1450
+  : 1
+  ? - OBJ.FUNC
+    - COL0836
+  : 297.619
+  ? - ROW0040
+    - COL0285
+  : -1
+  ? - ROW0041
+    - COL0312
+  : 0.95329
+  ? - OBJ.FUNC
+    - COL0675
+  : 54.81254
+  ? - ROW0039
+    - COL0039
+  : -1
+  ? - ROW0225
+    - COL0435
+  : 1
+  ? - ROW0208
+    - COL0422
+  : 1
+  ? - ROW0076
+    - COL0184
+  : 1
+  ? - ROW0020
+    - COL0044
+  : -1
+  ? - ROW0227
+    - COL0442
+  : -1
+  ? - ROW0535
+    - COL1188
+  : 1
+  ? - OBJ.FUNC
+    - COL0148
+  : 17.05437
+  ? - ROW0299
+    - COL0637
+  : -0.84842
+  ? - ROW0148
+    - COL0256
+  : 1
+  ? - ROW0510
+    - COL1172
+  : 0.8729
+  ? - OBJ.FUNC
+    - COL0136
+  : 140.41
+  ? - ROW0494
+    - COL1081
+  : 1
+  ? - ROW0371
+    - COL0840
+  : -1
+  ? - OBJ.FUNC
+    - COL1204
+  : 16.91761
+  ? - OBJ.FUNC
+    - COL0531
+  : 296.0332
+  ? - OBJ.FUNC
+    - COL0177
+  : 323.8342
+  ? - ROW0567
+    - COL1224
+  : -0.02243
+  ? - ROW0424
+    - COL0920
+  : 1
+  ? - ROW0198
+    - COL0375
+  : -1
+  ? - ROW0436
+    - COL0928
+  : 1
+  ? - ROW0329
+    - COL0694
+  : 1
+  ? - ROW0066
+    - COL0095
+  : -0.04656
+  ? - ROW0594
+    - COL1329
+  : 1
+  ? - ROW0658
+    - COL1526
+  : 1
+  ? - ROW0009
+    - COL0016
+  : -1
+  ? - OBJ.FUNC
+    - COL0744
+  : 369.5491
+  ? - ROW0482
+    - COL1030
+  : -1
+  ? - ROW0666
+    - COL1553
+  : -1
+  ? - OBJ.FUNC
+    - COL0204
+  : 4.84482
+  ? - ROW0172
+    - COL0323
+  : 1
+  ? - OBJ.FUNC
+    - COL0393
+  : 35.35068
+  ? - OBJ.FUNC
+    - COL0789
+  : 14.72277
+  ? - ROW0406
+    - COL0855
+  : -1
+  ? - ROW0081
+    - COL1575
+  : -0.00229
+  ? - ROW0308
+    - COL0630
+  : -1
+  ? - ROW0201
+    - COL0388
+  : -1
+  ? - ROW0315
+    - COL0641
+  : -1
+  ? - OBJ.FUNC
+    - COL0041
+  : 53.15756
+  ? - ROW0047
+    - COL0864
+  : 0.92301
+  ? - ROW0302
+    - COL0620
+  : -1
+  ? - ROW0482
+    - COL1021
+  : 1.07214
+  ? - ROW0065
+    - COL0637
+  : 1
+  ? - ROW0616
+    - COL1398
+  : 1
+  ? - ROW0390
+    - COL0845
+  : -1
+  ? - ROW0499
+    - COL1111
+  : 1
+  ? - OBJ.FUNC
+    - COL1465
+  : 3.94596
+  ? - ROW0233
+    - COL0455
+  : 1
+  ? - ROW0444
+    - COL0953
+  : -0.65829
+  ? - OBJ.FUNC
+    - COL0262
+  : 5.13822
+  ? - ROW0050
+    - COL0404
+  : 1
+  ? - ROW0090
+    - COL0142
+  : -1
+  ? - ROW0280
+    - COL0558
+  : -1
+  ? - ROW0593
+    - COL1326
+  : 1
+  ? - ROW0649
+    - COL1499
+  : 1
+  ? - ROW0232
+    - COL0453
+  : -1
+  ? - OBJ.FUNC
+    - COL1140
+  : 117.8689
+  ? - ROW0534
+    - COL1169
+  : 1
+  ? - ROW0229
+    - COL0888
+  : 1
+  ? - ROW0050
+    - COL1250
+  : 1
+  ? - ROW0074
+    - COL1305
+  : 1
+  ? - ROW0534
+    - COL1153
+  : -0.12565
+  ? - ROW0533
+    - COL1168
+  : -1
+  ? - ROW0060
+    - COL1276
+  : 1
+  ? - ROW0043
+    - COL0502
+  : 0.90919
+  ? - ROW0670
+    - COL1564
+  : 1
+  ? - ROW0342
+    - COL0722
+  : 1
+  ? - OBJ.FUNC
+    - COL1525
+  : 29.30832
+  ? - ROW0039
+    - COL0042
+  : -1
+  ? - ROW0015
+    - COL0028
+  : -1
+  ? - ROW0045
+    - COL0760
+  : -1
+  ? - ROW0327
+    - COL0689
+  : -1
+  ? - ROW0618
+    - COL1403
+  : 1
+  ? - ROW0099
+    - COL0149
+  : -1
+  ? - ROW0050
+    - COL0309
+  : 1
+  ? - ROW0041
+    - COL0383
+  : -1
+  ? - OBJ.FUNC
+    - COL0265
+  : 102.8172
+  ? - ROW0370
+    - COL0753
+  : 1
+  ? - ROW0226
+    - COL0437
+  : 1
+  ? - ROW0244
+    - COL0482
+  : 1
+  ? - ROW0253
+    - COL0505
+  : -1
+  ? - ROW0633
+    - COL1449
+  : 1
+  ? - OBJ.FUNC
+    - COL1183
+  : 5.88346
+  ? - OBJ.FUNC
+    - COL0001
+  : 1.21084
+  ? - ROW0288
+    - COL0591
+  : 1
+  ? - ROW0404
+    - COL0878
+  : -1
+  ? - ROW0563
+    - COL1245
+  : 1
+  ? - OBJ.FUNC
+    - COL1432
+  : 19.06941
+  ? - ROW0442
+    - COL0967
+  : -1.19001
+  ? - ROW0079
+    - COL1074
+  : -0.65813
+  ? - ROW0326
+    - COL0727
+  : 1
+  ? - OBJ.FUNC
+    - COL1334
+  : 980.3922
+  ? - OBJ.FUNC
+    - COL0679
+  : 47.84689
+  ? - OBJ.FUNC
+    - COL0305
+  : 41.79903
+  ? - ROW0485
+    - COL1051
+  : 1
+  ? - OBJ.FUNC
+    - COL0064
+  : 6.14802
+  ? - ROW0134
+    - COL0201
+  : -0.04435
+  ? - OBJ.FUNC
+    - COL1396
+  : 15.75299
+  ? - ROW0473
+    - COL1024
+  : 1
+  ? - OBJ.FUNC
+    - COL0412
+  : 1.9766
+  ? - ROW0559
+    - COL1224
+  : -0.03426
+  ? - ROW0361
+    - COL0753
+  : -0.02186
+  ? - OBJ.FUNC
+    - COL1239
+  : 65.87615
+  ? - OBJ.FUNC
+    - COL0810
+  : 327.2251
+  ? - OBJ.FUNC
+    - COL0553
+  : 54.57324
+  ? - ROW0091
+    - COL0144
+  : 1
+  ? - ROW0008
+    - COL0575
+  : 1
+  ? - ROW0329
+    - COL0661
+  : -0.1686
+  ? - OBJ.FUNC
+    - COL0985
+  : 0.33834
+  ? - ROW0063
+    - COL0538
+  : 1
+  ? - OBJ.FUNC
+    - COL0622
+  : 129.4331
+  ? - ROW0260
+    - COL0515
+  : 0.93734
+  ? - ROW0493
+    - COL1075
+  : -0.82212
+  ? - ROW0336
+    - COL0705
+  : 1
+  ? - ROW0291
+    - COL0615
+  : 1
+  ? - ROW0134
+    - COL0235
+  : -1
+  ? - ROW0610
+    - COL1380
+  : -1
+  ? - ROW0040
+    - COL1394
+  : -1
+  ? - ROW0252
+    - COL0547
+  : 1
+  ? - ROW0476
+    - COL1033
+  : 1
+  ? - OBJ.FUNC
+    - COL0059
+  : 36.85957
+  ? - ROW0182
+    - COL0327
+  : -0.01157
+  ? - ROW0472
+    - COL1020
+  : 1
+  ? - ROW0611
+    - COL1383
+  : -1
+  ? - ROW0671
+    - COL1566
+  : 1
+  ? - ROW0688
+    - COL1620
+  : -1
+  ? - ROW0022
+    - COL0049
+  : 1
+  ? - ROW0054
+    - COL0076
+  : 1
+  ? - ROW0402
+    - COL0874
+  : 1
+  ? - ROW0186
+    - COL0342
+  : 1
+  ? - ROW0483
+    - COL1045
+  : 1
+  ? - ROW0111
+    - COL0630
+  : 1
+  ? - OBJ.FUNC
+    - COL1168
+  : 64.12723
+  ? - ROW0628
+    - COL1434
+  : 1
+  ? - ROW0063
+    - COL1042
+  : 1
+  ? - ROW0140
+    - COL0220
+  : -1
+  ? - OBJ.FUNC
+    - COL0801
+  : 264.8305
+  ? - OBJ.FUNC
+    - COL0915
+  : 761.035
+  ? - OBJ.FUNC
+    - COL1104
+  : 3.91264
+  ? - ROW0098
+    - COL0159
+  : 1
+  ? - ROW0482
+    - COL1024
+  : -1
+  ? - ROW0536
+    - COL1207
+  : 1
+  ? - ROW0325
+    - COL0702
+  : 1
+  ? - OBJ.FUNC
+    - COL0659
+  : 1.02161
+  ? - ROW0039
+    - COL0033
+  : -1
+  ? - ROW0413
+    - COL0898
+  : 1
+  ? - ROW0428
+    - COL0937
+  : -1
+  ? - ROW0235
+    - COL0445
+  : -0.06169
+  ? - OBJ.FUNC
+    - COL0919
+  : 473.4849
+  ? - OBJ.FUNC
+    - COL0047
+  : 45.6371
+  ? - ROW0076
+    - COL0101
+  : 1
+  ? - ROW0196
+    - COL0353
+  : -1
+  ? - ROW0676
+    - COL1584
+  : -1
+  ? - ROW0240
+    - COL0574
+  : 1
+  ? - ROW0580
+    - COL1288
+  : 1
+  ? - ROW0136
+    - COL0239
+  : 1
+  ? - ROW0269
+    - COL0542
+  : 1
+  ? - ROW0637
+    - COL1436
+  : -0.00781
+  ? - ROW0373
+    - COL0791
+  : -1.01526
+  ? - OBJ.FUNC
+    - COL1106
+  : 3.96681
+  ? - ROW0512
+    - COL1105
+  : 1
+  ? - ROW0111
+    - COL1039
+  : 1
+  ? - ROW0149
+    - COL0258
+  : -0.7903
+  ? - ROW0531
+    - COL1160
+  : 1
+  ? - ROW0053
+    - COL1267
+  : -1
+  ? - OBJ.FUNC
+    - COL0032
+  : 53.15756
+  ? - ROW0617
+    - COL1402
+  : -1
+  ? - OBJ.FUNC
+    - COL1439
+  : 15.78781
+  ? - ROW0449
+    - COL0974
+  : 1
+  ? - ROW0238
+    - COL0457
+  : 1
+  ? - ROW0324
+    - COL0683
+  : 1
+  ? - OBJ.FUNC
+    - COL1463
+  : 53.2765
+  ? - ROW0440
+    - COL1013
+  : 1
+  ? - ROW0090
+    - COL0140
+  : 1
+  ? - ROW0109
+    - COL0164
+  : 0.89507
+  ? - ROW0367
+    - COL0753
+  : -0.11572
+  ? - ROW0667
+    - COL1555
+  : 1
+  ? - OBJ.FUNC
+    - COL1556
+  : 209.1175
+  ? - ROW0455
+    - COL0989
+  : 1
+  ? - OBJ.FUNC
+    - COL0259
+  : 4.06075
+  ? - ROW0436
+    - COL0952
+  : -1
+  ? - ROW0556
+    - COL1207
+  : 0.88582
+  ? - ROW0585
+    - COL1300
+  : -1
+  ? - ROW0139
+    - COL0274
+  : -0.74811
+  ? - ROW0285
+    - COL0575
+  : -0.07166
+  ? - OBJ.FUNC
+    - COL0212
+  : 18.75539
+  ? - ROW0043
+    - COL0294
+  : -1
+  ? - ROW0492
+    - COL1071
+  : -1
+  ? - ROW0647
+    - COL1493
+  : 1
+  ? - OBJ.FUNC
+    - COL0043
+  : 71.04291
+  ? - ROW0334
+    - COL0699
+  : 0.88333
+  ? - ROW0014
+    - COL0025
+  : 1
+  ? - ROW0106
+    - COL0170
+  : 1
+  ? - ROW0346
+    - COL0727
+  : -0.04659
+  ? - ROW0019
+    - COL0040
+  : 1
+  ? - ROW0039
+    - COL0060
+  : -1
+  ? - ROW0175
+    - COL0377
+  : -1
+  ? - ROW0342
+    - COL0701
+  : -0.0706
+  ? - ROW0591
+    - COL1320
+  : 1
+  ? - ROW0544
+    - COL1185
+  : 0.92468
+  ? - ROW0132
+    - COL0258
+  : 1
+  ? - ROW0224
+    - COL0422
+  : -0.02643
+  ? - ROW0423
+    - COL0905
+  : -1
+  ? - ROW0491
+    - COL1053
+  : -0.05948
+  ? - ROW0559
+    - COL1233
+  : 1
+  ? - ROW0064
+    - COL0094
+  : -0.7233
+  ? - ROW0083
+    - COL0983
+  : 1
+  ? - ROW0165
+    - COL0306
+  : 1
+  ? - ROW0450
+    - COL0967
+  : -0.0029
+  ? - OBJ.FUNC
+    - COL1222
+  : 0.53357
+  ? - ROW0633
+    - COL1436
+  : -0.00758
+  ? - OBJ.FUNC
+    - COL0427
+  : 68.48377
+  ? - OBJ.FUNC
+    - COL1411
+  : 27.33884
+  ? - ROW0575
+    - COL1241
+  : -1
+  ? - OBJ.FUNC
+    - COL1547
+  : 80.38585
+  ? - ROW0503
+    - COL1079
+  : -0.13071
+  ? - OBJ.FUNC
+    - COL1538
+  : 21.73441
+  ? - ROW0027
+    - COL0063
+  : 1
+  ? - ROW0337
+    - COL0707
+  : 1
+  ? - OBJ.FUNC
+    - COL0206
+  : 14.75013
+  ? - OBJ.FUNC
+    - COL0290
+  : 2.46633
+  ? - OBJ.FUNC
+    - COL0578
+  : 60.64281
+  ? - ROW0636
+    - COL1458
+  : 1
+  ? - ROW0348
+    - COL0737
+  : 1
+  ? - ROW0542
+    - COL1153
+  : 1
+  ? - ROW0110
+    - COL0520
+  : 1
+  ? - ROW0065
+    - COL0257
+  : 1
+  ? - OBJ.FUNC
+    - COL0787
+  : 3.98254
+  ? - ROW0187
+    - COL0962
+  : 1
+  ? - ROW0415
+    - COL1205
+  : -0.82927
+  ? - ROW0386
+    - COL0832
+  : 1
+  ? - ROW0025
+    - COL0058
+  : 1
+  ? - ROW0393
+    - COL0842
+  : -0.01751
+  ? - ROW0478
+    - COL1041
+  : -1
+  ? - ROW0323
+    - COL0682
+  : -1
+  ? - ROW0333
+    - COL0750
+  : 1
+  ? - ROW0435
+    - COL0948
+  : -1
+  ? - ROW0468
+    - COL1078
+  : -1
+  ? - OBJ.FUNC
+    - COL0439
+  : 123.0921
+  ? - ROW0041
+    - COL1351
+  : -1
+  ? - ROW0473
+    - COL1026
+  : -1
+  ? - OBJ.FUNC
+    - COL1067
+  : 69.13717
+  ? - ROW0080
+    - COL1326
+  : 1
+  ? - OBJ.FUNC
+    - COL0978
+  : 514.933
+  ? - ROW0305
+    - COL0627
+  : 1
+  ? - ROW0547
+    - COL1187
+  : -0.3127
+  ? - ROW0386
+    - COL0833
+  : -1
+  ? - ROW0410
+    - COL0889
+  : 1
+  ? - ROW0465
+    - COL1015
+  : -1
+  ? - ROW0065
+    - COL1304
+  : 1
+  ? - ROW0403
+    - COL0842
+  : 1
+  ? - ROW0484
+    - COL1303
+  : -0.29914
+  ? - ROW0045
+    - COL1363
+  : -1
+  ? - ROW0382
+    - COL0819
+  : 1
+  ? - ROW0629
+    - COL1436
+  : -0.02636
+  ? - ROW0055
+    - COL0079
+  : -1.02574
+  ? - OBJ.FUNC
+    - COL0447
+  : 12.8041
+  ? - ROW0157
+    - COL0284
+  : -1
+  ? - ROW0378
+    - COL0809
+  : 1
+  ? - OBJ.FUNC
+    - COL1060
+  : 23.12353
+  ? - ROW0498
+    - COL1079
+  : -0.16665
+  ? - ROW0206
+    - COL0379
+  : -0.01464
+  ? - ROW0140
+    - COL0226
+  : -1
+  ? - ROW0281
+    - COL0825
+  : 1
+  ? - ROW0293
+    - COL0601
+  : 1
+  ? - ROW0176
+    - COL0282
+  : -1
+  ? - ROW0517
+    - COL1123
+  : 1
+  ? - ROW0598
+    - COL1335
+  : 1
+  ? - OBJ.FUNC
+    - COL1298
+  : 1470.588
+  ? - OBJ.FUNC
+    - COL0522
+  : 52.54861
+  ? - ROW0063
+    - COL0719
+  : 1
+  ? - ROW0142
+    - COL0244
+  : -0.51002
+  ? - ROW0506
+    - COL1109
+  : -1
+  ? - ROW0308
+    - COL0624
+  : -1
+  ? - ROW0638
+    - COL1466
+  : -1
+  ? - ROW0040
+    - COL1348
+  : -1
+  ? - ROW0686
+    - COL1612
+  : 1
+  ? - OBJ.FUNC
+    - COL0158
+  : 1256.281
+  ? - OBJ.FUNC
+    - COL0565
+  : 60.85686
+  ? - ROW0609
+    - COL1375
+  : 1
+  ? - OBJ.FUNC
+    - COL1246
+  : 35.35068
+  ? - ROW0656
+    - COL1520
+  : 1
+  ? - ROW0107
+    - COL0164
+  : -0.0529
+  ? - ROW0255
+    - COL0509
+  : 1
+  ? - ROW0146
+    - COL0532
+  : 1
+  ? - ROW0193
+    - COL0366
+  : 1
+  ? - ROW0631
+    - COL1444
+  : 1
+  ? - OBJ.FUNC
+    - COL0958
+  : 787.4016
+  ? - OBJ.FUNC
+    - COL1085
+  : 6.70601
+  ? - ROW0675
+    - COL1575
+  : -0.01905
+  ? - OBJ.FUNC
+    - COL0397
+  : 84.14675
+  ? - ROW0460
+    - COL1005
+  : -1
+  ? - ROW0342
+    - COL0724
+  : -1
+  ? - ROW0497
+    - COL1090
+  : 1
+  ? - ROW0185
+    - COL0330
+  : -1
+  ? - ROW0028
+    - COL0082
+  : 1
+  ? - ROW0063
+    - COL0090
+  : 1
+  ? - ROW0081
+    - COL0567
+  : 1
+  ? - ROW0418
+    - COL0908
+  : 1
+  ? - ROW0659
+    - COL1531
+  : -1
+  ? - ROW0679
+    - COL1592
+  : 1
+  ? - ROW0683
+    - COL1604
+  : 1
+  ? - ROW0051
+    - COL0871
+  : -1
+  ? - ROW0299
+    - COL0658
+  : 1
+  ? - ROW0555
+    - COL1207
+  : -0.05936
+  ? - ROW0151
+    - COL0267
+  : 1
+  ? - ROW0387
+    - COL0836
+  : -1
+  ? - ROW0300
+    - COL0597
+  : -1
+  ? - OBJ.FUNC
+    - COL1564
+  : 32.28097
+  ? - ROW0634
+    - COL1436
+  : -0.08988
+  ? - ROW0643
+    - COL1482
+  : -1
+  ? - OBJ.FUNC
+    - COL0198
+  : 0.51201
+  ? - ROW0475
+    - COL1021
+  : -0.01691
+  ? - ROW0578
+    - COL1276
+  : -0.06919
+  ? - ROW0092
+    - COL0146
+  : 1
+  ? - ROW0334
+    - COL0665
+  : -1
+  ? - ROW0623
+    - COL1419
+  : 1
+  ? - ROW0443
+    - COL0957
+  : 1
+  ? - ROW0051
+    - COL0509
+  : -1
+  ? - ROW0683
+    - COL1605
+  : -1
+  ? - ROW0472
+    - COL1021
+  : -1.05991
+  ? - ROW0617
+    - COL1401
+  : 1
+  ? - ROW0535
+    - COL1153
+  : -0.22484
+  ? - ROW0576
+    - COL1276
+  : -1.03017
+  ? - ROW0325
+    - COL0661
+  : -0.12535
+  ? - ROW0418
+    - COL0909
+  : 1
+  ? - ROW0583
+    - COL1298
+  : 1
+  ? - ROW0092
+    - COL0147
+  : 1
+  ? - ROW0368
+    - COL0788
+  : 1
+  ? - ROW0613
+    - COL1387
+  : 1
+  ? - ROW0006
+    - COL0009
+  : 1
+  ? - ROW0036
+    - COL0120
+  : -0.72888
+  ? - ROW0103
+    - COL0929
+  : -1
+  ? - ROW0178
+    - COL0327
+  : -1.11787
+  ? - ROW0153
+    - COL0267
+  : -1
+  ? - ROW0193
+    - COL0365
+  : 1
+  ? - ROW0653
+    - COL1513
+  : -1
+  ? - ROW0157
+    - COL0283
+  : 1
+  ? - ROW0140
+    - COL0208
+  : -1
+  ? - OBJ.FUNC
+    - COL0388
+  : 51.07252
+  ? - ROW0288
+    - COL0592
+  : 1
+  ? - ROW0078
+    - COL0656
+  : -0.59918
+  ? - ROW0101
+    - COL0124
+  : 0.4508
+  ? - OBJ.FUNC
+    - COL0580
+  : 7.7541
+  ? - ROW0043
+    - COL0389
+  : -1
+  ? - ROW0008
+    - COL0014
+  : -1
+  ? - ROW0046
+    - COL0395
+  : -1
+  ? - ROW0172
+    - COL0278
+  : -0.06187
+  ? - ROW0321
+    - COL0676
+  : -1
+  ? - ROW0350
+    - COL0743
+  : 1
+  ? - ROW0372
+    - COL0757
+  : -1
+  ? - ROW0380
+    - COL0799
+  : -1
+  ? - ROW0514
+    - COL1110
+  : -0.05039
+  ? - ROW0040
+    - COL1468
+  : -1
+  ? - ROW0117
+    - COL0181
+  : -0.06883
+  ? - ROW0167
+    - COL0328
+  : 1
+  ? - ROW0048
+    - COL0935
+  : -1
+  ? - OBJ.FUNC
+    - COL0186
+  : 680.2721
+  ? - ROW0313
+    - COL0652
+  : -1
+  ? - ROW0455
+    - COL0987
+  : -0.04993
+  ? - ROW0672
+    - COL1569
+  : 1
+  ? - ROW0139
+    - COL0257
+  : -0.74811
+  ? - ROW0455
+    - COL0988
+  : 1
+  ? - ROW0117
+    - COL0195
+  : -1
+  ? - OBJ.FUNC
+    - COL0854
+  : 92.52406
+  ? - ROW0355
+    - COL0754
+  : 1
+  ? - ROW0296
+    - COL0610
+  : 1
+  ? - OBJ.FUNC
+    - COL0712
+  : 13.53803
+  ? - ROW0566
+    - COL1277
+  : 1
+  ? - ROW0687
+    - COL1617
+  : 1
+  ? - ROW0061
+    - COL0093
+  : -0.95098
+  ? - ROW0447
+    - COL0966
+  : -0.98644
+  ? - OBJ.FUNC
+    - COL1101
+  : 21.58615
+  ? - OBJ.FUNC
+    - COL1259
+  : 97.46589
+  ? - ROW0005
+    - COL0007
+  : 1
+  ? - ROW0427
+    - COL0933
+  : 1
+  ? - ROW0551
+    - COL1193
+  : -1
+  ? - ROW0615
+    - COL1394
+  : 1
+  ? - OBJ.FUNC
+    - COL1592
+  : 252.7806
+  ? - ROW0049
+    - COL0303
+  : -1
+  ? - ROW0145
+    - COL0250
+  : -1
+  ? - ROW0334
+    - COL0671
+  : -1
+  ? - ROW0076
+    - COL0641
+  : 1
+  ? - ROW0300
+    - COL0613
+  : 0.91239
+  ? - ROW0107
+    - COL0174
+  : 1
+  ? - OBJ.FUNC
+    - COL0111
+  : 242.0135
+  ? - ROW0547
+    - COL1193
+  : 1
+  ? - ROW0267
+    - COL0517
+  : -0.04497
+  ? - ROW0501
+    - COL1096
+  : 1
+  ? - OBJ.FUNC
+    - COL0804
+  : 231.2673
+  ? - ROW0235
+    - COL0460
+  : 1
+  ? - ROW0021
+    - COL0029
+  : -0.02653
+  ? - ROW0043
+    - COL1403
+  : -1
+  ? - ROW0571
+    - COL1224
+  : -0.02543
+  ? - ROW0213
+    - COL0379
+  : -0.34916
+  ? - ROW0380
+    - COL0805
+  : -1
+  ? - ROW0103
+    - COL0205
+  : -1
+  ? - OBJ.FUNC
+    - COL0357
+  : 49.20291
+  ? - ROW0442
+    - COL0952
+  : 1
+  ? - ROW0041
+    - COL0754
+  : -1
+  ? - ROW0117
+    - COL0194
+  : 1
+  ? - ROW0680
+    - COL1575
+  : -0.00425
+  ? - ROW0568
+    - COL1255
+  : 1
+  ? - ROW0057
+    - COL0081
+  : -0.69609
+  ? - ROW0620
+    - COL1390
+  : -0.00849
+  ? - ROW0374
+    - COL0797
+  : 1
+  ? - ROW0434
+    - COL0950
+  : -1
+  ? - ROW0310
+    - COL0641
+  : 1
+  ? - ROW0300
+    - COL0588
+  : -1
+  ? - OBJ.FUNC
+    - COL0697
+  : 5.43845
+  ? - ROW0670
+    - COL1565
+  : -1
+  ? - ROW0193
+    - COL0350
+  : -0.12132
+  ? - ROW0065
+    - COL0094
+  : 1
+  ? - OBJ.FUNC
+    - COL1023
+  : 1.65019
+  ? - ROW0513
+    - COL1109
+  : 1
+  ? - OBJ.FUNC
+    - COL0563
+  : 2793.296
+  ? - ROW0446
+    - COL0953
+  : 0.84966
+  ? - OBJ.FUNC
+    - COL0102
+  : 336.7003
+  ? - ROW0469
+    - COL1076
+  : 1
+  ? - ROW0460
+    - COL1003
+  : 1
+  ? - ROW0518
+    - COL1126
+  : 1
+  ? - ROW0078
+    - COL0647
+  : 1
+  ? - ROW0665
+    - COL1550
+  : -1
+  ? - ROW0160
+    - COL0293
+  : -1
+  ? - ROW0177
+    - COL1247
+  : -1
+  ? - ROW0209
+    - COL0446
+  : 1
+  ? - OBJ.FUNC
+    - COL0682
+  : 70.64143
+  ? - OBJ.FUNC
+    - COL0462
+  : 207.555
+  ? - ROW0228
+    - COL0440
+  : -1
+  ? - ROW0229
+    - COL0529
+  : 1
+  ? - ROW0569
+    - COL1224
+  : -0.01462
+  ? - OBJ.FUNC
+    - COL0872
+  : 15.44783
+  ? - OBJ.FUNC
+    - COL0765
+  : 47.21881
+  ? - ROW0060
+    - COL0879
+  : 1
+  ? - OBJ.FUNC
+    - COL1338
+  : 1.32686
+  ? - ROW0382
+    - COL0820
+  : 1
+  ? - ROW0662
+    - COL1540
+  : 1
+  ? - ROW0176
+    - COL0291
+  : -1
+  ? - ROW0218
+    - COL0404
+  : -1
+  ? - ROW0011
+    - COL0019
+  : 1
+  ? - ROW0355
+    - COL0753
+  : -0.03503
+  ? - OBJ.FUNC
+    - COL0820
+  : 1265.823
+  ? - ROW0140
+    - COL0242
+  : 0.93889
+  ? - OBJ.FUNC
+    - COL1044
+  : 2.45751
+  ? - ROW0185
+    - COL0339
+  : -1
+  ? - OBJ.FUNC
+    - COL1373
+  : 3.11493
+  ? - ROW0457
+    - COL0996
+  : -1
+  ? - ROW0500
+    - COL1132
+  : -1
+  ? - ROW0462
+    - COL1053
+  : 1
+  ? - ROW0448
+    - COL0970
+  : 1
+  ? - OBJ.FUNC
+    - COL1126
+  : 9.12925
+  ? - ROW0083
+    - COL1075
+  : 1
+  ? - ROW0075
+    - COL0119
+  : -0.92844
+  ? - ROW0233
+    - COL0454
+  : 1
+  ? - ROW0644
+    - COL1484
+  : 1
+  ? - OBJ.FUNC
+    - COL1144
+  : 73.68111
+  ? - ROW0287
+    - COL0589
+  : 1
+  ? - OBJ.FUNC
+    - COL0062
+  : 61.9502
+  ? - OBJ.FUNC
+    - COL1043
+  : 2.45751
+  ? - ROW0524
+    - COL1142
+  : 1
+  ? - ROW0540
+    - COL1182
+  : 1
+  ? - ROW0159
+    - COL0290
+  : -1
+  ? - ROW0400
+    - COL0868
+  : 1
+  ? - ROW0492
+    - COL1062
+  : -1
+  ? - ROW0589
+    - COL1305
+  : -0.05921
+  ? - ROW0034
+    - COL0066
+  : -1
+  ? - ROW0041
+    - COL0579
+  : -1
+  ? - ROW0151
+    - COL0268
+  : 1
+  ? - OBJ.FUNC
+    - COL0770
+  : 128.3697
+  ? - ROW0144
+    - COL0244
+  : -0.03354
+  ? - ROW0597
+    - COL1329
+  : 1
+  ? - OBJ.FUNC
+    - COL0174
+  : 628.1407
+  ? - ROW0179
+    - COL0332
+  : -1
+  ? - ROW0383
+    - COL0823
+  : 1
+  ? - ROW0404
+    - COL0842
+  : 1
+  ? - ROW0552
+    - COL1206
+  : -0.79537
+  ? - ROW0038
+    - COL0202
+  : -1
+  ? - OBJ.FUNC
+    - COL0625
+  : 49.69191
+  ? - OBJ.FUNC
+    - COL1318
+  : 3676.47
+  ? - ROW0683
+    - COL1603
+  : 1
+  ? - OBJ.FUNC
+    - COL0023
+  : 0.36075
+  ? - ROW0005
+    - COL0278
+  : 1
+  ? - ROW0250
+    - COL0471
+  : -0.14802
+  ? - ROW0613
+    - COL1388
+  : 1
+  ? - OBJ.FUNC
+    - COL1150
+  : 0.4369
+  ? - ROW0415
+    - COL0897
+  : 1
+  ? - OBJ.FUNC
+    - COL0311
+  : 3.4174
+  ? - OBJ.FUNC
+    - COL0145
+  : 99.56193
+  ? - ROW0303
+    - COL0622
+  : 1
+  ? - ROW0507
+    - COL1150
+  : 1
+  ? - OBJ.FUNC
+    - COL1482
+  : 324.0441
+  ? - OBJ.FUNC
+    - COL0086
+  : 493.0966
+  ? - OBJ.FUNC
+    - COL0492
+  : 87.73469
+  ? - OBJ.FUNC
+    - COL0655
+  : 355.1136
+  ? - OBJ.FUNC
+    - COL1425
+  : 8.60615
+  ? - OBJ.FUNC
+    - COL1383
+  : 10.67031
+  ? - OBJ.FUNC
+    - COL0777
+  : 11.61872
+  ? - OBJ.FUNC
+    - COL1487
+  : 395.5696
+  ? - ROW0301
+    - COL0614
+  : 1
+  ? - ROW0352
+    - COL0727
+  : 0.92258
+  ? - OBJ.FUNC
+    - COL1401
+  : 42.34059
+  ? - ROW0074
+    - COL0902
+  : 1
+  ? - ROW0143
+    - COL0250
+  : 1
+  ? - ROW0388
+    - COL0819
+  : -1
+  ? - ROW0405
+    - COL0925
+  : 1
+  ? - ROW0575
+    - COL1235
+  : -1
+  ? - ROW0045
+    - COL1409
+  : -1
+  ? - ROW0319
+    - COL0670
+  : -1
+  ? - ROW0476
+    - COL1035
+  : -1
+  ? - OBJ.FUNC
+    - COL0192
+  : 704.2253
+  ? - ROW0053
+    - COL1619
+  : 1
+  ? - ROW0192
+    - COL0362
+  : 1
+  ? - ROW0076
+    - COL1308
+  : 1
+  ? - OBJ.FUNC
+    - COL1435
+  : 0.81415
+  ? - ROW0192
+    - COL0350
+  : -0.0519
+  ? - ROW0024
+    - COL0055
+  : 1
+  ? - OBJ.FUNC
+    - COL0449
+  : 77.90589
+  ? - OBJ.FUNC
+    - COL0118
+  : 82.78146
+  ? - ROW0138
+    - COL0201
+  : 1
+  ? - ROW0274
+    - COL0554
+  : -1
+  ? - ROW0442
+    - COL0953
+  : -1.19001
+  ? - OBJ.FUNC
+    - COL1203
+  : 16.91761
+  ? - ROW0658
+    - COL1527
+  : 1
+  ? - ROW0420
+    - COL0902
+  : -0.06016
+  ? - ROW0675
+    - COL1581
+  : -1
+  ? - ROW0247
+    - COL0471
+  : -0.00645
+  ? - OBJ.FUNC
+    - COL0215
+  : 118.5958
+  ? - ROW0530
+    - COL1153
+  : -0.03833
+  ? - OBJ.FUNC
+    - COL0649
+  : 134.0123
+  ? - ROW0584
+    - COL1276
+  : -0.1374
+  ? - ROW0003
+    - COL0004
+  : -1
+  ? - ROW0082
+    - COL0120
+  : -0.42579
+  ? - ROW0495
+    - COL1085
+  : -1
+  ? - OBJ.FUNC
+    - COL0340
+  : 341.5301
+  ? - ROW0347
+    - COL0734
+  : 1
+  ? - ROW0639
+    - COL1470
+  : -1
+  ? - ROW0350
+    - COL0744
+  : -1
+  ? - ROW0040
+    - COL0843
+  : -1
+  ? - OBJ.FUNC
+    - COL1543
+  : 90.17133
+  ? - ROW0320
+    - COL0672
+  : 1
+  ? - ROW0058
+    - COL0092
+  : -1
+  ? - ROW0252
+    - COL0471
+  : -0.05969
+  ? - ROW0512
+    - COL1271
+  : -1
+  ? - OBJ.FUNC
+    - COL0317
+  : 27.82415
+  ? - ROW0114
+    - COL0184
+  : 1
+  ? - OBJ.FUNC
+    - COL0483
+  : 23.23528
+  ? - OBJ.FUNC
+    - COL0049
+  : 144.7178
+  ? - ROW0246
+    - COL0489
+  : -1
+  ? - ROW0126
+    - COL0214
+  : 1
+  ? - ROW0276
+    - COL0560
+  : -1
+  ? - ROW0297
+    - COL0575
+  : 1
+  ? - ROW0618
+    - COL1390
+  : -0.0086
+  ? - ROW0040
+    - COL0229
+  : 0.97015
+  ? - ROW0176
+    - COL0297
+  : -1
+  ? - OBJ.FUNC
+    - COL1370
+  : 17.38647
+  ? - ROW0058
+    - COL0081
+  : -0.09822
+  ? - OBJ.FUNC
+    - COL1577
+  : 94.16196
+  ? - ROW0545
+    - COL1207
+  : -1.06863
+  ? - OBJ.FUNC
+    - COL0369
+  : 88.44862
+  ? - ROW0372
+    - COL0775
+  : -1
+  ? - ROW0356
+    - COL0757
+  : 1
+  ? - ROW0197
+    - COL1065
+  : 1
+  ? - ROW0358
+    - COL0764
+  : 1
+  ? - ROW0538
+    - COL1153
+  : -0.02089
+  ? - ROW0471
+    - COL1424
+  : -1
+  ? - ROW0019
+    - COL0029
+  : -0.02278
+  ? - OBJ.FUNC
+    - COL1593
+  : 252.7806
+  ? - ROW0439
+    - COL0935
+  : -1
+  ? - ROW0049
+    - COL1080
+  : -1
+  ? - ROW0630
+    - COL1441
+  : 1
+  ? - ROW0216
+    - COL0467
+  : -0.57506
+  ? - ROW0177
+    - COL1569
+  : -1
+  ? - ROW0655
+    - COL1519
+  : -1
+  ? - ROW0282
+    - COL0571
+  : -0.3982
+  ? - ROW0471
+    - COL0997
+  : -1
+  ? - ROW0168
+    - COL0350
+  : 1
+  ? - ROW0103
+    - COL0149
+  : 0.90819
+  ? - ROW0509
+    - COL1083
+  : -1
+  ? - ROW0631
+    - COL1436
+  : -0.00224
+  ? - ROW0445
+    - COL0964
+  : -1
+  ? - ROW0018
+    - COL0029
+  : -0.02837
+  ? - OBJ.FUNC
+    - COL0050
+  : 144.7178
+  ? - ROW0149
+    - COL0261
+  : 1
+  ? - ROW0126
+    - COL0216
+  : -1
+  ? - OBJ.FUNC
+    - COL0989
+  : 7.22491
+  ? - ROW0037
+    - COL1225
+  : -1
+  ? - ROW0081
+    - COL0116
+  : 1
+  ? - ROW0004
+    - COL0201
+  : 1
+  ? - ROW0253
+    - COL0503
+  : 1
+  ? - ROW0060
+    - COL0953
+  : 1
+  ? - OBJ.FUNC
+    - COL0536
+  : 146.886
+  ? - ROW0652
+    - COL1509
+  : 1
+  ? - ROW0384
+    - COL0816
+  : -0.03839
+  ? - OBJ.FUNC
+    - COL1356
+  : 26.1739
+  ? - OBJ.FUNC
+    - COL0069
+  : 3.96489
+  ? - ROW0666
+    - COL1551
+  : 1
+  ? - OBJ.FUNC
+    - COL0738
+  : 24.8942
+  ? - ROW0673
+    - COL1532
+  : -0.27671
+  ? - ROW0072
+    - COL0116
+  : 1
+  ? - ROW0214
+    - COL0414
+  : -1
+  ? - ROW0593
+    - COL1305
+  : -0.11753
+  ? - ROW0230
+    - COL0444
+  : -0.61367
+  ? - ROW0289
+    - COL0595
+  : 1
+  ? - ROW0361
+    - COL0773
+  : 1
+  ? - OBJ.FUNC
+    - COL1325
+  : 510.7252
+  ? - ROW0452
+    - COL0967
+  : 0.99029
+  ? - ROW0445
+    - COL0953
+  : -0.13651
+  ? - ROW0334
+    - COL0677
+  : -1
+  ? - ROW0507
+    - COL1129
+  : -0.8426
+  ? - ROW0069
+    - COL0109
+  : -1
+  ? - ROW0501
+    - COL1097
+  : 1
+  ? - ROW0602
+    - COL1355
+  : 1
+  ? - ROW0369
+    - COL0782
+  : -1
+  ? - ROW0284
+    - COL0580
+  : 1
+  ? - ROW0102
+    - COL0146
+  : -1
+  ? - OBJ.FUNC
+    - COL0234
+  : 15.41307
+  ? - ROW0550
+    - COL1187
+  : -0.18944
+  ? - OBJ.FUNC
+    - COL1607
+  : 13.54133
+  ? - ROW0136
+    - COL0201
+  : -0.00678
+  ? - ROW0036
+    - COL0122
+  : -1
+  ? - OBJ.FUNC
+    - COL0530
+  : 296.0332
+  ? - OBJ.FUNC
+    - COL1211
+  : 46.18085
+  ? - OBJ.FUNC
+    - COL0433
+  : 353.1073
+  ? - ROW0260
+    - COL0475
+  : -1
+  ? - ROW0391
+    - COL0847
+  : 1
+  ? - OBJ.FUNC
+    - COL1382
+  : 10.67031
+  ? - OBJ.FUNC
+    - COL0399
+  : 30.62975
+  ? - OBJ.FUNC
+    - COL0381
+  : 36.41661
+  ? - ROW0048
+    - COL0140
+  : -1
+  ? - ROW0110
+    - COL0333
+  : 1
+  ? - ROW0320
+    - COL0661
+  : -0.07813
+  ? - ROW0424
+    - COL1145
+  : 1
+  ? - OBJ.FUNC
+    - COL0189
+  : 91.82736
+  ? - ROW0065
+    - COL0349
+  : 1
+  ? - ROW0196
+    - COL0356
+  : -1
+  ? - ROW0117
+    - COL0193
+  : 1
+  ? - ROW0140
+    - COL0205
+  : -1
+  ? - ROW0364
+    - COL0817
+  : 1
+  ? - ROW0063
+    - COL1119
+  : 1
+  ? - OBJ.FUNC
+    - COL1112
+  : 4.93535
+  ? - ROW0392
+    - COL0842
+  : -0.02228
+  ? - ROW0062
+    - COL0170
+  : 1
+  ? - ROW0575
+    - COL1232
+  : -1
+  ? - ROW0088
+    - COL0135
+  : 1
+  ? - ROW0187
+    - COL1492
+  : -0.00369
+  ? - ROW0431
+    - COL0928
+  : -0.1523
+  ? - OBJ.FUNC
+    - COL1252
+  : 10.33677
+  ? - ROW0077
+    - COL0264
+  : 1
+  ? - OBJ.FUNC
+    - COL0275
+  : 0.51143
+  ? - OBJ.FUNC
+    - COL0139
+  : 230.521
+  ? - ROW0627
+    - COL1430
+  : 1
+  ? - ROW0521
+    - COL1134
+  : 1
+  ? - ROW0190
+    - COL0350
+  : -0.06059
+  ? - ROW0257
+    - COL0506
+  : -1
+  ? - ROW0177
+    - COL1486
+  : -1
+  ? - ROW0096
+    - COL0124
+  : -0.05976
+  ? - OBJ.FUNC
+    - COL0225
+  : 5.78469
+  ? - ROW0110
+    - COL0704
+  : 1
+  ? - ROW0490
+    - COL1068
+  : 1
+  ? - ROW0074
+    - COL0546
+  : 1
+  ? - ROW0083
+    - COL0571
+  : 1
+  ? - ROW0574
+    - COL1336
+  : -0.931
+  ? - OBJ.FUNC
+    - COL0860
+  : 76.1035
+  ? - OBJ.FUNC
+    - COL1352
+  : 8.79353
+  ? - OBJ.FUNC
+    - COL0028
+  : 0.72061
+  ? - ROW0431
+    - COL0939
+  : 1
+  ? - ROW0500
+    - COL1130
+  : 1
+  ? - ROW0417
+    - COL0905
+  : 1
+  ? - ROW0583
+    - COL1297
+  : 1
+  ? - ROW0065
+    - COL1206
+  : 1
+  ? - ROW0623
+    - COL1418
+  : 1
+  ? - ROW0680
+    - COL1595
+  : 1
+  ? - ROW0546
+    - COL1190
+  : 1
+  ? - OBJ.FUNC
+    - COL0729
+  : 14.75318
+  ? - ROW0273
+    - COL0546
+  : -0.13158
+  ? - ROW0615
+    - COL1395
+  : 1
+  ? - ROW0349
+    - COL0741
+  : -1
+  ? - ROW0278
+    - COL0564
+  : 1
+  ? - ROW0402
+    - COL0876
+  : -1
+  ? - ROW0185
+    - COL0345
+  : -1
+  ? - ROW0448
+    - COL0967
+  : -0.00602
+  ? - ROW0556
+    - COL1216
+  : -1
+  ? - ROW0536
+    - COL1208
+  : 1
+  ? - ROW0024
+    - COL0056
+  : -1
+  ? - ROW0175
+    - COL0278
+  : 0.19857
+  ? - ROW0237
+    - COL0463
+  : -1
+  ? - OBJ.FUNC
+    - COL1181
+  : 7.78465
+  ? - ROW0480
+    - COL1047
+  : -1
+  ? - ROW0428
+    - COL0936
+  : 1
+  ? - ROW0477
+    - COL1038
+  : -1
+  ? - ROW0466
+    - COL1017
+  : 1
+  ? - OBJ.FUNC
+    - COL0508
+  : 10.64509
+  ? - OBJ.FUNC
+    - COL0097
+  : 23.77782
+  ? - ROW0466
+    - COL0987
+  : -0.15614
+  ? - ROW0340
+    - COL0718
+  : -1
+  ? - OBJ.FUNC
+    - COL0761
+  : 29.83828
+  ? - ROW0060
+    - COL0081
+  : 1
+  ? - ROW0068
+    - COL0095
+  : -0.34777
+  ? - ROW0319
+    - COL0669
+  : 1
+  ? - ROW0543
+    - COL1220
+  : -0.74044
+  ? - ROW0053
+    - COL0610
+  : -1
+  ? - OBJ.FUNC
+    - COL0626
+  : 49.69191
+  ? - ROW0378
+    - COL0793
+  : -0.06275
+  ? - OBJ.FUNC
+    - COL0652
+  : 315.6566
+  ? - OBJ.FUNC
+    - COL0823
+  : 578.0347
+  ? - ROW0680
+    - COL1596
+  : -1
+  ? - ROW0232
+    - COL0445
+  : -0.57117
+  ? - ROW0531
+    - COL1162
+  : -1
+  ? - ROW0625
+    - COL1425
+  : 1
+  ? - ROW0380
+    - COL0802
+  : -1
+  ? - ROW0101
+    - COL0180
+  : -0.5492
+  ? - ROW0344
+    - COL0725
+  : -0.9562
+  ? - ROW0123
+    - COL0201
+  : -0.04635
+  ? - OBJ.FUNC
+    - COL0514
+  : 4.82314
+  ? - ROW0053
+    - COL0159
+  : -1
+  ? - ROW0077
+    - COL1133
+  : 1
+  ? - OBJ.FUNC
+    - COL1445
+  : 185.3912
+  ? - ROW0003
+    - COL0124
+  : 1
+  ? - ROW0351
+    - COL0746
+  : 1
+  ? - ROW0126
+    - COL0201
+  : -0.00576
+  ? - ROW0332
+    - COL0661
+  : 1
+  ? - OBJ.FUNC
+    - COL0969
+  : 1.49192
+  ? - ROW0450
+    - COL0976
+  : 1
+  ? - ROW0483
+    - COL1291
+  : 1
+  ? - ROW0622
+    - COL1415
+  : 1
+  ? - OBJ.FUNC
+    - COL0302
+  : 28.50952
+  ? - ROW0390
+    - COL0842
+  : -0.0215
+  ? - ROW0241
+    - COL0471
+  : -0.00804
+  ? - ROW0363
+    - COL0795
+  : -1
+  ? - OBJ.FUNC
+    - COL0088
+  : 27.68856
+  ? - ROW0429
+    - COL0954
+  : 1
+  ? - ROW0675
+    - COL1580
+  : 1
+  ? - ROW0358
+    - COL0753
+  : -0.03608
+  ? - ROW0515
+    - COL1116
+  : 1
+  ? - OBJ.FUNC
+    - COL0191
+  : 704.2253
+  ? - ROW0260
+    - COL0478
+  : -1
+  ? - OBJ.FUNC
+    - COL0645
+  : 92.90227
+  ? - ROW0040
+    - COL0662
+  : -1
+  ? - ROW0119
+    - COL0976
+  : 1
+  ? - ROW0060
+    - COL0793
+  : 1
+  ? - ROW0525
+    - COL1145
+  : 1
+  ? - ROW0138
+    - COL0243
+  : -1
+  ? - ROW0093
+    - COL0165
+  : 1
+  ? - ROW0642
+    - COL1478
+  : 1
+  ? - OBJ.FUNC
+    - COL0061
+  : 61.9502
+  ? - ROW0524
+    - COL1130
+  : -0.23
+  ? - ROW0066
+    - COL0100
+  : -1
+  ? - ROW0114
+    - COL0181
+  : -0.08574
+  ? - ROW0276
+    - COL0546
+  : -0.0547
+  ? - OBJ.FUNC
+    - COL0584
+  : 16.80333
+  ? - OBJ.FUNC
+    - COL0786
+  : 3.98254
+  ? - ROW0036
+    - COL0029
+  : 0.27112
+  ? - ROW0183
+    - COL0327
+  : -0.19949
+  ? - OBJ.FUNC
+    - COL1255
+  : 5.77768
+  ? - ROW0475
+    - COL1031
+  : 1
+  ? - ROW0241
+    - COL0473
+  : 1
+  ? - ROW0513
+    - COL1110
+  : -1.02071
+  ? - ROW0084
+    - COL1340
+  : -1
+  ? - OBJ.FUNC
+    - COL1063
+  : 107.9214
+  ? - OBJ.FUNC
+    - COL0866
+  : 15.19387
+  ? - ROW0203
+    - COL0393
+  : 1
+  ? - ROW0531
+    - COL1161
+  : 1
+  ? - ROW0204
+    - COL0396
+  : 1
+  ? - ROW0102
+    - COL0140
+  : -1
+  ? - ROW0187
+    - COL0541
+  : 1
+  ? - ROW0153
+    - COL0258
+  : 0.84853
+  ? - OBJ.FUNC
+    - COL0232
+  : 4.65289
+  ? - ROW0022
+    - COL0029
+  : -0.00837
+  ? - ROW0411
+    - COL0879
+  : -0.15648
+  ? - OBJ.FUNC
+    - COL0474
+  : 70.33337
+  ? - ROW0619
+    - COL1408
+  : -1
+  ? - ROW0608
+    - COL1372
+  : 1
+  ? - ROW0655
+    - COL1492
+  : -0.01068
+  ? - OBJ.FUNC
+    - COL0560
+  : 173.3102
+  ? - OBJ.FUNC
+    - COL0335
+  : 14.83679
+  ? - ROW0277
+    - COL0563
+  : -1
+  ? - ROW0493
+    - COL1074
+  : 1
+  ? - ROW0249
+    - COL0471
+  : -0.02456
+  ? - ROW0220
+    - COL0610
+  : 1
+  ? - OBJ.FUNC
+    - COL0684
+  : 7.28343
+  ? - ROW0407
+    - COL0902
+  : -1.03224
+  ? - ROW0437
+    - COL0984
+  : 1
+  ? - OBJ.FUNC
+    - COL1180
+  : 7.78465
+  ? - ROW0041
+    - COL0131
+  : -1
+  ? - ROW0624
+    - COL1390
+  : -0.01477
+  ? - ROW0057
+    - COL0087
+  : 1
+  ? - OBJ.FUNC
+    - COL1001
+  : 54.82456
+  ? - ROW0572
+    - COL1254
+  : -1
+  ? - OBJ.FUNC
+    - COL0372
+  : 67.659
+  ? - ROW0278
+    - COL0565
+  : 1
+  ? - OBJ.FUNC
+    - COL1531
+  : 1.71627
+  ? - ROW0463
+    - COL1009
+  : -1
+  ? - ROW0275
+    - COL0556
+  : 1
+  ? - ROW0297
+    - COL0607
+  : -1
+  ? - ROW0391
+    - COL0848
+  : -1
+  ? - ROW0122
+    - COL0203
+  : 1
+  ? - ROW0228
+    - COL0428
+  : -1
+  ? - OBJ.FUNC
+    - COL0363
+  : 57.43826
+  ? - ROW0644
+    - COL1467
+  : -0.0315
+  ? - OBJ.FUNC
+    - COL0315
+  : 72.7802
+  ? - ROW0372
+    - COL0769
+  : -1
+  ? - ROW0139
+    - COL0201
+  : 0.25189
+  ? - ROW0043
+    - COL0042
+  : -1
+  ? - ROW0055
+    - COL0081
+  : -1.02574
+  ? - ROW0150
+    - COL0266
+  : -1
+  ? - ROW0260
+    - COL0493
+  : -1
+  ? - ROW0156
+    - COL0278
+  : -0.03434
+  ? - ROW0377
+    - COL0805
+  : 1
+  ? - ROW0081
+    - COL1332
+  : 1
+  ? - ROW0264
+    - COL0528
+  : -1
+  ? - ROW0313
+    - COL0650
+  : 1
+  ? - ROW0121
+    - COL0196
+  : 1
+  ? - ROW0012
+    - COL0928
+  : 1
+  ? - OBJ.FUNC
+    - COL1379
+  : 10.80637
+  ? - ROW0465
+    - COL0987
+  : -0.19155
+  ? - ROW0042
+    - COL1354
+  : -1
+  ? - ROW0039
+    - COL0051
+  : -1
+  ? - ROW0631
+    - COL1445
+  : -1
+  ? - OBJ.FUNC
+    - COL1447
+  : 24.9066
+  ? - ROW0666
+    - COL1532
+  : -0.00154
+  ? - ROW0124
+    - COL0208
+  : 1
+  ? - ROW0287
+    - COL0575
+  : -0.00864
+  ? - ROW0050
+    - COL1390
+  : -0.08531
+  ? - ROW0373
+    - COL0793
+  : -1.01526
+  ? - ROW0187
+    - COL1344
+  : -0.00369
+  ? - ROW0062
+    - COL0250
+  : 1
+  ? - ROW0572
+    - COL1260
+  : -1
+  ? - ROW0679
+    - COL1593
+  : -1
+  ? - ROW0038
+    - COL0030
+  : -1
+  ? - ROW0324
+    - COL0661
+  : -0.12589
+  ? - ROW0596
+    - COL1308
+  : -1
+  ? - OBJ.FUNC
+    - COL1497
+  : 14.0746
+  ? - OBJ.FUNC
+    - COL1414
+  : 113.353
+  ? - ROW0650
+    - COL1503
+  : 1
+  ? - ROW0085
+    - COL0124
+  : -0.00827
+  ? - ROW0518
+    - COL1125
+  : 1
+  ? - ROW0189
+    - COL0353
+  : 1
+  ? - OBJ.FUNC
+    - COL0004
+  : 0.93228
+  ? - ROW0586
+    - COL1304
+  : -0.55017
+  ? - OBJ.FUNC
+    - COL1141
+  : 117.8689
+  ? - ROW0152
+    - COL0271
+  : 1
+  ? - ROW0300
+    - COL0576
+  : -1
+  ? - ROW0317
+    - COL0662
+  : 1
+  ? - ROW0614
+    - COL1390
+  : -0.01276
+  ? - ROW0041
+    - COL0846
+  : -1
+  ? - OBJ.FUNC
+    - COL1347
+  : 22.37036
+  ? - ROW0308
+    - COL0633
+  : -1
+  ? - OBJ.FUNC
+    - COL0648
+  : 134.0123
+  ? - OBJ.FUNC
+    - COL0568
+  : 207.2968
+  ? - ROW0341
+    - COL0701
+  : -0.07426
+  ? - OBJ.FUNC
+    - COL1528
+  : 49.9002
+  ? - ROW0162
+    - COL0298
+  : 1
+  ? - ROW0301
+    - COL0613
+  : -1.02342
+  ? - ROW0356
+    - COL0753
+  : -0.01579
+  ? - OBJ.FUNC
+    - COL0203
+  : 4.84482
+  ? - ROW0144
+    - COL0254
+  : 1
+  ? - ROW0581
+    - COL1291
+  : 1
+  ? - ROW0456
+    - COL0987
+  : -0.06659
+  ? - ROW0549
+    - COL1187
+  : -0.00253
+  ? - ROW0550
+    - COL1202
+  : 1
+  ? - ROW0639
+    - COL1467
+  : -0.0208
+  ? - ROW0528
+    - COL1152
+  : 1
+  ? - ROW0563
+    - COL1246
+  : -1
+  ? - ROW0564
+    - COL1224
+  : -0.02132
+  ? - ROW0277
+    - COL0561
+  : 1
+  ? - ROW0325
+    - COL0701
+  : 1
+  ? - OBJ.FUNC
+    - COL0130
+  : 78.95152
+  ? - OBJ.FUNC
+    - COL1064
+  : 107.9214
+  ? - ROW0357
+    - COL0762
+  : -1
+  ? - OBJ.FUNC
+    - COL0643
+  : 208.8555
+  ? - OBJ.FUNC
+    - COL1521
+  : 14.55223
+  ? - ROW0311
+    - COL0638
+  : -0.3264
+  ? - ROW0426
+    - COL0931
+  : -1
+  ? - ROW0081
+    - COL1344
+  : -0.00229
+  ? - ROW0555
+    - COL1216
+  : 1
+  ? - ROW0505
+    - COL1095
+  : -1
+  ? - ROW0137
+    - COL0230
+  : -1
+  ? - ROW0626
+    - COL1429
+  : -1
+  ? - ROW0274
+    - COL0546
+  : -0.17371
+  ? - ROW0104
+    - COL0164
+  : -1.04008
+  ? - ROW0150
+    - COL0265
+  : 1
+  ? - OBJ.FUNC
+    - COL0667
+  : 45.51247
+  ? - ROW0169
+    - COL0314
+  : 1
+  ? - ROW0196
+    - COL0365
+  : -1
+  ? - ROW0045
+    - COL0214
+  : -1
+  ? - OBJ.FUNC
+    - COL0634
+  : 48.63813
+  ? - ROW0286
+    - COL0575
+  : -0.03313
+  ? - ROW0661
+    - COL1537
+  : 1
+  ? - ROW0544
+    - COL1163
+  : -1
+  ? - ROW0489
+    - COL1065
+  : 1
+  ? - OBJ.FUNC
+    - COL1212
+  : 46.18085
+  ? - ROW0169
+    - COL0315
+  : -1
+  ? - ROW0541
+    - COL1172
+  : -1
+  ? - ROW0565
+    - COL1251
+  : 1
+  ? - ROW0640
+    - COL1467
+  : -0.01692
+  ? - ROW0372
+    - COL0754
+  : -1
+  ? - ROW0118
+    - COL0187
+  : -1
+  ? - ROW0170
+    - COL0278
+  : -0.01696
+  ? - ROW0225
+    - COL0434
+  : 1
+  ? - ROW0240
+    - COL0660
+  : 1
+  ? - ROW0048
+    - COL1514
+  : -1
+  ? - OBJ.FUNC
+    - COL0524
+  : 48.4919
+  ? - ROW0401
+    - COL0873
+  : -1
+  ? - ROW0410
+    - COL0879
+  : -0.04568
+  ? - ROW0048
+    - COL1372
+  : -1
+  ? - ROW0362
+    - COL0776
+  : 1
+  ? - ROW0610
+    - COL1344
+  : -0.00673
+  ? - ROW0070
+    - COL0095
+  : -0.09825
+  ? - ROW0062
+    - COL1282
+  : 1
+  ? - ROW0585
+    - COL1297
+  : -1
+  ? - ROW0399
+    - COL0842
+  : -0.10666
+  ? - ROW0289
+    - COL0575
+  : -0.03865
+  ? - ROW0298
+    - COL0575
+  : 1
+  ? - OBJ.FUNC
+    - COL0419
+  : 4.84759
+  ? - ROW0251
+    - COL0471
+  : -0.08566
+  ? - ROW0676
+    - COL1583
+  : 1
+  ? - ROW0174
+    - COL0326
+  : -1
+  ? - ROW0279
+    - COL0567
+  : 1
+  ? - OBJ.FUNC
+    - COL1072
+  : 78.25951
+  ? - OBJ.FUNC
+    - COL1165
+  : 6.44205
+  ? - OBJ.FUNC
+    - COL1194
+  : 10.24926
+  ? - ROW0254
+    - COL0508
+  : -1
+  ? - OBJ.FUNC
+    - COL1469
+  : 125.9129
+  ? - ROW0678
+    - COL1575
+  : -0.00182
+  ? - ROW0182
+    - COL0341
+  : -1
+  ? - ROW0269
+    - COL0517
+  : -0.04907
+  ? - ROW0368
+    - COL0789
+  : 1
+  ? - ROW0349
+    - COL0727
+  : -0.15821
+  ? - ROW0378
+    - COL0808
+  : 1
+  ? - ROW0331
+    - COL0686
+  : -1
+  ? - ROW0304
+    - COL0615
+  : -0.25821
+  ? - OBJ.FUNC
+    - COL1215
+  : 14.28694
+  ? - ROW0482
+    - COL1042
+  : -1
+  ? - ROW0483
+    - COL1122
+  : 1
+  ? - ROW0524
+    - COL1143
+  : 1
+  ? - ROW0293
+    - COL0575
+  : -0.09757
+  ? - ROW0377
+    - COL0793
+  : -0.5015
+  ? - ROW0589
+    - COL1315
+  : 1
+  ? - ROW0195
+    - COL0372
+  : 1
+  ? - ROW0010
+    - COL0018
+  : -1
+  ? - OBJ.FUNC
+    - COL0867
+  : 15.19387
+  ? - ROW0361
+    - COL0774
+  : -1
+  ? - OBJ.FUNC
+    - COL0021
+  : 0.38357
+  ? - OBJ.FUNC
+    - COL1553
+  : 175.1927
+  ? - OBJ.FUNC
+    - COL0396
+  : 84.14675
+  ? - ROW0409
+    - COL0886
+  : 1
+  ? - OBJ.FUNC
+    - COL0869
+  : 59.6374
+  ? - ROW0489
+    - COL1053
+  : -0.06733
+  ? - ROW0030
+    - COL0067
+  : 1
+  ? - ROW0482
+    - COL1039
+  : -1
+  ? - ROW0376
+    - COL0804
+  : -1
+  ? - ROW0497
+    - COL1079
+  : -0.03224
+  ? - ROW0075
+    - COL0353
+  : 1
+  ? - OBJ.FUNC
+    - COL0280
+  : 13.73966
+  ? - ROW0010
+    - COL0753
+  : 1
+  ? - ROW0563
+    - COL1244
+  : 1
+  ? - ROW0564
+    - COL1249
+  : -1
+  ? - ROW0280
+    - COL0567
+  : -1
+  ? - ROW0053
+    - COL0076
+  : -1
+  ? - OBJ.FUNC
+    - COL0284
+  : 25.52453
+  ? - ROW0328
+    - COL0691
+  : 1
+  ? - ROW0033
+    - COL0077
+  : 1
+  ? - ROW0326
+    - COL0729
+  : -1
+  ? - ROW0478
+    - COL1039
+  : 1
+  ? - ROW0544
+    - COL1157
+  : -1
+  ? - ROW0096
+    - COL0153
+  : 1
+  ? - ROW0529
+    - COL1155
+  : 1
+  ? - OBJ.FUNC
+    - COL0617
+  : 12.83071
+  ? - ROW0040
+    - COL0128
+  : -1
+  ? - ROW0511
+    - COL1179
+  : 1
+  ? - OBJ.FUNC
+    - COL0703
+  : 7.31497
+  ? - OBJ.FUNC
+    - COL0881
+  : 15.98363
+  ? - OBJ.FUNC
+    - COL1156
+  : 18.3392
+  ? - ROW0585
+    - COL1276
+  : 0.90098
+  ? - ROW0609
+    - COL1377
+  : -1
+  ? - ROW0660
+    - COL1534
+  : 1
+  ? - ROW0440
+    - COL0945
+  : 1
+  ? - ROW0223
+    - COL0422
+  : -0.57256
+  ? - ROW0040
+    - COL0033
+  : -1
+  ? - ROW0642
+    - COL1479
+  : -1
+  ? - ROW0648
+    - COL1492
+  : -0.03009
+  ? - ROW0620
+    - COL1410
+  : 1
+  ? - ROW0158
+    - COL0287
+  : -1
+  ? - ROW0205
+    - COL0399
+  : 1
+  ? - ROW0507
+    - COL1151
+  : -1
+  ? - ROW0565
+    - COL1224
+  : -0.13788
+  ? - OBJ.FUNC
+    - COL0248
+  : 43.66812
+  ? - ROW0083
+    - COL0197
+  : 1
+  ? - OBJ.FUNC
+    - COL0800
+  : 264.8305
+  ? - ROW0620
+    - COL1411
+  : -1
+  ? - OBJ.FUNC
+    - COL0387
+  : 51.07252
+  ? - ROW0529
+    - COL1156
+  : -1
+  ? - ROW0106
+    - COL0172
+  : -1
+  ? - ROW0370
+    - COL0792
+  : -1
+  ? - ROW0151
+    - COL0269
+  : -1
+  ? - ROW0466
+    - COL1018
+  : -1
+  ? - OBJ.FUNC
+    - COL1416
+  : 26.24121
+  ? - ROW0197
+    - COL0982
+  : -0.48595
+  ? - ROW0065
+    - COL0726
+  : 1
+  ? - ROW0363
+    - COL0793
+  : 1
+  ? - OBJ.FUNC
+    - COL1177
+  : 34.48989
+  ? - ROW0287
+    - COL0590
+  : -1
+  ? - ROW0176
+    - COL0309
+  : -1
+  ? - ROW0313
+    - COL0638
+  : -0.09606
+  ? - ROW0204
+    - COL0395
+  : 1
+  ? - OBJ.FUNC
+    - COL1315
+  : 1072.961
+  ? - ROW0371
+    - COL0839
+  : 1
+  ? - ROW0683
+    - COL1575
+  : -0.02057
+  ? - ROW0009
+    - COL0015
+  : 1
+  ? - ROW0297
+    - COL0600
+  : -1
+  ? - ROW0454
+    - COL0986
+  : 1
+  ? - OBJ.FUNC
+    - COL1201
+  : 1269.036
+  ? - ROW0558
+    - COL1229
+  : 1
+  ? - ROW0452
+    - COL0970
+  : -1
+  ? - OBJ.FUNC
+    - COL1231
+  : 78.86436
+  ? - ROW0205
+    - COL0400
+  : -1
+  ? - OBJ.FUNC
+    - COL0010
+  : 0.68521
+  ? - ROW0060
+    - COL0701
+  : 1
+  ? - ROW0572
+    - COL1224
+  : 1
+  ? - ROW0627
+    - COL1432
+  : -1
+  ? - ROW0649
+    - COL1501
+  : -1
+  ? - OBJ.FUNC
+    - COL1513
+  : 70.3136
+  ? - ROW0173
+    - COL0313
+  : -1
+  ? - ROW0686
+    - COL1613
+  : 1
+  ? - ROW0077
+    - COL0362
+  : 1
+  ? - OBJ.FUNC
+    - COL0132
+  : 132.8021
+  ? - ROW0070
+    - COL0112
+  : -1
+  ? - ROW0098
+    - COL0161
+  : -1
+  ? - ROW0110
+    - COL1030
+  : 1
+  ? - ROW0569
+    - COL1257
+  : 1
+  ? - ROW0081
+    - COL0371
+  : 1
+  ? - OBJ.FUNC
+    - COL0235
+  : 15.41307
+  ? - ROW0280
+    - COL0552
+  : -1
+  ? - ROW0471
+    - COL1483
+  : -1
+  ? - ROW0299
+    - COL0659
+  : -1
+  ? - ROW0451
+    - COL0979
+  : 1
+  ? - ROW0217
+    - COL0661
+  : 1
+  ? - ROW0645
+    - COL1467
+  : -0.00662
+  ? - OBJ.FUNC
+    - COL0245
+  : 22.27172
+  ? - ROW0431
+    - COL0941
+  : -1
+  ? - OBJ.FUNC
+    - COL1242
+  : 49.23198
+  ? - ROW0153
+    - COL0261
+  : -1
+  ? - ROW0423
+    - COL0914
+  : -1
+  ? - ROW0345
+    - COL0725
+  : 1
+  ? - ROW0060
+    - COL1021
+  : 1
+  ? - ROW0214
+    - COL0408
+  : -1
+  ? - ROW0551
+    - COL1190
+  : -1
+  ? - ROW0155
+    - COL0274
+  : -1
+  ? - ROW0385
+    - COL0828
+  : 1
+  ? - ROW0042
+    - COL0039
+  : -1
+  ? - ROW0507
+    - COL1079
+  : 0.1574
+  ? - ROW0619
+    - COL1390
+  : -0.00788
+  ? - ROW0165
+    - COL0278
+  : -0.00664
+  ? - ROW0276
+    - COL0558
+  : 1
+  ? - ROW0220
+    - COL1269
+  : -1
+  ? - OBJ.FUNC
+    - COL1367
+  : 75.12019
+  ? - OBJ.FUNC
+    - COL1413
+  : 113.353
+  ? - OBJ.FUNC
+    - COL1596
+  : 63.15524
+  ? - OBJ.FUNC
+    - COL0450
+  : 77.90589
+  ? - OBJ.FUNC
+    - COL1049
+  : 292.3977
+  ? - ROW0047
+    - COL0398
+  : -1
+  ? - ROW0510
+    - COL1427
+  : -1
+  ? - OBJ.FUNC
+    - COL1289
+  : 172.9505
+  ? - ROW0425
+    - COL0924
+  : -0.26776
+  ? - ROW0468
+    - COL0987
+  : 1
+  ? - ROW0397
+    - COL0879
+  : 1
+  ? - ROW0662
+    - COL1532
+  : -0.02156
+  ? - ROW0128
+    - COL0201
+  : -0.00689
+  ? - OBJ.FUNC
+    - COL0269
+  : 379.9392
+  ? - ROW0163
+    - COL0301
+  : 1
+  ? - ROW0580
+    - COL1290
+  : -1
+  ? - ROW0202
+    - COL0379
+  : -0.01819
+  ? - ROW0330
+    - COL0696
+  : 1
+  ? - ROW0471
+    - COL1603
+  : -1
+  ? - ROW0123
+    - COL0206
+  : 1
+  ? - ROW0181
+    - COL0338
+  : -1
+  ? - ROW0522
+    - COL1137
+  : 1
+  ? - ROW0206
+    - COL0401
+  : 1
+  ? - OBJ.FUNC
+    - COL0501
+  : 3.82272
+  ? - ROW0227
+    - COL0441
+  : 1
+  ? - ROW0022
+    - COL0048
+  : 1
+  ? - ROW0235
+    - COL0461
+  : 1
+  ? - ROW0049
+    - COL1006
+  : 0.94605
+  ? - ROW0596
+    - COL1314
+  : -1
+  ? - OBJ.FUNC
+    - COL0599
+  : 7.30119
+  ? - OBJ.FUNC
+    - COL0485
+  : 4.21109
+  ? - ROW0079
+    - COL1323
+  : 1
+  ? - ROW0379
+    - COL0811
+  : 1
+  ? - ROW0028
+    - COL0081
+  : 1
+  ? - ROW0510
+    - COL1523
+  : -1
+  ? - ROW0165
+    - COL0308
+  : -1
+  ? - OBJ.FUNC
+    - COL0216
+  : 118.5958
+  ? - ROW0081
+    - COL1071
+  : 1
+  ? - ROW0546
+    - COL1187
+  : -0.06537
+  ? - ROW0134
+    - COL0234
+  : 1
+  ? - ROW0260
+    - COL0496
+  : -1
+  ? - ROW0112
+    - COL1027
+  : 1
+  ? - ROW0578
+    - COL1283
+  : 1
+  ? - ROW0445
+    - COL0963
+  : 1
+  ? - ROW0640
+    - COL1471
+  : 1
+  ? - ROW0414
+    - COL0897
+  : -1
+  ? - ROW0470
+    - COL1000
+  : -1
+  ? - ROW0270
+    - COL0538
+  : -1
+  ? - ROW0570
+    - COL1266
+  : -1
+  ? - OBJ.FUNC
+    - COL0539
+  : 67.27664
+  ? - ROW0284
+    - COL0581
+  : -1
+  ? - OBJ.FUNC
+    - COL0370
+  : 88.44862
+  ? - ROW0512
+    - COL1182
+  : 1
+  ? - ROW0365
+    - COL0753
+  : -0.03429
+  ? - ROW0033
+    - COL0029
+  : -0.03921
+  ? - ROW0159
+    - COL0288
+  : 1
+  ? - OBJ.FUNC
+    - COL0731
+  : 316.6561
+  ? - ROW0638
+    - COL1436
+  : -0.10546
+  ? - ROW0027
+    - COL0065
+  : -1
+  ? - ROW0019
+    - COL0039
+  : 1
+  ? - OBJ.FUNC
+    - COL0318
+  : 27.82415
+  ? - ROW0240
+    - COL0752
+  : 1
+  ? - OBJ.FUNC
+    - COL0899
+  : 559.2841
+  ? - OBJ.FUNC
+    - COL1234
+  : 41.59734
+  ? - ROW0335
+    - COL0701
+  : -1.04379
+  ? - ROW0111
+    - COL0891
+  : 1
+  ? - ROW0420
+    - COL0914
+  : 1
+  ? - OBJ.FUNC
+    - COL0821
+  : 1265.823
+  ? - ROW0077
+    - COL0822
+  : 1
+  ? - ROW0187
+    - COL0811
+  : 1
+  ? - ROW0669
+    - COL1560
+  : 1
+  ? - ROW0293
+    - COL0602
+  : 1
+  ? - OBJ.FUNC
+    - COL0813
+  : 256.1476
+  ? - ROW0396
+    - COL0842
+  : -0.15312
+  ? - ROW0414
+    - COL0891
+  : -1
+  ? - ROW0398
+    - COL0903
+  : 1
+  ? - OBJ.FUNC
+    - COL1587
+  : 49.41199
+  ? - ROW0050
+    - COL0146
+  : 1
+  ? - ROW0233
+    - COL0456
+  : -1
+  ? - ROW0349
+    - COL0739
+  : 1
+  ? - ROW0528
+    - COL1223
+  : 1
+  ? - ROW0654
+    - COL1515
+  : 1
+  ? - ROW0312
+    - COL0647
+  : 1
+  ? - OBJ.FUNC
+    - COL0688
+  : 10.25978
+  ? - ROW0413
+    - COL0899
+  : -1
+  ? - ROW0441
+    - COL1270
+  : -1
+  ? - ROW0609
+    - COL1376
+  : 1
+  ? - ROW0202
+    - COL0391
+  : -1
+  ? - ROW0270
+    - COL0517
+  : 0.98325
+  ? - OBJ.FUNC
+    - COL0360
+  : 5.0597
+  ? - OBJ.FUNC
+    - COL0889
+  : 349.8951
+  ? - ROW0427
+    - COL0928
+  : -0.01762
+  ? - ROW0524
+    - COL1144
+  : -1
+  ? - ROW0372
+    - COL0760
+  : -1
+  ? - OBJ.FUNC
+    - COL0743
+  : 369.5491
+  ? - ROW0352
+    - COL0736
+  : -1
+  ? - ROW0516
+    - COL1121
+  : -1
+  ? - OBJ.FUNC
+    - COL0746
+  : 235.6268
+  ? - ROW0474
+    - COL1027
+  : 1
+  ? - OBJ.FUNC
+    - COL1256
+  : 5.77768
+  ? - OBJ.FUNC
+    - COL0937
+  : 2.43929
+  ? - OBJ.FUNC
+    - COL0078
+  : 185.8045
+  ? - OBJ.FUNC
+    - COL1386
+  : 13.65374
+  ? - ROW0020
+    - COL0042
+  : 1
+  ? - ROW0200
+    - COL0383
+  : 1
+  ? - ROW0526
+    - COL1145
+  : -1
+  ? - ROW0280
+    - COL0549
+  : -1
+  ? - ROW0363
+    - COL0753
+  : -0.08297
+  ? - OBJ.FUNC
+    - COL1419
+  : 10.41146
+  ? - OBJ.FUNC
+    - COL0390
+  : 37.66762
+  ? - ROW0270
+    - COL0541
+  : -1
+  ? - OBJ.FUNC
+    - COL0479
+  : 5.80067
+  ? - OBJ.FUNC
+    - COL0850
+  : 72.72727
+  ? - OBJ.FUNC
+    - COL0364
+  : 57.43826
+  ? - OBJ.FUNC
+    - COL0758
+  : 107.8981
+  ? - ROW0599
+    - COL1345
+  : 1
+  ? - ROW0682
+    - COL1575
+  : -0.00934
+  ? - OBJ.FUNC
+    - COL1484
+  : 83.13934
+  ? - ROW0116
+    - COL0181
+  : -0.08283
+  ? - OBJ.FUNC
+    - COL1454
+  : 4.63019
+  ? - ROW0212
+    - COL0414
+  : 1
+  ? - ROW0169
+    - COL0278
+  : -0.00648
+  ? - OBJ.FUNC
+    - COL1012
+  : 24.35579
+  ? - ROW0604
+    - COL1361
+  : 1
+  ? - OBJ.FUNC
+    - COL0321
+  : 7.62544
+  ? - ROW0676
+    - COL1582
+  : 1
+  ? - ROW0577
+    - COL1276
+  : -0.1252
+  ? - OBJ.FUNC
+    - COL0034
+  : 19.03167
+  ? - OBJ.FUNC
+    - COL0246
+  : 22.27172
+  ? - ROW0084
+    - COL0123
+  : 1
+  ? - ROW0198
+    - COL0374
+  : 1
+  ? - ROW0086
+    - COL0130
+  : -1
+  ? - ROW0261
+    - COL0515
+  : -1.03192
+  ? - ROW0050
+    - COL1436
+  : -0.08531
+  ? - OBJ.FUNC
+    - COL1402
+  : 42.34059
+  ? - ROW0179
+    - COL0330
+  : 1
+  ? - ROW0065
+    - COL1052
+  : 1
+  ? - ROW0396
+    - COL0863
+  : -1
+  ? - ROW0039
+    - COL0063
+  : -1
+  ? - ROW0184
+    - COL0346
+  : 1
+  ? - ROW0327
+    - COL0688
+  : 1
+  ? - ROW0380
+    - COL0811
+  : -1
+  ? - ROW0064
+    - COL0093
+  : 1
+  ? - ROW0079
+    - COL0917
+  : 1
+  ? - ROW0111
+    - COL1285
+  : 1
+  ? - ROW0280
+    - COL0564
+  : -1
+  ? - OBJ.FUNC
+    - COL0714
+  : 144.2585
+  ? - ROW0125
+    - COL0212
+  : 1
+  ? - ROW0395
+    - COL0859
+  : 1
+  ? - ROW0261
+    - COL0517
+  : -1.03192
+  ? - OBJ.FUNC
+    - COL1501
+  : 10.60445
+  ? - ROW0558
+    - COL1230
+  : 1
+  ? - ROW0293
+    - COL0603
+  : -1
+  ? - ROW0612
+    - COL1384
+  : 1
+  ? - ROW0055
+    - COL0080
+  : 1
+  ? - ROW0484
+    - COL1297
+  : 1
+  ? - ROW0317
+    - COL0664
+  : -1
+  ? - OBJ.FUNC
+    - COL1312
+  : 288.0184
+  ? - ROW0461
+    - COL1021
+  : 1
+  ? - ROW0179
+    - COL0327
+  : -0.12697
+  ? - OBJ.FUNC
+    - COL0296
+  : 75.5287
+  ? - ROW0645
+    - COL1486
+  : 1
+  ? - ROW0166
+    - COL0278
+  : -0.13805
+  ? - ROW0369
+    - COL0778
+  : -1
+  ? - ROW0283
+    - COL0576
+  : 1
+  ? - OBJ.FUNC
+    - COL1158
+  : 18.80123
+  ? - ROW0651
+    - COL1505
+  : 1
+  ? - ROW0077
+    - COL0187
+  : 1
+  ? - ROW0290
+    - COL0597
+  : 1
+  ? - ROW0215
+    - COL0379
+  : 1
+  ? - ROW0276
+    - COL0559
+  : 1
+  ? - ROW0214
+    - COL0417
+  : -1
+  ? - ROW0525
+    - COL1130
+  : -0.36863
+  ? - ROW0644
+    - COL1485
+  : -1
+  ? - ROW0648
+    - COL1496
+  : 1
+  ? - ROW0282
+    - COL0570
+  : 1
+  ? - OBJ.FUNC
+    - COL1093
+  : 3.11135
+  ? - ROW0463
+    - COL1008
+  : 1
+  ? - ROW0196
+    - COL0362
+  : -1
+  ? - ROW0453
+    - COL0982
+  : 1
+  ? - ROW0596
+    - COL1326
+  : -1
+  ? - ROW0647
+    - COL1495
+  : -1
+  ? - ROW0065
+    - COL1615
+  : -1
+  ? - OBJ.FUNC
+    - COL0106
+  : 68.37139
+  ? - ROW0077
+    - COL1062
+  : 1
+  ? - ROW0094
+    - COL0124
+  : -0.01598
+  ? - ROW0572
+    - COL1257
+  : -1
+  ? - ROW0043
+    - COL0484
+  : -1
+  ? - ROW0592
+    - COL1325
+  : -1
+  ? - ROW0677
+    - COL1587
+  : -1
+  ? - ROW0068
+    - COL0106
+  : -1
+  ? - ROW0251
+    - COL0517
+  : 1
+  ? - ROW0116
+    - COL0190
+  : 1
+  ? - ROW0369
+    - COL0779
+  : -1
+  ? - ROW0680
+    - COL1594
+  : 1
+  ? - OBJ.FUNC
+    - COL0895
+  : 190.1864
+  ? - ROW0558
+    - COL1224
+  : -0.01807
+  ? - ROW0574
+    - COL1338
+  : -1
+  ? - OBJ.FUNC
+    - COL0406
+  : 4.06815
+  ? - ROW0665
+    - COL1548
+  : 1
+  ? - ROW0046
+    - COL1366
+  : -1
+  ? - ROW0383
+    - COL0824
+  : -1
+  ? - OBJ.FUNC
+    - COL1034
+  : 47.69172
+  ? - ROW0292
+    - COL0575
+  : -0.03971
+  ? - ROW0389
+    - COL0837
+  : 1
+  ? - ROW0635
+    - COL1455
+  : 1
+  ? - ROW0510
+    - COL1086
+  : -1
+  ? - ROW0390
+    - COL0844
+  : 1
+  ? - ROW0422
+    - COL0921
+  : 1
+  ? - OBJ.FUNC
+    - COL1026
+  : 22.08968
+  ? - ROW0427
+    - COL0932
+  : 1
+  ? - OBJ.FUNC
+    - COL0331
+  : 31.13325
+  ? - ROW0335
+    - COL0700
+  : 1
+  ? - ROW0048
+    - COL0057
+  : -1
+  ? - ROW0569
+    - COL1258
+  : 1
+  ? - ROW0456
+    - COL0992
+  : 1
+  ? - ROW0294
+    - COL0604
+  : 1
+  ? - ROW0584
+    - COL1302
+  : -1
+  ? - OBJ.FUNC
+    - COL0038
+  : 42.68761
+  ? - ROW0243
+    - COL0478
+  : 1
+  ? - OBJ.FUNC
+    - COL0629
+  : 165.6178
+  ? - ROW0296
+    - COL0575
+  : -0.16817
+  ? - ROW0469
+    - COL1052
+  : -0.68123
+  ? - ROW0183
+    - COL0343
+  : 1
+  ? - OBJ.FUNC
+    - COL0354
+  : 32.11716
+  ? - ROW0244
+    - COL0471
+  : -0.02435
+  ? - ROW0180
+    - COL0327
+  : -0.26642
+  ? - ROW0360
+    - COL0769
+  : 1
+  ? - OBJ.FUNC
+    - COL0803
+  : 231.2673
+  ? - ROW0518
+    - COL1127
+  : -1
+  ? - OBJ.FUNC
+    - COL1506
+  : 36.3557
+  ? - ROW0083
+    - COL0120
+  : 1
+  ? - ROW0048
+    - COL0991
+  : -1
+  ? - ROW0049
+    - COL1517
+  : -1
+  ? - ROW0553
+    - COL1211
+  : 1
+  ? - ROW0356
+    - COL0759
+  : -1
+  ? - ROW0525
+    - COL1146
+  : 1
+  ? - OBJ.FUNC
+    - COL0459
+  : 1572.327
+  ? - ROW0021
+    - COL0047
+  : -1
+  ? - ROW0063
+    - COL1051
+  : -0.6899
+  ? - ROW0394
+    - COL0857
+  : -1
+  ? - OBJ.FUNC
+    - COL0631
+  : 353.1073
+  ? - OBJ.FUNC
+    - COL0949
+  : 3.12094
+  ? - ROW0684
+    - COL1575
+  : -0.01984
+  ? - ROW0570
+    - COL1265
+  : 1
+  ? - ROW0477
+    - COL1036
+  : 1
+  ? - OBJ.FUNC
+    - COL0711
+  : 13.53803
+  ? - ROW0070
+    - COL0110
+  : 1
+  ? - ROW0617
+    - COL1400
+  : 1
+  ? - ROW0235
+    - COL0462
+  : -1
+  ? - ROW0124
+    - COL0209
+  : 1
+  ? - ROW0318
+    - COL0667
+  : -1
+  ? - ROW0053
+    - COL0512
+  : -1
+  ? - ROW0323
+    - COL0661
+  : -0.01298
+  ? - ROW0632
+    - COL1436
+  : -0.01671
+  ? - ROW0361
+    - COL0772
+  : 1
+  ? - OBJ.FUNC
+    - COL1599
+  : 16.61019
+  ? - ROW0334
+    - COL0683
+  : -1
+  ? - ROW0045
+    - COL0686
+  : 0.90078
+  ? - ROW0482
+    - COL1036
+  : -1
+  ? - ROW0623
+    - COL1390
+  : -0.02229
+  ? - ROW0092
+    - COL0124
+  : -0.05467
+  ? - ROW0543
+    - COL1153
+  : 0.25956
+  ? - ROW0219
+    - COL0693
+  : 1
+  ? - OBJ.FUNC
+    - COL1510
+  : 159.5914
+  ? - OBJ.FUNC
+    - COL0046
+  : 45.6371
+  ? - ROW0110
+    - COL0882
+  : 1
+  ? - ROW0237
+    - COL0454
+  : -1
+  ? - ROW0687
+    - COL1615
+  : -1
+  ? - OBJ.FUNC
+    - COL1398
+  : 6.01395
+  ? - ROW0099
+    - COL0150
+  : -1
+  ? - OBJ.FUNC
+    - COL0469
+  : 0.39404
+  ? - ROW0225
+    - COL0422
+  : -0.03224
+  ? - ROW0295
+    - COL0609
+  : -1
+  ? - ROW0548
+    - COL1197
+  : 1
+  ? - ROW0510
+    - COL1244
+  : -1
+  ? - OBJ.FUNC
+    - COL1362
+  : 23.03192
+  ? - ROW0392
+    - COL0851
+  : -1
+  ? - ROW0482
+    - COL1027
+  : -1
+  ? - ROW0584
+    - COL1300
+  : 1
+  ? - ROW0582
+    - COL1294
+  : 1
+  ? - ROW0406
+    - COL0843
+  : -1
+  ? - ROW0369
+    - COL0788
+  : -1
+  ? - ROW0249
+    - COL0498
+  : -1
+  ? - ROW0044
+    - COL1449
+  : -1
+  ? - ROW0238
+    - COL1136
+  : 1
+  ? - ROW0078
+    - COL0454
+  : 1
+  ? - ROW0380
+    - COL0796
+  : -1
+  ? - OBJ.FUNC
+    - COL0762
+  : 29.83828
+  ? - ROW0410
+    - COL0890
+  : -1
+  ? - ROW0301
+    - COL0615
+  : -1.02342
+  ? - ROW0140
+    - COL0214
+  : -1
+  ? - OBJ.FUNC
+    - COL0343
+  : 19.81532
+  ? - OBJ.FUNC
+    - COL0283
+  : 25.52453
+  ? - ROW0112
+    - COL0179
+  : -0.99995
+  ? - OBJ.FUNC
+    - COL0589
+  : 139.4311
+  ? - ROW0386
+    - COL0816
+  : -0.42703
+  ? - ROW0034
+    - COL0029
+  : 1
+  ? - ROW0102
+    - COL0125
+  : -1
+  ? - OBJ.FUNC
+    - COL0694
+  : 2.08182
+  ? - ROW0062
+    - COL1113
+  : 1
+  ? - ROW0543
+    - COL1222
+  : -1
+  ? - ROW0665
+    - COL1549
+  : 1
+  ? - ROW0412
+    - COL0895
+  : 1
+  ? - ROW0663
+    - COL1543
+  : 1
+  ? - ROW0070
+    - COL0111
+  : 1
+  ? - ROW0177
+    - COL1430
+  : -1
+  ? - ROW0560
+    - COL1235
+  : 1
+  ? - OBJ.FUNC
+    - COL0543
+  : 134.6257
+  ? - ROW0478
+    - COL1021
+  : -0.00801
+  ? - OBJ.FUNC
+    - COL0685
+  : 7.28343
+  ? - ROW0408
+    - COL0883
+  : 1
+  ? - OBJ.FUNC
+    - COL0361
+  : 5.0597
+  ? - OBJ.FUNC
+    - COL1393
+  : 18.18645
+  ? - ROW0647
+    - COL1492
+  : -0.01196
+  ? - ROW0258
+    - COL0471
+  : 1
+  ? - ROW0040
+    - COL0576
+  : -1
+  ? - OBJ.FUNC
+    - COL0797
+  : 283.1257
+  ? - ROW0111
+    - COL0535
+  : 1
+  ? - ROW0285
+    - COL0582
+  : 1
+  ? - OBJ.FUNC
+    - COL1120
+  : 30.96359
+  ? - ROW0045
+    - COL1588
+  : -1
+  ? - ROW0011
+    - COL0842
+  : 1
+  ? - ROW0051
+    - COL0414
+  : -1
+  ? - ROW0179
+    - COL0331
+  : 1
+  ? - ROW0411
+    - COL0893
+  : -1
+  ? - ROW0653
+    - COL1512
+  : 1
+  ? - OBJ.FUNC
+    - COL1507
+  : 36.3557
+  ? - ROW0336
+    - COL0706
+  : -1
+  ? - OBJ.FUNC
+    - COL1293
+  : 996.0159
+  ? - ROW0587
+    - COL1309
+  : 1
+  ? - ROW0601
+    - COL1353
+  : -1
+  ? - ROW0341
+    - COL0721
+  : -1
+  ? - ROW0187
+    - COL1390
+  : -0.00369
+  ? - ROW0073
+    - COL0098
+  : -1
+  ? - ROW0337
+    - COL0701
+  : -0.02436
+  ? - ROW0203
+    - COL0394
+  : -1
+  ? - ROW0232
+    - COL0452
+  : 1
+  ? - ROW0171
+    - COL0320
+  : 1
+  ? - ROW0561
+    - COL1239
+  : 1
+  ? - ROW0451
+    - COL0980
+  : 1
+  ? - ROW0290
+    - COL0598
+  : 1
+  ? - OBJ.FUNC
+    - COL1316
+  : 1072.961
+  ? - ROW0606
+    - COL1344
+  : -0.00097
+  ? - OBJ.FUNC
+    - COL0856
+  : 45.66627
+  ? - ROW0443
+    - COL0953
+  : -0.05486
+  ? - ROW0220
+    - COL0874
+  : 1
+  ? - OBJ.FUNC
+    - COL0320
+  : 7.62544
+  ? - ROW0320
+    - COL0673
+  : -1
+  ? - ROW0167
+    - COL0327
+  : 1
+  ? - ROW0051
+    - COL0693
+  : -1
+  ? - ROW0135
+    - COL0237
+  : 1
+  ? - OBJ.FUNC
+    - COL1143
+  : 73.68111
+  ? - ROW0123
+    - COL0205
+  : 1
+  ? - ROW0075
+    - COL0098
+  : 1
+  ? - ROW0111
+    - COL0900
+  : -0.53344
+  ? - ROW0418
+    - COL0910
+  : -1
+  ? - ROW0253
+    - COL0471
+  : -0.02111
+  ? - ROW0405
+    - COL0842
+  : 0.21283
+  ? - ROW0042
+    - COL0407
+  : 0.89731
+  ? - ROW0522
+    - COL1138
+  : -1
+  ? - ROW0073
+    - COL0107
+  : -1
+  ? - ROW0262
+    - COL0520
+  : 1
+  ? - ROW0038
+    - COL0472
+  : -1
+  ? - ROW0085
+    - COL0127
+  : -1
+  ? - ROW0137
+    - COL0201
+  : 1
+  ? - OBJ.FUNC
+    - COL0947
+  : 36.88676
+  ? - ROW0110
+    - COL1279
+  : 1
+  ? - OBJ.FUNC
+    - COL0172
+  : 86.89607
+  ? - OBJ.FUNC
+    - COL0121
+  : 0.88256
+  ? - ROW0107
+    - COL0175
+  : -1
+  ? - ROW0100
+    - COL0163
+  : -1
+  ? - OBJ.FUNC
+    - COL0798
+  : 283.1257
+  ? - ROW0538
+    - COL1177
+  : 1
+  ? - ROW0601
+    - COL1351
+  : 1
+  ? - ROW0608
+    - COL1344
+  : -0.02336
+  ? - ROW0177
+    - COL0306
+  : -1
+  ? - ROW0206
+    - COL0402
+  : 1
+  ? - ROW0436
+    - COL0986
+  : -1
+  ? - ROW0442
+    - COL0951
+  : -1.19001
+  ? - ROW0460
+    - COL1004
+  : 1
+  ? - ROW0551
+    - COL1199
+  : -1
+  ? - ROW0177
+    - COL1166
+  : -1
+  ? - ROW0613
+    - COL1344
+  : -0.50236
+  ? - ROW0181
+    - COL0336
+  : 1
+  ? - ROW0587
+    - COL1308
+  : 1
+  ? - ROW0122
+    - COL0202
+  : 1
+  ? - ROW0213
+    - COL0419
+  : -1
+  ? - ROW0259
+    - COL0571
+  : -0.77305
+  ? - ROW0048
+    - COL1477
+  : -1
+  ? - OBJ.FUNC
+    - COL1333
+  : 980.3922
+  ? - ROW0514
+    - COL1113
+  : 1
+  ? - ROW0459
+    - COL0987
+  : -0.00658
+  ? - ROW0382
+    - COL0816
+  : -0.0381
+  ? - ROW0046
+    - COL0051
+  : -1
+  ? - OBJ.FUNC
+    - COL1197
+  : 7.98913
+  ? - ROW0208
+    - COL0423
+  : 1
+  ? - OBJ.FUNC
+    - COL0628
+  : 165.6178
+  ? - ROW0384
+    - COL0826
+  : 1
+  ? - ROW0038
+    - COL0125
+  : -1
+  ? - ROW0085
+    - COL0125
+  : 1
+  ? - ROW0270
+    - COL0520
+  : -1
+  ? - OBJ.FUNC
+    - COL0845
+  : 75.36931
+  ? - ROW0266
+    - COL0517
+  : -0.03955
+  ? - ROW0014
+    - COL1079
+  : 1
+  ? - ROW0078
+    - COL0733
+  : 1
+  ? - OBJ.FUNC
+    - COL0728
+  : 14.75318
+  ? - ROW0187
+    - COL0345
+  : 1
+  ? - ROW0051
+    - COL0785
+  : -1
+  ? - OBJ.FUNC
+    - COL0332
+  : 31.13325
+  ? - ROW0262
+    - COL0522
+  : -1
+  ? - ROW0669
+    - COL1561
+  : 1
+  ? - ROW0317
+    - COL0663
+  : 1
+  ? - ROW0685
+    - COL1610
+  : 1
+  ? - ROW0083
+    - COL0274
+  : 1
+  ? - OBJ.FUNC
+    - COL0596
+  : 31.15847
+  ? - ROW0237
+    - COL0457
+  : -1
+  ? - ROW0474
+    - COL1029
+  : -1
+  ? - ROW0097
+    - COL0158
+  : -1
+  ? - ROW0175
+    - COL0375
+  : -0.80143
+  ? - ROW0199
+    - COL0381
+  : 1
+  ? - ROW0360
+    - COL0770
+  : 1
+  ? - ROW0656
+    - COL1492
+  : -0.0291
+  ? - ROW0312
+    - COL0649
+  : -1
+  ? - ROW0034
+    - COL0073
+  : -1
+  ? - OBJ.FUNC
+    - COL0669
+  : 54.25936
+  ? - ROW0519
+    - COL1125
+  : -1
+  ? - OBJ.FUNC
+    - COL1015
+  : 2.31048
+  ? - ROW0386
+    - COL0831
+  : 1
+  ? - ROW0160
+    - COL0292
+  : 1
+  ? - OBJ.FUNC
+    - COL0547
+  : 9.48011
+  ? - ROW0482
+    - COL1033
+  : -1
+  ? - ROW0283
+    - COL0577
+  : 1
+  ? - ROW0474
+    - COL1021
+  : -0.24601
+  ? - ROW0599
+    - COL1346
+  : 1
+  ? - ROW0243
+    - COL0471
+  : -0.09754
+  ? - ROW0255
+    - COL0510
+  : 1
+  ? - ROW0539
+    - COL1153
+  : -0.12248
+  ? - ROW0589
+    - COL1314
+  : 1
+  ? - ROW0210
+    - COL0409
+  : 1
+  ? - OBJ.FUNC
+    - COL1470
+  : 125.9129
+  ? - ROW0221
+    - COL0422
+  : -1.03324
+  ? - OBJ.FUNC
+    - COL0210
+  : 187.2659
+  ? - OBJ.FUNC
+    - COL1237
+  : 109.0988
+  ? - OBJ.FUNC
+    - COL0839
+  : 1.15548
+  ? - ROW0423
+    - COL0920
+  : -1
+  ? - OBJ.FUNC
+    - COL0071
+  : 80.91924
+  ? - OBJ.FUNC
+    - COL1450
+  : 54.91488
+  ? - OBJ.FUNC
+    - COL0337
+  : 37.73016
+  ? - ROW0040
+    - COL0380
+  : -1
+  ? - ROW0050
+    - COL1532
+  : -0.08531
+  ? - ROW0383
+    - COL0822
+  : 1
+  ? - OBJ.FUNC
+    - COL1307
+  : 63.5324
+  ? - OBJ.FUNC
+    - COL0002
+  : 1.21084
+  ? - OBJ.FUNC
+    - COL0489
+  : 18.44134
+  ? - OBJ.FUNC
+    - COL1103
+  : 3.91264
+  ? - ROW0083
+    - COL0749
+  : 1
+  ? - OBJ.FUNC
+    - COL1580
+  : 14.1004
+  ? - ROW0423
+    - COL0911
+  : -1
+  ? - ROW0099
+    - COL0159
+  : -1
+  ? - ROW0152
+    - COL0272
+  : -1
+  ? - ROW0331
+    - COL0690
+  : -1
+  ? - ROW0051
+    - COL1617
+  : 1
+  ? - ROW0355
+    - COL0755
+  : 1
+  ? - ROW0063
+    - COL0894
+  : 1
+  ? - ROW0273
+    - COL0551
+  : -1
+  ? - OBJ.FUNC
+    - COL1273
+  : 78.24726
+  ? - ROW0053
+    - COL0239
+  : -1
+  ? - ROW0125
+    - COL0211
+  : 1
+  ? - ROW0388
+    - COL0825
+  : -1
+  ? - ROW0177
+    - COL1000
+  : -1
+  ? - ROW0515
+    - COL1117
+  : 1
+  ? - OBJ.FUNC
+    - COL0089
+  : 27.68856
+  ? - ROW0585
+    - COL1288
+  : -1
+  ? - ROW0385
+    - COL0816
+  : -0.14295
+  ? - ROW0519
+    - COL1110
+  : 0.92147
+  ? - ROW0571
+    - COL1267
+  : 1
+  ? - OBJ.FUNC
+    - COL0557
+  : 23.74169
+  ? - ROW0630
+    - COL1436
+  : -0.01881
+  ? - ROW0295
+    - COL0608
+  : 1
+  ? - ROW0044
+    - COL0487
+  : -1
+  ? - ROW0030
+    - COL0069
+  : -1
+  ? - ROW0509
+    - COL1080
+  : -1
+  ? - ROW0218
+    - COL0420
+  : 0.90034
+  ? - ROW0387
+    - COL0834
+  : 1
+  ? - ROW0156
+    - COL0279
+  : 1
+  ? - OBJ.FUNC
+    - COL0373
+  : 67.659
+  ? - ROW0207
+    - COL0406
+  : -1
+  ? - ROW0193
+    - COL0367
+  : -1
+  ? - OBJ.FUNC
+    - COL0780
+  : 49.68697
+  ? - OBJ.FUNC
+    - COL0971
+  : 247.7701
+  ? - ROW0634
+    - COL1452
+  : 1
+  ? - OBJ.FUNC
+    - COL1376
+  : 1.67564
+  ? - ROW0535
+    - COL1187
+  : 1
+  ? - ROW0211
+    - COL0413
+  : -1
+  ? - ROW0477
+    - COL1037
+  : 1
+  ? - ROW0306
+    - COL0615
+  : -0.03634
+  ? - ROW0012
+    - COL0022
+  : -1
+  ? - ROW0228
+    - COL0422
+  : 0.90006
+  ? - ROW0273
+    - COL0549
+  : 1
+  ? - ROW0174
+    - COL0278
+  : 1
+  ? - OBJ.FUNC
+    - COL0695
+  : 2.08182
+  ? - ROW0635
+    - COL1456
+  : 1
+  ? - OBJ.FUNC
+    - COL0918
+  : 473.4849
+  ? - ROW0265
+    - COL0530
+  : 1
+  ? - OBJ.FUNC
+    - COL0880
+  : 15.98363
+  ? - OBJ.FUNC
+    - COL0933
+  : 21.77226
+  ? - ROW0025
+    - COL0029
+  : -0.03285
+  ? - OBJ.FUNC
+    - COL0961
+  : 65.6254
+  ? - OBJ.FUNC
+    - COL1404
+  : 26.98182
+  ? - OBJ.FUNC
+    - COL1476
+  : 201.0454
+  ? - ROW0371
+    - COL0753
+  : 0.32177
+  ? - OBJ.FUNC
+    - COL1498
+  : 14.0746
+  ? - ROW0422
+    - COL0920
+  : 1
+  ? - ROW0234
+    - COL0445
+  : -0.00814
+  ? - ROW0211
+    - COL0411
+  : 1
+  ? - ROW0526
+    - COL1142
+  : -1
+  ? - ROW0236
+    - COL0465
+  : -1
+  ? - ROW0684
+    - COL1607
+  : 1
+  ? - ROW0406
+    - COL0849
+  : -1
+  ? - ROW0008
+    - COL0013
+  : 1
+  ? - OBJ.FUNC
+    - COL0423
+  : 9.33358
+  ? - ROW0067
+    - COL0095
+  : -0.07062
+  ? - ROW0046
+    - COL0778
+  : 0.88949
+  ? - ROW0467
+    - COL1006
+  : -1
+  ? - ROW0586
+    - COL1303
+  : 1
+  ? - OBJ.FUNC
+    - COL0400
+  : 30.62975
+  ? - ROW0237
+    - COL0451
+  : -1
+  ? - ROW0236
+    - COL0463
+  : 1
+  ? - ROW0060
+    - COL1110
+  : 1
+  ? - ROW0106
+    - COL0164
+  : -0.38238
+  ? - ROW0444
+    - COL0961
+  : -1
+  ? - ROW0213
+    - COL0418
+  : 1
+  ? - ROW0483
+    - COL1128
+  : -0.40152
+  ? - ROW0463
+    - COL0987
+  : -0.11192
+  ? - ROW0500
+    - COL1079
+  : -0.0306
+  ? - ROW0458
+    - COL0998
+  : 1
+  ? - ROW0503
+    - COL1104
+  : -1
+  ? - ROW0328
+    - COL0692
+  : -1
+  ? - OBJ.FUNC
+    - COL1286
+  : 273.224
+  ? - OBJ.FUNC
+    - COL1287
+  : 273.224
+  ? - ROW0650
+    - COL1504
+  : -1
+  ? - ROW0640
+    - COL1473
+  : -1
+  ? - ROW0044
+    - COL1505
+  : -1
+  ? - ROW0366
+    - COL0753
+  : -0.21717
+  ? - ROW0081
+    - COL1532
+  : -0.00229
+  ? - OBJ.FUNC
+    - COL0605
+  : 16.74425
+  ? - ROW0302
+    - COL0615
+  : -0.16595
+  ? - OBJ.FUNC
+    - COL0161
+  : 34.24892
+  ? - ROW0537
+    - COL1173
+  : 1
+  ? - OBJ.FUNC
+    - COL0609
+  : 7.16025
+  ? - ROW0224
+    - COL0432
+  : 1
+  ? - OBJ.FUNC
+    - COL0135
+  : 140.41
+  ? - ROW0384
+    - COL0827
+  : -1
+  ? - ROW0661
+    - COL1532
+  : -0.01242
+  ? - ROW0082
+    - COL0119
+  : 1
+  ? - ROW0385
+    - COL0830
+  : -1
+  ? - ROW0261
+    - COL0546
+  : -1.03192
+  ? - ROW0283
+    - COL0578
+  : -1
+  ? - ROW0487
+    - COL1053
+  : -0.20131
+  ? - ROW0120
+    - COL0356
+  : 1
+  ? - ROW0192
+    - COL0364
+  : -1
+  ? - ROW0118
+    - COL0181
+  : 0.87261
+  ? - OBJ.FUNC
+    - COL0913
+  : 395.8828
+  ? - ROW0406
+    - COL0852
+  : -1
+  ? - OBJ.FUNC
+    - COL1004
+  : 2.71636
+  ? - ROW0393
+    - COL0854
+  : -1
+  ? - ROW0410
+    - COL0888
+  : 1
+  ? - ROW0224
+    - COL0433
+  : -1
+  ? - ROW0033
+    - COL0078
+  : -1
+  ? - ROW0040
+    - COL0988
+  : -1
+  ? - OBJ.FUNC
+    - COL0035
+  : 19.03167
+  ? - OBJ.FUNC
+    - COL0183
+  : 58.32944
+  ? - OBJ.FUNC
+    - COL1527
+  : 49.9002
+  ? - ROW0488
+    - COL1053
+  : -0.04313
+  ? - ROW0201
+    - COL0387
+  : 1
+  ? - ROW0063
+    - COL0176
+  : 1
+  ? - ROW0487
+    - COL1060
+  : 1
+  ? - OBJ.FUNC
+    - COL1115
+  : 97.94319
+  ? - ROW0187
+    - COL1300
+  : 1
+  ? - ROW0490
+    - COL1069
+  : 1
+  ? - ROW0236
+    - COL0464
+  : 1
+  ? - ROW0041
+    - COL1397
+  : -1
+  ? - ROW0636
+    - COL1459
+  : 1
+  ? - ROW0580
+    - COL1276
+  : -0.23504
+  ? - ROW0156
+    - COL0280
+  : 1
+  ? - ROW0120
+    - COL1059
+  : 1
+  ? - OBJ.FUNC
+    - COL1515
+  : 8.66326
+  ? - OBJ.FUNC
+    - COL1302
+  : 295.858
+  ? - ROW0039
+    - COL0057
+  : -1
+  ? - ROW0032
+    - COL0074
+  : 1
+  ? - ROW0089
+    - COL0138
+  : 1
+  ? - ROW0677
+    - COL1586
+  : 1
+  ? - ROW0350
+    - COL0742
+  : 1
+  ? - OBJ.FUNC
+    - COL0654
+  : 355.1136
+  ? - ROW0492
+    - COL1056
+  : -1
+  ? - OBJ.FUNC
+    - COL0077
+  : 185.8045
+  ? - ROW0248
+    - COL0493
+  : 1
+  ? - OBJ.FUNC
+    - COL0741
+  : 93.24879
+  ? - ROW0074
+    - COL0638
+  : 1
+  ? - ROW0663
+    - COL1532
+  : -0.00299
+  ? - OBJ.FUNC
+    - COL0103
+  : 336.7003
+  ? - OBJ.FUNC
+    - COL1057
+  : 39.20646
+  ? - ROW0217
+    - COL1226
+  : -1
+  ? - OBJ.FUNC
+    - COL1111
+  : 4.93535
+  ? - ROW0032
+    - COL0073
+  : 1
+  ? - ROW0171
+    - COL0278
+  : -0.18911
+  ? - OBJ.FUNC
+    - COL1368
+  : 75.12019
+  ? - ROW0655
+    - COL1517
+  : 1
+  ? - ROW0304
+    - COL0626
+  : -1
+  ? - ROW0249
+    - COL0497
+  : 1
+  ? - ROW0367
+    - COL0786
+  : 1
+  ? - ROW0519
+    - COL1116
+  : -1
+  ? - ROW0279
+    - COL0568
+  : 1
+  ? - ROW0544
+    - COL1160
+  : -1
+  ? - ROW0201
+    - COL0379
+  : -0.01342
+  ? - ROW0602
+    - COL1354
+  : 1
+  ? - ROW0069
+    - COL0108
+  : 1
+  ? - ROW0146
+    - COL1036
+  : 1
+  ? - OBJ.FUNC
+    - COL0698
+  : 5.43845
+  ? - ROW0281
+    - COL0911
+  : 1
+  ? - ROW0473
+    - COL1021
+  : -0.0747
+  ? - ROW0399
+    - COL0866
+  : 1
+  ? - ROW0612
+    - COL1385
+  : 1
+  ? - ROW0625
+    - COL1424
+  : 1
+  ? - OBJ.FUNC
+    - COL0013
+  : 1.20413
+  ? - ROW0297
+    - COL0601
+  : -1
+  ? - ROW0638
+    - COL1464
+  : 1
+  ? - ROW0432
+    - COL0944
+  : -1
+  ? - ROW0234
+    - COL0459
+  : -1
+  ? - OBJ.FUNC
+    - COL0018
+  : 1.70365
+  ? - ROW0325
+    - COL0703
+  : -1
+  ? - OBJ.FUNC
+    - COL1280
+  : 324.6753
+  ? - ROW0050
+    - COL0775
+  : 1
+  ? - ROW0111
+    - COL0716
+  : 1
+  ? - ROW0539
+    - COL1181
+  : -1
+  ? - ROW0651
+    - COL1506
+  : 1
+  ? - ROW0023
+    - COL0053
+  : -1
+  ? - ROW0451
+    - COL0981
+  : -1
+  ? - ROW0051
+    - COL0156
+  : -1
+  ? - ROW0624
+    - COL1423
+  : -1
+  ? - OBJ.FUNC
+    - COL1578
+  : 94.16196
+  ? - ROW0671
+    - COL1568
+  : -1
+  ? - OBJ.FUNC
+    - COL1192
+  : 49.02441
+  ? - OBJ.FUNC
+    - COL1299
+  : 1470.588
+  ? - ROW0681
+    - COL1598
+  : 1
+  ? - ROW0428
+    - COL0935
+  : 1
+  ? - OBJ.FUNC
+    - COL1601
+  : 28.77036
+  ? - ROW0529
+    - COL1153
+  : -0.03929
+  ? - ROW0491
+    - COL1071
+  : 1
+  ? - ROW0584
+    - COL1301
+  : 1
+  ? - ROW0168
+    - COL0278
+  : -0.15825
+  ? - ROW0492
+    - COL1053
+  : 0.97227
+  ? - ROW0223
+    - COL0428
+  : 1
+  ? - ROW0507
+    - COL1149
+  : -0.8426
+  ? - ROW0616
+    - COL1390
+  : -0.0386
+  ? - OBJ.FUNC
+    - COL0152
+  : 8.42276
+  ? - ROW0043
+    - COL1446
+  : -1
+  ? - OBJ.FUNC
+    - COL0518
+  : 6.60546
+  ? - ROW0331
+    - COL0696
+  : -1
+  ? - ROW0111
+    - COL0808
+  : 1
+  ? - OBJ.FUNC
+    - COL0944
+  : 41.35307
+  ? - ROW0142
+    - COL0248
+  : 1
+  ? - ROW0407
+    - COL0879
+  : -1.03224
+  ? - ROW0590
+    - COL1319
+  : -1
+  ? - ROW0329
+    - COL0693
+  : 1
+  ? - ROW0145
+    - COL0244
+  : 0.69212
+  ? - ROW0017
+    - COL0033
+  : 1
+  ? - ROW0492
+    - COL1068
+  : -1
+  ? - ROW0575
+    - COL1244
+  : -1
+  ? - ROW0203
+    - COL0379
+  : -0.01938
+  ? - ROW0146
+    - COL0805
+  : 1
+  ? - OBJ.FUNC
+    - COL0019
+  : 1.62051
+  ? - ROW0681
+    - COL1575
+  : -0.01617
+  ? - ROW0553
+    - COL1212
+  : -1
+  ? - ROW0137
+    - COL0229
+  : -1
+  ? - ROW0488
+    - COL1062
+  : 1
+  ? - ROW0568
+    - COL1224
+  : -0.24667
+  ? - ROW0063
+    - COL0959
+  : 1
+  ? - ROW0513
+    - COL1130
+  : -1.02071
+  ? - ROW0159
+    - COL0289
+  : 1
+  ? - OBJ.FUNC
+    - COL0505
+  : 26.79959
+  ? - ROW0175
+    - COL0349
+  : -0.80143
+  ? - ROW0375
+    - COL0800
+  : 1
+  ? - OBJ.FUNC
+    - COL1131
+  : 16.94686
+  ? - ROW0231
+    - COL0450
+  : -1
+  ? - OBJ.FUNC
+    - COL1054
+  : 4.65497
+  ? - OBJ.FUNC
+    - COL0255
+  : 664.0106
+  ? - ROW0342
+    - COL0723
+  : 1
+  ? - ROW0646
+    - COL1467
+  : -0.07222
+  ? - ROW0071
+    - COL0114
+  : 1
+  ? - ROW0242
+    - COL0471
+  : -0.01781
+  ? - ROW0259
+    - COL0572
+  : 1
+  ? - ROW0269
+    - COL0541
+  : 1
+  ? - ROW0660
+    - COL1533
+  : 1
+  ? - OBJ.FUNC
+    - COL1175
+  : 8.41284
+  ? - ROW0189
+    - COL0355
+  : -1
+  ? - ROW0421
+    - COL0917
+  : 1
+  ? - ROW0217
+    - COL0753
+  : 1
+  ? - OBJ.FUNC
+    - COL1456
+  : 20.52798
+  ? - ROW0028
+    - COL0029
+  : -0.06282
+  ? - ROW0465
+    - COL1014
+  : 1
+  ? - ROW0553
+    - COL1207
+  : -0.19527
+  ? - OBJ.FUNC
+    - COL0151
+  : 8.42276
+  ? - ROW0612
+    - COL1386
+  : -1
+  ? - ROW0195
+    - COL0373
+  : -1
+  ? - ROW0485
+    - COL1052
+  : -0.92774
+  ? - OBJ.FUNC
+    - COL0096
+  : 23.77782
+  ? - ROW0459
+    - COL1000
+  : 1
+  ? - ROW0614
+    - COL1392
+  : 1
+  ? - ROW0572
+    - COL1253
+  : -1
+  ? - ROW0356
+    - COL0758
+  : 1
+  ? - ROW0109
+    - COL0170
+  : -1
+  ? - ROW0591
+    - COL1321
+  : 1
+  ? - ROW0050
+    - COL1092
+  : 1
+  ? - ROW0550
+    - COL1204
+  : -1
+  ? - ROW0578
+    - COL1284
+  : -1
+  ? - OBJ.FUNC
+    - COL0666
+  : 45.51247
+  ? - ROW0077
+    - COL0104
+  : 1
+  ? - ROW0101
+    - COL0198
+  : 1
+  ? - ROW0237
+    - COL0460
+  : -1
+  ? - ROW0305
+    - COL0628
+  : 1
+  ? - ROW0085
+    - COL0126
+  : 1
+  ? - ROW0228
+    - COL0431
+  : -1
+  ? - ROW0470
+    - COL1003
+  : -1
+  ? - ROW0611
+    - COL1382
+  : 1
+  ? - OBJ.FUNC
+    - COL0773
+  : 77.93018
+  ? - ROW0568
+    - COL1256
+  : -1
+  ? - ROW0435
+    - COL0942
+  : -1
+  ? - ROW0395
+    - COL0860
+  : -1
+  ? - ROW0375
+    - COL0793
+  : -0.07753
+  ? - OBJ.FUNC
+    - COL0724
+  : 103.6055
+  ? - ROW0392
+    - COL0850
+  : 1
+  ? - OBJ.FUNC
+    - COL1076
+  : 0.24576
+  ? - ROW0419
+    - COL0911
+  : 1
+  ? - ROW0354
+    - COL0749
+  : -0.91056
+  ? - OBJ.FUNC
+    - COL0848
+  : 8.79013
+  ? - ROW0037
+    - COL0124
+  : 1
+  ? - OBJ.FUNC
+    - COL1118
+  : 179.4044
+  ? - OBJ.FUNC
+    - COL0507
+  : 10.64509
+  ? - ROW0269
+    - COL0543
+  : -1
+  ? - ROW0080
+    - COL1142
+  : 1
+  ? - ROW0058
+    - COL0091
+  : 1
+  ? - ROW0603
+    - COL1344
+  : -0.00648
+  ? - ROW0322
+    - COL0661
+  : -0.01916
+  ? - ROW0331
+    - COL0661
+  : 1
+  ? - ROW0643
+    - COL1481
+  : 1
+  ? - ROW0094
+    - COL0182
+  : 1
+  ? - ROW0146
+    - COL0627
+  : 1
+  ? - ROW0003
+    - COL0003
+  : 1
+  ? - ROW0086
+    - COL0129
+  : 1
+  ? - ROW0323
+    - COL0681
+  : 1
+  ? - ROW0428
+    - COL0928
+  : -0.15725
+  ? - ROW0676
+    - COL1575
+  : -0.00169
+  ? - ROW0505
+    - COL1096
+  : -1
+  ? - ROW0021
+    - COL0045
+  : 1
+  ? - ROW0026
+    - COL0062
+  : -1
+  ? - ROW0187
+    - COL0722
+  : 1
+  ? - ROW0495
+    - COL1084
+  : 1
+  ? - ROW0228
+    - COL0437
+  : -1
+  ? - OBJ.FUNC
+    - COL0806
+  : 40.94334
+  ? - ROW0268
+    - COL0517
+  : -0.09818
+  ? - ROW0627
+    - COL1431
+  : 1
+  ? - ROW0143
+    - COL0251
+  : 1
+  ? - ROW0154
+    - COL0273
+  : -1
+  ? - ROW0178
+    - COL0325
+  : -1.11787
+  ? - OBJ.FUNC
+    - COL0382
+  : 36.41661
+  ? - ROW0077
+    - COL0451
+  : 1
+  ? - ROW0262
+    - COL0521
+  : 1
+  ? - ROW0304
+    - COL0624
+  : 1
+  ? - OBJ.FUNC
+    - COL0678
+  : 47.84689
+  ? - ROW0542
+    - COL1186
+  : -1
+  ? - OBJ.FUNC
+    - COL1444
+  : 185.3912
+  ? - ROW0219
+    - COL0785
+  : 1
+  ? - ROW0304
+    - COL0625
+  : 1
+  ? - OBJ.FUNC
+    - COL1584
+  : 159.185
+  ? - ROW0258
+    - COL0574
+  : -1
+  ? - ROW0041
+    - COL0478
+  : -1
+  ? - ROW0024
+    - COL0054
+  : 1
+  ? - ROW0245
+    - COL0486
+  : -1
+  ? - ROW0352
+    - COL0730
+  : -1
+  ? - ROW0456
+    - COL0991
+  : 1
+  ? - ROW0633
+    - COL1451
+  : -1
+  ? - ROW0055
+    - COL0095
+  : -1.02574
+  ? - ROW0163
+    - COL0278
+  : -0.01655
+  ? - ROW0037
+    - COL0029
+  : 1
+  ? - OBJ.FUNC
+    - COL1365
+  : 35.48112
+  ? - ROW0667
+    - COL1532
+  : -0.00129
+  ? - OBJ.FUNC
+    - COL0056
+  : 47.14757
+  ? - ROW0128
+    - COL0220
+  : 1
+  ? - ROW0540
+    - COL1184
+  : -1
+  ? - ROW0062
+    - COL0087
+  : 1
+  ? - OBJ.FUNC
+    - COL0562
+  : 2793.296
+  ? - ROW0532
+    - COL1165
+  : -1
+  ? - OBJ.FUNC
+    - COL1457
+  : 20.52798
+  ? - OBJ.FUNC
+    - COL1608
+  : 13.54133
+  ? - ROW0454
+    - COL1078
+  : 1
+  ? - ROW0414
+    - COL0885
+  : -1
+  ? - ROW0045
+    - COL1551
+  : -1
+  ? - ROW0060
+    - COL0615
+  : 1
+  ? - ROW0628
+    - COL1390
+  : -0.2851
+  ? - OBJ.FUNC
+    - COL0960
+  : 65.6254
+  ? - ROW0430
+    - COL0967
+  : 1
+  ? - ROW0571
+    - COL1273
+  : -1
+  ? - ROW0164
+    - COL0305
+  : -1
+  ? - ROW0111
+    - COL0339
+  : 1
+  ? - ROW0479
+    - COL1043
+  : 1
+  ? - ROW0063
+    - COL1288
+  : 1
+  ? - ROW0087
+    - COL0132
+  : 1
+  ? - ROW0220
+    - COL0696
+  : 1
+  ? - ROW0531
+    - COL1153
+  : -0.02507
+  ? - ROW0291
+    - COL0617
+  : -1
+  ? - OBJ.FUNC
+    - COL1442
+  : 22.12585
+  ? - OBJ.FUNC
+    - COL0764
+  : 47.21881
+  ? - OBJ.FUNC
+    - COL1422
+  : 15.71536
+  ? - OBJ.FUNC
+    - COL0670
+  : 54.25936
+  ? - ROW0333
+    - COL0749
+  : -0.74221
+  ? - ROW0087
+    - COL0133
+  : -1
+  ? - ROW0561
+    - COL1224
+  : -0.02163
+  ? - ROW0562
+    - COL1243
+  : -1
+  ? - ROW0409
+    - COL0879
+  : -0.12391
+  ? - OBJ.FUNC
+    - COL0946
+  : 36.88676
+  ? - ROW0433
+    - COL0947
+  : -1
+  ? - ROW0604
+    - COL1360
+  : 1
+  ? - ROW0415
+    - COL1196
+  : 1
+  ? - ROW0130
+    - COL0201
+  : -0.12029
+  ? - OBJ.FUNC
+    - COL1460
+  : 37.15538
+  ? - ROW0222
+    - COL0422
+  : -0.13629
+  ? - ROW0002
+    - COL0029
+  : 1
+  ? - ROW0263
+    - COL0517
+  : -0.13622
+  ? - ROW0296
+    - COL0612
+  : -1
+  ? - ROW0040
+    - COL1499
+  : -1
+  ? - OBJ.FUNC
+    - COL1590
+  : 147.7105
+  ? - ROW0639
+    - COL1469
+  : 1
+  ? - OBJ.FUNC
+    - COL1570
+  : 33.99048
+  ? - ROW0042
+    - COL0208
+  : -1
+  ? - ROW0499
+    - COL1112
+  : -1
+  ? - ROW0617
+    - COL1390
+  : -0.00548
+  ? - ROW0060
+    - COL1187
+  : 1
+  ? - ROW0051
+    - COL1260
+  : -1
+  ? - OBJ.FUNC
+    - COL0075
+  : 30.87945
+  ? - OBJ.FUNC
+    - COL1328
+  : 540.5405
+  ? - OBJ.FUNC
+    - COL1132
+  : 16.94686
+  ? - ROW0177
+    - COL1253
+  : 0.88626
+  ? - ROW0164
+    - COL0303
+  : 1
+  ? - ROW0585
+    - COL1291
+  : -1
+  ? - ROW0073
+    - COL0110
+  : -1
+  ? - ROW0181
+    - COL0327
+  : -0.10477
+  ? - ROW0497
+    - COL1089
+  : 1
+  ? - ROW0509
+    - COL1092
+  : -1
+  ? - ROW0533
+    - COL1153
+  : -0.01124
+  ? - OBJ.FUNC
+    - COL0024
+  : 0.36075
+  ? - ROW0278
+    - COL0546
+  : -0.15578
+  ? - ROW0685
+    - COL1609
+  : 1
+  ? - ROW0520
+    - COL1128
+  : 1
+  ? - ROW0041
+    - COL1440
+  : -1
+  ? - OBJ.FUNC
+    - COL0005
+  : 0.68362
+  ? - ROW0495
+    - COL1079
+  : -0.07732
+  ? - OBJ.FUNC
+    - COL1441
+  : 22.12585
+  ? - ROW0287
+    - COL0588
+  : 1
+  ? - ROW0366
+    - COL0782
+  : 1
+  ? - ROW0641
+    - COL1475
+  : 1
+  ? - OBJ.FUNC
+    - COL1236
+  : 109.0988
+  ? - ROW0275
+    - COL0555
+  : 1
+  ? - OBJ.FUNC
+    - COL1595
+  : 63.15524
+  ? - ROW0042
+    - COL0386
+  : -1
+  ? - ROW0264
+    - COL0526
+  : 1
+  ? - ROW0081
+    - COL1467
+  : -0.00229
+  ? - ROW0072
+    - COL0095
+  : -0.28724
+  ? - ROW0153
+    - COL0264
+  : -1
+  ? - ROW0105
+    - COL0164
+  : -0.35719
+  ? - ROW0308
+    - COL0615
+  : 0.9009
+  ? - ROW0128
+    - COL0221
+  : 1
+  ? - ROW0646
+    - COL1489
+  : 1
+  ? - ROW0592
+    - COL1324
+  : 1
+  ? - OBJ.FUNC
+    - COL0341
+  : 341.5301
+  ? - OBJ.FUNC
+    - COL0906
+  : 161.6031
+  ? - OBJ.FUNC
+    - COL1524
+  : 29.30832
+  ? - OBJ.FUNC
+    - COL0218
+  : 301.9323
+  ? - OBJ.FUNC
+    - COL1014
+  : 2.31048
+  ? - ROW0017
+    - COL0034
+  : 1
+  ? - ROW0153
+    - COL0270
+  : -1
+  ? - ROW0550
+    - COL1203
+  : 1
+  ? - ROW0191
+    - COL0350
+  : -0.5892
+  ? - ROW0046
+    - COL0490
+  : -1
+  ? - ROW0307
+    - COL0635
+  : -1
+  ? - OBJ.FUNC
+    - COL1127
+  : 9.12925
+  ? - OBJ.FUNC
+    - COL1479
+  : 86.31107
+  ? - ROW0166
+    - COL0311
+  : -1
+  ? - OBJ.FUNC
+    - COL1090
+  : 16.08441
+  ? - OBJ.FUNC
+    - COL0464
+  : 152.9052
+  ? - ROW0053
+    - COL0322
+  : -1
+  ? - ROW0248
+    - COL0494
+  : 1
+  ? - ROW0594
+    - COL1330
+  : 1
+  ? - ROW0347
+    - COL0727
+  : -0.0226
+  ? - ROW0226
+    - COL0439
+  : -1
+  ? - OBJ.FUNC
+    - COL1306
+  : 63.5324
+  ? - ROW0272
+    - COL0544
+  : 1
+  ? - ROW0315
+    - COL0650
+  : -1
+  ? - OBJ.FUNC
+    - COL0705
+  : 47.01899
+  ? - ROW0509
+    - COL1108
+  : 0.93609
+  ? - ROW0664
+    - COL1545
+  : 1
+  ? - ROW0030
+    - COL0068
+  : 1
+  ? - ROW0506
+    - COL1079
+  : 1
+  ? - OBJ.FUNC
+    - COL0334
+  : 14.83679
+  ? - ROW0380
+    - COL0808
+  : -1
+  ? - ROW0631
+    - COL1443
+  : 1
+  ? - ROW0376
+    - COL0802
+  : 1
+  ? - ROW0546
+    - COL1191
+  : 1
+  ? - ROW0664
+    - COL1546
+  : 1
+  ? - ROW0187
+    - COL1467
+  : -0.00369
+  ? - ROW0061
+    - COL0084
+  : 1
+  ? - ROW0405
+    - COL0924
+  : -0.78717
+  ? - ROW0050
+    - COL1003
+  : 1
+  ? - ROW0471
+    - COL1378
+  : -1
+  ? - OBJ.FUNC
+    - COL0723
+  : 103.6055
+  ? - OBJ.FUNC
+    - COL0783
+  : 7.84461
+  ? - ROW0618
+    - COL1404
+  : 1
+  ? - ROW0191
+    - COL0359
+  : 1
+  ? - ROW0262
+    - COL0517
+  : -0.1257
+  ? - ROW0049
+    - COL1375
+  : -1
+  ? - ROW0583
+    - COL1276
+  : -0.02764
+  ? - ROW0047
+    - COL1557
+  : -1
+  ? - ROW0429
+    - COL0955
+  : -1
+  ? - ROW0133
+    - COL0230
+  : 1
+  ? - OBJ.FUNC
+    - COL0338
+  : 37.73016
+  ? - ROW0250
+    - COL0499
+  : 1
+  ? - ROW0062
+    - COL0336
+  : 1
+  ? - ROW0438
+    - COL0928
+  : 1
+  ? - OBJ.FUNC
+    - COL1008
+  : 3.22323
+  ? - ROW0334
+    - COL0674
+  : -1
+  ? - ROW0448
+    - COL0972
+  : -1
+  ? - ROW0377
+    - COL0806
+  : 1
+  ? - ROW0027
+    - COL0029
+  : -0.19695
+  ? - ROW0115
+    - COL0189
+  : -1
+  ? - ROW0212
+    - COL0415
+  : 1
+  ? - OBJ.FUNC
+    - COL1061
+  : 23.12353
+  ? - ROW0226
+    - COL0438
+  : 1
+  ? - ROW0121
+    - COL0197
+  : -1
+  ? - ROW0180
+    - COL0333
+  : 1
+  ? - ROW0462
+    - COL1054
+  : 1
+  ? - ROW0047
+    - COL0493
+  : -1
+  ? - ROW0044
+    - COL0757
+  : -1
+  ? - ROW0511
+    - COL1264
+  : -1
+  ? - ROW0618
+    - COL1405
+  : -1
+  ? - OBJ.FUNC
+    - COL1462
+  : 53.2765
+  ? - ROW0473
+    - COL1025
+  : 1
+  ? - OBJ.FUNC
+    - COL1495
+  : 35.39823
+  ? - OBJ.FUNC
+    - COL0126
+  : 112.6888
+  ? - OBJ.FUNC
+    - COL1208
+  : 9.01778
+  ? - ROW0338
+    - COL0712
+  : -1
+  ? - ROW0364
+    - COL0818
+  : -1
+  ? - ROW0002
+    - COL0002
+  : -1
+  ? - ROW0334
+    - COL0662
+  : -1
+  ? - OBJ.FUNC
+    - COL0691
+  : 25.4233
+  ? - ROW0417
+    - COL0902
+  : -0.28333
+  ? - ROW0136
+    - COL0241
+  : -1
+  ? - ROW0552
+    - COL1205
+  : 1
+  ? - ROW0470
+    - COL0988
+  : -1
+  ? - OBJ.FUNC
+    - COL0083
+  : 19.27377
+  ? - ROW0336
+    - COL0701
+  : -0.15557
+  ? - OBJ.FUNC
+    - COL0251
+  : 149.925
+  ? - OBJ.FUNC
+    - COL0147
+  : 17.05437
+  ? - ROW0206
+    - COL0403
+  : -1
+  ? - ROW0062
+    - COL0956
+  : 1
+  ? - ROW0497
+    - COL1091
+  : -1
+  ? - ROW0076
+    - COL0730
+  : 1
+  ? - ROW0665
+    - COL1532
+  : -0.00904
+  ? - ROW0233
+    - COL0445
+  : -0.02369
+  ? - ROW0110
+    - COL0425
+  : 1
+  ? - ROW0133
+    - COL0201
+  : -0.14692
+  ? - OBJ.FUNC
+    - COL0718
+  : 359.4536
+  ? - ROW0256
+    - COL0512
+  : 1
+  ? - ROW0481
+    - COL1050
+  : -1
+  ? - OBJ.FUNC
+    - COL0664
+  : 58.34306
+  ? - ROW0615
+    - COL1396
+  : -1
+  ? - OBJ.FUNC
+    - COL0720
+  : 98.50275
+  ? - ROW0101
+    - COL0199
+  : -1
+  ? - ROW0339
+    - COL0713
+  : 1
+  ? - ROW0017
+    - COL0035
+  : -1
+  ? - ROW0619
+    - COL1407
+  : 1
+  ? - OBJ.FUNC
+    - COL0014
+  : 1.20413
+  ? - ROW0560
+    - COL1224
+  : -0.01306
+  ? - ROW0177
+    - COL1461
+  : -1
+  ? - OBJ.FUNC
+    - COL1248
+  : 66.84492
+  ? - ROW0158
+    - COL0285
+  : 1
+  ? - ROW0041
+    - COL0036
+  : -1
+  ? - OBJ.FUNC
+    - COL0307
+  : 71.02273
+  ? - ROW0185
+    - COL0336
+  : -1
+  ? - ROW0238
+    - COL0561
+  : 1
+  ? - OBJ.FUNC
+    - COL1240
+  : 65.87615
+  ? - ROW0089
+    - COL0137
+  : 1
+  ? - ROW0268
+    - COL0538
+  : 1
+  ? - ROW0272
+    - COL0545
+  : -0.74486
+  ? - ROW0470
+    - COL0991
+  : -1
+  ? - OBJ.FUNC
+    - COL1029
+  : 6.70781
+  ? - ROW0245
+    - COL0471
+  : -0.13436
+  ? - OBJ.FUNC
+    - COL1107
+  : 3.96681
+  ? - ROW0104
+    - COL0163
+  : 1
+  ? - ROW0047
+    - COL0220
+  : -1
+  ? - ROW0050
+    - COL0683
+  : 1
+  ? - OBJ.FUNC
+    - COL1610
+  : 30.17501
+  ? - ROW0403
+    - COL0864
+  : -1
+  ? - ROW0314
+    - COL0653
+  : 1
+  ? - ROW0200
+    - COL0379
+  : -0.15271
+  ? - ROW0137
+    - COL0239
+  : -1
+  ? - ROW0311
+    - COL0644
+  : 1
+  ? - ROW0551
+    - COL1196
+  : -1
+  ? - ROW0385
+    - COL0829
+  : 1
+  ? - OBJ.FUNC
+    - COL1243
+  : 49.23198
+  ? - ROW0462
+    - COL0987
+  : -0.0775
+  ? - OBJ.FUNC
+    - COL0461
+  : 207.555
+  ? - OBJ.FUNC
+    - COL1313
+  : 288.0184
+  ? - ROW0343
+    - COL0722
+  : -1
+  ? - ROW0419
+    - COL0902
+  : -0.11566
+  ? - ROW0177
+    - COL1089
+  : -1
+  ? - ROW0490
+    - COL1053
+  : -0.48228
+  ? - ROW0305
+    - COL0615
+  : -0.07747
+  ? - ROW0580
+    - COL1289
+  : 1
+  ? - ROW0264
+    - COL0517
+  : -0.46724
+  ? - ROW0300
+    - COL0591
+  : -1
+  ? - ROW0065
+    - COL0901
+  : 1
+  ? - OBJ.FUNC
+    - COL0964
+  : 316.4557
+  ? - OBJ.FUNC
+    - COL0100
+  : 510.7252
+  ? - OBJ.FUNC
+    - COL0884
+  : 35.92728
+  ? - ROW0217
+    - COL0575
+  : 1
+  ? - ROW0523
+    - COL1140
+  : 1
+  ? - ROW0548
+    - COL1196
+  : 1
+  ? - ROW0346
+    - COL0732
+  : -1
+  ? - ROW0579
+    - COL1285
+  : 1
+  ? - ROW0016
+    - COL0031
+  : 1
+  ? - ROW0164
+    - COL0278
+  : -0.01129
+  ? - ROW0625
+    - COL1390
+  : -0.02697
+  ? - OBJ.FUNC
+    - COL0593
+  : 31.63156
+  ? - ROW0526
+    - COL1136
+  : -1
+  ? - ROW0115
+    - COL0181
+  : -0.63521
+  ? - ROW0042
+    - COL0291
+  : -1
+  ? - ROW0009
+    - COL0661
+  : 1
+  ? - ROW0219
+    - COL0871
+  : 1
+  ? - ROW0408
+    - COL0882
+  : 1
+  ? - OBJ.FUNC
+    - COL0391
+  : 37.66762
+  ? - ROW0226
+    - COL0422
+  : -0.07583
+  ? - ROW0365
+    - COL0781
+  : -1
+  ? - ROW0237
+    - COL0445
+  : 0.91278
+  ? - ROW0433
+    - COL0945
+  : 1
+  ? - ROW0068
+    - COL0105
+  : 1
+  ? - OBJ.FUNC
+    - COL0977
+  : 514.933
+  ? - OBJ.FUNC
+    - COL1544
+  : 90.17133
+  ? - ROW0072
+    - COL0118
+  : -1
+  ? - OBJ.FUNC
+    - COL1025
+  : 22.08968
+  ? - ROW0244
+    - COL0481
+  : 1
+  ? - OBJ.FUNC
+    - COL0436
+  : 289.5194
+  ? - ROW0221
+    - COL0420
+  : -1.03324
+  ? - ROW0284
+    - COL0579
+  : 1
+  ? - OBJ.FUNC
+    - COL0590
+  : 139.4311
+  ? - ROW0372
+    - COL0763
+  : -1
+  ? - ROW0051
+    - COL1179
+  : -1
+  ? - OBJ.FUNC
+    - COL0358
+  : 49.20291
+  ? - ROW0255
+    - COL0511
+  : -1
+  ? - ROW0582
+    - COL1295
+  : 1
+  ? - ROW0576
+    - COL1305
+  : -1.03017
+  ? - OBJ.FUNC
+    - COL0595
+  : 31.15847
+  ? - ROW0401
+    - COL0842
+  : -0.0773
+  ? - ROW0044
+    - COL1471
+  : -1
+  ? - OBJ.FUNC
+    - COL1037
+  : 272.4796
+  ? - OBJ.FUNC
+    - COL0065
+  : 6.14802
+  ? - OBJ.FUNC
+    - COL0592
+  : 31.63156
+  ? - ROW0264
+    - COL0527
+  : 1
+  ? - ROW0581
+    - COL1293
+  : -1
+  ? - ROW0044
+    - COL0582
+  : -1
+  ? - ROW0040
+    - COL0932
+  : -1
+  ? - ROW0449
+    - COL0975
+  : -1
+  ? - ROW0600
+    - COL1350
+  : -1
+  ? - OBJ.FUNC
+    - COL0476
+  : 31.77226
+  ? - ROW0656
+    - COL1521
+  : 1
+  ? - ROW0414
+    - COL0894
+  : -1
+  ? - OBJ.FUNC
+    - COL0222
+  : 99.20635
+  ? - ROW0050
+    - COL1575
+  : -0.08531
+  ? - ROW0352
+    - COL0739
+  : -1
+  ? - ROW0059
+    - COL0090
+  : -1
+  ? - OBJ.FUNC
+    - COL0185
+  : 680.2721
+  ? - ROW0161
+    - COL0296
+  : -1
+  ? - ROW0381
+    - COL0815
+  : -0.58911
+  ? - ROW0505
+    - COL1102
+  : -1
+  ? - ROW0338
+    - COL0711
+  : 1
+  ? - ROW0437
+    - COL0983
+  : -0.88208
+  ? - ROW0072
+    - COL0117
+  : 1
+  ? - OBJ.FUNC
+    - COL1540
+  : 12.51565
+  ? - ROW0252
+    - COL0548
+  : -1
+  ? - ROW0292
+    - COL0640
+  : -1
+  ? - OBJ.FUNC
+    - COL0122
+  : 0.88256
+  ? - ROW0340
+    - COL0717
+  : 1
+  ? - OBJ.FUNC
+    - COL0199
+  : 0.51201
+  ? - ROW0110
+    - COL0167
+  : 1
+  ? - ROW0188
+    - COL0348
+  : 1
+  ? - ROW0311
+    - COL0645
+  : 1
+  ? - ROW0218
+    - COL0392
+  : -1
+  ? - OBJ.FUNC
+    - COL0160
+  : 34.24892
+  ? - OBJ.FUNC
+    - COL0109
+  : 680.2721
+  ? - OBJ.FUNC
+    - COL0016
+  : 0.9169
+  ? - ROW0521
+    - COL1133
+  : 1
+  ? - ROW0594
+    - COL1331
+  : -1
+  ? - ROW0472
+    - COL1019
+  : -1.05991
+  ? - ROW0265
+    - COL0517
+  : -0.02231
+  ? - ROW0382
+    - COL0821
+  : -1
+  ? - ROW0510
+    - COL1163
+  : -1
+  ? - OBJ.FUNC
+    - COL0171
+  : 86.89607
+  ? - ROW0177
+    - COL0401
+  : -1
+  ? - ROW0432
+    - COL0928
+  : -0.00928
+  ? - ROW0183
+    - COL0344
+  : -1
+  ? - OBJ.FUNC
+    - COL1407
+  : 29.47244
+  ? - OBJ.FUNC
+    - COL1290
+  : 172.9505
+  ? - ROW0219
+    - COL0414
+  : 1
+  ? - ROW0454
+    - COL1342
+  : -1
+  ? - OBJ.FUNC
+    - COL0833
+  : 112.9433
+  ? - ROW0499
+    - COL1079
+  : -0.10506
+  ? - ROW0470
+    - COL0994
+  : -1
+  ? - ROW0494
+    - COL1079
+  : -0.03988
+  ? - ROW0577
+    - COL1281
+  : -1
+  ? - ROW0188
+    - COL0349
+  : -0.9588
+  ? - ROW0596
+    - COL1329
+  : -1
+  ? - ROW0192
+    - COL0363
+  : 1
+  ? - OBJ.FUNC
+    - COL1485
+  : 83.13934
+  ? - OBJ.FUNC
+    - COL0254
+  : 664.0106
+  ? - ROW0522
+    - COL1130
+  : -0.00766
+  ? - ROW0648
+    - COL1497
+  : 1
+  ? - ROW0005
+    - COL0008
+  : -1
+  ? - OBJ.FUNC
+    - COL1490
+  : 36.26342
+  ? - OBJ.FUNC
+    - COL1561
+  : 10.92156
+  ? - ROW0662
+    - COL1539
+  : 1
+  ? - ROW0241
+    - COL0472
+  : 1
+  ? - ROW0209
+    - COL0379
+  : -0.05351
+  ? - ROW0079
+    - COL0564
+  : 1
+  ? - OBJ.FUNC
+    - COL1500
+  : 10.60445
+  ? - ROW0563
+    - COL1224
+  : -0.04032
+  ? - OBJ.FUNC
+    - COL0551
+  : 72.04611
+  ? - ROW0007
+    - COL0012
+  : -1
+  ? - ROW0332
+    - COL0700
+  : -1
+  ? - OBJ.FUNC
+    - COL0272
+  : 505.0505
+  ? - ROW0397
+    - COL0880
+  : 1
+  ? - ROW0208
+    - COL0424
+  : -1
+  ? - OBJ.FUNC
+    - COL0873
+  : 15.44783
+  ? - ROW0402
+    - COL0875
+  : 1
+  ? - ROW0330
+    - COL0661
+  : -0.44043
+  ? - OBJ.FUNC
+    - COL0992
+  : 5.41718
+  ? - ROW0519
+    - COL1113
+  : -1
+  ? - OBJ.FUNC
+    - COL0003
+  : 0.93228
+  ? - OBJ.FUNC
+    - COL1066
+  : 69.13717
+  ? - ROW0067
+    - COL0103
+  : -1
+  ? - ROW0044
+    - COL0211
+  : -1
+  ? - ROW0567
+    - COL1307
+  : -1
+  ? - ROW0573
+    - COL1339
+  : -1
+  ? - ROW0634
+    - COL1453
+  : 1
+  ? - OBJ.FUNC
+    - COL0432
+  : 353.1073
+  ? - OBJ.FUNC
+    - COL0972
+  : 247.7701
+  ? - OBJ.FUNC
+    - COL1135
+  : 125
+  ? - OBJ.FUNC
+    - COL0534
+  : 167.0007
+  ? - ROW0089
+    - COL0139
+  : -1
+  ? - ROW0050
+    - COL0861
+  : 1
+  ? - ROW0315
+    - COL0653
+  : -1
+  ? - ROW0050
+    - COL1169
+  : 1
+  ? - ROW0596
+    - COL1323
+  : -1
+  ? - ROW0309
+    - COL0637
+  : -0.78628
+  ? - ROW0228
+    - COL0434
+  : -1
+  ? - ROW0579
+    - COL1286
+  : 1
+  ? - ROW0045
+    - COL1508
+  : -1
+  ? - ROW0187
+    - COL1436
+  : -0.00369
+  ? - ROW0079
+    - COL0110
+  : 1
+  ? - OBJ.FUNC
+    - COL0611
+  : 9.02201
+  ? - OBJ.FUNC
+    - COL0936
+  : 2.43929
+  ? - ROW0292
+    - COL0638
+  : 1
+  ? - ROW0343
+    - COL0719
+  : -1
+  ? - ROW0525
+    - COL1147
+  : -1
+  ? - OBJ.FUNC
+    - COL0328
+  : 3.95288
+  ? - ROW0403
+    - COL0874
+  : -1
+  ? - OBJ.FUNC
+    - COL1159
+  : 18.80123
+  ? - ROW0182
+    - COL0340
+  : 1
+  ? - OBJ.FUNC
+    - COL0366
+  : 24.57365
+  ? - ROW0263
+    - COL0524
+  : 1
+  ? - ROW0094
+    - COL0183
+  : -1
+  ? - OBJ.FUNC
+    - COL0166
+  : 33.22701
+  ? - ROW0191
+    - COL0360
+  : 1
+  ? - ROW0435
+    - COL0945
+  : -1
+  ? - OBJ.FUNC
+    - COL0105
+  : 68.37139
+  ? - ROW0374
+    - COL0798
+  : -1
+  ? - OBJ.FUNC
+    - COL0438
+  : 123.0921
+  ? - ROW0185
+    - COL0333
+  : -1
+  ? - ROW0656
+    - COL1522
+  : -1
+  ? - ROW0102
+    - COL0131
+  : -1
+  ? - ROW0575
+    - COL1250
+  : -1
+  ? - ROW0026
+    - COL0029
+  : -0.01955
+  ? - ROW0562
+    - COL1241
+  : 1
+  ? - ROW0162
+    - COL0278
+  : -0.00943
+  ? - ROW0373
+    - COL0792
+  : 1
+  ? - ROW0157
+    - COL0282
+  : 1
+  ? - ROW0091
+    - COL0124
+  : -0.00936
+  ? - ROW0434
+    - COL0949
+  : 1
+  ? - ROW0308
+    - COL0621
+  : -1
+  ? - ROW0042
+    - COL1443
+  : -1
+  ? - ROW0260
+    - COL0472
+  : -1
+  ? - ROW0477
+    - COL1021
+  : -0.00606
+  ? - ROW0469
+    - COL1077
+  : -1
+  ? - OBJ.FUNC
+    - COL0488
+  : 18.44134
+  ? - OBJ.FUNC
+    - COL0540
+  : 67.27664
+  ? - ROW0629
+    - COL1437
+  : 1
+  ? - ROW0616
+    - COL1397
+  : 1
+  ? - ROW0013
+    - COL0024
+  : -1
+  ? - OBJ.FUNC
+    - COL0155
+  : 15.60014
+  ? - OBJ.FUNC
+    - COL1134
+  : 125
+  ? - ROW0118
+    - COL0193
+  : -1
+  ? - ROW0239
+    - COL0467
+  : -0.63508
+  ? - ROW0277
+    - COL0562
+  : 1
+  ? - OBJ.FUNC
+    - COL0006
+  : 0.68362
+  ? - ROW0518
+    - COL1110
+  : -0.54061
+  ? - ROW0127
+    - COL0219
+  : -1
+  ? - ROW0251
+    - COL0518
+  : 1
+  ? - ROW0516
+    - COL1119
+  : 1
+  ? - ROW0246
+    - COL0487
+  : 1
+  ? - ROW0075
+    - COL0970
+  : 1
+  ? - OBJ.FUNC
+    - COL1058
+  : 39.20646
+  ? - ROW0657
+    - COL1523
+  : 1
+  ? - ROW0203
+    - COL0392
+  : 1
+  ? - OBJ.FUNC
+    - COL0581
+  : 7.7541
+  ? - ROW0508
+    - COL1153
+  : 1
+  ? - ROW0011
+    - COL0020
+  : -1
+  ? - ROW0047
+    - COL0297
+  : -1
+  ? - ROW0229
+    - COL0624
+  : 1
+  ? - ROW0045
+    - COL0585
+  : -1
+  ? - ROW0083
+    - COL0838
+  : 1
+  ? - ROW0560
+    - COL1236
+  : 1
+  ? - ROW0650
+    - COL1492
+  : -0.00294
+  ? - ROW0023
+    - COL0051
+  : 1
+  ? - ROW0062
+    - COL0621
+  : 1
+  ? - ROW0124
+    - COL0201
+  : -0.00365
+  ? - ROW0412
+    - COL0896
+  : -1
+  ? - ROW0669
+    - COL1532
+  : -0.02471
+  ? - OBJ.FUNC
+    - COL0658
+  : 1.02161
+  ? - ROW0322
+    - COL0678
+  : 1
+  ? - OBJ.FUNC
+    - COL1512
+  : 70.3136
+  ? - ROW0137
+    - COL0233
+  : -1
+  ? - ROW0548
+    - COL1198
+  : -1
+  ? - ROW0187
+    - COL0440
+  : 1
+  ? - OBJ.FUNC
+    - COL0213
+  : 18.75539
+  ? - ROW0277
+    - COL0546
+  : -0.00339
+  ? - OBJ.FUNC
+    - COL0715
+  : 144.2585
+  ? - ROW0049
+    - COL0769
+  : -1
+  ? - ROW0433
+    - COL0946
+  : 1
+  ? - ROW0486
+    - COL1058
+  : -1
+  ? - ROW0561
+    - COL1238
+  : 1
+  ? - ROW0078
+    - COL0558
+  : 1
+  ? - ROW0053
+    - COL1182
+  : -1
+  ? - ROW0546
+    - COL1192
+  : -1
+  ? - ROW0176
+    - COL0303
+  : -1
+  ? - OBJ.FUNC
+    - COL0598
+  : 7.30119
+  ? - ROW0354
+    - COL0748
+  : 1
+  ? - ROW0635
+    - COL1436
+  : -0.02027
+  ? - ROW0480
+    - COL1046
+  : 1
+  ? - ROW0048
+    - COL1452
+  : -1
+  ? - ROW0536
+    - COL1153
+  : -0.07991
+  ? - OBJ.FUNC
+    - COL1281
+  : 324.6753
+  ? - ROW0039
+    - COL0036
+  : -1
+  ? - ROW0413
+    - COL0897
+  : 1
+  ? - ROW0061
+    - COL0330
+  : 1
+  ? - ROW0679
+    - COL1591
+  : 1
+  ? - OBJ.FUNC
+    - COL0169
+  : 93.02325
+  ? - ROW0059
+    - COL0087
+  : -1
+  ? - ROW0352
+    - COL0745
+  : -1
+  ? - ROW0661
+    - COL1536
+  : 1
+  ? - OBJ.FUNC
+    - COL0824
+  : 578.0347
+  ? - OBJ.FUNC
+    - COL0847
+  : 8.79013
+  ? - ROW0295
+    - COL0607
+  : 1
+  ? - ROW0508
+    - COL1079
+  : 1
+  ? - ROW0178
+    - COL0350
+  : -1.11787
+  ? - ROW0242
+    - COL0476
+  : 1
+  ? - ROW0048
+    - COL0938
+  : 0.95748
+  ? - ROW0259
+    - COL0573
+  : -1
+  ? - ROW0223
+    - COL0429
+  : 1
+  ? - OBJ.FUNC
+    - COL1002
+  : 54.82456
+  ? - OBJ.FUNC
+    - COL1097
+  : 1.76288
+  ? - ROW0263
+    - COL0525
+  : -1
+  ? - OBJ.FUNC
+    - COL1217
+  : 151.9295
+  ? - ROW0043
+    - COL0849
+  : -1
+  ? - OBJ.FUNC
+    - COL0227
+  : 5.68317
+  ? - ROW0341
+    - COL0719
+  : 1
+  ? - ROW0450
+    - COL0978
+  : -1
+  ? - OBJ.FUNC
+    - COL0751
+  : 0.68054
+  ? - ROW0213
+    - COL0417
+  : 1
+  ? - ROW0270
+    - COL0526
+  : -1
+  ? - ROW0200
+    - COL0385
+  : -1
+  ? - ROW0020
+    - COL0029
+  : -0.01704
+  ? - ROW0319
+    - COL0668
+  : 1
+  ? - ROW0048
+    - COL1597
+  : -1
+  ? - ROW0343
+    - COL0713
+  : -1
+  ? - ROW0352
+    - COL0733
+  : -1
+  ? - ROW0315
+    - COL0638
+  : 0.87931
+  ? - ROW0590
+    - COL1317
+  : 1
+  ? - ROW0654
+    - COL1516
+  : -1
+  ? - OBJ.FUNC
+    - COL1041
+  : 205.9308
+  ? - OBJ.FUNC
+    - COL1032
+  : 97.59907
+  ? - ROW0199
+    - COL0379
+  : -0.01882
+  ? - ROW0625
+    - COL1426
+  : -1
+  ? - ROW0629
+    - COL1438
+  : 1
+  ? - ROW0674
+    - COL1575
+  : -0.00285
+  ? - ROW0642
+    - COL1477
+  : 1
+  ? - ROW0378
+    - COL0810
+  : -1
+  ? - ROW0119
+    - COL0831
+  : 1
+  ? - ROW0622
+    - COL1390
+  : -0.00885
+  ? - OBJ.FUNC
+    - COL0026
+  : 0.51852
+  ? - ROW0610
+    - COL1379
+  : 1
+  ? - OBJ.FUNC
+    - COL0017
+  : 1.70365
+  ? - ROW0032
+    - COL0075
+  : -1
+  ? - ROW0566
+    - COL1278
+  : -1
+  ? - ROW0110
+    - COL0348
+  : -0.79548
+  ? - ROW0514
+    - COL1115
+  : -1
+  ? - ROW0364
+    - COL0753
+  : -0.03532
+  ? - ROW0038
+    - COL1493
+  : -1
+  ? - ROW0530
+    - COL1159
+  : -1
+  ? - ROW0642
+    - COL1467
+  : -0.03034
+  ? - ROW0129
+    - COL0225
+  : -1
+  ? - OBJ.FUNC
+    - COL0231
+  : 4.65289
+  ? - OBJ.FUNC
+    - COL0996
+  : 3.19967
+  ? - OBJ.FUNC
+    - COL1147
+  : 45.97279
+  ? - OBJ.FUNC
+    - COL0577
+  : 60.64281
+  ? - OBJ.FUNC
+    - COL0910
+  : 188.253
+  ? - OBJ.FUNC
+    - COL0916
+  : 761.035
+  ? - ROW0491
+    - COL1072
+  : 1
+  ? - ROW0167
+    - COL0278
+  : -0.11935
+  ? - ROW0171
+    - COL0319
+  : 1
+  ? - ROW0369
+    - COL0753
+  : 1
+  ? - ROW0051
+    - COL0319
+  : -1
+  ? - ROW0670
+    - COL1563
+  : 1
+  ? - ROW0096
+    - COL0154
+  : 1
+  ? - ROW0007
+    - COL0011
+  : 1
+  ? - ROW0395
+    - COL0842
+  : -0.02129
+  ? - ROW0091
+    - COL0143
+  : 1
+  ? - OBJ.FUNC
+    - COL1088
+  : 2.77708
+  ? - ROW0016
+    - COL0030
+  : 1
+  ? - ROW0420
+    - COL0916
+  : -1
+  ? - ROW0482
+    - COL1045
+  : -1
+  ? - ROW0423
+    - COL0917
+  : -1
+  ? - ROW0589
+    - COL1316
+  : -1
+  ? - ROW0126
+    - COL0215
+  : 1
+  ? - ROW0155
+    - COL0273
+  : 1
+  ? - ROW0528
+    - COL1343
+  : -1
+  ? - ROW0368
+    - COL0753
+  : -0.42778
+  ? - OBJ.FUNC
+    - COL0238
+  : 100.8064
+  ? - OBJ.FUNC
+    - COL0721
+  : 98.50275
+  ? - ROW0404
+    - COL0927
+  : -1
+  ? - ROW0621
+    - COL1412
+  : 1
+  ? - ROW0624
+    - COL1421
+  : 1
+  ? - ROW0379
+    - COL0813
+  : -1
+  ? - ROW0614
+    - COL1391
+  : 1
+  ? - ROW0639
+    - COL1468
+  : 1
+  ? - ROW0600
+    - COL1349
+  : 1
+  ? - OBJ.FUNC
+    - COL1319
+  : 3676.47
+  ? - ROW0077
+    - COL0466
+  : -0.47325
+  ? - OBJ.FUNC
+    - COL0346
+  : 49.2126
+  ? - ROW0076
+    - COL0374
+  : -0.8939
+  ? - ROW0591
+    - COL1305
+  : -0.05464
+  ? - ROW0403
+    - COL0871
+  : -1
+  ? - ROW0420
+    - COL0915
+  : 1
+  ? - OBJ.FUNC
+    - COL1017
+  : 1.88337
+  ? - ROW0662
+    - COL1541
+  : -1
+  ? - ROW0166
+    - COL0310
+  : 1
+  ? - ROW0051
+    - COL0607
+  : -1
+  ? - OBJ.FUNC
+    - COL1371
+  : 17.38647
+  ? - ROW0504
+    - COL1105
+  : 1
+  ? - ROW0534
+    - COL1171
+  : -1
+  ? - ROW0240
+    - COL0841
+  : 1
+  ? - OBJ.FUNC
+    - COL0055
+  : 47.14757
+  ? - ROW0338
+    - COL0701
+  : -0.54033
+  ? - ROW0597
+    - COL1335
+  : -0.09462
+  ? - ROW0083
+    - COL1616
+  : -1
+  ? - OBJ.FUNC
+    - COL0818
+  : 48.22996
+  ? - ROW0301
+    - COL0638
+  : -1.02342
+  ? - OBJ.FUNC
+    - COL1565
+  : 32.28097
+  ? - ROW0227
+    - COL0440
+  : 1
+  ? - ROW0678
+    - COL1590
+  : -1
+  ? - ROW0187
+    - COL1202
+  : 1
+  ? - ROW0173
+    - COL0316
+  : -1
+  ? - ROW0519
+    - COL1122
+  : -1
+  ? - ROW0094
+    - COL0181
+  : 1
+  ? - ROW0594
+    - COL1305
+  : -0.0737
+  ? - ROW0216
+    - COL0444
+  : -0.57506
+  ? - ROW0185
+    - COL0327
+  : 0.78954
+  ? - ROW0028
+    - COL0083
+  : -1
+  ? - ROW0107
+    - COL0173
+  : 1
+  ? - ROW0146
+    - COL0434
+  : 1
+  ? - ROW0349
+    - COL0740
+  : 1
+  ? - ROW0576
+    - COL1274
+  : -1.03017
+  ? - ROW0533
+    - COL1167
+  : 1
+  ? - ROW0261
+    - COL0516
+  : 1
+  ? - OBJ.FUNC
+    - COL1123
+  : 34.37608
+  ? - ROW0573
+    - COL1275
+  : -1
+  ? - ROW0632
+    - COL1447
+  : 1
+  ? - ROW0257
+    - COL0509
+  : -1
+  ? - ROW0434
+    - COL0948
+  : 1
+  ? - ROW0655
+    - COL1518
+  : 1
+  ? - OBJ.FUNC
+    - COL1602
+  : 28.77036
+  ? - OBJ.FUNC
+    - COL0082
+  : 19.27377
+  ? - ROW0044
+    - COL0668
+  : -1
+  ? - OBJ.FUNC
+    - COL0635
+  : 48.63813
+  ? - OBJ.FUNC
+    - COL1431
+  : 19.06941
+  ? - OBJ.FUNC
+    - COL1114
+  : 97.94319
+  ? - ROW0247
+    - COL0491
+  : 1
+  ? - ROW0067
+    - COL0101
+  : 1
+  ? - ROW0335
+    - COL0727
+  : -1.04379
+  ? - ROW0526
+    - COL1130
+  : 0.88564
+  ? - ROW0084
+    - COL0200
+  : 1
+  ? - ROW0290
+    - COL0599
+  : -1
+  ? - ROW0530
+    - COL1158
+  : 1
+  ? - ROW0659
+    - COL1529
+  : 1
+  ? - ROW0360
+    - COL0753
+  : -0.01327
+  ? - ROW0101
+    - COL0197
+  : -0.5492
+  ? - OBJ.FUNC
+    - COL0165
+  : 33.22701
+  ? - ROW0574
+    - COL1224
+  : 0.069
+  ? - OBJ.FUNC
+    - COL0583
+  : 16.80333
+  ? - ROW0319
+    - COL0661
+  : -0.0169
+  ? - ROW0471
+    - COL1083
+  : -1
+  ? - ROW0554
+    - COL1214
+  : 1
+  ? - ROW0043
+    - COL0134
+  : -1
+  ? - OBJ.FUNC
+    - COL0510
+  : 1.15402
+  ? - ROW0090
+    - COL0141
+  : 1
+  ? - ROW0451
+    - COL0967
+  : -0.09029
+  ? - ROW0098
+    - COL0160
+  : 1
+  ? - ROW0197
+    - COL0365
+  : 1
+  ? - OBJ.FUNC
+    - COL0429
+  : 16.30151
+  ? - OBJ.FUNC
+    - COL0606
+  : 16.74425
+  ? - ROW0303
+    - COL0623
+  : -1
+  ? - OBJ.FUNC
+    - COL0133
+  : 132.8021
+  ? - OBJ.FUNC
+    - COL1249
+  : 66.84492
+  ? - ROW0358
+    - COL0765
+  : -1
+  ? - ROW0605
+    - COL1364
+  : 1
+  ? - OBJ.FUNC
+    - COL0542
+  : 134.6257
+  ? - ROW0585
+    - COL1294
+  : -1
+  ? - ROW0505
+    - COL1105
+  : -1
+  ? - OBJ.FUNC
+    - COL0310
+  : 3.4174
+  ? - OBJ.FUNC
+    - COL0521
+  : 52.54861
+  ? - ROW0291
+    - COL0616
+  : 1
+  ? - ROW0343
+    - COL0716
+  : -1
+  ? - OBJ.FUNC
+    - COL1050
+  : 292.3977
+  ? - OBJ.FUNC
+    - COL1195
+  : 10.24926
+  ? - ROW0595
+    - COL1305
+  : -0.0648
+  ? - OBJ.FUNC
+    - COL1473
+  : 154.7509
+  ? - ROW0484
+    - COL1199
+  : 1
+  ? - OBJ.FUNC
+    - COL1292
+  : 996.0159
+  ? - ROW0054
+    - COL0159
+  : 1
+  ? - OBJ.FUNC
+    - COL1233
+  : 41.59734
+  ? - OBJ.FUNC
+    - COL1472
+  : 154.7509
+  ? - ROW0266
+    - COL0534
+  : -1
+  ? - ROW0581
+    - COL1276
+  : -0.04081
+  ? - ROW0089
+    - COL0124
+  : -0.00404
+  ? - ROW0416
+    - COL0901
+  : -0.77623
+  ? - OBJ.FUNC
+    - COL1346
+  : 22.37036
+  ? - ROW0686
+    - COL1575
+  : -0.25848
+  ? - ROW0146
+    - COL0814
+  : -0.50051
+  ? - ROW0284
+    - COL0575
+  : -0.15529
+  ? - ROW0527
+    - COL1148
+  : 1
+  ? - ROW0663
+    - COL1542
+  : 1
+  ? - ROW0509
+    - COL1086
+  : -1
+  ? - ROW0426
+    - COL0930
+  : 1
+  ? - OBJ.FUNC
+    - COL0468
+  : 0.39404
+  ? - ROW0387
+    - COL0816
+  : -0.16205
+  ? - OBJ.FUNC
+    - COL0209
+  : 187.2659
+  ? - OBJ.FUNC
+    - COL0263
+  : 5.13822
+  ? - OBJ.FUNC
+    - COL0642
+  : 208.8555
+  ? - OBJ.FUNC
+    - COL0458
+  : 1572.327
+  ? - ROW0134
+    - COL0233
+  : 1
+  ? - ROW0023
+    - COL0029
+  : -0.00363
+  ? - ROW0500
+    - COL1131
+  : 1
+  ? - OBJ.FUNC
+    - COL1214
+  : 14.28694
+  ? - OBJ.FUNC
+    - COL1358
+  : 11.22788
+  ? - ROW0065
+    - COL0444
+  : 1
+  ? - ROW0050
+    - COL0063
+  : 1
+  ? - ROW0062
+    - COL1190
+  : 1
+  ? - ROW0501
+    - COL1098
+  : -1
+  ? - ROW0046
+    - COL1554
+  : -1
+  ? - OBJ.FUNC
+    - COL0784
+  : 7.84461
+  ? - ROW0219
+    - COL1262
+  : -1
+  ? - ROW0400
+    - COL0869
+  : 1
+  ? - ROW0044
+    - COL0045
+  : -1
+  ? - ROW0553
+    - COL1210
+  : 1
+  ? - ROW0645
+    - COL1487
+  : 1
+  ? - ROW0300
+    - COL0579
+  : -1
+  ? - ROW0557
+    - COL1220
+  : -0.8801
+  ? - ROW0103
+    - COL0282
+  : -1
+  ? - ROW0149
+    - COL0262
+  : 1
+  ? - ROW0218
+    - COL0395
+  : -1
+  ? - ROW0588
+    - COL1313
+  : -1
+  ? - ROW0060
+    - COL0517
+  : 1
+  ? - ROW0207
+    - COL0404
+  : 1
+  ? - OBJ.FUNC
+    - COL0863
+  : 10.58358
+  ? - ROW0653
+    - COL1511
+  : 1
+  ? - ROW0240
+    - COL0470
+  : 1
+  ? - OBJ.FUNC
+    - COL0734
+  : 652.7415
+  ? - ROW0063
+    - COL1193
+  : 1
+  ? - ROW0189
+    - COL0350
+  : -0.09282
+  ? - ROW0560
+    - COL1237
+  : -1
+  ? - OBJ.FUNC
+    - COL0289
+  : 2.46633
+  ? - ROW0182
+    - COL0339
+  : 1
+  ? - ROW0006
+    - COL0379
+  : 1
+  ? - ROW0426
+    - COL0929
+  : 1
+  ? - ROW0565
+    - COL1252
+  : -1
+  ? - ROW0664
+    - COL1547
+  : -1
+  ? - ROW0672
+    - COL1571
+  : -1
+  ? - OBJ.FUNC
+    - COL0974
+  : 1.67428
+  ? - ROW0093
+    - COL0166
+  : -1
+  ? - ROW0467
+    - COL1013
+  : -1
+  ? - ROW0017
+    - COL0029
+  : -0.06362
+  ? - ROW0446
+    - COL0959
+  : -1
+  ? - ROW0122
+    - COL0204
+  : -1
+  ? - ROW0435
+    - COL0938
+  : -1
+  ? - OBJ.FUNC
+    - COL1009
+  : 3.22323
+  ? - ROW0634
+    - COL1454
+  : -1
+  ? - ROW0074
+    - COL0727
+  : 1
+  ? - ROW0469
+    - COL0987
+  : 0.31877
+  ? - ROW0220
+    - COL0417
+  : 1
+  ? - ROW0154
+    - COL0261
+  : 1
+  ? - OBJ.FUNC
+    - COL1504
+  : 144.1338
+  ? - ROW0012
+    - COL0021
+  : 1
+  ? - ROW0312
+    - COL0638
+  : -0.22627
+  ? - ROW0452
+    - COL0973
+  : -1
+  ? - ROW0140
+    - COL0211
+  : -1
+  ? - ROW0521
+    - COL1135
+  : -1
+  ? - ROW0540
+    - COL1183
+  : 1
+  ? - ROW0626
+    - COL1390
+  : -0.01775
+  ? - ROW0602
+    - COL1356
+  : -1
+  ? - ROW0038
+    - COL1391
+  : -1
+  ? - ROW0053
+    - COL0696
+  : -1
+  ? - ROW0034
+    - COL0070
+  : -1
+  ? - OBJ.FUNC
+    - COL0896
+  : 190.1864
+  ? - ROW0359
+    - COL0766
+  : 1
+  ? - OBJ.FUNC
+    - COL0586
+  : 36.34513
+  ? - ROW0306
+    - COL0631
+  : 1
+  ? - ROW0542
+    - COL1223
+  : -1
+  ? - ROW0595
+    - COL1334
+  : -1
+  ? - ROW0218
+    - COL0389
+  : -1
+  ? - ROW0600
+    - COL1348
+  : 1
+  ? - ROW0359
+    - COL0768
+  : -1
+  ? - ROW0401
+    - COL0871
+  : 1
+  ? - ROW0351
+    - COL0747
+  : -1
+  ? - ROW0141
+    - COL0258
+  : -1.02126
+  ? - ROW0609
+    - COL1344
+  : -0.04342
+  ? - OBJ.FUNC
+    - COL0292
+  : 84.73141
+  ? - ROW0476
+    - COL1021
+  : -0.0346
+  ? - ROW0467
+    - COL1016
+  : -1
+  ? - ROW0572
+    - COL1267
+  : -1
+  ? - ROW0176
+    - COL0306
+  : -1
+  ? - ROW0044
+    - COL1406
+  : -1
+  ? - ROW0486
+    - COL1053
+  : -0.11873
+  ? - OBJ.FUNC
+    - COL0963
+  : 316.4557
+  ? - ROW0048
+    - COL1560
+  : -1
+  ? - ROW0657
+    - COL1525
+  : -1
+  ? - ROW0427
+    - COL0934
+  : -1
+  ? - ROW0311
+    - COL0646
+  : -1
+  ? - ROW0476
+    - COL1034
+  : 1
+  ? - ROW0544
+    - COL1169
+  : -1
+  ? - ROW0384
+    - COL0825
+  : 1
+  ? - OBJ.FUNC
+    - COL0608
+  : 7.16025
+  ? - ROW0396
+    - COL0862
+  : 1
+  ? - ROW0100
+    - COL0124
+  : 1
+  ? - ROW0468
+    - COL1020
+  : -1
+  ? - OBJ.FUNC
+    - COL0930
+  : 1.79584
+  ? - ROW0414
+    - COL0882
+  : -1
+  ? - ROW0417
+    - COL0907
+  : -1
+  ? - ROW0327
+    - COL0687
+  : 1
+  ? - ROW0105
+    - COL0167
+  : 1
+  ? - ROW0505
+    - COL1099
+  : -1
+  ? - ROW0141
+    - COL0244
+  : -1.02126
+  ? - ROW0240
+    - COL1341
+  : -1
+  ? - OBJ.FUNC
+    - COL0446
+  : 12.8041
+  ? - ROW0471
+    - COL1160
+  : -1
+  ? - ROW0624
+    - COL1422
+  : 1
+  ? - ROW0061
+    - COL1024
+  : 1
+  ? - ROW0324
+    - COL0684
+  : 1
+  ? - ROW0065
+    - COL0966
+  : 1
+  ? - OBJ.FUNC
+    - COL1091
+  : 16.08441
+  ? - ROW0047
+    - COL1511
+  : -1
+  ? - ROW0327
+    - COL0661
+  : -0.08937
+  ? - ROW0081
+    - COL1216
+  : 1
+  ? - ROW0294
+    - COL0605
+  : 1
+  ? - OBJ.FUNC
+    - COL0194
+  : 847.4576
+  ? - ROW0250
+    - COL0501
+  : -1
+  ? - ROW0029
+    - COL0096
+  : 1
+  ? - ROW0086
+    - COL0128
+  : 1
+  ? - ROW0320
+    - COL0671
+  : 1
+  ? - ROW0133
+    - COL0231
+  : 1
+  ? - ROW0099
+    - COL0153
+  : -1
+  ? - ROW0351
+    - COL0727
+  : -0.06261
+  ? - OBJ.FUNC
+    - COL0907
+  : 161.6031
+  ? - ROW0549
+    - COL1200
+  : 1
+  ? - ROW0379
+    - COL0812
+  : 1
+  ? - ROW0565
+    - COL1250
+  : 1
+  ? - OBJ.FUNC
+    - COL0812
+  : 256.1476
+  ? - OBJ.FUNC
+    - COL0293
+  : 84.73141
+  ? - OBJ.FUNC
+    - COL1081
+  : 13.00187
+  ? - ROW0043
+    - COL1357
+  : -1
+  ? - OBJ.FUNC
+    - COL1494
+  : 35.39823
+  ? - ROW0583
+    - COL1299
+  : -1
+  ? - ROW0596
+    - COL1332
+  : -1
+  ? - ROW0081
+    - COL0463
+  : 1
+  ? - ROW0061
+    - COL0247
+  : 1
+  ? - OBJ.FUNC
+    - COL0301
+  : 28.50952
+  ? - OBJ.FUNC
+    - COL0219
+  : 301.9323
+  ? - ROW0685
+    - COL1611
+  : -1
+  ? - ROW0388
+    - COL0822
+  : -1
+  ? - ROW0077
+    - COL0908
+  : 1
+  ? - OBJ.FUNC
+    - COL0980
+  : 16.52456
+  ? - ROW0062
+    - COL0799
+  : 1
+  ? - ROW0649
+    - COL1500
+  : 1
+  ? - OBJ.FUNC
+    - COL1583
+  : 159.185
+  ? - ROW0375
+    - COL0799
+  : 1
+  ? - OBJ.FUNC
+    - COL0876
+  : 20.96436
+  ? - OBJ.FUNC
+    - COL1355
+  : 26.1739
+  ? - ROW0554
+    - COL1207
+  : -0.63119
+  ? - OBJ.FUNC
+    - COL0329
+  : 3.95288
+  ? - ROW0146
+    - COL0713
+  : 1
+  ? - OBJ.FUNC
+    - COL1589
+  : 147.7105
+  ? - OBJ.FUNC
+    - COL1614
+  : 1.03933
+  ? - ROW0176
+    - COL0288
+  : -1
+  ? - ROW0047
+    - COL0137
+  : -1
+  ? - OBJ.FUNC
+    - COL0681
+  : 70.64143
+  ? - ROW0603
+    - COL1358
+  : 1
+  ? - ROW0398
+    - COL0904
+  : -1
+  ? - OBJ.FUNC
+    - COL1558
+  : 55.8909
+  ? - ROW0160
+    - COL0278
+  : -0.00557
+  ? - ROW0231
+    - COL0448
+  : 1
+  ? - ROW0475
+    - COL1032
+  : -1
+  ? - ROW0132
+    - COL0201
+  : -0.16835
+  ? - ROW0078
+    - COL0267
+  : 1
+  ? - ROW0076
+    - COL0359
+  : 1
+  ? - ROW0461
+    - COL0987
+  : -0.21861
+  ? - ROW0471
+    - COL1566
+  : -1
+  ? - OBJ.FUNC
+    - COL0771
+  : 128.3697
+  ? - ROW0397
+    - COL0842
+  : -0.10139
+  ? - OBJ.FUNC
+    - COL1310
+  : 438.5965
+  ? - ROW0218
+    - COL0401
+  : -1
+  ? - OBJ.FUNC
+    - COL0011
+  : 0.56582
+  ? - ROW0141
+    - COL0243
+  : 1
+  ? - ROW0218
+    - COL0386
+  : -1
+  ? - ROW0543
+    - COL1221
+  : 1
+  ? - ROW0641
+    - COL1476
+  : -1
+  ? - OBJ.FUNC
+    - COL1146
+  : 45.97279
+  ? - OBJ.FUNC
+    - COL1350
+  : 5.31124
+  ? - OBJ.FUNC
+    - COL0646
+  : 92.90227
+  ? - ROW0430
+    - COL0928
+  : -0.2571
+  ? - ROW0430
+    - COL0969
+  : -1
+  ? - OBJ.FUNC
+    - COL0473
+  : 70.33337
+  ? - OBJ.FUNC
+    - COL1549
+  : 29.84362
+  ? - ROW0105
+    - COL0169
+  : -1
+  ? - OBJ.FUNC
+    - COL0602
+  : 12.3408
+  ? - OBJ.FUNC
+    - COL0750
+  : 0.68054
+  ? - ROW0596
+    - COL1311
+  : -1
+  ? - ROW0029
+    - COL0095
+  : 1
+  ? - OBJ.FUNC
+    - COL0717
+  : 359.4536
+  ? - ROW0310
+    - COL0642
+  : 1
+  ? - OBJ.FUNC
+    - COL1434
+  : 0.81415
+  ? - ROW0105
+    - COL0168
+  : 1
+  ? - ROW0099
+    - COL0124
+  : 1
+  ? - ROW0060
+    - COL0422
+  : 1
+  ? - ROW0496
+    - COL1088
+  : -1
+  ? - ROW0050
+    - COL1467
+  : -0.08531
+  ? - ROW0065
+    - COL0180
+  : 1
+  ? - ROW0252
+    - COL0546
+  : 1
+  ? - ROW0383
+    - COL0816
+  : -0.08344
+  ? - ROW0422
+    - COL0902
+  : -0.05641
+  ? - ROW0487
+    - COL1059
+  : 1
+  ? - ROW0357
+    - COL0753
+  : -0.0571
+  ? - ROW0523
+    - COL1141
+  : -1
+  ? - OBJ.FUNC
+    - COL0702
+  : 7.31497
+  ? - OBJ.FUNC
+    - COL0453
+  : 22.41751
+  ? - ROW0658
+    - COL1528
+  : -1
+  ? - ROW0167
+    - COL0329
+  : -1
+  ? - ROW0407
+    - COL0878
+  : 1
+  ? - ROW0050
+    - COL0499
+  : 1
+  ? - ROW0260
+    - COL0484
+  : -1
+  ? - ROW0042
+    - COL1502
+  : -1
+  ? - ROW0083
+    - COL1149
+  : 1
+  ? - ROW0318
+    - COL0666
+  : 1
+  ? - OBJ.FUNC
+    - COL1082
+  : 13.00187
+  ? - ROW0441
+    - COL1016
+  : 1
+  ? - ROW0042
+    - COL0481
+  : -1
+  ? - ROW0128
+    - COL0222
+  : -1
+  ? - ROW0409
+    - COL0885
+  : 1
+  ? - OBJ.FUNC
+    - COL0921
+  : 811.6884
+  ? - OBJ.FUNC
+    - COL0195
+  : 847.4576
+  ? - ROW0149
+    - COL0263
+  : -1
+  ? - ROW0343
+    - COL0707
+  : -1
+  ? - ROW0143
+    - COL0244
+  : -0.14855
+  ? - OBJ.FUNC
+    - COL1137
+  : 2212.389
+  ? - ROW0593
+    - COL1327
+  : 1
+  ? - OBJ.FUNC
+    - COL0513
+  : 4.82314
+  ? - ROW0414
+    - COL0879
+  : 0.88358
+  ? - ROW0679
+    - COL1575
+  : -0.00106
+  ? - ROW0622
+    - COL1417
+  : -1
+  ? - OBJ.FUNC
+    - COL1189
+  : 3.20492
+  ? - ROW0151
+    - COL0258
+  : -0.01069
+  ? - OBJ.FUNC
+    - COL0025
+  : 0.51852
+  ? - ROW0517
+    - COL1124
+  : -1
+  ? - ROW0607
+    - COL1371
+  : -1
+  ? - OBJ.FUNC
+    - COL1534
+  : 68.06425
+  ? - ROW0502
+    - COL1079
+  : -0.02402
+  ? - ROW0209
+    - COL0447
+  : -1
+  ? - ROW0681
+    - COL1599
+  : -1
+  ? - ROW0562
+    - COL1224
+  : -0.02895
+  ? - ROW0140
+    - COL0202
+  : -1
+  ? - ROW0026
+    - COL0061
+  : 1
+  ? - ROW0430
+    - COL0968
+  : 1
+  ? - OBJ.FUNC
+    - COL1028
+  : 6.70781
+  ? - OBJ.FUNC
+    - COL0287
+  : 6.86248
+  ? - ROW0245
+    - COL0484
+  : 1
+  ? - ROW0554
+    - COL1215
+  : -1
+  ? - ROW0056
+    - COL0084
+  : 1
+  ? - ROW0047
+    - COL0766
+  : -1
+  ? - ROW0539
+    - COL1179
+  : 1
+  ? - ROW0139
+    - COL0275
+  : 1
+  ? - ROW0333
+    - COL0751
+  : -1
+  ? - ROW0057
+    - COL0088
+  : 1
+  ? - ROW0002
+    - COL0001
+  : 1
+  ? - ROW0071
+    - COL0113
+  : 1
+  ? - ROW0195
+    - COL0371
+  : 1
+  ? - ROW0207
+    - COL0405
+  : 1
+  ? - ROW0308
+    - COL0618
+  : -1
+  ? - OBJ.FUNC
+    - COL0548
+  : 9.48011
+  ? - ROW0406
+    - COL0846
+  : -1
+  ? - ROW0074
+    - COL1130
+  : 1
+  ? - ROW0348
+    - COL0738
+  : -1
+  ? - ROW0408
+    - COL0879
+  : -0.44489
+  ? - ROW0031
+    - COL0071
+  : 1
+  ? - ROW0076
+    - COL0819
+  : 1
+  ? - ROW0006
+    - COL0010
+  : -1
+  ? - ROW0109
+    - COL0176
+  : -1
+  ? - ROW0133
+    - COL0232
+  : -1
+  ? - OBJ.FUNC
+    - COL0298
+  : 50.02001
+  ? - ROW0197
+    - COL1320
+  : 1
+  ? - ROW0194
+    - COL0369
+  : 1
+  ? - OBJ.FUNC
+    - COL0651
+  : 315.6566
+  ? - ROW0079
+    - COL0742
+  : 1
+  ? - ROW0168
+    - COL0351
+  : 1
+  ? - ROW0445
+    - COL0962
+  : 1
+  ? - ROW0190
+    - COL0358
+  : -1
+  ? - ROW0300
+    - COL0582
+  : -1
+  ? - ROW0080
+    - COL0113
+  : 1
+  ? - ROW0303
+    - COL0615
+  : -0.09913
+  ? - ROW0083
+    - COL1220
+  : 1
+  ? - ROW0222
+    - COL0425
+  : 1
+  ? - ROW0652
+    - COL1508
+  : 1
+  ? - ROW0511
+    - COL1102
+  : 1
+  ? - ROW0031
+    - COL0072
+  : -1
+  ? - ROW0038
+    - COL0066
+  : 0.90604
+  ? - ROW0142
+    - COL0247
+  : 1
+  ? - ROW0176
+    - COL0285
+  : -1
+  ? - OBJ.FUNC
+    - COL0870
+  : 59.6374
+  ? - ROW0541
+    - COL1179
+  : -1
+  ? - OBJ.FUNC
+    - COL1331
+  : 862.069
+  ? - ROW0362
+    - COL0777
+  : -1
+  ? - ROW0544
+    - COL1166
+  : -1
+  ? - OBJ.FUNC
+    - COL1035
+  : 47.69172
+  ? - OBJ.FUNC
+    - COL1251
+  : 10.33677
+  ? - ROW0103
+    - COL1496
+  : -1
+  ? - ROW0668
+    - COL1532
+  : -0.00483
+  ? - ROW0686
+    - COL1614
+  : -1
+  ? - ROW0688
+    - COL1616
+  : -1
+  ? - ROW0108
+    - COL0177
+  : 1
+  ? - OBJ.FUNC
+    - COL0168
+  : 93.02325
+  ? - ROW0321
+    - COL0661
+  : -0.01673
+  ? - ROW0644
+    - COL1483
+  : 1
+  ? - OBJ.FUNC
+    - COL1188
+  : 3.20492
+  ? - ROW0236
+    - COL0445
+  : -0.08374
+  ? - ROW0215
+    - COL0470
+  : -1
+  ? - ROW0268
+    - COL0540
+  : -1
+  ? - ROW0411
+    - COL0891
+  : 1
+  ? - OBJ.FUNC
+    - COL1094
+  : 3.11135
+  ? - ROW0585
+    - COL1285
+  : -1
+  ? - ROW0648
+    - COL1498
+  : -1
+  ? - ROW0601
+    - COL1344
+  : -0.00827
+  ? - ROW0184
+    - COL0347
+  : -1
+  ? - ROW0046
+    - COL0763
+  : -1
+  ? - ROW0510
+    - COL1381
+  : -1
+  ? - ROW0557
+    - COL1219
+  : 1
+  ? - ROW0229
+    - COL0636
+  : -0.53132
+  ? - ROW0488
+    - COL1064
+  : -1
+  ? - ROW0516
+    - COL1110
+  : -0.15939
+  ? - ROW0100
+    - COL0200
+  : -1
+  ? - ROW0209
+    - COL0445
+  : 1
+  ? - ROW0541
+    - COL1182
+  : -1
+  ? - OBJ.FUNC
+    - COL0909
+  : 188.253
+  ? - ROW0074
+    - COL1616
+  : -0.5653
+  ? - ROW0059
+    - COL0084
+  : -1
+  ? - ROW0184
+    - COL0345
+  : 1
+  ? - OBJ.FUNC
+    - COL0603
+  : 12.3408
+  ? - OBJ.FUNC
+    - COL0178
+  : 323.8342
+  ? - ROW0281
+    - COL0555
+  : 1
+  ? - ROW0480
+    - COL1045
+  : 1
+  ? - ROW0498
+    - COL1092
+  : 1
+  ? - OBJ.FUNC
+    - COL1408
+  : 29.47244
+  ? - OBJ.FUNC
+    - COL1550
+  : 29.84362
+  ? - ROW0210
+    - COL0408
+  : 1
+  ? - ROW0391
+    - COL0846
+  : 1
+  ? - ROW0079
+    - COL0460
+  : 1
+  ? - OBJ.FUNC
+    - COL0886
+  : 128.999
+  ? - ROW0047
+    - COL1369
+  : -1
+  ? - ROW0579
+    - COL1276
+  : -0.14878
+  ? - ROW0328
+    - COL0690
+  : 1
+  ? - OBJ.FUNC
+    - COL0237
+  : 100.8064
+  ? - ROW0062
+    - COL0443
+  : -0.68157
+  ? - ROW0194
+    - COL0350
+  : -0.0337
+  ? - ROW0675
+    - COL1579
+  : 1
+  ? - ROW0637
+    - COL1463
+  : -1
+  ? - ROW0091
+    - COL0145
+  : -1
+  ? - OBJ.FUNC
+    - COL0092
+  : 196.2323
+  ? - ROW0071
+    - COL0115
+  : -1
+  ? - ROW0247
+    - COL0490
+  : 1
+  ? - ROW0478
+    - COL1040
+  : 1
+  ? - ROW0150
+    - COL0258
+  : -0.03949
+  ? - ROW0066
+    - COL0098
+  : 1
+  ? - OBJ.FUNC
+    - COL1162
+  : 28.74554
+  ? - ROW0619
+    - COL1406
+  : 1
+  ? - ROW0596
+    - COL1305
+  : 0.877
+  ? - OBJ.FUNC
+    - COL1503
+  : 144.1338
+  ? - ROW0229
+    - COL0431
+  : 1
+  ? - OBJ.FUNC
+    - COL0732
+  : 316.6561
+  ? - ROW0015
+    - COL1153
+  : 1
+  ? - ROW0194
+    - COL0370
+  : -1
+  ? - ROW0407
+    - COL0877
+  : -1.03224
+  ? - ROW0458
+    - COL0999
+  : -1
+  ? - OBJ.FUNC
+    - COL1218
+  : 151.9295
+  ? - ROW0579
+    - COL1287
+  : -1
+  ? - ROW0281
+    - COL1314
+  : 1
+  ? - ROW0254
+    - COL0471
+  : -0.05315
+  ? - ROW0049
+    - COL1563
+  : -1
+  ? - ROW0657
+    - COL1492
+  : -0.01445
+  ? - OBJ.FUNC
+    - COL1322
+  : 1162.791
+  ? - OBJ.FUNC
+    - COL1573
+  : 0.97534
+  ? - ROW0365
+    - COL0780
+  : 1
+  ? - ROW0051
+    - COL1102
+  : -1
+  ? - OBJ.FUNC
+    - COL0405
+  : 4.06815
+  ? - ROW0034
+    - COL0076
+  : -1
+  ? - ROW0682
+    - COL1600
+  : 1
+  ? - ROW0406
+    - COL0861
+  : -1
+  ? - ROW0034
+    - COL0067
+  : -1
+  ? - ROW0038
+    - COL1533
+  : -1
+  ? - ROW0668
+    - COL1558
+  : 1
+  ? - ROW0131
+    - COL0201
+  : -0.03069
+  ? - ROW0643
+    - COL1467
+  : -0.00808
+  ? - ROW0632
+    - COL1446
+  : 1
+  ? - ROW0158
+    - COL0286
+  : 1
+  ? - ROW0337
+    - COL0708
+  : 1
+  ? - OBJ.FUNC
+    - COL1481
+  : 324.0441
+  ? - ROW0470
+    - COL1019
+  : 0.9264
+  ? - ROW0042
+    - COL1582
+  : -1
+  ? - ROW0298
+    - COL0660
+  : -1
+  ? - ROW0457
+    - COL0987
+  : -0.11275
+  ? - OBJ.FUNC
+    - COL1277
+  : 40.65041
+  ? - ROW0104
+    - COL0181
+  : -1.04008
+  ? - ROW0258
+    - COL0516
+  : -1
+  ? - ROW0013
+    - COL0987
+  : 1
+  ? - OBJ.FUNC
+    - COL1266
+  : 56.05381
+  ? - ROW0205
+    - COL0398
+  : 1
+  ? - ROW0307
+    - COL0634
+  : 1
+  ? - OBJ.FUNC
+    - COL1428
+  : 13.07531
+  ? - ROW0040
+    - COL1437
+  : -1
+  ? - OBJ.FUNC
+    - COL0853
+  : 92.52406
+  ? - OBJ.FUNC
+    - COL0993
+  : 5.41718
+  ? - ROW0585
+    - COL1279
+  : -1
+  ? - OBJ.FUNC
+    - COL0826
+  : 1256.281
+  ? - ROW0048
+    - COL0300
+  : -1
+  ? - OBJ.FUNC
+    - COL1488
+  : 395.5696
+  ? - ROW0074
+    - COL0350
+  : 1
+  ? - OBJ.FUNC
+    - COL0157
+  : 1256.281
+  ? - ROW0421
+    - COL0919
+  : -1
+  ? - OBJ.FUNC
+    - COL0511
+  : 1.15402
+  ? - OBJ.FUNC
+    - COL1167
+  : 64.12723
+  ? - ROW0464
+    - COL0987
+  : -0.01481
+  ? - OBJ.FUNC
+    - COL1198
+  : 7.98913
+  ? - OBJ.FUNC
+    - COL0052
+  : 334.0013
+  ? - ROW0010
+    - COL0017
+  : 1
+  ? - ROW0376
+    - COL0803
+  : 1
+  ? - ROW0669
+    - COL1562
+  : -1
+  ? - ROW0280
+    - COL0546
+  : 0.9642
+  ? - ROW0456
+    - COL0993
+  : -1
+  ? - ROW0138
+    - COL0277
+  : -1
+  ? - ROW0114
+    - COL0185
+  : 1
+  ? - ROW0063
+    - COL0633
+  : 1
+  ? - ROW0471
+    - COL1095
+  : 0.90943
+  ? - ROW0046
+    - COL1591
+  : -1
+  ? - ROW0429
+    - COL0928
+  : -0.00888
+  ? - ROW0256
+    - COL0514
+  : -1
+  ? - ROW0606
+    - COL1366
+  : 1
+  ? - ROW0047
+    - COL1594
+  : -1
+  ? - ROW0599
+    - COL1347
+  : -1
+  ? - ROW0118
+    - COL0184
+  : -1
+  ? - ROW0163
+    - COL0302
+  : -1
+  ? - ROW0285
+    - COL0583
+  : 1
+  ? - OBJ.FUNC
+    - COL1047
+  : 189.3222
+  ? - ROW0297
+    - COL0610
+  : -1
+  ? - ROW0672
+    - COL1532
+  : -0.00794
+  ? - OBJ.FUNC
+    - COL1121
+  : 30.96359
+  ? - ROW0581
+    - COL1292
+  : 1
+  ? - ROW0004
+    - COL0006
+  : -1
+  ? - OBJ.FUNC
+    - COL0981
+  : 16.52456
+  ? - OBJ.FUNC
+    - COL1491
+  : 36.26342
+  ? - ROW0271
+    - COL0526
+  : 1
+  ? - ROW0318
+    - COL0661
+  : -0.02015
+  ? - ROW0523
+    - COL1130
+  : -0.14378
+  ? - ROW0471
+    - COL1520
+  : -1
+  ? - OBJ.FUNC
+    - COL0085
+  : 493.0966
+  ? - ROW0290
+    - COL0575
+  : -0.16492
+  ? - ROW0650
+    - COL1502
+  : 1
+  ? - ROW0601
+    - COL1352
+  : 1
+  ? - OBJ.FUNC
+    - COL0883
+  : 35.92728
+  ? - ROW0660
+    - COL1532
+  : -0.00397
+  ? - ROW0600
+    - COL1344
+  : -0.0137
+  ? - ROW0135
+    - COL0236
+  : 1
+  ? - OBJ.FUNC
+    - COL0418
+  : 4.84759
+  ? - ROW0041
+    - COL0288
+  : -1
+  ? - OBJ.FUNC
+    - COL0817
+  : 48.22996
+  ? - ROW0045
+    - COL0671
+  : -1
+  ? - ROW0353
+    - COL0736
+  : 1
+  ? - ROW0314
+    - COL0655
+  : -1
+  ? - ROW0388
+    - COL0834
+  : -1
+  ? - ROW0379
+    - COL0793
+  : -0.08016
+  ? - ROW0441
+    - COL0948
+  : 1
+  ? - ROW0201
+    - COL0386
+  : 1
+  ? - ROW0039
+    - COL0054
+  : -1
+  ? - ROW0537
+    - COL1175
+  : -1
+  ? - ROW0040
+    - COL1579
+  : -1
+  ? - ROW0177
+    - COL0496
+  : -1
+  ? - OBJ.FUNC
+    - COL0426
+  : 68.48377
+  ? - OBJ.FUNC
+    - COL0612
+  : 9.02201
+  ? - ROW0419
+    - COL0912
+  : 1
+  ? - ROW0635
+    - COL1457
+  : -1
+  ? - ROW0036
+    - COL0121
+  : 1
+  ? - OBJ.FUNC
+    - COL0827
+  : 1256.281
+  ? - ROW0652
+    - COL1492
+  : -0.00265
+  ? - OBJ.FUNC
+    - COL0840
+  : 1.15548
+  ? - OBJ.FUNC
+    - COL0673
+  : 11.73599
+  ? - OBJ.FUNC
+    - COL0376
+  : 0.37809
+  ? - ROW0302
+    - COL0618
+  : 1
+  ? - ROW0646
+    - COL1490
+  : 1
+  ? - ROW0510
+    - COL1606
+  : -1
+  ? - ROW0423
+    - COL0902
+  : 0.85549
+  ? - OBJ.FUNC
+    - COL0224
+  : 5.78469
+  ? - OBJ.FUNC
+    - COL0706
+  : 47.01899
+  ? - ROW0582
+    - COL1276
+  : -0.11691
+  ? - ROW0260
+    - COL0487
+  : -1
+  ? - ROW0574
+    - COL1337
+  : 1
+  ? - ROW0157
+    - COL0278
+  : -0.01848
+  ? - ROW0118
+    - COL0190
+  : -1
+  ? - ROW0592
+    - COL1305
+  : -0.1244
+  ? - ROW0177
+    - COL1609
+  : -1
+  ? - ROW0578
+    - COL1282
+  : 1
+  ? - OBJ.FUNC
+    - COL0141
+  : 53.4931
+  ? - ROW0421
+    - COL0918
+  : 1
+  ? - ROW0096
+    - COL0155
+  : -1
+  ? - ROW0120
+    - COL0973
+  : 1
+  ? - ROW0344
+    - COL0710
+  : 1
+  ? - ROW0517
+    - COL1122
+  : 1
+  ? - ROW0593
+    - COL1328
+  : -1
+  ? - OBJ.FUNC
+    - COL0465
+  : 152.9052
+  ? - OBJ.FUNC
+    - COL0998
+  : 48.94284
+  ? - ROW0339
+    - COL0714
+  : 1
+  ? - OBJ.FUNC
+    - COL0809
+  : 327.2251
+  ? - OBJ.FUNC
+    - COL0044
+  : 71.04291
+  ? - ROW0251
+    - COL0519
+  : -1
+  ? - ROW0316
+    - COL0656
+  : 1
+  ? - ROW0567
+    - COL1306
+  : 1
+  ? - OBJ.FUNC
+    - COL0497
+  : 23.03723
+  ? - ROW0230
+    - COL0443
+  : 1
+  ? - OBJ.FUNC
+    - COL0735
+  : 652.7415
+  ? - ROW0045
+    - COL1474
+  : -1
+  ? - ROW0210
+    - COL0379
+  : -0.01767
+  ? - ROW0108
+    - COL0176
+  : 1
+  ? - ROW0426
+    - COL0928
+  : -0.21359
+  ? - ROW0039
+    - COL0048
+  : -1
+  ? - ROW0132
+    - COL0260
+  : -1
+  ? - ROW0596
+    - COL1320
+  : -1
+  ? - ROW0371
+    - COL0838
+  : -0.67823
+  ? - ROW0053
+    - COL0948
+  : -1
+  ? - OBJ.FUNC
+    - COL0950
+  : 3.12094
+  ? - ROW0242
+    - COL0477
+  : -1
+  ? - ROW0069
+    - COL0107
+  : 1
+  ? - OBJ.FUNC
+    - COL1171
+  : 5.73513
+  ? - OBJ.FUNC
+    - COL1586
+  : 49.41199
+  ? - ROW0535
+    - COL1189
+  : -1
+  ? - ROW0313
+    - COL0651
+  : 1
+  ? - ROW0071
+    - COL0095
+  : -0.04618
+  ? - ROW0083
+    - COL0657
+  : 1
+  ? - ROW0494
+    - COL1082
+  : -1
+  ? - OBJ.FUNC
+    - COL0491
+  : 87.73469
+  ? - ROW0270
+    - COL0523
+  : -1
+  ? - OBJ.FUNC
+    - COL0692
+  : 25.4233
+  ? - ROW0599
+    - COL1344
+  : -0.00325
+  ? - ROW0448
+    - COL0971
+  : 1
+  ? - OBJ.FUNC
+    - COL1399
+  : 6.01395
+  ? - ROW0605
+    - COL1344
+  : -0.00205
+  ? - ROW0402
+    - COL0842
+  : -0.1049
+  ? - OBJ.FUNC
+    - COL0416
+  : 1.96247
+  ? - OBJ.FUNC
+    - COL1417
+  : 26.24121
+  ? - ROW0443
+    - COL0958
+  : -1
+  ? - OBJ.FUNC
+    - COL0999
+  : 48.94284
+  ? - ROW0060
+    - COL1615
+  : -0.57434
+  ? - OBJ.FUNC
+    - COL0620
+  : 77.3156
+  ? - ROW0161
+    - COL0294
+  : 1
+  ? - ROW0659
+    - COL1530
+  : 1
+  ? - ROW0355
+    - COL0756
+  : -1
+  ? - ROW0671
+    - COL1532
+  : -0.03146
+  ? - ROW0682
+    - COL1602
+  : -1
+  ? - ROW0075
+    - COL1056
+  : 1
+  ? - ROW0561
+    - COL1240
+  : -1
+  ? - ROW0115
+    - COL0187
+  : 1
+  ? - ROW0035
+    - COL0029
+  : 1
+  ? - OBJ.FUNC
+    - COL0009
+  : 0.68521
+  ? - ROW0532
+    - COL1164
+  : 1
+  ? - ROW0587
+    - COL1310
+  : -1
+  ? - ROW0099
+    - COL0156
+  : -1
+  ? - ROW0333
+    - COL0661
+  : 0.25779
+  ? - OBJ.FUNC
+    - COL1098
+  : 1.76288
+  ? - ROW0435
+    - COL0928
+  : 1
+  ? - OBJ.FUNC
+    - COL1184
+  : 5.88346
+  ? - OBJ.FUNC
+    - COL0554
+  : 54.57324
+  ? - ROW0129
+    - COL0223
+  : 1
+  ? - OBJ.FUNC
+    - COL1278
+  : 40.65041
+  ? - ROW0062
+    - COL0523
+  : 1
+  ? - ROW0130
+    - COL0228
+  : -1
+  ? - OBJ.FUNC
+    - COL1330
+  : 862.069
+  ? - ROW0218
+    - COL0383
+  : -1
+  ? - OBJ.FUNC
+    - COL0435
+  : 289.5194
+  ? - ROW0256
+    - COL0471
+  : -0.49031
+  ? - ROW0164
+    - COL0304
+  : 1
+  ? - ROW0390
+    - COL0843
+  : 1
+  ? - ROW0088
+    - COL0136
+  : -1
+  ? - OBJ.FUNC
+    - COL0138
+  : 230.521
+  ? - ROW0620
+    - COL1409
+  : 1
+  ? - ROW0421
+    - COL0902
+  : -0.0967
+  ? - ROW0303
+    - COL0621
+  : 1
+  ? - ROW0060
+    - COL0164
+  : 1
+  ? - ROW0297
+    - COL0604
+  : -1
+  ? - ROW0346
+    - COL0731
+  : 1
+  ? - OBJ.FUNC
+    - COL1522
+  : 14.55223
+  ? - ROW0234
+    - COL0458
+  : 1
+  ? - ROW0214
+    - COL0407
+  : -1
+  ? - ROW0300
+    - COL0585
+  : -1
+  ? - ROW0067
+    - COL0102
+  : 1
+  ? - ROW0050
+    - COL0226
+  : 1
+  ? - OBJ.FUNC
+    - COL0550
+  : 72.04611
+  ? - ROW0374
+    - COL0796
+  : 1
+  ? - ROW0331
+    - COL0687
+  : -1
+  ? - OBJ.FUNC
+    - COL0990
+  : 7.22491
+  ? - OBJ.FUNC
+    - COL0249
+  : 43.66812
+  ? - ROW0014
+    - COL0026
+  : -1
+  ? - ROW0509
+    - COL1089
+  : -1
+  ? - ROW0050
+    - COL0597
+  : 1
+  ? - ROW0244
+    - COL0483
+  : -1
+  ? - ROW0078
+    - COL0107
+  : 1
+  ? - ROW0097
+    - COL0157
+  : 1
+  ? - ROW0223
+    - COL0430
+  : -1
+  ? - ROW0315
+    - COL0647
+  : -1
+  ? - ROW0367
+    - COL0785
+  : 1
+  ? - ROW0079
+    - COL1139
+  : 1
+  ? - OBJ.FUNC
+    - COL0384
+  : 4.48704
+  ? - ROW0254
+    - COL0506
+  : 1
+  ? - OBJ.FUNC
+    - COL0430
+  : 16.30151
+  ? - ROW0065
+    - COL0545
+  : 1
+  ? - ROW0346
+    - COL0730
+  : 1
+  ? - OBJ.FUNC
+    - COL1070
+  : 9.65195
+  ? - OBJ.FUNC
+    - COL0893
+  : 102.145
+  ? - ROW0486
+    - COL1057
+  : 1
+  ? - ROW0041
+    - COL1232
+  : -1
+  ? - ROW0416
+    - COL0900
+  : 1
+  ? - ROW0598
+    - COL1336
+  : -0.54978
+  ? - ROW0603
+    - COL1357
+  : 1
+  ? - ROW0194
+    - COL0368
+  : 1
+  ? - ROW0394
+    - COL0855
+  : 1
+  ? - ROW0074
+    - COL0445
+  : 1
+  ? - ROW0408
+    - COL0884
+  : -1
+  ? - ROW0102
+    - COL0162
+  : 0.88984
+  ? - ROW0081
+    - COL0653
+  : 1
+  ? - ROW0418
+    - COL0902
+  : -0.24322
+  ? - ROW0065
+    - COL1129
+  : 1
+  ? - ROW0202
+    - COL0389
+  : 1
+  ? - ROW0088
+    - COL0134
+  : 1
+  ? - ROW0434
+    - COL0928
+  : -0.0104
+  ? - ROW0049
+    - COL1421
+  : -1
+  ? - OBJ.FUNC
+    - COL0566
+  : 60.85686
+  ? - OBJ.FUNC
+    - COL0015
+  : 0.9169
+  ? - ROW0018
+    - COL0037
+  : 1
+  ? - ROW0611
+    - COL1344
+  : -0.00682
+  ? - OBJ.FUNC
+    - COL1423
+  : 15.71536
+  ? - ROW0045
+    - COL0852
+  : -1
+  ? - ROW0173
+    - COL0278
+  : 1
+  ? - OBJ.FUNC
+    - COL0898
+  : 559.2841
+  ? - OBJ.FUNC
+    - COL0559
+  : 173.3102
+  ? - ROW0362
+    - COL0753
+  : -0.14663
+  ? - OBJ.FUNC
+    - COL0022
+  : 0.38357
+  ? - ROW0033
+    - COL0076
+  : 1
+  ? - ROW0081
+    - COL1390
+  : -0.00229
+  ? - ROW0491
+    - COL1073
+  : -1
+  ? - ROW0587
+    - COL1305
+  : -0.14485
+  ? - OBJ.FUNC
+    - COL0941
+  : 2.51856
+  ? - OBJ.FUNC
+    - COL0117
+  : 82.78146
+  ? - ROW0592
+    - COL1323
+  : 1
+  ? - ROW0035
+    - COL0123
+  : -1
+  ? - ROW0611
+    - COL1381
+  : 1
+  ? - ROW0073
+    - COL0095
+  : 0.93157
+  ? - ROW0049
+    - COL0594
+  : -1
+  ? - OBJ.FUNC
+    - COL0795
+  : 20.53304
+  ? - ROW0114
+    - COL0186
+  : -1
+  ? - ROW0122
+    - COL0201
+  : -0.1411
+  ? - ROW0202
+    - COL0390
+  : 1
+  ? - ROW0401
+    - COL0872
+  : 1
+  ? - ROW0433
+    - COL0928
+  : -0.1229
+  ? - ROW0135
+    - COL0201
+  : -0.00112
+  ? - ROW0231
+    - COL0445
+  : -0.16435
+  ? - OBJ.FUNC
+    - COL0904
+  : 45.78754
+  ? - ROW0682
+    - COL1601
+  : 1
+  ? - ROW0056
+    - COL0085
+  : 1
+  ? - OBJ.FUNC
+    - COL0830
+  : 337.3819
+  ? - ROW0366
+    - COL0784
+  : -1
+  ? - ROW0372
+    - COL0766
+  : -1
+  ? - ROW0120
+    - COL0196
+  : -0.90358
+  ? - ROW0077
+    - COL0552
+  : 1
+  ? - ROW0246
+    - COL0488
+  : 1
+  ? - ROW0295
+    - COL0575
+  : -0.13347
+  ? - ROW0595
+    - COL1332
+  : 1
+  ? - ROW0039
+    - COL0030
+  : -1
+  ? - ROW0270
+    - COL0532
+  : -1
+  ? - OBJ.FUNC
+    - COL1151
+  : 0.4369
+  ? - ROW0074
+    - COL0258
+  : 1
+  ? - ROW0590
+    - COL1318
+  : 1
+  ? - ROW0502
+    - COL1099
+  : 1
+  ? - ROW0649
+    - COL1492
+  : -0.03993
+  ? - ROW0438
+    - COL0987
+  : 1
+  ? - OBJ.FUNC
+    - COL1537
+  : 21.73441
+  ? - ROW0119
+    - COL0190
+  : 1
+  ? - ROW0137
+    - COL0236
+  : -1
+  ? - ROW0347
+    - COL0735
+  : -1
+  ? - ROW0185
+    - COL0342
+  : -1
+  ? - ROW0217
+    - COL0842
+  : 1
+  ? - ROW0630
+    - COL1442
+  : -1
+  ? - ROW0467
+    - COL0987
+  : 1
+  ? - ROW0472
+    - COL1053
+  : -1.05991
+  ? - ROW0326
+    - COL0661
+  : -0.06215
+  ? - ROW0415
+    - COL1294
+  : 1
+  ? - OBJ.FUNC
+    - COL0053
+  : 334.0013
+  ? - OBJ.FUNC
+    - COL0324
+  : 2.49464
+  ? - ROW0274
+    - COL0552
+  : 1
+  ? - OBJ.FUNC
+    - COL0587
+  : 36.34513
+  ? - ROW0302
+    - COL0619
+  : 1
+  ? - ROW0270
+    - COL0535
+  : -1
+  ? - ROW0352
+    - COL0742
+  : -1
+  ? - ROW0606
+    - COL1368
+  : -1
+  ? - OBJ.FUNC
+    - COL0367
+  : 24.57365
+  ? - ROW0574
+    - COL1304
+  : -0.931
+  ? - ROW0641
+    - COL1467
+  : -0.01303
+  ? - ROW0174
+    - COL0378
+  : -1
+  ? - ROW0184
+    - COL0327
+  : -0.08032
+  ? - OBJ.FUNC
+    - COL0892
+  : 102.145
+  ? - OBJ.FUNC
+    - COL0954
+  : 43.20028
+  ? - ROW0684
+    - COL1608
+  : -1
+  ? - ROW0222
+    - COL0427
+  : -1
+  ? - ROW0130
+    - COL0227
+  : 1
+  ? - OBJ.FUNC
+    - COL0410
+  : 38.78374
+  ? - ROW0457
+    - COL0994
+  : 1
+  ? - ROW0171
+    - COL0321
+  : -1
+  ? - ROW0413
+    - COL0879
+  : -0.02858
+  ? - ROW0513
+    - COL1108
+  : -1.02071
+  ? - ROW0673
+    - COL1574
+  : -1
+  ? - ROW0268
+    - COL0539
+  : 1
+  ? - ROW0275
+    - COL0557
+  : -1
+  ? - ROW0306
+    - COL0630
+  : 1
+  ? - OBJ.FUNC
+    - COL0832
+  : 112.9433
+  ? - OBJ.FUNC
+    - COL0074
+  : 30.87945
+  ? - ROW0081
+    - COL0193
+  : 1
+  ? - ROW0530
+    - COL1157
+  : 1
+  ? - ROW0533
+    - COL1166
+  : 1
+  ? - ROW0545
+    - COL1185
+  : -1.06863
+  ? - ROW0196
+    - COL0350
+  : 0.99359
+  ? - OBJ.FUNC
+    - COL1284
+  : 587.5441
+  ? - OBJ.FUNC
+    - COL1388
+  : 0.14484
+  ? - ROW0095
+    - COL0150
+  : 1
+  ? - ROW0042
+    - COL1542
+  : -1
+  ? - OBJ.FUNC
+    - COL1138
+  : 2212.389
+  ? - ROW0556
+    - COL1210
+  : -1
+  ? - OBJ.FUNC
+    - COL1155
+  : 18.3392
+  ? - ROW0310
+    - COL0643
+  : -1
+  ? - ROW0362
+    - COL0775
+  : 1
+  ? - ROW0210
+    - COL0410
+  : -1
+  ? - OBJ.FUNC
+    - COL1598
+  : 16.61019
+  ? - ROW0443
+    - COL0956
+  : 1
+  ? - ROW0450
+    - COL0977
+  : 1
+  ? - ROW0484
+    - COL1048
+  : 1
+  ? - ROW0280
+    - COL0561
+  : -1
+  ? - ROW0376
+    - COL0793
+  : -0.08878
+  ? - ROW0638
+    - COL1465
+  : 1
+  ? - ROW0220
+    - COL0512
+  : 1
+  ? - OBJ.FUNC
+    - COL0533
+  : 167.0007
+  ? - OBJ.FUNC
+    - COL1283
+  : 587.5441
+  ? - OBJ.FUNC
+    - COL0672
+  : 11.73599
+  ? - ROW0446
+    - COL0962
+  : -1
+  ? - ROW0049
+    - COL1480
+  : -1
+  ? - OBJ.FUNC
+    - COL0452
+  : 22.41751
+  ? - ROW0392
+    - COL0849
+  : 1
+  ? - ROW0109
+    - COL0173
+  : -1
+  ? - ROW0170
+    - COL0316
+  : 1
+  ? - OBJ.FUNC
+    - COL0385
+  : 4.48704
+  ? - ROW0575
+    - COL1247
+  : -1
+  ? - ROW0672
+    - COL1570
+  : 1
+  ? - OBJ.FUNC
+    - COL0708
+  : 300.3003
+  ? - ROW0447
+    - COL0965
+  : 1
+  ? - ROW0503
+    - COL1102
+  : 1
+  ? - ROW0025
+    - COL0059
+  : -1
+  ? - ROW0534
+    - COL1170
+  : 1
+  ? - ROW0125
+    - COL0201
+  : -0.03645
+  ? - OBJ.FUNC
+    - COL1392
+  : 18.18645
+  ? - OBJ.FUNC
+    - COL0572
+  : 0.43741
+  ? - OBJ.FUNC
+    - COL0314
+  : 72.7802
+  ? - ROW0150
+    - COL0264
+  : 1
+  ? - ROW0501
+    - COL1079
+  : -0.29413
+  ? - ROW0224
+    - COL0431
+  : 1
+  ? - ROW0453
+    - COL0983
+  : -0.99577
+  ? - ROW0541
+    - COL1173
+  : -1
+  ? - ROW0056
+    - COL0086
+  : -1
+  ? - ROW0559
+    - COL1232
+  : 1
+  ? - OBJ.FUNC
+    - COL1301
+  : 295.858
+  ? - ROW0131
+    - COL0244
+  : 1
+  ? - ROW0309
+    - COL0636
+  : 1
+  ? - ROW0077
+    - COL0644
+  : 1
+  ? - ROW0016
+    - COL0032
+  : -1
+  ? - ROW0286
+    - COL0587
+  : -1
+  ? - ROW0040
+    - COL0475
+  : -1
+  ? - OBJ.FUNC
+    - COL1327
+  : 540.5405
+  ? - ROW0424
+    - COL1213
+  : 1
+  ? - ROW0143
+    - COL0252
+  : -1
+  ? - ROW0334
+    - COL0680
+  : -1
+  ? - ROW0139
+    - COL0276
+  : -1
+  ? - ROW0405
+    - COL0926
+  : -1
+  ? - OBJ.FUNC
+    - COL0402
+  : 46.80333
+  ? - ROW0660
+    - COL1535
+  : -1
+  ? - ROW0039
+    - COL0079
+  : 0.95423
+  ? - OBJ.FUNC
+    - COL1272
+  : 78.24726
+  ? - OBJ.FUNC
+    - COL0020
+  : 1.62051
+  ? - ROW0605
+    - COL1363
+  : 1
+  ? - ROW0627
+    - COL1390
+  : -0.01217
+  ? - ROW0461
+    - COL1023
+  : -1
+  ? - ROW0076
+    - COL0905
+  : 1
+  ? - ROW0049
+    - COL1238
+  : -1
+  ? - OBJ.FUNC
+    - COL1124
+  : 34.37608
+rhs:
+  RHS:
+    ROW0008: 41523.9
+    ROW0002: 41293.6
+    ROW0010: 29348.7
+    ROW0011: 30854.4
+    ROW0005: 105985
+    ROW0006: 72970.4
+    ROW0013: 138598.8
+    ROW0014: 96428.4
+    ROW0003: 53631.8
+    ROW0015: 69385.6
+    ROW0007: 88367.1
+    ROW0009: 54531.4
+    ROW0012: 130354.2
+    ROW0004: 73140
+bounds:
+  BOUND:
+    ? - COL1618
+      - Fr
+    : ~
+    ? - COL1620
+      - Fr
+    : ~
+ranges: {}
+
