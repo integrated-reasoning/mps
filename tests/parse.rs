@@ -66,7 +66,7 @@ mod tests {
     Ok(())
   }
 
-  #[ignore] // TODO: Fix (fails in row_line and columns)
+  #[test]
   fn _test_parse_forplan() -> Result<()> {
     insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
       "../tests/data/netlib/forplan"
