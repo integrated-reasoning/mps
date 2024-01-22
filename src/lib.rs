@@ -40,16 +40,7 @@
 //!  LO BND1      X3        0
 //! ENDATA";
 //!
-//! cfg_if::cfg_if! {
-//!   if #[cfg(feature = "trace")] {
-//!     use nom_locate::LocatedSpan;
-//!     use nom_tracable::TracableInfo;
-//!     let info = TracableInfo::new().forward(true).backward(true);
-//!     Parser::<f32>::parse(LocatedSpan::new_extra(data, info));
-//!   } else {
-//!     Parser::<f32>::parse(data);
-//!   }
-//! }
+//! Parser::<f32>::parse(data);
 //! ```
 //!
 //! **CLI**
@@ -63,7 +54,6 @@
 //! - **Configurable Parsing**:
 //!   - Supported feature flags:
 //!     - `cli` - Command line interface.
-//!     - `proptest` - Property testing integrations.
 //!     - `trace` - Enhanced debugging and statistics via `nom_tracable` and `nom_locate`.
 //! - **Robustness**: Extensively tested against [Netlib LP test suite](http://www.netlib.org/lp/data/).
 //! - **Performance**: Benchmarked using [Criterion.rs](https://github.com/bheisler/criterion.rs).
