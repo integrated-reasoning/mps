@@ -13,8 +13,11 @@ use crate::types::Parser;
 use color_eyre::Result;
 use fast_float::FastFloat;
 use hashbrown::HashSet;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct Model<T: FastFloat> {
   pub name: String,
   pub row_types: RowTypeMap,
@@ -138,7 +141,8 @@ mod tests {
   fn test_try_from_afiro() -> Result<()> {
     let parsed =
       Parser::<f32>::parse(include_str!("../../tests/data/netlib/afiro"))?;
-    Model::try_from(parsed)?;
+    let model = Model::try_from(parsed)?;
+    insta::assert_yaml_snapshot!(model);
     Ok(())
   }
 
@@ -146,15 +150,7 @@ mod tests {
   fn test_try_from_bnl1() -> Result<()> {
     let parsed =
       Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
-    Model::try_from(parsed)?;
-    Ok(())
-  }
-
-  #[test]
-  fn test_try_from_bnl1_snapshot() -> Result<()> {
-    let parsed =
-      Parser::<f32>::parse(include_str!("../../tests/data/netlib/bnl1"))?;
-    let model = format!("{:?}", Model::try_from(parsed)?);
+    let model = Model::try_from(parsed)?;
     insta::assert_yaml_snapshot!(model);
     Ok(())
   }

@@ -3,8 +3,11 @@ use crate::types::Ranges;
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
 use hashbrown::HashMap;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RangesMap<T: FastFloat>(HashMap<String, HashMap<String, T>>);
 
 impl<T: FastFloat> TryFrom<(&Ranges<'_, T>, &RowTypeMap)> for RangesMap<T> {

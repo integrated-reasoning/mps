@@ -3,8 +3,11 @@ use crate::types::Columns;
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
 use hashbrown::HashMap;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RowColumnValueMap<T: FastFloat>(HashMap<(String, String), T>);
 
 impl<T: FastFloat> TryFrom<(&Columns<'_, T>, &RowTypeMap)>
