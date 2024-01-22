@@ -1,0 +1,12667 @@
+---
+source: tests/model.rs
+expression: model
+---
+name: SCRS8
+row_types:
+  CPSYNF20: Eq
+  DISWUX30: Leq
+  CPSWUX65: Eq
+  CPHTRB00: Eq
+  DMNELE35: Geq
+  CRQU0165: Eq
+  CPLWRX75: Eq
+  CPHTRB30: Eq
+  CRQU0575: Leq
+  CPADVX05: Eq
+  SMPETG45: Eq
+  CRQU0710: Eq
+  CRQU0250: Eq
+  CPSWUX45: Eq
+  INTSUM20: Eq
+  CPLWRX10: Eq
+  CPLWRX15: Eq
+  CRQU0640: Eq
+  WTNELE25: Eq
+  CPLWRX50: Eq
+  WTNELE10: Eq
+  SMPLUT15: Eq
+  CPSWUX25: Eq
+  SMPETG50: Eq
+  INTSUM45: Eq
+  SMCOAL60: Eq
+  SMCOAL55: Eq
+  DMNELE45: Geq
+  CRQU0115: Eq
+  CRQU1065: Eq
+  CRQU1020: Eq
+  DMELEC05: Geq
+  CPLWRX45: Eq
+  CRQU0310: Eq
+  CRQU0260: Eq
+  CPADVX25: Eq
+  CPSYNF15: Eq
+  WTNELE70: Eq
+  CRQU0405: Eq
+  CPSWUX75: Eq
+  SMCOAL40: Eq
+  CPSYNF10: Eq
+  SMNATU40: Leq
+  CRQU0660: Eq
+  CRQU0740: Eq
+  CPHTRB35: Eq
+  CRQU0340: Eq
+  CPCOAL60: Eq
+  DISWUX00: Leq
+  CRQU0545: Eq
+  SMCOAL00: Eq
+  CRQU0460: Eq
+  CRQU0345: Eq
+  CPADVX20: Eq
+  CPELHY25: Eq
+  CPFBRX60: Eq
+  CRQU0160: Eq
+  CRQU0140: Eq
+  CPELHY10: Eq
+  DISWUX75: Leq
+  CPCOAL35: Eq
+  SMPLUT25: Eq
+  CPLWRX30: Eq
+  CRQU0860: Eq
+  WTELEC35: Eq
+  CPHTRB60: Eq
+  CPCOAL70: Eq
+  WTNELE35: Eq
+  CPCOAL20: Eq
+  CRQU0235: Eq
+  SMPETG40: Eq
+  CRQU0805: Eq
+  CRQU1040: Eq
+  DISWUX50: Leq
+  CPFBRX75: Eq
+  DIBRGN05: Leq
+  CRQU0120: Eq
+  NCCOAL40: Geq
+  CPSWUX55: Eq
+  SMPETG25: Eq
+  CRQU0950: Eq
+  CRQU0765: Eq
+  WTNELE40: Eq
+  CRQU0455: Eq
+  CPSYNF60: Eq
+  CRQU0920: Eq
+  SMPLUT30: Eq
+  CRQU0515: Eq
+  INTSUM35: Eq
+  CRQU0910: Eq
+  CRQU0705: Eq
+  SMPETG60: Eq
+  NCCOAL25: Geq
+  DIBRGN70: Leq
+  CRQU0700: Eq
+  SMPETG55: Eq
+  CRQU0270: Eq
+  DMELEC20: Geq
+  CRQU0800: Eq
+  CPHTRB05: Eq
+  WTNELE50: Eq
+  CPELHY00: Eq
+  CRQU0410: Eq
+  CPLWRX65: Eq
+  CPPETG70: Eq
+  CPSWUX05: Eq
+  CPFBRX35: Eq
+  DMNELE60: Geq
+  INTSUM30: Eq
+  CRQU0550: Eq
+  CPLWRX55: Eq
+  CPHTRB25: Eq
+  CPELHY40: Eq
+  CPADVX70: Eq
+  CPADVX50: Eq
+  CPPETG30: Eq
+  CPCOAL65: Eq
+  CPFBRX65: Eq
+  NCFBRX25: Geq
+  CPPETG65: Eq
+  SMCOAL25: Eq
+  DIBRGN50: Leq
+  CRQU0725: Eq
+  CPPETG50: Eq
+  CPPETG25: Eq
+  CPCOAL50: Eq
+  SMCOAL20: Eq
+  CRQU0945: Eq
+  SMCOAL65: Eq
+  DMNELE00: Geq
+  DIBRGN15: Leq
+  WTELEC30: Eq
+  CPSYNF35: Eq
+  SMCOAL45: Eq
+  SMCOAL30: Eq
+  WTELEC55: Eq
+  INTSUM75: Eq
+  CPFBRX45: Eq
+  WTELEC40: Eq
+  CRQU0155: Eq
+  NCCOAL05: Geq
+  SMNATU10: Leq
+  CPFBRX25: Eq
+  CRQU0255: Eq
+  SMNATU70: Leq
+  CPPETG55: Eq
+  SMNATU45: Leq
+  CRQU0220: Eq
+  CRQU0875: Leq
+  DMELEC15: Geq
+  NCCOAL20: Geq
+  CRQU0230: Eq
+  CPSYNF45: Eq
+  CPFBRX20: Eq
+  CPSYNF30: Eq
+  CRQU0520: Eq
+  WTELEC45: Eq
+  CRQU0105: Eq
+  CRQU1010: Eq
+  CRQU0830: Eq
+  CPLWRX35: Eq
+  DISWUX40: Leq
+  SMNATU60: Leq
+  CRQU0240: Eq
+  CPFBRX30: Eq
+  INTSUM70: Eq
+  CRQU1070: Eq
+  CPSYNF55: Eq
+  CPADVX60: Eq
+  CRQU0840: Eq
+  SMPLUT40: Eq
+  DMELEC10: Geq
+  DMNELE20: Geq
+  CRQU1050: Eq
+  DMNELE05: Geq
+  SMPLUT10: Eq
+  CRQU0625: Eq
+  DMELEC45: Geq
+  CRQU0565: Eq
+  DMELEC65: Geq
+  CRQU0265: Eq
+  DIBRGN25: Leq
+  CRQU0210: Eq
+  DISWUX55: Leq
+  DMELEC25: Geq
+  DISWUX25: Leq
+  CRQU0335: Eq
+  CRQU0360: Eq
+  CPLWRX20: Eq
+  CRQU0245: Eq
+  DIBRGN40: Leq
+  CPSYNF25: Eq
+  CPPETG00: Eq
+  CPELHY45: Eq
+  WTELEC15: Eq
+  CPFBRX00: Eq
+  INTSUM55: Eq
+  CPADVX75: Eq
+  CRQU0145: Eq
+  CPPETG40: Eq
+  CRQU0350: Eq
+  CRQU0305: Eq
+  NCCOAL10: Geq
+  SMPLUT00: Eq
+  CRQU0415: Eq
+  CRQU0135: Eq
+  SMNATU75: Leq
+  CRQU0770: Eq
+  CPCOAL00: Eq
+  SMNATU65: Leq
+  CRQU1005: Eq
+  CRQU0555: Eq
+  WTNELE55: Eq
+  NCCOAL30: Geq
+  SMPETG30: Eq
+  SMPLUT50: Eq
+  CPFBRX05: Eq
+  CRQU0900: Eq
+  CRQU0315: Eq
+  CPCOAL15: Eq
+  CPLWRX60: Eq
+  CRQU0715: Eq
+  CPADVX00: Eq
+  DISWUX45: Leq
+  CRQU0215: Eq
+  CRQU0170: Eq
+  SMPLUT20: Eq
+  DMNELE30: Geq
+  NCFBRX35: Geq
+  SMPLUT70: Eq
+  CRQU0970: Eq
+  CPPETG60: Eq
+  CRQU0400: Eq
+  CRQU0110: Eq
+  COST: Nr
+  SMCOAL75: Eq
+  CPHTRB20: Eq
+  WTNELE75: Eq
+  CRQU1015: Eq
+  WTNELE60: Eq
+  CRQU0865: Eq
+  SMNATU25: Leq
+  CPHTRB45: Eq
+  CRQU0530: Eq
+  CPSWUX50: Eq
+  CPFBRX55: Eq
+  CPADVX40: Eq
+  CPADVX30: Eq
+  CRQU1045: Eq
+  CPADVX65: Eq
+  WTELEC10: Eq
+  SMCOAL10: Eq
+  CRQU0665: Eq
+  CRQU0605: Eq
+  CPFBRX10: Eq
+  CRQU0750: Eq
+  CRQU0810: Eq
+  CRQU0445: Eq
+  SMPETG65: Eq
+  INTSUM50: Eq
+  SMPLUT05: Eq
+  WTELEC50: Eq
+  DIBRGN60: Leq
+  SMNATU20: Leq
+  CRQU0425: Eq
+  CRQU0730: Eq
+  CPSWUX10: Eq
+  CRQU0825: Eq
+  CPCOAL45: Eq
+  WTELEC60: Eq
+  CPHTRB15: Eq
+  DIBRGN65: Leq
+  DIBRGN00: Leq
+  CPELHY65: Eq
+  SMNATU35: Leq
+  CRQU0475: Leq
+  WTELEC20: Eq
+  CRQU0925: Eq
+  CPCOAL55: Eq
+  CPSYNF70: Eq
+  CPHTRB75: Eq
+  CPFBRX15: Eq
+  CRQU0820: Eq
+  CRQU0755: Eq
+  CPELHY55: Eq
+  CRQU0100: Eq
+  DMNELE65: Geq
+  SMPETG70: Eq
+  CRQU0420: Eq
+  CPSWUX00: Eq
+  CRQU0225: Eq
+  SMPETG00: Eq
+  WTNELE15: Eq
+  CPELHY05: Eq
+  CPLWRX05: Eq
+  CRQU0940: Eq
+  SMNATU50: Leq
+  DISWUX65: Leq
+  SMPLUT35: Eq
+  SMCOAL70: Eq
+  CPCOAL25: Eq
+  DMNELE10: Geq
+  NCCOAL15: Geq
+  DISWUX10: Leq
+  WTNELE30: Eq
+  DIBRGN75: Leq
+  CRQU0650: Eq
+  CRQU0655: Eq
+  CRQU1030: Eq
+  WTNELE65: Eq
+  CPPETG15: Eq
+  WTNELE20: Eq
+  CRQU0430: Eq
+  CPLWRX40: Eq
+  CPFBRX70: Eq
+  DIBRGN35: Leq
+  INTSUM40: Eq
+  CRQU0845: Eq
+  SMPETG10: Eq
+  SMNATU15: Leq
+  CRQU0330: Eq
+  CPSYNF00: Eq
+  WTELEC70: Eq
+  WTELEC75: Eq
+  NCADVX55: Geq
+  WTNELE45: Eq
+  CPELHY35: Eq
+  CRQU0965: Eq
+  CRQU1055: Eq
+  CRQU0850: Eq
+  DMNELE55: Geq
+  CPELHY30: Eq
+  SMNATU55: Leq
+  DMNELE70: Geq
+  CRQU0775: Leq
+  CRQU0675: Leq
+  CRQU0175: Leq
+  CPADVX35: Eq
+  NCADVX50: Geq
+  DIBRGN30: Leq
+  CRQU0615: Eq
+  CPCOAL30: Eq
+  CRQU0960: Eq
+  SMPETG05: Eq
+  CPSWUX15: Eq
+  CPSYNF05: Eq
+  DISWUX20: Leq
+  INTSUM65: Eq
+  CRQU0670: Eq
+  CPELHY60: Eq
+  SMNATU00: Leq
+  CRQU0465: Eq
+  CRQU0815: Eq
+  CPHTRB65: Eq
+  CPSWUX35: Eq
+  CRQU0935: Eq
+  CPSWUX60: Eq
+  CPFBRX40: Eq
+  DMELEC00: Geq
+  NCCOAL00: Geq
+  INTSUM60: Eq
+  CRQU0535: Eq
+  CRQU0610: Eq
+  CRQU0630: Eq
+  CPSYNF75: Eq
+  CRQU1075: Leq
+  SMCOAL15: Eq
+  CRQU0505: Eq
+  CRQU0745: Eq
+  CPSYNF65: Eq
+  DMELEC35: Geq
+  INTSUM10: Eq
+  CPADVX15: Eq
+  DIBRGN10: Leq
+  CRQU0720: Eq
+  CPHTRB40: Eq
+  CRQU0510: Eq
+  DIBRGN55: Leq
+  CPCOAL75: Eq
+  DMELEC30: Geq
+  CRQU1035: Eq
+  CPCOAL05: Eq
+  DISWUX05: Leq
+  INTSUM25: Eq
+  CPADVX10: Eq
+  CPLWRX25: Eq
+  CRQU0735: Eq
+  CPSWUX40: Eq
+  CPPETG45: Eq
+  CRQU0525: Eq
+  SMPETG20: Eq
+  NCADVX45: Geq
+  CRQU0905: Eq
+  CRQU0835: Eq
+  CPHTRB55: Eq
+  DMNELE15: Geq
+  CRQU1000: Eq
+  DIBRGN20: Leq
+  CPPETG05: Eq
+  CRQU0570: Eq
+  CRQU0635: Eq
+  CRQU0600: Eq
+  SMCOAL35: Eq
+  CPSYNF40: Eq
+  CRQU0275: Leq
+  NCFBRX30: Geq
+  CRQU0320: Eq
+  CRQU0200: Eq
+  CPLWRX00: Eq
+  CPLWRX70: Eq
+  SMPETG15: Eq
+  CPPETG75: Eq
+  CPSWUX70: Eq
+  SMPLUT60: Eq
+  DISWUX70: Leq
+  DMELEC40: Geq
+  SMCOAL05: Eq
+  CRQU1025: Eq
+  DMNELE40: Geq
+  SMPLUT45: Eq
+  DMNELE50: Geq
+  DMELEC55: Geq
+  CRQU0915: Eq
+  CPCOAL10: Eq
+  NCCOAL35: Geq
+  SMPLUT75: Eq
+  CRQU0540: Eq
+  CRQU0620: Eq
+  CPPETG20: Eq
+  CPHTRB10: Eq
+  CPELHY15: Eq
+  DMNELE25: Geq
+  CPSWUX30: Eq
+  CRQU0440: Eq
+  CRQU0370: Eq
+  SMPETG75: Eq
+  SMCOAL50: Eq
+  SMPLUT55: Eq
+  CRQU0375: Leq
+  WTELEC25: Eq
+  CRQU0130: Eq
+  SMPETG35: Eq
+  DMELEC70: Geq
+  CRQU0300: Eq
+  WTELEC65: Eq
+  DMELEC50: Geq
+  CRQU0870: Eq
+  CRQU0325: Eq
+  CRQU0205: Eq
+  SMPLUT65: Eq
+  CRQU0760: Eq
+  CRQU0150: Eq
+  SMNATU30: Leq
+  CPCOAL40: Eq
+  DMNELE75: Geq
+  CPPETG35: Eq
+  CPSYNF50: Eq
+  CRQU0450: Eq
+  CRQU0470: Eq
+  INTSUM15: Eq
+  CPADVX45: Eq
+  DMELEC75: Geq
+  CPFBRX50: Eq
+  CRQU0365: Eq
+  CRQU0125: Eq
+  CPELHY75: Eq
+  CRQU0560: Eq
+  CPELHY50: Eq
+  DISWUX15: Leq
+  DISWUX35: Leq
+  CPADVX55: Eq
+  DISWUX60: Leq
+  CRQU1060: Eq
+  DIBRGN45: Leq
+  CPELHY70: Eq
+  CRQU0435: Eq
+  CRQU0645: Eq
+  CPHTRB70: Eq
+  CRQU0500: Eq
+  CRQU0855: Eq
+  CPHTRB50: Eq
+  CPELHY20: Eq
+  SMNATU05: Leq
+  CRQU0930: Eq
+  DMELEC60: Geq
+  CPPETG10: Eq
+  CRPETG75: Leq
+  CRQU0975: Leq
+  CRQU0955: Eq
+  CRQU0355: Eq
+  CPSWUX20: Eq
+values:
+  ? - DMELEC75
+    - PCCOAL75
+  : 1
+  ? - CPLWRX25
+    - PCLWRX25
+  : -1
+  ? - NCCOAL40
+    - DPELHY40
+  : 0.1
+  ? - INTSUM10
+    - WT252410
+  : 1
+  ? - CPPETG30
+    - DPPETG30
+  : 5
+  ? - DIBRGN50
+    - PCFBPL50
+  : 1
+  ? - WTNELE15
+    - WT251815
+  : 58.68935
+  ? - WTNELE15
+    - WT402715
+  : 64.08936
+  ? - CRQU0265
+    - CSNU0265
+  : -1
+  ? - WTNELE35
+    - NELEDM35
+  : -1
+  ? - WTNELE70
+    - WT251570
+  : 129.23325
+  ? - DMELEC05
+    - PCELHY05
+  : -1
+  ? - COST
+    - PCADVX35
+  : 3.7537103
+  ? - INTSUM65
+    - WT251565
+  : 1
+  ? - WTELEC65
+    - WT341865
+  : 2.5424852
+  ? - SMPLUT35
+    - DPFBRX35
+  : -2
+  ? - CPFBRX55
+    - DPFBRX55
+  : 5
+  ? - INTSUM45
+    - WT312745
+  : 1
+  ? - CRQU0115
+    - CSNU0110
+  : 1
+  ? - DMNELE55
+    - PCSYNF55
+  : 1
+  ? - DMELEC70
+    - PCCOAL70
+  : 1
+  ? - CRQU1035
+    - CSNU1035
+  : -1
+  ? - COST
+    - NURQ0765
+  : 3.2842703
+  ? - SMPLUT60
+    - CSPLUT55
+  : 0.2
+  ? - CRQU0705
+    - NURQ0705
+  : 5
+  ? - DMELEC10
+    - PCLWRX10
+  : 1
+  ? - CRQU0435
+    - CSNU0430
+  : 1
+  ? - COST
+    - WT372775
+  : -0.6031646
+  ? - WTNELE75
+    - WT401575
+  : 139.2209
+  ? - CPSYNF45
+    - DPSYNF45
+  : 5
+  ? - SMNATU00
+    - NURQ0500
+  : -1
+  ? - INTSUM50
+    - WT282750
+  : 1
+  ? - CRQU0105
+    - CSNU0105
+  : -1
+  ? - COST
+    - WT281840
+  : 7.1307263
+  ? - DMNELE15
+    - NELEDM15
+  : -1
+  ? - INTSUM10
+    - WT313010
+  : 1
+  ? - WTELEC55
+    - WT341855
+  : 1.8199232
+  ? - CPFBRX45
+    - PCFBRX40
+  : 0.844
+  ? - CRQU0565
+    - NURQ0565
+  : 5
+  ? - SMNATU50
+    - NURQ0250
+  : -1
+  ? - COST
+    - WT402455
+  : -1.7488405
+  ? - INTSUM65
+    - WT342465
+  : 1
+  ? - CRQU0910
+    - CSNU0905
+  : 1
+  ? - CRQU0520
+    - CSNU0515
+  : 1
+  ? - WTELEC15
+    - WT343015
+  : 0.4777839
+  ? - DMNELE40
+    - NELEDM40
+  : -1
+  ? - CRQU1055
+    - NURQ1055
+  : 5
+  ? - WTNELE30
+    - WT372730
+  : 95.57462
+  ? - SMNATU75
+    - DPLWRX75
+  : 0.5
+  ? - COST
+    - WT313040
+  : -4.5205736
+  ? - WTELEC20
+    - WT371520
+  : 0.58980364
+  ? - WTELEC30
+    - WT341830
+  : 0.788932
+  ? - DMELEC50
+    - PCELHY50
+  : -1
+  ? - COST
+    - PCADVX25
+  : 9.736157
+  ? - CRQU0425
+    - CSNU0420
+  : 1
+  ? - INTSUM25
+    - WT372425
+  : 1
+  ? - SMPLUT50
+    - PCLWRX45
+  : 0.17
+  ? - INTSUM40
+    - WT401540
+  : 1
+  ? - WTELEC35
+    - WT313035
+  : 0.8546456
+  ? - WTNELE15
+    - WT372415
+  : 62.24164
+  ? - CPPETG65
+    - DPPETG65
+  : 5
+  ? - WTELEC15
+    - WT282415
+  : 0.45077232
+  ? - INTSUM60
+    - WT283060
+  : 1
+  ? - WTELEC30
+    - WT281830
+  : 0.6821093
+  ? - CRQU0935
+    - CSNU0935
+  : -1
+  ? - COST
+    - WT401545
+  : 2.6460395
+  ? - CRQU0425
+    - NURQ0425
+  : 5
+  ? - INTSUM25
+    - WT312425
+  : 1
+  ? - CPELHY25
+    - PCELHY25
+  : -1
+  ? - INTSUM25
+    - WT312125
+  : 1
+  ? - CRQU0740
+    - CSNU0735
+  : 1
+  ? - WTNELE60
+    - WT252760
+  : 212.54745
+  ? - WTELEC75
+    - WT281875
+  : 2.3634377
+  ? - CRQU0475
+    - NURQ0475
+  : 5
+  ? - CRQU0535
+    - CSNU0535
+  : -1
+  ? - COST
+    - WT371520
+  : 13.67686
+  ? - SMPLUT15
+    - PCLWRX10
+  : 0.17
+  ? - DISWUX10
+    - PCLWRX10
+  : 0.11
+  ? - DMNELE00
+    - PCPETG00
+  : 1
+  ? - SMCOAL40
+    - PCCOAL40
+  : 0.0657
+  ? - INTSUM60
+    - WT402760
+  : 1
+  ? - COST
+    - PCPETG75
+  : 0.00850135
+  ? - SMNATU40
+    - NURQ0340
+  : -1
+  ? - SMPETG05
+    - PCPETG05
+  : 0.001
+  ? - DMELEC10
+    - ELECDM10
+  : -1
+  ? - CPSWUX05
+    - DPSWUX05
+  : 5
+  ? - WTNELE15
+    - WT402415
+  : 62.24164
+  ? - COST
+    - DPCOAL40
+  : 117.22204
+  ? - DMELEC00
+    - PCLWRX00
+  : 1
+  ? - COST
+    - WT402150
+  : -1.2373171
+  ? - COST
+    - WT371820
+  : 7.7308803
+  ? - COST
+    - DPHTRB35
+  : 110.7552
+  ? - COST
+    - WT282725
+  : -1.3203924
+  ? - DISWUX00
+    - PCLWRX00
+  : 0.11
+  ? - WTELEC30
+    - WT372730
+  : 0.84819365
+  ? - WTNELE55
+    - NELEDM55
+  : -1
+  ? - INTSUM50
+    - WT342450
+  : 1
+  ? - CRQU0545
+    - CSNU0545
+  : -1
+  ? - SMPLUT20
+    - CSPLUT20
+  : -0.2
+  ? - DISWUX25
+    - PCSWUX25
+  : -1
+  ? - CRQU0425
+    - CSNU0425
+  : -1
+  ? - CRQU0170
+    - CSNU0170
+  : -1
+  ? - SMPLUT65
+    - PCFBRX60
+  : 0.062
+  ? - INTSUM75
+    - WT373075
+  : 1
+  ? - SMNATU75
+    - NURQ0275
+  : -1
+  ? - INTSUM10
+    - WT401510
+  : 1
+  ? - SMNATU45
+    - PCHTRB40
+  : -0.007
+  ? - COST
+    - WT372440
+  : -2.7627215
+  ? - CRQU0530
+    - CSNU0525
+  : 1
+  ? - INTSUM45
+    - WT401545
+  : 1
+  ? - WTNELE55
+    - WT282755
+  : 186.03886
+  ? - CPPETG00
+    - PCPETG00
+  : -1
+  ? - DMNELE05
+    - PCPETG05
+  : 1
+  ? - WTELEC55
+    - WT371555
+  : 2.1036036
+  ? - WTELEC60
+    - WT402760
+  : 2.9570575
+  ? - CPPETG00
+    - DPPETG00
+  : 5
+  ? - COST
+    - PCSYNF15
+  : 4.819291
+  ? - CPADVX65
+    - PCADVX60
+  : 0.844
+  ? - WTELEC50
+    - WT342450
+  : 1.5397505
+  ? - WTELEC65
+    - WT402765
+  : 3.5977125
+  ? - WTNELE15
+    - WT252715
+  : 64.08936
+  ? - CRQU0915
+    - NURQ0915
+  : 5
+  ? - COST
+    - NURQ0225
+  : 44.59309
+  ? - WTNELE65
+    - WT342465
+  : 203.74121
+  ? - CPSYNF40
+    - PCSYNF35
+  : 0.844
+  ? - CRQU0125
+    - NURQ0125
+  : 5
+  ? - SMNATU05
+    - NURQ0605
+  : -1
+  ? - SMCOAL45
+    - PCCOAL45
+  : 0.0657
+  ? - DMELEC45
+    - PCFBRX45
+  : 1
+  ? - SMNATU40
+    - DPLWRX40
+  : 0.5
+  ? - DMELEC65
+    - PCLWRX65
+  : 1
+  ? - CRQU0275
+    - NURQ0275
+  : 5
+  ? - INTSUM35
+    - WT343035
+  : 1
+  ? - DISWUX35
+    - PCLWRX30
+  : -0.007
+  ? - WTNELE15
+    - WT342715
+  : 64.08936
+  ? - DMELEC60
+    - PCELHY60
+  : -1
+  ? - SMNATU05
+    - NURQ1005
+  : -1
+  ? - WTELEC10
+    - WT402110
+  : 0.4160953
+  ? - COST
+    - WT402440
+  : -3.6712763
+  ? - INTSUM45
+    - WT371845
+  : 1
+  ? - WTNELE70
+    - WT313070
+  : 335.35214
+  ? - CRQU0505
+    - CSNU0500
+  : 1
+  ? - WTNELE65
+    - WT372465
+  : 203.74121
+  ? - WTNELE25
+    - NELEDM25
+  : -1
+  ? - CRQU0860
+    - CSNU0860
+  : -1
+  ? - WTELEC45
+    - WT282445
+  : 1.0321687
+  ? - CRQU1025
+    - NURQ1025
+  : 5
+  ? - CPSWUX70
+    - PCSWUX70
+  : -1
+  ? - COST
+    - WT372110
+  : 4.3485703
+  ? - COST
+    - PCLWRX35
+  : 6.5904837
+  ? - CPADVX35
+    - PCADVX30
+  : 0.844
+  ? - SMNATU10
+    - NURQ1010
+  : -1
+  ? - WTELEC55
+    - ELECDM55
+  : -1
+  ? - WTNELE45
+    - WT341845
+  : 100.22882
+  ? - SMNATU40
+    - NURQ0540
+  : -1
+  ? - DMNELE75
+    - PCHTRB75
+  : 22.5
+  ? - WTELEC75
+    - WT312175
+  : 2.898229
+  ? - COST
+    - PCHTRB25
+  : 10.40505
+  ? - SMPLUT25
+    - CSPLUT25
+  : -0.2
+  ? - CRQU0130
+    - NURQ0130
+  : 5
+  ? - COST
+    - WT371835
+  : 2.967606
+  ? - CPFBRX55
+    - PCFBRX55
+  : -1
+  ? - CPADVX30
+    - PCADVX30
+  : -1
+  ? - COST
+    - DPELHY70
+  : 0.89571005
+  ? - WTELEC20
+    - WT371820
+  : 0.58980364
+  ? - SMNATU25
+    - PCLWRX25
+  : 0.16
+  ? - COST
+    - WT342445
+  : -1.521481
+  ? - INTSUM20
+    - WT251520
+  : 1
+  ? - COST
+    - WT252460
+  : 0.4267672
+  ? - COST
+    - WT402460
+  : -1.317112
+  ? - WTNELE10
+    - WT373010
+  : 56.92036
+  ? - WTNELE70
+    - WT283070
+  : 335.35214
+  ? - COST
+    - PCADVX00
+  : 105.4884
+  ? - CPFBRX20
+    - PCFBRX15
+  : 0.844
+  ? - CRQU0235
+    - NURQ0235
+  : 5
+  ? - COST
+    - WT372770
+  : -0.8290154
+  ? - CPCOAL05
+    - PCCOAL00
+  : 0.844
+  ? - WTELEC10
+    - WT372410
+  : 0.41012844
+  ? - SMPLUT25
+    - DPFBRX25
+  : -2
+  ? - DMELEC55
+    - PCELHY55
+  : -1
+  ? - WTELEC55
+    - WT402755
+  : 2.4304857
+  ? - SMNATU30
+    - NURQ0530
+  : -1
+  ? - COST
+    - DPFBRX30
+  : 439.17435
+  ? - CPSYNF40
+    - DPSYNF40
+  : 5
+  ? - CPADVX75
+    - DPADVX75
+  : 5
+  ? - COST
+    - NURQ0475
+  : 0.77873045
+  ? - COST
+    - WT251510
+  : 20.26761
+  ? - WTNELE20
+    - WT403020
+  : 76.4962
+  ? - COST
+    - WT372120
+  : 2.304034
+  ? - WTNELE55
+    - WT311555
+  : 103.3674
+  ? - COST
+    - NURQ0900
+  : 1924.5594
+  ? - COST
+    - DPHTRB30
+  : 178.37234
+  ? - WTELEC20
+    - WT341820
+  : 0.56472135
+  ? - COST
+    - WT252150
+  : 2.939867
+  ? - SMNATU65
+    - NURQ0765
+  : -1
+  ? - WTNELE20
+    - WT312720
+  : 73.22142
+  ? - WTELEC70
+    - WT372770
+  : 3.6278162
+  ? - COST
+    - NURQ0755
+  : 8.518551
+  ? - CPLWRX20
+    - DPLWRX20
+  : 5
+  ? - WTNELE25
+    - WT402425
+  : 78.90066
+  ? - WTELEC15
+    - WT311815
+  : 0.46410128
+  ? - CPCOAL55
+    - PCCOAL50
+  : 0.844
+  ? - WTNELE20
+    - WT401520
+  : 61.38639
+  ? - INTSUM60
+    - WT282460
+  : 1
+  ? - INTSUM15
+    - WT251815
+  : 1
+  ? - CPLWRX10
+    - PCLWRX10
+  : -1
+  ? - CRQU0910
+    - NURQ0910
+  : 5
+  ? - CRQU0140
+    - NURQ0140
+  : 5
+  ? - WTNELE45
+    - WT313045
+  : 160.16606
+  ? - SMNATU75
+    - PCHTRB70
+  : -0.007
+  ? - CPSWUX75
+    - PCSWUX75
+  : -1
+  ? - DMELEC35
+    - PCCOAL35
+  : 1
+  ? - CPSYNF30
+    - DPSYNF30
+  : 5
+  ? - COST
+    - WT312160
+  : 0.43224224
+  ? - WTELEC10
+    - WT402710
+  : 0.4160953
+  ? - INTSUM25
+    - WT401525
+  : 1
+  ? - CRQU0155
+    - CSNU0150
+  : 1
+  ? - WTELEC25
+    - WT342425
+  : 0.6674779
+  ? - INTSUM10
+    - WT341810
+  : 1
+  ? - WTELEC15
+    - WT371515
+  : 0.49182847
+  ? - CPELHY05
+    - PCELHY05
+  : -1
+  ? - COST
+    - DPFBRX65
+  : 15.62763
+  ? - WTNELE25
+    - WT282425
+  : 78.90066
+  ? - SMNATU45
+    - NURQ0145
+  : -1
+  ? - WTELEC15
+    - WT342715
+  : 0.4777839
+  ? - CRQU1050
+    - CSNU1050
+  : -1
+  ? - WTELEC20
+    - WT252420
+  : 0.49531797
+  ? - CRQU0325
+    - CSNU0320
+  : 1
+  ? - CRQU0940
+    - NURQ0940
+  : 5
+  ? - CPSWUX40
+    - DPSWUX40
+  : 5
+  ? - INTSUM65
+    - WT283065
+  : 1
+  ? - WTELEC60
+    - WT343060
+  : 2.1510758
+  ? - INTSUM70
+    - WT252470
+  : 1
+  ? - CRQU0660
+    - NURQ0660
+  : 5
+  ? - COST
+    - WT311840
+  : 5.2553325
+  ? - INTSUM55
+    - WT312755
+  : 1
+  ? - DISWUX45
+    - DPLWRX45
+  : 0.23
+  ? - CRQU0315
+    - CSNU0315
+  : -1
+  ? - CPELHY45
+    - PCELHY45
+  : -1
+  ? - INTSUM40
+    - WT283040
+  : 1
+  ? - WTNELE35
+    - WT402435
+  : 100.01847
+  ? - CRQU0135
+    - NURQ0135
+  : 5
+  ? - CPPETG70
+    - PCPETG70
+  : -1
+  ? - CPADVX60
+    - PCADVX60
+  : -1
+  ? - INTSUM65
+    - WT341565
+  : 1
+  ? - DISWUX40
+    - PCHTRB35
+  : -0.005
+  ? - CRQU0840
+    - NURQ0840
+  : 5
+  ? - WTELEC70
+    - WT282770
+  : 2.0586312
+  ? - COST
+    - NURQ1020
+  : 305.22485
+  ? - SMPETG30
+    - CSPETG30
+  : -0.2
+  ? - CPHTRB45
+    - PCHTRB45
+  : -1
+  ? - COST
+    - DPHTRB45
+  : 42.70092
+  ? - CPSWUX10
+    - DPSWUX10
+  : 5
+  ? - CRQU0935
+    - CSNU0930
+  : 1
+  ? - CPELHY65
+    - PCELHY65
+  : -1
+  ? - NCFBRX25
+    - DPLWRX25
+  : 0.2
+  ? - WTELEC65
+    - WT341565
+  : 2.5424852
+  ? - WTELEC10
+    - WT253010
+  : 0.3869416
+  ? - INTSUM15
+    - WT372715
+  : 1
+  ? - DMELEC30
+    - PCCOAL30
+  : 1
+  ? - WTELEC70
+    - WT401570
+  : 4.377167
+  ? - WTELEC75
+    - WT342475
+  : 3.5519252
+  ? - CRQU0310
+    - CSNU0310
+  : -1
+  ? - CRQU1055
+    - CSNU1055
+  : -1
+  ? - WTELEC65
+    - WT371865
+  : 3.0251818
+  ? - CRQU0345
+    - CSNU0345
+  : -1
+  ? - INTSUM30
+    - WT372430
+  : 1
+  ? - WTELEC20
+    - WT341520
+  : 0.56472135
+  ? - CRQU0960
+    - NURQ0960
+  : 5
+  ? - SMCOAL15
+    - CSCOAL15
+  : -0.2
+  ? - SMPLUT30
+    - DPFBRX30
+  : -2
+  ? - CRQU0845
+    - NURQ0845
+  : 5
+  ? - COST
+    - NURQ0345
+  : 10.27414
+  ? - WTELEC55
+    - WT282155
+  : 1.3604476
+  ? - COST
+    - WT402450
+  : -2.2878613
+  ? - CRQU0235
+    - CSNU0230
+  : 1
+  ? - CPLWRX20
+    - PCLWRX20
+  : -1
+  ? - INTSUM45
+    - WT342145
+  : 1
+  ? - CPSYNF75
+    - DPSYNF75
+  : 5
+  ? - DISWUX45
+    - DPHTRB45
+  : 0.175
+  ? - CPSYNF50
+    - PCSYNF50
+  : -1
+  ? - WTNELE50
+    - WT282750
+  : 162.8364
+  ? - CRQU0650
+    - CSNU0645
+  : 1
+  ? - CPELHY65
+    - DPELHY65
+  : 5
+  ? - WTNELE50
+    - WT402150
+  : 125.09498
+  ? - WTELEC55
+    - WT341555
+  : 1.8199232
+  ? - WTNELE25
+    - WT251825
+  : 70.15151
+  ? - WTELEC60
+    - WT403060
+  : 2.9570575
+  ? - COST
+    - WT251870
+  : 1.9387844
+  ? - SMPLUT75
+    - PCFBPL75
+  : 0.16
+  ? - COST
+    - WT252175
+  : 0.6735757
+  ? - SMNATU30
+    - NURQ0930
+  : -1
+  ? - DISWUX65
+    - PCHTRB60
+  : -0.005
+  ? - WTELEC50
+    - WT402150
+  : 1.9976821
+  ? - CRQU0865
+    - NURQ0865
+  : 5
+  ? - COST
+    - DPFBRX75
+  : 6.025126
+  ? - WTELEC70
+    - WT281570
+  : 2.0586312
+  ? - SMCOAL40
+    - CSCOAL40
+  : -0.2
+  ? - INTSUM50
+    - WT372150
+  : 1
+  ? - COST
+    - WT343055
+  : -2.3168328
+  ? - COST
+    - WT312455
+  : -0.53841776
+  ? - COST
+    - WT403040
+  : -6.5376034
+  ? - COST
+    - WT401840
+  : 0.6741927
+  ? - COST
+    - WT252475
+  : 0.13936318
+  ? - COST
+    - WT252425
+  : 5.7834325
+  ? - COST
+    - NURQ0130
+  : 13.8444
+  ? - WTELEC60
+    - WT282460
+  : 1.5618792
+  ? - WTELEC70
+    - WT372170
+  : 3.6278162
+  ? - INTSUM50
+    - WT252450
+  : 1
+  ? - WTELEC65
+    - WT401865
+  : 3.5977125
+  ? - INTSUM25
+    - WT312725
+  : 1
+  ? - DMELEC75
+    - ELECDM75
+  : -1
+  ? - COST
+    - PCADVX60
+  : 0.34645244
+  ? - CPSWUX00
+    - PCSWUX00
+  : -1
+  ? - CRQU0610
+    - NURQ0610
+  : 5
+  ? - COST
+    - DPFBRX40
+  : 169.32072
+  ? - WTELEC50
+    - WT401550
+  : 1.9976821
+  ? - COST
+    - DPCOAL35
+  : 188.78728
+  ? - CRQU0870
+    - CSNU0865
+  : 1
+  ? - INTSUM65
+    - WT311865
+  : 1
+  ? - SMCOAL75
+    - CSCOAL70
+  : 0.2
+  ? - WTELEC55
+    - WT342755
+  : 1.8199232
+  ? - CPFBRX65
+    - PCFBRX65
+  : -1
+  ? - CRQU0970
+    - CSNU0970
+  : -1
+  ? - SMNATU35
+    - DPHTRB35
+  : 0.216
+  ? - COST
+    - WT401550
+  : 1.9301044
+  ? - SMNATU40
+    - NURQ0240
+  : -1
+  ? - CRQU0215
+    - NURQ0215
+  : 5
+  ? - WTNELE75
+    - WT252475
+  : 258.27267
+  ? - WTNELE30
+    - WT282730
+  : 95.57462
+  ? - INTSUM15
+    - WT373015
+  : 1
+  ? - CPSWUX35
+    - DPSWUX35
+  : 5
+  ? - CRQU0405
+    - CSNU0400
+  : 1
+  ? - CRQU0775
+    - CSNU0770
+  : 1
+  ? - CPCOAL35
+    - DPCOAL35
+  : 5
+  ? - COST
+    - WT341870
+  : 0.5281945
+  ? - INTSUM70
+    - WT373070
+  : 1
+  ? - COST
+    - NURQ0335
+  : 26.64848
+  ? - COST
+    - WT282765
+  : -0.6049453
+  ? - CPPETG35
+    - PCPETG35
+  : -1
+  ? - SMPETG35
+    - CSPETG35
+  : -0.2
+  ? - INTSUM15
+    - WT251515
+  : 1
+  ? - SMNATU25
+    - PCHTRB20
+  : -0.007
+  ? - CPHTRB50
+    - DPHTRB50
+  : 5
+  ? - CPSWUX70
+    - DPSWUX70
+  : 5
+  ? - INTSUM20
+    - WT281520
+  : 1
+  ? - INTSUM65
+    - WT312765
+  : 1
+  ? - COST
+    - WT251850
+  : 5.5790668
+  ? - INTSUM15
+    - WT342115
+  : 1
+  ? - WTNELE35
+    - WT312135
+  : 91.5912
+  ? - WTNELE65
+    - WT251565
+  : 119.96209
+  ? - NCCOAL40
+    - DPFBRX40
+  : -0.1
+  ? - WTELEC60
+    - WT373060
+  : 2.522654
+  ? - WTNELE70
+    - WT372770
+  : 277.43442
+  ? - SMPLUT30
+    - CSPLUT30
+  : -0.2
+  ? - INTSUM25
+    - WT343025
+  : 1
+  ? - WTNELE45
+    - WT372145
+  : 112.7486
+  ? - CRQU0750
+    - CSNU0750
+  : -1
+  ? - INTSUM30
+    - WT372730
+  : 1
+  ? - INTSUM15
+    - WT402715
+  : 1
+  ? - COST
+    - WT281835
+  : 9.18493
+  ? - COST
+    - WT281850
+  : 4.1812015
+  ? - CRQU0110
+    - NURQ0110
+  : 5
+  ? - WTNELE60
+    - WT401560
+  : 111.35605
+  ? - INTSUM50
+    - WT312450
+  : 1
+  ? - DIBRGN55
+    - PCHTRB55
+  : 0.3
+  ? - WTNELE50
+    - WT402750
+  : 162.8364
+  ? - SMPLUT70
+    - PCLWRX65
+  : 0.17
+  ? - COST
+    - WT341575
+  : 1.0504316
+  ? - CRQU0630
+    - NURQ0630
+  : 5
+  ? - WTELEC40
+    - WT401540
+  : 1.3495624
+  ? - INTSUM25
+    - WT252425
+  : 1
+  ? - DMNELE60
+    - PCHTRB60
+  : 22.5
+  ? - WTELEC75
+    - WT401875
+  : 5.3254933
+  ? - DMELEC70
+    - PCLWRX70
+  : 1
+  ? - WTNELE70
+    - NELEDM70
+  : -1
+  ? - COST
+    - WT373025
+  : -10.67196
+  ? - WTELEC30
+    - WT283030
+  : 0.6821093
+  ? - WTNELE65
+    - WT372765
+  : 242.83324
+  ? - SMPETG35
+    - PCPETG35
+  : 0.001
+  ? - INTSUM70
+    - WT341570
+  : 1
+  ? - COST
+    - NURQ0655
+  : 7.538918
+  ? - COST
+    - DPLWRX45
+  : 97.04755
+  ? - SMNATU60
+    - NURQ1060
+  : -1
+  ? - COST
+    - WT402765
+  : -1.2536836
+  ? - COST
+    - WT312750
+  : -1.8138326
+  ? - INTSUM15
+    - WT342715
+  : 1
+  ? - CRQU1040
+    - NURQ1040
+  : 5
+  ? - SMNATU25
+    - NURQ0725
+  : -1
+  ? - WTNELE50
+    - WT343050
+  : 185.67636
+  ? - INTSUM75
+    - WT342475
+  : 1
+  ? - COST
+    - WT372425
+  : -3.3836281
+  ? - CRQU0545
+    - CSNU0540
+  : 1
+  ? - CRQU0460
+    - NURQ0460
+  : 5
+  ? - COST
+    - NURQ0930
+  : 110.29372
+  ? - SMCOAL05
+    - CSCOAL00
+  : 0.2
+  ? - COST
+    - WT251515
+  : 26.90358
+  ? - SMNATU35
+    - NURQ0435
+  : -1
+  ? - CPADVX25
+    - PCADVX25
+  : -1
+  ? - SMPLUT05
+    - PCLWRX00
+  : 0.17
+  ? - COST
+    - PCLWRX55
+  : 0.9796334
+  ? - WTNELE55
+    - WT252455
+  : 160.72348
+  ? - CRQU0670
+    - CSNU0665
+  : 1
+  ? - CPSYNF35
+    - DPSYNF35
+  : 5
+  ? - CPSWUX50
+    - PCSWUX45
+  : 0.844
+  ? - COST
+    - WT372115
+  : 3.8516831
+  ? - SMNATU65
+    - DPLWRX65
+  : 0.5
+  ? - WTELEC65
+    - WT311865
+  : 2.1357284
+  ? - WTNELE70
+    - WT402170
+  : 189.5635
+  ? - SMNATU60
+    - DPHTRB60
+  : 0.216
+  ? - COST
+    - NURQ0175
+  : 0.18993425
+  ? - SMNATU40
+    - NURQ1040
+  : -1
+  ? - SMCOAL75
+    - PCSYNF75
+  : 0.00133
+  ? - CRQU0965
+    - NURQ0965
+  : 5
+  ? - COST
+    - PCPETG25
+  : 1.1148272
+  ? - WTELEC30
+    - WT342130
+  : 0.788932
+  ? - SMCOAL30
+    - PCCOAL30
+  : 0.0657
+  ? - COST
+    - WT282440
+  : 0.6077693
+  ? - COST
+    - WT402445
+  : -2.938401
+  ? - INTSUM55
+    - WT253055
+  : 1
+  ? - CRQU0170
+    - CSNU0165
+  : 1
+  ? - COST
+    - NURQ0320
+  : 111.3173
+  ? - COST
+    - PCLWRX10
+  : 71.40595
+  ? - WTNELE30
+    - WT401830
+  : 76.69657
+  ? - COST
+    - WT312720
+  : -2.6891537
+  ? - WTELEC65
+    - ELECDM65
+  : -1
+  ? - CRQU0570
+    - CSNU0570
+  : -1
+  ? - CRQU0965
+    - CSNU0965
+  : -1
+  ? - DMELEC20
+    - PCCOAL20
+  : 1
+  ? - COST
+    - WT312445
+  : -0.67625636
+  ? - INTSUM15
+    - WT252415
+  : 1
+  ? - CPADVX05
+    - PCADVX00
+  : 0.844
+  ? - WTELEC40
+    - WT312740
+  : 0.9955874
+  ? - COST
+    - NURQ0555
+  : 6.431506
+  ? - INTSUM15
+    - WT401815
+  : 1
+  ? - SMNATU55
+    - NURQ0155
+  : -1
+  ? - WTELEC10
+    - WT282110
+  : 0.3926374
+  ? - DIBRGN05
+    - PCFBRX00
+  : -1
+  ? - DIBRGN05
+    - PCFBPL05
+  : 1
+  ? - CPFBRX60
+    - PCFBRX60
+  : -1
+  ? - CPHTRB75
+    - DPHTRB75
+  : 5
+  ? - WTNELE30
+    - WT342730
+  : 95.57462
+  ? - WTELEC55
+    - WT343055
+  : 1.8199232
+  ? - WTELEC40
+    - WT403040
+  : 1.3495624
+  ? - INTSUM50
+    - WT312750
+  : 1
+  ? - SMNATU35
+    - NURQ0535
+  : -1
+  ? - COST
+    - WT282160
+  : 0.9841133
+  ? - COST
+    - WT342715
+  : -3.5215244
+  ? - WTELEC30
+    - WT341530
+  : 0.788932
+  ? - SMPETG15
+    - CSPETG15
+  : -0.2
+  ? - COST
+    - DPCOAL05
+  : 3294.225
+  ? - INTSUM40
+    - WT401840
+  : 1
+  ? - WTNELE55
+    - WT282455
+  : 160.72348
+  ? - DISWUX65
+    - DPLWRX65
+  : 0.23
+  ? - CRQU0245
+    - CSNU0240
+  : 1
+  ? - COST
+    - PCLWRX65
+  : 0.3776911
+  ? - COST
+    - NURQ0825
+  : 164.2512
+  ? - WTNELE45
+    - WT342445
+  : 126.78847
+  ? - COST
+    - WT402740
+  : -5.2525363
+  ? - CPSWUX25
+    - PCSWUX20
+  : 0.844
+  ? - CRQU0555
+    - NURQ0555
+  : 5
+  ? - COST
+    - WT283030
+  : -5.1103864
+  ? - COST
+    - DPFBRX25
+  : 707.2947
+  ? - CRQU0325
+    - CSNU0325
+  : -1
+  ? - COST
+    - WT372760
+  : -1.5313998
+  ? - COST
+    - NURQ0730
+  : 92.296
+  ? - CRQU0870
+    - NURQ0870
+  : 5
+  ? - WTNELE45
+    - WT403045
+  : 160.16606
+  ? - INTSUM70
+    - WT341870
+  : 1
+  ? - COST
+    - PCLWRX45
+  : 2.5409167
+  ? - INTSUM10
+    - WT281810
+  : 1
+  ? - INTSUM45
+    - WT312445
+  : 1
+  ? - COST
+    - WT251865
+  : 2.5336456
+  ? - WTNELE10
+    - WT252710
+  : 56.09623
+  ? - WTELEC75
+    - WT342175
+  : 3.5519252
+  ? - DISWUX35
+    - DPLWRX35
+  : 0.23
+  ? - WTNELE75
+    - WT401875
+  : 171.16933
+  ? - COST
+    - WT252470
+  : 0.2004961
+  ? - SMPLUT45
+    - PCFBPL45
+  : 0.16
+  ? - WTELEC15
+    - WT282115
+  : 0.45077232
+  ? - CRQU0105
+    - CSNU0100
+  : 1
+  ? - WTNELE70
+    - WT402470
+  : 229.39221
+  ? - INTSUM15
+    - WT252115
+  : 1
+  ? - DMNELE10
+    - PCELHY10
+  : 36
+  ? - NCCOAL40
+    - DPCOAL40
+  : 0.9
+  ? - CRQU0935
+    - NURQ0935
+  : 5
+  ? - SMPLUT50
+    - PCFBPL50
+  : 0.16
+  ? - SMNATU70
+    - NURQ0770
+  : -1
+  ? - INTSUM20
+    - WT373020
+  : 1
+  ? - COST
+    - DPCOAL00
+  : 5305.3823
+  ? - DISWUX60
+    - DPLWRX60
+  : 0.23
+  ? - WTNELE20
+    - WT372720
+  : 73.22142
+  ? - CRQU0745
+    - NURQ0745
+  : 5
+  ? - DMNELE45
+    - PCHTRB45
+  : 22.5
+  ? - WTNELE50
+    - WT342150
+  : 125.09498
+  ? - COST
+    - NURQ0460
+  : 3.2529504
+  ? - WTELEC75
+    - WT401575
+  : 5.3254933
+  ? - WTNELE10
+    - WT343010
+  : 56.92036
+  ? - WTELEC40
+    - WT283040
+  : 0.8990526
+  ? - COST
+    - WT341850
+  : 1.889813
+  ? - CRQU0305
+    - CSNU0300
+  : 1
+  ? - SMNATU30
+    - NURQ0130
+  : -1
+  ? - SMPLUT30
+    - PCLWRX25
+  : 0.17
+  ? - DISWUX55
+    - PCSWUX55
+  : -1
+  ? - WTELEC55
+    - WT372455
+  : 2.1036036
+  ? - WTNELE15
+    - WT371515
+  : 56.98255
+  ? - COST
+    - WT312425
+  : 0.9201523
+  ? - CPLWRX25
+    - PCLWRX20
+  : 0.844
+  ? - COST
+    - PCHTRB40
+  : 2.4908872
+  ? - WTNELE55
+    - WT282155
+  : 138.79333
+  ? - CRQU0645
+    - CSNU0645
+  : -1
+  ? - INTSUM15
+    - WT342415
+  : 1
+  ? - COST
+    - DPADVX50
+  : 60.25889
+  ? - CRQU0975
+    - NURQ0975
+  : 5
+  ? - COST
+    - WT402720
+  : -9.26612
+  ? - DISWUX20
+    - PCLWRX20
+  : 0.11
+  ? - WTNELE20
+    - WT312120
+  : 67.06063
+  ? - WTELEC50
+    - WT281550
+  : 1.1849943
+  ? - DMNELE70
+    - PCSYNF70
+  : 1
+  ? - COST
+    - WT403060
+  : -1.9929063
+  ? - SMPLUT05
+    - PCFBPL05
+  : 0.16
+  ? - WTELEC45
+    - WT402745
+  : 1.641949
+  ? - INTSUM70
+    - WT313070
+  : 1
+  ? - CRQU0165
+    - CSNU0165
+  : -1
+  ? - DMNELE05
+    - PCSYNF05
+  : 1
+  ? - INTSUM60
+    - WT251560
+  : 1
+  ? - WTNELE50
+    - WT402450
+  : 142.75113
+  ? - WTELEC75
+    - WT253075
+  : 1.9261792
+  ? - SMNATU60
+    - NURQ0160
+  : -1
+  ? - SMNATU25
+    - NURQ0125
+  : -1
+  ? - DMELEC30
+    - PCELHY30
+  : -1
+  ? - WTNELE55
+    - WT281555
+  : 103.3674
+  ? - CRQU0415
+    - CSNU0415
+  : -1
+  ? - DMELEC50
+    - PCFBRX50
+  : 1
+  ? - DISWUX55
+    - PCLWRX50
+  : -0.007
+  ? - WTELEC35
+    - WT402435
+  : 1.109242
+  ? - CRQU0470
+    - CSNU0470
+  : -1
+  ? - SMNATU35
+    - NURQ0135
+  : -1
+  ? - SMPLUT15
+    - CSPLUT15
+  : -0.2
+  ? - CPPETG25
+    - PCPETG20
+  : 0.844
+  ? - INTSUM40
+    - WT341540
+  : 1
+  ? - WTNELE70
+    - WT252170
+  : 189.5635
+  ? - WTELEC50
+    - WT251550
+  : 1.038963
+  ? - WTNELE30
+    - NELEDM30
+  : -1
+  ? - WTELEC30
+    - WT403030
+  : 0.91171604
+  ? - CPCOAL70
+    - PCCOAL70
+  : -1
+  ? - INTSUM35
+    - WT342435
+  : 1
+  ? - CRQU0930
+    - NURQ0930
+  : 5
+  ? - SMNATU40
+    - PCLWRX40
+  : 0.16
+  ? - COST
+    - WT283045
+  : -2.9555688
+  ? - COST
+    - WT311820
+  : 13.5718
+  ? - COST
+    - WT341820
+  : 10.58357
+  ? - CPHTRB30
+    - DPHTRB30
+  : 5
+  ? - COST
+    - DPELHY65
+  : 1.4425501
+  ? - WTNELE15
+    - WT372115
+  : 60.44201
+  ? - WTNELE65
+    - WT341865
+  : 143.2017
+  ? - SMNATU75
+    - PCLWRX75
+  : 0.16
+  ? - COST
+    - NURQ0660
+  : 4.681075
+  ? - CPELHY70
+    - DPELHY70
+  : 5
+  ? - INTSUM20
+    - WT341820
+  : 1
+  ? - WTELEC35
+    - WT251835
+  : 0.7173681
+  ? - CPFBRX05
+    - PCFBRX05
+  : -1
+  ? - WTELEC10
+    - WT311810
+  : 0.3984001
+  ? - DMNELE15
+    - PCELHY15
+  : 36
+  ? - CRQU0605
+    - CSNU0605
+  : -1
+  ? - SMNATU65
+    - NURQ0265
+  : -1
+  ? - SMCOAL35
+    - PCCOAL35
+  : 0.0657
+  ? - WTNELE45
+    - WT401545
+  : 89.0683
+  ? - COST
+    - WT252415
+  : 9.039589
+  ? - WTELEC65
+    - WT401565
+  : 3.5977125
+  ? - CPADVX45
+    - DPADVX45
+  : 5
+  ? - SMNATU15
+    - NURQ0915
+  : -1
+  ? - COST
+    - PCFBRX55
+  : 0.9796334
+  ? - COST
+    - NURQ0500
+  : 1215.935
+  ? - CRQU0210
+    - CSNU0210
+  : -1
+  ? - CPPETG60
+    - PCPETG55
+  : 0.844
+  ? - SMPETG45
+    - CSPETG40
+  : 0.2
+  ? - COST
+    - WT372755
+  : -2.0549583
+  ? - CPADVX70
+    - PCADVX70
+  : -1
+  ? - SMPLUT40
+    - CSPLUT35
+  : 0.2
+  ? - DMELEC70
+    - ELECDM70
+  : -1
+  ? - WTELEC25
+    - WT312425
+  : 0.6297953
+  ? - SMPETG60
+    - PCPETG60
+  : 0.001
+  ? - WTELEC15
+    - WT312415
+  : 0.46410128
+  ? - DMELEC10
+    - PCELHY10
+  : -1
+  ? - INTSUM45
+    - WT281545
+  : 1
+  ? - COST
+    - WT342745
+  : -2.9525015
+  ? - WTNELE50
+    - WT312750
+  : 162.8364
+  ? - DMNELE65
+    - PCSYNF65
+  : 1
+  ? - COST
+    - WT343070
+  : -0.913521
+  ? - DMNELE50
+    - PCPETG50
+  : 1
+  ? - CRQU0365
+    - CSNU0360
+  : 1
+  ? - WTNELE75
+    - WT341875
+  : 171.16933
+  ? - NCFBRX35
+    - DPFBRX35
+  : -0.2
+  ? - INTSUM50
+    - WT251550
+  : 1
+  ? - CRQU1015
+    - NURQ1015
+  : 5
+  ? - COST
+    - WT343075
+  : -0.66060823
+  ? - CPHTRB60
+    - PCHTRB55
+  : 0.844
+  ? - CRQU0305
+    - NURQ0305
+  : 5
+  ? - WTELEC40
+    - WT342440
+  : 1.1021608
+  ? - COST
+    - WT313060
+  : -1.5334642
+  ? - WTNELE40
+    - WT282140
+  : 101.62077
+  ? - DMELEC30
+    - PCFBRX30
+  : 1
+  ? - INTSUM70
+    - WT281570
+  : 1
+  ? - SMPETG00
+    - PCPETG00
+  : 0.001
+  ? - CRQU0830
+    - CSNU0825
+  : 1
+  ? - COST
+    - WT281525
+  : 20.90952
+  ? - WTELEC25
+    - WT372125
+  : 0.7072961
+  ? - SMPLUT35
+    - CSPLUT30
+  : 0.2
+  ? - COST
+    - WT251535
+  : 17.37481
+  ? - COST
+    - WT312730
+  : -3.5195014
+  ? - SMNATU65
+    - PCLWRX60
+  : -0.016
+  ? - COST
+    - PCADVX05
+  : 65.5
+  ? - WTELEC65
+    - WT312765
+  : 2.1357284
+  ? - CRQU1025
+    - CSNU1020
+  : 1
+  ? - COST
+    - PCADVX15
+  : 25.25309
+  ? - INTSUM65
+    - WT371865
+  : 1
+  ? - INTSUM20
+    - WT251820
+  : 1
+  ? - SMNATU75
+    - NURQ0675
+  : -1
+  ? - CPCOAL20
+    - PCCOAL20
+  : -1
+  ? - WTNELE15
+    - WT312715
+  : 64.08936
+  ? - WTELEC25
+    - WT341525
+  : 0.6674779
+  ? - WTNELE25
+    - WT311825
+  : 70.15151
+  ? - WTELEC65
+    - WT402465
+  : 3.5977125
+  ? - WTNELE65
+    - WT341565
+  : 119.96209
+  ? - WTELEC35
+    - WT401835
+  : 1.109242
+  ? - WTNELE15
+    - WT341515
+  : 56.98255
+  ? - COST
+    - WT371530
+  : 9.063108
+  ? - DMELEC50
+    - PCLWRX50
+  : 1
+  ? - DMELEC65
+    - PCCOAL65
+  : 1
+  ? - COST
+    - WT342755
+  : -1.7560418
+  ? - COST
+    - WT342415
+  : 1.2956632
+  ? - WTELEC25
+    - WT252125
+  : 0.5604068
+  ? - CPFBRX40
+    - PCFBRX35
+  : 0.844
+  ? - CPCOAL10
+    - PCCOAL05
+  : 0.844
+  ? - SMNATU15
+    - NURQ0415
+  : -1
+  ? - INTSUM25
+    - WT311825
+  : 1
+  ? - DISWUX70
+    - PCLWRX70
+  : 0.11
+  ? - SMCOAL70
+    - CSCOAL65
+  : 0.2
+  ? - COST
+    - WT281810
+  : 14.0509
+  ? - WTELEC30
+    - WT252430
+  : 0.6340489
+  ? - COST
+    - NURQ0105
+  : 150
+  ? - WTNELE50
+    - WT251850
+  : 109.58005
+  ? - WTNELE40
+    - WT371840
+  : 91.67559
+  ? - WTELEC25
+    - WT251825
+  : 0.5604068
+  ? - CRQU0470
+    - CSNU0465
+  : 1
+  ? - CRQU0730
+    - NURQ0730
+  : 5
+  ? - COST
+    - DPCOAL45
+  : 72.78566
+  ? - CRQU0300
+    - CSNU0300
+  : -1
+  ? - COST
+    - WT373055
+  : -2.5401242
+  ? - WTELEC30
+    - WT402730
+  : 0.91171604
+  ? - SMNATU70
+    - NURQ0170
+  : -1
+  ? - WTNELE55
+    - WT403055
+  : 215.24979
+  ? - CRQU1015
+    - CSNU1010
+  : 1
+  ? - DIBRGN10
+    - PCHTRB10
+  : 0.3
+  ? - CPSYNF20
+    - PCSYNF20
+  : -1
+  ? - CPPETG65
+    - PCPETG65
+  : -1
+  ? - WTELEC15
+    - WT281815
+  : 0.45077232
+  ? - SMNATU25
+    - NURQ1025
+  : -1
+  ? - COST
+    - PCHTRB75
+  : 0.07934591
+  ? - COST
+    - WT343025
+  : -9.020387
+  ? - CPFBRX50
+    - PCFBRX50
+  : -1
+  ? - WTNELE55
+    - WT373055
+  : 215.24979
+  ? - CPELHY55
+    - PCELHY55
+  : -1
+  ? - WTELEC60
+    - WT371560
+  : 2.522654
+  ? - COST
+    - WT311530
+  : 14.5558
+  ? - SMPLUT60
+    - DPFBRX60
+  : -2
+  ? - INTSUM20
+    - WT401520
+  : 1
+  ? - DMELEC60
+    - ELECDM60
+  : -1
+  ? - COST
+    - WT252765
+  : -0.35705015
+  ? - CRQU0815
+    - CSNU0815
+  : -1
+  ? - CRQU1060
+    - CSNU1060
+  : -1
+  ? - INTSUM30
+    - WT371830
+  : 1
+  ? - CRQU0925
+    - CSNU0925
+  : -1
+  ? - CRQU0565
+    - CSNU0565
+  : -1
+  ? - CRQU0320
+    - NURQ0320
+  : 5
+  ? - COST
+    - WT312740
+  : -2.7786088
+  ? - WTELEC35
+    - WT403035
+  : 1.109242
+  ? - SMCOAL05
+    - PCCOAL05
+  : 0.0657
+  ? - COST
+    - PCSYNF70
+  : 0.02549092
+  ? - CRQU0430
+    - NURQ0430
+  : 5
+  ? - DMELEC20
+    - PCFBRX20
+  : 1
+  ? - WTELEC20
+    - WT252720
+  : 0.49531797
+  ? - COST
+    - WT372140
+  : -0.6086755
+  ? - WTNELE35
+    - WT372435
+  : 100.01847
+  ? - CPADVX50
+    - PCADVX50
+  : -1
+  ? - CRQU0210
+    - NURQ0210
+  : 5
+  ? - WTELEC50
+    - WT311850
+  : 1.3510332
+  ? - INTSUM65
+    - WT372465
+  : 1
+  ? - INTSUM70
+    - WT343070
+  : 1
+  ? - CPSYNF50
+    - PCSYNF45
+  : 0.844
+  ? - WTNELE35
+    - WT311835
+  : 83.85227
+  ? - COST
+    - WT403020
+  : -13.2234
+  ? - COST
+    - NURQ0415
+  : 237.10912
+  ? - SMNATU50
+    - PCLWRX45
+  : -0.016
+  ? - DMELEC40
+    - PCFBRX40
+  : 1
+  ? - COST
+    - WT311555
+  : 4.33005
+  ? - WTNELE55
+    - WT372455
+  : 160.72348
+  ? - COST
+    - WT372145
+  : -0.6561245
+  ? - CRQU0365
+    - CSNU0365
+  : -1
+  ? - WTNELE25
+    - WT312125
+  : 74.40401
+  ? - INTSUM35
+    - WT282435
+  : 1
+  ? - CRQU0375
+    - CSNU0370
+  : 1
+  ? - COST
+    - NURQ0550
+  : 10.35801
+  ? - COST
+    - NURQ0255
+  : 2.5555654
+  ? - WTELEC70
+    - WT312470
+  : 2.4879367
+  ? - WTELEC20
+    - WT401820
+  : 0.6159227
+  ? - CRQU0835
+    - CSNU0835
+  : -1
+  ? - WTNELE45
+    - WT342145
+  : 112.7486
+  ? - CRQU0325
+    - NURQ0325
+  : 5
+  ? - SMPLUT25
+    - PCFBPL25
+  : 0.16
+  ? - CRQU0840
+    - CSNU0835
+  : 1
+  ? - INTSUM55
+    - WT252455
+  : 1
+  ? - INTSUM60
+    - WT251860
+  : 1
+  ? - WTNELE15
+    - WT282115
+  : 60.44201
+  ? - CPCOAL25
+    - PCCOAL20
+  : 0.844
+  ? - CPCOAL35
+    - PCCOAL30
+  : 0.844
+  ? - CRQU0515
+    - CSNU0515
+  : -1
+  ? - WTNELE35
+    - WT281835
+  : 83.85227
+  ? - DMELEC25
+    - ELECDM25
+  : -1
+  ? - CRQU0310
+    - CSNU0305
+  : 1
+  ? - CPPETG60
+    - DPPETG60
+  : 5
+  ? - INTSUM20
+    - WT342420
+  : 1
+  ? - SMPLUT70
+    - CSPLUT65
+  : 0.2
+  ? - INTSUM30
+    - WT402130
+  : 1
+  ? - INTSUM35
+    - WT282135
+  : 1
+  ? - COST
+    - WT371550
+  : 2.9982407
+  ? - CRQU1010
+    - CSNU1010
+  : -1
+  ? - CRQU0120
+    - CSNU0115
+  : 1
+  ? - CRQU0440
+    - NURQ0440
+  : 5
+  ? - COST
+    - WT372455
+  : -1.4032831
+  ? - WTELEC55
+    - WT372755
+  : 2.1036036
+  ? - CRQU0550
+    - CSNU0550
+  : -1
+  ? - COST
+    - WT373010
+  : -6.41446
+  ? - INTSUM55
+    - WT341855
+  : 1
+  ? - WTELEC20
+    - WT372720
+  : 0.58980364
+  ? - SMNATU05
+    - NURQ0305
+  : -1
+  ? - WTNELE15
+    - WT372715
+  : 64.08936
+  ? - COST
+    - WT341510
+  : 14.1081
+  ? - SMNATU25
+    - NURQ0625
+  : -1
+  ? - INTSUM35
+    - WT402135
+  : 1
+  ? - COST
+    - WT402435
+  : -4.427241
+  ? - COST
+    - NURQ0955
+  : 10.17967
+  ? - COST
+    - NURQ0355
+  : 3.9611263
+  ? - WTNELE40
+    - WT342740
+  : 124.75186
+  ? - SMNATU50
+    - NURQ1050
+  : -1
+  ? - COST
+    - NURQ0420
+  : 147.2261
+  ? - COST
+    - DPADVX45
+  : 97.04755
+  ? - CPHTRB55
+    - PCHTRB55
+  : -1
+  ? - WTNELE40
+    - WT342140
+  : 101.62077
+  ? - SMCOAL75
+    - PCCOAL75
+  : 0.0657
+  ? - CPLWRX75
+    - PCLWRX75
+  : -1
+  ? - WTELEC40
+    - WT341540
+  : 1.1021608
+  ? - CRQU0445
+    - CSNU0440
+  : 1
+  ? - WTNELE15
+    - WT341815
+  : 58.68935
+  ? - WTELEC45
+    - WT372145
+  : 1.462771
+  ? - DMNELE10
+    - PCPETG10
+  : 1
+  ? - CRQU0365
+    - NURQ0365
+  : 5
+  ? - WTNELE35
+    - WT341535
+  : 76.74724
+  ? - CRQU0740
+    - NURQ0740
+  : 5
+  ? - WTELEC65
+    - WT342765
+  : 2.5424852
+  ? - INTSUM60
+    - WT401860
+  : 1
+  ? - INTSUM15
+    - WT282715
+  : 1
+  ? - SMPLUT30
+    - CSPLUT25
+  : 0.2
+  ? - COST
+    - NURQ0630
+  : 81.68196
+  ? - WTNELE20
+    - WT251520
+  : 61.38639
+  ? - WTNELE30
+    - WT312730
+  : 95.57462
+  ? - INTSUM60
+    - WT282760
+  : 1
+  ? - CPCOAL65
+    - PCCOAL65
+  : -1
+  ? - COST
+    - NURQ0365
+  : 1.5271857
+  ? - WTELEC15
+    - WT312115
+  : 0.46410128
+  ? - WTELEC25
+    - WT253025
+  : 0.5604068
+  ? - CPPETG40
+    - DPPETG40
+  : 5
+  ? - COST
+    - NURQ0330
+  : 42.91764
+  ? - INTSUM40
+    - WT251840
+  : 1
+  ? - WTELEC60
+    - WT341560
+  : 2.1510758
+  ? - CRQU0725
+    - CSNU0725
+  : -1
+  ? - COST
+    - WT313065
+  : -1.1331105
+  ? - SMCOAL70
+    - PCSYNF70
+  : 0.00133
+  ? - COST
+    - PCHTRB00
+  : 112.7357
+  ? - WTELEC10
+    - WT373010
+  : 0.41012844
+  ? - WTELEC20
+    - WT282720
+  : 0.5175149
+  ? - DMELEC60
+    - PCLWRX60
+  : 1
+  ? - INTSUM15
+    - WT282415
+  : 1
+  ? - CPSWUX20
+    - PCSWUX20
+  : -1
+  ? - WTELEC50
+    - WT312750
+  : 1.3510332
+  ? - COST
+    - WT253030
+  : -3.5178914
+  ? - CRQU0845
+    - CSNU0845
+  : -1
+  ? - COST
+    - WT283050
+  : -2.3001983
+  ? - CRQU0820
+    - CSNU0815
+  : 1
+  ? - INTSUM65
+    - WT401565
+  : 1
+  ? - CPADVX50
+    - DPADVX50
+  : 5
+  ? - COST
+    - WT401520
+  : 10.70107
+  ? - WTNELE50
+    - WT283050
+  : 185.67636
+  ? - WTELEC60
+    - WT312160
+  : 1.8333808
+  ? - INTSUM70
+    - WT342170
+  : 1
+  ? - INTSUM65
+    - WT313065
+  : 1
+  ? - CPFBRX70
+    - PCFBRX65
+  : 0.844
+  ? - SMCOAL05
+    - CSCOAL05
+  : -0.2
+  ? - WTNELE45
+    - WT373045
+  : 160.16606
+  ? - CPSWUX35
+    - PCSWUX30
+  : 0.844
+  ? - COST
+    - WT282165
+  : 0.71436197
+  ? - SMCOAL00
+    - CSCOAL00
+  : -0.2
+  ? - CRQU0330
+    - NURQ0330
+  : 5
+  ? - CPLWRX45
+    - DPLWRX45
+  : 5
+  ? - SMCOAL10
+    - CSCOAL10
+  : -0.2
+  ? - SMNATU15
+    - PCLWRX15
+  : 0.16
+  ? - CRQU0520
+    - CSNU0520
+  : -1
+  ? - DMNELE45
+    - NELEDM45
+  : -1
+  ? - WTELEC20
+    - WT342720
+  : 0.56472135
+  ? - WTNELE45
+    - WT371845
+  : 100.22882
+  ? - COST
+    - WT311540
+  : 9.263435
+  ? - WTELEC50
+    - WT281850
+  : 1.1849943
+  ? - COST
+    - PCHTRB50
+  : 0.96034485
+  ? - COST
+    - WT312165
+  : 0.29526207
+  ? - INTSUM70
+    - WT282770
+  : 1
+  ? - COST
+    - WT251825
+  : 17.48034
+  ? - WTNELE65
+    - WT402165
+  : 170.85434
+  ? - CPHTRB70
+    - PCHTRB70
+  : -1
+  ? - CPFBRX60
+    - PCFBRX55
+  : 0.844
+  ? - WTNELE40
+    - WT311540
+  : 82.67857
+  ? - COST
+    - WT283040
+  : -3.6948566
+  ? - INTSUM50
+    - WT311550
+  : 1
+  ? - DIBRGN75
+    - PCHTRB75
+  : 0.3
+  ? - COST
+    - NURQ0620
+  : 211.86195
+  ? - COST
+    - DPHTRB70
+  : 3.9411244
+  ? - CPLWRX35
+    - PCLWRX35
+  : -1
+  ? - CPSYNF15
+    - DPSYNF15
+  : 5
+  ? - WTELEC50
+    - WT342750
+  : 1.5397505
+  ? - COST
+    - WT342175
+  : -0.05230098
+  ? - WTNELE75
+    - WT371575
+  : 139.2209
+  ? - SMNATU00
+    - NURQ0300
+  : -1
+  ? - CRQU0300
+    - NURQ0300
+  : 5
+  ? - INTSUM20
+    - WT371820
+  : 1
+  ? - COST
+    - WT402120
+  : -0.1894833
+  ? - COST
+    - WT402715
+  : -8.016022
+  ? - INTSUM15
+    - WT313015
+  : 1
+  ? - WTNELE15
+    - WT253015
+  : 65.98629
+  ? - WTELEC60
+    - WT342760
+  : 2.1510758
+  ? - INTSUM60
+    - WT281860
+  : 1
+  ? - SMNATU70
+    - PCHTRB65
+  : -0.007
+  ? - COST
+    - WT282120
+  : 10.51756
+  ? - INTSUM40
+    - WT372740
+  : 1
+  ? - INTSUM35
+    - WT252135
+  : 1
+  ? - WTELEC75
+    - WT402775
+  : 5.3254933
+  ? - WTNELE30
+    - WT282430
+  : 88.83424
+  ? - CPFBRX40
+    - DPFBRX40
+  : 5
+  ? - COST
+    - NURQ0545
+  : 16.68167
+  ? - WTNELE45
+    - WT343045
+  : 160.16606
+  ? - INTSUM45
+    - WT402445
+  : 1
+  ? - WTELEC70
+    - WT341570
+  : 3.0051153
+  ? - WTELEC25
+    - WT312725
+  : 0.6297953
+  ? - DIBRGN45
+    - PCFBRX40
+  : -1
+  ? - WTNELE55
+    - WT341855
+  : 119.80374
+  ? - COST
+    - NURQ0610
+  : 549.5154
+  ? - INTSUM75
+    - WT402475
+  : 1
+  ? - DIBRGN75
+    - PCFBRX70
+  : -1
+  ? - CRQU0340
+    - CSNU0340
+  : -1
+  ? - COST
+    - NURQ0670
+  : 1.804757
+  ? - CPHTRB05
+    - PCHTRB05
+  : -1
+  ? - SMNATU45
+    - NURQ0345
+  : -1
+  ? - SMPETG10
+    - CSPETG10
+  : -0.2
+  ? - INTSUM35
+    - WT312435
+  : 1
+  ? - WTNELE35
+    - WT371535
+  : 76.74724
+  ? - WTELEC55
+    - WT253055
+  : 1.1754912
+  ? - CPCOAL65
+    - PCCOAL60
+  : 0.844
+  ? - WTELEC55
+    - WT311855
+  : 1.5738356
+  ? - COST
+    - DPFBRX45
+  : 105.13485
+  ? - CRQU0150
+    - CSNU0145
+  : 1
+  ? - WTNELE10
+    - WT252110
+  : 54.47663
+  ? - COST
+    - NURQ0710
+  : 620.9213
+  ? - WTELEC30
+    - WT251530
+  : 0.6340489
+  ? - INTSUM65
+    - WT402765
+  : 1
+  ? - INTSUM60
+    - WT402160
+  : 1
+  ? - INTSUM70
+    - WT372470
+  : 1
+  ? - COST
+    - NURQ0605
+  : 885
+  ? - INTSUM10
+    - WT312410
+  : 1
+  ? - INTSUM35
+    - WT371535
+  : 1
+  ? - CPADVX55
+    - PCADVX50
+  : 0.844
+  ? - COST
+    - WT312120
+  : 7.6514306
+  ? - COST
+    - WT341840
+  : 3.5664566
+  ? - WTNELE25
+    - WT373025
+  : 88.68006
+  ? - WTNELE70
+    - WT282470
+  : 229.39221
+  ? - WTELEC75
+    - WT312775
+  : 2.898229
+  ? - INTSUM55
+    - WT281855
+  : 1
+  ? - CRQU0730
+    - CSNU0730
+  : -1
+  ? - WTNELE70
+    - WT282770
+  : 277.43442
+  ? - WTELEC75
+    - WT372775
+  : 4.3504987
+  ? - COST
+    - WT282115
+  : 11.80491
+  ? - WTELEC20
+    - WT402720
+  : 0.6159227
+  ? - WTELEC45
+    - WT371845
+  : 1.462771
+  ? - CRQU0230
+    - CSNU0225
+  : 1
+  ? - COST
+    - NURQ0800
+  : 1779.6135
+  ? - INTSUM25
+    - WT311525
+  : 1
+  ? - CRQU1025
+    - CSNU1025
+  : -1
+  ? - SMCOAL45
+    - CSCOAL45
+  : -0.2
+  ? - WTNELE45
+    - WT282145
+  : 112.7486
+  ? - CPCOAL65
+    - DPCOAL65
+  : 5
+  ? - WTELEC15
+    - WT341515
+  : 0.4777839
+  ? - COST
+    - NURQ0375
+  : 0.5887962
+  ? - CPPETG15
+    - DPPETG15
+  : 5
+  ? - WTNELE30
+    - WT401530
+  : 71.24142
+  ? - COST
+    - WT283070
+  : -0.72878313
+  ? - NCCOAL25
+    - DPLWRX25
+  : -0.3
+  ? - COST
+    - WT403025
+  : -12.22618
+  ? - DMNELE70
+    - PCHTRB70
+  : 22.5
+  ? - COST
+    - NURQ1000
+  : 2053.4001
+  ? - NCFBRX35
+    - DPLWRX35
+  : 0.8
+  ? - COST
+    - DPFBRX50
+  : 65.28047
+  ? - INTSUM60
+    - WT282160
+  : 1
+  ? - COST
+    - WT342460
+  : -0.7830263
+  ? - WTNELE30
+    - WT371830
+  : 76.69657
+  ? - COST
+    - WT373015
+  : -10.20571
+  ? - COST
+    - WT341835
+  : 4.856503
+  ? - WTELEC30
+    - WT252130
+  : 0.6340489
+  ? - NCCOAL10
+    - DPCOAL10
+  : 0.7
+  ? - COST
+    - WT372450
+  : -1.8052758
+  ? - NCCOAL25
+    - DPCOAL25
+  : 0.7
+  ? - NCCOAL35
+    - DPELHY35
+  : 0.2
+  ? - SMCOAL35
+    - PCSYNF35
+  : 0.00133
+  ? - SMPETG15
+    - PCPETG15
+  : 0.001
+  ? - INTSUM55
+    - WT251855
+  : 1
+  ? - COST
+    - DPHTRB40
+  : 68.77026
+  ? - COST
+    - WT341865
+  : 0.7246709
+  ? - COST
+    - WT372125
+  : 0.9714436
+  ? - COST
+    - WT373045
+  : -4.5522356
+  ? - WTELEC70
+    - WT343070
+  : 3.0051153
+  ? - CRQU0205
+    - CSNU0200
+  : 1
+  ? - CPELHY10
+    - PCELHY05
+  : 0.844
+  ? - DMELEC65
+    - PCELHY65
+  : -1
+  ? - WTNELE15
+    - WT281515
+  : 56.98255
+  ? - INTSUM30
+    - WT283030
+  : 1
+  ? - COST
+    - WT282425
+  : 3.2773042
+  ? - CPPETG05
+    - PCPETG05
+  : -1
+  ? - CPSWUX50
+    - DPSWUX50
+  : 5
+  ? - WTNELE75
+    - WT341575
+  : 139.2209
+  ? - WTELEC15
+    - WT251815
+  : 0.4377889
+  ? - DISWUX75
+    - PCHTRB70
+  : -0.005
+  ? - CPHTRB25
+    - DPHTRB25
+  : 5
+  ? - SMNATU30
+    - NURQ0430
+  : -1
+  ? - WTNELE65
+    - WT371865
+  : 143.2017
+  ? - WTNELE15
+    - WT342415
+  : 62.24164
+  ? - COST
+    - PCCOAL30
+  : 36.36462
+  ? - DIBRGN15
+    - PCFBPL15
+  : 1
+  ? - DISWUX00
+    - PCSWUX00
+  : -1
+  ? - WTELEC50
+    - WT371550
+  : 1.7541637
+  ? - SMNATU60
+    - NURQ0360
+  : -1
+  ? - CRQU0910
+    - CSNU0910
+  : -1
+  ? - DMNELE10
+    - NELEDM10
+  : -1
+  ? - COST
+    - PCLWRX15
+  : 44.33748
+  ? - WTNELE20
+    - WT281820
+  : 64.16499
+  ? - COST
+    - WT402125
+  : -1.2364177
+  ? - WTELEC35
+    - WT282735
+  : 0.7831042
+  ? - CRQU1075
+    - CSNU1070
+  : 1
+  ? - WTNELE25
+    - WT343025
+  : 88.68006
+  ? - SMNATU10
+    - PCLWRX05
+  : -0.016
+  ? - SMNATU25
+    - NURQ0225
+  : -1
+  ? - COST
+    - WT312465
+  : -0.35573494
+  ? - CRQU0670
+    - CSNU0670
+  : -1
+  ? - SMCOAL50
+    - PCCOAL50
+  : 0.0657
+  ? - CPSYNF45
+    - PCSYNF40
+  : 0.844
+  ? - SMNATU15
+    - NURQ0615
+  : -1
+  ? - INTSUM25
+    - WT402725
+  : 1
+  ? - COST
+    - WT312450
+  : -0.62400675
+  ? - CPCOAL20
+    - DPCOAL20
+  : 5
+  ? - INTSUM30
+    - WT282130
+  : 1
+  ? - WTNELE50
+    - WT313050
+  : 185.67636
+  ? - CPHTRB70
+    - DPHTRB70
+  : 5
+  ? - SMPETG70
+    - CSPETG70
+  : -0.2
+  ? - SMNATU45
+    - DPHTRB45
+  : 0.216
+  ? - COST
+    - WT281865
+  : 1.8208126
+  ? - COST
+    - NURQ0905
+  : 1195
+  ? - SMCOAL50
+    - PCSYNF50
+  : 0.00133
+  ? - WTELEC75
+    - WT343075
+  : 3.5519252
+  ? - DMELEC75
+    - PCLWRX75
+  : 1
+  ? - INTSUM60
+    - WT372460
+  : 1
+  ? - COST
+    - WT401525
+  : 8.632841
+  ? - WTELEC30
+    - WT401830
+  : 0.91171604
+  ? - SMNATU60
+    - PCHTRB55
+  : -0.007
+  ? - COST
+    - NURQ0700
+  : 1610.51
+  ? - COST
+    - WT282710
+  : 2.4401615
+  ? - CRQU0540
+    - CSNU0540
+  : -1
+  ? - INTSUM50
+    - WT313050
+  : 1
+  ? - CPLWRX50
+    - DPLWRX50
+  : 5
+  ? - DIBRGN40
+    - PCFBPL40
+  : 1
+  ? - CRQU0550
+    - NURQ0550
+  : 5
+  ? - COST
+    - WT372150
+  : -0.6088917
+  ? - WTNELE10
+    - WT252410
+  : 55.28169
+  ? - SMPLUT70
+    - CSPLUT70
+  : -0.2
+  ? - WTNELE25
+    - WT251525
+  : 66.13058
+  ? - COST
+    - WT313030
+  : -6.5865183
+  ? - INTSUM50
+    - WT282150
+  : 1
+  ? - WTNELE75
+    - NELEDM75
+  : -1
+  ? - INTSUM65
+    - WT401865
+  : 1
+  ? - COST
+    - WT312775
+  : -0.44825155
+  ? - INTSUM45
+    - WT251845
+  : 1
+  ? - SMPETG20
+    - CSPETG15
+  : 0.2
+  ? - COST
+    - NURQ1050
+  : 17.492
+  ? - SMPETG75
+    - CSPETG75
+  : -0.2
+  ? - WTNELE75
+    - WT373075
+  : 388.76505
+  ? - SMCOAL30
+    - PCSYNF30
+  : 0.00133
+  ? - INTSUM15
+    - WT312415
+  : 1
+  ? - DMNELE15
+    - PCPETG15
+  : 1
+  ? - WTNELE20
+    - WT311820
+  : 64.16499
+  ? - COST
+    - WT402415
+  : -3.4696436
+  ? - CPSYNF55
+    - PCSYNF50
+  : 0.844
+  ? - WTNELE15
+    - WT282415
+  : 62.24164
+  ? - COST
+    - NURQ0470
+  : 1.2541531
+  ? - WTNELE20
+    - WT282720
+  : 73.22142
+  ? - CPSWUX65
+    - DPSWUX65
+  : 5
+  ? - INTSUM50
+    - WT401850
+  : 1
+  ? - CRQU0600
+    - NURQ0600
+  : 5
+  ? - WTNELE75
+    - WT282175
+  : 210.3214
+  ? - WTELEC15
+    - WT372415
+  : 0.49182847
+  ? - WTNELE70
+    - WT281870
+  : 156.56226
+  ? - WTNELE65
+    - WT373065
+  : 289.2777
+  ? - WTNELE10
+    - WT402110
+  : 54.47663
+  ? - CRQU0800
+    - NURQ0800
+  : 5
+  ? - WTELEC50
+    - WT252450
+  : 1.038963
+  ? - SMNATU45
+    - NURQ0745
+  : -1
+  ? - COST
+    - PCCOAL00
+  : 634.54095
+  ? - DMNELE70
+    - PCPETG70
+  : 1
+  ? - INTSUM75
+    - WT311875
+  : 1
+  ? - DMELEC45
+    - PCADVX45
+  : 1
+  ? - WTELEC70
+    - WT282170
+  : 2.0586312
+  ? - CPHTRB55
+    - DPHTRB55
+  : 5
+  ? - SMPETG40
+    - CSPETG35
+  : 0.2
+  ? - CRQU0810
+    - CSNU0805
+  : 1
+  ? - WTELEC70
+    - WT312770
+  : 2.4879367
+  ? - COST
+    - DPADVX60
+  : 23.23241
+  ? - DMNELE20
+    - PCSYNF20
+  : 1
+  ? - WTNELE75
+    - WT312475
+  : 258.27267
+  ? - SMNATU70
+    - NURQ0870
+  : -1
+  ? - CRQU0200
+    - NURQ0200
+  : 5
+  ? - COST
+    - PCHTRB10
+  : 43.46449
+  ? - SMNATU25
+    - NURQ0525
+  : -1
+  ? - COST
+    - NURQ0715
+  : 385.5433
+  ? - NCCOAL05
+    - DPLWRX05
+  : -0.3
+  ? - DMELEC15
+    - PCELHY15
+  : -1
+  ? - SMCOAL00
+    - PCCOAL00
+  : 0.0657
+  ? - DIBRGN55
+    - PCFBRX50
+  : -1
+  ? - SMNATU00
+    - NURQ0600
+  : -1
+  ? - WTELEC60
+    - WT342460
+  : 2.1510758
+  ? - CPHTRB65
+    - PCHTRB65
+  : -1
+  ? - WTNELE75
+    - WT251575
+  : 139.2209
+  ? - COST
+    - DPLWRX30
+  : 405.39172
+  ? - COST
+    - WT311835
+  : 6.9231706
+  ? - CRQU1050
+    - CSNU1045
+  : 1
+  ? - COST
+    - WT402420
+  : -4.9337506
+  ? - DISWUX25
+    - DPLWRX25
+  : 0.23
+  ? - CPELHY60
+    - PCELHY55
+  : 0.844
+  ? - COST
+    - WT253055
+  : -1.4090878
+  ? - WTNELE60
+    - WT401860
+  : 130.9813
+  ? - CPFBRX05
+    - PCFBRX00
+  : 0.844
+  ? - WTELEC35
+    - WT341835
+  : 0.9324859
+  ? - WTNELE40
+    - WT343040
+  : 138.16064
+  ? - WTELEC60
+    - WT252460
+  : 1.3299603
+  ? - DISWUX40
+    - DPLWRX40
+  : 0.23
+  ? - CPSWUX75
+    - PCSWUX70
+  : 0.844
+  ? - WTELEC25
+    - WT251525
+  : 0.5604068
+  ? - DMELEC50
+    - PCCOAL50
+  : 1
+  ? - INTSUM50
+    - WT252750
+  : 1
+  ? - COST
+    - WT373075
+  : -0.7068118
+  ? - COST
+    - WT371810
+  : 8.174023
+  ? - CPPETG30
+    - PCPETG25
+  : 0.844
+  ? - SMNATU10
+    - NURQ0810
+  : -1
+  ? - SMNATU10
+    - NURQ0110
+  : -1
+  ? - DISWUX65
+    - PCLWRX60
+  : -0.007
+  ? - CPLWRX15
+    - PCLWRX10
+  : 0.844
+  ? - WTNELE10
+    - WT402710
+  : 56.09623
+  ? - WTELEC40
+    - WT252440
+  : 0.81163615
+  ? - WTELEC35
+    - WT371535
+  : 1.0171589
+  ? - DISWUX55
+    - PCLWRX55
+  : 0.11
+  ? - WTELEC65
+    - WT372165
+  : 3.0251818
+  ? - CPELHY75
+    - PCELHY70
+  : 0.844
+  ? - COST
+    - WT401870
+  : -0.04967097
+  ? - SMNATU75
+    - NURQ0475
+  : -1
+  ? - WTNELE10
+    - WT312710
+  : 56.09623
+  ? - COST
+    - NURQ0145
+  : 3.3142393
+  ? - CPELHY50
+    - DPELHY50
+  : 5
+  ? - CPSWUX55
+    - PCSWUX55
+  : -1
+  ? - COST
+    - WT252745
+  : -0.6806356
+  ? - INTSUM55
+    - WT402155
+  : 1
+  ? - WTNELE25
+    - WT341825
+  : 70.15151
+  ? - SMPETG70
+    - CSPETG65
+  : 0.2
+  ? - WTELEC25
+    - WT282725
+  : 0.59413946
+  ? - CPELHY40
+    - PCELHY40
+  : -1
+  ? - COST
+    - PCLWRX50
+  : 1.5777094
+  ? - CPADVX15
+    - PCADVX15
+  : -1
+  ? - CPFBRX45
+    - PCFBRX45
+  : -1
+  ? - COST
+    - WT253045
+  : -2.2829497
+  ? - WTELEC45
+    - WT313045
+  : 1.1597723
+  ? - WTNELE50
+    - WT372450
+  : 142.75113
+  ? - COST
+    - NURQ1075
+  : 1.6144412
+  ? - CRQU0335
+    - CSNU0330
+  : 1
+  ? - NCADVX45
+    - DPCOAL45
+  : 0.2
+  ? - DMELEC00
+    - PCFBRX00
+  : 1
+  ? - SMNATU20
+    - NURQ0220
+  : -1
+  ? - INTSUM45
+    - WT402145
+  : 1
+  ? - DMELEC45
+    - PCELHY45
+  : -1
+  ? - COST
+    - WT311845
+  : 3.947232
+  ? - SMNATU65
+    - NURQ0665
+  : -1
+  ? - DMELEC30
+    - PCLWRX30
+  : 1
+  ? - WTELEC35
+    - WT312435
+  : 0.8546456
+  ? - COST
+    - PCCOAL25
+  : 58.56559
+  ? - INTSUM10
+    - WT401810
+  : 1
+  ? - WTELEC25
+    - WT341825
+  : 0.6674779
+  ? - COST
+    - WT371565
+  : 1.2429965
+  ? - SMNATU30
+    - PCLWRX25
+  : -0.016
+  ? - WTELEC25
+    - WT401525
+  : 0.74936414
+  ? - WTNELE55
+    - WT371555
+  : 103.3674
+  ? - WTELEC50
+    - WT252750
+  : 1.038963
+  ? - COST
+    - WT281845
+  : 5.4711447
+  ? - SMNATU55
+    - NURQ0355
+  : -1
+  ? - WTNELE70
+    - WT403070
+  : 335.35214
+  ? - SMNATU75
+    - NURQ0775
+  : -1
+  ? - WTNELE40
+    - WT312140
+  : 101.62077
+  ? - SMPETG75
+    - PCPETG75
+  : 0.001
+  ? - CRQU0315
+    - CSNU0310
+  : 1
+  ? - SMPETG20
+    - PCPETG20
+  : 0.001
+  ? - INTSUM60
+    - WT372760
+  : 1
+  ? - DISWUX20
+    - PCSWUX20
+  : -1
+  ? - INTSUM30
+    - WT342430
+  : 1
+  ? - SMNATU30
+    - NURQ0630
+  : -1
+  ? - SMCOAL30
+    - CSCOAL25
+  : 0.2
+  ? - WTELEC45
+    - WT283045
+  : 1.0321687
+  ? - SMNATU25
+    - NURQ0825
+  : -1
+  ? - WTNELE45
+    - WT281545
+  : 89.0683
+  ? - COST
+    - NURQ0100
+  : 241.5765
+  ? - SMNATU15
+    - PCHTRB10
+  : -0.007
+  ? - INTSUM45
+    - WT252145
+  : 1
+  ? - COST
+    - WT252455
+  : 0.6253493
+  ? - COST
+    - WT253050
+  : -1.813326
+  ? - COST
+    - WT313035
+  : -5.578624
+  ? - SMNATU70
+    - NURQ0370
+  : -1
+  ? - INTSUM65
+    - WT311565
+  : 1
+  ? - CRQU0240
+    - CSNU0235
+  : 1
+  ? - CPHTRB75
+    - PCHTRB75
+  : -1
+  ? - INTSUM30
+    - WT253030
+  : 1
+  ? - DIBRGN05
+    - PCHTRB05
+  : 0.3
+  ? - CRQU0740
+    - CSNU0740
+  : -1
+  ? - DISWUX50
+    - DPLWRX50
+  : 0.23
+  ? - COST
+    - PCADVX55
+  : 0.5579651
+  ? - INTSUM20
+    - WT371520
+  : 1
+  ? - COST
+    - NURQ1005
+  : 1275
+  ? - SMNATU15
+    - NURQ0315
+  : -1
+  ? - INTSUM15
+    - WT372115
+  : 1
+  ? - COST
+    - NURQ0725
+  : 148.64363
+  ? - DIBRGN20
+    - PCFBRX15
+  : -1
+  ? - WTNELE15
+    - WT312115
+  : 60.44201
+  ? - COST
+    - WT282130
+  : 6.4629564
+  ? - WTELEC45
+    - WT281545
+  : 1.0321687
+  ? - DMNELE35
+    - PCELHY35
+  : 36
+  ? - DISWUX50
+    - DPHTRB50
+  : 0.175
+  ? - COST
+    - WT373060
+  : -1.8638208
+  ? - INTSUM70
+    - WT342770
+  : 1
+  ? - CRQU0145
+    - NURQ0145
+  : 5
+  ? - COST
+    - WT401535
+  : 4.9360657
+  ? - INTSUM20
+    - WT282120
+  : 1
+  ? - COST
+    - WT251555
+  : 7.1436186
+  ? - INTSUM25
+    - WT281525
+  : 1
+  ? - WTELEC50
+    - WT341850
+  : 1.5397505
+  ? - WTNELE50
+    - WT281850
+  : 109.58005
+  ? - COST
+    - WT311860
+  : 1.6456916
+  ? - CRQU0125
+    - CSNU0120
+  : 1
+  ? - CPPETG15
+    - PCPETG10
+  : 0.844
+  ? - COST
+    - WT283055
+  : -1.7576077
+  ? - COST
+    - WT281830
+  : 11.62751
+  ? - CRQU0955
+    - CSNU0950
+  : 1
+  ? - CRQU0715
+    - CSNU0710
+  : 1
+  ? - COST
+    - NURQ0210
+  : 186.2764
+  ? - CPSYNF20
+    - DPSYNF20
+  : 5
+  ? - INTSUM65
+    - WT252465
+  : 1
+  ? - CRQU0115
+    - NURQ0115
+  : 5
+  ? - INTSUM30
+    - WT402730
+  : 1
+  ? - CRQU0370
+    - CSNU0365
+  : 1
+  ? - WTELEC20
+    - WT342420
+  : 0.56472135
+  ? - INTSUM60
+    - WT341560
+  : 1
+  ? - COST
+    - PCHTRB05
+  : 70
+  ? - CRQU0760
+    - NURQ0760
+  : 5
+  ? - WTNELE65
+    - WT311565
+  : 119.96209
+  ? - CPSWUX20
+    - DPSWUX20
+  : 5
+  ? - WTNELE70
+    - WT342470
+  : 229.39221
+  ? - DISWUX20
+    - PCHTRB15
+  : -0.005
+  ? - CRQU0745
+    - CSNU0745
+  : -1
+  ? - SMNATU60
+    - PCLWRX60
+  : 0.16
+  ? - WTNELE65
+    - NELEDM65
+  : -1
+  ? - SMNATU25
+    - NURQ0925
+  : -1
+  ? - WTNELE60
+    - WT342760
+  : 212.54745
+  ? - COST
+    - WT372165
+  : -0.34968385
+  ? - WTNELE20
+    - WT282120
+  : 67.06063
+  ? - SMNATU50
+    - NURQ0350
+  : -1
+  ? - WTELEC10
+    - ELECDM10
+  : -1
+  ? - COST
+    - NURQ0945
+  : 26.40344
+  ? - COST
+    - NURQ0425
+  : 91.41583
+  ? - WTNELE40
+    - WT281540
+  : 82.67857
+  ? - COST
+    - PCPETG20
+  : 1.7954403
+  ? - WTNELE25
+    - WT341525
+  : 66.13058
+  ? - WTNELE20
+    - WT281520
+  : 61.38639
+  ? - CRQU1075
+    - NURQ1075
+  : 5
+  ? - COST
+    - WT281560
+  : 4.384108
+  ? - DMELEC25
+    - PCFBRX25
+  : 1
+  ? - INTSUM40
+    - WT281540
+  : 1
+  ? - WTELEC30
+    - WT311830
+  : 0.73365647
+  ? - CRQU0610
+    - CSNU0605
+  : 1
+  ? - WTELEC50
+    - WT341550
+  : 1.5397505
+  ? - COST
+    - DPLWRX50
+  : 60.25889
+  ? - COST
+    - WT281510
+  : 18.17842
+  ? - WTELEC30
+    - WT372430
+  : 0.84819365
+  ? - COST
+    - PCADVX70
+  : 0.13357241
+  ? - INTSUM50
+    - WT252150
+  : 1
+  ? - SMNATU60
+    - PCLWRX55
+  : -0.016
+  ? - COST
+    - WT342150
+  : 0.108985
+  ? - CRQU0170
+    - NURQ0170
+  : 5
+  ? - COST
+    - WT371515
+  : 14.77629
+  ? - WTNELE50
+    - WT252150
+  : 125.09498
+  ? - CPFBRX30
+    - PCFBRX30
+  : -1
+  ? - WTNELE45
+    - WT371545
+  : 89.0683
+  ? - CPHTRB70
+    - PCHTRB65
+  : 0.844
+  ? - COST
+    - WT252420
+  : 7.621241
+  ? - WTELEC55
+    - WT371855
+  : 2.1036036
+  ? - DMELEC15
+    - PCADVX15
+  : 1
+  ? - CRQU0630
+    - CSNU0625
+  : 1
+  ? - CRQU0810
+    - CSNU0810
+  : -1
+  ? - INTSUM55
+    - WT252755
+  : 1
+  ? - WTNELE20
+    - WT342720
+  : 73.22142
+  ? - INTSUM75
+    - WT371875
+  : 1
+  ? - CPSWUX00
+    - DPSWUX00
+  : 5
+  ? - CRQU0270
+    - NURQ0270
+  : 5
+  ? - CPLWRX15
+    - DPLWRX15
+  : 5
+  ? - COST
+    - WT282770
+  : -0.4583226
+  ? - COST
+    - WT283015
+  : -3.532823
+  ? - CRQU0620
+    - NURQ0620
+  : 5
+  ? - CRQU0270
+    - CSNU0265
+  : 1
+  ? - INTSUM45
+    - WT341545
+  : 1
+  ? - WTELEC60
+    - WT283060
+  : 1.5618792
+  ? - INTSUM65
+    - WT282765
+  : 1
+  ? - CPLWRX10
+    - DPLWRX10
+  : 5
+  ? - CRQU0215
+    - CSNU0215
+  : -1
+  ? - COST
+    - WT341855
+  : 1.3724124
+  ? - SMPLUT60
+    - PCFBRX55
+  : 0.062
+  ? - DMELEC05
+    - PCADVX05
+  : 1
+  ? - CRQU0330
+    - CSNU0330
+  : -1
+  ? - INTSUM15
+    - WT312115
+  : 1
+  ? - CRQU0900
+    - CSNU0900
+  : -1
+  ? - CRQU0825
+    - NURQ0825
+  : 5
+  ? - CRQU0520
+    - NURQ0520
+  : 5
+  ? - CRQU1045
+    - CSNU1045
+  : -1
+  ? - CRQU0765
+    - CSNU0765
+  : -1
+  ? - WTELEC40
+    - WT401840
+  : 1.3495624
+  ? - WTNELE40
+    - WT252440
+  : 112.61078
+  ? - WTELEC50
+    - WT313050
+  : 1.3510332
+  ? - SMNATU30
+    - NURQ0730
+  : -1
+  ? - INTSUM40
+    - WT252140
+  : 1
+  ? - WTNELE40
+    - WT403040
+  : 138.16064
+  ? - CRQU0335
+    - NURQ0335
+  : 5
+  ? - SMNATU35
+    - DPLWRX35
+  : 0.5
+  ? - CRQU0820
+    - CSNU0820
+  : -1
+  ? - CPSYNF10
+    - PCSYNF05
+  : 0.844
+  ? - SMNATU20
+    - PCHTRB15
+  : -0.007
+  ? - DISWUX15
+    - PCLWRX10
+  : -0.007
+  ? - DMELEC25
+    - PCELHY25
+  : -1
+  ? - WTELEC15
+    - WT283015
+  : 0.45077232
+  ? - WTELEC50
+    - WT282750
+  : 1.1849943
+  ? - CPADVX55
+    - PCADVX55
+  : -1
+  ? - COST
+    - WT252125
+  : 11.28002
+  ? - CRQU0410
+    - CSNU0410
+  : -1
+  ? - COST
+    - NURQ0925
+  : 177.62914
+  ? - SMPLUT25
+    - PCLWRX20
+  : 0.17
+  ? - CRQU0710
+    - NURQ0710
+  : 5
+  ? - CRQU0630
+    - CSNU0630
+  : -1
+  ? - INTSUM55
+    - WT372155
+  : 1
+  ? - WTNELE70
+    - WT342770
+  : 277.43442
+  ? - WTNELE50
+    - WT372750
+  : 162.8364
+  ? - INTSUM25
+    - WT341825
+  : 1
+  ? - SMNATU00
+    - NURQ1000
+  : -1
+  ? - WTNELE20
+    - WT373020
+  : 76.4962
+  ? - COST
+    - PCSYNF40
+  : 0.44480127
+  ? - COST
+    - WT282755
+  : -1.007416
+  ? - CRQU0370
+    - CSNU0370
+  : -1
+  ? - CPHTRB05
+    - PCHTRB00
+  : 0.844
+  ? - CPHTRB10
+    - PCHTRB05
+  : 0.844
+  ? - COST
+    - DPLWRX15
+  : 1693.4218
+  ? - INTSUM30
+    - WT341530
+  : 1
+  ? - CRQU0735
+    - NURQ0735
+  : 5
+  ? - WTNELE75
+    - WT251875
+  : 171.16933
+  ? - CRQU0830
+    - NURQ0830
+  : 5
+  ? - WTNELE15
+    - WT401815
+  : 58.68935
+  ? - WTNELE25
+    - WT342425
+  : 78.90066
+  ? - COST
+    - WT282175
+  : 0.3801704
+  ? - DISWUX05
+    - PCSWUX05
+  : -1
+  ? - CPSYNF55
+    - DPSYNF55
+  : 5
+  ? - SMNATU65
+    - NURQ0165
+  : -1
+  ? - INTSUM60
+    - WT342760
+  : 1
+  ? - INTSUM10
+    - WT342710
+  : 1
+  ? - COST
+    - DPELHY60
+  : 2.3232412
+  ? - CRQU0870
+    - CSNU0870
+  : -1
+  ? - WTNELE35
+    - WT402135
+  : 91.5912
+  ? - COST
+    - NURQ0865
+  : 3.6291187
+  ? - SMNATU65
+    - NURQ0465
+  : -1
+  ? - INTSUM45
+    - WT342745
+  : 1
+  ? - WTELEC25
+    - WT282125
+  : 0.59413946
+  ? - SMNATU50
+    - PCHTRB45
+  : -0.007
+  ? - DMNELE65
+    - NELEDM65
+  : -1
+  ? - WTNELE55
+    - WT253055
+  : 215.24979
+  ? - COST
+    - NURQ0975
+  : 1.513143
+  ? - COST
+    - DPLWRX05
+  : 4392.3
+  ? - COST
+    - PCSYNF20
+  : 2.9924006
+  ? - INTSUM20
+    - WT253020
+  : 1
+  ? - WTELEC35
+    - WT342735
+  : 0.9324859
+  ? - INTSUM35
+    - WT372735
+  : 1
+  ? - DMNELE40
+    - PCHTRB40
+  : 22.5
+  ? - INTSUM35
+    - WT401835
+  : 1
+  ? - INTSUM40
+    - WT251540
+  : 1
+  ? - INTSUM75
+    - WT313075
+  : 1
+  ? - CRQU0725
+    - NURQ0725
+  : 5
+  ? - WTNELE35
+    - WT402735
+  : 109.193
+  ? - DMELEC75
+    - PCFBRX75
+  : 1
+  ? - WTNELE25
+    - WT252425
+  : 78.90066
+  ? - CRQU0415
+    - NURQ0415
+  : 5
+  ? - DISWUX50
+    - PCHTRB45
+  : -0.005
+  ? - INTSUM65
+    - WT403065
+  : 1
+  ? - DMNELE15
+    - PCSYNF15
+  : 1
+  ? - SMPETG25
+    - PCPETG25
+  : 0.001
+  ? - CPADVX75
+    - PCADVX75
+  : -1
+  ? - CRQU0115
+    - CSNU0115
+  : -1
+  ? - SMNATU20
+    - NURQ0820
+  : -1
+  ? - WTELEC25
+    - WT372425
+  : 0.7072961
+  ? - COST
+    - WT251545
+  : 11.33469
+  ? - COST
+    - NURQ0505
+  : 755
+  ? - COST
+    - NURQ0820
+  : 264.5282
+  ? - COST
+    - WT402140
+  : -1.724372
+  ? - SMCOAL15
+    - PCSYNF15
+  : 0.00133
+  ? - CRQU0225
+    - CSNU0220
+  : 1
+  ? - DMNELE20
+    - PCELHY20
+  : 36
+  ? - COST
+    - WT373070
+  : -0.98249024
+  ? - CPADVX30
+    - PCADVX25
+  : 0.844
+  ? - INTSUM50
+    - WT312150
+  : 1
+  ? - WTELEC50
+    - WT342150
+  : 1.5397505
+  ? - WTNELE40
+    - NELEDM40
+  : -1
+  ? - WTELEC65
+    - WT343065
+  : 2.5424852
+  ? - CPFBRX35
+    - PCFBRX35
+  : -1
+  ? - COST
+    - PCCOAL15
+  : 151.90405
+  ? - CRQU0460
+    - CSNU0455
+  : 1
+  ? - CPCOAL70
+    - DPCOAL70
+  : 5
+  ? - DMNELE50
+    - PCHTRB50
+  : 22.5
+  ? - INTSUM55
+    - WT373055
+  : 1
+  ? - CPSWUX60
+    - DPSWUX60
+  : 5
+  ? - INTSUM45
+    - WT252445
+  : 1
+  ? - INTSUM30
+    - WT281530
+  : 1
+  ? - SMNATU35
+    - NURQ0735
+  : -1
+  ? - WTELEC10
+    - WT312410
+  : 0.3984001
+  ? - COST
+    - WT281530
+  : 17.62966
+  ? - INTSUM15
+    - WT312715
+  : 1
+  ? - SMPLUT50
+    - DPFBRX50
+  : -2
+  ? - CPPETG15
+    - PCPETG15
+  : -1
+  ? - WTELEC65
+    - WT372465
+  : 3.0251818
+  ? - WTELEC35
+    - WT401535
+  : 1.109242
+  ? - WTNELE25
+    - WT313025
+  : 88.68006
+  ? - INTSUM45
+    - WT281845
+  : 1
+  ? - WTNELE60
+    - WT402160
+  : 153.9917
+  ? - DISWUX15
+    - PCSWUX15
+  : -1
+  ? - CPCOAL55
+    - PCCOAL55
+  : -1
+  ? - WTNELE45
+    - WT401845
+  : 100.22882
+  ? - WTELEC30
+    - WT342430
+  : 0.788932
+  ? - WTNELE60
+    - WT283060
+  : 249.5335
+  ? - DISWUX35
+    - PCSWUX35
+  : -1
+  ? - WTELEC15
+    - WT373015
+  : 0.49182847
+  ? - WTNELE70
+    - WT312770
+  : 277.43442
+  ? - COST
+    - WT282475
+  : -0.05520774
+  ? - SMNATU70
+    - NURQ0670
+  : -1
+  ? - CRQU0620
+    - CSNU0620
+  : -1
+  ? - SMCOAL60
+    - CSCOAL60
+  : -0.2
+  ? - COST
+    - PCFBRX35
+  : 6.5904837
+  ? - CRQU0245
+    - NURQ0245
+  : 5
+  ? - COST
+    - NURQ0615
+  : 341.2058
+  ? - CRQU0465
+    - CSNU0465
+  : -1
+  ? - WTNELE75
+    - WT371875
+  : 171.16933
+  ? - INTSUM20
+    - WT372720
+  : 1
+  ? - DISWUX30
+    - DPLWRX30
+  : 0.23
+  ? - COST
+    - WT371830
+  : 4.236233
+  ? - WTELEC70
+    - WT371870
+  : 3.6278162
+  ? - COST
+    - NURQ0835
+  : 63.32595
+  ? - INTSUM70
+    - WT312470
+  : 1
+  ? - COST
+    - NURQ0275
+  : 0.3798685
+  ? - COST
+    - NURQ0515
+  : 291.08517
+  ? - INTSUM25
+    - WT253025
+  : 1
+  ? - COST
+    - WT372725
+  : -7.2457633
+  ? - INTSUM30
+    - WT252430
+  : 1
+  ? - COST
+    - WT281520
+  : 23.47899
+  ? - DMNELE30
+    - PCELHY30
+  : 36
+  ? - WTNELE40
+    - WT252740
+  : 124.75186
+  ? - CRQU0955
+    - CSNU0955
+  : -1
+  ? - COST
+    - NURQ0940
+  : 42.523
+  ? - DMELEC75
+    - PCADVX75
+  : 1
+  ? - INTSUM20
+    - WT283020
+  : 1
+  ? - CPSYNF70
+    - PCSYNF70
+  : -1
+  ? - WTELEC20
+    - WT283020
+  : 0.5175149
+  ? - CRQU0510
+    - CSNU0510
+  : -1
+  ? - CPFBRX65
+    - DPFBRX65
+  : 5
+  ? - INTSUM20
+    - WT252720
+  : 1
+  ? - NCCOAL15
+    - DPLWRX15
+  : -0.3
+  ? - COST
+    - WT372745
+  : -3.5463421
+  ? - WTELEC50
+    - WT371850
+  : 1.7541637
+  ? - WTNELE55
+    - WT402455
+  : 160.72348
+  ? - COST
+    - DPLWRX70
+  : 8.957101
+  ? - COST
+    - WT342465
+  : -0.6025219
+  ? - CPCOAL10
+    - PCCOAL10
+  : -1
+  ? - WTELEC15
+    - WT402715
+  : 0.5062435
+  ? - WTNELE35
+    - WT342735
+  : 109.193
+  ? - CPADVX00
+    - PCADVX00
+  : -1
+  ? - CRQU0505
+    - CSNU0505
+  : -1
+  ? - SMNATU55
+    - DPLWRX55
+  : 0.5
+  ? - INTSUM60
+    - WT253060
+  : 1
+  ? - SMNATU40
+    - NURQ0440
+  : -1
+  ? - WTNELE65
+    - WT342165
+  : 170.85434
+  ? - COST
+    - WT401825
+  : 3.400451
+  ? - SMNATU10
+    - NURQ0310
+  : -1
+  ? - CRQU0255
+    - CSNU0250
+  : 1
+  ? - WTELEC15
+    - WT281515
+  : 0.45077232
+  ? - INTSUM55
+    - WT311555
+  : 1
+  ? - INTSUM40
+    - WT342740
+  : 1
+  ? - INTSUM65
+    - WT252765
+  : 1
+  ? - INTSUM50
+    - WT402150
+  : 1
+  ? - CRQU0145
+    - CSNU0145
+  : -1
+  ? - COST
+    - WT401565
+  : 0.74309736
+  ? - COST
+    - WT372420
+  : -2.65033
+  ? - COST
+    - PCLWRX60
+  : 0.6082753
+  ? - WTELEC30
+    - WT311530
+  : 0.73365647
+  ? - WTNELE35
+    - WT341835
+  : 83.85227
+  ? - COST
+    - PCFBRX15
+  : 44.33748
+  ? - WTNELE25
+    - WT401525
+  : 66.13058
+  ? - COST
+    - DPHTRB55
+  : 16.46305
+  ? - INTSUM75
+    - WT342175
+  : 1
+  ? - COST
+    - NURQ0270
+  : 0.611782
+  ? - COST
+    - WT341825
+  : 8.523317
+  ? - WTELEC75
+    - WT313075
+  : 2.898229
+  ? - COST
+    - WT282445
+  : 0.27606988
+  ? - CPELHY40
+    - PCELHY35
+  : 0.844
+  ? - WTELEC35
+    - WT252435
+  : 0.7173681
+  ? - COST
+    - PCPETG45
+  : 0.16571195
+  ? - COST
+    - WT372750
+  : -2.7216637
+  ? - INTSUM10
+    - WT403010
+  : 1
+  ? - WTNELE15
+    - WT343015
+  : 65.98629
+  ? - CRQU0735
+    - CSNU0730
+  : 1
+  ? - COST
+    - WT403050
+  : -3.7093778
+  ? - INTSUM60
+    - WT311860
+  : 1
+  ? - WTNELE15
+    - WT402115
+  : 60.44201
+  ? - CRQU0715
+    - CSNU0715
+  : -1
+  ? - WTELEC25
+    - WT313025
+  : 0.6297953
+  ? - WTNELE75
+    - WT343075
+  : 388.76505
+  ? - COST
+    - WT371815
+  : 9.145018
+  ? - CRQU0915
+    - CSNU0915
+  : -1
+  ? - DMNELE65
+    - PCPETG65
+  : 1
+  ? - COST
+    - WT253035
+  : -3.233321
+  ? - CRQU0970
+    - NURQ0970
+  : 5
+  ? - SMNATU30
+    - PCLWRX30
+  : 0.16
+  ? - CPELHY50
+    - PCELHY50
+  : -1
+  ? - WTNELE55
+    - WT312455
+  : 160.72348
+  ? - INTSUM30
+    - WT311830
+  : 1
+  ? - DISWUX55
+    - DPHTRB55
+  : 0.175
+  ? - SMCOAL35
+    - CSCOAL35
+  : -0.2
+  ? - CPSWUX55
+    - PCSWUX50
+  : 0.844
+  ? - WTNELE30
+    - WT252730
+  : 95.57462
+  ? - COST
+    - NURQ0205
+  : 300
+  ? - WTNELE20
+    - WT282420
+  : 70.07786
+  ? - CRQU1020
+    - NURQ1020
+  : 5
+  ? - SMPLUT25
+    - PCFBRX20
+  : 0.062
+  ? - CPLWRX70
+    - PCLWRX70
+  : -1
+  ? - INTSUM55
+    - WT282755
+  : 1
+  ? - WTELEC65
+    - WT313065
+  : 2.1357284
+  ? - WTELEC25
+    - WT252425
+  : 0.5604068
+  ? - CRQU0405
+    - NURQ0405
+  : 5
+  ? - INTSUM10
+    - WT342110
+  : 1
+  ? - WTELEC35
+    - WT372135
+  : 1.0171589
+  ? - COST
+    - PCPETG05
+  : 7.5
+  ? - DISWUX15
+    - PCHTRB10
+  : -0.005
+  ? - INTSUM15
+    - WT341515
+  : 1
+  ? - WTELEC45
+    - WT311845
+  : 1.1597723
+  ? - WTNELE45
+    - WT341545
+  : 89.0683
+  ? - CRQU0465
+    - NURQ0465
+  : 5
+  ? - COST
+    - NURQ0970
+  : 2.4369318
+  ? - CPLWRX65
+    - PCLWRX65
+  : -1
+  ? - INTSUM55
+    - WT252155
+  : 1
+  ? - CRQU0500
+    - NURQ0500
+  : 5
+  ? - CRQU0400
+    - NURQ0400
+  : 5
+  ? - WTNELE35
+    - WT342435
+  : 100.01847
+  ? - INTSUM35
+    - WT312735
+  : 1
+  ? - COST
+    - WT371555
+  : 2.2391179
+  ? - CRQU0525
+    - NURQ0525
+  : 5
+  ? - DMNELE40
+    - PCPETG40
+  : 1
+  ? - CRQU0570
+    - NURQ0570
+  : 5
+  ? - COST
+    - WT252160
+  : 1.6339656
+  ? - SMNATU50
+    - NURQ0850
+  : -1
+  ? - WTELEC55
+    - WT311555
+  : 1.5738356
+  ? - COST
+    - NURQ0310
+  : 288.72842
+  ? - COST
+    - WT282470
+  : -0.06176142
+  ? - CRQU0230
+    - NURQ0230
+  : 5
+  ? - COST
+    - WT401830
+  : 2.1212265
+  ? - WTNELE15
+    - NELEDM15
+  : -1
+  ? - INTSUM40
+    - WT312140
+  : 1
+  ? - COST
+    - WT341545
+  : 5.517206
+  ? - COST
+    - WT251520
+  : 27.06297
+  ? - CPHTRB30
+    - PCHTRB25
+  : 0.844
+  ? - CPFBRX15
+    - PCFBRX10
+  : 0.844
+  ? - CPSYNF35
+    - PCSYNF35
+  : -1
+  ? - COST
+    - WT312125
+  : 5.8111463
+  ? - CPELHY40
+    - DPELHY40
+  : 5
+  ? - WTNELE50
+    - WT342750
+  : 162.8364
+  ? - COST
+    - NURQ0675
+  : 1.1206121
+  ? - DISWUX25
+    - PCLWRX25
+  : 0.11
+  ? - INTSUM20
+    - WT341520
+  : 1
+  ? - CRQU0750
+    - CSNU0745
+  : 1
+  ? - COST
+    - PCLWRX05
+  : 115
+  ? - SMPLUT65
+    - CSPLUT60
+  : 0.2
+  ? - CPFBRX10
+    - PCFBRX05
+  : 0.844
+  ? - DIBRGN70
+    - PCFBRX65
+  : -1
+  ? - SMNATU15
+    - NURQ0215
+  : -1
+  ? - WTNELE60
+    - WT251560
+  : 111.35605
+  ? - SMPETG40
+    - PCPETG40
+  : 0.001
+  ? - COST
+    - WT372720
+  : -7.1745553
+  ? - WTELEC70
+    - WT342770
+  : 3.0051153
+  ? - DISWUX70
+    - PCHTRB65
+  : -0.005
+  ? - WTELEC25
+    - WT281825
+  : 0.59413946
+  ? - SMCOAL00
+    - PCSYNF00
+  : 0.00133
+  ? - WTELEC60
+    - WT251860
+  : 1.3299603
+  ? - WTELEC50
+    - WT282450
+  : 1.1849943
+  ? - DISWUX10
+    - PCLWRX05
+  : -0.007
+  ? - WTNELE30
+    - WT252430
+  : 88.83424
+  ? - DMNELE65
+    - PCELHY65
+  : 36
+  ? - CRQU0255
+    - NURQ0255
+  : 5
+  ? - WTNELE70
+    - WT371570
+  : 129.23325
+  ? - WTNELE30
+    - WT313030
+  : 102.8045
+  ? - WTELEC35
+    - WT402735
+  : 1.109242
+  ? - COST
+    - NURQ0445
+  : 13.58838
+  ? - COST
+    - DPCOAL60
+  : 17.42431
+  ? - SMPLUT15
+    - CSPLUT10
+  : 0.2
+  ? - CPSYNF25
+    - DPSYNF25
+  : 5
+  ? - COST
+    - WT372465
+  : -0.809277
+  ? - DISWUX35
+    - DPHTRB35
+  : 0.175
+  ? - COST
+    - NURQ1070
+  : 2.6000736
+  ? - COST
+    - PCFBRX20
+  : 27.53009
+  ? - INTSUM15
+    - WT281515
+  : 1
+  ? - COST
+    - WT281545
+  : 9.159662
+  ? - CPELHY55
+    - PCELHY50
+  : 0.844
+  ? - COST
+    - DPCOAL10
+  : 2045.4546
+  ? - COST
+    - WT311550
+  : 5.612816
+  ? - WTNELE60
+    - WT372160
+  : 153.9917
+  ? - SMPLUT50
+    - CSPLUT50
+  : -0.2
+  ? - COST
+    - PCLWRX75
+  : 0.130354
+  ? - CPCOAL15
+    - DPCOAL15
+  : 5
+  ? - WTELEC20
+    - WT281520
+  : 0.5175149
+  ? - WTNELE55
+    - WT312755
+  : 186.03886
+  ? - COST
+    - NURQ0650
+  : 12.1415
+  ? - COST
+    - NURQ0430
+  : 56.76204
+  ? - WTELEC20
+    - WT252120
+  : 0.49531797
+  ? - CPPETG10
+    - PCPETG05
+  : 0.844
+  ? - WTNELE45
+    - WT312445
+  : 126.78847
+  ? - INTSUM45
+    - WT311545
+  : 1
+  ? - CPSWUX30
+    - DPSWUX30
+  : 5
+  ? - CPHTRB40
+    - DPHTRB40
+  : 5
+  ? - WTELEC35
+    - WT283035
+  : 0.7831042
+  ? - WTNELE10
+    - WT282410
+  : 55.28169
+  ? - CRQU0635
+    - CSNU0635
+  : -1
+  ? - WTNELE50
+    - WT371850
+  : 109.58005
+  ? - COST
+    - WT252445
+  : 1.3494427
+  ? - SMPETG50
+    - PCPETG50
+  : 0.001
+  ? - WTELEC15
+    - WT402115
+  : 0.5062435
+  ? - COST
+    - PCFBRX70
+  : 0.23451646
+  ? - WTNELE50
+    - WT401550
+  : 95.95186
+  ? - COST
+    - WT402750
+  : -3.0925412
+  ? - SMNATU20
+    - PCLWRX15
+  : -0.016
+  ? - SMNATU40
+    - NURQ0740
+  : -1
+  ? - COST
+    - WT402775
+  : -0.6597645
+  ? - INTSUM25
+    - WT402425
+  : 1
+  ? - WTELEC35
+    - WT252135
+  : 0.7173681
+  ? - COST
+    - WT402410
+  : -1.1390433
+  ? - INTSUM25
+    - WT283025
+  : 1
+  ? - INTSUM25
+    - WT372725
+  : 1
+  ? - SMNATU20
+    - PCLWRX20
+  : 0.16
+  ? - INTSUM10
+    - WT402410
+  : 1
+  ? - WTNELE30
+    - WT253030
+  : 102.8045
+  ? - CPHTRB45
+    - PCHTRB40
+  : 0.844
+  ? - SMPLUT60
+    - PCLWRX55
+  : 0.17
+  ? - CRQU0560
+    - CSNU0555
+  : 1
+  ? - CRQU1065
+    - CSNU1065
+  : -1
+  ? - DISWUX25
+    - PCLWRX20
+  : -0.007
+  ? - WTNELE70
+    - WT401570
+  : 129.23325
+  ? - CPSWUX10
+    - PCSWUX10
+  : -1
+  ? - WTELEC20
+    - WT402420
+  : 0.6159227
+  ? - WTELEC45
+    - WT252145
+  : 0.9182918
+  ? - COST
+    - DPLWRX40
+  : 156.29605
+  ? - CPFBRX75
+    - DPFBRX75
+  : 5
+  ? - SMCOAL75
+    - CSCOAL75
+  : -0.2
+  ? - COST
+    - WT372475
+  : -0.44668692
+  ? - WTELEC40
+    - WT372740
+  : 1.2197831
+  ? - INTSUM35
+    - WT281535
+  : 1
+  ? - CPPETG65
+    - PCPETG60
+  : 0.844
+  ? - WTNELE25
+    - WT403025
+  : 88.68006
+  ? - WTNELE65
+    - WT282765
+  : 242.83324
+  ? - COST
+    - PCCOAL75
+  : 0.44660413
+  ? - WTNELE15
+    - WT283015
+  : 65.98629
+  ? - INTSUM10
+    - WT342410
+  : 1
+  ? - WTELEC45
+    - WT343045
+  : 1.3027097
+  ? - INTSUM60
+    - WT401560
+  : 1
+  ? - CRQU0535
+    - CSNU0530
+  : 1
+  ? - DISWUX55
+    - PCHTRB50
+  : -0.005
+  ? - SMNATU30
+    - NURQ1030
+  : -1
+  ? - DMELEC35
+    - PCFBRX35
+  : 1
+  ? - CRQU0315
+    - NURQ0315
+  : 5
+  ? - INTSUM50
+    - WT342750
+  : 1
+  ? - INTSUM40
+    - WT313040
+  : 1
+  ? - CPPETG55
+    - DPPETG55
+  : 5
+  ? - SMNATU25
+    - DPHTRB25
+  : 0.216
+  ? - COST
+    - WT371825
+  : 5.8841004
+  ? - CRQU0435
+    - CSNU0435
+  : -1
+  ? - CPFBRX50
+    - PCFBRX45
+  : 0.844
+  ? - WTELEC10
+    - WT342410
+  : 0.40423024
+  ? - COST
+    - NURQ0300
+  : 748.88715
+  ? - WTNELE70
+    - WT312470
+  : 229.39221
+  ? - DMELEC10
+    - PCCOAL10
+  : 1
+  ? - NCCOAL05
+    - DPCOAL05
+  : 0.7
+  ? - WTNELE30
+    - WT402430
+  : 88.83424
+  ? - INTSUM75
+    - WT252775
+  : 1
+  ? - COST
+    - NURQ1015
+  : 491.5677
+  ? - COST
+    - WT313025
+  : -7.265058
+  ? - COST
+    - WT402730
+  : -7.933369
+  ? - INTSUM25
+    - WT371525
+  : 1
+  ? - WTNELE70
+    - WT252470
+  : 229.39221
+  ? - WTELEC10
+    - WT282710
+  : 0.3926374
+  ? - WTNELE55
+    - WT251855
+  : 119.80374
+  ? - WTNELE10
+    - WT341810
+  : 53.68097
+  ? - WTELEC50
+    - WT311550
+  : 1.3510332
+  ? - SMNATU05
+    - NURQ0805
+  : -1
+  ? - DMELEC65
+    - ELECDM65
+  : -1
+  ? - INTSUM65
+    - WT282465
+  : 1
+  ? - CRQU0965
+    - CSNU0960
+  : 1
+  ? - COST
+    - NURQ1035
+  : 73.06841
+  ? - WTNELE70
+    - WT281570
+  : 129.23325
+  ? - DISWUX65
+    - PCLWRX65
+  : 0.11
+  ? - INTSUM25
+    - WT403025
+  : 1
+  ? - INTSUM35
+    - WT342735
+  : 1
+  ? - CPHTRB25
+    - PCHTRB25
+  : -1
+  ? - WTELEC60
+    - WT372160
+  : 2.522654
+  ? - INTSUM35
+    - WT401535
+  : 1
+  ? - SMPLUT20
+    - PCLWRX15
+  : 0.17
+  ? - WTELEC65
+    - WT251565
+  : 1.5047281
+  ? - INTSUM20
+    - WT281820
+  : 1
+  ? - COST
+    - NURQ1010
+  : 791.6747
+  ? - SMPETG65
+    - CSPETG65
+  : -0.2
+  ? - SMNATU75
+    - NURQ1075
+  : -1
+  ? - COST
+    - DPLWRX20
+  : 1051.4817
+  ? - INTSUM30
+    - WT401830
+  : 1
+  ? - SMNATU30
+    - NURQ0330
+  : -1
+  ? - NCFBRX30
+    - DPLWRX30
+  : 0.4
+  ? - SMNATU55
+    - PCLWRX50
+  : -0.016
+  ? - COST
+    - WT342435
+  : -1.8858616
+  ? - WTELEC60
+    - WT281860
+  : 1.5618792
+  ? - DIBRGN60
+    - PCHTRB60
+  : 0.3
+  ? - COST
+    - WT311515
+  : 20.64591
+  ? - CRQU0225
+    - NURQ0225
+  : 5
+  ? - DMNELE10
+    - PCHTRB10
+  : 22.5
+  ? - WTELEC50
+    - WT253050
+  : 1.038963
+  ? - INTSUM50
+    - WT402450
+  : 1
+  ? - INTSUM65
+    - WT281565
+  : 1
+  ? - NCFBRX30
+    - DPCOAL30
+  : 0.4
+  ? - INTSUM50
+    - WT341850
+  : 1
+  ? - SMCOAL65
+    - PCSYNF65
+  : 0.00133
+  ? - COST
+    - WT252710
+  : 4.297683
+  ? - CRQU0850
+    - CSNU0845
+  : 1
+  ? - WTNELE70
+    - WT312170
+  : 189.5635
+  ? - CRQU0120
+    - NURQ0120
+  : 5
+  ? - NCCOAL30
+    - DPCOAL30
+  : 0.7
+  ? - CPSYNF05
+    - DPSYNF05
+  : 5
+  ? - SMNATU15
+    - NURQ1015
+  : -1
+  ? - CPELHY30
+    - DPELHY30
+  : 5
+  ? - CRQU1045
+    - NURQ1045
+  : 5
+  ? - INTSUM65
+    - WT252165
+  : 1
+  ? - WTNELE45
+    - WT281845
+  : 100.22882
+  ? - DMELEC55
+    - PCFBRX55
+  : 1
+  ? - COST
+    - PCLWRX70
+  : 0.23451646
+  ? - WTNELE20
+    - WT341520
+  : 61.38639
+  ? - CPELHY35
+    - DPELHY35
+  : 5
+  ? - WTNELE40
+    - WT401540
+  : 82.67857
+  ? - WTELEC50
+    - WT402450
+  : 1.9976821
+  ? - CRQU0610
+    - CSNU0610
+  : -1
+  ? - INTSUM15
+    - WT282115
+  : 1
+  ? - WTELEC70
+    - WT251570
+  : 1.7024617
+  ? - WTNELE30
+    - WT403030
+  : 102.8045
+  ? - INTSUM10
+    - WT371510
+  : 1
+  ? - NCFBRX25
+    - DPFBRX25
+  : -0.8
+  ? - DMNELE45
+    - PCELHY45
+  : 36
+  ? - WTNELE25
+    - WT282125
+  : 74.40401
+  ? - CPADVX40
+    - PCADVX35
+  : 0.844
+  ? - SMNATU35
+    - PCLWRX30
+  : -0.016
+  ? - CRQU0145
+    - CSNU0140
+  : 1
+  ? - CPPETG45
+    - DPPETG45
+  : 5
+  ? - INTSUM70
+    - WT251570
+  : 1
+  ? - CRQU0205
+    - CSNU0205
+  : -1
+  ? - CPPETG50
+    - PCPETG50
+  : -1
+  ? - DISWUX65
+    - PCSWUX65
+  : -1
+  ? - WTELEC70
+    - WT281870
+  : 2.0586312
+  ? - CPFBRX75
+    - PCFBRX70
+  : 0.844
+  ? - WTELEC15
+    - WT252415
+  : 0.4377889
+  ? - COST
+    - WT312170
+  : 0.20359133
+  ? - DMNELE20
+    - PCHTRB20
+  : 22.5
+  ? - INTSUM10
+    - WT343010
+  : 1
+  ? - INTSUM50
+    - WT341550
+  : 1
+  ? - COST
+    - DPELHY25
+  : 65.28874
+  ? - WTNELE35
+    - WT283035
+  : 119.17859
+  ? - WTNELE75
+    - WT282775
+  : 316.9659
+  ? - WTNELE35
+    - WT251535
+  : 76.74724
+  ? - CPSYNF10
+    - PCSYNF10
+  : -1
+  ? - WTELEC70
+    - WT402170
+  : 4.377167
+  ? - DMELEC15
+    - PCLWRX15
+  : 1
+  ? - CPSWUX40
+    - PCSWUX35
+  : 0.844
+  ? - COST
+    - WT252735
+  : -0.44070214
+  ? - INTSUM20
+    - WT313020
+  : 1
+  ? - CPSYNF45
+    - PCSYNF45
+  : -1
+  ? - SMPETG70
+    - PCPETG70
+  : 0.001
+  ? - COST
+    - WT403010
+  : -8.097059
+  ? - SMPLUT40
+    - PCFBRX35
+  : 0.062
+  ? - COST
+    - WT343010
+  : -4.7024
+  ? - CRQU0440
+    - CSNU0435
+  : 1
+  ? - CRQU1070
+    - CSNU1070
+  : -1
+  ? - SMCOAL60
+    - PCSYNF60
+  : 0.00133
+  ? - DISWUX45
+    - PCLWRX45
+  : 0.11
+  ? - WTELEC60
+    - WT341860
+  : 2.1510758
+  ? - WTELEC55
+    - WT282455
+  : 1.3604476
+  ? - INTSUM25
+    - WT341525
+  : 1
+  ? - CRQU0940
+    - CSNU0935
+  : 1
+  ? - COST
+    - NURQ0750
+  : 13.71921
+  ? - COST
+    - WT402725
+  : -8.992324
+  ? - WTNELE25
+    - WT281825
+  : 70.15151
+  ? - WTELEC35
+    - WT372735
+  : 1.0171589
+  ? - WTNELE40
+    - WT372740
+  : 124.75186
+  ? - COST
+    - WT312710
+  : 0.61488205
+  ? - WTNELE30
+    - WT373030
+  : 102.8045
+  ? - INTSUM55
+    - WT311855
+  : 1
+  ? - COST
+    - WT342160
+  : -0.03664347
+  ? - COST
+    - PCSYNF45
+  : 0.2761866
+  ? - WTNELE35
+    - WT342135
+  : 91.5912
+  ? - INTSUM45
+    - WT282145
+  : 1
+  ? - DMELEC10
+    - PCFBRX10
+  : 1
+  ? - DMELEC50
+    - PCADVX50
+  : 1
+  ? - CRQU0855
+    - CSNU0850
+  : 1
+  ? - WTNELE40
+    - WT402440
+  : 112.61078
+  ? - WTNELE75
+    - WT402775
+  : 316.9659
+  ? - WTNELE50
+    - WT282150
+  : 125.09498
+  ? - COST
+    - PCFBRX25
+  : 17.09402
+  ? - COST
+    - WT342130
+  : 2.0512016
+  ? - SMPLUT10
+    - CSPLUT10
+  : -0.2
+  ? - INTSUM60
+    - WT312460
+  : 1
+  ? - CRQU0530
+    - CSNU0530
+  : -1
+  ? - INTSUM60
+    - WT252160
+  : 1
+  ? - SMCOAL10
+    - CSCOAL05
+  : 0.2
+  ? - CPFBRX35
+    - DPFBRX35
+  : 5
+  ? - DIBRGN70
+    - PCHTRB70
+  : 0.3
+  ? - COST
+    - WT311535
+  : 11.71933
+  ? - CPCOAL15
+    - PCCOAL15
+  : -1
+  ? - COST
+    - WT312155
+  : 0.63256973
+  ? - SMNATU35
+    - NURQ0935
+  : -1
+  ? - CPADVX20
+    - PCADVX15
+  : 0.844
+  ? - SMPLUT65
+    - PCFBPL65
+  : 0.16
+  ? - CRQU0515
+    - NURQ0515
+  : 5
+  ? - WTNELE25
+    - WT372425
+  : 78.90066
+  ? - CRQU0920
+    - CSNU0920
+  : -1
+  ? - CRQU0960
+    - CSNU0960
+  : -1
+  ? - CRQU0455
+    - CSNU0450
+  : 1
+  ? - CRQU0925
+    - NURQ0925
+  : 5
+  ? - WTELEC25
+    - WT402725
+  : 0.74936414
+  ? - COST
+    - NURQ0245
+  : 6.6284785
+  ? - COST
+    - WT283065
+  : -0.98691314
+  ? - CPELHY75
+    - PCELHY75
+  : -1
+  ? - CRQU0160
+    - NURQ0160
+  : 5
+  ? - WTELEC20
+    - WT372420
+  : 0.58980364
+  ? - CPCOAL30
+    - DPCOAL30
+  : 5
+  ? - WTELEC60
+    - WT312460
+  : 1.8333808
+  ? - CPSWUX55
+    - DPSWUX55
+  : 5
+  ? - COST
+    - PCADVX50
+  : 0.8986084
+  ? - COST
+    - WT342710
+  : -1.1788067
+  ? - CRQU0710
+    - CSNU0710
+  : -1
+  ? - INTSUM35
+    - WT341535
+  : 1
+  ? - NCADVX55
+    - DPADVX55
+  : -0.2
+  ? - INTSUM60
+    - WT342160
+  : 1
+  ? - COST
+    - WT253060
+  : -1.0758059
+  ? - SMPLUT55
+    - PCLWRX50
+  : 0.17
+  ? - COST
+    - WT281565
+  : 3.4013586
+  ? - CRQU0615
+    - CSNU0610
+  : 1
+  ? - COST
+    - NURQ1040
+  : 45.36973
+  ? - CRQU0410
+    - CSNU0405
+  : 1
+  ? - WTNELE60
+    - WT312460
+  : 180.95856
+  ? - INTSUM25
+    - WT252125
+  : 1
+  ? - DIBRGN40
+    - PCHTRB40
+  : 0.3
+  ? - CRQU1020
+    - CSNU1015
+  : 1
+  ? - SMCOAL40
+    - PCSYNF40
+  : 0.00133
+  ? - CRQU0875
+    - CSNU0870
+  : 1
+  ? - WTELEC70
+    - WT341870
+  : 3.0051153
+  ? - CRQU0455
+    - CSNU0455
+  : -1
+  ? - CRQU0265
+    - CSNU0260
+  : 1
+  ? - WTELEC35
+    - WT312135
+  : 0.8546456
+  ? - INTSUM25
+    - WT282425
+  : 1
+  ? - WTNELE10
+    - WT311810
+  : 53.68097
+  ? - COST
+    - WT252135
+  : 6.8870635
+  ? - CRQU0950
+    - CSNU0945
+  : 1
+  ? - COST
+    - PCFBRX65
+  : 0.3776911
+  ? - WTNELE15
+    - WT403015
+  : 65.98629
+  ? - WTELEC40
+    - WT311540
+  : 0.9955874
+  ? - WTNELE35
+    - WT253035
+  : 119.17859
+  ? - SMNATU25
+    - DPLWRX25
+  : 0.5
+  ? - COST
+    - PCFBRX45
+  : 2.5409167
+  ? - WTNELE60
+    - WT341860
+  : 130.9813
+  ? - WTNELE20
+    - WT402120
+  : 67.06063
+  ? - CRQU0350
+    - CSNU0350
+  : -1
+  ? - INTSUM40
+    - WT402440
+  : 1
+  ? - CRQU0110
+    - CSNU0110
+  : -1
+  ? - COST
+    - NURQ0410
+  : 381.8666
+  ? - DMNELE55
+    - NELEDM55
+  : -1
+  ? - WTNELE55
+    - WT312155
+  : 138.79333
+  ? - SMNATU65
+    - DPHTRB65
+  : 0.216
+  ? - WTELEC60
+    - WT253060
+  : 1.3299603
+  ? - INTSUM20
+    - WT312720
+  : 1
+  ? - WTNELE25
+    - WT372725
+  : 83.6547
+  ? - CRQU0845
+    - CSNU0840
+  : 1
+  ? - WTELEC25
+    - WT402125
+  : 0.74936414
+  ? - COST
+    - WT312735
+  : -3.2345693
+  ? - COST
+    - WT312140
+  : 2.0039728
+  ? - COST
+    - NURQ0530
+  : 69.68348
+  ? - WTELEC40
+    - WT312440
+  : 0.9955874
+  ? - COST
+    - NURQ0155
+  : 1.2777827
+  ? - COST
+    - WT282720
+  : -0.28504306
+  ? - INTSUM40
+    - WT403040
+  : 1
+  ? - WTELEC25
+    - WT311525
+  : 0.6297953
+  ? - WTNELE55
+    - WT343055
+  : 215.24979
+  ? - CRQU0370
+    - NURQ0370
+  : 5
+  ? - INTSUM45
+    - WT373045
+  : 1
+  ? - INTSUM10
+    - WT282710
+  : 1
+  ? - COST
+    - WT371575
+  : 0.69015115
+  ? - COST
+    - WT403075
+  : -0.7444359
+  ? - COST
+    - WT403030
+  : -10.40139
+  ? - WTNELE75
+    - WT403075
+  : 388.76505
+  ? - WTELEC75
+    - WT251875
+  : 1.9261792
+  ? - COST
+    - WT252450
+  : 0.9199166
+  ? - COST
+    - PCCOAL45
+  : 8.705401
+  ? - COST
+    - WT372410
+  : 0.64478564
+  ? - INTSUM45
+    - WT252745
+  : 1
+  ? - COST
+    - WT252760
+  : -0.44527343
+  ? - WTELEC50
+    - WT251850
+  : 1.038963
+  ? - WTELEC55
+    - WT342155
+  : 1.8199232
+  ? - CPFBRX10
+    - PCFBRX10
+  : -1
+  ? - CPPETG25
+    - PCPETG25
+  : -1
+  ? - INTSUM75
+    - WT312475
+  : 1
+  ? - CRQU1065
+    - NURQ1065
+  : 5
+  ? - WTNELE30
+    - WT372430
+  : 88.83424
+  ? - INTSUM30
+    - WT282430
+  : 1
+  ? - WTNELE50
+    - WT372150
+  : 125.09498
+  ? - COST
+    - NURQ0525
+  : 112.22594
+  ? - COST
+    - PCHTRB30
+  : 6.46072
+  ? - COST
+    - PCADVX65
+  : 0.2151197
+  ? - CRQU0360
+    - CSNU0355
+  : 1
+  ? - INTSUM50
+    - WT372750
+  : 1
+  ? - COST
+    - WT251815
+  : 20.5772
+  ? - SMNATU50
+    - DPLWRX50
+  : 0.5
+  ? - WTELEC45
+    - WT372745
+  : 1.462771
+  ? - INTSUM10
+    - WT282410
+  : 1
+  ? - INTSUM10
+    - WT252710
+  : 1
+  ? - INTSUM20
+    - WT342120
+  : 1
+  ? - COST
+    - NURQ0360
+  : 2.4595478
+  ? - COST
+    - WT251810
+  : 16.07933
+  ? - SMNATU35
+    - NURQ0835
+  : -1
+  ? - CPSYNF60
+    - DPSYNF60
+  : 5
+  ? - SMCOAL20
+    - PCSYNF20
+  : 0.00133
+  ? - COST
+    - NURQ0540
+  : 26.866
+  ? - COST
+    - WT341815
+  : 11.86747
+  ? - INTSUM20
+    - WT282720
+  : 1
+  ? - WTNELE20
+    - WT312420
+  : 70.07786
+  ? - INTSUM40
+    - WT253040
+  : 1
+  ? - WTELEC65
+    - WT282465
+  : 1.793135
+  ? - SMNATU20
+    - NURQ0720
+  : -1
+  ? - CRQU0570
+    - CSNU0565
+  : 1
+  ? - DMELEC35
+    - PCADVX35
+  : 1
+  ? - CRQU0135
+    - CSNU0135
+  : -1
+  ? - DIBRGN10
+    - PCFBRX05
+  : -1
+  ? - WTELEC25
+    - WT312125
+  : 0.6297953
+  ? - WTELEC75
+    - WT311875
+  : 2.898229
+  ? - INTSUM75
+    - WT312775
+  : 1
+  ? - COST
+    - WT372430
+  : -3.4923172
+  ? - INTSUM30
+    - WT282730
+  : 1
+  ? - COST
+    - WT252435
+  : 2.8966465
+  ? - COST
+    - PCLWRX25
+  : 17.09402
+  ? - WTELEC25
+    - WT282425
+  : 0.59413946
+  ? - DMNELE00
+    - PCHTRB00
+  : 22.5
+  ? - INTSUM20
+    - WT311520
+  : 1
+  ? - CPLWRX10
+    - PCLWRX05
+  : 0.844
+  ? - CRQU1030
+    - CSNU1025
+  : 1
+  ? - CPSWUX50
+    - PCSWUX50
+  : -1
+  ? - DMNELE10
+    - PCSYNF10
+  : 1
+  ? - INTSUM70
+    - WT312170
+  : 1
+  ? - WTNELE50
+    - WT252750
+  : 162.8364
+  ? - CRQU0770
+    - CSNU0765
+  : 1
+  ? - CRQU1035
+    - NURQ1035
+  : 5
+  ? - COST
+    - WT283020
+  : -4.9948206
+  ? - COST
+    - NURQ0560
+  : 3.9934595
+  ? - SMPLUT15
+    - PCFBRX10
+  : 0.062
+  ? - WTNELE10
+    - WT281510
+  : 52.89464
+  ? - INTSUM35
+    - WT402435
+  : 1
+  ? - DMNELE05
+    - PCELHY05
+  : 36
+  ? - DMNELE30
+    - NELEDM30
+  : -1
+  ? - WTNELE60
+    - WT402760
+  : 212.54745
+  ? - INTSUM45
+    - WT282745
+  : 1
+  ? - DMNELE35
+    - PCHTRB35
+  : 22.5
+  ? - WTNELE10
+    - WT253010
+  : 56.92036
+  ? - COST
+    - PCSYNF50
+  : 0.17149015
+  ? - COST
+    - DPADVX55
+  : 37.41603
+  ? - WTELEC40
+    - WT372140
+  : 1.2197831
+  ? - WTELEC65
+    - WT342165
+  : 2.5424852
+  ? - WTELEC35
+    - WT402135
+  : 1.109242
+  ? - COST
+    - WT402110
+  : 2.5116289
+  ? - WTNELE30
+    - WT312430
+  : 88.83424
+  ? - COST
+    - WT371525
+  : 11.4277
+  ? - COST
+    - WT251550
+  : 9.030076
+  ? - WTELEC10
+    - WT342710
+  : 0.40423024
+  ? - COST
+    - WT402115
+  : 1.3652318
+  ? - WTNELE60
+    - WT372460
+  : 180.95856
+  ? - WTNELE20
+    - WT401820
+  : 64.16499
+  ? - INTSUM60
+    - WT373060
+  : 1
+  ? - WTNELE20
+    - WT372120
+  : 67.06063
+  ? - CPSYNF70
+    - DPSYNF70
+  : 5
+  ? - WTNELE15
+    - WT281815
+  : 58.68935
+  ? - WTNELE55
+    - WT252155
+  : 138.79333
+  ? - DMNELE30
+    - PCPETG30
+  : 1
+  ? - SMPLUT65
+    - DPFBRX65
+  : -2
+  ? - INTSUM10
+    - WT282110
+  : 1
+  ? - CPSYNF20
+    - PCSYNF15
+  : 0.844
+  ? - DISWUX75
+    - DPHTRB75
+  : 0.175
+  ? - WTNELE10
+    - WT282110
+  : 54.47663
+  ? - INTSUM75
+    - WT342775
+  : 1
+  ? - WTELEC40
+    - WT341840
+  : 1.1021608
+  ? - WTNELE65
+    - WT251865
+  : 143.2017
+  ? - CRQU0240
+    - CSNU0240
+  : -1
+  ? - WTNELE20
+    - WT402420
+  : 70.07786
+  ? - DMELEC60
+    - PCCOAL60
+  : 1
+  ? - INTSUM25
+    - WT401825
+  : 1
+  ? - WTELEC30
+    - WT402430
+  : 0.91171604
+  ? - WTNELE30
+    - WT402730
+  : 95.57462
+  ? - WTELEC45
+    - WT371545
+  : 1.462771
+  ? - COST
+    - PCSYNF25
+  : 1.8580453
+  ? - CPHTRB45
+    - DPHTRB45
+  : 5
+  ? - WTELEC15
+    - WT401815
+  : 0.5062435
+  ? - WTNELE70
+    - WT282170
+  : 189.5635
+  ? - CPFBRX30
+    - DPFBRX30
+  : 5
+  ? - WTNELE60
+    - WT402460
+  : 180.95856
+  ? - WTNELE60
+    - WT281560
+  : 111.35605
+  ? - COST
+    - WT402175
+  : -0.33871537
+  ? - CPLWRX25
+    - DPLWRX25
+  : 5
+  ? - DMNELE25
+    - PCPETG25
+  : 1
+  ? - COST
+    - WT401845
+  : 0.3273482
+  ? - WTELEC45
+    - WT251545
+  : 0.9182918
+  ? - CRQU0730
+    - CSNU0725
+  : 1
+  ? - WTELEC15
+    - WT341815
+  : 0.4777839
+  ? - WTELEC20
+    - WT402120
+  : 0.6159227
+  ? - DMELEC55
+    - PCLWRX55
+  : 1
+  ? - WTELEC60
+    - WT252760
+  : 1.3299603
+  ? - DMNELE25
+    - PCHTRB25
+  : 22.5
+  ? - INTSUM75
+    - WT402175
+  : 1
+  ? - COST
+    - WT312110
+  : 8.119604
+  ? - COST
+    - NURQ0250
+  : 4.1157637
+  ? - SMNATU05
+    - NURQ0405
+  : -1
+  ? - WTELEC10
+    - WT372110
+  : 0.41012844
+  ? - INTSUM65
+    - WT281865
+  : 1
+  ? - COST
+    - WT282435
+  : 1.1564195
+  ? - WTNELE55
+    - WT371855
+  : 119.80374
+  ? - COST
+    - WT312115
+  : 9.068625
+  ? - DMNELE50
+    - PCELHY50
+  : 36
+  ? - COST
+    - DPLWRX25
+  : 652.8874
+  ? - DMNELE55
+    - PCELHY55
+  : 36
+  ? - WTELEC75
+    - WT402175
+  : 5.3254933
+  ? - COST
+    - PCHTRB65
+  : 0.22989891
+  ? - INTSUM25
+    - WT282725
+  : 1
+  ? - WTNELE70
+    - WT311870
+  : 156.56226
+  ? - WTELEC65
+    - WT372765
+  : 3.0251818
+  ? - INTSUM50
+    - WT371850
+  : 1
+  ? - INTSUM40
+    - WT402140
+  : 1
+  ? - SMNATU60
+    - NURQ0860
+  : -1
+  ? - WTELEC50
+    - WT373050
+  : 1.7541637
+  ? - WTNELE65
+    - WT401865
+  : 143.2017
+  ? - INTSUM75
+    - WT252475
+  : 1
+  ? - INTSUM15
+    - WT253015
+  : 1
+  ? - SMNATU20
+    - DPLWRX20
+  : 0.5
+  ? - SMPLUT20
+    - CSPLUT15
+  : 0.2
+  ? - COST
+    - NURQ0570
+  : 1.5396514
+  ? - WTNELE45
+    - WT252745
+  : 142.5277
+  ? - INTSUM50
+    - WT251850
+  : 1
+  ? - COST
+    - WT312150
+  : 0.92936254
+  ? - CRQU0625
+    - NURQ0625
+  : 5
+  ? - WTELEC35
+    - WT342435
+  : 0.9324859
+  ? - INTSUM40
+    - WT281840
+  : 1
+  ? - SMNATU40
+    - PCLWRX35
+  : -0.016
+  ? - WTNELE15
+    - WT313015
+  : 65.98629
+  ? - SMCOAL20
+    - PCCOAL20
+  : 0.0657
+  ? - WTNELE20
+    - WT313020
+  : 76.4962
+  ? - COST
+    - DPELHY50
+  : 6.0258894
+  ? - CPLWRX20
+    - PCLWRX15
+  : 0.844
+  ? - CRQU0635
+    - CSNU0630
+  : 1
+  ? - CPHTRB55
+    - PCHTRB50
+  : 0.844
+  ? - COST
+    - WT312755
+  : -1.409453
+  ? - WTELEC30
+    - WT402130
+  : 0.91171604
+  ? - SMNATU15
+    - NURQ0715
+  : -1
+  ? - COST
+    - WT311545
+  : 7.2299223
+  ? - SMCOAL60
+    - PCCOAL60
+  : 0.0657
+  ? - WTELEC40
+    - WT342140
+  : 1.1021608
+  ? - INTSUM70
+    - WT371870
+  : 1
+  ? - WTNELE60
+    - WT371860
+  : 130.9813
+  ? - COST
+    - NURQ0915
+  : 460.72424
+  ? - COST
+    - WT403055
+  : -2.732785
+  ? - SMNATU65
+    - PCHTRB60
+  : -0.007
+  ? - COST
+    - WT342730
+  : -5.1029615
+  ? - CRQU0330
+    - CSNU0325
+  : 1
+  ? - DISWUX20
+    - DPLWRX20
+  : 0.23
+  ? - INTSUM60
+    - WT312760
+  : 1
+  ? - COST
+    - DPCOAL75
+  : 4.1712413
+  ? - DISWUX45
+    - PCLWRX40
+  : -0.007
+  ? - SMPLUT45
+    - PCLWRX40
+  : 0.17
+  ? - WTNELE60
+    - WT312160
+  : 153.9917
+  ? - WTELEC65
+    - WT252165
+  : 1.5047281
+  ? - WTNELE25
+    - WT371825
+  : 70.15151
+  ? - DMNELE70
+    - PCELHY70
+  : 36
+  ? - COST
+    - NURQ0340
+  : 16.54661
+  ? - CPCOAL30
+    - PCCOAL30
+  : -1
+  ? - NCADVX55
+    - DPLWRX55
+  : 0.8
+  ? - INTSUM70
+    - WT342470
+  : 1
+  ? - COST
+    - WT401575
+  : 0.39677018
+  ? - INTSUM30
+    - WT342730
+  : 1
+  ? - INTSUM75
+    - WT402775
+  : 1
+  ? - SMNATU55
+    - PCLWRX55
+  : 0.16
+  ? - WTNELE65
+    - WT253065
+  : 289.2777
+  ? - SMPETG45
+    - CSPETG45
+  : -0.2
+  ? - WTELEC75
+    - ELECDM75
+  : -1
+  ? - COST
+    - NURQ0840
+  : 39.32043
+  ? - CPSYNF60
+    - PCSYNF55
+  : 0.844
+  ? - COST
+    - WT283010
+  : -1.1874682
+  ? - CRQU0700
+    - NURQ0700
+  : 5
+  ? - WTELEC15
+    - ELECDM15
+  : -1
+  ? - CPPETG75
+    - PCPETG75
+  : -1
+  ? - WTNELE70
+    - WT343070
+  : 335.35214
+  ? - WTELEC75
+    - WT371875
+  : 4.3504987
+  ? - WTNELE20
+    - WT371520
+  : 61.38639
+  ? - WTELEC75
+    - WT282475
+  : 2.3634377
+  ? - CRQU1010
+    - NURQ1010
+  : 5
+  ? - CPELHY20
+    - PCELHY20
+  : -1
+  ? - INTSUM35
+    - WT403035
+  : 1
+  ? - INTSUM55
+    - WT372755
+  : 1
+  ? - CRQU1005
+    - CSNU1000
+  : 1
+  ? - CRQU0945
+    - CSNU0940
+  : 1
+  ? - SMCOAL25
+    - PCCOAL25
+  : 0.0657
+  ? - WTELEC55
+    - WT281855
+  : 1.3604476
+  ? - SMPLUT25
+    - CSPLUT20
+  : 0.2
+  ? - WTELEC20
+    - WT373020
+  : 0.58980364
+  ? - DMNELE05
+    - PCHTRB05
+  : 22.5
+  ? - WTNELE55
+    - WT313055
+  : 215.24979
+  ? - COST
+    - WT403070
+  : -1.0394711
+  ? - SMPETG10
+    - PCPETG10
+  : 0.001
+  ? - SMNATU50
+    - NURQ0650
+  : -1
+  ? - INTSUM70
+    - WT372170
+  : 1
+  ? - WTNELE45
+    - WT282745
+  : 142.5277
+  ? - CPELHY25
+    - PCELHY20
+  : 0.844
+  ? - COST
+    - NURQ0125
+  : 22.29654
+  ? - WTNELE60
+    - WT342160
+  : 153.9917
+  ? - SMPLUT15
+    - PCFBPL15
+  : 0.16
+  ? - WTELEC65
+    - WT283065
+  : 1.793135
+  ? - SMNATU05
+    - NURQ0205
+  : -1
+  ? - COST
+    - WT341550
+  : 4.2184176
+  ? - DISWUX10
+    - PCHTRB05
+  : -0.005
+  ? - CRQU0660
+    - CSNU0660
+  : -1
+  ? - WTNELE60
+    - WT343060
+  : 249.5335
+  ? - INTSUM30
+    - WT372130
+  : 1
+  ? - WTELEC25
+    - WT311825
+  : 0.6297953
+  ? - WTELEC60
+    - WT371860
+  : 2.522654
+  ? - WTNELE55
+    - WT342755
+  : 186.03886
+  ? - WTELEC10
+    - WT313010
+  : 0.3984001
+  ? - INTSUM30
+    - WT343030
+  : 1
+  ? - CPADVX10
+    - PCADVX05
+  : 0.844
+  ? - WTNELE10
+    - WT312410
+  : 55.28169
+  ? - COST
+    - PCCOAL55
+  : 3.3563092
+  ? - CRQU0710
+    - CSNU0705
+  : 1
+  ? - DIBRGN65
+    - PCHTRB65
+  : 0.3
+  ? - INTSUM75
+    - WT282775
+  : 1
+  ? - SMNATU75
+    - NURQ0175
+  : -1
+  ? - SMNATU35
+    - NURQ0235
+  : -1
+  ? - INTSUM35
+    - WT311535
+  : 1
+  ? - COST
+    - WT403045
+  : -4.969887
+  ? - CPHTRB00
+    - PCHTRB00
+  : -1
+  ? - CRQU0645
+    - NURQ0645
+  : 5
+  ? - CPLWRX05
+    - DPLWRX05
+  : 5
+  ? - SMNATU30
+    - NURQ0830
+  : -1
+  ? - NCADVX45
+    - DPADVX45
+  : -0.8
+  ? - WTNELE10
+    - WT311510
+  : 52.89464
+  ? - COST
+    - DPHTRB50
+  : 26.51391
+  ? - CRQU0830
+    - CSNU0830
+  : -1
+  ? - WTNELE60
+    - WT282460
+  : 180.95856
+  ? - CPELHY35
+    - PCELHY30
+  : 0.844
+  ? - CPPETG30
+    - PCPETG30
+  : -1
+  ? - COST
+    - PCSYNF05
+  : 12.5
+  ? - COST
+    - WT403015
+  : -12.29189
+  ? - WTNELE65
+    - WT402765
+  : 242.83324
+  ? - COST
+    - WT313020
+  : -7.1974983
+  ? - COST
+    - NURQ1025
+  : 189.52063
+  ? - INTSUM35
+    - WT283035
+  : 1
+  ? - COST
+    - WT312175
+  : 0.14167602
+  ? - COST
+    - WT401570
+  : 0.5422286
+  ? - COST
+    - PCHTRB15
+  : 26.98803
+  ? - WTNELE65
+    - WT252765
+  : 242.83324
+  ? - WTNELE55
+    - WT342155
+  : 138.79333
+  ? - CRQU0770
+    - NURQ0770
+  : 5
+  ? - CPCOAL60
+    - DPCOAL60
+  : 5
+  ? - WTNELE20
+    - WT341820
+  : 64.16499
+  ? - DMELEC45
+    - PCCOAL45
+  : 1
+  ? - COST
+    - WT252145
+  : 3.9232676
+  ? - INTSUM35
+    - WT371835
+  : 1
+  ? - INTSUM55
+    - WT312155
+  : 1
+  ? - CRQU0620
+    - CSNU0615
+  : 1
+  ? - INTSUM60
+    - WT281560
+  : 1
+  ? - COST
+    - PCHTRB70
+  : 0.14274915
+  ? - CPLWRX35
+    - DPLWRX35
+  : 5
+  ? - INTSUM50
+    - WT281850
+  : 1
+  ? - CPSYNF55
+    - PCSYNF55
+  : -1
+  ? - COST
+    - WT252155
+  : 2.193155
+  ? - CRQU0865
+    - CSNU0860
+  : 1
+  ? - COST
+    - DPCOAL70
+  : 6.7178254
+  ? - CRQU0825
+    - CSNU0820
+  : 1
+  ? - INTSUM20
+    - WT311820
+  : 1
+  ? - CRQU0815
+    - NURQ0815
+  : 5
+  ? - COST
+    - WT343020
+  : -9.299976
+  ? - INTSUM10
+    - WT402710
+  : 1
+  ? - WTNELE20
+    - WT252120
+  : 67.06063
+  ? - CPHTRB20
+    - PCHTRB20
+  : -1
+  ? - INTSUM35
+    - WT282735
+  : 1
+  ? - SMPETG65
+    - CSPETG60
+  : 0.2
+  ? - COST
+    - WT342775
+  : -0.53365827
+  ? - COST
+    - WT312745
+  : -2.2836447
+  ? - WTELEC40
+    - WT312140
+  : 0.9955874
+  ? - WTNELE20
+    - WT342420
+  : 70.07786
+  ? - WTNELE30
+    - WT341530
+  : 71.24142
+  ? - CRQU0155
+    - CSNU0155
+  : -1
+  ? - WTNELE40
+    - WT372440
+  : 112.61078
+  ? - COST
+    - WT311825
+  : 11.32834
+  ? - CPHTRB25
+    - PCHTRB20
+  : 0.844
+  ? - COST
+    - PCFBRX50
+  : 1.5777094
+  ? - COST
+    - WT311525
+  : 17.55412
+  ? - WTNELE10
+    - WT282710
+  : 56.09623
+  ? - COST
+    - NURQ0805
+  : 1105
+  ? - WTNELE35
+    - WT282135
+  : 91.5912
+  ? - CRQU0865
+    - CSNU0865
+  : -1
+  ? - SMPETG05
+    - CSPETG05
+  : -0.2
+  ? - CRQU0215
+    - CSNU0210
+  : 1
+  ? - DIBRGN15
+    - PCHTRB15
+  : 0.3
+  ? - SMCOAL55
+    - PCCOAL55
+  : 0.0657
+  ? - CPELHY50
+    - PCELHY45
+  : 0.844
+  ? - DISWUX70
+    - DPHTRB70
+  : 0.175
+  ? - CRQU0745
+    - CSNU0740
+  : 1
+  ? - DISWUX15
+    - PCLWRX15
+  : 0.11
+  ? - SMPETG00
+    - CSPETG00
+  : -0.2
+  ? - WTNELE60
+    - WT252460
+  : 180.95856
+  ? - WTELEC45
+    - WT252745
+  : 0.9182918
+  ? - COST
+    - NURQ0215
+  : 115.66299
+  ? - COST
+    - PCLWRX00
+  : 185.20865
+  ? - SMNATU20
+    - NURQ0920
+  : -1
+  ? - COST
+    - DPCOAL50
+  : 45.19417
+  ? - COST
+    - PCPETG65
+  : 0.02463203
+  ? - CPSYNF05
+    - PCSYNF05
+  : -1
+  ? - DMELEC40
+    - PCELHY40
+  : -1
+  ? - SMNATU70
+    - DPHTRB70
+  : 0.216
+  ? - COST
+    - DPELHY45
+  : 9.704755
+  ? - SMPETG25
+    - CSPETG20
+  : 0.2
+  ? - CRQU0615
+    - CSNU0615
+  : -1
+  ? - INTSUM25
+    - WT342425
+  : 1
+  ? - WTELEC75
+    - WT281575
+  : 2.3634377
+  ? - COST
+    - WT312470
+  : -0.27807102
+  ? - WTNELE35
+    - WT372135
+  : 91.5912
+  ? - WTELEC35
+    - WT281835
+  : 0.7831042
+  ? - INTSUM10
+    - WT402110
+  : 1
+  ? - WTELEC70
+    - WT371570
+  : 3.6278162
+  ? - NCCOAL20
+    - DPCOAL20
+  : 0.7
+  ? - SMNATU40
+    - PCHTRB35
+  : -0.007
+  ? - COST
+    - WT402465
+  : -0.9825826
+  ? - WTELEC70
+    - WT342170
+  : 3.0051153
+  ? - DMELEC10
+    - PCADVX10
+  : 1
+  ? - WTNELE30
+    - WT282130
+  : 82.55151
+  ? - CPLWRX30
+    - PCLWRX25
+  : 0.844
+  ? - WTNELE40
+    - WT313040
+  : 138.16064
+  ? - DMELEC25
+    - PCLWRX25
+  : 1
+  ? - CRQU0260
+    - CSNU0255
+  : 1
+  ? - WTNELE15
+    - WT251515
+  : 56.98255
+  ? - INTSUM25
+    - WT251825
+  : 1
+  ? - CPSYNF15
+    - PCSYNF15
+  : -1
+  ? - CRQU0250
+    - CSNU0250
+  : -1
+  ? - COST
+    - WT311575
+  : 1.4931302
+  ? - INTSUM10
+    - WT341510
+  : 1
+  ? - COST
+    - WT342410
+  : 2.4598484
+  ? - CPADVX35
+    - PCADVX35
+  : -1
+  ? - INTSUM30
+    - WT402430
+  : 1
+  ? - CRQU0920
+    - CSNU0915
+  : 1
+  ? - COST
+    - WT401865
+  : -0.0446622
+  ? - WTNELE15
+    - WT371815
+  : 58.68935
+  ? - CRQU0835
+    - CSNU0830
+  : 1
+  ? - WTNELE45
+    - WT311545
+  : 89.0683
+  ? - WTELEC50
+    - WT402750
+  : 1.9976821
+  ? - CRQU0175
+    - NURQ0175
+  : 5
+  ? - WTELEC45
+    - WT252445
+  : 0.9182918
+  ? - WTNELE60
+    - WT251860
+  : 130.9813
+  ? - DMNELE20
+    - NELEDM20
+  : -1
+  ? - SMNATU05
+    - PCHTRB00
+  : -0.007
+  ? - SMPETG45
+    - PCPETG45
+  : 0.001
+  ? - WTNELE45
+    - WT312745
+  : 142.5277
+  ? - COST
+    - WT311870
+  : 0.9114163
+  ? - WTELEC10
+    - WT371810
+  : 0.41012844
+  ? - WTNELE50
+    - WT403050
+  : 185.67636
+  ? - SMPETG20
+    - CSPETG20
+  : -0.2
+  ? - DIBRGN45
+    - PCHTRB45
+  : 0.3
+  ? - COST
+    - PCFBRX10
+  : 71.40595
+  ? - COST
+    - WT282170
+  : 0.52034646
+  ? - WTELEC40
+    - WT402440
+  : 1.3495624
+  ? - WTELEC55
+    - WT312455
+  : 1.5738356
+  ? - WTELEC20
+    - WT251820
+  : 0.49531797
+  ? - NCCOAL30
+    - DPFBRX30
+  : -0.3
+  ? - SMNATU45
+    - NURQ0645
+  : -1
+  ? - WTNELE65
+    - WT372165
+  : 170.85434
+  ? - COST
+    - NURQ0720
+  : 239.39204
+  ? - DMELEC65
+    - PCADVX65
+  : 1
+  ? - COST
+    - DPADVX70
+  : 8.957101
+  ? - WTNELE55
+    - WT283055
+  : 215.24979
+  ? - CRQU0155
+    - NURQ0155
+  : 5
+  ? - WTELEC15
+    - WT311515
+  : 0.46410128
+  ? - COST
+    - DPCOAL25
+  : 489.66556
+  ? - WTELEC30
+    - WT373030
+  : 0.84819365
+  ? - COST
+    - PCSYNF60
+  : 0.06611688
+  ? - CRQU0665
+    - CSNU0660
+  : 1
+  ? - INTSUM50
+    - WT282450
+  : 1
+  ? - INTSUM45
+    - WT372145
+  : 1
+  ? - COST
+    - WT342425
+  : -1.2972744
+  ? - COST
+    - WT312415
+  : 3.7947235
+  ? - CRQU0420
+    - CSNU0415
+  : 1
+  ? - SMNATU00
+    - NURQ0100
+  : -1
+  ? - DISWUX30
+    - PCLWRX25
+  : -0.007
+  ? - CRQU0855
+    - CSNU0855
+  : -1
+  ? - WTELEC10
+    - WT341510
+  : 0.40423024
+  ? - WTNELE10
+    - WT312110
+  : 54.47663
+  ? - COST
+    - PCCOAL40
+  : 14.02014
+  ? - WTNELE45
+    - WT402445
+  : 126.78847
+  ? - SMPLUT50
+    - PCFBRX45
+  : 0.062
+  ? - COST
+    - NURQ0450
+  : 8.437315
+  ? - CPSYNF00
+    - DPSYNF00
+  : 5
+  ? - CRQU0900
+    - NURQ0900
+  : 5
+  ? - WTELEC15
+    - WT403015
+  : 0.5062435
+  ? - COST
+    - WT311560
+  : 3.3287385
+  ? - CPHTRB40
+    - PCHTRB35
+  : 0.844
+  ? - CPLWRX70
+    - PCLWRX65
+  : 0.844
+  ? - WTNELE45
+    - WT312145
+  : 112.7486
+  ? - WTELEC40
+    - WT281540
+  : 0.8990526
+  ? - INTSUM30
+    - WT403030
+  : 1
+  ? - INTSUM30
+    - WT281830
+  : 1
+  ? - COST
+    - WT372155
+  : -0.5271952
+  ? - COST
+    - WT312460
+  : -0.4434765
+  ? - SMPETG65
+    - PCPETG65
+  : 0.001
+  ? - WTNELE40
+    - WT341840
+  : 91.67559
+  ? - NCCOAL15
+    - DPCOAL15
+  : 0.7
+  ? - WTELEC40
+    - WT342740
+  : 1.1021608
+  ? - INTSUM10
+    - WT251810
+  : 1
+  ? - SMNATU05
+    - PCLWRX05
+  : 0.16
+  ? - WTNELE55
+    - WT251555
+  : 103.3674
+  ? - SMPETG60
+    - CSPETG60
+  : -0.2
+  ? - WTELEC65
+    - WT403065
+  : 3.5977125
+  ? - COST
+    - WT342155
+  : 0.00986145
+  ? - WTNELE55
+    - WT342455
+  : 160.72348
+  ? - DIBRGN30
+    - PCHTRB30
+  : 0.3
+  ? - WTELEC45
+    - WT373045
+  : 1.462771
+  ? - DISWUX70
+    - PCLWRX65
+  : -0.007
+  ? - CRQU0535
+    - NURQ0535
+  : 5
+  ? - WTNELE20
+    - WT283020
+  : 76.4962
+  ? - COST
+    - WT372470
+  : -0.6039838
+  ? - CPCOAL75
+    - DPCOAL75
+  : 5
+  ? - COST
+    - NURQ0600
+  : 1425.3014
+  ? - SMCOAL50
+    - CSCOAL45
+  : 0.2
+  ? - COST
+    - WT281820
+  : 16.70245
+  ? - CRQU0755
+    - CSNU0750
+  : 1
+  ? - WTNELE40
+    - WT372140
+  : 101.62077
+  ? - CPSWUX25
+    - PCSWUX25
+  : -1
+  ? - SMNATU10
+    - NURQ0710
+  : -1
+  ? - WTELEC65
+    - WT281565
+  : 1.793135
+  ? - CPADVX70
+    - PCADVX65
+  : 0.844
+  ? - INTSUM10
+    - WT251510
+  : 1
+  ? - DMELEC60
+    - PCADVX60
+  : 1
+  ? - CPFBRX60
+    - DPFBRX60
+  : 5
+  ? - WTNELE60
+    - WT252160
+  : 153.9917
+  ? - CPELHY00
+    - PCELHY00
+  : -1
+  ? - COST
+    - WT372445
+  : -2.2719088
+  ? - DMELEC35
+    - ELECDM35
+  : -1
+  ? - COST
+    - WT341570
+  : 1.3903389
+  ? - WTNELE35
+    - WT372735
+  : 109.193
+  ? - WTELEC45
+    - WT402445
+  : 1.641949
+  ? - WTELEC55
+    - WT282755
+  : 1.3604476
+  ? - INTSUM20
+    - WT252120
+  : 1
+  ? - COST
+    - WT313050
+  : -2.7259073
+  ? - COST
+    - WT401555
+  : 1.403685
+  ? - WTELEC60
+    - WT311860
+  : 1.8333808
+  ? - WTNELE40
+    - WT282440
+  : 112.61078
+  ? - CPSYNF65
+    - PCSYNF60
+  : 0.844
+  ? - WTELEC20
+    - WT313020
+  : 0.5406374
+  ? - WTNELE25
+    - WT253025
+  : 88.68006
+  ? - DISWUX70
+    - DPLWRX70
+  : 0.23
+  ? - COST
+    - WT341875
+  : 0.38612217
+  ? - SMCOAL20
+    - CSCOAL20
+  : -0.2
+  ? - CRQU0930
+    - CSNU0925
+  : 1
+  ? - DISWUX75
+    - DPLWRX75
+  : 0.23
+  ? - COST
+    - WT252170
+  : 0.9043859
+  ? - WTNELE45
+    - WT252145
+  : 112.7486
+  ? - WTNELE25
+    - WT401825
+  : 70.15151
+  ? - CRQU1005
+    - CSNU1005
+  : -1
+  ? - DIBRGN15
+    - PCFBRX10
+  : -1
+  ? - CPLWRX50
+    - PCLWRX45
+  : 0.844
+  ? - WTELEC15
+    - WT252115
+  : 0.4377889
+  ? - CPFBRX50
+    - DPFBRX50
+  : 5
+  ? - CRQU0600
+    - CSNU0600
+  : -1
+  ? - CRQU0250
+    - NURQ0250
+  : 5
+  ? - COST
+    - WT253020
+  : -2.6868534
+  ? - DISWUX60
+    - PCLWRX60
+  : 0.11
+  ? - COST
+    - WT282465
+  : -0.06101343
+  ? - COST
+    - PCCOAL20
+  : 94.32047
+  ? - CPLWRX75
+    - PCLWRX70
+  : 0.844
+  ? - CPLWRX35
+    - PCLWRX30
+  : 0.844
+  ? - COST
+    - WT371535
+  : 6.9974704
+  ? - COST
+    - WT252725
+  : 0.9089863
+  ? - INTSUM35
+    - WT341835
+  : 1
+  ? - WTNELE45
+    - WT372445
+  : 126.78847
+  ? - DMNELE60
+    - PCELHY60
+  : 36
+  ? - WTELEC35
+    - WT252735
+  : 0.7173681
+  ? - SMPLUT45
+    - CSPLUT40
+  : 0.2
+  ? - WTNELE70
+    - WT372470
+  : 229.39221
+  ? - CRQU1045
+    - CSNU1040
+  : 1
+  ? - CRQU0450
+    - CSNU0450
+  : -1
+  ? - COST
+    - NURQ0200
+  : 483.153
+  ? - DIBRGN25
+    - PCHTRB25
+  : 0.3
+  ? - WTNELE65
+    - WT371565
+  : 119.96209
+  ? - CPPETG20
+    - PCPETG20
+  : -1
+  ? - COST
+    - WT342170
+  : -0.05781428
+  ? - INTSUM55
+    - WT342155
+  : 1
+  ? - SMNATU65
+    - NURQ0365
+  : -1
+  ? - WTELEC65
+    - WT312465
+  : 2.1357284
+  ? - WTELEC70
+    - WT312170
+  : 2.4879367
+  ? - COST
+    - WT373030
+  : -9.224222
+  ? - DMNELE20
+    - PCPETG20
+  : 1
+  ? - WTNELE75
+    - WT342175
+  : 210.3214
+  ? - WTNELE35
+    - WT252435
+  : 100.01847
+  ? - INTSUM40
+    - WT372140
+  : 1
+  ? - SMPETG55
+    - PCPETG55
+  : 0.001
+  ? - WTELEC10
+    - WT401510
+  : 0.4160953
+  ? - INTSUM30
+    - WT313030
+  : 1
+  ? - DISWUX40
+    - PCLWRX40
+  : 0.11
+  ? - SMPETG35
+    - CSPETG30
+  : 0.2
+  ? - CRQU1000
+    - CSNU1000
+  : -1
+  ? - INTSUM20
+    - WT402420
+  : 1
+  ? - WTELEC30
+    - WT312130
+  : 0.73365647
+  ? - CRQU0445
+    - NURQ0445
+  : 5
+  ? - WTELEC60
+    - WT251560
+  : 1.3299603
+  ? - CRQU0110
+    - CSNU0105
+  : 1
+  ? - SMPLUT20
+    - PCFBRX15
+  : 0.062
+  ? - WTNELE40
+    - WT371540
+  : 82.67857
+  ? - INTSUM65
+    - WT251865
+  : 1
+  ? - CRQU0530
+    - NURQ0530
+  : 5
+  ? - SMPLUT50
+    - CSPLUT45
+  : 0.2
+  ? - DMELEC50
+    - ELECDM50
+  : -1
+  ? - DIBRGN65
+    - PCFBPL65
+  : 1
+  ? - CPHTRB35
+    - PCHTRB35
+  : -1
+  ? - WTELEC10
+    - WT281510
+  : 0.3926374
+  ? - WTNELE35
+    - WT311535
+  : 76.74724
+  ? - CPPETG10
+    - DPPETG10
+  : 5
+  ? - WTELEC10
+    - WT252110
+  : 0.3869416
+  ? - WTNELE75
+    - WT281575
+  : 139.2209
+  ? - CPCOAL50
+    - DPCOAL50
+  : 5
+  ? - WTELEC60
+    - WT313060
+  : 1.8333808
+  ? - CRQU0150
+    - CSNU0150
+  : -1
+  ? - CRQU0420
+    - CSNU0420
+  : -1
+  ? - COST
+    - WT282750
+  : -1.2603256
+  ? - COST
+    - WT312410
+  : 4.3067846
+  ? - DMELEC40
+    - PCLWRX40
+  : 1
+  ? - WTELEC35
+    - WT341535
+  : 0.9324859
+  ? - COST
+    - WT341860
+  : 0.99759007
+  ? - WTELEC50
+    - WT252150
+  : 1.038963
+  ? - WTNELE40
+    - WT341540
+  : 82.67857
+  ? - COST
+    - NURQ0520
+  : 180.741
+  ? - COST
+    - WT401810
+  : 6.282224
+  ? - INTSUM40
+    - WT371540
+  : 1
+  ? - INTSUM75
+    - WT252175
+  : 1
+  ? - CPSYNF25
+    - PCSYNF25
+  : -1
+  ? - WTNELE35
+    - WT343035
+  : 119.17859
+  ? - WTELEC75
+    - WT372475
+  : 4.3504987
+  ? - DMELEC35
+    - PCLWRX35
+  : 1
+  ? - COST
+    - WT251845
+  : 7.188756
+  ? - SMCOAL55
+    - CSCOAL55
+  : -0.2
+  ? - INTSUM40
+    - WT252440
+  : 1
+  ? - CPSYNF50
+    - DPSYNF50
+  : 5
+  ? - INTSUM40
+    - WT282740
+  : 1
+  ? - CRQU0755
+    - NURQ0755
+  : 5
+  ? - COST
+    - WT341845
+  : 2.5947034
+  ? - SMNATU25
+    - NURQ0425
+  : -1
+  ? - COST
+    - WT342145
+  : 0.29283145
+  ? - SMNATU60
+    - DPLWRX60
+  : 0.5
+  ? - CRQU0260
+    - CSNU0260
+  : -1
+  ? - WTNELE35
+    - WT252735
+  : 109.193
+  ? - DISWUX50
+    - PCLWRX50
+  : 0.11
+  ? - CRQU0260
+    - NURQ0260
+  : 5
+  ? - WTNELE65
+    - WT281865
+  : 143.2017
+  ? - WTELEC65
+    - WT252765
+  : 1.5047281
+  ? - DMELEC05
+    - PCCOAL05
+  : 1
+  ? - SMNATU15
+    - NURQ0515
+  : -1
+  ? - SMNATU70
+    - NURQ0970
+  : -1
+  ? - SMNATU45
+    - NURQ0245
+  : -1
+  ? - CPSYNF75
+    - PCSYNF70
+  : 0.844
+  ? - DMELEC40
+    - PCADVX40
+  : 1
+  ? - INTSUM55
+    - WT402455
+  : 1
+  ? - DMNELE60
+    - NELEDM60
+  : -1
+  ? - COST
+    - WT313075
+  : -0.60383517
+  ? - CRQU0670
+    - NURQ0670
+  : 5
+  ? - INTSUM25
+    - WT313025
+  : 1
+  ? - CRQU0735
+    - CSNU0735
+  : -1
+  ? - COST
+    - NURQ0240
+  : 10.67523
+  ? - WTELEC40
+    - WT282740
+  : 0.8990526
+  ? - COST
+    - DPLWRX75
+  : 5.561655
+  ? - COST
+    - WT281875
+  : 1.0390607
+  ? - INTSUM45
+    - WT341845
+  : 1
+  ? - WTELEC20
+    - WT282420
+  : 0.5175149
+  ? - DMNELE40
+    - PCELHY40
+  : 36
+  ? - CPELHY45
+    - DPELHY45
+  : 5
+  ? - WTELEC75
+    - WT252475
+  : 1.9261792
+  ? - CRQU0715
+    - NURQ0715
+  : 5
+  ? - WTNELE20
+    - WT371820
+  : 64.16499
+  ? - WTELEC55
+    - WT281555
+  : 1.3604476
+  ? - DISWUX30
+    - PCSWUX30
+  : -1
+  ? - CPSWUX05
+    - PCSWUX00
+  : 0.844
+  ? - INTSUM40
+    - WT311840
+  : 1
+  ? - COST
+    - WT341560
+  : 2.4320655
+  ? - WTELEC75
+    - WT402475
+  : 5.3254933
+  ? - DISWUX05
+    - PCLWRX00
+  : -0.007
+  ? - WTNELE55
+    - WT401855
+  : 119.80374
+  ? - COST
+    - WT311815
+  : 14.6782
+  ? - COST
+    - NURQ0910
+  : 742.001
+  ? - INTSUM40
+    - WT311540
+  : 1
+  ? - WTELEC60
+    - WT282160
+  : 1.5618792
+  ? - WTELEC20
+    - WT343020
+  : 0.56472135
+  ? - SMPLUT60
+    - CSPLUT60
+  : -0.2
+  ? - INTSUM75
+    - WT371575
+  : 1
+  ? - WTNELE30
+    - WT343030
+  : 102.8045
+  ? - CPCOAL40
+    - PCCOAL35
+  : 0.844
+  ? - INTSUM55
+    - WT401855
+  : 1
+  ? - WTNELE50
+    - WT253050
+  : 185.67636
+  ? - COST
+    - WT401875
+  : -0.04630188
+  ? - DMNELE50
+    - PCSYNF50
+  : 1
+  ? - COST
+    - WT372735
+  : -5.5672135
+  ? - SMNATU45
+    - PCLWRX40
+  : -0.016
+  ? - CRQU0640
+    - NURQ0640
+  : 5
+  ? - WTELEC75
+    - WT283075
+  : 2.3634377
+  ? - INTSUM35
+    - WT372435
+  : 1
+  ? - WTELEC30
+    - WT281530
+  : 0.6821093
+  ? - WTNELE40
+    - WT253040
+  : 138.16064
+  ? - SMNATU45
+    - DPLWRX45
+  : 0.5
+  ? - CPHTRB30
+    - PCHTRB30
+  : -1
+  ? - INTSUM45
+    - WT251545
+  : 1
+  ? - INTSUM10
+    - WT311810
+  : 1
+  ? - SMNATU10
+    - PCHTRB05
+  : -0.007
+  ? - SMPETG55
+    - CSPETG50
+  : 0.2
+  ? - WTNELE75
+    - WT372775
+  : 316.9659
+  ? - WTELEC30
+    - WT282430
+  : 0.6821093
+  ? - CRQU0165
+    - CSNU0160
+  : 1
+  ? - INTSUM35
+    - WT313035
+  : 1
+  ? - COST
+    - WT373065
+  : -1.3580914
+  ? - COST
+    - WT312715
+  : -1.164484
+  ? - CRQU0440
+    - CSNU0440
+  : -1
+  ? - CRQU0675
+    - NURQ0675
+  : 5
+  ? - CPLWRX60
+    - PCLWRX55
+  : 0.844
+  ? - COST
+    - PCHTRB35
+  : 4.0115986
+  ? - CRQU0360
+    - CSNU0360
+  : -1
+  ? - COST
+    - WT251560
+  : 5.626852
+  ? - DMELEC05
+    - PCFBRX05
+  : 1
+  ? - WTELEC40
+    - WT251540
+  : 0.81163615
+  ? - INTSUM75
+    - WT253075
+  : 1
+  ? - COST
+    - DPCOAL65
+  : 10.81913
+  ? - INTSUM15
+    - WT252715
+  : 1
+  ? - SMNATU65
+    - NURQ0865
+  : -1
+  ? - COST
+    - WT282455
+  : 0.00024228
+  ? - CPELHY20
+    - PCELHY15
+  : 0.844
+  ? - WTNELE30
+    - WT342130
+  : 82.55151
+  ? - COST
+    - WT312770
+  : -0.6062036
+  ? - WTNELE15
+    - WT282715
+  : 64.08936
+  ? - NCCOAL30
+    - DPLWRX30
+  : -0.3
+  ? - NCADVX50
+    - DPCOAL50
+  : 0.4
+  ? - INTSUM25
+    - WT252725
+  : 1
+  ? - INTSUM70
+    - WT402770
+  : 1
+  ? - COST
+    - WT372740
+  : -4.5122204
+  ? - DIBRGN60
+    - PCFBRX55
+  : -1
+  ? - WTELEC65
+    - WT253065
+  : 1.5047281
+  ? - INTSUM75
+    - WT341575
+  : 1
+  ? - WTELEC45
+    - WT311545
+  : 1.1597723
+  ? - CRQU0625
+    - CSNU0625
+  : -1
+  ? - WTELEC70
+    - WT342470
+  : 3.0051153
+  ? - CPSYNF70
+    - PCSYNF65
+  : 0.844
+  ? - WTNELE30
+    - WT402130
+  : 82.55151
+  ? - SMCOAL25
+    - CSCOAL25
+  : -0.2
+  ? - INTSUM15
+    - WT401515
+  : 1
+  ? - WTNELE50
+    - WT282450
+  : 142.75113
+  ? - COST
+    - WT401540
+  : 3.6310158
+  ? - DISWUX55
+    - DPLWRX55
+  : 0.23
+  ? - COST
+    - WT311565
+  : 2.5512362
+  ? - SMNATU20
+    - NURQ0520
+  : -1
+  ? - INTSUM30
+    - WT251530
+  : 1
+  ? - COST
+    - WT252430
+  : 4.149917
+  ? - CPLWRX30
+    - DPLWRX30
+  : 5
+  ? - CPCOAL45
+    - DPCOAL45
+  : 5
+  ? - INTSUM70
+    - WT252770
+  : 1
+  ? - CPFBRX75
+    - PCFBRX75
+  : -1
+  ? - COST
+    - WT251540
+  : 14.13038
+  ? - COST
+    - DPHTRB65
+  : 6.34722
+  ? - CPPETG40
+    - PCPETG35
+  : 0.844
+  ? - INTSUM35
+    - WT252735
+  : 1
+  ? - WTELEC50
+    - WT312450
+  : 1.3510332
+  ? - COST
+    - NURQ0235
+  : 17.19257
+  ? - CPCOAL25
+    - DPCOAL25
+  : 5
+  ? - SMNATU55
+    - PCHTRB50
+  : -0.007
+  ? - CRQU0770
+    - CSNU0770
+  : -1
+  ? - DMELEC35
+    - PCELHY35
+  : -1
+  ? - COST
+    - WT401560
+  : 1.0216678
+  ? - COST
+    - DPCOAL30
+  : 304.0438
+  ? - CRQU1070
+    - CSNU1065
+  : 1
+  ? - SMCOAL30
+    - CSCOAL30
+  : -0.2
+  ? - INTSUM65
+    - WT373065
+  : 1
+  ? - DISWUX60
+    - DPHTRB60
+  : 0.175
+  ? - CRQU0850
+    - NURQ0850
+  : 5
+  ? - NCADVX55
+    - DPFBRX55
+  : 0.8
+  ? - COST
+    - WT373040
+  : -5.934013
+  ? - CPPETG05
+    - PCPETG00
+  : 0.844
+  ? - DMNELE45
+    - PCPETG45
+  : 1
+  ? - WTNELE30
+    - WT312130
+  : 82.55151
+  ? - CRQU0675
+    - CSNU0670
+  : 1
+  ? - COST
+    - WT253015
+  : -1.1621385
+  ? - COST
+    - WT312420
+  : 2.2465105
+  ? - SMPLUT10
+    - CSPLUT05
+  : 0.2
+  ? - SMPLUT40
+    - DPFBRX40
+  : -2
+  ? - WTELEC30
+    - WT312430
+  : 0.73365647
+  ? - DISWUX30
+    - PCLWRX30
+  : 0.11
+  ? - COST
+    - DPCOAL20
+  : 788.61127
+  ? - INTSUM45
+    - WT402745
+  : 1
+  ? - CRQU1055
+    - CSNU1050
+  : 1
+  ? - CRQU0175
+    - CSNU0170
+  : 1
+  ? - INTSUM50
+    - WT402750
+  : 1
+  ? - COST
+    - DPLWRX55
+  : 37.41603
+  ? - WTELEC45
+    - WT342745
+  : 1.3027097
+  ? - SMCOAL20
+    - CSCOAL15
+  : 0.2
+  ? - WTNELE10
+    - WT342110
+  : 54.47663
+  ? - COST
+    - WT371545
+  : 3.9965818
+  ? - NCCOAL35
+    - DPCOAL35
+  : 0.8
+  ? - COST
+    - PCPETG40
+  : 0.26688078
+  ? - COST
+    - DPFBRX55
+  : 40.53404
+  ? - SMNATU55
+    - NURQ1055
+  : -1
+  ? - CPPETG10
+    - PCPETG10
+  : -1
+  ? - SMNATU05
+    - NURQ0505
+  : -1
+  ? - INTSUM20
+    - WT282420
+  : 1
+  ? - INTSUM45
+    - WT253045
+  : 1
+  ? - CPELHY10
+    - PCELHY10
+  : -1
+  ? - SMNATU60
+    - NURQ0760
+  : -1
+  ? - SMPETG15
+    - CSPETG10
+  : 0.2
+  ? - COST
+    - WT343045
+  : -4.0819874
+  ? - INTSUM70
+    - WT252170
+  : 1
+  ? - SMNATU30
+    - DPHTRB30
+  : 0.216
+  ? - INTSUM70
+    - WT403070
+  : 1
+  ? - COST
+    - PCCOAL50
+  : 5.4053698
+  ? - CPELHY70
+    - PCELHY65
+  : 0.844
+  ? - SMNATU50
+    - DPHTRB50
+  : 0.216
+  ? - CRQU0850
+    - CSNU0850
+  : -1
+  ? - COST
+    - WT401860
+  : -0.0218241
+  ? - COST
+    - WT371855
+  : 0.65160954
+  ? - SMPLUT75
+    - CSPLUT70
+  : 0.2
+  ? - CPFBRX45
+    - DPFBRX45
+  : 5
+  ? - COST
+    - WT252440
+  : 1.988368
+  ? - COST
+    - WT281825
+  : 14.31011
+  ? - INTSUM15
+    - WT311815
+  : 1
+  ? - DMNELE30
+    - PCSYNF30
+  : 1
+  ? - WTNELE25
+    - WT342125
+  : 74.40401
+  ? - INTSUM35
+    - WT251535
+  : 1
+  ? - WTNELE35
+    - WT251835
+  : 83.85227
+  ? - WTNELE15
+    - WT252415
+  : 62.24164
+  ? - CRQU0240
+    - NURQ0240
+  : 5
+  ? - INTSUM35
+    - WT402735
+  : 1
+  ? - COST
+    - WT342740
+  : -3.690643
+  ? - CPFBRX55
+    - PCFBRX50
+  : 0.844
+  ? - COST
+    - DPFBRX35
+  : 272.69272
+  ? - CPHTRB20
+    - PCHTRB15
+  : 0.844
+  ? - COST
+    - WT251835
+  : 11.66085
+  ? - COST
+    - WT371540
+  : 5.316501
+  ? - DIBRGN00
+    - PCHTRB00
+  : 0.3
+  ? - INTSUM65
+    - WT341865
+  : 1
+  ? - SMPLUT60
+    - PCFBPL60
+  : 0.16
+  ? - CPSWUX20
+    - PCSWUX15
+  : 0.844
+  ? - WTNELE40
+    - WT283040
+  : 138.16064
+  ? - DMELEC75
+    - PCELHY75
+  : -1
+  ? - CPFBRX00
+    - PCFBRX00
+  : -1
+  ? - WTNELE50
+    - WT342450
+  : 142.75113
+  ? - COST
+    - WT253025
+  : -3.4152544
+  ? - WTELEC45
+    - WT312445
+  : 1.1597723
+  ? - COST
+    - WT252130
+  : 8.932702
+  ? - CPHTRB15
+    - PCHTRB10
+  : 0.844
+  ? - WTNELE45
+    - WT253045
+  : 160.16606
+  ? - INTSUM45
+    - WT283045
+  : 1
+  ? - SMPLUT05
+    - CSPLUT05
+  : -0.2
+  ? - SMNATU50
+    - NURQ0550
+  : -1
+  ? - WTNELE40
+    - WT312740
+  : 124.75186
+  ? - CRQU0435
+    - NURQ0435
+  : 5
+  ? - CRPETG75
+    - CSPETG75
+  : 1
+  ? - CPSWUX15
+    - PCSWUX15
+  : -1
+  ? - SMCOAL25
+    - PCSYNF25
+  : 0.00133
+  ? - COST
+    - NURQ0350
+  : 6.3794336
+  ? - CRQU1060
+    - NURQ1060
+  : 5
+  ? - CRQU0255
+    - CSNU0255
+  : -1
+  ? - CPELHY45
+    - PCELHY40
+  : 0.844
+  ? - INTSUM75
+    - WT312175
+  : 1
+  ? - SMPLUT55
+    - DPFBRX55
+  : -2
+  ? - INTSUM15
+    - WT311515
+  : 1
+  ? - WTNELE50
+    - WT312150
+  : 125.09498
+  ? - INTSUM70
+    - WT282470
+  : 1
+  ? - COST
+    - NURQ0315
+  : 179.27763
+  ? - SMNATU65
+    - NURQ0965
+  : -1
+  ? - CRQU0220
+    - CSNU0220
+  : -1
+  ? - WTELEC40
+    - WT282440
+  : 0.8990526
+  ? - CPFBRX25
+    - PCFBRX20
+  : 0.844
+  ? - DMELEC25
+    - PCADVX25
+  : 1
+  ? - COST
+    - WT282745
+  : -1.5300344
+  ? - DISWUX60
+    - PCSWUX60
+  : -1
+  ? - INTSUM70
+    - WT402470
+  : 1
+  ? - CPFBRX25
+    - DPFBRX25
+  : 5
+  ? - WTNELE45
+    - WT282445
+  : 126.78847
+  ? - INTSUM10
+    - WT373010
+  : 1
+  ? - DISWUX15
+    - DPLWRX15
+  : 0.23
+  ? - INTSUM60
+    - WT343060
+  : 1
+  ? - CRQU0345
+    - CSNU0340
+  : 1
+  ? - SMNATU45
+    - NURQ1045
+  : -1
+  ? - SMNATU60
+    - NURQ0460
+  : -1
+  ? - NCADVX55
+    - DPCOAL55
+  : 0.8
+  ? - COST
+    - WT282415
+  : 6.3750677
+  ? - CPPETG75
+    - PCPETG70
+  : 0.844
+  ? - WTNELE75
+    - WT342475
+  : 258.27267
+  ? - CPSYNF40
+    - PCSYNF40
+  : -1
+  ? - WTELEC30
+    - WT342730
+  : 0.788932
+  ? - WTNELE25
+    - WT402725
+  : 83.6547
+  ? - COST
+    - WT341540
+  : 7.1869965
+  ? - COST
+    - NURQ0260
+  : 1.586805
+  ? - COST
+    - WT252730
+  : 0.03094628
+  ? - CPSYNF75
+    - PCSYNF75
+  : -1
+  ? - COST
+    - WT371860
+  : 0.44668365
+  ? - COST
+    - WT283075
+  : -0.5340327
+  ? - WTELEC55
+    - WT342455
+  : 1.8199232
+  ? - DMELEC30
+    - ELECDM30
+  : -1
+  ? - WTELEC70
+    - ELECDM70
+  : -1
+  ? - COST
+    - NURQ0740
+  : 35.5841
+  ? - COST
+    - NURQ0810
+  : 686.11804
+  ? - WTELEC45
+    - WT312745
+  : 1.1597723
+  ? - INTSUM20
+    - WT252420
+  : 1
+  ? - CPSYNF30
+    - PCSYNF30
+  : -1
+  ? - WTELEC30
+    - WT343030
+  : 0.788932
+  ? - CRQU0760
+    - CSNU0760
+  : -1
+  ? - COST
+    - WT282110
+  : 10.05503
+  ? - CPPETG70
+    - DPPETG70
+  : 5
+  ? - DIBRGN65
+    - PCFBRX60
+  : -1
+  ? - WTELEC25
+    - WT342725
+  : 0.6674779
+  ? - CRQU0275
+    - CSNU0270
+  : 1
+  ? - CRQU0210
+    - CSNU0205
+  : 1
+  ? - SMNATU05
+    - NURQ0705
+  : -1
+  ? - COST
+    - DPADVX75
+  : 5.561655
+  ? - SMPLUT70
+    - PCFBRX65
+  : 0.062
+  ? - SMNATU10
+    - NURQ0510
+  : -1
+  ? - WTNELE70
+    - WT311570
+  : 129.23325
+  ? - COST
+    - WT252410
+  : 8.098914
+  ? - SMCOAL40
+    - CSCOAL35
+  : 0.2
+  ? - CRQU0765
+    - CSNU0760
+  : 1
+  ? - INTSUM65
+    - WT282165
+  : 1
+  ? - WTNELE10
+    - WT372410
+  : 55.28169
+  ? - SMPETG40
+    - CSPETG40
+  : -0.2
+  ? - WTNELE30
+    - WT311830
+  : 76.69657
+  ? - CPCOAL75
+    - PCCOAL75
+  : -1
+  ? - NCFBRX35
+    - DPCOAL35
+  : 0.8
+  ? - SMNATU50
+    - NURQ0950
+  : -1
+  ? - WTNELE75
+    - WT253075
+  : 388.76505
+  ? - CRQU0245
+    - CSNU0245
+  : -1
+  ? - WTELEC70
+    - WT283070
+  : 2.0586312
+  ? - DMNELE25
+    - NELEDM25
+  : -1
+  ? - CRQU0640
+    - CSNU0635
+  : 1
+  ? - DIBRGN20
+    - PCHTRB20
+  : 0.3
+  ? - CPSWUX75
+    - DPSWUX75
+  : 5
+  ? - CRQU1070
+    - NURQ1070
+  : 5
+  ? - CPFBRX15
+    - PCFBRX15
+  : -1
+  ? - SMPLUT05
+    - PCFBRX00
+  : 0.062
+  ? - CRQU0450
+    - CSNU0445
+  : 1
+  ? - WTNELE45
+    - WT402745
+  : 142.5277
+  ? - INTSUM15
+    - WT402415
+  : 1
+  ? - COST
+    - PCLWRX30
+  : 10.61404
+  ? - CPPETG55
+    - PCPETG55
+  : -1
+  ? - COST
+    - WT251565
+  : 4.4171305
+  ? - WTELEC30
+    - WT251830
+  : 0.6340489
+  ? - DISWUX20
+    - PCLWRX15
+  : -0.007
+  ? - WTNELE30
+    - WT281530
+  : 71.24142
+  ? - DMNELE55
+    - PCHTRB55
+  : 22.5
+  ? - COST
+    - WT282460
+  : -0.04383189
+  ? - INTSUM70
+    - WT282170
+  : 1
+  ? - CRQU0575
+    - NURQ0575
+  : 5
+  ? - SMPLUT70
+    - DPFBRX70
+  : -2
+  ? - SMNATU70
+    - NURQ1070
+  : -1
+  ? - WTELEC35
+    - WT251535
+  : 0.7173681
+  ? - DISWUX45
+    - PCSWUX45
+  : -1
+  ? - WTELEC45
+    - WT281845
+  : 1.0321687
+  ? - CPLWRX65
+    - PCLWRX60
+  : 0.844
+  ? - NCCOAL20
+    - DPLWRX20
+  : -0.3
+  ? - WTELEC55
+    - WT402155
+  : 2.4304857
+  ? - INTSUM20
+    - WT402120
+  : 1
+  ? - COST
+    - NURQ0870
+  : 2.2533972
+  ? - INTSUM45
+    - WT403045
+  : 1
+  ? - CPADVX20
+    - PCADVX20
+  : -1
+  ? - COST
+    - WT371875
+  : 0.14778177
+  ? - COST
+    - NURQ0230
+  : 27.6888
+  ? - CRQU0665
+    - NURQ0665
+  : 5
+  ? - INTSUM15
+    - WT402115
+  : 1
+  ? - WTELEC55
+    - WT402455
+  : 2.4304857
+  ? - WTNELE40
+    - WT282740
+  : 124.75186
+  ? - CRQU0640
+    - CSNU0640
+  : -1
+  ? - CRQU1015
+    - CSNU1015
+  : -1
+  ? - WTNELE20
+    - WT253020
+  : 76.4962
+  ? - INTSUM45
+    - WT342445
+  : 1
+  ? - WTNELE60
+    - WT282160
+  : 153.9917
+  ? - COST
+    - PCSYNF65
+  : 0.04105338
+  ? - CRQU0875
+    - NURQ0875
+  : 5
+  ? - INTSUM20
+    - WT342720
+  : 1
+  ? - CPFBRX70
+    - PCFBRX70
+  : -1
+  ? - WTNELE10
+    - WT342410
+  : 55.28169
+  ? - COST
+    - PCLWRX40
+  : 4.0921717
+  ? - WTELEC45
+    - WT372445
+  : 1.462771
+  ? - CPHTRB50
+    - PCHTRB45
+  : 0.844
+  ? - INTSUM65
+    - WT402165
+  : 1
+  ? - SMNATU15
+    - NURQ0115
+  : -1
+  ? - COST
+    - NURQ0510
+  : 468.7956
+  ? - COST
+    - DPLWRX10
+  : 2727.2727
+  ? - COST
+    - WT343060
+  : -1.7120323
+  ? - WTELEC65
+    - WT373065
+  : 3.0251818
+  ? - INTSUM35
+    - WT342135
+  : 1
+  ? - CPLWRX45
+    - PCLWRX40
+  : 0.844
+  ? - WTELEC15
+    - WT372115
+  : 0.49182847
+  ? - INTSUM40
+    - WT342440
+  : 1
+  ? - COST
+    - WT402160
+  : -0.77416486
+  ? - WTELEC70
+    - WT252470
+  : 1.7024617
+  ? - CRQU0975
+    - CSNU0970
+  : 1
+  ? - CPCOAL75
+    - PCCOAL70
+  : 0.844
+  ? - CPFBRX65
+    - PCFBRX60
+  : 0.844
+  ? - WTELEC25
+    - WT281525
+  : 0.59413946
+  ? - INTSUM25
+    - WT342125
+  : 1
+  ? - WTELEC65
+    - WT282165
+  : 1.793135
+  ? - COST
+    - NURQ0405
+  : 615
+  ? - CRQU0505
+    - NURQ0505
+  : 5
+  ? - WTNELE35
+    - WT282435
+  : 100.01847
+  ? - COST
+    - PCSYNF55
+  : 0.10648189
+  ? - CPLWRX30
+    - PCLWRX30
+  : -1
+  ? - CRQU0460
+    - CSNU0460
+  : -1
+  ? - WTNELE65
+    - WT283065
+  : 289.2777
+  ? - COST
+    - WT313055
+  : -2.0579302
+  ? - INTSUM25
+    - WT251525
+  : 1
+  ? - WTELEC15
+    - WT372715
+  : 0.49182847
+  ? - CPADVX55
+    - DPADVX55
+  : 5
+  ? - SMNATU35
+    - PCHTRB30
+  : -0.007
+  ? - WTNELE25
+    - WT252125
+  : 74.40401
+  ? - INTSUM75
+    - WT281875
+  : 1
+  ? - WTNELE50
+    - WT371550
+  : 95.95186
+  ? - COST
+    - NURQ0400
+  : 990.4636
+  ? - SMPETG55
+    - CSPETG55
+  : -0.2
+  ? - CRQU0805
+    - NURQ0805
+  : 5
+  ? - SMNATU20
+    - NURQ0320
+  : -1
+  ? - WTELEC25
+    - WT371825
+  : 0.7072961
+  ? - WTELEC60
+    - WT402460
+  : 2.9570575
+  ? - SMNATU75
+    - DPHTRB75
+  : 0.216
+  ? - COST
+    - WT312760
+  : -1.0760671
+  ? - WTELEC45
+    - WT282145
+  : 1.0321687
+  ? - COST
+    - NURQ0735
+  : 57.30855
+  ? - COST
+    - PCADVX75
+  : 0.0742451
+  ? - WTNELE20
+    - WT251820
+  : 64.16499
+  ? - WTNELE55
+    - WT372155
+  : 138.79333
+  ? - CPLWRX45
+    - PCLWRX45
+  : -1
+  ? - DMNELE60
+    - PCPETG60
+  : 1
+  ? - COST
+    - WT372175
+  : -0.21016483
+  ? - WTELEC35
+    - WT281535
+  : 0.7831042
+  ? - INTSUM75
+    - WT251575
+  : 1
+  ? - WTNELE45
+    - WT251845
+  : 100.22882
+  ? - CRQU1005
+    - NURQ1005
+  : 5
+  ? - COST
+    - WT251830
+  : 14.48872
+  ? - CRQU0560
+    - CSNU0560
+  : -1
+  ? - DMNELE30
+    - PCHTRB30
+  : 22.5
+  ? - NCFBRX30
+    - DPFBRX30
+  : -0.6
+  ? - INTSUM45
+    - WT372445
+  : 1
+  ? - WTNELE60
+    - WT372760
+  : 212.54745
+  ? - WTNELE40
+    - WT281840
+  : 91.67559
+  ? - COST
+    - WT251840
+  : 9.213874
+  ? - CPELHY30
+    - PCELHY25
+  : 0.844
+  ? - CRQU0650
+    - CSNU0650
+  : -1
+  ? - WTELEC50
+    - WT282150
+  : 1.1849943
+  ? - INTSUM45
+    - WT313045
+  : 1
+  ? - SMCOAL55
+    - PCSYNF55
+  : 0.00133
+  ? - COST
+    - WT342770
+  : -0.72824407
+  ? - WTNELE65
+    - WT312765
+  : 242.83324
+  ? - DISWUX25
+    - PCHTRB20
+  : -0.005
+  ? - WTELEC25
+    - WT373025
+  : 0.7072961
+  ? - CRQU0915
+    - CSNU0910
+  : 1
+  ? - WTNELE10
+    - NELEDM10
+  : -1
+  ? - SMNATU50
+    - NURQ0150
+  : -1
+  ? - WTNELE25
+    - WT402125
+  : 74.40401
+  ? - WTELEC35
+    - WT311835
+  : 0.8546456
+  ? - WTELEC45
+    - WT341845
+  : 1.3027097
+  ? - CPSYNF00
+    - PCSYNF00
+  : -1
+  ? - WTELEC45
+    - WT342145
+  : 1.3027097
+  ? - CPELHY60
+    - PCELHY60
+  : -1
+  ? - CPPETG50
+    - DPPETG50
+  : 5
+  ? - SMNATU45
+    - NURQ0845
+  : -1
+  ? - COST
+    - WT342450
+  : -1.2539979
+  ? - CPHTRB60
+    - PCHTRB60
+  : -1
+  ? - COST
+    - WT281870
+  : 1.3757808
+  ? - WTELEC70
+    - WT401870
+  : 4.377167
+  ? - WTELEC50
+    - WT372750
+  : 1.7541637
+  ? - CPPETG05
+    - DPPETG05
+  : 5
+  ? - WTELEC45
+    - WT251845
+  : 0.9182918
+  ? - WTNELE25
+    - WT372125
+  : 74.40401
+  ? - CRQU0840
+    - CSNU0840
+  : -1
+  ? - WTNELE35
+    - WT401835
+  : 83.85227
+  ? - COST
+    - WT252775
+  : -0.21405983
+  ? - WTELEC75
+    - WT311575
+  : 2.898229
+  ? - COST
+    - WT252715
+  : 3.7823186
+  ? - CPCOAL05
+    - PCCOAL05
+  : -1
+  ? - CRQU1000
+    - NURQ1000
+  : 5
+  ? - COST
+    - WT252115
+  : 14.63047
+  ? - WTELEC15
+    - WT253015
+  : 0.4377889
+  ? - COST
+    - NURQ0860
+  : 5.844732
+  ? - WTELEC10
+    - WT252410
+  : 0.3869416
+  ? - INTSUM20
+    - WT372420
+  : 1
+  ? - INTSUM50
+    - WT342150
+  : 1
+  ? - SMPETG30
+    - CSPETG25
+  : 0.2
+  ? - CPHTRB10
+    - PCHTRB10
+  : -1
+  ? - SMNATU10
+    - NURQ0210
+  : -1
+  ? - COST
+    - PCHTRB55
+  : 0.5962986
+  ? - INTSUM10
+    - WT312110
+  : 1
+  ? - SMPLUT10
+    - PCFBRX05
+  : 0.062
+  ? - WTELEC10
+    - WT401810
+  : 0.4160953
+  ? - INTSUM70
+    - WT402170
+  : 1
+  ? - WTELEC60
+    - WT311560
+  : 1.8333808
+  ? - WTNELE75
+    - WT282475
+  : 258.27267
+  ? - CPLWRX05
+    - PCLWRX05
+  : -1
+  ? - DISWUX05
+    - DPLWRX05
+  : 0.23
+  ? - SMNATU15
+    - NURQ0815
+  : -1
+  ? - WTNELE50
+    - WT312450
+  : 142.75113
+  ? - CPSYNF65
+    - DPSYNF65
+  : 5
+  ? - COST
+    - DPELHY30
+  : 40.53917
+  ? - CPSYNF05
+    - PCSYNF00
+  : 0.844
+  ? - INTSUM70
+    - WT251870
+  : 1
+  ? - COST
+    - WT343065
+  : -1.2555299
+  ? - SMNATU55
+    - NURQ0255
+  : -1
+  ? - CRQU0405
+    - CSNU0405
+  : -1
+  ? - CPPETG25
+    - DPPETG25
+  : 5
+  ? - DISWUX05
+    - PCHTRB00
+  : -0.005
+  ? - COST
+    - PCPETG70
+  : 0.01529455
+  ? - COST
+    - DPFBRX60
+  : 25.16845
+  ? - INTSUM70
+    - WT372770
+  : 1
+  ? - INTSUM50
+    - WT403050
+  : 1
+  ? - COST
+    - WT252465
+  : 0.29113558
+  ? - WTELEC45
+    - WT253045
+  : 0.9182918
+  ? - WTELEC75
+    - WT312475
+  : 2.898229
+  ? - WTELEC55
+    - WT283055
+  : 1.3604476
+  ? - SMPLUT00
+    - CSPLUT00
+  : -0.2
+  ? - COST
+    - WT282410
+  : 6.1862497
+  ? - INTSUM45
+    - WT343045
+  : 1
+  ? - SMNATU70
+    - NURQ0270
+  : -1
+  ? - SMPLUT75
+    - PCLWRX70
+  : 0.17
+  ? - COST
+    - WT251875
+  : 1.4820396
+  ? - CRQU0645
+    - CSNU0640
+  : 1
+  ? - SMNATU20
+    - NURQ0420
+  : -1
+  ? - WTNELE15
+    - WT312415
+  : 62.24164
+  ? - CPLWRX75
+    - DPLWRX75
+  : 5
+  ? - WTNELE40
+    - WT311840
+  : 91.67559
+  ? - WTNELE65
+    - WT282165
+  : 170.85434
+  ? - CRQU0835
+    - NURQ0835
+  : 5
+  ? - WTNELE65
+    - WT343065
+  : 289.2777
+  ? - DMNELE25
+    - PCELHY25
+  : 36
+  ? - CPPETG35
+    - DPPETG35
+  : 5
+  ? - WTNELE25
+    - WT371525
+  : 66.13058
+  ? - SMCOAL55
+    - CSCOAL50
+  : 0.2
+  ? - CRQU0540
+    - CSNU0535
+  : 1
+  ? - CPCOAL70
+    - PCCOAL65
+  : 0.844
+  ? - CPELHY35
+    - PCELHY35
+  : -1
+  ? - CRQU0105
+    - NURQ0105
+  : 5
+  ? - INTSUM30
+    - WT312130
+  : 1
+  ? - CPCOAL25
+    - PCCOAL25
+  : -1
+  ? - INTSUM30
+    - WT342130
+  : 1
+  ? - CRQU0955
+    - NURQ0955
+  : 5
+  ? - INTSUM55
+    - WT371855
+  : 1
+  ? - DISWUX75
+    - PCSWUX75
+  : -1
+  ? - WTELEC65
+    - WT312165
+  : 2.1357284
+  ? - DMELEC70
+    - PCELHY70
+  : -1
+  ? - WTNELE30
+    - WT342430
+  : 88.83424
+  ? - CPCOAL20
+    - PCCOAL15
+  : 0.844
+  ? - COST
+    - NURQ0150
+  : 2.0578818
+  ? - INTSUM10
+    - WT372110
+  : 1
+  ? - CRQU0220
+    - NURQ0220
+  : 5
+  ? - COST
+    - WT342720
+  : -4.983901
+  ? - COST
+    - WT341535
+  : 9.252294
+  ? - COST
+    - WT401815
+  : 6.507841
+  ? - SMNATU55
+    - NURQ0855
+  : -1
+  ? - SMNATU35
+    - PCLWRX35
+  : 0.16
+  ? - SMPETG50
+    - CSPETG50
+  : -0.2
+  ? - COST
+    - PCFBRX05
+  : 115
+  ? - INTSUM60
+    - WT312160
+  : 1
+  ? - INTSUM75
+    - WT251875
+  : 1
+  ? - INTSUM55
+    - WT283055
+  : 1
+  ? - WTELEC70
+    - WT372470
+  : 3.6278162
+  ? - SMPLUT35
+    - PCFBPL35
+  : 0.16
+  ? - SMNATU05
+    - NURQ0105
+  : -1
+  ? - CRQU0360
+    - NURQ0360
+  : 5
+  ? - CPCOAL05
+    - DPCOAL05
+  : 5
+  ? - SMNATU10
+    - NURQ0610
+  : -1
+  ? - COST
+    - WT343040
+  : -5.2641687
+  ? - CPCOAL60
+    - PCCOAL60
+  : -1
+  ? - CPSWUX60
+    - PCSWUX60
+  : -1
+  ? - SMNATU10
+    - NURQ0410
+  : -1
+  ? - SMCOAL15
+    - PCCOAL15
+  : 0.0657
+  ? - CPCOAL00
+    - PCCOAL00
+  : -1
+  ? - WTNELE30
+    - WT311530
+  : 71.24142
+  ? - DMNELE35
+    - NELEDM35
+  : -1
+  ? - CRQU0200
+    - CSNU0200
+  : -1
+  ? - INTSUM75
+    - WT403075
+  : 1
+  ? - WTELEC65
+    - WT281865
+  : 1.793135
+  ? - WTNELE70
+    - WT401870
+  : 156.56226
+  ? - DIBRGN70
+    - PCFBPL70
+  : 1
+  ? - WTELEC25
+    - WT372725
+  : 0.7072961
+  ? - CRQU0655
+    - CSNU0650
+  : 1
+  ? - WTELEC35
+    - WT282435
+  : 0.7831042
+  ? - COST
+    - PCFBRX00
+  : 185.20865
+  ? - WTNELE55
+    - WT252755
+  : 186.03886
+  ? - COST
+    - WT251525
+  : 24.47698
+  ? - COST
+    - WT372160
+  : -0.43521088
+  ? - SMPLUT45
+    - CSPLUT45
+  : -0.2
+  ? - INTSUM70
+    - WT281870
+  : 1
+  ? - DMNELE00
+    - PCELHY00
+  : 36
+  ? - SMNATU55
+    - NURQ0755
+  : -1
+  ? - CPSWUX15
+    - DPSWUX15
+  : 5
+  ? - WTNELE35
+    - WT371835
+  : 83.85227
+  ? - SMNATU20
+    - NURQ0620
+  : -1
+  ? - CRQU0575
+    - CSNU0570
+  : 1
+  ? - SMPETG50
+    - CSPETG45
+  : 0.2
+  ? - COST
+    - PCPETG10
+  : 4.65691
+  ? - COST
+    - WT401820
+  : 5.0072303
+  ? - INTSUM60
+    - WT403060
+  : 1
+  ? - DMNELE35
+    - PCPETG35
+  : 1
+  ? - DMELEC40
+    - PCCOAL40
+  : 1
+  ? - COST
+    - WT342765
+  : -0.98613995
+  ? - CPLWRX70
+    - DPLWRX70
+  : 5
+  ? - WTNELE70
+    - WT372170
+  : 189.5635
+  ? - WTELEC60
+    - WT342160
+  : 2.1510758
+  ? - WTELEC10
+    - WT343010
+  : 0.40423024
+  ? - DIBRGN50
+    - PCHTRB50
+  : 0.3
+  ? - COST
+    - NURQ0960
+  : 6.3207736
+  ? - WTELEC75
+    - WT251575
+  : 1.9261792
+  ? - INTSUM40
+    - WT312740
+  : 1
+  ? - CPLWRX15
+    - PCLWRX15
+  : -1
+  ? - SMPLUT30
+    - PCFBRX25
+  : 0.062
+  ? - SMNATU25
+    - PCLWRX20
+  : -0.016
+  ? - WTNELE40
+    - WT373040
+  : 138.16064
+  ? - CPSWUX05
+    - PCSWUX05
+  : -1
+  ? - WTNELE35
+    - WT401535
+  : 76.74724
+  ? - CRQU0265
+    - NURQ0265
+  : 5
+  ? - COST
+    - WT251530
+  : 20.94583
+  ? - INTSUM30
+    - WT311530
+  : 1
+  ? - COST
+    - WT342140
+  : 0.6294868
+  ? - WTELEC10
+    - WT402410
+  : 0.4160953
+  ? - DMNELE75
+    - PCELHY75
+  : 36
+  ? - WTELEC75
+    - WT371575
+  : 4.3504987
+  ? - DMELEC15
+    - PCFBRX15
+  : 1
+  ? - CPADVX15
+    - PCADVX10
+  : 0.844
+  ? - WTELEC70
+    - WT403070
+  : 4.377167
+  ? - CRQU0355
+    - CSNU0350
+  : 1
+  ? - CRQU0555
+    - CSNU0550
+  : 1
+  ? - DIBRGN60
+    - PCFBPL60
+  : 1
+  ? - CRQU0305
+    - CSNU0305
+  : -1
+  ? - WTNELE50
+    - NELEDM50
+  : -1
+  ? - WTELEC30
+    - WT282130
+  : 0.6821093
+  ? - WTNELE65
+    - WT401565
+  : 119.96209
+  ? - CRQU0720
+    - CSNU0720
+  : -1
+  ? - COST
+    - PCHTRB20
+  : 16.75744
+  ? - CPELHY60
+    - DPELHY60
+  : 5
+  ? - WTELEC65
+    - WT251865
+  : 1.5047281
+  ? - CPHTRB35
+    - DPHTRB35
+  : 5
+  ? - CRQU0950
+    - CSNU0950
+  : -1
+  ? - COST
+    - WT371865
+  : 0.3061495
+  ? - COST
+    - WT342420
+  : -0.25873026
+  ? - CPHTRB40
+    - PCHTRB40
+  : -1
+  ? - COST
+    - WT401850
+  : 0.13528906
+  ? - COST
+    - PCFBRX30
+  : 10.61404
+  ? - WTNELE10
+    - WT341510
+  : 52.89464
+  ? - DISWUX35
+    - PCHTRB30
+  : -0.005
+  ? - INTSUM55
+    - WT342755
+  : 1
+  ? - SMNATU60
+    - NURQ0560
+  : -1
+  ? - COST
+    - WT251575
+  : 2.7070436
+  ? - SMPLUT55
+    - CSPLUT55
+  : -0.2
+  ? - WTNELE65
+    - WT282465
+  : 203.74121
+  ? - CRQU0615
+    - NURQ0615
+  : 5
+  ? - SMPLUT30
+    - PCFBPL30
+  : 0.16
+  ? - CRQU0815
+    - CSNU0810
+  : 1
+  ? - CPADVX05
+    - PCADVX05
+  : -1
+  ? - WTELEC15
+    - WT312715
+  : 0.46410128
+  ? - WTELEC10
+    - WT312710
+  : 0.3984001
+  ? - COST
+    - DPELHY75
+  : 0.5561655
+  ? - NCADVX45
+    - DPLWRX45
+  : 0.2
+  ? - COST
+    - NURQ0635
+  : 50.71807
+  ? - SMCOAL65
+    - CSCOAL60
+  : 0.2
+  ? - INTSUM35
+    - WT281835
+  : 1
+  ? - DMELEC20
+    - ELECDM20
+  : -1
+  ? - COST
+    - NURQ0265
+  : 0.98528105
+  ? - CPADVX40
+    - PCADVX40
+  : -1
+  ? - INTSUM75
+    - WT281575
+  : 1
+  ? - WTNELE25
+    - WT281525
+  : 66.13058
+  ? - CPSWUX35
+    - PCSWUX35
+  : -1
+  ? - WTELEC35
+    - WT373035
+  : 1.0171589
+  ? - SMCOAL25
+    - CSCOAL20
+  : 0.2
+  ? - COST
+    - WT403035
+  : -8.391609
+  ? - SMNATU45
+    - NURQ0545
+  : -1
+  ? - SMPETG30
+    - PCPETG30
+  : 0.001
+  ? - WTNELE45
+    - WT252445
+  : 126.78847
+  ? - INTSUM50
+    - WT373050
+  : 1
+  ? - NCCOAL25
+    - DPELHY25
+  : 0.3
+  ? - DIBRGN45
+    - PCFBPL45
+  : 1
+  ? - DMNELE65
+    - PCHTRB65
+  : 22.5
+  ? - CPELHY05
+    - PCELHY00
+  : 0.844
+  ? - WTNELE50
+    - WT401850
+  : 109.58005
+  ? - WTNELE20
+    - WT402720
+  : 73.22142
+  ? - WTELEC25
+    - WT371525
+  : 0.7072961
+  ? - WTNELE10
+    - WT371510
+  : 52.89464
+  ? - WTNELE60
+    - WT312760
+  : 212.54745
+  ? - COST
+    - NURQ0120
+  : 35.90881
+  ? - COST
+    - WT372435
+  : -3.2134933
+  ? - COST
+    - WT282140
+  : 3.5302556
+  ? - CRQU0455
+    - NURQ0455
+  : 5
+  ? - CPCOAL50
+    - PCCOAL50
+  : -1
+  ? - COST
+    - WT252755
+  : -0.540858
+  ? - COST
+    - WT253065
+  : -0.8122287
+  ? - WTNELE35
+    - WT312735
+  : 109.193
+  ? - DMNELE35
+    - PCSYNF35
+  : 1
+  ? - COST
+    - DPCOAL15
+  : 1270.0663
+  ? - COST
+    - WT312430
+  : 0.04024204
+  ? - COST
+    - NURQ0305
+  : 465
+  ? - WTNELE70
+    - WT252770
+  : 277.43442
+  ? - COST
+    - NURQ0950
+  : 16.39446
+  ? - CRQU0655
+    - CSNU0655
+  : -1
+  ? - WTNELE10
+    - WT371810
+  : 53.68097
+  ? - DMELEC45
+    - ELECDM45
+  : -1
+  ? - WTNELE55
+    - WT402755
+  : 186.03886
+  ? - COST
+    - WT281575
+  : 2.0374274
+  ? - WTNELE40
+    - WT402140
+  : 101.62077
+  ? - CRQU0605
+    - NURQ0605
+  : 5
+  ? - CRQU0550
+    - CSNU0545
+  : 1
+  ? - COST
+    - WT312145
+  : 1.3616631
+  ? - COST
+    - WT311855
+  : 2.2081714
+  ? - CPHTRB65
+    - DPHTRB65
+  : 5
+  ? - SMPETG60
+    - CSPETG55
+  : 0.2
+  ? - CRQU0905
+    - NURQ0905
+  : 5
+  ? - CRQU0635
+    - NURQ0635
+  : 5
+  ? - WTELEC65
+    - WT402165
+  : 3.5977125
+  ? - WTELEC25
+    - WT401825
+  : 0.74936414
+  ? - CRQU0805
+    - CSNU0805
+  : -1
+  ? - CPPETG55
+    - PCPETG50
+  : 0.844
+  ? - SMPLUT40
+    - PCLWRX35
+  : 0.17
+  ? - INTSUM60
+    - WT313060
+  : 1
+  ? - INTSUM70
+    - WT311570
+  : 1
+  ? - COST
+    - WT313010
+  : -2.9602757
+  ? - CRQU0340
+    - CSNU0335
+  : 1
+  ? - WTNELE75
+    - WT402475
+  : 258.27267
+  ? - CPADVX45
+    - PCADVX45
+  : -1
+  ? - COST
+    - WT341810
+  : 10.09895
+  ? - COST
+    - NURQ0760
+  : 5.28935
+  ? - WTNELE60
+    - WT311860
+  : 130.9813
+  ? - SMCOAL50
+    - CSCOAL50
+  : -0.2
+  ? - COST
+    - WT343015
+  : -8.052084
+  ? - WTNELE15
+    - WT311815
+  : 58.68935
+  ? - WTNELE25
+    - WT252725
+  : 83.6547
+  ? - COST
+    - PCFBRX40
+  : 4.0921717
+  ? - SMPLUT40
+    - PCFBPL40
+  : 0.16
+  ? - INTSUM15
+    - WT341815
+  : 1
+  ? - COST
+    - WT402425
+  : -5.347003
+  ? - WTELEC40
+    - WT282140
+  : 0.8990526
+  ? - COST
+    - WT372460
+  : -1.0716541
+  ? - COST
+    - WT372730
+  : -6.571365
+  ? - DIBRGN30
+    - PCFBPL30
+  : 1
+  ? - INTSUM30
+    - WT373030
+  : 1
+  ? - SMPLUT55
+    - CSPLUT50
+  : 0.2
+  ? - SMPLUT00
+    - PCFBPL00
+  : 0.16
+  ? - COST
+    - WT312130
+  : 4.1736746
+  ? - CRQU0945
+    - CSNU0945
+  : -1
+  ? - COST
+    - DPCOAL55
+  : 28.06202
+  ? - WTELEC50
+    - ELECDM50
+  : -1
+  ? - DMNELE60
+    - PCSYNF60
+  : 1
+  ? - WTELEC75
+    - WT341875
+  : 3.5519252
+  ? - COST
+    - DPADVX65
+  : 14.4255
+  ? - SMNATU55
+    - NURQ0955
+  : -1
+  ? - COST
+    - WT342125
+  : 3.3175976
+  ? - INTSUM50
+    - WT283050
+  : 1
+  ? - INTSUM15
+    - WT371515
+  : 1
+  ? - WTELEC70
+    - WT253070
+  : 1.7024617
+  ? - WTELEC20
+    - WT372120
+  : 0.58980364
+  ? - COST
+    - PCADVX40
+  : 2.3307588
+  ? - WTELEC45
+    - ELECDM45
+  : -1
+  ? - COST
+    - WT311810
+  : 12.05767
+  ? - CPSYNF60
+    - PCSYNF60
+  : -1
+  ? - WTELEC25
+    - WT403025
+  : 0.74936414
+  ? - WTELEC55
+    - WT252755
+  : 1.1754912
+  ? - INTSUM10
+    - WT312710
+  : 1
+  ? - CPADVX65
+    - DPADVX65
+  : 5
+  ? - WTNELE75
+    - WT372175
+  : 210.3214
+  ? - COST
+    - PCADVX30
+  : 6.0453877
+  ? - COST
+    - WT343050
+  : -3.0982823
+  ? - COST
+    - NURQ0640
+  : 31.49193
+  ? - WTELEC40
+    - WT252140
+  : 0.81163615
+  ? - DISWUX50
+    - PCLWRX45
+  : -0.007
+  ? - COST
+    - PCCOAL65
+  : 1.2940025
+  ? - COST
+    - WT372135
+  : -0.39918596
+  ? - DMELEC70
+    - PCADVX70
+  : 1
+  ? - INTSUM35
+    - WT312135
+  : 1
+  ? - WTNELE65
+    - WT313065
+  : 289.2777
+  ? - DISWUX35
+    - PCLWRX35
+  : 0.11
+  ? - WTELEC30
+    - WT253030
+  : 0.6340489
+  ? - WTELEC65
+    - WT252465
+  : 1.5047281
+  ? - COST
+    - WT252140
+  : 5.225618
+  ? - COST
+    - WT312440
+  : -0.6351416
+  ? - WTNELE40
+    - WT251840
+  : 91.67559
+  ? - COST
+    - WT282125
+  : 8.46182
+  ? - WTNELE40
+    - WT312440
+  : 112.61078
+  ? - SMNATU70
+    - PCLWRX70
+  : 0.16
+  ? - WTNELE60
+    - WT282760
+  : 212.54745
+  ? - CRQU0160
+    - CSNU0160
+  : -1
+  ? - COST
+    - DPLWRX60
+  : 23.23241
+  ? - SMPLUT35
+    - PCLWRX30
+  : 0.17
+  ? - COST
+    - WT403065
+  : -1.4440601
+  ? - SMPLUT05
+    - CSPLUT00
+  : 0.2
+  ? - WTELEC75
+    - WT282175
+  : 2.3634377
+  ? - WTELEC30
+    - WT371530
+  : 0.84819365
+  ? - DISWUX60
+    - PCLWRX55
+  : -0.007
+  ? - WTELEC65
+    - WT371565
+  : 3.0251818
+  ? - WTNELE70
+    - WT342170
+  : 189.5635
+  ? - WTNELE20
+    - WT252420
+  : 70.07786
+  ? - COST
+    - WT313070
+  : -0.8299949
+  ? - CPSWUX45
+    - DPSWUX45
+  : 5
+  ? - COST
+    - WT312135
+  : 2.9161735
+  ? - CPPETG20
+    - DPPETG20
+  : 5
+  ? - CPLWRX40
+    - DPLWRX40
+  : 5
+  ? - CRQU0220
+    - CSNU0215
+  : 1
+  ? - DMELEC60
+    - PCFBRX60
+  : 1
+  ? - WTNELE25
+    - WT342725
+  : 83.6547
+  ? - DMNELE50
+    - NELEDM50
+  : -1
+  ? - SMNATU10
+    - NURQ0910
+  : -1
+  ? - WTELEC60
+    - WT402160
+  : 2.9570575
+  ? - INTSUM20
+    - WT372120
+  : 1
+  ? - COST
+    - PCPETG55
+  : 0.06388913
+  ? - WTNELE30
+    - WT283030
+  : 102.8045
+  ? - COST
+    - PCHTRB60
+  : 0.37025452
+  ? - WTELEC10
+    - WT282410
+  : 0.3926374
+  ? - INTSUM70
+    - WT283070
+  : 1
+  ? - CRQU0705
+    - CSNU0705
+  : -1
+  ? - WTELEC75
+    - WT403075
+  : 5.3254933
+  ? - DMELEC25
+    - PCCOAL25
+  : 1
+  ? - WTNELE35
+    - WT373035
+  : 119.17859
+  ? - CPCOAL50
+    - PCCOAL45
+  : 0.844
+  ? - COST
+    - WT282730
+  : -1.8115946
+  ? - COST
+    - NURQ0770
+  : 2.0392735
+  ? - SMPLUT75
+    - CSPLUT75
+  : -0.2
+  ? - COST
+    - WT342725
+  : -5.389804
+  ? - DIBRGN35
+    - PCFBRX30
+  : -1
+  ? - CRQU1040
+    - CSNU1040
+  : -1
+  ? - COST
+    - WT371840
+  : 2.0450857
+  ? - SMPLUT65
+    - CSPLUT65
+  : -0.2
+  ? - WTNELE45
+    - WT311845
+  : 100.22882
+  ? - INTSUM20
+    - WT401820
+  : 1
+  ? - SMCOAL65
+    - PCCOAL65
+  : 0.0657
+  ? - CRQU0150
+    - NURQ0150
+  : 5
+  ? - WTELEC50
+    - WT401850
+  : 1.9976821
+  ? - INTSUM25
+    - WT281825
+  : 1
+  ? - COST
+    - WT282145
+  : 2.5659306
+  ? - CPADVX65
+    - PCADVX65
+  : -1
+  ? - INTSUM70
+    - WT311870
+  : 1
+  ? - SMNATU30
+    - DPLWRX30
+  : 0.5
+  ? - COST
+    - WT402170
+  : -0.45199138
+  ? - WTELEC70
+    - WT311870
+  : 2.4879367
+  ? - DISWUX10
+    - DPLWRX10
+  : 0.23
+  ? - SMNATU60
+    - NURQ0260
+  : -1
+  ? - WTELEC25
+    - WT343025
+  : 0.6674779
+  ? - COST
+    - WT253070
+  : -0.60607225
+  ? - WTELEC40
+    - WT311840
+  : 0.9955874
+  ? - WTNELE30
+    - WT341830
+  : 76.69657
+  ? - SMNATU50
+    - NURQ0750
+  : -1
+  ? - SMNATU50
+    - NURQ0450
+  : -1
+  ? - CRQU0560
+    - NURQ0560
+  : 5
+  ? - CRQU0470
+    - NURQ0470
+  : 5
+  ? - INTSUM40
+    - WT402740
+  : 1
+  ? - INTSUM50
+    - WT281550
+  : 1
+  ? - COST
+    - WT282450
+  : 0.0962163
+  ? - DMELEC55
+    - PCADVX55
+  : 1
+  ? - SMPETG05
+    - CSPETG00
+  : 0.2
+  ? - COST
+    - NURQ0440
+  : 21.88422
+  ? - SMPLUT55
+    - PCFBPL55
+  : 0.16
+  ? - WTELEC40
+    - WT371540
+  : 1.2197831
+  ? - INTSUM25
+    - WT372125
+  : 1
+  ? - INTSUM60
+    - WT311560
+  : 1
+  ? - WTNELE50
+    - WT281550
+  : 95.95186
+  ? - WTNELE60
+    - WT373060
+  : 249.5335
+  ? - SMNATU15
+    - PCLWRX10
+  : -0.016
+  ? - DISWUX10
+    - PCSWUX10
+  : -1
+  ? - WTELEC35
+    - WT343035
+  : 0.9324859
+  ? - WTNELE30
+    - WT281830
+  : 76.69657
+  ? - COST
+    - WT312765
+  : -0.8124144
+  ? - CRQU0270
+    - CSNU0270
+  : -1
+  ? - SMNATU20
+    - NURQ0120
+  : -1
+  ? - COST
+    - NURQ0965
+  : 3.924703
+  ? - CRQU0725
+    - CSNU0720
+  : 1
+  ? - COST
+    - NURQ0745
+  : 22.09493
+  ? - DIBRGN35
+    - PCHTRB35
+  : 0.3
+  ? - COST
+    - WT341520
+  : 16.79364
+  ? - INTSUM75
+    - WT401575
+  : 1
+  ? - WTELEC60
+    - WT312760
+  : 1.8333808
+  ? - CRQU1035
+    - CSNU1030
+  : 1
+  ? - CRQU0510
+    - NURQ0510
+  : 5
+  ? - CRQU0920
+    - NURQ0920
+  : 5
+  ? - CRQU0130
+    - CSNU0130
+  : -1
+  ? - NCCOAL25
+    - DPFBRX25
+  : -0.3
+  ? - COST
+    - WT281550
+  : 7.2069297
+  ? - INTSUM50
+    - WT311850
+  : 1
+  ? - INTSUM55
+    - WT251555
+  : 1
+  ? - SMNATU75
+    - NURQ0975
+  : -1
+  ? - DMNELE00
+    - PCSYNF00
+  : 1
+  ? - WTELEC30
+    - WT372130
+  : 0.84819365
+  ? - SMPLUT55
+    - PCFBRX50
+  : 0.062
+  ? - COST
+    - WT401835
+  : 1.240738
+  ? - SMNATU60
+    - NURQ0660
+  : -1
+  ? - SMCOAL10
+    - PCSYNF10
+  : 0.00133
+  ? - COST
+    - WT402735
+  : -6.5855684
+  ? - CPSWUX65
+    - PCSWUX60
+  : 0.844
+  ? - INTSUM75
+    - WT311575
+  : 1
+  ? - CPLWRX50
+    - PCLWRX50
+  : -1
+  ? - WTNELE70
+    - WT341570
+  : 129.23325
+  ? - CPELHY65
+    - PCELHY60
+  : 0.844
+  ? - WTNELE20
+    - WT343020
+  : 76.4962
+  ? - DIBRGN35
+    - PCFBPL35
+  : 1
+  ? - INTSUM20
+    - WT403020
+  : 1
+  ? - SMCOAL65
+    - CSCOAL65
+  : -0.2
+  ? - WTNELE70
+    - WT253070
+  : 335.35214
+  ? - COST
+    - WT342470
+  : -0.45658284
+  ? - SMNATU05
+    - PCLWRX00
+  : -0.016
+  ? - WTNELE20
+    - NELEDM20
+  : -1
+  ? - COST
+    - WT371510
+  : 12.12552
+  ? - COST
+    - PCPETG00
+  : 12.07882
+  ? - COST
+    - WT251855
+  : 4.3026886
+  ? - WTELEC70
+    - WT252770
+  : 1.7024617
+  ? - WTELEC30
+    - WT313030
+  : 0.73365647
+  ? - SMNATU35
+    - NURQ0635
+  : -1
+  ? - WTNELE25
+    - WT311525
+  : 66.13058
+  ? - CPSWUX30
+    - PCSWUX30
+  : -1
+  ? - WTNELE55
+    - WT341555
+  : 103.3674
+  ? - COST
+    - WT282135
+  : 4.811869
+  ? - COST
+    - WT311830
+  : 8.975361
+  ? - WTELEC40
+    - WT253040
+  : 0.81163615
+  ? - WTNELE45
+    - WT342745
+  : 142.5277
+  ? - COST
+    - NURQ0435
+  : 35.24476
+  ? - SMNATU40
+    - NURQ0140
+  : -1
+  ? - WTELEC45
+    - WT312145
+  : 1.1597723
+  ? - INTSUM75
+    - WT372475
+  : 1
+  ? - WTNELE40
+    - WT402740
+  : 124.75186
+  ? - COST
+    - WT402770
+  : -0.9122705
+  ? - COST
+    - NURQ0565
+  : 2.479624
+  ? - COST
+    - PCLWRX20
+  : 27.53009
+  ? - COST
+    - WT342110
+  : 6.2176757
+  ? - CPELHY70
+    - PCELHY70
+  : -1
+  ? - COST
+    - WT343035
+  : -6.60169
+  ? - CRQU0400
+    - CSNU0400
+  : -1
+  ? - WTELEC15
+    - WT402415
+  : 0.5062435
+  ? - CRQU0500
+    - CSNU0500
+  : -1
+  ? - CPPETG40
+    - PCPETG40
+  : -1
+  ? - COST
+    - WT312435
+  : -0.43328238
+  ? - CPADVX25
+    - PCADVX20
+  : 0.844
+  ? - COST
+    - WT281555
+  : 5.6323357
+  ? - INTSUM55
+    - WT281555
+  : 1
+  ? - WTNELE10
+    - WT372710
+  : 56.09623
+  ? - CRQU1010
+    - CSNU1005
+  : 1
+  ? - COST
+    - NURQ0170
+  : 0.305891
+  ? - INTSUM45
+    - WT312145
+  : 1
+  ? - CRQU0650
+    - NURQ0650
+  : 5
+  ? - COST
+    - PCCOAL05
+  : 394
+  ? - CRQU0100
+    - CSNU0100
+  : -1
+  ? - WTELEC25
+    - WT342125
+  : 0.6674779
+  ? - COST
+    - NURQ0705
+  : 1000
+  ? - WTNELE75
+    - WT312775
+  : 316.9659
+  ? - COST
+    - WT342115
+  : 6.418533
+  ? - INTSUM60
+    - WT342460
+  : 1
+  ? - WTELEC10
+    - WT372710
+  : 0.41012844
+  ? - SMPETG25
+    - CSPETG25
+  : -0.2
+  ? - CPHTRB60
+    - DPHTRB60
+  : 5
+  ? - WTELEC55
+    - WT313055
+  : 1.5738356
+  ? - COST
+    - DPHTRB60
+  : 10.22226
+  ? - COST
+    - WT372170
+  : -0.27366233
+  ? - CPCOAL60
+    - PCCOAL55
+  : 0.844
+  ? - WTELEC15
+    - WT251515
+  : 0.4377889
+  ? - CRQU0545
+    - NURQ0545
+  : 5
+  ? - WTNELE15
+    - WT252115
+  : 60.44201
+  ? - WTELEC75
+    - WT252175
+  : 1.9261792
+  ? - SMNATU45
+    - NURQ0445
+  : -1
+  ? - INTSUM65
+    - WT372165
+  : 1
+  ? - WTNELE75
+    - WT252775
+  : 316.9659
+  ? - SMNATU00
+    - NURQ0200
+  : -1
+  ? - INTSUM30
+    - WT251830
+  : 1
+  ? - CRQU1030
+    - CSNU1030
+  : -1
+  ? - SMPLUT10
+    - PCLWRX05
+  : 0.17
+  ? - NCCOAL10
+    - DPLWRX10
+  : -0.3
+  ? - WTNELE10
+    - WT402410
+  : 55.28169
+  ? - WTNELE15
+    - WT311515
+  : 56.98255
+  ? - WTELEC20
+    - WT403020
+  : 0.6159227
+  ? - WTELEC15
+    - WT401515
+  : 0.5062435
+  ? - WTNELE25
+    - WT283025
+  : 88.68006
+  ? - CPSYNF30
+    - PCSYNF25
+  : 0.844
+  ? - DISWUX30
+    - DPHTRB30
+  : 0.175
+  ? - SMNATU00
+    - PCLWRX00
+  : 0.16
+  ? - INTSUM40
+    - WT343040
+  : 1
+  ? - COST
+    - NURQ0325
+  : 69.11929
+  ? - COST
+    - WT343030
+  : -7.9550915
+  ? - WTELEC45
+    - WT401845
+  : 1.641949
+  ? - SMNATU40
+    - NURQ0940
+  : -1
+  ? - CPSWUX15
+    - PCSWUX10
+  : 0.844
+  ? - WTNELE50
+    - WT311550
+  : 95.95186
+  ? - DISWUX70
+    - PCSWUX70
+  : -1
+  ? - WTNELE65
+    - WT312465
+  : 203.74121
+  ? - NCADVX50
+    - DPLWRX50
+  : 0.4
+  ? - CRQU0825
+    - CSNU0825
+  : -1
+  ? - NCADVX45
+    - DPFBRX45
+  : 0.2
+  ? - COST
+    - PCCOAL35
+  : 22.57957
+  ? - SMNATU70
+    - NURQ0470
+  : -1
+  ? - CPSWUX30
+    - PCSWUX25
+  : 0.844
+  ? - DMELEC70
+    - PCFBRX70
+  : 1
+  ? - WTNELE40
+    - WT252140
+  : 101.62077
+  ? - COST
+    - WT282420
+  : 4.871146
+  ? - WTNELE60
+    - WT341560
+  : 111.35605
+  ? - COST
+    - NURQ0220
+  : 71.81761
+  ? - INTSUM40
+    - WT342140
+  : 1
+  ? - WTELEC60
+    - WT372460
+  : 2.522654
+  ? - COST
+    - WT402145
+  : -1.4989394
+  ? - WTELEC55
+    - WT252455
+  : 1.1754912
+  ? - WTELEC60
+    - WT281560
+  : 1.5618792
+  ? - WTELEC55
+    - WT312755
+  : 1.5738356
+  ? - COST
+    - WT371560
+  : 1.6698658
+  ? - CPCOAL10
+    - DPCOAL10
+  : 5
+  ? - COST
+    - WT341830
+  : 6.5164633
+  ? - INTSUM25
+    - WT373025
+  : 1
+  ? - COST
+    - WT373050
+  : -3.4241314
+  ? - WTNELE10
+    - WT401810
+  : 53.68097
+  ? - COST
+    - NURQ0160
+  : 0.7934025
+  ? - INTSUM10
+    - WT253010
+  : 1
+  ? - CPADVX50
+    - PCADVX45
+  : 0.844
+  ? - SMNATU00
+    - NURQ0700
+  : -1
+  ? - CPSWUX10
+    - PCSWUX05
+  : 0.844
+  ? - WTNELE15
+    - WT401515
+  : 56.98255
+  ? - SMNATU35
+    - NURQ0335
+  : -1
+  ? - CRQU0345
+    - NURQ0345
+  : 5
+  ? - CRQU0350
+    - NURQ0350
+  : 5
+  ? - SMNATU75
+    - NURQ0375
+  : -1
+  ? - WTELEC15
+    - WT282715
+  : 0.45077232
+  ? - WTNELE65
+    - WT281565
+  : 119.96209
+  ? - WTNELE10
+    - WT372110
+  : 54.47663
+  ? - WTELEC45
+    - WT282745
+  : 1.0321687
+  ? - CPSWUX60
+    - PCSWUX55
+  : 0.844
+  ? - CRQU0855
+    - NURQ0855
+  : 5
+  ? - DIBRGN25
+    - PCFBRX20
+  : -1
+  ? - SMNATU00
+    - NURQ0900
+  : -1
+  ? - CRQU0805
+    - CSNU0800
+  : 1
+  ? - DMNELE15
+    - PCHTRB15
+  : 22.5
+  ? - COST
+    - DPHTRB25
+  : 287.27045
+  ? - WTELEC75
+    - WT372175
+  : 4.3504987
+  ? - DISWUX25
+    - DPHTRB25
+  : 0.175
+  ? - INTSUM70
+    - WT253070
+  : 1
+  ? - WTNELE60
+    - NELEDM60
+  : -1
+  ? - COST
+    - PCSYNF75
+  : 0.01416891
+  ? - COST
+    - WT253040
+  : -2.777668
+  ? - WTNELE40
+    - WT401840
+  : 91.67559
+  ? - CPHTRB75
+    - PCHTRB70
+  : 0.844
+  ? - CRQU0350
+    - CSNU0345
+  : 1
+  ? - WTELEC65
+    - WT282765
+  : 1.793135
+  ? - DIBRGN10
+    - PCFBPL10
+  : 1
+  ? - COST
+    - PCPETG15
+  : 2.8915746
+  ? - CRQU0335
+    - CSNU0335
+  : -1
+  ? - DMELEC55
+    - ELECDM55
+  : -1
+  ? - WTELEC35
+    - WT342135
+  : 0.9324859
+  ? - WTELEC20
+    - WT311520
+  : 0.5406374
+  ? - WTELEC40
+    - ELECDM40
+  : -1
+  ? - INTSUM55
+    - WT402755
+  : 1
+  ? - CPELHY15
+    - PCELHY15
+  : -1
+  ? - SMPLUT35
+    - PCFBRX30
+  : 0.062
+  ? - COST
+    - WT313045
+  : -3.552335
+  ? - WTELEC10
+    - WT283010
+  : 0.3926374
+  ? - WTELEC10
+    - WT342110
+  : 0.40423024
+  ? - INTSUM15
+    - WT372415
+  : 1
+  ? - CRQU0310
+    - NURQ0310
+  : 5
+  ? - CRQU0700
+    - CSNU0700
+  : -1
+  ? - INTSUM20
+    - WT312120
+  : 1
+  ? - INTSUM60
+    - WT341860
+  : 1
+  ? - COST
+    - PCSYNF10
+  : 7.7615166
+  ? - SMCOAL70
+    - PCCOAL70
+  : 0.0657
+  ? - WTNELE45
+    - WT251545
+  : 89.0683
+  ? - CRQU0135
+    - CSNU0130
+  : 1
+  ? - COST
+    - WT312725
+  : -3.4172459
+  ? - WTNELE10
+    - WT283010
+  : 56.92036
+  ? - WTELEC20
+    - WT311820
+  : 0.5406374
+  ? - INTSUM15
+    - WT343015
+  : 1
+  ? - INTSUM10
+    - WT252110
+  : 1
+  ? - CRQU0960
+    - CSNU0955
+  : 1
+  ? - SMPLUT45
+    - PCFBRX40
+  : 0.062
+  ? - WTELEC10
+    - WT251810
+  : 0.3869416
+  ? - WTNELE25
+    - WT312725
+  : 83.6547
+  ? - SMNATU70
+    - NURQ0570
+  : -1
+  ? - COST
+    - WT282715
+  : 1.2692208
+  ? - CPLWRX05
+    - PCLWRX00
+  : 0.844
+  ? - DIBRGN40
+    - PCFBRX35
+  : -1
+  ? - WTNELE75
+    - WT342775
+  : 316.9659
+  ? - COST
+    - WT401530
+  : 6.6117973
+  ? - WTELEC35
+    - ELECDM35
+  : -1
+  ? - DISWUX75
+    - PCLWRX70
+  : -0.007
+  ? - CPPETG75
+    - DPPETG75
+  : 5
+  ? - COST
+    - WT251820
+  : 19.98275
+  ? - INTSUM35
+    - WT372135
+  : 1
+  ? - SMCOAL45
+    - CSCOAL40
+  : 0.2
+  ? - WTELEC65
+    - WT342465
+  : 2.5424852
+  ? - CPPETG50
+    - PCPETG45
+  : 0.844
+  ? - CPELHY55
+    - DPELHY55
+  : 5
+  ? - COST
+    - NURQ0815
+  : 426.02533
+  ? - SMNATU75
+    - NURQ0575
+  : -1
+  ? - WTELEC30
+    - WT371830
+  : 0.84819365
+  ? - WTELEC60
+    - WT401560
+  : 2.9570575
+  ? - SMNATU75
+    - PCLWRX70
+  : -0.016
+  ? - WTNELE30
+    - WT251530
+  : 71.24142
+  ? - WTNELE75
+    - WT311575
+  : 139.2209
+  ? - COST
+    - WT311875
+  : 0.67898566
+  ? - WTELEC55
+    - WT401555
+  : 2.4304857
+  ? - SMPLUT75
+    - PCFBRX70
+  : 0.062
+  ? - COST
+    - WT402710
+  : -4.673941
+  ? - SMCOAL60
+    - CSCOAL55
+  : 0.2
+  ? - WTNELE10
+    - WT251510
+  : 52.89464
+  ? - CRQU0320
+    - CSNU0320
+  : -1
+  ? - NCADVX50
+    - DPFBRX50
+  : 0.4
+  ? - CRQU0820
+    - NURQ0820
+  : 5
+  ? - SMNATU45
+    - PCLWRX45
+  : 0.16
+  ? - INTSUM55
+    - WT313055
+  : 1
+  ? - WTNELE60
+    - WT253060
+  : 249.5335
+  ? - WTNELE15
+    - WT373015
+  : 65.98629
+  ? - INTSUM55
+    - WT371555
+  : 1
+  ? - COST
+    - PCCOAL10
+  : 244.643
+  ? - WTELEC10
+    - WT403010
+  : 0.4160953
+  ? - COST
+    - NURQ0575
+  : 0.9560024
+  ? - INTSUM30
+    - WT401530
+  : 1
+  ? - INTSUM35
+    - WT373035
+  : 1
+  ? - INTSUM10
+    - WT311510
+  : 1
+  ? - COST
+    - WT402470
+  : -0.72576326
+  ? - COST
+    - NURQ0370
+  : 0.94826216
+  ? - CPFBRX30
+    - PCFBRX25
+  : 0.844
+  ? - CRQU0340
+    - NURQ0340
+  : 5
+  ? - DISWUX40
+    - DPHTRB40
+  : 0.175
+  ? - WTNELE10
+    - WT313010
+  : 56.92036
+  ? - CRQU0510
+    - CSNU0505
+  : 1
+  ? - COST
+    - WT341525
+  : 14.39762
+  ? - WTNELE40
+    - WT342440
+  : 112.61078
+  ? - WTNELE65
+    - WT311865
+  : 143.2017
+  ? - COST
+    - WT281515
+  : 23.72453
+  ? - DIBRGN30
+    - PCFBRX25
+  : -1
+  ? - WTELEC40
+    - WT343040
+  : 1.1021608
+  ? - WTNELE45
+    - NELEDM45
+  : -1
+  ? - CRQU0905
+    - CSNU0900
+  : 1
+  ? - WTNELE55
+    - WT311855
+  : 119.80374
+  ? - WTELEC20
+    - ELECDM20
+  : -1
+  ? - COST
+    - NURQ0850
+  : 15.15973
+  ? - COST
+    - WT342135
+  : 1.1839948
+  ? - COST
+    - WT402475
+  : -0.53193486
+  ? - CPLWRX55
+    - DPLWRX55
+  : 5
+  ? - WTELEC40
+    - WT313040
+  : 0.9955874
+  ? - WTELEC35
+    - WT372435
+  : 1.0171589
+  ? - INTSUM40
+    - WT372440
+  : 1
+  ? - COST
+    - WT283060
+  : -1.3232924
+  ? - SMNATU65
+    - NURQ0565
+  : -1
+  ? - CRQU1030
+    - NURQ1030
+  : 5
+  ? - DISWUX50
+    - PCSWUX50
+  : -1
+  ? - INTSUM10
+    - WT283010
+  : 1
+  ? - WTELEC20
+    - WT401520
+  : 0.6159227
+  ? - INTSUM25
+    - WT402125
+  : 1
+  ? - COST
+    - NURQ0775
+  : 1.2662283
+  ? - INTSUM55
+    - WT342455
+  : 1
+  ? - INTSUM35
+    - WT252435
+  : 1
+  ? - COST
+    - WT402135
+  : -1.8465617
+  ? - DIBRGN00
+    - PCFBPL00
+  : 1
+  ? - SMPLUT75
+    - DPFBRX75
+  : -2
+  ? - COST
+    - NURQ0845
+  : 24.4149
+  ? - WTNELE60
+    - WT281860
+  : 130.9813
+  ? - CPLWRX00
+    - PCLWRX00
+  : -1
+  ? - WTELEC40
+    - WT281840
+  : 0.8990526
+  ? - COST
+    - PCSYNF00
+  : 20.13137
+  ? - SMNATU55
+    - NURQ0555
+  : -1
+  ? - CRQU0430
+    - CSNU0425
+  : 1
+  ? - WTELEC40
+    - WT402740
+  : 1.3495624
+  ? - COST
+    - NURQ0165
+  : 0.49264053
+  ? - WTELEC20
+    - WT312420
+  : 0.5406374
+  ? - SMNATU50
+    - PCLWRX50
+  : 0.16
+  ? - WTELEC70
+    - WT313070
+  : 2.4879367
+  ? - WTNELE70
+    - WT402770
+  : 277.43442
+  ? - WTELEC20
+    - WT342120
+  : 0.56472135
+  ? - WTELEC60
+    - WT401860
+  : 2.9570575
+  ? - COST
+    - WT311570
+  : 1.9527786
+  ? - CPPETG35
+    - PCPETG30
+  : 0.844
+  ? - INTSUM15
+    - WT283015
+  : 1
+  ? - WTELEC10
+    - WT341810
+  : 0.40423024
+  ? - CPADVX70
+    - DPADVX70
+  : 5
+  ? - COST
+    - WT401515
+  : 11.97877
+  ? - WTELEC20
+    - WT312120
+  : 0.5406374
+  ? - WTELEC20
+    - WT282120
+  : 0.5175149
+  ? - WTELEC55
+    - WT373055
+  : 2.1036036
+  ? - COST
+    - PCCOAL70
+  : 0.8034737
+  ? - DMNELE75
+    - NELEDM75
+  : -1
+  ? - COST
+    - WT341530
+  : 11.70592
+  ? - INTSUM10
+    - WT371810
+  : 1
+  ? - DMNELE75
+    - PCSYNF75
+  : 1
+  ? - CRQU0930
+    - CSNU0930
+  : -1
+  ? - SMNATU40
+    - DPHTRB40
+  : 0.216
+  ? - CPELHY75
+    - DPELHY75
+  : 5
+  ? - SMNATU75
+    - NURQ0875
+  : -1
+  ? - INTSUM40
+    - WT282440
+  : 1
+  ? - WTELEC55
+    - WT401855
+  : 2.4304857
+  ? - COST
+    - WT342760
+  : -1.3221887
+  ? - INTSUM65
+    - WT312165
+  : 1
+  ? - WTELEC70
+    - WT373070
+  : 3.6278162
+  ? - WTELEC45
+    - WT401545
+  : 1.641949
+  ? - NCCOAL35
+    - DPLWRX35
+  : -0.2
+  ? - WTELEC45
+    - WT403045
+  : 1.641949
+  ? - WTELEC35
+    - WT311535
+  : 0.8546456
+  ? - CPLWRX55
+    - PCLWRX50
+  : 0.844
+  ? - WTELEC10
+    - WT281810
+  : 0.3926374
+  ? - DMELEC00
+    - PCADVX00
+  : 1
+  ? - COST
+    - WT372715
+  : -5.804527
+  ? - INTSUM45
+    - WT372745
+  : 1
+  ? - WTNELE75
+    - WT252175
+  : 210.3214
+  ? - INTSUM30
+    - WT341830
+  : 1
+  ? - SMNATU40
+    - NURQ0640
+  : -1
+  ? - COST
+    - NURQ0645
+  : 19.55401
+  ? - WTNELE45
+    - WT402145
+  : 112.7486
+  ? - COST
+    - PCPETG50
+  : 0.10289409
+  ? - WTNELE50
+    - WT311850
+  : 109.58005
+  ? - SMNATU05
+    - NURQ0905
+  : -1
+  ? - CRQU0860
+    - NURQ0860
+  : 5
+  ? - WTELEC75
+    - WT341575
+  : 3.5519252
+  ? - COST
+    - NURQ0855
+  : 9.412999
+  ? - INTSUM10
+    - WT281510
+  : 1
+  ? - WTNELE55
+    - WT401555
+  : 103.3674
+  ? - COST
+    - WT372415
+  : -1.1248983
+  ? - INTSUM75
+    - WT343075
+  : 1
+  ? - DIBRGN20
+    - PCFBPL20
+  : 1
+  ? - CPCOAL40
+    - PCCOAL40
+  : -1
+  ? - INTSUM40
+    - WT373040
+  : 1
+  ? - COST
+    - PCADVX20
+  : 15.68018
+  ? - WTELEC25
+    - WT252725
+  : 0.5604068
+  ? - CRQU0810
+    - NURQ0810
+  : 5
+  ? - DMELEC55
+    - PCCOAL55
+  : 1
+  ? - WTELEC60
+    - WT252160
+  : 1.3299603
+  ? - COST
+    - WT253075
+  : -0.44815895
+  ? - CPPETG45
+    - PCPETG45
+  : -1
+  ? - SMNATU35
+    - NURQ1035
+  : -1
+  ? - WTELEC40
+    - WT371840
+  : 1.2197831
+  ? - CRQU0420
+    - NURQ0420
+  : 5
+  ? - CRQU1040
+    - CSNU1035
+  : 1
+  ? - WTNELE60
+    - WT342460
+  : 180.95856
+  ? - COST
+    - WT373035
+  : -7.536754
+  ? - CRQU0235
+    - CSNU0235
+  : -1
+  ? - CPADVX45
+    - PCADVX40
+  : 0.844
+  ? - INTSUM65
+    - WT312465
+  : 1
+  ? - WTNELE55
+    - WT281855
+  : 119.80374
+  ? - WTNELE65
+    - WT402465
+  : 203.74121
+  ? - WTELEC75
+    - WT252775
+  : 1.9261792
+  ? - WTELEC50
+    - WT312150
+  : 1.3510332
+  ? - INTSUM70
+    - WT401870
+  : 1
+  ? - COST
+    - NURQ0875
+  : 1.3991823
+  ? - COST
+    - NURQ0935
+  : 68.48372
+  ? - WTELEC55
+    - WT312155
+  : 1.5738356
+  ? - CPPETG60
+    - PCPETG60
+  : -1
+  ? - COST
+    - WT281570
+  : 2.634308
+  ? - NCCOAL35
+    - DPFBRX35
+  : -0.2
+  ? - DMELEC20
+    - PCELHY20
+  : -1
+  ? - DIBRGN25
+    - PCFBPL25
+  : 1
+  ? - CPFBRX35
+    - PCFBRX30
+  : 0.844
+  ? - CPSWUX70
+    - PCSWUX65
+  : 0.844
+  ? - INTSUM75
+    - WT283075
+  : 1
+  ? - DMNELE45
+    - PCSYNF45
+  : 1
+  ? - COST
+    - WT282735
+  : -1.9007822
+  ? - INTSUM25
+    - WT371825
+  : 1
+  ? - WTELEC30
+    - WT252730
+  : 0.6340489
+  ? - COST
+    - NURQ0115
+  : 57.83149
+  ? - CRQU0755
+    - CSNU0755
+  : -1
+  ? - COST
+    - WT313015
+  : -5.8286138
+  ? - COST
+    - WT401855
+  : 0.02968468
+  ? - WTNELE70
+    - WT371870
+  : 156.56226
+  ? - COST
+    - NURQ0535
+  : 43.26796
+  ? - COST
+    - WT341555
+  : 3.2073736
+  ? - DMELEC30
+    - PCADVX30
+  : 1
+  ? - WTELEC70
+    - WT252170
+  : 1.7024617
+  ? - WTNELE20
+    - WT311520
+  : 61.38639
+  ? - WTNELE70
+    - WT373070
+  : 335.35214
+  ? - CRQU0625
+    - CSNU0620
+  : 1
+  ? - INTSUM20
+    - WT312420
+  : 1
+  ? - WTNELE35
+    - WT403035
+  : 119.17859
+  ? - WTELEC50
+    - WT403050
+  : 1.9976821
+  ? - WTNELE60
+    - WT371560
+  : 111.35605
+  ? - WTNELE10
+    - WT281810
+  : 53.68097
+  ? - CRQU0140
+    - CSNU0135
+  : 1
+  ? - COST
+    - WT342440
+  : -1.7544384
+  ? - SMCOAL35
+    - CSCOAL30
+  : 0.2
+  ? - COST
+    - PCHTRB45
+  : 1.5466449
+  ? - SMNATU30
+    - PCHTRB25
+  : -0.007
+  ? - COST
+    - WT251570
+  : 3.4606063
+  ? - CRQU0355
+    - CSNU0355
+  : -1
+  ? - COST
+    - WT311510
+  : 16.12549
+  ? - COST
+    - WT342120
+  : 4.9156837
+  ? - WTNELE45
+    - WT372745
+  : 142.5277
+  ? - CPCOAL00
+    - DPCOAL00
+  : 5
+  ? - CRQU0410
+    - NURQ0410
+  : 5
+  ? - COST
+    - WT401510
+  : 10.17705
+  ? - SMNATU40
+    - NURQ0840
+  : -1
+  ? - INTSUM15
+    - WT371815
+  : 1
+  ? - INTSUM75
+    - WT282475
+  : 1
+  ? - CRQU0765
+    - NURQ0765
+  : 5
+  ? - COST
+    - WT372710
+  : -2.9415407
+  ? - DMELEC00
+    - PCELHY00
+  : -1
+  ? - WTNELE10
+    - WT403010
+  : 56.92036
+  ? - WTNELE65
+    - WT403065
+  : 289.2777
+  ? - COST
+    - DPELHY55
+  : 3.7416034
+  ? - CPHTRB65
+    - PCHTRB60
+  : 0.844
+  ? - CPPETG20
+    - PCPETG15
+  : 0.844
+  ? - INTSUM40
+    - WT252740
+  : 1
+  ? - COST
+    - WT341515
+  : 17.66427
+  ? - SMCOAL45
+    - PCSYNF45
+  : 0.00133
+  ? - CPSYNF10
+    - DPSYNF10
+  : 5
+  ? - DIBRGN50
+    - PCFBRX45
+  : -1
+  ? - WTELEC55
+    - WT403055
+  : 2.4304857
+  ? - INTSUM50
+    - WT401550
+  : 1
+  ? - WTNELE75
+    - WT311875
+  : 171.16933
+  ? - INTSUM60
+    - WT372160
+  : 1
+  ? - CRQU0705
+    - CSNU0700
+  : 1
+  ? - SMNATU30
+    - NURQ0230
+  : -1
+  ? - CRQU1065
+    - CSNU1060
+  : 1
+  ? - SMNATU70
+    - DPLWRX70
+  : 0.5
+  ? - COST
+    - WT252750
+  : -0.62729394
+  ? - CPCOAL55
+    - DPCOAL55
+  : 5
+  ? - CRQU0660
+    - CSNU0655
+  : 1
+  ? - COST
+    - PCFBRX75
+  : 0.130354
+  ? - CPADVX60
+    - DPADVX60
+  : 5
+  ? - INTSUM65
+    - WT402465
+  : 1
+  ? - COST
+    - WT373020
+  : -11.30708
+  ? - INTSUM25
+    - WT282125
+  : 1
+  ? - SMNATU00
+    - NURQ0400
+  : -1
+  ? - SMNATU55
+    - NURQ0455
+  : -1
+  ? - CPLWRX60
+    - DPLWRX60
+  : 5
+  ? - WTELEC40
+    - WT372440
+  : 1.2197831
+  ? - WTELEC50
+    - WT372150
+  : 1.7541637
+  ? - WTNELE75
+    - WT313075
+  : 388.76505
+  ? - WTNELE60
+    - WT313060
+  : 249.5335
+  ? - COST
+    - DPELHY40
+  : 15.62961
+  ? - WTNELE65
+    - WT252465
+  : 203.74121
+  ? - WTELEC10
+    - WT312110
+  : 0.3984001
+  ? - WTNELE15
+    - WT342115
+  : 60.44201
+  ? - WTELEC60
+    - WT372760
+  : 2.522654
+  ? - SMNATU60
+    - NURQ0960
+  : -1
+  ? - WTELEC35
+    - WT312735
+  : 0.8546456
+  ? - WTELEC40
+    - WT252740
+  : 0.81163615
+  ? - DMELEC65
+    - PCFBRX65
+  : 1
+  ? - WTELEC30
+    - ELECDM30
+  : -1
+  ? - WTELEC10
+    - WT251510
+  : 0.3869416
+  ? - WTELEC15
+    - WT313015
+  : 0.46410128
+  ? - COST
+    - NURQ0465
+  : 2.0198262
+  ? - CPCOAL30
+    - PCCOAL25
+  : 0.844
+  ? - WTELEC25
+    - WT283025
+  : 0.59413946
+  ? - COST
+    - WT371850
+  : 0.9542637
+  ? - WTNELE75
+    - WT372475
+  : 258.27267
+  ? - NCCOAL00
+    - DPCOAL00
+  : 0.7
+  ? - WTELEC25
+    - ELECDM25
+  : -1
+  ? - WTNELE20
+    - WT252720
+  : 73.22142
+  ? - DISWUX65
+    - DPHTRB65
+  : 0.175
+  ? - WTELEC10
+    - WT311510
+  : 0.3984001
+  ? - SMCOAL15
+    - CSCOAL10
+  : 0.2
+  ? - WTNELE20
+    - WT372420
+  : 70.07786
+  ? - WTELEC55
+    - WT251555
+  : 1.1754912
+  ? - COST
+    - PCPETG35
+  : 0.42981416
+  ? - INTSUM20
+    - WT343020
+  : 1
+  ? - CRQU0120
+    - CSNU0120
+  : -1
+  ? - CRQU0750
+    - NURQ0750
+  : 5
+  ? - CPADVX60
+    - PCADVX55
+  : 0.844
+  ? - CRQU0125
+    - CSNU0125
+  : -1
+  ? - COST
+    - DPELHY35
+  : 25.17164
+  ? - DMNELE25
+    - PCSYNF25
+  : 1
+  ? - COST
+    - PCPETG60
+  : 0.03967013
+  ? - COST
+    - WT371570
+  : 0.92592084
+  ? - CRQU0225
+    - CSNU0225
+  : -1
+  ? - COST
+    - PCSYNF30
+  : 1.1537
+  ? - WTNELE35
+    - WT252135
+  : 91.5912
+  ? - COST
+    - PCPETG30
+  : 0.69222
+  ? - INTSUM40
+    - WT371840
+  : 1
+  ? - WTELEC45
+    - WT341545
+  : 1.3027097
+  ? - CPSYNF65
+    - PCSYNF65
+  : -1
+  ? - CPSWUX65
+    - PCSWUX65
+  : -1
+  ? - COST
+    - WT311865
+  : 1.2242262
+  ? - CRQU0775
+    - NURQ0775
+  : 5
+  ? - WTNELE70
+    - WT251870
+  : 156.56226
+  ? - DMNELE40
+    - PCSYNF40
+  : 1
+  ? - COST
+    - WT342455
+  : -1.0027868
+  ? - COST
+    - WT311850
+  : 2.958943
+  ? - COST
+    - NURQ0920
+  : 286.0735
+  ? - WTNELE45
+    - WT283045
+  : 160.16606
+  ? - WTNELE50
+    - WT341550
+  : 95.95186
+  ? - COST
+    - WT282430
+  : 2.0171595
+  ? - SMNATU65
+    - NURQ1065
+  : -1
+  ? - WTNELE75
+    - WT312175
+  : 210.3214
+  ? - DMNELE75
+    - PCPETG75
+  : 1
+  ? - COST
+    - NURQ0625
+  : 131.5496
+  ? - CRQU0445
+    - CSNU0445
+  : -1
+  ? - CRQU1060
+    - CSNU1055
+  : 1
+  ? - INTSUM45
+    - WT401845
+  : 1
+  ? - CPHTRB50
+    - PCHTRB50
+  : -1
+  ? - COST
+    - WT342430
+  : -1.7926271
+  ? - CRQU0925
+    - CSNU0920
+  : 1
+  ? - COST
+    - WT402130
+  : -1.7426823
+  ? - COST
+    - WT252770
+  : -0.27902904
+  ? - INTSUM55
+    - WT343055
+  : 1
+  ? - WTELEC10
+    - WT252710
+  : 0.3869416
+  ? - CPSWUX25
+    - DPSWUX25
+  : 5
+  ? - NCFBRX25
+    - DPCOAL25
+  : 0.2
+  ? - INTSUM40
+    - WT282140
+  : 1
+  ? - COST
+    - NURQ0455
+  : 5.2389092
+  ? - COST
+    - WT371870
+  : 0.21176021
+  ? - INTSUM75
+    - WT341875
+  : 1
+  ? - INTSUM40
+    - WT341840
+  : 1
+  ? - CPCOAL40
+    - DPCOAL40
+  : 5
+  ? - COST
+    - DPFBRX70
+  : 9.703526
+  ? - SMPETG75
+    - CSPETG70
+  : 0.2
+  ? - CPLWRX55
+    - PCLWRX55
+  : -1
+  ? - SMNATU55
+    - DPHTRB55
+  : 0.216
+  ? - COST
+    - WT251860
+  : 3.3067334
+  ? - SMNATU05
+    - DPLWRX05
+  : 0.5
+  ? - DISWUX75
+    - PCLWRX75
+  : 0.11
+  ? - CRQU0950
+    - NURQ0950
+  : 5
+  ? - WTNELE65
+    - WT252165
+  : 170.85434
+  ? - WTELEC45
+    - WT402145
+  : 1.641949
+  ? - INTSUM75
+    - WT401875
+  : 1
+  ? - CRQU0415
+    - CSNU0410
+  : 1
+  ? - SMNATU00
+    - NURQ0800
+  : -1
+  ? - WTNELE35
+    - WT281535
+  : 76.74724
+  ? - COST
+    - WT282740
+  : -1.7658503
+  ? - CRQU0720
+    - CSNU0715
+  : 1
+  ? - WTELEC15
+    - WT342415
+  : 0.4777839
+  ? - CRQU1020
+    - CSNU1020
+  : -1
+  ? - COST
+    - WT282760
+  : -0.78638583
+  ? - SMCOAL70
+    - CSCOAL70
+  : -0.2
+  ? - CRQU0945
+    - NURQ0945
+  : 5
+  ? - COST
+    - DPHTRB75
+  : 2.447128
+  ? - WTNELE75
+    - WT402175
+  : 210.3214
+  ? - DMELEC20
+    - PCLWRX20
+  : 1
+  ? - WTELEC70
+    - WT311570
+  : 2.4879367
+  ? - SMNATU15
+    - DPLWRX15
+  : 0.5
+  ? - COST
+    - WT283035
+  : -4.4589806
+  ? - WTELEC40
+    - WT251840
+  : 0.81163615
+  ? - COST
+    - DPLWRX35
+  : 251.71635
+  ? - WTNELE55
+    - WT402155
+  : 138.79333
+  ? - WTNELE75
+    - WT281875
+  : 171.16933
+  ? - CPFBRX40
+    - PCFBRX40
+  : -1
+  ? - CPCOAL35
+    - PCCOAL35
+  : -1
+  ? - WTELEC70
+    - WT402770
+  : 4.377167
+  ? - INTSUM50
+    - WT343050
+  : 1
+  ? - WTELEC15
+    - WT371815
+  : 0.49182847
+  ? - INTSUM30
+    - WT312430
+  : 1
+  ? - CRQU0860
+    - CSNU0855
+  : 1
+  ? - COST
+    - NURQ0830
+  : 101.98708
+  ? - INTSUM30
+    - WT252130
+  : 1
+  ? - CPCOAL45
+    - PCCOAL40
+  : 0.844
+  ? - CRQU0655
+    - NURQ0655
+  : 5
+  ? - CRQU0970
+    - CSNU0965
+  : 1
+  ? - COST
+    - WT281860
+  : 2.4084969
+  ? - INTSUM30
+    - WT312730
+  : 1
+  ? - WTELEC55
+    - WT372155
+  : 2.1036036
+  ? - DMELEC15
+    - PCCOAL15
+  : 1
+  ? - NCCOAL40
+    - DPLWRX40
+  : -0.1
+  ? - CRQU1050
+    - NURQ1050
+  : 5
+  ? - NCADVX50
+    - DPADVX50
+  : -0.6
+  ? - SMNATU25
+    - NURQ0325
+  : -1
+  ? - SMCOAL05
+    - PCSYNF05
+  : 0.00133
+  ? - WTNELE10
+    - WT342710
+  : 56.09623
+  ? - INTSUM15
+    - WT403015
+  : 1
+  ? - INTSUM30
+    - WT252730
+  : 1
+  ? - WTNELE25
+    - WT312425
+  : 78.90066
+  ? - COST
+    - DPLWRX65
+  : 14.4255
+  ? - INTSUM55
+    - WT341555
+  : 1
+  ? - DIBRGN55
+    - PCFBPL55
+  : 1
+  ? - COST
+    - WT312475
+  : -0.21336463
+  ? - WTELEC65
+    - WT311565
+  : 2.1357284
+  ? - COST
+    - WT282150
+  : 1.8672404
+  ? - SMPLUT65
+    - PCLWRX60
+  : 0.17
+  ? - CRQU0555
+    - CSNU0555
+  : -1
+  ? - CRQU0320
+    - CSNU0315
+  : 1
+  ? - INTSUM35
+    - WT251835
+  : 1
+  ? - INTSUM55
+    - WT401555
+  : 1
+  ? - WTELEC15
+    - WT252715
+  : 0.4377889
+  ? - COST
+    - NURQ1065
+  : 4.1874447
+  ? - CRQU0540
+    - NURQ0540
+  : 5
+  ? - INTSUM55
+    - WT282155
+  : 1
+  ? - CRQU0160
+    - CSNU0155
+  : 1
+  ? - WTELEC20
+    - WT253020
+  : 0.49531797
+  ? - SMNATU45
+    - NURQ0945
+  : -1
+  ? - COST
+    - PCFBRX60
+  : 0.6082753
+  ? - SMPLUT70
+    - PCFBPL70
+  : 0.16
+  ? - SMNATU20
+    - NURQ1020
+  : -1
+  ? - WTNELE35
+    - WT282735
+  : 109.193
+  ? - WTELEC45
+    - WT342445
+  : 1.3027097
+  ? - WTNELE60
+    - WT311560
+  : 111.35605
+  ? - DMELEC00
+    - PCCOAL00
+  : 1
+  ? - CRQU0465
+    - CSNU0460
+  : 1
+  ? - INTSUM60
+    - WT402460
+  : 1
+  ? - WTNELE50
+    - WT341850
+  : 109.58005
+  ? - COST
+    - NURQ1060
+  : 6.7439213
+  ? - DISWUX40
+    - PCLWRX35
+  : -0.007
+  ? - CPLWRX65
+    - DPLWRX65
+  : 5
+  ? - DISWUX30
+    - PCHTRB25
+  : -0.005
+  ? - INTSUM45
+    - WT311845
+  : 1
+  ? - CRQU0475
+    - CSNU0470
+  : 1
+  ? - CRQU0375
+    - NURQ0375
+  : 5
+  ? - WTELEC25
+    - WT402425
+  : 0.74936414
+  ? - INTSUM50
+    - WT372450
+  : 1
+  ? - DMELEC20
+    - PCADVX20
+  : 1
+  ? - COST
+    - NURQ1030
+  : 117.6774
+  ? - DMNELE55
+    - PCPETG55
+  : 1
+  ? - INTSUM60
+    - WT371860
+  : 1
+  ? - COST
+    - WT253010
+  : 0.61665416
+  ? - WTELEC55
+    - WT251855
+  : 1.1754912
+  ? - INTSUM65
+    - WT342165
+  : 1
+  ? - COST
+    - WT402165
+  : -0.5961279
+  ? - COST
+    - WT342165
+  : -0.05567395
+  ? - DMELEC05
+    - PCLWRX05
+  : 1
+  ? - COST
+    - WT252110
+  : 12.02464
+  ? - CPHTRB35
+    - PCHTRB30
+  : 0.844
+  ? - CPFBRX70
+    - DPFBRX70
+  : 5
+  ? - CRQU0130
+    - CSNU0125
+  : 1
+  ? - SMNATU65
+    - PCLWRX65
+  : 0.16
+  ? - INTSUM60
+    - WT371560
+  : 1
+  ? - INTSUM65
+    - WT342765
+  : 1
+  ? - CRQU0525
+    - CSNU0520
+  : 1
+  ? - WTNELE65
+    - WT312165
+  : 170.85434
+  ? - COST
+    - WT281540
+  : 11.5692
+  ? - INTSUM35
+    - WT311835
+  : 1
+  ? - WTELEC50
+    - WT283050
+  : 1.1849943
+  ? - COST
+    - PCCOAL60
+  : 2.084004
+  ? - WTELEC30
+    - WT282730
+  : 0.6821093
+  ? - INTSUM65
+    - WT253065
+  : 1
+  ? - COST
+    - NURQ0110
+  : 93.1382
+  ? - WTELEC70
+    - WT251870
+  : 1.7024617
+  ? - WTNELE35
+    - WT312435
+  : 100.01847
+  ? - INTSUM20
+    - WT402720
+  : 1
+  ? - INTSUM40
+    - WT312440
+  : 1
+  ? - SMPLUT40
+    - CSPLUT40
+  : -0.2
+  ? - INTSUM50
+    - WT253050
+  : 1
+  ? - INTSUM10
+    - WT372410
+  : 1
+  ? - WTELEC30
+    - WT312730
+  : 0.73365647
+  ? - WTNELE50
+    - WT373050
+  : 185.67636
+  ? - CPCOAL15
+    - PCCOAL10
+  : 0.844
+  ? - COST
+    - WT342475
+  : -0.34199995
+  ? - COST
+    - WT282155
+  : 1.3549007
+  ? - INTSUM10
+    - WT372710
+  : 1
+  ? - CRQU0565
+    - CSNU0560
+  : 1
+  ? - CRQU0430
+    - CSNU0430
+  : -1
+  ? - WTELEC75
+    - WT373075
+  : 4.3504987
+  ? - CPPETG45
+    - PCPETG40
+  : 0.844
+  ? - CPSYNF15
+    - PCSYNF10
+  : 0.844
+  ? - CRQU0605
+    - CSNU0600
+  : 1
+  ? - CRQU0800
+    - CSNU0800
+  : -1
+  ? - WTELEC50
+    - WT372450
+  : 1.7541637
+  ? - WTELEC70
+    - WT402470
+  : 4.377167
+  ? - CPELHY25
+    - DPELHY25
+  : 5
+  ? - WTNELE30
+    - WT372130
+  : 82.55151
+  ? - INTSUM70
+    - WT371570
+  : 1
+  ? - CPHTRB15
+    - PCHTRB15
+  : -1
+  ? - CPFBRX25
+    - PCFBRX25
+  : -1
+  ? - CPSYNF35
+    - PCSYNF30
+  : 0.844
+  ? - COST
+    - WT342735
+  : -4.453308
+  ? - CPSWUX45
+    - PCSWUX45
+  : -1
+  ? - CRQU0905
+    - CSNU0905
+  : -1
+  ? - CPSYNF25
+    - PCSYNF20
+  : 0.844
+  ? - SMPLUT35
+    - CSPLUT35
+  : -0.2
+  ? - CRQU0760
+    - CSNU0755
+  : 1
+  ? - DIBRGN75
+    - PCFBPL75
+  : 1
+  ? - INTSUM45
+    - WT371545
+  : 1
+  ? - CRQU0720
+    - NURQ0720
+  : 5
+  ? - WTNELE75
+    - WT283075
+  : 388.76505
+  ? - COST
+    - NURQ1045
+  : 28.17103
+  ? - WTELEC20
+    - WT312720
+  : 0.5406374
+  ? - WTELEC40
+    - WT402140
+  : 1.3495624
+  ? - WTNELE10
+    - WT401510
+  : 52.89464
+  ? - INTSUM25
+    - WT342725
+  : 1
+  ? - WTNELE50
+    - WT251550
+  : 95.95186
+  ? - COST
+    - WT282775
+  : -0.34324414
+  ? - CPADVX10
+    - PCADVX10
+  : -1
+  ? - INTSUM65
+    - WT371565
+  : 1
+  ? - CPLWRX40
+    - PCLWRX35
+  : 0.844
+  ? - DISWUX45
+    - PCHTRB40
+  : -0.005
+  ? - WTELEC40
+    - WT373040
+  : 1.2197831
+  ? - COST
+    - PCADVX45
+  : 1.4472178
+  ? - SMPLUT20
+    - PCFBPL20
+  : 0.16
+  ? - SMNATU10
+    - PCLWRX10
+  : 0.16
+  ? - WTELEC20
+    - WT251520
+  : 0.49531797
+  ? - WTELEC35
+    - WT282135
+  : 0.7831042
+  ? - WTNELE70
+    - WT341870
+  : 156.56226
+  ? - COST
+    - WT402430
+  : -5.068849
+  ? - COST
+    - WT402755
+  : -2.3128703
+  ? - COST
+    - WT342750
+  : -2.2979946
+  ? - WTELEC30
+    - WT401530
+  : 0.91171604
+  ? - INTSUM15
+    - WT281815
+  : 1
+  ? - COST
+    - WT402155
+  : -0.9905797
+  ? - COST
+    - NURQ0665
+  : 2.9065793
+  ? - WTNELE30
+    - WT251830
+  : 76.69657
+  ? - COST
+    - WT281815
+  : 17.58036
+  ? - COST
+    - WT372765
+  : -1.1316851
+  ? - CRQU0205
+    - NURQ0205
+  : 5
+  ? - INTSUM65
+    - WT372765
+  : 1
+  ? - CRQU0250
+    - CSNU0245
+  : 1
+  ? - WTNELE50
+    - WT252450
+  : 142.75113
+  ? - CRQU0940
+    - CSNU0940
+  : -1
+  ? - INTSUM55
+    - WT312455
+  : 1
+  ? - CRQU0515
+    - CSNU0510
+  : 1
+  ? - INTSUM30
+    - WT371530
+  : 1
+  ? - CPSWUX45
+    - PCSWUX40
+  : 0.844
+  ? - WTELEC10
+    - WT371510
+  : 0.41012844
+  ? - WTNELE55
+    - WT372755
+  : 186.03886
+  ? - COST
+    - WT371845
+  : 1.393869
+  ? - WTELEC50
+    - WT343050
+  : 1.5397505
+  ? - NCCOAL30
+    - DPELHY30
+  : 0.3
+  ? - WTELEC70
+    - WT282470
+  : 2.0586312
+  ? - COST
+    - NURQ1055
+  : 10.86115
+  ? - WTELEC75
+    - WT342775
+  : 3.5519252
+  ? - CRQU0525
+    - CSNU0525
+  : -1
+  ? - COST
+    - WT341565
+  : 1.8393805
+  ? - COST
+    - WT252120
+  : 13.52069
+  ? - INTSUM35
+    - WT253035
+  : 1
+  ? - CPELHY15
+    - PCELHY10
+  : 0.844
+  ? - SMPETG10
+    - CSPETG05
+  : 0.2
+  ? - COST
+    - WT252740
+  : -0.6408998
+  ? - SMPLUT10
+    - PCFBPL10
+  : 0.16
+  ? - WTNELE60
+    - WT403060
+  : 249.5335
+  ? - SMNATU70
+    - PCLWRX65
+  : -0.016
+  ? - SMPLUT45
+    - DPFBRX45
+  : -2
+  ? - WTELEC20
+    - WT281820
+  : 0.5175149
+  ? - WTELEC60
+    - ELECDM60
+  : -1
+  ? - INTSUM75
+    - WT372175
+  : 1
+  ? - INTSUM75
+    - WT372775
+  : 1
+  ? - INTSUM75
+    - WT282175
+  : 1
+  ? - CRQU0665
+    - CSNU0665
+  : -1
+  ? - INTSUM55
+    - WT282455
+  : 1
+  ? - SMCOAL10
+    - PCCOAL10
+  : 0.0657
+  ? - CPLWRX40
+    - PCLWRX40
+  : -1
+  ? - WTNELE20
+    - WT342120
+  : 67.06063
+  ? - INTSUM50
+    - WT371550
+  : 1
+  ? - INTSUM45
+    - WT282445
+  : 1
+  ? - WTNELE40
+    - WT251540
+  : 82.67857
+  ? - WTNELE30
+    - WT252130
+  : 82.55151
+  ? - INTSUM55
+    - WT372455
+  : 1
+  ? - CPLWRX60
+    - PCLWRX60
+  : -1
+  ? - INTSUM55
+    - WT403055
+  : 1
+  ? - WTNELE30
+    - WT371530
+  : 71.24142
+  ? - WTNELE35
+    - WT313035
+  : 119.17859
+  ? - SMNATU10
+    - DPLWRX10
+  : 0.5
+  ? - COST
+    - WT281855
+  : 3.1776376
+  ? - COST
+    - WT372130
+  : 0.08295081
+  ? - CRQU0140
+    - CSNU0140
+  : -1
+  ? - DISWUX40
+    - PCSWUX40
+  : -1
+  ? - COST
+    - PCADVX10
+  : 40.67035
+  ? - COST
+    - WT283025
+  : -5.3991218
+  ? - COST
+    - NURQ0135
+  : 8.596283
+  ? - COST
+    - WT252720
+  : 2.2339852
+  ? - COST
+    - NURQ0140
+  : 5.3376155
+  ? - CPCOAL45
+    - PCCOAL45
+  : -1
+  ? - COST
+    - WT402760
+  : -1.7093194
+  ? - INTSUM65
+    - WT343065
+  : 1
+  ? - CRQU0100
+    - NURQ0100
+  : 5
+  ? - WTELEC15
+    - WT342115
+  : 0.4777839
+  ? - COST
+    - WT402745
+  : -4.0737615
+  ? - WTNELE25
+    - WT282725
+  : 83.6547
+  ? - INTSUM60
+    - WT252460
+  : 1
+  ? - WTELEC55
+    - WT252155
+  : 1.1754912
+  ? - CPPETG70
+    - PCPETG65
+  : 0.844
+  ? - DMELEC40
+    - ELECDM40
+  : -1
+  ? - CRQU0165
+    - NURQ0165
+  : 5
+  ? - CPFBRX20
+    - PCFBRX20
+  : -1
+  ? - DISWUX60
+    - PCHTRB55
+  : -0.005
+  ? - WTNELE65
+    - WT342765
+  : 242.83324
+  ? - DMELEC15
+    - ELECDM15
+  : -1
+  ? - CPADVX75
+    - PCADVX70
+  : 0.844
+  ? - CRQU0450
+    - NURQ0450
+  : 5
+  ? - COST
+    - PCSYNF35
+  : 0.71635693
+  ? - CRQU0230
+    - CSNU0230
+  : -1
+  ? - WTELEC35
+    - WT253035
+  : 0.7173681
+  ? - DMELEC45
+    - PCLWRX45
+  : 1
+  ? - COST
+    - WT252165
+  : 1.215125
+  ? - DMNELE70
+    - NELEDM70
+  : -1
+  ? - WTELEC75
+    - WT282775
+  : 2.3634377
+  ? - SMNATU55
+    - NURQ0655
+  : -1
+  ? - INTSUM70
+    - WT312770
+  : 1
+  ? - WTELEC35
+    - WT371835
+  : 1.0171589
+  ? - WTNELE10
+    - WT251810
+  : 53.68097
+  ? - WTELEC60
+    - WT282760
+  : 1.5618792
+  ? - COST
+    - WT311520
+  : 20.05852
+  ? - COST
+    - WT281535
+  : 14.41924
+  ? - INTSUM60
+    - WT252760
+  : 1
+  ? - INTSUM70
+    - WT401570
+  : 1
+  ? - CPELHY30
+    - PCELHY30
+  : -1
+  ? - CRQU0355
+    - NURQ0355
+  : 5
+  ? - DISWUX05
+    - PCLWRX05
+  : 0.11
+  ? - CPSWUX40
+    - PCSWUX40
+  : -1
+rhs:
+  RHS:
+    SMCOAL50: -0.02367309
+    SMCOAL65: -0.03688191
+    CRQU0375: 1
+    CRQU1075: 1
+    DMELEC25: -0.130688
+    DMNELE35: -22
+    SMCOAL15: -0.01412
+    INTSUM75: 1
+    SMCOAL30: -0.01310722
+    SMCOAL45: -0.02042062
+    DMELEC70: -0.080271
+    DMELEC35: -0.056664
+    CRQU0575: 1
+    DMELEC50: -0.065785
+    INTSUM10: 1
+    SMPETG25: -0.01135
+    SMCOAL10: -0.01381
+    DMELEC30: -0.053914
+    INTSUM25: 1
+    INTSUM40: 1
+    INTSUM20: 1
+    SMPETG10: -0.03459
+    INTSUM55: 1
+    SMPETG20: -0.02065
+    INTSUM35: 1
+    INTSUM50: 1
+    DMNELE75: -38
+    SMCOAL60: -0.03181466
+    DMNELE15: -37.6373
+    INTSUM45: 1
+    DMELEC75: -0.084365
+    SMCOAL55: -0.0274436
+    DMNELE45: -26
+    INTSUM15: 1
+    CRQU0875: 1
+    DMELEC05: 0.101835
+    DMELEC15: -0.204548
+    DMELEC20: -0.174152
+    DMNELE55: -30
+    DMNELE70: -36
+    CRQU0475: 1
+    SMCOAL40: -0.017615
+    SMCOAL35: -0.01519486
+    CRQU0275: 1
+    CRQU0775: 1
+    INTSUM70: 1
+    CRQU0675: 1
+    CRQU0175: 1.5
+    SMPETG15: -0.0283
+    DMNELE60: -32
+    INTSUM65: 1
+    INTSUM30: 1
+    SMPETG05: -0.03975
+    DMELEC40: -0.059555
+    DMNELE65: -34
+    SMCOAL05: -0.01341
+    DMNELE40: -24
+    DMELEC10: -0.225654
+    DMNELE20: -32.9564
+    DMELEC55: -0.069141
+    DMNELE50: -28
+    SMCOAL00: -0.01298
+    DMNELE30: -20
+    SMPETG00: -0.044
+    SMCOAL70: -0.04275624
+    SMCOAL25: -0.01418
+    DMNELE05: 1.1911
+    DMELEC45: -0.062592
+    DMELEC60: -0.072668
+    CRPETG75: 2
+    DMNELE10: -43.234
+    DMNELE25: -27.0076
+    INTSUM60: 1
+    SMCOAL20: -0.01427
+    SMCOAL75: -0.0495662
+    DMELEC65: -0.076375
+    CRQU0975: 1
+bounds: {}
+ranges: {}
+

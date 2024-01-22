@@ -1,0 +1,14014 @@
+---
+source: tests/model.rs
+expression: model
+---
+name: TUFF
+row_types:
+  B5H...BW: Eq
+  B5K...BW: Eq
+  NOI.G0BW: Geq
+  WSU.G8BW: Eq
+  BSD...BW: Eq
+  N02.G4BW: Geq
+  X12.G4BW: Leq
+  B5S...BW: Eq
+  BTS...BW: Eq
+  BX1...BW: Eq
+  B6....BW: Eq
+  W12.G4BW: Eq
+  BFU...BW: Eq
+  CTF.FHBW: Eq
+  GOI...BW: Geq
+  B3B...BW: Eq
+  CTF.F2BW: Eq
+  BXU...BW: Eq
+  UNF...BW: Eq
+  BLI...BW: Eq
+  BSN...BW: Eq
+  BTO...BW: Eq
+  BTR...BW: Eq
+  U9R...BW: Eq
+  NOI.G4BW: Geq
+  BPQ...BW: Eq
+  BF1...BW: Eq
+  CTF.FTBW: Eq
+  BU4...BW: Eq
+  BXZ...BW: Eq
+  BX6...BW: Eq
+  B3N...BW: Eq
+  B2I...BW: Eq
+  CTV.2XBW: Eq
+  X12.G8BW: Leq
+  BN4...BW: Eq
+  BXL...BW: Eq
+  BBI...BW: Eq
+  BXK...BW: Eq
+  BTE...BW: Eq
+  BTF...BW: Eq
+  NWU.G8BW: Geq
+  BXH...BW: Eq
+  B2L...BW: Eq
+  NGS.G2BW: Geq
+  BU5...BW: Eq
+  BG4.WTBW: Eq
+  BZD...BW: Eq
+  BFM...BW: Eq
+  BR1...BW: Eq
+  B1N...BW: Eq
+  CTF.P1BW: Eq
+  W02.G4BW: Eq
+  B...ML..: Nr
+  BGS...BW: Eq
+  BX3...BW: Eq
+  NMO.G2BW: Geq
+  X12.G2BW: Leq
+  BXX...BW: Eq
+  W58.G8BW: Eq
+  BXT...BW: Eq
+  BX5...BW: Eq
+  BSB...BW: Eq
+  WSU.G4BW: Eq
+  BFP...BW: Eq
+  BK4...BW: Eq
+  BG4.VOBW: Eq
+  BFX...BW: Eq
+  B4A...BW: Eq
+  WRO.G8BW: Eq
+  BXP...BW: Eq
+  WMO.G2BW: Eq
+  BXD...BW: Eq
+  BTL...BW: Eq
+  BTD...BW: Eq
+  B4C...BW: Eq
+  CTP.A.BW: Eq
+  B5G...BW: Eq
+  W12.G2BW: Eq
+  W02.G8BW: Eq
+  X58.G4BW: Leq
+  B4M...BW: Eq
+  B4I...BW: Eq
+  B2O...BW: Eq
+  NMO.G8BW: Geq
+  BFJ...BW: Eq
+  B2J...BW: Eq
+  BTJ...BW: Eq
+  BTP...BW: Eq
+  CTF.I.BW: Eq
+  BC3...BW: Eq
+  BX2...BW: Eq
+  B4....BW: Eq
+  B4N...BW: Eq
+  BSU...BW: Eq
+  WRO.G4BW: Eq
+  XCV.G8BW: Leq
+  BG2.VOBW: Eq
+  BXW...BW: Eq
+  BX4...BW: Eq
+  BSR...BW: Eq
+  B3L...BW: Eq
+  B5I...BW: Eq
+  U.S...BW: Eq
+  CTF.P2BW: Eq
+  B4U...BW: Eq
+  BXR...BW: Eq
+  BIS...BW: Eq
+  BXJ...BW: Eq
+  B5B...BW: Eq
+  BK3...BW: Eq
+  CTF.ASBW: Eq
+  B1L...BW: Eq
+  NOI.G9BW: Geq
+  COF.A.BW: Eq
+  WVP.G2BW: Eq
+  BTA...BW: Eq
+  BTZ...BW: Eq
+  BA3...BW: Eq
+  BZA...BW: Eq
+  B8....BW: Eq
+  B2B...BW: Eq
+  B3O...BW: Eq
+  BXI...BW: Eq
+  BTT...BW: Eq
+  WVP.G4BW: Eq
+  XSP.G8BW: Leq
+  CTF.C.BW: Eq
+  BSG...BW: Eq
+  B3J...BW: Eq
+  B3K...BW: Eq
+  BG2...BW: Eq
+  BSE...BW: Eq
+  BTG...BW: Eq
+  BTQ...BW: Eq
+  BH....BW: Eq
+  CTV.P2BW: Eq
+  BK1...BW: Eq
+  B5A...BW: Eq
+  BLP...BW: Eq
+  BSJ...BW: Eq
+  NOI.G3BW: Geq
+  WSU.G2BW: Eq
+  BFL...BW: Eq
+  BFQ...BW: Eq
+  B2M...BW: Eq
+  BSK...BW: Eq
+  BPV...BW: Eq
+  BPI...BW: Eq
+  BSO...BW: Eq
+  BPH...BW: Eq
+  BXM...BW: Eq
+  B5O...BW: Eq
+  BTX...BW: Eq
+  B4G...BW: Eq
+  NWU.G2BW: Geq
+  NGS.G4BW: Geq
+  B3M...BW: Eq
+  CTF.FSBW: Eq
+  BSH...BW: Eq
+  URX...BW: Eq
+  BZC...BW: Eq
+  CTC.P3BW: Eq
+  BF3...BW: Eq
+  BSQ...BW: Eq
+  B4D...BW: Eq
+  BFN...BW: Eq
+  BFD...BW: Eq
+  BSC...BW: Eq
+  BZJ...BW: Eq
+  BFS...BW: Eq
+  B1J...BW: Eq
+  B4B...BW: Eq
+  N02.G8BW: Geq
+  BPZ...BW: Eq
+  BTW...BW: Eq
+  BXE...BW: Eq
+  CBF.F.BW: Eq
+  BLF...BW: Eq
+  BK5...BW: Eq
+  BZH...BW: Eq
+  BSA...BW: Eq
+  B2D...BW: Eq
+  B3A...BW: Eq
+  CTC.P2BW: Eq
+  BXC...BW: Eq
+  BFI...BW: Eq
+  BN5...BW: Eq
+  B5J...BW: Eq
+  BG8.WTBW: Eq
+  BXQ...BW: Eq
+  BXV...BW: Eq
+  B2G...BW: Eq
+  B2A...BW: Eq
+  B5M...BW: Eq
+  BPE...BW: Eq
+  CBF.P1BW: Eq
+  BK6...BW: Eq
+  CTF.FMBW: Eq
+  BXN...BW: Eq
+  XCV.G2BW: Leq
+  CTF.P3BW: Eq
+  X58.G8BW: Leq
+  BPG...BW: Eq
+  CTF.ISBW: Eq
+  B5C...BW: Eq
+  B2H...BW: Eq
+  BPU...BW: Eq
+  BTB...BW: Eq
+  BLH...BW: Eq
+  BFE...BW: Eq
+  BST...BW: Eq
+  B5L...BW: Eq
+  NRO.G4BW: Geq
+  B1M...BW: Eq
+  NMO.G4BW: Geq
+  WMO.G4BW: Eq
+  X58.G2BW: Leq
+  BFY...BW: Eq
+  CBF.2XBW: Eq
+  BG2.WTBW: Eq
+  B2N...BW: Eq
+  NOI.G5BW: Geq
+  B4L...BW: Eq
+  BI4...BW: Eq
+  BTK...BW: Eq
+  BTV...BW: Eq
+  BCD...BW: Eq
+  B9....BW: Eq
+  BXA...BW: Eq
+  BG4...BW: Eq
+  B1A...BW: Eq
+  BXF...BW: Eq
+  BZI...BW: Eq
+  B1H...BW: Eq
+  NOI.G2BW: Geq
+  B4J...BW: Eq
+  BSI...BW: Eq
+  XSP.G4BW: Leq
+  B3U...BW: Eq
+  B1G...BW: Eq
+  B3D...BW: Eq
+  BK2...BW: Eq
+  BYU...BW: Eq
+  B4K...BW: Eq
+  BC4...BW: Eq
+  B4O...BW: Eq
+  XVP.G8BW: Leq
+  B2C...BW: Eq
+  BTC...BW: Eq
+  CTV.P3BW: Eq
+  W58.G2BW: Eq
+  BXS...BW: Eq
+  BTY...BW: Eq
+  B3C...BW: Eq
+  B4H...BW: Eq
+  BLL...BW: Eq
+  B3H...BW: Eq
+  B5D...BW: Eq
+  CTF.PSBW: Eq
+  B3G...BW: Eq
+  BI5...BW: Eq
+  XVP.G2BW: Leq
+  XVP.G4BW: Leq
+  W02.G2BW: Eq
+  NOI.G7BW: Geq
+  BZF...BW: Eq
+  BLV...BW: Eq
+  CTC.P1BW: Eq
+  BG8...BW: Eq
+  BSP...BW: Eq
+  B2K...BW: Eq
+  NOI.G1BW: Geq
+  XSP.G2BW: Leq
+  CTF.IHBW: Eq
+  BSF...BW: Eq
+  WMO.G8BW: Eq
+  BTU...BW: Eq
+  BFH...BW: Eq
+  NGS.G8BW: Geq
+  BZE...BW: Eq
+  BFO...BW: Eq
+  N02.G2BW: Geq
+  WVP.G8BW: Eq
+  BFT...BW: Eq
+  CTF.E.BW: Eq
+  NWU.G4BW: Geq
+  BTH...BW: Eq
+  B5U...BW: Eq
+  CTC.2XBW: Eq
+  B1B...BW: Eq
+  NRO.G8BW: Geq
+  CTP.FTBW: Eq
+  BHC...BW: Eq
+  BXO...BW: Eq
+  UH2...BW: Eq
+  BFF...BW: Eq
+  XCV.G4BW: Leq
+  B4Z...BW: Eq
+  CTF.LSBW: Eq
+  BXB...BW: Eq
+  BXG...BW: Eq
+  CTF.A.BW: Eq
+  BTN...BW: Eq
+  BIT...BW: Eq
+  BPT...BW: Eq
+  BZB...BW: Eq
+  B3I...BW: Eq
+  B1C...BW: Eq
+  B1D...BW: Eq
+  BG8.VOBW: Eq
+  BCP...BW: Eq
+  CBF.P2BW: Eq
+  B5N...BW: Eq
+  NOI.G6BW: Geq
+  UFU...BW: Eq
+  BA5...BW: Eq
+  BTM...BW: Eq
+  BA4...BW: Eq
+  CTF.PHBW: Eq
+  B1I...BW: Eq
+  CTF.H.BW: Eq
+  B1O...BW: Eq
+  CTV.P1BW: Eq
+  NRO.G2BW: Geq
+  BFK...BW: Eq
+  BZG...BW: Eq
+  BF2...BW: Eq
+  BTI...BW: Eq
+  NOI.G8BW: Geq
+  WRO.G2BW: Eq
+  W58.G4BW: Eq
+  B1K...BW: Eq
+  W12.G8BW: Eq
+values:
+  ? - BG8.VOBW
+    - BX1.G8BW
+  : 1
+  ? - BXP...BW
+    - PTQ.TIBW
+  : 1
+  ? - BFM...BW
+    - BFM.G2BW
+  : -1
+  ? - UH2...BW
+    - PSG.FHBW
+  : -0.21508
+  ? - W12.G8BW
+    - BXL.G8BW
+  : -27
+  ? - BIS...BW
+    - BIS.G2BW
+  : -1
+  ? - BFJ...BW
+    - BFJ.G2BW
+  : -1
+  ? - UNF...BW
+    - UNF.BYBW
+  : 1
+  ? - B2A...BW
+    - B2A.G2BW
+  : -1
+  ? - NGS.G4BW
+    - BLV.G4BW
+  : 0.67
+  ? - NGS.G8BW
+    - BXP.G8BW
+  : 0.81
+  ? - UFU...BW
+    - PSB.E.BW
+  : -0.006
+  ? - UFU...BW
+    - PTZ.FHBW
+  : -0.002
+  ? - WSU.G8BW
+    - BFN.G8BW
+  : 0.00756
+  ? - WSU.G8BW
+    - BXM.G8BW
+  : 0.01605
+  ? - BG2.VOBW
+    - BXE.G2BW
+  : 1
+  ? - W12.G2BW
+    - B1H.G2BW
+  : 16.5
+  ? - XVP.G8BW
+    - WVP2G8BW
+  : 1
+  ? - WMO.G2BW
+    - BFE.G2BW
+  : 81.05526
+  ? - NGS.G4BW
+    - B1J.G4BW
+  : 0.81
+  ? - W02.G8BW
+    - BFQ.G8BW
+  : 80
+  ? - WVP.G4BW
+    - BX1.G4BW
+  : 2.35
+  ? - WVP.G8BW
+    - BLF.G8BW
+  : 14.8
+  ? - NGS.G8BW
+    - BXJ.G8BW
+  : 0.786
+  ? - NGS.G8BW
+    - BFH.G8BW
+  : 0.795
+  ? - NGS.G8BW
+    - B2O.G8BW
+  : 0.852
+  ? - CTF.A.BW
+    - P3U.A.BW
+  : -2.198
+  ? - B5S...BW
+    - PTS.ASBW
+  : 0.1
+  ? - BCP...BW
+    - PCP.F.BW
+  : -1
+  ? - BFL...BW
+    - BFL.G4BW
+  : -1
+  ? - BTR...BW
+    - PTR.TNBW
+  : -1
+  ? - W58.G4BW
+    - B2M.G4BW
+  : -14.7
+  ? - BSR...BW
+    - PSQ.ISBW
+  : 0.835
+  ? - W02.G2BW
+    - B1H.G2BW
+  : 79.8
+  ? - WSU.G4BW
+    - BPU.G4BW
+  : 0.0201
+  ? - BFY...BW
+    - PSA.E.BW
+  : 0.51
+  ? - W02.G2BW
+    - BLH.G2BW
+  : 100
+  ? - W12.G8BW
+    - B1K.G8BW
+  : 71
+  ? - NGS.G8BW
+    - B2M.G8BW
+  : 0.885
+  ? - WVP.G8BW
+    - BX2.G8BW
+  : 2.68
+  ? - WVP.G4BW
+    - B2L.G4BW
+  : 1.17
+  ? - W12.G2BW
+    - B5O.G2BW
+  : 86.2
+  ? - BSU...BW
+    - P1C.PSBW
+  : 0.12236
+  ? - WMO.G2BW
+    - BXN.G2BW
+  : 81.45002
+  ? - W58.G2BW
+    - BX3.G2BW
+  : -14
+  ? - BFM...BW
+    - BFM.G8BW
+  : -1
+  ? - WRO.G2BW
+    - BU4.G2BW
+  : 103.85185
+  ? - NGS.G2BW
+    - BTO.G2BW
+  : 0.872
+  ? - B5H...BW
+    - B5H.G8BW
+  : -1
+  ? - CTF.PSBW
+    - PTQ.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BA5.G4BW
+  : 89.22463
+  ? - WRO.G4BW
+    - B5I.G4BW
+  : 73.10682
+  ? - WRO.G2BW
+    - BA3.G2BW
+  : 91.85397
+  ? - NGS.G8BW
+    - BFU.G8BW
+  : 0.805
+  ? - BG8.WTBW
+    - B1O.G8BW
+  : 0.823
+  ? - WVP.G8BW
+    - B2A.G8BW
+  : 1.18
+  ? - B2M...BW
+    - P1M.PSBW
+  : 0.84358
+  ? - W02.G8BW
+    - BFS.G8BW
+  : 100
+  ? - WRO.G8BW
+    - B5A.G8BW
+  : 92.06722
+  ? - WSU.G2BW
+    - BI5.G2BW
+  : 0.00156
+  ? - BXT...BW
+    - PTG.TFBW
+  : 1
+  ? - W12.G2BW
+    - BXC.G2BW
+  : -13.2
+  ? - BG2.WTBW
+    - BA4.G2BW
+  : 0.703
+  ? - BG2.VOBW
+    - BN5.G2BW
+  : 1
+  ? - BG2.WTBW
+    - B5C.G2BW
+  : 0.752
+  ? - W12.G2BW
+    - BFE.G2BW
+  : 84
+  ? - NGS.G4BW
+    - B5L.G4BW
+  : 0.756
+  ? - NGS.G4BW
+    - BXI.G4BW
+  : 0.795
+  ? - WSU.G4BW
+    - BFH.G4BW
+  : 0.10891
+  ? - W12.G4BW
+    - W122G4BW
+  : -1
+  ? - BG2.WTBW
+    - B1B.G2BW
+  : 0.806
+  ? - W58.G2BW
+    - BFX.G2BW
+  : -21
+  ? - CTF.A.BW
+    - CTF.A.BW
+  : 1
+  ? - W12.G8BW
+    - BFO.G8BW
+  : 1
+  ? - UFU...BW
+    - PTS.FTBW
+  : -0.009
+  ? - W58.G8BW
+    - B2M.G8BW
+  : -14.7
+  ? - W58.G2BW
+    - BHC.G2BW
+  : 1
+  ? - WRO.G2BW
+    - BXE.G2BW
+  : 86.32131
+  ? - WSU.G2BW
+    - BXN.G2BW
+  : 0.00756
+  ? - NGS.G4BW
+    - BLL.G4BW
+  : 0.658
+  ? - W12.G8BW
+    - BPE.G8BW
+  : 98
+  ? - BHC...BW
+    - BHC.G2BW
+  : -1
+  ? - WMO.G2BW
+    - B2J.G2BW
+  : 92.88876
+  ? - BYU...BW
+    - PCP.F1BW
+  : 0.0745
+  ? - BG2.WTBW
+    - BFM.G2BW
+  : 0.692
+  ? - WVP.G2BW
+    - B5A.G2BW
+  : 3.47
+  ? - CBF.P1BW
+    - PTA.P1BW
+  : -1
+  ? - W12.G8BW
+    - BFS.G8BW
+  : 88
+  ? - BSF...BW
+    - PSF.TDBW
+  : -1
+  ? - BH....BW
+    - PZI.2XBW
+  : 0.03858
+  ? - BXU...BW
+    - BXU.G2BW
+  : -1
+  ? - BG2.VOBW
+    - BXR.G2BW
+  : 1
+  ? - W58.G2BW
+    - B1I.G2BW
+  : -1.6
+  ? - W58.G4BW
+    - BXR.G4BW
+  : -2.3
+  ? - BSN...BW
+    - U9R.GHBW
+  : -1
+  ? - BU5...BW
+    - BU5.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BXB.G2BW
+  : 0.796
+  ? - UH2...BW
+    - PZH.P2BW
+  : 1.19474
+  ? - B5I...BW
+    - B5I.G8BW
+  : -1
+  ? - WMO.G8BW
+    - B2A.G8BW
+  : 92.94314
+  ? - WMO.G2BW
+    - BX2.G2BW
+  : 80.78009
+  ? - CTF.FSBW
+    - PSG.FSBW
+  : -1
+  ? - W58.G2BW
+    - BXD.G2BW
+  : -8
+  ? - CTF.FHBW
+    - PTN.FHBW
+  : -1
+  ? - WVP.G2BW
+    - B1H.G2BW
+  : 3.61
+  ? - BSJ...BW
+    - PZJ.P2BW
+  : 0.03841
+  ? - WMO.G8BW
+    - B2D.G8BW
+  : 91.2576
+  ? - B1J...BW
+    - B1J.G8BW
+  : -1
+  ? - BGS...BW
+    - PPI.F.BW
+  : 0.0435
+  ? - BH....BW
+    - PGS.H.BW
+  : 1
+  ? - WSU.G4BW
+    - BXX.G4BW
+  : 0.0007
+  ? - UFU...BW
+    - PLI.ISBW
+  : -0.009
+  ? - WRO.G2BW
+    - BA5.G2BW
+  : 93.37346
+  ? - BXH...BW
+    - BXH.G8BW
+  : -1
+  ? - BG8.WTBW
+    - B2J.G8BW
+  : 0.834
+  ? - B5O...BW
+    - B5O.G8BW
+  : -1
+  ? - WMO.G4BW
+    - BFD.G4BW
+  : 78.67732
+  ? - NGS.G8BW
+    - BU4.G8BW
+  : 0.62
+  ? - WMO.G2BW
+    - B1M.G2BW
+  : 86.84432
+  ? - BLI...BW
+    - ELI...BW
+  : 1
+  ? - BG2.VOBW
+    - B5O.G2BW
+  : 1
+  ? - W12.G2BW
+    - BXP.G2BW
+  : 3.7
+  ? - W02.G4BW
+    - B2A.G4BW
+  : 95.2
+  ? - BTV...BW
+    - PTS.FTBW
+  : 0.62
+  ? - NGS.G4BW
+    - BX1.G4BW
+  : 0.753
+  ? - W12.G8BW
+    - BXH.G8BW
+  : -27
+  ? - WMO.G4BW
+    - BXG.G4BW
+  : 91.595
+  ? - CBF.P2BW
+    - CBF.P2BW
+  : 1
+  ? - BSQ...BW
+    - PSQ.M.BW
+  : -1
+  ? - B2K...BW
+    - B2K.G4BW
+  : -1
+  ? - WRO.G4BW
+    - BU4.G4BW
+  : 103.85185
+  ? - NRO.G4BW
+    - WRO2G4BW
+  : 1
+  ? - WMO.G4BW
+    - BXT.G4BW
+  : 76.0144
+  ? - BG8.WTBW
+    - BI4.G8BW
+  : 0.563
+  ? - W58.G4BW
+    - BIT.G4BW
+  : 80
+  ? - BSR...BW
+    - PSR.M.BW
+  : -1
+  ? - W02.G4BW
+    - B1L.G4BW
+  : 82
+  ? - NGS.G8BW
+    - BFD.G8BW
+  : 0.786
+  ? - WSU.G8BW
+    - BPU.G8BW
+  : 0.0201
+  ? - NGS.G2BW
+    - B5A.G2BW
+  : 0.684
+  ? - BG2.VOBW
+    - B2I.G2BW
+  : 1
+  ? - NGS.G8BW
+    - BFP.G8BW
+  : 0.811
+  ? - B1I...BW
+    - B1I.G4BW
+  : -1
+  ? - BG8.WTBW
+    - BPQ.G8BW
+  : 0.66
+  ? - BXL...BW
+    - BXL.G8BW
+  : -1
+  ? - BG8.VOBW
+    - B1G.G8BW
+  : 1
+  ? - BG8.VOBW
+    - BXL.G8BW
+  : 1
+  ? - WMO.G4BW
+    - B2J.G4BW
+  : 92.88876
+  ? - WMO.G8BW
+    - BFJ.G8BW
+  : 76.21092
+  ? - B8....BW
+    - D8....BW
+  : -1
+  ? - B1N...BW
+    - B1N.G2BW
+  : -1
+  ? - BG4.VOBW
+    - BLF.G4BW
+  : 1
+  ? - WSU.G2BW
+    - BXL.G2BW
+  : 0.00056
+  ? - W58.G2BW
+    - B5G.G2BW
+  : 0.9
+  ? - WVP.G4BW
+    - BA3.G4BW
+  : 6
+  ? - BG4.VOBW
+    - BFJ.G4BW
+  : 1
+  ? - W02.G4BW
+    - BX4.G4BW
+  : 71.3
+  ? - WSU.G4BW
+    - BLH.G4BW
+  : 0.0213
+  ? - BG4.VOBW
+    - BX6.G4BW
+  : 1
+  ? - BXE...BW
+    - BXE.G8BW
+  : -1
+  ? - WVP.G2BW
+    - BA5.G2BW
+  : 6
+  ? - W02.G8BW
+    - B2N.G8BW
+  : 75.1
+  ? - WVP.G8BW
+    - B5B.G8BW
+  : 2.36
+  ? - WSU.G8BW
+    - BFT.G8BW
+  : 0.0897
+  ? - W58.G2BW
+    - BXP.G2BW
+  : -2.2
+  ? - BSI...BW
+    - PTE.P3BW
+  : 0.0221
+  ? - CTF.E.BW
+    - PSB.E.BW
+  : -1
+  ? - W12.G4BW
+    - BXH.G4BW
+  : -27
+  ? - WMO.G4BW
+    - B5L.G4BW
+  : 71.98974
+  ? - W58.G8BW
+    - BFL.G8BW
+  : 47
+  ? - BLI...BW
+    - BLI.G2BW
+  : -1
+  ? - B1N...BW
+    - PK4.TABW
+  : 1
+  ? - WMO.G8BW
+    - B2H.G8BW
+  : 92.2581
+  ? - CTV.P1BW
+    - PPH.P1BW
+  : -1
+  ? - BXN...BW
+    - BXN.G8BW
+  : -1
+  ? - WMO.G2BW
+    - B5D.G2BW
+  : 71.71782
+  ? - NGS.G4BW
+    - BPE.G4BW
+  : 0.669
+  ? - WRO.G2BW
+    - BXC.G2BW
+  : 109.08673
+  ? - NGS.G2BW
+    - B1M.G2BW
+  : 0.845
+  ? - CTC.P1BW
+    - PPH.P1BW
+  : -0.00001
+  ? - NGS.G2BW
+    - BPQ.G2BW
+  : 0.66
+  ? - W58.G4BW
+    - BXL.G4BW
+  : -19
+  ? - BG2.WTBW
+    - BXP.G2BW
+  : 0.81
+  ? - WRO.G2BW
+    - BXP.G2BW
+  : 105.15159
+  ? - W02.G8BW
+    - BFD.G8BW
+  : 50
+  ? - BA5...BW
+    - BA5.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BFD.G8BW
+  : 1
+  ? - WVP.G8BW
+    - BF3.G8BW
+  : 1.02
+  ? - CTC.P1BW
+    - PTD.P1BW
+  : -1
+  ? - W58.G8BW
+    - BLL.G8BW
+  : 73
+  ? - WRO.G4BW
+    - BU5.G4BW
+  : 104.38066
+  ? - BHC...BW
+    - EHC...BW
+  : 1
+  ? - XSP.G2BW
+    - QWT2G2BW
+  : -240
+  ? - BFU...BW
+    - BFU.G8BW
+  : -1
+  ? - BFF...BW
+    - PTD.TGBW
+  : 1
+  ? - BTZ...BW
+    - PTZ.FHBW
+  : -1
+  ? - WVP.G4BW
+    - B2I.G4BW
+  : 1.35
+  ? - CTF.FSBW
+    - PSH.FSBW
+  : -1
+  ? - U9R...BW
+    - U9R.GLBW
+  : 0.696
+  ? - WVP.G4BW
+    - B1C.G4BW
+  : 2.98
+  ? - W02.G4BW
+    - B2H.G4BW
+  : 71.1
+  ? - W12.G2BW
+    - B5J.G2BW
+  : 70.2
+  ? - W12.G8BW
+    - BXF.G8BW
+  : 10
+  ? - BG2.VOBW
+    - BA5.G2BW
+  : 1
+  ? - W02.G2BW
+    - BX3.G2BW
+  : 73
+  ? - WRO.G4BW
+    - B1L.G4BW
+  : 99.30716
+  ? - B4....BW
+    - PSN.M.BW
+  : 1
+  ? - W58.G8BW
+    - BXX.G8BW
+  : -21
+  ? - BG8.WTBW
+    - B5B.G8BW
+  : 0.756
+  ? - U9R...BW
+    - PPI.F1BW
+  : -0.007
+  ? - W58.G4BW
+    - W582G4BW
+  : -1
+  ? - BG8.WTBW
+    - BXU.G8BW
+  : 0.805
+  ? - W58.G2BW
+    - BA5.G2BW
+  : 21.1
+  ? - WMO.G2BW
+    - B5I.G2BW
+  : 71.95043
+  ? - WVP.G4BW
+    - B2J.G4BW
+  : 1.01
+  ? - CBF.P1BW
+    - HBF.P1BW
+  : 1
+  ? - BXU...BW
+    - PTZ.TNBW
+  : 1
+  ? - BLP...BW
+    - PZH.2XBW
+  : 0.05646
+  ? - BLL...BW
+    - PSR.TKBW
+  : 1
+  ? - W02.G2BW
+    - BLF.G2BW
+  : 101
+  ? - WMO.G2BW
+    - B2N.G2BW
+  : 91.2576
+  ? - W58.G8BW
+    - BPT.G8BW
+  : 58
+  ? - BYU...BW
+    - PCP.F.BW
+  : 0.034
+  ? - W58.G8BW
+    - BXK.G8BW
+  : -21
+  ? - WRO.G4BW
+    - BN5.G4BW
+  : 71.85843
+  ? - BH....BW
+    - PCD.C.BW
+  : -0.00585
+  ? - W02.G2BW
+    - B2D.G2BW
+  : 75.1
+  ? - BLP...BW
+    - PTE.P1BW
+  : 0.04606
+  ? - WVP.G4BW
+    - BLL.G4BW
+  : 14.8
+  ? - WVP.G2BW
+    - B1C.G2BW
+  : 2.98
+  ? - WRO.G8BW
+    - B2H.G8BW
+  : 108.951
+  ? - WRO.G4BW
+    - BX2.G4BW
+  : 89.0308
+  ? - W02.G8BW
+    - BXR.G8BW
+  : 77.2
+  ? - WMO.G4BW
+    - BFF.G4BW
+  : 73.78616
+  ? - BG4.VOBW
+    - BXL.G4BW
+  : 1
+  ? - WRO.G2BW
+    - BXK.G2BW
+  : 80.33046
+  ? - W02.G4BW
+    - BPV.G4BW
+  : 100
+  ? - BTW...BW
+    - PTW.TNBW
+  : -1
+  ? - W58.G8BW
+    - BXT.G8BW
+  : -2
+  ? - WRO.G8BW
+    - BF1.G8BW
+  : 109.60858
+  ? - X58.G4BW
+    - QVO2G4BW
+  : -45
+  ? - W58.G8BW
+    - BXD.G8BW
+  : -8
+  ? - W58.G8BW
+    - B1K.G8BW
+  : 23.5
+  ? - WMO.G2BW
+    - BXC.G2BW
+  : 91.58015
+  ? - U9R...BW
+    - PZH.P2BW
+  : -0.083
+  ? - BG2.VOBW
+    - BFF.G2BW
+  : 1
+  ? - BSP...BW
+    - PCD.C.BW
+  : 0.0183
+  ? - BLP...BW
+    - PZI.P2BW
+  : 0.06316
+  ? - UNF...BW
+    - PTE.P3BW
+  : -0.006
+  ? - WRO.G2BW
+    - B5L.G2BW
+  : 73.17229
+  ? - NGS.G2BW
+    - BXT.G2BW
+  : 0.78
+  ? - BGS...BW
+    - PTA.P1BW
+  : 0.07564
+  ? - CTF.P2BW
+    - PZF.P2BW
+  : -1
+  ? - BG4.VOBW
+    - BN4.G4BW
+  : 1
+  ? - BXR...BW
+    - BXR.G4BW
+  : -1
+  ? - WMO.G4BW
+    - B1J.G4BW
+  : 91.25379
+  ? - BG4.VOBW
+    - B2K.G4BW
+  : 1
+  ? - WMO.G2BW
+    - BPE.G2BW
+  : 82.21873
+  ? - BG4.WTBW
+    - BXD.G4BW
+  : 0.786
+  ? - W12.G4BW
+    - B2H.G4BW
+  : -9.2
+  ? - NGS.G4BW
+    - BFJ.G4BW
+  : 0.786
+  ? - BSE...BW
+    - PSE.FHBW
+  : -1
+  ? - BTL...BW
+    - PTL.TLBW
+  : -1
+  ? - W58.G8BW
+    - BI5.G8BW
+  : 95
+  ? - BG2.VOBW
+    - BXS.G2BW
+  : 1
+  ? - BG2.WTBW
+    - BFI.G2BW
+  : 0.786
+  ? - BTX...BW
+    - PTL.FSBW
+  : 0.8
+  ? - W02.G2BW
+    - BXD.G2BW
+  : 50
+  ? - BPH...BW
+    - PPH.P1BW
+  : -1
+  ? - NGS.G4BW
+    - BIT.G4BW
+  : 0.655
+  ? - WMO.G4BW
+    - BLL.G4BW
+  : 73.72027
+  ? - W12.G4BW
+    - B2K.G4BW
+  : 19.7
+  ? - NGS.G2BW
+    - BLH.G2BW
+  : 0.71
+  ? - WMO.G2BW
+    - BXH.G2BW
+  : 74.14184
+  ? - W12.G8BW
+    - BFL.G8BW
+  : 84
+  ? - W02.G8BW
+    - B1L.G8BW
+  : 82
+  ? - W58.G4BW
+    - B1O.G4BW
+  : -2.8
+  ? - WRO.G8BW
+    - B1D.G8BW
+  : 103.69118
+  ? - W02.G2BW
+    - BFQ.G2BW
+  : 80
+  ? - BG8.VOBW
+    - B2A.G8BW
+  : 1
+  ? - CTV.2XBW
+    - PZH.2XBW
+  : -1
+  ? - WRO.G8BW
+    - BA3.G8BW
+  : 91.85397
+  ? - BSJ...BW
+    - PSJ.M2BW
+  : -1
+  ? - W02.G8BW
+    - BXL.G8BW
+  : 28
+  ? - UNF...BW
+    - PPG.P1BW
+  : -0.003
+  ? - WMO.G4BW
+    - BPV.G4BW
+  : 73.15497
+  ? - BG2.VOBW
+    - BLH.G2BW
+  : 1
+  ? - BG4.VOBW
+    - B2O.G4BW
+  : 1
+  ? - W58.G2BW
+    - BPU.G2BW
+  : 50
+  ? - WRO.G8BW
+    - B2L.G8BW
+  : 102.76529
+  ? - W58.G8BW
+    - BXU.G8BW
+  : -21
+  ? - WSU.G2BW
+    - BN4.G2BW
+  : 0.00117
+  ? - BG4.WTBW
+    - BFN.G4BW
+  : 0.687
+  ? - WVP.G4BW
+    - B1I.G4BW
+  : 3.09
+  ? - WMO.G4BW
+    - B2C.G4BW
+  : 86.52755
+  ? - W58.G8BW
+    - B2J.G8BW
+  : -13.9
+  ? - CTF.FMBW
+    - PTY.FMBW
+  : -1
+  ? - BZJ...BW
+    - PZJ.P2BW
+  : -1
+  ? - W12.G2BW
+    - BXU.G2BW
+  : -30
+  ? - BPG...BW
+    - PSO.TJBW
+  : 1
+  ? - BG2.VOBW
+    - B5M.G2BW
+  : 1
+  ? - W12.G4BW
+    - B1M.G4BW
+  : 2.67
+  ? - BSJ...BW
+    - PZH.2XBW
+  : 0.03991
+  ? - BTT...BW
+    - PPI.F.BW
+  : 0.057
+  ? - BG2.VOBW
+    - B2L.G2BW
+  : 1
+  ? - BG4.WTBW
+    - BX3.G4BW
+  : 0.852
+  ? - BG4.WTBW
+    - B5A.G4BW
+  : 0.684
+  ? - BSP...BW
+    - PSP.TJBW
+  : -1
+  ? - W58.G4BW
+    - B5M.G4BW
+  : 0.82
+  ? - WRO.G8BW
+    - BLV.G8BW
+  : 74.42509
+  ? - WMO.G8BW
+    - BFM.G8BW
+  : 81.5719
+  ? - BG4.VOBW
+    - BXG.G4BW
+  : 1
+  ? - BTI...BW
+    - PTI.FDBW
+  : -1
+  ? - WRO.G4BW
+    - B5K.G4BW
+  : 92.06722
+  ? - WVP.G8BW
+    - BN5.G8BW
+  : 15
+  ? - BG2.WTBW
+    - B1A.G2BW
+  : 0.693
+  ? - BG4.WTBW
+    - BFO.G4BW
+  : 0.795
+  ? - BSJ...BW
+    - PTA.P1BW
+  : 0.07667
+  ? - W12.G2BW
+    - B5S.G2BW
+  : 122
+  ? - NOI.G2BW
+    - QVO2G2BW
+  : -78.12
+  ? - NGS.G4BW
+    - BFO.G4BW
+  : 0.795
+  ? - W12.G2BW
+    - BXD.G2BW
+  : 2
+  ? - W02.G4BW
+    - B5D.G4BW
+  : 100
+  ? - BF1...BW
+    - BF1.G8BW
+  : -1
+  ? - BG8.VOBW
+    - BPQ.G8BW
+  : 1
+  ? - BG4.VOBW
+    - BIS.G4BW
+  : 1
+  ? - BG8.VOBW
+    - BFQ.G8BW
+  : 1
+  ? - UFU...BW
+    - PTE.P1BW
+  : -0.002
+  ? - W58.G2BW
+    - B5A.G2BW
+  : 1.2
+  ? - BN4...BW
+    - BN4.G8BW
+  : -1
+  ? - W02.G2BW
+    - B4U.G2BW
+  : 100
+  ? - BG8.VOBW
+    - B2D.G8BW
+  : 1
+  ? - BSJ...BW
+    - PTE.P1BW
+  : 0.03277
+  ? - BSK...BW
+    - PSK.THBW
+  : -1
+  ? - BG2.VOBW
+    - B1I.G2BW
+  : 1
+  ? - W02.G2BW
+    - BA4.G2BW
+  : 94
+  ? - BSU...BW
+    - P1J.PSBW
+  : 0.11263
+  ? - CTF.P1BW
+    - PPG.P1BW
+  : -1
+  ? - BFP...BW
+    - BFP.G8BW
+  : -1
+  ? - BG2.WTBW
+    - B5H.G2BW
+  : 0.735
+  ? - WRO.G4BW
+    - BF1.G4BW
+  : 109.60858
+  ? - NGS.G4BW
+    - B2M.G4BW
+  : 0.885
+  ? - BG2.WTBW
+    - B2B.G2BW
+  : 0.848
+  ? - W12.G4BW
+    - BXO.G4BW
+  : 5.3
+  ? - BG8.WTBW
+    - BFT.G8BW
+  : 0.78
+  ? - BTW...BW
+    - PTW.M.BW
+  : -1
+  ? - NGS.G2BW
+    - BFM.G2BW
+  : 0.692
+  ? - WMO.G2BW
+    - B2B.G2BW
+  : 88.35055
+  ? - W12.G8BW
+    - B1O.G8BW
+  : 5.3
+  ? - WMO.G8BW
+    - B1B.G8BW
+  : 87.42257
+  ? - WVP.G2BW
+    - BFS.G2BW
+  : 12.5
+  ? - BG2.VOBW
+    - BXC.G2BW
+  : 1
+  ? - WRO.G4BW
+    - BXP.G4BW
+  : 105.15159
+  ? - WMO.G4BW
+    - BFN.G4BW
+  : 81.63251
+  ? - NGS.G8BW
+    - BX2.G8BW
+  : 0.717
+  ? - W58.G8BW
+    - BX1.G8BW
+  : -1.9
+  ? - UFU...BW
+    - PZH.2XBW
+  : -0.011
+  ? - WRO.G2BW
+    - BFK.G2BW
+  : 83.40638
+  ? - BG2.VOBW
+    - BLV.G2BW
+  : 1
+  ? - WMO.G8BW
+    - BA5.G8BW
+  : 89.22463
+  ? - WVP.G8BW
+    - B1A.G8BW
+  : 5.56
+  ? - W58.G8BW
+    - B2G.G8BW
+  : -9.7
+  ? - BG2.WTBW
+    - BPV.G2BW
+  : 0.631
+  ? - BG2.WTBW
+    - BU5.G2BW
+  : 0.659
+  ? - BG2.WTBW
+    - BXM.G2BW
+  : 0.692
+  ? - WVP.G2BW
+    - B1A.G2BW
+  : 5.56
+  ? - BZG...BW
+    - PZG.P2BW
+  : -1
+  ? - BG8.WTBW
+    - B1D.G8BW
+  : 0.823
+  ? - BXC...BW
+    - BXC.G4BW
+  : -1
+  ? - WRO.G4BW
+    - BXT.G4BW
+  : 84.71223
+  ? - NGS.G4BW
+    - B2H.G4BW
+  : 0.844
+  ? - BSI...BW
+    - PZH.P2BW
+  : 0.02769
+  ? - B1I...BW
+    - PZH.P2BW
+  : 0.7833
+  ? - NGS.G8BW
+    - BXF.G8BW
+  : 0.78
+  ? - BG4.VOBW
+    - BPQ.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BXE.G8BW
+  : 0.723
+  ? - BSC...BW
+    - PSC.TXBW
+  : -1
+  ? - WVP.G2BW
+    - BXP.G2BW
+  : 2.71
+  ? - CTF.I.BW
+    - PSU.I.BW
+  : -1
+  ? - W02.G2BW
+    - BXN.G2BW
+  : 100
+  ? - W02.G4BW
+    - BLL.G4BW
+  : 101
+  ? - BFT...BW
+    - PTF.TFBW
+  : 1
+  ? - W12.G2BW
+    - BXG.G2BW
+  : -13.1
+  ? - BSU...BW
+    - PXO.PSBW
+  : 0.09499
+  ? - WMO.G2BW
+    - B1J.G2BW
+  : 91.25379
+  ? - BG4.VOBW
+    - B1J.G4BW
+  : 1
+  ? - BFF...BW
+    - BFF.G4BW
+  : -1
+  ? - WVP.G2BW
+    - BLI.G2BW
+  : 14.5
+  ? - W02.G8BW
+    - B2C.G8BW
+  : 7.3
+  ? - W58.G2BW
+    - BI5.G2BW
+  : 95
+  ? - W12.G8BW
+    - B5K.G8BW
+  : 93.8
+  ? - WSU.G4BW
+    - B5S.G4BW
+  : 0.00156
+  ? - BG4.VOBW
+    - BLI.G4BW
+  : 1
+  ? - WMO.G8BW
+    - BXX.G8BW
+  : 87.99456
+  ? - BLP...BW
+    - P3U.M.BW
+  : 1
+  ? - NGS.G2BW
+    - BX6.G2BW
+  : 0.693
+  ? - BTI...BW
+    - PTI.TEBW
+  : -1
+  ? - W12.G4BW
+    - BIS.G4BW
+  : 108
+  ? - W12.G2BW
+    - BXE.G2BW
+  : 79
+  ? - BH....BW
+    - PZF.P2BW
+  : 0.05798
+  ? - BN5...BW
+    - PPI.F1BW
+  : 0.0034
+  ? - BG8.WTBW
+    - BLF.G8BW
+  : 0.658
+  ? - BG2.WTBW
+    - BXE.G2BW
+  : 0.723
+  ? - U9R...BW
+    - PTR.FHBW
+  : -0.002
+  ? - BTQ...BW
+    - PTQ.TIBW
+  : -1
+  ? - WVP.G4BW
+    - BU4.G4BW
+  : 61
+  ? - W12.G2BW
+    - B5L.G2BW
+  : 92.1
+  ? - BG2.WTBW
+    - B1K.G2BW
+  : 0.693
+  ? - BIS...BW
+    - BIS.G4BW
+  : -1
+  ? - WMO.G8BW
+    - B5N.G8BW
+  : 71.71782
+  ? - UFU...BW
+    - PSE.FHBW
+  : -0.002
+  ? - BG8.WTBW
+    - BX4.G8BW
+  : 0.838
+  ? - B5K...BW
+    - B5K.G2BW
+  : -1
+  ? - W02.G2BW
+    - BX1.G2BW
+  : 100
+  ? - W12.G2BW
+    - B5G.G2BW
+  : 91
+  ? - BU4...BW
+    - PCP.F.BW
+  : 0.0064
+  ? - BFQ...BW
+    - BFQ.G8BW
+  : -1
+  ? - WRO.G2BW
+    - BFX.G2BW
+  : 102.56785
+  ? - WVP.G2BW
+    - BPV.G2BW
+  : 12
+  ? - WVP.G8BW
+    - B2K.G8BW
+  : 1.18
+  ? - U9R...BW
+    - PTW.FHBW
+  : -0.002
+  ? - WMO.G2BW
+    - BA4.G2BW
+  : 90.4183
+  ? - NGS.G4BW
+    - B2G.G4BW
+  : 0.738
+  ? - BFQ...BW
+    - BFQ.G2BW
+  : -1
+  ? - W12.G4BW
+    - BXI.G4BW
+  : 1
+  ? - BFX...BW
+    - BFX.G8BW
+  : -1
+  ? - BR1...BW
+    - MT1.R1BW
+  : 1
+  ? - BG2.VOBW
+    - BFP.G2BW
+  : 1
+  ? - CBF.P2BW
+    - PZG.P2BW
+  : -1
+  ? - W12.G4BW
+    - BXP.G4BW
+  : 3.7
+  ? - UNF...BW
+    - PPH.P1BW
+  : -0.003
+  ? - W12.G4BW
+    - B1A.G4BW
+  : 71
+  ? - W58.G4BW
+    - BFQ.G4BW
+  : -3.8
+  ? - W12.G4BW
+    - B1L.G4BW
+  : 20.77
+  ? - BG8.WTBW
+    - BXJ.G8BW
+  : 0.786
+  ? - BSE...BW
+    - PSE.FSBW
+  : -1
+  ? - B1A...BW
+    - P1A.PSBW
+  : -1
+  ? - B2L...BW
+    - P1L.PSBW
+  : 0.74871
+  ? - BTK...BW
+    - PTI.FDBW
+  : 0.901
+  ? - WVP.G8BW
+    - BXF.G8BW
+  : 4
+  ? - WMO.G2BW
+    - B1I.G2BW
+  : 88.53996
+  ? - CTF.FSBW
+    - ITF.FSBW
+  : 1
+  ? - BZA...BW
+    - PZA.T2BW
+  : -1
+  ? - WVP.G8BW
+    - WVP2G8BW
+  : -1
+  ? - BXN...BW
+    - BXN.G4BW
+  : -1
+  ? - W02.G4BW
+    - B2C.G4BW
+  : 7.3
+  ? - BG8.WTBW
+    - B2N.G8BW
+  : 0.847
+  ? - W02.G4BW
+    - BIT.G4BW
+  : 100
+  ? - BG4.VOBW
+    - BLL.G4BW
+  : 1
+  ? - W12.G2BW
+    - BFF.G2BW
+  : 10
+  ? - BG8.VOBW
+    - BFH.G8BW
+  : 1
+  ? - NGS.G8BW
+    - B5B.G8BW
+  : 0.756
+  ? - NGS.G8BW
+    - BHC.G8BW
+  : 0.772
+  ? - CTF.C.BW
+    - CTF.C.BW
+  : 1
+  ? - W02.G4BW
+    - BA3.G4BW
+  : 94.4
+  ? - W02.G2BW
+    - BN4.G2BW
+  : 100
+  ? - NGS.G8BW
+    - B2B.G8BW
+  : 0.848
+  ? - BFJ...BW
+    - PSE.FHBW
+  : 1
+  ? - BG8.VOBW
+    - BXT.G8BW
+  : 1
+  ? - BG2.VOBW
+    - BXU.G2BW
+  : 1
+  ? - BG2.WTBW
+    - BX2.G2BW
+  : 0.717
+  ? - WVP.G4BW
+    - B2G.G4BW
+  : 1.13
+  ? - BPV...BW
+    - BPV.G4BW
+  : -1
+  ? - NGS.G8BW
+    - B5J.G8BW
+  : 0.715
+  ? - UNF...BW
+    - PTA.P1BW
+  : -0.003
+  ? - WVP.G4BW
+    - B5O.G4BW
+  : 2.35
+  ? - W12.G2BW
+    - B5A.G2BW
+  : 93.8
+  ? - BG4.WTBW
+    - BF2.G4BW
+  : 0.736
+  ? - BSJ...BW
+    - PZG.2XBW
+  : 0.04936
+  ? - BFH...BW
+    - BFH.G2BW
+  : -1
+  ? - WMO.G2BW
+    - BIT.G2BW
+  : 84.80651
+  ? - WRO.G2BW
+    - BTO.G2BW
+  : 104.315
+  ? - BG2.VOBW
+    - BFD.G2BW
+  : 1
+  ? - NGS.G8BW
+    - B5I.G8BW
+  : 0.743
+  ? - WSU.G8BW
+    - BFS.G8BW
+  : 0.01889
+  ? - W02.G2BW
+    - BXR.G2BW
+  : 77.2
+  ? - BXA...BW
+    - BXA.G8BW
+  : -1
+  ? - BTT...BW
+    - PCP.F.BW
+  : 0.057
+  ? - W58.G2BW
+    - B5L.G2BW
+  : -2.33
+  ? - WRO.G8BW
+    - B1N.G8BW
+  : 103.69118
+  ? - WRO.G8BW
+    - BXJ.G8BW
+  : 79.34372
+  ? - BG2.VOBW
+    - BFJ.G2BW
+  : 1
+  ? - BG2.VOBW
+    - BXT.G2BW
+  : 1
+  ? - WVP.G4BW
+    - WVP2G4BW
+  : -1
+  ? - WMO.G4BW
+    - BXB.G4BW
+  : 77.10346
+  ? - BG4.WTBW
+    - B5G.G4BW
+  : 0.666
+  ? - W58.G4BW
+    - B2B.G4BW
+  : -13.4
+  ? - WMO.G8BW
+    - BU5.G8BW
+  : 84.9222
+  ? - XVP.G2BW
+    - WVP2G2BW
+  : 1
+  ? - W02.G2BW
+    - B1A.G2BW
+  : 100
+  ? - BG2.WTBW
+    - B5A.G2BW
+  : 0.684
+  ? - BG8.VOBW
+    - BX4.G8BW
+  : 1
+  ? - WMO.G4BW
+    - BN4.G4BW
+  : 88.35436
+  ? - BFO...BW
+    - PSH.TDBW
+  : 1
+  ? - BSJ...BW
+    - U9R.GNBW
+  : -1
+  ? - BK1...BW
+    - PZF.2XBW
+  : 0.674
+  ? - B1K...BW
+    - B1K.G2BW
+  : -1
+  ? - W02.G4BW
+    - B4U.G4BW
+  : 100
+  ? - WMO.G8BW
+    - BXG.G8BW
+  : 91.595
+  ? - U9R...BW
+    - PTE.P1BW
+  : -0.073
+  ? - BG8.WTBW
+    - BTO.G8BW
+  : 0.872
+  ? - WRO.G8BW
+    - BXG.G8BW
+  : 109.08673
+  ? - BGS...BW
+    - PST.I.BW
+  : 0.026
+  ? - W58.G4BW
+    - BPU.G4BW
+  : 50
+  ? - CTF.H.BW
+    - ITF.H.BW
+  : 1
+  ? - CTF.P3BW
+    - PTD.P3BW
+  : -1
+  ? - W12.G4BW
+    - B1J.G4BW
+  : 0.7
+  ? - NGS.G4BW
+    - B2C.G4BW
+  : 0.885
+  ? - BSI...BW
+    - PSI.M2BW
+  : -1
+  ? - W12.G2BW
+    - BA3.G2BW
+  : 35.2
+  ? - WMO.G4BW
+    - BFQ.G4BW
+  : 90.23941
+  ? - W12.G8BW
+    - B1I.G8BW
+  : 2.9
+  ? - W02.G8BW
+    - BXM.G8BW
+  : 100
+  ? - U9R...BW
+    - PSA.E.BW
+  : -0.0292
+  ? - W12.G8BW
+    - B1N.G8BW
+  : 2.9
+  ? - XCV.G2BW
+    - W582G2BW
+  : 0.13
+  ? - WMO.G2BW
+    - BXL.G2BW
+  : 73.95196
+  ? - W12.G8BW
+    - BXM.G8BW
+  : 84
+  ? - WVP.G8BW
+    - BXO.G8BW
+  : 2.61
+  ? - WSU.G4BW
+    - BLI.G4BW
+  : 0.00132
+  ? - W12.G8BW
+    - B5G.G8BW
+  : 91
+  ? - WMO.G4BW
+    - BXK.G4BW
+  : 73.22415
+  ? - BTK...BW
+    - PTK.TEBW
+  : -1
+  ? - WRO.G4BW
+    - BFU.G4BW
+  : 86.74963
+  ? - W02.G2BW
+    - B5S.G2BW
+  : 100
+  ? - WMO.G2BW
+    - BXQ.G2BW
+  : 90.48006
+  ? - W02.G4BW
+    - BFQ.G4BW
+  : 80
+  ? - NGS.G2BW
+    - BXJ.G2BW
+  : 0.786
+  ? - BZI...BW
+    - PZI.2XBW
+  : -1
+  ? - B8....BW
+    - PTW.M.BW
+  : 1
+  ? - WRO.G8BW
+    - B4U.G8BW
+  : 103.85185
+  ? - WMO.G2BW
+    - B1O.G2BW
+  : 88.75606
+  ? - BTG...BW
+    - PTM.FSBW
+  : 0.2
+  ? - NGS.G8BW
+    - B1O.G8BW
+  : 0.823
+  ? - WRO.G4BW
+    - BPQ.G4BW
+  : 79.45782
+  ? - W12.G8BW
+    - BLF.G8BW
+  : 110
+  ? - WMO.G4BW
+    - B1K.G4BW
+  : 84.96442
+  ? - BG2.VOBW
+    - BXA.G2BW
+  : 1
+  ? - WRO.G4BW
+    - BLH.G4BW
+  : 70.06795
+  ? - WRO.G4BW
+    - B5A.G4BW
+  : 92.06722
+  ? - W12.G8BW
+    - BXI.G8BW
+  : 1
+  ? - NGS.G8BW
+    - BXT.G8BW
+  : 0.78
+  ? - WRO.G4BW
+    - B2I.G4BW
+  : 103.65702
+  ? - NGS.G4BW
+    - BXF.G4BW
+  : 0.78
+  ? - UH2...BW
+    - PZF.P2BW
+  : 1.13989
+  ? - BG8.VOBW
+    - BFL.G8BW
+  : 1
+  ? - W12.G4BW
+    - BXL.G4BW
+  : -27
+  ? - B1D...BW
+    - B1D.G4BW
+  : -1
+  ? - W02.G4BW
+    - B5C.G4BW
+  : 100
+  ? - NGS.G8BW
+    - BFF.G8BW
+  : 0.78
+  ? - W12.G2BW
+    - BPU.G2BW
+  : 93
+  ? - WRO.G2BW
+    - B5J.G2BW
+  : 92.52513
+  ? - CTC.P3BW
+    - PTE.P3BW
+  : -1
+  ? - U9R...BW
+    - PTZ.FHBW
+  : -0.002
+  ? - WMO.G2BW
+    - BXT.G2BW
+  : 76.0144
+  ? - BG4.VOBW
+    - BF1.G4BW
+  : 1
+  ? - BG8...BW
+    - MT1.R1BW
+  : -0.14
+  ? - W02.G8BW
+    - B2K.G8BW
+  : 95.2
+  ? - BG2.WTBW
+    - BXB.G2BW
+  : 0.796
+  ? - BTE...BW
+    - PTG.PHBW
+  : 1
+  ? - BSO...BW
+    - PSO.TJBW
+  : -1
+  ? - WMO.G8BW
+    - BXP.G8BW
+  : 90.21435
+  ? - B2D...BW
+    - P1D.PSBW
+  : 0.84529
+  ? - BIT...BW
+    - BIT.G4BW
+  : -1
+  ? - BG4.VOBW
+    - B1A.G4BW
+  : 1
+  ? - UNF...BW
+    - PCD.C.BW
+  : -0.0016
+  ? - WVP.G2BW
+    - B1G.G2BW
+  : 5.52
+  ? - WSU.G8BW
+    - BFX.G8BW
+  : 0.0007
+  ? - BTY...BW
+    - PSF.FSBW
+  : 0.21
+  ? - U9R...BW
+    - PTD.P3BW
+  : -0.04
+  ? - W02.G8BW
+    - B5D.G8BW
+  : 100
+  ? - WRO.G4BW
+    - B2H.G4BW
+  : 108.951
+  ? - CTF.P2BW
+    - PZJ.2XBW
+  : -1
+  ? - XSP.G8BW
+    - QWT2G8BW
+  : -240
+  ? - W58.G8BW
+    - BA4.G8BW
+  : -2
+  ? - BG8.WTBW
+    - BXN.G8BW
+  : 0.687
+  ? - W12.G8BW
+    - B2B.G8BW
+  : -7
+  ? - BG2.VOBW
+    - BFX.G2BW
+  : 1
+  ? - W58.G8BW
+    - B4U.G8BW
+  : 127.8
+  ? - WVP.G8BW
+    - B2I.G8BW
+  : 1.35
+  ? - WMO.G8BW
+    - B5K.G8BW
+  : 82.21907
+  ? - NGS.G8BW
+    - BFS.G8BW
+  : 0.687
+  ? - BH....BW
+    - PPG.P1BW
+  : 0.05314
+  ? - BTP...BW
+    - PTD.P3BW
+  : 0.7921
+  ? - W58.G4BW
+    - BXH.G4BW
+  : -19
+  ? - BG8.WTBW
+    - B2K.G8BW
+  : 0.74
+  ? - BTH...BW
+    - PCP.F1BW
+  : -0.98286
+  ? - BSJ...BW
+    - PPG.P1BW
+  : 0.04936
+  ? - CTF.P1BW
+    - PTD.P1BW
+  : -1
+  ? - WRO.G8BW
+    - B2O.G8BW
+  : 105.65125
+  ? - W12.G2BW
+    - BXB.G2BW
+  : -27
+  ? - BSI...BW
+    - P3U.A.BW
+  : -1.181
+  ? - BG8.VOBW
+    - B5L.G8BW
+  : 1
+  ? - BTS...BW
+    - PCP.F1BW
+  : 0.2159
+  ? - BSR...BW
+    - PSR.TKBW
+  : -1
+  ? - NRO.G8BW
+    - WRO2G8BW
+  : 1
+  ? - BXP...BW
+    - BXP.G8BW
+  : -1
+  ? - WVP.G2BW
+    - B1B.G2BW
+  : 3.47
+  ? - BG8.WTBW
+    - BU5.G8BW
+  : 0.659
+  ? - NGS.G2BW
+    - BFJ.G2BW
+  : 0.786
+  ? - WSU.G2BW
+    - BX6.G2BW
+  : 0.0201
+  ? - BG2.WTBW
+    - B1G.G2BW
+  : 0.688
+  ? - WRO.G2BW
+    - BLL.G2BW
+  : 75.20602
+  ? - WMO.G2BW
+    - BXA.G2BW
+  : 77.67402
+  ? - BG4.VOBW
+    - B2A.G4BW
+  : 1
+  ? - NGS.G4BW
+    - BLI.G4BW
+  : 0.658
+  ? - WRO.G2BW
+    - B1D.G2BW
+  : 103.69118
+  ? - BG8.WTBW
+    - QWT2G8BW
+  : -1
+  ? - W02.G2BW
+    - BFJ.G2BW
+  : 50
+  ? - WRO.G4BW
+    - BXC.G4BW
+  : 109.08673
+  ? - WRO.G4BW
+    - B5N.G4BW
+  : 76.53985
+  ? - CTC.P2BW
+    - PZH.P2BW
+  : -0.00001
+  ? - W12.G4BW
+    - B2D.G4BW
+  : -15
+  ? - BG8.VOBW
+    - BXM.G8BW
+  : 1
+  ? - NGS.G4BW
+    - BXC.G4BW
+  : 0.839
+  ? - WVP.G8BW
+    - BXI.G8BW
+  : 2
+  ? - W02.G2BW
+    - B1B.G2BW
+  : 82
+  ? - BFH...BW
+    - BFH.G4BW
+  : -1
+  ? - WVP.G4BW
+    - BFL.G4BW
+  : 10
+  ? - B5J...BW
+    - B5J.G2BW
+  : -1
+  ? - BG8.WTBW
+    - BXO.G8BW
+  : 0.823
+  ? - BG2.WTBW
+    - BXF.G2BW
+  : 0.78
+  ? - W02.G8BW
+    - BXA.G8BW
+  : 28
+  ? - BZJ...BW
+    - PZJ.2XBW
+  : -1
+  ? - BG8.VOBW
+    - BXC.G8BW
+  : 1
+  ? - W58.G4BW
+    - BXO.G4BW
+  : -2.8
+  ? - WRO.G2BW
+    - BF3.G2BW
+  : 109.60858
+  ? - BG4.VOBW
+    - B2N.G4BW
+  : 1
+  ? - BGS...BW
+    - PTD.P1BW
+  : 0.04265
+  ? - WMO.G2BW
+    - B2D.G2BW
+  : 91.2576
+  ? - NGS.G4BW
+    - BFL.G4BW
+  : 0.692
+  ? - B4....BW
+    - PSR.M.BW
+  : 1
+  ? - B2A...BW
+    - B2A.G4BW
+  : -1
+  ? - UH2...BW
+    - PZH.2XBW
+  : 1.07383
+  ? - W02.G2BW
+    - BF3.G2BW
+  : 75.1
+  ? - W12.G4BW
+    - BFF.G4BW
+  : 10
+  ? - W02.G4BW
+    - BA5.G4BW
+  : 96
+  ? - NGS.G4BW
+    - BFD.G4BW
+  : 0.786
+  ? - W12.G8BW
+    - BFF.G8BW
+  : 10
+  ? - B1O...BW
+    - B1O.G8BW
+  : -1
+  ? - BCD...BW
+    - PCD.C.BW
+  : -1
+  ? - NGS.G2BW
+    - BXK.G2BW
+  : 0.805
+  ? - NGS.G4BW
+    - BU4.G4BW
+  : 0.62
+  ? - BG8.WTBW
+    - BLH.G8BW
+  : 0.71
+  ? - W12.G8BW
+    - BXU.G8BW
+  : -30
+  ? - WRO.G2BW
+    - BFM.G2BW
+  : 92.39784
+  ? - XVP.G4BW
+    - WVP2G4BW
+  : 1
+  ? - WVP.G2BW
+    - BA4.G2BW
+  : 6
+  ? - W12.G2BW
+    - B2N.G2BW
+  : -15
+  ? - B3U...BW
+    - P3U.M.BW
+  : -1
+  ? - W58.G2BW
+    - B5H.G2BW
+  : -1.4
+  ? - WMO.G8BW
+    - B1C.G8BW
+  : 86.84432
+  ? - NGS.G2BW
+    - B1K.G2BW
+  : 0.693
+  ? - B2H...BW
+    - B2H.G8BW
+  : -1
+  ? - NGS.G8BW
+    - B1M.G8BW
+  : 0.845
+  ? - BG2.VOBW
+    - BF2.G2BW
+  : 1
+  ? - WRO.G2BW
+    - B5O.G2BW
+  : 74.14662
+  ? - WSU.G2BW
+    - BXK.G2BW
+  : 0.00064
+  ? - B1B...BW
+    - B1B.G2BW
+  : -1
+  ? - B5S...BW
+    - B5S.G8BW
+  : -1
+  ? - W02.G2BW
+    - BA5.G2BW
+  : 96
+  ? - BXB...BW
+    - BXB.G8BW
+  : -1
+  ? - BTX...BW
+    - PSG.FSBW
+  : 0.2
+  ? - WVP.G8BW
+    - B2G.G8BW
+  : 1.13
+  ? - B2G...BW
+    - P1G.PSBW
+  : 0.43112
+  ? - BG4.WTBW
+    - B5J.G4BW
+  : 0.715
+  ? - BG8.VOBW
+    - B1O.G8BW
+  : 1
+  ? - WSU.G8BW
+    - BPT.G8BW
+  : 0.01485
+  ? - BG2.WTBW
+    - B1N.G2BW
+  : 0.823
+  ? - BG8.VOBW
+    - B5O.G8BW
+  : 1
+  ? - BG4.VOBW
+    - B5B.G4BW
+  : 1
+  ? - NGS.G4BW
+    - B5M.G4BW
+  : 0.752
+  ? - NGS.G8BW
+    - BF3.G8BW
+  : 0.835
+  ? - BSI...BW
+    - EBI...BW
+  : 0.3
+  ? - WMO.G2BW
+    - BF2.G2BW
+  : 77.34037
+  ? - BSQ...BW
+    - PCD.C.BW
+  : 0.0727
+  ? - W12.G8BW
+    - B1D.G8BW
+  : 2.9
+  ? - WSU.G4BW
+    - BXM.G4BW
+  : 0.01605
+  ? - W12.G8BW
+    - BXR.G8BW
+  : 3
+  ? - NGS.G2BW
+    - B5M.G2BW
+  : 0.752
+  ? - BG4.WTBW
+    - BA5.G4BW
+  : 0.71
+  ? - BH....BW
+    - PTR.FHBW
+  : -0.00708
+  ? - BG8.VOBW
+    - BFP.G8BW
+  : 1
+  ? - NWU.G2BW
+    - QVO2G2BW
+  : -104
+  ? - WMO.G2BW
+    - BLH.G2BW
+  : 69.42845
+  ? - BG8.VOBW
+    - B1J.G8BW
+  : 1
+  ? - U9R...BW
+    - U9R.GVBW
+  : 0.708
+  ? - CTF.PSBW
+    - PXO.PSBW
+  : -1
+  ? - WMO.G4BW
+    - B4U.G4BW
+  : 88.31541
+  ? - WMO.G4BW
+    - BIS.G4BW
+  : 86.13696
+  ? - WRO.G4BW
+    - BFJ.G4BW
+  : 81.04273
+  ? - W12.G2BW
+    - BLV.G2BW
+  : 99
+  ? - UFU...BW
+    - PSR.IHBW
+  : -0.002
+  ? - WVP.G4BW
+    - BFN.G4BW
+  : 12.5
+  ? - WRO.G4BW
+    - B2J.G4BW
+  : 110.38305
+  ? - NWU.G2BW
+    - W022G2BW
+  : 0.67
+  ? - WVP.G4BW
+    - B5B.G4BW
+  : 2.36
+  ? - W12.G2BW
+    - B4U.G2BW
+  : 113
+  ? - W58.G2BW
+    - B1C.G2BW
+  : -2.4
+  ? - W02.G2BW
+    - W022G2BW
+  : -1
+  ? - NGS.G2BW
+    - BXE.G2BW
+  : 0.723
+  ? - WMO.G4BW
+    - B2N.G4BW
+  : 91.2576
+  ? - W12.G8BW
+    - B5S.G8BW
+  : 122
+  ? - BX3...BW
+    - BX3.G4BW
+  : -1
+  ? - BGS...BW
+    - PZH.2XBW
+  : 0.04572
+  ? - NGS.G4BW
+    - BLF.G4BW
+  : 0.658
+  ? - BG4.VOBW
+    - BX2.G4BW
+  : 1
+  ? - N02.G8BW
+    - QVO2G8BW
+  : -5
+  ? - W02.G4BW
+    - BFE.G4BW
+  : 100
+  ? - W12.G4BW
+    - BLI.G4BW
+  : 110
+  ? - NGS.G4BW
+    - BPT.G4BW
+  : 0.669
+  ? - BG4.VOBW
+    - BXO.G4BW
+  : 1
+  ? - WMO.G8BW
+    - BX4.G8BW
+  : 91.83832
+  ? - BU5...BW
+    - PPI.F.BW
+  : 0.0067
+  ? - BU5...BW
+    - PCP.F1BW
+  : 0.0035
+  ? - U9R...BW
+    - U9R.GIBW
+  : 0.659
+  ? - W58.G2BW
+    - BLV.G2BW
+  : 59
+  ? - WRO.G2BW
+    - B1O.G2BW
+  : 102.34862
+  ? - W12.G4BW
+    - BFJ.G4BW
+  : 2
+  ? - BG2.WTBW
+    - BXD.G2BW
+  : 0.786
+  ? - NGS.G8BW
+    - BX3.G8BW
+  : 0.852
+  ? - W02.G8BW
+    - B5O.G8BW
+  : 100
+  ? - CTC.P1BW
+    - CTC.P1BW
+  : 1
+  ? - BXO...BW
+    - PXO.PSBW
+  : -1
+  ? - W12.G4BW
+    - BXS.G4BW
+  : 88
+  ? - W12.G2BW
+    - BXM.G2BW
+  : 84
+  ? - W12.G2BW
+    - BFI.G2BW
+  : 1
+  ? - WRO.G4BW
+    - B1O.G4BW
+  : 102.34862
+  ? - W02.G4BW
+    - B1B.G4BW
+  : 82
+  ? - BLI...BW
+    - BLI.G8BW
+  : -1
+  ? - WRO.G8BW
+    - B1K.G8BW
+  : 94.90093
+  ? - NGS.G2BW
+    - BX2.G2BW
+  : 0.717
+  ? - NGS.G2BW
+    - B5B.G2BW
+  : 0.756
+  ? - B5S...BW
+    - PTT.ASBW
+  : 0.1
+  ? - UNF...BW
+    - PSC.E.BW
+  : -0.033
+  ? - W58.G8BW
+    - BXJ.G8BW
+  : -8
+  ? - W58.G4BW
+    - BFT.G4BW
+  : -2
+  ? - W58.G2BW
+    - BXB.G2BW
+  : -19
+  ? - WVP.G4BW
+    - BIS.G4BW
+  : 13
+  ? - WVP.G4BW
+    - BXI.G4BW
+  : 2
+  ? - BXD...BW
+    - BXD.G8BW
+  : -1
+  ? - BTD...BW
+    - PTD.T1BW
+  : -1
+  ? - UFU...BW
+    - PSQ.ISBW
+  : -0.009
+  ? - W12.G2BW
+    - BPE.G2BW
+  : 98
+  ? - WVP.G8BW
+    - BXX.G8BW
+  : 0.2
+  ? - BXG...BW
+    - BXG.G8BW
+  : -1
+  ? - NGS.G2BW
+    - BLI.G2BW
+  : 0.658
+  ? - WMO.G4BW
+    - BXD.G4BW
+  : 76.62526
+  ? - WRO.G2BW
+    - BXS.G2BW
+  : 92.09434
+  ? - W02.G8BW
+    - BIS.G8BW
+  : 100
+  ? - BFT...BW
+    - BFT.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BXF.G8BW
+  : 1
+  ? - W58.G8BW
+    - BIT.G8BW
+  : 80
+  ? - W12.G8BW
+    - B5M.G8BW
+  : 99.2
+  ? - BG8.WTBW
+    - BF3.G8BW
+  : 0.835
+  ? - WVP.G8BW
+    - BXJ.G8BW
+  : 2.1
+  ? - W02.G8BW
+    - B1C.G8BW
+  : 22.1
+  ? - BG4.VOBW
+    - BA5.G4BW
+  : 1
+  ? - W58.G4BW
+    - B1A.G4BW
+  : 23.5
+  ? - WMO.G8BW
+    - BFH.G8BW
+  : 78.28059
+  ? - WRO.G2BW
+    - B2K.G2BW
+  : 108.32812
+  ? - WRO.G4BW
+    - B2G.G4BW
+  : 114.92604
+  ? - CTF.FSBW
+    - PTM.FSBW
+  : -1
+  ? - W02.G2BW
+    - BA3.G2BW
+  : 94.4
+  ? - B1C...BW
+    - P1C.PSBW
+  : -1
+  ? - NGS.G4BW
+    - BFE.G4BW
+  : 0.692
+  ? - UNF...BW
+    - PSA.E.BW
+  : -0.033
+  ? - CTF.PSBW
+    - PTP.PSBW
+  : -1
+  ? - W58.G2BW
+    - BFM.G2BW
+  : 47
+  ? - WMO.G2BW
+    - B5N.G2BW
+  : 71.71782
+  ? - BG8.VOBW
+    - BX3.G8BW
+  : 1
+  ? - WVP.G2BW
+    - BI4.G2BW
+  : 78
+  ? - BSK...BW
+    - PSK.M1BW
+  : -1
+  ? - WMO.G8BW
+    - BX3.G8BW
+  : 90.05458
+  ? - WVP.G4BW
+    - BPE.G4BW
+  : 13.5
+  ? - NGS.G4BW
+    - BPU.G4BW
+  : 0.693
+  ? - WMO.G2BW
+    - BHC.G2BW
+  : 92.87805
+  ? - W12.G4BW
+    - BU5.G4BW
+  : 115
+  ? - W12.G4BW
+    - B1B.G4BW
+  : 20.77
+  ? - BK2...BW
+    - PK2.TABW
+  : -1
+  ? - W58.G8BW
+    - BA3.G8BW
+  : 6.2
+  ? - WRO.G8BW
+    - BFF.G8BW
+  : 77.31816
+  ? - W12.G2BW
+    - B2C.G2BW
+  : -16.7
+  ? - B3U...BW
+    - PPI.F.BW
+  : 0.0564
+  ? - W12.G2BW
+    - B1N.G2BW
+  : 2.9
+  ? - BN5...BW
+    - BN5.G2BW
+  : -1
+  ? - X12.G4BW
+    - W122G4BW
+  : 1
+  ? - BG2.WTBW
+    - B2C.G2BW
+  : 0.885
+  ? - BG2.WTBW
+    - BPU.G2BW
+  : 0.693
+  ? - WVP.G4BW
+    - BXM.G4BW
+  : 10
+  ? - BG4.VOBW
+    - BFH.G4BW
+  : 1
+  ? - WSU.G8BW
+    - BLH.G8BW
+  : 0.0213
+  ? - WVP.G2BW
+    - B5I.G2BW
+  : 2.83
+  ? - BLV...BW
+    - BLV.G4BW
+  : -1
+  ? - BFE...BW
+    - BFE.G2BW
+  : -1
+  ? - NGS.G8BW
+    - B1N.G8BW
+  : 0.823
+  ? - B3U...BW
+    - P3U.A.BW
+  : -1
+  ? - BTG...BW
+    - PTG.PHBW
+  : -1
+  ? - CTF.PSBW
+    - P1C.PSBW
+  : -1
+  ? - BSJ...BW
+    - PTD.P1BW
+  : 0.03703
+  ? - WRO.G8BW
+    - B2I.G8BW
+  : 103.65702
+  ? - UNF...BW
+    - PZI.P2BW
+  : -0.007
+  ? - BZB...BW
+    - PZB.T2BW
+  : -1
+  ? - BSJ...BW
+    - PZF.2XBW
+  : 0.07667
+  ? - BH....BW
+    - PZF.2XBW
+  : 0.05008
+  ? - W02.G8BW
+    - B1K.G8BW
+  : 100
+  ? - BXI...BW
+    - BXI.G8BW
+  : -1
+  ? - WMO.G8BW
+    - BXM.G8BW
+  : 81.05526
+  ? - CTF.P2BW
+    - PZH.P2BW
+  : -1
+  ? - BG2.WTBW
+    - BXJ.G2BW
+  : 0.786
+  ? - BG8.WTBW
+    - B1G.G8BW
+  : 0.688
+  ? - WSU.G8BW
+    - BLL.G8BW
+  : 0.01448
+  ? - WMO.G4BW
+    - BXA.G4BW
+  : 77.67402
+  ? - W58.G8BW
+    - B1I.G8BW
+  : -1.6
+  ? - CTC.2XBW
+    - CTC.2XBW
+  : 1
+  ? - B8....BW
+    - PFY.M.BW
+  : 1
+  ? - BZG...BW
+    - PZB.T2BW
+  : 1
+  ? - WMO.G8BW
+    - B2N.G8BW
+  : 91.2576
+  ? - U9R...BW
+    - U9R.GQBW
+  : 0.696
+  ? - BSU...BW
+    - P1B.PSBW
+  : 0.17016
+  ? - WMO.G8BW
+    - BIS.G8BW
+  : 86.13696
+  ? - WRO.G4BW
+    - B5G.G4BW
+  : 102.10471
+  ? - WRO.G2BW
+    - BXL.G2BW
+  : 80.50406
+  ? - CTF.FMBW
+    - ITF.FMBW
+  : 1
+  ? - NOI.G4BW
+    - WRO2G4BW
+  : 0.35
+  ? - BA3...BW
+    - BA3.G4BW
+  : -1
+  ? - NGS.G4BW
+    - BFT.G4BW
+  : 0.78
+  ? - W12.G8BW
+    - BA5.G8BW
+  : 45
+  ? - W12.G8BW
+    - B5A.G8BW
+  : 93.8
+  ? - W12.G4BW
+    - BFQ.G4BW
+  : 2.9
+  ? - WRO.G8BW
+    - B1M.G8BW
+  : 98.90249
+  ? - WVP.G4BW
+    - BXJ.G4BW
+  : 2.1
+  ? - BG4.WTBW
+    - B1K.G4BW
+  : 0.693
+  ? - BG4.VOBW
+    - B5M.G4BW
+  : 1
+  ? - NGS.G8BW
+    - B2G.G8BW
+  : 0.738
+  ? - BG8.VOBW
+    - BA3.G8BW
+  : 1
+  ? - BG4.VOBW
+    - B5C.G4BW
+  : 1
+  ? - W12.G8BW
+    - BFM.G8BW
+  : 84
+  ? - BK3...BW
+    - PK3.TABW
+  : -1
+  ? - W02.G8BW
+    - BFP.G8BW
+  : 79.5
+  ? - UFU...BW
+    - PSQ.LSBW
+  : -0.009
+  ? - BH....BW
+    - U9R.G2BW
+  : -1
+  ? - WRO.G2BW
+    - B1L.G2BW
+  : 99.30716
+  ? - WMO.G8BW
+    - BXU.G8BW
+  : 73.24984
+  ? - BG2.VOBW
+    - B5G.G2BW
+  : 1
+  ? - W02.G8BW
+    - BXD.G8BW
+  : 50
+  ? - WMO.G8BW
+    - BLL.G8BW
+  : 73.72027
+  ? - WVP.G8BW
+    - B1C.G8BW
+  : 2.98
+  ? - UNF...BW
+    - PSB.E.BW
+  : -0.033
+  ? - BSQ...BW
+    - U9R.GVBW
+  : -1
+  ? - W12.G4BW
+    - BI4.G4BW
+  : 120
+  ? - CTV.P2BW
+    - PZG.P2BW
+  : -1
+  ? - BK5...BW
+    - PZJ.2XBW
+  : 0.8455
+  ? - BG4.VOBW
+    - BFL.G4BW
+  : 1
+  ? - WRO.G2BW
+    - BXU.G2BW
+  : 83.48678
+  ? - BG2.VOBW
+    - B1N.G2BW
+  : 1
+  ? - W02.G8BW
+    - BXE.G8BW
+  : 100
+  ? - W58.G4BW
+    - BLH.G4BW
+  : 25
+  ? - NGS.G2BW
+    - BXU.G2BW
+  : 0.805
+  ? - W12.G8BW
+    - B1H.G8BW
+  : 16.5
+  ? - WVP.G2BW
+    - BXO.G2BW
+  : 2.61
+  ? - W02.G8BW
+    - B1A.G8BW
+  : 100
+  ? - BG8.VOBW
+    - BLV.G8BW
+  : 1
+  ? - NGS.G8BW
+    - B1D.G8BW
+  : 0.823
+  ? - B1K...BW
+    - P1K.PSBW
+  : -1
+  ? - WRO.G2BW
+    - B5C.G2BW
+  : 71.31302
+  ? - W58.G2BW
+    - B5S.G2BW
+  : 96
+  ? - W02.G2BW
+    - BFL.G2BW
+  : 100
+  ? - W02.G2BW
+    - B1I.G2BW
+  : 19.9
+  ? - W12.G2BW
+    - BFL.G2BW
+  : 84
+  ? - BG2.WTBW
+    - B2I.G2BW
+  : 0.883
+  ? - B5J...BW
+    - B5J.G4BW
+  : -1
+  ? - WMO.G8BW
+    - B5H.G8BW
+  : 75.95929
+  ? - BFY...BW
+    - PSD.E.BW
+  : 0.35
+  ? - BGS...BW
+    - PCP.F.BW
+  : 0.0435
+  ? - WSU.G2BW
+    - BLV.G2BW
+  : 0.01675
+  ? - BH....BW
+    - PPI.F.BW
+  : -0.00433
+  ? - BTM...BW
+    - PPI.F1BW
+  : 0.6504
+  ? - CTC.P2BW
+    - PZF.P2BW
+  : -0.00001
+  ? - NGS.G8BW
+    - BXO.G8BW
+  : 0.823
+  ? - BZE...BW
+    - PZE.T2BW
+  : -1
+  ? - B1M...BW
+    - B1M.G2BW
+  : -1
+  ? - WVP.G8BW
+    - BXU.G8BW
+  : 0.5
+  ? - W58.G2BW
+    - B5D.G2BW
+  : -2.3
+  ? - BXG...BW
+    - BXG.G4BW
+  : -1
+  ? - W02.G4BW
+    - BXM.G4BW
+  : 100
+  ? - WMO.G8BW
+    - BFD.G8BW
+  : 78.67732
+  ? - WVP.G4BW
+    - BXH.G4BW
+  : 0.7
+  ? - BXN...BW
+    - BXN.G2BW
+  : -1
+  ? - WMO.G2BW
+    - BA5.G2BW
+  : 89.22463
+  ? - WMO.G2BW
+    - BF3.G2BW
+  : 92.24962
+  ? - W02.G2BW
+    - B1O.G2BW
+  : 79
+  ? - W12.G4BW
+    - BPT.G4BW
+  : 98
+  ? - W02.G8BW
+    - BA5.G8BW
+  : 96
+  ? - BLP...BW
+    - PZI.2XBW
+  : 0.05193
+  ? - CTF.IHBW
+    - ITF.IHBW
+  : 1
+  ? - CTF.PHBW
+    - PTF.PHBW
+  : -1
+  ? - WMO.G8BW
+    - B1N.G8BW
+  : 89.42014
+  ? - BXB...BW
+    - BXB.G2BW
+  : -1
+  ? - B5L...BW
+    - B5L.G4BW
+  : -1
+  ? - WMO.G8BW
+    - BHC.G8BW
+  : 92.87805
+  ? - BG4.VOBW
+    - BFE.G4BW
+  : 1
+  ? - BSJ...BW
+    - PSJ.THBW
+  : -1
+  ? - W02.G4BW
+    - B2N.G4BW
+  : 75.1
+  ? - WMO.G4BW
+    - B5G.G4BW
+  : 87.97
+  ? - W12.G4BW
+    - B5J.G4BW
+  : 70.2
+  ? - W58.G2BW
+    - BFU.G2BW
+  : -21
+  ? - CTF.FHBW
+    - PTZ.FHBW
+  : -1
+  ? - WRO.G8BW
+    - B5S.G8BW
+  : 93.25986
+  ? - BG4.VOBW
+    - B2D.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BXQ.G2BW
+  : 0.81
+  ? - W02.G4BW
+    - B2D.G4BW
+  : 75.1
+  ? - WRO.G2BW
+    - BLV.G2BW
+  : 74.42509
+  ? - W12.G4BW
+    - B1N.G4BW
+  : 2.9
+  ? - BG8.VOBW
+    - B1C.G8BW
+  : 1
+  ? - WSU.G4BW
+    - BXA.G4BW
+  : 0.11303
+  ? - NGS.G8BW
+    - B4U.G8BW
+  : 0.62
+  ? - UNF...BW
+    - PGS.H.BW
+  : -1.99
+  ? - BSI...BW
+    - PTE.P1BW
+  : 0.021
+  ? - W58.G4BW
+    - BXI.G4BW
+  : -9
+  ? - BSJ...BW
+    - P3U.A.BW
+  : -0.017
+  ? - WRO.G2BW
+    - B2J.G2BW
+  : 110.38305
+  ? - BG4.VOBW
+    - BPV.G4BW
+  : 1
+  ? - NGS.G4BW
+    - B2N.G4BW
+  : 0.847
+  ? - WRO.G8BW
+    - BFT.G8BW
+  : 86.45545
+  ? - BG4.VOBW
+    - B5D.G4BW
+  : 1
+  ? - NGS.G2BW
+    - B2I.G2BW
+  : 0.883
+  ? - W58.G8BW
+    - BX6.G8BW
+  : 50
+  ? - B1C...BW
+    - PPH.P1BW
+  : 0.8099
+  ? - UFU...BW
+    - PZH.P2BW
+  : -0.011
+  ? - WSU.G4BW
+    - BXT.G4BW
+  : 0.0897
+  ? - BG4.WTBW
+    - BN4.G4BW
+  : 0.584
+  ? - WRO.G8BW
+    - BXI.G8BW
+  : 79.08957
+  ? - CTF.FHBW
+    - PSH.FHBW
+  : -1
+  ? - BSE...BW
+    - PTJ.TEBW
+  : 1
+  ? - W12.G8BW
+    - W122G8BW
+  : -1
+  ? - BG4.VOBW
+    - BLV.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BXN.G2BW
+  : 0.687
+  ? - BG4.VOBW
+    - BXE.G4BW
+  : 1
+  ? - W12.G2BW
+    - BXK.G2BW
+  : -30
+  ? - W12.G4BW
+    - B5G.G4BW
+  : 91
+  ? - W58.G4BW
+    - BLI.G4BW
+  : 73
+  ? - BG8.WTBW
+    - B5S.G8BW
+  : 0.625
+  ? - NGS.G4BW
+    - BF2.G4BW
+  : 0.736
+  ? - W58.G8BW
+    - B5O.G8BW
+  : -1.9
+  ? - BX1...BW
+    - BX1.G4BW
+  : -1
+  ? - W58.G8BW
+    - BFX.G8BW
+  : -21
+  ? - BG2.VOBW
+    - BXQ.G2BW
+  : 1
+  ? - W12.G2BW
+    - BXT.G2BW
+  : 10
+  ? - NGS.G8BW
+    - BPE.G8BW
+  : 0.669
+  ? - W12.G8BW
+    - BX4.G8BW
+  : -13.4
+  ? - W12.G2BW
+    - BXH.G2BW
+  : -27
+  ? - BG2.VOBW
+    - BFE.G2BW
+  : 1
+  ? - WRO.G2BW
+    - BXJ.G2BW
+  : 79.34372
+  ? - BFS...BW
+    - BFS.G2BW
+  : -1
+  ? - W02.G2BW
+    - BPT.G2BW
+  : 100
+  ? - W02.G4BW
+    - B1A.G4BW
+  : 100
+  ? - B5S...BW
+    - B5S.G2BW
+  : -1
+  ? - BXH...BW
+    - PTR.TNBW
+  : 1
+  ? - BG4.VOBW
+    - BF2.G4BW
+  : 1
+  ? - BG8.WTBW
+    - BX2.G8BW
+  : 0.717
+  ? - W58.G8BW
+    - BLF.G8BW
+  : 73
+  ? - WRO.G8BW
+    - BLH.G8BW
+  : 70.06795
+  ? - BG8.WTBW
+    - B1I.G8BW
+  : 0.841
+  ? - BTX...BW
+    - PSE.FSBW
+  : 0.21
+  ? - WMO.G8BW
+    - BFK.G8BW
+  : 76.79616
+  ? - W02.G8BW
+    - BFM.G8BW
+  : 100
+  ? - WVP.G4BW
+    - BPV.G4BW
+  : 12
+  ? - WVP.G8BW
+    - B5D.G8BW
+  : 2.28
+  ? - BC4...BW
+    - PSK.M1BW
+  : 1
+  ? - WRO.G2BW
+    - BI4.G2BW
+  : 100.92828
+  ? - BG2.WTBW
+    - B1C.G2BW
+  : 0.845
+  ? - BG2.VOBW
+    - B2O.G2BW
+  : 1
+  ? - W58.G2BW
+    - B1D.G2BW
+  : -4.4
+  ? - WMO.G2BW
+    - BXS.G2BW
+  : 81.45002
+  ? - W12.G4BW
+    - BFS.G4BW
+  : 88
+  ? - BG8.WTBW
+    - BXQ.G8BW
+  : 0.81
+  ? - CTF.ISBW
+    - ITF.ISBW
+  : 1
+  ? - WVP.G8BW
+    - BPV.G8BW
+  : 12
+  ? - BTE...BW
+    - PTE.P3BW
+  : -1
+  ? - WVP.G8BW
+    - BXN.G8BW
+  : 12.5
+  ? - BG2.WTBW
+    - BXR.G2BW
+  : 0.81
+  ? - WMO.G4BW
+    - BXX.G4BW
+  : 87.99456
+  ? - WRO.G8BW
+    - BFN.G8BW
+  : 92.70599
+  ? - W02.G2BW
+    - BFP.G2BW
+  : 79.5
+  ? - WVP.G4BW
+    - BXB.G4BW
+  : 0.7
+  ? - NGS.G8BW
+    - BXQ.G8BW
+  : 0.81
+  ? - UH2...BW
+    - PZJ.P2BW
+  : 0.75848
+  ? - W12.G4BW
+    - BA4.G4BW
+  : 30.2
+  ? - WRO.G2BW
+    - BA4.G2BW
+  : 95.0259
+  ? - NGS.G4BW
+    - B2A.G4BW
+  : 0.74
+  ? - WMO.G2BW
+    - B1N.G2BW
+  : 89.42014
+  ? - BG8.WTBW
+    - B1C.G8BW
+  : 0.845
+  ? - W02.G2BW
+    - B1J.G2BW
+  : 78.8
+  ? - BTH...BW
+    - PPI.F1BW
+  : -0.98286
+  ? - BG8.VOBW
+    - BFE.G8BW
+  : 1
+  ? - BFN...BW
+    - BFN.G2BW
+  : -1
+  ? - BG8.VOBW
+    - BI5.G8BW
+  : 1
+  ? - WMO.G4BW
+    - BU5.G4BW
+  : 84.9222
+  ? - WRO.G8BW
+    - B2J.G8BW
+  : 110.38305
+  ? - WRO.G2BW
+    - BXD.G2BW
+  : 85.53494
+  ? - U.S...BW
+    - U.S.BSBW
+  : 1
+  ? - WRO.G4BW
+    - BXL.G4BW
+  : 80.50406
+  ? - B5A...BW
+    - P1A.PSBW
+  : 0.19751
+  ? - W02.G2BW
+    - BXJ.G2BW
+  : 50
+  ? - WRO.G4BW
+    - B5H.G4BW
+  : 80.53522
+  ? - BLP...BW
+    - PCP.F1BW
+  : 0.0047
+  ? - BFT...BW
+    - BFT.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BX3.G2BW
+  : 0.852
+  ? - WMO.G2BW
+    - BLV.G2BW
+  : 73.02371
+  ? - BG8.WTBW
+    - B5O.G8BW
+  : 0.753
+  ? - BG8.WTBW
+    - BFX.G8BW
+  : 0.874
+  ? - W12.G2BW
+    - BFM.G2BW
+  : 84
+  ? - WMO.G2BW
+    - BX3.G2BW
+  : 90.05458
+  ? - W58.G4BW
+    - BLV.G4BW
+  : 59
+  ? - BXJ...BW
+    - BXJ.G8BW
+  : -1
+  ? - W58.G2BW
+    - BXL.G2BW
+  : -19
+  ? - W12.G2BW
+    - BF2.G2BW
+  : 79.6
+  ? - W58.G2BW
+    - BXN.G2BW
+  : 50
+  ? - WVP.G4BW
+    - BXT.G4BW
+  : 4
+  ? - BG4.VOBW
+    - B1O.G4BW
+  : 1
+  ? - W58.G8BW
+    - BPQ.G8BW
+  : 81.9
+  ? - WRO.G4BW
+    - BXJ.G4BW
+  : 79.34372
+  ? - W12.G2BW
+    - B2K.G2BW
+  : 19.7
+  ? - W12.G8BW
+    - BXN.G8BW
+  : 88
+  ? - CTF.PSBW
+    - P1B.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BXM.G4BW
+  : 81.05526
+  ? - BSI...BW
+    - PZI.2XBW
+  : 0.02378
+  ? - W02.G8BW
+    - B5K.G8BW
+  : 100
+  ? - N02.G2BW
+    - W022G2BW
+  : 1
+  ? - BLP...BW
+    - PZF.P2BW
+  : 0.11562
+  ? - BK2...BW
+    - PZG.2XBW
+  : 0.7563
+  ? - U9R...BW
+    - U9R.GNBW
+  : 0.686
+  ? - BG2.VOBW
+    - BFK.G2BW
+  : 1
+  ? - CTP.A.BW
+    - PSK.A.BW
+  : -1.816
+  ? - W02.G8BW
+    - BXU.G8BW
+  : 20
+  ? - BLP...BW
+    - PCP.F.BW
+  : 0.0234
+  ? - NGS.G8BW
+    - B5C.G8BW
+  : 0.752
+  ? - W12.G2BW
+    - BIS.G2BW
+  : 108
+  ? - BG2.VOBW
+    - BPQ.G2BW
+  : 1
+  ? - W02.G4BW
+    - BLH.G4BW
+  : 100
+  ? - WMO.G4BW
+    - BX1.G4BW
+  : 71.09379
+  ? - BG8.WTBW
+    - BFL.G8BW
+  : 0.692
+  ? - B1H...BW
+    - PZG.P2BW
+  : 0.7186
+  ? - W12.G2BW
+    - BFH.G2BW
+  : 1
+  ? - BZF...BW
+    - PZF.2XBW
+  : -1
+  ? - NGS.G2BW
+    - B2O.G2BW
+  : 0.852
+  ? - B1C...BW
+    - B1C.G8BW
+  : -1
+  ? - W02.G4BW
+    - BXO.G4BW
+  : 79
+  ? - W12.G4BW
+    - B1G.G4BW
+  : 64.3
+  ? - B5N...BW
+    - P1N.PSBW
+  : 0.04345
+  ? - NOI.G8BW
+    - WRO2G8BW
+  : 0.31
+  ? - WRO.G2BW
+    - B1K.G2BW
+  : 94.90093
+  ? - NGS.G8BW
+    - BX1.G8BW
+  : 0.753
+  ? - BN5...BW
+    - PCP.F1BW
+  : 0.0034
+  ? - WMO.G8BW
+    - B4U.G8BW
+  : 88.31541
+  ? - W02.G4BW
+    - B5M.G4BW
+  : 100
+  ? - WMO.G4BW
+    - BX6.G4BW
+  : 79.60009
+  ? - CTV.P2BW
+    - PZJ.P2BW
+  : -0.00001
+  ? - WMO.G2BW
+    - BU4.G2BW
+  : 88.31541
+  ? - CTF.H.BW
+    - PGS.H.BW
+  : -1
+  ? - BK5...BW
+    - PK5.TABW
+  : -1
+  ? - WMO.G8BW
+    - BTO.G8BW
+  : 91.00573
+  ? - W58.G2BW
+    - B2H.G2BW
+  : -13.5
+  ? - B2K...BW
+    - B2K.G8BW
+  : -1
+  ? - W12.G2BW
+    - BA4.G2BW
+  : 30.2
+  ? - NGS.G4BW
+    - BFQ.G4BW
+  : 0.811
+  ? - CTC.P1BW
+    - PTA.P1BW
+  : -0.00001
+  ? - NGS.G2BW
+    - BN5.G2BW
+  : 0.631
+  ? - WMO.G4BW
+    - B5O.G4BW
+  : 71.09379
+  ? - WMO.G2BW
+    - BFN.G2BW
+  : 81.63251
+  ? - WMO.G4BW
+    - B5S.G4BW
+  : 88.88656
+  ? - BGS...BW
+    - PTD.P3BW
+  : 0.0519
+  ? - BFS...BW
+    - BFS.G8BW
+  : -1
+  ? - NGS.G2BW
+    - BU4.G2BW
+  : 0.62
+  ? - WRO.G8BW
+    - B5C.G8BW
+  : 71.31302
+  ? - BGS...BW
+    - PTE.P3BW
+  : 0.0434
+  ? - B1G...BW
+    - PZF.P2BW
+  : 0.6246
+  ? - U9R...BW
+    - PSE.FHBW
+  : -0.002
+  ? - NGS.G2BW
+    - B2D.G2BW
+  : 0.847
+  ? - WRO.G4BW
+    - BXS.G4BW
+  : 92.09434
+  ? - WRO.G8BW
+    - BXD.G8BW
+  : 85.53494
+  ? - W02.G8BW
+    - B5S.G8BW
+  : 100
+  ? - WSU.G2BW
+    - BXJ.G2BW
+  : 0.00479
+  ? - BG4.WTBW
+    - B2B.G4BW
+  : 0.848
+  ? - BG8.VOBW
+    - BPV.G8BW
+  : 1
+  ? - BG4.WTBW
+    - BU4.G4BW
+  : 0.62
+  ? - B2D...BW
+    - B2D.G4BW
+  : -1
+  ? - WRO.G8BW
+    - BFS.G8BW
+  : 92.70599
+  ? - WVP.G8BW
+    - BU4.G8BW
+  : 61
+  ? - WRO.G2BW
+    - BFL.G2BW
+  : 92.39784
+  ? - BG8.VOBW
+    - B1M.G8BW
+  : 1
+  ? - W02.G8BW
+    - B5M.G8BW
+  : 100
+  ? - BX1...BW
+    - PXO.PSBW
+  : 0.03912
+  ? - B1L...BW
+    - PK2.TABW
+  : 1
+  ? - CTF.ISBW
+    - PSQ.ISBW
+  : -1
+  ? - BG4.WTBW
+    - BFQ.G4BW
+  : 0.811
+  ? - XSP.G2BW
+    - WSU2G2BW
+  : 10000
+  ? - WSU.G2BW
+    - BXH.G2BW
+  : 0.11303
+  ? - W12.G2BW
+    - B5K.G2BW
+  : 93.8
+  ? - W58.G4BW
+    - B2C.G4BW
+  : -14.7
+  ? - W02.G8BW
+    - BFJ.G8BW
+  : 50
+  ? - WRO.G4BW
+    - B2K.G4BW
+  : 108.32812
+  ? - WRO.G8BW
+    - BFX.G8BW
+  : 102.56785
+  ? - WMO.G8BW
+    - B5D.G8BW
+  : 71.71782
+  ? - BH....BW
+    - PPH.P1BW
+  : 0.05462
+  ? - XCV.G8BW
+    - QVO2G8BW
+  : -18
+  ? - NGS.G2BW
+    - BFO.G2BW
+  : 0.795
+  ? - WMO.G8BW
+    - BPU.G8BW
+  : 79.80062
+  ? - WRO.G2BW
+    - BXX.G2BW
+  : 102.56785
+  ? - WRO.G4BW
+    - BFM.G4BW
+  : 92.39784
+  ? - NGS.G4BW
+    - B1A.G4BW
+  : 0.693
+  ? - WVP.G8BW
+    - B5S.G8BW
+  : 21
+  ? - WRO.G2BW
+    - B1J.G2BW
+  : 106.96742
+  ? - W02.G2BW
+    - BPV.G2BW
+  : 100
+  ? - BG4.VOBW
+    - BXJ.G4BW
+  : 1
+  ? - B4U...BW
+    - PSK.THBW
+  : 1
+  ? - W58.G2BW
+    - BXA.G2BW
+  : -19
+  ? - BTQ...BW
+    - PTQ.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BFX.G4BW
+  : 87.99456
+  ? - BTB...BW
+    - PTB.TBBW
+  : -1
+  ? - B5G...BW
+    - P1G.PSBW
+  : 0.18143
+  ? - W12.G8BW
+    - B2D.G8BW
+  : -15
+  ? - W12.G8BW
+    - B1C.G8BW
+  : 2.67
+  ? - W58.G4BW
+    - B2O.G4BW
+  : -14
+  ? - BXK...BW
+    - BXK.G4BW
+  : -1
+  ? - WVP.G4BW
+    - B1B.G4BW
+  : 3.47
+  ? - BG8.WTBW
+    - BFQ.G8BW
+  : 0.811
+  ? - UNF...BW
+    - PZJ.P2BW
+  : -0.007
+  ? - WVP.G8BW
+    - BHC.G8BW
+  : 3.1
+  ? - BPU...BW
+    - BPU.G2BW
+  : -1
+  ? - BG2.WTBW
+    - B2O.G2BW
+  : 0.852
+  ? - WRO.G2BW
+    - BX1.G2BW
+  : 74.14662
+  ? - W02.G8BW
+    - B5L.G8BW
+  : 100
+  ? - WMO.G8BW
+    - BF1.G8BW
+  : 92.2351
+  ? - BLP...BW
+    - PZG.2XBW
+  : 0.06964
+  ? - WSU.G8BW
+    - BXH.G8BW
+  : 0.11303
+  ? - BTE...BW
+    - PTE.T1BW
+  : -1
+  ? - WMO.G4BW
+    - BFE.G4BW
+  : 81.05526
+  ? - BG4.VOBW
+    - B1C.G4BW
+  : 1
+  ? - WVP.G4BW
+    - B2C.G4BW
+  : 1.38
+  ? - BTU...BW
+    - PTT.FTBW
+  : 0.6
+  ? - UH2...BW
+    - PPG.P1BW
+  : 1.04473
+  ? - CTV.2XBW
+    - CTV.2XBW
+  : 1
+  ? - BTA...BW
+    - PTA.P1BW
+  : -1
+  ? - B1C...BW
+    - B1C.G2BW
+  : -1
+  ? - BG2.WTBW
+    - BXN.G2BW
+  : 0.687
+  ? - BFN...BW
+    - PTX.FMBW
+  : 1
+  ? - W58.G2BW
+    - BFI.G2BW
+  : -9
+  ? - BG2.VOBW
+    - BXG.G2BW
+  : 1
+  ? - BG4.WTBW
+    - BFJ.G4BW
+  : 0.786
+  ? - W58.G4BW
+    - BA3.G4BW
+  : 6.2
+  ? - BG2.VOBW
+    - BX3.G2BW
+  : 1
+  ? - W02.G2BW
+    - B5C.G2BW
+  : 100
+  ? - W02.G8BW
+    - B2M.G8BW
+  : 7.3
+  ? - BG2.VOBW
+    - BXM.G2BW
+  : 1
+  ? - BG4.WTBW
+    - BFK.G4BW
+  : 0.805
+  ? - BG8.WTBW
+    - BX1.G8BW
+  : 0.753
+  ? - WVP.G8BW
+    - BI5.G8BW
+  : 21
+  ? - NGS.G4BW
+    - BN5.G4BW
+  : 0.631
+  ? - BFF...BW
+    - BFF.G2BW
+  : -1
+  ? - BA3...BW
+    - BA3.G8BW
+  : -1
+  ? - WVP.G2BW
+    - BFT.G2BW
+  : 4
+  ? - UNF...BW
+    - P3U.A.BW
+  : -0.16
+  ? - WRO.G2BW
+    - B1G.G2BW
+  : 100.1228
+  ? - WMO.G4BW
+    - B2H.G4BW
+  : 92.2581
+  ? - W12.G8BW
+    - B1B.G8BW
+  : 20.77
+  ? - BPV...BW
+    - PTU.ASBW
+  : 0.72
+  ? - CBF.P2BW
+    - PZJ.P2BW
+  : -1
+  ? - W02.G8BW
+    - B2I.G8BW
+  : 7.5
+  ? - BXO...BW
+    - PTE.P1BW
+  : 0.8455
+  ? - W02.G8BW
+    - B5N.G8BW
+  : 100
+  ? - BTY...BW
+    - PSH.FSBW
+  : 0.2
+  ? - W58.G2BW
+    - BX1.G2BW
+  : -1.9
+  ? - WRO.G8BW
+    - BXC.G8BW
+  : 109.08673
+  ? - WRO.G2BW
+    - B2L.G2BW
+  : 102.76529
+  ? - BG8.VOBW
+    - BXR.G8BW
+  : 1
+  ? - WVP.G4BW
+    - BPQ.G4BW
+  : 14.1
+  ? - BXL...BW
+    - PSB.TXBW
+  : 1
+  ? - NGS.G4BW
+    - BX2.G4BW
+  : 0.717
+  ? - W58.G4BW
+    - B2D.G4BW
+  : -13.9
+  ? - BX4...BW
+    - PXR.PSBW
+  : 0.87914
+  ? - WSU.G8BW
+    - BXU.G8BW
+  : 0.12477
+  ? - BF1...BW
+    - BF1.G4BW
+  : -1
+  ? - W12.G4BW
+    - B1K.G4BW
+  : 71
+  ? - WSU.G4BW
+    - BI4.G4BW
+  : 0.00113
+  ? - W02.G8BW
+    - BLV.G8BW
+  : 103
+  ? - BG2.WTBW
+    - BXK.G2BW
+  : 0.805
+  ? - W12.G2BW
+    - BX2.G2BW
+  : 76.4
+  ? - CTF.PSBW
+    - ITF.PSBW
+  : 1
+  ? - WMO.G2BW
+    - BFM.G2BW
+  : 81.5719
+  ? - W02.G8BW
+    - B2H.G8BW
+  : 71.1
+  ? - WMO.G4BW
+    - BI5.G4BW
+  : 87.95423
+  ? - W02.G4BW
+    - BXB.G4BW
+  : 28
+  ? - W02.G4BW
+    - B2G.G4BW
+  : 100
+  ? - WRO.G2BW
+    - BPU.G2BW
+  : 94.18285
+  ? - NGS.G8BW
+    - BPQ.G8BW
+  : 0.66
+  ? - BX1...BW
+    - BX1.G8BW
+  : -1
+  ? - WMO.G2BW
+    - B5H.G2BW
+  : 75.95929
+  ? - BPV...BW
+    - BPV.G2BW
+  : -1
+  ? - WMO.G4BW
+    - BFM.G4BW
+  : 81.5719
+  ? - BG8.VOBW
+    - BFO.G8BW
+  : 1
+  ? - CTF.P2BW
+    - CTF.P2BW
+  : 1
+  ? - B8....BW
+    - PTI.FDBW
+  : 0.099
+  ? - B5B...BW
+    - P1B.PSBW
+  : 0.08113
+  ? - WVP.G4BW
+    - BXK.G4BW
+  : 0.5
+  ? - WMO.G8BW
+    - BXD.G8BW
+  : 76.62526
+  ? - BG2.WTBW
+    - BXX.G2BW
+  : 0.874
+  ? - WMO.G8BW
+    - B5M.G8BW
+  : 71.11826
+  ? - NGS.G2BW
+    - B1D.G2BW
+  : 0.823
+  ? - WRO.G2BW
+    - BXG.G2BW
+  : 109.08673
+  ? - NGS.G2BW
+    - B5L.G2BW
+  : 0.756
+  ? - BA4...BW
+    - BA4.G2BW
+  : -1
+  ? - UFU...BW
+    - PCP.F1BW
+  : 0.005
+  ? - BXE...BW
+    - BXE.G4BW
+  : -1
+  ? - W12.G4BW
+    - BF2.G4BW
+  : 79.6
+  ? - BTV...BW
+    - PTV.ASBW
+  : -1
+  ? - W02.G2BW
+    - BFM.G2BW
+  : 100
+  ? - WRO.G8BW
+    - B5N.G8BW
+  : 76.53985
+  ? - WRO.G4BW
+    - BXU.G4BW
+  : 83.48678
+  ? - W58.G4BW
+    - B1G.G4BW
+  : 22.2
+  ? - W12.G8BW
+    - B2A.G8BW
+  : 19.7
+  ? - W02.G8BW
+    - B2J.G8BW
+  : 74.3
+  ? - B2N...BW
+    - P1N.PSBW
+  : 0.84529
+  ? - URX...BW
+    - URX.BXBW
+  : 1
+  ? - B1K...BW
+    - B1K.G8BW
+  : -1
+  ? - W58.G4BW
+    - BXS.G4BW
+  : 50
+  ? - W02.G2BW
+    - BI5.G2BW
+  : 100
+  ? - BX2...BW
+    - BX2.G4BW
+  : -1
+  ? - WMO.G8BW
+    - BA4.G8BW
+  : 90.4183
+  ? - W58.G2BW
+    - BLI.G2BW
+  : 73
+  ? - WMO.G4BW
+    - B2L.G4BW
+  : 88.35055
+  ? - W02.G8BW
+    - B1J.G8BW
+  : 78.8
+  ? - BPI...BW
+    - PPI.F.BW
+  : -1
+  ? - W02.G8BW
+    - BXP.G8BW
+  : 72.4
+  ? - BFD...BW
+    - BFD.G4BW
+  : -1
+  ? - W02.G4BW
+    - B5S.G4BW
+  : 100
+  ? - W12.G2BW
+    - B5N.G2BW
+  : 82.2
+  ? - W58.G2BW
+    - B2I.G2BW
+  : -14.6
+  ? - WMO.G4BW
+    - BXH.G4BW
+  : 74.14184
+  ? - BG4.WTBW
+    - BFI.G4BW
+  : 0.786
+  ? - W02.G4BW
+    - BFN.G4BW
+  : 100
+  ? - NGS.G8BW
+    - BA4.G8BW
+  : 0.703
+  ? - BG4.WTBW
+    - BFF.G4BW
+  : 0.78
+  ? - BG4.WTBW
+    - B5B.G4BW
+  : 0.756
+  ? - N02.G4BW
+    - QVO2G4BW
+  : -5
+  ? - W58.G4BW
+    - BX1.G4BW
+  : -1.9
+  ? - WVP.G8BW
+    - BFO.G8BW
+  : 2
+  ? - NGS.G2BW
+    - BXS.G2BW
+  : 0.687
+  ? - BGS...BW
+    - PZJ.P2BW
+  : 0.04858
+  ? - BH....BW
+    - PSF.FHBW
+  : -0.01085
+  ? - B2L...BW
+    - B2L.G2BW
+  : -1
+  ? - W12.G2BW
+    - BX3.G2BW
+  : -12.6
+  ? - BG2.VOBW
+    - B5I.G2BW
+  : 1
+  ? - B5N...BW
+    - B5N.G4BW
+  : -1
+  ? - W58.G4BW
+    - BXG.G4BW
+  : -14
+  ? - WVP.G2BW
+    - BHC.G2BW
+  : 3.1
+  ? - BG4.WTBW
+    - B5S.G4BW
+  : 0.625
+  ? - W58.G8BW
+    - B5D.G8BW
+  : -2.3
+  ? - WSU.G8BW
+    - BFH.G8BW
+  : 0.10891
+  ? - WVP.G4BW
+    - BLI.G4BW
+  : 14.5
+  ? - W58.G4BW
+    - BFI.G4BW
+  : -9
+  ? - BG8.VOBW
+    - BXA.G8BW
+  : 1
+  ? - UFU...BW
+    - PSD.E.BW
+  : -0.006
+  ? - WMO.G8BW
+    - B1I.G8BW
+  : 88.53996
+  ? - BG4...BW
+    - QVO2G4BW
+  : 0.995
+  ? - BG2.VOBW
+    - BIT.G2BW
+  : 1
+  ? - WRO.G2BW
+    - BF2.G2BW
+  : 82.92617
+  ? - WVP.G2BW
+    - B5C.G2BW
+  : 2.71
+  ? - WSU.G2BW
+    - BFK.G2BW
+  : 0.00064
+  ? - BPE...BW
+    - BPE.G8BW
+  : -1
+  ? - NGS.G8BW
+    - BXB.G8BW
+  : 0.796
+  ? - BG8.WTBW
+    - BXK.G8BW
+  : 0.805
+  ? - BFE...BW
+    - BFE.G4BW
+  : -1
+  ? - B5O...BW
+    - B5O.G4BW
+  : -1
+  ? - W02.G4BW
+    - BXL.G4BW
+  : 28
+  ? - WVP.G2BW
+    - BTO.G2BW
+  : 1.6
+  ? - WRO.G8BW
+    - BHC.G8BW
+  : 101.46649
+  ? - BTT...BW
+    - PTT.ASBW
+  : -1
+  ? - BK6...BW
+    - PSQ.LSBW
+  : 0.835
+  ? - WMO.G8BW
+    - B5A.G8BW
+  : 82.21907
+  ? - WMO.G8BW
+    - BFT.G8BW
+  : 77.40834
+  ? - UNF...BW
+    - P5U.A.BW
+  : -0.16
+  ? - BG4.WTBW
+    - BLH.G4BW
+  : 0.71
+  ? - BZJ...BW
+    - PZE.T2BW
+  : 1
+  ? - XCV.G4BW
+    - QVO2G4BW
+  : -18
+  ? - NGS.G2BW
+    - B2L.G2BW
+  : 0.848
+  ? - NMO.G4BW
+    - WMO2G4BW
+  : 1
+  ? - BG2.WTBW
+    - B2H.G2BW
+  : 0.844
+  ? - BPE...BW
+    - BPE.G2BW
+  : -1
+  ? - WVP.G4BW
+    - BXL.G4BW
+  : 0.7
+  ? - WSU.G8BW
+    - BXK.G8BW
+  : 0.00064
+  ? - W58.G8BW
+    - B1A.G8BW
+  : 23.5
+  ? - NGS.G2BW
+    - BFI.G2BW
+  : 0.786
+  ? - BG4.WTBW
+    - B2G.G4BW
+  : 0.738
+  ? - WVP.G8BW
+    - BA3.G8BW
+  : 6
+  ? - W58.G8BW
+    - BXE.G8BW
+  : -0.9
+  ? - WMO.G2BW
+    - BXE.G2BW
+  : 79.26925
+  ? - WMO.G8BW
+    - BXO.G8BW
+  : 88.75606
+  ? - W02.G8BW
+    - BXB.G8BW
+  : 28
+  ? - BSI...BW
+    - PSK.A.BW
+  : -1.14
+  ? - BPI...BW
+    - PPI.F1BW
+  : -1
+  ? - BTX...BW
+    - PTX.TSBW
+  : -1
+  ? - W12.G2BW
+    - BI4.G2BW
+  : 120
+  ? - WRO.G8BW
+    - B5B.G8BW
+  : 73.17229
+  ? - WMO.G8BW
+    - WMO2G8BW
+  : -1
+  ? - W58.G2BW
+    - BXG.G2BW
+  : -14
+  ? - W02.G2BW
+    - BIS.G2BW
+  : 100
+  ? - W02.G8BW
+    - BPU.G8BW
+  : 100
+  ? - WMO.G8BW
+    - BN5.G8BW
+  : 71.60925
+  ? - WSU.G8BW
+    - BFL.G8BW
+  : 0.03204
+  ? - BG2.WTBW
+    - B2D.G2BW
+  : 0.847
+  ? - BFE...BW
+    - BFE.G8BW
+  : -1
+  ? - W58.G8BW
+    - B1G.G8BW
+  : 22.2
+  ? - W02.G8BW
+    - B5A.G8BW
+  : 100
+  ? - WVP.G2BW
+    - B2G.G2BW
+  : 1.13
+  ? - BC3...BW
+    - DC3...BW
+  : -1
+  ? - BG4.WTBW
+    - B1O.G4BW
+  : 0.823
+  ? - BG8.VOBW
+    - B5K.G8BW
+  : 1
+  ? - XCV.G4BW
+    - WVP2G4BW
+  : 1
+  ? - W58.G2BW
+    - B1M.G2BW
+  : -2.4
+  ? - CTF.E.BW
+    - PSD.E.BW
+  : -1
+  ? - CBF.P1BW
+    - PPG.P1BW
+  : -1
+  ? - B8....BW
+    - PTR.M.BW
+  : 1
+  ? - WSU.G4BW
+    - BFD.G4BW
+  : 0.09511
+  ? - BTM...BW
+    - PTM.FSBW
+  : -1
+  ? - BYU...BW
+    - PPI.F1BW
+  : 0.0745
+  ? - BSU...BW
+    - PTQ.PSBW
+  : 0.0986
+  ? - NGS.G4BW
+    - BA4.G4BW
+  : 0.703
+  ? - W12.G2BW
+    - B2J.G2BW
+  : -15.9
+  ? - WSU.G2BW
+    - B4U.G2BW
+  : 0.00124
+  ? - W58.G4BW
+    - BF1.G4BW
+  : -13.9
+  ? - BG2.VOBW
+    - B5D.G2BW
+  : 1
+  ? - BG8.WTBW
+    - BXL.G8BW
+  : 0.796
+  ? - BG4.WTBW
+    - BXQ.G4BW
+  : 0.81
+  ? - UFU...BW
+    - P3U.A.BW
+  : -0.128
+  ? - B2B...BW
+    - P1B.PSBW
+  : 0.74871
+  ? - WMO.G2BW
+    - BF1.G2BW
+  : 92.2351
+  ? - W58.G8BW
+    - BFS.G8BW
+  : 50
+  ? - BSN...BW
+    - PSN.TJBW
+  : -1
+  ? - WRO.G2BW
+    - BN4.G2BW
+  : 94.11062
+  ? - W02.G8BW
+    - BXT.G8BW
+  : 79
+  ? - W02.G2BW
+    - B1D.G2BW
+  : 79.8
+  ? - NGS.G4BW
+    - B2D.G4BW
+  : 0.847
+  ? - WMO.G8BW
+    - BLI.G8BW
+  : 78.12136
+  ? - BH....BW
+    - PZI.P2BW
+  : 0.04438
+  ? - CTF.E.BW
+    - ITF.E.BW
+  : 1
+  ? - CTF.FMBW
+    - PTX.FMBW
+  : -1
+  ? - NGS.G2BW
+    - BFQ.G2BW
+  : 0.811
+  ? - W12.G2BW
+    - BTO.G2BW
+  : 18
+  ? - W58.G2BW
+    - BXJ.G2BW
+  : -8
+  ? - WRO.G2BW
+    - BXI.G2BW
+  : 79.08957
+  ? - WRO.G2BW
+    - B1A.G2BW
+  : 94.90093
+  ? - WVP.G4BW
+    - BXD.G4BW
+  : 2.1
+  ? - W02.G4BW
+    - B2K.G4BW
+  : 95.2
+  ? - W58.G2BW
+    - BTO.G2BW
+  : -20
+  ? - W02.G2BW
+    - B1M.G2BW
+  : 22.1
+  ? - W58.G4BW
+    - BFX.G4BW
+  : -21
+  ? - W58.G8BW
+    - B1N.G8BW
+  : -4.4
+  ? - W02.G4BW
+    - BXP.G4BW
+  : 72.4
+  ? - BG2.WTBW
+    - BF3.G2BW
+  : 0.835
+  ? - BG2.WTBW
+    - BXA.G2BW
+  : 0.796
+  ? - BG8.VOBW
+    - B5D.G8BW
+  : 1
+  ? - BG8.WTBW
+    - BIT.G8BW
+  : 0.655
+  ? - NGS.G8BW
+    - B5N.G8BW
+  : 0.75
+  ? - WMO.G4BW
+    - B1B.G4BW
+  : 87.42257
+  ? - W02.G4BW
+    - BXK.G4BW
+  : 20
+  ? - W58.G4BW
+    - BX3.G4BW
+  : -14
+  ? - WRO.G4BW
+    - B5S.G4BW
+  : 93.25986
+  ? - BSF...BW
+    - PSF.FHBW
+  : -1
+  ? - W02.G2BW
+    - B2N.G2BW
+  : 75.1
+  ? - CTF.F2BW
+    - PCP.F1BW
+  : -1
+  ? - CTC.2XBW
+    - PZI.2XBW
+  : -1
+  ? - B5H...BW
+    - B5H.G2BW
+  : -1
+  ? - W12.G4BW
+    - BXG.G4BW
+  : -13.1
+  ? - BLI...BW
+    - BLI.G4BW
+  : -1
+  ? - BG8.VOBW
+    - B4U.G8BW
+  : 1
+  ? - NWU.G2BW
+    - W122G2BW
+  : 1
+  ? - BG2.VOBW
+    - B1A.G2BW
+  : 1
+  ? - BG8.WTBW
+    - BXP.G8BW
+  : 0.81
+  ? - WRO.G2BW
+    - BX4.G2BW
+  : 109.64842
+  ? - W12.G4BW
+    - BFE.G4BW
+  : 84
+  ? - W02.G4BW
+    - BPU.G4BW
+  : 100
+  ? - W58.G4BW
+    - B2L.G4BW
+  : -13.4
+  ? - BXI...BW
+    - PSH.FHBW
+  : 1
+  ? - BK6...BW
+    - PK6.TKBW
+  : -1
+  ? - WRO.G4BW
+    - B1N.G4BW
+  : 103.69118
+  ? - W58.G8BW
+    - BFO.G8BW
+  : -9
+  ? - UFU...BW
+    - PZG.2XBW
+  : -0.011
+  ? - BSI...BW
+    - PZI.P2BW
+  : 0.02702
+  ? - W58.G8BW
+    - B2B.G8BW
+  : -13.4
+  ? - BG8.WTBW
+    - BHC.G8BW
+  : 0.772
+  ? - W12.G8BW
+    - BX1.G8BW
+  : 86.2
+  ? - WRO.G8BW
+    - BX2.G8BW
+  : 89.0308
+  ? - W12.G2BW
+    - BFD.G2BW
+  : 2
+  ? - BXS...BW
+    - BXS.G8BW
+  : -1
+  ? - WSU.G4BW
+    - BFO.G4BW
+  : 0.10891
+  ? - WVP.G2BW
+    - BI5.G2BW
+  : 21
+  ? - WSU.G4BW
+    - BPT.G4BW
+  : 0.01485
+  ? - W58.G2BW
+    - B1L.G2BW
+  : 3.55
+  ? - WSU.G8BW
+    - BXN.G8BW
+  : 0.00756
+  ? - NGS.G4BW
+    - B5D.G4BW
+  : 0.75
+  ? - W02.G8BW
+    - BX6.G8BW
+  : 100
+  ? - W12.G2BW
+    - BF1.G2BW
+  : -14.3
+  ? - CBF.P2BW
+    - PZF.P2BW
+  : -1
+  ? - NGS.G4BW
+    - BA3.G4BW
+  : 0.685
+  ? - B1M...BW
+    - B1M.G4BW
+  : -1
+  ? - WVP.G4BW
+    - B2B.G4BW
+  : 1.17
+  ? - UFU...BW
+    - PSA.E.BW
+  : -0.006
+  ? - BLP...BW
+    - PPH.P1BW
+  : 0.05646
+  ? - BSD...BW
+    - PSD.TXBW
+  : -1
+  ? - W58.G2BW
+    - BX4.G2BW
+  : -14
+  ? - WMO.G4BW
+    - B1D.G4BW
+  : 89.42014
+  ? - W58.G4BW
+    - B4U.G4BW
+  : 127.8
+  ? - U9R...BW
+    - P5U.A.BW
+  : -0.0011
+  ? - BG4.VOBW
+    - B1K.G4BW
+  : 1
+  ? - WSU.G2BW
+    - BFS.G2BW
+  : 0.01889
+  ? - B2N...BW
+    - B2N.G2BW
+  : -1
+  ? - WRO.G4BW
+    - BXF.G4BW
+  : 75.96553
+  ? - W58.G4BW
+    - BPT.G4BW
+  : 58
+  ? - WMO.G2BW
+    - B2M.G2BW
+  : 86.52755
+  ? - W12.G8BW
+    - BF2.G8BW
+  : 79.6
+  ? - UFU...BW
+    - PZJ.2XBW
+  : -0.011
+  ? - NGS.G8BW
+    - BXI.G8BW
+  : 0.795
+  ? - W02.G4BW
+    - B1I.G4BW
+  : 19.9
+  ? - X58.G2BW
+    - QVO2G2BW
+  : -45
+  ? - W58.G8BW
+    - BHC.G8BW
+  : 1
+  ? - BG8.VOBW
+    - BLF.G8BW
+  : 1
+  ? - WRO.G4BW
+    - BFX.G4BW
+  : 102.56785
+  ? - W12.G2BW
+    - B1M.G2BW
+  : 2.67
+  ? - BG8.VOBW
+    - BFT.G8BW
+  : 1
+  ? - WRO.G4BW
+    - BXK.G4BW
+  : 80.33046
+  ? - BH....BW
+    - PZJ.2XBW
+  : 0.03395
+  ? - WSU.G4BW
+    - BLV.G4BW
+  : 0.01675
+  ? - BXF...BW
+    - BXF.G4BW
+  : -1
+  ? - WVP.G2BW
+    - BXX.G2BW
+  : 0.2
+  ? - BX4...BW
+    - BX4.G4BW
+  : -1
+  ? - W12.G4BW
+    - B1H.G4BW
+  : 16.5
+  ? - WVP.G4BW
+    - BU5.G4BW
+  : 19.9
+  ? - CTC.2XBW
+    - PZJ.2XBW
+  : -1
+  ? - NGS.G8BW
+    - B2H.G8BW
+  : 0.844
+  ? - WSU.G2BW
+    - BXB.G2BW
+  : 0.00056
+  ? - W58.G2BW
+    - B1O.G2BW
+  : -2.8
+  ? - WRO.G8BW
+    - B2C.G8BW
+  : 100.04377
+  ? - W12.G8BW
+    - BFE.G8BW
+  : 84
+  ? - URX...BW
+    - PCP.F1BW
+  : -1.366
+  ? - NGS.G4BW
+    - B2I.G4BW
+  : 0.883
+  ? - BH....BW
+    - PPI.F1BW
+  : -0.00433
+  ? - WVP.G2BW
+    - B1K.G2BW
+  : 5.56
+  ? - BXL...BW
+    - BXL.G4BW
+  : -1
+  ? - BXT...BW
+    - BXT.G4BW
+  : -1
+  ? - NGS.G8BW
+    - B5O.G8BW
+  : 0.753
+  ? - WRO.G2BW
+    - BU5.G2BW
+  : 104.38066
+  ? - NGS.G8BW
+    - B5H.G8BW
+  : 0.735
+  ? - NGS.G4BW
+    - B5I.G4BW
+  : 0.743
+  ? - BG2.VOBW
+    - B2G.G2BW
+  : 1
+  ? - BG4.WTBW
+    - BIT.G4BW
+  : 0.655
+  ? - BG4.VOBW
+    - B5S.G4BW
+  : 1
+  ? - WVP.G8BW
+    - BXA.G8BW
+  : 0.7
+  ? - B1L...BW
+    - B1L.G8BW
+  : -1
+  ? - BXE...BW
+    - PTQ.PSBW
+  : 0.03543
+  ? - BPG...BW
+    - PPG.P1BW
+  : -1
+  ? - WRO.G8BW
+    - BX1.G8BW
+  : 74.14662
+  ? - WRO.G2BW
+    - BFH.G2BW
+  : 87.42369
+  ? - BSU...BW
+    - P1L.PSBW
+  : 0.17016
+  ? - B5I...BW
+    - B5I.G4BW
+  : -1
+  ? - WRO.G4BW
+    - BFK.G4BW
+  : 83.40638
+  ? - BX4...BW
+    - BX4.G8BW
+  : -1
+  ? - CTF.A.BW
+    - PSK.A.BW
+  : -2.196
+  ? - W02.G2BW
+    - B5L.G2BW
+  : 100
+  ? - W58.G8BW
+    - BF2.G8BW
+  : -1.9
+  ? - WVP.G8BW
+    - BXH.G8BW
+  : 0.7
+  ? - BF3...BW
+    - BF3.G4BW
+  : -1
+  ? - BTH...BW
+    - PTH.FDBW
+  : -1
+  ? - B2H...BW
+    - P1H.PSBW
+  : 0.77158
+  ? - WVP.G2BW
+    - BX2.G2BW
+  : 2.68
+  ? - UFU...BW
+    - PSC.E.BW
+  : -0.006
+  ? - W12.G2BW
+    - B1D.G2BW
+  : 2.9
+  ? - WRO.G8BW
+    - B1G.G8BW
+  : 100.1228
+  ? - B4U...BW
+    - B4U.G4BW
+  : -1
+  ? - BU4...BW
+    - PCP.F1BW
+  : 0.0009
+  ? - BU5...BW
+    - PPI.F1BW
+  : 0.0035
+  ? - WSU.G2BW
+    - BI4.G2BW
+  : 0.00113
+  ? - BTI...BW
+    - PCP.F1BW
+  : 1.2999
+  ? - W58.G4BW
+    - BFM.G4BW
+  : 47
+  ? - BTD...BW
+    - PTD.P3BW
+  : -1
+  ? - NGS.G4BW
+    - BN4.G4BW
+  : 0.584
+  ? - BXS...BW
+    - BXS.G2BW
+  : -1
+  ? - BXS...BW
+    - BXS.G4BW
+  : -1
+  ? - B2L...BW
+    - B2L.G4BW
+  : -1
+  ? - W12.G8BW
+    - BPU.G8BW
+  : 93
+  ? - BG2.WTBW
+    - BFS.G2BW
+  : 0.687
+  ? - W58.G8BW
+    - BA5.G8BW
+  : 21.1
+  ? - BIT...BW
+    - PSU.I.BW
+  : 0.996
+  ? - WMO.G8BW
+    - BFF.G8BW
+  : 73.78616
+  ? - CBF.2XBW
+    - PZI.2XBW
+  : -1
+  ? - BXF...BW
+    - BXF.G8BW
+  : -1
+  ? - WRO.G4BW
+    - BHC.G4BW
+  : 101.46649
+  ? - WSU.G8BW
+    - BFD.G8BW
+  : 0.09511
+  ? - W12.G8BW
+    - BXQ.G8BW
+  : 3.9
+  ? - BXM...BW
+    - PTM.FMBW
+  : 1
+  ? - W02.G8BW
+    - B2D.G8BW
+  : 75.1
+  ? - W58.G4BW
+    - BN4.G4BW
+  : 122
+  ? - UH2...BW
+    - PZF.2XBW
+  : 0.98457
+  ? - W12.G2BW
+    - BX6.G2BW
+  : 93
+  ? - WRO.G2BW
+    - B5A.G2BW
+  : 92.06722
+  ? - UH2...BW
+    - PTD.P1BW
+  : 0.75848
+  ? - W58.G4BW
+    - B5I.G4BW
+  : 1.5
+  ? - CTV.2XBW
+    - PZF.2XBW
+  : -1
+  ? - BFH...BW
+    - BFH.G8BW
+  : -1
+  ? - BG2.VOBW
+    - BXO.G2BW
+  : 1
+  ? - CTV.P1BW
+    - PTD.P1BW
+  : -0.00001
+  ? - NGS.G2BW
+    - BXO.G2BW
+  : 0.823
+  ? - WMO.G4BW
+    - BPU.G4BW
+  : 79.80062
+  ? - BSI...BW
+    - PTA.P1BW
+  : 0.05849
+  ? - NGS.G2BW
+    - B2N.G2BW
+  : 0.847
+  ? - BSH...BW
+    - PTI.TEBW
+  : 1
+  ? - UFU...BW
+    - PSG.FHBW
+  : -0.002
+  ? - WRO.G8BW
+    - B1B.G8BW
+  : 99.30716
+  ? - W58.G2BW
+    - B2J.G2BW
+  : -13.9
+  ? - W12.G8BW
+    - B2I.G8BW
+  : -16.9
+  ? - NGS.G8BW
+    - BPU.G8BW
+  : 0.693
+  ? - WMO.G8BW
+    - B2K.G8BW
+  : 92.94314
+  ? - WMO.G2BW
+    - B5C.G2BW
+  : 71.11826
+  ? - CTF.PSBW
+    - P1A.PSBW
+  : -1
+  ? - W02.G2BW
+    - B1K.G2BW
+  : 100
+  ? - W02.G2BW
+    - B5O.G2BW
+  : 100
+  ? - BPT...BW
+    - BPT.G8BW
+  : -1
+  ? - WVP.G8BW
+    - BXD.G8BW
+  : 2.1
+  ? - WRO.G8BW
+    - BPV.G8BW
+  : 76.03212
+  ? - BG8.VOBW
+    - BXS.G8BW
+  : 1
+  ? - B1G...BW
+    - B1G.G4BW
+  : -1
+  ? - BG4.WTBW
+    - BXK.G4BW
+  : 0.805
+  ? - BXM...BW
+    - BXM.G2BW
+  : -1
+  ? - WRO.G4BW
+    - BLI.G4BW
+  : 79.88909
+  ? - NGS.G2BW
+    - BXI.G2BW
+  : 0.795
+  ? - NGS.G8BW
+    - BPV.G8BW
+  : 0.631
+  ? - BFS...BW
+    - PTX.TSBW
+  : 1
+  ? - BG4.VOBW
+    - B1B.G4BW
+  : 1
+  ? - WMO.G2BW
+    - B2G.G2BW
+  : 97.63681
+  ? - WVP.G2BW
+    - B5D.G2BW
+  : 2.28
+  ? - WRO.G4BW
+    - BFP.G4BW
+  : 105.15159
+  ? - W12.G8BW
+    - BXG.G8BW
+  : -13.1
+  ? - W58.G8BW
+    - B2K.G8BW
+  : -9.4
+  ? - WVP.G8BW
+    - BFN.G8BW
+  : 12.5
+  ? - UH2...BW
+    - PSU.I.BW
+  : -0.04325
+  ? - W12.G2BW
+    - B5M.G2BW
+  : 99.2
+  ? - BX2...BW
+    - BX2.G8BW
+  : -1
+  ? - WVP.G4BW
+    - BX4.G4BW
+  : 1.48
+  ? - WMO.G2BW
+    - B5L.G2BW
+  : 71.98974
+  ? - W12.G4BW
+    - BA5.G4BW
+  : 45
+  ? - W02.G4BW
+    - BXF.G4BW
+  : 79
+  ? - BG2.WTBW
+    - BX3.G2BW
+  : 0.852
+  ? - WRO.G8BW
+    - B2K.G8BW
+  : 108.32812
+  ? - WRO.G8BW
+    - B5K.G8BW
+  : 92.06722
+  ? - NGS.G2BW
+    - BXC.G2BW
+  : 0.839
+  ? - NGS.G8BW
+    - B1C.G8BW
+  : 0.845
+  ? - CTC.2XBW
+    - PZG.2XBW
+  : -0.00001
+  ? - WRO.G2BW
+    - BXR.G2BW
+  : 105.81583
+  ? - WRO.G8BW
+    - BA4.G8BW
+  : 95.0259
+  ? - BLV...BW
+    - PSQ.TKBW
+  : 1
+  ? - BG8.VOBW
+    - B2H.G8BW
+  : 1
+  ? - CTF.PHBW
+    - PTG.PHBW
+  : -1
+  ? - BXC...BW
+    - BXC.G2BW
+  : -1
+  ? - WRO.G4BW
+    - BXQ.G4BW
+  : 105.48297
+  ? - W58.G2BW
+    - BLH.G2BW
+  : 25
+  ? - UFU...BW
+    - PST.I.BW
+  : -0.005
+  ? - U9R...BW
+    - PZF.P2BW
+  : -0.083
+  ? - WVP.G8BW
+    - BFK.G8BW
+  : 0.5
+  ? - B4U...BW
+    - B4U.G2BW
+  : -1
+  ? - WRO.G4BW
+    - BLV.G4BW
+  : 74.42509
+  ? - BFX...BW
+    - PSB.E.BW
+  : 0.58
+  ? - B1K...BW
+    - PK1.TABW
+  : 1
+  ? - NGS.G2BW
+    - BFN.G2BW
+  : 0.687
+  ? - NGS.G2BW
+    - B5H.G2BW
+  : 0.735
+  ? - WVP.G2BW
+    - B1I.G2BW
+  : 3.09
+  ? - B5M...BW
+    - B5M.G8BW
+  : -1
+  ? - BSI...BW
+    - PTD.P1BW
+  : 0.02378
+  ? - W02.G4BW
+    - BF3.G4BW
+  : 75.1
+  ? - U9R...BW
+    - P3U.A.BW
+  : -0.0011
+  ? - U9R...BW
+    - PCP.F.BW
+  : -0.0068
+  ? - U9R...BW
+    - PPI.F.BW
+  : -0.0068
+  ? - B2L...BW
+    - B2L.G8BW
+  : -1
+  ? - W02.G8BW
+    - BLF.G8BW
+  : 101
+  ? - NGS.G4BW
+    - B5C.G4BW
+  : 0.752
+  ? - UH2...BW
+    - PTN.FHBW
+  : -0.14273
+  ? - CTF.P1BW
+    - PTE.P1BW
+  : -1
+  ? - WVP.G8BW
+    - B1I.G8BW
+  : 3.09
+  ? - WVP.G8BW
+    - BPT.G8BW
+  : 13.5
+  ? - CTC.P3BW
+    - CTC.P3BW
+  : 1
+  ? - UFU...BW
+    - PTT.FTBW
+  : -0.009
+  ? - NGS.G2BW
+    - B2A.G2BW
+  : 0.74
+  ? - B1M...BW
+    - P1M.PSBW
+  : -1
+  ? - BK3...BW
+    - PZH.2XBW
+  : 0.8099
+  ? - WMO.G4BW
+    - BI4.G4BW
+  : 94.85789
+  ? - WMO.G8BW
+    - BA3.G8BW
+  : 87.83771
+  ? - NGS.G8BW
+    - BXU.G8BW
+  : 0.805
+  ? - BG4.WTBW
+    - BXM.G4BW
+  : 0.692
+  ? - BG8.VOBW
+    - B5I.G8BW
+  : 1
+  ? - W58.G8BW
+    - BXA.G8BW
+  : -19
+  ? - BLV...BW
+    - BLV.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BXM.G2BW
+  : 0.692
+  ? - W58.G8BW
+    - BPU.G8BW
+  : 50
+  ? - W02.G8BW
+    - BX3.G8BW
+  : 73
+  ? - NGS.G2BW
+    - BX1.G2BW
+  : 0.753
+  ? - WSU.G2BW
+    - BXM.G2BW
+  : 0.01605
+  ? - BG8.WTBW
+    - BI5.G8BW
+  : 0.625
+  ? - BG8.WTBW
+    - BIS.G8BW
+  : 0.655
+  ? - BG8.WTBW
+    - B2L.G8BW
+  : 0.848
+  ? - WMO.G2BW
+    - BFO.G2BW
+  : 75.6974
+  ? - BXP...BW
+    - BXP.G4BW
+  : -1
+  ? - W02.G4BW
+    - B5A.G4BW
+  : 100
+  ? - BG2.WTBW
+    - QWT2G2BW
+  : -1
+  ? - W02.G8BW
+    - B1D.G8BW
+  : 79.8
+  ? - NRO.G4BW
+    - QVO2G4BW
+  : -50
+  ? - W12.G4BW
+    - BXN.G4BW
+  : 88
+  ? - CTF.PSBW
+    - P1K.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BFJ.G4BW
+  : 76.21092
+  ? - BG8.VOBW
+    - B5H.G8BW
+  : 1
+  ? - WVP.G2BW
+    - B5N.G2BW
+  : 2.28
+  ? - BG2.VOBW
+    - B5S.G2BW
+  : 1
+  ? - W12.G4BW
+    - BXM.G4BW
+  : 84
+  ? - W12.G4BW
+    - B2L.G4BW
+  : -7
+  ? - BG8.VOBW
+    - BHC.G8BW
+  : 1
+  ? - W02.G8BW
+    - BTO.G8BW
+  : 100
+  ? - NGS.G2BW
+    - BFX.G2BW
+  : 0.874
+  ? - W02.G2BW
+    - B2O.G2BW
+  : 73
+  ? - W58.G2BW
+    - BFF.G2BW
+  : -2
+  ? - BG2.WTBW
+    - BFD.G2BW
+  : 0.786
+  ? - BG4.VOBW
+    - BA4.G4BW
+  : 1
+  ? - BG4.VOBW
+    - BU4.G4BW
+  : 1
+  ? - NGS.G4BW
+    - B1D.G4BW
+  : 0.823
+  ? - W02.G8BW
+    - BF3.G8BW
+  : 75.1
+  ? - W02.G8BW
+    - BPV.G8BW
+  : 100
+  ? - WRO.G8BW
+    - BU5.G8BW
+  : 104.38066
+  ? - UNF...BW
+    - PZJ.2XBW
+  : -0.007
+  ? - NGS.G8BW
+    - QVO2G8BW
+  : -0.5
+  ? - NGS.G4BW
+    - B1G.G4BW
+  : 0.688
+  ? - UFU...BW
+    - PPI.F1BW
+  : 0.005
+  ? - BSC...BW
+    - PTW.FHBW
+  : 1
+  ? - WRO.G2BW
+    - BFF.G2BW
+  : 77.31816
+  ? - WMO.G2BW
+    - BFU.G2BW
+  : 77.20759
+  ? - BG8.WTBW
+    - BA4.G8BW
+  : 0.703
+  ? - W58.G8BW
+    - B5K.G8BW
+  : 1.2
+  ? - BTY...BW
+    - PTM.FSBW
+  : 0.8
+  ? - BFJ...BW
+    - BFJ.G4BW
+  : -1
+  ? - BXL...BW
+    - BXL.G2BW
+  : -1
+  ? - W58.G4BW
+    - B2I.G4BW
+  : -14.6
+  ? - WSU.G2BW
+    - BFN.G2BW
+  : 0.00756
+  ? - WVP.G2BW
+    - BXR.G2BW
+  : 2.7
+  ? - W58.G4BW
+    - B5A.G4BW
+  : 1.2
+  ? - W02.G8BW
+    - B2G.G8BW
+  : 100
+  ? - WVP.G2BW
+    - BF3.G2BW
+  : 1.02
+  ? - W58.G4BW
+    - BA4.G4BW
+  : -2
+  ? - W02.G4BW
+    - BFK.G4BW
+  : 20
+  ? - W12.G8BW
+    - BTO.G8BW
+  : 18
+  ? - CTF.FTBW
+    - PTS.FTBW
+  : -1
+  ? - BG4.WTBW
+    - BXI.G4BW
+  : 0.795
+  ? - B5S...BW
+    - PPI.F1BW
+  : 0.0104
+  ? - BFI...BW
+    - PSG.FHBW
+  : 1
+  ? - CTF.PSBW
+    - PXR.PSBW
+  : -1
+  ? - WVP.G2BW
+    - B2K.G2BW
+  : 1.18
+  ? - BXK...BW
+    - PSD.TXBW
+  : 1
+  ? - BG2.WTBW
+    - B1L.G2BW
+  : 0.806
+  ? - WVP.G4BW
+    - BA5.G4BW
+  : 6
+  ? - W12.G4BW
+    - B2N.G4BW
+  : -15
+  ? - BU5...BW
+    - BU5.G8BW
+  : -1
+  ? - NGS.G8BW
+    - B5L.G8BW
+  : 0.756
+  ? - BG4.WTBW
+    - BXU.G4BW
+  : 0.805
+  ? - BF2...BW
+    - BF2.G8BW
+  : -1
+  ? - U9R...BW
+    - PSG.FHBW
+  : -0.002
+  ? - W02.G4BW
+    - B5K.G4BW
+  : 100
+  ? - BTN...BW
+    - PTN.FHBW
+  : -1
+  ? - BU4...BW
+    - PPI.F1BW
+  : 0.0009
+  ? - BG2.VOBW
+    - B5A.G2BW
+  : 1
+  ? - BG2.WTBW
+    - BN5.G2BW
+  : 0.631
+  ? - WVP.G2BW
+    - BFM.G2BW
+  : 10
+  ? - WMO.G8BW
+    - B2O.G8BW
+  : 90.05458
+  ? - WMO.G4BW
+    - BXL.G4BW
+  : 73.95196
+  ? - W02.G2BW
+    - BTO.G2BW
+  : 100
+  ? - BSI...BW
+    - PZF.2XBW
+  : 0.05849
+  ? - BG2.VOBW
+    - B5B.G2BW
+  : 1
+  ? - WRO.G4BW
+    - BXM.G4BW
+  : 92.03197
+  ? - NGS.G4BW
+    - BHC.G4BW
+  : 0.772
+  ? - NGS.G8BW
+    - B2C.G8BW
+  : 0.885
+  ? - BTF...BW
+    - PTL.FSBW
+  : 0.2
+  ? - BSU...BW
+    - U9R.GQBW
+  : -1
+  ? - WRO.G4BW
+    - B1A.G4BW
+  : 94.90093
+  ? - WMO.G4BW
+    - BFO.G4BW
+  : 75.6974
+  ? - WMO.G8BW
+    - BXF.G8BW
+  : 72.70699
+  ? - NOI.G4BW
+    - QVO2G4BW
+  : -81.32
+  ? - BFL...BW
+    - PTL.TLBW
+  : 1
+  ? - W02.G4BW
+    - BX1.G4BW
+  : 100
+  ? - NGS.G4BW
+    - B2O.G4BW
+  : 0.852
+  ? - BG4.VOBW
+    - BI5.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BPT.G2BW
+  : 0.669
+  ? - UFU...BW
+    - P5U.A.BW
+  : -0.148
+  ? - WMO.G4BW
+    - B1L.G4BW
+  : 87.42257
+  ? - CTC.2XBW
+    - PZF.2XBW
+  : -0.00001
+  ? - WVP.G8BW
+    - B1L.G8BW
+  : 3.47
+  ? - W58.G2BW
+    - B2G.G2BW
+  : -9.7
+  ? - W02.G4BW
+    - BFP.G4BW
+  : 79.5
+  ? - WRO.G8BW
+    - BA5.G8BW
+  : 93.37346
+  ? - W58.G4BW
+    - BHC.G4BW
+  : 1
+  ? - WVP.G4BW
+    - B1A.G4BW
+  : 5.56
+  ? - BSH...BW
+    - PSH.FHBW
+  : -1
+  ? - CTV.P2BW
+    - PZI.P2BW
+  : -0.00001
+  ? - BPT...BW
+    - PTT.TTBW
+  : 1
+  ? - B1B...BW
+    - B1B.G8BW
+  : -1
+  ? - W58.G8BW
+    - BXQ.G8BW
+  : -2.1
+  ? - BG8.WTBW
+    - BLV.G8BW
+  : 0.67
+  ? - BTQ...BW
+    - PTE.P3BW
+  : 0.8292
+  ? - W58.G2BW
+    - BXC.G2BW
+  : -14
+  ? - W02.G2BW
+    - B2K.G2BW
+  : 95.2
+  ? - BG4.VOBW
+    - B5J.G4BW
+  : 1
+  ? - BG2.VOBW
+    - BI5.G2BW
+  : 1
+  ? - BX3...BW
+    - BX3.G2BW
+  : -1
+  ? - NGS.G2BW
+    - B2C.G2BW
+  : 0.885
+  ? - NGS.G4BW
+    - B5J.G4BW
+  : 0.715
+  ? - B5S...BW
+    - PCP.F.BW
+  : 0.0103
+  ? - W02.G8BW
+    - BFX.G8BW
+  : 17
+  ? - W12.G2BW
+    - B1G.G2BW
+  : 64.3
+  ? - WVP.G8BW
+    - BFF.G8BW
+  : 4
+  ? - W12.G2BW
+    - B5B.G2BW
+  : 92.1
+  ? - BG4.WTBW
+    - B2K.G4BW
+  : 0.74
+  ? - CTV.2XBW
+    - PZG.2XBW
+  : -1
+  ? - BG4.WTBW
+    - BPE.G4BW
+  : 0.669
+  ? - XVP.G8BW
+    - QVO2G8BW
+  : -13.8
+  ? - W58.G2BW
+    - BFH.G2BW
+  : -9
+  ? - WSU.G4BW
+    - BFK.G4BW
+  : 0.00064
+  ? - NGS.G2BW
+    - BF3.G2BW
+  : 0.835
+  ? - UFU...BW
+    - PCP.F.BW
+  : 0.005
+  ? - W12.G2BW
+    - B5D.G2BW
+  : 82.2
+  ? - BFX...BW
+    - PSD.E.BW
+  : 0.65
+  ? - WMO.G4BW
+    - BU4.G4BW
+  : 88.31541
+  ? - BX6...BW
+    - BX6.G8BW
+  : -1
+  ? - W58.G2BW
+    - B2K.G2BW
+  : -9.4
+  ? - W58.G2BW
+    - B5K.G2BW
+  : 1.2
+  ? - BG4.VOBW
+    - B2M.G4BW
+  : 1
+  ? - W12.G8BW
+    - BF1.G8BW
+  : -14.3
+  ? - BG8.VOBW
+    - B2L.G8BW
+  : 1
+  ? - BG4.WTBW
+    - B1H.G4BW
+  : 0.8
+  ? - W58.G4BW
+    - BTO.G4BW
+  : -20
+  ? - WVP.G8BW
+    - B5O.G8BW
+  : 2.35
+  ? - W02.G4BW
+    - B1H.G4BW
+  : 79.8
+  ? - WMO.G8BW
+    - B5G.G8BW
+  : 87.97
+  ? - WVP.G2BW
+    - BXU.G2BW
+  : 0.5
+  ? - WMO.G2BW
+    - BXD.G2BW
+  : 76.62526
+  ? - WMO.G2BW
+    - BPU.G2BW
+  : 79.80062
+  ? - NGS.G8BW
+    - BXR.G8BW
+  : 0.81
+  ? - BG2.VOBW
+    - B2K.G2BW
+  : 1
+  ? - W02.G4BW
+    - B2M.G4BW
+  : 7.3
+  ? - NGS.G2BW
+    - BN4.G2BW
+  : 0.584
+  ? - WVP.G2BW
+    - BFN.G2BW
+  : 12.5
+  ? - WRO.G2BW
+    - BN5.G2BW
+  : 71.85843
+  ? - W12.G8BW
+    - BLL.G8BW
+  : 103
+  ? - B5G...BW
+    - B5G.G4BW
+  : -1
+  ? - BG2.VOBW
+    - BXK.G2BW
+  : 1
+  ? - BG8.WTBW
+    - B5A.G8BW
+  : 0.684
+  ? - CTF.FSBW
+    - PSE.FSBW
+  : -1
+  ? - NGS.G2BW
+    - B2B.G2BW
+  : 0.848
+  ? - WRO.G4BW
+    - WRO2G4BW
+  : -1
+  ? - CBF.P1BW
+    - PPH.P1BW
+  : -1
+  ? - W12.G8BW
+    - B5I.G8BW
+  : 98
+  ? - WVP.G2BW
+    - BFL.G2BW
+  : 10
+  ? - W02.G4BW
+    - BFS.G4BW
+  : 100
+  ? - BG8.WTBW
+    - BFN.G8BW
+  : 0.687
+  ? - BG2.WTBW
+    - B2N.G2BW
+  : 0.847
+  ? - WMO.G8BW
+    - BPQ.G8BW
+  : 74.74378
+  ? - WMO.G4BW
+    - BHC.G4BW
+  : 92.87805
+  ? - W12.G8BW
+    - B1A.G8BW
+  : 71
+  ? - CTF.LSBW
+    - PSQ.LSBW
+  : -1
+  ? - W58.G8BW
+    - BXC.G8BW
+  : -14
+  ? - B2G...BW
+    - B2G.G8BW
+  : -1
+  ? - W12.G2BW
+    - BN5.G2BW
+  : 121
+  ? - BLV...BW
+    - BLV.G8BW
+  : -1
+  ? - BN5...BW
+    - BN5.G8BW
+  : -1
+  ? - W02.G2BW
+    - BIT.G2BW
+  : 100
+  ? - CTF.A.BW
+    - P5U.A.BW
+  : -2.295
+  ? - UH2...BW
+    - PPI.F1BW
+  : -0.08513
+  ? - X58.G2BW
+    - W582G2BW
+  : 1
+  ? - W12.G8BW
+    - BXO.G8BW
+  : 5.3
+  ? - W12.G2BW
+    - BXJ.G2BW
+  : 2
+  ? - WVP.G8BW
+    - BX1.G8BW
+  : 2.35
+  ? - NGS.G2BW
+    - BXG.G2BW
+  : 0.839
+  ? - BTG...BW
+    - PSH.FSBW
+  : 0.45
+  ? - WMO.G8BW
+    - B5J.G8BW
+  : 82.83746
+  ? - CTF.ASBW
+    - CTF.ASBW
+  : 1
+  ? - CTF.P1BW
+    - PPH.P1BW
+  : -1
+  ? - BG2.VOBW
+    - BX4.G2BW
+  : 1
+  ? - BG8.VOBW
+    - BLH.G8BW
+  : 1
+  ? - BTL...BW
+    - PTL.FSBW
+  : -1
+  ? - B5L...BW
+    - P1L.PSBW
+  : 0.08113
+  ? - WRO.G4BW
+    - BFQ.G4BW
+  : 105.15159
+  ? - WRO.G4BW
+    - BFL.G4BW
+  : 92.39784
+  ? - W02.G4BW
+    - B5J.G4BW
+  : 100
+  ? - WMO.G4BW
+    - BXF.G4BW
+  : 72.70699
+  ? - WVP.G8BW
+    - BX3.G8BW
+  : 1.37
+  ? - B4Z...BW
+    - PSJ.M2BW
+  : 1
+  ? - UH2...BW
+    - PGS.H.BW
+  : 19.66
+  ? - WSU.G4BW
+    - BXN.G4BW
+  : 0.00756
+  ? - BC3...BW
+    - P3U.M1BW
+  : 1
+  ? - W02.G8BW
+    - BU4.G8BW
+  : 100
+  ? - WMO.G2BW
+    - BLL.G2BW
+  : 73.72027
+  ? - W58.G2BW
+    - B1G.G2BW
+  : 22.2
+  ? - BA4...BW
+    - BA4.G4BW
+  : -1
+  ? - W12.G2BW
+    - B1A.G2BW
+  : 71
+  ? - W58.G4BW
+    - B5C.G4BW
+  : 0.82
+  ? - WVP.G8BW
+    - BFT.G8BW
+  : 4
+  ? - UFU...BW
+    - PZF.2XBW
+  : -0.011
+  ? - NGS.G4BW
+    - B4U.G4BW
+  : 0.62
+  ? - W58.G8BW
+    - BIS.G8BW
+  : 80
+  ? - W02.G2BW
+    - BF2.G2BW
+  : 100
+  ? - W02.G2BW
+    - BU5.G2BW
+  : 100
+  ? - BG8.VOBW
+    - BXP.G8BW
+  : 1
+  ? - W58.G2BW
+    - B1A.G2BW
+  : 23.5
+  ? - BXO...BW
+    - BXO.G4BW
+  : -1
+  ? - BXU...BW
+    - BXU.G8BW
+  : -1
+  ? - UFU...BW
+    - PSH.FHBW
+  : -0.002
+  ? - WVP.G2BW
+    - BFQ.G2BW
+  : 2.43
+  ? - NGS.G8BW
+    - BXH.G8BW
+  : 0.796
+  ? - BH....BW
+    - PTF.PHBW
+  : -0.016
+  ? - WMO.G2BW
+    - BFK.G2BW
+  : 76.79616
+  ? - W12.G2BW
+    - B2G.G2BW
+  : 14.1
+  ? - W12.G8BW
+    - BFU.G8BW
+  : -30
+  ? - NGS.G2BW
+    - BA3.G2BW
+  : 0.685
+  ? - WVP.G2BW
+    - BXH.G2BW
+  : 0.7
+  ? - NGS.G4BW
+    - BXO.G4BW
+  : 0.823
+  ? - WVP.G8BW
+    - BXL.G8BW
+  : 0.7
+  ? - W12.G8BW
+    - BXP.G8BW
+  : 3.7
+  ? - BG8.WTBW
+    - BXI.G8BW
+  : 0.795
+  ? - BTM...BW
+    - PTM.FMBW
+  : -1
+  ? - B2A...BW
+    - P1A.PSBW
+  : 0.38886
+  ? - BSI...BW
+    - PPG.P1BW
+  : 0.03369
+  ? - W12.G2BW
+    - BU4.G2BW
+  : 113
+  ? - BG8.WTBW
+    - B1M.G8BW
+  : 0.845
+  ? - X12.G2BW
+    - W122G2BW
+  : 1
+  ? - W12.G2BW
+    - BFK.G2BW
+  : -30
+  ? - WRO.G8BW
+    - BLL.G8BW
+  : 75.20602
+  ? - BGS...BW
+    - PGS.H.BW
+  : -1
+  ? - W02.G4BW
+    - B2O.G4BW
+  : 73
+  ? - W12.G4BW
+    - B5S.G4BW
+  : 122
+  ? - BG8.WTBW
+    - BFO.G8BW
+  : 0.795
+  ? - W12.G8BW
+    - BPV.G8BW
+  : 93
+  ? - WRO.G8BW
+    - BIS.G8BW
+  : 90.09694
+  ? - WVP.G8BW
+    - B1D.G8BW
+  : 2.36
+  ? - B4....BW
+    - PK6.M.BW
+  : 1
+  ? - BG8.WTBW
+    - B2O.G8BW
+  : 0.852
+  ? - WMO.G4BW
+    - B2B.G4BW
+  : 88.35055
+  ? - NGS.G2BW
+    - BFL.G2BW
+  : 0.692
+  ? - WMO.G8BW
+    - BFL.G8BW
+  : 81.5719
+  ? - WVP.G8BW
+    - B5G.G8BW
+  : 3.65
+  ? - CTF.ASBW
+    - PTT.ASBW
+  : -1
+  ? - BG2.VOBW
+    - BXN.G2BW
+  : 1
+  ? - BG2.VOBW
+    - BXJ.G2BW
+  : 1
+  ? - B5L...BW
+    - B5L.G8BW
+  : -1
+  ? - W02.G8BW
+    - BFE.G8BW
+  : 100
+  ? - BG2.VOBW
+    - B1O.G2BW
+  : 1
+  ? - BG8.WTBW
+    - B2M.G8BW
+  : 0.885
+  ? - BSD...BW
+    - PSD.E.BW
+  : -1
+  ? - WRO.G4BW
+    - B2B.G4BW
+  : 102.76529
+  ? - WVP.G8BW
+    - B1G.G8BW
+  : 5.52
+  ? - WMO.G2BW
+    - BFS.G2BW
+  : 81.63251
+  ? - BFK...BW
+    - BFK.G2BW
+  : -1
+  ? - BG2.WTBW
+    - BLL.G2BW
+  : 0.658
+  ? - W12.G4BW
+    - BFN.G4BW
+  : 88
+  ? - BXI...BW
+    - BXI.G2BW
+  : -1
+  ? - BPQ...BW
+    - BPQ.G4BW
+  : -1
+  ? - WVP.G4BW
+    - B1L.G4BW
+  : 3.47
+  ? - NGS.G8BW
+    - BF2.G8BW
+  : 0.736
+  ? - UFU...BW
+    - PSF.FSBW
+  : -0.009
+  ? - BI5...BW
+    - BI5.G2BW
+  : -1
+  ? - W12.G8BW
+    - BXC.G8BW
+  : -13.2
+  ? - BFP...BW
+    - PTP.TIBW
+  : 1
+  ? - BU4...BW
+    - BU4.G2BW
+  : -1
+  ? - BLP...BW
+    - PTD.P1BW
+  : 0.05193
+  ? - XCV.G4BW
+    - W582G4BW
+  : 0.13
+  ? - WVP.G8BW
+    - BPQ.G8BW
+  : 14.1
+  ? - W58.G2BW
+    - B5O.G2BW
+  : -1.9
+  ? - NGS.G4BW
+    - BXX.G4BW
+  : 0.874
+  ? - WSU.G2BW
+    - BFX.G2BW
+  : 0.0007
+  ? - W58.G2BW
+    - B5N.G2BW
+  : -2.3
+  ? - NGS.G2BW
+    - BFU.G2BW
+  : 0.805
+  ? - BG4.VOBW
+    - BXN.G4BW
+  : 1
+  ? - BFP...BW
+    - BFP.G4BW
+  : -1
+  ? - NMO.G4BW
+    - QVO2G4BW
+  : -50
+  ? - BG4.WTBW
+    - BXA.G4BW
+  : 0.796
+  ? - W58.G8BW
+    - BFP.G8BW
+  : -3.9
+  ? - WVP.G2BW
+    - BXI.G2BW
+  : 2
+  ? - W02.G2BW
+    - BXT.G2BW
+  : 79
+  ? - BG2.WTBW
+    - B2M.G2BW
+  : 0.885
+  ? - NGS.G4BW
+    - BFM.G4BW
+  : 0.692
+  ? - B1J...BW
+    - B1J.G2BW
+  : -1
+  ? - BX6...BW
+    - BX6.G4BW
+  : -1
+  ? - WMO.G8BW
+    - BF3.G8BW
+  : 92.24962
+  ? - BG4.WTBW
+    - BXB.G4BW
+  : 0.796
+  ? - WVP.G8BW
+    - BTO.G8BW
+  : 1.6
+  ? - WVP.G2BW
+    - B2J.G2BW
+  : 1.01
+  ? - BG4.VOBW
+    - BLH.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BF2.G2BW
+  : 0.736
+  ? - UFU...BW
+    - PSH.FSBW
+  : -0.009
+  ? - W02.G2BW
+    - BPU.G2BW
+  : 100
+  ? - NGS.G2BW
+    - BPV.G2BW
+  : 0.631
+  ? - W02.G4BW
+    - BFX.G4BW
+  : 17
+  ? - WMO.G8BW
+    - B1O.G8BW
+  : 88.75606
+  ? - BG8.WTBW
+    - BXD.G8BW
+  : 0.786
+  ? - WMO.G8BW
+    - BX2.G8BW
+  : 80.78009
+  ? - B2A...BW
+    - B2A.G8BW
+  : -1
+  ? - NGS.G8BW
+    - BLF.G8BW
+  : 0.658
+  ? - BG2.VOBW
+    - B5H.G2BW
+  : 1
+  ? - WVP.G2BW
+    - BF2.G2BW
+  : 2.43
+  ? - NGS.G2BW
+    - BFK.G2BW
+  : 0.805
+  ? - NGS.G8BW
+    - B2I.G8BW
+  : 0.883
+  ? - WSU.G4BW
+    - BFX.G4BW
+  : 0.0007
+  ? - WMO.G4BW
+    - BXJ.G4BW
+  : 74.44831
+  ? - UNF...BW
+    - PTD.P1BW
+  : -0.003
+  ? - W02.G4BW
+    - B5H.G4BW
+  : 100
+  ? - BFK...BW
+    - BFK.G4BW
+  : -1
+  ? - WSU.G8BW
+    - BXD.G8BW
+  : 0.09511
+  ? - WVP.G4BW
+    - BFD.G4BW
+  : 2.1
+  ? - W58.G4BW
+    - BXF.G4BW
+  : -2
+  ? - WSU.G8BW
+    - BPV.G8BW
+  : 0.01956
+  ? - NGS.G4BW
+    - BXS.G4BW
+  : 0.687
+  ? - W02.G4BW
+    - BIS.G4BW
+  : 100
+  ? - WVP.G4BW
+    - BN4.G4BW
+  : 57
+  ? - W12.G8BW
+    - B5L.G8BW
+  : 92.1
+  ? - BZI...BW
+    - PZI.P2BW
+  : -1
+  ? - CTF.P3BW
+    - PTE.P3BW
+  : -1
+  ? - NGS.G2BW
+    - B2G.G2BW
+  : 0.738
+  ? - BG4.WTBW
+    - BFX.G4BW
+  : 0.874
+  ? - CTF.FHBW
+    - PSG.FHBW
+  : -1
+  ? - BG4.WTBW
+    - B2O.G4BW
+  : 0.852
+  ? - CTF.P2BW
+    - PZI.P2BW
+  : -1
+  ? - BK1...BW
+    - PK1.TABW
+  : -1
+  ? - W58.G2BW
+    - BFO.G2BW
+  : -9
+  ? - BX3...BW
+    - PXO.PSBW
+  : 0.86589
+  ? - NGS.G4BW
+    - BTO.G4BW
+  : 0.872
+  ? - WRO.G4BW
+    - B2C.G4BW
+  : 100.04377
+  ? - WMO.G8BW
+    - BFU.G8BW
+  : 77.20759
+  ? - WMO.G4BW
+    - BN5.G4BW
+  : 71.60925
+  ? - WVP.G8BW
+    - B1M.G8BW
+  : 2.98
+  ? - B5S...BW
+    - PTV.ASBW
+  : 0.05
+  ? - CTV.2XBW
+    - PZJ.2XBW
+  : -0.00001
+  ? - WMO.G4BW
+    - BXP.G4BW
+  : 90.21435
+  ? - W02.G4BW
+    - B1C.G4BW
+  : 22.1
+  ? - WMO.G2BW
+    - BPV.G2BW
+  : 73.15497
+  ? - W02.G8BW
+    - BX4.G8BW
+  : 71.3
+  ? - WSU.G8BW
+    - BXS.G8BW
+  : 0.01889
+  ? - W02.G4BW
+    - BXQ.G4BW
+  : 77.9
+  ? - WMO.G8BW
+    - BI5.G8BW
+  : 87.95423
+  ? - W02.G8BW
+    - B1O.G8BW
+  : 79
+  ? - WMO.G2BW
+    - BXP.G2BW
+  : 90.21435
+  ? - WSU.G8BW
+    - BLI.G8BW
+  : 0.00132
+  ? - BX2...BW
+    - BX2.G2BW
+  : -1
+  ? - BXQ...BW
+    - BXQ.G4BW
+  : -1
+  ? - WMO.G2BW
+    - BXG.G2BW
+  : 91.595
+  ? - W02.G2BW
+    - BXH.G2BW
+  : 28
+  ? - WVP.G4BW
+    - BA4.G4BW
+  : 6
+  ? - BG8.WTBW
+    - BA5.G8BW
+  : 0.71
+  ? - BG2.VOBW
+    - B1M.G2BW
+  : 1
+  ? - BTR...BW
+    - PTR.M.BW
+  : -1
+  ? - W02.G8BW
+    - BLL.G8BW
+  : 101
+  ? - NGS.G4BW
+    - B1O.G4BW
+  : 0.823
+  ? - W02.G2BW
+    - B1C.G2BW
+  : 22.1
+  ? - W02.G8BW
+    - BLH.G8BW
+  : 100
+  ? - BG2.VOBW
+    - B2H.G2BW
+  : 1
+  ? - WVP.G2BW
+    - BFE.G2BW
+  : 10
+  ? - NGS.G8BW
+    - BXM.G8BW
+  : 0.692
+  ? - WRO.G8BW
+    - BFH.G8BW
+  : 87.42369
+  ? - BTW...BW
+    - PSG.FSBW
+  : 0.35
+  ? - WRO.G4BW
+    - BX6.G4BW
+  : 93.74377
+  ? - NGS.G2BW
+    - B5I.G2BW
+  : 0.743
+  ? - BG8.VOBW
+    - BFX.G8BW
+  : 1
+  ? - WVP.G4BW
+    - BTO.G4BW
+  : 1.6
+  ? - BF1...BW
+    - PTB.TBBW
+  : 1
+  ? - WRO.G2BW
+    - BFE.G2BW
+  : 92.03197
+  ? - BH....BW
+    - PTW.FHBW
+  : -0.00727
+  ? - WVP.G8BW
+    - BA5.G8BW
+  : 6
+  ? - W12.G4BW
+    - B5M.G4BW
+  : 99.2
+  ? - BGS...BW
+    - PZH.P2BW
+  : 0.05104
+  ? - BG8.VOBW
+    - B2N.G8BW
+  : 1
+  ? - BG4.VOBW
+    - BFO.G4BW
+  : 1
+  ? - W02.G2BW
+    - B5K.G2BW
+  : 100
+  ? - W02.G4BW
+    - B5I.G4BW
+  : 100
+  ? - BG8.VOBW
+    - BU4.G8BW
+  : 1
+  ? - WVP.G4BW
+    - B1M.G4BW
+  : 2.98
+  ? - WMO.G4BW
+    - B2K.G4BW
+  : 92.94314
+  ? - UFU...BW
+    - PTD.P1BW
+  : -0.002
+  ? - BG2.WTBW
+    - BFT.G2BW
+  : 0.78
+  ? - BTC...BW
+    - PTQ.PSBW
+  : 0.86597
+  ? - U9R...BW
+    - PSD.E.BW
+  : -0.0292
+  ? - WRO.G8BW
+    - B5I.G8BW
+  : 73.10682
+  ? - BTD...BW
+    - PTF.PHBW
+  : 1
+  ? - W58.G4BW
+    - BLF.G4BW
+  : 73
+  ? - W12.G2BW
+    - BLF.G2BW
+  : 110
+  ? - W12.G8BW
+    - BXT.G8BW
+  : 10
+  ? - CTF.PSBW
+    - P1L.PSBW
+  : -1
+  ? - W12.G4BW
+    - BFL.G4BW
+  : 84
+  ? - WMO.G2BW
+    - B5A.G2BW
+  : 82.21907
+  ? - NGS.G4BW
+    - BPQ.G4BW
+  : 0.66
+  ? - NGS.G2BW
+    - BFE.G2BW
+  : 0.692
+  ? - W02.G8BW
+    - BA4.G8BW
+  : 94
+  ? - WVP.G2BW
+    - BX4.G2BW
+  : 1.48
+  ? - BG4.WTBW
+    - BFL.G4BW
+  : 0.692
+  ? - X58.G4BW
+    - W582G4BW
+  : 1
+  ? - NGS.G4BW
+    - BXM.G4BW
+  : 0.692
+  ? - WMO.G8BW
+    - BFO.G8BW
+  : 75.6974
+  ? - BG4.VOBW
+    - BXP.G4BW
+  : 1
+  ? - BG4.VOBW
+    - B5I.G4BW
+  : 1
+  ? - BFN...BW
+    - BFN.G8BW
+  : -1
+  ? - W58.G8BW
+    - B2H.G8BW
+  : -13.5
+  ? - BG8.WTBW
+    - BFJ.G8BW
+  : 0.786
+  ? - W12.G2BW
+    - B1K.G2BW
+  : 71
+  ? - BN4...BW
+    - BN4.G4BW
+  : -1
+  ? - BG8.VOBW
+    - B2G.G8BW
+  : 1
+  ? - BG2.VOBW
+    - QVO2G2BW
+  : -1
+  ? - WVP.G8BW
+    - B1J.G8BW
+  : 2.42
+  ? - BTO...BW
+    - BTO.G4BW
+  : -1
+  ? - WMO.G4BW
+    - BA3.G4BW
+  : 87.83771
+  ? - BSQ...BW
+    - PSQ.LSBW
+  : -1
+  ? - BFY...BW
+    - PFY.M.BW
+  : -1
+  ? - NGS.G4BW
+    - BF3.G4BW
+  : 0.835
+  ? - BTF...BW
+    - PTF.PHBW
+  : -1
+  ? - BSU...BW
+    - PSU.TKBW
+  : -1
+  ? - BG2.WTBW
+    - B5K.G2BW
+  : 0.684
+  ? - WSU.G8BW
+    - BI5.G8BW
+  : 0.00156
+  ? - B5D...BW
+    - B5D.G2BW
+  : -1
+  ? - W12.G8BW
+    - B1J.G8BW
+  : 0.7
+  ? - U9R...BW
+    - PSC.E.BW
+  : -0.0292
+  ? - BSI...BW
+    - PSI.THBW
+  : -1
+  ? - W12.G8BW
+    - BX6.G8BW
+  : 93
+  ? - W58.G2BW
+    - B1N.G2BW
+  : -4.4
+  ? - W58.G8BW
+    - B5N.G8BW
+  : -2.3
+  ? - WSU.G2BW
+    - BFD.G2BW
+  : 0.09511
+  ? - BG2.WTBW
+    - BXI.G2BW
+  : 0.795
+  ? - BSI...BW
+    - PPH.P1BW
+  : 0.02506
+  ? - WMO.G4BW
+    - WMO2G4BW
+  : -1
+  ? - WSU.G2BW
+    - BPE.G2BW
+  : 0.01485
+  ? - W02.G4BW
+    - BLV.G4BW
+  : 103
+  ? - WVP.G8BW
+    - BXT.G8BW
+  : 4
+  ? - W58.G2BW
+    - BFS.G2BW
+  : 50
+  ? - U9R...BW
+    - PTD.P1BW
+  : -0.073
+  ? - BG4.VOBW
+    - BFM.G4BW
+  : 1
+  ? - CTF.E.BW
+    - PSA.E.BW
+  : -1
+  ? - BG2.WTBW
+    - BFN.G2BW
+  : 0.687
+  ? - BF1...BW
+    - BF1.G2BW
+  : -1
+  ? - BG4.WTBW
+    - BF3.G4BW
+  : 0.835
+  ? - WMO.G4BW
+    - BPT.G4BW
+  : 82.29867
+  ? - BG8.WTBW
+    - BXX.G8BW
+  : 0.874
+  ? - BTH...BW
+    - PPI.F.BW
+  : 0.344
+  ? - BXS...BW
+    - PTY.TSBW
+  : 1
+  ? - W12.G2BW
+    - W122G2BW
+  : -1
+  ? - BTF...BW
+    - PSE.FSBW
+  : 0.474
+  ? - BLH...BW
+    - BLH.G2BW
+  : -1
+  ? - WVP.G4BW
+    - BPT.G4BW
+  : 13.5
+  ? - BG4.VOBW
+    - BXC.G4BW
+  : 1
+  ? - WMO.G2BW
+    - B5O.G2BW
+  : 71.09379
+  ? - BLP...BW
+    - DLP...BW
+  : -1
+  ? - W02.G4BW
+    - BI4.G4BW
+  : 100
+  ? - BXP...BW
+    - BXP.G2BW
+  : -1
+  ? - W02.G2BW
+    - BXA.G2BW
+  : 28
+  ? - BLP...BW
+    - PTD.P3BW
+  : 0.0608
+  ? - W02.G8BW
+    - B5H.G8BW
+  : 100
+  ? - W02.G2BW
+    - B2B.G2BW
+  : 73.8
+  ? - BG2.VOBW
+    - BXH.G2BW
+  : 1
+  ? - UFU...BW
+    - PTU.ASBW
+  : -0.007
+  ? - WVP.G4BW
+    - B5D.G4BW
+  : 2.28
+  ? - BG2.WTBW
+    - B2A.G2BW
+  : 0.74
+  ? - WRO.G4BW
+    - BF2.G4BW
+  : 82.92617
+  ? - BG2.VOBW
+    - B1J.G2BW
+  : 1
+  ? - WRO.G4BW
+    - B2L.G4BW
+  : 102.76529
+  ? - NGS.G8BW
+    - BA5.G8BW
+  : 0.71
+  ? - BG4.VOBW
+    - BFT.G4BW
+  : 1
+  ? - WRO.G8BW
+    - BPE.G8BW
+  : 92.77312
+  ? - BXM...BW
+    - BXM.G8BW
+  : -1
+  ? - WMO.G4BW
+    - BPQ.G4BW
+  : 74.74378
+  ? - BG2.WTBW
+    - BXS.G2BW
+  : 0.687
+  ? - WSU.G2BW
+    - B5S.G2BW
+  : 0.00156
+  ? - W58.G4BW
+    - BU5.G4BW
+  : 86.9
+  ? - BG8.WTBW
+    - BXE.G8BW
+  : 0.723
+  ? - NGS.G2BW
+    - BX4.G2BW
+  : 0.838
+  ? - WMO.G8BW
+    - BFQ.G8BW
+  : 90.23941
+  ? - WRO.G8BW
+    - BXU.G8BW
+  : 83.48678
+  ? - BZI...BW
+    - PZD.T2BW
+  : 1
+  ? - W12.G8BW
+    - BXD.G8BW
+  : 2
+  ? - WVP.G4BW
+    - B2A.G4BW
+  : 1.18
+  ? - WMO.G8BW
+    - BPT.G8BW
+  : 82.29867
+  ? - W58.G4BW
+    - B5H.G4BW
+  : -1.4
+  ? - CTF.F2BW
+    - CTF.F2BW
+  : 1
+  ? - UFU...BW
+    - PZG.P2BW
+  : -0.011
+  ? - CTF.FHBW
+    - PTR.FHBW
+  : -1
+  ? - BG2.WTBW
+    - BXT.G2BW
+  : 0.78
+  ? - WRO.G8BW
+    - BXB.G8BW
+  : 83.15426
+  ? - B2K...BW
+    - P1K.PSBW
+  : 0.38886
+  ? - WVP.G4BW
+    - BX6.G4BW
+  : 13
+  ? - WRO.G4BW
+    - BPU.G4BW
+  : 94.18285
+  ? - WMO.G4BW
+    - B2G.G4BW
+  : 97.63681
+  ? - WRO.G2BW
+    - BXN.G2BW
+  : 92.09434
+  ? - BFF...BW
+    - BFF.G8BW
+  : -1
+  ? - W58.G4BW
+    - BN5.G4BW
+  : 86
+  ? - W58.G4BW
+    - B5N.G4BW
+  : -2.3
+  ? - WSU.G8BW
+    - BFO.G8BW
+  : 0.10891
+  ? - CTF.FHBW
+    - PSF.FHBW
+  : -1
+  ? - WVP.G2BW
+    - BXK.G2BW
+  : 0.5
+  ? - BG4.WTBW
+    - BLV.G4BW
+  : 0.67
+  ? - BSR...BW
+    - PLI.ISBW
+  : 1
+  ? - BG2.WTBW
+    - BLH.G2BW
+  : 0.71
+  ? - NGS.G2BW
+    - BPU.G2BW
+  : 0.693
+  ? - WVP.G8BW
+    - B2L.G8BW
+  : 1.17
+  ? - BG2.WTBW
+    - BIT.G2BW
+  : 0.655
+  ? - W58.G2BW
+    - B2L.G2BW
+  : -13.4
+  ? - W58.G2BW
+    - BXT.G2BW
+  : -2
+  ? - BG4.WTBW
+    - B5L.G4BW
+  : 0.756
+  ? - W02.G2BW
+    - B1N.G2BW
+  : 79.8
+  ? - W58.G4BW
+    - BLL.G4BW
+  : 73
+  ? - NGS.G8BW
+    - BI4.G8BW
+  : 0.563
+  ? - BG4.WTBW
+    - BXJ.G4BW
+  : 0.786
+  ? - WMO.G2BW
+    - BFX.G2BW
+  : 87.99456
+  ? - WRO.G8BW
+    - BPT.G8BW
+  : 93.00495
+  ? - BG4...BW
+    - MT1.R1BW
+  : -0.15
+  ? - B1O...BW
+    - PK5.TABW
+  : 1
+  ? - WRO.G8BW
+    - B1L.G8BW
+  : 99.30716
+  ? - WMO.G8BW
+    - BPV.G8BW
+  : 73.15497
+  ? - U9R...BW
+    - PTA.P1BW
+  : -0.073
+  ? - WRO.G2BW
+    - BFJ.G2BW
+  : 81.04273
+  ? - CTP.FTBW
+    - ITP.FTBW
+  : 1
+  ? - W58.G2BW
+    - B1B.G2BW
+  : 3.55
+  ? - BSB...BW
+    - PTR.FHBW
+  : 1
+  ? - WSU.G8BW
+    - BXT.G8BW
+  : 0.0897
+  ? - BG4.VOBW
+    - BXA.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BXS.G8BW
+  : 0.687
+  ? - UNF...BW
+    - PTE.P1BW
+  : -0.003
+  ? - BFO...BW
+    - BFO.G4BW
+  : -1
+  ? - WVP.G4BW
+    - B2D.G4BW
+  : 1.02
+  ? - BG8.WTBW
+    - BPU.G8BW
+  : 0.693
+  ? - WMO.G8BW
+    - BLV.G8BW
+  : 73.02371
+  ? - U9R...BW
+    - PZI.P2BW
+  : -0.083
+  ? - WRO.G4BW
+    - BIT.G4BW
+  : 88.88307
+  ? - WRO.G2BW
+    - B5H.G2BW
+  : 80.53522
+  ? - WSU.G4BW
+    - BPE.G4BW
+  : 0.01485
+  ? - B1I...BW
+    - B1I.G8BW
+  : -1
+  ? - BG4.WTBW
+    - BXP.G4BW
+  : 0.81
+  ? - UNF...BW
+    - PTL.FMBW
+  : -0.006
+  ? - WSU.G4BW
+    - WSU2G4BW
+  : -1
+  ? - CTF.FMBW
+    - PTL.FMBW
+  : -1
+  ? - BG4.VOBW
+    - BX4.G4BW
+  : 1
+  ? - B8....BW
+    - PTZ.M.BW
+  : 1
+  ? - BXA...BW
+    - BXA.G2BW
+  : -1
+  ? - W12.G2BW
+    - BI5.G2BW
+  : 115
+  ? - BG2.VOBW
+    - BU4.G2BW
+  : 1
+  ? - BST...BW
+    - PST.TKBW
+  : -1
+  ? - WMO.G2BW
+    - B1A.G2BW
+  : 84.96442
+  ? - NGS.G8BW
+    - B5D.G8BW
+  : 0.75
+  ? - WRO.G2BW
+    - BPE.G2BW
+  : 92.77312
+  ? - WMO.G4BW
+    - B5J.G4BW
+  : 82.83746
+  ? - WVP.G4BW
+    - BFO.G4BW
+  : 2
+  ? - BTP...BW
+    - PTP.PSBW
+  : -1
+  ? - WSU.G2BW
+    - BXU.G2BW
+  : 0.12477
+  ? - BG8.VOBW
+    - BFN.G8BW
+  : 1
+  ? - WVP.G4BW
+    - BN5.G4BW
+  : 15
+  ? - WRO.G8BW
+    - B2G.G8BW
+  : 114.92604
+  ? - CBF.2XBW
+    - PZG.2XBW
+  : -1
+  ? - WSU.G8BW
+    - BN4.G8BW
+  : 0.00117
+  ? - BGS...BW
+    - PZG.2XBW
+  : 0.05521
+  ? - W58.G4BW
+    - B2K.G4BW
+  : -9.4
+  ? - U9R...BW
+    - U9R.BLBW
+  : 0.956
+  ? - BG2.VOBW
+    - B1L.G2BW
+  : 1
+  ? - BFJ...BW
+    - BFJ.G8BW
+  : -1
+  ? - WMO.G4BW
+    - B2O.G4BW
+  : 90.05458
+  ? - W12.G2BW
+    - BFS.G2BW
+  : 88
+  ? - BGS...BW
+    - PPH.P1BW
+  : 0.04572
+  ? - BSI...BW
+    - PZJ.P2BW
+  : 0.02357
+  ? - W12.G4BW
+    - BFI.G4BW
+  : 1
+  ? - W12.G8BW
+    - BU4.G8BW
+  : 113
+  ? - BSJ...BW
+    - PZG.P2BW
+  : 0.05632
+  ? - W02.G4BW
+    - BU4.G4BW
+  : 100
+  ? - WRO.G4BW
+    - BFN.G4BW
+  : 92.70599
+  ? - BG8.VOBW
+    - BF3.G8BW
+  : 1
+  ? - BG8.WTBW
+    - B2I.G8BW
+  : 0.883
+  ? - WMO.G2BW
+    - WMO2G2BW
+  : -1
+  ? - BG4.WTBW
+    - B5K.G4BW
+  : 0.684
+  ? - NGS.G8BW
+    - BXA.G8BW
+  : 0.796
+  ? - BTZ...BW
+    - PTZ.TNBW
+  : -1
+  ? - W58.G8BW
+    - BXS.G8BW
+  : 50
+  ? - W12.G8BW
+    - BLV.G8BW
+  : 99
+  ? - BG2.WTBW
+    - B5G.G2BW
+  : 0.666
+  ? - NGS.G4BW
+    - BFX.G4BW
+  : 0.874
+  ? - WMO.G4BW
+    - B1C.G4BW
+  : 86.84432
+  ? - BG4.WTBW
+    - B4U.G4BW
+  : 0.62
+  ? - NGS.G8BW
+    - BX4.G8BW
+  : 0.838
+  ? - W12.G8BW
+    - B1M.G8BW
+  : 2.67
+  ? - B4....BW
+    - PSU.M.BW
+  : 1
+  ? - BH....BW
+    - PZH.P2BW
+  : 0.06077
+  ? - UFU...BW
+    - PTF.PHBW
+  : -0.001
+  ? - BG2.VOBW
+    - BLI.G2BW
+  : 1
+  ? - WVP.G2BW
+    - B1N.G2BW
+  : 2.36
+  ? - W02.G2BW
+    - BXF.G2BW
+  : 79
+  ? - BPV...BW
+    - PTT.ASBW
+  : 0.72
+  ? - W02.G8BW
+    - BU5.G8BW
+  : 100
+  ? - W12.G2BW
+    - BX1.G2BW
+  : 86.2
+  ? - W02.G4BW
+    - BFL.G4BW
+  : 100
+  ? - WMO.G2BW
+    - BFI.G2BW
+  : 76.0993
+  ? - W02.G2BW
+    - BHC.G2BW
+  : 94
+  ? - NGS.G4BW
+    - BXK.G4BW
+  : 0.805
+  ? - WVP.G2BW
+    - BX1.G2BW
+  : 2.35
+  ? - WMO.G2BW
+    - BFJ.G2BW
+  : 76.21092
+  ? - UFU...BW
+    - PSU.I.BW
+  : -0.005
+  ? - WVP.G4BW
+    - BXP.G4BW
+  : 2.71
+  ? - NGS.G8BW
+    - B1L.G8BW
+  : 0.806
+  ? - CBF.P2BW
+    - HBF.P2BW
+  : 1
+  ? - WMO.G4BW
+    - BX4.G4BW
+  : 91.83832
+  ? - NGS.G8BW
+    - BFN.G8BW
+  : 0.687
+  ? - NGS.G8BW
+    - BFT.G8BW
+  : 0.78
+  ? - BTS...BW
+    - PPI.F1BW
+  : 0.2159
+  ? - NGS.G4BW
+    - BPV.G4BW
+  : 0.631
+  ? - BXX...BW
+    - BXX.G8BW
+  : -1
+  ? - BSF...BW
+    - PSF.FSBW
+  : -1
+  ? - W12.G4BW
+    - BPU.G4BW
+  : 93
+  ? - W12.G8BW
+    - BXK.G8BW
+  : -30
+  ? - W12.G8BW
+    - B2M.G8BW
+  : -16.7
+  ? - W12.G8BW
+    - B5D.G8BW
+  : 82.2
+  ? - WMO.G8BW
+    - B2G.G8BW
+  : 97.63681
+  ? - U9R...BW
+    - U9R.GGBW
+  : 1
+  ? - W12.G2BW
+    - B1B.G2BW
+  : 20.77
+  ? - W58.G4BW
+    - B2J.G4BW
+  : -13.9
+  ? - WVP.G2BW
+    - BPT.G2BW
+  : 13.5
+  ? - B2G...BW
+    - B2G.G2BW
+  : -1
+  ? - BG2.WTBW
+    - BXH.G2BW
+  : 0.796
+  ? - W12.G8BW
+    - BIT.G8BW
+  : 108
+  ? - BH....BW
+    - PTE.P1BW
+  : 0.03395
+  ? - W02.G2BW
+    - BXC.G2BW
+  : 68.1
+  ? - W58.G8BW
+    - B5S.G8BW
+  : 96
+  ? - CBF.P2BW
+    - PZH.P2BW
+  : -1
+  ? - NWU.G4BW
+    - W022G4BW
+  : 0.67
+  ? - BG4.VOBW
+    - BXS.G4BW
+  : 1
+  ? - W58.G8BW
+    - B1J.G8BW
+  : -4.1
+  ? - UNF...BW
+    - PZH.2XBW
+  : -0.007
+  ? - W12.G4BW
+    - BXQ.G4BW
+  : 3.9
+  ? - W12.G8BW
+    - BU5.G8BW
+  : 115
+  ? - BSU...BW
+    - P1D.PSBW
+  : 0.11126
+  ? - WVP.G4BW
+    - BXF.G4BW
+  : 4
+  ? - BFI...BW
+    - BFI.G8BW
+  : -1
+  ? - CTF.ISBW
+    - PLI.ISBW
+  : -1
+  ? - NGS.G4BW
+    - BXE.G4BW
+  : 0.723
+  ? - BG2.VOBW
+    - BPV.G2BW
+  : 1
+  ? - WSU.G4BW
+    - BFM.G4BW
+  : 0.01605
+  ? - BTO...BW
+    - ETO...BW
+  : 1
+  ? - WRO.G2BW
+    - B5M.G2BW
+  : 71.31302
+  ? - NGS.G2BW
+    - BU5.G2BW
+  : 0.659
+  ? - WRO.G4BW
+    - BI4.G4BW
+  : 100.92828
+  ? - BFO...BW
+    - BFO.G8BW
+  : -1
+  ? - BG8.WTBW
+    - BXA.G8BW
+  : 0.796
+  ? - UH2...BW
+    - PPI.F.BW
+  : -0.08513
+  ? - WVP.G4BW
+    - BHC.G4BW
+  : 3.1
+  ? - URX...BW
+    - PPI.F.BW
+  : -1.366
+  ? - BFX...BW
+    - PSA.E.BW
+  : 0.49
+  ? - NGS.G2BW
+    - BFF.G2BW
+  : 0.78
+  ? - UFU...BW
+    - PTW.FHBW
+  : -0.002
+  ? - B2O...BW
+    - B2O.G8BW
+  : -1
+  ? - B2I...BW
+    - B2I.G4BW
+  : -1
+  ? - BG8.WTBW
+    - BF2.G8BW
+  : 0.736
+  ? - UFU...BW
+    - PTV.ASBW
+  : -0.007
+  ? - NGS.G2BW
+    - B2M.G2BW
+  : 0.885
+  ? - BU4...BW
+    - BU4.G4BW
+  : -1
+  ? - WRO.G8BW
+    - BTO.G8BW
+  : 104.315
+  ? - WVP.G8BW
+    - B2C.G8BW
+  : 1.38
+  ? - BST...BW
+    - PST.I.BW
+  : -1
+  ? - CTC.P2BW
+    - PZG.P2BW
+  : -0.00001
+  ? - BG4.WTBW
+    - B1J.G4BW
+  : 0.81
+  ? - WSU.G8BW
+    - B4U.G8BW
+  : 0.00124
+  ? - B1G...BW
+    - P1G.PSBW
+  : -1
+  ? - BZH...BW
+    - PZH.P2BW
+  : -1
+  ? - BU5...BW
+    - BU5.G4BW
+  : -1
+  ? - BGS...BW
+    - PZJ.2XBW
+  : 0.03823
+  ? - WVP.G8BW
+    - BF2.G8BW
+  : 2.43
+  ? - W58.G2BW
+    - W582G2BW
+  : -1
+  ? - WRO.G8BW
+    - BN5.G8BW
+  : 71.85843
+  ? - U9R...BW
+    - U9R.G2BW
+  : 1
+  ? - W02.G8BW
+    - B4U.G8BW
+  : 100
+  ? - BFD...BW
+    - BFD.G2BW
+  : -1
+  ? - W12.G2BW
+    - B1O.G2BW
+  : 5.3
+  ? - W12.G2BW
+    - BXF.G2BW
+  : 10
+  ? - WMO.G8BW
+    - BXI.G8BW
+  : 73.85299
+  ? - BTL...BW
+    - PCP.F.BW
+  : 0.172
+  ? - WSU.G2BW
+    - BXD.G2BW
+  : 0.09511
+  ? - W12.G2BW
+    - B1J.G2BW
+  : 0.7
+  ? - WVP.G2BW
+    - BXN.G2BW
+  : 12.5
+  ? - B2O...BW
+    - B2O.G4BW
+  : -1
+  ? - WMO.G8BW
+    - B1K.G8BW
+  : 84.96442
+  ? - BTH...BW
+    - PCP.F.BW
+  : 0.344
+  ? - WVP.G4BW
+    - B2H.G4BW
+  : 1.32
+  ? - W12.G8BW
+    - BHC.G8BW
+  : 22
+  ? - WVP.G2BW
+    - BFO.G2BW
+  : 2
+  ? - W58.G4BW
+    - BI5.G4BW
+  : 95
+  ? - WMO.G8BW
+    - BU4.G8BW
+  : 88.31541
+  ? - W02.G4BW
+    - BPT.G4BW
+  : 100
+  ? - BG8...BW
+    - QVO2G8BW
+  : 0.995
+  ? - BTY...BW
+    - PTY.TSBW
+  : -1
+  ? - U9R...BW
+    - PSF.FHBW
+  : -0.002
+  ? - W12.G8BW
+    - B1L.G8BW
+  : 20.77
+  ? - W58.G8BW
+    - BTO.G8BW
+  : -20
+  ? - WMO.G4BW
+    - BLF.G4BW
+  : 73.72027
+  ? - BG4.WTBW
+    - B1A.G4BW
+  : 0.693
+  ? - WVP.G4BW
+    - B1G.G4BW
+  : 5.52
+  ? - B5U...BW
+    - PTV.ASBW
+  : 0.25
+  ? - UFU...BW
+    - PTM.FSBW
+  : -0.009
+  ? - XCV.G2BW
+    - WVP2G2BW
+  : 1
+  ? - BG2.WTBW
+    - B2L.G2BW
+  : 0.848
+  ? - CTF.PSBW
+    - P1H.PSBW
+  : -1
+  ? - BLP...BW
+    - PTA.P1BW
+  : 0.10016
+  ? - BGS...BW
+    - PTE.P1BW
+  : 0.03823
+  ? - WMO.G2BW
+    - BXB.G2BW
+  : 77.10346
+  ? - BFX...BW
+    - PSC.E.BW
+  : 0.55
+  ? - NGS.G2BW
+    - BPE.G2BW
+  : 0.669
+  ? - BZC...BW
+    - PZC.T2BW
+  : -1
+  ? - NGS.G2BW
+    - QVO2G2BW
+  : -0.5
+  ? - W02.G4BW
+    - B1D.G4BW
+  : 79.8
+  ? - W12.G8BW
+    - BXB.G8BW
+  : -27
+  ? - WSU.G4BW
+    - BXI.G4BW
+  : 0.00541
+  ? - UNF...BW
+    - PZF.2XBW
+  : -0.007
+  ? - NWU.G4BW
+    - QVO2G4BW
+  : -104
+  ? - WRO.G8BW
+    - BXN.G8BW
+  : 92.09434
+  ? - UH2...BW
+    - PCP.F1BW
+  : -0.08513
+  ? - WMO.G8BW
+    - B2M.G8BW
+  : 86.52755
+  ? - BTN...BW
+    - PSE.FSBW
+  : 0.316
+  ? - WMO.G2BW
+    - B2O.G2BW
+  : 90.05458
+  ? - W12.G2BW
+    - BN4.G2BW
+  : 119
+  ? - WSU.G4BW
+    - BPV.G4BW
+  : 0.01956
+  ? - WRO.G4BW
+    - B1J.G4BW
+  : 106.96742
+  ? - WSU.G4BW
+    - BU4.G4BW
+  : 0.00124
+  ? - WVP.G8BW
+    - B1B.G8BW
+  : 3.47
+  ? - BG2.VOBW
+    - BFU.G2BW
+  : 1
+  ? - BG2.WTBW
+    - BXG.G2BW
+  : 0.839
+  ? - NGS.G4BW
+    - B1M.G4BW
+  : 0.845
+  ? - W12.G2BW
+    - BFX.G2BW
+  : -31
+  ? - WVP.G8BW
+    - BXM.G8BW
+  : 10
+  ? - W02.G8BW
+    - BI4.G8BW
+  : 100
+  ? - CTP.A.BW
+    - P5U.A.BW
+  : -2
+  ? - WSU.G8BW
+    - B5S.G8BW
+  : 0.00156
+  ? - WRO.G2BW
+    - B2C.G2BW
+  : 100.04377
+  ? - W58.G4BW
+    - BFK.G4BW
+  : -21
+  ? - W02.G4BW
+    - B2L.G4BW
+  : 73.8
+  ? - WVP.G2BW
+    - B5S.G2BW
+  : 21
+  ? - W02.G4BW
+    - B5L.G4BW
+  : 100
+  ? - W58.G8BW
+    - B2D.G8BW
+  : -13.9
+  ? - W02.G4BW
+    - BLI.G4BW
+  : 101
+  ? - W02.G4BW
+    - BXJ.G4BW
+  : 50
+  ? - BG8.WTBW
+    - BXM.G8BW
+  : 0.692
+  ? - W58.G4BW
+    - BXM.G4BW
+  : 47
+  ? - W02.G8BW
+    - BFH.G8BW
+  : 44
+  ? - WVP.G8BW
+    - BXG.G8BW
+  : 1.42
+  ? - BG2.WTBW
+    - BX1.G2BW
+  : 0.753
+  ? - BSJ...BW
+    - PCP.F1BW
+  : 0.0061
+  ? - B1J...BW
+    - B1J.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BXD.G8BW
+  : 1
+  ? - BG8.VOBW
+    - B5B.G8BW
+  : 1
+  ? - BG2.WTBW
+    - BA5.G2BW
+  : 0.71
+  ? - WMO.G8BW
+    - BXL.G8BW
+  : 73.95196
+  ? - WVP.G4BW
+    - B5A.G4BW
+  : 3.47
+  ? - NGS.G8BW
+    - BFE.G8BW
+  : 0.692
+  ? - BTI...BW
+    - PPI.F1BW
+  : 1.2999
+  ? - W02.G8BW
+    - BXI.G8BW
+  : 44
+  ? - UH2...BW
+    - PTG.PHBW
+  : -0.31456
+  ? - BSJ...BW
+    - PTE.P3BW
+  : 0.0355
+  ? - WVP.G4BW
+    - BFM.G4BW
+  : 10
+  ? - W58.G4BW
+    - BXX.G4BW
+  : -21
+  ? - BG4.WTBW
+    - BFP.G4BW
+  : 0.811
+  ? - W12.G4BW
+    - BLH.G4BW
+  : 78
+  ? - BG4.VOBW
+    - BXH.G4BW
+  : 1
+  ? - W12.G4BW
+    - BFM.G4BW
+  : 84
+  ? - WVP.G4BW
+    - BXS.G4BW
+  : 12.5
+  ? - BFK...BW
+    - PSC.TXBW
+  : 1
+  ? - BST...BW
+    - PSR.IHBW
+  : 1
+  ? - W02.G4BW
+    - BU5.G4BW
+  : 100
+  ? - BG8.VOBW
+    - BX6.G8BW
+  : 1
+  ? - BFL...BW
+    - BFL.G2BW
+  : -1
+  ? - BLH...BW
+    - PSN.TKBW
+  : 1
+  ? - WVP.G2BW
+    - B5B.G2BW
+  : 2.36
+  ? - W02.G8BW
+    - BXH.G8BW
+  : 28
+  ? - WVP.G4BW
+    - BLF.G4BW
+  : 14.8
+  ? - W58.G2BW
+    - BF3.G2BW
+  : -13.9
+  ? - BU4...BW
+    - PPI.F.BW
+  : 0.0064
+  ? - W02.G2BW
+    - BXM.G2BW
+  : 100
+  ? - B5U...BW
+    - P5U.A.BW
+  : -1
+  ? - WRO.G2BW
+    - BIT.G2BW
+  : 88.88307
+  ? - BSH...BW
+    - PSH.FSBW
+  : -1
+  ? - BG4.WTBW
+    - BPT.G4BW
+  : 0.669
+  ? - NGS.G4BW
+    - B2L.G4BW
+  : 0.848
+  ? - BG4.WTBW
+    - BPU.G4BW
+  : 0.693
+  ? - BG2.VOBW
+    - BPT.G2BW
+  : 1
+  ? - W12.G4BW
+    - BX2.G4BW
+  : 76.4
+  ? - WSU.G8BW
+    - BFK.G8BW
+  : 0.00064
+  ? - UH2...BW
+    - PTZ.FHBW
+  : -0.13939
+  ? - W58.G2BW
+    - BFL.G2BW
+  : 47
+  ? - BG2.VOBW
+    - B2N.G2BW
+  : 1
+  ? - BG4.VOBW
+    - QVO2G4BW
+  : -1
+  ? - CTP.A.BW
+    - P3U.A.BW
+  : -1.727
+  ? - B1A...BW
+    - PTA.P1BW
+  : 0.674
+  ? - WVP.G4BW
+    - B2O.G4BW
+  : 1.37
+  ? - W02.G2BW
+    - B5B.G2BW
+  : 100
+  ? - WMO.G4BW
+    - B2D.G4BW
+  : 91.2576
+  ? - W02.G2BW
+    - BFX.G2BW
+  : 17
+  ? - B5J...BW
+    - B5J.G8BW
+  : -1
+  ? - W12.G8BW
+    - B4U.G8BW
+  : 113
+  ? - WRO.G8BW
+    - BX6.G8BW
+  : 93.74377
+  ? - BG8.VOBW
+    - BXU.G8BW
+  : 1
+  ? - W02.G2BW
+    - B2C.G2BW
+  : 7.3
+  ? - WVP.G2BW
+    - BXS.G2BW
+  : 12.5
+  ? - W58.G4BW
+    - BXJ.G4BW
+  : -8
+  ? - BG8.WTBW
+    - B1H.G8BW
+  : 0.8
+  ? - BG8.VOBW
+    - B5N.G8BW
+  : 1
+  ? - BTF...BW
+    - PSG.FSBW
+  : 0.45
+  ? - WRO.G8BW
+    - BXT.G8BW
+  : 84.71223
+  ? - WMO.G8BW
+    - BI4.G8BW
+  : 94.85789
+  ? - U9R...BW
+    - PTF.PHBW
+  : -0.005
+  ? - BG8.WTBW
+    - B5K.G8BW
+  : 0.684
+  ? - W58.G2BW
+    - BPT.G2BW
+  : 58
+  ? - B...ML..
+    - QVO2G4BW
+  : 0.005
+  ? - WMO.G8BW
+    - B1H.G8BW
+  : 89.46263
+  ? - BSJ...BW
+    - PZI.P2BW
+  : 0.04395
+  ? - WVP.G4BW
+    - BFQ.G4BW
+  : 2.43
+  ? - BG2.WTBW
+    - BXQ.G2BW
+  : 0.81
+  ? - BG2.VOBW
+    - BFO.G2BW
+  : 1
+  ? - BPH...BW
+    - PPH.T1BW
+  : -1
+  ? - BG2.WTBW
+    - BFP.G2BW
+  : 0.811
+  ? - BFL...BW
+    - BFL.G8BW
+  : -1
+  ? - BCP...BW
+    - PCD.C.BW
+  : 0.348
+  ? - NGS.G4BW
+    - B5G.G4BW
+  : 0.666
+  ? - WMO.G2BW
+    - BXU.G2BW
+  : 73.24984
+  ? - NGS.G8BW
+    - BIT.G8BW
+  : 0.655
+  ? - W02.G8BW
+    - B5B.G8BW
+  : 100
+  ? - BG4.VOBW
+    - B1H.G4BW
+  : 1
+  ? - W58.G8BW
+    - BX3.G8BW
+  : -14
+  ? - BXT...BW
+    - BXT.G2BW
+  : -1
+  ? - B4U...BW
+    - B4U.G8BW
+  : -1
+  ? - U9R...BW
+    - U9R.GHBW
+  : 0.744
+  ? - WRO.G4BW
+    - BX1.G4BW
+  : 74.14662
+  ? - W58.G8BW
+    - B1O.G8BW
+  : -2.8
+  ? - CTF.I.BW
+    - PST.I.BW
+  : -1
+  ? - WMO.G2BW
+    - BFL.G2BW
+  : 81.5719
+  ? - U9R...BW
+    - PGS.H.BW
+  : -0.035
+  ? - W02.G2BW
+    - BFE.G2BW
+  : 100
+  ? - W12.G2BW
+    - BXR.G2BW
+  : 3
+  ? - W12.G2BW
+    - B1L.G2BW
+  : 20.77
+  ? - W12.G2BW
+    - BXQ.G2BW
+  : 3.9
+  ? - B5N...BW
+    - B5N.G8BW
+  : -1
+  ? - W12.G2BW
+    - BXL.G2BW
+  : -27
+  ? - UH2...BW
+    - PZJ.2XBW
+  : 0.66746
+  ? - BG8.VOBW
+    - BXI.G8BW
+  : 1
+  ? - WRO.G8BW
+    - B1I.G8BW
+  : 101.95318
+  ? - W58.G2BW
+    - BX6.G2BW
+  : 50
+  ? - WVP.G2BW
+    - B5O.G2BW
+  : 2.35
+  ? - W58.G4BW
+    - BI4.G4BW
+  : 134
+  ? - B2J...BW
+    - B2J.G2BW
+  : -1
+  ? - NGS.G2BW
+    - B5C.G2BW
+  : 0.752
+  ? - BA3...BW
+    - P3U.A.BW
+  : 1.727
+  ? - BXR...BW
+    - PZJ.P2BW
+  : 0.8117
+  ? - NOI.G8BW
+    - QVO2G8BW
+  : -82.59
+  ? - WSU.G8BW
+    - BFJ.G8BW
+  : 0.00479
+  ? - BG4.VOBW
+    - BPE.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BXD.G2BW
+  : 0.786
+  ? - BG4.WTBW
+    - BI4.G4BW
+  : 0.563
+  ? - UFU...BW
+    - PTD.P3BW
+  : -0.008
+  ? - W02.G8BW
+    - BF1.G8BW
+  : 74.6
+  ? - NGS.G2BW
+    - B1A.G2BW
+  : 0.693
+  ? - W12.G4BW
+    - BFP.G4BW
+  : 2.8
+  ? - WRO.G8BW
+    - BFU.G8BW
+  : 86.74963
+  ? - WVP.G2BW
+    - BLV.G2BW
+  : 12.2
+  ? - WRO.G4BW
+    - BA4.G4BW
+  : 95.0259
+  ? - WVP.G4BW
+    - B2N.G4BW
+  : 1.02
+  ? - W12.G2BW
+    - BFN.G2BW
+  : 88
+  ? - W12.G2BW
+    - B5C.G2BW
+  : 99.2
+  ? - W12.G2BW
+    - BLL.G2BW
+  : 103
+  ? - BF2...BW
+    - BF2.G2BW
+  : -1
+  ? - W12.G4BW
+    - BPQ.G4BW
+  : 109
+  ? - WSU.G8BW
+    - BU4.G8BW
+  : 0.00124
+  ? - WVP.G4BW
+    - B1K.G4BW
+  : 5.56
+  ? - WVP.G8BW
+    - B2D.G8BW
+  : 1.02
+  ? - W12.G8BW
+    - B5N.G8BW
+  : 82.2
+  ? - NGS.G2BW
+    - BLV.G2BW
+  : 0.67
+  ? - W58.G8BW
+    - B1H.G8BW
+  : 4.4
+  ? - BG8.VOBW
+    - B1K.G8BW
+  : 1
+  ? - WVP.G4BW
+    - BLH.G4BW
+  : 4.2
+  ? - BX1...BW
+    - BX1.G2BW
+  : -1
+  ? - BN5...BW
+    - PCP.F.BW
+  : 0.0048
+  ? - WRO.G2BW
+    - B2B.G2BW
+  : 102.76529
+  ? - BG2.WTBW
+    - BLI.G2BW
+  : 0.658
+  ? - BG2.VOBW
+    - B5K.G2BW
+  : 1
+  ? - BXB...BW
+    - PSA.TXBW
+  : 1
+  ? - WVP.G2BW
+    - BFI.G2BW
+  : 2.1
+  ? - W58.G8BW
+    - BLV.G8BW
+  : 59
+  ? - W58.G2BW
+    - B2D.G2BW
+  : -13.9
+  ? - WVP.G8BW
+    - BXE.G8BW
+  : 2.63
+  ? - WMO.G8BW
+    - BXT.G8BW
+  : 76.0144
+  ? - B2B...BW
+    - B2B.G4BW
+  : -1
+  ? - WRO.G8BW
+    - BXX.G8BW
+  : 102.56785
+  ? - BG8.VOBW
+    - BF1.G8BW
+  : 1
+  ? - WVP.G2BW
+    - B2M.G2BW
+  : 1.38
+  ? - WMO.G8BW
+    - B2J.G8BW
+  : 92.88876
+  ? - BG8.WTBW
+    - BFH.G8BW
+  : 0.795
+  ? - BH....BW
+    - PTN.FHBW
+  : -0.00726
+  ? - NGS.G2BW
+    - BXP.G2BW
+  : 0.81
+  ? - WSU.G4BW
+    - BFN.G4BW
+  : 0.00756
+  ? - W02.G2BW
+    - BXO.G2BW
+  : 79
+  ? - WMO.G8BW
+    - BXN.G8BW
+  : 81.45002
+  ? - W58.G4BW
+    - BFO.G4BW
+  : -9
+  ? - WVP.G4BW
+    - BXC.G4BW
+  : 1.42
+  ? - W12.G4BW
+    - BX4.G4BW
+  : -13.4
+  ? - W58.G8BW
+    - B2L.G8BW
+  : -13.4
+  ? - W02.G2BW
+    - B2H.G2BW
+  : 71.1
+  ? - UH2...BW
+    - PSE.FHBW
+  : -0.21331
+  ? - CTV.P1BW
+    - PPG.P1BW
+  : -1
+  ? - NGS.G2BW
+    - B2K.G2BW
+  : 0.74
+  ? - BG4.WTBW
+    - BFE.G4BW
+  : 0.692
+  ? - BG4.WTBW
+    - B5O.G4BW
+  : 0.753
+  ? - W58.G2BW
+    - BU4.G2BW
+  : 127.8
+  ? - WVP.G8BW
+    - BFU.G8BW
+  : 0.5
+  ? - B2B...BW
+    - B2B.G8BW
+  : -1
+  ? - B1D...BW
+    - P1D.PSBW
+  : -1
+  ? - W12.G2BW
+    - B2A.G2BW
+  : 19.7
+  ? - W58.G8BW
+    - B5J.G8BW
+  : -1.6
+  ? - UNF...BW
+    - PZH.P2BW
+  : -0.007
+  ? - CBF.2XBW
+    - PZH.2XBW
+  : -1
+  ? - NGS.G2BW
+    - B1H.G2BW
+  : 0.8
+  ? - CTF.FSBW
+    - PTL.FSBW
+  : -1
+  ? - BTE...BW
+    - PTE.TGBW
+  : -1
+  ? - NGS.G2BW
+    - BFH.G2BW
+  : 0.795
+  ? - U9R...BW
+    - PTN.FHBW
+  : -0.002
+  ? - W02.G2BW
+    - B5I.G2BW
+  : 100
+  ? - WVP.G4BW
+    - BLV.G4BW
+  : 12.2
+  ? - WVP.G2BW
+    - B2L.G2BW
+  : 1.17
+  ? - BTN...BW
+    - PTN.TNBW
+  : -1
+  ? - W58.G2BW
+    - BX2.G2BW
+  : -0.8
+  ? - WMO.G8BW
+    - B2B.G8BW
+  : 88.35055
+  ? - BG8.WTBW
+    - B5D.G8BW
+  : 0.75
+  ? - BLF...BW
+    - BLF.G2BW
+  : -1
+  ? - BSA...BW
+    - PSA.TXBW
+  : -1
+  ? - WMO.G4BW
+    - BIT.G4BW
+  : 84.80651
+  ? - WMO.G4BW
+    - B2A.G4BW
+  : 92.94314
+  ? - NGS.G8BW
+    - B5M.G8BW
+  : 0.752
+  ? - BG8.WTBW
+    - BXH.G8BW
+  : 0.796
+  ? - BG2.VOBW
+    - B1D.G2BW
+  : 1
+  ? - W58.G8BW
+    - BFQ.G8BW
+  : -3.8
+  ? - W12.G4BW
+    - BPE.G4BW
+  : 98
+  ? - BG8.VOBW
+    - BXX.G8BW
+  : 1
+  ? - BG4.VOBW
+    - BFX.G4BW
+  : 1
+  ? - W02.G2BW
+    - BXX.G2BW
+  : 17
+  ? - XCV.G2BW
+    - QVO2G2BW
+  : -18
+  ? - N02.G8BW
+    - W022G8BW
+  : 1
+  ? - BG8.VOBW
+    - B5S.G8BW
+  : 1
+  ? - WMO.G4BW
+    - BFK.G4BW
+  : 76.79616
+  ? - WVP.G2BW
+    - BU5.G2BW
+  : 19.9
+  ? - BG8.VOBW
+    - B2C.G8BW
+  : 1
+  ? - CTP.FTBW
+    - PTT.FTBW
+  : -0.4
+  ? - NGS.G8BW
+    - BXC.G8BW
+  : 0.839
+  ? - WRO.G8BW
+    - B2B.G8BW
+  : 102.76529
+  ? - BG8.WTBW
+    - B5G.G8BW
+  : 0.666
+  ? - WMO.G2BW
+    - BI4.G2BW
+  : 94.85789
+  ? - BG4.VOBW
+    - BFP.G4BW
+  : 1
+  ? - BSJ...BW
+    - PPI.F.BW
+  : 0.012
+  ? - W58.G4BW
+    - BXU.G4BW
+  : -21
+  ? - BG8.VOBW
+    - BFI.G8BW
+  : 1
+  ? - W12.G2BW
+    - BFU.G2BW
+  : -30
+  ? - BH....BW
+    - PTE.P3BW
+  : 0.0368
+  ? - CBF.2XBW
+    - PZJ.2XBW
+  : -1
+  ? - BG2.VOBW
+    - B1B.G2BW
+  : 1
+  ? - WVP.G2BW
+    - BIS.G2BW
+  : 13
+  ? - WSU.G8BW
+    - BFU.G8BW
+  : 0.12477
+  ? - BG4.VOBW
+    - B2G.G4BW
+  : 1
+  ? - BFD...BW
+    - BFD.G8BW
+  : -1
+  ? - BGS...BW
+    - PCP.F1BW
+  : -0.0034
+  ? - WRO.G8BW
+    - BXA.G8BW
+  : 86.52499
+  ? - WVP.G8BW
+    - B2M.G8BW
+  : 1.38
+  ? - WRO.G8BW
+    - BFE.G8BW
+  : 92.03197
+  ? - W02.G8BW
+    - BXN.G8BW
+  : 100
+  ? - BG4.WTBW
+    - B1G.G4BW
+  : 0.688
+  ? - BF2...BW
+    - PTP.PSBW
+  : 0.03174
+  ? - W02.G8BW
+    - BN4.G8BW
+  : 100
+  ? - WRO.G8BW
+    - B5G.G8BW
+  : 102.10471
+  ? - BG4.WTBW
+    - BX1.G4BW
+  : 0.753
+  ? - BCP...BW
+    - PCP.F1BW
+  : -1
+  ? - BG8.VOBW
+    - BLI.G8BW
+  : 1
+  ? - BLP...BW
+    - PPI.F1BW
+  : 0.0047
+  ? - CTF.P2BW
+    - PZI.2XBW
+  : -1
+  ? - B4Z...BW
+    - D4Z...BW
+  : -1
+  ? - WMO.G8BW
+    - BXC.G8BW
+  : 91.58015
+  ? - W02.G4BW
+    - B2I.G4BW
+  : 7.5
+  ? - NGS.G8BW
+    - BLV.G8BW
+  : 0.67
+  ? - W12.G4BW
+    - BIT.G4BW
+  : 108
+  ? - BG8.WTBW
+    - BXF.G8BW
+  : 0.78
+  ? - W12.G8BW
+    - B2O.G8BW
+  : -12.6
+  ? - CTV.P2BW
+    - CTV.P2BW
+  : 1
+  ? - WVP.G4BW
+    - BFP.G4BW
+  : 2.43
+  ? - BHC...BW
+    - BHC.G4BW
+  : -1
+  ? - W12.G2BW
+    - BFQ.G2BW
+  : 2.9
+  ? - B1L...BW
+    - P1L.PSBW
+  : -1
+  ? - BXJ...BW
+    - BXJ.G2BW
+  : -1
+  ? - B4....BW
+    - PSQ.M.BW
+  : 1
+  ? - BXO...BW
+    - BXO.G2BW
+  : -1
+  ? - W58.G4BW
+    - B1D.G4BW
+  : -4.4
+  ? - WVP.G2BW
+    - B2A.G2BW
+  : 1.18
+  ? - BG4.VOBW
+    - B1L.G4BW
+  : 1
+  ? - BG8.WTBW
+    - BLL.G8BW
+  : 0.658
+  ? - BSU...BW
+    - P1A.PSBW
+  : 0.41363
+  ? - WVP.G4BW
+    - B2K.G4BW
+  : 1.18
+  ? - BG2.WTBW
+    - BFE.G2BW
+  : 0.692
+  ? - W58.G8BW
+    - B5G.G8BW
+  : 0.9
+  ? - BG2.WTBW
+    - BI4.G2BW
+  : 0.563
+  ? - BPU...BW
+    - BPU.G4BW
+  : -1
+  ? - BPQ...BW
+    - PSU.TKBW
+  : 1
+  ? - NGS.G4BW
+    - B5H.G4BW
+  : 0.735
+  ? - CTC.P2BW
+    - CTC.P2BW
+  : 1
+  ? - CTF.FHBW
+    - ITF.FHBW
+  : 1
+  ? - CTF.PSBW
+    - P1J.PSBW
+  : -1
+  ? - WRO.G4BW
+    - BXO.G4BW
+  : 102.34862
+  ? - W02.G8BW
+    - B5C.G8BW
+  : 100
+  ? - WMO.G4BW
+    - B1O.G4BW
+  : 88.75606
+  ? - BH....BW
+    - PTA.P1BW
+  : 0.05008
+  ? - W12.G4BW
+    - BFK.G4BW
+  : -30
+  ? - BG2.WTBW
+    - BFL.G2BW
+  : 0.692
+  ? - W12.G2BW
+    - BF3.G2BW
+  : -14.3
+  ? - W58.G4BW
+    - B1C.G4BW
+  : -2.4
+  ? - W58.G8BW
+    - BLH.G8BW
+  : 25
+  ? - WSU.G8BW
+    - BXB.G8BW
+  : 0.00056
+  ? - BGS...BW
+    - U9R.GGBW
+  : -1
+  ? - BG8.WTBW
+    - BF1.G8BW
+  : 0.835
+  ? - BA5...BW
+    - BA5.G8BW
+  : -1
+  ? - WVP.G8BW
+    - B2O.G8BW
+  : 1.37
+  ? - B4Z...BW
+    - PSI.M2BW
+  : 1
+  ? - BTB...BW
+    - PTP.PSBW
+  : 0.85373
+  ? - W12.G2BW
+    - BLI.G2BW
+  : 110
+  ? - W12.G4BW
+    - BFT.G4BW
+  : 10
+  ? - BG4.WTBW
+    - BI5.G4BW
+  : 0.625
+  ? - BG8.WTBW
+    - B1J.G8BW
+  : 0.81
+  ? - BSQ...BW
+    - PSQ.TKBW
+  : -1
+  ? - BG2.WTBW
+    - BFX.G2BW
+  : 0.874
+  ? - BFU...BW
+    - BFU.G4BW
+  : -1
+  ? - CBF.P2BW
+    - GBF.P2BW
+  : -2.3
+  ? - BG8.VOBW
+    - BX2.G8BW
+  : 1
+  ? - B1I...BW
+    - P1I.PSBW
+  : -1
+  ? - W58.G2BW
+    - BFT.G2BW
+  : -2
+  ? - W12.G4BW
+    - B5H.G4BW
+  : 85.7
+  ? - W02.G4BW
+    - W022G4BW
+  : -1
+  ? - BG2.WTBW
+    - BTO.G2BW
+  : 0.872
+  ? - NGS.G4BW
+    - B5K.G4BW
+  : 0.684
+  ? - NMO.G2BW
+    - QVO2G2BW
+  : -50
+  ? - BSJ...BW
+    - EBI...BW
+  : 0.7
+  ? - W02.G4BW
+    - B1O.G4BW
+  : 79
+  ? - WRO.G8BW
+    - BI5.G8BW
+  : 92.91707
+  ? - BG8.VOBW
+    - BXQ.G8BW
+  : 1
+  ? - BG4.VOBW
+    - B2H.G4BW
+  : 1
+  ? - BGS...BW
+    - PPG.P1BW
+  : 0.05521
+  ? - B1O...BW
+    - B1O.G2BW
+  : -1
+  ? - BG4.WTBW
+    - BXL.G4BW
+  : 0.796
+  ? - CBF.F.BW
+    - CBF.F.BW
+  : 1
+  ? - BIS...BW
+    - PST.I.BW
+  : 0.9845
+  ? - W12.G8BW
+    - BFH.G8BW
+  : 1
+  ? - WMO.G2BW
+    - B5M.G2BW
+  : 71.11826
+  ? - BG2.VOBW
+    - BTO.G2BW
+  : 1
+  ? - WRO.G4BW
+    - BFI.G4BW
+  : 81.33055
+  ? - BG4.WTBW
+    - BXF.G4BW
+  : 0.78
+  ? - W02.G2BW
+    - B5A.G2BW
+  : 100
+  ? - W02.G4BW
+    - BXU.G4BW
+  : 20
+  ? - BGS...BW
+    - PSU.I.BW
+  : 0.0075
+  ? - WMO.G4BW
+    - B5D.G4BW
+  : 71.71782
+  ? - WRO.G2BW
+    - BI5.G2BW
+  : 92.91707
+  ? - BPV...BW
+    - PTS.ASBW
+  : 0.705
+  ? - W58.G2BW
+    - BFQ.G2BW
+  : -3.8
+  ? - CTC.P1BW
+    - PTE.P1BW
+  : -1
+  ? - W12.G2BW
+    - BXI.G2BW
+  : 1
+  ? - BG2.WTBW
+    - B1D.G2BW
+  : 0.823
+  ? - UFU...BW
+    - PTL.FSBW
+  : -0.009
+  ? - W12.G4BW
+    - B2A.G4BW
+  : 19.7
+  ? - W12.G4BW
+    - B4U.G4BW
+  : 113
+  ? - B8....BW
+    - PPI.F.BW
+  : 0.238
+  ? - WSU.G4BW
+    - BXB.G4BW
+  : 0.00056
+  ? - NWU.G8BW
+    - W122G8BW
+  : 1
+  ? - BSJ...BW
+    - PZH.P2BW
+  : 0.04405
+  ? - B1G...BW
+    - B1G.G8BW
+  : -1
+  ? - NGS.G2BW
+    - BI4.G2BW
+  : 0.563
+  ? - W58.G2BW
+    - BXO.G2BW
+  : -2.8
+  ? - NGS.G4BW
+    - B1C.G4BW
+  : 0.845
+  ? - WVP.G8BW
+    - BPE.G8BW
+  : 13.5
+  ? - W12.G2BW
+    - BHC.G2BW
+  : 22
+  ? - W02.G8BW
+    - BXJ.G8BW
+  : 50
+  ? - B2C...BW
+    - P1C.PSBW
+  : 0.84358
+  ? - BTS...BW
+    - PTS.FTBW
+  : -1
+  ? - B5A...BW
+    - B5A.G8BW
+  : -1
+  ? - W02.G4BW
+    - BFM.G4BW
+  : 100
+  ? - W02.G4BW
+    - BFT.G4BW
+  : 79
+  ? - WVP.G4BW
+    - BFE.G4BW
+  : 10
+  ? - BG4.WTBW
+    - B1C.G4BW
+  : 0.845
+  ? - W02.G4BW
+    - BI5.G4BW
+  : 100
+  ? - W12.G2BW
+    - BXO.G2BW
+  : 5.3
+  ? - WRO.G4BW
+    - B1K.G4BW
+  : 94.90093
+  ? - NGS.G4BW
+    - B2B.G4BW
+  : 0.848
+  ? - WVP.G2BW
+    - B5L.G2BW
+  : 2.36
+  ? - W58.G8BW
+    - BFN.G8BW
+  : 50
+  ? - W02.G4BW
+    - BFO.G4BW
+  : 44
+  ? - NGS.G4BW
+    - BI5.G4BW
+  : 0.625
+  ? - W58.G2BW
+    - BA4.G2BW
+  : -2
+  ? - WSU.G8BW
+    - BTO.G8BW
+  : 0.00044
+  ? - BG8.WTBW
+    - BXB.G8BW
+  : 0.796
+  ? - WRO.G8BW
+    - BXR.G8BW
+  : 105.81583
+  ? - B1B...BW
+    - B1B.G4BW
+  : -1
+  ? - WRO.G4BW
+    - BIS.G4BW
+  : 90.09694
+  ? - B2M...BW
+    - B2M.G2BW
+  : -1
+  ? - WMO.G8BW
+    - B2C.G8BW
+  : 86.52755
+  ? - BSJ...BW
+    - PCP.F.BW
+  : 0.012
+  ? - UFU...BW
+    - PTN.FHBW
+  : -0.002
+  ? - BLL...BW
+    - PK6.TKBW
+  : 1
+  ? - BA4...BW
+    - BA4.G8BW
+  : -1
+  ? - BSB...BW
+    - PSB.TXBW
+  : -1
+  ? - NOI.G2BW
+    - WMO2G2BW
+  : 0.52
+  ? - WVP.G2BW
+    - B5M.G2BW
+  : 2.71
+  ? - BG4.WTBW
+    - B5I.G4BW
+  : 0.743
+  ? - UH2...BW
+    - PTW.FHBW
+  : -0.14293
+  ? - CBF.F.BW
+    - PCP.F.BW
+  : -1
+  ? - NMO.G8BW
+    - WMO2G8BW
+  : 1
+  ? - WMO.G8BW
+    - BXS.G8BW
+  : 81.45002
+  ? - WVP.G4BW
+    - BXQ.G4BW
+  : 2.71
+  ? - XCV.G8BW
+    - WVP2G8BW
+  : 1
+  ? - W58.G2BW
+    - BXF.G2BW
+  : -2
+  ? - BG4.WTBW
+    - BXT.G4BW
+  : 0.78
+  ? - W58.G2BW
+    - BXS.G2BW
+  : 50
+  ? - B2O...BW
+    - B2O.G2BW
+  : -1
+  ? - WVP.G2BW
+    - BXC.G2BW
+  : 1.42
+  ? - WVP.G2BW
+    - BPQ.G2BW
+  : 14.1
+  ? - WMO.G4BW
+    - B5I.G4BW
+  : 71.95043
+  ? - BFM...BW
+    - PTL.FMBW
+  : 1
+  ? - W12.G8BW
+    - BN5.G8BW
+  : 121
+  ? - W58.G8BW
+    - BLI.G8BW
+  : 73
+  ? - W02.G8BW
+    - BXG.G8BW
+  : 68.1
+  ? - W58.G8BW
+    - BXF.G8BW
+  : -2
+  ? - URX...BW
+    - PCP.F.BW
+  : -1.366
+  ? - WRO.G4BW
+    - BXD.G4BW
+  : 85.53494
+  ? - BG4.VOBW
+    - B2C.G4BW
+  : 1
+  ? - W12.G8BW
+    - BFT.G8BW
+  : 10
+  ? - BG8.VOBW
+    - B2B.G8BW
+  : 1
+  ? - WVP.G8BW
+    - B2H.G8BW
+  : 1.32
+  ? - WMO.G2BW
+    - BIS.G2BW
+  : 86.13696
+  ? - WRO.G4BW
+    - BFE.G4BW
+  : 92.03197
+  ? - BN4...BW
+    - PSJ.THBW
+  : 1
+  ? - BG4.WTBW
+    - B2J.G4BW
+  : 0.834
+  ? - WVP.G4BW
+    - BFU.G4BW
+  : 0.5
+  ? - BH....BW
+    - PTD.P1BW
+  : 0.03858
+  ? - WRO.G8BW
+    - B1J.G8BW
+  : 106.96742
+  ? - BTN...BW
+    - PTN.M.BW
+  : -1
+  ? - WVP.G8BW
+    - BXR.G8BW
+  : 2.7
+  ? - WRO.G8BW
+    - BXP.G8BW
+  : 105.15159
+  ? - WVP.G8BW
+    - BN4.G8BW
+  : 57
+  ? - NGS.G8BW
+    - BPT.G8BW
+  : 0.669
+  ? - BA5...BW
+    - BA5.G2BW
+  : -1
+  ? - BG4.VOBW
+    - B1G.G4BW
+  : 1
+  ? - WRO.G8BW
+    - B1C.G8BW
+  : 98.90249
+  ? - CTC.P3BW
+    - PTD.P3BW
+  : -1
+  ? - BG4.VOBW
+    - BN5.G4BW
+  : 1
+  ? - U9R...BW
+    - PST.I.BW
+  : -0.035
+  ? - B1N...BW
+    - B1N.G8BW
+  : -1
+  ? - WSU.G4BW
+    - BI5.G4BW
+  : 0.00156
+  ? - WRO.G2BW
+    - B2I.G2BW
+  : 103.65702
+  ? - W58.G4BW
+    - B1N.G4BW
+  : -4.4
+  ? - BG4.WTBW
+    - B2N.G4BW
+  : 0.847
+  ? - BLH...BW
+    - BLH.G8BW
+  : -1
+  ? - WVP.G8BW
+    - BF1.G8BW
+  : 1.02
+  ? - W58.G2BW
+    - B2N.G2BW
+  : -13.9
+  ? - WRO.G8BW
+    - BLI.G8BW
+  : 79.88909
+  ? - NGS.G8BW
+    - BXN.G8BW
+  : 0.687
+  ? - U9R...BW
+    - PCP.F1BW
+  : -0.007
+  ? - BG4.WTBW
+    - B5H.G4BW
+  : 0.735
+  ? - BX6...BW
+    - BX6.G2BW
+  : -1
+  ? - WSU.G4BW
+    - BLL.G4BW
+  : 0.01448
+  ? - XSP.G4BW
+    - WSU2G4BW
+  : 10000
+  ? - WRO.G2BW
+    - B5I.G2BW
+  : 73.10682
+  ? - WRO.G8BW
+    - BX3.G8BW
+  : 105.65125
+  ? - W02.G8BW
+    - B1B.G8BW
+  : 82
+  ? - WVP.G8BW
+    - B5I.G8BW
+  : 2.83
+  ? - B5N...BW
+    - B5N.G2BW
+  : -1
+  ? - W12.G4BW
+    - B5D.G4BW
+  : 82.2
+  ? - WRO.G2BW
+    - BXQ.G2BW
+  : 105.48297
+  ? - W12.G4BW
+    - BFO.G4BW
+  : 1
+  ? - BH....BW
+    - PSE.FHBW
+  : -0.01085
+  ? - WRO.G2BW
+    - B5B.G2BW
+  : 73.17229
+  ? - BFP...BW
+    - BFP.G2BW
+  : -1
+  ? - W02.G4BW
+    - BXR.G4BW
+  : 77.2
+  ? - W02.G2BW
+    - B2J.G2BW
+  : 74.3
+  ? - B2I...BW
+    - B2I.G8BW
+  : -1
+  ? - N02.G4BW
+    - W022G4BW
+  : 1
+  ? - WRO.G4BW
+    - BX3.G4BW
+  : 105.65125
+  ? - WVP.G2BW
+    - B5K.G2BW
+  : 3.47
+  ? - NGS.G4BW
+    - B5B.G4BW
+  : 0.756
+  ? - WRO.G4BW
+    - BXI.G4BW
+  : 79.08957
+  ? - WSU.G4BW
+    - B4U.G4BW
+  : 0.00124
+  ? - B2N...BW
+    - B2N.G8BW
+  : -1
+  ? - W58.G2BW
+    - B2A.G2BW
+  : -9.4
+  ? - BZF...BW
+    - PZF.P2BW
+  : -1
+  ? - X58.G8BW
+    - QVO2G8BW
+  : -45
+  ? - UFU...BW
+    - PCD.C.BW
+  : -0.0016
+  ? - BSU...BW
+    - P1I.PSBW
+  : 0.12875
+  ? - WRO.G8BW
+    - BFI.G8BW
+  : 81.33055
+  ? - BSJ...BW
+    - PZI.2XBW
+  : 0.03703
+  ? - W58.G2BW
+    - BXM.G2BW
+  : 47
+  ? - BG2.WTBW
+    - BI5.G2BW
+  : 0.625
+  ? - BG2.WTBW
+    - B2K.G2BW
+  : 0.74
+  ? - W58.G4BW
+    - BFN.G4BW
+  : 50
+  ? - WRO.G8BW
+    - BFM.G8BW
+  : 92.39784
+  ? - BG2.VOBW
+    - B2D.G2BW
+  : 1
+  ? - BG2.VOBW
+    - B1G.G2BW
+  : 1
+  ? - WVP.G4BW
+    - B5J.G4BW
+  : 2.58
+  ? - W58.G8BW
+    - BXR.G8BW
+  : -2.3
+  ? - W02.G2BW
+    - BFU.G2BW
+  : 20
+  ? - BG2.VOBW
+    - B2A.G2BW
+  : 1
+  ? - WMO.G4BW
+    - BF2.G4BW
+  : 77.34037
+  ? - BFO...BW
+    - BFO.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BHC.G2BW
+  : 0.772
+  ? - WMO.G8BW
+    - BFN.G8BW
+  : 81.63251
+  ? - BG8.WTBW
+    - B1N.G8BW
+  : 0.823
+  ? - W58.G4BW
+    - B5K.G4BW
+  : 1.2
+  ? - WVP.G8BW
+    - BFL.G8BW
+  : 10
+  ? - W12.G2BW
+    - BXA.G2BW
+  : -27
+  ? - B2K...BW
+    - B2K.G2BW
+  : -1
+  ? - BG4.VOBW
+    - BXI.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BXG.G8BW
+  : 0.839
+  ? - W58.G8BW
+    - BFI.G8BW
+  : -9
+  ? - WVP.G8BW
+    - BXK.G8BW
+  : 0.5
+  ? - BFN...BW
+    - BFN.G4BW
+  : -1
+  ? - BG4.VOBW
+    - BHC.G4BW
+  : 1
+  ? - WSU.G8BW
+    - BPE.G8BW
+  : 0.01485
+  ? - BG8.VOBW
+    - BA4.G8BW
+  : 1
+  ? - W02.G8BW
+    - B2B.G8BW
+  : 73.8
+  ? - BG8.VOBW
+    - B5J.G8BW
+  : 1
+  ? - BSI...BW
+    - PZF.P2BW
+  : 0.059
+  ? - BGS...BW
+    - PZI.P2BW
+  : 0.05424
+  ? - WVP.G2BW
+    - BX6.G2BW
+  : 13
+  ? - B1H...BW
+    - B1H.G2BW
+  : -1
+  ? - BG4.WTBW
+    - BLI.G4BW
+  : 0.658
+  ? - W58.G2BW
+    - BXU.G2BW
+  : -21
+  ? - WRO.G4BW
+    - BI5.G4BW
+  : 92.91707
+  ? - BI5...BW
+    - PTS.FTBW
+  : 0.38
+  ? - NMO.G2BW
+    - WMO2G2BW
+  : 1
+  ? - BXG...BW
+    - BXG.G2BW
+  : -1
+  ? - W12.G4BW
+    - B1C.G4BW
+  : 2.67
+  ? - WRO.G4BW
+    - B5C.G4BW
+  : 71.31302
+  ? - NGS.G4BW
+    - B5O.G4BW
+  : 0.753
+  ? - BG8.WTBW
+    - BPE.G8BW
+  : 0.669
+  ? - WRO.G8BW
+    - BFQ.G8BW
+  : 105.15159
+  ? - WSU.G4BW
+    - BFS.G4BW
+  : 0.01889
+  ? - WMO.G2BW
+    - B1C.G2BW
+  : 86.84432
+  ? - B5S...BW
+    - PTU.ASBW
+  : 0.05
+  ? - BG8.WTBW
+    - B5C.G8BW
+  : 0.752
+  ? - B5C...BW
+    - B5C.G2BW
+  : -1
+  ? - W02.G8BW
+    - BN5.G8BW
+  : 99
+  ? - NGS.G8BW
+    - B2D.G8BW
+  : 0.847
+  ? - BLP...BW
+    - PPG.P1BW
+  : 0.06964
+  ? - W58.G8BW
+    - B2I.G8BW
+  : -14.6
+  ? - B5U...BW
+    - PTT.ASBW
+  : 0.18
+  ? - CTF.PSBW
+    - P1O.PSBW
+  : -1
+  ? - W12.G8BW
+    - BX2.G8BW
+  : 76.4
+  ? - BG2.VOBW
+    - BFI.G2BW
+  : 1
+  ? - NGS.G4BW
+    - BFH.G4BW
+  : 0.795
+  ? - W02.G4BW
+    - B1J.G4BW
+  : 78.8
+  ? - WSU.G2BW
+    - BTO.G2BW
+  : 0.00044
+  ? - W12.G4BW
+    - BF1.G4BW
+  : -14.3
+  ? - BG4.VOBW
+    - B2J.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BLH.G8BW
+  : 0.71
+  ? - W58.G8BW
+    - B2N.G8BW
+  : -13.9
+  ? - BSI...BW
+    - PTD.P3BW
+  : 0.0263
+  ? - WVP.G8BW
+    - BFD.G8BW
+  : 2.1
+  ? - CTV.P3BW
+    - PTE.P3BW
+  : -0.00001
+  ? - WSU.G2BW
+    - BPV.G2BW
+  : 0.01956
+  ? - W58.G2BW
+    - B2C.G2BW
+  : -14.7
+  ? - W02.G8BW
+    - B1M.G8BW
+  : 22.1
+  ? - BSG...BW
+    - PSG.TDBW
+  : -1
+  ? - BG4.WTBW
+    - BXE.G4BW
+  : 0.723
+  ? - UH2...BW
+    - PTF.PHBW
+  : -0.31456
+  ? - WSU.G4BW
+    - BX6.G4BW
+  : 0.0201
+  ? - W12.G4BW
+    - BXE.G4BW
+  : 79
+  ? - NGS.G4BW
+    - B1K.G4BW
+  : 0.693
+  ? - WMO.G8BW
+    - BFS.G8BW
+  : 81.63251
+  ? - BG8.VOBW
+    - B1I.G8BW
+  : 1
+  ? - W02.G8BW
+    - B5G.G8BW
+  : 100
+  ? - WVP.G8BW
+    - BFS.G8BW
+  : 12.5
+  ? - W02.G2BW
+    - BXL.G2BW
+  : 28
+  ? - BG8.WTBW
+    - BA3.G8BW
+  : 0.685
+  ? - BTJ...BW
+    - PTH.FDBW
+  : 0.901
+  ? - W02.G2BW
+    - B2L.G2BW
+  : 73.8
+  ? - W02.G8BW
+    - BX1.G8BW
+  : 100
+  ? - WMO.G4BW
+    - BXC.G4BW
+  : 91.58015
+  ? - BG2.VOBW
+    - BFQ.G2BW
+  : 1
+  ? - BXC...BW
+    - BXC.G8BW
+  : -1
+  ? - WMO.G8BW
+    - B1M.G8BW
+  : 86.84432
+  ? - B5H...BW
+    - P1H.PSBW
+  : 0.05413
+  ? - W12.G8BW
+    - BFK.G8BW
+  : -30
+  ? - W58.G8BW
+    - BFM.G8BW
+  : 47
+  ? - WVP.G2BW
+    - BXL.G2BW
+  : 0.7
+  ? - UFU...BW
+    - PSK.A.BW
+  : -0.135
+  ? - UNF...BW
+    - PSK.A.BW
+  : -0.16
+  ? - W58.G2BW
+    - BXK.G2BW
+  : -21
+  ? - WMO.G4BW
+    - BXO.G4BW
+  : 88.75606
+  ? - CTC.P1BW
+    - PPG.P1BW
+  : -0.00001
+  ? - BI4...BW
+    - BI4.G4BW
+  : -1
+  ? - W12.G2BW
+    - B5H.G2BW
+  : 85.7
+  ? - BG4.WTBW
+    - BXR.G4BW
+  : 0.81
+  ? - W12.G8BW
+    - BFP.G8BW
+  : 2.8
+  ? - WVP.G4BW
+    - B1D.G4BW
+  : 2.36
+  ? - WMO.G2BW
+    - B5J.G2BW
+  : 82.83746
+  ? - WRO.G2BW
+    - B2O.G2BW
+  : 105.65125
+  ? - W02.G8BW
+    - BFI.G8BW
+  : 44
+  ? - UH2...BW
+    - PCD.C.BW
+  : -0.11501
+  ? - WRO.G2BW
+    - BPT.G2BW
+  : 93.00495
+  ? - B3U...BW
+    - P3U.M1BW
+  : -1
+  ? - WSU.G2BW
+    - BLL.G2BW
+  : 0.01448
+  ? - B5L...BW
+    - B5L.G2BW
+  : -1
+  ? - BTD...BW
+    - PTD.P1BW
+  : -1
+  ? - XSP.G4BW
+    - QWT2G4BW
+  : -240
+  ? - W12.G8BW
+    - BLI.G8BW
+  : 110
+  ? - BG4.VOBW
+    - BPU.G4BW
+  : 1
+  ? - BSU...BW
+    - PSU.I.BW
+  : -1
+  ? - WRO.G4BW
+    - B2D.G4BW
+  : 107.43624
+  ? - W02.G8BW
+    - BFT.G8BW
+  : 79
+  ? - BPU...BW
+    - BPU.G8BW
+  : -1
+  ? - WSU.G2BW
+    - BFH.G2BW
+  : 0.10891
+  ? - W12.G8BW
+    - B2K.G8BW
+  : 19.7
+  ? - W12.G4BW
+    - B5B.G4BW
+  : 92.1
+  ? - BG4.WTBW
+    - BFM.G4BW
+  : 0.692
+  ? - WVP.G8BW
+    - BLV.G8BW
+  : 12.2
+  ? - BC4...BW
+    - DC4...BW
+  : -1
+  ? - WMO.G8BW
+    - B5C.G8BW
+  : 71.11826
+  ? - W12.G4BW
+    - BXX.G4BW
+  : -31
+  ? - U9R...BW
+    - PPG.P1BW
+  : -0.073
+  ? - WMO.G8BW
+    - B2I.G8BW
+  : 88.58483
+  ? - W58.G8BW
+    - B5H.G8BW
+  : -1.4
+  ? - NWU.G8BW
+    - QVO2G8BW
+  : -104
+  ? - NGS.G8BW
+    - BXX.G8BW
+  : 0.874
+  ? - CTC.P2BW
+    - PZI.P2BW
+  : -1
+  ? - WRO.G2BW
+    - B5G.G2BW
+  : 102.10471
+  ? - WVP.G2BW
+    - BN5.G2BW
+  : 15
+  ? - UNF...BW
+    - PTY.FMBW
+  : -0.006
+  ? - B5U...BW
+    - PTS.ASBW
+  : 0.195
+  ? - WMO.G2BW
+    - BN5.G2BW
+  : 71.60925
+  ? - BH....BW
+    - UH2...BW
+  : 1
+  ? - WMO.G8BW
+    - BXB.G8BW
+  : 77.10346
+  ? - BG8.WTBW
+    - BN4.G8BW
+  : 0.584
+  ? - WRO.G2BW
+    - BXM.G2BW
+  : 92.03197
+  ? - BG2.WTBW
+    - B1J.G2BW
+  : 0.81
+  ? - WMO.G8BW
+    - BLH.G8BW
+  : 69.42845
+  ? - B3U...BW
+    - PPI.F1BW
+  : -0.0092
+  ? - CTV.P1BW
+    - CTV.P1BW
+  : 1
+  ? - W12.G4BW
+    - BTO.G4BW
+  : 18
+  ? - W58.G4BW
+    - BFP.G4BW
+  : -3.9
+  ? - W58.G8BW
+    - BFU.G8BW
+  : -21
+  ? - BG4.VOBW
+    - B1D.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BN4.G8BW
+  : 0.584
+  ? - BG2.VOBW
+    - BFL.G2BW
+  : 1
+  ? - W58.G2BW
+    - B2O.G2BW
+  : -14
+  ? - W12.G4BW
+    - B2C.G4BW
+  : -16.7
+  ? - W12.G4BW
+    - BFH.G4BW
+  : 1
+  ? - B5C...BW
+    - P1C.PSBW
+  : 0.03406
+  ? - W02.G8BW
+    - BX2.G8BW
+  : 100
+  ? - B2I...BW
+    - P1I.PSBW
+  : 0.84058
+  ? - W02.G2BW
+    - BX6.G2BW
+  : 100
+  ? - BSI...BW
+    - PZG.2XBW
+  : 0.03369
+  ? - CTV.P1BW
+    - PTA.P1BW
+  : -1
+  ? - WRO.G2BW
+    - WRO2G2BW
+  : -1
+  ? - WVP.G2BW
+    - B1D.G2BW
+  : 2.36
+  ? - BG8.WTBW
+    - BFD.G8BW
+  : 0.786
+  ? - NGS.G2BW
+    - B1O.G2BW
+  : 0.823
+  ? - BG4.WTBW
+    - B2M.G4BW
+  : 0.885
+  ? - W58.G8BW
+    - B1D.G8BW
+  : -4.4
+  ? - B5M...BW
+    - B5M.G4BW
+  : -1
+  ? - W58.G8BW
+    - BXB.G8BW
+  : -19
+  ? - B5C...BW
+    - B5C.G8BW
+  : -1
+  ? - W02.G8BW
+    - BPE.G8BW
+  : 100
+  ? - BSA...BW
+    - PSA.E.BW
+  : -1
+  ? - UNF...BW
+    - PTM.FMBW
+  : -0.006
+  ? - W12.G8BW
+    - BI4.G8BW
+  : 120
+  ? - BTO...BW
+    - BTO.G8BW
+  : -1
+  ? - BG8.WTBW
+    - B5H.G8BW
+  : 0.735
+  ? - WVP.G2BW
+    - WVP2G2BW
+  : -1
+  ? - U9R...BW
+    - PSK.A.BW
+  : -0.0011
+  ? - BG2.VOBW
+    - B2J.G2BW
+  : 1
+  ? - WMO.G2BW
+    - BFF.G2BW
+  : 73.78616
+  ? - WRO.G4BW
+    - BLL.G4BW
+  : 75.20602
+  ? - WSU.G8BW
+    - BXA.G8BW
+  : 0.11303
+  ? - BH....BW
+    - PSH.FHBW
+  : -0.01076
+  ? - BTP...BW
+    - PTP.TIBW
+  : -1
+  ? - UFU...BW
+    - PTA.P1BW
+  : -0.002
+  ? - WVP.G4BW
+    - BXA.G4BW
+  : 0.7
+  ? - WSU.G2BW
+    - BXT.G2BW
+  : 0.0897
+  ? - NGS.G2BW
+    - B1B.G2BW
+  : 0.806
+  ? - WRO.G2BW
+    - B5N.G2BW
+  : 76.53985
+  ? - W02.G4BW
+    - BLF.G4BW
+  : 101
+  ? - NGS.G8BW
+    - B2J.G8BW
+  : 0.834
+  ? - W02.G2BW
+    - BPQ.G2BW
+  : 100
+  ? - WMO.G4BW
+    - BF1.G4BW
+  : 92.2351
+  ? - BLH...BW
+    - BLH.G4BW
+  : -1
+  ? - BXU...BW
+    - BXU.G4BW
+  : -1
+  ? - WRO.G2BW
+    - B1I.G2BW
+  : 101.95318
+  ? - B1K...BW
+    - B1K.G4BW
+  : -1
+  ? - NGS.G8BW
+    - B5K.G8BW
+  : 0.684
+  ? - WRO.G2BW
+    - BX3.G2BW
+  : 105.65125
+  ? - BFM...BW
+    - BFM.G4BW
+  : -1
+  ? - WMO.G2BW
+    - B1H.G2BW
+  : 89.46263
+  ? - BG4.VOBW
+    - B2L.G4BW
+  : 1
+  ? - B5K...BW
+    - B5K.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BFS.G8BW
+  : 1
+  ? - W58.G8BW
+    - BU4.G8BW
+  : 127.8
+  ? - WRO.G4BW
+    - BFF.G4BW
+  : 77.31816
+  ? - COF.A.BW
+    - P5U.A.BW
+  : -1
+  ? - BG8.VOBW
+    - BXG.G8BW
+  : 1
+  ? - NGS.G4BW
+    - BXN.G4BW
+  : 0.687
+  ? - W12.G4BW
+    - BX3.G4BW
+  : -12.6
+  ? - NGS.G2BW
+    - B5D.G2BW
+  : 0.75
+  ? - NGS.G4BW
+    - BF1.G4BW
+  : 0.835
+  ? - WVP.G8BW
+    - B2N.G8BW
+  : 1.02
+  ? - WRO.G8BW
+    - BXE.G8BW
+  : 86.32131
+  ? - W58.G8BW
+    - BPV.G8BW
+  : 48
+  ? - NGS.G8BW
+    - BF1.G8BW
+  : 0.835
+  ? - BXE...BW
+    - BXE.G2BW
+  : -1
+  ? - WMO.G2BW
+    - B2H.G2BW
+  : 92.2581
+  ? - WVP.G2BW
+    - BLF.G2BW
+  : 14.8
+  ? - WVP.G4BW
+    - BF1.G4BW
+  : 1.02
+  ? - BG8.WTBW
+    - BFP.G8BW
+  : 0.811
+  ? - W58.G4BW
+    - B1I.G4BW
+  : -1.6
+  ? - NGS.G2BW
+    - B4U.G2BW
+  : 0.62
+  ? - W02.G8BW
+    - BFU.G8BW
+  : 20
+  ? - W12.G2BW
+    - BU5.G2BW
+  : 115
+  ? - WMO.G2BW
+    - B1G.G2BW
+  : 88.21309
+  ? - WVP.G2BW
+    - BFJ.G2BW
+  : 2.1
+  ? - WMO.G8BW
+    - B5B.G8BW
+  : 71.98974
+  ? - WVP.G8BW
+    - B5L.G8BW
+  : 2.36
+  ? - BK6...BW
+    - PK6.M.BW
+  : -1
+  ? - W58.G8BW
+    - BX2.G8BW
+  : -0.8
+  ? - UFU...BW
+    - PSF.FHBW
+  : -0.002
+  ? - BZE...BW
+    - PTE.T1BW
+  : 1
+  ? - W02.G8BW
+    - BXO.G8BW
+  : 79
+  ? - BG4.VOBW
+    - BPT.G4BW
+  : 1
+  ? - NGS.G2BW
+    - BFD.G2BW
+  : 0.786
+  ? - BG8.VOBW
+    - BFJ.G8BW
+  : 1
+  ? - BG2.WTBW
+    - BLF.G2BW
+  : 0.658
+  ? - WSU.G4BW
+    - BXJ.G4BW
+  : 0.00479
+  ? - WRO.G4BW
+    - B2N.G4BW
+  : 107.43624
+  ? - COF.A.BW
+    - COF.A.BW
+  : 1
+  ? - WRO.G4BW
+    - BXG.G4BW
+  : 109.08673
+  ? - UNF...BW
+    - PTF.PHBW
+  : -0.001
+  ? - W12.G4BW
+    - BN4.G4BW
+  : 119
+  ? - BGS...BW
+    - PZG.P2BW
+  : 0.06316
+  ? - BLL...BW
+    - BLL.G8BW
+  : -1
+  ? - WMO.G4BW
+    - BFU.G4BW
+  : 77.20759
+  ? - B8....BW
+    - PTN.M.BW
+  : 1
+  ? - BG4.VOBW
+    - BFN.G4BW
+  : 1
+  ? - BFT...BW
+    - BFT.G8BW
+  : -1
+  ? - BG4.VOBW
+    - BX1.G4BW
+  : 1
+  ? - W02.G4BW
+    - BXH.G4BW
+  : 28
+  ? - WMO.G2BW
+    - BFQ.G2BW
+  : 90.23941
+  ? - BG4.VOBW
+    - BI4.G4BW
+  : 1
+  ? - BG8.WTBW
+    - BLI.G8BW
+  : 0.658
+  ? - BTW...BW
+    - PTW.FHBW
+  : -1
+  ? - BG2.WTBW
+    - B5I.G2BW
+  : 0.743
+  ? - BTC...BW
+    - PTC.TBBW
+  : -1
+  ? - BTV...BW
+    - PTV.TUBW
+  : -1
+  ? - NGS.G2BW
+    - B5K.G2BW
+  : 0.684
+  ? - BG4.WTBW
+    - B5M.G4BW
+  : 0.752
+  ? - NOI.G4BW
+    - WMO2G4BW
+  : 0.56
+  ? - W02.G4BW
+    - BXD.G4BW
+  : 50
+  ? - W02.G4BW
+    - B1G.G4BW
+  : 100
+  ? - BXQ...BW
+    - BXQ.G8BW
+  : -1
+  ? - WRO.G2BW
+    - B2H.G2BW
+  : 108.951
+  ? - WMO.G4BW
+    - BXI.G4BW
+  : 73.85299
+  ? - BG4.VOBW
+    - BX3.G4BW
+  : 1
+  ? - W02.G4BW
+    - BPE.G4BW
+  : 100
+  ? - WRO.G8BW
+    - BXK.G8BW
+  : 80.33046
+  ? - WMO.G2BW
+    - BXI.G2BW
+  : 73.85299
+  ? - WRO.G2BW
+    - B1B.G2BW
+  : 99.30716
+  ? - BG8.WTBW
+    - B4U.G8BW
+  : 0.62
+  ? - U9R...BW
+    - PZG.P2BW
+  : -0.083
+  ? - B2N...BW
+    - B2N.G4BW
+  : -1
+  ? - W58.G4BW
+    - BX2.G4BW
+  : -0.8
+  ? - W58.G8BW
+    - B1M.G8BW
+  : -2.4
+  ? - WRO.G4BW
+    - BXE.G4BW
+  : 86.32131
+  ? - BG8.VOBW
+    - QVO2G8BW
+  : -1
+  ? - W58.G4BW
+    - B1L.G4BW
+  : 3.55
+  ? - BSJ...BW
+    - PZF.P2BW
+  : 0.08763
+  ? - W12.G4BW
+    - BI5.G4BW
+  : 115
+  ? - BSP...BW
+    - PSP.M.BW
+  : -1
+  ? - W58.G2BW
+    - BN5.G2BW
+  : 86
+  ? - W58.G2BW
+    - B1J.G2BW
+  : -4.1
+  ? - W58.G2BW
+    - BXE.G2BW
+  : -0.9
+  ? - WVP.G8BW
+    - B1O.G8BW
+  : 2.61
+  ? - W58.G2BW
+    - BXX.G2BW
+  : -21
+  ? - W02.G2BW
+    - BX4.G2BW
+  : 71.3
+  ? - WRO.G2BW
+    - B2D.G2BW
+  : 107.43624
+  ? - BG8.WTBW
+    - BXG.G8BW
+  : 0.839
+  ? - CTV.P3BW
+    - PTD.P3BW
+  : -0.00001
+  ? - WRO.G8BW
+    - B5L.G8BW
+  : 73.17229
+  ? - BI5...BW
+    - BI5.G8BW
+  : -1
+  ? - W02.G2BW
+    - BXI.G2BW
+  : 44
+  ? - WRO.G4BW
+    - BFS.G4BW
+  : 92.70599
+  ? - BXT...BW
+    - BXT.G8BW
+  : -1
+  ? - BSH...BW
+    - PSH.TDBW
+  : -1
+  ? - BG2.VOBW
+    - B5L.G2BW
+  : 1
+  ? - NGS.G2BW
+    - BA5.G2BW
+  : 0.71
+  ? - BG4.VOBW
+    - BFF.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BXL.G8BW
+  : 0.796
+  ? - U9R...BW
+    - PSB.E.BW
+  : -0.0292
+  ? - WVP.G8BW
+    - B5C.G8BW
+  : 2.71
+  ? - BTR...BW
+    - PTR.FHBW
+  : -1
+  ? - BG4.WTBW
+    - BFS.G4BW
+  : 0.687
+  ? - BSJ...BW
+    - PZJ.2XBW
+  : 0.03277
+  ? - CTV.P2BW
+    - PZH.P2BW
+  : -1
+  ? - W12.G2BW
+    - B2H.G2BW
+  : -9.2
+  ? - BG4.WTBW
+    - B2A.G4BW
+  : 0.74
+  ? - WRO.G4BW
+    - BA5.G4BW
+  : 93.37346
+  ? - W58.G4BW
+    - BX4.G4BW
+  : -14
+  ? - BG4.VOBW
+    - B5H.G4BW
+  : 1
+  ? - W02.G8BW
+    - BXS.G8BW
+  : 100
+  ? - UFU...BW
+    - PGS.H.BW
+  : -0.005
+  ? - BG4.VOBW
+    - BXD.G4BW
+  : 1
+  ? - W12.G2BW
+    - BFP.G2BW
+  : 2.8
+  ? - W12.G4BW
+    - BXR.G4BW
+  : 3
+  ? - W58.G8BW
+    - BFF.G8BW
+  : -2
+  ? - BG4.VOBW
+    - B5A.G4BW
+  : 1
+  ? - BG2.WTBW
+    - BXU.G2BW
+  : 0.805
+  ? - W58.G4BW
+    - B5G.G4BW
+  : 0.9
+  ? - WRO.G8BW
+    - B2D.G8BW
+  : 107.43624
+  ? - B8....BW
+    - PCP.F.BW
+  : 0.238
+  ? - BZH...BW
+    - PZC.T2BW
+  : 1
+  ? - WSU.G8BW
+    - BX6.G8BW
+  : 0.0201
+  ? - W02.G4BW
+    - B1K.G4BW
+  : 100
+  ? - W58.G8BW
+    - BXI.G8BW
+  : -9
+  ? - CTF.FMBW
+    - PTM.FMBW
+  : -1
+  ? - WVP.G2BW
+    - BFH.G2BW
+  : 2
+  ? - WVP.G8BW
+    - B5J.G8BW
+  : 2.58
+  ? - CTF.P1BW
+    - PTA.P1BW
+  : -1
+  ? - WVP.G8BW
+    - BFM.G8BW
+  : 10
+  ? - WRO.G8BW
+    - BF3.G8BW
+  : 109.60858
+  ? - UNF...BW
+    - PZF.P2BW
+  : -0.007
+  ? - NGS.G2BW
+    - BXR.G2BW
+  : 0.81
+  ? - BG2.WTBW
+    - BX4.G2BW
+  : 0.838
+  ? - W58.G8BW
+    - BI4.G8BW
+  : 134
+  ? - W02.G8BW
+    - W022G8BW
+  : -1
+  ? - W12.G8BW
+    - BFD.G8BW
+  : 2
+  ? - NGS.G4BW
+    - BFI.G4BW
+  : 0.786
+  ? - W58.G8BW
+    - BXP.G8BW
+  : -2.2
+  ? - WSU.G2BW
+    - BFU.G2BW
+  : 0.12477
+  ? - NGS.G4BW
+    - BXR.G4BW
+  : 0.81
+  ? - WMO.G8BW
+    - BFI.G8BW
+  : 76.0993
+  ? - WRO.G8BW
+    - BXM.G8BW
+  : 92.03197
+  ? - BTX...BW
+    - PTX.FMBW
+  : -1
+  ? - BG8.WTBW
+    - BFI.G8BW
+  : 0.786
+  ? - BXX...BW
+    - BXX.G2BW
+  : -1
+  ? - BG4.WTBW
+    - BFU.G4BW
+  : 0.805
+  ? - W12.G4BW
+    - B1I.G4BW
+  : 2.9
+  ? - WRO.G2BW
+    - B2G.G2BW
+  : 114.92604
+  ? - WMO.G2BW
+    - BFT.G2BW
+  : 77.40834
+  ? - W02.G8BW
+    - BXX.G8BW
+  : 17
+  ? - WMO.G8BW
+    - B5S.G8BW
+  : 88.88656
+  ? - BG8.WTBW
+    - B1K.G8BW
+  : 0.693
+  ? - WVP.G4BW
+    - BFJ.G4BW
+  : 2.1
+  ? - W12.G8BW
+    - B5C.G8BW
+  : 99.2
+  ? - W02.G4BW
+    - BFJ.G4BW
+  : 50
+  ? - BPE...BW
+    - PTS.TTBW
+  : 1
+  ? - WRO.G4BW
+    - B2A.G4BW
+  : 108.32812
+  ? - WSU.G2BW
+    - BFT.G2BW
+  : 0.0897
+  ? - WRO.G2BW
+    - B5K.G2BW
+  : 92.06722
+  ? - CTV.P3BW
+    - CTV.P3BW
+  : 1
+  ? - NGS.G8BW
+    - BI5.G8BW
+  : 0.625
+  ? - WMO.G8BW
+    - B5I.G8BW
+  : 71.95043
+  ? - BG8.VOBW
+    - B1N.G8BW
+  : 1
+  ? - CTF.P2BW
+    - PZJ.P2BW
+  : -1
+  ? - BK4...BW
+    - PZI.2XBW
+  : 0.825
+  ? - W58.G4BW
+    - B2N.G4BW
+  : -13.9
+  ? - WVP.G8BW
+    - BFP.G8BW
+  : 2.43
+  ? - W12.G2BW
+    - BA5.G2BW
+  : 45
+  ? - W58.G4BW
+    - BXT.G4BW
+  : -2
+  ? - NGS.G2BW
+    - B1G.G2BW
+  : 0.688
+  ? - WRO.G4BW
+    - B2M.G4BW
+  : 100.04377
+  ? - W58.G2BW
+    - BLL.G2BW
+  : 73
+  ? - WVP.G4BW
+    - BFX.G4BW
+  : 0.2
+  ? - NGS.G4BW
+    - BXJ.G4BW
+  : 0.786
+  ? - BG8.VOBW
+    - BFM.G8BW
+  : 1
+  ? - NGS.G8BW
+    - BFI.G8BW
+  : 0.786
+  ? - B3U...BW
+    - PCP.F.BW
+  : 0.0564
+  ? - BXB...BW
+    - BXB.G4BW
+  : -1
+  ? - NGS.G4BW
+    - BI4.G4BW
+  : 0.563
+  ? - WMO.G8BW
+    - B5L.G8BW
+  : 71.98974
+  ? - CBF.F.BW
+    - PPI.F.BW
+  : -1
+  ? - WVP.G2BW
+    - BFD.G2BW
+  : 2.1
+  ? - NGS.G2BW
+    - BF1.G2BW
+  : 0.835
+  ? - WRO.G4BW
+    - BXA.G4BW
+  : 86.52499
+  ? - BSU...BW
+    - PXR.PSBW
+  : 0.09414
+  ? - WVP.G2BW
+    - BN4.G2BW
+  : 57
+  ? - W02.G2BW
+    - B2M.G2BW
+  : 7.3
+  ? - CTF.P3BW
+    - ITF.P3BW
+  : 1
+  ? - BG2.WTBW
+    - BXO.G2BW
+  : 0.823
+  ? - WVP.G4BW
+    - BPU.G4BW
+  : 13
+  ? - W12.G4BW
+    - BLF.G4BW
+  : 110
+  ? - W58.G8BW
+    - B1L.G8BW
+  : 3.55
+  ? - W02.G2BW
+    - BXS.G2BW
+  : 100
+  ? - BXO...BW
+    - BXO.G8BW
+  : -1
+  ? - BH....BW
+    - PSU.I.BW
+  : -0.0022
+  ? - UNF...BW
+    - PZG.P2BW
+  : -0.007
+  ? - BXD...BW
+    - BXD.G4BW
+  : -1
+  ? - BTL...BW
+    - PPI.F.BW
+  : 0.172
+  ? - BG2.WTBW
+    - BA3.G2BW
+  : 0.685
+  ? - W12.G4BW
+    - BXA.G4BW
+  : -27
+  ? - WRO.G8BW
+    - B2A.G8BW
+  : 108.32812
+  ? - CTV.P2BW
+    - PZF.P2BW
+  : -1
+  ? - BFI...BW
+    - BFI.G2BW
+  : -1
+  ? - W12.G4BW
+    - B2I.G4BW
+  : -16.9
+  ? - BG4.WTBW
+    - B1N.G4BW
+  : 0.823
+  ? - W12.G8BW
+    - BF3.G8BW
+  : -14.3
+  ? - WRO.G8BW
+    - BPQ.G8BW
+  : 79.45782
+  ? - NGS.G2BW
+    - B2J.G2BW
+  : 0.834
+  ? - WVP.G8BW
+    - BXB.G8BW
+  : 0.7
+  ? - W58.G8BW
+    - BXO.G8BW
+  : -2.8
+  ? - BG8.WTBW
+    - B5I.G8BW
+  : 0.743
+  ? - BG8.WTBW
+    - BPV.G8BW
+  : 0.631
+  ? - WSU.G2BW
+    - BPT.G2BW
+  : 0.01485
+  ? - UH2...BW
+    - PSH.FHBW
+  : -0.21154
+  ? - BG8.VOBW
+    - BPU.G8BW
+  : 1
+  ? - BSG...BW
+    - PSG.FHBW
+  : -1
+  ? - BH....BW
+    - PTG.PHBW
+  : -0.016
+  ? - B5M...BW
+    - P1M.PSBW
+  : 0.03406
+  ? - UFU...BW
+    - PPG.P1BW
+  : -0.002
+  ? - NGS.G4BW
+    - QVO2G4BW
+  : -0.5
+  ? - BFY...BW
+    - PSB.E.BW
+  : 0.42
+  ? - BTA...BW
+    - PSN.TJBW
+  : 1
+  ? - WMO.G2BW
+    - BX6.G2BW
+  : 79.60009
+  ? - WVP.G2BW
+    - B2I.G2BW
+  : 1.35
+  ? - W58.G4BW
+    - BA5.G4BW
+  : 21.1
+  ? - BI4...BW
+    - BI4.G8BW
+  : -1
+  ? - BG2.VOBW
+    - BXB.G2BW
+  : 1
+  ? - BSI...BW
+    - PPI.F.BW
+  : 0.0408
+  ? - W02.G2BW
+    - BXK.G2BW
+  : 20
+  ? - WMO.G2BW
+    - BFP.G2BW
+  : 90.22689
+  ? - BG2.WTBW
+    - BFQ.G2BW
+  : 0.811
+  ? - BG2.VOBW
+    - BPU.G2BW
+  : 1
+  ? - CTF.ASBW
+    - PTU.ASBW
+  : -1
+  ? - BFU...BW
+    - PTW.TNBW
+  : 1
+  ? - BGS...BW
+    - PZI.2XBW
+  : 0.04265
+  ? - WRO.G4BW
+    - B1I.G4BW
+  : 101.95318
+  ? - B5D...BW
+    - B5D.G4BW
+  : -1
+  ? - BG4.WTBW
+    - BFH.G4BW
+  : 0.795
+  ? - W58.G4BW
+    - BPV.G4BW
+  : 48
+  ? - BXR...BW
+    - BXR.G8BW
+  : -1
+  ? - B5B...BW
+    - B5B.G8BW
+  : -1
+  ? - W02.G2BW
+    - BXG.G2BW
+  : 68.1
+  ? - BG8.WTBW
+    - BN5.G8BW
+  : 0.631
+  ? - BCD...BW
+    - ECD...BW
+  : 1
+  ? - NGS.G2BW
+    - B1C.G2BW
+  : 0.845
+  ? - NGS.G8BW
+    - BIS.G8BW
+  : 0.655
+  ? - WRO.G8BW
+    - B5O.G8BW
+  : 74.14662
+  ? - CTV.P1BW
+    - PTE.P1BW
+  : -0.00001
+  ? - W58.G2BW
+    - BFP.G2BW
+  : -3.9
+  ? - WMO.G2BW
+    - BX4.G2BW
+  : 91.83832
+  ? - WRO.G2BW
+    - BXH.G2BW
+  : 83.73597
+  ? - CTF.FSBW
+    - PSF.FSBW
+  : -1
+  ? - W12.G2BW
+    - B1I.G2BW
+  : 2.9
+  ? - W58.G4BW
+    - BFD.G4BW
+  : -8
+  ? - BG4.WTBW
+    - B5D.G4BW
+  : 0.75
+  ? - WVP.G2BW
+    - BXG.G2BW
+  : 1.42
+  ? - WVP.G2BW
+    - BFK.G2BW
+  : 0.5
+  ? - WVP.G2BW
+    - BXM.G2BW
+  : 10
+  ? - B2J...BW
+    - B2J.G4BW
+  : -1
+  ? - BG2.VOBW
+    - BFS.G2BW
+  : 1
+  ? - W12.G8BW
+    - BXJ.G8BW
+  : 2
+  ? - WMO.G8BW
+    - B1J.G8BW
+  : 91.25379
+  ? - WVP.G8BW
+    - BLL.G8BW
+  : 14.8
+  ? - WMO.G2BW
+    - B5S.G2BW
+  : 88.88656
+  ? - WSU.G8BW
+    - BXX.G8BW
+  : 0.0007
+  ? - BG8.WTBW
+    - B5L.G8BW
+  : 0.756
+  ? - WVP.G8BW
+    - BX4.G8BW
+  : 1.48
+  ? - B4....BW
+    - D4....BW
+  : -1
+  ? - NGS.G8BW
+    - B1B.G8BW
+  : 0.806
+  ? - WMO.G4BW
+    - B1M.G4BW
+  : 86.84432
+  ? - BI5...BW
+    - PTT.FTBW
+  : 0.4
+  ? - BSK...BW
+    - PPI.F1BW
+  : 0.0074
+  ? - UH2...BW
+    - PZI.P2BW
+  : 0.87153
+  ? - W12.G8BW
+    - B1G.G8BW
+  : 64.3
+  ? - BZD...BW
+    - PTD.T1BW
+  : 1
+  ? - BG4.WTBW
+    - BX6.G4BW
+  : 0.693
+  ? - BN5...BW
+    - BN5.G4BW
+  : -1
+  ? - B...ML..
+    - QVO2G2BW
+  : 0.005
+  ? - WVP.G4BW
+    - BX3.G4BW
+  : 1.37
+  ? - WRO.G2BW
+    - BXB.G2BW
+  : 83.15426
+  ? - WVP.G2BW
+    - B2C.G2BW
+  : 1.38
+  ? - UH2...BW
+    - PZI.2XBW
+  : 0.75848
+  ? - XSP.G8BW
+    - WSU2G8BW
+  : 10000
+  ? - BSR...BW
+    - U9R.GLBW
+  : -1
+  ? - W12.G8BW
+    - BFI.G8BW
+  : 1
+  ? - W58.G4BW
+    - BPQ.G4BW
+  : 81.9
+  ? - W02.G4BW
+    - BX6.G4BW
+  : 100
+  ? - W58.G8BW
+    - BFJ.G8BW
+  : -8
+  ? - WVP.G2BW
+    - BPU.G2BW
+  : 13
+  ? - B1I...BW
+    - B1I.G2BW
+  : -1
+  ? - UH2...BW
+    - PPH.P1BW
+  : 1.07383
+  ? - BTU...BW
+    - PTU.TUBW
+  : -1
+  ? - BG2.WTBW
+    - BLV.G2BW
+  : 0.67
+  ? - W58.G8BW
+    - B2A.G8BW
+  : -9.4
+  ? - CTF.PSBW
+    - P1N.PSBW
+  : -1
+  ? - B5K...BW
+    - P1K.PSBW
+  : 0.19751
+  ? - BTJ...BW
+    - PTJ.TEBW
+  : -1
+  ? - BG8.VOBW
+    - BU5.G8BW
+  : 1
+  ? - WVP.G4BW
+    - BFT.G4BW
+  : 4
+  ? - WVP.G2BW
+    - B1M.G2BW
+  : 2.98
+  ? - BG8.WTBW
+    - B2D.G8BW
+  : 0.847
+  ? - WRO.G2BW
+    - B4U.G2BW
+  : 103.85185
+  ? - NGS.G4BW
+    - BXL.G4BW
+  : 0.796
+  ? - BG8.VOBW
+    - B1H.G8BW
+  : 1
+  ? - W02.G4BW
+    - BX2.G4BW
+  : 100
+  ? - BSN...BW
+    - PSN.M.BW
+  : -1
+  ? - BXD...BW
+    - PSF.TDBW
+  : 1
+  ? - WRO.G4BW
+    - BFD.G4BW
+  : 87.33868
+  ? - BU5...BW
+    - PCP.F.BW
+  : 0.0067
+  ? - WMO.G2BW
+    - BPT.G2BW
+  : 82.29867
+  ? - NGS.G4BW
+    - B2J.G4BW
+  : 0.834
+  ? - BG8.WTBW
+    - BXT.G8BW
+  : 0.78
+  ? - BSJ...BW
+    - PCD.C.BW
+  : 0.0129
+  ? - W02.G4BW
+    - BFI.G4BW
+  : 44
+  ? - UH2...BW
+    - PSF.FHBW
+  : -0.21331
+  ? - UFU...BW
+    - PSG.FSBW
+  : -0.009
+  ? - NGS.G8BW
+    - BX6.G8BW
+  : 0.693
+  ? - BI4...BW
+    - PSI.THBW
+  : 1
+  ? - WVP.G4BW
+    - BXE.G4BW
+  : 2.63
+  ? - WRO.G8BW
+    - BFJ.G8BW
+  : 81.04273
+  ? - WVP.G2BW
+    - BA3.G2BW
+  : 6
+  ? - NGS.G2BW
+    - B1J.G2BW
+  : 0.81
+  ? - B8....BW
+    - PPI.F1BW
+  : 0.404
+  ? - BG2.WTBW
+    - B4U.G2BW
+  : 0.62
+  ? - CTC.2XBW
+    - PZH.2XBW
+  : -0.00001
+  ? - WRO.G2BW
+    - BFU.G2BW
+  : 86.74963
+  ? - BZC...BW
+    - PPH.T1BW
+  : 1
+  ? - WSU.G2BW
+    - BFE.G2BW
+  : 0.03204
+  ? - WRO.G8BW
+    - BFP.G8BW
+  : 105.15159
+  ? - W02.G2BW
+    - BXQ.G2BW
+  : 77.9
+  ? - BSN...BW
+    - PSN.TKBW
+  : -1
+  ? - WRO.G2BW
+    - BXT.G2BW
+  : 84.71223
+  ? - W58.G2BW
+    - B1H.G2BW
+  : 4.4
+  ? - UH2...BW
+    - PTE.P3BW
+  : 0.72349
+  ? - NGS.G4BW
+    - BFU.G4BW
+  : 0.805
+  ? - WRO.G8BW
+    - BLF.G8BW
+  : 75.20602
+  ? - BG2.VOBW
+    - BX6.G2BW
+  : 1
+  ? - BG2.VOBW
+    - BF3.G2BW
+  : 1
+  ? - BGS...BW
+    - PPI.F1BW
+  : -0.0034
+  ? - W12.G8BW
+    - BFQ.G8BW
+  : 2.9
+  ? - NGS.G8BW
+    - BLL.G8BW
+  : 0.658
+  ? - BG4.VOBW
+    - BA3.G4BW
+  : 1
+  ? - BG4.VOBW
+    - BXF.G4BW
+  : 1
+  ? - W58.G4BW
+    - BFL.G4BW
+  : 47
+  ? - BPE...BW
+    - BPE.G4BW
+  : -1
+  ? - WMO.G4BW
+    - B5H.G4BW
+  : 75.95929
+  ? - W02.G2BW
+    - B5M.G2BW
+  : 100
+  ? - B1G...BW
+    - B1G.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BLL.G2BW
+  : 0.658
+  ? - BG4.VOBW
+    - BXX.G4BW
+  : 1
+  ? - NGS.G8BW
+    - BFO.G8BW
+  : 0.795
+  ? - UNF...BW
+    - PSD.E.BW
+  : -0.033
+  ? - WVP.G4BW
+    - BFI.G4BW
+  : 2.1
+  ? - X12.G8BW
+    - W122G8BW
+  : 1
+  ? - BXA...BW
+    - PTN.TNBW
+  : 1
+  ? - BG2.WTBW
+    - B2G.G2BW
+  : 0.738
+  ? - BYU...BW
+    - PPI.F.BW
+  : 0.034
+  ? - W12.G4BW
+    - B5N.G4BW
+  : 82.2
+  ? - BSI...BW
+    - PZH.2XBW
+  : 0.02506
+  ? - W02.G8BW
+    - BIT.G8BW
+  : 100
+  ? - W02.G2BW
+    - B5N.G2BW
+  : 100
+  ? - BG8.WTBW
+    - B2A.G8BW
+  : 0.74
+  ? - UFU...BW
+    - PPI.F.BW
+  : 0.005
+  ? - WVP.G4BW
+    - BF2.G4BW
+  : 2.43
+  ? - W12.G4BW
+    - B5A.G4BW
+  : 93.8
+  ? - WVP.G4BW
+    - BIT.G4BW
+  : 13.2
+  ? - BG4.WTBW
+    - B5C.G4BW
+  : 0.752
+  ? - W12.G2BW
+    - BFO.G2BW
+  : 1
+  ? - W12.G4BW
+    - BXJ.G4BW
+  : 2
+  ? - W58.G2BW
+    - BFK.G2BW
+  : -21
+  ? - WMO.G2BW
+    - B1D.G2BW
+  : 89.42014
+  ? - WMO.G4BW
+    - B5N.G4BW
+  : 71.71782
+  ? - CBF.P1BW
+    - PTD.P1BW
+  : -1
+  ? - UNF...BW
+    - PTD.P3BW
+  : -0.006
+  ? - BTT...BW
+    - PTT.FTBW
+  : -1
+  ? - WVP.G4BW
+    - BFK.G4BW
+  : 0.5
+  ? - BG4.VOBW
+    - BFD.G4BW
+  : 1
+  ? - WSU.G4BW
+    - BFJ.G4BW
+  : 0.00479
+  ? - BG8.WTBW
+    - B2G.G8BW
+  : 0.738
+  ? - UH2...BW
+    - PZG.P2BW
+  : 1.19081
+  ? - WRO.G4BW
+    - B4U.G4BW
+  : 103.85185
+  ? - BG4.VOBW
+    - BXQ.G4BW
+  : 1
+  ? - WMO.G4BW
+    - BLH.G4BW
+  : 69.42845
+  ? - WVP.G8BW
+    - BFJ.G8BW
+  : 2.1
+  ? - BG8.VOBW
+    - BFF.G8BW
+  : 1
+  ? - WMO.G8BW
+    - B1D.G8BW
+  : 89.42014
+  ? - CTF.E.BW
+    - PSC.E.BW
+  : -1
+  ? - WVP.G2BW
+    - BXF.G2BW
+  : 4
+  ? - BSI...BW
+    - PCP.F1BW
+  : 0.0262
+  ? - WRO.G4BW
+    - BPV.G4BW
+  : 76.03212
+  ? - WRO.G8BW
+    - BF2.G8BW
+  : 82.92617
+  ? - WRO.G2BW
+    - BFN.G2BW
+  : 92.70599
+  ? - CTF.P2BW
+    - PZG.P2BW
+  : -1
+  ? - W58.G2BW
+    - B5I.G2BW
+  : 1.5
+  ? - BG8.VOBW
+    - B5C.G8BW
+  : 1
+  ? - BG4.WTBW
+    - BXX.G4BW
+  : 0.874
+  ? - W58.G4BW
+    - B1M.G4BW
+  : -2.4
+  ? - BG8.VOBW
+    - BXB.G8BW
+  : 1
+  ? - WVP.G8BW
+    - BLH.G8BW
+  : 4.2
+  ? - W58.G8BW
+    - BXL.G8BW
+  : -19
+  ? - WRO.G2BW
+    - BXF.G2BW
+  : 75.96553
+  ? - UNF...BW
+    - PST.I.BW
+  : -0.04
+  ? - WSU.G2BW
+    - BFO.G2BW
+  : 0.10891
+  ? - BSJ...BW
+    - PPH.P1BW
+  : 0.03991
+  ? - W02.G8BW
+    - B1N.G8BW
+  : 79.8
+  ? - W12.G8BW
+    - B5J.G8BW
+  : 70.2
+  ? - WVP.G4BW
+    - B5S.G4BW
+  : 21
+  ? - WRO.G4BW
+    - BX4.G4BW
+  : 109.64842
+  ? - WVP.G8BW
+    - B5N.G8BW
+  : 2.28
+  ? - BSU...BW
+    - P1H.PSBW
+  : 0.17429
+  ? - UNF...BW
+    - PZG.2XBW
+  : -0.007
+  ? - W02.G8BW
+    - BFK.G8BW
+  : 20
+  ? - BTT...BW
+    - PTT.TTBW
+  : -1
+  ? - WSU.G8BW
+    - BFE.G8BW
+  : 0.03204
+  ? - WRO.G4BW
+    - BPT.G4BW
+  : 93.00495
+  ? - W02.G2BW
+    - BFI.G2BW
+  : 44
+  ? - BG8.WTBW
+    - B2H.G8BW
+  : 0.844
+  ? - U9R...BW
+    - PSU.I.BW
+  : -0.035
+  ? - WRO.G2BW
+    - BPV.G2BW
+  : 76.03212
+  ? - W12.G4BW
+    - BN5.G4BW
+  : 121
+  ? - W12.G4BW
+    - BU4.G4BW
+  : 113
+  ? - BG4.WTBW
+    - B2H.G4BW
+  : 0.844
+  ? - BSF...BW
+    - PTK.TEBW
+  : 1
+  ? - WVP.G8BW
+    - B1K.G8BW
+  : 5.56
+  ? - BTL...BW
+    - PPI.F1BW
+  : -0.49143
+  ? - BG4.WTBW
+    - BPQ.G4BW
+  : 0.66
+  ? - NGS.G4BW
+    - BXU.G4BW
+  : 0.805
+  ? - NGS.G8BW
+    - BFL.G8BW
+  : 0.692
+  ? - UH2...BW
+    - PTA.P1BW
+  : 0.98457
+  ? - W12.G4BW
+    - B2O.G4BW
+  : -12.6
+  ? - W02.G2BW
+    - BXU.G2BW
+  : 20
+  ? - B2J...BW
+    - B2J.G8BW
+  : -1
+  ? - BG4.VOBW
+    - BU5.G4BW
+  : 1
+  ? - NGS.G4BW
+    - BXP.G4BW
+  : 0.81
+  ? - W58.G4BW
+    - BX6.G4BW
+  : 50
+  ? - BGS...BW
+    - PZF.P2BW
+  : 0.08671
+  ? - UFU...BW
+    - PTE.P3BW
+  : -0.008
+  ? - W58.G2BW
+    - BPV.G2BW
+  : 48
+  ? - W58.G8BW
+    - BXH.G8BW
+  : -19
+  ? - BTU...BW
+    - PTU.ASBW
+  : -1
+  ? - W58.G2BW
+    - BFD.G2BW
+  : -8
+  ? - BH....BW
+    - PCP.F.BW
+  : -0.00433
+  ? - CBF.2XBW
+    - CBF.2XBW
+  : 1
+  ? - W12.G2BW
+    - BIT.G2BW
+  : 108
+  ? - BG2.WTBW
+    - B5S.G2BW
+  : 0.625
+  ? - BG2.WTBW
+    - BFF.G2BW
+  : 0.78
+  ? - BG8.VOBW
+    - BXN.G8BW
+  : 1
+  ? - BG8.VOBW
+    - B2K.G8BW
+  : 1
+  ? - WVP.G8BW
+    - B1H.G8BW
+  : 3.61
+  ? - BPU...BW
+    - PTU.TUBW
+  : 1
+  ? - BZG...BW
+    - PZG.2XBW
+  : -1
+  ? - NOI.G8BW
+    - WMO2G8BW
+  : 0.59
+  ? - BG2.VOBW
+    - BFT.G2BW
+  : 1
+  ? - WVP.G4BW
+    - BFF.G4BW
+  : 4
+  ? - B2H...BW
+    - B2H.G4BW
+  : -1
+  ? - BG8.WTBW
+    - BFE.G8BW
+  : 0.692
+  ? - W58.G8BW
+    - W582G8BW
+  : -1
+  ? - WMO.G4BW
+    - B5A.G4BW
+  : 82.21907
+  ? - NGS.G4BW
+    - B1B.G4BW
+  : 0.806
+  ? - BTD...BW
+    - PTD.TGBW
+  : -1
+  ? - NGS.G4BW
+    - B5A.G4BW
+  : 0.684
+  ? - WVP.G4BW
+    - BI5.G4BW
+  : 21
+  ? - WVP.G2BW
+    - BIT.G2BW
+  : 13.2
+  ? - WRO.G4BW
+    - B1B.G4BW
+  : 99.30716
+  ? - WVP.G8BW
+    - BFI.G8BW
+  : 2.1
+  ? - NGS.G8BW
+    - B5A.G8BW
+  : 0.684
+  ? - WMO.G2BW
+    - BXJ.G2BW
+  : 74.44831
+  ? - BG4.WTBW
+    - QWT2G4BW
+  : -1
+  ? - U9R...BW
+    - PSH.FHBW
+  : -0.002
+  ? - W12.G8BW
+    - BLH.G8BW
+  : 78
+  ? - BLP...BW
+    - PZJ.P2BW
+  : 0.0554
+  ? - BZA...BW
+    - PTA.T1BW
+  : 1
+  ? - WRO.G4BW
+    - B5M.G4BW
+  : 71.31302
+  ? - WRO.G4BW
+    - BXH.G4BW
+  : 83.73597
+  ? - BG8.VOBW
+    - BLL.G8BW
+  : 1
+  ? - BYU...BW
+    - U9R.GUBW
+  : -1
+  ? - W02.G2BW
+    - BX2.G2BW
+  : 100
+  ? - W58.G2BW
+    - BXR.G2BW
+  : -2.3
+  ? - UFU...BW
+    - PTS.ASBW
+  : -0.007
+  ? - BG8.WTBW
+    - BFS.G8BW
+  : 0.687
+  ? - WVP.G8BW
+    - BA4.G8BW
+  : 6
+  ? - WRO.G2BW
+    - BFP.G2BW
+  : 105.15159
+  ? - W12.G4BW
+    - BX1.G4BW
+  : 86.2
+  ? - W58.G8BW
+    - BN5.G8BW
+  : 86
+  ? - B1H...BW
+    - P1H.PSBW
+  : -1
+  ? - WVP.G2BW
+    - B1J.G2BW
+  : 2.42
+  ? - WMO.G4BW
+    - BLI.G4BW
+  : 78.12136
+  ? - BG2.VOBW
+    - B1C.G2BW
+  : 1
+  ? - W12.G4BW
+    - BFX.G4BW
+  : -31
+  ? - BG2.VOBW
+    - B5J.G2BW
+  : 1
+  ? - NGS.G8BW
+    - B5G.G8BW
+  : 0.666
+  ? - W58.G8BW
+    - B2O.G8BW
+  : -14
+  ? - W58.G2BW
+    - B4U.G2BW
+  : 127.8
+  ? - W12.G2BW
+    - B5I.G2BW
+  : 98
+  ? - WMO.G2BW
+    - BXF.G2BW
+  : 72.70699
+  ? - BG2.WTBW
+    - B5J.G2BW
+  : 0.715
+  ? - B5S...BW
+    - PPI.F.BW
+  : 0.0103
+  ? - BSI...BW
+    - U9R.GIBW
+  : -1
+  ? - WRO.G8BW
+    - B2M.G8BW
+  : 100.04377
+  ? - WVP.G2BW
+    - B2D.G2BW
+  : 1.02
+  ? - BG2.VOBW
+    - BX2.G2BW
+  : 1
+  ? - B5A...BW
+    - B5A.G4BW
+  : -1
+  ? - WMO.G8BW
+    - BXQ.G8BW
+  : 90.48006
+  ? - CTF.F2BW
+    - PCP.F.BW
+  : -1
+  ? - BG2.WTBW
+    - B5B.G2BW
+  : 0.756
+  ? - WSU.G4BW
+    - BFI.G4BW
+  : 0.00534
+  ? - WRO.G8BW
+    - BXL.G8BW
+  : 80.50406
+  ? - B6....BW
+    - D6....BW
+  : -1
+  ? - W02.G2BW
+    - BLI.G2BW
+  : 101
+  ? - W02.G2BW
+    - BF1.G2BW
+  : 74.6
+  ? - NGS.G2BW
+    - B1I.G2BW
+  : 0.841
+  ? - WMO.G8BW
+    - BFX.G8BW
+  : 87.99456
+  ? - BG8.VOBW
+    - B1D.G8BW
+  : 1
+  ? - W02.G4BW
+    - BXS.G4BW
+  : 100
+  ? - W02.G4BW
+    - BXG.G4BW
+  : 68.1
+  ? - CTF.P2BW
+    - PZG.2XBW
+  : -1
+  ? - WSU.G8BW
+    - WSU2G8BW
+  : -1
+  ? - BG4.VOBW
+    - B5L.G4BW
+  : 1
+  ? - WRO.G4BW
+    - BFO.G4BW
+  : 85.02961
+  ? - BX4...BW
+    - BX4.G2BW
+  : -1
+  ? - BG2.VOBW
+    - BFH.G2BW
+  : 1
+  ? - WMO.G2BW
+    - B2I.G2BW
+  : 88.58483
+  ? - NGS.G8BW
+    - B2K.G8BW
+  : 0.74
+  ? - BTR...BW
+    - PSF.FSBW
+  : 0.316
+  ? - W02.G4BW
+    - BHC.G4BW
+  : 94
+  ? - W58.G4BW
+    - BFS.G4BW
+  : 50
+  ? - B2M...BW
+    - B2M.G4BW
+  : -1
+  ? - WRO.G4BW
+    - BXN.G4BW
+  : 92.09434
+  ? - BU4...BW
+    - BU4.G8BW
+  : -1
+  ? - BG2.WTBW
+    - BF2.G2BW
+  : 0.736
+  ? - W02.G8BW
+    - BXC.G8BW
+  : 68.1
+  ? - W58.G8BW
+    - B5M.G8BW
+  : 0.82
+  ? - BG4.VOBW
+    - B2I.G4BW
+  : 1
+  ? - BXK...BW
+    - BXK.G2BW
+  : -1
+  ? - WVP.G4BW
+    - B5H.G4BW
+  : 2.55
+  ? - WVP.G8BW
+    - BI4.G8BW
+  : 78
+  ? - WRO.G2BW
+    - BFS.G2BW
+  : 92.70599
+  ? - W02.G4BW
+    - BFH.G4BW
+  : 44
+  ? - BG8.WTBW
+    - BFK.G8BW
+  : 0.805
+  ? - UFU...BW
+    - PTR.FHBW
+  : -0.002
+  ? - B5B...BW
+    - B5B.G4BW
+  : -1
+  ? - WMO.G4BW
+    - B5B.G4BW
+  : 71.98974
+  ? - W02.G2BW
+    - BPE.G2BW
+  : 100
+  ? - WMO.G8BW
+    - B1L.G8BW
+  : 87.42257
+  ? - BG4.VOBW
+    - BFS.G4BW
+  : 1
+  ? - WMO.G4BW
+    - B1I.G4BW
+  : 88.53996
+  ? - B1A...BW
+    - B1A.G8BW
+  : -1
+  ? - BSK...BW
+    - PSK.A.BW
+  : -1
+  ? - WMO.G2BW
+    - BN4.G2BW
+  : 88.35436
+  ? - W58.G2BW
+    - B5B.G2BW
+  : -2.33
+  ? - W02.G2BW
+    - BXP.G2BW
+  : 72.4
+  ? - WSU.G4BW
+    - BFL.G4BW
+  : 0.03204
+  ? - NGS.G8BW
+    - B1H.G8BW
+  : 0.8
+  ? - BG2.WTBW
+    - BU4.G2BW
+  : 0.62
+  ? - NGS.G4BW
+    - BLH.G4BW
+  : 0.71
+  ? - W58.G4BW
+    - BXA.G4BW
+  : -19
+  ? - W12.G4BW
+    - BLV.G4BW
+  : 99
+  ? - CTP.FTBW
+    - PTS.FTBW
+  : -0.38
+  ? - BG2.VOBW
+    - BLF.G2BW
+  : 1
+  ? - BG2.VOBW
+    - BU5.G2BW
+  : 1
+  ? - BXQ...BW
+    - BXQ.G2BW
+  : -1
+  ? - WRO.G2BW
+    - BIS.G2BW
+  : 90.09694
+  ? - W12.G8BW
+    - BA4.G8BW
+  : 30.2
+  ? - W58.G8BW
+    - BX4.G8BW
+  : -14
+  ? - B2O...BW
+    - P1O.PSBW
+  : 0.86589
+  ? - WMO.G2BW
+    - BXO.G2BW
+  : 88.75606
+  ? - CTF.FHBW
+    - PSE.FHBW
+  : -1
+  ? - WRO.G2BW
+    - B5S.G2BW
+  : 93.25986
+  ? - B1A...BW
+    - B1A.G4BW
+  : -1
+  ? - BG8.WTBW
+    - B1A.G8BW
+  : 0.693
+  ? - WMO.G2BW
+    - B2K.G2BW
+  : 92.94314
+  ? - BG4.VOBW
+    - BFU.G4BW
+  : 1
+  ? - WMO.G2BW
+    - B5G.G2BW
+  : 87.97
+  ? - BG2.VOBW
+    - BXI.G2BW
+  : 1
+  ? - W58.G4BW
+    - B1K.G4BW
+  : 23.5
+  ? - NGS.G2BW
+    - B1N.G2BW
+  : 0.823
+  ? - NGS.G8BW
+    - BFJ.G8BW
+  : 0.786
+  ? - BH....BW
+    - PTZ.FHBW
+  : -0.00709
+  ? - W58.G4BW
+    - BFE.G4BW
+  : 47
+  ? - NGS.G4BW
+    - B1L.G4BW
+  : 0.806
+  ? - W02.G2BW
+    - BFH.G2BW
+  : 44
+  ? - W02.G8BW
+    - B2A.G8BW
+  : 95.2
+  ? - W02.G2BW
+    - B1G.G2BW
+  : 100
+  ? - WSU.G4BW
+    - BXL.G4BW
+  : 0.00056
+  ? - W02.G8BW
+    - BF2.G8BW
+  : 100
+  ? - BG4.VOBW
+    - BF3.G4BW
+  : 1
+  ? - BSI...BW
+    - P5U.A.BW
+  : -1.273
+  ? - B1M...BW
+    - B1M.G8BW
+  : -1
+  ? - WSU.G4BW
+    - BTO.G4BW
+  : 0.00044
+  ? - WSU.G8BW
+    - BFI.G8BW
+  : 0.00534
+  ? - WMO.G8BW
+    - B1A.G8BW
+  : 84.96442
+  ? - BTO...BW
+    - BTO.G2BW
+  : -1
+  ? - W58.G4BW
+    - BXD.G4BW
+  : -8
+  ? - NGS.G2BW
+    - BXL.G2BW
+  : 0.796
+  ? - WVP.G2BW
+    - B4U.G2BW
+  : 61
+  ? - W58.G4BW
+    - B1B.G4BW
+  : 3.55
+  ? - U9R...BW
+    - PZF.2XBW
+  : -0.083
+  ? - BSN...BW
+    - PSQ.ISBW
+  : 0.165
+  ? - BG2.WTBW
+    - BXC.G2BW
+  : 0.839
+  ? - BTM...BW
+    - PTM.TLBW
+  : -1
+  ? - W02.G8BW
+    - BA3.G8BW
+  : 94.4
+  ? - WMO.G8BW
+    - BX6.G8BW
+  : 79.60009
+  ? - B5G...BW
+    - B5G.G2BW
+  : -1
+  ? - W58.G2BW
+    - BF1.G2BW
+  : -13.9
+  ? - BG8.WTBW
+    - B2C.G8BW
+  : 0.885
+  ? - W02.G4BW
+    - B2J.G4BW
+  : 74.3
+  ? - WMO.G4BW
+    - BFH.G4BW
+  : 78.28059
+  ? - W02.G4BW
+    - BPQ.G4BW
+  : 100
+  ? - WVP.G8BW
+    - BXS.G8BW
+  : 12.5
+  ? - WRO.G4BW
+    - B5J.G4BW
+  : 92.52513
+  ? - BG8.WTBW
+    - B5M.G8BW
+  : 0.752
+  ? - B2J...BW
+    - P1J.PSBW
+  : 0.85835
+  ? - W12.G4BW
+    - BX6.G4BW
+  : 93
+  ? - W58.G8BW
+    - B1C.G8BW
+  : -2.4
+  ? - B1B...BW
+    - P1B.PSBW
+  : -1
+  ? - WMO.G8BW
+    - B5O.G8BW
+  : 71.09379
+  ? - BG2.VOBW
+    - BHC.G2BW
+  : 1
+  ? - BG2.WTBW
+    - B1O.G2BW
+  : 0.823
+  ? - BG4.WTBW
+    - BXS.G4BW
+  : 0.687
+  ? - BSI...BW
+    - PCD.C.BW
+  : 0.004
+  ? - W12.G2BW
+    - BPQ.G2BW
+  : 109
+  ? - WRO.G2BW
+    - BXA.G2BW
+  : 86.52499
+  ? - BFS...BW
+    - BFS.G4BW
+  : -1
+  ? - WVP.G8BW
+    - BFE.G8BW
+  : 10
+  ? - W58.G8BW
+    - BFE.G8BW
+  : 47
+  ? - WSU.G2BW
+    - BFI.G2BW
+  : 0.00534
+  ? - WVP.G2BW
+    - BLL.G2BW
+  : 14.8
+  ? - BG2.VOBW
+    - BA4.G2BW
+  : 1
+  ? - BG2.VOBW
+    - B4U.G2BW
+  : 1
+  ? - BG8.VOBW
+    - BIS.G8BW
+  : 1
+  ? - W02.G4BW
+    - B2B.G4BW
+  : 73.8
+  ? - W02.G8BW
+    - BFL.G8BW
+  : 100
+  ? - W58.G2BW
+    - B2B.G2BW
+  : -13.4
+  ? - BG2...BW
+    - MT1.R1BW
+  : -0.71
+  ? - CBF.2XBW
+    - GBF.P2BW
+  : 3.3
+  ? - BG4.WTBW
+    - B1B.G4BW
+  : 0.806
+  ? - BG2.WTBW
+    - B5D.G2BW
+  : 0.75
+  ? - W02.G4BW
+    - BF1.G4BW
+  : 74.6
+  ? - BG4.WTBW
+    - BX4.G4BW
+  : 0.838
+  ? - B1D...BW
+    - B1D.G8BW
+  : -1
+  ? - B2C...BW
+    - B2C.G8BW
+  : -1
+  ? - BA3...BW
+    - BA3.G2BW
+  : -1
+  ? - XVP.G4BW
+    - QVO2G4BW
+  : -13.8
+  ? - W02.G8BW
+    - BPT.G8BW
+  : 100
+  ? - WRO.G8BW
+    - BU4.G8BW
+  : 103.85185
+  ? - W12.G8BW
+    - BXX.G8BW
+  : -31
+  ? - BSD...BW
+    - PTZ.FHBW
+  : 1
+  ? - WMO.G8BW
+    - BFP.G8BW
+  : 90.22689
+  ? - WVP.G4BW
+    - B1H.G4BW
+  : 3.61
+  ? - WRO.G8BW
+    - BIT.G8BW
+  : 88.88307
+  ? - BG8.WTBW
+    - BU4.G8BW
+  : 0.62
+  ? - WRO.G8BW
+    - B1A.G8BW
+  : 94.90093
+  ? - W02.G4BW
+    - B1N.G4BW
+  : 79.8
+  ? - W02.G4BW
+    - BA4.G4BW
+  : 94
+  ? - BSU...BW
+    - P1O.PSBW
+  : 0.09499
+  ? - WMO.G2BW
+    - B5B.G2BW
+  : 71.98974
+  ? - CTF.FTBW
+    - CTF.FTBW
+  : 1
+  ? - W02.G4BW
+    - B5O.G4BW
+  : 100
+  ? - W12.G2BW
+    - BXX.G2BW
+  : -31
+  ? - NGS.G4BW
+    - BFN.G4BW
+  : 0.687
+  ? - WRO.G8BW
+    - BXH.G8BW
+  : 83.73597
+  ? - WRO.G8BW
+    - BX4.G8BW
+  : 109.64842
+  ? - BFK...BW
+    - BFK.G8BW
+  : -1
+  ? - BR1...BW
+    - DR1...BW
+  : -1
+  ? - BH....BW
+    - PZG.2XBW
+  : 0.05314
+  ? - NGS.G4BW
+    - BFF.G4BW
+  : 0.78
+  ? - W12.G2BW
+    - B2O.G2BW
+  : -12.6
+  ? - WMO.G2BW
+    - BX1.G2BW
+  : 71.09379
+  ? - CTF.ASBW
+    - PTV.ASBW
+  : -1
+  ? - W12.G4BW
+    - BFD.G4BW
+  : 2
+  ? - W02.G2BW
+    - BU4.G2BW
+  : 100
+  ? - WMO.G4BW
+    - B5M.G4BW
+  : 71.11826
+  ? - BPQ...BW
+    - BPQ.G8BW
+  : -1
+  ? - W58.G2BW
+    - BPQ.G2BW
+  : 81.9
+  ? - BG4.WTBW
+    - BXO.G4BW
+  : 0.823
+  ? - BG2.VOBW
+    - BX1.G2BW
+  : 1
+  ? - NGS.G8BW
+    - BTO.G8BW
+  : 0.872
+  ? - BTH...BW
+    - PTH.TEBW
+  : -1
+  ? - BG4.WTBW
+    - BX2.G4BW
+  : 0.717
+  ? - W02.G8BW
+    - BXQ.G8BW
+  : 77.9
+  ? - UH2...BW
+    - PST.I.BW
+  : -0.2084
+  ? - WRO.G2BW
+    - BFQ.G2BW
+  : 105.15159
+  ? - W58.G8BW
+    - B2C.G8BW
+  : -14.7
+  ? - W02.G2BW
+    - BFF.G2BW
+  : 79
+  ? - NGS.G2BW
+    - BLF.G2BW
+  : 0.658
+  ? - BXF...BW
+    - PTE.TGBW
+  : 1
+  ? - BZH...BW
+    - PZH.2XBW
+  : -1
+  ? - WMO.G2BW
+    - BTO.G2BW
+  : 91.00573
+  ? - WVP.G8BW
+    - BFX.G8BW
+  : 0.2
+  ? - NGS.G8BW
+    - B1K.G8BW
+  : 0.693
+  ? - W58.G2BW
+    - BU5.G2BW
+  : 86.9
+  ? - BG2.VOBW
+    - B1K.G2BW
+  : 1
+  ? - W02.G8BW
+    - B5I.G8BW
+  : 100
+  ? - W12.G2BW
+    - BX4.G2BW
+  : -13.4
+  ? - BXI...BW
+    - BXI.G4BW
+  : -1
+  ? - B5I...BW
+    - P1I.PSBW
+  : 0.03067
+  ? - WRO.G2BW
+    - BFI.G2BW
+  : 81.33055
+  ? - WSU.G2BW
+    - BLI.G2BW
+  : 0.00132
+  ? - WRO.G8BW
+    - BFK.G8BW
+  : 83.40638
+  ? - BG8.VOBW
+    - BXE.G8BW
+  : 1
+  ? - BG2.VOBW
+    - B5C.G2BW
+  : 1
+  ? - W02.G4BW
+    - BXE.G4BW
+  : 100
+  ? - W58.G2BW
+    - BFE.G2BW
+  : 47
+  ? - BG8.VOBW
+    - BN5.G8BW
+  : 1
+  ? - WVP.G4BW
+    - B5K.G4BW
+  : 3.47
+  ? - NGS.G4BW
+    - BXQ.G4BW
+  : 0.81
+  ? - BG8.VOBW
+    - BA5.G8BW
+  : 1
+  ? - WMO.G2BW
+    - BXR.G2BW
+  : 90.58361
+  ? - BG4.VOBW
+    - B5G.G4BW
+  : 1
+  ? - W02.G4BW
+    - BF2.G4BW
+  : 100
+  ? - WMO.G8BW
+    - BFE.G8BW
+  : 81.05526
+  ? - BG2.WTBW
+    - BHC.G2BW
+  : 0.772
+  ? - W12.G4BW
+    - BHC.G4BW
+  : 22
+  ? - BG2.VOBW
+    - BXX.G2BW
+  : 1
+  ? - W58.G8BW
+    - BFH.G8BW
+  : -9
+  ? - CTF.PHBW
+    - ITF.PHBW
+  : 1
+  ? - W58.G2BW
+    - BI4.G2BW
+  : 134
+  ? - NGS.G2BW
+    - BFS.G2BW
+  : 0.687
+  ? - BG2.WTBW
+    - B2J.G2BW
+  : 0.834
+  ? - BG4.WTBW
+    - BXN.G4BW
+  : 0.687
+  ? - WRO.G8BW
+    - BXQ.G8BW
+  : 105.48297
+  ? - BSU...BW
+    - P1M.PSBW
+  : 0.12236
+  ? - U9R...BW
+    - PZH.2XBW
+  : -0.083
+  ? - BH....BW
+    - PZG.P2BW
+  : 0.06057
+  ? - BG2...BW
+    - QVO2G2BW
+  : 0.995
+  ? - BG4.WTBW
+    - B1L.G4BW
+  : 0.806
+  ? - W02.G4BW
+    - BXI.G4BW
+  : 44
+  ? - W02.G4BW
+    - BN5.G4BW
+  : 99
+  ? - NGS.G4BW
+    - BX6.G4BW
+  : 0.693
+  ? - WRO.G2BW
+    - BLF.G2BW
+  : 75.20602
+  ? - WVP.G8BW
+    - BXC.G8BW
+  : 1.42
+  ? - BG4.WTBW
+    - B1I.G4BW
+  : 0.841
+  ? - BFQ...BW
+    - BFQ.G4BW
+  : -1
+  ? - B1H...BW
+    - B1H.G4BW
+  : -1
+  ? - B5I...BW
+    - B5I.G2BW
+  : -1
+  ? - NGS.G2BW
+    - B1L.G2BW
+  : 0.806
+  ? - B2I...BW
+    - B2I.G2BW
+  : -1
+  ? - WVP.G2BW
+    - BF1.G2BW
+  : 1.02
+  ? - B5C...BW
+    - B5C.G4BW
+  : -1
+  ? - WVP.G2BW
+    - BPE.G2BW
+  : 13.5
+  ? - BZF...BW
+    - PZA.T2BW
+  : 1
+  ? - BH....BW
+    - PTD.P3BW
+  : 0.044
+  ? - BG8.VOBW
+    - BPE.G8BW
+  : 1
+  ? - WMO.G8BW
+    - BPE.G8BW
+  : 82.21873
+  ? - B5G...BW
+    - B5G.G8BW
+  : -1
+  ? - NGS.G8BW
+    - B2L.G8BW
+  : 0.848
+  ? - W02.G8BW
+    - BFF.G8BW
+  : 79
+  ? - W02.G4BW
+    - B5B.G4BW
+  : 100
+  ? - WMO.G4BW
+    - B5K.G4BW
+  : 82.21907
+  ? - UFU...BW
+    - PZI.P2BW
+  : -0.011
+  ? - B3U...BW
+    - PCP.F1BW
+  : -0.0092
+  ? - W02.G2BW
+    - BLL.G2BW
+  : 101
+  ? - W58.G4BW
+    - B5D.G4BW
+  : -2.3
+  ? - W02.G4BW
+    - B5N.G4BW
+  : 100
+  ? - WVP.G2BW
+    - BXD.G2BW
+  : 2.1
+  ? - WMO.G8BW
+    - BX1.G8BW
+  : 71.09379
+  ? - W58.G4BW
+    - BU4.G4BW
+  : 127.8
+  ? - NGS.G2BW
+    - B5G.G2BW
+  : 0.666
+  ? - BG2.VOBW
+    - BF1.G2BW
+  : 1
+  ? - W58.G4BW
+    - BFJ.G4BW
+  : -8
+  ? - BTS...BW
+    - PTS.TTBW
+  : -1
+  ? - WMO.G4BW
+    - B2M.G4BW
+  : 86.52755
+  ? - W12.G4BW
+    - B1D.G4BW
+  : 2.9
+  ? - B5J...BW
+    - P1J.PSBW
+  : 0.02902
+  ? - BG8.WTBW
+    - BXR.G8BW
+  : 0.81
+  ? - WMO.G8BW
+    - B2L.G8BW
+  : 88.35055
+  ? - W12.G2BW
+    - BFT.G2BW
+  : 10
+  ? - BXD...BW
+    - BXD.G2BW
+  : -1
+  ? - BSK...BW
+    - PCP.F1BW
+  : 0.0074
+  ? - W02.G8BW
+    - BLI.G8BW
+  : 101
+  ? - W12.G4BW
+    - B5L.G4BW
+  : 92.1
+  ? - BG8.VOBW
+    - BF2.G8BW
+  : 1
+  ? - NGS.G2BW
+    - B5O.G2BW
+  : 0.753
+  ? - NGS.G2BW
+    - B5J.G2BW
+  : 0.715
+  ? - WMO.G4BW
+    - BX3.G4BW
+  : 90.05458
+  ? - BG4.WTBW
+    - BLF.G4BW
+  : 0.658
+  ? - BG4.VOBW
+    - BXM.G4BW
+  : 1
+  ? - WVP.G4BW
+    - BXX.G4BW
+  : 0.2
+  ? - W58.G4BW
+    - B5B.G4BW
+  : -2.33
+  ? - WRO.G4BW
+    - BF3.G4BW
+  : 109.60858
+  ? - NGS.G4BW
+    - B5N.G4BW
+  : 0.75
+  ? - WMO.G8BW
+    - BXA.G8BW
+  : 77.67402
+  ? - WVP.G2BW
+    - B2N.G2BW
+  : 1.02
+  ? - WVP.G8BW
+    - BXP.G8BW
+  : 2.71
+  ? - NGS.G8BW
+    - B2N.G8BW
+  : 0.847
+  ? - B1C...BW
+    - B1C.G4BW
+  : -1
+  ? - B1L...BW
+    - B1L.G2BW
+  : -1
+  ? - BG8.WTBW
+    - BFU.G8BW
+  : 0.805
+  ? - BSO...BW
+    - PCD.C.BW
+  : 0.126
+  ? - WVP.G4BW
+    - BXU.G4BW
+  : 0.5
+  ? - UH2...BW
+    - PTR.FHBW
+  : -0.13919
+  ? - W02.G4BW
+    - BXX.G4BW
+  : 17
+  ? - W12.G4BW
+    - B2B.G4BW
+  : -7
+  ? - B1O...BW
+    - B1O.G4BW
+  : -1
+  ? - B9....BW
+    - D9....BW
+  : -1
+  ? - CTF.LSBW
+    - CTF.LSBW
+  : 1
+  ? - CTF.FHBW
+    - PTW.FHBW
+  : -1
+  ? - W02.G4BW
+    - BN4.G4BW
+  : 100
+  ? - WRO.G8BW
+    - B1H.G8BW
+  : 102.96806
+  ? - W12.G4BW
+    - BPV.G4BW
+  : 93
+  ? - W58.G8BW
+    - B5I.G8BW
+  : 1.5
+  ? - WVP.G4BW
+    - BX2.G4BW
+  : 2.68
+  ? - WMO.G2BW
+    - B2L.G2BW
+  : 88.35055
+  ? - WMO.G8BW
+    - BLF.G8BW
+  : 73.72027
+  ? - U9R...BW
+    - PZJ.P2BW
+  : -0.083
+  ? - U9R...BW
+    - PZJ.2XBW
+  : -0.083
+  ? - BG2.WTBW
+    - BN4.G2BW
+  : 0.584
+  ? - W58.G4BW
+    - B1H.G4BW
+  : 4.4
+  ? - BXF...BW
+    - BXF.G2BW
+  : -1
+  ? - B2M...BW
+    - B2M.G8BW
+  : -1
+  ? - UNF...BW
+    - PTX.FMBW
+  : -0.006
+  ? - WRO.G4BW
+    - BFT.G4BW
+  : 86.45545
+  ? - W12.G4BW
+    - B2J.G4BW
+  : -15.9
+  ? - BG8.VOBW
+    - BFK.G8BW
+  : 1
+  ? - W12.G8BW
+    - BFN.G8BW
+  : 88
+  ? - NGS.G4BW
+    - B1N.G4BW
+  : 0.823
+  ? - WVP.G8BW
+    - BLI.G8BW
+  : 14.5
+  ? - BA5...BW
+    - P5U.A.BW
+  : 2
+  ? - NGS.G8BW
+    - B1J.G8BW
+  : 0.81
+  ? - B1D...BW
+    - B1D.G2BW
+  : -1
+  ? - BTS...BW
+    - PTS.ASBW
+  : -1
+  ? - B2B...BW
+    - B2B.G2BW
+  : -1
+  ? - WVP.G2BW
+    - B2H.G2BW
+  : 1.32
+  ? - B1N...BW
+    - B1N.G4BW
+  : -1
+  ? - WRO.G8BW
+    - B2N.G8BW
+  : 107.43624
+  ? - B1O...BW
+    - P1O.PSBW
+  : -1
+  ? - W12.G4BW
+    - BXK.G4BW
+  : -30
+  ? - BTL...BW
+    - PTL.FMBW
+  : -1
+  ? - W02.G8BW
+    - BFO.G8BW
+  : 44
+  ? - BPH...BW
+    - PSP.TJBW
+  : 1
+  ? - W58.G2BW
+    - BFJ.G2BW
+  : -8
+  ? - NGS.G4BW
+    - BXA.G4BW
+  : 0.796
+  ? - WVP.G2BW
+    - B5H.G2BW
+  : 2.55
+  ? - WVP.G4BW
+    - B5G.G4BW
+  : 3.65
+  ? - WVP.G8BW
+    - BXQ.G8BW
+  : 2.71
+  ? - NGS.G4BW
+    - BFS.G4BW
+  : 0.687
+  ? - WSU.G4BW
+    - BN4.G4BW
+  : 0.00117
+  ? - BG4.WTBW
+    - B1M.G4BW
+  : 0.845
+  ? - NGS.G8BW
+    - BXK.G8BW
+  : 0.805
+  ? - BG8.WTBW
+    - B1L.G8BW
+  : 0.806
+  ? - W02.G8BW
+    - B5J.G8BW
+  : 100
+  ? - WVP.G2BW
+    - BFX.G2BW
+  : 0.2
+  ? - BPI...BW
+    - EPI...BW
+  : 1
+  ? - BG4.WTBW
+    - BHC.G4BW
+  : 0.772
+  ? - B2D...BW
+    - B2D.G2BW
+  : -1
+  ? - WRO.G4BW
+    - B1D.G4BW
+  : 103.69118
+  ? - W58.G4BW
+    - BF3.G4BW
+  : -13.9
+  ? - NOI.G2BW
+    - WRO2G2BW
+  : 0.37
+  ? - W02.G2BW
+    - BFT.G2BW
+  : 79
+  ? - W12.G8BW
+    - B2J.G8BW
+  : -15.9
+  ? - WRO.G4BW
+    - BXX.G4BW
+  : 102.56785
+  ? - W02.G2BW
+    - BI4.G2BW
+  : 100
+  ? - W58.G4BW
+    - BPE.G4BW
+  : 58
+  ? - WVP.G8BW
+    - B5M.G8BW
+  : 2.71
+  ? - BH....BW
+    - PCP.F1BW
+  : -0.00433
+  ? - BI4...BW
+    - BI4.G2BW
+  : -1
+  ? - NGS.G2BW
+    - BXA.G2BW
+  : 0.796
+  ? - WRO.G8BW
+    - B5H.G8BW
+  : 80.53522
+  ? - BSR...BW
+    - PSR.IHBW
+  : -1
+  ? - WVP.G4BW
+    - BXN.G4BW
+  : 12.5
+  ? - BG4.WTBW
+    - BFT.G4BW
+  : 0.78
+  ? - W02.G8BW
+    - BXK.G8BW
+  : 20
+  ? - WMO.G2BW
+    - BFH.G2BW
+  : 78.28059
+  ? - NGS.G4BW
+    - BFK.G4BW
+  : 0.805
+  ? - BG8.VOBW
+    - BI4.G8BW
+  : 1
+  ? - WSU.G8BW
+    - BXJ.G8BW
+  : 0.00479
+  ? - BFD...BW
+    - PSE.TDBW
+  : 1
+  ? - WRO.G4BW
+    - BTO.G4BW
+  : 104.315
+  ? - BG2.VOBW
+    - BFN.G2BW
+  : 1
+  ? - BLL...BW
+    - BLL.G4BW
+  : -1
+  ? - W02.G2BW
+    - BLV.G2BW
+  : 103
+  ? - U9R...BW
+    - PTG.PHBW
+  : -0.005
+  ? - BXM...BW
+    - BXM.G4BW
+  : -1
+  ? - B1D...BW
+    - PTD.P1BW
+  : 0.825
+  ? - BH....BW
+    - PZJ.P2BW
+  : 0.03858
+  ? - BG2.VOBW
+    - BI4.G2BW
+  : 1
+  ? - NGS.G2BW
+    - BFP.G2BW
+  : 0.811
+  ? - WRO.G8BW
+    - BN4.G8BW
+  : 94.11062
+  ? - W58.G8BW
+    - BXG.G8BW
+  : -14
+  ? - WMO.G8BW
+    - BXR.G8BW
+  : 90.58361
+  ? - BG8.WTBW
+    - B1B.G8BW
+  : 0.806
+  ? - NGS.G8BW
+    - B5S.G8BW
+  : 0.625
+  ? - U9R...BW
+    - PTE.P3BW
+  : -0.04
+  ? - WVP.G4BW
+    - B1O.G4BW
+  : 2.61
+  ? - W12.G4BW
+    - BFU.G4BW
+  : -30
+  ? - WMO.G2BW
+    - BU5.G2BW
+  : 84.9222
+  ? - W02.G8BW
+    - BHC.G8BW
+  : 94
+  ? - WMO.G2BW
+    - BXM.G2BW
+  : 81.05526
+  ? - W12.G4BW
+    - BXT.G4BW
+  : 10
+  ? - WVP.G4BW
+    - BI4.G4BW
+  : 78
+  ? - W58.G4BW
+    - B1J.G4BW
+  : -4.1
+  ? - WMO.G2BW
+    - B1L.G2BW
+  : 87.42257
+  ? - BG4.WTBW
+    - BA3.G4BW
+  : 0.685
+  ? - WVP.G4BW
+    - BXR.G4BW
+  : 2.7
+  ? - BH....BW
+    - PST.I.BW
+  : -0.0106
+  ? - BG4.VOBW
+    - B5O.G4BW
+  : 1
+  ? - CTF.FTBW
+    - PTT.FTBW
+  : -1
+  ? - BG2.VOBW
+    - BPE.G2BW
+  : 1
+  ? - WRO.G2BW
+    - B2N.G2BW
+  : 107.43624
+  ? - WSU.G2BW
+    - BLH.G2BW
+  : 0.0213
+  ? - WRO.G2BW
+    - BFO.G2BW
+  : 85.02961
+  ? - BPT...BW
+    - BPT.G2BW
+  : -1
+  ? - WVP.G8BW
+    - BIS.G8BW
+  : 13
+  ? - NGS.G2BW
+    - B5N.G2BW
+  : 0.75
+  ? - W02.G2BW
+    - B2G.G2BW
+  : 100
+  ? - W58.G8BW
+    - B5A.G8BW
+  : 1.2
+  ? - BFY...BW
+    - PSC.E.BW
+  : 0.45
+  ? - BLP...BW
+    - PZF.2XBW
+  : 0.10016
+  ? - WVP.G2BW
+    - B1L.G2BW
+  : 3.47
+  ? - BG2.VOBW
+    - B2C.G2BW
+  : 1
+  ? - BLF...BW
+    - PST.TKBW
+  : 1
+  ? - NGS.G2BW
+    - BIT.G2BW
+  : 0.655
+  ? - BG4.VOBW
+    - B2B.G4BW
+  : 1
+  ? - W02.G2BW
+    - BN5.G2BW
+  : 99
+  ? - W12.G8BW
+    - BI5.G8BW
+  : 115
+  ? - W58.G4BW
+    - BFF.G4BW
+  : -2
+  ? - NGS.G8BW
+    - BFQ.G8BW
+  : 0.811
+  ? - NGS.G4BW
+    - BIS.G4BW
+  : 0.655
+  ? - NGS.G4BW
+    - BA5.G4BW
+  : 0.71
+  ? - WMO.G8BW
+    - BN4.G8BW
+  : 88.35436
+  ? - BPV...BW
+    - BPV.G8BW
+  : -1
+  ? - W58.G4BW
+    - BXE.G4BW
+  : -0.9
+  ? - BG4.VOBW
+    - B1I.G4BW
+  : 1
+  ? - WRO.G2BW
+    - BLH.G2BW
+  : 70.06795
+  ? - W12.G4BW
+    - B1O.G4BW
+  : 5.3
+  ? - NGS.G2BW
+    - BXX.G2BW
+  : 0.874
+  ? - W12.G4BW
+    - BXD.G4BW
+  : 2
+  ? - UFU...BW
+    - PTT.ASBW
+  : -0.007
+  ? - WMO.G4BW
+    - B1H.G4BW
+  : 89.46263
+  ? - BG8.VOBW
+    - B1B.G8BW
+  : 1
+  ? - WVP.G4BW
+    - B5I.G4BW
+  : 2.83
+  ? - BTF...BW
+    - PTF.TFBW
+  : -1
+  ? - UFU...BW
+    - PTG.PHBW
+  : -0.001
+  ? - BG2.WTBW
+    - BX6.G2BW
+  : 0.693
+  ? - BG4.WTBW
+    - BTO.G4BW
+  : 0.872
+  ? - BG4.VOBW
+    - BXT.G4BW
+  : 1
+  ? - BPV...BW
+    - PTV.ASBW
+  : 0.7
+  ? - BTZ...BW
+    - PSH.FSBW
+  : 0.35
+  ? - WMO.G4BW
+    - BXN.G4BW
+  : 81.45002
+  ? - W58.G2BW
+    - BF2.G2BW
+  : -1.9
+  ? - W58.G2BW
+    - B2M.G2BW
+  : -14.7
+  ? - WVP.G8BW
+    - B1N.G8BW
+  : 2.36
+  ? - BG4.WTBW
+    - BFD.G4BW
+  : 0.786
+  ? - BSU...BW
+    - P1K.PSBW
+  : 0.41363
+  ? - W58.G8BW
+    - B5L.G8BW
+  : -2.33
+  ? - BG8.WTBW
+    - BX3.G8BW
+  : 0.852
+  ? - BG4.VOBW
+    - BXK.G4BW
+  : 1
+  ? - WMO.G4BW
+    - B1G.G4BW
+  : 88.21309
+  ? - B8....BW
+    - PCP.F1BW
+  : 0.404
+  ? - W58.G2BW
+    - BFN.G2BW
+  : 50
+  ? - B1A...BW
+    - B1A.G2BW
+  : -1
+  ? - BG4.VOBW
+    - B1N.G4BW
+  : 1
+  ? - BLP...BW
+    - PPI.F.BW
+  : 0.0234
+  ? - W58.G2BW
+    - BPE.G2BW
+  : 58
+  ? - BG2.VOBW
+    - B1H.G2BW
+  : 1
+  ? - BG4.WTBW
+    - BU5.G4BW
+  : 0.659
+  ? - BG8.WTBW
+    - B2B.G8BW
+  : 0.848
+  ? - WMO.G8BW
+    - B1G.G8BW
+  : 88.21309
+  ? - WSU.G2BW
+    - BFJ.G2BW
+  : 0.00479
+  ? - WVP.G8BW
+    - BPU.G8BW
+  : 13
+  ? - NWU.G8BW
+    - W022G8BW
+  : 0.67
+  ? - W02.G4BW
+    - BFD.G4BW
+  : 50
+  ? - W58.G4BW
+    - B5J.G4BW
+  : -1.6
+  ? - U.S...BW
+    - P5U.A.BW
+  : -0.0231
+  ? - B5S...BW
+    - PCP.F1BW
+  : 0.0104
+  ? - W12.G4BW
+    - BA3.G4BW
+  : 35.2
+  ? - B1J...BW
+    - P1J.PSBW
+  : -1
+  ? - BLP...BW
+    - PTE.P3BW
+  : 0.0505
+  ? - X12.G2BW
+    - QVO2G2BW
+  : -65
+  ? - W12.G2BW
+    - BLH.G2BW
+  : 78
+  ? - NGS.G4BW
+    - BX3.G4BW
+  : 0.852
+  ? - NGS.G8BW
+    - BXD.G8BW
+  : 0.786
+  ? - BSJ...BW
+    - P5U.A.BW
+  : -0.022
+  ? - WVP.G4BW
+    - B5L.G4BW
+  : 2.36
+  ? - WVP.G2BW
+    - BXJ.G2BW
+  : 2.1
+  ? - BG2.WTBW
+    - BPT.G2BW
+  : 0.669
+  ? - BG2.WTBW
+    - BPE.G2BW
+  : 0.669
+  ? - WSU.G8BW
+    - BXL.G8BW
+  : 0.00056
+  ? - WVP.G4BW
+    - BXG.G4BW
+  : 1.42
+  ? - BFU...BW
+    - BFU.G2BW
+  : -1
+  ? - W58.G4BW
+    - B5L.G4BW
+  : -2.33
+  ? - W02.G2BW
+    - B1L.G2BW
+  : 82
+  ? - WRO.G4BW
+    - B2O.G4BW
+  : 105.65125
+  ? - WMO.G4BW
+    - B2I.G4BW
+  : 88.58483
+  ? - NGS.G8BW
+    - B1G.G8BW
+  : 0.688
+  ? - W58.G4BW
+    - BF2.G4BW
+  : -1.9
+  ? - WSU.G2BW
+    - BFM.G2BW
+  : 0.01605
+  ? - WVP.G2BW
+    - B1O.G2BW
+  : 2.61
+  ? - WRO.G2BW
+    - BPQ.G2BW
+  : 79.45782
+  ? - NGS.G2BW
+    - BXH.G2BW
+  : 0.796
+  ? - W58.G8BW
+    - B5C.G8BW
+  : 0.82
+  ? - UH2...BW
+    - PCP.F.BW
+  : -0.08513
+  ? - BG4.WTBW
+    - B2D.G4BW
+  : 0.847
+  ? - W58.G2BW
+    - B5C.G2BW
+  : 0.82
+  ? - WRO.G8BW
+    - B5J.G8BW
+  : 92.52513
+  ? - BG2.WTBW
+    - B5M.G2BW
+  : 0.752
+  ? - UFU...BW
+    - UFU.BYBW
+  : 1
+  ? - BG2.WTBW
+    - B5O.G2BW
+  : 0.753
+  ? - B...ML..
+    - QVO2G8BW
+  : 0.005
+  ? - NGS.G8BW
+    - B1A.G8BW
+  : 0.693
+  ? - BSI...BW
+    - PPI.F1BW
+  : 0.0262
+  ? - W12.G4BW
+    - B2G.G4BW
+  : 14.1
+  ? - W58.G2BW
+    - B5M.G2BW
+  : 0.82
+  ? - WRO.G2BW
+    - BX6.G2BW
+  : 93.74377
+  ? - UH2...BW
+    - PTE.P1BW
+  : 0.66746
+  ? - W12.G2BW
+    - BFJ.G2BW
+  : 2
+  ? - B1H...BW
+    - B1H.G8BW
+  : -1
+  ? - BLF...BW
+    - BLF.G4BW
+  : -1
+  ? - CTV.2XBW
+    - PZI.2XBW
+  : -0.00001
+  ? - W58.G2BW
+    - BA3.G2BW
+  : 6.2
+  ? - W12.G2BW
+    - B1C.G2BW
+  : 2.67
+  ? - W12.G4BW
+    - BXB.G4BW
+  : -27
+  ? - W02.G8BW
+    - BXF.G8BW
+  : 79
+  ? - WSU.G8BW
+    - BLV.G8BW
+  : 0.01675
+  ? - NGS.G4BW
+    - B5S.G4BW
+  : 0.625
+  ? - WRO.G8BW
+    - BFL.G8BW
+  : 92.39784
+  ? - BSC...BW
+    - PSC.E.BW
+  : -1
+  ? - NGS.G8BW
+    - BFX.G8BW
+  : 0.874
+  ? - BG8.VOBW
+    - B5G.G8BW
+  : 1
+  ? - WMO.G2BW
+    - BXK.G2BW
+  : 73.22415
+  ? - BA4...BW
+    - PSK.A.BW
+  : 1.816
+  ? - W02.G2BW
+    - BXE.G2BW
+  : 100
+  ? - W02.G2BW
+    - BFS.G2BW
+  : 100
+  ? - W58.G8BW
+    - BFK.G8BW
+  : -21
+  ? - CTC.P2BW
+    - PZJ.P2BW
+  : -1
+  ? - BG8.VOBW
+    - BXK.G8BW
+  : 1
+  ? - W12.G8BW
+    - BPQ.G8BW
+  : 109
+  ? - W02.G4BW
+    - BXC.G4BW
+  : 68.1
+  ? - UH2...BW
+    - PSR.IHBW
+  : -0.00197
+  ? - W58.G2BW
+    - BXH.G2BW
+  : -19
+  ? - W12.G2BW
+    - B2B.G2BW
+  : -7
+  ? - W12.G4BW
+    - BXC.G4BW
+  : -13.2
+  ? - W02.G2BW
+    - BXB.G2BW
+  : 28
+  ? - BSK...BW
+    - PCP.F.BW
+  : 0.066
+  ? - WSU.G4BW
+    - BXD.G4BW
+  : 0.09511
+  ? - W12.G4BW
+    - B5K.G4BW
+  : 93.8
+  ? - BIT...BW
+    - BIT.G2BW
+  : -1
+  ? - W12.G8BW
+    - BFX.G8BW
+  : -31
+  ? - WSU.G8BW
+    - BI4.G8BW
+  : 0.00113
+  ? - BSE...BW
+    - PSE.TDBW
+  : -1
+  ? - BGS...BW
+    - PZF.2XBW
+  : 0.07564
+  ? - W02.G2BW
+    - B2A.G2BW
+  : 95.2
+  ? - WMO.G2BW
+    - BXX.G2BW
+  : 87.99456
+  ? - NGS.G8BW
+    - BA3.G8BW
+  : 0.685
+  ? - BXH...BW
+    - BXH.G4BW
+  : -1
+  ? - W58.G8BW
+    - BU5.G8BW
+  : 86.9
+  ? - W12.G4BW
+    - BF3.G4BW
+  : -14.3
+  ? - BG4.WTBW
+    - B1D.G4BW
+  : 0.823
+  ? - CTF.ASBW
+    - PTS.ASBW
+  : -1
+  ? - BH....BW
+    - PSR.IHBW
+  : -0.0001
+  ? - BSA...BW
+    - PTN.FHBW
+  : 1
+  ? - URX...BW
+    - URX.SXBW
+  : -1
+  ? - COF.A.BW
+    - P3U.A.BW
+  : -1
+  ? - WRO.G8BW
+    - BXF.G8BW
+  : 75.96553
+  ? - WSU.G8BW
+    - BXI.G8BW
+  : 0.00541
+  ? - WMO.G8BW
+    - BF2.G8BW
+  : 77.34037
+  ? - BIT...BW
+    - BIT.G8BW
+  : -1
+  ? - NGS.G8BW
+    - B2A.G8BW
+  : 0.74
+  ? - WRO.G4BW
+    - B5L.G4BW
+  : 73.17229
+  ? - W12.G8BW
+    - BA3.G8BW
+  : 35.2
+  ? - WRO.G2BW
+    - BLI.G2BW
+  : 79.88909
+  ? - WVP.G4BW
+    - BFS.G4BW
+  : 12.5
+  ? - B1J...BW
+    - PZI.P2BW
+  : 0.7851
+  ? - BF3...BW
+    - BF3.G8BW
+  : -1
+  ? - W58.G8BW
+    - B1B.G8BW
+  : 3.55
+  ? - W02.G4BW
+    - BXN.G4BW
+  : 100
+  ? - WVP.G2BW
+    - B5J.G2BW
+  : 2.58
+  ? - WSU.G4BW
+    - BFT.G4BW
+  : 0.0897
+  ? - CTF.PSBW
+    - P1D.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BPE.G4BW
+  : 82.21873
+  ? - BSI...BW
+    - PZG.P2BW
+  : 0.0369
+  ? - W58.G2BW
+    - BXI.G2BW
+  : -9
+  ? - WVP.G2BW
+    - BXQ.G2BW
+  : 2.71
+  ? - WRO.G4BW
+    - B5D.G4BW
+  : 76.53985
+  ? - WMO.G8BW
+    - BXJ.G8BW
+  : 74.44831
+  ? - W12.G4BW
+    - BLL.G4BW
+  : 103
+  ? - W58.G8BW
+    - BF1.G8BW
+  : -13.9
+  ? - BG4.WTBW
+    - B2L.G4BW
+  : 0.848
+  ? - W12.G4BW
+    - B5C.G4BW
+  : 99.2
+  ? - W58.G8BW
+    - BN4.G8BW
+  : 122
+  ? - BG2.VOBW
+    - B5N.G2BW
+  : 1
+  ? - BG4.VOBW
+    - BFQ.G4BW
+  : 1
+  ? - WVP.G8BW
+    - B5H.G8BW
+  : 2.55
+  ? - BG4.WTBW
+    - B2C.G4BW
+  : 0.885
+  ? - BTE...BW
+    - PTE.P1BW
+  : -1
+  ? - BSG...BW
+    - PTH.TEBW
+  : 1
+  ? - WRO.G4BW
+    - BFH.G4BW
+  : 87.42369
+  ? - W58.G4BW
+    - BXB.G4BW
+  : -19
+  ? - W12.G8BW
+    - B5H.G8BW
+  : 85.7
+  ? - NGS.G8BW
+    - BU5.G8BW
+  : 0.659
+  ? - BG4.WTBW
+    - BA4.G4BW
+  : 0.703
+  ? - BH....BW
+    - PSG.FHBW
+  : -0.01094
+  ? - B5D...BW
+    - P1D.PSBW
+  : 0.04345
+  ? - W12.G8BW
+    - B5O.G8BW
+  : 86.2
+  ? - WSU.G2BW
+    - WSU2G2BW
+  : -1
+  ? - B8....BW
+    - PTH.FDBW
+  : 0.099
+  ? - BG4.WTBW
+    - BXH.G4BW
+  : 0.796
+  ? - BG4.VOBW
+    - B4U.G4BW
+  : 1
+  ? - W12.G2BW
+    - BPT.G2BW
+  : 98
+  ? - UFU...BW
+    - PZF.P2BW
+  : -0.011
+  ? - BIS...BW
+    - BIS.G8BW
+  : -1
+  ? - WSU.G4BW
+    - BXS.G4BW
+  : 0.01889
+  ? - NGS.G4BW
+    - BXD.G4BW
+  : 0.786
+  ? - BTT...BW
+    - PPI.F1BW
+  : -0.16286
+  ? - WVP.G4BW
+    - BF3.G4BW
+  : 1.02
+  ? - WVP.G2BW
+    - BLH.G2BW
+  : 4.2
+  ? - WVP.G4BW
+    - B4U.G4BW
+  : 61
+  ? - BFH...BW
+    - PSG.TDBW
+  : 1
+  ? - CBF.2XBW
+    - PZF.2XBW
+  : -1
+  ? - WMO.G4BW
+    - BFP.G4BW
+  : 90.22689
+  ? - BG8.WTBW
+    - BFF.G8BW
+  : 0.78
+  ? - CTF.C.BW
+    - PCD.C.BW
+  : -1
+  ? - W12.G2BW
+    - BXN.G2BW
+  : 88
+  ? - W02.G2BW
+    - B2I.G2BW
+  : 7.5
+  ? - W12.G8BW
+    - B2C.G8BW
+  : -16.7
+  ? - BFX...BW
+    - BFX.G2BW
+  : -1
+  ? - B5D...BW
+    - B5D.G8BW
+  : -1
+  ? - BSB...BW
+    - PSB.E.BW
+  : -1
+  ? - WRO.G4BW
+    - B1H.G4BW
+  : 102.96806
+  ? - BTG...BW
+    - PSF.FSBW
+  : 0.474
+  ? - WMO.G4BW
+    - B1N.G4BW
+  : 89.42014
+  ? - X12.G8BW
+    - QVO2G8BW
+  : -65
+  ? - BG4.WTBW
+    - BXG.G4BW
+  : 0.839
+  ? - B5K...BW
+    - B5K.G8BW
+  : -1
+  ? - W58.G4BW
+    - BXC.G4BW
+  : -14
+  ? - UFU...BW
+    - PPH.P1BW
+  : -0.002
+  ? - W58.G4BW
+    - B2G.G4BW
+  : -9.7
+  ? - BXK...BW
+    - BXK.G8BW
+  : -1
+  ? - UFU...BW
+    - PSE.FSBW
+  : -0.009
+  ? - WVP.G2BW
+    - B2O.G2BW
+  : 1.37
+  ? - WRO.G2BW
+    - BFD.G2BW
+  : 87.33868
+  ? - BTL...BW
+    - PCP.F1BW
+  : -0.49143
+  ? - B5O...BW
+    - P1O.PSBW
+  : 0.03912
+  ? - W58.G4BW
+    - BFU.G4BW
+  : -21
+  ? - BG2.VOBW
+    - B2B.G2BW
+  : 1
+  ? - WSU.G8BW
+    - BFM.G8BW
+  : 0.01605
+  ? - WRO.G4BW
+    - B5O.G4BW
+  : 74.14662
+  ? - W12.G8BW
+    - B2H.G8BW
+  : -9.2
+  ? - BYU...BW
+    - DYU...BW
+  : -1
+  ? - BG2.WTBW
+    - BFK.G2BW
+  : 0.805
+  ? - WMO.G4BW
+    - BLV.G4BW
+  : 73.02371
+  ? - BG4.WTBW
+    - BPV.G4BW
+  : 0.631
+  ? - BG8.WTBW
+    - BXC.G8BW
+  : 0.839
+  ? - CTP.A.BW
+    - CTP.A.BW
+  : 1
+  ? - BG8.VOBW
+    - B2J.G8BW
+  : 1
+  ? - U9R...BW
+    - PSR.IHBW
+  : -0.009
+  ? - CBF.P1BW
+    - PTE.P1BW
+  : -1
+  ? - CBF.P1BW
+    - CBF.P1BW
+  : 1
+  ? - W58.G2BW
+    - BLF.G2BW
+  : 73
+  ? - BG4.VOBW
+    - BXB.G4BW
+  : 1
+  ? - WMO.G2BW
+    - BPQ.G2BW
+  : 74.74378
+  ? - BLP...BW
+    - PZG.P2BW
+  : 0.07957
+  ? - WMO.G2BW
+    - BFD.G2BW
+  : 78.67732
+  ? - WVP.G2BW
+    - B2B.G2BW
+  : 1.17
+  ? - WRO.G2BW
+    - B1M.G2BW
+  : 98.90249
+  ? - WSU.G2BW
+    - BU4.G2BW
+  : 0.00124
+  ? - W58.G4BW
+    - B2H.G4BW
+  : -13.5
+  ? - WRO.G8BW
+    - BI4.G8BW
+  : 100.92828
+  ? - CTF.I.BW
+    - ITF.I.BW
+  : 1
+  ? - W02.G2BW
+    - BFD.G2BW
+  : 50
+  ? - WRO.G8BW
+    - B5M.G8BW
+  : 71.31302
+  ? - NRO.G2BW
+    - WRO2G2BW
+  : 1
+  ? - CBF.P2BW
+    - PZI.P2BW
+  : -1
+  ? - W12.G4BW
+    - BXF.G4BW
+  : 10
+  ? - WMO.G2BW
+    - B2A.G2BW
+  : 92.94314
+  ? - WRO.G4BW
+    - BPE.G4BW
+  : 92.77312
+  ? - BG2.VOBW
+    - BA3.G2BW
+  : 1
+  ? - X58.G8BW
+    - W582G8BW
+  : 1
+  ? - WVP.G8BW
+    - BU5.G8BW
+  : 19.9
+  ? - W02.G2BW
+    - BFN.G2BW
+  : 100
+  ? - W58.G8BW
+    - BXN.G8BW
+  : 50
+  ? - W12.G4BW
+    - B2M.G4BW
+  : -16.7
+  ? - W58.G2BW
+    - BN4.G2BW
+  : 122
+  ? - BG2.WTBW
+    - BFU.G2BW
+  : 0.805
+  ? - W58.G4BW
+    - BXN.G4BW
+  : 50
+  ? - BG2.WTBW
+    - BFO.G2BW
+  : 0.795
+  ? - W02.G8BW
+    - B1I.G8BW
+  : 19.9
+  ? - BTZ...BW
+    - PTZ.M.BW
+  : -1
+  ? - WVP.G2BW
+    - BXA.G2BW
+  : 0.7
+  ? - BG4.VOBW
+    - BXU.G4BW
+  : 1
+  ? - W02.G8BW
+    - B1G.G8BW
+  : 100
+  ? - WRO.G4BW
+    - B5B.G4BW
+  : 73.17229
+  ? - BXN...BW
+    - PTY.FMBW
+  : 1
+  ? - BG2.VOBW
+    - B2M.G2BW
+  : 1
+  ? - WRO.G4BW
+    - BXR.G4BW
+  : 105.81583
+  ? - W02.G2BW
+    - B5D.G2BW
+  : 100
+  ? - WMO.G4BW
+    - BFL.G4BW
+  : 81.5719
+  ? - W02.G4BW
+    - BX3.G4BW
+  : 73
+  ? - B2G...BW
+    - B2G.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BIT.G8BW
+  : 1
+  ? - W02.G8BW
+    - B2L.G8BW
+  : 73.8
+  ? - WMO.G4BW
+    - BA4.G4BW
+  : 90.4183
+  ? - BLI...BW
+    - PLI.ISBW
+  : -1
+  ? - WVP.G2BW
+    - B5G.G2BW
+  : 3.65
+  ? - BG8.VOBW
+    - BXO.G8BW
+  : 1
+  ? - WRO.G2BW
+    - B1N.G2BW
+  : 103.69118
+  ? - NGS.G2BW
+    - BFT.G2BW
+  : 0.78
+  ? - WSU.G2BW
+    - BXS.G2BW
+  : 0.01889
+  ? - B5S...BW
+    - B5S.G4BW
+  : -1
+  ? - W58.G8BW
+    - BFD.G8BW
+  : -8
+  ? - BFX...BW
+    - BFX.G4BW
+  : -1
+  ? - BG8.VOBW
+    - B2O.G8BW
+  : 1
+  ? - CTF.F2BW
+    - PPI.F.BW
+  : -1
+  ? - BSJ...BW
+    - PTD.P3BW
+  : 0.0425
+  ? - WSU.G4BW
+    - BXU.G4BW
+  : 0.12477
+  ? - XVP.G2BW
+    - QVO2G2BW
+  : -13.8
+  ? - CTF.PSBW
+    - P1M.PSBW
+  : -1
+  ? - BG2.VOBW
+    - BFM.G2BW
+  : 1
+  ? - BG2.WTBW
+    - B5N.G2BW
+  : 0.75
+  ? - BG4.VOBW
+    - BIT.G4BW
+  : 1
+  ? - X12.G4BW
+    - QVO2G4BW
+  : -65
+  ? - U9R...BW
+    - HBF.P2BW
+  : 0.033
+  ? - NWU.G4BW
+    - W122G4BW
+  : 1
+  ? - WSU.G4BW
+    - BXK.G4BW
+  : 0.00064
+  ? - WMO.G8BW
+    - BXK.G8BW
+  : 73.22415
+  ? - WVP.G2BW
+    - BXB.G2BW
+  : 0.7
+  ? - W02.G2BW
+    - B5G.G2BW
+  : 100
+  ? - UH2...BW
+    - PTD.P3BW
+  : 0.86504
+  ? - WMO.G4BW
+    - BFT.G4BW
+  : 77.40834
+  ? - BH....BW
+    - PZH.2XBW
+  : 0.05462
+  ? - NGS.G8BW
+    - BLI.G8BW
+  : 0.658
+  ? - WRO.G2BW
+    - BF1.G2BW
+  : 109.60858
+  ? - B2H...BW
+    - B2H.G2BW
+  : -1
+  ? - NGS.G2BW
+    - B2H.G2BW
+  : 0.844
+  ? - NGS.G4BW
+    - B1H.G4BW
+  : 0.8
+  ? - WMO.G8BW
+    - BXE.G8BW
+  : 79.26925
+  ? - UNF...BW
+    - PTG.PHBW
+  : -0.001
+  ? - WVP.G4BW
+    - B5N.G4BW
+  : 2.28
+  ? - BLP...BW
+    - PZH.P2BW
+  : 0.06291
+  ? - CTF.P2BW
+    - PZH.2XBW
+  : -1
+  ? - U9R...BW
+    - PPH.P1BW
+  : -0.073
+  ? - WVP.G4BW
+    - B1J.G4BW
+  : 2.42
+  ? - WMO.G2BW
+    - BI5.G2BW
+  : 87.95423
+  ? - W12.G4BW
+    - B5I.G4BW
+  : 98
+  ? - WRO.G8BW
+    - B5D.G8BW
+  : 76.53985
+  ? - NGS.G2BW
+    - BI5.G2BW
+  : 0.625
+  ? - WMO.G8BW
+    - BIT.G8BW
+  : 84.80651
+  ? - BG2.VOBW
+    - BXF.G2BW
+  : 1
+  ? - NGS.G4BW
+    - BXG.G4BW
+  : 0.839
+  ? - BSU...BW
+    - P1N.PSBW
+  : 0.11126
+  ? - B5O...BW
+    - B5O.G2BW
+  : -1
+  ? - URX...BW
+    - PPI.F1BW
+  : -1.366
+  ? - WMO.G2BW
+    - B1K.G2BW
+  : 84.96442
+  ? - W58.G4BW
+    - BXK.G4BW
+  : -21
+  ? - W12.G4BW
+    - BXU.G4BW
+  : -30
+  ? - WMO.G4BW
+    - B5C.G4BW
+  : 71.11826
+  ? - W02.G4BW
+    - BTO.G4BW
+  : 100
+  ? - WVP.G2BW
+    - BXT.G2BW
+  : 4
+  ? - WSU.G2BW
+    - BPU.G2BW
+  : 0.0201
+  ? - WVP.G8BW
+    - BIT.G8BW
+  : 13.2
+  ? - BXH...BW
+    - BXH.G2BW
+  : -1
+  ? - N02.G2BW
+    - QVO2G2BW
+  : -5
+  ? - BLL...BW
+    - BLL.G2BW
+  : -1
+  ? - WSU.G2BW
+    - BXA.G2BW
+  : 0.11303
+  ? - NGS.G4BW
+    - BXB.G4BW
+  : 0.796
+  ? - B5H...BW
+    - B5H.G4BW
+  : -1
+  ? - W12.G8BW
+    - B2L.G8BW
+  : -7
+  ? - COF.A.BW
+    - PSK.A.BW
+  : -1
+  ? - WVP.G2BW
+    - BU4.G2BW
+  : 61
+  ? - W12.G8BW
+    - BPT.G8BW
+  : 98
+  ? - WVP.G8BW
+    - B2J.G8BW
+  : 1.01
+  ? - BSU...BW
+    - P1G.PSBW
+  : 0.38745
+  ? - BG2.WTBW
+    - B1H.G2BW
+  : 0.8
+  ? - BG8.VOBW
+    - BTO.G8BW
+  : 1
+  ? - BXR...BW
+    - BXR.G2BW
+  : -1
+  ? - NGS.G4BW
+    - BX4.G4BW
+  : 0.838
+  ? - BG8.VOBW
+    - BXH.G8BW
+  : 1
+  ? - B2D...BW
+    - B2D.G8BW
+  : -1
+  ? - BX6...BW
+    - PTV.TUBW
+  : 1
+  ? - WVP.G2BW
+    - BFP.G2BW
+  : 2.43
+  ? - WVP.G8BW
+    - B5A.G8BW
+  : 3.47
+  ? - WSU.G2BW
+    - BXX.G2BW
+  : 0.0007
+  ? - WMO.G4BW
+    - BXS.G4BW
+  : 81.45002
+  ? - WSU.G4BW
+    - BFE.G4BW
+  : 0.03204
+  ? - BSJ...BW
+    - PSK.A.BW
+  : -0.056
+  ? - W02.G4BW
+    - B5G.G4BW
+  : 100
+  ? - WRO.G2BW
+    - B1C.G2BW
+  : 98.90249
+  ? - WMO.G2BW
+    - BLF.G2BW
+  : 73.72027
+  ? - BG2.WTBW
+    - B1M.G2BW
+  : 0.845
+  ? - BTT...BW
+    - PCP.F1BW
+  : -0.16286
+  ? - BXJ...BW
+    - BXJ.G4BW
+  : -1
+  ? - WVP.G2BW
+    - BX3.G2BW
+  : 1.37
+  ? - WRO.G4BW
+    - BXB.G4BW
+  : 83.15426
+  ? - BG4.VOBW
+    - BXR.G4BW
+  : 1
+  ? - WMO.G2BW
+    - B1B.G2BW
+  : 87.42257
+  ? - W12.G8BW
+    - B2N.G8BW
+  : -15
+  ? - WMO.G2BW
+    - B4U.G2BW
+  : 88.31541
+  ? - BG4.WTBW
+    - BN5.G4BW
+  : 0.631
+  ? - U.S...BW
+    - P3U.A.BW
+  : -0.0315
+  ? - BG2.VOBW
+    - BXP.G2BW
+  : 1
+  ? - WMO.G8BW
+    - BXH.G8BW
+  : 74.14184
+  ? - BG4.VOBW
+    - BFI.G4BW
+  : 1
+  ? - U9R...BW
+    - PCD.C.BW
+  : -0.0155
+  ? - W58.G4BW
+    - BIS.G4BW
+  : 80
+  ? - WRO.G8BW
+    - BFO.G8BW
+  : 85.02961
+  ? - WMO.G2BW
+    - B5K.G2BW
+  : 82.21907
+  ? - WRO.G8BW
+    - BPU.G8BW
+  : 94.18285
+  ? - BG8.VOBW
+    - B5A.G8BW
+  : 1
+  ? - W02.G2BW
+    - BFO.G2BW
+  : 44
+  ? - W02.G2BW
+    - BFK.G2BW
+  : 20
+  ? - B5B...BW
+    - B5B.G2BW
+  : -1
+  ? - WVP.G4BW
+    - B5C.G4BW
+  : 2.71
+  ? - BTM...BW
+    - PCP.F1BW
+  : 0.6504
+  ? - BG8.WTBW
+    - BFM.G8BW
+  : 0.692
+  ? - WMO.G4BW
+    - BXU.G4BW
+  : 73.24984
+  ? - BG2.VOBW
+    - BIS.G2BW
+  : 1
+  ? - BPQ...BW
+    - BPQ.G2BW
+  : -1
+  ? - WMO.G2BW
+    - B2C.G2BW
+  : 86.52755
+  ? - NGS.G2BW
+    - BXF.G2BW
+  : 0.78
+  ? - W12.G2BW
+    - BPV.G2BW
+  : 93
+  ? - BG4.VOBW
+    - B5K.G4BW
+  : 1
+  ? - NGS.G4BW
+    - BU5.G4BW
+  : 0.659
+  ? - BG8.VOBW
+    - BFU.G8BW
+  : 1
+  ? - W02.G8BW
+    - BI5.G8BW
+  : 100
+  ? - BG2.WTBW
+    - BXL.G2BW
+  : 0.796
+  ? - WVP.G8BW
+    - BX6.G8BW
+  : 13
+  ? - BZD...BW
+    - PZD.T2BW
+  : -1
+  ? - W02.G8BW
+    - BPQ.G8BW
+  : 100
+  ? - WSU.G4BW
+    - BFU.G4BW
+  : 0.12477
+  ? - BG4.VOBW
+    - BTO.G4BW
+  : 1
+  ? - WRO.G4BW
+    - B1C.G4BW
+  : 98.90249
+  ? - NGS.G8BW
+    - BN5.G8BW
+  : 0.631
+  ? - BG8.VOBW
+    - B1L.G8BW
+  : 1
+  ? - BG8.VOBW
+    - B2I.G8BW
+  : 1
+  ? - BXJ...BW
+    - PSF.FHBW
+  : 1
+  ? - U9R...BW
+    - PZG.2XBW
+  : -0.083
+  ? - BFI...BW
+    - BFI.G4BW
+  : -1
+  ? - W12.G8BW
+    - BX3.G8BW
+  : -12.6
+  ? - CTF.IHBW
+    - PSR.IHBW
+  : -1
+  ? - WVP.G2BW
+    - BXE.G2BW
+  : 2.63
+  ? - BSQ...BW
+    - PSQ.ISBW
+  : -1
+  ? - BG2.VOBW
+    - BXL.G2BW
+  : 1
+  ? - W58.G4BW
+    - BFH.G4BW
+  : -9
+  ? - NGS.G2BW
+    - BIS.G2BW
+  : 0.655
+  ? - WVP.G8BW
+    - BFQ.G8BW
+  : 2.43
+  ? - NGS.G8BW
+    - BFM.G8BW
+  : 0.692
+  ? - WRO.G4BW
+    - BN4.G4BW
+  : 94.11062
+  ? - WVP.G8BW
+    - B2B.G8BW
+  : 1.17
+  ? - BHC...BW
+    - BHC.G8BW
+  : -1
+  ? - WMO.G2BW
+    - BLI.G2BW
+  : 78.12136
+  ? - WVP.G4BW
+    - B5M.G4BW
+  : 2.71
+  ? - WSU.G2BW
+    - BXI.G2BW
+  : 0.00541
+  ? - W58.G8BW
+    - BF3.G8BW
+  : -13.9
+  ? - BG8.VOBW
+    - BN4.G8BW
+  : 1
+  ? - W02.G8BW
+    - B2O.G8BW
+  : 73
+  ? - UNF...BW
+    - PSU.I.BW
+  : -0.04
+  ? - BG4.WTBW
+    - BXC.G4BW
+  : 0.839
+  ? - W02.G4BW
+    - BXT.G4BW
+  : 79
+  ? - UNF...BW
+    - PZI.2XBW
+  : -0.007
+  ? - BXC...BW
+    - PTC.TBBW
+  : 1
+  ? - WRO.G2BW
+    - BXO.G2BW
+  : 102.34862
+  ? - UFU...BW
+    - PZI.2XBW
+  : -0.011
+  ? - BLF...BW
+    - BLF.G8BW
+  : -1
+  ? - CTF.P1BW
+    - CTF.P1BW
+  : 1
+  ? - WRO.G4BW
+    - BA3.G4BW
+  : 91.85397
+  ? - B5U...BW
+    - PTU.ASBW
+  : 0.23
+  ? - W58.G4BW
+    - BXQ.G4BW
+  : -2.1
+  ? - W12.G8BW
+    - BIS.G8BW
+  : 108
+  ? - W12.G8BW
+    - BXE.G8BW
+  : 79
+  ? - W02.G4BW
+    - B1M.G4BW
+  : 22.1
+  ? - BG8.WTBW
+    - B5J.G8BW
+  : 0.715
+  ? - BG4.VOBW
+    - B1M.G4BW
+  : 1
+  ? - BSI...BW
+    - PCP.F.BW
+  : 0.0408
+  ? - B5M...BW
+    - B5M.G2BW
+  : -1
+  ? - BSG...BW
+    - PSG.FSBW
+  : -1
+  ? - BLP...BW
+    - PZJ.2XBW
+  : 0.04606
+  ? - NGS.G2BW
+    - B5S.G2BW
+  : 0.625
+  ? - WMO.G4BW
+    - BFI.G4BW
+  : 76.0993
+  ? - WVP.G8BW
+    - B4U.G8BW
+  : 61
+  ? - WMO.G4BW
+    - BTO.G4BW
+  : 91.00573
+  ? - WMO.G4BW
+    - B1A.G4BW
+  : 84.96442
+  ? - BG2.WTBW
+    - BIS.G2BW
+  : 0.655
+  ? - NRO.G2BW
+    - QVO2G2BW
+  : -50
+  ? - BG2.WTBW
+    - BFJ.G2BW
+  : 0.786
+  ? - WRO.G8BW
+    - BXO.G8BW
+  : 102.34862
+  ? - WRO.G8BW
+    - BXS.G8BW
+  : 92.09434
+  ? - BG8.WTBW
+    - B5N.G8BW
+  : 0.75
+  ? - WRO.G2BW
+    - B1H.G2BW
+  : 102.96806
+  ? - WRO.G2BW
+    - B2M.G2BW
+  : 100.04377
+  ? - W02.G4BW
+    - BFU.G4BW
+  : 20
+  ? - B1M...BW
+    - PK3.TABW
+  : 1
+  ? - W02.G8BW
+    - B1H.G8BW
+  : 79.8
+  ? - BG4.WTBW
+    - BIS.G4BW
+  : 0.655
+  ? - W02.G8BW
+    - BFN.G8BW
+  : 100
+  ? - W58.G8BW
+    - B5B.G8BW
+  : -2.33
+  ? - NGS.G4BW
+    - BXH.G4BW
+  : 0.796
+  ? - BSN...BW
+    - PSQ.LSBW
+  : 0.165
+  ? - BF3...BW
+    - BF3.G2BW
+  : -1
+  ? - BG4.WTBW
+    - BF1.G4BW
+  : 0.835
+  ? - WMO.G4BW
+    - BFS.G4BW
+  : 81.63251
+  ? - W12.G8BW
+    - BXS.G8BW
+  : 88
+  ? - WRO.G8BW
+    - BFD.G8BW
+  : 87.33868
+  ? - W12.G8BW
+    - B2G.G8BW
+  : 14.1
+  ? - BTG...BW
+    - PTG.TFBW
+  : -1
+  ? - W12.G2BW
+    - BXS.G2BW
+  : 88
+  ? - NGS.G4BW
+    - BXT.G4BW
+  : 0.78
+  ? - W02.G2BW
+    - B5J.G2BW
+  : 100
+  ? - BG8.WTBW
+    - BXS.G8BW
+  : 0.687
+  ? - CTF.PSBW
+    - P1G.PSBW
+  : -1
+  ? - UFU...BW
+    - PZJ.P2BW
+  : -0.011
+  ? - W12.G8BW
+    - BN4.G8BW
+  : 119
+  ? - WRO.G8BW
+    - B1O.G8BW
+  : 102.34862
+  ? - XCV.G8BW
+    - W582G8BW
+  : 0.13
+  ? - B8....BW
+    - PPZ.M.BW
+  : 1
+  ? - BI5...BW
+    - BI5.G4BW
+  : -1
+  ? - W58.G4BW
+    - B5S.G4BW
+  : 96
+  ? - WVP.G2BW
+    - BFU.G2BW
+  : 0.5
+  ? - WVP.G4BW
+    - B2M.G4BW
+  : 1.38
+  ? - NGS.G8BW
+    - B1I.G8BW
+  : 0.841
+  ? - BFE...BW
+    - PTM.TLBW
+  : 1
+  ? - WRO.G2BW
+    - BX2.G2BW
+  : 89.0308
+  ? - CTF.PSBW
+    - P1I.PSBW
+  : -1
+  ? - BG4.WTBW
+    - B2I.G4BW
+  : 0.883
+  ? - W12.G8BW
+    - BFJ.G8BW
+  : 2
+  ? - BG2.VOBW
+    - BXD.G2BW
+  : 1
+  ? - BG2.WTBW
+    - BF1.G2BW
+  : 0.835
+  ? - BZB...BW
+    - PPG.T1BW
+  : 1
+  ? - WRO.G8BW
+    - WRO2G8BW
+  : -1
+  ? - BSU...BW
+    - PTP.PSBW
+  : 0.11453
+  ? - W58.G4BW
+    - B2A.G4BW
+  : -9.4
+  ? - BG8.VOBW
+    - B5M.G8BW
+  : 1
+  ? - W58.G2BW
+    - BIT.G2BW
+  : 80
+  ? - WSU.G2BW
+    - BFL.G2BW
+  : 0.03204
+  ? - NRO.G8BW
+    - QVO2G8BW
+  : -50
+  ? - BX2...BW
+    - PXR.PSBW
+  : 0.02672
+  ? - BG2.WTBW
+    - B5L.G2BW
+  : 0.756
+  ? - BG8.VOBW
+    - B2M.G8BW
+  : 1
+  ? - NGS.G2BW
+    - BA4.G2BW
+  : 0.703
+  ? - BSJ...BW
+    - PPI.F1BW
+  : 0.0061
+  ? - W58.G2BW
+    - BXQ.G2BW
+  : -2.1
+  ? - B5A...BW
+    - B5A.G2BW
+  : -1
+  ? - WVP.G2BW
+    - BFF.G2BW
+  : 4
+  ? - BXA...BW
+    - BXA.G4BW
+  : -1
+  ? - BG8.VOBW
+    - BXJ.G8BW
+  : 1
+  ? - BX3...BW
+    - BX3.G8BW
+  : -1
+  ? - B1N...BW
+    - P1N.PSBW
+  : -1
+  ? - WMO.G4BW
+    - BXR.G4BW
+  : 90.58361
+  ? - BPT...BW
+    - BPT.G4BW
+  : -1
+  ? - WMO.G4BW
+    - BF3.G4BW
+  : 92.24962
+  ? - BPZ...BW
+    - PPZ.M.BW
+  : -1
+  ? - NGS.G4BW
+    - B2K.G4BW
+  : 0.74
+  ? - BG2.WTBW
+    - B1I.G2BW
+  : 0.841
+  ? - W02.G4BW
+    - BFF.G4BW
+  : 79
+  ? - BG8.VOBW
+    - B1A.G8BW
+  : 1
+  ? - WVP.G4BW
+    - B1N.G4BW
+  : 2.36
+  ? - WVP.G8BW
+    - B5K.G8BW
+  : 3.47
+  ? - U9R...BW
+    - PZI.2XBW
+  : -0.083
+  ? - BPG...BW
+    - PPG.T1BW
+  : -1
+  ? - WRO.G2BW
+    - BHC.G2BW
+  : 101.46649
+  ? - BG2.WTBW
+    - BPQ.G2BW
+  : 0.66
+  ? - W58.G2BW
+    - B5J.G2BW
+  : -1.6
+  ? - W58.G2BW
+    - B1K.G2BW
+  : 23.5
+  ? - BG4.VOBW
+    - B5N.G4BW
+  : 1
+  ? - BG4.WTBW
+    - BLL.G4BW
+  : 0.658
+  ? - W12.G8BW
+    - BXA.G8BW
+  : -27
+  ? - W58.G8BW
+    - BPE.G8BW
+  : 58
+  ? - NGS.G4BW
+    - B1I.G4BW
+  : 0.841
+  ? - WRO.G4BW
+    - B1G.G4BW
+  : 100.1228
+  ? - W58.G8BW
+    - BFT.G8BW
+  : -2
+  ? - WVP.G4BW
+    - BXO.G4BW
+  : 2.61
+  ? - W12.G2BW
+    - B2I.G2BW
+  : -16.9
+  ? - WRO.G4BW
+    - B1M.G4BW
+  : 98.90249
+  ? - BG8.WTBW
+    - BX6.G8BW
+  : 0.693
+  ? - CTF.F2BW
+    - PPI.F1BW
+  : -1
+  ? - BN5...BW
+    - PPI.F.BW
+  : 0.0048
+  ? - BSU...BW
+    - PSU.M.BW
+  : -1
+  ? - WVP.G8BW
+    - BFH.G8BW
+  : 2
+  ? - W02.G4BW
+    - BXA.G4BW
+  : 28
+  ? - WRO.G2BW
+    - B2A.G2BW
+  : 108.32812
+  ? - WMO.G2BW
+    - BA3.G2BW
+  : 87.83771
+  ? - CTF.P2BW
+    - PZF.2XBW
+  : -1
+  ? - NMO.G8BW
+    - QVO2G8BW
+  : -50
+  ? - W02.G2BW
+    - B5H.G2BW
+  : 100
+  ? - WMO.G4BW
+    - BXQ.G4BW
+  : 90.48006
+  ? - W58.G2BW
+    - BIS.G2BW
+  : 80
+  ? - BG8.WTBW
+    - BPT.G8BW
+  : 0.669
+  ? - BTA...BW
+    - PTA.T1BW
+  : -1
+  ? - BG2.WTBW
+    - BFH.G2BW
+  : 0.795
+  ? - WVP.G4BW
+    - BFH.G4BW
+  : 2
+  ? - BSK...BW
+    - PPI.F.BW
+  : 0.066
+  ? - W12.G8BW
+    - B5B.G8BW
+  : 92.1
+  ? - NGS.G8BW
+    - BFK.G8BW
+  : 0.805
+  ? - B2C...BW
+    - B2C.G2BW
+  : -1
+  ? - BG2.VOBW
+    - BN4.G2BW
+  : 1
+  ? - UH2...BW
+    - PZG.2XBW
+  : 1.04473
+  ? - BK4...BW
+    - PK4.TABW
+  : -1
+  ? - WRO.G2BW
+    - BFT.G2BW
+  : 86.45545
+  ? - BG2.VOBW
+    - BLL.G2BW
+  : 1
+  ? - WSU.G4BW
+    - BXH.G4BW
+  : 0.11303
+  ? - BXR...BW
+    - PXR.PSBW
+  : -1
+  ? - W12.G2BW
+    - B2L.G2BW
+  : -7
+  ? - NGS.G4BW
+    - BFP.G4BW
+  : 0.811
+  ? - WMO.G4BW
+    - BX2.G4BW
+  : 80.78009
+  ? - W12.G4BW
+    - B5O.G4BW
+  : 86.2
+  ? - BG8.VOBW
+    - BPT.G8BW
+  : 1
+  ? - B1L...BW
+    - B1L.G4BW
+  : -1
+  ? - W12.G2BW
+    - B2M.G2BW
+  : -16.7
+  ? - WRO.G4BW
+    - BLF.G4BW
+  : 75.20602
+  ? - U.S...BW
+    - PSK.A.BW
+  : -0.0231
+  ? - B6....BW
+    - PSP.M.BW
+  : 1
+  ? - BG4.WTBW
+    - B5N.G4BW
+  : 0.75
+  ? - U9R...BW
+    - U9R.GUBW
+  : 1.051
+  ? - BF2...BW
+    - BF2.G4BW
+  : -1
+  ? - WMO.G4BW
+    - BXE.G4BW
+  : 79.26925
+  ? - BG4.VOBW
+    - BFK.G4BW
+  : 1
+  ? - W58.G8BW
+    - BXM.G8BW
+  : 47
+  ? - B1B...BW
+    - PPG.P1BW
+  : 0.7563
+  ? - UH2...BW
+    - U9R.G2BW
+  : -19.66
+  ? - W58.G4BW
+    - B5O.G4BW
+  : -1.9
+  ? - BXX...BW
+    - BXX.G4BW
+  : -1
+  ? - W58.G4BW
+    - BXP.G4BW
+  : -2.2
+  ? - B2C...BW
+    - B2C.G4BW
+  : -1
+  ? - BTY...BW
+    - PTY.FMBW
+  : -1
+  ? - WRO.G2BW
+    - B5D.G2BW
+  : 76.53985
+  ? - BSI...BW
+    - PZJ.2XBW
+  : 0.021
+  ? - W12.G2BW
+    - B2D.G2BW
+  : -15
+  ? - BN4...BW
+    - BN4.G2BW
+  : -1
+rhs: {}
+bounds:
+  B1BOUND:
+    ? - GBF.P2BW
+      - Up
+    : 10
+    ? - CTF.F2BW
+      - Up
+    : 135
+    ? - U9R.GUBW
+      - Up
+    : 1
+    ? - D8....BW
+      - Up
+    : 500
+    ? - DYU...BW
+      - Up
+    : 500
+    ? - DC4...BW
+      - Up
+    : 5.1
+    ? - EPI...BW
+      - Up
+    : 35
+    ? - ETO...BW
+      - Up
+    : 2
+    ? - ECD...BW
+      - Up
+    : 330
+    ? - CBF.F.BW
+      - Up
+    : 100
+    ? - CTF.C.BW
+      - Up
+    : 290
+    ? - DR1...BW
+      - Up
+    : 500
+    ? - CBF.F.BW
+      - Lo
+    : 90
+    ? - D6....BW
+      - Up
+    : 500
+    ? - DLP...BW
+      - Up
+    : 500
+    ? - D9....BW
+      - Up
+    : 500
+    ? - UH2...BW
+      - Fr
+    : ~
+    ? - URX.BXBW
+      - Fx
+    : 1100.41
+    ? - CTF.FTBW
+      - Up
+    : 25
+    ? - CBF.P1BW
+      - Up
+    : 19
+    ? - CTF.ASBW
+      - Up
+    : 10
+    ? - ELI...BW
+      - Fx
+    : 0
+    ? - CTP.A.BW
+      - Up
+    : 8
+    ? - D4....BW
+      - Up
+    : 16
+    ? - DC3...BW
+      - Up
+    : 5.9
+    ? - CBF.P2BW
+      - Up
+    : 23
+    ? - CTF.C.BW
+      - Lo
+    : 250
+    ? - D4Z...BW
+      - Up
+    : 500
+    ? - CBF.2XBW
+      - Fx
+    : 0
+    ? - HBF.P1BW
+      - Up
+    : 10
+    ? - EBI...BW
+      - Up
+    : 50
+    ? - U9R.BLBW
+      - Fr
+    : ~
+    ? - EHC...BW
+      - Up
+    : 15
+ranges: {}
+
