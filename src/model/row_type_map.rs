@@ -1,8 +1,11 @@
 use crate::types::{RowType, Rows};
 use color_eyre::{eyre::eyre, Result};
 use hashbrown::HashMap;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RowTypeMap(HashMap<String, RowType>);
 
 impl TryFrom<&Rows<'_>> for RowTypeMap {

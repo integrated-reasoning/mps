@@ -2,8 +2,11 @@ use crate::types::{BoundType, Bounds};
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
 use hashbrown::{HashMap, HashSet};
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct BoundsMap<T: FastFloat>(
   HashMap<String, HashMap<(String, BoundType), Option<T>>>,
 );

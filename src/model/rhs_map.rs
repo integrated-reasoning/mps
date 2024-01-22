@@ -3,8 +3,11 @@ use crate::types::Rhs;
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
 use hashbrown::HashMap;
+#[cfg(feature = "serde")]
+use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct RhsMap<T: FastFloat>(HashMap<String, HashMap<String, T>>);
 
 impl<T: FastFloat> TryFrom<(&Rhs<'_, T>, &RowTypeMap)> for RhsMap<T> {

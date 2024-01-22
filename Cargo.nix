@@ -24,7 +24,7 @@ args@{
   ignoreLockHash,
 }:
 let
-  nixifiedLockHash = "0aa7eb3e470c717b11b3122a9f2b45ede5734e5a31839691217d1dde47c0ee93";
+  nixifiedLockHash = "bd6df78210dc9cf622bebac24337f9d77e5e2b57b35b7f2ce51d5287f59fb70f";
   workspaceSrc = if args.workspaceSrc == null then ./. else args.workspaceSrc;
   currentLockHash = builtins.hashFile "sha256" (workspaceSrc + /Cargo.lock);
   lockHashIgnored = if ignoreLockHash
@@ -668,10 +668,12 @@ in
       [ "allocator-api2" ]
       [ "default" ]
       [ "inline-more" ]
+      [ "serde" ]
     ];
     dependencies = {
       ahash = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".ahash."0.8.7" { inherit profileName; }).out;
       allocator_api2 = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".allocator-api2."0.2.16" { inherit profileName; }).out;
+      serde = (rustPackages."registry+https://github.com/rust-lang/crates.io-index".serde."1.0.195" { inherit profileName; }).out;
     };
   });
   
