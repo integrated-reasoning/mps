@@ -22,7 +22,6 @@ hashbrown = "0.14.3"
 nom = "7.1.3"
 nom-tracable = "0.9.0"
 nom_locate = "4.2.0"
-num-traits = "0.2.17"
 serde = { version = "1.0.195", features = ["serde_derive"], optional = true }
 
 [dev-dependencies]

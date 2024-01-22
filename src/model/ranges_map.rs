@@ -1,15 +1,16 @@
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Ranges;
 use color_eyre::{eyre::eyre, Result};
+use fast_float::FastFloat;
 use hashbrown::HashMap;
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct RangesMap(HashMap<String, HashMap<String, f32>>);
+pub struct RangesMap<T: FastFloat>(HashMap<String, HashMap<String, T>>);
 
-impl TryFrom<(&Ranges<'_, f32>, &RowTypeMap)> for RangesMap {
+impl<T: FastFloat> TryFrom<(&Ranges<'_, T>, &RowTypeMap)> for RangesMap<T> {
   type Error = color_eyre::Report;
 
-  fn try_from(t: (&Ranges<'_, f32>, &RowTypeMap)) -> Result<Self> {
+  fn try_from(t: (&Ranges<'_, T>, &RowTypeMap)) -> Result<Self> {
     let mut ranges = RangesMap(HashMap::new());
     let (ranges_lines, row_types) = t;
     for r in ranges_lines {
@@ -24,12 +25,12 @@ impl TryFrom<(&Ranges<'_, f32>, &RowTypeMap)> for RangesMap {
   }
 }
 
-impl RangesMap {
+impl<T: FastFloat> RangesMap<T> {
   fn insert(
     &mut self,
     ranges_name: &str,
     row_name: &str,
-    value: f32,
+    value: T,
   ) -> Result<()> {
     match self.0.get_mut(ranges_name) {
       None => {

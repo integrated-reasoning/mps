@@ -1,5 +1,5 @@
 use color_eyre::{eyre::eyre, Result};
-use num_traits::float::Float;
+use fast_float::FastFloat;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 
@@ -36,7 +36,7 @@ cfg_if::cfg_if! {
 /// # Type Parameters
 ///
 /// * `'a`: Lifetime parameter, indicating that the fields in `Parser` hold references to the string data.
-/// * `T`: A type parameter bounded by the `Float` trait, representing the numeric type used for values in the MPS data.
+/// * `T`: A type parameter bounded by the `FastFloat` trait, representing the numeric type used for values in the MPS data.
 ///
 /// # Fields
 ///
@@ -51,7 +51,7 @@ cfg_if::cfg_if! {
 /// representation of the MPS file structure.
 #[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct Parser<'a, T: Float> {
+pub struct Parser<'a, T: FastFloat> {
   pub name: &'a str,
   pub rows: Rows<'a>,
   pub columns: Columns<'a, T>,
