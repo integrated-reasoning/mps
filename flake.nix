@@ -10,7 +10,10 @@
   outputs = inputs: with inputs;
     flake-utils.lib.eachDefaultSystem (system:
       let
-        pkgs = import nixpkgs { inherit system; overlays = [ cargo2nix.overlays.default ]; };
+        pkgs = import nixpkgs {
+          inherit system;
+          overlays = [ cargo2nix.overlays.default ];
+        };
         inherit (pkgs) lib;
 
         rustPackageSet = pkgs.rustBuilder.makePackageSet {
@@ -19,39 +22,34 @@
           extraRustComponents = [ "rustfmt" "clippy" ];
         };
 
-        isLinux = lib.strings.hasSuffix "-linux" system;
-        linuxDependencies = lib.optionals isLinux [
-          pkgs.cargo-llvm-cov
-        ];
-
-        isDarwin = lib.strings.hasSuffix "-darwin" system;
-        darwinDependencies = lib.optionals isDarwin [
-          pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
-        ];
-
-        generalBuildInputs = [
+        buildInputs = [
           pkgs.cargo-all-features
           pkgs.cargo-deny
           pkgs.cargo-insta
           pkgs.cargo-nextest
           pkgs.rustup
-        ] ++ linuxDependencies ++ darwinDependencies;
+        ] ++ lib.optionals pkgs.stdenv.isLinux [
+          pkgs.cargo-llvm-cov
+        ] ++ lib.optionals pkgs.stdenv.isDarwin [
+          pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
+        ];
 
         mps = args: (rustPackageSet.workspace.mps ({ } // args)).overrideAttrs {
-          buildInputs = generalBuildInputs;
+          inherit buildInputs;
         };
 
         workspaceShell = rustPackageSet.workspaceShell {
-          packages = generalBuildInputs;
+          packages = buildInputs;
         };
-
       in
       rec
       {
         packages = {
           default = mps { };
           tests = mps { compileMode = "test"; };
-          ci = pkgs.rustBuilder.runTests mps { };
+          ci = pkgs.rustBuilder.runTests mps {
+            RUST_BACKTRACE = "full";
+          };
         };
 
         devShell = workspaceShell;
