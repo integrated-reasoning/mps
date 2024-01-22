@@ -11,22 +11,23 @@ use crate::model::row_column_value_map::RowColumnValueMap;
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Parser;
 use color_eyre::Result;
+use fast_float::FastFloat;
 use hashbrown::HashSet;
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct Model {
+pub struct Model<T: FastFloat> {
   pub name: String,
   pub row_types: RowTypeMap,
-  pub values: RowColumnValueMap,
-  pub rhs: RhsMap,
-  pub bounds: BoundsMap,
-  pub ranges: RangesMap,
+  pub values: RowColumnValueMap<T>,
+  pub rhs: RhsMap<T>,
+  pub bounds: BoundsMap<T>,
+  pub ranges: RangesMap<T>,
 }
 
-impl TryFrom<Parser<'_, f32>> for Model {
+impl<T: FastFloat> TryFrom<Parser<'_, T>> for Model<T> {
   type Error = color_eyre::Report;
 
-  fn try_from(parsed: Parser<f32>) -> Result<Self> {
+  fn try_from(parsed: Parser<T>) -> Result<Self> {
     let row_types = RowTypeMap::try_from(&parsed.rows)?;
     let values = RowColumnValueMap::try_from((&parsed.columns, &row_types))?;
     let rhs = match parsed.rhs {

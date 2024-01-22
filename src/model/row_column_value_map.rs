@@ -1,15 +1,18 @@
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Columns;
 use color_eyre::{eyre::eyre, Result};
+use fast_float::FastFloat;
 use hashbrown::HashMap;
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct RowColumnValueMap(HashMap<(String, String), f32>);
+pub struct RowColumnValueMap<T: FastFloat>(HashMap<(String, String), T>);
 
-impl TryFrom<(&Columns<'_, f32>, &RowTypeMap)> for RowColumnValueMap {
+impl<T: FastFloat> TryFrom<(&Columns<'_, T>, &RowTypeMap)>
+  for RowColumnValueMap<T>
+{
   type Error = color_eyre::Report;
 
-  fn try_from(t: (&Columns<'_, f32>, &RowTypeMap)) -> Result<Self> {
+  fn try_from(t: (&Columns<'_, T>, &RowTypeMap)) -> Result<Self> {
     let mut row_column_values = RowColumnValueMap(HashMap::new());
     let (columns_lines, row_types) = t;
     for c in columns_lines {
@@ -32,12 +35,12 @@ impl TryFrom<(&Columns<'_, f32>, &RowTypeMap)> for RowColumnValueMap {
   }
 }
 
-impl RowColumnValueMap {
+impl<T: FastFloat> RowColumnValueMap<T> {
   fn insert(
     &mut self,
     row_name: &str,
     column_name: &str,
-    value: f32,
+    value: T,
   ) -> Result<()> {
     match self.0.insert((row_name.to_string(), column_name.to_string()), value)
       {

@@ -1,16 +1,17 @@
 use crate::types::{BoundType, Bounds};
 use color_eyre::{eyre::eyre, Result};
+use fast_float::FastFloat;
 use hashbrown::{HashMap, HashSet};
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct BoundsMap(
-  HashMap<String, HashMap<(String, BoundType), Option<f32>>>,
+pub struct BoundsMap<T: FastFloat>(
+  HashMap<String, HashMap<(String, BoundType), Option<T>>>,
 );
 
-impl TryFrom<(&Bounds<'_, f32>, &HashSet<&str>)> for BoundsMap {
+impl<T: FastFloat> TryFrom<(&Bounds<'_, T>, &HashSet<&str>)> for BoundsMap<T> {
   type Error = color_eyre::Report;
 
-  fn try_from(t: (&Bounds<'_, f32>, &HashSet<&str>)) -> Result<Self> {
+  fn try_from(t: (&Bounds<'_, T>, &HashSet<&str>)) -> Result<Self> {
     let mut bounds = BoundsMap(HashMap::new());
     let (bounds_lines, column_names) = t;
     for b in bounds_lines {
@@ -31,13 +32,13 @@ impl TryFrom<(&Bounds<'_, f32>, &HashSet<&str>)> for BoundsMap {
   }
 }
 
-impl BoundsMap {
+impl<T: FastFloat> BoundsMap<T> {
   fn insert(
     &mut self,
     bound_name: &str,
     column_name: &str,
     bound_type: BoundType,
-    value: Option<f32>,
+    value: Option<T>,
   ) -> Result<()> {
     match self.0.get_mut(bound_name.trim()) {
       None => {

@@ -1,15 +1,16 @@
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Rhs;
 use color_eyre::{eyre::eyre, Result};
+use fast_float::FastFloat;
 use hashbrown::HashMap;
 
 #[derive(Debug, Default, Clone, PartialEq)]
-pub struct RhsMap(HashMap<String, HashMap<String, f32>>);
+pub struct RhsMap<T: FastFloat>(HashMap<String, HashMap<String, T>>);
 
-impl TryFrom<(&Rhs<'_, f32>, &RowTypeMap)> for RhsMap {
+impl<T: FastFloat> TryFrom<(&Rhs<'_, T>, &RowTypeMap)> for RhsMap<T> {
   type Error = color_eyre::Report;
 
-  fn try_from(t: (&Rhs<'_, f32>, &RowTypeMap)) -> Result<Self> {
+  fn try_from(t: (&Rhs<'_, T>, &RowTypeMap)) -> Result<Self> {
     let mut rhs = RhsMap(HashMap::new());
     let (rhs_lines, row_types) = t;
     for r in rhs_lines {
@@ -24,13 +25,8 @@ impl TryFrom<(&Rhs<'_, f32>, &RowTypeMap)> for RhsMap {
   }
 }
 
-impl RhsMap {
-  fn insert(
-    &mut self,
-    rhs_name: &str,
-    row_name: &str,
-    value: f32,
-  ) -> Result<()> {
+impl<T: FastFloat> RhsMap<T> {
+  fn insert(&mut self, rhs_name: &str, row_name: &str, value: T) -> Result<()> {
     match self.0.get_mut(rhs_name) {
       None => {
         let mut rhs = HashMap::new();

@@ -1,5 +1,6 @@
 use crate::types::*;
 use color_eyre::{eyre::OptionExt, Result};
+use fast_float::FastFloat;
 use nom::{
   branch::alt,
   bytes::complete::{tag, take_while1},
@@ -10,7 +11,6 @@ use nom::{
   IResult,
 };
 use nom_tracable::tracable_parser;
-use num_traits::float::Float;
 use std::cmp;
 cfg_if::cfg_if! {
   if #[cfg(feature = "trace")] {
@@ -65,7 +65,7 @@ fn not_whitespace1(s: Span) -> IResult<Span, &str> {
   }
 }
 
-impl<'a, T: Float> Parser<'a, T> {
+impl<'a, T: FastFloat> Parser<'a, T> {
   /// Parses an MPS formatted string into a `Parser` instance.
   ///
   /// This acts as the primary public interface for converting MPS
@@ -106,14 +106,14 @@ impl<'a, T: Float> Parser<'a, T> {
   /// ```
   pub fn parse(
     input: &'a str,
-  ) -> Result<Parser<'a, f32>, nom::error::Error<String>> {
+  ) -> Result<Parser<'a, T>, nom::error::Error<String>> {
     cfg_if::cfg_if! {
         if #[cfg(feature = "trace")] {
             let info = TracableInfo::new().forward(false).backward(false);
             let input = LocatedSpan::new_extra(input, info);
         }
     }
-    let (_, parsed) = Parser::<f32>::mps_file(input).map_err(|_| {
+    let (_, parsed) = Parser::<T>::mps_file(input).map_err(|_| {
       nom::error::Error::new(input.to_string(), nom::error::ErrorKind::Fail)
     })?;
     Ok(parsed)
@@ -135,7 +135,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// be preferred over directly calling this method.
   ///
   #[tracable_parser]
-  pub fn mps_file(s: Span<'a>) -> IResult<Span<'a>, Parser<'a, f32>> {
+  pub fn mps_file(s: Span<'a>) -> IResult<Span<'a>, Parser<'a, T>> {
     let mut p = map(
       tuple((
         Self::name,
@@ -346,8 +346,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, WideLine<f32>>`:
-  /// - On success: Contains a `WideLine<f32>` struct representing the parsed line, along with
+  /// Returns an `IResult<Span, WideLine<T>>`:
+  /// - On success: Contains a `WideLine<T>` struct representing the parsed line, along with
   ///   the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -372,13 +372,13 @@ impl<'a, T: Float> Parser<'a, T> {
   /// ```
   ///
   /// The function uses a combination of `nom`'s combinators like `map`, `preceded`, `terminated`,
-  /// and `tuple` to parse the line and construct a `WideLine<f32>` structure. It's capable of
+  /// and `tuple` to parse the line and construct a `WideLine<T>` structure. It's capable of
   /// handling optional secondary data pairs if present in the line.
   #[tracable_parser]
-  pub fn line(s: Span) -> IResult<Span, WideLine<f32>> {
+  pub fn line(s: Span) -> IResult<Span, WideLine<T>> {
     let mut p = map_res(
       terminated(preceded(tag(" "), not_line_ending), newline),
-      |line: Span| -> Result<WideLine<f32>> {
+      |line: Span| -> Result<WideLine<T>> {
         let first_pair = RowValuePair {
           row_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
           value: fast_float::parse(line.get(L4..R4).ok_or_eyre("")?.trim())?,
@@ -390,7 +390,7 @@ impl<'a, T: Float> Parser<'a, T> {
           }),
           None => None,
         };
-        Ok(WideLine::<f32> {
+        Ok(WideLine::<T> {
           name: line.get(L2..R2).ok_or_eyre("")?.trim(),
           first_pair,
           second_pair,
@@ -419,8 +419,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, WideLine<f32>>`:
-  /// - On success: Contains a `WideLine<f32>` struct representing the parsed column line,
+  /// Returns an `IResult<Span, WideLine<T>>`:
+  /// - On success: Contains a `WideLine<T>` struct representing the parsed column line,
   ///   along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -447,7 +447,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// The function essentially wraps the `line` function, providing a context-specific interface
   /// for parsing lines within the COLUMNS section of an MPS file.
   #[tracable_parser]
-  pub fn columns_line(s: Span) -> IResult<Span, WideLine<f32>> {
+  pub fn columns_line(s: Span) -> IResult<Span, WideLine<T>> {
     let p = Self::line;
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -471,8 +471,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, Vec<WideLine<f32>>>`:
-  /// - On success: Contains a vector of `WideLine<f32>` structs representing the parsed column
+  /// Returns an `IResult<Span, Vec<WideLine<T>>>`:
+  /// - On success: Contains a vector of `WideLine<T>` structs representing the parsed column
   ///   entries, along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -500,7 +500,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// The function employs `many0` to parse column lines and collects them into a vector.
   /// It uses `terminated` and `preceded` combinators to delineate the start and end of the COLUMNS section.
   #[tracable_parser]
-  pub fn columns(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+  pub fn columns(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     let mut p = terminated(
       preceded(
         terminated(tag("COLUMNS"), newline),
@@ -531,8 +531,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, WideLine<f32>>`:
-  /// - On success: Contains a `WideLine<f32>` struct representing the parsed RHS line,
+  /// Returns an `IResult<Span, WideLine<T>>`:
+  /// - On success: Contains a `WideLine<T>` struct representing the parsed RHS line,
   ///   along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -559,7 +559,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// The function essentially wraps the `line` function, providing a context-specific interface
   /// for parsing lines within the RHS section of an MPS file.
   #[tracable_parser]
-  pub fn rhs_line(s: Span) -> IResult<Span, WideLine<f32>> {
+  pub fn rhs_line(s: Span) -> IResult<Span, WideLine<T>> {
     let p = Self::line;
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -583,8 +583,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, Vec<WideLine<f32>>>`:
-  /// - On success: Contains a vector of `WideLine<f32>` structs representing the parsed RHS
+  /// Returns an `IResult<Span, Vec<WideLine<T>>>`:
+  /// - On success: Contains a vector of `WideLine<T>` structs representing the parsed RHS
   ///   entries, along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -612,7 +612,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// The function employs `many0` to parse RHS lines and collects them into a vector.
   /// It uses `terminated` and `preceded` combinators to delineate the start and end of the RHS section.
   #[tracable_parser]
-  pub fn rhs(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+  pub fn rhs(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     let mut p = terminated(
       preceded(terminated(tag("RHS"), newline), many0(Self::rhs_line)),
       peek(not_whitespace1),
@@ -639,8 +639,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, WideLine<f32>>`:
-  /// - On success: Contains a `WideLine<f32>` struct representing the parsed range line,
+  /// Returns an `IResult<Span, WideLine<T>>`:
+  /// - On success: Contains a `WideLine<T>` struct representing the parsed range line,
   ///   along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -667,7 +667,7 @@ impl<'a, T: Float> Parser<'a, T> {
   /// This function wraps the `line` function to provide a context-specific interface for parsing
   /// lines within the RANGES section of an MPS file.
   #[tracable_parser]
-  pub fn ranges_line(s: Span) -> IResult<Span, WideLine<f32>> {
+  pub fn ranges_line(s: Span) -> IResult<Span, WideLine<T>> {
     let p = Self::line;
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -689,8 +689,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, Vec<WideLine<f32>>>`:
-  /// - On success: Provides a vector of `WideLine<f32>` structs, each representing a parsed range line,
+  /// Returns an `IResult<Span, Vec<WideLine<T>>>`:
+  /// - On success: Provides a vector of `WideLine<T>` structs, each representing a parsed range line,
   ///   along with the remaining unparsed input.
   /// - On failure: Results in a parsing error.
   ///
@@ -716,7 +716,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// This function uses `ranges_line` in a loop to parse and accumulate all range lines within the RANGES section.
   #[tracable_parser]
-  pub fn ranges(s: Span) -> IResult<Span, Vec<WideLine<f32>>> {
+  pub fn ranges(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     let mut p = terminated(
       preceded(terminated(tag("RANGES"), newline), many0(Self::ranges_line)),
       peek(not_whitespace1),
@@ -810,8 +810,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, BoundsLine<f32>>`:
-  /// - On success: Contains a `BoundsLine<f32>` struct representing the parsed bounds line, along with the remaining unparsed input.
+  /// Returns an `IResult<Span, BoundsLine<T>>`:
+  /// - On success: Contains a `BoundsLine<T>` struct representing the parsed bounds line, along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
   /// # Errors
@@ -836,14 +836,14 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// This function provides a specialized method for parsing lines in the BOUNDS section of an MPS file.
   #[tracable_parser]
-  pub fn bounds_line(s: Span) -> IResult<Span, BoundsLine<f32>> {
+  pub fn bounds_line(s: Span) -> IResult<Span, BoundsLine<T>> {
     let mut p = map_res(
       terminated(preceded(tag(" "), not_line_ending), newline),
-      |line: Span| -> Result<BoundsLine<f32>> {
+      |line: Span| -> Result<BoundsLine<T>> {
         let length = line.len();
         let bound_type = BoundType::try_from(line.get(L1..R1).ok_or_eyre("")?)?;
         Ok(match bound_type {
-          BoundType::Fr | BoundType::Pl => BoundsLine::<f32> {
+          BoundType::Fr | BoundType::Pl => BoundsLine::<T> {
             bound_type,
             bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
             column_name: line
@@ -852,7 +852,7 @@ impl<'a, T: Float> Parser<'a, T> {
               .trim(),
             value: None,
           },
-          _ => BoundsLine::<f32> {
+          _ => BoundsLine::<T> {
             bound_type,
             bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
             column_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
@@ -883,8 +883,8 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// # Returns
   ///
-  /// Returns an `IResult<Span, Vec<BoundsLine<f32>>>`:
-  /// - On success: Contains a vector of `BoundsLine<f32>` structs, each representing a parsed bounds line,
+  /// Returns an `IResult<Span, Vec<BoundsLine<T>>>`:
+  /// - On success: Contains a vector of `BoundsLine<T>` structs, each representing a parsed bounds line,
   ///   along with the remaining unparsed input.
   /// - On failure: Contains a parsing error.
   ///
@@ -910,7 +910,7 @@ impl<'a, T: Float> Parser<'a, T> {
   ///
   /// This function sequentially parses each line in the BOUNDS section to build a comprehensive list of bounds for the model.
   #[tracable_parser]
-  pub fn bounds(s: Span) -> IResult<Span, Vec<BoundsLine<f32>>> {
+  pub fn bounds(s: Span) -> IResult<Span, Vec<BoundsLine<T>>> {
     let mut p = terminated(
       preceded(terminated(tag("BOUNDS"), newline), many0(Self::bounds_line)),
       peek(not_whitespace1),
