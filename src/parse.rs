@@ -254,18 +254,18 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   #[tracable_parser]
   pub fn row_line(s: Span) -> IResult<Span, RowLine> {
     let mut p = map_res(
-      preceded(
-        tag(" "),
-        terminated(
-          separated_pair(one_of("ELGN"), multispace1, not_whitespace1),
-          newline,
-        ),
+      terminated(
+        preceded(tag(" "), tuple((one_of("ELGN"), not_line_ending))),
+        newline,
       ),
-      |(t, n)| -> Result<RowLine> {
-        Ok(RowLine {
-          row_type: RowType::try_from(t)?,
-          row_name: n.trim(),
-        })
+      |t: (char, Span)| -> Result<RowLine> {
+        let line = t.1;
+        let row_type = RowType::try_from(t.0)?;
+        let row_name = line // -1 to account for the type char
+          .get((L2 - 1)..cmp::min(line.len(), R2 - 1))
+          .ok_or_eyre("")?
+          .trim();
+        Ok(RowLine { row_type, row_name })
       },
     );
     cfg_if::cfg_if! {
