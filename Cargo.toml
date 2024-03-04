@@ -26,7 +26,7 @@ serde = { version = "1.0.195", features = ["serde_derive"], optional = true }
 
 [dev-dependencies]
 criterion = { version = "0.5.1", features = ["html_reports"] }
-insta = { version = "1.34.0", features = ["yaml"] }
+insta = { version = "1.36.1", features = ["yaml"] }
 proptest = { version = "1.4.0", features = ["timeout", "std"] }
 
 [[bench]]
