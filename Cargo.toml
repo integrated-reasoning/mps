@@ -15,7 +15,7 @@ categories = ["parser-implementations", "mathematics", "encoding", "science",  "
 
 [dependencies]
 cfg-if = "1.0.0"
-clap = { version = "4.4.11", features = ["derive"], optional = true }
+clap = { version = "4.5.2", features = ["derive"], optional = true }
 color-eyre = "0.6.2"
 fast-float = "0.2.0"
 hashbrown = { version = "0.14.3", features = ["serde"] }
