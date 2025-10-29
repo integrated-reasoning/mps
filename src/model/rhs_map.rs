@@ -2,19 +2,19 @@ use crate::model::row_type_map::RowTypeMap;
 use crate::types::Rhs;
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
-use hashbrown::HashMap;
+use indexmap::IndexMap;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RhsMap<T: FastFloat>(HashMap<String, HashMap<String, T>>);
+pub struct RhsMap<T: FastFloat>(IndexMap<String, IndexMap<String, T>>);
 
 impl<T: FastFloat> TryFrom<(&Rhs<'_, T>, &RowTypeMap)> for RhsMap<T> {
   type Error = color_eyre::Report;
 
   fn try_from(t: (&Rhs<'_, T>, &RowTypeMap)) -> Result<Self> {
-    let mut rhs = RhsMap(HashMap::new());
+    let mut rhs = RhsMap(IndexMap::new());
     let (rhs_lines, row_types) = t;
     for r in rhs_lines {
       row_types.exists(r.first_pair.row_name)?;
@@ -32,7 +32,7 @@ impl<T: FastFloat> RhsMap<T> {
   fn insert(&mut self, rhs_name: &str, row_name: &str, value: T) -> Result<()> {
     match self.0.get_mut(rhs_name) {
       None => {
-        let mut rhs = HashMap::new();
+        let mut rhs = IndexMap::new();
         rhs.insert(row_name.to_string(), value);
         self.0.insert(rhs_name.to_string(), rhs);
         Ok(())

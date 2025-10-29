@@ -1,18 +1,18 @@
 use crate::types::{RowType, Rows};
 use color_eyre::{eyre::eyre, Result};
-use hashbrown::HashMap;
+use indexmap::IndexMap;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RowTypeMap(HashMap<String, RowType>);
+pub struct RowTypeMap(IndexMap<String, RowType>);
 
 impl TryFrom<&Rows<'_>> for RowTypeMap {
   type Error = color_eyre::Report;
 
   fn try_from(rows: &Rows<'_>) -> Result<Self> {
-    let mut row_types = HashMap::new();
+    let mut row_types = IndexMap::new();
     for r in rows {
       match row_types.insert(r.row_name.to_string(), r.row_type.clone()) {
         Some(row_type) => Err(eyre!(format!(

@@ -19,6 +19,7 @@ clap = { version = "4.5", features = ["derive"], optional = true }
 color-eyre = "0.6"
 fast-float = "0.2"
 hashbrown = { version = "0.15", features = ["serde"] }
+indexmap = { version = "2.0", features = ["serde"] }
 nom = "7.1"
 nom-tracable = "0.9"
 nom_locate = "4.2"

@@ -29,9 +29,9 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let _ = Parser::<f32>::row_line(LocatedSpan::new_extra(&s, info));
+          let _ = Parser::<f32>::row_line_or_end(LocatedSpan::new_extra(&s, info));
         } else {
-          let _ = Parser::<f32>::row_line(&s);
+          let _ = Parser::<f32>::row_line_or_end(&s);
         }
       }
     }

@@ -93,10 +93,10 @@ mod tests {
       cfg_if::cfg_if! {
         if #[cfg(feature = "trace")] {
           let info = TracableInfo::new().forward(false).backward(false);
-          let (s, x) = Parser::<f32>::row_line(LocatedSpan::new_extra(case.input, info))?;
+          let (s, x) = Parser::<f32>::row_line_or_end(LocatedSpan::new_extra(case.input, info))?;
           assert_eq!((*s.fragment(), x), case.expected);
         } else {
-          let (s, x) = Parser::<f32>::row_line(case.input)?;
+          let (s, x) = Parser::<f32>::row_line_or_end(case.input)?;
           assert_eq!((s, x), case.expected);
         }
       }
@@ -286,7 +286,7 @@ mod tests {
           "    RHS1      LIM1                 5   LIM2                10\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "RHS1",
             first_pair: RowValuePair {
               row_name: "LIM1",
@@ -296,21 +296,21 @@ mod tests {
               row_name: "LIM2",
               value: 10.0,
             }),
-          },
+          }),
         ),
       },
       TestData {
         input: "    RHS1      MYEQN                7\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "RHS1",
             first_pair: RowValuePair {
               row_name: "MYEQN",
               value: 7.0,
             },
             second_pair: None,
-          },
+          }),
         ),
       },
     ];
@@ -383,7 +383,7 @@ mod tests {
           "    RANGE1    VILLKOR6           2.5   VILLKOR7           30.\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "RANGE1",
             first_pair: RowValuePair {
               row_name: "VILLKOR6",
@@ -393,21 +393,21 @@ mod tests {
               row_name: "VILLKOR7",
               value: 30.0,
             }),
-          },
+          }),
         ),
       },
       TestData {
         input: "    RANGE1    VILLKOR8           7.5\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "RANGE1",
             first_pair: RowValuePair {
               row_name: "VILLKOR8",
               value: 7.5,
             },
             second_pair: None,
-          },
+          }),
         ),
       },
     ];
@@ -546,36 +546,36 @@ mod tests {
         input: " UP BND1      XONE                 4\n",
         expected: (
           "",
-          BoundsLine {
+          Some(BoundsLine {
             bound_type: BoundType::Up,
             bound_name: "BND1",
             column_name: "XONE",
             value: Some(4.0),
-          },
+          }),
         ),
       },
       TestData {
         input: " LO BND1      YTWO                -1\n",
         expected: (
           "",
-          BoundsLine {
+          Some(BoundsLine {
             bound_type: BoundType::Lo,
             bound_name: "BND1",
             column_name: "YTWO",
             value: Some(-1.0),
-          },
+          }),
         ),
       },
       TestData {
         input: " UP BND1      YTWO                 1\n",
         expected: (
           "",
-          BoundsLine {
+          Some(BoundsLine {
             bound_type: BoundType::Up,
             bound_name: "BND1",
             column_name: "YTWO",
             value: Some(1.0),
-          },
+          }),
         ),
       },
     ];

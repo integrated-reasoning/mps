@@ -1,21 +1,22 @@
 use crate::types::{BoundType, Bounds};
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
-use hashbrown::{HashMap, HashSet};
+use hashbrown::HashSet;
+use indexmap::IndexMap;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct BoundsMap<T: FastFloat>(
-  HashMap<String, HashMap<(String, BoundType), Option<T>>>,
+  IndexMap<String, IndexMap<(String, BoundType), Option<T>>>,
 );
 
 impl<T: FastFloat> TryFrom<(&Bounds<'_, T>, &HashSet<&str>)> for BoundsMap<T> {
   type Error = color_eyre::Report;
 
   fn try_from(t: (&Bounds<'_, T>, &HashSet<&str>)) -> Result<Self> {
-    let mut bounds = BoundsMap(HashMap::new());
+    let mut bounds = BoundsMap(IndexMap::new());
     let (bounds_lines, column_names) = t;
     for b in bounds_lines {
       match column_names.get(b.column_name.trim()) {
@@ -45,7 +46,7 @@ impl<T: FastFloat> BoundsMap<T> {
   ) -> Result<()> {
     match self.0.get_mut(bound_name.trim()) {
       None => {
-        let mut bounds = HashMap::new();
+        let mut bounds = IndexMap::new();
         bounds.insert((column_name.trim().to_string(), bound_type), value);
         self.0.insert(bound_name.trim().to_string(), bounds);
         Ok(())

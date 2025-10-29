@@ -2,13 +2,13 @@ use crate::model::row_type_map::RowTypeMap;
 use crate::types::Columns;
 use color_eyre::{eyre::eyre, Result};
 use fast_float::FastFloat;
-use hashbrown::HashMap;
+use indexmap::IndexMap;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RowColumnValueMap<T: FastFloat>(HashMap<(String, String), T>);
+pub struct RowColumnValueMap<T: FastFloat>(IndexMap<(String, String), T>);
 
 impl<T: FastFloat> TryFrom<(&Columns<'_, T>, &RowTypeMap)>
   for RowColumnValueMap<T>
@@ -16,7 +16,7 @@ impl<T: FastFloat> TryFrom<(&Columns<'_, T>, &RowTypeMap)>
   type Error = color_eyre::Report;
 
   fn try_from(t: (&Columns<'_, T>, &RowTypeMap)) -> Result<Self> {
-    let mut row_column_values = RowColumnValueMap(HashMap::new());
+    let mut row_column_values = RowColumnValueMap(IndexMap::new());
     let (columns_lines, row_types) = t;
     for c in columns_lines {
       row_types.exists(c.first_pair.row_name)?;
