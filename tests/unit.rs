@@ -648,6 +648,9 @@ mod tests {
         "\n",
         Parser {
           name: "AFIRO",
+          objective_sense: None,
+          objective_name: None,
+          reference_row: None,
           rows: vec![
             RowLine {
               row_type: RowType::Eq,
@@ -1303,6 +1306,14 @@ mod tests {
           ]),
           ranges: None,
           bounds: None,
+          user_cuts: None,
+          indicators: None,
+          lazy_constraints: None,
+          quadratic_objective: None,
+          special_ordered_sets: None,
+          quadratic_constraints: None,
+          cone_constraints: None,
+          branch_priorities: None,
         },
       ),
     }];
@@ -1345,6 +1356,516 @@ mod tests {
         }
       }
     }
+    Ok(())
+  }
+
+  #[test]
+  fn test_objsen() -> Result<()> {
+    let test_cases = vec![
+      TestData {
+        input: "OBJSENSE\nMAX\n",
+        expected: ("", ObjectiveSense::Max),
+      },
+      TestData {
+        input: "OBJSENSE\nMIN\n",
+        expected: ("", ObjectiveSense::Min),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::objsen(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::objsen(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_objname() -> Result<()> {
+    let test_cases = vec![
+      TestData {
+        input: "OBJNAME\nmy_objective\n",
+        expected: ("", "my_objective"),
+      },
+      TestData {
+        input: "OBJNAME\nobjective_row\n",
+        expected: ("", "objective_row"),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::objname(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::objname(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_refrow() -> Result<()> {
+    let test_cases = vec![
+      TestData {
+        input: "REFROW\nweights\n",
+        expected: ("", "weights"),
+      },
+      TestData {
+        input: "REFROW\nref_constraint\n",
+        expected: ("", "ref_constraint"),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::refrow(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::refrow(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_usercuts() -> Result<()> {
+    let test_cases = vec![TestData {
+      input: "USERCUTS\n E  cut1\n E  cut2\n E  cut3\nROWS",
+      expected: (
+        "ROWS",
+        vec![
+          RowLine {
+            row_type: RowType::Eq,
+            row_name: "cut1",
+          },
+          RowLine {
+            row_type: RowType::Eq,
+            row_name: "cut2",
+          },
+          RowLine {
+            row_type: RowType::Eq,
+            row_name: "cut3",
+          },
+        ],
+      ),
+    }];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::usercuts(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::usercuts(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_qmatrix_line() -> Result<()> {
+    let test_cases = vec![
+      TestData {
+        input: " x y 2.5\n",
+        expected: (
+          "",
+          Some(QuadraticTerm {
+            var1: "x",
+            var2: "y",
+            coefficient: 2.5,
+          }),
+        ),
+      },
+      TestData {
+        input: " a b -1.0\n",
+        expected: (
+          "",
+          Some(QuadraticTerm {
+            var1: "a",
+            var2: "b",
+            coefficient: -1.0,
+          }),
+        ),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::qmatrix_line(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::qmatrix_line(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_qmatrix() -> Result<()> {
+    let test_cases = vec![TestData {
+      input: "QMATRIX\n x y 2.0\n x x 1.0\n y y 7.0\nENDATA",
+      expected: (
+        "ENDATA",
+        vec![QuadraticConstraint {
+          row_name: "OBJ",
+          terms: vec![
+            QuadraticTerm {
+              var1: "x",
+              var2: "y",
+              coefficient: 2.0,
+            },
+            QuadraticTerm {
+              var1: "x",
+              var2: "x",
+              coefficient: 1.0,
+            },
+            QuadraticTerm {
+              var1: "y",
+              var2: "y",
+              coefficient: 7.0,
+            },
+          ],
+        }],
+      ),
+    }];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::qmatrix(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::qmatrix(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_csection() -> Result<()> {
+    let test_cases = vec![TestData {
+      input: "CSECTION\n QUAD\n x\n y\n z\nENDATA",
+      expected: (
+        "ENDATA",
+        vec![ConeConstraint {
+          cone_name: "CONE",
+          cone_type: ConeType::Quad,
+          members: vec![
+            ConeMember {
+              var_name: "x",
+              coefficient: None,
+            },
+            ConeMember {
+              var_name: "y",
+              coefficient: None,
+            },
+            ConeMember {
+              var_name: "z",
+              coefficient: None,
+            },
+          ],
+        }],
+      ),
+    }];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::csection(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::csection(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  #[test]
+  fn test_qsection() -> Result<()> {
+    let test_cases = vec![TestData {
+      input: "QSECTION\n x y 2.0\n x x 1.0\n y y 7.0\nENDATA",
+      expected: (
+        "ENDATA",
+        vec![
+          QuadraticObjectiveTerm {
+            var1: "x",
+            var2: "y",
+            coefficient: 2.0,
+          },
+          QuadraticObjectiveTerm {
+            var1: "x",
+            var2: "x",
+            coefficient: 1.0,
+          },
+          QuadraticObjectiveTerm {
+            var1: "y",
+            var2: "y",
+            coefficient: 7.0,
+          },
+        ],
+      ),
+    }];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::qsection(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::qsection(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  /// Comprehensive integration test with all section types in correct CPLEX order
+  #[test]
+  fn test_full_mps_with_all_sections() -> Result<()> {
+    let input = r#"NAME          FULLTEST
+OBJSENSE
+MAX
+OBJNAME
+cost
+REFROW
+weights
+ROWS
+ N  cost
+ L  c1
+ E  c2
+ G  c3
+USERCUTS
+ L  cut1
+COLUMNS
+    x1        cost                 1.0   c1                    -1.0
+    x1        c2                   1.0
+    x2        cost                 2.0   c1                    1.0
+    x2        c2                   -3.0  c3                    1.0
+    x3        cost                 3.0   c1                    1.0
+    x3        c2                   1.0
+RHS
+    rhs1      c1                  20.0   c2                   30.0
+RANGES
+    rng1      c1                  15.0
+BOUNDS
+ UP bnd1      x1                  40.0
+ LO bnd1      x2                   0.0
+ FX bnd1      x3                   5.0
+SOS
+ S1 set1
+    x1 1.0
+    x2 2.0
+QSECTION
+    x1        x1                  2.0
+    x1        x2                  1.0
+    x2        x2                  3.0
+QCMATRIX      qc1
+    x1        x1                  1.0
+    x1        x2                  0.5
+    x2        x2                  1.5
+INDICATORS
+ IF c1 x2 1
+LAZYCONS
+    L  lazy1
+ENDATA
+"#;
+
+    let parser = Parser::<f64>::parse(input)?;
+
+    // Verify core sections
+    assert_eq!(parser.name, "FULLTEST");
+    assert_eq!(parser.objective_sense, Some(ObjectiveSense::Max));
+    assert_eq!(parser.objective_name, Some("cost"));
+    assert_eq!(parser.reference_row, Some("weights"));
+
+    // Verify required sections
+    // 4 rows: cost (N), c1 (L), c2 (E), c3 (G), cut1 (L in USERCUTS)
+    assert_eq!(parser.rows.len(), 4);
+    // 6 column lines: x1 appears twice, x2 appears twice, x3 appears twice
+    // (each variable can appear on multiple lines if it has coefficients in multiple rows)
+    assert_eq!(parser.columns.len(), 6);
+
+    // Verify optional core sections
+    assert!(parser.rhs.is_some());
+    assert!(parser.ranges.is_some());
+    assert!(parser.bounds.is_some());
+
+    // Verify user cuts
+    assert!(parser.user_cuts.is_some());
+    assert_eq!(parser.user_cuts.as_ref().unwrap().len(), 1);
+
+    // Verify MIP/QP extensions
+    assert!(parser.special_ordered_sets.is_some());
+    assert_eq!(parser.special_ordered_sets.as_ref().unwrap().len(), 1);
+
+    // Verify quadratic objective
+    assert!(parser.quadratic_objective.is_some());
+    assert_eq!(parser.quadratic_objective.as_ref().unwrap().len(), 3);
+
+    // Verify quadratic constraints
+    assert!(parser.quadratic_constraints.is_some());
+    assert_eq!(parser.quadratic_constraints.as_ref().unwrap().len(), 1);
+
+    // Verify indicators
+    assert!(parser.indicators.is_some());
+    assert_eq!(parser.indicators.as_ref().unwrap().len(), 1);
+
+    // Verify lazy constraints
+    assert!(parser.lazy_constraints.is_some());
+    assert_eq!(parser.lazy_constraints.as_ref().unwrap().len(), 1);
+
+    Ok(())
+  }
+
+  /// Test that SOS section correctly follows BOUNDS (per CPLEX spec)
+  #[test]
+  fn test_sos_section_ordering() -> Result<()> {
+    let input = r#"NAME          SOSTEST
+ROWS
+ N  obj
+ L  c1
+COLUMNS
+    x1        obj                  1.0   c1                    1.0
+    x2        obj                  2.0   c1                    1.0
+    x3        obj                  3.0   c1                    1.0
+RHS
+    rhs1      c1                  10.0
+BOUNDS
+ UP bnd1      x1                  10.0
+ UP bnd1      x2                  10.0
+ UP bnd1      x3                  10.0
+SOS
+ S1 sos_set
+    x1 1.0
+    x2 2.0
+    x3 3.0
+ENDATA
+"#;
+
+    let parser = Parser::<f64>::parse(input)?;
+    assert!(parser.special_ordered_sets.is_some());
+    assert_eq!(parser.special_ordered_sets.as_ref().unwrap().len(), 1);
+
+    let sos = &parser.special_ordered_sets.as_ref().unwrap()[0];
+    assert_eq!(sos.sos_type, SOSType::S1);
+    assert_eq!(sos.set_name, "sos_set");
+    assert_eq!(sos.members.len(), 3);
+
+    Ok(())
+  }
+
+  /// Test QMATRIX vs QSECTION equivalence
+  #[test]
+  fn test_qmatrix_vs_qsection() -> Result<()> {
+    let qmatrix_input = r#"NAME          QTEST
+ROWS
+ N  obj
+ L  c1
+COLUMNS
+    x         obj                  1.0   c1                    1.0
+    y         obj                  1.0   c1                    1.0
+RHS
+    rhs1      c1                  10.0
+QMATRIX
+    x         x                    1.0
+    x         y                    2.0
+    y         x                    2.0
+    y         y                    7.0
+ENDATA
+"#;
+
+    let qsection_input = r#"NAME          QTEST
+ROWS
+ N  obj
+ L  c1
+COLUMNS
+    x         obj                  1.0   c1                    1.0
+    y         obj                  1.0   c1                    1.0
+RHS
+    rhs1      c1                  10.0
+QSECTION
+    x         x                    1.0
+    x         y                    2.0
+    y         y                    7.0
+ENDATA
+"#;
+
+    let qmatrix_parser = Parser::<f64>::parse(qmatrix_input)?;
+    let qsection_parser = Parser::<f64>::parse(qsection_input)?;
+
+    // Both should have quadratic objective terms
+    assert!(qmatrix_parser.quadratic_objective.is_some());
+    assert!(qsection_parser.quadratic_objective.is_some());
+
+    // QMATRIX includes all terms (including symmetric: x-y and y-x)
+    // QSECTION only includes upper diagonal (x-y but not y-x)
+    let qmatrix_terms = qmatrix_parser.quadratic_objective.as_ref().unwrap();
+    let qsection_terms = qsection_parser.quadratic_objective.as_ref().unwrap();
+
+    // QMATRIX should have 4 terms, QSECTION should have 3
+    assert_eq!(qmatrix_terms.len(), 4);
+    assert_eq!(qsection_terms.len(), 3);
+
+    Ok(())
+  }
+
+  /// Test indicator constraints with correct format
+  #[test]
+  fn test_indicators_format() -> Result<()> {
+    let input = r#"NAME          INDTEST
+ROWS
+ N  obj
+ L  c1
+ E  c2
+COLUMNS
+    x         obj                  1.0
+    y         c1                   1.0
+    z         c2                   1.0
+BOUNDS
+ UI bnd1      y                    1.0
+INDICATORS
+ IF c1 y 1
+ IF c2 y 0
+ENDATA
+"#;
+
+    let parser = Parser::<f64>::parse(input)?;
+    assert!(parser.indicators.is_some());
+
+    let indicators = parser.indicators.as_ref().unwrap();
+    assert_eq!(indicators.len(), 2);
+
+    assert_eq!(indicators[0].constraint_name, "c1");
+    assert_eq!(indicators[0].binary_var, "y");
+    assert_eq!(indicators[0].trigger_value, 1);
+
+    assert_eq!(indicators[1].constraint_name, "c2");
+    assert_eq!(indicators[1].binary_var, "y");
+    assert_eq!(indicators[1].trigger_value, 0);
+
     Ok(())
   }
 }

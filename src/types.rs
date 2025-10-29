@@ -28,35 +28,91 @@ cfg_if::cfg_if! {
 
 /// The primary structure for parsing MPS (Mathematical Programming System) data.
 ///
-/// `Parser` is responsible for holding the structured representation of the parsed MPS file.
-/// It encapsulates all the main components of an MPS file, including rows, columns, and various
-/// optional sections like right-hand side (RHS) values, ranges, and bounds.
+/// `Parser` holds the structured representation of a parsed MPS file, supporting both standard
+/// MPS format and CPLEX extensions for mixed-integer programming (MIP) and quadratic programming (QP).
 ///
 /// # Type Parameters
 ///
-/// * `'a`: Lifetime parameter, indicating that the fields in `Parser` hold references to the string data.
-/// * `T`: A type parameter bounded by the `FastFloat` trait, representing the numeric type used for values in the MPS data.
+/// * `'a`: Lifetime parameter indicating that fields hold references to the input string data.
+/// * `T`: Numeric type bounded by `FastFloat` (f32, f64, etc.) for floating-point values.
 ///
-/// # Fields
+/// # Fields - Core Sections
 ///
-/// * `name`: A string slice holding the name of the MPS problem.
-/// * `rows`: A vector of `RowLine` instances, representing the rows defined in the MPS file.
-/// * `columns`: A vector of `WideLine` instances, representing the columns and their associated data.
-/// * `rhs`: An optional vector of `WideLine` instances, representing the right-hand side values for constraints.
-/// * `ranges`: An optional vector representing the ranges associated with constraints.
-/// * `bounds`: An optional vector representing the bounds on the variables.
+/// * `name`: Problem name from NAME section
+/// * `rows`: Row definitions (constraints) from ROWS section
+/// * `columns`: Column definitions (variables) and coefficients from COLUMNS section
+/// * `rhs`: Right-hand side values from optional RHS section
+/// * `ranges`: Range constraints from optional RANGES section
+/// * `bounds`: Variable bounds from optional BOUNDS section
 ///
-/// Each of these fields corresponds to a specific section of the MPS format, allowing for a comprehensive
-/// representation of the MPS file structure.
-#[derive(Debug, Default, Clone, PartialEq, Eq, Hash)]
+/// # Fields - CPLEX Extensions (MIP/QP)
+///
+/// * `objective_sense`: Optimization direction (MIN or MAX) from optional OBJSENSE section
+/// * `objective_name`: Explicit objective row name from optional OBJNAME section
+/// * `reference_row`: Reference row for SOS weights from optional REFROW section
+/// * `user_cuts`: User-defined cuts from optional USERCUTS section
+/// * `special_ordered_sets`: SOS definitions from optional SOS section (must follow BOUNDS)
+/// * `quadratic_objective`: Quadratic objective terms from QSECTION/QUADOBJ/QMATRIX sections
+/// * `quadratic_constraints`: Quadratic constraint terms from optional QCMATRIX sections
+/// * `indicators`: Indicator constraints from optional INDICATORS section
+/// * `lazy_constraints`: Lazy constraints from optional LAZYCONS section
+/// * `cone_constraints`: Second-order cone constraints from optional CSECTION
+///
+/// # Section Ordering
+///
+/// The parser enforces CPLEX MPS format section ordering to ensure spec compliance:
+/// NAME → [OBJSENSE] → [OBJNAME] → [REFROW] → ROWS → [USERCUTS] → COLUMNS → [RHS] →
+/// [RANGES] → [BOUNDS] → [SOS] → [QSECTION/QUADOBJ/QMATRIX] → [QCMATRIX]* → [CSECTION] →
+/// [INDICATORS] → [LAZYCONS] → ENDATA
+///
+/// # Example
+///
+/// ```ignore
+/// let parser: Parser<f64> = Parser::parse(mps_content)?;
+/// println!("Problem: {}", parser.name);
+/// println!("Rows: {}", parser.rows.len());
+/// println!("Columns: {}", parser.columns.len());
+/// if let Some(obj) = &parser.quadratic_objective {
+///   println!("Quadratic objective terms: {}", obj.len());
+/// }
+/// ```
+#[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct Parser<'a, T: FastFloat> {
+  /// Problem name from NAME section
   pub name: &'a str,
+  /// Objective sense (MIN/MAX) from optional OBJSENSE section
+  pub objective_sense: Option<ObjectiveSense>,
+  /// Objective function row name from optional OBJNAME section
+  pub objective_name: Option<&'a str>,
+  /// Reference row for SOS weighting from optional REFROW section
+  pub reference_row: Option<&'a str>,
+  /// Row constraints from ROWS section
   pub rows: Rows<'a>,
+  /// Column variables from COLUMNS section
   pub columns: Columns<'a, T>,
+  /// Right-hand side values from optional RHS section
   pub rhs: Option<Rhs<'a, T>>,
+  /// Range constraints from optional RANGES section
   pub ranges: Option<Ranges<'a, T>>,
+  /// Variable bounds from optional BOUNDS section
   pub bounds: Option<Bounds<'a, T>>,
+  /// User-defined cuts from optional USERCUTS section
+  pub user_cuts: Option<UserCuts<'a>>,
+  /// Special ordered sets from optional SOS section
+  pub special_ordered_sets: Option<SpecialOrderedSets<'a, T>>,
+  /// Quadratic objective terms from QSECTION/QUADOBJ/QMATRIX sections
+  pub quadratic_objective: Option<QuadraticObjective<'a, T>>,
+  /// Quadratic constraint terms from optional QCMATRIX sections
+  pub quadratic_constraints: Option<QuadraticConstraints<'a, T>>,
+  /// Indicator constraints from optional INDICATORS section
+  pub indicators: Option<Indicators<'a>>,
+  /// Lazy constraints from optional LAZYCONS section
+  pub lazy_constraints: Option<LazyConstraints<'a>>,
+  /// Second-order cone constraints from optional CSECTION
+  pub cone_constraints: Option<ConeConstraints<'a, T>>,
+  /// Branching priorities from optional BRANCH section
+  pub branch_priorities: Option<BranchPriorities<'a>>,
 }
 
 /// Represents a single row in an MPS (Mathematical Programming System) file.
@@ -124,6 +180,16 @@ impl TryFrom<char> for RowType {
       _ => Err(eyre!("invalid row type")),
     }
   }
+}
+
+/// Enumeration representing the objective function sense (minimize or maximize)
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub enum ObjectiveSense {
+  /// Minimize the objective function
+  Min,
+  /// Maximize the objective function
+  Max,
 }
 
 /// Type alias for a collection of `RowLine` instances.
@@ -349,3 +415,232 @@ pub enum RangeType {
   _Em, // Equality with negative R_i
   _Ez, // Equality with unspecified R_i
 }
+
+// ============================================================================
+// MIP/QP Extension Types
+// ============================================================================
+
+/// Represents an indicator constraint in MIP problems
+/// Format: IF binary_var = 0/1 THEN constraint is active
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct IndicatorLine<'a> {
+  /// Binary variable name
+  pub binary_var: &'a str,
+  /// Value that triggers the constraint (0 or 1)
+  pub trigger_value: u8,
+  /// Row/constraint name that is activated
+  pub constraint_name: &'a str,
+}
+
+/// Collection of indicator constraints
+pub type Indicators<'a> = Vec<IndicatorLine<'a>>;
+
+/// Represents a lazy constraint (constraint that's only added when violated)
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct LazyConstraintLine<'a> {
+  /// Priority level (higher = checked first)
+  pub priority: Option<i32>,
+  /// Constraint row name
+  pub row_name: &'a str,
+}
+
+/// Collection of lazy constraints
+pub type LazyConstraints<'a> = Vec<LazyConstraintLine<'a>>;
+
+/// Collection of user-defined cuts (same format as rows)
+pub type UserCuts<'a> = Vec<RowLine<'a>>;
+
+/// Represents a quadratic term in the objective function
+/// For term: coefficient * var1 * var2
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct QuadraticObjectiveTerm<'a, T: FastFloat> {
+  /// First variable in the quadratic term
+  pub var1: &'a str,
+  /// Second variable in the quadratic term
+  pub var2: &'a str,
+  /// Coefficient of the quadratic term
+  pub coefficient: T,
+}
+
+/// Collection of quadratic objective terms
+pub type QuadraticObjective<'a, T> = Vec<QuadraticObjectiveTerm<'a, T>>;
+
+/// Type of Special Ordered Set
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub enum SOSType {
+  /// Type 1: At most one variable can be non-zero
+  S1,
+  /// Type 2: At most two adjacent variables can be non-zero
+  S2,
+}
+
+impl TryFrom<&str> for SOSType {
+  type Error = color_eyre::Report;
+
+  fn try_from(s: &str) -> Result<Self> {
+    match s {
+      "S1" => Ok(SOSType::S1),
+      "S2" => Ok(SOSType::S2),
+      _ => Err(eyre!("invalid SOS type: {}", s)),
+    }
+  }
+}
+
+/// Special Ordered Set definition
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct SOSLine<'a, T: FastFloat> {
+  /// Type of SOS (S1 or S2)
+  pub sos_type: SOSType,
+  /// Name of the SOS set
+  pub set_name: &'a str,
+  /// Variables in the set with their weights
+  pub members: Vec<SOSMember<'a, T>>,
+}
+
+/// Member of a Special Ordered Set
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct SOSMember<'a, T: FastFloat> {
+  /// Variable name
+  pub var_name: &'a str,
+  /// Weight/priority in the SOS
+  pub weight: T,
+}
+
+/// Collection of Special Ordered Sets
+pub type SpecialOrderedSets<'a, T> = Vec<SOSLine<'a, T>>;
+
+/// Quadratic constraint in the form: x'Qx + c'x <= b
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct QuadraticConstraint<'a, T: FastFloat> {
+  /// Name of the constraint row
+  pub row_name: &'a str,
+  /// Quadratic terms in the constraint
+  pub terms: Vec<QuadraticTerm<'a, T>>,
+}
+
+/// Single quadratic term in a constraint
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct QuadraticTerm<'a, T: FastFloat> {
+  /// First variable
+  pub var1: &'a str,
+  /// Second variable
+  pub var2: &'a str,
+  /// Coefficient
+  pub coefficient: T,
+}
+
+/// Collection of quadratic constraints
+pub type QuadraticConstraints<'a, T> = Vec<QuadraticConstraint<'a, T>>;
+
+/// Type of cone constraint
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub enum ConeType {
+  /// Quadratic/Second-order cone
+  Quad,
+  /// Rotated quadratic cone
+  RQuad,
+}
+
+impl TryFrom<&str> for ConeType {
+  type Error = color_eyre::Report;
+
+  fn try_from(s: &str) -> Result<Self> {
+    match s {
+      "QUAD" => Ok(ConeType::Quad),
+      "RQUAD" => Ok(ConeType::RQuad),
+      _ => Err(eyre!("invalid cone type: {}", s)),
+    }
+  }
+}
+
+/// Second-order cone constraint
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct ConeConstraint<'a, T: FastFloat> {
+  /// Name of the cone constraint
+  pub cone_name: &'a str,
+  /// Type of cone
+  pub cone_type: ConeType,
+  /// Variables in the cone
+  pub members: Vec<ConeMember<'a, T>>,
+}
+
+/// Member variable of a cone constraint
+#[derive(Debug, Clone, PartialEq)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct ConeMember<'a, T: FastFloat> {
+  /// Variable name
+  pub var_name: &'a str,
+  /// Coefficient (optional, defaults to 1.0)
+  pub coefficient: Option<T>,
+}
+
+/// Collection of cone constraints
+pub type ConeConstraints<'a, T> = Vec<ConeConstraint<'a, T>>;
+
+// ============================================================================
+// Branching Directives
+// ============================================================================
+
+/// Branching direction for integer variables
+///
+/// Specifies the direction preference for branch-and-bound when exploring the search tree.
+/// Variables with higher priorities are branched first.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub enum BranchDirection {
+  /// Branch up first (prefer increasing variable values)
+  Up,
+  /// Branch down first (prefer decreasing variable values)
+  Down,
+  /// Use rounding heuristic
+  Rounding,
+  /// Branch toward closest bound
+  ClosestBound,
+  /// Let solver decide (automatic)
+  Auto,
+}
+
+impl TryFrom<&str> for BranchDirection {
+  type Error = color_eyre::Report;
+
+  fn try_from(s: &str) -> Result<Self> {
+    match s {
+      "UP" => Ok(BranchDirection::Up),
+      "DN" => Ok(BranchDirection::Down),
+      "RD" => Ok(BranchDirection::Rounding),
+      "CB" => Ok(BranchDirection::ClosestBound),
+      "" => Ok(BranchDirection::Auto),
+      _ => Err(eyre!("invalid branch direction: {}", s)),
+    }
+  }
+}
+
+/// Branching priority specification for an integer variable
+///
+/// Per CPLEX MPS specification: specifies branching priorities and directions
+/// to guide the branch-and-bound algorithm. Variables with higher priorities
+/// are branched on first. Direction specifies which branch to explore first.
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
+#[cfg_attr(feature = "serde", derive(Serialize))]
+pub struct BranchPriority<'a> {
+  /// Variable name
+  pub var_name: &'a str,
+  /// Priority value (0 = default/lowest, higher = branch first)
+  /// Must be non-negative
+  pub priority: i32,
+  /// Direction preference for branching
+  pub direction: BranchDirection,
+}
+
+/// Collection of branching priority specifications
+pub type BranchPriorities<'a> = Vec<BranchPriority<'a>>;
