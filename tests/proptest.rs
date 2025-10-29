@@ -135,20 +135,19 @@ mod tests {
     }
   }
 
-  //TOOD:  "BV" => unimplemented!("Binary Variable not yet implemented"),
-  //proptest! {
-  //  #[test]
-  //  fn test_bound_type_doesnt_crash(s in "\\PC*") {
-  //    cfg_if::cfg_if! {
-  //      if #[cfg(feature = "trace")] {
-  //        let info = TracableInfo::new().forward(false).backward(false);
-  //        let _ = Parser::<f32>::bound_type(LocatedSpan::new_extra(&s, info));
-  //      } else {
-  //        let _ = Parser::<f32>::bound_type(&s);
-  //      }
-  //    }
-  //  }
-  //}
+  proptest! {
+    #[test]
+    fn test_bound_type_doesnt_crash(s in "\\PC*") {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let _ = Parser::<f32>::bound_type(LocatedSpan::new_extra(&s, info));
+        } else {
+          let _ = Parser::<f32>::bound_type(&s);
+        }
+      }
+    }
+  }
 
   proptest! {
     #[test]
