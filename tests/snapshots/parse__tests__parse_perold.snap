@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/perold\"))?"
 ---
 name: PEROLD   (PILOT1)
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Eq
     row_name: DCOL01
@@ -25714,4 +25717,11 @@ bounds:
     bound_name: BOUND
     column_name: WWCM08
     value: 30
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

@@ -4,6253 +4,6252 @@ expression: model
 ---
 name: CAPRI
 row_types:
-  NCP79: Eq
-  DEP77: Eq
-  R3578: Leq
-  L5481: Eq
-  CVI75: Geq
+  VLRES: Eq
+  OBJEC: Nr
+  RAI72: Eq
+  CVI72: Geq
   TRS72: Geq
-  CCG80: Leq
-  RCP79: Eq
-  RAI81: Eq
-  TRS80: Geq
-  ACP81: Eq
+  FPR72: Eq
+  DEP72: Eq
+  DEP73: Eq
+  INV72: Eq
+  INC72: Eq
+  INT72: Eq
+  TRS73: Geq
+  CAF72: Geq
   FPR73: Eq
+  RAI73: Eq
+  CVI73: Geq
+  DEP74: Eq
+  INV73: Eq
+  INC73: Eq
+  INT73: Eq
+  TRS74: Geq
+  CAF73: Geq
+  FPR74: Eq
+  RAI74: Eq
+  CVI74: Geq
+  DEP75: Eq
+  INV74: Eq
+  INC74: Eq
+  INT74: Eq
+  TRS75: Geq
+  CAF74: Geq
+  FPR75: Eq
+  RAI75: Eq
+  CVI75: Geq
   DEP76: Eq
-  L3580: Eq
+  INV75: Eq
+  INC75: Eq
+  INT75: Eq
+  TRS76: Geq
+  CAF75: Geq
+  FPR76: Eq
+  RAI76: Eq
   CVI76: Geq
-  R3580: Leq
-  XX179: Eq
-  EER80: Leq
-  DEP81: Eq
-  HED78: Eq
-  CCB78: Leq
+  DEP77: Eq
+  INV76: Eq
+  INC76: Eq
+  INT76: Eq
+  TRS77: Geq
+  CAF76: Geq
+  FPR77: Eq
+  RAI77: Eq
+  CVI77: Geq
   DEP78: Eq
   INV77: Eq
-  TCP79: Eq
-  INC80: Eq
-  CCR78: Leq
-  RAI75: Eq
-  R2379: Leq
-  L2381: Eq
-  INC75: Eq
-  AAH78: Geq
-  L2378: Eq
-  AAB80: Geq
-  L5480: Eq
-  INV72: Eq
-  AAG80: Eq
-  EET79: Leq
-  CCT80: Leq
-  CVI79: Geq
-  L1379: Eq
-  HCP79: Eq
-  AAN79: Geq
-  EEB78: Leq
-  INV74: Eq
-  FPR74: Eq
-  RAI79: Eq
-  R3581: Leq
-  ACP78: Eq
-  EET81: Leq
-  CCN79: Leq
-  R5479: Leq
-  INT77: Eq
-  RAI80: Eq
-  CCB81: Leq
   INC77: Eq
-  XX378: Eq
-  XX380: Eq
-  L5478: Eq
-  TCP78: Eq
-  TCP80: Eq
-  CVI81: Geq
-  HCP78: Eq
-  FPR81: Eq
-  INC81: Eq
-  INV75: Eq
-  R5678: Leq
-  CCH78: Leq
-  R5478: Leq
-  R5681: Leq
-  FPR78: Eq
-  HED79: Eq
-  AAH80: Geq
-  L5681: Eq
-  AAH81: Geq
-  TRS77: Geq
-  L2380: Eq
-  R2380: Leq
-  INC78: Eq
-  FPR80: Eq
-  RAI72: Eq
-  VLRES: Eq
-  DGRES: Eq
-  EEN79: Leq
-  ACP80: Eq
-  XX578: Eq
-  AAT81: Geq
-  EEH78: Leq
-  XX279: Eq
-  L1378: Eq
-  INV81: Eq
-  L1380: Eq
-  EEB79: Leq
-  RAI76: Eq
-  INC76: Eq
-  CAF77: Geq
-  CAF81: Geq
-  L1381: Eq
-  CRS79: Geq
-  R2381: Leq
-  XX581: Eq
-  CCR80: Leq
-  EEG81: Leq
-  AAT79: Geq
-  CCG79: Leq
-  DEP74: Eq
-  INC74: Eq
-  INC73: Eq
-  NCP81: Eq
-  CAF79: Geq
-  NCP78: Eq
-  DEP73: Eq
-  CCH79: Leq
-  CCT81: Leq
-  CAF75: Geq
-  CCT79: Leq
-  GCP78: Eq
-  DEP80: Eq
-  INT80: Eq
-  EEH79: Leq
-  AAN80: Geq
-  TRS79: Geq
-  INC79: Eq
-  INT78: Eq
-  TCP81: Eq
-  CHALX: Leq
-  EER79: Leq
-  L3579: Eq
-  FPR79: Eq
-  EEH81: Leq
-  RCP78: Eq
-  INT75: Eq
-  CCN80: Leq
-  RAI78: Eq
-  OUT2X: Leq
-  AAB78: Geq
-  CVI80: Geq
-  CRS80: Geq
-  AAB81: Geq
-  CASCX: Leq
-  CVI74: Geq
-  FPR72: Eq
-  CRS78: Geq
-  NCP80: Eq
-  DEP79: Eq
-  R1380: Leq
-  GCP79: Eq
-  CCB79: Leq
-  XX381: Eq
-  FXE78: Eq
-  RES81: Eq
-  L2379: Eq
-  XX178: Eq
-  TRS74: Geq
-  XX278: Eq
-  R5679: Leq
-  RES80: Eq
-  CAF74: Geq
-  FXE80: Eq
-  INV73: Eq
-  R2378: Leq
-  BCP78: Eq
-  HED80: Eq
-  CCN78: Leq
-  FPR77: Eq
-  FXE81: Eq
-  XX280: Eq
-  INT81: Eq
-  RES79: Eq
-  CRS81: Geq
-  CAF78: Geq
-  L3578: Eq
-  XX379: Eq
-  EET78: Leq
-  GCP81: Eq
-  CVI72: Geq
-  AAB79: Geq
-  R1381: Leq
-  AAR81: Geq
-  EET80: Leq
-  RPM80: Leq
-  CVI77: Geq
-  CAF76: Geq
-  R5480: Leq
-  EEG79: Leq
-  INT74: Eq
-  CAF80: Geq
-  CAF72: Geq
-  L5680: Eq
-  GCP80: Eq
-  R5680: Leq
-  BCP79: Eq
-  CCH81: Leq
-  BCP81: Eq
-  AAN78: Geq
-  EER81: Leq
-  CVI78: Geq
-  INT73: Eq
+  INT77: Eq
   TRS78: Geq
-  FXE79: Eq
-  XX579: Eq
-  L5678: Eq
-  XX180: Eq
-  RPM79: Leq
-  INT79: Eq
-  INV80: Eq
-  R3579: Leq
-  AAG79: Eq
-  EER78: Leq
-  HCP81: Eq
-  RAI74: Eq
-  INT76: Eq
-  DEP72: Eq
-  CCG78: Leq
-  RPM78: Leq
-  RAI73: Eq
-  TRS75: Geq
-  CCN81: Leq
-  DEP75: Eq
-  RCP80: Eq
-  CCH80: Leq
-  RCP81: Eq
-  L3581: Eq
-  INT72: Eq
-  AAN81: Geq
-  EEG78: Leq
-  INV76: Eq
-  R1378: Leq
-  FPR76: Eq
-  R1379: Leq
-  XX181: Eq
-  HCP80: Eq
-  AAR79: Geq
-  XX281: Eq
-  CCR79: Leq
-  EEH80: Leq
-  BCP80: Eq
-  AAT78: Geq
-  TRS73: Geq
-  CCR81: Leq
-  EEN78: Leq
-  EEB81: Leq
-  AAR78: Geq
-  AAR80: Geq
-  EEG80: Leq
-  AAH79: Geq
-  TRS81: Geq
-  ACP79: Eq
-  CCB80: Leq
-  L5479: Eq
+  CAF77: Geq
+  FPR78: Eq
+  RAI78: Eq
+  CVI78: Geq
+  DEP79: Eq
+  INV78: Eq
+  INC78: Eq
+  INT78: Eq
+  TRS79: Geq
+  CAF78: Geq
+  FPR79: Eq
+  RAI79: Eq
+  CVI79: Geq
+  DEP80: Eq
   INV79: Eq
-  RAI77: Eq
-  TRS76: Geq
-  R5481: Leq
-  RES78: Eq
-  CAF73: Geq
-  CVI73: Geq
-  XX580: Eq
-  CCT78: Leq
-  AAT80: Geq
-  EEN80: Leq
+  INC79: Eq
+  INT79: Eq
+  TRS80: Geq
+  CAF79: Geq
+  FPR80: Eq
+  RAI80: Eq
+  CVI80: Geq
+  DEP81: Eq
+  INV80: Eq
+  INC80: Eq
+  INT80: Eq
+  TRS81: Geq
+  CAF80: Geq
+  FPR81: Eq
+  RAI81: Eq
+  CVI81: Geq
+  INV81: Eq
+  INC81: Eq
+  INT81: Eq
+  CAF81: Geq
+  L1378: Eq
+  L1379: Eq
+  R1378: Leq
+  FXE78: Eq
+  FXE79: Eq
+  FXE80: Eq
+  FXE81: Eq
+  XX178: Eq
+  XX179: Eq
+  XX378: Eq
+  XX379: Eq
+  L2378: Eq
+  L2379: Eq
+  R2378: Leq
+  XX278: Eq
+  XX279: Eq
+  L3578: Eq
+  L3579: Eq
+  R3578: Leq
+  XX578: Eq
+  XX579: Eq
+  L5478: Eq
+  L5479: Eq
+  R5478: Leq
+  L5678: Eq
   L5679: Eq
+  R5678: Leq
+  L1380: Eq
+  R1379: Leq
+  XX180: Eq
+  XX380: Eq
+  L2380: Eq
+  R2379: Leq
+  XX280: Eq
+  L3580: Eq
+  R3579: Leq
+  XX580: Eq
+  L5480: Eq
+  R5479: Leq
+  L5680: Eq
+  R5679: Leq
+  L1381: Eq
+  R1380: Leq
+  XX181: Eq
+  XX381: Eq
+  L2381: Eq
+  R2380: Leq
+  XX281: Eq
+  L3581: Eq
+  R3580: Leq
+  XX581: Eq
+  L5481: Eq
+  R5480: Leq
+  L5681: Eq
+  R5680: Leq
+  R1381: Leq
+  R2381: Leq
+  R3581: Leq
+  R5481: Leq
+  R5681: Leq
+  HCP78: Eq
+  HED78: Eq
+  RES78: Eq
+  RES79: Eq
+  RES80: Eq
+  RES81: Eq
+  OUT2X: Leq
+  HCP79: Eq
+  HED79: Eq
+  HCP80: Eq
+  HED80: Eq
+  CASCX: Leq
+  HCP81: Eq
+  HED81: Eq
+  CHALX: Leq
+  RCP78: Eq
+  RCP79: Eq
+  RCP80: Eq
+  RCP81: Eq
+  GCP78: Eq
+  GCP79: Eq
+  GCP80: Eq
+  GCP81: Eq
+  NCP78: Eq
+  NCP79: Eq
+  NCP80: Eq
+  NCP81: Eq
+  BCP78: Eq
+  BCP79: Eq
+  BCP80: Eq
+  BCP81: Eq
+  ACP78: Eq
+  CRS78: Geq
+  ACP79: Eq
+  AAH78: Geq
+  CCH78: Leq
+  AAN78: Geq
+  CCN78: Leq
+  AAT78: Geq
+  CCT78: Leq
+  AAB78: Geq
+  CCB78: Leq
+  AAR78: Geq
+  CCR78: Leq
+  AAG78: Eq
+  CCG78: Leq
+  CRS79: Geq
+  ACP80: Eq
+  AAH79: Geq
+  CCH79: Leq
+  AAN79: Geq
+  CCN79: Leq
+  AAT79: Geq
+  CCT79: Leq
+  AAB79: Geq
+  CCB79: Leq
+  AAR79: Geq
+  CCR79: Leq
+  AAG79: Eq
+  CCG79: Leq
+  CRS80: Geq
+  ACP81: Eq
+  AAH80: Geq
+  CCH80: Leq
+  AAN80: Geq
+  CCN80: Leq
+  AAT80: Geq
+  CCT80: Leq
+  AAB80: Geq
+  CCB80: Leq
+  AAR80: Geq
+  CCR80: Leq
+  AAG80: Eq
+  CCG80: Leq
+  CRS81: Geq
+  AAH81: Geq
+  CCH81: Leq
+  AAN81: Geq
+  CCN81: Leq
+  AAT81: Geq
+  CCT81: Leq
+  AAB81: Geq
+  CCB81: Leq
+  AAR81: Geq
+  CCR81: Leq
+  AAG81: Eq
   CCG81: Leq
+  EEH78: Leq
+  EEH79: Leq
+  RPM78: Leq
+  EEN78: Leq
+  TCP78: Eq
+  TCP79: Eq
+  EET78: Leq
+  EET79: Leq
+  EET80: Leq
+  EET81: Leq
+  EEB78: Leq
+  EEB79: Leq
+  EEB80: Leq
+  EEB81: Leq
+  EER78: Leq
+  EEG78: Leq
+  EEH80: Leq
+  RPM79: Leq
+  EEN79: Leq
+  TCP80: Eq
+  EER79: Leq
+  EEG79: Leq
+  EEH81: Leq
+  RPM80: Leq
+  EEN80: Leq
+  TCP81: Eq
+  EER80: Leq
+  EEG80: Leq
   RPM81: Leq
   EEN81: Leq
-  FPR75: Eq
-  AAG78: Eq
-  OBJEC: Nr
-  HED81: Eq
-  INC72: Eq
-  INV78: Eq
-  EEB80: Leq
-  AAG81: Eq
+  EER81: Leq
+  EEG81: Leq
+  DGRES: Eq
 values:
-  ? - XX181
-    - XX1381
-  : -1
-  ? - CRS80
-    - BCAP80
-  : 1
-  ? - FPR74
-    - FOPR73
-  : 1
-  ? - CCB79
-    - TCAP79
-  : -0.75
-  ? - DEP79
-    - AD3579
-  : 0.00804
-  ? - HED78
-    - CASC78
-  : 0.46701
   ? - VLRES
-    - CHAI81
-  : 30.47165
-  ? - INC74
-    - INTC74
+    - VALRES
   : -1
-  ? - AAG79
-    - NENE79
-  : -1
-  ? - HCP78
-    - CASC78
-  : 0.224
-  ? - CCR79
-    - WK3R79
-  : 1
-  ? - INV78
-    - AD5479
-  : 1.60343
-  ? - RAI78
-    - NENE78
-  : -0.74282
-  ? - XX581
-    - XX3580
-  : -1
-  ? - CVI81
-    - RNAI81
-  : 1
-  ? - CVI75
-    - RNAI75
-  : 1
-  ? - TRS73
-    - INTT73
-  : -1
-  ? - EEH79
-    - EHRP79
-  : 1
-  ? - RAI80
-    - GENE80
-  : -16.74359
-  ? - INC75
-    - CHAL79
-  : 0.12054
-  ? - INC73
-    - N60078
-  : 2.70708
-  ? - FXE79
-    - CASC78
-  : 0.32504
   ? - OBJEC
-    - RVAD75
-  : 0.75131
-  ? - TRS75
-    - DETT75
-  : 1
-  ? - AAG78
-    - NENE78
+    - VALRES
+  : 0.42409
+  ? - RAI72
+    - RNAI72
   : -1
-  ? - CCT79
-    - WK2T79
+  ? - CVI72
+    - RNAI72
   : 1
-  ? - CCG80
-    - BCAP80
-  : -0.75001
-  ? - INV80
-    - AD1381
-  : 1.66821
-  ? - GCP80
-    - GCAP79
+  ? - TRS72
+    - RNAI72
   : 1
-  ? - INC79
-    - CHAL80
-  : 3.10996
-  ? - RES81
-    - TGAZ79
-  : 0.00711
-  ? - CCG81
-    - RCAP81
-  : -0.98802
-  ? - FXE80
-    - AD3578
-  : 0.08522
-  ? - INC75
-    - T75079
-  : 0.84883
-  ? - RES79
-    - N60078
-  : 0.2287
-  ? - VLRES
-    - TGAZ79
-  : 5.06904
-  ? - CCB81
-    - WK4B81
+  ? - FPR72
+    - RNAI72
   : 1
-  ? - XX181
-    - N60081
-  : 0.60001
-  ? - TRS75
-    - DETT74
+  ? - RAI72
+    - RVAD72
+  : 1
+  ? - OBJEC
+    - RVAD72
+  : 1
+  ? - DEP72
+    - DEPN72
   : -1
-  ? - CCN81
-    - ACHT81
-  : -0.11416
-  ? - XX279
-    - XX2379
-  : -1
-  ? - CCH79
-    - WK4H79
+  ? - DEP73
+    - DEPN72
   : 1
-  ? - CCG81
-    - WK4G81
-  : 1
-  ? - CCN81
-    - HCAP81
-  : -0.98802
-  ? - INV76
-    - AD5678
-  : 5.63844
-  ? - AAB79
-    - HENE79
+  ? - RAI72
+    - DEPN72
   : -1
-  ? - CCB81
-    - ACHT81
-  : -0.11416
-  ? - CCR81
-    - WK4R81
+  ? - TRS72
+    - DEPN72
   : 1
-  ? - RES81
-    - CASC78
-  : 0.00713
-  ? - TRS73
-    - DETT72
+  ? - INV72
+    - INVT72
   : -1
-  ? - INV80
-    - INVT80
+  ? - TRS72
+    - INVT72
   : -1
-  ? - EET81
-    - TCAP79
-  : -0.2628
-  ? - RAI77
-    - RVAD77
-  : 1
-  ? - HED79
-    - HEND78
-  : 1
-  ? - CCH78
-    - WK2H78
-  : 1
-  ? - CCR78
-    - NCAP78
-  : -0.85001
-  ? - NCP80
-    - NCAP79
-  : 1
-  ? - CCG79
-    - NCAP79
-  : -0.85001
-  ? - EET80
-    - TCAP80
-  : -6.13201
-  ? - CAF77
-    - DETT77
-  : -1
-  ? - RAI80
-    - EHRP80
-  : -0.50001
-  ? - RES81
-    - CASC81
-  : 0.01537
-  ? - AAT78
-    - TENE78
-  : -1
-  ? - XX379
-    - CHAL79
-  : 0.124
-  ? - FXE81
-    - CHAI79
-  : 0.69569
-  ? - INV75
-    - INVT75
-  : -1
-  ? - FXE81
-    - T75079
-  : 1.89819
-  ? - TRS78
-    - INVT78
+  ? - INC72
+    - INTC72
   : -1
   ? - FPR72
     - INTC72
   : 1
-  ? - AAG81
-    - ACHT81
+  ? - TRS72
+    - INTC72
+  : 1
+  ? - INT72
+    - INTT72
   : -1
-  ? - AAN81
-    - WK3N81
-  : 4.02967
-  ? - AAG79
-    - RENE79
+  ? - CVI72
+    - INTT72
+  : -1.25002
+  ? - TRS72
+    - INTT72
   : -1
-  ? - TRS79
-    - RNAI79
-  : 1
-  ? - CCB79
-    - WK3B79
-  : 1
-  ? - VLRES
-    - TENE81
-  : 68.52119
-  ? - INV73
-    - CHAI79
-  : 1.19612
-  ? - AAG81
-    - WK1G81
-  : 8.76015
-  ? - CCT79
-    - WK4T79
-  : 1
-  ? - CCB81
-    - WK3B81
-  : 1
-  ? - L5480
-    - CP5479
-  : 1
-  ? - AAN79
-    - NENE79
-  : -1
-  ? - INC77
-    - AD3579
-  : 0.03751
-  ? - NCP79
-    - NCAP79
-  : -1
-  ? - INV78
-    - CHAI79
-  : 37.5199
-  ? - RES80
-    - T75078
-  : 0.27563
-  ? - R2379
-    - CP2379
-  : -1
-  ? - AAR78
-    - WK2R78
-  : 6.1321
-  ? - CCR81
-    - TCAP81
-  : -0.75
-  ? - INV78
-    - AD2380
-  : 3.51973
-  ? - CCB79
-    - WK1B79
-  : 1
-  ? - INV77
-    - CASC80
-  : 14.77332
-  ? - RAI79
-    - BENE79
-  : -5.50949
-  ? - GCP79
-    - GCAP78
-  : 1
-  ? - AAG79
-    - GENE79
-  : -1
-  ? - CHALX
-    - CHAL79
-  : 1
-  ? - AAT80
-    - NENE80
-  : -1
-  ? - CCT79
-    - TCAP79
-  : -0.75
-  ? - INV79
-    - AD5681
-  : 5.98354
-  ? - CCR81
-    - NCAP81
-  : -0.85001
-  ? - XX380
-    - CHAI80
-  : 0.80001
-  ? - RPM80
-    - ETRP80
-  : -0.75001
-  ? - EER81
-    - RENE81
-  : 1
-  ? - FXE80
-    - OUT278
-  : 0.55136
-  ? - FPR78
-    - INTT78
-  : -1
-  ? - CAF80
-    - DETT80
-  : -1
-  ? - R3581
-    - XX3581
-  : 1
-  ? - ACP78
-    - ACHT78
-  : -1
-  ? - ACP81
-    - ACHT80
-  : 1
-  ? - CCH79
-    - HCAP79
-  : -0.98802
-  ? - CVI79
-    - RNAI79
-  : 1
-  ? - CRS79
-    - TCAP79
-  : 1
   ? - FPR72
     - INTT72
   : -1
-  ? - CCB79
-    - WK2B79
-  : 1
-  ? - OBJEC
-    - VALRES
-  : 0.42409
-  ? - CCT80
-    - WK3T80
-  : 1
-  ? - CCT80
-    - TCAP78
-  : -0.03
-  ? - INC76
-    - OUT280
-  : 1.54423
-  ? - XX280
-    - T75080
-  : 0.75001
-  ? - AAT79
-    - WK1T79
-  : 8.76015
-  ? - FXE81
-    - AD3578
-  : 0.08735
-  ? - INC76
-    - T75081
-  : 0.09934
-  ? - TRS79
-    - INVT79
-  : -1
-  ? - DEP72
-    - DEPN72
-  : -1
-  ? - INV79
-    - OUT280
-  : 35.48801
-  ? - XX580
-    - XX5679
-  : 1
-  ? - INT74
-    - INTT74
-  : -1
-  ? - GCP81
-    - GCAP80
-  : 1
-  ? - CCT81
-    - NCAP81
-  : -0.85001
-  ? - FPR74
-    - FOPR74
-  : -1
-  ? - INV76
-    - CHAL80
-  : 3.19711
-  ? - INC75
-    - CHAI78
-  : 4.37723
-  ? - L1381
-    - CP1381
-  : -1
-  ? - INC78
-    - CHAI80
-  : 8.31091
-  ? - CCN81
-    - WK1N81
-  : 1
-  ? - VLRES
-    - T75081
-  : 70.19667
-  ? - AAN80
-    - HENE80
-  : -1
-  ? - XX379
-    - XX2379
-  : 1
-  ? - CCH79
-    - WK3H79
-  : 1
-  ? - HED80
-    - CASC80
-  : 0.46701
-  ? - R1381
-    - CP1381
-  : -1
-  ? - CRS79
-    - ACHT79
-  : 0.11416
-  ? - CCB80
-    - WK1B80
-  : 1
-  ? - HED81
-    - CHAL81
-  : 0.19
-  ? - VLRES
-    - TGAZ80
-  : 5.11833
-  ? - CCR81
-    - BCAP79
-  : -0.03
-  ? - INV77
-    - T75079
-  : 62.68602
-  ? - INC76
-    - OUT279
-  : 4.2156
-  ? - R5679
-    - CP5679
-  : -1
-  ? - OUT2X
-    - OUT279
-  : 1
-  ? - RAI81
-    - NENE81
-  : -0.76533
-  ? - CCT81
-    - WK1T81
-  : 1
-  ? - RAI74
-    - DEPN74
-  : -1
-  ? - AAB81
-    - TENE81
-  : -1
-  ? - OBJEC
-    - RVAD72
-  : 1
-  ? - CCT78
-    - ACHT78
-  : -0.11416
-  ? - INV77
-    - CHAL80
-  : 14.13837
-  ? - RAI81
-    - RVAD81
-  : 1
-  ? - FXE79
-    - TGAZ78
-  : 0.07265
-  ? - TRS77
-    - INVT77
-  : -1
-  ? - CAF81
-    - FOPR81
-  : 4.00007
-  ? - DEP78
-    - DEPN77
-  : 1
-  ? - XX381
-    - XX1380
-  : -1
-  ? - HCP79
-    - HCAP79
-  : -1
-  ? - VLRES
-    - CHAL79
-  : 12.40026
-  ? - FPR75
-    - INTT75
-  : -1
-  ? - RPM81
-    - ENRP81
-  : -0.75001
-  ? - AAG78
-    - BENE78
-  : -1
-  ? - CCN80
-    - WK4N80
-  : 1
-  ? - TCP81
-    - TCAP81
-  : -1
-  ? - INC80
-    - INTC80
-  : -1
-  ? - XX281
-    - XX2380
-  : 1
-  ? - CCN78
-    - WK4N78
-  : 1
-  ? - AAB81
-    - BENE81
-  : -1
-  ? - INC78
-    - AD3580
-  : 0.03826
-  ? - INV77
-    - TGAZ79
-  : 0.91423
-  ? - INV75
-    - N60078
-  : 77.6349
-  ? - INC76
-    - N60078
-  : 16.72708
-  ? - INV76
-    - N60080
-  : 71.16388
-  ? - INV78
-    - CHAL80
-  : 18.33189
-  ? - AAG78
-    - WK2G78
-  : 6.1321
-  ? - CCB81
-    - NCAP81
-  : -0.85001
-  ? - R1381
-    - XX1381
-  : 1
-  ? - INV77
-    - T75078
-  : 38.60837
-  ? - DEP78
-    - N60078
-  : 7.19542
-  ? - L5679
-    - AD5679
-  : 0.2
-  ? - R5480
-    - XX5480
-  : 1
-  ? - INT79
-    - DETT79
-  : 0.085
-  ? - CCT78
-    - WK2T78
-  : 1
-  ? - AAG81
-    - WK2G81
-  : 6.1321
-  ? - INV76
-    - N60081
-  : 41.15482
-  ? - CCR79
-    - BCAP78
-  : -0.05
-  ? - R3579
-    - CP3579
-  : -1
-  ? - INT79
-    - INTT79
-  : -1
-  ? - CCB80
-    - TCAP79
-  : -0.07
-  ? - AAN81
-    - WK1N81
-  : 8.76015
-  ? - CCG79
-    - TCAP79
-  : -0.75
-  ? - DEP78
-    - TGAZ78
-  : 0.26102
-  ? - VLRES
-    - T75078
-  : 67.22089
-  ? - CAF80
-    - FOPR80
-  : 4.00007
-  ? - FXE81
-    - AD3579
-  : 0.08735
-  ? - EET81
-    - ETRP81
-  : 1
-  ? - FPR77
-    - FOPR76
-  : 1
-  ? - FPR81
-    - FOPR80
-  : 1
-  ? - INV74
-    - OUT278
-  : 22.61821
-  ? - INV77
-    - CHAI80
-  : 41.27533
-  ? - VLRES
-    - OUT280
-  : 28.49783
-  ? - EEB80
-    - BENE80
-  : 1
-  ? - EET80
-    - TENE80
-  : 1
-  ? - CCR81
-    - WK2R81
-  : 1
-  ? - RES79
-    - TGAZ78
-  : 0.00731
-  ? - CAF76
-    - DETT76
-  : -1
-  ? - AAR79
-    - NENE79
-  : -1
-  ? - INV76
-    - T75080
-  : 17.84756
-  ? - DEP74
-    - DEPN74
-  : -1
-  ? - XX280
-    - XX2380
-  : -1
-  ? - INC73
-    - T75078
-  : 0.08831
-  ? - L1381
-    - CP1380
-  : 1
-  ? - HED80
-    - CHAL80
-  : 0.19
-  ? - FXE79
-    - N60078
-  : 3.0733
-  ? - DEP80
-    - DEPN79
-  : 1
-  ? - CCT81
-    - TCAP81
-  : -0.75
-  ? - INC78
-    - AD2380
-  : 0.14349
-  ? - AAG80
-    - GENE80
-  : -1
-  ? - INV78
-    - AD5680
-  : 5.86623
-  ? - INV78
-    - T75079
-  : 40.12126
-  ? - XX180
-    - XX1380
-  : -1
-  ? - FPR76
-    - INTC76
-  : 1
-  ? - XX380
-    - XX2380
-  : 1
-  ? - XX580
-    - XX3580
-  : 1
-  ? - TRS72
-    - DEPN72
-  : 1
-  ? - CRS78
-    - GCAP78
-  : 1
-  ? - TRS80
-    - INTC80
-  : 1
-  ? - AAT78
-    - NENE78
-  : -1
-  ? - CCT79
-    - HCAP79
-  : -0.98802
-  ? - AAT80
-    - HENE80
-  : -1
-  ? - AAB78
-    - HENE78
-  : -1
-  ? - CCT80
-    - WK1T80
-  : 1
-  ? - TRS77
-    - INTC77
-  : 1
-  ? - CCH81
-    - WK1H81
-  : 1
-  ? - CVI77
-    - INTT77
-  : -1.25002
-  ? - EET81
-    - TENE81
-  : 1
-  ? - INV77
-    - AD5478
-  : 1.57199
-  ? - RAI81
-    - DEPN81
-  : -1
-  ? - AAN79
-    - WK2N79
-  : 6.1321
-  ? - FXE80
-    - AD1379
-  : 0.24348
-  ? - CCT81
-    - HCAP81
-  : -0.98802
-  ? - TRS75
-    - INVT75
-  : -1
-  ? - TRS74
-    - DETT74
-  : 1
-  ? - INC78
-    - AD5680
-  : 0.23915
-  ? - FXE80
-    - AD5680
-  : 0.42609
-  ? - DEP81
-    - AD5481
-  : 0.01791
-  ? - INC79
-    - AD5681
-  : 0.24393
-  ? - FPR77
-    - INTT77
-  : -1
-  ? - EEN81
-    - NCAP81
-  : -7.00813
-  ? - RES80
-    - OUT278
-  : 0.02724
-  ? - RAI80
-    - RNAI80
-  : -1
-  ? - CCG80
-    - WK1G80
-  : 1
-  ? - CCH78
-    - HCAP78
-  : -0.98802
-  ? - CCB78
-    - WK2B78
-  : 1
-  ? - FXE78
-    - AD3578
-  : 0.08111
-  ? - OBJEC
-    - HENE79
-  : -0.25659
-  ? - INV75
-    - OUT279
-  : 23.52068
-  ? - INV76
-    - OUT279
-  : 49.16049
-  ? - R1380
-    - XX1380
-  : 1
-  ? - RAI80
-    - ETRP80
-  : -5.26896
-  ? - VLRES
-    - EBRP81
-  : 73.08212
-  ? - INV76
-    - AD3578
-  : 0.90215
-  ? - FXE80
-    - CASC80
-  : 0.3413
-  ? - CCR79
-    - ACHT79
-  : -0.11416
-  ? - DEP81
-    - CASC81
-  : 0.49891
-  ? - XX378
-    - CHAL78
-  : 0.124
-  ? - AAR79
-    - BENE79
-  : -1
-  ? - DEP81
-    - AD5681
-  : 0.07166
-  ? - CAF79
-    - DETT79
-  : -1
-  ? - CCR81
-    - ACHT81
-  : -0.11416
-  ? - CCR80
-    - WK1R80
-  : 1
-  ? - FXE80
-    - TGAZ78
-  : 0.07614
-  ? - INV80
-    - CASC81
-  : 14.66519
-  ? - AAH80
-    - WK2H80
-  : 6.1321
-  ? - INC78
-    - TGAZ79
-  : 0.30718
-  ? - TRS73
-    - DETT73
-  : 1
-  ? - AAR81
-    - NENE81
-  : -1
-  ? - INV79
-    - TGAZ81
-  : 0.9738
-  ? - CCG80
-    - GCAP80
-  : -0.90002
-  ? - RAI79
-    - RNAI79
-  : -1
-  ? - DEP80
-    - AD5680
-  : 0.07025
-  ? - INC73
-    - N60079
-  : 0.68946
-  ? - CVI80
-    - INTT80
-  : -1.25002
-  ? - RCP78
-    - RCAP78
-  : -1
-  ? - RES81
-    - CHAL78
-  : 0.00395
-  ? - AAH79
-    - WK2H79
-  : 6.1321
-  ? - FXE81
-    - AD5478
-  : 0.02496
-  ? - TCP78
-    - TCAP78
-  : -1
-  ? - VLRES
-    - CHAL80
-  : 12.54695
-  ? - INC73
-    - OUT279
-  : 0.06745
-  ? - VLRES
-    - N60079
-  : 131.16989
-  ? - INT76
-    - DETT76
-  : 0.085
-  ? - CAF72
-    - FOPR72
-  : 4.00007
-  ? - DEP81
-    - DEPN80
-  : 1
-  ? - CCN79
-    - HCAP79
-  : -0.98802
-  ? - XX579
-    - XX5679
-  : -1
-  ? - CCR79
-    - NCAP79
-  : -0.85001
-  ? - EEB78
-    - EBRP78
-  : 1
-  ? - AAR80
-    - WK2R80
-  : 6.1321
-  ? - FPR77
-    - INTC77
-  : 1
-  ? - INV77
-    - N60080
-  : 83.94284
   ? - INT72
     - DETT72
   : 0.085
-  ? - FPR80
-    - FOPR79
+  ? - TRS72
+    - DETT72
   : 1
-  ? - XX579
-    - XX5678
-  : 1
-  ? - VLRES
-    - ETRP81
-  : 68.52119
-  ? - CCR81
-    - BCAP81
-  : -0.75001
-  ? - EEN80
-    - ENRP80
-  : 1
-  ? - L1379
-    - CP1379
+  ? - TRS73
+    - DETT72
   : -1
-  ? - CCB79
-    - BCAP79
-  : -0.75001
-  ? - EEN80
-    - NENE80
-  : 1
-  ? - AAH79
-    - WK1H79
-  : 8.76015
-  ? - CCR81
-    - TCAP80
-  : -0.07
-  ? - FXE81
-    - AD3581
-  : 0.08735
-  ? - L3578
-    - AD3578
-  : 1.00002
-  ? - RAI78
-    - DEPN78
+  ? - CAF72
+    - DETT72
   : -1
-  ? - CCB78
-    - HCAP78
-  : -0.98802
-  ? - CCH81
-    - WK4H81
-  : 1
-  ? - EEB78
-    - BCAP78
-  : -7.00813
-  ? - CCG80
-    - HCAP80
-  : -0.98802
-  ? - CRS78
-    - RESV78
-  : -1
-  ? - AAG80
-    - WK4G80
-  : 1.75203
-  ? - R5678
-    - CP5678
-  : -1
-  ? - INC79
-    - OUT280
-  : 11.3119
-  ? - TRS78
-    - INTC78
-  : 1
-  ? - AAR78
-    - TENE78
-  : -1
-  ? - INV79
-    - CASC81
-  : 20.75381
-  ? - CRS78
-    - NCAP78
-  : 1
-  ? - CCR80
-    - WK4R80
-  : 1
-  ? - FXE81
-    - TGAZ80
-  : 0.07981
-  ? - HCP81
-    - CASC81
-  : 0.224
-  ? - INV78
-    - N60080
-  : 82.2054
-  ? - DEP81
-    - TGAZ81
-  : 0.28888
-  ? - FPR80
-    - FOPR80
-  : -1
-  ? - HCP81
-    - HCAP81
-  : -1
-  ? - FPR78
-    - RNAI78
-  : 1
-  ? - CCG79
-    - WK2G79
-  : 1
-  ? - XX581
-    - XX5680
-  : 1
-  ? - HCP79
-    - HCAP78
-  : 1
-  ? - CRS81
-    - BCAP81
-  : 1
-  ? - FXE81
-    - CHAL81
-  : 0.39249
-  ? - NCP80
-    - N60080
-  : 0.60001
-  ? - CVI72
-    - RNAI72
-  : 1
-  ? - INV73
-    - OUT278
-  : 5.67333
-  ? - FXE80
-    - T75080
-  : 1.85216
-  ? - L5681
-    - AD5681
-  : 0.2
-  ? - CCG79
-    - BCAP79
-  : -0.75001
-  ? - FXE81
-    - AD2378
-  : 0.62391
-  ? - TCP80
-    - TCAP79
-  : 1
-  ? - INV78
-    - N60079
-  : 66.97932
-  ? - FXE81
-    - CASC79
-  : 0.35836
-  ? - FPR75
-    - FOPR75
-  : -1
-  ? - L3580
-    - CP3579
-  : 1
-  ? - CRS81
-    - RESV81
-  : -1
-  ? - OBJEC
-    - RVAD74
-  : 0.82644
-  ? - RAI81
-    - EBRP81
-  : -5.73207
-  ? - ACP79
-    - ACHT78
-  : 1
-  ? - AAN78
-    - NENE78
-  : -1
-  ? - L5680
-    - AD5680
-  : 0.2
-  ? - INV79
-    - AD1380
-  : 1.6355
-  ? - CCH80
-    - ACHT80
-  : -0.11416
-  ? - AAR81
-    - WK1R81
-  : 8.76015
-  ? - FPR74
-    - RNAI74
-  : 1
-  ? - EET79
-    - ETRP79
-  : 1
-  ? - EER81
-    - RCAP81
-  : -2.19004
-  ? - FXE81
-    - AD5678
-  : 0.43674
-  ? - RES79
-    - CASC79
-  : 0.01568
-  ? - VLRES
-    - CASC79
-  : 12.47792
-  ? - RES79
-    - CHAL78
-  : 0.00868
-  ? - CCG78
-    - WK2G78
-  : 1
-  ? - CHALX
-    - CHAL80
-  : 1
-  ? - CCG78
-    - TCAP78
-  : -0.75
-  ? - RAI78
-    - RVAD78
-  : 1
-  ? - INC76
-    - CHAI78
-  : 7.69628
-  ? - INC78
-    - T75079
-  : 9.78758
-  ? - RAI81
-    - ESEC81
-  : -0.35001
-  ? - INC77
-    - AD5479
-  : 0.09378
-  ? - CAF78
-    - DETT78
-  : -1
-  ? - CVI79
-    - INTT79
-  : -1.25002
-  ? - CCT81
-    - TCAP79
-  : -0.03
-  ? - DEP80
-    - AD2380
-  : 0.03044
-  ? - TRS80
-    - INVT80
-  : -1
-  ? - AAR81
-    - ACHT81
-  : -1
-  ? - CCT79
-    - WK1T79
-  : 1
-  ? - OBJEC
-    - RVAD79
-  : 0.51315
-  ? - CCN78
-    - ACHT78
-  : -0.11416
-  ? - CCH80
-    - HCAP80
-  : -0.98802
-  ? - XX579
-    - XX5479
-  : -1
-  ? - EEN81
-    - NENE81
-  : 1
-  ? - VLRES
-    - EGRP81
-  : 217.74481
-  ? - RES79
-    - OUT278
-  : 0.02779
-  ? - INC77
-    - CHAL80
-  : 0.79447
-  ? - XX380
-    - CHAL80
-  : 0.124
-  ? - AAR79
-    - HENE79
-  : -1
-  ? - FXE79
-    - CHAI79
-  : 0.63754
-  ? - EEH80
-    - HEND80
-  : -1
-  ? - CCT78
-    - WK4T78
-  : 1
-  ? - AAR78
-    - WK1R78
-  : 8.76015
-  ? - FXE79
-    - AD5679
-  : 0.41569
-  ? - XX580
-    - XX3579
-  : -1
-  ? - CCT81
-    - ACHT81
-  : -0.11416
-  ? - OBJEC
-    - ESEC78
-  : -0.28224
-  ? - INV77
-    - AD3578
-  : 1.1119
-  ? - FXE79
-    - AD5678
-  : 0.41569
-  ? - INC76
-    - AD2378
-  : 0.13792
-  ? - FXE80
-    - AD2379
-  : 0.6087
-  ? - RES80
-    - OUT279
-  : 0.02751
-  ? - INC78
-    - OUT280
-  : 8.30778
-  ? - EEG81
-    - GENE81
-  : 1
-  ? - XX380
-    - XX3580
-  : -1
-  ? - INC76
-    - INTC76
-  : -1
-  ? - AAR79
-    - WK3R79
-  : 4.02967
-  ? - INV76
-    - AD2378
-  : 3.38307
-  ? - INC76
-    - AD5678
-  : 0.22986
-  ? - FXE79
-    - AD5479
-  : 0.02375
-  ? - FPR80
-    - INTT80
-  : -1
-  ? - AAT81
-    - WK2T81
-  : 6.1321
-  ? - INV80
-    - AD5681
-  : 2.70575
-  ? - FXE80
-    - OUT279
-  : 0.55136
-  ? - DEP79
-    - CHAL79
-  : 0.41417
-  ? - INC76
-    - CHAL80
-  : 0.12523
-  ? - INV77
-    - CASC81
-  : 3.9431
-  ? - DEP80
-    - CHAL80
-  : 0.43047
-  ? - INC78
-    - CHAL80
-  : 2.00413
-  ? - DEP78
-    - CHAI78
-  : 1.4172
-  ? - RES79
-    - CHAI78
-  : 0.08554
-  ? - INV77
-    - CHAI79
-  : 57.39073
-  ? - INC75
-    - CHAI79
-  : 2.08606
-  ? - FPR76
-    - FOPR76
-  : -1
-  ? - CCR80
-    - TCAP78
-  : -0.03
-  ? - AAN79
-    - WK4N79
-  : 1.75203
-  ? - INC79
-    - AD5480
-  : 0.258
-  ? - INC80
-    - CASC81
-  : 3.45471
-  ? - RES80
-    - CHAI79
-  : 0.08467
-  ? - FXE81
-    - CHAI80
-  : 0.69569
-  ? - OUT2X
-    - OUT278
-  : 1
-  ? - INV77
-    - AD5679
-  : 5.75121
-  ? - CVI74
-    - INTT74
-  : -1.25002
-  ? - XX380
-    - XX3579
-  : 1
-  ? - CVI74
-    - RNAI74
-  : 1
-  ? - RES80
-    - TGAZ78
-  : 0.00719
-  ? - NCP81
-    - N60081
-  : 0.60001
-  ? - DEP78
-    - T75078
-  : 3.3623
-  ? - RES81
-    - T75079
-  : 0.27282
-  ? - INC76
-    - CASC78
-  : 1.99405
-  ? - FXE80
-    - N60080
-  : 3.13476
-  ? - INT78
-    - DETT78
-  : 0.085
-  ? - VLRES
-    - VALRES
-  : -1
-  ? - DEP81
-    - CHAI81
-  : 1.59116
-  ? - CCG78
-    - GCAP78
-  : -0.90002
-  ? - CCB79
-    - TCAP78
-  : -0.07
-  ? - INV78
-    - AD3579
-  : 1.13414
-  ? - DEP79
-    - TGAZ79
-  : 0.27
-  ? - CCR78
-    - WK1R78
-  : 1
-  ? - AAR81
-    - WK4R81
-  : 1.75203
-  ? - INV79
-    - AD2380
-  : 2.57292
-  ? - INC80
-    - AD5481
-  : 0.26316
-  ? - L5479
-    - AD5479
-  : 0.50001
-  ? - INC76
-    - CHAL79
-  : 0.76441
-  ? - EEN78
-    - NENE78
-  : 1
-  ? - TRS77
-    - DEPN77
-  : 1
-  ? - RES80
-    - RESV80
-  : -1
-  ? - AAR78
-    - BENE78
-  : -1
-  ? - L5679
-    - CP5678
-  : 1
-  ? - CRS79
-    - BCAP79
-  : 1
-  ? - CCB81
-    - TCAP81
-  : -0.75
-  ? - FPR81
-    - INTC81
-  : 1
-  ? - DEP73
-    - DEPN72
-  : 1
-  ? - AAH80
-    - ACHT80
-  : -1
-  ? - CCR80
-    - RCAP80
-  : -0.98802
-  ? - CCN81
-    - WK3N81
-  : 1
-  ? - FXE80
-    - AD2378
-  : 0.6087
-  ? - FPR79
-    - FOPR78
-  : 1
-  ? - AAR81
-    - RENE81
-  : -1
-  ? - INC79
-    - AD3581
-  : 0.03903
-  ? - INV77
-    - OUT278
-  : 32.85997
-  ? - INC79
-    - CHAL81
-  : 2.08242
-  ? - INC78
-    - CHAI81
-  : 4.91803
-  ? - CVI77
-    - RNAI77
-  : 1
-  ? - XX381
-    - XX3580
-  : 1
-  ? - FPR80
-    - INTC80
-  : 1
-  ? - RES81
-    - CHAI81
-  : 0.08624
-  ? - INC78
-    - N60081
-  : 13.06213
-  ? - CCR79
-    - WK1R79
-  : 1
-  ? - INV79
-    - N60081
-  : 85.43887
-  ? - FXE78
-    - CHAI78
-  : 0.61043
-  ? - L1378
-    - CP1378
-  : -1
-  ? - R3580
-    - XX3580
-  : 1
-  ? - TRS74
-    - INTC74
-  : 1
-  ? - AAN79
-    - ACHT79
-  : -1
-  ? - CCG78
-    - WK4G78
-  : 1
-  ? - L1378
-    - AD1378
-  : 0.50001
-  ? - TRS80
-    - INTT80
-  : -1
-  ? - CRS80
-    - TCAP80
-  : 1
-  ? - DEP81
-    - AD1381
-  : 0.01791
-  ? - TRS81
-    - INTT81
-  : -1
-  ? - RAI81
-    - BENE81
-  : -5.73207
-  ? - RAI75
-    - RVAD75
-  : 1
-  ? - R5481
-    - CP5481
-  : -1
-  ? - CCB79
-    - WK4B79
-  : 1
-  ? - XX378
-    - XX3578
-  : -1
-  ? - L5681
-    - CP5681
-  : -1
-  ? - EEB81
-    - BENE81
-  : 1
-  ? - INV78
-    - AD3580
-  : 0.9386
-  ? - CVI73
-    - RNAI73
-  : 1
-  ? - NCP80
-    - NCAP80
-  : -1
-  ? - XX579
-    - XX3578
-  : -1
-  ? - INT74
-    - DETT74
-  : 0.085
-  ? - CCN80
-    - HCAP80
-  : -0.98802
-  ? - RPM80
-    - EHRP80
-  : -0.75001
-  ? - AAG78
-    - WK3G78
-  : 4.02967
-  ? - AAG81
-    - RENE81
-  : -1
-  ? - EEN80
-    - NCAP80
-  : -7.00813
-  ? - INC78
-    - AD2379
-  : 0.38419
-  ? - HCP80
-    - HCAP80
-  : -1
-  ? - FXE81
-    - CASC78
-  : 0.35836
-  ? - INC76
-    - CASC80
-  : 0.14852
-  ? - XX380
-    - CASC80
-  : 0.224
-  ? - INV78
-    - CHAL79
-  : 13.40728
-  ? - CCG81
-    - GCAP81
-  : -0.90002
-  ? - RES81
-    - CHAL81
-  : 0.00851
-  ? - EEG80
-    - GENE80
-  : 1
-  ? - FPR79
-    - INTT79
-  : -1
-  ? - AAT80
-    - WK2T80
-  : 6.1321
-  ? - AAT79
-    - TENE79
-  : -1
-  ? - INV78
-    - INVT78
-  : -1
-  ? - INC77
-    - AD5678
-  : 0.56367
-  ? - EEG79
-    - GCAP79
-  : -3.50406
-  ? - FXE80
-    - CHAI79
-  : 0.66594
-  ? - CVI76
-    - RNAI76
-  : 1
-  ? - FXE79
-    - FEXE79
-  : -1
-  ? - OBJEC
-    - HENE81
-  : -0.21205
-  ? - INV75
-    - CHAI79
-  : 27.37502
-  ? - DEP80
-    - CHAI80
-  : 1.53091
-  ? - INC74
-    - CHAL78
-  : 0.11602
   ? - FPR72
     - FOPR72
   : -1
-  ? - ACP79
-    - ACHT79
-  : -1
-  ? - FXE79
-    - TGAZ79
-  : 0.07265
-  ? - CCH81
-    - WK2H81
+  ? - FPR73
+    - FOPR72
   : 1
-  ? - EET81
-    - TCAP78
-  : -0.1752
-  ? - CRS79
-    - RCAP79
-  : 1
-  ? - INV77
-    - CHAL81
-  : 3.32177
-  ? - RES81
-    - TGAZ81
-  : 0.00735
-  ? - CCR80
-    - TCAP80
-  : -0.75
-  ? - L3581
-    - CP3581
-  : -1
-  ? - FXE78
-    - N60078
-  : 3.01304
-  ? - INC74
-    - T75079
-  : 0.09185
-  ? - AAB80
-    - WK2B80
-  : 6.1321
-  ? - HED79
-    - CASC79
-  : 0.46701
-  ? - INV77
-    - CASC79
-  : 19.1881
-  ? - R2380
-    - XX2380
-  : 1
-  ? - CRS81
-    - NCAP81
-  : 1
-  ? - CCH81
-    - WK3H81
-  : 1
-  ? - AAB79
-    - WK1B79
-  : 8.76015
-  ? - CRS81
-    - ACHT81
-  : 0.11416
-  ? - RAI81
-    - ENRP81
-  : -0.76533
-  ? - CASCX
-    - CASC79
-  : 1
-  ? - AAB78
-    - WK1B78
-  : 8.76015
-  ? - VLRES
-    - CASC78
-  : 12.32012
-  ? - VLRES
-    - CASC81
-  : 12.81823
-  ? - RES81
-    - CHAL80
-  : 0.00851
-  ? - HED80
-    - HEND80
-  : -1
-  ? - RES81
-    - CHAI80
-  : 0.08467
-  ? - INC76
-    - N60080
-  : 7.03623
-  ? - FPR75
-    - FOPR74
-  : 1
-  ? - TRS80
-    - DETT79
-  : -1
-  ? - FXE81
-    - CHAL80
-  : 0.39249
-  ? - INC79
-    - N60080
-  : 22.61397
-  ? - INV79
-    - CHAL80
-  : 13.90725
-  ? - INC78
-    - CHAL81
-  : 0.82573
-  ? - RES79
-    - T75079
-  : 0.42695
-  ? - DEP80
-    - T75080
-  : 3.6349
-  ? - OBJEC
-    - HENE78
-  : -0.28224
-  ? - RES81
-    - T75080
-  : 0.34557
-  ? - CCR81
-    - BCAP80
-  : -0.05
-  ? - XX281
-    - T75081
-  : 0.75001
-  ? - INC76
-    - OUT278
-  : 7.68351
-  ? - VLRES
-    - GENE81
-  : 217.74481
-  ? - INV80
-    - AD5481
-  : 1.66821
-  ? - CCN80
-    - WK1N80
-  : 1
-  ? - AAT81
-    - TENE81
-  : -1
-  ? - HCP81
-    - CHAL81
-  : 0.124
-  ? - INV76
-    - T75081
-  : 2.5361
-  ? - AAT79
-    - WK3T79
-  : 4.02967
-  ? - XX280
-    - XX2379
-  : 1
-  ? - EEB79
-    - BCAP79
-  : -7.00813
-  ? - R1379
-    - CP1379
-  : -1
-  ? - CCB80
-    - ACHT80
-  : -0.11416
-  ? - CCB78
-    - TCAP78
-  : -0.75
-  ? - FXE79
-    - AD2379
-  : 0.59385
-  ? - NCP79
-    - NCAP78
-  : 1
-  ? - CAF76
-    - FOPR76
+  ? - CAF72
+    - FOPR72
   : 4.00007
-  ? - EEH79
-    - HEND79
+  ? - RAI73
+    - RNAI73
   : -1
-  ? - CCB81
-    - BCAP79
-  : -0.03
-  ? - FXE80
-    - AD3579
-  : 0.08522
-  ? - R2380
-    - CP2380
-  : -1
-  ? - AAH79
-    - WK3H79
-  : 4.02967
-  ? - DEP80
-    - OUT280
-  : 1.5522
-  ? - VLRES
-    - INTT81
-  : 9.99983
-  ? - INC78
-    - AD5480
-  : 0.09566
-  ? - INT81
-    - DETT81
-  : 0.085
-  ? - CCH78
-    - WK1H78
+  ? - CVI73
+    - RNAI73
   : 1
-  ? - TRS72
-    - RNAI72
+  ? - TRS73
+    - RNAI73
   : 1
-  ? - AAR78
-    - NENE78
-  : -1
-  ? - RAI78
-    - RNAI78
-  : -1
-  ? - EEN79
-    - NCAP79
-  : -7.00813
-  ? - AAB80
-    - BENE80
-  : -1
-  ? - AAG80
-    - WK3G80
-  : 4.02967
-  ? - AAG80
-    - HENE80
-  : -1
-  ? - RAI81
-    - TENE81
-  : -5.37434
-  ? - FPR75
-    - INTC75
-  : 1
-  ? - AAB79
-    - NENE79
-  : -1
-  ? - DEP78
-    - AD5678
-  : 0.06752
-  ? - INC78
-    - AD1380
-  : 0.09566
-  ? - INV79
-    - AD2381
-  : 3.59013
-  ? - INV76
-    - CASC78
-  : 18.45009
-  ? - FXE80
-    - CHAL78
-  : 0.37476
   ? - FPR73
     - RNAI73
+  : 1
+  ? - RAI73
+    - RVAD73
+  : 1
+  ? - OBJEC
+    - RVAD73
+  : 0.90909
+  ? - DEP73
+    - DEPN73
+  : -1
+  ? - DEP74
+    - DEPN73
+  : 1
+  ? - RAI73
+    - DEPN73
+  : -1
+  ? - TRS73
+    - DEPN73
+  : 1
+  ? - INV73
+    - INVT73
+  : -1
+  ? - TRS73
+    - INVT73
+  : -1
+  ? - INC73
+    - INTC73
+  : -1
+  ? - FPR73
+    - INTC73
+  : 1
+  ? - TRS73
+    - INTC73
+  : 1
+  ? - INT73
+    - INTT73
+  : -1
+  ? - CVI73
+    - INTT73
+  : -1.25002
+  ? - TRS73
+    - INTT73
+  : -1
+  ? - FPR73
+    - INTT73
+  : -1
+  ? - INT73
+    - DETT73
+  : 0.085
+  ? - TRS73
+    - DETT73
+  : 1
+  ? - TRS74
+    - DETT73
+  : -1
+  ? - CAF73
+    - DETT73
+  : -1
+  ? - FPR73
+    - FOPR73
+  : -1
+  ? - FPR74
+    - FOPR73
   : 1
   ? - CAF73
     - FOPR73
   : 4.00007
-  ? - AAN78
-    - WK4N78
-  : 1.75203
-  ? - HED79
-    - CHAL79
-  : 0.19
-  ? - EEB81
-    - EBRP81
+  ? - RAI74
+    - RNAI74
+  : -1
+  ? - CVI74
+    - RNAI74
   : 1
+  ? - TRS74
+    - RNAI74
+  : 1
+  ? - FPR74
+    - RNAI74
+  : 1
+  ? - RAI74
+    - RVAD74
+  : 1
+  ? - OBJEC
+    - RVAD74
+  : 0.82644
+  ? - DEP74
+    - DEPN74
+  : -1
+  ? - DEP75
+    - DEPN74
+  : 1
+  ? - RAI74
+    - DEPN74
+  : -1
+  ? - TRS74
+    - DEPN74
+  : 1
+  ? - INV74
+    - INVT74
+  : -1
+  ? - TRS74
+    - INVT74
+  : -1
+  ? - INC74
+    - INTC74
+  : -1
+  ? - FPR74
+    - INTC74
+  : 1
+  ? - TRS74
+    - INTC74
+  : 1
+  ? - INT74
+    - INTT74
+  : -1
+  ? - CVI74
+    - INTT74
+  : -1.25002
+  ? - TRS74
+    - INTT74
+  : -1
+  ? - FPR74
+    - INTT74
+  : -1
+  ? - INT74
+    - DETT74
+  : 0.085
+  ? - TRS74
+    - DETT74
+  : 1
+  ? - TRS75
+    - DETT74
+  : -1
+  ? - CAF74
+    - DETT74
+  : -1
+  ? - FPR74
+    - FOPR74
+  : -1
+  ? - FPR75
+    - FOPR74
+  : 1
+  ? - CAF74
+    - FOPR74
+  : 4.00007
+  ? - RAI75
+    - RNAI75
+  : -1
+  ? - CVI75
+    - RNAI75
+  : 1
+  ? - TRS75
+    - RNAI75
+  : 1
+  ? - FPR75
+    - RNAI75
+  : 1
+  ? - RAI75
+    - RVAD75
+  : 1
+  ? - OBJEC
+    - RVAD75
+  : 0.75131
+  ? - DEP75
+    - DEPN75
+  : -1
+  ? - DEP76
+    - DEPN75
+  : 1
+  ? - RAI75
+    - DEPN75
+  : -1
+  ? - TRS75
+    - DEPN75
+  : 1
+  ? - INV75
+    - INVT75
+  : -1
+  ? - TRS75
+    - INVT75
+  : -1
   ? - INC75
-    - N60081
-  : 0.74571
-  ? - RES80
-    - T75079
-  : 0.34914
-  ? - VLRES
-    - CHAI78
-  : 28.90616
+    - INTC75
+  : -1
+  ? - FPR75
+    - INTC75
+  : 1
+  ? - TRS75
+    - INTC75
+  : 1
+  ? - INT75
+    - INTT75
+  : -1
+  ? - CVI75
+    - INTT75
+  : -1.25002
+  ? - TRS75
+    - INTT75
+  : -1
+  ? - FPR75
+    - INTT75
+  : -1
   ? - INT75
     - DETT75
   : 0.085
-  ? - AAG81
-    - NENE81
+  ? - TRS75
+    - DETT75
+  : 1
+  ? - TRS76
+    - DETT75
   : -1
-  ? - INC78
-    - CASC79
-  : 3.19407
-  ? - INC74
-    - CHAI78
-  : 2.00625
-  ? - FPR81
-    - RNAI81
+  ? - CAF75
+    - DETT75
+  : -1
+  ? - FPR75
+    - FOPR75
+  : -1
+  ? - FPR76
+    - FOPR75
   : 1
-  ? - HCP80
-    - HCAP79
+  ? - CAF75
+    - FOPR75
+  : 4.00007
+  ? - RAI76
+    - RNAI76
+  : -1
+  ? - CVI76
+    - RNAI76
   : 1
-  ? - CCR78
-    - BCAP78
-  : -0.75001
-  ? - CCG78
-    - RCAP78
-  : -0.98802
-  ? - AAH81
-    - WK1H81
-  : 8.76015
-  ? - INV76
-    - AD5478
-  : 2.25538
-  ? - VLRES
-    - NENE81
-  : 8.58846
-  ? - L5678
-    - AD5678
-  : 0.2
-  ? - FXE81
-    - AD3580
-  : 0.08735
-  ? - R5678
-    - XX5678
+  ? - TRS76
+    - RNAI76
+  : 1
+  ? - FPR76
+    - RNAI76
+  : 1
+  ? - RAI76
+    - RVAD76
+  : 1
+  ? - OBJEC
+    - RVAD76
+  : 0.68301
+  ? - DEP76
+    - DEPN76
+  : -1
+  ? - DEP77
+    - DEPN76
+  : 1
+  ? - RAI76
+    - DEPN76
+  : -1
+  ? - TRS76
+    - DEPN76
   : 1
   ? - INV76
     - INVT76
   : -1
   ? - TRS76
-    - DETT75
+    - INVT76
   : -1
-  ? - XX179
-    - XX1378
+  ? - INC76
+    - INTC76
+  : -1
+  ? - FPR76
+    - INTC76
   : 1
+  ? - TRS76
+    - INTC76
+  : 1
+  ? - INT76
+    - INTT76
+  : -1
+  ? - CVI76
+    - INTT76
+  : -1.25002
+  ? - TRS76
+    - INTT76
+  : -1
+  ? - FPR76
+    - INTT76
+  : -1
+  ? - INT76
+    - DETT76
+  : 0.085
+  ? - TRS76
+    - DETT76
+  : 1
+  ? - TRS77
+    - DETT76
+  : -1
+  ? - CAF76
+    - DETT76
+  : -1
+  ? - FPR76
+    - FOPR76
+  : -1
+  ? - FPR77
+    - FOPR76
+  : 1
+  ? - CAF76
+    - FOPR76
+  : 4.00007
+  ? - RAI77
+    - RNAI77
+  : -1
+  ? - CVI77
+    - RNAI77
+  : 1
+  ? - TRS77
+    - RNAI77
+  : 1
+  ? - FPR77
+    - RNAI77
+  : 1
+  ? - RAI77
+    - RVAD77
+  : 1
+  ? - OBJEC
+    - RVAD77
+  : 0.62092
+  ? - DEP77
+    - DEPN77
+  : -1
+  ? - DEP78
+    - DEPN77
+  : 1
+  ? - RAI77
+    - DEPN77
+  : -1
+  ? - TRS77
+    - DEPN77
+  : 1
+  ? - INV77
+    - INVT77
+  : -1
+  ? - TRS77
+    - INVT77
+  : -1
+  ? - INC77
+    - INTC77
+  : -1
+  ? - FPR77
+    - INTC77
+  : 1
+  ? - TRS77
+    - INTC77
+  : 1
+  ? - INT77
+    - INTT77
+  : -1
+  ? - CVI77
+    - INTT77
+  : -1.25002
+  ? - TRS77
+    - INTT77
+  : -1
+  ? - FPR77
+    - INTT77
+  : -1
+  ? - INT77
+    - DETT77
+  : 0.085
+  ? - TRS77
+    - DETT77
+  : 1
+  ? - TRS78
+    - DETT77
+  : -1
+  ? - CAF77
+    - DETT77
+  : -1
+  ? - FPR77
+    - FOPR77
+  : -1
+  ? - FPR78
+    - FOPR77
+  : 1
+  ? - CAF77
+    - FOPR77
+  : 4.00007
+  ? - RAI78
+    - RNAI78
+  : -1
+  ? - CVI78
+    - RNAI78
+  : 1
+  ? - TRS78
+    - RNAI78
+  : 1
+  ? - FPR78
+    - RNAI78
+  : 1
+  ? - RAI78
+    - RVAD78
+  : 1
+  ? - OBJEC
+    - RVAD78
+  : 0.56447
+  ? - DEP78
+    - DEPN78
+  : -1
   ? - DEP79
     - DEPN78
   : 1
-  ? - CCR81
-    - BCAP78
-  : -0.02
-  ? - CCG81
-    - BCAP78
-  : -0.02
-  ? - RAI79
-    - TENE79
-  : -5.16566
-  ? - FXE81
-    - AD1381
-  : 0.24956
-  ? - FXE79
-    - OUT279
-  : 0.52577
-  ? - CCG81
-    - WK2G81
+  ? - RAI78
+    - DEPN78
+  : -1
+  ? - TRS78
+    - DEPN78
   : 1
-  ? - CCN78
-    - WK3N78
+  ? - INV78
+    - INVT78
+  : -1
+  ? - TRS78
+    - INVT78
+  : -1
+  ? - INC78
+    - INTC78
+  : -1
+  ? - FPR78
+    - INTC78
   : 1
-  ? - FXE81
-    - OUT280
-  : 0.57821
-  ? - XX379
-    - CASC79
-  : 0.224
-  ? - FXE81
-    - CASC80
-  : 0.35836
-  ? - INV79
-    - CHAI80
-  : 38.89
-  ? - FXE80
-    - CHAI80
-  : 0.66594
-  ? - RCP79
-    - RCAP79
-  : -1
-  ? - CAF81
-    - DETT81
-  : -1
-  ? - AAB81
-    - WK2B81
-  : 6.1321
-  ? - RES78
-    - RESV78
-  : -1
-  ? - L3579
-    - CP3579
-  : -1
-  ? - RES81
-    - OUT280
-  : 0.02724
-  ? - EEB79
-    - EBRP79
+  ? - TRS78
+    - INTC78
   : 1
-  ? - INV76
-    - CHAL78
-  : 17.00111
-  ? - RAI81
-    - RNAI81
+  ? - INT78
+    - INTT78
   : -1
-  ? - FXE78
-    - CHAL78
-  : 0.34173
-  ? - AAN79
-    - HENE79
+  ? - CVI78
+    - INTT78
+  : -1.25002
+  ? - TRS78
+    - INTT78
   : -1
+  ? - FPR78
+    - INTT78
+  : -1
+  ? - INT78
+    - DETT78
+  : 0.085
+  ? - TRS78
+    - DETT78
+  : 1
   ? - TRS79
-    - DETT79
+    - DETT78
+  : -1
+  ? - CAF78
+    - DETT78
+  : -1
+  ? - FPR78
+    - FOPR78
+  : -1
+  ? - FPR79
+    - FOPR78
   : 1
-  ? - AAB81
-    - WK3B81
-  : 4.02967
-  ? - INC75
-    - CASC79
-  : 0.1428
-  ? - VLRES
-    - CHAI80
-  : 29.92389
-  ? - XX180
-    - N60080
-  : 0.60001
-  ? - INC75
-    - OUT279
-  : 1.48493
   ? - CAF78
     - FOPR78
   : 4.00007
-  ? - L3579
-    - CP3578
+  ? - RAI79
+    - RNAI79
+  : -1
+  ? - CVI79
+    - RNAI79
   : 1
-  ? - EER78
-    - RENE78
+  ? - TRS79
+    - RNAI79
   : 1
-  ? - AAG79
-    - WK2G79
-  : 6.1321
-  ? - CCB80
-    - TCAP80
-  : -0.75
-  ? - CAF74
-    - FOPR74
+  ? - FPR79
+    - RNAI79
+  : 1
+  ? - RAI79
+    - RVAD79
+  : 1
+  ? - OBJEC
+    - RVAD79
+  : 0.51315
+  ? - DEP79
+    - DEPN79
+  : -1
+  ? - DEP80
+    - DEPN79
+  : 1
+  ? - RAI79
+    - DEPN79
+  : -1
+  ? - TRS79
+    - DEPN79
+  : 1
+  ? - INV79
+    - INVT79
+  : -1
+  ? - TRS79
+    - INVT79
+  : -1
+  ? - INC79
+    - INTC79
+  : -1
+  ? - FPR79
+    - INTC79
+  : 1
+  ? - TRS79
+    - INTC79
+  : 1
+  ? - INT79
+    - INTT79
+  : -1
+  ? - CVI79
+    - INTT79
+  : -1.25002
+  ? - TRS79
+    - INTT79
+  : -1
+  ? - FPR79
+    - INTT79
+  : -1
+  ? - INT79
+    - DETT79
+  : 0.085
+  ? - TRS79
+    - DETT79
+  : 1
+  ? - TRS80
+    - DETT79
+  : -1
+  ? - CAF79
+    - DETT79
+  : -1
+  ? - FPR79
+    - FOPR79
+  : -1
+  ? - FPR80
+    - FOPR79
+  : 1
+  ? - CAF79
+    - FOPR79
   : 4.00007
-  ? - EEH79
-    - ESEC79
+  ? - RAI80
+    - RNAI80
+  : -1
+  ? - CVI80
+    - RNAI80
+  : 1
+  ? - TRS80
+    - RNAI80
+  : 1
+  ? - FPR80
+    - RNAI80
+  : 1
+  ? - RAI80
+    - RVAD80
+  : 1
+  ? - OBJEC
+    - RVAD80
+  : 0.4665
+  ? - DEP80
+    - DEPN80
+  : -1
+  ? - DEP81
+    - DEPN80
+  : 1
+  ? - RAI80
+    - DEPN80
+  : -1
+  ? - TRS80
+    - DEPN80
+  : 1
+  ? - INV80
+    - INVT80
+  : -1
+  ? - TRS80
+    - INVT80
+  : -1
+  ? - INC80
+    - INTC80
+  : -1
+  ? - FPR80
+    - INTC80
+  : 1
+  ? - TRS80
+    - INTC80
+  : 1
+  ? - INT80
+    - INTT80
+  : -1
+  ? - CVI80
+    - INTT80
+  : -1.25002
+  ? - TRS80
+    - INTT80
+  : -1
+  ? - FPR80
+    - INTT80
+  : -1
+  ? - INT80
+    - DETT80
+  : 0.085
+  ? - TRS80
+    - DETT80
+  : 1
+  ? - TRS81
+    - DETT80
+  : -1
+  ? - CAF80
+    - DETT80
+  : -1
+  ? - FPR80
+    - FOPR80
+  : -1
+  ? - FPR81
+    - FOPR80
+  : 1
+  ? - CAF80
+    - FOPR80
+  : 4.00007
+  ? - RAI81
+    - RNAI81
+  : -1
+  ? - CVI81
+    - RNAI81
+  : 1
+  ? - TRS81
+    - RNAI81
+  : 1
+  ? - FPR81
+    - RNAI81
   : 1
   ? - RAI81
-    - ETRP81
-  : -5.37434
-  ? - INV77
-    - AD1379
-  : 2.30048
-  ? - AAT80
-    - WK1T80
-  : 8.76015
-  ? - AAN79
-    - WK1N79
-  : 8.76015
-  ? - CRS81
-    - GCAP81
+    - RVAD81
   : 1
-  ? - INC79
-    - AD1380
-  : 0.258
   ? - OBJEC
     - RVAD81
   : 0.42409
-  ? - AAR78
-    - RENE78
+  ? - DEP81
+    - DEPN81
+  : -1
+  ? - RAI81
+    - DEPN81
+  : -1
+  ? - TRS81
+    - DEPN81
+  : 1
+  ? - INV81
+    - INVT81
+  : -1
+  ? - TRS81
+    - INVT81
+  : -1
+  ? - INC81
+    - INTC81
+  : -1
+  ? - FPR81
+    - INTC81
+  : 1
+  ? - TRS81
+    - INTC81
+  : 1
+  ? - INT81
+    - INTT81
+  : -1
+  ? - CVI81
+    - INTT81
+  : -1.25002
+  ? - TRS81
+    - INTT81
+  : -1
+  ? - FPR81
+    - INTT81
+  : -1
+  ? - VLRES
+    - INTT81
+  : 9.99983
+  ? - INT81
+    - DETT81
+  : 0.085
+  ? - TRS81
+    - DETT81
+  : 1
+  ? - CAF81
+    - DETT81
+  : -1
+  ? - FPR81
+    - FOPR81
+  : -1
+  ? - CAF81
+    - FOPR81
+  : 4.00007
+  ? - L1378
+    - CP1378
+  : -1
+  ? - L1379
+    - CP1378
+  : 1
+  ? - R1378
+    - CP1378
   : -1
   ? - R1378
     - XX1378
   : 1
-  ? - AAT79
-    - ACHT79
+  ? - XX178
+    - XX1378
   : -1
-  ? - RPM79
-    - ENRP79
-  : -0.75001
-  ? - HED79
-    - OUT279
-  : 2.07003
-  ? - FXE81
-    - TGAZ79
-  : 0.07981
-  ? - CCG81
-    - WK1G81
+  ? - XX179
+    - XX1378
   : 1
-  ? - INC74
-    - N60079
-  : 2.81536
-  ? - RES81
-    - T75078
-  : 0.23645
+  ? - XX378
+    - XX1378
+  : 1
+  ? - XX379
+    - XX1378
+  : -1
+  ? - L2378
+    - CP2378
+  : -1
+  ? - L2379
+    - CP2378
+  : 1
+  ? - R2378
+    - CP2378
+  : -1
+  ? - R2378
+    - XX2378
+  : 1
+  ? - XX278
+    - XX2378
+  : -1
+  ? - XX279
+    - XX2378
+  : 1
+  ? - XX378
+    - XX2378
+  : 1
+  ? - XX379
+    - XX2378
+  : -1
+  ? - L3578
+    - CP3578
+  : -1
+  ? - L3579
+    - CP3578
+  : 1
+  ? - R3578
+    - CP3578
+  : -1
+  ? - R3578
+    - XX3578
+  : 1
+  ? - XX378
+    - XX3578
+  : -1
+  ? - XX379
+    - XX3578
+  : 1
+  ? - XX578
+    - XX3578
+  : 1
+  ? - XX579
+    - XX3578
+  : -1
+  ? - L5478
+    - CP5478
+  : -1
+  ? - L5479
+    - CP5478
+  : 1
+  ? - R5478
+    - CP5478
+  : -1
+  ? - R5478
+    - XX5478
+  : 1
+  ? - XX578
+    - XX5478
+  : -1
+  ? - XX579
+    - XX5478
+  : 1
+  ? - L5678
+    - CP5678
+  : -1
+  ? - L5679
+    - CP5678
+  : 1
+  ? - R5678
+    - CP5678
+  : -1
+  ? - R5678
+    - XX5678
+  : 1
+  ? - XX578
+    - XX5678
+  : -1
+  ? - XX579
+    - XX5678
+  : 1
+  ? - L1379
+    - CP1379
+  : -1
+  ? - L1380
+    - CP1379
+  : 1
+  ? - R1379
+    - CP1379
+  : -1
+  ? - R1379
+    - XX1379
+  : 1
+  ? - XX179
+    - XX1379
+  : -1
+  ? - XX180
+    - XX1379
+  : 1
+  ? - XX379
+    - XX1379
+  : 1
+  ? - XX380
+    - XX1379
+  : -1
+  ? - L2379
+    - CP2379
+  : -1
+  ? - L2380
+    - CP2379
+  : 1
+  ? - R2379
+    - CP2379
+  : -1
+  ? - R2379
+    - XX2379
+  : 1
+  ? - XX279
+    - XX2379
+  : -1
+  ? - XX280
+    - XX2379
+  : 1
+  ? - XX379
+    - XX2379
+  : 1
+  ? - XX380
+    - XX2379
+  : -1
+  ? - L3579
+    - CP3579
+  : -1
+  ? - L3580
+    - CP3579
+  : 1
+  ? - R3579
+    - CP3579
+  : -1
+  ? - R3579
+    - XX3579
+  : 1
+  ? - XX379
+    - XX3579
+  : -1
+  ? - XX380
+    - XX3579
+  : 1
+  ? - XX579
+    - XX3579
+  : 1
+  ? - XX580
+    - XX3579
+  : -1
+  ? - L5479
+    - CP5479
+  : -1
+  ? - L5480
+    - CP5479
+  : 1
+  ? - R5479
+    - CP5479
+  : -1
+  ? - R5479
+    - XX5479
+  : 1
+  ? - XX579
+    - XX5479
+  : -1
+  ? - XX580
+    - XX5479
+  : 1
+  ? - L5679
+    - CP5679
+  : -1
+  ? - L5680
+    - CP5679
+  : 1
+  ? - R5679
+    - CP5679
+  : -1
+  ? - R5679
+    - XX5679
+  : 1
+  ? - XX579
+    - XX5679
+  : -1
+  ? - XX580
+    - XX5679
+  : 1
+  ? - L1380
+    - CP1380
+  : -1
+  ? - L1381
+    - CP1380
+  : 1
+  ? - R1380
+    - CP1380
+  : -1
+  ? - R1380
+    - XX1380
+  : 1
+  ? - XX180
+    - XX1380
+  : -1
+  ? - XX181
+    - XX1380
+  : 1
+  ? - XX380
+    - XX1380
+  : 1
+  ? - XX381
+    - XX1380
+  : -1
+  ? - L2380
+    - CP2380
+  : -1
+  ? - L2381
+    - CP2380
+  : 1
+  ? - R2380
+    - CP2380
+  : -1
+  ? - R2380
+    - XX2380
+  : 1
+  ? - XX280
+    - XX2380
+  : -1
+  ? - XX281
+    - XX2380
+  : 1
+  ? - XX380
+    - XX2380
+  : 1
+  ? - XX381
+    - XX2380
+  : -1
+  ? - L3580
+    - CP3580
+  : -1
+  ? - L3581
+    - CP3580
+  : 1
+  ? - R3580
+    - CP3580
+  : -1
+  ? - R3580
+    - XX3580
+  : 1
+  ? - XX380
+    - XX3580
+  : -1
+  ? - XX381
+    - XX3580
+  : 1
+  ? - XX580
+    - XX3580
+  : 1
+  ? - XX581
+    - XX3580
+  : -1
+  ? - L5480
+    - CP5480
+  : -1
+  ? - L5481
+    - CP5480
+  : 1
+  ? - R5480
+    - CP5480
+  : -1
+  ? - R5480
+    - XX5480
+  : 1
+  ? - XX580
+    - XX5480
+  : -1
+  ? - XX581
+    - XX5480
+  : 1
+  ? - L5680
+    - CP5680
+  : -1
+  ? - L5681
+    - CP5680
+  : 1
+  ? - R5680
+    - CP5680
+  : -1
+  ? - R5680
+    - XX5680
+  : 1
+  ? - XX580
+    - XX5680
+  : -1
+  ? - XX581
+    - XX5680
+  : 1
+  ? - L1381
+    - CP1381
+  : -1
+  ? - R1381
+    - CP1381
+  : -1
+  ? - R1381
+    - XX1381
+  : 1
+  ? - XX181
+    - XX1381
+  : -1
+  ? - XX381
+    - XX1381
+  : 1
+  ? - L2381
+    - CP2381
+  : -1
+  ? - R2381
+    - CP2381
+  : -1
+  ? - R2381
+    - XX2381
+  : 1
   ? - XX281
     - XX2381
   : -1
+  ? - XX381
+    - XX2381
+  : 1
+  ? - L3581
+    - CP3581
+  : -1
+  ? - R3581
+    - CP3581
+  : -1
+  ? - R3581
+    - XX3581
+  : 1
+  ? - XX381
+    - XX3581
+  : -1
+  ? - XX581
+    - XX3581
+  : 1
+  ? - L5481
+    - CP5481
+  : -1
+  ? - R5481
+    - CP5481
+  : -1
+  ? - R5481
+    - XX5481
+  : 1
+  ? - XX581
+    - XX5481
+  : -1
+  ? - L5681
+    - CP5681
+  : -1
+  ? - R5681
+    - CP5681
+  : -1
+  ? - R5681
+    - XX5681
+  : 1
+  ? - XX581
+    - XX5681
+  : -1
   ? - FXE78
-    - AD5478
-  : 0.02317
-  ? - FXE81
-    - OUT278
-  : 0.57821
-  ? - RES80
-    - CASC79
-  : 0.01552
+    - FEXE78
+  : -1
   ? - RAI78
-    - BENE78
-  : -5.40147
-  ? - CVI81
-    - INTT81
-  : -1.25002
-  ? - INV79
-    - AD5480
-  : 1.6355
-  ? - R5479
-    - CP5479
+    - FEXE78
+  : -1
+  ? - ACP78
+    - ACHT78
   : -1
   ? - CRS78
     - ACHT78
   : 0.11416
-  ? - RAI73
-    - RVAD73
+  ? - ACP79
+    - ACHT78
   : 1
-  ? - EEN78
-    - ENRP78
-  : 1
-  ? - RCP80
-    - RCAP79
-  : 1
-  ? - FXE79
-    - AD2378
-  : 0.59385
-  ? - INC72
-    - CHAI78
-  : 0.04505
-  ? - CCG78
-    - NCAP78
-  : -0.85001
-  ? - AAR79
-    - WK4R79
-  : 1.75203
-  ? - VLRES
-    - CASC80
-  : 12.64388
-  ? - DEP76
-    - DEPN76
+  ? - AAH78
+    - ACHT78
   : -1
-  ? - DEP80
-    - TGAZ80
-  : 0.27928
-  ? - INC77
-    - N60078
-  : 20.92299
+  ? - CCH78
+    - ACHT78
+  : -0.11416
+  ? - AAN78
+    - ACHT78
+  : -1
+  ? - CCN78
+    - ACHT78
+  : -0.11416
+  ? - AAT78
+    - ACHT78
+  : -1
+  ? - CCT78
+    - ACHT78
+  : -0.11416
+  ? - AAB78
+    - ACHT78
+  : -1
+  ? - CCB78
+    - ACHT78
+  : -0.11416
+  ? - AAR78
+    - ACHT78
+  : -1
+  ? - CCR78
+    - ACHT78
+  : -0.11416
+  ? - AAG78
+    - ACHT78
+  : -1
+  ? - CCG78
+    - ACHT78
+  : -0.11416
+  ? - FXE79
+    - FEXE79
+  : -1
   ? - RAI79
-    - EHRP79
-  : -0.50001
-  ? - FPR73
-    - INTC73
+    - FEXE79
+  : -1
+  ? - ACP79
+    - ACHT79
+  : -1
+  ? - CRS79
+    - ACHT79
+  : 0.11416
+  ? - ACP80
+    - ACHT79
   : 1
-  ? - AAN80
-    - WK3N80
-  : 4.02967
+  ? - AAH79
+    - ACHT79
+  : -1
+  ? - CCH79
+    - ACHT79
+  : -0.11416
+  ? - AAN79
+    - ACHT79
+  : -1
+  ? - CCN79
+    - ACHT79
+  : -0.11416
+  ? - AAT79
+    - ACHT79
+  : -1
+  ? - CCT79
+    - ACHT79
+  : -0.11416
+  ? - AAB79
+    - ACHT79
+  : -1
+  ? - CCB79
+    - ACHT79
+  : -0.11416
+  ? - AAR79
+    - ACHT79
+  : -1
+  ? - CCR79
+    - ACHT79
+  : -0.11416
+  ? - AAG79
+    - ACHT79
+  : -1
+  ? - CCG79
+    - ACHT79
+  : -0.11416
   ? - FXE80
-    - AD5478
-  : 0.02435
-  ? - INC79
-    - CASC81
-  : 2.24303
+    - FEXE80
+  : -1
+  ? - RAI80
+    - FEXE80
+  : -1
+  ? - ACP80
+    - ACHT80
+  : -1
+  ? - CRS80
+    - ACHT80
+  : 0.11416
+  ? - ACP81
+    - ACHT80
+  : 1
+  ? - AAH80
+    - ACHT80
+  : -1
+  ? - CCH80
+    - ACHT80
+  : -0.11416
+  ? - AAN80
+    - ACHT80
+  : -1
+  ? - CCN80
+    - ACHT80
+  : -0.11416
+  ? - AAT80
+    - ACHT80
+  : -1
+  ? - CCT80
+    - ACHT80
+  : -0.11416
+  ? - AAB80
+    - ACHT80
+  : -1
+  ? - CCB80
+    - ACHT80
+  : -0.11416
+  ? - AAR80
+    - ACHT80
+  : -1
+  ? - CCR80
+    - ACHT80
+  : -0.11416
+  ? - AAG80
+    - ACHT80
+  : -1
+  ? - CCG80
+    - ACHT80
+  : -0.11416
+  ? - FXE81
+    - FEXE81
+  : -1
+  ? - RAI81
+    - FEXE81
+  : -1
+  ? - ACP81
+    - ACHT81
+  : -1
+  ? - CRS81
+    - ACHT81
+  : 0.11416
+  ? - AAH81
+    - ACHT81
+  : -1
+  ? - CCH81
+    - ACHT81
+  : -0.11416
   ? - AAN81
     - ACHT81
   : -1
-  ? - FXE79
-    - CHAL79
-  : 0.35785
-  ? - DEP79
-    - N60079
-  : 7.48138
-  ? - EEN81
-    - ENRP81
-  : 1
-  ? - INV79
-    - AD1381
-  : 2.39342
-  ? - TRS72
-    - INTT72
+  ? - CCN81
+    - ACHT81
+  : -0.11416
+  ? - AAT81
+    - ACHT81
   : -1
-  ? - RES81
-    - CASC80
-  : 0.01537
+  ? - CCT81
+    - ACHT81
+  : -0.11416
+  ? - AAB81
+    - ACHT81
+  : -1
+  ? - CCB81
+    - ACHT81
+  : -0.11416
+  ? - AAR81
+    - ACHT81
+  : -1
+  ? - CCR81
+    - ACHT81
+  : -0.11416
+  ? - AAG81
+    - ACHT81
+  : -1
+  ? - CCG81
+    - ACHT81
+  : -0.11416
+  ? - EEH78
+    - ESEC78
+  : 1
+  ? - RAI78
+    - ESEC78
+  : -0.35001
+  ? - OBJEC
+    - ESEC78
+  : -0.28224
+  ? - EEH78
+    - GRES78
+  : 0.02433
+  ? - EEH79
+    - GRES78
+  : -0.02508
+  ? - HED78
+    - HEND78
+  : -1
+  ? - HED79
+    - HEND78
+  : 1
+  ? - EEH78
+    - HEND78
+  : -1
+  ? - HCP78
+    - HCAP78
+  : -1
+  ? - HCP79
+    - HCAP78
+  : 1
+  ? - CRS78
+    - HCAP78
+  : 1
+  ? - CCH78
+    - HCAP78
+  : -0.98802
+  ? - CCN78
+    - HCAP78
+  : -0.98802
+  ? - CCT78
+    - HCAP78
+  : -0.98802
+  ? - CCB78
+    - HCAP78
+  : -0.98802
+  ? - CCR78
+    - HCAP78
+  : -0.98802
+  ? - CCG78
+    - HCAP78
+  : -0.98802
   ? - AAH78
-    - ACHT78
+    - WK1H78
+  : 8.76015
+  ? - CCH78
+    - WK1H78
+  : 1
+  ? - AAH78
+    - WK2H78
+  : 6.1321
+  ? - CCH78
+    - WK2H78
+  : 1
+  ? - AAH78
+    - WK3H78
+  : 4.02967
+  ? - CCH78
+    - WK3H78
+  : 1
+  ? - AAH78
+    - WK4H78
+  : 1.75203
+  ? - CCH78
+    - WK4H78
+  : 1
+  ? - EEH78
+    - EHRP78
+  : 1
+  ? - RPM78
+    - EHRP78
+  : -0.75001
+  ? - RAI78
+    - EHRP78
+  : -0.50001
+  ? - RAI78
+    - HENE78
+  : -0.50001
+  ? - AAH78
+    - HENE78
+  : -1
+  ? - AAN78
+    - HENE78
+  : -1
+  ? - AAT78
+    - HENE78
+  : -1
+  ? - AAB78
+    - HENE78
+  : -1
+  ? - AAR78
+    - HENE78
   : -1
   ? - AAG78
     - HENE78
   : -1
-  ? - FPR73
-    - FOPR72
+  ? - EEH78
+    - HENE78
+  : 1
+  ? - OBJEC
+    - HENE78
+  : -0.28224
+  ? - NCP78
+    - NCAP78
+  : -1
+  ? - NCP79
+    - NCAP78
+  : 1
+  ? - CRS78
+    - NCAP78
+  : 1
+  ? - EEN78
+    - NCAP78
+  : -7.00813
+  ? - CCN78
+    - NCAP78
+  : -0.85001
+  ? - CCT78
+    - NCAP78
+  : -0.85001
+  ? - CCB78
+    - NCAP78
+  : -0.85001
+  ? - CCR78
+    - NCAP78
+  : -0.85001
+  ? - CCG78
+    - NCAP78
+  : -0.85001
+  ? - AAN78
+    - WK1N78
+  : 8.76015
+  ? - CCN78
+    - WK1N78
+  : 1
+  ? - AAN78
+    - WK2N78
+  : 6.1321
+  ? - CCN78
+    - WK2N78
+  : 1
+  ? - AAN78
+    - WK3N78
+  : 4.02967
+  ? - CCN78
+    - WK3N78
+  : 1
+  ? - AAN78
+    - WK4N78
+  : 1.75203
+  ? - CCN78
+    - WK4N78
+  : 1
+  ? - EEN78
+    - ENRP78
+  : 1
+  ? - RPM78
+    - ENRP78
+  : -0.75001
+  ? - RAI78
+    - ENRP78
+  : -0.74282
+  ? - RAI78
+    - NENE78
+  : -0.74282
+  ? - AAN78
+    - NENE78
+  : -1
+  ? - AAT78
+    - NENE78
+  : -1
+  ? - AAB78
+    - NENE78
+  : -1
+  ? - AAR78
+    - NENE78
+  : -1
+  ? - AAG78
+    - NENE78
+  : -1
+  ? - EEN78
+    - NENE78
+  : 1
+  ? - TCP78
+    - TCAP78
+  : -1
+  ? - TCP79
+    - TCAP78
+  : 1
+  ? - CRS78
+    - TCAP78
+  : 1
+  ? - EET78
+    - TCAP78
+  : -6.13201
+  ? - EET79
+    - TCAP78
+  : -0.438
+  ? - EET80
+    - TCAP78
+  : -0.2628
+  ? - EET81
+    - TCAP78
+  : -0.1752
+  ? - CCT78
+    - TCAP78
+  : -0.75
+  ? - CCT79
+    - TCAP78
+  : -0.07
+  ? - CCT80
+    - TCAP78
+  : -0.03
+  ? - CCB78
+    - TCAP78
+  : -0.75
+  ? - CCB79
+    - TCAP78
+  : -0.07
+  ? - CCB80
+    - TCAP78
+  : -0.03
+  ? - CCR78
+    - TCAP78
+  : -0.75
+  ? - CCR79
+    - TCAP78
+  : -0.07
+  ? - CCR80
+    - TCAP78
+  : -0.03
+  ? - CCG78
+    - TCAP78
+  : -0.75
+  ? - CCG79
+    - TCAP78
+  : -0.07
+  ? - CCG80
+    - TCAP78
+  : -0.03
+  ? - AAT78
+    - WK1T78
+  : 8.76015
+  ? - CCT78
+    - WK1T78
+  : 1
+  ? - AAT78
+    - WK2T78
+  : 6.1321
+  ? - CCT78
+    - WK2T78
+  : 1
+  ? - AAT78
+    - WK3T78
+  : 4.02967
+  ? - CCT78
+    - WK3T78
+  : 1
+  ? - AAT78
+    - WK4T78
+  : 1.75203
+  ? - CCT78
+    - WK4T78
+  : 1
+  ? - EET78
+    - ETRP78
+  : 1
+  ? - RPM78
+    - ETRP78
+  : -0.75001
+  ? - RAI78
+    - ETRP78
+  : -5.06437
+  ? - RAI78
+    - TENE78
+  : -5.06437
+  ? - AAT78
+    - TENE78
+  : -1
+  ? - AAB78
+    - TENE78
+  : -1
+  ? - AAR78
+    - TENE78
+  : -1
+  ? - AAG78
+    - TENE78
+  : -1
+  ? - EET78
+    - TENE78
+  : 1
+  ? - BCP78
+    - BCAP78
+  : -1
+  ? - BCP79
+    - BCAP78
+  : 1
+  ? - CRS78
+    - BCAP78
+  : 1
+  ? - EEB78
+    - BCAP78
+  : -7.00813
+  ? - CCB78
+    - BCAP78
+  : -0.75001
+  ? - CCB79
+    - BCAP78
+  : -0.05
+  ? - CCB80
+    - BCAP78
+  : -0.03
+  ? - CCB81
+    - BCAP78
+  : -0.02
+  ? - CCR78
+    - BCAP78
+  : -0.75001
+  ? - CCR79
+    - BCAP78
+  : -0.05
+  ? - CCR80
+    - BCAP78
+  : -0.03
+  ? - CCR81
+    - BCAP78
+  : -0.02
+  ? - CCG78
+    - BCAP78
+  : -0.75001
+  ? - CCG79
+    - BCAP78
+  : -0.05
+  ? - CCG80
+    - BCAP78
+  : -0.03
+  ? - CCG81
+    - BCAP78
+  : -0.02
+  ? - AAB78
+    - WK1B78
+  : 8.76015
+  ? - CCB78
+    - WK1B78
+  : 1
+  ? - AAB78
+    - WK2B78
+  : 6.1321
+  ? - CCB78
+    - WK2B78
+  : 1
+  ? - AAB78
+    - WK3B78
+  : 4.02967
+  ? - CCB78
+    - WK3B78
+  : 1
+  ? - AAB78
+    - WK4B78
+  : 1.75203
+  ? - CCB78
+    - WK4B78
+  : 1
+  ? - EEB78
+    - EBRP78
+  : 1
+  ? - RPM78
+    - EBRP78
+  : -0.75001
+  ? - RAI78
+    - EBRP78
+  : -5.40147
+  ? - RAI78
+    - BENE78
+  : -5.40147
+  ? - AAB78
+    - BENE78
+  : -1
+  ? - AAR78
+    - BENE78
+  : -1
+  ? - AAG78
+    - BENE78
+  : -1
+  ? - EEB78
+    - BENE78
+  : 1
+  ? - RCP78
+    - RCAP78
+  : -1
+  ? - RCP79
+    - RCAP78
+  : 1
+  ? - CRS78
+    - RCAP78
+  : 1
+  ? - EER78
+    - RCAP78
+  : -2.19004
+  ? - CCR78
+    - RCAP78
+  : -0.98802
+  ? - CCG78
+    - RCAP78
+  : -0.98802
+  ? - AAR78
+    - WK1R78
+  : 8.76015
+  ? - CCR78
+    - WK1R78
+  : 1
+  ? - AAR78
+    - WK2R78
+  : 6.1321
+  ? - CCR78
+    - WK2R78
+  : 1
+  ? - AAR78
+    - WK3R78
+  : 4.02967
+  ? - CCR78
+    - WK3R78
+  : 1
+  ? - AAR78
+    - WK4R78
+  : 1.75203
+  ? - CCR78
+    - WK4R78
+  : 1
+  ? - AAR78
+    - RENE78
+  : -1
+  ? - AAG78
+    - RENE78
+  : -1
+  ? - EER78
+    - RENE78
+  : 1
+  ? - RPM78
+    - RENE78
+  : 1
+  ? - GCP78
+    - GCAP78
+  : -1
+  ? - GCP79
+    - GCAP78
+  : 1
+  ? - CRS78
+    - GCAP78
+  : 1
+  ? - EEG78
+    - GCAP78
+  : -3.50406
+  ? - CCG78
+    - GCAP78
+  : -0.90002
+  ? - AAG78
+    - WK1G78
+  : 8.76015
+  ? - CCG78
+    - WK1G78
+  : 1
+  ? - AAG78
+    - WK2G78
+  : 6.1321
+  ? - CCG78
+    - WK2G78
+  : 1
+  ? - AAG78
+    - WK3G78
+  : 4.02967
+  ? - CCG78
+    - WK3G78
+  : 1
+  ? - AAG78
+    - WK4G78
+  : 1.75203
+  ? - CCG78
+    - WK4G78
+  : 1
+  ? - RAI78
+    - GENE78
+  : -16.09344
+  ? - AAG78
+    - GENE78
+  : -1
+  ? - EEG78
+    - GENE78
+  : 1
+  ? - EEH79
+    - ESEC79
+  : 1
+  ? - RAI79
+    - ESEC79
+  : -0.35001
+  ? - OBJEC
+    - ESEC79
+  : -0.25659
+  ? - EEH79
+    - GRES79
+  : 0.02433
+  ? - EEH80
+    - GRES79
+  : -0.02508
+  ? - HED79
+    - HEND79
+  : -1
+  ? - HED80
+    - HEND79
+  : 1
+  ? - EEH79
+    - HEND79
+  : -1
+  ? - HCP79
+    - HCAP79
+  : -1
+  ? - HCP80
+    - HCAP79
+  : 1
+  ? - CRS79
+    - HCAP79
+  : 1
+  ? - CCH79
+    - HCAP79
+  : -0.98802
+  ? - CCN79
+    - HCAP79
+  : -0.98802
+  ? - CCT79
+    - HCAP79
+  : -0.98802
+  ? - CCB79
+    - HCAP79
+  : -0.98802
+  ? - CCR79
+    - HCAP79
+  : -0.98802
+  ? - CCG79
+    - HCAP79
+  : -0.98802
+  ? - AAH79
+    - WK1H79
+  : 8.76015
+  ? - CCH79
+    - WK1H79
+  : 1
+  ? - AAH79
+    - WK2H79
+  : 6.1321
+  ? - CCH79
+    - WK2H79
+  : 1
+  ? - AAH79
+    - WK3H79
+  : 4.02967
+  ? - CCH79
+    - WK3H79
+  : 1
+  ? - AAH79
+    - WK4H79
+  : 1.75203
+  ? - CCH79
+    - WK4H79
+  : 1
+  ? - EEH79
+    - EHRP79
   : 1
   ? - RPM79
     - EHRP79
   : -0.75001
+  ? - RAI79
+    - EHRP79
+  : -0.50001
+  ? - RAI79
+    - HENE79
+  : -0.50001
+  ? - AAH79
+    - HENE79
+  : -1
+  ? - AAN79
+    - HENE79
+  : -1
+  ? - AAT79
+    - HENE79
+  : -1
+  ? - AAB79
+    - HENE79
+  : -1
+  ? - AAR79
+    - HENE79
+  : -1
+  ? - AAG79
+    - HENE79
+  : -1
+  ? - EEH79
+    - HENE79
+  : 1
+  ? - OBJEC
+    - HENE79
+  : -0.25659
+  ? - NCP79
+    - NCAP79
+  : -1
+  ? - NCP80
+    - NCAP79
+  : 1
+  ? - CRS79
+    - NCAP79
+  : 1
+  ? - EEN79
+    - NCAP79
+  : -7.00813
+  ? - CCN79
+    - NCAP79
+  : -0.85001
+  ? - CCT79
+    - NCAP79
+  : -0.85001
+  ? - CCB79
+    - NCAP79
+  : -0.85001
+  ? - CCR79
+    - NCAP79
+  : -0.85001
+  ? - CCG79
+    - NCAP79
+  : -0.85001
+  ? - AAN79
+    - WK1N79
+  : 8.76015
+  ? - CCN79
+    - WK1N79
+  : 1
+  ? - AAN79
+    - WK2N79
+  : 6.1321
+  ? - CCN79
+    - WK2N79
+  : 1
+  ? - AAN79
+    - WK3N79
+  : 4.02967
+  ? - CCN79
+    - WK3N79
+  : 1
+  ? - AAN79
+    - WK4N79
+  : 1.75203
+  ? - CCN79
+    - WK4N79
+  : 1
+  ? - EEN79
+    - ENRP79
+  : 1
+  ? - RPM79
+    - ENRP79
+  : -0.75001
+  ? - RAI79
+    - ENRP79
+  : -0.75025
+  ? - RAI79
+    - NENE79
+  : -0.75025
+  ? - AAN79
+    - NENE79
+  : -1
+  ? - AAT79
+    - NENE79
+  : -1
+  ? - AAB79
+    - NENE79
+  : -1
+  ? - AAR79
+    - NENE79
+  : -1
+  ? - AAG79
+    - NENE79
+  : -1
+  ? - EEN79
+    - NENE79
+  : 1
+  ? - TCP79
+    - TCAP79
+  : -1
+  ? - TCP80
+    - TCAP79
+  : 1
+  ? - CRS79
+    - TCAP79
+  : 1
+  ? - EET79
+    - TCAP79
+  : -6.13201
+  ? - EET80
+    - TCAP79
+  : -0.438
+  ? - EET81
+    - TCAP79
+  : -0.2628
+  ? - CCT79
+    - TCAP79
+  : -0.75
+  ? - CCT80
+    - TCAP79
+  : -0.07
+  ? - CCT81
+    - TCAP79
+  : -0.03
+  ? - CCB79
+    - TCAP79
+  : -0.75
+  ? - CCB80
+    - TCAP79
+  : -0.07
+  ? - CCB81
+    - TCAP79
+  : -0.03
+  ? - CCR79
+    - TCAP79
+  : -0.75
+  ? - CCR80
+    - TCAP79
+  : -0.07
+  ? - CCR81
+    - TCAP79
+  : -0.03
+  ? - CCG79
+    - TCAP79
+  : -0.75
+  ? - CCG80
+    - TCAP79
+  : -0.07
+  ? - CCG81
+    - TCAP79
+  : -0.03
+  ? - AAT79
+    - WK1T79
+  : 8.76015
+  ? - CCT79
+    - WK1T79
+  : 1
+  ? - AAT79
+    - WK2T79
+  : 6.1321
+  ? - CCT79
+    - WK2T79
+  : 1
+  ? - AAT79
+    - WK3T79
+  : 4.02967
+  ? - CCT79
+    - WK3T79
+  : 1
+  ? - AAT79
+    - WK4T79
+  : 1.75203
+  ? - CCT79
+    - WK4T79
+  : 1
+  ? - EET79
+    - ETRP79
+  : 1
+  ? - RPM79
+    - ETRP79
+  : -0.75001
+  ? - RAI79
+    - ETRP79
+  : -5.16566
+  ? - RAI79
+    - TENE79
+  : -5.16566
+  ? - AAT79
+    - TENE79
+  : -1
+  ? - AAB79
+    - TENE79
+  : -1
+  ? - AAR79
+    - TENE79
+  : -1
+  ? - AAG79
+    - TENE79
+  : -1
+  ? - EET79
+    - TENE79
+  : 1
+  ? - BCP79
+    - BCAP79
+  : -1
+  ? - BCP80
+    - BCAP79
+  : 1
+  ? - CRS79
+    - BCAP79
+  : 1
+  ? - EEB79
+    - BCAP79
+  : -7.00813
+  ? - CCB79
+    - BCAP79
+  : -0.75001
+  ? - CCB80
+    - BCAP79
+  : -0.05
+  ? - CCB81
+    - BCAP79
+  : -0.03
+  ? - CCR79
+    - BCAP79
+  : -0.75001
+  ? - CCR80
+    - BCAP79
+  : -0.05
+  ? - CCR81
+    - BCAP79
+  : -0.03
+  ? - CCG79
+    - BCAP79
+  : -0.75001
+  ? - CCG80
+    - BCAP79
+  : -0.05
+  ? - CCG81
+    - BCAP79
+  : -0.03
+  ? - AAB79
+    - WK1B79
+  : 8.76015
+  ? - CCB79
+    - WK1B79
+  : 1
+  ? - AAB79
+    - WK2B79
+  : 6.1321
+  ? - CCB79
+    - WK2B79
+  : 1
+  ? - AAB79
+    - WK3B79
+  : 4.02967
+  ? - CCB79
+    - WK3B79
+  : 1
+  ? - AAB79
+    - WK4B79
+  : 1.75203
+  ? - CCB79
+    - WK4B79
+  : 1
+  ? - EEB79
+    - EBRP79
+  : 1
+  ? - RPM79
+    - EBRP79
+  : -0.75001
+  ? - RAI79
+    - EBRP79
+  : -5.50949
+  ? - RAI79
+    - BENE79
+  : -5.50949
+  ? - AAB79
+    - BENE79
+  : -1
+  ? - AAR79
+    - BENE79
+  : -1
+  ? - AAG79
+    - BENE79
+  : -1
+  ? - EEB79
+    - BENE79
+  : 1
+  ? - RCP79
+    - RCAP79
+  : -1
+  ? - RCP80
+    - RCAP79
+  : 1
+  ? - CRS79
+    - RCAP79
+  : 1
+  ? - EER79
+    - RCAP79
+  : -2.19004
+  ? - CCR79
+    - RCAP79
+  : -0.98802
+  ? - CCG79
+    - RCAP79
+  : -0.98802
+  ? - AAR79
+    - WK1R79
+  : 8.76015
+  ? - CCR79
+    - WK1R79
+  : 1
+  ? - AAR79
+    - WK2R79
+  : 6.1321
+  ? - CCR79
+    - WK2R79
+  : 1
+  ? - AAR79
+    - WK3R79
+  : 4.02967
+  ? - CCR79
+    - WK3R79
+  : 1
+  ? - AAR79
+    - WK4R79
+  : 1.75203
+  ? - CCR79
+    - WK4R79
+  : 1
+  ? - AAR79
+    - RENE79
+  : -1
+  ? - AAG79
+    - RENE79
+  : -1
+  ? - EER79
+    - RENE79
+  : 1
+  ? - RPM79
+    - RENE79
+  : 1
+  ? - GCP79
+    - GCAP79
+  : -1
+  ? - GCP80
+    - GCAP79
+  : 1
+  ? - CRS79
+    - GCAP79
+  : 1
+  ? - EEG79
+    - GCAP79
+  : -3.50406
+  ? - CCG79
+    - GCAP79
+  : -0.90002
+  ? - AAG79
+    - WK1G79
+  : 8.76015
+  ? - CCG79
+    - WK1G79
+  : 1
+  ? - AAG79
+    - WK2G79
+  : 6.1321
+  ? - CCG79
+    - WK2G79
+  : 1
+  ? - AAG79
+    - WK3G79
+  : 4.02967
+  ? - CCG79
+    - WK3G79
+  : 1
+  ? - AAG79
+    - WK4G79
+  : 1.75203
+  ? - CCG79
+    - WK4G79
+  : 1
+  ? - RAI79
+    - GENE79
+  : -16.4153
+  ? - AAG79
+    - GENE79
+  : -1
+  ? - EEG79
+    - GENE79
+  : 1
+  ? - EEH80
+    - ESEC80
+  : 1
+  ? - RAI80
+    - ESEC80
+  : -0.35001
+  ? - OBJEC
+    - ESEC80
+  : -0.23326
+  ? - EEH80
+    - GRES80
+  : 0.02433
+  ? - EEH81
+    - GRES80
+  : -0.02508
+  ? - DGRES
+    - GRES80
+  : -1
+  ? - HED80
+    - HEND80
+  : -1
+  ? - HED81
+    - HEND80
+  : 1
+  ? - EEH80
+    - HEND80
+  : -1
+  ? - HCP80
+    - HCAP80
+  : -1
+  ? - HCP81
+    - HCAP80
+  : 1
+  ? - CRS80
+    - HCAP80
+  : 1
+  ? - CCH80
+    - HCAP80
+  : -0.98802
+  ? - CCN80
+    - HCAP80
+  : -0.98802
+  ? - CCT80
+    - HCAP80
+  : -0.98802
+  ? - CCB80
+    - HCAP80
+  : -0.98802
+  ? - CCR80
+    - HCAP80
+  : -0.98802
+  ? - CCG80
+    - HCAP80
+  : -0.98802
+  ? - AAH80
+    - WK1H80
+  : 8.76015
+  ? - CCH80
+    - WK1H80
+  : 1
+  ? - AAH80
+    - WK2H80
+  : 6.1321
+  ? - CCH80
+    - WK2H80
+  : 1
+  ? - AAH80
+    - WK3H80
+  : 4.02967
+  ? - CCH80
+    - WK3H80
+  : 1
+  ? - AAH80
+    - WK4H80
+  : 1.75203
+  ? - CCH80
+    - WK4H80
+  : 1
+  ? - EEH80
+    - EHRP80
+  : 1
+  ? - RPM80
+    - EHRP80
+  : -0.75001
+  ? - RAI80
+    - EHRP80
+  : -0.50001
+  ? - RAI80
+    - HENE80
+  : -0.50001
+  ? - AAH80
+    - HENE80
+  : -1
+  ? - AAN80
+    - HENE80
+  : -1
+  ? - AAT80
+    - HENE80
+  : -1
+  ? - AAB80
+    - HENE80
+  : -1
+  ? - AAR80
+    - HENE80
+  : -1
+  ? - AAG80
+    - HENE80
+  : -1
+  ? - EEH80
+    - HENE80
+  : 1
+  ? - OBJEC
+    - HENE80
+  : -0.23326
+  ? - NCP80
+    - NCAP80
+  : -1
+  ? - NCP81
+    - NCAP80
+  : 1
+  ? - CRS80
+    - NCAP80
+  : 1
+  ? - EEN80
+    - NCAP80
+  : -7.00813
+  ? - CCN80
+    - NCAP80
+  : -0.85001
+  ? - CCT80
+    - NCAP80
+  : -0.85001
+  ? - CCB80
+    - NCAP80
+  : -0.85001
+  ? - CCR80
+    - NCAP80
+  : -0.85001
+  ? - CCG80
+    - NCAP80
+  : -0.85001
+  ? - AAN80
+    - WK1N80
+  : 8.76015
+  ? - CCN80
+    - WK1N80
+  : 1
+  ? - AAN80
+    - WK2N80
+  : 6.1321
+  ? - CCN80
+    - WK2N80
+  : 1
+  ? - AAN80
+    - WK3N80
+  : 4.02967
+  ? - CCN80
+    - WK3N80
+  : 1
+  ? - AAN80
+    - WK4N80
+  : 1.75203
+  ? - CCN80
+    - WK4N80
+  : 1
+  ? - EEN80
+    - ENRP80
+  : 1
+  ? - RPM80
+    - ENRP80
+  : -0.75001
+  ? - RAI80
+    - ENRP80
+  : -0.75775
+  ? - RAI80
+    - NENE80
+  : -0.75775
+  ? - AAN80
+    - NENE80
+  : -1
+  ? - AAT80
+    - NENE80
+  : -1
+  ? - AAB80
+    - NENE80
+  : -1
+  ? - AAR80
+    - NENE80
+  : -1
+  ? - AAG80
+    - NENE80
+  : -1
+  ? - EEN80
+    - NENE80
+  : 1
+  ? - TCP80
+    - TCAP80
+  : -1
+  ? - TCP81
+    - TCAP80
+  : 1
+  ? - CRS80
+    - TCAP80
+  : 1
+  ? - EET80
+    - TCAP80
+  : -6.13201
+  ? - EET81
+    - TCAP80
+  : -0.438
+  ? - CCT80
+    - TCAP80
+  : -0.75
+  ? - CCT81
+    - TCAP80
+  : -0.07
+  ? - CCB80
+    - TCAP80
+  : -0.75
+  ? - CCB81
+    - TCAP80
+  : -0.07
+  ? - CCR80
+    - TCAP80
+  : -0.75
+  ? - CCR81
+    - TCAP80
+  : -0.07
+  ? - CCG80
+    - TCAP80
+  : -0.75
+  ? - CCG81
+    - TCAP80
+  : -0.07
+  ? - AAT80
+    - WK1T80
+  : 8.76015
+  ? - CCT80
+    - WK1T80
+  : 1
+  ? - AAT80
+    - WK2T80
+  : 6.1321
+  ? - CCT80
+    - WK2T80
+  : 1
+  ? - AAT80
+    - WK3T80
+  : 4.02967
+  ? - CCT80
+    - WK3T80
+  : 1
+  ? - AAT80
+    - WK4T80
+  : 1.75203
+  ? - CCT80
+    - WK4T80
+  : 1
+  ? - EET80
+    - ETRP80
+  : 1
+  ? - RPM80
+    - ETRP80
+  : -0.75001
+  ? - RAI80
+    - ETRP80
+  : -5.26896
+  ? - RAI80
+    - TENE80
+  : -5.26896
+  ? - AAT80
+    - TENE80
+  : -1
+  ? - AAB80
+    - TENE80
+  : -1
+  ? - AAR80
+    - TENE80
+  : -1
+  ? - AAG80
+    - TENE80
+  : -1
+  ? - EET80
+    - TENE80
+  : 1
+  ? - BCP80
+    - BCAP80
+  : -1
+  ? - BCP81
+    - BCAP80
+  : 1
+  ? - CRS80
+    - BCAP80
+  : 1
+  ? - EEB80
+    - BCAP80
+  : -7.00813
+  ? - CCB80
+    - BCAP80
+  : -0.75001
+  ? - CCB81
+    - BCAP80
+  : -0.05
+  ? - CCR80
+    - BCAP80
+  : -0.75001
+  ? - CCR81
+    - BCAP80
+  : -0.05
+  ? - CCG80
+    - BCAP80
+  : -0.75001
+  ? - CCG81
+    - BCAP80
+  : -0.05
+  ? - AAB80
+    - WK1B80
+  : 8.76015
+  ? - CCB80
+    - WK1B80
+  : 1
+  ? - AAB80
+    - WK2B80
+  : 6.1321
+  ? - CCB80
+    - WK2B80
+  : 1
+  ? - AAB80
+    - WK3B80
+  : 4.02967
+  ? - CCB80
+    - WK3B80
+  : 1
+  ? - AAB80
+    - WK4B80
+  : 1.75203
+  ? - CCB80
+    - WK4B80
+  : 1
+  ? - EEB80
+    - EBRP80
+  : 1
+  ? - RPM80
+    - EBRP80
+  : -0.75001
+  ? - RAI80
+    - EBRP80
+  : -5.61968
+  ? - RAI80
+    - BENE80
+  : -5.61968
+  ? - AAB80
+    - BENE80
+  : -1
+  ? - AAR80
+    - BENE80
+  : -1
+  ? - AAG80
+    - BENE80
+  : -1
+  ? - EEB80
+    - BENE80
+  : 1
+  ? - RCP80
+    - RCAP80
+  : -1
+  ? - RCP81
+    - RCAP80
+  : 1
+  ? - CRS80
+    - RCAP80
+  : 1
+  ? - EER80
+    - RCAP80
+  : -2.19004
+  ? - CCR80
+    - RCAP80
+  : -0.98802
+  ? - CCG80
+    - RCAP80
+  : -0.98802
+  ? - AAR80
+    - WK1R80
+  : 8.76015
+  ? - CCR80
+    - WK1R80
+  : 1
+  ? - AAR80
+    - WK2R80
+  : 6.1321
+  ? - CCR80
+    - WK2R80
+  : 1
+  ? - AAR80
+    - WK3R80
+  : 4.02967
+  ? - CCR80
+    - WK3R80
+  : 1
+  ? - AAR80
+    - WK4R80
+  : 1.75203
+  ? - CCR80
+    - WK4R80
+  : 1
+  ? - AAR80
+    - RENE80
+  : -1
+  ? - AAG80
+    - RENE80
+  : -1
+  ? - EER80
+    - RENE80
+  : 1
+  ? - RPM80
+    - RENE80
+  : 1
+  ? - GCP80
+    - GCAP80
+  : -1
+  ? - GCP81
+    - GCAP80
+  : 1
+  ? - CRS80
+    - GCAP80
+  : 1
+  ? - EEG80
+    - GCAP80
+  : -3.50406
+  ? - CCG80
+    - GCAP80
+  : -0.90002
+  ? - AAG80
+    - WK1G80
+  : 8.76015
+  ? - CCG80
+    - WK1G80
+  : 1
+  ? - AAG80
+    - WK2G80
+  : 6.1321
+  ? - CCG80
+    - WK2G80
+  : 1
+  ? - AAG80
+    - WK3G80
+  : 4.02967
+  ? - CCG80
+    - WK3G80
+  : 1
+  ? - AAG80
+    - WK4G80
+  : 1.75203
+  ? - CCG80
+    - WK4G80
+  : 1
+  ? - RAI80
+    - GENE80
+  : -16.74359
+  ? - AAG80
+    - GENE80
+  : -1
+  ? - EEG80
+    - GENE80
+  : 1
+  ? - EEH81
+    - ESEC81
+  : 1
+  ? - RAI81
+    - ESEC81
+  : -0.35001
+  ? - OBJEC
+    - ESEC81
+  : -0.21205
+  ? - VLRES
+    - ESEC81
+  : -1.50001
+  ? - EEH81
+    - GRES81
+  : 0.02433
+  ? - DGRES
+    - GRES81
+  : 1
+  ? - HED81
+    - HEND81
+  : -1
+  ? - EEH81
+    - HEND81
+  : -1
+  ? - HCP81
+    - HCAP81
+  : -1
+  ? - CRS81
+    - HCAP81
+  : 1
+  ? - CCH81
+    - HCAP81
+  : -0.98802
+  ? - CCN81
+    - HCAP81
+  : -0.98802
+  ? - CCT81
+    - HCAP81
+  : -0.98802
+  ? - CCB81
+    - HCAP81
+  : -0.98802
+  ? - CCR81
+    - HCAP81
+  : -0.98802
+  ? - CCG81
+    - HCAP81
+  : -0.98802
+  ? - AAH81
+    - WK1H81
+  : 8.76015
+  ? - CCH81
+    - WK1H81
+  : 1
+  ? - AAH81
+    - WK2H81
+  : 6.1321
+  ? - CCH81
+    - WK2H81
+  : 1
+  ? - AAH81
+    - WK3H81
+  : 4.02967
+  ? - CCH81
+    - WK3H81
+  : 1
+  ? - AAH81
+    - WK4H81
+  : 1.75203
+  ? - CCH81
+    - WK4H81
+  : 1
+  ? - EEH81
+    - EHRP81
+  : 1
+  ? - RPM81
+    - EHRP81
+  : -0.75001
+  ? - RAI81
+    - EHRP81
+  : -0.50001
+  ? - VLRES
+    - EHRP81
+  : -0.00009
+  ? - RAI81
+    - HENE81
+  : -0.50001
+  ? - AAH81
+    - HENE81
+  : -1
+  ? - AAN81
+    - HENE81
+  : -1
+  ? - AAT81
+    - HENE81
+  : -1
+  ? - AAB81
+    - HENE81
+  : -1
+  ? - AAR81
+    - HENE81
+  : -1
+  ? - AAG81
+    - HENE81
+  : -1
+  ? - EEH81
+    - HENE81
+  : 1
+  ? - OBJEC
+    - HENE81
+  : -0.21205
+  ? - VLRES
+    - HENE81
+  : -0.00009
+  ? - NCP81
+    - NCAP81
+  : -1
+  ? - CRS81
+    - NCAP81
+  : 1
+  ? - EEN81
+    - NCAP81
+  : -7.00813
+  ? - CCN81
+    - NCAP81
+  : -0.85001
+  ? - CCT81
+    - NCAP81
+  : -0.85001
+  ? - CCB81
+    - NCAP81
+  : -0.85001
+  ? - CCR81
+    - NCAP81
+  : -0.85001
+  ? - CCG81
+    - NCAP81
+  : -0.85001
+  ? - AAN81
+    - WK1N81
+  : 8.76015
+  ? - CCN81
+    - WK1N81
+  : 1
+  ? - AAN81
+    - WK2N81
+  : 6.1321
+  ? - CCN81
+    - WK2N81
+  : 1
+  ? - AAN81
+    - WK3N81
+  : 4.02967
+  ? - CCN81
+    - WK3N81
+  : 1
+  ? - AAN81
+    - WK4N81
+  : 1.75203
+  ? - CCN81
+    - WK4N81
+  : 1
+  ? - EEN81
+    - ENRP81
+  : 1
+  ? - RPM81
+    - ENRP81
+  : -0.75001
+  ? - RAI81
+    - ENRP81
+  : -0.76533
+  ? - VLRES
+    - ENRP81
+  : 8.58846
+  ? - RAI81
+    - NENE81
+  : -0.76533
+  ? - AAN81
+    - NENE81
+  : -1
+  ? - AAT81
+    - NENE81
+  : -1
+  ? - AAB81
+    - NENE81
+  : -1
+  ? - AAR81
+    - NENE81
+  : -1
+  ? - AAG81
+    - NENE81
+  : -1
+  ? - EEN81
+    - NENE81
+  : 1
+  ? - VLRES
+    - NENE81
+  : 8.58846
+  ? - TCP81
+    - TCAP81
+  : -1
+  ? - CRS81
+    - TCAP81
+  : 1
+  ? - EET81
+    - TCAP81
+  : -6.13201
+  ? - CCT81
+    - TCAP81
+  : -0.75
+  ? - CCB81
+    - TCAP81
+  : -0.75
+  ? - CCR81
+    - TCAP81
+  : -0.75
+  ? - CCG81
+    - TCAP81
+  : -0.75
+  ? - AAT81
+    - WK1T81
+  : 8.76015
+  ? - CCT81
+    - WK1T81
+  : 1
+  ? - AAT81
+    - WK2T81
+  : 6.1321
+  ? - CCT81
+    - WK2T81
+  : 1
+  ? - AAT81
+    - WK3T81
+  : 4.02967
+  ? - CCT81
+    - WK3T81
+  : 1
+  ? - AAT81
+    - WK4T81
+  : 1.75203
+  ? - CCT81
+    - WK4T81
+  : 1
+  ? - EET81
+    - ETRP81
+  : 1
+  ? - RPM81
+    - ETRP81
+  : -0.75001
+  ? - RAI81
+    - ETRP81
+  : -5.37434
+  ? - VLRES
+    - ETRP81
+  : 68.52119
+  ? - RAI81
+    - TENE81
+  : -5.37434
+  ? - AAT81
+    - TENE81
+  : -1
+  ? - AAB81
+    - TENE81
+  : -1
+  ? - AAR81
+    - TENE81
+  : -1
+  ? - AAG81
+    - TENE81
+  : -1
+  ? - EET81
+    - TENE81
+  : 1
+  ? - VLRES
+    - TENE81
+  : 68.52119
+  ? - BCP81
+    - BCAP81
+  : -1
+  ? - CRS81
+    - BCAP81
+  : 1
+  ? - EEB81
+    - BCAP81
+  : -7.00813
+  ? - CCB81
+    - BCAP81
+  : -0.75001
+  ? - CCR81
+    - BCAP81
+  : -0.75001
+  ? - CCG81
+    - BCAP81
+  : -0.75001
+  ? - AAB81
+    - WK1B81
+  : 8.76015
+  ? - CCB81
+    - WK1B81
+  : 1
+  ? - AAB81
+    - WK2B81
+  : 6.1321
+  ? - CCB81
+    - WK2B81
+  : 1
+  ? - AAB81
+    - WK3B81
+  : 4.02967
+  ? - CCB81
+    - WK3B81
+  : 1
+  ? - AAB81
+    - WK4B81
+  : 1.75203
+  ? - CCB81
+    - WK4B81
+  : 1
+  ? - EEB81
+    - EBRP81
+  : 1
+  ? - RPM81
+    - EBRP81
+  : -0.75001
+  ? - RAI81
+    - EBRP81
+  : -5.73207
+  ? - VLRES
+    - EBRP81
+  : 73.08212
+  ? - RAI81
+    - BENE81
+  : -5.73207
+  ? - AAB81
+    - BENE81
+  : -1
+  ? - AAR81
+    - BENE81
+  : -1
+  ? - AAG81
+    - BENE81
+  : -1
+  ? - EEB81
+    - BENE81
+  : 1
+  ? - VLRES
+    - BENE81
+  : 73.08212
+  ? - RCP81
+    - RCAP81
+  : -1
+  ? - CRS81
+    - RCAP81
+  : 1
+  ? - EER81
+    - RCAP81
+  : -2.19004
+  ? - CCR81
+    - RCAP81
+  : -0.98802
+  ? - CCG81
+    - RCAP81
+  : -0.98802
+  ? - AAR81
+    - WK1R81
+  : 8.76015
+  ? - CCR81
+    - WK1R81
+  : 1
+  ? - AAR81
+    - WK2R81
+  : 6.1321
+  ? - CCR81
+    - WK2R81
+  : 1
+  ? - AAR81
+    - WK3R81
+  : 4.02967
+  ? - CCR81
+    - WK3R81
+  : 1
+  ? - AAR81
+    - WK4R81
+  : 1.75203
+  ? - CCR81
+    - WK4R81
+  : 1
+  ? - AAR81
+    - RENE81
+  : -1
+  ? - AAG81
+    - RENE81
+  : -1
+  ? - EER81
+    - RENE81
+  : 1
+  ? - RPM81
+    - RENE81
+  : 1
+  ? - GCP81
+    - GCAP81
+  : -1
+  ? - CRS81
+    - GCAP81
+  : 1
+  ? - EEG81
+    - GCAP81
+  : -3.50406
+  ? - CCG81
+    - GCAP81
+  : -0.90002
+  ? - AAG81
+    - WK1G81
+  : 8.76015
+  ? - CCG81
+    - WK1G81
+  : 1
+  ? - AAG81
+    - WK2G81
+  : 6.1321
+  ? - CCG81
+    - WK2G81
+  : 1
+  ? - AAG81
+    - WK3G81
+  : 4.02967
+  ? - CCG81
+    - WK3G81
+  : 1
+  ? - AAG81
+    - WK4G81
+  : 1.75203
+  ? - CCG81
+    - WK4G81
+  : 1
+  ? - RAI81
+    - GENE81
+  : -17.07845
+  ? - AAG81
+    - GENE81
+  : -1
+  ? - EEG81
+    - GENE81
+  : 1
+  ? - VLRES
+    - GENE81
+  : 217.74481
+  ? - RES78
+    - RESV78
+  : -1
+  ? - CRS78
+    - RESV78
+  : -1
+  ? - RES79
+    - RESV79
+  : -1
+  ? - CRS79
+    - RESV79
+  : -1
+  ? - RES80
+    - RESV80
+  : -1
+  ? - CRS80
+    - RESV80
+  : -1
+  ? - RES81
+    - RESV81
+  : -1
+  ? - CRS81
+    - RESV81
+  : -1
+  ? - VLRES
+    - EGRP81
+  : 217.74481
+  ? - L1378
+    - AD1378
+  : 0.50001
+  ? - INV76
+    - AD1378
+  : 2.25538
+  ? - INC76
+    - AD1378
+  : 0.09195
+  ? - INV77
+    - AD1378
+  : 1.57199
+  ? - INC77
+    - AD1378
+  : 0.24798
+  ? - DEP78
+    - AD1378
+  : 0.01688
+  ? - FXE78
+    - AD1378
+  : 0.23175
+  ? - FXE79
+    - AD1378
+  : 0.23754
+  ? - FXE80
+    - AD1378
+  : 0.24348
+  ? - FXE81
+    - AD1378
+  : 0.24957
+  ? - L2378
+    - AD2378
+  : 0.50001
+  ? - INV76
+    - AD2378
+  : 3.38307
+  ? - INC76
+    - AD2378
+  : 0.13792
+  ? - INV77
+    - AD2378
+  : 2.47302
+  ? - INC77
+    - AD2378
+  : 0.37666
+  ? - DEP78
+    - AD2378
+  : 0.02926
+  ? - FXE78
+    - AD2378
+  : 0.57937
+  ? - FXE79
+    - AD2378
+  : 0.59385
+  ? - FXE80
+    - AD2378
+  : 0.6087
+  ? - FXE81
+    - AD2378
+  : 0.62391
+  ? - L3578
+    - AD3578
+  : 1.00002
+  ? - INV76
+    - AD3578
+  : 0.90215
+  ? - INC76
+    - AD3578
+  : 0.03678
+  ? - INV77
+    - AD3578
+  : 1.1119
+  ? - INC77
+    - AD3578
+  : 0.11889
+  ? - DEP78
+    - AD3578
+  : 0.00788
+  ? - FXE78
+    - AD3578
+  : 0.08111
+  ? - FXE79
+    - AD3578
+  : 0.08314
+  ? - FXE80
+    - AD3578
+  : 0.08522
+  ? - FXE81
+    - AD3578
+  : 0.08735
+  ? - L5478
+    - AD5478
+  : 0.50001
+  ? - INV76
+    - AD5478
+  : 2.25538
+  ? - INC76
+    - AD5478
+  : 0.09195
+  ? - INV77
+    - AD5478
+  : 1.57199
+  ? - INC77
+    - AD5478
+  : 0.24798
+  ? - DEP78
+    - AD5478
+  : 0.01688
+  ? - FXE78
+    - AD5478
+  : 0.02317
+  ? - FXE79
+    - AD5478
+  : 0.02375
+  ? - FXE80
+    - AD5478
+  : 0.02435
+  ? - FXE81
+    - AD5478
+  : 0.02496
+  ? - L5678
+    - AD5678
+  : 0.2
+  ? - INV76
+    - AD5678
+  : 5.63844
+  ? - INC76
+    - AD5678
+  : 0.22986
+  ? - INV77
+    - AD5678
+  : 2.5497
+  ? - INC77
+    - AD5678
+  : 0.56367
+  ? - DEP78
+    - AD5678
+  : 0.06752
+  ? - FXE78
+    - AD5678
+  : 0.40556
+  ? - FXE79
+    - AD5678
+  : 0.41569
+  ? - FXE80
+    - AD5678
+  : 0.42609
+  ? - FXE81
+    - AD5678
+  : 0.43674
+  ? - L1379
+    - AD1379
+  : 0.50001
+  ? - INV77
+    - AD1379
+  : 2.30048
+  ? - INC77
+    - AD1379
+  : 0.09378
+  ? - INV78
+    - AD1379
+  : 1.60343
+  ? - INC78
+    - AD1379
+  : 0.25294
+  ? - DEP79
+    - AD1379
+  : 0.01722
+  ? - FXE79
+    - AD1379
+  : 0.23754
+  ? - FXE80
+    - AD1379
+  : 0.24348
+  ? - FXE81
+    - AD1379
+  : 0.24956
+  ? - L2379
+    - AD2379
+  : 0.50001
+  ? - INV77
+    - AD2379
+  : 3.45072
+  ? - INC77
+    - AD2379
+  : 0.14068
+  ? - INV78
+    - AD2379
+  : 2.52247
+  ? - INC78
+    - AD2379
+  : 0.38419
+  ? - DEP79
+    - AD2379
+  : 0.02985
+  ? - FXE79
+    - AD2379
+  : 0.59385
+  ? - FXE80
+    - AD2379
+  : 0.6087
+  ? - FXE81
+    - AD2379
+  : 0.62391
+  ? - L3579
+    - AD3579
+  : 1.00002
+  ? - INV77
+    - AD3579
+  : 0.92019
+  ? - INC77
+    - AD3579
+  : 0.03751
+  ? - INV78
+    - AD3579
+  : 1.13414
+  ? - INC78
+    - AD3579
+  : 0.12126
+  ? - DEP79
+    - AD3579
+  : 0.00804
+  ? - FXE79
+    - AD3579
+  : 0.08314
+  ? - FXE80
+    - AD3579
+  : 0.08522
+  ? - FXE81
+    - AD3579
+  : 0.08735
+  ? - L5479
+    - AD5479
+  : 0.50001
+  ? - INV77
+    - AD5479
+  : 2.30048
+  ? - INC77
+    - AD5479
+  : 0.09378
+  ? - INV78
+    - AD5479
+  : 1.60343
+  ? - INC78
+    - AD5479
+  : 0.25294
+  ? - DEP79
+    - AD5479
+  : 0.01722
+  ? - FXE79
+    - AD5479
+  : 0.02375
+  ? - FXE80
+    - AD5479
+  : 0.02435
+  ? - FXE81
+    - AD5479
+  : 0.02496
+  ? - L5679
+    - AD5679
+  : 0.2
+  ? - INV77
+    - AD5679
+  : 5.75121
+  ? - INC77
+    - AD5679
+  : 0.23446
+  ? - INV78
+    - AD5679
+  : 2.60069
+  ? - INC78
+    - AD5679
+  : 0.57495
+  ? - DEP79
+    - AD5679
+  : 0.06888
+  ? - FXE79
+    - AD5679
+  : 0.41569
+  ? - FXE80
+    - AD5679
+  : 0.42609
+  ? - FXE81
+    - AD5679
+  : 0.43674
+  ? - L1380
+    - AD1380
+  : 0.50001
+  ? - INV78
+    - AD1380
+  : 2.34649
+  ? - INC78
+    - AD1380
+  : 0.09566
+  ? - INV79
+    - AD1380
+  : 1.6355
+  ? - INC79
+    - AD1380
+  : 0.258
+  ? - DEP80
+    - AD1380
+  : 0.01756
+  ? - FXE80
+    - AD1380
+  : 0.24348
+  ? - FXE81
+    - AD1380
+  : 0.24956
+  ? - L2380
+    - AD2380
+  : 0.50001
+  ? - INV78
+    - AD2380
+  : 3.51973
+  ? - INC78
+    - AD2380
+  : 0.14349
+  ? - INV79
+    - AD2380
+  : 2.57292
+  ? - INC79
+    - AD2380
+  : 0.39187
+  ? - DEP80
+    - AD2380
+  : 0.03044
+  ? - FXE80
+    - AD2380
+  : 0.6087
+  ? - FXE81
+    - AD2380
+  : 0.62391
+  ? - L3580
+    - AD3580
+  : 1.00002
+  ? - INV78
+    - AD3580
+  : 0.9386
+  ? - INC78
+    - AD3580
+  : 0.03826
+  ? - INV79
+    - AD3580
+  : 1.15682
+  ? - INC79
+    - AD3580
+  : 0.12369
+  ? - DEP80
+    - AD3580
+  : 0.0082
+  ? - FXE80
+    - AD3580
+  : 0.08522
+  ? - FXE81
+    - AD3580
+  : 0.08735
+  ? - L5480
+    - AD5480
+  : 0.50001
+  ? - INV78
+    - AD5480
+  : 2.34649
+  ? - INC78
+    - AD5480
+  : 0.09566
+  ? - INV79
+    - AD5480
+  : 1.6355
+  ? - INC79
+    - AD5480
+  : 0.258
+  ? - DEP80
+    - AD5480
+  : 0.01756
+  ? - FXE80
+    - AD5480
+  : 0.02435
+  ? - FXE81
+    - AD5480
+  : 0.02496
+  ? - L5680
+    - AD5680
+  : 0.2
+  ? - INV78
+    - AD5680
+  : 5.86623
+  ? - INC78
+    - AD5680
+  : 0.23915
+  ? - INV79
+    - AD5680
+  : 2.6527
+  ? - INC79
+    - AD5680
+  : 0.58645
+  ? - DEP80
+    - AD5680
+  : 0.07025
+  ? - FXE80
+    - AD5680
+  : 0.42609
+  ? - FXE81
+    - AD5680
+  : 0.43674
+  ? - L1381
+    - AD1381
+  : 0.50001
+  ? - INV79
+    - AD1381
+  : 2.39342
+  ? - INC79
+    - AD1381
+  : 0.09757
+  ? - INV80
+    - AD1381
+  : 1.66821
+  ? - INC80
+    - AD1381
+  : 0.26316
+  ? - DEP81
+    - AD1381
+  : 0.01791
+  ? - FXE81
+    - AD1381
+  : 0.24956
+  ? - L2381
+    - AD2381
+  : 0.50001
+  ? - INV79
+    - AD2381
+  : 3.59013
+  ? - INC79
+    - AD2381
+  : 0.14636
+  ? - INV80
+    - AD2381
+  : 2.62438
   ? - INC80
     - AD2381
   : 0.39971
   ? - DEP81
     - AD2381
   : 0.03105
-  ? - INC72
-    - INTC72
-  : -1
-  ? - XX579
-    - XX3579
-  : 1
-  ? - DEP78
-    - OUT278
-  : 1.43546
-  ? - INV78
-    - CHAI81
-  : 42.90071
-  ? - CCN81
-    - WK2N81
-  : 1
-  ? - INC80
-    - T75081
-  : 10.57858
-  ? - CCT81
-    - TCAP80
-  : -0.07
   ? - FXE81
-    - N60081
-  : 3.19745
-  ? - INC78
-    - N60079
-  : 21.75198
-  ? - INT72
-    - INTT72
-  : -1
-  ? - AAT78
-    - ACHT78
-  : -1
-  ? - HED80
-    - HEND79
-  : 1
-  ? - INV78
-    - OUT280
-  : 57.81995
-  ? - CAF79
-    - FOPR79
-  : 4.00007
-  ? - HED78
-    - OUT278
-  : 2.07003
-  ? - CCR78
-    - WK4R78
-  : 1
-  ? - RES79
-    - T75078
-  : 0.3527
-  ? - CCH81
-    - ACHT81
-  : -0.11416
-  ? - EEG78
-    - GENE78
-  : 1
-  ? - INV77
-    - CHAI81
-  : 29.5853
-  ? - EER80
-    - RCAP80
-  : -2.19004
-  ? - INC76
-    - N60079
-  : 12.07855
-  ? - INV73
-    - T75078
-  : 2.25458
-  ? - DEP74
-    - DEPN73
-  : 1
-  ? - TCP80
-    - TCAP80
-  : -1
-  ? - CCH80
-    - WK4H80
-  : 1
-  ? - RES81
-    - OUT279
-  : 0.02696
-  ? - XX278
-    - T75078
-  : 0.75001
-  ? - INV75
-    - T75080
-  : 2.43855
-  ? - INC78
-    - T75080
-  : 6.49853
-  ? - INC75
-    - T75080
-  : 0.09552
-  ? - FXE80
-    - CASC78
-  : 0.3413
-  ? - XX180
-    - XX1379
-  : 1
-  ? - CRS78
-    - RCAP78
-  : 1
-  ? - FXE81
-    - N60079
-  : 3.19745
-  ? - CCR81
-    - TCAP79
-  : -0.03
-  ? - CCH80
-    - WK1H80
-  : 1
-  ? - FPR79
-    - RNAI79
-  : 1
-  ? - TRS76
-    - INVT76
-  : -1
-  ? - R3578
-    - XX3578
-  : 1
-  ? - AAH79
-    - WK4H79
-  : 1.75203
-  ? - CAF73
-    - DETT73
-  : -1
-  ? - RAI80
-    - BENE80
-  : -5.61968
-  ? - FPR76
-    - RNAI76
-  : 1
-  ? - RES81
-    - RESV81
-  : -1
-  ? - AAG81
-    - TENE81
-  : -1
-  ? - TRS72
-    - INVT72
-  : -1
-  ? - INC72
-    - N60078
-  : 0.66294
-  ? - INV75
-    - CHAI80
-  : 12.85976
-  ? - CCN79
-    - WK2N79
-  : 1
-  ? - INC77
-    - AD1379
-  : 0.09378
-  ? - AAH81
-    - HENE81
-  : -1
-  ? - XX380
-    - TGAZ80
-  : 0.06
-  ? - FPR75
-    - RNAI75
-  : 1
-  ? - R5480
-    - CP5480
-  : -1
-  ? - R5681
-    - XX5681
-  : 1
-  ? - AAB80
-    - ACHT80
-  : -1
-  ? - RAI79
-    - EBRP79
-  : -5.50949
-  ? - CCT78
-    - HCAP78
-  : -0.98802
-  ? - CCG81
-    - HCAP81
-  : -0.98802
-  ? - CCB78
-    - WK1B78
-  : 1
-  ? - FXE78
-    - AD1378
-  : 0.23175
-  ? - INC75
-    - N60080
-  : 2.92797
-  ? - TRS77
-    - DETT76
-  : -1
-  ? - INC77
-    - AD1378
-  : 0.24798
-  ? - FXE81
-    - CHAL79
-  : 0.39249
-  ? - VLRES
-    - N60081
-  : 135.57887
-  ? - INC74
-    - T75078
-  : 0.81628
-  ? - INC75
-    - T75078
-  : 2.62702
-  ? - CCG80
-    - BCAP78
-  : -0.03
-  ? - R5481
-    - XX5481
-  : 1
-  ? - CCT80
-    - TCAP79
-  : -0.07
-  ? - EEH80
-    - HENE80
-  : 1
-  ? - INV78
-    - AD1379
-  : 1.60343
-  ? - EEG79
-    - GENE79
-  : 1
-  ? - RAI72
-    - DEPN72
-  : -1
-  ? - TRS77
-    - DETT77
-  : 1
-  ? - TRS78
-    - RNAI78
-  : 1
-  ? - CRS79
-    - HCAP79
-  : 1
-  ? - CCN79
-    - WK3N79
-  : 1
-  ? - CCT79
-    - WK3T79
-  : 1
-  ? - AAR79
-    - RENE79
-  : -1
-  ? - FPR76
-    - FOPR75
-  : 1
-  ? - L2378
-    - CP2378
-  : -1
-  ? - CCB80
-    - HCAP80
-  : -0.98802
-  ? - INV78
-    - AD5480
-  : 2.34649
-  ? - INC77
-    - OUT279
-  : 7.98954
-  ? - DEP80
-    - AD3580
-  : 0.0082
-  ? - RES80
-    - OUT280
-  : 0.02751
-  ? - HCP79
-    - CASC79
-  : 0.224
-  ? - INV74
-    - CHAL78
-  : 2.9618
-  ? - CHALX
-    - CHAL78
-  : 1
-  ? - AAB81
-    - ACHT81
-  : -1
-  ? - FXE80
-    - CHAL79
-  : 0.37476
-  ? - AAT78
-    - WK3T78
-  : 4.02967
-  ? - EET78
-    - ETRP78
-  : 1
-  ? - HCP79
-    - CHAL79
-  : 0.124
-  ? - RES81
-    - CHAL79
-  : 0.00842
-  ? - DEP81
-    - CHAL81
-  : 0.44742
-  ? - CCG79
-    - WK1G79
-  : 1
-  ? - CCB81
-    - TCAP80
-  : -0.07
-  ? - FXE80
-    - AD1380
-  : 0.24348
-  ? - RAI76
-    - RVAD76
-  : 1
-  ? - EEH78
-    - ESEC78
-  : 1
-  ? - CCB78
-    - NCAP78
-  : -0.85001
-  ? - EER80
-    - RENE80
-  : 1
-  ? - INV79
-    - AD5481
-  : 2.39342
-  ? - AAR80
-    - WK3R80
-  : 4.02967
-  ? - CCT78
-    - WK3T78
-  : 1
-  ? - CCB81
-    - TCAP79
-  : -0.03
-  ? - ACP80
-    - ACHT79
-  : 1
-  ? - INV74
-    - CHAI80
-  : 1.24397
-  ? - FXE81
-    - T75078
-  : 1.89819
-  ? - R1380
-    - CP1380
-  : -1
-  ? - INC77
-    - T75079
-  : 6.25015
-  ? - BCP80
-    - BCAP79
-  : 1
-  ? - XX378
-    - TGAZ78
-  : 0.06
-  ? - VLRES
-    - T75080
-  : 69.12788
-  ? - L5481
-    - CP5480
-  : 1
-  ? - AAH78
-    - WK4H78
-  : 1.75203
-  ? - INC76
-    - TGAZ78
-  : 0.0347
-  ? - CVI75
-    - INTT75
-  : -1.25002
-  ? - R5679
-    - XX5679
-  : 1
-  ? - EEH78
-    - EHRP78
-  : 1
-  ? - AAG79
-    - WK3G79
-  : 4.02967
-  ? - AAR81
-    - TENE81
-  : -1
-  ? - INV77
-    - AD3579
-  : 0.92019
-  ? - TRS73
-    - INTC73
-  : 1
-  ? - CCN78
-    - NCAP78
-  : -0.85001
-  ? - INC74
-    - CHAI79
-  : 0.57439
-  ? - CVI73
-    - INTT73
-  : -1.25002
-  ? - RAI77
-    - DEPN77
-  : -1
-  ? - CCB80
-    - BCAP79
-  : -0.05
-  ? - CCN78
-    - WK2N78
-  : 1
-  ? - EEH80
-    - EHRP80
-  : 1
-  ? - INC79
-    - AD1381
-  : 0.09757
-  ? - TRS72
-    - DETT72
-  : 1
-  ? - FXE78
-    - CASC78
-  : 0.30957
-  ? - FXE78
-    - FEXE78
-  : -1
-  ? - VLRES
-    - TGAZ81
-  : 5.17342
-  ? - INC78
-    - AD5479
-  : 0.25294
-  ? - DEP79
-    - T75079
-  : 3.49594
-  ? - DEP77
-    - DEPN76
-  : 1
-  ? - AAG80
-    - WK2G80
-  : 6.1321
-  ? - OBJEC
-    - RVAD80
-  : 0.4665
-  ? - INV77
-    - CHAI78
-  : 36.20004
-  ? - XX381
-    - CHAI81
-  : 0.80001
-  ? - CCR80
-    - ACHT80
-  : -0.11416
-  ? - DEP78
-    - AD5478
-  : 0.01688
-  ? - INC77
-    - N60080
-  : 12.56071
-  ? - CVI78
-    - INTT78
-  : -1.25002
-  ? - RAI78
-    - EBRP78
-  : -5.40147
-  ? - CRS79
-    - NCAP79
-  : 1
-  ? - FXE81
-    - OUT279
-  : 0.57821
-  ? - HED81
-    - HEND80
-  : 1
-  ? - VLRES
-    - BENE81
-  : 73.08212
-  ? - RAI73
-    - RNAI73
-  : -1
-  ? - OBJEC
-    - ESEC79
-  : -0.25659
-  ? - INV78
-    - TGAZ79
-  : 6.08514
-  ? - L5481
-    - AD5481
-  : 0.50001
-  ? - VLRES
-    - OUT279
-  : 27.96248
-  ? - HED80
-    - OUT280
-  : 2.07003
-  ? - EEN79
-    - NENE79
-  : 1
-  ? - BCP81
-    - T75081
-  : 0.75001
-  ? - CCN80
-    - WK3N80
-  : 1
-  ? - RAI72
-    - RVAD72
-  : 1
-  ? - R2378
-    - CP2378
-  : -1
-  ? - VLRES
-    - ESEC81
-  : -1.50001
-  ? - FPR78
-    - INTC78
-  : 1
-  ? - INC80
-    - AD3581
-  : 0.12616
-  ? - RES79
-    - CHAI79
-  : 0.08712
-  ? - RCP80
-    - CHAI80
-  : 0.80001
-  ? - INV74
-    - T75078
-  : 16.5063
-  ? - CCG80
-    - WK4G80
-  : 1
-  ? - RAI78
-    - HENE78
-  : -0.50001
-  ? - FXE81
-    - AD1380
-  : 0.24956
-  ? - NCP78
-    - N60078
-  : 0.60001
-  ? - FXE81
-    - CHAI81
-  : 0.69569
-  ? - AAR80
-    - ACHT80
-  : -1
-  ? - XX581
-    - XX3581
-  : 1
-  ? - FXE80
-    - CASC79
-  : 0.3413
-  ? - VLRES
-    - CHAL81
-  : 12.70101
-  ? - TRS75
-    - INTC75
-  : 1
-  ? - TRS81
-    - INTC81
-  : 1
-  ? - TRS74
-    - DETT73
-  : -1
-  ? - RPM79
-    - RENE79
-  : 1
-  ? - INC74
-    - N60080
-  : 0.71703
-  ? - INC75
-    - OUT278
-  : 4.05381
-  ? - RES80
-    - CHAL80
-  : 0.00859
-  ? - L1380
-    - CP1380
-  : -1
-  ? - AAR79
-    - ACHT79
-  : -1
-  ? - INC77
-    - AD2378
-  : 0.37666
-  ? - CCG80
-    - TCAP79
-  : -0.07
+    - AD2381
+  : 0.62391
   ? - L3581
-    - CP3580
-  : 1
-  ? - XX580
-    - XX5480
-  : -1
-  ? - AAT81
-    - ACHT81
-  : -1
-  ? - INC75
-    - CHAI81
-  : 0.05068
-  ? - INV74
-    - N60078
-  : 65.80643
-  ? - RES80
-    - N60080
-  : 0.28519
-  ? - RAI78
-    - GENE78
-  : -16.09344
-  ? - RAI80
-    - HENE80
-  : -0.50001
-  ? - INC79
-    - N60081
-  : 18.80464
-  ? - XX379
-    - XX3578
-  : 1
-  ? - RAI78
-    - ENRP78
-  : -0.74282
-  ? - L2381
-    - CP2380
-  : 1
-  ? - TRS76
-    - INTT76
-  : -1
-  ? - L2380
-    - CP2380
-  : -1
-  ? - RAI78
-    - FEXE78
-  : -1
-  ? - INV75
-    - N60080
-  : 39.57196
-  ? - INV75
-    - CHAI78
-  : 38.2083
-  ? - TRS72
-    - INTC72
-  : 1
-  ? - INC81
-    - INTC81
-  : -1
-  ? - TRS80
-    - DETT80
-  : 1
-  ? - INC76
-    - CHAL78
-  : 1.85637
-  ? - AAG78
-    - ACHT78
-  : -1
-  ? - CAF75
-    - FOPR75
-  : 4.00007
-  ? - L5481
-    - CP5481
-  : -1
-  ? - L1379
-    - AD1379
-  : 0.50001
+    - AD3581
+  : 1.00002
   ? - INV79
     - AD3581
   : 0.95737
-  ? - INC77
+  ? - INC79
+    - AD3581
+  : 0.03903
+  ? - INV80
+    - AD3581
+  : 1.17995
+  ? - INC80
+    - AD3581
+  : 0.12616
+  ? - DEP81
+    - AD3581
+  : 0.00836
+  ? - FXE81
+    - AD3581
+  : 0.08735
+  ? - L5481
+    - AD5481
+  : 0.50001
+  ? - INV79
+    - AD5481
+  : 2.39342
+  ? - INC79
+    - AD5481
+  : 0.09757
+  ? - INV80
+    - AD5481
+  : 1.66821
+  ? - INC80
+    - AD5481
+  : 0.26316
+  ? - DEP81
+    - AD5481
+  : 0.01791
+  ? - FXE81
+    - AD5481
+  : 0.02496
+  ? - L5681
+    - AD5681
+  : 0.2
+  ? - INV79
+    - AD5681
+  : 5.98354
+  ? - INC79
+    - AD5681
+  : 0.24393
+  ? - INV80
+    - AD5681
+  : 2.70575
+  ? - INC80
+    - AD5681
+  : 0.59817
+  ? - DEP81
+    - AD5681
+  : 0.07166
+  ? - FXE81
+    - AD5681
+  : 0.43674
+  ? - INV72
     - OUT278
-  : 10.46422
-  ? - CRS81
-    - RCAP81
-  : 1
-  ? - INC74
-    - N60078
-  : 6.50584
-  ? - INV78
-    - T75081
-  : 35.24835
+  : 1.65574
   ? - INC72
     - OUT278
   : 0.06486
-  ? - CCN78
-    - HCAP78
-  : -0.98802
-  ? - AAR78
-    - WK4R78
-  : 1.75203
-  ? - HED78
-    - CHAL78
-  : 0.19
-  ? - FXE79
-    - T75078
-  : 1.80724
-  ? - TRS75
-    - RNAI75
-  : 1
-  ? - L2380
-    - CP2379
-  : 1
-  ? - RAI74
-    - RVAD74
-  : 1
-  ? - ACP80
-    - ACHT80
-  : -1
-  ? - INV79
-    - INVT79
-  : -1
-  ? - AAG78
-    - WK4G78
-  : 1.75203
-  ? - CCG79
-    - RCAP79
-  : -0.98802
-  ? - CVI72
-    - INTT72
-  : -1.25002
-  ? - FPR73
-    - FOPR73
-  : -1
-  ? - EER79
-    - RENE79
-  : 1
-  ? - AAH80
-    - HENE80
-  : -1
-  ? - CCN80
-    - NCAP80
-  : -0.85001
-  ? - AAB81
-    - WK4B81
-  : 1.75203
-  ? - RAI75
-    - DEPN75
-  : -1
-  ? - AAG79
-    - WK1G79
-  : 8.76015
-  ? - RPM79
-    - EBRP79
-  : -0.75001
-  ? - XX581
-    - XX5480
-  : 1
-  ? - AAH78
-    - WK1H78
-  : 8.76015
-  ? - CCT78
-    - NCAP78
-  : -0.85001
-  ? - CRS80
-    - RESV80
-  : -1
-  ? - TRS76
-    - DEPN76
-  : 1
-  ? - AAT78
-    - HENE78
-  : -1
-  ? - EEH79
-    - HENE79
-  : 1
+  ? - INV73
+    - OUT278
+  : 5.67333
+  ? - INC73
+    - OUT278
+  : 0.34686
+  ? - INV74
+    - OUT278
+  : 22.61821
+  ? - INC74
+    - OUT278
+  : 1.4279
+  ? - INV75
+    - OUT278
+  : 47.27449
+  ? - INC75
+    - OUT278
+  : 4.05381
+  ? - INV76
+    - OUT278
+  : 53.49582
+  ? - INC76
+    - OUT278
+  : 7.68351
   ? - INV77
-    - AD2378
-  : 2.47302
+    - OUT278
+  : 32.85997
   ? - INC77
-    - AD3578
-  : 0.11889
-  ? - CRS78
-    - HCAP78
+    - OUT278
+  : 10.46422
+  ? - DEP78
+    - OUT278
+  : 1.43546
+  ? - FXE78
+    - OUT278
+  : 0.50139
+  ? - FXE79
+    - OUT278
+  : 0.52577
+  ? - FXE80
+    - OUT278
+  : 0.55136
+  ? - FXE81
+    - OUT278
+  : 0.57821
+  ? - HCP78
+    - OUT278
+  : 0.39701
+  ? - HED78
+    - OUT278
+  : 2.07003
+  ? - RES78
+    - OUT278
+  : 0.02779
+  ? - RES79
+    - OUT278
+  : 0.02779
+  ? - RES80
+    - OUT278
+  : 0.02724
+  ? - RES81
+    - OUT278
+  : 0.01264
+  ? - VLRES
+    - OUT278
+  : 27.45341
+  ? - OUT2X
+    - OUT278
   : 1
-  ? - CCR80
-    - NCAP80
-  : -0.85001
-  ? - OBJEC
-    - RVAD78
-  : 0.56447
-  ? - L2379
-    - AD2379
-  : 0.50001
+  ? - INV73
+    - OUT279
+  : 1.72197
+  ? - INC73
+    - OUT279
+  : 0.06745
+  ? - INV74
+    - OUT279
+  : 5.90026
+  ? - INC74
+    - OUT279
+  : 0.36074
+  ? - INV75
+    - OUT279
+  : 23.52068
+  ? - INC75
+    - OUT279
+  : 1.48493
+  ? - INV76
+    - OUT279
+  : 49.16049
+  ? - INC76
+    - OUT279
+  : 4.2156
+  ? - INV77
+    - OUT279
+  : 55.61571
+  ? - INC77
+    - OUT279
+  : 7.98954
+  ? - INV78
+    - OUT279
+  : 34.14847
+  ? - INC78
+    - OUT279
+  : 10.87979
+  ? - DEP79
+    - OUT279
+  : 1.49269
+  ? - FXE79
+    - OUT279
+  : 0.52577
+  ? - FXE80
+    - OUT279
+  : 0.55136
+  ? - FXE81
+    - OUT279
+  : 0.57821
+  ? - HCP79
+    - OUT279
+  : 0.39701
+  ? - HED79
+    - OUT279
+  : 2.07003
+  ? - RES79
+    - OUT279
+  : 0.02779
+  ? - RES80
+    - OUT279
+  : 0.02751
+  ? - RES81
+    - OUT279
+  : 0.02696
+  ? - VLRES
+    - OUT279
+  : 27.96248
+  ? - OUT2X
+    - OUT279
+  : 1
+  ? - INV74
+    - OUT280
+  : 1.79085
+  ? - INC74
+    - OUT280
+  : 0.07015
+  ? - INV75
+    - OUT280
+  : 6.13627
+  ? - INC75
+    - OUT280
+  : 0.37517
+  ? - INV76
+    - OUT280
+  : 24.45918
+  ? - INC76
+    - OUT280
+  : 1.54423
+  ? - INV77
+    - OUT280
+  : 51.1218
+  ? - INC77
+    - OUT280
+  : 4.38385
+  ? - INV78
+    - OUT280
+  : 57.81995
+  ? - INC78
+    - OUT280
+  : 8.30778
   ? - INV79
-    - AD3580
-  : 1.15682
+    - OUT280
+  : 35.48801
+  ? - INC79
+    - OUT280
+  : 11.3119
+  ? - DEP80
+    - OUT280
+  : 1.5522
+  ? - FXE80
+    - OUT280
+  : 0.55136
+  ? - FXE81
+    - OUT280
+  : 0.57821
+  ? - HCP80
+    - OUT280
+  : 0.39701
+  ? - HED80
+    - OUT280
+  : 2.07003
+  ? - RES80
+    - OUT280
+  : 0.02751
+  ? - RES81
+    - OUT280
+  : 0.02724
+  ? - VLRES
+    - OUT280
+  : 28.49783
+  ? - OUT2X
+    - OUT280
+  : 1
+  ? - INV74
+    - CASC78
+  : 3.50541
+  ? - INC74
+    - CASC78
+  : 0.13731
+  ? - INV75
+    - CASC78
+  : 13.65878
+  ? - INC75
+    - CASC78
+  : 0.79889
+  ? - INV76
+    - CASC78
+  : 18.45009
+  ? - INC76
+    - CASC78
+  : 1.99405
+  ? - INV77
+    - CASC78
+  : 13.03732
+  ? - INC77
+    - CASC78
+  : 3.07123
+  ? - DEP78
+    - CASC78
+  : 0.44353
+  ? - FXE78
+    - CASC78
+  : 0.30957
+  ? - FXE79
+    - CASC78
+  : 0.32504
+  ? - FXE80
+    - CASC78
+  : 0.3413
+  ? - FXE81
+    - CASC78
+  : 0.35836
+  ? - HCP78
+    - CASC78
+  : 0.224
+  ? - HED78
+    - CASC78
+  : 0.46701
+  ? - RES78
+    - CASC78
+  : 0.01568
+  ? - RES79
+    - CASC78
+  : 0.01568
+  ? - RES80
+    - CASC78
+  : 0.01537
+  ? - RES81
+    - CASC78
+  : 0.00713
+  ? - XX378
+    - CASC78
+  : 0.224
+  ? - VLRES
+    - CASC78
+  : 12.32012
+  ? - CASCX
+    - CASC78
+  : 1
+  ? - INV75
+    - CASC79
+  : 3.64563
+  ? - INC75
+    - CASC79
+  : 0.1428
   ? - INV76
     - CASC79
   : 14.20513
   ? - INC76
     - CASC79
   : 0.83085
-  ? - FXE81
-    - CHAL78
-  : 0.39249
-  ? - AAB79
-    - ACHT79
-  : -1
-  ? - RES79
-    - CHAL79
-  : 0.00868
-  ? - INC76
-    - AD3578
-  : 0.03678
   ? - INV77
-    - OUT280
-  : 51.1218
-  ? - INC75
-    - CHAI80
-  : 0.59737
-  ? - RAI79
-    - ENRP79
-  : -0.75025
-  ? - CCN79
-    - NCAP79
-  : -0.85001
-  ? - INV74
-    - OUT280
-  : 1.79085
-  ? - XX381
-    - XX1381
-  : 1
-  ? - CCR79
-    - BCAP79
-  : -0.75001
-  ? - RAI78
-    - ETRP78
-  : -5.06437
-  ? - EEH79
-    - GRES79
-  : 0.02433
-  ? - EET80
-    - TCAP79
-  : -0.438
-  ? - HCP78
-    - HCAP78
-  : -1
-  ? - RPM80
-    - EBRP80
-  : -0.75001
-  ? - BCP81
-    - BCAP81
-  : -1
-  ? - INV76
-    - CHAI81
-  : 13.37415
-  ? - FPR79
-    - INTC79
-  : 1
-  ? - INV79
-    - TGAZ80
-  : 6.29493
-  ? - INV80
-    - T75081
-  : 43.32906
-  ? - CASCX
-    - CASC78
-  : 1
-  ? - CCR78
-    - RCAP78
-  : -0.98802
-  ? - RAI81
-    - EHRP81
-  : -0.50001
-  ? - RES78
-    - CASC78
-  : 0.01568
-  ? - TRS76
-    - DETT76
-  : 1
-  ? - L1380
-    - AD1380
-  : 0.50001
-  ? - DEP80
-    - AD1380
-  : 0.01756
-  ? - TRS74
-    - INTT74
-  : -1
-  ? - INC80
-    - TGAZ81
-  : 0.32838
-  ? - VLRES
-    - N60080
-  : 133.29187
-  ? - CCR78
-    - WK2R78
-  : 1
-  ? - INV76
-    - T75079
-  : 32.60081
-  ? - INC75
-    - N60078
-  : 11.61492
-  ? - INC75
-    - N60079
-  : 6.76584
-  ? - AAB80
-    - WK1B80
-  : 8.76015
-  ? - XX178
-    - XX1378
-  : -1
-  ? - CCR80
-    - WK3R80
-  : 1
-  ? - CCT78
-    - WK1T78
-  : 1
+    - CASC79
+  : 19.1881
   ? - INC77
-    - AD5679
-  : 0.23446
-  ? - RCP80
-    - RCAP80
-  : -1
-  ? - AAB78
-    - WK4B78
-  : 1.75203
-  ? - CCG79
-    - BCAP78
-  : -0.05
-  ? - CAF75
-    - DETT75
-  : -1
-  ? - HED79
-    - HEND79
-  : -1
-  ? - CCB80
-    - BCAP78
-  : -0.03
-  ? - EEB80
-    - EBRP80
-  : 1
-  ? - CCG81
-    - NCAP81
-  : -0.85001
-  ? - R5478
-    - CP5478
-  : -1
-  ? - AAG81
-    - GENE81
-  : -1
-  ? - FXE80
-    - AD2380
-  : 0.6087
-  ? - CRS78
-    - BCAP78
-  : 1
-  ? - INV76
-    - OUT278
-  : 53.49582
-  ? - XX381
-    - XX2380
-  : -1
-  ? - AAR79
-    - WK2R79
-  : 6.1321
-  ? - BCP81
-    - BCAP80
-  : 1
-  ? - INV77
-    - OUT279
-  : 55.61571
+    - CASC79
+  : 2.07381
+  ? - INV78
+    - CASC79
+  : 13.55881
+  ? - INC78
+    - CASC79
+  : 3.19407
+  ? - DEP79
+    - CASC79
+  : 0.46127
   ? - FXE79
-    - CHAL78
-  : 0.35785
-  ? - TRS81
-    - INVT81
-  : -1
-  ? - RPM78
-    - EHRP78
-  : -0.75001
-  ? - EEB79
-    - BENE79
-  : 1
-  ? - HCP78
-    - CHAL78
-  : 0.124
-  ? - RAI80
-    - ENRP80
-  : -0.75775
-  ? - AAT78
-    - WK1T78
-  : 8.76015
-  ? - TRS81
-    - DETT80
-  : -1
-  ? - AAT81
-    - WK3T81
-  : 4.02967
-  ? - AAG81
-    - WK4G81
-  : 1.75203
-  ? - DEP75
-    - DEPN74
-  : 1
-  ? - CCG81
-    - TCAP79
-  : -0.03
-  ? - RAI80
-    - NENE80
-  : -0.75775
-  ? - INC74
-    - CASC78
-  : 0.13731
-  ? - R5478
-    - XX5478
-  : 1
+    - CASC79
+  : 0.32504
   ? - FXE80
-    - CHAI78
-  : 0.66594
-  ? - CCT80
-    - ACHT80
-  : -0.11416
-  ? - FPR78
-    - FOPR78
-  : -1
-  ? - RAI78
-    - ESEC78
-  : -0.35001
+    - CASC79
+  : 0.3413
+  ? - FXE81
+    - CASC79
+  : 0.35836
+  ? - HCP79
+    - CASC79
+  : 0.224
+  ? - HED79
+    - CASC79
+  : 0.46701
+  ? - RES79
+    - CASC79
+  : 0.01568
+  ? - RES80
+    - CASC79
+  : 0.01552
+  ? - RES81
+    - CASC79
+  : 0.01521
+  ? - XX379
+    - CASC79
+  : 0.224
   ? - VLRES
-    - CHAL78
-  : 12.26072
-  ? - AAT79
-    - NENE79
-  : -1
-  ? - CCR79
-    - TCAP78
-  : -0.07
-  ? - R3579
-    - XX3579
-  : 1
-  ? - AAT78
-    - WK2T78
-  : 6.1321
-  ? - CCG80
-    - TCAP78
-  : -0.03
-  ? - L1379
-    - CP1378
-  : 1
-  ? - AAG79
-    - TENE79
-  : -1
-  ? - RPM81
-    - EHRP81
-  : -0.75001
-  ? - FXE78
-    - AD2378
-  : 0.57937
-  ? - CCB78
-    - BCAP78
-  : -0.75001
-  ? - L5478
-    - CP5478
-  : -1
-  ? - EET78
-    - TCAP78
-  : -6.13201
-  ? - CCG80
-    - WK2G80
-  : 1
-  ? - CCN79
-    - ACHT79
-  : -0.11416
-  ? - AAN80
-    - WK4N80
-  : 1.75203
-  ? - CCG78
-    - WK3G78
+    - CASC79
+  : 12.47792
+  ? - CASCX
+    - CASC79
   : 1
   ? - INV76
     - CASC80
   : 3.79145
-  ? - INC79
-    - AD2381
-  : 0.14636
-  ? - XX379
-    - XX2378
-  : -1
-  ? - INC78
-    - CHAI79
-  : 11.08884
-  ? - VLRES
-    - TGAZ78
-  : 5.0256
-  ? - CRS80
-    - RCAP80
-  : 1
-  ? - INT73
-    - DETT73
-  : 0.085
-  ? - INC73
-    - CHAI78
-  : 0.5523
-  ? - INV78
-    - CHAI80
-  : 59.5856
-  ? - NCP81
-    - NCAP81
-  : -1
-  ? - AAR81
-    - WK3R81
-  : 4.02967
-  ? - RES79
-    - OUT279
-  : 0.02779
-  ? - AAT79
-    - WK2T79
-  : 6.1321
-  ? - FXE81
-    - AD5479
-  : 0.02496
-  ? - L3578
-    - CP3578
-  : -1
-  ? - DEP80
-    - AD5480
-  : 0.01756
-  ? - R5479
-    - XX5479
-  : 1
-  ? - CAF74
-    - DETT74
-  : -1
-  ? - CCR79
-    - HCAP79
-  : -0.98802
-  ? - CCH79
-    - WK2H79
-  : 1
-  ? - EEH81
-    - HENE81
-  : 1
-  ? - CCB81
-    - WK2B81
-  : 1
-  ? - TRS76
-    - INTC76
-  : 1
-  ? - AAH80
-    - WK4H80
-  : 1.75203
-  ? - AAN81
-    - NENE81
-  : -1
-  ? - CCG81
-    - TCAP81
-  : -0.75
-  ? - EEH78
-    - HEND78
-  : -1
-  ? - XX380
-    - XX2379
-  : -1
-  ? - CRS81
-    - TCAP81
-  : 1
   ? - INC76
-    - AD5478
-  : 0.09195
-  ? - RPM78
-    - ENRP78
-  : -0.75001
-  ? - CCT80
-    - NCAP80
-  : -0.85001
-  ? - AAR80
-    - BENE80
-  : -1
-  ? - L5479
-    - CP5478
-  : 1
-  ? - EEG78
-    - GCAP78
-  : -3.50406
-  ? - CCG79
-    - WK3G79
-  : 1
-  ? - FPR74
-    - INTT74
-  : -1
-  ? - INT77
-    - DETT77
-  : 0.085
-  ? - CCG80
-    - NCAP80
-  : -0.85001
-  ? - VLRES
-    - HENE81
-  : -0.00009
-  ? - AAT81
-    - NENE81
-  : -1
-  ? - AAB81
-    - NENE81
-  : -1
-  ? - RES79
-    - RESV79
-  : -1
-  ? - FXE81
-    - AD5480
-  : 0.02496
-  ? - INV79
-    - AD5680
-  : 2.6527
-  ? - INC78
-    - OUT279
-  : 10.87979
-  ? - CASCX
     - CASC80
-  : 1
-  ? - INC78
-    - CASC81
-  : 0.89865
-  ? - EEN78
-    - NCAP78
-  : -7.00813
-  ? - CRS80
-    - GCAP80
-  : 1
-  ? - INC77
-    - CHAI78
-  : 10.67664
-  ? - INV78
-    - TGAZ80
-  : 0.94353
-  ? - CCH78
-    - ACHT78
-  : -0.11416
-  ? - INV72
-    - INVT72
-  : -1
-  ? - XX581
-    - XX5481
-  : -1
-  ? - CCT78
-    - TCAP78
-  : -0.75
-  ? - CCH80
-    - WK3H80
-  : 1
-  ? - CCT79
-    - NCAP79
-  : -0.85001
-  ? - AAG80
-    - ACHT80
-  : -1
-  ? - XX379
-    - XX3579
-  : -1
-  ? - XX378
-    - CHAI78
-  : 0.80001
-  ? - INC79
-    - AD2380
-  : 0.39187
-  ? - CCR79
-    - TCAP79
-  : -0.75
-  ? - INV73
-    - OUT279
-  : 1.72197
-  ? - INV75
-    - OUT278
-  : 47.27449
-  ? - AAB78
-    - NENE78
-  : -1
-  ? - CCR81
-    - WK1R81
-  : 1
-  ? - INC78
-    - AD3579
-  : 0.12126
-  ? - DEP78
-    - CHAL78
-  : 0.3985
-  ? - INV76
-    - CHAI78
-  : 55.27832
-  ? - RES80
-    - CHAI78
-  : 0.08311
-  ? - CCG78
-    - HCAP78
-  : -0.98802
-  ? - XX579
-    - XX5478
-  : 1
-  ? - CCN81
-    - NCAP81
-  : -0.85001
-  ? - INV79
-    - CHAI81
-  : 61.86629
-  ? - CCH79
-    - ACHT79
-  : -0.11416
-  ? - CCG79
-    - GCAP79
-  : -0.90002
-  ? - AAN81
-    - WK4N81
-  : 1.75203
-  ? - INV78
-    - AD5679
-  : 2.60069
-  ? - RES81
-    - TGAZ78
-  : 0.00706
-  ? - RES81
-    - TGAZ80
-  : 0.00723
+  : 0.14852
   ? - INV77
-    - N60078
-  : 64.4689
-  ? - DEP81
-    - DEPN81
-  : -1
-  ? - CCR79
-    - RCAP79
-  : -0.98802
+    - CASC80
+  : 14.77332
   ? - INC77
-    - AD5478
-  : 0.24798
-  ? - XX380
-    - XX1379
-  : -1
-  ? - INC74
-    - OUT279
-  : 0.36074
-  ? - CCR79
-    - WK4R79
-  : 1
+    - CASC80
+  : 0.86408
   ? - INV78
     - CASC80
   : 19.9556
-  ? - FXE81
-    - N60078
-  : 3.19745
-  ? - CCR78
-    - HCAP78
-  : -0.98802
-  ? - RAI72
-    - RNAI72
-  : -1
-  ? - CRS79
-    - GCAP79
-  : 1
-  ? - RES81
-    - N60078
-  : 0.15133
-  ? - CVI76
-    - INTT76
-  : -1.25002
-  ? - CCG80
-    - BCAP79
-  : -0.05
-  ? - TRS74
-    - INVT74
-  : -1
-  ? - FXE81
-    - AD2381
-  : 0.62391
-  ? - FPR80
-    - RNAI80
-  : 1
-  ? - INV76
-    - OUT280
-  : 24.45918
-  ? - HCP80
-    - CASC80
-  : 0.224
-  ? - XX179
-    - N60079
-  : 0.60001
-  ? - OBJEC
-    - RVAD76
-  : 0.68301
-  ? - INV80
-    - AD2381
-  : 2.62438
-  ? - CRS81
-    - HCAP81
-  : 1
-  ? - AAH80
-    - WK1H80
-  : 8.76015
-  ? - INV76
-    - N60078
-  : 76.10367
-  ? - INV77
-    - N60079
-  : 79.09523
-  ? - EET79
-    - TCAP79
-  : -6.13201
-  ? - INV79
-    - N60080
-  : 69.58878
-  ? - INC78
-    - TGAZ80
-  : 0.03696
-  ? - AAR80
-    - WK4R80
-  : 1.75203
-  ? - FXE80
-    - N60079
-  : 3.13476
-  ? - FXE81
-    - N60080
-  : 3.19745
-  ? - FPR81
-    - INTT81
-  : -1
-  ? - INV80
-    - N60081
-  : 72.30124
-  ? - FXE80
-    - T75079
-  : 1.85216
-  ? - VLRES
-    - N60078
-  : 129.2112
-  ? - INV77
-    - TGAZ78
-  : 5.88239
-  ? - FXE81
-    - AD5681
-  : 0.43674
-  ? - EEH78
-    - HENE78
-  : 1
-  ? - AAG79
-    - HENE79
-  : -1
-  ? - AAG79
-    - BENE79
-  : -1
-  ? - INC79
-    - TGAZ81
-  : 0.03814
-  ? - EEH78
-    - GRES78
-  : 0.02433
-  ? - CCG79
-    - WK4G79
-  : 1
-  ? - CCB80
-    - WK2B80
-  : 1
-  ? - RES81
-    - N60079
-  : 0.16588
-  ? - TCP79
-    - TCAP78
-  : 1
-  ? - INC76
-    - N60081
-  : 3.04509
-  ? - FXE79
-    - CHAI78
-  : 0.63754
-  ? - NCP81
-    - NCAP80
-  : 1
-  ? - RPM81
-    - RENE81
-  : 1
-  ? - RPM78
-    - EBRP78
-  : -0.75001
-  ? - CCR81
-    - RCAP81
-  : -0.98802
-  ? - R2379
-    - XX2379
-  : 1
-  ? - CCN80
-    - WK2N80
-  : 1
-  ? - GCP80
-    - GCAP80
-  : -1
-  ? - HCP80
-    - CHAL80
-  : 0.124
-  ? - RPM79
-    - ETRP79
-  : -0.75001
-  ? - INC80
-    - N60081
-  : 23.51027
-  ? - INC76
-    - T75079
-  : 2.73166
-  ? - FXE81
-    - T75080
-  : 1.89819
-  ? - BCP80
-    - T75080
-  : 0.75001
-  ? - CCT80
-    - WK2T80
-  : 1
-  ? - RCP81
-    - RCAP81
-  : -1
-  ? - RES80
-    - CASC78
-  : 0.01537
-  ? - INV79
-    - CHAL81
-  : 19.03664
-  ? - AAT80
-    - TENE80
-  : -1
-  ? - DEP78
-    - CASC78
-  : 0.44353
-  ? - AAT80
-    - WK4T80
-  : 1.75203
-  ? - FXE79
-    - OUT278
-  : 0.52577
-  ? - DEP79
-    - AD1379
-  : 0.01722
-  ? - L1381
-    - AD1381
-  : 0.50001
-  ? - CCT81
-    - WK2T81
-  : 1
-  ? - FPR72
-    - RNAI72
-  : 1
-  ? - FPR74
-    - INTC74
-  : 1
-  ? - TRS78
-    - DETT78
-  : 1
-  ? - AAR78
-    - ACHT78
-  : -1
-  ? - R5680
-    - XX5680
-  : 1
-  ? - RAI80
-    - ESEC80
-  : -0.35001
-  ? - HCP81
-    - HCAP80
-  : 1
-  ? - XX379
-    - XX1379
-  : 1
-  ? - CCG81
-    - TCAP80
-  : -0.07
-  ? - AAG81
-    - HENE81
-  : -1
-  ? - R2381
-    - CP2381
-  : -1
-  ? - CCG79
-    - ACHT79
-  : -0.11416
-  ? - RES81
-    - CASC79
-  : 0.01521
-  ? - RES78
-    - CHAL78
-  : 0.00868
-  ? - FXE81
-    - AD2379
-  : 0.62391
-  ? - RAI80
-    - EBRP80
-  : -5.61968
-  ? - AAR79
-    - WK1R79
-  : 8.76015
-  ? - XX580
-    - XX5479
-  : 1
-  ? - CCT81
-    - WK3T81
-  : 1
-  ? - INT80
-    - INTT80
-  : -1
-  ? - INC75
-    - CHAL78
-  : 0.73549
-  ? - RES78
-    - CHAI78
-  : 0.088
-  ? - INV73
-    - INVT73
-  : -1
-  ? - OBJEC
-    - HENE80
-  : -0.23326
-  ? - INC76
-    - CHAI79
-  : 4.55051
-  ? - DEP79
-    - AD5679
-  : 0.06888
-  ? - INT77
-    - INTT77
-  : -1
-  ? - L1380
-    - CP1379
-  : 1
-  ? - R1379
-    - XX1379
-  : 1
-  ? - EET79
-    - TCAP78
-  : -0.438
-  ? - AAB79
-    - WK2B79
-  : 6.1321
-  ? - CRS80
-    - NCAP80
-  : 1
-  ? - INV74
-    - CASC78
-  : 3.50541
-  ? - RES81
-    - OUT278
-  : 0.01264
-  ? - EEH81
-    - GRES80
-  : -0.02508
-  ? - INC77
-    - CHAI80
-  : 4.73069
-  ? - INC73
-    - INTC73
-  : -1
-  ? - RAI74
-    - RNAI74
-  : -1
-  ? - AAT79
-    - HENE79
-  : -1
-  ? - RAI79
-    - NENE79
-  : -0.75025
-  ? - INC79
-    - AD5680
-  : 0.58645
-  ? - INV77
-    - CHAL78
-  : 12.92585
-  ? - TRS77
-    - INTT77
-  : -1
-  ? - DEP80
-    - N60080
-  : 7.77874
-  ? - AAR78
-    - HENE78
-  : -1
-  ? - DEP80
-    - CASC80
-  : 0.47972
-  ? - DEP80
-    - DEPN80
-  : -1
-  ? - TRS73
-    - INVT73
-  : -1
-  ? - INC77
-    - TGAZ78
-  : 0.2971
-  ? - INV73
-    - N60079
-  : 17.60109
-  ? - FXE78
-    - T75078
-  : 1.76342
-  ? - INV77
-    - T75081
-  : 18.55862
-  ? - AAR80
-    - WK1R80
-  : 8.76015
-  ? - TRS81
-    - DEPN81
-  : 1
-  ? - TRS74
-    - RNAI74
-  : 1
-  ? - CCT80
-    - HCAP80
-  : -0.98802
-  ? - RES78
-    - N60078
-  : 0.29101
-  ? - VLRES
-    - T75079
-  : 68.13623
-  ? - INC77
-    - T75081
-  : 0.91786
   ? - INC78
     - CASC80
   : 2.15676
-  ? - INC79
-    - INTC79
-  : -1
-  ? - INV75
-    - CHAL79
-  : 3.07718
-  ? - INV72
-    - CHAI78
-  : 1.15012
-  ? - L2378
-    - AD2378
-  : 0.50001
-  ? - CCH79
-    - WK1H79
-  : 1
-  ? - CCN78
-    - WK1N78
-  : 1
-  ? - AAG80
-    - RENE80
-  : -1
-  ? - RPM78
-    - ETRP78
-  : -0.75001
-  ? - AAH81
-    - WK3H81
-  : 4.02967
-  ? - VLRES
-    - EHRP81
-  : -0.00009
-  ? - L5680
-    - CP5680
-  : -1
-  ? - RAI80
-    - FEXE80
-  : -1
-  ? - FXE80
-    - AD5479
-  : 0.02435
-  ? - CCG80
-    - TCAP80
-  : -0.75
-  ? - INV75
-    - CASC78
-  : 13.65878
-  ? - AAR80
-    - HENE80
-  : -1
-  ? - FXE80
-    - N60078
-  : 3.13476
-  ? - RAI80
-    - DEPN80
-  : -1
-  ? - R2378
-    - XX2378
-  : 1
-  ? - CCR81
-    - HCAP81
-  : -0.98802
-  ? - AAT81
-    - WK1T81
-  : 8.76015
-  ? - AAT81
-    - WK4T81
-  : 1.75203
-  ? - FXE80
-    - TGAZ79
-  : 0.07614
-  ? - AAG81
-    - WK3G81
-  : 4.02967
-  ? - L3579
-    - AD3579
-  : 1.00002
-  ? - FXE80
-    - AD3580
-  : 0.08522
-  ? - XX378
-    - XX2378
-  : 1
-  ? - R5681
-    - CP5681
-  : -1
-  ? - GCP78
-    - TGAZ78
-  : 0.06
-  ? - INV74
-    - N60079
-  : 38.04999
-  ? - AAR80
-    - NENE80
-  : -1
-  ? - INV77
-    - T75080
-  : 33.89868
-  ? - RES80
-    - T75080
-  : 0.42264
-  ? - CHALX
-    - CHAL81
-  : 1
-  ? - INV79
-    - T75080
-  : 41.69402
-  ? - TRS73
-    - DEPN73
-  : 1
-  ? - RAI78
-    - TENE78
-  : -5.06437
-  ? - XX279
-    - XX2378
-  : 1
-  ? - INC79
-    - AD5481
-  : 0.09757
-  ? - CCR81
-    - WK3R81
-  : 1
-  ? - DEP79
-    - AD5479
-  : 0.01722
-  ? - INV72
-    - N60078
-  : 16.92413
-  ? - RCP78
-    - CHAI78
-  : 0.80001
-  ? - AAN80
-    - WK1N80
-  : 8.76015
-  ? - CCT80
-    - WK4T80
-  : 1
-  ? - RES81
-    - N60080
-  : 0.22408
-  ? - CCT81
-    - WK4T81
-  : 1
   ? - INV79
     - CASC80
   : 14.10115
-  ? - AAG78
-    - GENE78
-  : -1
-  ? - EET80
-    - TCAP78
-  : -0.2628
-  ? - INC75
-    - CASC78
-  : 0.79889
-  ? - INV75
-    - N60081
-  : 19.03732
-  ? - INV79
-    - T75081
-  : 67.75043
-  ? - FXE81
-    - T75081
-  : 1.89819
-  ? - HED81
-    - CASC81
-  : 0.46701
-  ? - RES79
-    - TGAZ79
-  : 0.00743
-  ? - AAR81
-    - WK2R81
-  : 6.1321
-  ? - RES80
-    - N60079
-  : 0.22639
-  ? - CCB79
-    - HCAP79
-  : -0.98802
-  ? - CCG81
-    - ACHT81
-  : -0.11416
-  ? - AAN78
-    - WK3N78
-  : 4.02967
-  ? - DGRES
-    - GRES81
-  : 1
-  ? - INV80
-    - TGAZ81
-  : 6.51199
-  ? - AAG79
-    - ACHT79
-  : -1
-  ? - CCH78
-    - WK4H78
-  : 1
-  ? - L5678
-    - CP5678
-  : -1
-  ? - EET80
-    - ETRP80
-  : 1
-  ? - EEB78
-    - BENE78
-  : 1
-  ? - AAB81
-    - WK1B81
-  : 8.76015
-  ? - AAH81
-    - WK2H81
-  : 6.1321
-  ? - INV76
-    - TGAZ78
-  : 0.88587
-  ? - RES78
-    - OUT278
-  : 0.02779
-  ? - RAI79
-    - ESEC79
-  : -0.35001
-  ? - DEP79
-    - DEPN79
-  : -1
-  ? - FXE81
-    - TGAZ78
-  : 0.07981
-  ? - FXE80
-    - FEXE80
-  : -1
-  ? - CCN79
-    - WK1N79
-  : 1
-  ? - RAI76
-    - DEPN76
-  : -1
-  ? - INC77
-    - CHAI81
-  : 2.25536
-  ? - L3581
-    - AD3581
-  : 1.00002
-  ? - RAI79
-    - DEPN79
-  : -1
-  ? - INC78
-    - N60080
-  : 18.08487
-  ? - FPR77
-    - FOPR77
-  : -1
-  ? - CCR80
-    - BCAP78
-  : -0.03
-  ? - TRS79
-    - DEPN79
-  : 1
-  ? - XX379
-    - XX1378
-  : -1
-  ? - R3581
-    - CP3581
-  : -1
-  ? - CRS80
-    - HCAP80
-  : 1
-  ? - CCB80
-    - TCAP78
-  : -0.03
   ? - INC79
     - CASC80
   : 3.32183
+  ? - DEP80
+    - CASC80
+  : 0.47972
+  ? - FXE80
+    - CASC80
+  : 0.3413
+  ? - FXE81
+    - CASC80
+  : 0.35836
+  ? - HCP80
+    - CASC80
+  : 0.224
+  ? - HED80
+    - CASC80
+  : 0.46701
+  ? - RES80
+    - CASC80
+  : 0.01552
+  ? - RES81
+    - CASC80
+  : 0.01537
+  ? - XX380
+    - CASC80
+  : 0.224
+  ? - VLRES
+    - CASC80
+  : 12.64388
+  ? - CASCX
+    - CASC80
+  : 1
+  ? - INV77
+    - CASC81
+  : 3.9431
+  ? - INC77
+    - CASC81
+  : 0.15446
+  ? - INV78
+    - CASC81
+  : 15.36425
+  ? - INC78
+    - CASC81
+  : 0.89865
+  ? - INV79
+    - CASC81
+  : 20.75381
+  ? - INC79
+    - CASC81
+  : 2.24303
+  ? - INV80
+    - CASC81
+  : 14.66519
+  ? - INC80
+    - CASC81
+  : 3.45471
+  ? - DEP81
+    - CASC81
+  : 0.49891
+  ? - FXE81
+    - CASC81
+  : 0.35836
+  ? - HCP81
+    - CASC81
+  : 0.224
+  ? - HED81
+    - CASC81
+  : 0.46701
+  ? - RES81
+    - CASC81
+  : 0.01537
+  ? - XX381
+    - CASC81
+  : 0.224
+  ? - VLRES
+    - CASC81
+  : 12.81823
   ? - CASCX
     - CASC81
   : 1
-  ? - TRS74
-    - DEPN74
+  ? - INV74
+    - CHAL78
+  : 2.9618
+  ? - INC74
+    - CHAL78
+  : 0.11602
+  ? - INV75
+    - CHAL78
+  : 13.08475
+  ? - INC75
+    - CHAL78
+  : 0.73549
+  ? - INV76
+    - CHAL78
+  : 17.00111
+  ? - INC76
+    - CHAL78
+  : 1.85637
+  ? - INV77
+    - CHAL78
+  : 12.92585
+  ? - INC77
+    - CHAL78
+  : 2.88321
+  ? - DEP78
+    - CHAL78
+  : 0.3985
+  ? - FXE78
+    - CHAL78
+  : 0.34173
+  ? - FXE79
+    - CHAL78
+  : 0.35785
+  ? - FXE80
+    - CHAL78
+  : 0.37476
+  ? - FXE81
+    - CHAL78
+  : 0.39249
+  ? - HCP78
+    - CHAL78
+  : 0.124
+  ? - HED78
+    - CHAL78
+  : 0.19
+  ? - RES78
+    - CHAL78
+  : 0.00868
+  ? - RES79
+    - CHAL78
+  : 0.00868
+  ? - RES80
+    - CHAL78
+  : 0.00851
+  ? - RES81
+    - CHAL78
+  : 0.00395
+  ? - XX378
+    - CHAL78
+  : 0.124
+  ? - VLRES
+    - CHAL78
+  : 12.26072
+  ? - CHALX
+    - CHAL78
   : 1
-  ? - CCH78
-    - WK3H78
-  : 1
-  ? - EEH81
-    - GRES81
-  : 0.02433
+  ? - INV75
+    - CHAL79
+  : 3.07718
+  ? - INC75
+    - CHAL79
+  : 0.12054
+  ? - INV76
+    - CHAL79
+  : 13.6013
+  ? - INC76
+    - CHAL79
+  : 0.76441
+  ? - INV77
+    - CHAL79
+  : 17.65373
   ? - INC77
     - CHAL79
   : 1.92882
-  ? - INC80
-    - CHAL81
-  : 3.23006
-  ? - INC79
-    - CHAI80
-  : 11.51721
   ? - INV78
-    - T75080
-  : 65.16879
-  ? - CCG80
-    - ACHT80
-  : -0.11416
-  ? - INC77
-    - AD2379
-  : 0.14068
-  ? - AAB79
-    - WK4B79
-  : 1.75203
-  ? - CCB80
-    - WK3B80
-  : 1
-  ? - RAI76
-    - RNAI76
-  : -1
-  ? - L2379
-    - CP2379
-  : -1
-  ? - AAG78
-    - WK1G78
-  : 8.76015
-  ? - INT75
-    - INTT75
-  : -1
-  ? - GCP78
-    - GCAP78
-  : -1
-  ? - TRS75
-    - DEPN75
-  : 1
-  ? - HED81
-    - HEND81
-  : -1
-  ? - CCB81
-    - BCAP81
-  : -0.75001
-  ? - INC76
-    - AD1378
-  : 0.09195
-  ? - FXE81
-    - AD5679
-  : 0.43674
-  ? - CCG81
-    - BCAP79
-  : -0.03
-  ? - FXE81
-    - AD5680
-  : 0.43674
-  ? - FXE81
-    - AD5481
-  : 0.02496
-  ? - INC74
-    - OUT278
-  : 1.4279
-  ? - INV74
-    - OUT279
-  : 5.90026
-  ? - GCP81
-    - GCAP81
-  : -1
-  ? - HCP80
-    - OUT280
-  : 0.39701
-  ? - XX181
-    - XX1380
-  : 1
-  ? - RPM78
-    - RENE78
-  : 1
-  ? - XX378
-    - XX1378
-  : 1
-  ? - INV81
-    - INVT81
-  : -1
-  ? - AAB79
-    - WK3B79
-  : 4.02967
-  ? - VLRES
-    - ENRP81
-  : 8.58846
-  ? - CCR80
-    - WK2R80
-  : 1
-  ? - CCB79
-    - ACHT79
-  : -0.11416
-  ? - DEP77
-    - DEPN77
-  : -1
-  ? - INV77
-    - INVT77
-  : -1
-  ? - TRS80
-    - DEPN80
-  : 1
-  ? - INC77
-    - INTC77
-  : -1
-  ? - EER78
-    - RCAP78
-  : -2.19004
-  ? - CCR80
-    - HCAP80
-  : -0.98802
-  ? - AAG80
-    - NENE80
-  : -1
-  ? - INC80
-    - AD1381
-  : 0.26316
-  ? - BCP79
-    - BCAP78
-  : 1
-  ? - CAF77
-    - FOPR77
-  : 4.00007
-  ? - CCB81
-    - BCAP78
-  : -0.02
-  ? - RAI75
-    - RNAI75
-  : -1
-  ? - AAN80
-    - NENE80
-  : -1
-  ? - CVI78
-    - RNAI78
-  : 1
-  ? - EET81
-    - TCAP81
-  : -6.13201
-  ? - FXE81
-    - AD1379
-  : 0.24956
-  ? - VLRES
-    - OUT278
-  : 27.45341
+    - CHAL79
+  : 13.40728
   ? - INC78
     - CHAL79
   : 2.9944
-  ? - RES81
-    - CHAI78
-  : 0.06272
-  ? - VLRES
-    - CHAI79
-  : 29.4023
-  ? - INC74
-    - CHAI80
-  : 0.04873
-  ? - INC73
-    - CHAI79
-  : 0.04685
-  ? - INC75
-    - OUT280
-  : 0.37517
-  ? - XX178
-    - N60078
-  : 0.60001
-  ? - INC78
-    - INTC78
-  : -1
-  ? - R2381
-    - XX2381
-  : 1
-  ? - AAT80
-    - ACHT80
-  : -1
-  ? - EEB80
-    - BCAP80
-  : -7.00813
-  ? - DEP75
-    - DEPN75
-  : -1
-  ? - INV77
-    - AD5678
-  : 2.5497
-  ? - CCG81
-    - BCAP80
-  : -0.05
-  ? - BCP78
-    - BCAP78
-  : -1
+  ? - DEP79
+    - CHAL79
+  : 0.41417
+  ? - FXE79
+    - CHAL79
+  : 0.35785
+  ? - FXE80
+    - CHAL79
+  : 0.37476
+  ? - FXE81
+    - CHAL79
+  : 0.39249
+  ? - HCP79
+    - CHAL79
+  : 0.124
+  ? - HED79
+    - CHAL79
+  : 0.19
+  ? - RES79
+    - CHAL79
+  : 0.00868
   ? - RES80
     - CHAL79
   : 0.00859
-  ? - AAN78
-    - ACHT78
-  : -1
+  ? - RES81
+    - CHAL79
+  : 0.00842
+  ? - XX379
+    - CHAL79
+  : 0.124
+  ? - VLRES
+    - CHAL79
+  : 12.40026
+  ? - CHALX
+    - CHAL79
+  : 1
+  ? - INV76
+    - CHAL80
+  : 3.19711
+  ? - INC76
+    - CHAL80
+  : 0.12523
+  ? - INV77
+    - CHAL80
+  : 14.13837
+  ? - INC77
+    - CHAL80
+  : 0.79447
+  ? - INV78
+    - CHAL80
+  : 18.33189
+  ? - INC78
+    - CHAL80
+  : 2.00413
+  ? - INV79
+    - CHAL80
+  : 13.90725
+  ? - INC79
+    - CHAL80
+  : 3.10996
+  ? - DEP80
+    - CHAL80
+  : 0.43047
   ? - FXE80
-    - AD1378
-  : 0.24348
+    - CHAL80
+  : 0.37476
+  ? - FXE81
+    - CHAL80
+  : 0.39249
+  ? - HCP80
+    - CHAL80
+  : 0.124
+  ? - HED80
+    - CHAL80
+  : 0.19
+  ? - RES80
+    - CHAL80
+  : 0.00859
+  ? - RES81
+    - CHAL80
+  : 0.00851
+  ? - XX380
+    - CHAL80
+  : 0.124
+  ? - VLRES
+    - CHAL80
+  : 12.54695
+  ? - CHALX
+    - CHAL80
+  : 1
+  ? - INV77
+    - CHAL81
+  : 3.32177
+  ? - INC77
+    - CHAL81
+  : 0.13012
+  ? - INV78
+    - CHAL81
+  : 14.69678
+  ? - INC78
+    - CHAL81
+  : 0.82573
+  ? - INV79
+    - CHAL81
+  : 19.03664
+  ? - INC79
+    - CHAL81
+  : 2.08242
+  ? - INV80
+    - CHAL81
+  : 14.4265
+  ? - INC80
+    - CHAL81
+  : 3.23006
+  ? - DEP81
+    - CHAL81
+  : 0.44742
+  ? - FXE81
+    - CHAL81
+  : 0.39249
+  ? - HCP81
+    - CHAL81
+  : 0.124
+  ? - HED81
+    - CHAL81
+  : 0.19
+  ? - RES81
+    - CHAL81
+  : 0.00851
+  ? - XX381
+    - CHAL81
+  : 0.124
+  ? - VLRES
+    - CHAL81
+  : 12.70101
+  ? - CHALX
+    - CHAL81
+  : 1
+  ? - INV72
+    - CHAI78
+  : 1.15012
+  ? - INC72
+    - CHAI78
+  : 0.04505
+  ? - INV73
+    - CHAI78
+  : 11.88958
+  ? - INC73
+    - CHAI78
+  : 0.5523
+  ? - INV74
+    - CHAI78
+  : 26.33287
+  ? - INC74
+    - CHAI78
+  : 2.00625
+  ? - INV75
+    - CHAI78
+  : 38.2083
+  ? - INC75
+    - CHAI78
+  : 4.37723
+  ? - INV76
+    - CHAI78
+  : 55.27832
+  ? - INC76
+    - CHAI78
+  : 7.69628
+  ? - INV77
+    - CHAI78
+  : 36.20004
+  ? - INC77
+    - CHAI78
+  : 10.67664
+  ? - DEP78
+    - CHAI78
+  : 1.4172
+  ? - FXE78
+    - CHAI78
+  : 0.61043
+  ? - FXE79
+    - CHAI78
+  : 0.63754
+  ? - FXE80
+    - CHAI78
+  : 0.66594
+  ? - FXE81
+    - CHAI78
+  : 0.69569
+  ? - RCP78
+    - CHAI78
+  : 0.80001
+  ? - RES78
+    - CHAI78
+  : 0.088
+  ? - RES79
+    - CHAI78
+  : 0.08554
+  ? - RES80
+    - CHAI78
+  : 0.08311
+  ? - RES81
+    - CHAI78
+  : 0.06272
+  ? - XX378
+    - CHAI78
+  : 0.80001
+  ? - VLRES
+    - CHAI78
+  : 28.90616
+  ? - INV73
+    - CHAI79
+  : 1.19612
+  ? - INC73
+    - CHAI79
+  : 0.04685
+  ? - INV74
+    - CHAI79
+  : 12.36516
+  ? - INC74
+    - CHAI79
+  : 0.57439
+  ? - INV75
+    - CHAI79
+  : 27.37502
+  ? - INC75
+    - CHAI79
+  : 2.08606
+  ? - INV76
+    - CHAI79
+  : 39.71201
+  ? - INC76
+    - CHAI79
+  : 4.55051
+  ? - INV77
+    - CHAI79
+  : 57.39073
+  ? - INC77
+    - CHAI79
+  : 7.99763
+  ? - INV78
+    - CHAI79
+  : 37.5199
+  ? - INC78
+    - CHAI79
+  : 11.08884
+  ? - DEP79
+    - CHAI79
+  : 1.47295
+  ? - FXE79
+    - CHAI79
+  : 0.63754
+  ? - FXE80
+    - CHAI79
+  : 0.66594
+  ? - FXE81
+    - CHAI79
+  : 0.69569
   ? - RCP79
     - CHAI79
   : 0.80001
+  ? - RES79
+    - CHAI79
+  : 0.08712
+  ? - RES80
+    - CHAI79
+  : 0.08467
+  ? - RES81
+    - CHAI79
+  : 0.08311
+  ? - XX379
+    - CHAI79
+  : 0.80001
+  ? - VLRES
+    - CHAI79
+  : 29.4023
+  ? - INV74
+    - CHAI80
+  : 1.24397
+  ? - INC74
+    - CHAI80
+  : 0.04873
+  ? - INV75
+    - CHAI80
+  : 12.85976
+  ? - INC75
+    - CHAI80
+  : 0.59737
+  ? - INV76
+    - CHAI80
+  : 28.4586
+  ? - INC76
+    - CHAI80
+  : 2.16906
+  ? - INV77
+    - CHAI80
+  : 41.27533
+  ? - INC77
+    - CHAI80
+  : 4.73069
+  ? - INV78
+    - CHAI80
+  : 59.5856
+  ? - INC78
+    - CHAI80
+  : 8.31091
+  ? - INV79
+    - CHAI80
+  : 38.89
+  ? - INC79
+    - CHAI80
+  : 11.51721
+  ? - DEP80
+    - CHAI80
+  : 1.53091
+  ? - FXE80
+    - CHAI80
+  : 0.66594
+  ? - FXE81
+    - CHAI80
+  : 0.69569
+  ? - RCP80
+    - CHAI80
+  : 0.80001
+  ? - RES80
+    - CHAI80
+  : 0.08624
+  ? - RES81
+    - CHAI80
+  : 0.08467
+  ? - XX380
+    - CHAI80
+  : 0.80001
+  ? - VLRES
+    - CHAI80
+  : 29.92389
+  ? - INV75
+    - CHAI81
+  : 1.29373
+  ? - INC75
+    - CHAI81
+  : 0.05068
+  ? - INV76
+    - CHAI81
+  : 13.37415
+  ? - INC76
+    - CHAI81
+  : 0.62126
+  ? - INV77
+    - CHAI81
+  : 29.5853
+  ? - INC77
+    - CHAI81
+  : 2.25536
+  ? - INV78
+    - CHAI81
+  : 42.90071
+  ? - INC78
+    - CHAI81
+  : 4.91803
+  ? - INV79
+    - CHAI81
+  : 61.86629
+  ? - INC79
+    - CHAI81
+  : 8.63658
   ? - INV80
     - CHAI81
   : 40.31227
   ? - INC80
     - CHAI81
   : 11.96242
-  ? - INV76
-    - CHAI80
-  : 28.4586
-  ? - INC77
-    - CHAL81
-  : 0.13012
-  ? - INC74
-    - OUT280
-  : 0.07015
-  ? - XX179
-    - XX1379
-  : -1
-  ? - EET79
-    - TENE79
-  : 1
-  ? - FPR81
-    - FOPR81
-  : -1
-  ? - INV78
-    - N60081
-  : 87.28688
-  ? - RES81
-    - N60081
-  : 0.28228
-  ? - INC77
-    - T75078
-  : 9.41463
-  ? - BCP78
-    - T75078
-  : 0.75001
-  ? - XX279
-    - T75079
-  : 0.75001
-  ? - INC77
-    - CASC80
-  : 0.86408
-  ? - XX578
-    - XX5678
-  : -1
-  ? - TRS81
-    - RNAI81
-  : 1
-  ? - NCP78
-    - NCAP78
-  : -1
-  ? - INV78
-    - AD1380
-  : 2.34649
-  ? - INC77
-    - CASC79
-  : 2.07381
-  ? - INV75
-    - N60079
-  : 68.43272
-  ? - INV78
-    - CHAL81
-  : 14.69678
-  ? - CAF72
-    - DETT72
-  : -1
-  ? - FXE79
-    - AD1379
-  : 0.23754
-  ? - INV74
-    - CHAI79
-  : 12.36516
-  ? - EEH80
-    - GRES79
-  : -0.02508
-  ? - AAB80
-    - WK4B80
-  : 1.75203
-  ? - CCN80
-    - ACHT80
-  : -0.11416
-  ? - INC78
-    - AD5679
-  : 0.57495
-  ? - INC76
-    - CHAI80
-  : 2.16906
-  ? - FXE79
-    - T75079
-  : 1.80724
-  ? - RAI79
-    - FEXE79
-  : -1
-  ? - INV77
-    - AD1378
-  : 1.57199
-  ? - L3580
-    - CP3580
-  : -1
-  ? - INV74
-    - T75079
-  : 2.34476
-  ? - RAI80
-    - TENE80
-  : -5.26896
-  ? - AAG80
-    - WK1G80
-  : 8.76015
-  ? - INV72
-    - OUT278
-  : 1.65574
-  ? - INV74
-    - N60080
-  : 18.30511
-  ? - CCG80
-    - RCAP80
-  : -0.98802
-  ? - AAH78
-    - WK3H78
-  : 4.02967
-  ? - RCP79
-    - RCAP78
-  : 1
-  ? - TRS77
-    - RNAI77
-  : 1
-  ? - TRS80
-    - RNAI80
-  : 1
-  ? - R1378
-    - CP1378
-  : -1
-  ? - AAR78
-    - WK3R78
-  : 4.02967
-  ? - RAI81
-    - GENE81
-  : -17.07845
-  ? - INC78
-    - AD1379
-  : 0.25294
-  ? - AAN80
-    - ACHT80
-  : -1
-  ? - INC77
-    - OUT280
-  : 4.38385
-  ? - INC77
-    - CHAI79
-  : 7.99763
-  ? - AAN80
-    - WK2N80
-  : 6.1321
-  ? - L5478
-    - AD5478
-  : 0.50001
-  ? - DEP76
-    - DEPN75
-  : 1
-  ? - RAI79
-    - RVAD79
-  : 1
-  ? - CCB79
-    - NCAP79
-  : -0.85001
-  ? - CCT79
-    - ACHT79
-  : -0.11416
-  ? - INC77
-    - CASC78
-  : 3.07123
-  ? - RAI73
-    - DEPN73
-  : -1
-  ? - CCR79
-    - WK2R79
-  : 1
-  ? - FXE81
-    - CHAI78
-  : 0.69569
-  ? - AAG80
-    - BENE80
-  : -1
-  ? - XX578
-    - XX5478
-  : -1
-  ? - CCR78
-    - WK3R78
-  : 1
-  ? - RES80
-    - N60078
-  : 0.16759
-  ? - AAG78
-    - TENE78
-  : -1
-  ? - FXE79
-    - AD3578
-  : 0.08314
-  ? - R3580
-    - CP3580
-  : -1
-  ? - AAB78
-    - BENE78
-  : -1
-  ? - EEH80
-    - ESEC80
-  : 1
-  ? - TCP79
-    - TCAP79
-  : -1
-  ? - CCB78
-    - WK3B78
-  : 1
-  ? - CCG79
-    - HCAP79
-  : -0.98802
-  ? - FXE79
-    - AD5478
-  : 0.02375
-  ? - AAB78
-    - WK2B78
-  : 6.1321
-  ? - RAI81
-    - HENE81
-  : -0.50001
-  ? - FXE80
-    - AD5678
-  : 0.42609
-  ? - FXE80
-    - AD5679
-  : 0.42609
-  ? - DEP78
-    - DEPN78
-  : -1
-  ? - AAN78
-    - WK2N78
-  : 6.1321
-  ? - L3580
-    - AD3580
-  : 1.00002
   ? - DEP81
-    - AD3581
-  : 0.00836
-  ? - AAB78
-    - ACHT78
-  : -1
-  ? - OUT2X
-    - OUT280
-  : 1
-  ? - TRS79
-    - INTC79
-  : 1
-  ? - CCB81
-    - BCAP80
-  : -0.05
-  ? - CCG81
-    - WK3G81
-  : 1
+    - CHAI81
+  : 1.59116
   ? - FXE81
-    - CASC81
-  : 0.35836
+    - CHAI81
+  : 0.69569
+  ? - RCP81
+    - CHAI81
+  : 0.80001
+  ? - RES81
+    - CHAI81
+  : 0.08624
+  ? - XX381
+    - CHAI81
+  : 0.80001
+  ? - VLRES
+    - CHAI81
+  : 30.47165
   ? - INV76
-    - CHAL79
-  : 13.6013
-  ? - CCG78
-    - ACHT78
-  : -0.11416
+    - TGAZ78
+  : 0.88587
+  ? - INC76
+    - TGAZ78
+  : 0.0347
+  ? - INV77
+    - TGAZ78
+  : 5.88239
+  ? - INC77
+    - TGAZ78
+  : 0.2971
+  ? - DEP78
+    - TGAZ78
+  : 0.26102
+  ? - FXE78
+    - TGAZ78
+  : 0.06932
+  ? - FXE79
+    - TGAZ78
+  : 0.07265
+  ? - FXE80
+    - TGAZ78
+  : 0.07614
+  ? - FXE81
+    - TGAZ78
+  : 0.07981
+  ? - GCP78
+    - TGAZ78
+  : 0.06
+  ? - RES78
+    - TGAZ78
+  : 0.0075
+  ? - RES79
+    - TGAZ78
+  : 0.00731
+  ? - RES80
+    - TGAZ78
+  : 0.00719
+  ? - RES81
+    - TGAZ78
+  : 0.00706
+  ? - XX378
+    - TGAZ78
+  : 0.06
+  ? - VLRES
+    - TGAZ78
+  : 5.0256
+  ? - INV77
+    - TGAZ79
+  : 0.91423
   ? - INC77
     - TGAZ79
   : 0.03581
+  ? - INV78
+    - TGAZ79
+  : 6.08514
+  ? - INC78
+    - TGAZ79
+  : 0.30718
+  ? - DEP79
+    - TGAZ79
+  : 0.27
+  ? - FXE79
+    - TGAZ79
+  : 0.07265
+  ? - FXE80
+    - TGAZ79
+  : 0.07614
+  ? - FXE81
+    - TGAZ79
+  : 0.07981
+  ? - GCP79
+    - TGAZ79
+  : 0.06
+  ? - RES79
+    - TGAZ79
+  : 0.00743
+  ? - RES80
+    - TGAZ79
+  : 0.00731
+  ? - RES81
+    - TGAZ79
+  : 0.00711
+  ? - XX379
+    - TGAZ79
+  : 0.06
+  ? - VLRES
+    - TGAZ79
+  : 5.06904
+  ? - INV78
+    - TGAZ80
+  : 0.94353
+  ? - INC78
+    - TGAZ80
+  : 0.03696
+  ? - INV79
+    - TGAZ80
+  : 6.29493
+  ? - INC79
+    - TGAZ80
+  : 0.3176
+  ? - DEP80
+    - TGAZ80
+  : 0.27928
   ? - FXE80
     - TGAZ80
   : 0.07614
-  ? - CCR80
-    - BCAP80
-  : -0.75001
-  ? - CRS78
-    - TCAP78
-  : 1
-  ? - CCB78
-    - WK4B78
-  : 1
-  ? - OBJEC
-    - RVAD77
-  : 0.62092
+  ? - FXE81
+    - TGAZ80
+  : 0.07981
+  ? - GCP80
+    - TGAZ80
+  : 0.06
   ? - RES80
-    - CHAI80
-  : 0.08624
+    - TGAZ80
+  : 0.00743
+  ? - RES81
+    - TGAZ80
+  : 0.00723
+  ? - XX380
+    - TGAZ80
+  : 0.06
+  ? - VLRES
+    - TGAZ80
+  : 5.11833
+  ? - INV79
+    - TGAZ81
+  : 0.9738
+  ? - INC79
+    - TGAZ81
+  : 0.03814
+  ? - INV80
+    - TGAZ81
+  : 6.51199
+  ? - INC80
+    - TGAZ81
+  : 0.32838
+  ? - DEP81
+    - TGAZ81
+  : 0.28888
   ? - FXE81
     - TGAZ81
   : 0.07981
   ? - GCP81
     - TGAZ81
   : 0.06
-  ? - AAH78
-    - HENE78
-  : -1
-  ? - L5479
-    - CP5479
-  : -1
-  ? - FPR79
-    - FOPR79
-  : -1
-  ? - L2381
-    - AD2381
-  : 0.50001
-  ? - HCP79
-    - OUT279
-  : 0.39701
-  ? - INV77
-    - CASC78
-  : 13.03732
-  ? - INV80
-    - CHAL81
-  : 14.4265
-  ? - AAB80
-    - WK3B80
-  : 4.02967
+  ? - RES81
+    - TGAZ81
+  : 0.00735
   ? - XX381
     - TGAZ81
   : 0.06
-  ? - RPM81
-    - EBRP81
-  : -0.75001
-  ? - XX381
-    - CASC81
-  : 0.224
-  ? - EEH80
-    - GRES80
-  : 0.02433
-  ? - INC76
-    - T75078
-  : 6.01129
-  ? - INV75
-    - T75079
-  : 17.16382
-  ? - INV76
-    - N60079
-  : 80.72719
-  ? - RES79
-    - N60079
-  : 0.2881
-  ? - CCB80
-    - BCAP80
-  : -0.75001
-  ? - TRS79
-    - INTT79
-  : -1
-  ? - AAN78
-    - WK1N78
-  : 8.76015
-  ? - INV75
-    - CHAI81
-  : 1.29373
-  ? - AAG81
-    - BENE81
-  : -1
-  ? - AAR81
-    - HENE81
-  : -1
-  ? - HCP78
-    - OUT278
-  : 0.39701
-  ? - INT80
-    - DETT80
-  : 0.085
-  ? - INT76
-    - INTT76
-  : -1
-  ? - CVI80
-    - RNAI80
-  : 1
-  ? - GCP79
-    - TGAZ79
-  : 0.06
-  ? - AAB79
-    - BENE79
-  : -1
-  ? - OBJEC
-    - RVAD73
-  : 0.90909
-  ? - L5480
-    - CP5480
-  : -1
-  ? - CCB81
-    - WK1B81
-  : 1
-  ? - TRS75
-    - INTT75
-  : -1
-  ? - EEH79
-    - GRES78
-  : -0.02508
-  ? - AAR81
-    - BENE81
-  : -1
-  ? - INC79
-    - TGAZ80
-  : 0.3176
-  ? - RES80
-    - TGAZ80
-  : 0.00743
-  ? - DEP81
-    - N60081
-  : 8.08795
-  ? - XX580
-    - XX5680
-  : -1
-  ? - L2380
-    - AD2380
-  : 0.50001
-  ? - RES78
-    - T75078
-  : 0.43126
-  ? - AAB78
-    - WK3B78
-  : 4.02967
-  ? - RPM80
-    - RENE80
-  : 1
-  ? - RAI79
-    - ETRP79
-  : -5.16566
-  ? - TRS79
-    - DETT78
-  : -1
-  ? - EEH81
-    - HEND81
-  : -1
-  ? - AAN81
-    - WK2N81
-  : 6.1321
-  ? - CCG81
-    - BCAP81
-  : -0.75001
-  ? - FXE79
-    - CASC79
-  : 0.32504
-  ? - RES80
-    - CHAL78
-  : 0.00851
-  ? - FXE80
-    - CHAL80
-  : 0.37476
-  ? - INC76
-    - CHAI81
-  : 0.62126
-  ? - RES81
-    - T75081
-  : 0.41833
-  ? - INC79
-    - T75080
-  : 10.17536
-  ? - CCG78
-    - WK1G78
-  : 1
-  ? - AAT79
-    - WK4T79
-  : 1.75203
-  ? - CCB79
-    - BCAP78
-  : -0.05
-  ? - AAN81
-    - HENE81
-  : -1
-  ? - BCP79
-    - BCAP79
-  : -1
-  ? - INC73
-    - OUT278
-  : 0.34686
-  ? - INV75
-    - CASC79
-  : 3.64563
-  ? - R5680
-    - CP5680
-  : -1
-  ? - AAB80
-    - HENE80
-  : -1
-  ? - AAH81
-    - WK4H81
-  : 1.75203
-  ? - L5681
-    - CP5680
-  : 1
-  ? - OBJEC
-    - ESEC81
-  : -0.21205
-  ? - INV75
-    - T75078
-  : 31.35274
-  ? - INV73
-    - CHAI78
-  : 11.88958
-  ? - FXE80
-    - AD5480
-  : 0.02435
-  ? - HED78
-    - HEND78
-  : -1
-  ? - DEP79
-    - OUT279
-  : 1.49269
-  ? - FXE81
-    - AD1378
-  : 0.24957
-  ? - AAH79
-    - ACHT79
-  : -1
-  ? - OBJEC
-    - ESEC80
-  : -0.23326
-  ? - L5679
-    - CP5679
-  : -1
-  ? - INT78
-    - INTT78
-  : -1
-  ? - INC75
-    - INTC75
-  : -1
-  ? - L2381
-    - CP2381
-  : -1
-  ? - XX578
-    - XX3578
-  : 1
-  ? - CCR78
-    - ACHT78
-  : -0.11416
-  ? - FXE80
-    - OUT280
-  : 0.55136
-  ? - INV74
-    - CHAI78
-  : 26.33287
-  ? - DEP79
-    - CHAI79
-  : 1.47295
-  ? - AAT81
-    - HENE81
-  : -1
-  ? - GCP80
-    - TGAZ80
-  : 0.06
-  ? - INC76
-    - T75080
-  : 0.88267
-  ? - INC78
-    - T75081
-  : 2.95364
-  ? - AAH79
-    - HENE79
-  : -1
-  ? - INC80
-    - AD5681
-  : 0.59817
-  ? - RES80
-    - TGAZ79
-  : 0.00731
-  ? - BCP79
-    - T75079
-  : 0.75001
-  ? - TRS78
-    - DEPN78
-  : 1
-  ? - AAH80
-    - WK3H80
-  : 4.02967
-  ? - INV74
-    - INVT74
-  : -1
-  ? - EEG80
-    - GCAP80
-  : -3.50406
-  ? - CCR80
-    - TCAP79
-  : -0.07
-  ? - INV77
-    - N60081
-  : 74.00421
-  ? - CCB80
-    - WK4B80
-  : 1
-  ? - INV75
-    - OUT280
-  : 6.13627
-  ? - INV78
-    - OUT279
-  : 34.14847
-  ? - DEP79
-    - CASC79
-  : 0.46127
-  ? - INV75
-    - CHAL78
-  : 13.08475
-  ? - XX379
-    - CHAI79
-  : 0.80001
-  ? - FPR73
-    - INTT73
-  : -1
-  ? - XX381
-    - XX3581
-  : -1
-  ? - AAN79
-    - WK3N79
-  : 4.02967
-  ? - FXE81
-    - AD2380
-  : 0.62391
-  ? - INV76
-    - CHAI79
-  : 39.71201
-  ? - XX278
-    - XX2378
-  : -1
-  ? - XX381
-    - CHAL81
-  : 0.124
-  ? - INC79
-    - CHAI81
-  : 8.63658
-  ? - RES78
-    - TGAZ78
-  : 0.0075
-  ? - INC77
-    - N60079
-  : 17.39268
-  ? - INC79
-    - T75081
-  : 6.75682
-  ? - FXE81
-    - FEXE81
-  : -1
-  ? - AAR79
-    - TENE79
-  : -1
-  ? - CCB80
-    - NCAP80
-  : -0.85001
-  ? - AAB80
-    - TENE80
-  : -1
-  ? - EEH81
-    - EHRP81
-  : 1
-  ? - DEP78
-    - AD3578
-  : 0.00788
-  ? - DGRES
-    - GRES80
-  : -1
-  ? - CCG78
-    - BCAP78
-  : -0.75001
-  ? - CCT79
-    - TCAP78
-  : -0.07
-  ? - EEH81
-    - ESEC81
-  : 1
-  ? - CCB78
-    - ACHT78
-  : -0.11416
-  ? - AAH81
-    - ACHT81
-  : -1
-  ? - RCP81
-    - RCAP80
-  : 1
-  ? - INV78
-    - AD2379
-  : 2.52247
-  ? - AAG78
-    - RENE78
-  : -1
-  ? - EEN79
-    - ENRP79
-  : 1
-  ? - FXE78
-    - TGAZ78
-  : 0.06932
-  ? - FXE80
-    - T75078
-  : 1.85216
-  ? - DEP78
-    - AD2378
-  : 0.02926
-  ? - INT73
-    - INTT73
-  : -1
-  ? - INT81
-    - INTT81
-  : -1
-  ? - INV78
-    - CASC81
-  : 15.36425
-  ? - AAT78
-    - WK4T78
-  : 1.75203
-  ? - AAG79
-    - WK4G79
-  : 1.75203
-  ? - CCH81
-    - HCAP81
-  : -0.98802
-  ? - EER79
-    - RCAP79
-  : -2.19004
-  ? - FXE78
-    - AD5678
-  : 0.40556
-  ? - RCP81
-    - CHAI81
-  : 0.80001
-  ? - NCP79
-    - N60079
-  : 0.60001
-  ? - AAG80
-    - TENE80
-  : -1
-  ? - RAI79
-    - GENE79
-  : -16.4153
-  ? - BCP80
-    - BCAP80
-  : -1
-  ? - RES81
-    - CHAI79
-  : 0.08311
-  ? - CRS80
-    - ACHT80
-  : 0.11416
-  ? - CCG79
-    - TCAP78
-  : -0.07
-  ? - TCP81
-    - TCAP80
-  : 1
-  ? - RAI81
-    - FEXE81
-  : -1
-  ? - AAH78
-    - WK2H78
-  : 6.1321
-  ? - AAN78
-    - HENE78
-  : -1
-  ? - AAT80
-    - WK3T80
-  : 4.02967
-  ? - CCR78
-    - TCAP78
-  : -0.75
-  ? - EEG81
-    - GCAP81
-  : -3.50406
-  ? - XX378
-    - CASC78
-  : 0.224
-  ? - FPR78
-    - FOPR77
-  : 1
-  ? - EEB81
-    - BCAP81
-  : -7.00813
-  ? - INV77
-    - AD5479
-  : 2.30048
-  ? - RES80
-    - CASC80
-  : 0.01552
-  ? - R3578
-    - CP3578
-  : -1
-  ? - GCP79
-    - GCAP79
-  : -1
-  ? - AAB80
-    - NENE80
-  : -1
-  ? - XX581
-    - XX5681
-  : -1
-  ? - DEP78
-    - AD1378
-  : 0.01688
-  ? - INC77
-    - CHAL78
-  : 2.88321
-  ? - INV77
-    - CHAL79
-  : 17.65373
-  ? - INC77
-    - N60081
-  : 7.31744
-  ? - TRS78
-    - DETT77
-  : -1
-  ? - AAB78
-    - TENE78
-  : -1
-  ? - DEP79
-    - AD2379
-  : 0.02985
-  ? - DEP73
-    - DEPN73
-  : -1
-  ? - CCT80
-    - TCAP80
-  : -0.75
-  ? - CCN79
-    - WK4N79
-  : 1
-  ? - RAI78
-    - EHRP78
-  : -0.50001
-  ? - INV80
-    - AD3581
-  : 1.17995
-  ? - CCH80
-    - WK2H80
-  : 1
-  ? - INC77
-    - T75080
-  : 2.84048
-  ? - L5680
-    - CP5679
-  : 1
-  ? - RAI79
-    - HENE79
-  : -0.50001
-  ? - INV77
-    - AD2379
-  : 3.45072
-  ? - TRS76
-    - RNAI76
-  : 1
-  ? - XX379
-    - TGAZ79
-  : 0.06
-  ? - AAR80
-    - RENE80
-  : -1
-  ? - INC79
-    - AD3580
-  : 0.12369
-  ? - TRS73
-    - RNAI73
-  : 1
-  ? - RAI80
-    - RVAD80
-  : 1
-  ? - AAR80
-    - TENE80
-  : -1
-  ? - RAI77
-    - RNAI77
-  : -1
-  ? - INV78
-    - CASC79
-  : 13.55881
+  ? - VLRES
+    - TGAZ81
+  : 5.17342
+  ? - INV72
+    - N60078
+  : 16.92413
+  ? - INC72
+    - N60078
+  : 0.66294
   ? - INV73
     - N60078
   : 36.58653
-  ? - CRS79
-    - RESV79
-  : -1
-  ? - AAB79
-    - TENE79
-  : -1
-  ? - ACP81
-    - ACHT81
-  : -1
-  ? - CCB81
-    - HCAP81
-  : -0.98802
-  ? - L2379
-    - CP2378
-  : 1
-  ? - RPM81
-    - ETRP81
-  : -0.75001
+  ? - INC73
+    - N60078
+  : 2.70708
+  ? - INV74
+    - N60078
+  : 65.80643
+  ? - INC74
+    - N60078
+  : 6.50584
+  ? - INV75
+    - N60078
+  : 77.6349
+  ? - INC75
+    - N60078
+  : 11.61492
   ? - INV76
-    - T75078
-  : 60.29823
-  ? - TRS81
-    - DETT81
-  : 1
-  ? - XX380
-    - XX1380
-  : 1
+    - N60078
+  : 76.10367
+  ? - INC76
+    - N60078
+  : 16.72708
+  ? - INV77
+    - N60078
+  : 64.4689
+  ? - INC77
+    - N60078
+  : 20.92299
+  ? - DEP78
+    - N60078
+  : 7.19542
+  ? - FXE78
+    - N60078
+  : 3.01304
+  ? - FXE79
+    - N60078
+  : 3.0733
+  ? - FXE80
+    - N60078
+  : 3.13476
+  ? - FXE81
+    - N60078
+  : 3.19745
+  ? - NCP78
+    - N60078
+  : 0.60001
+  ? - RES78
+    - N60078
+  : 0.29101
+  ? - RES79
+    - N60078
+  : 0.2287
+  ? - RES80
+    - N60078
+  : 0.16759
+  ? - RES81
+    - N60078
+  : 0.15133
+  ? - XX178
+    - N60078
+  : 0.60001
+  ? - VLRES
+    - N60078
+  : 129.2112
+  ? - INV73
+    - N60079
+  : 17.60109
+  ? - INC73
+    - N60079
+  : 0.68946
+  ? - INV74
+    - N60079
+  : 38.04999
+  ? - INC74
+    - N60079
+  : 2.81536
+  ? - INV75
+    - N60079
+  : 68.43272
+  ? - INC75
+    - N60079
+  : 6.76584
+  ? - INV76
+    - N60079
+  : 80.72719
+  ? - INC76
+    - N60079
+  : 12.07855
+  ? - INV77
+    - N60079
+  : 79.09523
+  ? - INC77
+    - N60079
+  : 17.39268
+  ? - INV78
+    - N60079
+  : 66.97932
+  ? - INC78
+    - N60079
+  : 21.75198
+  ? - DEP79
+    - N60079
+  : 7.48138
   ? - FXE79
     - N60079
   : 3.0733
-  ? - EET81
-    - TCAP80
-  : -0.438
-  ? - CCG80
-    - WK3G80
-  : 1
-  ? - AAB81
-    - HENE81
-  : -1
+  ? - FXE80
+    - N60079
+  : 3.13476
+  ? - FXE81
+    - N60079
+  : 3.19745
+  ? - NCP79
+    - N60079
+  : 0.60001
+  ? - RES79
+    - N60079
+  : 0.2881
+  ? - RES80
+    - N60079
+  : 0.22639
+  ? - RES81
+    - N60079
+  : 0.16588
+  ? - XX179
+    - N60079
+  : 0.60001
+  ? - VLRES
+    - N60079
+  : 131.16989
+  ? - INV74
+    - N60080
+  : 18.30511
+  ? - INC74
+    - N60080
+  : 0.71703
+  ? - INV75
+    - N60080
+  : 39.57196
+  ? - INC75
+    - N60080
+  : 2.92797
   ? - INV76
-    - AD1378
-  : 2.25538
+    - N60080
+  : 71.16388
+  ? - INC76
+    - N60080
+  : 7.03623
+  ? - INV77
+    - N60080
+  : 83.94284
+  ? - INC77
+    - N60080
+  : 12.56071
+  ? - INV78
+    - N60080
+  : 82.2054
+  ? - INC78
+    - N60080
+  : 18.08487
+  ? - INV79
+    - N60080
+  : 69.58878
+  ? - INC79
+    - N60080
+  : 22.61397
+  ? - DEP80
+    - N60080
+  : 7.77874
+  ? - FXE80
+    - N60080
+  : 3.13476
+  ? - FXE81
+    - N60080
+  : 3.19745
+  ? - NCP80
+    - N60080
+  : 0.60001
+  ? - RES80
+    - N60080
+  : 0.28519
+  ? - RES81
+    - N60080
+  : 0.22408
+  ? - XX180
+    - N60080
+  : 0.60001
+  ? - VLRES
+    - N60080
+  : 133.29187
+  ? - INV75
+    - N60081
+  : 19.03732
+  ? - INC75
+    - N60081
+  : 0.74571
+  ? - INV76
+    - N60081
+  : 41.15482
+  ? - INC76
+    - N60081
+  : 3.04509
+  ? - INV77
+    - N60081
+  : 74.00421
+  ? - INC77
+    - N60081
+  : 7.31744
+  ? - INV78
+    - N60081
+  : 87.28688
+  ? - INC78
+    - N60081
+  : 13.06213
+  ? - INV79
+    - N60081
+  : 85.43887
+  ? - INC79
+    - N60081
+  : 18.80464
+  ? - INV80
+    - N60081
+  : 72.30124
+  ? - INC80
+    - N60081
+  : 23.51027
+  ? - DEP81
+    - N60081
+  : 8.08795
+  ? - FXE81
+    - N60081
+  : 3.19745
+  ? - NCP81
+    - N60081
+  : 0.60001
+  ? - RES81
+    - N60081
+  : 0.28228
+  ? - XX181
+    - N60081
+  : 0.60001
+  ? - VLRES
+    - N60081
+  : 135.57887
+  ? - INV73
+    - T75078
+  : 2.25458
+  ? - INC73
+    - T75078
+  : 0.08831
+  ? - INV74
+    - T75078
+  : 16.5063
+  ? - INC74
+    - T75078
+  : 0.81628
+  ? - INV75
+    - T75078
+  : 31.35274
+  ? - INC75
+    - T75078
+  : 2.62702
+  ? - INV76
+    - T75078
+  : 60.29823
+  ? - INC76
+    - T75078
+  : 6.01129
+  ? - INV77
+    - T75078
+  : 38.60837
+  ? - INC77
+    - T75078
+  : 9.41463
+  ? - DEP78
+    - T75078
+  : 3.3623
+  ? - FXE78
+    - T75078
+  : 1.76342
+  ? - FXE79
+    - T75078
+  : 1.80724
+  ? - FXE80
+    - T75078
+  : 1.85216
+  ? - FXE81
+    - T75078
+  : 1.89819
+  ? - BCP78
+    - T75078
+  : 0.75001
+  ? - RES78
+    - T75078
+  : 0.43126
+  ? - RES79
+    - T75078
+  : 0.3527
+  ? - RES80
+    - T75078
+  : 0.27563
+  ? - RES81
+    - T75078
+  : 0.23645
+  ? - XX278
+    - T75078
+  : 0.75001
+  ? - VLRES
+    - T75078
+  : 67.22089
+  ? - INV74
+    - T75079
+  : 2.34476
+  ? - INC74
+    - T75079
+  : 0.09185
+  ? - INV75
+    - T75079
+  : 17.16382
+  ? - INC75
+    - T75079
+  : 0.84883
+  ? - INV76
+    - T75079
+  : 32.60081
+  ? - INC76
+    - T75079
+  : 2.73166
+  ? - INV77
+    - T75079
+  : 62.68602
+  ? - INC77
+    - T75079
+  : 6.25015
+  ? - INV78
+    - T75079
+  : 40.12126
+  ? - INC78
+    - T75079
+  : 9.78758
+  ? - DEP79
+    - T75079
+  : 3.49594
+  ? - FXE79
+    - T75079
+  : 1.80724
+  ? - FXE80
+    - T75079
+  : 1.85216
+  ? - FXE81
+    - T75079
+  : 1.89819
+  ? - BCP79
+    - T75079
+  : 0.75001
+  ? - RES79
+    - T75079
+  : 0.42695
+  ? - RES80
+    - T75079
+  : 0.34914
+  ? - RES81
+    - T75079
+  : 0.27282
+  ? - XX279
+    - T75079
+  : 0.75001
+  ? - VLRES
+    - T75079
+  : 68.13623
+  ? - INV75
+    - T75080
+  : 2.43855
+  ? - INC75
+    - T75080
+  : 0.09552
+  ? - INV76
+    - T75080
+  : 17.84756
+  ? - INC76
+    - T75080
+  : 0.88267
+  ? - INV77
+    - T75080
+  : 33.89868
+  ? - INC77
+    - T75080
+  : 2.84048
+  ? - INV78
+    - T75080
+  : 65.16879
+  ? - INC78
+    - T75080
+  : 6.49853
+  ? - INV79
+    - T75080
+  : 41.69402
+  ? - INC79
+    - T75080
+  : 10.17536
+  ? - DEP80
+    - T75080
+  : 3.6349
+  ? - FXE80
+    - T75080
+  : 1.85216
+  ? - FXE81
+    - T75080
+  : 1.89819
+  ? - BCP80
+    - T75080
+  : 0.75001
+  ? - RES80
+    - T75080
+  : 0.42264
+  ? - RES81
+    - T75080
+  : 0.34557
+  ? - XX280
+    - T75080
+  : 0.75001
+  ? - VLRES
+    - T75080
+  : 69.12788
+  ? - INV76
+    - T75081
+  : 2.5361
+  ? - INC76
+    - T75081
+  : 0.09934
+  ? - INV77
+    - T75081
+  : 18.55862
+  ? - INC77
+    - T75081
+  : 0.91786
+  ? - INV78
+    - T75081
+  : 35.24835
+  ? - INC78
+    - T75081
+  : 2.95364
+  ? - INV79
+    - T75081
+  : 67.75043
+  ? - INC79
+    - T75081
+  : 6.75682
+  ? - INV80
+    - T75081
+  : 43.32906
+  ? - INC80
+    - T75081
+  : 10.57858
   ? - DEP81
     - T75081
   : 3.77941
-  ? - L5480
-    - AD5480
-  : 0.50001
-  ? - XX381
-    - XX2381
-  : 1
-  ? - FXE78
-    - OUT278
-  : 0.50139
-  ? - INC77
-    - CASC81
-  : 0.15446
-  ? - CCR80
-    - BCAP79
-  : -0.05
-  ? - RPM80
-    - ENRP80
-  : -0.75001
-  ? - TRS78
-    - INTT78
-  : -1
-  ? - RES79
-    - CASC78
-  : 0.01568
-  ? - CCN81
-    - WK4N81
-  : 1
-  ? - FXE79
-    - AD1378
-  : 0.23754
-  ? - FPR76
-    - INTT76
-  : -1
-  ? - FPR77
-    - RNAI77
-  : 1
-  ? - FXE79
-    - AD3579
-  : 0.08314
-  ? - EET78
-    - TENE78
-  : 1
+  ? - FXE81
+    - T75081
+  : 1.89819
+  ? - BCP81
+    - T75081
+  : 0.75001
+  ? - RES81
+    - T75081
+  : 0.41833
+  ? - XX281
+    - T75081
+  : 0.75001
+  ? - VLRES
+    - T75081
+  : 70.19667
 rhs:
   RHS1:
-    TRS79: 98.62241
-    INC79: -31.00053
-    INT78: -154.0027
-    DEP77: -4.00006
-    CHALX: 1
+    RAI72: -329.0056
     TRS72: 73.00125
-    FPR79: -2.00004
-    RCP78: -4
-    RAI81: -487.49097
-    INT75: -174.00296
-    RAI78: -399.1919
-    TRS80: 113.40132
-    ACP81: 0.202
-    FPR73: -6.0001
-    DEP76: -9.00015
-    OUT2X: 1
-    CRS80: 17.86028
-    CASCX: 1
-    XX179: -0.11
     FPR72: -1048.0178
-    CRS78: 15.35027
-    DEP79: -5.00009
-    DEP81: -7.00009
-    CCB79: 0.03
-    HED78: -93.46956
-    RES81: -2.10003
-    L2379: -0.1
-    CCB78: 0.085
+    DEP72: -65.00111
+    DEP73: -5.00011
+    INV72: -349.00586
+    INC72: -54.00093
+    INT72: -192.00334
+    TRS73: 139.82237
+    CAF72: 2846.049
+    FPR73: -6.0001
+    RAI73: -336.45654
+    DEP74: -4.00006
+    INV73: -313.00537
+    INC73: -50.00087
+    INT73: -191.0033
+    TRS74: 148.63713
+    CAF73: 2697.0461
+    FPR74: -6.0001
+    RAI74: -343.0564
+    DEP75: -4.00006
+    INV74: -302.00513
+    INC74: -49.00082
+    INT74: -184.0032
+    TRS75: 160.4463
+    CAF74: 2539.0432
+    FPR75: -5.00009
+    RAI75: -345.83228
+    DEP76: -9.00015
+    INV75: -320.0056
+    INC75: -60.00102
+    INT75: -174.00296
+    TRS76: 100.24867
+    CAF75: 2369.04
+    FPR76: -4.00007
+    RAI76: -367.80737
+    DEP77: -4.00006
+    INV76: -267.00464
+    INC76: -65.00111
+    INT76: -167.00285
+    TRS77: 105.04611
+    CAF76: 2259.038
+    FPR77: -4.00007
+    RAI77: -387.00073
     DEP78: -3.00003
     INV77: -231.00404
-    TRS74: 148.63713
-    INC80: -30.00052
-    XX178: -2.99005
-    XX278: -3.90007
-    CCR78: 0.085
-    RAI75: -345.83228
-    RES80: -2.10003
-    CAF74: 2539.0432
-    INV73: -313.00537
-    INC75: -60.00102
-    L2378: -4.00007
-    FPR77: -4.00007
-    XX280: 0.2
-    INV72: -349.00586
-    INT81: -137.00235
-    RES79: -2.20004
-    EET79: 0.3504
-    CRS81: 19.27029
-    CAF78: 2016.0334
-    L3578: -7.00012
-    XX379: -0.1
-    EET78: 0.62196
-    INV74: -302.00513
-    FPR74: -6.0001
-    RAI79: -427.51025
-    ACP78: -0.35501
-    EET80: 0.1752
-    CAF76: 2259.038
-    INT74: -184.0032
-    CAF80: 1783.0288
-    INT77: -161.00279
-    CAF72: 2846.049
-    RAI80: -456.94946
     INC77: -33.00056
-    XX378: 0.1
-    L5478: -4.00007
-    TCP78: -1.00002
-    INT73: -191.0033
+    INT77: -161.00279
     TRS78: 117.83769
-    L5678: -3.00005
-    HCP78: -10.00017
-    XX180: -0.40001
-    FPR81: -1.00002
-    INT79: -151.00256
-    INV80: -192.00334
-    INC81: -30.00052
-    INV75: -320.0056
-    RAI74: -343.0564
-    INT76: -167.00285
-    DEP72: -65.00111
-    CCG78: 0.085
-    RAI73: -336.45654
-    FPR78: -3.00005
-    TRS75: 160.4463
-    TRS77: 105.04611
-    DEP75: -4.00006
-    INC78: -30.00052
-    INT72: -192.00334
-    FPR80: -1.00002
-    RAI72: -329.0056
-    INV76: -267.00464
-    CCR79: 0.03
-    FPR76: -4.00007
-    XX578: 0.70001
-    XX281: 0.1
-    EEH78: 7.12154
-    XX279: 0.2
-    L1378: -3.00005
-    TRS73: 139.82237
-    INV81: -202.00348
-    RAI76: -367.80737
-    INC76: -65.00111
     CAF77: 2144.036
-    CAF81: 1611.0256
-    CRS79: 16.56027
-    TRS81: 161.17412
-    ACP79: 0.037
-    INV79: -183.00316
-    RAI77: -387.00073
-    TRS76: 100.24867
-    DEP74: -4.00006
-    INC74: -49.00082
-    CAF73: 2697.0461
-    XX580: -0.1
-    INC73: -50.00087
-    RES78: -2.30004
-    CCT78: 0.085
-    CAF79: 1907.0313
-    L5679: 0.90002
-    NCP78: -1.00002
-    CCG79: 0.03
-    DEP73: -5.00011
-    FPR75: -5.00009
-    CAF75: 2369.04
-    CCT79: 0.03
-    GCP78: -0.50001
-    DEP80: -3.00011
-    INT80: -144.00246
-    INC72: -54.00093
+    FPR78: -3.00005
+    RAI78: -399.1919
+    DEP79: -5.00009
     INV78: -190.00325
+    INC78: -30.00052
+    INT78: -154.0027
+    TRS79: 98.62241
+    CAF78: 2016.0334
+    FPR79: -2.00004
+    RAI79: -427.51025
+    DEP80: -3.00011
+    INV79: -183.00316
+    INC79: -31.00053
+    INT79: -151.00256
+    TRS80: 113.40132
+    CAF79: 1907.0313
+    FPR80: -1.00002
+    RAI80: -456.94946
+    DEP81: -7.00009
+    INV80: -192.00334
+    INC80: -30.00052
+    INT80: -144.00246
+    TRS81: 161.17412
+    CAF80: 1783.0288
+    FPR81: -1.00002
+    RAI81: -487.49097
+    INV81: -202.00348
+    INC81: -30.00052
+    INT81: -137.00235
+    CAF81: 1611.0256
+    L1378: -3.00005
+    XX178: -2.99005
+    XX179: -0.11
+    XX378: 0.1
+    XX379: -0.1
+    L2378: -4.00007
+    L2379: -0.1
+    XX278: -3.90007
+    XX279: 0.2
+    L3578: -7.00012
+    XX578: 0.70001
+    L5478: -4.00007
+    L5678: -3.00005
+    L5679: 0.90002
+    XX180: -0.40001
+    XX280: 0.2
+    XX580: -0.1
+    XX281: 0.1
+    HCP78: -10.00017
+    HED78: -93.46956
+    RES78: -2.30004
+    RES79: -2.20004
+    RES80: -2.10003
+    RES81: -2.10003
+    OUT2X: 1
+    CASCX: 1
+    CHALX: 1
+    RCP78: -4
+    GCP78: -0.50001
+    NCP78: -1.00002
+    ACP78: -0.35501
+    CRS78: 15.35027
+    ACP79: 0.037
+    CCT78: 0.085
+    CCB78: 0.085
+    CCR78: 0.085
+    CCG78: 0.085
+    CRS79: 16.56027
+    CCT79: 0.03
+    CCB79: 0.03
+    CCR79: 0.03
+    CCG79: 0.03
+    CRS80: 17.86028
+    ACP81: 0.202
+    CRS81: 19.27029
+    EEH78: 7.12154
+    TCP78: -1.00002
+    EET78: 0.62196
+    EET79: 0.3504
+    EET80: 0.1752
 bounds:
   BNDS1:
-    ? - TGAZ80
+    ? - RVAD72
+      - Fr
+    : ~
+    ? - RVAD73
+      - Fr
+    : ~
+    ? - RVAD74
+      - Fr
+    : ~
+    ? - RVAD75
+      - Fr
+    : ~
+    ? - RVAD76
+      - Fr
+    : ~
+    ? - RVAD77
+      - Fr
+    : ~
+    ? - RVAD78
+      - Fr
+    : ~
+    ? - RVAD79
+      - Fr
+    : ~
+    ? - RVAD80
+      - Fr
+    : ~
+    ? - RVAD81
+      - Fr
+    : ~
+    ? - ACHT78
+      - Fr
+    : ~
+    ? - ACHT79
+      - Fr
+    : ~
+    ? - ACHT80
+      - Fr
+    : ~
+    ? - ACHT81
+      - Fr
+    : ~
+    ? - GRES78
       - Up
-    : 10
-    ? - WK3N78
+    : 284.00488
+    ? - WK1H78
+      - Up
+    : 8.07907
+    ? - WK2H78
+      - Up
+    : 1.79244
+    ? - WK3H78
       - Up
     : 1.57957
     ? - WK4H78
       - Up
     : 1.51985
-    ? - ACHT80
-      - Fr
-    : ~
-    ? - CHAL78
-      - Up
-    : 1
-    ? - TGAZ81
-      - Up
-    : 10
-    ? - WK1R79
-      - Up
-    : 8.71593
-    ? - AD1380
-      - Up
-    : 10
-    ? - CASC81
-      - Up
-    : 1
-    ? - WK3G78
-      - Fx
-    : 1.57957
-    ? - WK3N81
-      - Up
-    : 1.98295
-    ? - WK2B78
-      - Up
-    : 1.79244
-    ? - RVAD76
-      - Fr
-    : ~
-    ? - GRES80
-      - Up
-    : 284.00488
-    ? - WK2H80
-      - Up
-    : 2.08553
-    ? - WK3B80
-      - Up
-    : 1.83785
-    ? - WK2G81
-      - Fx
-    : 2.25018
-    ? - WK3G79
-      - Fx
-    : 1.70408
-    ? - AD2380
-      - Up
-    : 10
-    ? - AD5480
-      - Up
-    : 10
-    ? - OUT279
-      - Up
-    : 1
-    ? - WK4B80
-      - Up
-    : 1.76837
-    ? - CHAI80
-      - Up
-    : 1
-    ? - OUT280
-      - Up
-    : 1
-    ? - WK4T79
-      - Up
-    : 1.63966
-    ? - WK1T79
-      - Up
-    : 8.71593
-    ? - WK3H81
-      - Up
-    : 1.98295
-    ? - WK1T81
-      - Up
-    : 10.14226
-    ? - WK3T81
-      - Up
-    : 1.98295
-    ? - WK1T78
-      - Up
-    : 8.07907
-    ? - WK1H80
-      - Up
-    : 9.40015
-    ? - WK3H80
-      - Up
-    : 1.83785
-    ? - WK1R81
-      - Up
-    : 10.14226
-    ? - WK4R79
-      - Up
-    : 1.63966
-    ? - CHAL79
-      - Up
-    : 1
-    ? - GRES78
-      - Up
-    : 284.00488
-    ? - WK1G78
-      - Fx
-    : 8.07907
-    ? - WK2T80
-      - Up
-    : 2.08553
-    ? - WK4T80
-      - Up
-    : 1.76837
-    ? - WK4N81
-      - Up
-    : 1.90798
-    ? - WK1G81
-      - Fx
-    : 10.14226
-    ? - WK4R78
-      - Up
-    : 1.51985
-    ? - WK2R78
-      - Up
-    : 1.79244
-    ? - WK1B81
-      - Up
-    : 10.14226
-    ? - AD5479
-      - Up
-    : 10
-    ? - WK3G81
-      - Fx
-    : 1.98295
-    ? - OUT278
-      - Up
-    : 1
-    ? - WK4N78
-      - Up
-    : 1.51985
-    ? - WK1G79
-      - Fx
-    : 8.71593
-    ? - RVAD74
-      - Fr
-    : ~
-    ? - WK2T79
-      - Up
-    : 1.93373
-    ? - WK2R80
-      - Up
-    : 2.08553
-    ? - WK1H81
-      - Up
-    : 10.14226
-    ? - CHAL80
-      - Up
-    : 1
-    ? - AD3581
-      - Up
-    : 10
-    ? - WK2B79
-      - Up
-    : 1.93373
-    ? - AD1378
-      - Up
-    : 10
-    ? - WK3T78
-      - Up
-    : 1.57957
-    ? - AD1379
-      - Up
-    : 10
-    ? - WK3R81
-      - Up
-    : 1.98295
-    ? - AD5478
-      - Up
-    : 10
-    ? - WK2R79
-      - Up
-    : 1.93373
-    ? - WK4H79
-      - Up
-    : 1.63966
-    ? - CASC79
-      - Up
-    : 1
-    ? - RVAD75
-      - Fr
-    : ~
-    ? - WK4H81
-      - Up
-    : 1.90798
-    ? - CASC80
-      - Up
-    : 1
-    ? - WK4R81
-      - Up
-    : 1.90798
-    ? - WK2H79
-      - Up
-    : 1.93373
-    ? - CHAI79
-      - Up
-    : 1
-    ? - TGAZ78
-      - Up
-    : 10
-    ? - N60078
-      - Up
-    : 2
-    ? - WK4G78
-      - Fx
-    : 1.51985
-    ? - WK1R78
-      - Up
-    : 8.07907
-    ? - AD1381
-      - Up
-    : 10
-    ? - WK3B81
-      - Up
-    : 1.98295
-    ? - CHAI78
-      - Up
-    : 1
-    ? - WK4R80
-      - Up
-    : 1.76837
-    ? - WK3T80
-      - Up
-    : 1.83785
-    ? - WK4G80
-      - Fx
-    : 1.76837
-    ? - T75078
-      - Up
-    : 2
-    ? - AD5481
-      - Up
-    : 10
-    ? - WK1B80
-      - Up
-    : 9.40015
-    ? - WK1G80
-      - Fx
-    : 9.40015
-    ? - WK3R78
-      - Up
-    : 1.57957
-    ? - WK2N78
-      - Up
-    : 1.79244
-    ? - WK4N80
-      - Up
-    : 1.76837
-    ? - RVAD77
-      - Fr
-    : ~
-    ? - WK1N80
-      - Up
-    : 9.40015
-    ? - AD2378
-      - Up
-    : 10
-    ? - WK2T78
-      - Up
-    : 1.79244
-    ? - WK4B79
-      - Up
-    : 1.63966
-    ? - WK3H79
-      - Up
-    : 1.70408
-    ? - AD2379
-      - Up
-    : 10
     ? - WK1N78
       - Up
     : 8.07907
-    ? - CASC78
+    ? - WK2N78
       - Up
-    : 1
-    ? - ACHT78
-      - Fr
-    : ~
-    ? - GRES79
+    : 1.79244
+    ? - WK3N78
       - Up
-    : 284.00488
+    : 1.57957
+    ? - WK4N78
+      - Up
+    : 1.51985
+    ? - WK1T78
+      - Up
+    : 8.07907
+    ? - WK2T78
+      - Up
+    : 1.79244
+    ? - WK3T78
+      - Up
+    : 1.57957
     ? - WK4T78
       - Up
     : 1.51985
-    ? - WK3T79
+    ? - WK1B78
       - Up
-    : 1.70408
-    ? - AD5679
-      - Up
-    : 10
-    ? - CHAL81
-      - Up
-    : 1
-    ? - AD5680
-      - Up
-    : 10
-    ? - GRES81
-      - Up
-    : 284.00488
-    ? - RVAD78
-      - Fr
-    : ~
-    ? - WK2H81
-      - Up
-    : 2.25018
-    ? - WK4G79
-      - Fx
-    : 1.63966
-    ? - AD5681
-      - Up
-    : 10
-    ? - T75081
-      - Up
-    : 2
-    ? - AD5678
-      - Up
-    : 10
-    ? - RVAD80
-      - Fr
-    : ~
-    ? - WK3N80
-      - Up
-    : 1.83785
-    ? - AD3579
-      - Up
-    : 10
-    ? - ACHT79
-      - Fr
-    : ~
-    ? - WK3N79
-      - Up
-    : 1.70408
-    ? - WK1B79
-      - Up
-    : 8.71593
-    ? - WK2B80
-      - Up
-    : 2.08553
-    ? - WK2H78
+    : 8.07907
+    ? - WK2B78
       - Up
     : 1.79244
-    ? - T75080
-      - Up
-    : 2
-    ? - WK4G81
-      - Fx
-    : 1.90798
-    ? - WK2N79
-      - Up
-    : 1.93373
-    ? - WK1N79
-      - Up
-    : 8.71593
     ? - WK3B78
       - Up
     : 1.57957
     ? - WK4B78
       - Up
     : 1.51985
+    ? - WK1R78
+      - Up
+    : 8.07907
+    ? - WK2R78
+      - Up
+    : 1.79244
+    ? - WK3R78
+      - Up
+    : 1.57957
+    ? - WK4R78
+      - Up
+    : 1.51985
+    ? - WK1G78
+      - Fx
+    : 8.07907
+    ? - WK2G78
+      - Fx
+    : 1.79244
+    ? - WK3G78
+      - Fx
+    : 1.57957
+    ? - WK4G78
+      - Fx
+    : 1.51985
+    ? - GRES79
+      - Up
+    : 284.00488
     ? - WK1H79
       - Up
     : 8.71593
-    ? - TGAZ79
+    ? - WK2H79
       - Up
-    : 10
-    ? - RVAD73
-      - Fr
-    : ~
-    ? - WK3R79
+    : 1.93373
+    ? - WK3H79
       - Up
     : 1.70408
-    ? - WK2B81
+    ? - WK4H79
       - Up
-    : 2.25018
-    ? - N60079
+    : 1.63966
+    ? - WK1N79
       - Up
-    : 2
-    ? - WK1H78
+    : 8.71593
+    ? - WK2N79
       - Up
-    : 8.07907
-    ? - AD3578
+    : 1.93373
+    ? - WK3N79
       - Up
-    : 10
-    ? - T75079
-      - Up
-    : 2
-    ? - RVAD72
-      - Fr
-    : ~
-    ? - WK3R80
-      - Up
-    : 1.83785
-    ? - WK1T80
-      - Up
-    : 9.40015
+    : 1.70408
     ? - WK4N79
       - Up
     : 1.63966
-    ? - WK3G80
+    ? - WK1T79
+      - Up
+    : 8.71593
+    ? - WK2T79
+      - Up
+    : 1.93373
+    ? - WK3T79
+      - Up
+    : 1.70408
+    ? - WK4T79
+      - Up
+    : 1.63966
+    ? - WK1B79
+      - Up
+    : 8.71593
+    ? - WK2B79
+      - Up
+    : 1.93373
+    ? - WK3B79
+      - Up
+    : 1.70408
+    ? - WK4B79
+      - Up
+    : 1.63966
+    ? - WK1R79
+      - Up
+    : 8.71593
+    ? - WK2R79
+      - Up
+    : 1.93373
+    ? - WK3R79
+      - Up
+    : 1.70408
+    ? - WK4R79
+      - Up
+    : 1.63966
+    ? - WK1G79
       - Fx
+    : 8.71593
+    ? - WK2G79
+      - Fx
+    : 1.93373
+    ? - WK3G79
+      - Fx
+    : 1.70408
+    ? - WK4G79
+      - Fx
+    : 1.63966
+    ? - GRES80
+      - Up
+    : 284.00488
+    ? - WK1H80
+      - Up
+    : 9.40015
+    ? - WK2H80
+      - Up
+    : 2.08553
+    ? - WK3H80
+      - Up
     : 1.83785
-    ? - WK2R81
-      - Up
-    : 2.25018
-    ? - CHAI81
-      - Up
-    : 1
-    ? - WK2N81
-      - Up
-    : 2.25018
     ? - WK4H80
       - Up
     : 1.76837
-    ? - WK3H78
+    ? - WK1N80
       - Up
-    : 1.57957
+    : 9.40015
+    ? - WK2N80
+      - Up
+    : 2.08553
+    ? - WK3N80
+      - Up
+    : 1.83785
+    ? - WK4N80
+      - Up
+    : 1.76837
+    ? - WK1T80
+      - Up
+    : 9.40015
+    ? - WK2T80
+      - Up
+    : 2.08553
+    ? - WK3T80
+      - Up
+    : 1.83785
+    ? - WK4T80
+      - Up
+    : 1.76837
+    ? - WK1B80
+      - Up
+    : 9.40015
+    ? - WK2B80
+      - Up
+    : 2.08553
+    ? - WK3B80
+      - Up
+    : 1.83785
+    ? - WK4B80
+      - Up
+    : 1.76837
+    ? - WK1R80
+      - Up
+    : 9.40015
+    ? - WK2R80
+      - Up
+    : 2.08553
+    ? - WK3R80
+      - Up
+    : 1.83785
+    ? - WK4R80
+      - Up
+    : 1.76837
+    ? - WK1G80
+      - Fx
+    : 9.40015
+    ? - WK2G80
+      - Fx
+    : 2.08553
+    ? - WK3G80
+      - Fx
+    : 1.83785
+    ? - WK4G80
+      - Fx
+    : 1.76837
+    ? - GRES81
+      - Up
+    : 284.00488
+    ? - WK1H81
+      - Up
+    : 10.14226
+    ? - WK2H81
+      - Up
+    : 2.25018
+    ? - WK3H81
+      - Up
+    : 1.98295
+    ? - WK4H81
+      - Up
+    : 1.90798
+    ? - WK1N81
+      - Up
+    : 10.14226
+    ? - WK2N81
+      - Up
+    : 2.25018
+    ? - WK3N81
+      - Up
+    : 1.98295
+    ? - WK4N81
+      - Up
+    : 1.90798
+    ? - WK1T81
+      - Up
+    : 10.14226
     ? - WK2T81
       - Up
     : 2.25018
+    ? - WK3T81
+      - Up
+    : 1.98295
+    ? - WK4T81
+      - Up
+    : 1.90798
+    ? - WK1B81
+      - Up
+    : 10.14226
+    ? - WK2B81
+      - Up
+    : 2.25018
+    ? - WK3B81
+      - Up
+    : 1.98295
     ? - WK4B81
       - Up
     : 1.90798
-    ? - RVAD81
-      - Fr
-    : ~
+    ? - WK1R81
+      - Up
+    : 10.14226
+    ? - WK2R81
+      - Up
+    : 2.25018
+    ? - WK3R81
+      - Up
+    : 1.98295
+    ? - WK4R81
+      - Up
+    : 1.90798
+    ? - WK1G81
+      - Fx
+    : 10.14226
+    ? - WK2G81
+      - Fx
+    : 2.25018
+    ? - WK3G81
+      - Fx
+    : 1.98295
+    ? - WK4G81
+      - Fx
+    : 1.90798
+    ? - AD1378
+      - Up
+    : 10
+    ? - AD2378
+      - Up
+    : 10
+    ? - AD3578
+      - Up
+    : 10
+    ? - AD5478
+      - Up
+    : 10
+    ? - AD5678
+      - Up
+    : 10
+    ? - AD1379
+      - Up
+    : 10
+    ? - AD2379
+      - Up
+    : 10
+    ? - AD3579
+      - Up
+    : 10
+    ? - AD5479
+      - Up
+    : 10
+    ? - AD5679
+      - Up
+    : 10
+    ? - AD1380
+      - Up
+    : 10
+    ? - AD2380
+      - Up
+    : 10
     ? - AD3580
+      - Up
+    : 10
+    ? - AD5480
+      - Up
+    : 10
+    ? - AD5680
+      - Up
+    : 10
+    ? - AD1381
       - Up
     : 10
     ? - AD2381
       - Up
     : 10
-    ? - WK2G78
-      - Fx
-    : 1.79244
+    ? - AD3581
+      - Up
+    : 10
+    ? - AD5481
+      - Up
+    : 10
+    ? - AD5681
+      - Up
+    : 10
+    ? - OUT278
+      - Up
+    : 1
+    ? - OUT279
+      - Up
+    : 1
+    ? - OUT280
+      - Up
+    : 1
+    ? - CASC78
+      - Up
+    : 1
+    ? - CASC79
+      - Up
+    : 1
+    ? - CASC80
+      - Up
+    : 1
+    ? - CASC81
+      - Up
+    : 1
+    ? - CHAL78
+      - Up
+    : 1
+    ? - CHAL79
+      - Up
+    : 1
+    ? - CHAL80
+      - Up
+    : 1
+    ? - CHAL81
+      - Up
+    : 1
+    ? - CHAI78
+      - Up
+    : 1
+    ? - CHAI79
+      - Up
+    : 1
+    ? - CHAI80
+      - Up
+    : 1
+    ? - CHAI81
+      - Up
+    : 1
+    ? - TGAZ78
+      - Up
+    : 10
+    ? - TGAZ79
+      - Up
+    : 10
+    ? - TGAZ80
+      - Up
+    : 10
+    ? - TGAZ81
+      - Up
+    : 10
+    ? - N60078
+      - Up
+    : 2
+    ? - N60079
+      - Up
+    : 2
     ? - N60080
       - Up
     : 2
     ? - N60081
       - Up
     : 2
-    ? - WK3B79
+    ? - T75078
       - Up
-    : 1.70408
-    ? - WK1R80
+    : 2
+    ? - T75079
       - Up
-    : 9.40015
-    ? - WK4T81
+    : 2
+    ? - T75080
       - Up
-    : 1.90798
-    ? - WK2N80
+    : 2
+    ? - T75081
       - Up
-    : 2.08553
-    ? - WK1N81
-      - Up
-    : 10.14226
-    ? - RVAD79
-      - Fr
-    : ~
-    ? - ACHT81
-      - Fr
-    : ~
-    ? - WK2G80
-      - Fx
-    : 2.08553
-    ? - WK1B78
-      - Up
-    : 8.07907
-    ? - WK2G79
-      - Fx
-    : 1.93373
+    : 2
 ranges: {}
-

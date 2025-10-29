@@ -4,4375 +4,4282 @@ expression: model
 ---
 name: BOEING2
 row_types:
-  CONTCLE4: Geq
-  LF1010C3: Geq
-  LF1010B1: Geq
-  LF1010C1: Geq
-  LF1012S1: Geq
-  LF1102S3: Geq
-  LF1201C1: Geq
-  FLAV*1: Eq
-  ACMILES: Geq
-  LF1019C1: Geq
-  DMBOSORD: Leq
-  LF1002C1: Geq
-  DMCLEBOS: Leq
-  LF1011B1: Geq
-  CONTLGA4: Geq
-  DMORDBOS: Leq
-  MSBOSCLE: Geq
-  DCLGAORD: Leq
-  LF1201B1: Geq
-  LF1019S2: Geq
-  LF1010C2: Geq
-  LF1010S1: Geq
-  LF1003S1: Geq
-  LF1010S2: Geq
-  LF1014C1: Geq
-  LF1102B1: Geq
-  LF1021B1: Geq
-  DCCLELGA: Leq
-  LF1102S4: Geq
-  DMLGABOS: Leq
-  LF1011S2: Geq
-  LF1006B1: Geq
-  LF1100C1: Geq
-  LF1200B1: Geq
-  CONTBOS1: Geq
-  LF1011S1: Geq
-  LF1015C1: Geq
-  MSCLEORD: Geq
-  FLAV*2: Eq
-  LF1008C2: Geq
-  CONTCLE3: Geq
-  LF1005S1: Geq
-  LF1011B2: Geq
-  MSBOSORD: Geq
-  LF1010B3: Geq
-  LF1100S3: Geq
-  LF1100B5: Geq
-  LF1005B1: Geq
-  LF1014B2: Geq
-  NOPTCLE0: Geq
-  LF1010B2: Geq
-  MSORDBOS: Geq
-  MSLGACLE: Geq
-  LF1006S2: Geq
-  LF1102B4: Geq
-  ASMILES: Geq
-  CONTCLE1: Geq
-  LF1021S1: Geq
-  DMLGAORD: Leq
-  MSBOSLGA: Geq
-  LF1200C1: Geq
-  CONTORD2: Geq
-  LF1013S1: Geq
-  LF1006B2: Geq
-  LF1013S2: Geq
-  DCBOSCLE: Leq
-  FLAV*3: Eq
-  LF1100B3: Geq
-  LF1013B2: Geq
-  LF1015S1: Geq
-  LF1201S1: Geq
-  LF1019B1: Geq
-  FUELAVAL: Leq
-  LF1011C2: Geq
-  LF1014S2: Geq
-  LF1100S1: Geq
-  PASSNGRS: Geq
-  DMLGACLE: Leq
-  CONTORD3: Geq
-  LF1102C3: Geq
-  LF1004S1: Geq
-  LF1006S1: Geq
-  LF1019C2: Geq
-  LF1006C2: Geq
-  LF1008S2: Geq
-  MCORDBOS: Geq
-  LF1021C1: Geq
-  LFTNMILE: Geq
-  CONTORD4: Geq
-  CONTBOS2: Geq
-  LFRPMASM: Geq
-  CONTCLE2: Geq
-  LF1015B1: Geq
-  LF1014B1: Geq
-  DMORDLGA: Leq
-  LF1011C1: Geq
-  LF1100C3: Geq
-  DMORDCLE: Leq
-  MSORDLGA: Geq
-  DCORDLGA: Leq
-  LF1017S1: Geq
-  LF1102C2: Geq
-  LF1100B4: Geq
-  ATONMILE: Geq
-  OBJECTIV: Nr
-  LF1102B2: Geq
-  LF1014S1: Geq
-  MCLGAORD: Geq
-  LF1014C2: Geq
-  MSORDCLE: Geq
-  LF1004B1: Geq
-  SYSTDEPT: Geq
-  LF1003C1: Geq
-  MSLGABOS: Geq
-  DCLGACLE: Leq
-  LF1100S4: Geq
-  LF1102S2: Geq
-  LF1019S1: Geq
-  CONTORD1: Geq
-  DCORDBOS: Leq
-  LF1002B1: Geq
-  LF1100S2: Geq
-  LF1100B1: Geq
-  LF1006C1: Geq
-  CONTBOS4: Geq
-  LF1008B1: Geq
-  ACOCOSTS: Geq
-  LF1008B2: Geq
-  LF1100S5: Geq
-  LF1019B2: Geq
-  LF1100C5: Geq
-  LF1002S1: Geq
-  LF1008C1: Geq
-  LF1102S1: Geq
-  LF1005C1: Geq
-  DMCLEORD: Leq
-  FLAV*4: Eq
-  DMCLELGA: Leq
-  LF1100B2: Geq
-  CONTBOS3: Geq
-  LF1100C2: Geq
-  MSCLELGA: Geq
-  LF1102C1: Geq
-  LF1012B1: Geq
-  LF1017C1: Geq
-  DMBOSLGA: Leq
-  LF1013C2: Geq
-  LF1102B3: Geq
-  MSLGAORD: Geq
-  CONTLGA2: Geq
-  DCBOSORD: Leq
-  LF1010S3: Geq
   REVENUES: Geq
-  RTONMILE: Geq
-  LF1013C1: Geq
-  LF1017B1: Geq
-  LF1004C1: Geq
-  DMBOSCLE: Leq
-  MSCLEBOS: Geq
-  LF1003B1: Geq
-  LF1013B1: Geq
-  LF1100C4: Geq
-  LF1008S1: Geq
-  LF1102C4: Geq
+  ACOCOSTS: Geq
+  OBJECTIV: Nr
+  FUELAVAL: Leq
+  SYSTDEPT: Geq
+  ACMILES: Geq
+  ASMILES: Geq
+  PASSNGRS: Geq
   RPMILES: Geq
+  LFRPMASM: Geq
+  ATONMILE: Geq
+  RTONMILE: Geq
+  LFTNMILE: Geq
+  FLAV*1: Eq
+  FLAV*2: Eq
+  FLAV*3: Eq
+  FLAV*4: Eq
+  LF1003S1: Geq
+  LF1003B1: Geq
+  LF1003C1: Geq
+  LF1005S1: Geq
+  LF1005B1: Geq
+  LF1005C1: Geq
+  LF1011S1: Geq
+  LF1011S2: Geq
+  LF1011B1: Geq
+  LF1011B2: Geq
+  LF1011C1: Geq
+  LF1011C2: Geq
+  LF1013S1: Geq
+  LF1013S2: Geq
+  LF1013B1: Geq
+  LF1013B2: Geq
+  LF1013C1: Geq
+  LF1013C2: Geq
+  LF1015S1: Geq
+  LF1015B1: Geq
+  LF1015C1: Geq
+  LF1017S1: Geq
+  LF1017B1: Geq
+  LF1017C1: Geq
+  LF1019S1: Geq
+  LF1019S2: Geq
+  LF1019B1: Geq
+  LF1019B2: Geq
+  LF1019C1: Geq
+  LF1019C2: Geq
+  LF1021S1: Geq
+  LF1021B1: Geq
+  LF1021C1: Geq
+  LF1002S1: Geq
+  LF1002B1: Geq
+  LF1002C1: Geq
+  LF1004S1: Geq
+  LF1004B1: Geq
+  LF1004C1: Geq
+  LF1006S1: Geq
+  LF1006S2: Geq
+  LF1006B1: Geq
+  LF1006B2: Geq
+  LF1006C1: Geq
+  LF1006C2: Geq
+  LF1008S1: Geq
+  LF1008S2: Geq
+  LF1008B1: Geq
+  LF1008B2: Geq
+  LF1008C1: Geq
+  LF1008C2: Geq
+  LF1010S1: Geq
+  LF1010S2: Geq
+  LF1010S3: Geq
+  LF1010B1: Geq
+  LF1010B2: Geq
+  LF1010B3: Geq
+  LF1010C1: Geq
+  LF1010C2: Geq
+  LF1010C3: Geq
+  LF1012S1: Geq
+  LF1012B1: Geq
   LF1012C1: Geq
+  LF1014S1: Geq
+  LF1014S2: Geq
+  LF1014B1: Geq
+  LF1014B2: Geq
+  LF1014C1: Geq
+  LF1014C2: Geq
+  LF1100S1: Geq
+  LF1100S2: Geq
+  LF1100S3: Geq
+  LF1100S4: Geq
+  LF1100S5: Geq
+  LF1100B1: Geq
+  LF1100B2: Geq
+  LF1100B3: Geq
+  LF1100B4: Geq
+  LF1100B5: Geq
+  LF1100C1: Geq
+  LF1100C2: Geq
+  LF1100C3: Geq
+  LF1100C4: Geq
+  LF1100C5: Geq
+  LF1102S1: Geq
+  LF1102S2: Geq
+  LF1102S3: Geq
+  LF1102S4: Geq
+  LF1102B1: Geq
+  LF1102B2: Geq
+  LF1102B3: Geq
+  LF1102B4: Geq
+  LF1102C1: Geq
+  LF1102C2: Geq
+  LF1102C3: Geq
+  LF1102C4: Geq
   LF1200S1: Geq
+  LF1200B1: Geq
+  LF1200C1: Geq
+  LF1201S1: Geq
+  LF1201B1: Geq
+  LF1201C1: Geq
+  NOPTCLE0: Geq
+  CONTBOS1: Geq
+  CONTBOS2: Geq
+  CONTBOS3: Geq
+  CONTBOS4: Geq
+  CONTORD1: Geq
+  CONTORD2: Geq
+  CONTORD3: Geq
+  CONTORD4: Geq
+  CONTLGA2: Geq
+  CONTLGA4: Geq
+  CONTCLE1: Geq
+  CONTCLE2: Geq
+  CONTCLE3: Geq
+  CONTCLE4: Geq
+  DMBOSORD: Leq
+  DMBOSLGA: Leq
+  DMBOSCLE: Leq
+  DMORDBOS: Leq
+  DMORDLGA: Leq
+  DMORDCLE: Leq
+  DMLGABOS: Leq
+  DMLGAORD: Leq
+  DMLGACLE: Leq
+  DMCLEBOS: Leq
+  DMCLEORD: Leq
+  DMCLELGA: Leq
+  MSBOSORD: Geq
+  MSBOSLGA: Geq
+  MSBOSCLE: Geq
+  MSORDBOS: Geq
+  MSORDLGA: Geq
+  MSORDCLE: Geq
+  MSLGABOS: Geq
+  MSLGAORD: Geq
+  MSLGACLE: Geq
+  MSCLEBOS: Geq
+  MSCLEORD: Geq
+  MSCLELGA: Geq
+  DCBOSORD: Leq
+  DCBOSCLE: Leq
+  DCORDBOS: Leq
+  DCORDLGA: Leq
+  DCLGAORD: Leq
+  DCLGACLE: Leq
+  DCCLELGA: Leq
+  MCORDBOS: Geq
+  MCLGAORD: Geq
 values:
-  ? - OBJECTIV
-    - CCLELGA0
-  : -0.37
-  ? - LFTNMILE
-    - CCLELGA0
-  : -0.41715
-  ? - LFTNMILE
-    - CBOSORD1
-  : -0.87605
-  ? - CONTORD1
-    - N1003AC1
-  : -1
-  ? - FLAV*2
-    - N1019AC2
-  : 2.30477
-  ? - ACOCOSTS
-    - N1100AC4
-  : 5.06059
   ? - REVENUES
-    - CORDBOS4
-  : 0.75
-  ? - DMLGABOS
-    - PLGABOS4
-  : 1
+    - PBOSORD0
+  : 0.075
   ? - OBJECTIV
-    - PLGABOS5
-  : -0.027
-  ? - CONTORD3
-    - N1006AC3
-  : 1
-  ? - ACOCOSTS
-    - N1201AC2
-  : 0.72047
-  ? - ATONMILE
-    - N1011AC1
-  : 26.2816
-  ? - ACMILES
-    - N1021AC4
-  : 0.3145
-  ? - LFTNMILE
-    - N1005AC4
-  : 4.211665
-  ? - CONTORD4
-    - N1003AC4
-  : -1
-  ? - FUELAVAL
-    - N1012AC2
-  : 1.49045
-  ? - LF1008S2
-    - PORDBOS1
-  : -1
-  ? - FLAV*2
-    - N1021AC2
-  : 1.05384
-  ? - FUELAVAL
-    - N1003AC1
-  : 7.98429
-  ? - LFRPMASM
-    - N1004AC2
-  : 57.440662
-  ? - LFTNMILE
-    - N1021AC1
-  : 4.717475
-  ? - LF1100C1
-    - N1100AC4
-  : 11.25
-  ? - MSORDBOS
-    - N1008AC2
-  : 1
-  ? - MSLGAORD
-    - N1017AC2
-  : 1
-  ? - FUELAVAL
-    - N1008AC4
-  : 2.4431
-  ? - MSLGABOS
-    - N1014AC2
-  : 1
-  ? - FUELAVAL
-    - N1011AC3
-  : 3.83055
-  ? - REVENUES
-    - PCLEBOS0
-  : 0.053
-  ? - OBJECTIV
-    - N1014AC4
-  : 1.71382
-  ? - ASMILES
-    - N1021AC2
-  : 41.19926
-  ? - LFRPMASM
-    - PBOSLGA2
-  : -1.60685
-  ? - LFTNMILE
-    - N1002AC4
-  : 2.358735
-  ? - ATONMILE
-    - N1011AC3
-  : 35.04214
-  ? - ACOCOSTS
-    - N1011AC3
-  : 1.3
-  ? - CONTBOS2
-    - N1010AC2
-  : -1
-  ? - CONTBOS1
-    - N1003AC1
-  : 1
-  ? - OBJECTIV
-    - N1200AC2
-  : 0.72047
-  ? - MCORDBOS
-    - N1008AC4
-  : 1
-  ? - MSBOSLGA
-    - N1100AC2
-  : 1
-  ? - MSLGACLE
-    - N1015AC2
-  : 1
-  ? - LFTNMILE
-    - N1201AC4
-  : 1.3918
-  ? - FUELAVAL
-    - N1014AC4
-  : 1.84718
-  ? - MSLGAORD
-    - N1013AC2
-  : 1
-  ? - REVENUES
-    - PCLEORD3
-  : 0.035
-  ? - LFRPMASM
-    - N1006AC1
-  : 213.93222
-  ? - ASMILES
-    - N1102AC2
-  : 234.80756
-  ? - CONTORD3
-    - N1003AC3
-  : -1
-  ? - PASSNGRS
-    - PLGACLE2
-  : 1
-  ? - OBJECTIV
-    - BORDBOS0
-  : -0.75
-  ? - ACOCOSTS
-    - N1012AC4
-  : 1.14401
-  ? - ASMILES
-    - N1014AC2
-  : 78.95706
-  ? - OBJECTIV
-    - PORDBOS2
+    - PBOSORD0
   : -0.075
-  ? - LF1102C2
-    - N1102AC4
-  : 11.25
-  ? - RTONMILE
-    - CORDBOS4
-  : 0.91637
-  ? - ACOCOSTS
-    - N1005AC2
-  : 1.60964
-  ? - OBJECTIV
-    - N1006AC3
-  : 3.35591
-  ? - LF1201C1
-    - N1201AC4
-  : 11.25
-  ? - LF1102S4
-    - PCLEBOS4
-  : -1
-  ? - ACOCOSTS
-    - N1004AC4
-  : 1.33312
-  ? - DMBOSLGA
-    - PBOSLGA2
-  : 1
-  ? - LF1102S3
-    - PORDLGA3
-  : -1
-  ? - NOPTCLE0
-    - N1021AC3
-  : 1
-  ? - CONTBOS4
-    - N1200AC4
-  : 1
-  ? - DMBOSCLE
-    - PBOSCLE3
-  : 1
-  ? - FUELAVAL
-    - N1200AC4
-  : 0.70359
-  ? - SYSTDEPT
-    - N1021AC4
-  : 1
-  ? - LF1100S4
-    - PORDCLE3
-  : -1
-  ? - ACMILES
-    - N1005AC2
-  : 0.56156
-  ? - LFRPMASM
-    - PORDLGA3
-  : -0.7308
-  ? - REVENUES
-    - CLGAORD0
-  : 0.68
-  ? - FLAV*4
-    - N1015AC4
-  : 1.25093
-  ? - LFTNMILE
-    - BORDBOS0
-  : -0.87605
-  ? - FLAV*4
-    - N1019AC4
-  : 2.30477
-  ? - REVENUES
-    - CBOSORD4
-  : 0.75
-  ? - LFTNMILE
-    - CLGACLE1
-  : -0.41715
-  ? - OBJECTIV
-    - N1003AC4
-  : 0.04
-  ? - LFRPMASM
-    - PLGABOS3
-  : -1.6077
-  ? - NOPTCLE0
-    - N1005AC4
-  : 1
-  ? - FLAV*4
-    - N1002AC4
-  : 1.05384
-  ? - LFRPMASM
-    - PORDBOS0
-  : -0.87605
-  ? - LF1100S1
-    - PBOSLGA1
-  : -1
   ? - PASSNGRS
-    - PCLEORD4
-  : 1
-  ? - OBJECTIV
-    - PCLEBOS0
-  : -0.053
-  ? - LFRPMASM
-    - N1005AC2
-  : 44.138245
-  ? - RPMILES
-    - PBOSCLE3
-  : 0.56156
-  ? - OBJECTIV
-    - N1011AC4
-  : 2.34647
-  ? - DMBOSORD
     - PBOSORD0
   : 1
-  ? - LFTNMILE
-    - CBOSORD4
-  : -0.87605
-  ? - CONTORD3
-    - N1021AC3
-  : -1
-  ? - OBJECTIV
-    - N1002AC3
-  : 1.42472
-  ? - SYSTDEPT
-    - N1005AC3
-  : 1
-  ? - FUELAVAL
-    - N1003AC4
-  : 1.99337
-  ? - ACMILES
-    - N1200AC2
-  : 0.18557
-  ? - LF1006B1
-    - BORDBOS0
-  : -1
-  ? - LF1002C1
-    - N1002AC4
-  : 11.25
-  ? - FUELAVAL
-    - N1004AC2
-  : 2.21183
-  ? - REVENUES
-    - PCLELGA0
-  : 0.037
-  ? - ACOCOSTS
-    - N1003AC4
-  : 0.04
-  ? - LF1102S3
-    - PBOSLGA2
-  : -1
-  ? - LFTNMILE
-    - N1003AC3
-  : 17.288155
-  ? - MCLGAORD
-    - N1100AC4
-  : 1
-  ? - LF1006S2
-    - PCLEBOS0
-  : -1
-  ? - REVENUES
-    - PCLEBOS2
-  : 0.053
-  ? - RTONMILE
-    - BBOSORD0
+  ? - RPMILES
+    - PBOSORD0
   : 0.86441
-  ? - ACOCOSTS
-    - N1011AC2
-  : 1.2
-  ? - LFRPMASM
-    - PLGABOS1
-  : -0.18557
-  ? - LF1011S2
-    - N1011AC2
-  : 98
-  ? - PASSNGRS
-    - PBOSORD0
-  : 1
-  ? - FLAV*2
-    - N1004AC2
-  : 1.85313
-  ? - FUELAVAL
-    - N1004AC4
-  : 1.73951
-  ? - CONTLGA4
-    - N1004AC4
-  : -1
-  ? - ACMILES
-    - N1017AC2
-  : 0.7308
-  ? - LF1019C1
-    - CLGAORD2
-  : -1
-  ? - CONTORD1
-    - N1011AC1
-  : -1
-  ? - LFTNMILE
-    - N1008AC4
-  : 6.87278
-  ? - CONTBOS2
-    - N1014AC2
-  : -1
-  ? - ASMILES
-    - N1017AC2
-  : 95.73444
-  ? - LF1102S4
-    - PORDBOS4
-  : -1
-  ? - LF1010S3
-    - PLGABOS1
-  : -1
-  ? - LF1010S1
-    - N1010AC2
-  : 98
-  ? - NOPTCLE0
-    - N1014AC2
-  : 1
-  ? - CONTLGA4
-    - N1200AC4
-  : -1
-  ? - LF1005C1
-    - N1005AC4
-  : 11.25
-  ? - CONTLGA2
-    - N1017AC2
-  : 1
-  ? - ACMILES
-    - N1201AC2
-  : 0.18557
-  ? - RTONMILE
-    - CORDBOS1
-  : 0.91637
-  ? - LF1011S2
-    - N1011AC1
-  : 305
-  ? - DCBOSCLE
-    - BBOSCLE0
-  : 1
-  ? - LFRPMASM
-    - N1015AC2
-  : 32.78823
-  ? - LFRPMASM
-    - PLGABOS4
-  : -0.18557
-  ? - LF1100S4
-    - N1100AC2
-  : 98
-  ? - NOPTCLE0
-    - N1102AC2
-  : 2
-  ? - LF1014S1
-    - PCLELGA2
-  : -1
-  ? - LFRPMASM
-    - PCLEBOS0
-  : -0.56156
-  ? - ATONMILE
-    - N1019AC4
-  : 10.97477
-  ? - LFTNMILE
-    - CORDBOS2
-  : -0.91722
-  ? - PASSNGRS
-    - PCLEORD2
-  : 1
-  ? - LFTNMILE
-    - BBOSCLE0
-  : -0.56156
-  ? - OBJECTIV
-    - PCLEBOS4
-  : -0.053
-  ? - LF1006C2
-    - CORDBOS0
-  : -1
-  ? - ASMILES
-    - N1011AC1
-  : 356.5537
-  ? - CONTLGA2
-    - N1201AC2
-  : 1
-  ? - LFTNMILE
-    - BBOSORD1
-  : -0.87605
-  ? - ACOCOSTS
-    - N1102AC2
-  : 5.16712
-  ? - PASSNGRS
-    - PLGABOS4
-  : 1
-  ? - DCBOSORD
-    - CBOSORD3
-  : 1
-  ? - LF1100C4
-    - CORDBOS3
-  : -1
-  ? - REVENUES
-    - CLGAORD3
-  : 0.68
-  ? - LFTNMILE
-    - N1017AC4
-  : 5.48098
-  ? - ACOCOSTS
-    - N1019AC2
-  : 2.55381
-  ? - DMBOSLGA
-    - PBOSLGA1
-  : 1
-  ? - PASSNGRS
-    - PCLEBOS2
-  : 1
-  ? - LF1100C3
-    - N1100AC4
-  : 11.25
-  ? - RPMILES
-    - PCLELGA2
-  : 0.41715
-  ? - LF1005B1
-    - N1005AC1
-  : 12
-  ? - ATONMILE
-    - N1015AC4
-  : 6.25729
-  ? - LF1005S1
-    - N1005AC2
-  : 98
-  ? - CONTORD4
-    - N1019AC4
-  : -1
-  ? - RPMILES
-    - PBOSORD3
-  : 0.91722
-  ? - LF1008S1
-    - PORDBOS1
-  : -1
-  ? - NOPTCLE0
-    - N1100AC2
-  : 4
-  ? - MSORDBOS
-    - N1006AC2
-  : 1
   ? - LFRPMASM
     - PBOSORD0
   : -0.86441
-  ? - ACMILES
-    - N1011AC2
-  : 0.87605
-  ? - LF1006S1
-    - N1006AC2
-  : 98
-  ? - ACOCOSTS
-    - N1006AC1
-  : 7.17016
-  ? - LF1012C1
-    - N1012AC4
-  : 11.25
-  ? - LFTNMILE
-    - N1021AC3
-  : 6.289965
-  ? - SYSTDEPT
-    - N1200AC2
-  : 1
-  ? - LFRPMASM
-    - N1005AC1
-  : 137.13179
-  ? - DMLGAORD
-    - PLGAORD1
-  : 1
-  ? - FLAV*1
-    - N1011AC1
-  : 25
-  ? - RTONMILE
-    - CORDLGA0
-  : 0.7308
-  ? - LFRPMASM
-    - N1011AC1
-  : 213.93222
-  ? - LFTNMILE
-    - N1004AC4
-  : 5.48098
-  ? - MSBOSLGA
-    - N1102AC2
-  : 1
-  ? - LF1006B2
-    - BORDBOS0
-  : -1
-  ? - LFRPMASM
-    - N1201AC2
-  : 14.586042
-  ? - OBJECTIV
-    - BBOSCLE1
-  : -0.53
-  ? - ACOCOSTS
-    - GRDTIMN4
-  : -0.01333
-  ? - MSORDBOS
-    - N1102AC2
-  : 1
-  ? - ACMILES
-    - N1100AC4
-  : 1.79328
-  ? - LFRPMASM
-    - PBOSLGA0
-  : -0.18557
-  ? - FUELAVAL
-    - N1006AC3
-  : 3.83055
-  ? - OBJECTIV
-    - N1008AC4
-  : 1.90292
-  ? - SYSTDEPT
-    - N1100AC2
-  : 5
-  ? - LF1102S3
-    - N1102AC2
-  : 98
-  ? - RPMILES
-    - PBOSLGA2
-  : 1.60685
-  ? - FLAV*2
-    - N1102AC2
-  : 5.24145
-  ? - LF1002S1
-    - N1002AC1
-  : 305
-  ? - FLAV*1
-    - GRDTIMN1
-  : 1
-  ? - CONTORD2
-    - N1008AC2
-  : 1
-  ? - LFRPMASM
-    - PORDBOS3
-  : -0.87605
   ? - DMBOSORD
-    - PBOSORD2
+    - PBOSORD0
   : 1
-  ? - REVENUES
-    - PLGAORD1
-  : 0.068
-  ? - OBJECTIV
-    - PCLEBOS2
-  : -0.053
-  ? - REVENUES
-    - PCLELGA3
-  : 0.037
-  ? - LFTNMILE
-    - CLGAORD2
-  : -0.73165
-  ? - OBJECTIV
-    - PORDBOS3
-  : -0.075
-  ? - PASSNGRS
-    - PBOSLGA3
-  : 1
-  ? - FUELAVAL
-    - N1010AC2
-  : 3.70262
-  ? - RTONMILE
-    - CORDBOS0
-  : 0.87605
-  ? - ACMILES
-    - N1011AC1
-  : 0.87605
-  ? - MSBOSCLE
-    - N1100AC2
-  : 1
-  ? - NOPTCLE0
-    - N1100AC4
-  : 4
-  ? - OBJECTIV
-    - CBOSORD3
-  : -0.75
-  ? - MSCLELGA
-    - N1012AC2
-  : 1
-  ? - LF1008S1
-    - N1008AC2
-  : 98
-  ? - LF1010S2
-    - N1010AC2
-  : 98
-  ? - ACMILES
-    - N1102AC4
-  : 1.79242
-  ? - OBJECTIV
-    - N1015AC4
-  : 1.14401
-  ? - RTONMILE
-    - CLGACLE2
-  : 0.41715
-  ? - RPMILES
-    - PCLELGA3
-  : 1.0453
-  ? - REVENUES
-    - CBOSCLE2
-  : 0.53
-  ? - DMBOSCLE
-    - PBOSCLE0
-  : 1
-  ? - REVENUES
-    - CORDLGA3
-  : 0.68
-  ? - OBJECTIV
-    - GRDTIMN1
-  : -0.05
-  ? - ACMILES
-    - N1008AC2
-  : 0.91637
-  ? - PASSNGRS
-    - PORDLGA0
-  : 1
-  ? - DCBOSORD
-    - CBOSORD1
-  : 1
-  ? - LFRPMASM
-    - PLGABOS2
-  : -0.18557
-  ? - PASSNGRS
-    - PLGAORD0
-  : 1
-  ? - REVENUES
-    - PCLEBOS1
-  : 0.053
-  ? - CONTORD2
-    - N1011AC2
-  : -1
-  ? - LF1100S2
-    - PBOSCLE2
-  : -1
-  ? - NOPTCLE0
-    - N1010AC2
-  : 2
-  ? - FLAV*4
-    - N1010AC4
-  : 3.11107
-  ? - ASMILES
-    - N1201AC2
-  : 24.31007
-  ? - DMORDBOS
-    - PORDBOS1
-  : 1
-  ? - CONTORD2
-    - N1006AC2
-  : 1
-  ? - SYSTDEPT
-    - N1006AC3
-  : 2
-  ? - CONTLGA4
-    - N1015AC4
-  : 1
-  ? - MSCLEORD
-    - N1102AC2
-  : 1
-  ? - REVENUES
-    - PORDCLE3
-  : 0.035
-  ? - DMCLEORD
-    - PCLEORD0
-  : 1
-  ? - CONTBOS4
-    - N1003AC4
-  : 1
-  ? - CONTBOS2
-    - N1011AC2
-  : 1
-  ? - LFRPMASM
-    - PCLELGA2
-  : -0.41715
-  ? - NOPTCLE0
-    - N1002AC4
-  : 1
-  ? - FLAV*4
-    - N1012AC4
-  : 1.25093
-  ? - DCBOSCLE
-    - CBOSCLE1
-  : 1
-  ? - LF1011C2
-    - N1011AC3
-  : 30
-  ? - DMLGABOS
-    - PLGABOS0
-  : 1
-  ? - OBJECTIV
-    - CBOSCLE2
-  : -0.53
-  ? - FLAV*4
-    - N1006AC4
-  : 2.58202
-  ? - FUELAVAL
-    - N1002AC3
-  : 1.55704
-  ? - REVENUES
-    - PLGABOS4
-  : 0.027
-  ? - LF1002C1
-    - N1002AC3
-  : 30
-  ? - LFRPMASM
-    - N1010AC2
-  : 72.09382
-  ? - REVENUES
-    - BBOSCLE1
-  : 0.53
-  ? - LF1008C2
-    - N1008AC4
-  : 11.25
-  ? - RTONMILE
-    - CBOSCLE2
-  : 0.60273
-  ? - CONTORD2
-    - N1010AC2
-  : 1
-  ? - LF1201S1
-    - N1201AC2
-  : 98
-  ? - ACMILES
-    - N1012AC4
-  : 0.41715
-  ? - RPMILES
-    - PLGACLE0
-  : 0.41715
-  ? - LFRPMASM
-    - PORDCLE3
-  : -0.3145
-  ? - LFRPMASM
-    - PCLEBOS3
-  : -0.56156
-  ? - OBJECTIV
-    - GRDTIMO1
-  : 0.65
-  ? - OBJECTIV
-    - PBOSORD2
-  : -0.075
-  ? - LF1011C2
-    - N1011AC4
-  : 11.25
-  ? - CONTLGA2
-    - N1019AC2
-  : 1
-  ? - PASSNGRS
-    - PLGABOS0
-  : 1
-  ? - SYSTDEPT
-    - N1100AC4
-  : 5
-  ? - ACMILES
-    - N1006AC4
-  : 0.87605
-  ? - DCORDLGA
-    - CORDLGA3
-  : 1
-  ? - PASSNGRS
-    - PLGABOS5
-  : 1
-  ? - ACMILES
-    - N1019AC4
-  : 0.73165
-  ? - RPMILES
-    - PLGABOS0
-  : 0.18557
-  ? - REVENUES
-    - PLGABOS5
-  : 0.027
-  ? - RPMILES
-    - PORDCLE1
-  : 0.3145
-  ? - OBJECTIV
-    - PLGACLE2
-  : -0.037
-  ? - PASSNGRS
-    - PCLELGA1
-  : 1
-  ? - DCBOSORD
-    - BBOSORD1
-  : 1
-  ? - LFRPMASM
-    - PCLEORD0
-  : -0.3145
-  ? - LFRPMASM
-    - PORDLGA1
-  : -0.7308
-  ? - ASMILES
-    - N1003AC1
-  : 351.81396
-  ? - SYSTDEPT
-    - N1008AC4
-  : 2
-  ? - REVENUES
-    - PORDLGA1
-  : 0.068
-  ? - ACMILES
-    - N1010AC2
-  : 0.91722
-  ? - FLAV*2
-    - N1010AC2
-  : 3.11107
-  ? - ACMILES
-    - N1021AC2
-  : 0.3145
   ? - LF1003S1
     - PBOSORD0
   : -1
-  ? - LF1003S1
-    - N1003AC2
-  : 98
-  ? - DCLGAORD
-    - CLGAORD3
-  : 1
-  ? - LF1006B1
-    - N1006AC1
-  : 12
-  ? - OBJECTIV
-    - PBOSCLE2
-  : -0.053
-  ? - CONTCLE2
-    - N1021AC2
-  : 1
-  ? - MSORDBOS
-    - N1006AC1
-  : 1
-  ? - OBJECTIV
-    - CORDBOS4
-  : -0.75
-  ? - SYSTDEPT
-    - N1004AC4
-  : 1
-  ? - LF1102S2
-    - PBOSORD4
-  : -1
-  ? - PASSNGRS
-    - PORDBOS2
-  : 1
-  ? - OBJECTIV
-    - PORDLGA0
-  : -0.068
-  ? - ACMILES
-    - N1015AC4
-  : 0.41715
-  ? - LF1010S2
-    - PCLEBOS1
-  : -1
-  ? - CONTCLE4
-    - N1005AC4
-  : -1
-  ? - FLAV*4
-    - N1100AC4
-  : 5.69309
-  ? - LF1003C1
-    - N1003AC4
-  : 11.25
-  ? - DMBOSCLE
-    - PBOSCLE1
-  : 1
-  ? - OBJECTIV
-    - PCLELGA1
-  : -0.037
-  ? - REVENUES
-    - BBOSORD0
-  : 0.75
-  ? - LF1021B1
-    - N1021AC1
-  : 12
-  ? - LF1010C1
-    - N1010AC4
-  : 11.25
-  ? - PASSNGRS
-    - PLGAORD2
-  : 1
-  ? - DCBOSCLE
-    - CBOSCLE2
-  : 1
-  ? - ATONMILE
-    - N1017AC4
-  : 10.96196
-  ? - LFTNMILE
-    - N1006AC4
-  : 6.5704
-  ? - CONTCLE4
-    - N1014AC4
-  : 1
-  ? - ACMILES
-    - N1005AC4
-  : 0.56156
-  ? - DCORDBOS
-    - CORDBOS4
-  : 1
-  ? - DMORDLGA
-    - PORDLGA3
-  : 1
-  ? - FUELAVAL
-    - N1017AC4
-  : 1.73951
-  ? - MSORDLGA
-    - N1102AC2
-  : 1
-  ? - REVENUES
-    - CLGACLE2
-  : 0.37
-  ? - REVENUES
-    - CCLELGA0
-  : 0.37
-  ? - FUELAVAL
-    - N1011AC4
-  : 2.3665
-  ? - ACOCOSTS
-    - N1017AC2
-  : 1.64736
-  ? - OBJECTIV
-    - N1004AC2
-  : 1.64736
-  ? - LF1017S1
-    - PLGAORD1
-  : -1
-  ? - LFTNMILE
-    - CORDBOS3
-  : -0.87605
-  ? - ASMILES
-    - N1015AC2
-  : 54.64705
-  ? - RTONMILE
-    - CORDBOS3
-  : 0.87605
-  ? - OBJECTIV
-    - N1006AC2
-  : 2.79929
-  ? - LF1006C1
-    - N1006AC3
-  : 30
-  ? - OBJECTIV
-    - N1201AC2
-  : 0.72047
-  ? - OBJECTIV
-    - PLGABOS0
-  : -0.027
-  ? - PASSNGRS
-    - PCLEORD0
-  : 1
-  ? - MSLGABOS
-    - N1100AC2
-  : 1
-  ? - NOPTCLE0
-    - N1010AC4
-  : 2
-  ? - LF1102S3
-    - PORDBOS4
-  : -1
-  ? - LF1010C3
-    - CORDBOS2
-  : -1
-  ? - LF1010C2
-    - N1010AC4
-  : 11.25
-  ? - LF1102S2
-    - N1102AC2
-  : 98
-  ? - OBJECTIV
-    - PBOSCLE3
-  : -0.053
-  ? - OBJECTIV
-    - PCLELGA2
-  : -0.037
-  ? - OBJECTIV
-    - PBOSCLE1
-  : -0.053
-  ? - DMLGACLE
-    - PLGACLE0
-  : 1
-  ? - DMCLEBOS
-    - PCLEBOS0
-  : 1
-  ? - LF1100C2
-    - CBOSCLE2
-  : -1
-  ? - RPMILES
-    - PBOSCLE0
-  : 0.56156
-  ? - ACOCOSTS
-    - GRDTIMN1
-  : -0.05
-  ? - ACMILES
-    - N1200AC4
-  : 0.18557
-  ? - LFTNMILE
-    - N1003AC4
-  : 6.48306
-  ? - ACOCOSTS
-    - N1012AC2
-  : 1.36416
   ? - REVENUES
     - PBOSORD1
   : 0.075
+  ? - OBJECTIV
+    - PBOSORD1
+  : -0.075
   ? - PASSNGRS
-    - PLGABOS3
+    - PBOSORD1
   : 1
-  ? - LF1010S3
-    - PCLEBOS1
-  : -1
-  ? - LFRPMASM
-    - PBOSCLE0
-  : -0.56156
-  ? - NOPTCLE0
-    - N1011AC4
-  : 2
-  ? - LF1019S1
-    - N1019AC2
-  : 98
-  ? - MSLGAORD
-    - N1019AC2
-  : 1
-  ? - ACMILES
-    - N1006AC2
+  ? - RPMILES
+    - PBOSORD1
   : 0.87605
+  ? - LFRPMASM
+    - PBOSORD1
+  : -0.87605
+  ? - DMBOSORD
+    - PBOSORD1
+  : 1
+  ? - LF1011S1
+    - PBOSORD1
+  : -1
+  ? - LF1011S2
+    - PBOSORD1
+  : -1
+  ? - REVENUES
+    - PBOSORD2
+  : 0.075
+  ? - OBJECTIV
+    - PBOSORD2
+  : -0.075
+  ? - PASSNGRS
+    - PBOSORD2
+  : 1
+  ? - RPMILES
+    - PBOSORD2
+  : 0.91637
+  ? - LFRPMASM
+    - PBOSORD2
+  : -0.91637
+  ? - DMBOSORD
+    - PBOSORD2
+  : 1
+  ? - LF1013S1
+    - PBOSORD2
+  : -1
+  ? - LF1013S2
+    - PBOSORD2
+  : -1
+  ? - REVENUES
+    - PBOSORD3
+  : 0.075
+  ? - OBJECTIV
+    - PBOSORD3
+  : -0.075
+  ? - PASSNGRS
+    - PBOSORD3
+  : 1
+  ? - RPMILES
+    - PBOSORD3
+  : 0.91722
+  ? - LFRPMASM
+    - PBOSORD3
+  : -0.91722
+  ? - DMBOSORD
+    - PBOSORD3
+  : 1
+  ? - LF1100S1
+    - PBOSORD3
+  : -1
   ? - LF1100S2
-    - N1100AC2
-  : 98
+    - PBOSORD3
+  : -1
+  ? - LF1100S3
+    - PBOSORD3
+  : -1
+  ? - REVENUES
+    - PBOSORD4
+  : 0.075
+  ? - OBJECTIV
+    - PBOSORD4
+  : -0.075
+  ? - PASSNGRS
+    - PBOSORD4
+  : 1
+  ? - RPMILES
+    - PBOSORD4
+  : 0.87605
+  ? - LFRPMASM
+    - PBOSORD4
+  : -0.87605
+  ? - DMBOSORD
+    - PBOSORD4
+  : 1
+  ? - LF1102S1
+    - PBOSORD4
+  : -1
+  ? - LF1102S2
+    - PBOSORD4
+  : -1
+  ? - REVENUES
+    - PBOSLGA0
+  : 0.027
+  ? - OBJECTIV
+    - PBOSLGA0
+  : -0.027
+  ? - PASSNGRS
+    - PBOSLGA0
+  : 1
+  ? - RPMILES
+    - PBOSLGA0
+  : 0.18557
+  ? - LFRPMASM
+    - PBOSLGA0
+  : -0.18557
+  ? - DMBOSLGA
+    - PBOSLGA0
+  : 1
+  ? - LF1013S1
+    - PBOSLGA0
+  : -1
+  ? - REVENUES
+    - PBOSLGA1
+  : 0.027
+  ? - OBJECTIV
+    - PBOSLGA1
+  : -0.027
+  ? - PASSNGRS
+    - PBOSLGA1
+  : 1
+  ? - RPMILES
+    - PBOSLGA1
+  : 0.18557
+  ? - LFRPMASM
+    - PBOSLGA1
+  : -0.18557
+  ? - DMBOSLGA
+    - PBOSLGA1
+  : 1
+  ? - LF1100S1
+    - PBOSLGA1
+  : -1
+  ? - REVENUES
+    - PBOSLGA2
+  : 0.027
+  ? - OBJECTIV
+    - PBOSLGA2
+  : -0.027
+  ? - PASSNGRS
+    - PBOSLGA2
+  : 1
+  ? - RPMILES
+    - PBOSLGA2
+  : 1.60685
+  ? - LFRPMASM
+    - PBOSLGA2
+  : -1.60685
+  ? - DMBOSLGA
+    - PBOSLGA2
+  : 1
+  ? - LF1102S1
+    - PBOSLGA2
+  : -1
+  ? - LF1102S2
+    - PBOSLGA2
+  : -1
+  ? - LF1102S3
+    - PBOSLGA2
+  : -1
+  ? - REVENUES
+    - PBOSLGA3
+  : 0.027
+  ? - OBJECTIV
+    - PBOSLGA3
+  : -0.027
+  ? - PASSNGRS
+    - PBOSLGA3
+  : 1
   ? - RPMILES
     - PBOSLGA3
   : 0.18557
-  ? - RPMILES
-    - PORDCLE0
-  : 0.3145
-  ? - LF1010C1
-    - CORDBOS2
-  : -1
-  ? - LF1003B1
-    - N1003AC1
-  : 12
-  ? - FLAV*2
-    - N1003AC2
-  : 2.10966
-  ? - MSORDBOS
-    - N1100AC2
+  ? - LFRPMASM
+    - PBOSLGA3
+  : -0.18557
+  ? - DMBOSLGA
+    - PBOSLGA3
   : 1
+  ? - LF1200S1
+    - PBOSLGA3
+  : -1
+  ? - REVENUES
+    - PBOSCLE0
+  : 0.053
+  ? - OBJECTIV
+    - PBOSCLE0
+  : -0.053
+  ? - PASSNGRS
+    - PBOSCLE0
+  : 1
+  ? - RPMILES
+    - PBOSCLE0
+  : 0.56156
+  ? - LFRPMASM
+    - PBOSCLE0
+  : -0.56156
+  ? - DMBOSCLE
+    - PBOSCLE0
+  : 1
+  ? - LF1005S1
+    - PBOSCLE0
+  : -1
+  ? - REVENUES
+    - PBOSCLE1
+  : 0.053
+  ? - OBJECTIV
+    - PBOSCLE1
+  : -0.053
+  ? - PASSNGRS
+    - PBOSCLE1
+  : 1
+  ? - RPMILES
+    - PBOSCLE1
+  : 0.56156
+  ? - LFRPMASM
+    - PBOSCLE1
+  : -0.56156
+  ? - DMBOSCLE
+    - PBOSCLE1
+  : 1
+  ? - LF1011S1
+    - PBOSCLE1
+  : -1
+  ? - REVENUES
+    - PBOSCLE2
+  : 0.053
+  ? - OBJECTIV
+    - PBOSCLE2
+  : -0.053
   ? - PASSNGRS
     - PBOSCLE2
   : 1
-  ? - LFRPMASM
-    - PCLEORD2
-  : -0.3145
   ? - RPMILES
-    - PLGABOS2
-  : 0.18557
+    - PBOSCLE2
+  : 0.60273
   ? - LFRPMASM
-    - N1011AC2
-  : 68.857796
-  ? - LF1021S1
-    - N1021AC1
-  : 305
+    - PBOSCLE2
+  : -0.60273
+  ? - DMBOSCLE
+    - PBOSCLE2
+  : 1
+  ? - LF1100S1
+    - PBOSCLE2
+  : -1
+  ? - LF1100S2
+    - PBOSCLE2
+  : -1
+  ? - REVENUES
+    - PBOSCLE3
+  : 0.053
+  ? - OBJECTIV
+    - PBOSCLE3
+  : -0.053
+  ? - PASSNGRS
+    - PBOSCLE3
+  : 1
+  ? - RPMILES
+    - PBOSCLE3
+  : 0.56156
   ? - LFRPMASM
-    - PLGABOS0
-  : -0.18557
-  ? - LF1008C1
-    - CORDBOS1
+    - PBOSCLE3
+  : -0.56156
+  ? - DMBOSCLE
+    - PBOSCLE3
+  : 1
+  ? - LF1102S1
+    - PBOSCLE3
   : -1
-  ? - LF1008C1
-    - CORDLGA1
+  ? - REVENUES
+    - PORDBOS0
+  : 0.075
+  ? - OBJECTIV
+    - PORDBOS0
+  : -0.075
+  ? - PASSNGRS
+    - PORDBOS0
+  : 1
+  ? - RPMILES
+    - PORDBOS0
+  : 0.87605
+  ? - LFRPMASM
+    - PORDBOS0
+  : -0.87605
+  ? - DMORDBOS
+    - PORDBOS0
+  : 1
+  ? - LF1006S1
+    - PORDBOS0
   : -1
-  ? - SYSTDEPT
-    - N1014AC4
-  : 2
-  ? - ATONMILE
-    - N1002AC3
-  : 12.57993
-  ? - ACOCOSTS
-    - N1002AC1
-  : 3.12679
-  ? - MSLGABOS
-    - N1008AC2
+  ? - LF1006S2
+    - PORDBOS0
+  : -1
+  ? - REVENUES
+    - PORDBOS1
+  : 0.075
+  ? - OBJECTIV
+    - PORDBOS1
+  : -0.075
+  ? - PASSNGRS
+    - PORDBOS1
   : 1
   ? - RPMILES
     - PORDBOS1
   : 0.91637
-  ? - CONTCLE3
-    - N1005AC3
+  ? - LFRPMASM
+    - PORDBOS1
+  : -0.91637
+  ? - DMORDBOS
+    - PORDBOS1
+  : 1
+  ? - LF1008S1
+    - PORDBOS1
   : -1
-  ? - SYSTDEPT
-    - N1201AC2
-  : 1
-  ? - DCCLELGA
-    - CCLELGA2
-  : 1
-  ? - LFRPMASM
-    - PBOSORD1
-  : -0.87605
-  ? - PASSNGRS
-    - PORDCLE3
-  : 1
-  ? - OBJECTIV
-    - PBOSLGA0
-  : -0.027
-  ? - ATONMILE
-    - N1005AC1
-  : 16.84665
-  ? - MSLGABOS
-    - N1102AC2
-  : 1
+  ? - LF1008S2
+    - PORDBOS1
+  : -1
   ? - REVENUES
-    - PORDBOS0
+    - PORDBOS2
   : 0.075
-  ? - ASMILES
-    - N1002AC2
-  : 41.19926
-  ? - ATONMILE
-    - N1014AC4
-  : 9.04089
-  ? - RPMILES
-    - PLGACLE1
-  : 0.41715
-  ? - MSCLEBOS
-    - N1006AC1
+  ? - OBJECTIV
+    - PORDBOS2
+  : -0.075
+  ? - PASSNGRS
+    - PORDBOS2
   : 1
+  ? - RPMILES
+    - PORDBOS2
+  : 0.91722
   ? - LFRPMASM
-    - N1013AC2
-  : 72.026695
+    - PORDBOS2
+  : -0.91722
+  ? - DMORDBOS
+    - PORDBOS2
+  : 1
+  ? - LF1010S1
+    - PORDBOS2
+  : -1
+  ? - LF1010S2
+    - PORDBOS2
+  : -1
+  ? - LF1010S3
+    - PORDBOS2
+  : -1
+  ? - REVENUES
+    - PORDBOS3
+  : 0.075
+  ? - OBJECTIV
+    - PORDBOS3
+  : -0.075
+  ? - PASSNGRS
+    - PORDBOS3
+  : 1
+  ? - RPMILES
+    - PORDBOS3
+  : 0.87605
+  ? - LFRPMASM
+    - PORDBOS3
+  : -0.87605
+  ? - DMORDBOS
+    - PORDBOS3
+  : 1
+  ? - LF1100S4
+    - PORDBOS3
+  : -1
+  ? - LF1100S5
+    - PORDBOS3
+  : -1
+  ? - REVENUES
+    - PORDBOS4
+  : 0.075
+  ? - OBJECTIV
+    - PORDBOS4
+  : -0.075
+  ? - PASSNGRS
+    - PORDBOS4
+  : 1
+  ? - RPMILES
+    - PORDBOS4
+  : 0.91637
+  ? - LFRPMASM
+    - PORDBOS4
+  : -0.91637
+  ? - DMORDBOS
+    - PORDBOS4
+  : 1
+  ? - LF1102S3
+    - PORDBOS4
+  : -1
+  ? - LF1102S4
+    - PORDBOS4
+  : -1
+  ? - REVENUES
+    - PORDLGA0
+  : 0.068
+  ? - OBJECTIV
+    - PORDLGA0
+  : -0.068
+  ? - PASSNGRS
+    - PORDLGA0
+  : 1
+  ? - RPMILES
+    - PORDLGA0
+  : 0.7308
+  ? - LFRPMASM
+    - PORDLGA0
+  : -0.7308
+  ? - DMORDLGA
+    - PORDLGA0
+  : 1
+  ? - LF1004S1
+    - PORDLGA0
+  : -1
+  ? - REVENUES
+    - PORDLGA1
+  : 0.068
   ? - OBJECTIV
     - PORDLGA1
   : -0.068
-  ? - CONTLGA2
-    - N1012AC2
-  : -1
-  ? - ATONMILE
-    - N1002AC1
-  : 9.43495
-  ? - ASMILES
-    - N1006AC2
-  : 114.76299
-  ? - OBJECTIV
-    - N1015AC2
-  : 1.36416
-  ? - MSCLEORD
-    - N1019AC2
-  : 1
-  ? - LF1008C1
-    - N1008AC4
-  : 11.25
-  ? - OBJECTIV
-    - CORDLGA0
-  : -0.68
-  ? - REVENUES
-    - PCLEORD4
-  : 0.035
-  ? - ACOCOSTS
-    - GRDTIMO2
-  : 0.275
-  ? - FUELAVAL
-    - N1006AC2
-  : 3.07692
-  ? - OBJECTIV
-    - CLGAORD1
-  : -0.68
-  ? - OBJECTIV
-    - N1006AC4
-  : 2.34647
-  ? - OBJECTIV
-    - PBOSORD3
-  : -0.075
-  ? - SYSTDEPT
-    - N1012AC2
-  : 1
-  ? - NOPTCLE0
-    - N1021AC2
-  : 1
-  ? - LF1100S2
-    - PBOSORD3
-  : -1
-  ? - NOPTCLE0
-    - N1012AC2
-  : 1
-  ? - ASMILES
-    - N1100AC2
-  : 234.91937
-  ? - LF1102S1
-    - PBOSCLE3
-  : -1
   ? - PASSNGRS
-    - PLGABOS2
+    - PORDLGA1
   : 1
+  ? - RPMILES
+    - PORDLGA1
+  : 0.7308
+  ? - LFRPMASM
+    - PORDLGA1
+  : -0.7308
+  ? - DMORDLGA
+    - PORDLGA1
+  : 1
+  ? - LF1008S1
+    - PORDLGA1
+  : -1
+  ? - REVENUES
+    - PORDLGA2
+  : 0.068
   ? - OBJECTIV
-    - N1100AC4
-  : 5.06059
-  ? - ACOCOSTS
-    - N1021AC1
-  : 3.12679
-  ? - LF1021C1
-    - N1021AC4
-  : 11.25
-  ? - RTONMILE
-    - CCLELGA0
-  : 0.41715
+    - PORDLGA2
+  : -0.068
+  ? - PASSNGRS
+    - PORDLGA2
+  : 1
+  ? - RPMILES
+    - PORDLGA2
+  : 0.73165
+  ? - LFRPMASM
+    - PORDLGA2
+  : -0.73165
+  ? - DMORDLGA
+    - PORDLGA2
+  : 1
+  ? - LF1010S1
+    - PORDLGA2
+  : -1
+  ? - LF1010S2
+    - PORDLGA2
+  : -1
+  ? - REVENUES
+    - PORDLGA3
+  : 0.068
   ? - OBJECTIV
-    - N1010AC2
-  : 3.27428
-  ? - FUELAVAL
-    - N1014AC2
-  : 2.44827
-  ? - NOPTCLE0
-    - N1102AC4
-  : 2
+    - PORDLGA3
+  : -0.068
+  ? - PASSNGRS
+    - PORDLGA3
+  : 1
+  ? - RPMILES
+    - PORDLGA3
+  : 0.7308
+  ? - LFRPMASM
+    - PORDLGA3
+  : -0.7308
+  ? - DMORDLGA
+    - PORDLGA3
+  : 1
+  ? - LF1102S3
+    - PORDLGA3
+  : -1
+  ? - REVENUES
+    - PORDCLE0
+  : 0.035
+  ? - OBJECTIV
+    - PORDCLE0
+  : -0.035
+  ? - PASSNGRS
+    - PORDCLE0
+  : 1
+  ? - RPMILES
+    - PORDCLE0
+  : 0.3145
+  ? - LFRPMASM
+    - PORDCLE0
+  : -0.3145
+  ? - DMORDCLE
+    - PORDCLE0
+  : 1
+  ? - LF1002S1
+    - PORDCLE0
+  : -1
+  ? - REVENUES
+    - PORDCLE1
+  : 0.035
+  ? - OBJECTIV
+    - PORDCLE1
+  : -0.035
+  ? - PASSNGRS
+    - PORDCLE1
+  : 1
+  ? - RPMILES
+    - PORDCLE1
+  : 0.3145
+  ? - LFRPMASM
+    - PORDCLE1
+  : -0.3145
+  ? - DMORDCLE
+    - PORDCLE1
+  : 1
+  ? - LF1006S1
+    - PORDCLE1
+  : -1
+  ? - REVENUES
+    - PORDCLE2
+  : 0.035
+  ? - OBJECTIV
+    - PORDCLE2
+  : -0.035
+  ? - PASSNGRS
+    - PORDCLE2
+  : 1
+  ? - RPMILES
+    - PORDCLE2
+  : 0.3145
+  ? - LFRPMASM
+    - PORDCLE2
+  : -0.3145
+  ? - DMORDCLE
+    - PORDCLE2
+  : 1
+  ? - LF1010S1
+    - PORDCLE2
+  : -1
+  ? - REVENUES
+    - PORDCLE3
+  : 0.035
+  ? - OBJECTIV
+    - PORDCLE3
+  : -0.035
+  ? - PASSNGRS
+    - PORDCLE3
+  : 1
+  ? - RPMILES
+    - PORDCLE3
+  : 0.3145
+  ? - LFRPMASM
+    - PORDCLE3
+  : -0.3145
+  ? - DMORDCLE
+    - PORDCLE3
+  : 1
+  ? - LF1100S4
+    - PORDCLE3
+  : -1
+  ? - REVENUES
+    - PLGABOS0
+  : 0.027
+  ? - OBJECTIV
+    - PLGABOS0
+  : -0.027
+  ? - PASSNGRS
+    - PLGABOS0
+  : 1
+  ? - RPMILES
+    - PLGABOS0
+  : 0.18557
+  ? - LFRPMASM
+    - PLGABOS0
+  : -0.18557
+  ? - DMLGABOS
+    - PLGABOS0
+  : 1
   ? - LF1008S2
     - PLGABOS0
   : -1
-  ? - SYSTDEPT
-    - N1015AC2
-  : 1
-  ? - LF1100C2
-    - N1100AC4
-  : 11.25
-  ? - LF1019S2
-    - PCLEORD1
-  : -1
+  ? - REVENUES
+    - PLGABOS1
+  : 0.027
   ? - OBJECTIV
-    - N1010AC4
-  : 2.71411
-  ? - LFRPMASM
-    - N1200AC2
-  : 14.586042
-  ? - OBJECTIV
-    - N1005AC3
-  : 1.93119
-  ? - ATONMILE
-    - N1021AC1
-  : 9.43495
-  ? - MSBOSORD
-    - N1013AC2
-  : 1
-  ? - OBJECTIV
-    - CLGACLE0
-  : -0.37
-  ? - MSCLEORD
-    - N1021AC2
-  : 1
-  ? - LF1100S5
-    - PLGABOS3
-  : -1
-  ? - SYSTDEPT
-    - N1019AC2
-  : 2
-  ? - OBJECTIV
-    - PLGAORD0
-  : -0.068
+    - PLGABOS1
+  : -0.027
   ? - PASSNGRS
-    - PORDBOS1
-  : 1
-  ? - LF1100C1
-    - CBOSORD3
-  : -1
-  ? - CONTLGA2
-    - N1200AC2
-  : -1
-  ? - MSCLEORD
-    - N1021AC1
-  : 1
-  ? - OBJECTIV
-    - PORDBOS0
-  : -0.075
-  ? - SYSTDEPT
-    - N1201AC4
-  : 1
-  ? - CONTORD4
-    - N1002AC4
+    - PLGABOS1
   : 1
   ? - RPMILES
     - PLGABOS1
   : 0.18557
-  ? - FUELAVAL
-    - N1002AC4
-  : 0.94855
-  ? - MSLGABOS
-    - N1010AC2
-  : 1
-  ? - SYSTDEPT
-    - N1011AC2
-  : 2
-  ? - LFTNMILE
-    - N1019AC4
-  : 5.487385
-  ? - OBJECTIV
-    - PCLEORD4
-  : -0.035
-  ? - REVENUES
-    - PLGAORD0
-  : 0.068
-  ? - RTONMILE
-    - CORDLGA1
-  : 0.7308
-  ? - LF1100C3
-    - CLGAORD3
-  : -1
-  ? - SYSTDEPT
-    - N1003AC1
-  : 1
-  ? - FUELAVAL
-    - N1002AC1
-  : 4.07994
-  ? - CONTORD4
-    - N1004AC4
-  : 1
-  ? - FUELAVAL
-    - N1006AC4
-  : 2.3665
-  ? - NOPTCLE0
-    - N1006AC1
-  : 2
-  ? - ACOCOSTS
-    - N1011AC1
-  : 1.1
-  ? - FLAV*2
-    - GRDTIMN2
-  : 1
-  ? - LF1006B2
-    - N1006AC1
-  : 12
-  ? - FLAV*2
-    - N1008AC2
-  : 2.65943
-  ? - RPMILES
-    - PCLEORD2
-  : 0.3145
-  ? - LF1021S1
-    - N1021AC2
-  : 98
-  ? - REVENUES
-    - PBOSLGA2
-  : 0.027
-  ? - MSBOSCLE
-    - N1011AC1
-  : 1
-  ? - MSORDCLE
-    - N1002AC1
-  : 1
-  ? - LF1011C1
-    - N1011AC3
-  : 30
-  ? - OBJECTIV
-    - BBOSCLE0
-  : -0.53
-  ? - PASSNGRS
-    - PORDBOS3
-  : 1
-  ? - CONTORD4
-    - N1011AC4
-  : -1
-  ? - ATONMILE
-    - N1201AC4
-  : 2.7836
-  ? - LF1014C2
-    - N1014AC4
-  : 11.25
-  ? - DMORDLGA
-    - PORDLGA0
-  : 1
-  ? - RTONMILE
-    - CBOSORD0
-  : 0.86441
-  ? - ACOCOSTS
-    - N1003AC1
-  : 0.01
-  ? - REVENUES
-    - PLGACLE1
-  : 0.037
-  ? - DMCLEBOS
-    - PCLEBOS2
-  : 1
-  ? - OBJECTIV
-    - CBOSORD0
-  : -0.75
-  ? - PASSNGRS
-    - PCLELGA3
-  : 1
-  ? - REVENUES
-    - CBOSORD3
-  : 0.75
-  ? - LF1100C2
-    - CLGAORD3
-  : -1
-  ? - LF1010C2
-    - CORDLGA2
-  : -1
   ? - LFRPMASM
-    - PBOSORD3
-  : -0.91722
-  ? - DCORDBOS
-    - CORDBOS1
-  : 1
-  ? - OBJECTIV
-    - N1005AC2
-  : 1.60964
-  ? - LF1201S1
-    - PLGABOS5
-  : -1
-  ? - LF1102S3
-    - PCLELGA3
-  : -1
-  ? - REVENUES
-    - CLGAORD2
-  : 0.68
-  ? - OBJECTIV
-    - GRDTIMN4
-  : -0.01333
-  ? - RPMILES
-    - PBOSCLE2
-  : 0.60273
-  ? - OBJECTIV
-    - CLGAORD3
-  : -0.68
-  ? - ACOCOSTS
-    - GRDTIMO1
-  : 0.65
-  ? - OBJECTIV
-    - N1003AC1
-  : 0.01
-  ? - LF1019C1
-    - N1019AC4
-  : 11.25
-  ? - NOPTCLE0
-    - N1021AC1
-  : 1
-  ? - SYSTDEPT
-    - N1021AC2
-  : 1
-  ? - LFTNMILE
-    - N1003AC1
-  : 12.96612
-  ? - FUELAVAL
-    - N1021AC3
-  : 1.55704
-  ? - OBJECTIV
-    - PBOSLGA1
-  : -0.027
-  ? - ACMILES
-    - N1011AC4
-  : 0.87605
-  ? - LF1002S1
-    - N1002AC2
-  : 98
-  ? - ACMILES
-    - N1002AC1
-  : 0.3145
-  ? - FLAV*1
-    - N1003AC1
-  : 2.32729
-  ? - LF1019S2
-    - N1019AC2
-  : 98
-  ? - FUELAVAL
-    - N1021AC4
-  : 0.94855
-  ? - FLAV*2
-    - N1002AC2
-  : 1.05384
-  ? - SYSTDEPT
-    - N1002AC3
-  : 1
-  ? - ACMILES
-    - N1010AC4
-  : 0.91722
-  ? - ACMILES
-    - N1014AC4
-  : 0.60273
-  ? - LFRPMASM
-    - PLGABOS5
+    - PLGABOS1
   : -0.18557
-  ? - SYSTDEPT
-    - N1008AC2
-  : 2
-  ? - MCORDBOS
-    - N1010AC4
+  ? - DMLGABOS
+    - PLGABOS1
+  : 1
+  ? - LF1010S3
+    - PLGABOS1
+  : -1
+  ? - REVENUES
+    - PLGABOS2
+  : 0.027
+  ? - OBJECTIV
+    - PLGABOS2
+  : -0.027
+  ? - PASSNGRS
+    - PLGABOS2
+  : 1
+  ? - RPMILES
+    - PLGABOS2
+  : 0.18557
+  ? - LFRPMASM
+    - PLGABOS2
+  : -0.18557
+  ? - DMLGABOS
+    - PLGABOS2
+  : 1
+  ? - LF1014S2
+    - PLGABOS2
+  : -1
+  ? - REVENUES
+    - PLGABOS3
+  : 0.027
+  ? - OBJECTIV
+    - PLGABOS3
+  : -0.027
+  ? - PASSNGRS
+    - PLGABOS3
   : 1
   ? - RPMILES
     - PLGABOS3
   : 1.6077
-  ? - OBJECTIV
-    - N1002AC4
-  : 1.0003
-  ? - PASSNGRS
-    - PCLEBOS0
-  : 1
-  ? - ACMILES
-    - N1100AC2
-  : 1.79328
-  ? - ASMILES
-    - N1200AC2
-  : 24.31007
   ? - LFRPMASM
-    - N1002AC2
-  : 24.719557
-  ? - MSBOSLGA
-    - N1200AC2
-  : 1
-  ? - ACOCOSTS
-    - N1100AC2
-  : 6.07357
-  ? - OBJECTIV
-    - N1021AC3
-  : 1.42472
-  ? - PASSNGRS
-    - PCLELGA0
-  : 1
-  ? - FLAV*2
-    - GRDTIMO2
-  : 1
-  ? - OBJECTIV
-    - PORDBOS4
-  : -0.075
-  ? - DMBOSCLE
-    - PBOSCLE2
-  : 1
-  ? - ACOCOSTS
-    - N1013AC4
-  : 1.90292
-  ? - FUELAVAL
-    - N1100AC4
-  : 5.16223
-  ? - PASSNGRS
-    - PORDBOS0
-  : 1
-  ? - REVENUES
-    - PORDLGA0
-  : 0.068
-  ? - SYSTDEPT
-    - N1005AC4
-  : 1
-  ? - DCBOSCLE
-    - BBOSCLE1
-  : 1
-  ? - RTONMILE
-    - CCLELGA2
-  : 0.41715
-  ? - CONTBOS4
-    - N1011AC4
-  : 1
-  ? - LF1006S1
-    - N1006AC1
-  : 305
-  ? - DMORDBOS
-    - PORDBOS2
-  : 1
-  ? - LF1102S1
-    - PBOSORD4
-  : -1
-  ? - ATONMILE
-    - N1102AC4
-  : 26.88635
-  ? - ATONMILE
-    - N1006AC1
-  : 26.2816
-  ? - ASMILES
-    - N1004AC2
-  : 95.73444
-  ? - RPMILES
-    - PLGABOS5
-  : 0.18557
-  ? - RPMILES
-    - PBOSORD1
-  : 0.87605
-  ? - RPMILES
-    - PLGAORD2
-  : 0.73165
-  ? - MSBOSORD
-    - N1102AC2
-  : 1
-  ? - SYSTDEPT
-    - N1013AC2
-  : 2
-  ? - MCORDBOS
-    - N1006AC3
-  : 1
-  ? - FUELAVAL
-    - N1015AC4
-  : 1.14359
-  ? - OBJECTIV
-    - CORDBOS1
-  : -0.75
-  ? - NOPTCLE0
-    - N1005AC1
-  : 1
-  ? - DMLGABOS
-    - PLGABOS1
-  : 1
-  ? - LF1011B1
-    - BBOSORD1
-  : -1
-  ? - NOPTCLE0
-    - N1006AC2
-  : 2
-  ? - DCBOSORD
-    - CBOSORD0
-  : 1
-  ? - DMCLELGA
-    - PCLELGA3
-  : 1
-  ? - LF1011B2
-    - N1011AC1
-  : 12
-  ? - LF1015S1
-    - N1015AC2
-  : 98
-  ? - SYSTDEPT
-    - N1002AC2
-  : 1
-  ? - ACOCOSTS
-    - N1014AC2
-  : 2.08463
-  ? - RTONMILE
-    - CBOSCLE3
-  : 0.56156
-  ? - MSCLELGA
-    - N1014AC2
-  : 1
-  ? - ACOCOSTS
-    - N1019AC4
-  : 2.14431
-  ? - NOPTCLE0
-    - N1011AC2
-  : 2
-  ? - RPMILES
-    - PCLEORD0
-  : 0.3145
-  ? - LF1021C1
-    - N1021AC3
-  : 30
-  ? - ATONMILE
-    - N1100AC4
-  : 26.89915
-  ? - REVENUES
-    - CORDLGA1
-  : 0.68
-  ? - OBJECTIV
-    - N1005AC1
-  : 4.04337
-  ? - LFRPMASM
-    - PLGAORD1
-  : -0.7308
-  ? - LF1003C1
-    - CBOSORD0
-  : -1
-  ? - DMLGABOS
-    - PLGABOS5
-  : 1
-  ? - OBJECTIV
-    - CBOSORD2
-  : -0.75
-  ? - PASSNGRS
-    - PBOSLGA2
-  : 1
-  ? - OBJECTIV
-    - PCLELGA3
-  : -0.037
-  ? - LF1010C1
-    - CORDLGA2
-  : -1
-  ? - REVENUES
-    - PBOSORD2
-  : 0.075
-  ? - REVENUES
-    - PLGABOS2
-  : 0.027
-  ? - LFTNMILE
-    - CCLELGA1
-  : -0.41715
-  ? - FLAV*4
-    - N1011AC4
-  : 27
-  ? - LFRPMASM
-    - PCLEBOS2
-  : -0.60273
-  ? - PASSNGRS
-    - PBOSORD3
-  : 1
-  ? - LFRPMASM
-    - N1006AC2
-  : 68.857796
-  ? - DMORDBOS
-    - PORDBOS4
-  : 1
-  ? - ACOCOSTS
-    - N1013AC2
-  : 2.36783
-  ? - OBJECTIV
-    - PBOSLGA2
-  : -0.027
-  ? - OBJECTIV
     - PLGABOS3
-  : -0.027
-  ? - OBJECTIV
-    - N1019AC4
-  : 2.14431
-  ? - NOPTCLE0
-    - N1012AC4
-  : 1
-  ? - PASSNGRS
-    - PORDBOS4
-  : 1
-  ? - CONTORD4
-    - N1021AC4
-  : -1
-  ? - LFTNMILE
-    - N1011AC1
-  : 13.1408
-  ? - DCORDLGA
-    - CORDLGA0
-  : 1
-  ? - CONTBOS1
-    - N1006AC1
-  : -1
-  ? - PASSNGRS
-    - PLGAORD1
-  : 1
-  ? - CONTBOS4
-    - N1008AC4
-  : -1
-  ? - NOPTCLE0
-    - N1002AC3
-  : 1
-  ? - LFRPMASM
-    - N1017AC2
-  : 57.440662
-  ? - LF1100C1
-    - CBOSCLE2
-  : -1
-  ? - DMCLELGA
-    - PCLELGA1
-  : 1
-  ? - LF1011S1
-    - N1011AC1
-  : 305
-  ? - ATONMILE
-    - N1013AC4
-  : 13.74556
-  ? - LF1019C2
-    - N1019AC4
-  : 11.25
-  ? - OBJECTIV
-    - PBOSCLE0
-  : -0.053
-  ? - LFRPMASM
-    - N1021AC1
-  : 76.80045
-  ? - SYSTDEPT
-    - N1004AC2
-  : 1
-  ? - CONTORD4
-    - N1006AC4
-  : 1
-  ? - CONTORD1
-    - N1002AC1
-  : 1
-  ? - LFTNMILE
-    - CORDLGA1
-  : -0.7308
-  ? - MSORDCLE
-    - N1002AC2
-  : 1
-  ? - OBJECTIV
-    - PBOSORD1
-  : -0.075
-  ? - LF1012S1
-    - N1012AC2
-  : 98
-  ? - PASSNGRS
-    - PBOSLGA1
-  : 1
-  ? - LFTNMILE
-    - BBOSORD0
-  : -0.86441
-  ? - REVENUES
-    - PORDBOS3
-  : 0.075
-  ? - RPMILES
-    - PCLEORD1
-  : 0.3145
-  ? - OBJECTIV
-    - CORDLGA3
-  : -0.68
-  ? - RTONMILE
-    - CCLELGA1
-  : 0.41715
-  ? - DCCLELGA
-    - CCLELGA1
-  : 1
-  ? - ACMILES
-    - N1021AC3
-  : 0.3145
-  ? - CONTBOS2
-    - N1006AC2
-  : -1
-  ? - LF1013S1
-    - PBOSORD2
-  : -1
-  ? - NOPTCLE0
-    - N1002AC1
-  : 1
-  ? - FLAV*3
-    - N1006AC3
-  : 2.58202
-  ? - LF1015C1
-    - CLGACLE0
-  : -1
-  ? - SYSTDEPT
-    - N1005AC2
-  : 1
-  ? - PASSNGRS
-    - PBOSORD2
-  : 1
-  ? - LFRPMASM
-    - PCLEBOS1
-  : -0.60273
-  ? - LF1006C2
-    - N1006AC4
-  : 11.25
-  ? - ACOCOSTS
-    - N1003AC2
-  : 0.02
-  ? - OBJECTIV
-    - PLGAORD2
-  : -0.068
-  ? - DCLGAORD
-    - CLGAORD0
-  : 1
-  ? - REVENUES
-    - PLGACLE0
-  : 0.037
-  ? - LF1102C3
-    - CCLELGA3
-  : -1
-  ? - SYSTDEPT
-    - N1005AC1
-  : 1
-  ? - MCLGAORD
-    - N1013AC4
-  : 1
-  ? - FUELAVAL
-    - N1017AC2
-  : 2.21183
-  ? - FLAV*2
-    - N1006AC2
-  : 2.58202
-  ? - MCORDBOS
-    - N1006AC4
-  : 1
-  ? - OBJECTIV
-    - N1100AC2
-  : 6.07357
-  ? - OBJECTIV
-    - CLGAORD0
-  : -0.68
-  ? - LF1010C2
-    - CCLELGA0
-  : -1
-  ? - LFTNMILE
-    - CCLELGA2
-  : -0.41715
-  ? - FLAV*4
-    - N1200AC4
-  : 0.8063
-  ? - SYSTDEPT
-    - N1017AC4
-  : 1
-  ? - SYSTDEPT
-    - N1017AC2
-  : 1
-  ? - RPMILES
-    - PORDBOS2
-  : 0.91722
-  ? - REVENUES
-    - PBOSORD4
-  : 0.075
-  ? - LF1013C2
-    - CBOSORD2
-  : -1
-  ? - LFRPMASM
-    - PBOSCLE2
-  : -0.60273
-  ? - LFTNMILE
-    - CLGACLE2
-  : -0.41715
-  ? - CONTBOS2
-    - N1013AC2
-  : 1
-  ? - CONTLGA2
-    - N1015AC2
-  : 1
-  ? - NOPTCLE0
-    - N1015AC4
-  : 1
-  ? - ACMILES
-    - N1013AC2
-  : 0.91637
-  ? - LFTNMILE
-    - N1005AC3
-  : 11.2311
-  ? - CONTCLE4
-    - N1015AC4
-  : -1
-  ? - ASMILES
-    - N1002AC1
-  : 128.00075
-  ? - OBJECTIV
-    - N1012AC2
-  : 1.36416
-  ? - FUELAVAL
-    - N1013AC2
-  : 3.16965
-  ? - FUELAVAL
-    - N1102AC4
-  : 4.8096
-  ? - ACOCOSTS
-    - N1005AC3
-  : 1.93119
-  ? - LFRPMASM
-    - PBOSORD4
-  : -0.87605
-  ? - DCLGAORD
-    - CLGAORD1
-  : 1
-  ? - OBJECTIV
-    - PLGABOS4
-  : -0.027
-  ? - OBJECTIV
-    - N1102AC4
-  : 4.24939
-  ? - FUELAVAL
-    - N1201AC2
-  : 0.95782
-  ? - MSBOSCLE
-    - N1102AC2
-  : 1
-  ? - ACOCOSTS
-    - N1005AC4
-  : 1.34618
-  ? - FLAV*2
-    - N1201AC2
-  : 0.8063
-  ? - OBJECTIV
-    - PBOSLGA3
-  : -0.027
+  : -1.6077
   ? - DMLGABOS
-    - PLGABOS2
+    - PLGABOS3
   : 1
-  ? - PASSNGRS
-    - PCLEORD3
-  : 1
-  ? - REVENUES
-    - PLGABOS1
-  : 0.027
-  ? - LF1011S1
-    - N1011AC2
-  : 98
-  ? - FLAV*2
-    - N1013AC2
-  : 2.65943
-  ? - REVENUES
-    - PBOSCLE0
-  : 0.053
-  ? - LF1019S1
-    - PLGACLE1
-  : -1
-  ? - PASSNGRS
-    - PLGABOS1
-  : 1
-  ? - REVENUES
-    - PORDCLE1
-  : 0.035
-  ? - RPMILES
-    - PORDLGA1
-  : 0.7308
-  ? - LF1003C1
-    - N1003AC3
-  : 30
-  ? - RPMILES
-    - PLGACLE2
-  : 0.41715
-  ? - CONTBOS2
-    - N1008AC2
-  : -1
-  ? - FLAV*4
-    - N1014AC4
-  : 2.05723
-  ? - LFRPMASM
-    - PLGAORD3
-  : -0.73165
-  ? - LFRPMASM
-    - PORDBOS2
-  : -0.91722
-  ? - DMLGAORD
-    - PLGAORD0
-  : 1
-  ? - PASSNGRS
-    - PCLELGA2
-  : 1
-  ? - MSCLELGA
-    - N1102AC2
-  : 1
-  ? - SYSTDEPT
-    - N1003AC2
-  : 1
-  ? - LFRPMASM
-    - PLGAORD0
-  : -0.7308
-  ? - REVENUES
-    - CLGAORD1
-  : 0.68
-  ? - DCBOSORD
-    - CBOSORD4
-  : 1
-  ? - OBJECTIV
-    - PCLELGA0
-  : -0.037
-  ? - OBJECTIV
-    - PLGAORD3
-  : -0.068
-  ? - OBJECTIV
-    - N1003AC2
-  : 0.02
-  ? - LF1006C1
-    - N1006AC4
-  : 11.25
-  ? - LF1014S2
-    - PCLEBOS2
-  : -1
-  ? - DMCLEORD
-    - PCLEORD2
-  : 1
-  ? - FUELAVAL
-    - N1005AC2
-  : 1.82258
-  ? - FLAV*4
-    - GRDTIMN4
-  : 1
-  ? - REVENUES
-    - CBOSCLE1
-  : 0.53
-  ? - NOPTCLE0
-    - N1002AC2
-  : 1
-  ? - LF1013S2
-    - N1013AC2
-  : 98
-  ? - DMORDBOS
-    - PORDBOS0
-  : 1
-  ? - LF1005B1
-    - BBOSCLE0
-  : -1
-  ? - FLAV*2
-    - N1015AC2
-  : 1.25093
-  ? - FLAV*3
-    - N1005AC3
-  : 3000
-  ? - SYSTDEPT
-    - N1013AC4
-  : 2
-  ? - MSORDCLE
-    - N1006AC2
-  : 1
-  ? - REVENUES
-    - PBOSCLE2
-  : 0.053
-  ? - SYSTDEPT
-    - N1006AC2
-  : 2
-  ? - LFRPMASM
-    - PBOSLGA3
-  : -0.18557
-  ? - OBJECTIV
-    - PORDBOS1
-  : -0.075
-  ? - PASSNGRS
-    - PORDCLE1
-  : 1
-  ? - CONTBOS3
-    - N1003AC3
-  : 1
-  ? - OBJECTIV
-    - CLGACLE1
-  : -0.37
-  ? - PASSNGRS
-    - PBOSORD4
-  : 1
-  ? - FLAV*1
-    - GRDTIMO1
-  : 1
-  ? - MSORDLGA
-    - N1004AC2
-  : 1
-  ? - LF1014S2
-    - N1014AC2
-  : 98
-  ? - LF1005C1
-    - CBOSCLE0
-  : -1
-  ? - LF1100S1
-    - PBOSCLE2
-  : -1
-  ? - LF1004S1
-    - PORDLGA0
-  : -1
-  ? - PASSNGRS
-    - PCLEORD1
-  : 1
-  ? - RTONMILE
-    - BBOSCLE1
-  : 0.56156
-  ? - LFTNMILE
-    - CBOSCLE3
-  : -0.56156
-  ? - RTONMILE
-    - CCLELGA3
-  : 1.0453
-  ? - ACMILES
-    - N1011AC3
-  : 0.87605
-  ? - REVENUES
-    - BBOSORD1
-  : 0.75
-  ? - REVENUES
-    - PBOSLGA1
-  : 0.027
-  ? - RPMILES
-    - PORDLGA2
-  : 0.73165
-  ? - PASSNGRS
-    - PBOSCLE0
-  : 1
-  ? - LFTNMILE
-    - N1011AC3
-  : 17.52107
-  ? - NOPTCLE0
-    - N1015AC2
-  : 1
-  ? - FLAV*1
-    - N1006AC1
-  : 3.12813
-  ? - DMORDBOS
-    - PORDBOS3
-  : 1
-  ? - FLAV*2
-    - N1100AC2
-  : 5.69309
-  ? - LFRPMASM
-    - N1002AC1
-  : 76.80045
-  ? - FLAV*2
-    - N1200AC2
-  : 0.8063
-  ? - LFTNMILE
-    - N1200AC4
-  : 1.3918
-  ? - DCORDBOS
-    - CORDBOS2
-  : 1
-  ? - NOPTCLE0
-    - N1006AC3
-  : 2
-  ? - LF1100C5
-    - N1100AC4
-  : 11.25
-  ? - ATONMILE
-    - N1003AC1
-  : 25.93224
-  ? - LF1102C3
-    - N1102AC4
-  : 11.25
-  ? - OBJECTIV
-    - N1011AC3
-  : 1.3
-  ? - ATONMILE
-    - N1002AC4
-  : 4.71747
-  ? - LF1014C1
-    - N1014AC4
-  : 11.25
-  ? - NOPTCLE0
-    - N1019AC4
-  : 2
-  ? - LF1100S5
-    - PCLEBOS3
-  : -1
-  ? - LF1012S1
-    - PCLELGA1
-  : -1
-  ? - OBJECTIV
-    - N1011AC1
-  : 1.1
-  ? - LFTNMILE
-    - N1015AC4
-  : 3.128645
-  ? - FUELAVAL
-    - N1015AC2
-  : 1.49045
-  ? - CONTORD1
-    - N1021AC1
-  : -1
-  ? - RPMILES
-    - PBOSLGA1
-  : 0.18557
-  ? - LF1006C1
-    - CORDBOS0
-  : -1
-  ? - LFRPMASM
-    - N1003AC2
-  : 67.94246
-  ? - DMCLEBOS
-    - PCLEBOS1
-  : 1
-  ? - REVENUES
-    - CBOSORD0
-  : 0.75
-  ? - ASMILES
-    - N1019AC2
-  : 95.8463
-  ? - LF1100C4
-    - N1100AC4
-  : 11.25
-  ? - RTONMILE
-    - CORDBOS2
-  : 0.91722
-  ? - LF1003B1
-    - BBOSORD0
-  : -1
-  ? - FUELAVAL
-    - N1005AC4
-  : 1.41795
-  ? - LF1200S1
-    - PBOSLGA3
-  : -1
-  ? - DMORDCLE
-    - PORDCLE3
-  : 1
-  ? - LF1010S2
-    - PORDLGA2
-  : -1
-  ? - ASMILES
-    - N1006AC1
-  : 356.5537
-  ? - CONTBOS4
-    - N1010AC4
-  : -1
-  ? - FUELAVAL
-    - N1019AC4
-  : 2.09214
-  ? - DMBOSLGA
-    - PBOSLGA0
-  : 1
-  ? - ACMILES
-    - N1003AC4
-  : 0.86441
-  ? - MSORDCLE
-    - N1006AC1
-  : 1
-  ? - LFTNMILE
-    - N1012AC4
-  : 3.128645
-  ? - REVENUES
-    - PCLELGA1
-  : 0.037
-  ? - ATONMILE
-    - N1010AC4
-  : 13.75836
-  ? - LF1010S3
-    - N1010AC2
-  : 98
-  ? - FUELAVAL
-    - N1010AC4
-  : 2.79573
-  ? - LFRPMASM
-    - N1019AC2
-  : 57.50778
-  ? - LF1005C1
-    - N1005AC3
-  : 30
-  ? - DMORDLGA
-    - PORDLGA1
-  : 1
-  ? - LFRPMASM
-    - PORDLGA2
-  : -0.73165
-  ? - LF1011S1
-    - PBOSCLE1
-  : -1
-  ? - RPMILES
-    - PORDCLE2
-  : 0.3145
-  ? - REVENUES
-    - CLGACLE0
-  : 0.37
-  ? - ATONMILE
-    - N1004AC4
-  : 10.96196
-  ? - ACMILES
-    - N1012AC2
-  : 0.41715
-  ? - CONTLGA4
-    - N1012AC4
-  : -1
-  ? - RTONMILE
-    - CBOSORD1
-  : 0.87605
-  ? - LFTNMILE
-    - CBOSORD2
-  : -0.91637
-  ? - LFTNMILE
-    - CBOSCLE0
-  : -0.56156
-  ? - ACOCOSTS
-    - N1102AC4
-  : 4.24939
-  ? - OBJECTIV
-    - N1021AC2
-  : 1.18965
-  ? - OBJECTIV
-    - N1012AC4
-  : 1.14401
-  ? - LF1004C1
-    - CORDLGA0
-  : -1
-  ? - LF1102S1
-    - PBOSLGA2
-  : -1
-  ? - LFTNMILE
-    - N1010AC4
-  : 6.87918
-  ? - LFTNMILE
-    - CBOSORD3
-  : -0.91722
-  ? - LF1102C3
-    - CORDBOS4
-  : -1
-  ? - ATONMILE
-    - N1012AC4
-  : 6.25729
-  ? - REVENUES
-    - PORDLGA3
-  : 0.068
-  ? - RPMILES
-    - PLGAORD1
-  : 0.7308
-  ? - SYSTDEPT
-    - N1006AC1
-  : 2
-  ? - CONTCLE2
-    - N1012AC2
-  : 1
-  ? - DMCLELGA
-    - PCLELGA0
-  : 1
-  ? - OBJECTIV
-    - CORDLGA2
-  : -0.68
-  ? - MCORDBOS
-    - N1102AC4
-  : 1
-  ? - DMBOSORD
-    - PBOSORD1
-  : 1
-  ? - CONTORD2
-    - N1013AC2
-  : -1
-  ? - ACMILES
-    - N1021AC1
-  : 0.3145
-  ? - LF1011S1
-    - PBOSORD1
-  : -1
   ? - LF1100S2
-    - PLGAORD3
+    - PLGABOS3
   : -1
-  ? - ASMILES
-    - N1011AC2
-  : 114.76299
-  ? - REVENUES
-    - CCLELGA1
-  : 0.37
-  ? - OBJECTIV
-    - CCLELGA1
-  : -0.37
-  ? - OBJECTIV
-    - PLGABOS2
-  : -0.027
-  ? - NOPTCLE0
-    - N1011AC3
-  : 2
-  ? - LF1200S1
-    - N1200AC2
-  : 98
-  ? - ACOCOSTS
-    - N1002AC4
-  : 1.0003
-  ? - LFTNMILE
-    - CORDLGA3
-  : -0.7308
-  ? - ACOCOSTS
-    - N1006AC2
-  : 2.79929
-  ? - DMCLEORD
-    - PCLEORD3
-  : 1
-  ? - DMLGACLE
-    - PLGACLE1
-  : 1
-  ? - RPMILES
-    - PCLEBOS0
-  : 0.56156
-  ? - LFTNMILE
-    - N1006AC3
-  : 17.52107
-  ? - PASSNGRS
-    - PLGAORD3
-  : 1
-  ? - DCORDBOS
-    - CORDBOS3
-  : 1
-  ? - SYSTDEPT
-    - N1015AC4
-  : 1
-  ? - ACMILES
-    - N1002AC4
-  : 0.3145
-  ? - OBJECTIV
-    - PCLEBOS1
-  : -0.053
-  ? - CONTLGA4
-    - N1017AC4
-  : 1
-  ? - FUELAVAL
-    - N1201AC4
-  : 0.70359
-  ? - ACMILES
-    - N1002AC2
-  : 0.3145
-  ? - REVENUES
-    - CBOSORD2
-  : 0.75
-  ? - NOPTCLE0
-    - N1021AC4
-  : 1
-  ? - LFRPMASM
-    - PORDCLE0
-  : -0.3145
-  ? - FLAV*3
-    - N1003AC3
-  : 2.10966
-  ? - LF1100C2
-    - CBOSORD3
-  : -1
-  ? - LF1011C1
-    - CBOSCLE1
-  : -1
-  ? - ATONMILE
-    - N1011AC4
-  : 13.1408
-  ? - LF1019S2
-    - PLGAORD2
-  : -1
-  ? - RPMILES
-    - PLGAORD0
-  : 0.7308
-  ? - LFRPMASM
-    - PBOSCLE3
-  : -0.56156
-  ? - LFRPMASM
-    - PLGAORD2
-  : -0.73165
-  ? - OBJECTIV
-    - N1003AC3
-  : 0.03
-  ? - CONTBOS2
-    - N1201AC2
-  : -1
-  ? - REVENUES
-    - PLGACLE2
-  : 0.037
-  ? - PASSNGRS
-    - PCLEBOS3
-  : 1
-  ? - LF1100S1
-    - PBOSORD3
-  : -1
-  ? - OBJECTIV
-    - N1011AC2
-  : 1.2
-  ? - OBJECTIV
-    - PCLEORD0
-  : -0.035
-  ? - ACOCOSTS
-    - N1021AC4
-  : 1.0003
-  ? - OBJECTIV
-    - PORDLGA3
-  : -0.068
-  ? - ACOCOSTS
-    - N1010AC4
-  : 2.71411
-  ? - REVENUES
-    - PBOSCLE3
-  : 0.053
-  ? - RTONMILE
-    - CLGAORD0
-  : 0.7308
-  ? - RPMILES
-    - PLGABOS4
-  : 0.18557
-  ? - LF1100S2
-    - PLGACLE2
-  : -1
-  ? - LF1013C2
-    - CLGAORD0
-  : -1
-  ? - MSBOSCLE
-    - N1011AC2
-  : 1
-  ? - REVENUES
-    - PBOSLGA3
-  : 0.027
-  ? - FUELAVAL
-    - N1003AC3
-  : 3.15178
-  ? - OBJECTIV
-    - N1013AC4
-  : 1.90292
-  ? - MSCLELGA
-    - N1010AC2
-  : 1
-  ? - LF1014S2
-    - PLGABOS2
-  : -1
-  ? - OBJECTIV
-    - CBOSORD4
-  : -0.75
-  ? - LFTNMILE
-    - N1100AC4
-  : 13.449575
-  ? - CONTBOS2
-    - N1200AC2
-  : 1
-  ? - REVENUES
-    - CBOSCLE3
-  : 0.53
-  ? - RPMILES
-    - PORDLGA3
-  : 0.7308
-  ? - REVENUES
-    - CORDBOS0
-  : 0.75
-  ? - LFRPMASM
-    - PCLEORD4
-  : -0.3145
-  ? - FUELAVAL
-    - N1008AC2
-  : 3.16965
-  ? - CONTCLE2
-    - N1002AC2
-  : -1
-  ? - ACMILES
-    - N1005AC1
-  : 0.56156
-  ? - LF1200C1
-    - N1200AC4
-  : 11.25
-  ? - RPMILES
-    - PORDBOS4
-  : 0.91637
-  ? - ASMILES
-    - N1005AC2
-  : 73.56374
-  ? - OBJECTIV
-    - CLGAORD2
-  : -0.68
-  ? - NOPTCLE0
-    - N1011AC1
-  : 2
-  ? - RTONMILE
-    - CLGAORD3
-  : 0.73165
-  ? - ATONMILE
-    - N1003AC4
-  : 12.96612
-  ? - REVENUES
-    - CORDBOS1
-  : 0.75
-  ? - LF1019C2
-    - CLGAORD2
-  : -1
-  ? - ATONMILE
-    - N1021AC4
-  : 4.71747
-  ? - CONTCLE2
-    - N1005AC2
-  : -1
-  ? - OBJECTIV
-    - N1008AC2
-  : 2.36783
-  ? - OBJECTIV
-    - N1014AC2
-  : 2.08463
-  ? - FUELAVAL
-    - N1011AC1
-  : 9.91398
-  ? - REVENUES
-    - CCLELGA3
-  : 0.37
-  ? - LFTNMILE
-    - N1006AC1
-  : 13.1408
-  ? - LF1019S1
-    - PLGAORD2
-  : -1
-  ? - REVENUES
-    - CLGACLE1
-  : 0.37
-  ? - MSBOSORD
-    - N1011AC2
-  : 1
-  ? - OBJECTIV
-    - N1004AC4
-  : 1.33312
-  ? - MSLGAORD
-    - N1100AC2
-  : 1
-  ? - LF1100C5
-    - CORDBOS3
-  : -1
-  ? - OBJECTIV
-    - PLGABOS1
-  : -0.027
-  ? - OBJECTIV
-    - CORDBOS2
-  : -0.75
-  ? - MSLGACLE
-    - N1019AC2
-  : 1
-  ? - LF1102C1
-    - CBOSCLE3
-  : -1
-  ? - MSORDLGA
-    - N1010AC2
-  : 1
-  ? - LF1017S1
-    - N1017AC2
-  : 98
-  ? - REVENUES
-    - PORDCLE0
-  : 0.035
-  ? - LFTNMILE
-    - BBOSCLE1
-  : -0.56156
-  ? - LF1102C1
-    - N1102AC4
-  : 11.25
-  ? - CONTBOS4
-    - N1201AC4
-  : -1
-  ? - RPMILES
-    - PCLEBOS2
-  : 0.60273
-  ? - LF1002S1
-    - PORDCLE0
+  ? - LF1100S3
+    - PLGABOS3
   : -1
   ? - LF1100S4
     - PLGABOS3
   : -1
-  ? - REVENUES
-    - PCLEBOS4
-  : 0.053
-  ? - LFRPMASM
-    - PCLELGA1
-  : -0.41715
-  ? - DCBOSCLE
-    - CBOSCLE3
-  : 1
-  ? - OBJECTIV
-    - PCLEORD2
-  : -0.035
-  ? - REVENUES
-    - CORDLGA2
-  : 0.68
-  ? - CONTLGA4
-    - N1019AC4
-  : 1
-  ? - LF1004C1
-    - N1004AC4
-  : 11.25
-  ? - LF1006S2
-    - N1006AC1
-  : 305
-  ? - NOPTCLE0
-    - N1005AC2
-  : 1
-  ? - CONTBOS2
-    - N1003AC2
-  : 1
-  ? - NOPTCLE0
-    - N1005AC3
-  : 1
-  ? - ACMILES
-    - N1006AC3
-  : 0.87605
-  ? - LF1008S2
-    - N1008AC2
-  : 98
-  ? - LFRPMASM
-    - PCLELGA0
-  : -0.41715
-  ? - LF1006S1
-    - PORDBOS0
+  ? - LF1100S5
+    - PLGABOS3
   : -1
-  ? - ACOCOSTS
-    - N1008AC4
-  : 1.90292
-  ? - ACMILES
-    - N1008AC4
-  : 0.91637
-  ? - FLAV*4
-    - N1021AC4
-  : 1.05384
-  ? - LFTNMILE
-    - CBOSCLE1
-  : -0.56156
-  ? - CONTCLE3
-    - N1002AC3
-  : -1
-  ? - ACOCOSTS
-    - N1200AC4
-  : 0.5698
+  ? - REVENUES
+    - PLGABOS4
+  : 0.027
   ? - OBJECTIV
-    - PCLEORD3
-  : -0.035
-  ? - REVENUES
-    - PBOSCLE1
-  : 0.053
-  ? - ACMILES
-    - N1005AC3
-  : 0.56156
-  ? - DMLGAORD
-    - PLGAORD3
-  : 1
-  ? - LFRPMASM
-    - N1003AC1
-  : 211.08838
-  ? - FLAV*3
-    - N1011AC3
-  : 26
-  ? - REVENUES
-    - PLGAORD3
-  : 0.068
+    - PLGABOS4
+  : -0.027
   ? - PASSNGRS
-    - PCLEBOS1
+    - PLGABOS4
   : 1
-  ? - FLAV*1
-    - N1002AC1
-  : 1.34295
-  ? - LF1102C1
-    - CBOSORD4
-  : -1
-  ? - REVENUES
-    - PCLEORD0
-  : 0.035
   ? - RPMILES
-    - PORDBOS3
-  : 0.87605
-  ? - ACMILES
-    - N1003AC2
-  : 0.86441
+    - PLGABOS4
+  : 0.18557
   ? - LFRPMASM
-    - N1008AC2
-  : 72.026695
-  ? - NOPTCLE0
-    - N1019AC2
-  : 2
-  ? - DCLGACLE
-    - CLGACLE1
+    - PLGABOS4
+  : -0.18557
+  ? - DMLGABOS
+    - PLGABOS4
   : 1
-  ? - LF1006S2
-    - PORDBOS0
-  : -1
-  ? - DCORDLGA
-    - CORDLGA1
-  : 1
-  ? - LF1011S2
-    - PBOSORD1
+  ? - LF1102S4
+    - PLGABOS4
   : -1
   ? - REVENUES
-    - CORDBOS2
-  : 0.75
-  ? - PASSNGRS
-    - PBOSCLE3
-  : 1
-  ? - CONTBOS2
-    - N1005AC2
-  : 1
+    - PLGABOS5
+  : 0.027
   ? - OBJECTIV
-    - N1002AC1
-  : 3.12679
-  ? - LF1002B1
-    - N1002AC1
-  : 12
-  ? - LFTNMILE
-    - N1002AC3
-  : 6.289965
-  ? - LF1010C3
-    - N1010AC4
-  : 11.25
+    - PLGABOS5
+  : -0.027
+  ? - PASSNGRS
+    - PLGABOS5
+  : 1
   ? - RPMILES
-    - PCLELGA0
-  : 0.41715
-  ? - LF1102S2
-    - PCLEORD4
-  : -1
-  ? - LFTNMILE
-    - N1102AC4
-  : 13.443175
-  ? - SYSTDEPT
-    - N1200AC4
+    - PLGABOS5
+  : 0.18557
+  ? - LFRPMASM
+    - PLGABOS5
+  : -0.18557
+  ? - DMLGABOS
+    - PLGABOS5
   : 1
-  ? - MSLGABOS
-    - N1201AC2
-  : 1
-  ? - REVENUES
-    - PCLEBOS3
-  : 0.053
-  ? - LF1017C1
-    - CLGAORD1
+  ? - LF1201S1
+    - PLGABOS5
   : -1
   ? - REVENUES
-    - PORDLGA2
+    - PLGAORD0
   : 0.068
-  ? - DMCLEORD
-    - PCLEORD1
-  : 1
   ? - OBJECTIV
-    - CLGACLE2
-  : -0.37
-  ? - LF1021S1
-    - PCLEORD2
-  : -1
-  ? - LFRPMASM
-    - N1021AC2
-  : 24.719557
-  ? - SYSTDEPT
-    - N1010AC4
-  : 3
-  ? - ATONMILE
-    - N1200AC4
-  : 2.7836
-  ? - LFTNMILE
-    - N1013AC4
-  : 6.87278
-  ? - FLAV*3
-    - N1021AC3
-  : 1.05384
-  ? - CONTLGA4
-    - N1201AC4
-  : 1
-  ? - LF1010S1
-    - PORDLGA2
-  : -1
-  ? - FLAV*4
-    - N1201AC4
-  : 0.8063
-  ? - ACOCOSTS
-    - N1201AC4
-  : 0.5698
+    - PLGAORD0
+  : -0.068
   ? - PASSNGRS
-    - PBOSLGA0
+    - PLGAORD0
   : 1
-  ? - DMORDLGA
-    - PORDLGA2
-  : 1
-  ? - REVENUES
-    - CORDLGA0
-  : 0.68
-  ? - OBJECTIV
-    - CORDBOS0
-  : -0.75
-  ? - PASSNGRS
-    - PBOSCLE1
-  : 1
-  ? - LF1100S3
-    - PBOSORD3
-  : -1
-  ? - DMBOSLGA
-    - PBOSLGA3
-  : 1
-  ? - REVENUES
-    - PCLEORD1
-  : 0.035
+  ? - RPMILES
+    - PLGAORD0
+  : 0.7308
   ? - LFRPMASM
-    - PCLEORD1
-  : -0.3145
-  ? - SYSTDEPT
-    - N1021AC1
-  : 1
-  ? - FUELAVAL
-    - N1006AC1
-  : 9.91398
-  ? - SYSTDEPT
-    - N1006AC4
-  : 2
-  ? - CONTBOS4
-    - N1014AC4
-  : -1
-  ? - LF1100S3
-    - N1100AC2
-  : 98
-  ? - LF1100C3
-    - CBOSORD3
-  : -1
-  ? - ASMILES
-    - N1012AC2
-  : 54.64705
-  ? - CONTORD4
-    - N1010AC4
-  : 1
-  ? - OBJECTIV
-    - PBOSORD0
-  : -0.075
-  ? - MCLGAORD
-    - N1019AC4
-  : 1
-  ? - CONTCLE4
-    - N1002AC4
-  : -1
-  ? - ACOCOSTS
-    - N1021AC2
-  : 1.18965
-  ? - ACOCOSTS
-    - N1021AC3
-  : 1.42472
-  ? - DCCLELGA
-    - CCLELGA3
-  : 1
-  ? - SYSTDEPT
-    - N1003AC3
-  : 1
-  ? - ACOCOSTS
-    - N1002AC2
-  : 1.18965
-  ? - LFTNMILE
-    - CORDLGA0
+    - PLGAORD0
   : -0.7308
-  ? - LFRPMASM
-    - PORDBOS1
-  : -0.91637
-  ? - MSBOSORD
-    - N1100AC2
+  ? - DMLGAORD
+    - PLGAORD0
   : 1
-  ? - OBJECTIV
-    - PORDCLE3
-  : -0.035
-  ? - ASMILES
-    - N1003AC2
-  : 113.23743
-  ? - ACMILES
-    - N1013AC4
-  : 0.91637
-  ? - FUELAVAL
-    - N1019AC2
-  : 2.7448
-  ? - LFRPMASM
-    - N1102AC2
-  : 140.88454
-  ? - LF1010S1
-    - PORDBOS2
+  ? - LF1013S2
+    - PLGAORD0
   : -1
+  ? - REVENUES
+    - PLGAORD1
+  : 0.068
   ? - OBJECTIV
     - PLGAORD1
   : -0.068
-  ? - LF1100S2
-    - PLGABOS3
+  ? - PASSNGRS
+    - PLGAORD1
+  : 1
+  ? - RPMILES
+    - PLGAORD1
+  : 0.7308
+  ? - LFRPMASM
+    - PLGAORD1
+  : -0.7308
+  ? - DMLGAORD
+    - PLGAORD1
+  : 1
+  ? - LF1017S1
+    - PLGAORD1
   : -1
+  ? - REVENUES
+    - PLGAORD2
+  : 0.068
+  ? - OBJECTIV
+    - PLGAORD2
+  : -0.068
+  ? - PASSNGRS
+    - PLGAORD2
+  : 1
+  ? - RPMILES
+    - PLGAORD2
+  : 0.73165
+  ? - LFRPMASM
+    - PLGAORD2
+  : -0.73165
   ? - DMLGAORD
     - PLGAORD2
   : 1
-  ? - DCBOSORD
-    - CBOSORD2
-  : 1
-  ? - OBJECTIV
-    - CCLELGA2
-  : -0.37
-  ? - CONTCLE2
-    - N1014AC2
-  : 1
+  ? - LF1019S1
+    - PLGAORD2
+  : -1
+  ? - LF1019S2
+    - PLGAORD2
+  : -1
   ? - REVENUES
-    - PORDBOS1
-  : 0.075
-  ? - MSCLEBOS
-    - N1102AC2
+    - PLGAORD3
+  : 0.068
+  ? - OBJECTIV
+    - PLGAORD3
+  : -0.068
+  ? - PASSNGRS
+    - PLGAORD3
   : 1
-  ? - LFTNMILE
-    - N1021AC4
-  : 2.358735
-  ? - SYSTDEPT
-    - N1021AC3
+  ? - RPMILES
+    - PLGAORD3
+  : 0.73165
+  ? - LFRPMASM
+    - PLGAORD3
+  : -0.73165
+  ? - DMLGAORD
+    - PLGAORD3
+  : 1
+  ? - LF1100S2
+    - PLGAORD3
+  : -1
+  ? - LF1100S3
+    - PLGAORD3
+  : -1
+  ? - REVENUES
+    - PLGACLE0
+  : 0.037
+  ? - OBJECTIV
+    - PLGACLE0
+  : -0.037
+  ? - PASSNGRS
+    - PLGACLE0
+  : 1
+  ? - RPMILES
+    - PLGACLE0
+  : 0.41715
+  ? - LFRPMASM
+    - PLGACLE0
+  : -0.41715
+  ? - DMLGACLE
+    - PLGACLE0
+  : 1
+  ? - LF1015S1
+    - PLGACLE0
+  : -1
+  ? - REVENUES
+    - PLGACLE1
+  : 0.037
+  ? - OBJECTIV
+    - PLGACLE1
+  : -0.037
+  ? - PASSNGRS
+    - PLGACLE1
+  : 1
+  ? - RPMILES
+    - PLGACLE1
+  : 0.41715
+  ? - LFRPMASM
+    - PLGACLE1
+  : -0.41715
+  ? - DMLGACLE
+    - PLGACLE1
+  : 1
+  ? - LF1019S1
+    - PLGACLE1
+  : -1
+  ? - REVENUES
+    - PLGACLE2
+  : 0.037
+  ? - OBJECTIV
+    - PLGACLE2
+  : -0.037
+  ? - PASSNGRS
+    - PLGACLE2
+  : 1
+  ? - RPMILES
+    - PLGACLE2
+  : 0.41715
+  ? - LFRPMASM
+    - PLGACLE2
+  : -0.41715
+  ? - DMLGACLE
+    - PLGACLE2
+  : 1
+  ? - LF1100S2
+    - PLGACLE2
+  : -1
+  ? - REVENUES
+    - PCLEBOS0
+  : 0.053
+  ? - OBJECTIV
+    - PCLEBOS0
+  : -0.053
+  ? - PASSNGRS
+    - PCLEBOS0
+  : 1
+  ? - RPMILES
+    - PCLEBOS0
+  : 0.56156
+  ? - LFRPMASM
+    - PCLEBOS0
+  : -0.56156
+  ? - DMCLEBOS
+    - PCLEBOS0
+  : 1
+  ? - LF1006S2
+    - PCLEBOS0
+  : -1
+  ? - REVENUES
+    - PCLEBOS1
+  : 0.053
+  ? - OBJECTIV
+    - PCLEBOS1
+  : -0.053
+  ? - PASSNGRS
+    - PCLEBOS1
+  : 1
+  ? - RPMILES
+    - PCLEBOS1
+  : 0.60273
+  ? - LFRPMASM
+    - PCLEBOS1
+  : -0.60273
+  ? - DMCLEBOS
+    - PCLEBOS1
+  : 1
+  ? - LF1010S2
+    - PCLEBOS1
+  : -1
+  ? - LF1010S3
+    - PCLEBOS1
+  : -1
+  ? - REVENUES
+    - PCLEBOS2
+  : 0.053
+  ? - OBJECTIV
+    - PCLEBOS2
+  : -0.053
+  ? - PASSNGRS
+    - PCLEBOS2
+  : 1
+  ? - RPMILES
+    - PCLEBOS2
+  : 0.60273
+  ? - LFRPMASM
+    - PCLEBOS2
+  : -0.60273
+  ? - DMCLEBOS
+    - PCLEBOS2
+  : 1
+  ? - LF1014S1
+    - PCLEBOS2
+  : -1
+  ? - LF1014S2
+    - PCLEBOS2
+  : -1
+  ? - REVENUES
+    - PCLEBOS3
+  : 0.053
+  ? - OBJECTIV
+    - PCLEBOS3
+  : -0.053
+  ? - PASSNGRS
+    - PCLEBOS3
+  : 1
+  ? - RPMILES
+    - PCLEBOS3
+  : 0.56156
+  ? - LFRPMASM
+    - PCLEBOS3
+  : -0.56156
+  ? - DMCLEBOS
+    - PCLEBOS3
+  : 1
+  ? - LF1100S5
+    - PCLEBOS3
+  : -1
+  ? - REVENUES
+    - PCLEBOS4
+  : 0.053
+  ? - OBJECTIV
+    - PCLEBOS4
+  : -0.053
+  ? - PASSNGRS
+    - PCLEBOS4
   : 1
   ? - RPMILES
     - PCLEBOS4
   : 1.23087
-  ? - ACMILES
-    - N1015AC2
-  : 0.41715
-  ? - RPMILES
-    - PORDLGA0
-  : 0.7308
-  ? - LFTNMILE
-    - CBOSCLE2
-  : -0.60273
-  ? - RPMILES
-    - PCLEORD3
-  : 0.3145
-  ? - OBJECTIV
-    - CCLELGA3
-  : -0.37
-  ? - LF1100C2
-    - CLGACLE2
-  : -1
-  ? - FUELAVAL
-    - N1005AC1
-  : 5.83404
-  ? - CONTBOS3
-    - N1005AC3
-  : 1
-  ? - FUELAVAL
-    - N1002AC2
-  : 1.25435
-  ? - ASMILES
-    - N1008AC2
-  : 120.04449
-  ? - LF1004S1
-    - N1004AC2
-  : 98
-  ? - MSORDLGA
-    - N1008AC2
-  : 1
-  ? - LF1006C2
-    - N1006AC3
-  : 30
-  ? - RPMILES
-    - PLGAORD3
-  : 0.73165
-  ? - OBJECTIV
-    - CBOSCLE0
-  : -0.53
-  ? - FLAV*2
-    - N1011AC2
-  : 25
-  ? - CONTORD2
-    - N1003AC2
-  : -1
-  ? - SYSTDEPT
-    - N1012AC4
-  : 1
-  ? - ACOCOSTS
-    - N1014AC4
-  : 1.71382
   ? - LFRPMASM
-    - PORDCLE2
-  : -0.3145
-  ? - LFRPMASM
-    - PLGACLE0
-  : -0.41715
-  ? - REVENUES
-    - PLGABOS0
-  : 0.027
-  ? - FLAV*1
-    - N1005AC1
-  : 1000
-  ? - ASMILES
-    - N1013AC2
-  : 120.04449
-  ? - PASSNGRS
-    - PLGACLE0
-  : 1
-  ? - SYSTDEPT
-    - N1102AC4
-  : 4
-  ? - CONTBOS1
-    - N1011AC1
-  : 1
-  ? - CONTLGA2
-    - N1004AC2
-  : -1
-  ? - ACMILES
-    - N1002AC3
-  : 0.3145
-  ? - ACMILES
-    - N1004AC4
-  : 0.7308
-  ? - FUELAVAL
-    - N1200AC2
-  : 0.95782
-  ? - LFTNMILE
-    - CLGAORD3
-  : -0.73165
-  ? - REVENUES
-    - CBOSORD1
-  : 0.75
-  ? - CONTCLE4
-    - N1021AC4
-  : 1
-  ? - REVENUES
-    - PORDCLE2
-  : 0.035
-  ? - LFTNMILE
-    - CLGACLE0
-  : -0.41715
-  ? - FLAV*2
-    - N1017AC2
-  : 1.85313
-  ? - LFRPMASM
-    - PORDLGA0
-  : -0.7308
-  ? - OBJECTIV
-    - PORDCLE0
-  : -0.035
-  ? - LFTNMILE
-    - CLGAORD0
-  : -0.7308
-  ? - FLAV*3
-    - N1002AC3
-  : 1.05384
-  ? - FLAV*1
-    - N1021AC1
-  : 1.34295
-  ? - LFRPMASM
-    - N1012AC2
-  : 32.78823
-  ? - LFTNMILE
-    - N1005AC1
-  : 8.423325
-  ? - FLAV*4
-    - N1102AC4
-  : 5.24145
-  ? - REVENUES
-    - BBOSCLE0
-  : 0.53
-  ? - LFRPMASM
-    - PBOSLGA1
-  : -0.18557
-  ? - FLAV*2
-    - N1012AC2
-  : 1.25093
-  ? - LF1100S3
-    - PLGABOS3
-  : -1
-  ? - SYSTDEPT
-    - N1011AC1
-  : 2
-  ? - RTONMILE
-    - CBOSCLE1
-  : 0.56156
-  ? - MSCLEBOS
-    - N1100AC2
-  : 1
-  ? - CONTORD1
-    - N1006AC1
-  : 1
-  ? - DCORDBOS
-    - BORDBOS0
-  : 1
-  ? - LF1010S2
-    - PORDBOS2
-  : -1
-  ? - LF1011C1
-    - CBOSORD1
-  : -1
-  ? - LF1017C1
-    - N1017AC4
-  : 11.25
-  ? - LF1014S1
-    - N1014AC2
-  : 98
-  ? - MSORDCLE
-    - N1100AC2
-  : 1
-  ? - RPMILES
-    - PBOSORD2
-  : 0.91637
-  ? - PASSNGRS
-    - PBOSORD1
-  : 1
-  ? - OBJECTIV
-    - PORDCLE2
-  : -0.035
-  ? - OBJECTIV
-    - N1021AC1
-  : 3.12679
-  ? - LF1011C1
-    - N1011AC4
-  : 11.25
-  ? - LFTNMILE
-    - CBOSORD0
-  : -0.86441
-  ? - RTONMILE
-    - CLGACLE1
-  : 0.41715
-  ? - ACOCOSTS
-    - N1002AC3
-  : 1.42472
-  ? - DMORDCLE
-    - PORDCLE2
-  : 1
-  ? - OBJECTIV
-    - GRDTIMO2
-  : 0.275
-  ? - LFTNMILE
-    - CORDBOS0
-  : -0.87605
-  ? - RTONMILE
-    - CBOSORD2
-  : 0.91637
-  ? - LF1011B2
-    - BBOSORD1
-  : -1
-  ? - LF1102C3
-    - CORDLGA3
-  : -1
-  ? - RPMILES
-    - PBOSORD4
-  : 0.87605
-  ? - OBJECTIV
-    - N1002AC2
-  : 1.18965
-  ? - ACOCOSTS
-    - GRDTIMN2
-  : -0.02889
-  ? - ACMILES
-    - N1003AC1
-  : 0.86441
-  ? - ACOCOSTS
-    - N1010AC2
-  : 3.27428
-  ? - LF1100S1
-    - N1100AC2
-  : 98
-  ? - ACOCOSTS
-    - N1006AC4
-  : 2.34647
-  ? - MSBOSCLE
-    - N1005AC2
-  : 1
-  ? - PASSNGRS
-    - PORDLGA1
-  : 1
-  ? - MSBOSORD
-    - N1003AC1
-  : 1
-  ? - RPMILES
-    - PCLEORD4
-  : 0.3145
-  ? - LF1100S3
-    - PLGAORD3
-  : -1
-  ? - ATONMILE
-    - N1021AC3
-  : 12.57993
-  ? - OBJECTIV
-    - CBOSORD1
-  : -0.75
-  ? - OBJECTIV
-    - N1006AC1
-  : 7.17016
-  ? - LF1100S5
-    - PORDBOS3
-  : -1
-  ? - OBJECTIV
-    - CORDLGA1
-  : -0.68
-  ? - ACOCOSTS
-    - N1005AC1
-  : 4.04337
-  ? - ACOCOSTS
-    - N1011AC4
-  : 2.34647
-  ? - OBJECTIV
-    - BBOSORD0
-  : -0.75
-  ? - LF1012C1
-    - CCLELGA1
-  : -1
-  ? - ACMILES
-    - N1019AC2
-  : 0.73165
-  ? - LF1013C2
-    - N1013AC4
-  : 11.25
-  ? - DCLGAORD
-    - CLGAORD2
-  : 1
-  ? - FUELAVAL
-    - N1021AC2
-  : 1.25435
-  ? - MSCLEORD
-    - N1100AC2
-  : 1
-  ? - CONTORD2
-    - N1004AC2
-  : 1
-  ? - REVENUES
-    - CCLELGA2
-  : 0.37
-  ? - REVENUES
-    - CORDBOS3
-  : 0.75
-  ? - RPMILES
-    - PCLEBOS3
-  : 0.56156
-  ? - OBJECTIV
-    - BBOSORD1
-  : -0.75
-  ? - LF1003S1
-    - N1003AC1
-  : 305
-  ? - OBJECTIV
-    - N1021AC4
-  : 1.0003
-  ? - DMORDCLE
-    - PORDCLE1
-  : 1
-  ? - ACOCOSTS
-    - N1006AC3
-  : 3.35591
-  ? - REVENUES
-    - PORDBOS4
-  : 0.075
-  ? - LF1014S1
-    - PCLEBOS2
-  : -1
-  ? - ACMILES
-    - N1102AC2
-  : 1.79242
-  ? - RTONMILE
-    - CBOSCLE0
-  : 0.56156
-  ? - RTONMILE
-    - CORDLGA2
-  : 0.73165
-  ? - PASSNGRS
-    - PORDCLE0
-  : 1
+    - PCLEBOS4
+  : -1.23087
   ? - DMCLEBOS
-    - PCLEBOS3
-  : 1
-  ? - MSCLEORD
-    - N1011AC2
-  : 1
-  ? - ATONMILE
-    - N1006AC3
-  : 35.04214
-  ? - FUELAVAL
-    - N1021AC1
-  : 4.07994
-  ? - LF1010S2
-    - PCLELGA0
-  : -1
-  ? - LFTNMILE
-    - CORDBOS4
-  : -0.91637
-  ? - LF1019C1
-    - CLGACLE1
-  : -1
-  ? - ACOCOSTS
-    - N1015AC2
-  : 1.36416
-  ? - FLAV*4
-    - N1017AC4
-  : 1.85313
-  ? - CONTCLE3
-    - N1021AC3
-  : 1
-  ? - OBJECTIV
-    - N1102AC2
-  : 5.16712
-  ? - LF1102S1
-    - N1102AC2
-  : 98
-  ? - MSCLEBOS
-    - N1006AC2
-  : 1
-  ? - NOPTCLE0
-    - N1006AC4
-  : 2
-  ? - PASSNGRS
-    - PORDLGA2
-  : 1
-  ? - LF1102C4
-    - N1102AC4
-  : 11.25
-  ? - CONTORD4
-    - N1008AC4
-  : 1
-  ? - DCBOSCLE
-    - CBOSCLE0
-  : 1
-  ? - LF1010C2
-    - CORDBOS2
-  : -1
-  ? - LF1005S1
-    - N1005AC1
-  : 305
-  ? - RPMILES
-    - PCLEBOS1
-  : 0.60273
-  ? - MSBOSCLE
-    - N1005AC1
-  : 1
-  ? - FUELAVAL
-    - N1005AC3
-  : 2.27351
-  ? - DCLGACLE
-    - CLGACLE0
-  : 1
-  ? - FLAV*2
-    - N1005AC2
-  : 2000
-  ? - DMBOSORD
-    - PBOSORD3
-  : 1
-  ? - OBJECTIV
-    - PLGACLE1
-  : -0.037
-  ? - LF1014C1
-    - CCLELGA2
-  : -1
-  ? - CONTCLE4
-    - N1012AC4
-  : 1
-  ? - ACMILES
-    - N1201AC4
-  : 0.18557
-  ? - FLAV*2
-    - N1014AC2
-  : 2.05723
-  ? - CONTORD2
-    - N1021AC2
-  : -1
-  ? - LFTNMILE
-    - CCLELGA3
-  : -1.0453
-  ? - ACOCOSTS
-    - N1015AC4
-  : 1.14401
-  ? - FLAV*3
-    - GRDTIMN3
-  : 1
-  ? - DCCLELGA
-    - CCLELGA0
-  : 1
-  ? - MSCLEORD
-    - N1011AC1
-  : 1
-  ? - OBJECTIV
-    - PBOSORD4
-  : -0.075
-  ? - RPMILES
-    - PORDBOS0
-  : 0.87605
-  ? - REVENUES
-    - CBOSCLE0
-  : 0.53
-  ? - ACMILES
-    - N1014AC2
-  : 0.60273
-  ? - MCORDBOS
-    - N1100AC4
-  : 1
-  ? - FUELAVAL
-    - N1102AC2
-  : 6.24657
-  ? - DMLGACLE
-    - PLGACLE2
-  : 1
-  ? - LF1011S2
-    - PCLEORD0
-  : -1
-  ? - DCLGACLE
-    - CLGACLE2
-  : 1
-  ? - RTONMILE
-    - BBOSORD1
-  : 0.87605
-  ? - SYSTDEPT
-    - N1014AC2
-  : 2
-  ? - FLAV*4
-    - N1005AC4
-  : 1500
-  ? - LF1013S1
-    - PBOSLGA0
-  : -1
-  ? - RTONMILE
-    - BORDBOS0
-  : 0.87605
-  ? - RTONMILE
-    - CBOSORD3
-  : 0.91722
-  ? - CONTBOS1
-    - N1005AC1
-  : 1
-  ? - LF1102S4
-    - PLGABOS4
-  : -1
-  ? - CONTCLE1
-    - N1005AC1
-  : -1
-  ? - PASSNGRS
     - PCLEBOS4
   : 1
-  ? - OBJECTIV
-    - CBOSCLE1
-  : -0.53
-  ? - RTONMILE
-    - BBOSCLE0
-  : 0.56156
-  ? - OBJECTIV
-    - N1201AC4
-  : 0.5698
-  ? - OBJECTIV
-    - PORDLGA2
-  : -0.068
-  ? - LF1102C4
-    - CORDBOS4
-  : -1
-  ? - REVENUES
-    - PBOSORD0
-  : 0.075
-  ? - ASMILES
-    - N1021AC1
-  : 128.00075
-  ? - MSORDBOS
-    - N1010AC2
-  : 1
-  ? - CONTORD4
-    - N1017AC4
-  : -1
-  ? - CONTORD2
-    - N1017AC2
-  : -1
-  ? - ASMILES
-    - N1010AC2
-  : 120.15637
-  ? - LF1013S2
-    - PBOSORD2
-  : -1
-  ? - FUELAVAL
-    - N1003AC2
-  : 2.51914
-  ? - OBJECTIV
-    - CBOSCLE3
-  : -0.53
-  ? - OBJECTIV
-    - N1017AC4
-  : 1.33312
-  ? - OBJECTIV
-    - PCLEBOS3
-  : -0.053
-  ? - LFTNMILE
-    - CORDBOS1
-  : -0.91637
-  ? - ASMILES
-    - N1005AC1
-  : 228.553
-  ? - CONTBOS3
-    - N1011AC3
-  : 1
-  ? - SYSTDEPT
-    - N1019AC4
-  : 2
-  ? - MSBOSORD
-    - N1011AC1
-  : 1
   ? - LF1102S2
-    - PCLELGA3
-  : -1
-  ? - REVENUES
-    - PCLELGA2
-  : 0.037
-  ? - LF1102S4
-    - N1102AC2
-  : 98
-  ? - RTONMILE
-    - CLGAORD2
-  : 0.73165
-  ? - LF1102C2
-    - CBOSORD4
-  : -1
-  ? - DMORDCLE
-    - PORDCLE0
-  : 1
-  ? - ATONMILE
-    - N1008AC4
-  : 13.74556
-  ? - LF1010S3
-    - PORDBOS2
-  : -1
-  ? - LF1015C1
-    - N1015AC4
-  : 11.25
-  ? - PASSNGRS
-    - PORDLGA3
-  : 1
-  ? - OBJECTIV
-    - N1017AC2
-  : 1.64736
-  ? - CONTCLE1
-    - N1002AC1
-  : -1
-  ? - LFRPMASM
-    - N1100AC2
-  : 140.95161
-  ? - RPMILES
-    - PCLELGA1
-  : 0.41715
-  ? - LF1102C2
-    - CCLELGA3
-  : -1
-  ? - LF1015S1
-    - PLGACLE0
-  : -1
-  ? - RPMILES
-    - PBOSLGA0
-  : 0.18557
-  ? - ATONMILE
-    - N1003AC3
-  : 34.57631
-  ? - ACOCOSTS
-    - N1200AC2
-  : 0.72047
-  ? - DMCLEORD
-    - PCLEORD4
-  : 1
-  ? - OBJECTIV
-    - PLGACLE0
-  : -0.037
-  ? - RPMILES
-    - PBOSCLE1
-  : 0.56156
-  ? - DMCLELGA
-    - PCLELGA2
-  : 1
-  ? - ACMILES
-    - N1017AC4
-  : 0.7308
-  ? - RTONMILE
-    - CLGAORD1
-  : 0.7308
-  ? - RPMILES
-    - PORDCLE3
-  : 0.3145
-  ? - ACOCOSTS
-    - N1017AC4
-  : 1.33312
-  ? - RTONMILE
-    - CORDLGA3
-  : 0.7308
-  ? - LF1006S1
-    - PORDCLE1
-  : -1
-  ? - LF1011B1
-    - BBOSCLE1
-  : -1
-  ? - MSCLEBOS
-    - N1014AC2
-  : 1
-  ? - LF1010S1
-    - PORDCLE2
+    - PCLEBOS4
   : -1
   ? - LF1102S3
     - PCLEBOS4
   : -1
+  ? - LF1102S4
+    - PCLEBOS4
+  : -1
+  ? - REVENUES
+    - PCLEORD0
+  : 0.035
+  ? - OBJECTIV
+    - PCLEORD0
+  : -0.035
+  ? - PASSNGRS
+    - PCLEORD0
+  : 1
+  ? - RPMILES
+    - PCLEORD0
+  : 0.3145
+  ? - LFRPMASM
+    - PCLEORD0
+  : -0.3145
+  ? - DMCLEORD
+    - PCLEORD0
+  : 1
+  ? - LF1011S2
+    - PCLEORD0
+  : -1
+  ? - REVENUES
+    - PCLEORD1
+  : 0.035
+  ? - OBJECTIV
+    - PCLEORD1
+  : -0.035
+  ? - PASSNGRS
+    - PCLEORD1
+  : 1
+  ? - RPMILES
+    - PCLEORD1
+  : 0.3145
+  ? - LFRPMASM
+    - PCLEORD1
+  : -0.3145
+  ? - DMCLEORD
+    - PCLEORD1
+  : 1
+  ? - LF1019S2
+    - PCLEORD1
+  : -1
   ? - REVENUES
     - PCLEORD2
   : 0.035
-  ? - REVENUES
-    - PBOSORD3
-  : 0.075
-  ? - LFRPMASM
-    - N1014AC2
-  : 47.374237
-  ? - CONTBOS4
-    - N1006AC4
-  : -1
-  ? - CONTCLE2
-    - N1015AC2
-  : -1
-  ? - LFTNMILE
-    - CORDLGA2
-  : -0.73165
-  ? - LFRPMASM
-    - PORDCLE1
-  : -0.3145
-  ? - LFTNMILE
-    - N1011AC4
-  : 6.5704
-  ? - LF1102S2
-    - PBOSLGA2
-  : -1
-  ? - SYSTDEPT
-    - N1003AC4
-  : 1
-  ? - MCLGAORD
-    - N1017AC4
-  : 1
-  ? - SYSTDEPT
-    - N1102AC2
-  : 4
-  ? - LFRPMASM
-    - PBOSCLE1
-  : -0.56156
-  ? - REVENUES
-    - PORDBOS2
-  : 0.075
-  ? - LF1013C1
-    - CBOSORD2
-  : -1
-  ? - FUELAVAL
-    - N1013AC4
-  : 2.4431
-  ? - LFRPMASM
-    - PLGACLE1
-  : -0.41715
   ? - OBJECTIV
-    - CORDBOS3
-  : -0.75
-  ? - LF1008S1
-    - PORDLGA1
+    - PCLEORD2
+  : -0.035
+  ? - PASSNGRS
+    - PCLEORD2
+  : 1
+  ? - RPMILES
+    - PCLEORD2
+  : 0.3145
+  ? - LFRPMASM
+    - PCLEORD2
+  : -0.3145
+  ? - DMCLEORD
+    - PCLEORD2
+  : 1
+  ? - LF1021S1
+    - PCLEORD2
   : -1
-  ? - ATONMILE
-    - N1006AC4
-  : 13.1408
-  ? - FUELAVAL
-    - N1100AC2
-  : 6.77953
+  ? - REVENUES
+    - PCLEORD3
+  : 0.035
+  ? - OBJECTIV
+    - PCLEORD3
+  : -0.035
+  ? - PASSNGRS
+    - PCLEORD3
+  : 1
+  ? - RPMILES
+    - PCLEORD3
+  : 0.3145
+  ? - LFRPMASM
+    - PCLEORD3
+  : -0.3145
+  ? - DMCLEORD
+    - PCLEORD3
+  : 1
   ? - LF1100S3
     - PCLEORD3
   : -1
-  ? - LF1006S2
-    - N1006AC2
-  : 98
+  ? - REVENUES
+    - PCLEORD4
+  : 0.035
+  ? - OBJECTIV
+    - PCLEORD4
+  : -0.035
+  ? - PASSNGRS
+    - PCLEORD4
+  : 1
   ? - RPMILES
-    - PBOSORD0
-  : 0.86441
+    - PCLEORD4
+  : 0.3145
   ? - LFRPMASM
-    - PCLEORD3
+    - PCLEORD4
   : -0.3145
+  ? - DMCLEORD
+    - PCLEORD4
+  : 1
+  ? - LF1102S2
+    - PCLEORD4
+  : -1
+  ? - REVENUES
+    - PCLELGA0
+  : 0.037
+  ? - OBJECTIV
+    - PCLELGA0
+  : -0.037
+  ? - PASSNGRS
+    - PCLELGA0
+  : 1
+  ? - RPMILES
+    - PCLELGA0
+  : 0.41715
+  ? - LFRPMASM
+    - PCLELGA0
+  : -0.41715
+  ? - DMCLELGA
+    - PCLELGA0
+  : 1
+  ? - LF1010S2
+    - PCLELGA0
+  : -1
+  ? - REVENUES
+    - PCLELGA1
+  : 0.037
+  ? - OBJECTIV
+    - PCLELGA1
+  : -0.037
+  ? - PASSNGRS
+    - PCLELGA1
+  : 1
+  ? - RPMILES
+    - PCLELGA1
+  : 0.41715
+  ? - LFRPMASM
+    - PCLELGA1
+  : -0.41715
+  ? - DMCLELGA
+    - PCLELGA1
+  : 1
+  ? - LF1012S1
+    - PCLELGA1
+  : -1
+  ? - REVENUES
+    - PCLELGA2
+  : 0.037
+  ? - OBJECTIV
+    - PCLELGA2
+  : -0.037
+  ? - PASSNGRS
+    - PCLELGA2
+  : 1
+  ? - RPMILES
+    - PCLELGA2
+  : 0.41715
+  ? - LFRPMASM
+    - PCLELGA2
+  : -0.41715
+  ? - DMCLELGA
+    - PCLELGA2
+  : 1
+  ? - LF1014S1
+    - PCLELGA2
+  : -1
+  ? - REVENUES
+    - PCLELGA3
+  : 0.037
+  ? - OBJECTIV
+    - PCLELGA3
+  : -0.037
+  ? - PASSNGRS
+    - PCLELGA3
+  : 1
+  ? - RPMILES
+    - PCLELGA3
+  : 1.0453
+  ? - LFRPMASM
+    - PCLELGA3
+  : -1.0453
+  ? - DMCLELGA
+    - PCLELGA3
+  : 1
+  ? - LF1102S2
+    - PCLELGA3
+  : -1
+  ? - LF1102S3
+    - PCLELGA3
+  : -1
+  ? - REVENUES
+    - BBOSORD0
+  : 0.75
+  ? - OBJECTIV
+    - BBOSORD0
+  : -0.75
+  ? - RTONMILE
+    - BBOSORD0
+  : 0.86441
+  ? - LFTNMILE
+    - BBOSORD0
+  : -0.86441
   ? - DCBOSORD
     - BBOSORD0
   : 1
-  ? - FUELAVAL
-    - N1011AC2
-  : 3.07692
-  ? - DMLGABOS
-    - PLGABOS3
+  ? - LF1003B1
+    - BBOSORD0
+  : -1
+  ? - REVENUES
+    - BBOSORD1
+  : 0.75
+  ? - OBJECTIV
+    - BBOSORD1
+  : -0.75
+  ? - RTONMILE
+    - BBOSORD1
+  : 0.87605
+  ? - LFTNMILE
+    - BBOSORD1
+  : -0.87605
+  ? - DCBOSORD
+    - BBOSORD1
   : 1
+  ? - LF1011B1
+    - BBOSORD1
+  : -1
+  ? - LF1011B2
+    - BBOSORD1
+  : -1
+  ? - REVENUES
+    - BBOSCLE0
+  : 0.53
+  ? - OBJECTIV
+    - BBOSCLE0
+  : -0.53
+  ? - RTONMILE
+    - BBOSCLE0
+  : 0.56156
+  ? - LFTNMILE
+    - BBOSCLE0
+  : -0.56156
+  ? - DCBOSCLE
+    - BBOSCLE0
+  : 1
+  ? - LF1005B1
+    - BBOSCLE0
+  : -1
+  ? - REVENUES
+    - BBOSCLE1
+  : 0.53
+  ? - OBJECTIV
+    - BBOSCLE1
+  : -0.53
+  ? - RTONMILE
+    - BBOSCLE1
+  : 0.56156
+  ? - LFTNMILE
+    - BBOSCLE1
+  : -0.56156
+  ? - DCBOSCLE
+    - BBOSCLE1
+  : 1
+  ? - LF1011B1
+    - BBOSCLE1
+  : -1
+  ? - REVENUES
+    - BORDBOS0
+  : 0.75
+  ? - OBJECTIV
+    - BORDBOS0
+  : -0.75
+  ? - RTONMILE
+    - BORDBOS0
+  : 0.87605
+  ? - LFTNMILE
+    - BORDBOS0
+  : -0.87605
+  ? - DCORDBOS
+    - BORDBOS0
+  : 1
+  ? - LF1006B1
+    - BORDBOS0
+  : -1
+  ? - LF1006B2
+    - BORDBOS0
+  : -1
+  ? - REVENUES
+    - CBOSORD0
+  : 0.75
+  ? - OBJECTIV
+    - CBOSORD0
+  : -0.75
+  ? - RTONMILE
+    - CBOSORD0
+  : 0.86441
+  ? - LFTNMILE
+    - CBOSORD0
+  : -0.86441
+  ? - DCBOSORD
+    - CBOSORD0
+  : 1
+  ? - LF1003C1
+    - CBOSORD0
+  : -1
+  ? - REVENUES
+    - CBOSORD1
+  : 0.75
+  ? - OBJECTIV
+    - CBOSORD1
+  : -0.75
+  ? - RTONMILE
+    - CBOSORD1
+  : 0.87605
+  ? - LFTNMILE
+    - CBOSORD1
+  : -0.87605
+  ? - DCBOSORD
+    - CBOSORD1
+  : 1
+  ? - LF1011C1
+    - CBOSORD1
+  : -1
   ? - LF1011C2
     - CBOSORD1
   : -1
-  ? - CONTBOS3
-    - N1006AC3
+  ? - REVENUES
+    - CBOSORD2
+  : 0.75
+  ? - OBJECTIV
+    - CBOSORD2
+  : -0.75
+  ? - RTONMILE
+    - CBOSORD2
+  : 0.91637
+  ? - LFTNMILE
+    - CBOSORD2
+  : -0.91637
+  ? - DCBOSORD
+    - CBOSORD2
+  : 1
+  ? - LF1013C1
+    - CBOSORD2
+  : -1
+  ? - LF1013C2
+    - CBOSORD2
   : -1
   ? - REVENUES
-    - PBOSLGA0
-  : 0.027
-  ? - ACMILES
-    - N1006AC1
-  : 0.87605
+    - CBOSORD3
+  : 0.75
   ? - OBJECTIV
-    - GRDTIMN3
-  : -0.03611
-  ? - MSLGACLE
-    - N1100AC2
+    - CBOSORD3
+  : -0.75
+  ? - RTONMILE
+    - CBOSORD3
+  : 0.91722
+  ? - LFTNMILE
+    - CBOSORD3
+  : -0.91722
+  ? - DCBOSORD
+    - CBOSORD3
   : 1
-  ? - LF1013S1
-    - N1013AC2
-  : 98
-  ? - LF1100S5
-    - N1100AC2
-  : 98
-  ? - ACMILES
-    - N1004AC2
-  : 0.7308
-  ? - DMCLEBOS
-    - PCLEBOS4
-  : 1
-  ? - LF1100S4
-    - PORDBOS3
+  ? - LF1100C1
+    - CBOSORD3
   : -1
-  ? - CONTORD4
-    - N1013AC4
+  ? - LF1100C2
+    - CBOSORD3
   : -1
-  ? - LF1013C1
-    - N1013AC4
-  : 11.25
-  ? - CONTORD3
-    - N1002AC3
+  ? - LF1100C3
+    - CBOSORD3
+  : -1
+  ? - REVENUES
+    - CBOSORD4
+  : 0.75
+  ? - OBJECTIV
+    - CBOSORD4
+  : -0.75
+  ? - RTONMILE
+    - CBOSORD4
+  : 0.87605
+  ? - LFTNMILE
+    - CBOSORD4
+  : -0.87605
+  ? - DCBOSORD
+    - CBOSORD4
   : 1
+  ? - LF1102C1
+    - CBOSORD4
+  : -1
+  ? - LF1102C2
+    - CBOSORD4
+  : -1
+  ? - REVENUES
+    - CBOSCLE0
+  : 0.53
+  ? - OBJECTIV
+    - CBOSCLE0
+  : -0.53
+  ? - RTONMILE
+    - CBOSCLE0
+  : 0.56156
+  ? - LFTNMILE
+    - CBOSCLE0
+  : -0.56156
+  ? - DCBOSCLE
+    - CBOSCLE0
+  : 1
+  ? - LF1005C1
+    - CBOSCLE0
+  : -1
+  ? - REVENUES
+    - CBOSCLE1
+  : 0.53
+  ? - OBJECTIV
+    - CBOSCLE1
+  : -0.53
+  ? - RTONMILE
+    - CBOSCLE1
+  : 0.56156
+  ? - LFTNMILE
+    - CBOSCLE1
+  : -0.56156
+  ? - DCBOSCLE
+    - CBOSCLE1
+  : 1
+  ? - LF1011C1
+    - CBOSCLE1
+  : -1
+  ? - REVENUES
+    - CBOSCLE2
+  : 0.53
+  ? - OBJECTIV
+    - CBOSCLE2
+  : -0.53
+  ? - RTONMILE
+    - CBOSCLE2
+  : 0.60273
+  ? - LFTNMILE
+    - CBOSCLE2
+  : -0.60273
+  ? - DCBOSCLE
+    - CBOSCLE2
+  : 1
+  ? - LF1100C1
+    - CBOSCLE2
+  : -1
+  ? - LF1100C2
+    - CBOSCLE2
+  : -1
+  ? - REVENUES
+    - CBOSCLE3
+  : 0.53
+  ? - OBJECTIV
+    - CBOSCLE3
+  : -0.53
+  ? - RTONMILE
+    - CBOSCLE3
+  : 0.56156
+  ? - LFTNMILE
+    - CBOSCLE3
+  : -0.56156
+  ? - DCBOSCLE
+    - CBOSCLE3
+  : 1
+  ? - LF1102C1
+    - CBOSCLE3
+  : -1
+  ? - REVENUES
+    - CORDBOS0
+  : 0.75
+  ? - OBJECTIV
+    - CORDBOS0
+  : -0.75
+  ? - RTONMILE
+    - CORDBOS0
+  : 0.87605
+  ? - LFTNMILE
+    - CORDBOS0
+  : -0.87605
+  ? - DCORDBOS
+    - CORDBOS0
+  : 1
+  ? - LF1006C1
+    - CORDBOS0
+  : -1
+  ? - LF1006C2
+    - CORDBOS0
+  : -1
+  ? - REVENUES
+    - CORDBOS1
+  : 0.75
+  ? - OBJECTIV
+    - CORDBOS1
+  : -0.75
+  ? - RTONMILE
+    - CORDBOS1
+  : 0.91637
+  ? - LFTNMILE
+    - CORDBOS1
+  : -0.91637
+  ? - DCORDBOS
+    - CORDBOS1
+  : 1
+  ? - LF1008C1
+    - CORDBOS1
+  : -1
   ? - LF1008C2
     - CORDBOS1
   : -1
-  ? - FLAV*4
-    - N1004AC4
-  : 1.85313
+  ? - REVENUES
+    - CORDBOS2
+  : 0.75
+  ? - OBJECTIV
+    - CORDBOS2
+  : -0.75
+  ? - RTONMILE
+    - CORDBOS2
+  : 0.91722
+  ? - LFTNMILE
+    - CORDBOS2
+  : -0.91722
+  ? - DCORDBOS
+    - CORDBOS2
+  : 1
+  ? - LF1010C1
+    - CORDBOS2
+  : -1
+  ? - LF1010C2
+    - CORDBOS2
+  : -1
+  ? - LF1010C3
+    - CORDBOS2
+  : -1
+  ? - REVENUES
+    - CORDBOS3
+  : 0.75
+  ? - OBJECTIV
+    - CORDBOS3
+  : -0.75
+  ? - RTONMILE
+    - CORDBOS3
+  : 0.87605
+  ? - LFTNMILE
+    - CORDBOS3
+  : -0.87605
+  ? - DCORDBOS
+    - CORDBOS3
+  : 1
+  ? - LF1100C4
+    - CORDBOS3
+  : -1
+  ? - LF1100C5
+    - CORDBOS3
+  : -1
+  ? - REVENUES
+    - CORDBOS4
+  : 0.75
+  ? - OBJECTIV
+    - CORDBOS4
+  : -0.75
+  ? - RTONMILE
+    - CORDBOS4
+  : 0.91637
+  ? - LFTNMILE
+    - CORDBOS4
+  : -0.91637
+  ? - DCORDBOS
+    - CORDBOS4
+  : 1
+  ? - LF1102C3
+    - CORDBOS4
+  : -1
+  ? - LF1102C4
+    - CORDBOS4
+  : -1
+  ? - REVENUES
+    - CORDLGA0
+  : 0.68
+  ? - OBJECTIV
+    - CORDLGA0
+  : -0.68
+  ? - RTONMILE
+    - CORDLGA0
+  : 0.7308
+  ? - LFTNMILE
+    - CORDLGA0
+  : -0.7308
+  ? - DCORDLGA
+    - CORDLGA0
+  : 1
+  ? - LF1004C1
+    - CORDLGA0
+  : -1
+  ? - REVENUES
+    - CORDLGA1
+  : 0.68
+  ? - OBJECTIV
+    - CORDLGA1
+  : -0.68
+  ? - RTONMILE
+    - CORDLGA1
+  : 0.7308
+  ? - LFTNMILE
+    - CORDLGA1
+  : -0.7308
+  ? - DCORDLGA
+    - CORDLGA1
+  : 1
+  ? - LF1008C1
+    - CORDLGA1
+  : -1
+  ? - REVENUES
+    - CORDLGA2
+  : 0.68
+  ? - OBJECTIV
+    - CORDLGA2
+  : -0.68
+  ? - RTONMILE
+    - CORDLGA2
+  : 0.73165
+  ? - LFTNMILE
+    - CORDLGA2
+  : -0.73165
+  ? - DCORDLGA
+    - CORDLGA2
+  : 1
+  ? - LF1010C1
+    - CORDLGA2
+  : -1
+  ? - LF1010C2
+    - CORDLGA2
+  : -1
+  ? - REVENUES
+    - CORDLGA3
+  : 0.68
+  ? - OBJECTIV
+    - CORDLGA3
+  : -0.68
+  ? - RTONMILE
+    - CORDLGA3
+  : 0.7308
+  ? - LFTNMILE
+    - CORDLGA3
+  : -0.7308
+  ? - DCORDLGA
+    - CORDLGA3
+  : 1
+  ? - LF1102C3
+    - CORDLGA3
+  : -1
+  ? - REVENUES
+    - CLGAORD0
+  : 0.68
+  ? - OBJECTIV
+    - CLGAORD0
+  : -0.68
+  ? - RTONMILE
+    - CLGAORD0
+  : 0.7308
+  ? - LFTNMILE
+    - CLGAORD0
+  : -0.7308
+  ? - DCLGAORD
+    - CLGAORD0
+  : 1
+  ? - LF1013C2
+    - CLGAORD0
+  : -1
+  ? - REVENUES
+    - CLGAORD1
+  : 0.68
+  ? - OBJECTIV
+    - CLGAORD1
+  : -0.68
+  ? - RTONMILE
+    - CLGAORD1
+  : 0.7308
+  ? - LFTNMILE
+    - CLGAORD1
+  : -0.7308
+  ? - DCLGAORD
+    - CLGAORD1
+  : 1
+  ? - LF1017C1
+    - CLGAORD1
+  : -1
+  ? - REVENUES
+    - CLGAORD2
+  : 0.68
+  ? - OBJECTIV
+    - CLGAORD2
+  : -0.68
+  ? - RTONMILE
+    - CLGAORD2
+  : 0.73165
+  ? - LFTNMILE
+    - CLGAORD2
+  : -0.73165
+  ? - DCLGAORD
+    - CLGAORD2
+  : 1
+  ? - LF1019C1
+    - CLGAORD2
+  : -1
+  ? - LF1019C2
+    - CLGAORD2
+  : -1
+  ? - REVENUES
+    - CLGAORD3
+  : 0.68
+  ? - OBJECTIV
+    - CLGAORD3
+  : -0.68
+  ? - RTONMILE
+    - CLGAORD3
+  : 0.73165
+  ? - LFTNMILE
+    - CLGAORD3
+  : -0.73165
+  ? - DCLGAORD
+    - CLGAORD3
+  : 1
+  ? - LF1100C2
+    - CLGAORD3
+  : -1
+  ? - LF1100C3
+    - CLGAORD3
+  : -1
+  ? - REVENUES
+    - CLGACLE0
+  : 0.37
+  ? - OBJECTIV
+    - CLGACLE0
+  : -0.37
+  ? - RTONMILE
+    - CLGACLE0
+  : 0.41715
+  ? - LFTNMILE
+    - CLGACLE0
+  : -0.41715
+  ? - DCLGACLE
+    - CLGACLE0
+  : 1
+  ? - LF1015C1
+    - CLGACLE0
+  : -1
+  ? - REVENUES
+    - CLGACLE1
+  : 0.37
+  ? - OBJECTIV
+    - CLGACLE1
+  : -0.37
+  ? - RTONMILE
+    - CLGACLE1
+  : 0.41715
+  ? - LFTNMILE
+    - CLGACLE1
+  : -0.41715
+  ? - DCLGACLE
+    - CLGACLE1
+  : 1
+  ? - LF1019C1
+    - CLGACLE1
+  : -1
+  ? - REVENUES
+    - CLGACLE2
+  : 0.37
+  ? - OBJECTIV
+    - CLGACLE2
+  : -0.37
+  ? - RTONMILE
+    - CLGACLE2
+  : 0.41715
+  ? - LFTNMILE
+    - CLGACLE2
+  : -0.41715
+  ? - DCLGACLE
+    - CLGACLE2
+  : 1
+  ? - LF1100C2
+    - CLGACLE2
+  : -1
+  ? - REVENUES
+    - CCLELGA0
+  : 0.37
+  ? - OBJECTIV
+    - CCLELGA0
+  : -0.37
+  ? - RTONMILE
+    - CCLELGA0
+  : 0.41715
+  ? - LFTNMILE
+    - CCLELGA0
+  : -0.41715
+  ? - DCCLELGA
+    - CCLELGA0
+  : 1
+  ? - LF1010C2
+    - CCLELGA0
+  : -1
+  ? - REVENUES
+    - CCLELGA1
+  : 0.37
+  ? - OBJECTIV
+    - CCLELGA1
+  : -0.37
+  ? - RTONMILE
+    - CCLELGA1
+  : 0.41715
+  ? - LFTNMILE
+    - CCLELGA1
+  : -0.41715
+  ? - DCCLELGA
+    - CCLELGA1
+  : 1
+  ? - LF1012C1
+    - CCLELGA1
+  : -1
+  ? - REVENUES
+    - CCLELGA2
+  : 0.37
+  ? - OBJECTIV
+    - CCLELGA2
+  : -0.37
+  ? - RTONMILE
+    - CCLELGA2
+  : 0.41715
+  ? - LFTNMILE
+    - CCLELGA2
+  : -0.41715
+  ? - DCCLELGA
+    - CCLELGA2
+  : 1
+  ? - LF1014C1
+    - CCLELGA2
+  : -1
+  ? - REVENUES
+    - CCLELGA3
+  : 0.37
+  ? - OBJECTIV
+    - CCLELGA3
+  : -0.37
+  ? - RTONMILE
+    - CCLELGA3
+  : 1.0453
+  ? - LFTNMILE
+    - CCLELGA3
+  : -1.0453
+  ? - DCCLELGA
+    - CCLELGA3
+  : 1
+  ? - LF1102C2
+    - CCLELGA3
+  : -1
+  ? - LF1102C3
+    - CCLELGA3
+  : -1
+  ? - FLAV*1
+    - GRDTIMO1
+  : 1
+  ? - ACOCOSTS
+    - GRDTIMO1
+  : 0.65
+  ? - OBJECTIV
+    - GRDTIMO1
+  : 0.65
+  ? - FLAV*1
+    - GRDTIMN1
+  : 1
+  ? - ACOCOSTS
+    - GRDTIMN1
+  : -0.05
+  ? - OBJECTIV
+    - GRDTIMN1
+  : -0.05
+  ? - FLAV*2
+    - GRDTIMO2
+  : 1
+  ? - ACOCOSTS
+    - GRDTIMO2
+  : 0.275
+  ? - OBJECTIV
+    - GRDTIMO2
+  : 0.275
+  ? - FLAV*2
+    - GRDTIMN2
+  : 1
+  ? - ACOCOSTS
+    - GRDTIMN2
+  : -0.02889
   ? - OBJECTIV
     - GRDTIMN2
   : -0.02889
-  ? - MSORDCLE
-    - N1010AC2
+  ? - FLAV*3
+    - GRDTIMN3
   : 1
-  ? - ACMILES
-    - N1003AC3
-  : 0.86441
-  ? - OBJECTIV
-    - N1013AC2
-  : 2.36783
-  ? - FLAV*4
-    - N1013AC4
-  : 2.65943
   ? - ACOCOSTS
     - GRDTIMN3
   : -0.03611
-  ? - CONTBOS4
-    - N1013AC4
-  : 1
   ? - OBJECTIV
-    - N1200AC4
-  : 0.5698
-  ? - CONTBOS4
-    - N1005AC4
+    - GRDTIMN3
+  : -0.03611
+  ? - FLAV*4
+    - GRDTIMN4
   : 1
-  ? - DCORDBOS
-    - CORDBOS0
+  ? - ACOCOSTS
+    - GRDTIMN4
+  : -0.01333
+  ? - OBJECTIV
+    - GRDTIMN4
+  : -0.01333
+  ? - ACOCOSTS
+    - N1003AC1
+  : 0.01
+  ? - OBJECTIV
+    - N1003AC1
+  : 0.01
+  ? - FUELAVAL
+    - N1003AC1
+  : 7.98429
+  ? - SYSTDEPT
+    - N1003AC1
+  : 1
+  ? - ACMILES
+    - N1003AC1
+  : 0.86441
+  ? - ASMILES
+    - N1003AC1
+  : 351.81396
+  ? - LFRPMASM
+    - N1003AC1
+  : 211.08838
+  ? - FLAV*1
+    - N1003AC1
+  : 2.32729
+  ? - ATONMILE
+    - N1003AC1
+  : 25.93224
+  ? - LFTNMILE
+    - N1003AC1
+  : 12.96612
+  ? - LF1003S1
+    - N1003AC1
+  : 305
+  ? - LF1003B1
+    - N1003AC1
+  : 12
+  ? - CONTBOS1
+    - N1003AC1
+  : 1
+  ? - CONTORD1
+    - N1003AC1
+  : -1
+  ? - MSBOSORD
+    - N1003AC1
+  : 1
+  ? - ACOCOSTS
+    - N1003AC2
+  : 0.02
+  ? - OBJECTIV
+    - N1003AC2
+  : 0.02
+  ? - FUELAVAL
+    - N1003AC2
+  : 2.51914
+  ? - SYSTDEPT
+    - N1003AC2
+  : 1
+  ? - ACMILES
+    - N1003AC2
+  : 0.86441
+  ? - ASMILES
+    - N1003AC2
+  : 113.23743
+  ? - LFRPMASM
+    - N1003AC2
+  : 67.94246
+  ? - FLAV*2
+    - N1003AC2
+  : 2.10966
+  ? - LF1003S1
+    - N1003AC2
+  : 98
+  ? - CONTBOS2
+    - N1003AC2
+  : 1
+  ? - CONTORD2
+    - N1003AC2
+  : -1
+  ? - MSBOSORD
+    - N1003AC2
   : 1
   ? - ACOCOSTS
     - N1003AC3
   : 0.03
   ? - OBJECTIV
-    - N1019AC2
-  : 2.55381
-  ? - MSBOSORD
-    - N1003AC2
+    - N1003AC3
+  : 0.03
+  ? - FUELAVAL
+    - N1003AC3
+  : 3.15178
+  ? - SYSTDEPT
+    - N1003AC3
   : 1
-  ? - NOPTCLE0
-    - N1014AC4
-  : 1
-  ? - LFRPMASM
-    - PBOSORD2
-  : -0.91637
-  ? - CONTORD2
-    - N1002AC2
-  : 1
+  ? - ACMILES
+    - N1003AC3
+  : 0.86441
+  ? - FLAV*3
+    - N1003AC3
+  : 2.10966
+  ? - ATONMILE
+    - N1003AC3
+  : 34.57631
   ? - LFTNMILE
-    - CLGAORD1
-  : -0.7308
-  ? - PASSNGRS
-    - PORDCLE2
+    - N1003AC3
+  : 17.288155
+  ? - LF1003C1
+    - N1003AC3
+  : 30
+  ? - CONTBOS3
+    - N1003AC3
   : 1
-  ? - RTONMILE
-    - CLGACLE0
-  : 0.41715
+  ? - CONTORD3
+    - N1003AC3
+  : -1
+  ? - ACOCOSTS
+    - N1003AC4
+  : 0.04
+  ? - OBJECTIV
+    - N1003AC4
+  : 0.04
+  ? - FUELAVAL
+    - N1003AC4
+  : 1.99337
+  ? - SYSTDEPT
+    - N1003AC4
+  : 1
+  ? - ACMILES
+    - N1003AC4
+  : 0.86441
   ? - FLAV*4
     - N1003AC4
   : 2.10966
   ? - ATONMILE
-    - N1005AC4
-  : 8.42333
-  ? - LF1013S2
-    - PLGAORD0
-  : -1
-  ? - REVENUES
-    - BORDBOS0
-  : 0.75
-  ? - LFRPMASM
-    - PCLELGA3
-  : -1.0453
+    - N1003AC4
+  : 12.96612
   ? - LFTNMILE
-    - N1002AC1
-  : 4.717475
-  ? - CONTCLE1
-    - N1021AC1
+    - N1003AC4
+  : 6.48306
+  ? - LF1003C1
+    - N1003AC4
+  : 11.25
+  ? - CONTBOS4
+    - N1003AC4
   : 1
+  ? - CONTORD4
+    - N1003AC4
+  : -1
+  ? - ACOCOSTS
+    - N1005AC1
+  : 4.04337
+  ? - OBJECTIV
+    - N1005AC1
+  : 4.04337
+  ? - FUELAVAL
+    - N1005AC1
+  : 5.83404
   ? - SYSTDEPT
-    - N1011AC3
-  : 2
+    - N1005AC1
+  : 1
+  ? - ACMILES
+    - N1005AC1
+  : 0.56156
+  ? - ASMILES
+    - N1005AC1
+  : 228.553
+  ? - LFRPMASM
+    - N1005AC1
+  : 137.13179
+  ? - FLAV*1
+    - N1005AC1
+  : 1000
+  ? - ATONMILE
+    - N1005AC1
+  : 16.84665
+  ? - LFTNMILE
+    - N1005AC1
+  : 8.423325
+  ? - LF1005S1
+    - N1005AC1
+  : 305
+  ? - LF1005B1
+    - N1005AC1
+  : 12
+  ? - NOPTCLE0
+    - N1005AC1
+  : 1
+  ? - CONTBOS1
+    - N1005AC1
+  : 1
+  ? - CONTCLE1
+    - N1005AC1
+  : -1
+  ? - MSBOSCLE
+    - N1005AC1
+  : 1
+  ? - ACOCOSTS
+    - N1005AC2
+  : 1.60964
+  ? - OBJECTIV
+    - N1005AC2
+  : 1.60964
+  ? - FUELAVAL
+    - N1005AC2
+  : 1.82258
   ? - SYSTDEPT
-    - N1010AC2
-  : 3
+    - N1005AC2
+  : 1
+  ? - ACMILES
+    - N1005AC2
+  : 0.56156
+  ? - ASMILES
+    - N1005AC2
+  : 73.56374
+  ? - LFRPMASM
+    - N1005AC2
+  : 44.138245
+  ? - FLAV*2
+    - N1005AC2
+  : 2000
+  ? - LF1005S1
+    - N1005AC2
+  : 98
+  ? - NOPTCLE0
+    - N1005AC2
+  : 1
+  ? - CONTBOS2
+    - N1005AC2
+  : 1
+  ? - CONTCLE2
+    - N1005AC2
+  : -1
+  ? - MSBOSCLE
+    - N1005AC2
+  : 1
+  ? - ACOCOSTS
+    - N1005AC3
+  : 1.93119
+  ? - OBJECTIV
+    - N1005AC3
+  : 1.93119
+  ? - FUELAVAL
+    - N1005AC3
+  : 2.27351
+  ? - SYSTDEPT
+    - N1005AC3
+  : 1
+  ? - ACMILES
+    - N1005AC3
+  : 0.56156
+  ? - FLAV*3
+    - N1005AC3
+  : 3000
+  ? - ATONMILE
+    - N1005AC3
+  : 22.4622
+  ? - LFTNMILE
+    - N1005AC3
+  : 11.2311
+  ? - LF1005C1
+    - N1005AC3
+  : 30
+  ? - NOPTCLE0
+    - N1005AC3
+  : 1
+  ? - CONTBOS3
+    - N1005AC3
+  : 1
+  ? - CONTCLE3
+    - N1005AC3
+  : -1
+  ? - ACOCOSTS
+    - N1005AC4
+  : 1.34618
   ? - OBJECTIV
     - N1005AC4
   : 1.34618
+  ? - FUELAVAL
+    - N1005AC4
+  : 1.41795
+  ? - SYSTDEPT
+    - N1005AC4
+  : 1
+  ? - ACMILES
+    - N1005AC4
+  : 0.56156
+  ? - FLAV*4
+    - N1005AC4
+  : 1500
+  ? - ATONMILE
+    - N1005AC4
+  : 8.42333
+  ? - LFTNMILE
+    - N1005AC4
+  : 4.211665
+  ? - LF1005C1
+    - N1005AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1005AC4
+  : 1
+  ? - CONTBOS4
+    - N1005AC4
+  : 1
+  ? - CONTCLE4
+    - N1005AC4
+  : -1
+  ? - ACOCOSTS
+    - N1011AC1
+  : 1.1
+  ? - OBJECTIV
+    - N1011AC1
+  : 1.1
+  ? - FUELAVAL
+    - N1011AC1
+  : 9.91398
+  ? - SYSTDEPT
+    - N1011AC1
+  : 2
+  ? - ACMILES
+    - N1011AC1
+  : 0.87605
+  ? - ASMILES
+    - N1011AC1
+  : 356.5537
+  ? - LFRPMASM
+    - N1011AC1
+  : 213.93222
+  ? - FLAV*1
+    - N1011AC1
+  : 25
+  ? - ATONMILE
+    - N1011AC1
+  : 26.2816
+  ? - LFTNMILE
+    - N1011AC1
+  : 13.1408
+  ? - LF1011S1
+    - N1011AC1
+  : 305
+  ? - LF1011S2
+    - N1011AC1
+  : 305
   ? - LF1011B1
     - N1011AC1
   : 12
-  ? - LF1102S2
-    - PCLEBOS4
+  ? - LF1011B2
+    - N1011AC1
+  : 12
+  ? - NOPTCLE0
+    - N1011AC1
+  : 2
+  ? - CONTBOS1
+    - N1011AC1
+  : 1
+  ? - CONTORD1
+    - N1011AC1
+  : -1
+  ? - MSBOSCLE
+    - N1011AC1
+  : 1
+  ? - MSBOSORD
+    - N1011AC1
+  : 1
+  ? - MSCLEORD
+    - N1011AC1
+  : 1
+  ? - ACOCOSTS
+    - N1011AC2
+  : 1.2
+  ? - OBJECTIV
+    - N1011AC2
+  : 1.2
+  ? - FUELAVAL
+    - N1011AC2
+  : 3.07692
+  ? - SYSTDEPT
+    - N1011AC2
+  : 2
+  ? - ACMILES
+    - N1011AC2
+  : 0.87605
+  ? - ASMILES
+    - N1011AC2
+  : 114.76299
+  ? - LFRPMASM
+    - N1011AC2
+  : 68.857796
+  ? - FLAV*2
+    - N1011AC2
+  : 25
+  ? - LF1011S1
+    - N1011AC2
+  : 98
+  ? - LF1011S2
+    - N1011AC2
+  : 98
+  ? - NOPTCLE0
+    - N1011AC2
+  : 2
+  ? - CONTBOS2
+    - N1011AC2
+  : 1
+  ? - CONTORD2
+    - N1011AC2
+  : -1
+  ? - MSBOSCLE
+    - N1011AC2
+  : 1
+  ? - MSBOSORD
+    - N1011AC2
+  : 1
+  ? - MSCLEORD
+    - N1011AC2
+  : 1
+  ? - ACOCOSTS
+    - N1011AC3
+  : 1.3
+  ? - OBJECTIV
+    - N1011AC3
+  : 1.3
+  ? - FUELAVAL
+    - N1011AC3
+  : 3.83055
+  ? - SYSTDEPT
+    - N1011AC3
+  : 2
+  ? - ACMILES
+    - N1011AC3
+  : 0.87605
+  ? - FLAV*3
+    - N1011AC3
+  : 26
+  ? - ATONMILE
+    - N1011AC3
+  : 35.04214
+  ? - LFTNMILE
+    - N1011AC3
+  : 17.52107
+  ? - LF1011C1
+    - N1011AC3
+  : 30
+  ? - LF1011C2
+    - N1011AC3
+  : 30
+  ? - NOPTCLE0
+    - N1011AC3
+  : 2
+  ? - CONTBOS3
+    - N1011AC3
+  : 1
+  ? - CONTORD3
+    - N1011AC3
   : -1
   ? - ACOCOSTS
-    - N1004AC2
-  : 1.64736
-  ? - MSBOSLGA
-    - N1013AC2
-  : 1
-  ? - LFTNMILE
-    - N1014AC4
-  : 4.520445
-  ? - LFRPMASM
-    - PORDBOS4
-  : -0.91637
-  ? - LFRPMASM
-    - PLGACLE2
-  : -0.41715
+    - N1011AC4
+  : 2.34647
   ? - OBJECTIV
-    - PCLEORD1
-  : -0.035
+    - N1011AC4
+  : 2.34647
+  ? - FUELAVAL
+    - N1011AC4
+  : 2.3665
   ? - SYSTDEPT
     - N1011AC4
   : 2
-  ? - DMBOSORD
-    - PBOSORD4
-  : 1
-  ? - REVENUES
-    - PLGABOS3
-  : 0.027
-  ? - LFRPMASM
-    - PCLEBOS4
-  : -1.23087
-  ? - MSCLEBOS
-    - N1010AC2
-  : 1
-  ? - FUELAVAL
-    - N1012AC4
-  : 1.14359
+  ? - ACMILES
+    - N1011AC4
+  : 0.87605
   ? - FLAV*4
-    - N1008AC4
+    - N1011AC4
+  : 27
+  ? - ATONMILE
+    - N1011AC4
+  : 13.1408
+  ? - LFTNMILE
+    - N1011AC4
+  : 6.5704
+  ? - LF1011C1
+    - N1011AC4
+  : 11.25
+  ? - LF1011C2
+    - N1011AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1011AC4
+  : 2
+  ? - CONTBOS4
+    - N1011AC4
+  : 1
+  ? - CONTORD4
+    - N1011AC4
+  : -1
+  ? - ACOCOSTS
+    - N1013AC2
+  : 2.36783
+  ? - OBJECTIV
+    - N1013AC2
+  : 2.36783
+  ? - FUELAVAL
+    - N1013AC2
+  : 3.16965
+  ? - SYSTDEPT
+    - N1013AC2
+  : 2
+  ? - ACMILES
+    - N1013AC2
+  : 0.91637
+  ? - ASMILES
+    - N1013AC2
+  : 120.04449
+  ? - LFRPMASM
+    - N1013AC2
+  : 72.026695
+  ? - FLAV*2
+    - N1013AC2
   : 2.65943
-  ? - PASSNGRS
-    - PLGACLE1
+  ? - LF1013S1
+    - N1013AC2
+  : 98
+  ? - LF1013S2
+    - N1013AC2
+  : 98
+  ? - CONTBOS2
+    - N1013AC2
+  : 1
+  ? - CONTORD2
+    - N1013AC2
+  : -1
+  ? - MSBOSLGA
+    - N1013AC2
+  : 1
+  ? - MSBOSORD
+    - N1013AC2
+  : 1
+  ? - MSLGAORD
+    - N1013AC2
+  : 1
+  ? - ACOCOSTS
+    - N1013AC4
+  : 1.90292
+  ? - OBJECTIV
+    - N1013AC4
+  : 1.90292
+  ? - FUELAVAL
+    - N1013AC4
+  : 2.4431
+  ? - SYSTDEPT
+    - N1013AC4
+  : 2
+  ? - ACMILES
+    - N1013AC4
+  : 0.91637
+  ? - FLAV*4
+    - N1013AC4
+  : 2.65943
+  ? - ATONMILE
+    - N1013AC4
+  : 13.74556
+  ? - LFTNMILE
+    - N1013AC4
+  : 6.87278
+  ? - LF1013C1
+    - N1013AC4
+  : 11.25
+  ? - LF1013C2
+    - N1013AC4
+  : 11.25
+  ? - CONTBOS4
+    - N1013AC4
+  : 1
+  ? - CONTORD4
+    - N1013AC4
+  : -1
+  ? - MCLGAORD
+    - N1013AC4
+  : 1
+  ? - ACOCOSTS
+    - N1015AC2
+  : 1.36416
+  ? - OBJECTIV
+    - N1015AC2
+  : 1.36416
+  ? - FUELAVAL
+    - N1015AC2
+  : 1.49045
+  ? - SYSTDEPT
+    - N1015AC2
+  : 1
+  ? - ACMILES
+    - N1015AC2
+  : 0.41715
+  ? - ASMILES
+    - N1015AC2
+  : 54.64705
+  ? - LFRPMASM
+    - N1015AC2
+  : 32.78823
+  ? - FLAV*2
+    - N1015AC2
+  : 1.25093
+  ? - LF1015S1
+    - N1015AC2
+  : 98
+  ? - NOPTCLE0
+    - N1015AC2
+  : 1
+  ? - CONTLGA2
+    - N1015AC2
+  : 1
+  ? - CONTCLE2
+    - N1015AC2
+  : -1
+  ? - MSLGACLE
+    - N1015AC2
+  : 1
+  ? - ACOCOSTS
+    - N1015AC4
+  : 1.14401
+  ? - OBJECTIV
+    - N1015AC4
+  : 1.14401
+  ? - FUELAVAL
+    - N1015AC4
+  : 1.14359
+  ? - SYSTDEPT
+    - N1015AC4
+  : 1
+  ? - ACMILES
+    - N1015AC4
+  : 0.41715
+  ? - FLAV*4
+    - N1015AC4
+  : 1.25093
+  ? - ATONMILE
+    - N1015AC4
+  : 6.25729
+  ? - LFTNMILE
+    - N1015AC4
+  : 3.128645
+  ? - LF1015C1
+    - N1015AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1015AC4
+  : 1
+  ? - CONTLGA4
+    - N1015AC4
+  : 1
+  ? - CONTCLE4
+    - N1015AC4
+  : -1
+  ? - ACOCOSTS
+    - N1017AC2
+  : 1.64736
+  ? - OBJECTIV
+    - N1017AC2
+  : 1.64736
+  ? - FUELAVAL
+    - N1017AC2
+  : 2.21183
+  ? - SYSTDEPT
+    - N1017AC2
+  : 1
+  ? - ACMILES
+    - N1017AC2
+  : 0.7308
+  ? - ASMILES
+    - N1017AC2
+  : 95.73444
+  ? - LFRPMASM
+    - N1017AC2
+  : 57.440662
+  ? - FLAV*2
+    - N1017AC2
+  : 1.85313
+  ? - LF1017S1
+    - N1017AC2
+  : 98
+  ? - CONTLGA2
+    - N1017AC2
+  : 1
+  ? - CONTORD2
+    - N1017AC2
+  : -1
+  ? - MSLGAORD
+    - N1017AC2
+  : 1
+  ? - ACOCOSTS
+    - N1017AC4
+  : 1.33312
+  ? - OBJECTIV
+    - N1017AC4
+  : 1.33312
+  ? - FUELAVAL
+    - N1017AC4
+  : 1.73951
+  ? - SYSTDEPT
+    - N1017AC4
+  : 1
+  ? - ACMILES
+    - N1017AC4
+  : 0.7308
+  ? - FLAV*4
+    - N1017AC4
+  : 1.85313
+  ? - ATONMILE
+    - N1017AC4
+  : 10.96196
+  ? - LFTNMILE
+    - N1017AC4
+  : 5.48098
+  ? - LF1017C1
+    - N1017AC4
+  : 11.25
+  ? - CONTLGA4
+    - N1017AC4
+  : 1
+  ? - CONTORD4
+    - N1017AC4
+  : -1
+  ? - MCLGAORD
+    - N1017AC4
+  : 1
+  ? - ACOCOSTS
+    - N1019AC2
+  : 2.55381
+  ? - OBJECTIV
+    - N1019AC2
+  : 2.55381
+  ? - FUELAVAL
+    - N1019AC2
+  : 2.7448
+  ? - SYSTDEPT
+    - N1019AC2
+  : 2
+  ? - ACMILES
+    - N1019AC2
+  : 0.73165
+  ? - ASMILES
+    - N1019AC2
+  : 95.8463
+  ? - LFRPMASM
+    - N1019AC2
+  : 57.50778
+  ? - FLAV*2
+    - N1019AC2
+  : 2.30477
+  ? - LF1019S1
+    - N1019AC2
+  : 98
+  ? - LF1019S2
+    - N1019AC2
+  : 98
+  ? - NOPTCLE0
+    - N1019AC2
+  : 2
+  ? - CONTLGA2
+    - N1019AC2
   : 1
   ? - CONTORD2
     - N1019AC2
   : -1
-  ? - CONTORD3
-    - N1011AC3
-  : -1
-  ? - ATONMILE
-    - N1005AC3
-  : 22.4622
-  ? - ACOCOSTS
-    - N1008AC2
-  : 2.36783
-  ? - REVENUES
-    - PLGAORD2
-  : 0.068
-  ? - DCORDLGA
-    - CORDLGA2
+  ? - MSLGACLE
+    - N1019AC2
   : 1
+  ? - MSLGAORD
+    - N1019AC2
+  : 1
+  ? - MSCLEORD
+    - N1019AC2
+  : 1
+  ? - ACOCOSTS
+    - N1019AC4
+  : 2.14431
   ? - OBJECTIV
-    - PORDCLE1
-  : -0.035
+    - N1019AC4
+  : 2.14431
+  ? - FUELAVAL
+    - N1019AC4
+  : 2.09214
+  ? - SYSTDEPT
+    - N1019AC4
+  : 2
+  ? - ACMILES
+    - N1019AC4
+  : 0.73165
+  ? - FLAV*4
+    - N1019AC4
+  : 2.30477
+  ? - ATONMILE
+    - N1019AC4
+  : 10.97477
+  ? - LFTNMILE
+    - N1019AC4
+  : 5.487385
+  ? - LF1019C1
+    - N1019AC4
+  : 11.25
+  ? - LF1019C2
+    - N1019AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1019AC4
+  : 2
+  ? - CONTLGA4
+    - N1019AC4
+  : 1
+  ? - CONTORD4
+    - N1019AC4
+  : -1
+  ? - MCLGAORD
+    - N1019AC4
+  : 1
+  ? - ACOCOSTS
+    - N1021AC1
+  : 3.12679
+  ? - OBJECTIV
+    - N1021AC1
+  : 3.12679
+  ? - FUELAVAL
+    - N1021AC1
+  : 4.07994
+  ? - SYSTDEPT
+    - N1021AC1
+  : 1
+  ? - ACMILES
+    - N1021AC1
+  : 0.3145
+  ? - ASMILES
+    - N1021AC1
+  : 128.00075
+  ? - LFRPMASM
+    - N1021AC1
+  : 76.80045
+  ? - FLAV*1
+    - N1021AC1
+  : 1.34295
+  ? - ATONMILE
+    - N1021AC1
+  : 9.43495
+  ? - LFTNMILE
+    - N1021AC1
+  : 4.717475
+  ? - LF1021S1
+    - N1021AC1
+  : 305
+  ? - LF1021B1
+    - N1021AC1
+  : 12
+  ? - NOPTCLE0
+    - N1021AC1
+  : 1
+  ? - CONTCLE1
+    - N1021AC1
+  : 1
+  ? - CONTORD1
+    - N1021AC1
+  : -1
+  ? - MSCLEORD
+    - N1021AC1
+  : 1
+  ? - ACOCOSTS
+    - N1021AC2
+  : 1.18965
+  ? - OBJECTIV
+    - N1021AC2
+  : 1.18965
+  ? - FUELAVAL
+    - N1021AC2
+  : 1.25435
+  ? - SYSTDEPT
+    - N1021AC2
+  : 1
+  ? - ACMILES
+    - N1021AC2
+  : 0.3145
+  ? - ASMILES
+    - N1021AC2
+  : 41.19926
+  ? - LFRPMASM
+    - N1021AC2
+  : 24.719557
+  ? - FLAV*2
+    - N1021AC2
+  : 1.05384
+  ? - LF1021S1
+    - N1021AC2
+  : 98
+  ? - NOPTCLE0
+    - N1021AC2
+  : 1
+  ? - CONTCLE2
+    - N1021AC2
+  : 1
+  ? - CONTORD2
+    - N1021AC2
+  : -1
+  ? - MSCLEORD
+    - N1021AC2
+  : 1
+  ? - ACOCOSTS
+    - N1021AC3
+  : 1.42472
+  ? - OBJECTIV
+    - N1021AC3
+  : 1.42472
+  ? - FUELAVAL
+    - N1021AC3
+  : 1.55704
+  ? - SYSTDEPT
+    - N1021AC3
+  : 1
+  ? - ACMILES
+    - N1021AC3
+  : 0.3145
+  ? - FLAV*3
+    - N1021AC3
+  : 1.05384
+  ? - ATONMILE
+    - N1021AC3
+  : 12.57993
+  ? - LFTNMILE
+    - N1021AC3
+  : 6.289965
+  ? - LF1021C1
+    - N1021AC3
+  : 30
+  ? - NOPTCLE0
+    - N1021AC3
+  : 1
+  ? - CONTCLE3
+    - N1021AC3
+  : 1
+  ? - CONTORD3
+    - N1021AC3
+  : -1
+  ? - ACOCOSTS
+    - N1021AC4
+  : 1.0003
+  ? - OBJECTIV
+    - N1021AC4
+  : 1.0003
+  ? - FUELAVAL
+    - N1021AC4
+  : 0.94855
+  ? - SYSTDEPT
+    - N1021AC4
+  : 1
+  ? - ACMILES
+    - N1021AC4
+  : 0.3145
+  ? - FLAV*4
+    - N1021AC4
+  : 1.05384
+  ? - ATONMILE
+    - N1021AC4
+  : 4.71747
+  ? - LFTNMILE
+    - N1021AC4
+  : 2.358735
+  ? - LF1021C1
+    - N1021AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1021AC4
+  : 1
+  ? - CONTCLE4
+    - N1021AC4
+  : 1
+  ? - CONTORD4
+    - N1021AC4
+  : -1
+  ? - ACOCOSTS
+    - N1002AC1
+  : 3.12679
+  ? - OBJECTIV
+    - N1002AC1
+  : 3.12679
+  ? - FUELAVAL
+    - N1002AC1
+  : 4.07994
   ? - SYSTDEPT
     - N1002AC1
   : 1
-  ? - RTONMILE
-    - CBOSORD4
-  : 0.87605
+  ? - ACMILES
+    - N1002AC1
+  : 0.3145
+  ? - ASMILES
+    - N1002AC1
+  : 128.00075
+  ? - LFRPMASM
+    - N1002AC1
+  : 76.80045
+  ? - FLAV*1
+    - N1002AC1
+  : 1.34295
+  ? - ATONMILE
+    - N1002AC1
+  : 9.43495
+  ? - LFTNMILE
+    - N1002AC1
+  : 4.717475
+  ? - LF1002S1
+    - N1002AC1
+  : 305
+  ? - LF1002B1
+    - N1002AC1
+  : 12
+  ? - NOPTCLE0
+    - N1002AC1
+  : 1
+  ? - CONTORD1
+    - N1002AC1
+  : 1
+  ? - CONTCLE1
+    - N1002AC1
+  : -1
+  ? - MSORDCLE
+    - N1002AC1
+  : 1
+  ? - ACOCOSTS
+    - N1002AC2
+  : 1.18965
+  ? - OBJECTIV
+    - N1002AC2
+  : 1.18965
+  ? - FUELAVAL
+    - N1002AC2
+  : 1.25435
+  ? - SYSTDEPT
+    - N1002AC2
+  : 1
+  ? - ACMILES
+    - N1002AC2
+  : 0.3145
+  ? - ASMILES
+    - N1002AC2
+  : 41.19926
+  ? - LFRPMASM
+    - N1002AC2
+  : 24.719557
+  ? - FLAV*2
+    - N1002AC2
+  : 1.05384
+  ? - LF1002S1
+    - N1002AC2
+  : 98
+  ? - NOPTCLE0
+    - N1002AC2
+  : 1
+  ? - CONTORD2
+    - N1002AC2
+  : 1
+  ? - CONTCLE2
+    - N1002AC2
+  : -1
+  ? - MSORDCLE
+    - N1002AC2
+  : 1
+  ? - ACOCOSTS
+    - N1002AC3
+  : 1.42472
+  ? - OBJECTIV
+    - N1002AC3
+  : 1.42472
+  ? - FUELAVAL
+    - N1002AC3
+  : 1.55704
+  ? - SYSTDEPT
+    - N1002AC3
+  : 1
+  ? - ACMILES
+    - N1002AC3
+  : 0.3145
+  ? - FLAV*3
+    - N1002AC3
+  : 1.05384
+  ? - ATONMILE
+    - N1002AC3
+  : 12.57993
+  ? - LFTNMILE
+    - N1002AC3
+  : 6.289965
+  ? - LF1002C1
+    - N1002AC3
+  : 30
+  ? - NOPTCLE0
+    - N1002AC3
+  : 1
+  ? - CONTORD3
+    - N1002AC3
+  : 1
+  ? - CONTCLE3
+    - N1002AC3
+  : -1
+  ? - ACOCOSTS
+    - N1002AC4
+  : 1.0003
+  ? - OBJECTIV
+    - N1002AC4
+  : 1.0003
+  ? - FUELAVAL
+    - N1002AC4
+  : 0.94855
   ? - SYSTDEPT
     - N1002AC4
   : 1
-  ? - LF1005S1
-    - PBOSCLE0
+  ? - ACMILES
+    - N1002AC4
+  : 0.3145
+  ? - FLAV*4
+    - N1002AC4
+  : 1.05384
+  ? - ATONMILE
+    - N1002AC4
+  : 4.71747
+  ? - LFTNMILE
+    - N1002AC4
+  : 2.358735
+  ? - LF1002C1
+    - N1002AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1002AC4
+  : 1
+  ? - CONTORD4
+    - N1002AC4
+  : 1
+  ? - CONTCLE4
+    - N1002AC4
+  : -1
+  ? - ACOCOSTS
+    - N1004AC2
+  : 1.64736
+  ? - OBJECTIV
+    - N1004AC2
+  : 1.64736
+  ? - FUELAVAL
+    - N1004AC2
+  : 2.21183
+  ? - SYSTDEPT
+    - N1004AC2
+  : 1
+  ? - ACMILES
+    - N1004AC2
+  : 0.7308
+  ? - ASMILES
+    - N1004AC2
+  : 95.73444
+  ? - LFRPMASM
+    - N1004AC2
+  : 57.440662
+  ? - FLAV*2
+    - N1004AC2
+  : 1.85313
+  ? - LF1004S1
+    - N1004AC2
+  : 98
+  ? - CONTORD2
+    - N1004AC2
+  : 1
+  ? - CONTLGA2
+    - N1004AC2
+  : -1
+  ? - MSORDLGA
+    - N1004AC2
+  : 1
+  ? - ACOCOSTS
+    - N1004AC4
+  : 1.33312
+  ? - OBJECTIV
+    - N1004AC4
+  : 1.33312
+  ? - FUELAVAL
+    - N1004AC4
+  : 1.73951
+  ? - SYSTDEPT
+    - N1004AC4
+  : 1
+  ? - ACMILES
+    - N1004AC4
+  : 0.7308
+  ? - FLAV*4
+    - N1004AC4
+  : 1.85313
+  ? - ATONMILE
+    - N1004AC4
+  : 10.96196
+  ? - LFTNMILE
+    - N1004AC4
+  : 5.48098
+  ? - LF1004C1
+    - N1004AC4
+  : 11.25
+  ? - CONTORD4
+    - N1004AC4
+  : 1
+  ? - CONTLGA4
+    - N1004AC4
+  : -1
+  ? - ACOCOSTS
+    - N1006AC1
+  : 7.17016
+  ? - OBJECTIV
+    - N1006AC1
+  : 7.17016
+  ? - FUELAVAL
+    - N1006AC1
+  : 9.91398
+  ? - SYSTDEPT
+    - N1006AC1
+  : 2
+  ? - ACMILES
+    - N1006AC1
+  : 0.87605
+  ? - ASMILES
+    - N1006AC1
+  : 356.5537
+  ? - LFRPMASM
+    - N1006AC1
+  : 213.93222
+  ? - FLAV*1
+    - N1006AC1
+  : 3.12813
+  ? - ATONMILE
+    - N1006AC1
+  : 26.2816
+  ? - LFTNMILE
+    - N1006AC1
+  : 13.1408
+  ? - LF1006S1
+    - N1006AC1
+  : 305
+  ? - LF1006S2
+    - N1006AC1
+  : 305
+  ? - LF1006B1
+    - N1006AC1
+  : 12
+  ? - LF1006B2
+    - N1006AC1
+  : 12
+  ? - NOPTCLE0
+    - N1006AC1
+  : 2
+  ? - CONTORD1
+    - N1006AC1
+  : 1
+  ? - CONTBOS1
+    - N1006AC1
+  : -1
+  ? - MSORDCLE
+    - N1006AC1
+  : 1
+  ? - MSORDBOS
+    - N1006AC1
+  : 1
+  ? - MSCLEBOS
+    - N1006AC1
+  : 1
+  ? - ACOCOSTS
+    - N1006AC2
+  : 2.79929
+  ? - OBJECTIV
+    - N1006AC2
+  : 2.79929
+  ? - FUELAVAL
+    - N1006AC2
+  : 3.07692
+  ? - SYSTDEPT
+    - N1006AC2
+  : 2
+  ? - ACMILES
+    - N1006AC2
+  : 0.87605
+  ? - ASMILES
+    - N1006AC2
+  : 114.76299
+  ? - LFRPMASM
+    - N1006AC2
+  : 68.857796
+  ? - FLAV*2
+    - N1006AC2
+  : 2.58202
+  ? - LF1006S1
+    - N1006AC2
+  : 98
+  ? - LF1006S2
+    - N1006AC2
+  : 98
+  ? - NOPTCLE0
+    - N1006AC2
+  : 2
+  ? - CONTORD2
+    - N1006AC2
+  : 1
+  ? - CONTBOS2
+    - N1006AC2
+  : -1
+  ? - MSORDCLE
+    - N1006AC2
+  : 1
+  ? - MSORDBOS
+    - N1006AC2
+  : 1
+  ? - MSCLEBOS
+    - N1006AC2
+  : 1
+  ? - ACOCOSTS
+    - N1006AC3
+  : 3.35591
+  ? - OBJECTIV
+    - N1006AC3
+  : 3.35591
+  ? - FUELAVAL
+    - N1006AC3
+  : 3.83055
+  ? - SYSTDEPT
+    - N1006AC3
+  : 2
+  ? - ACMILES
+    - N1006AC3
+  : 0.87605
+  ? - FLAV*3
+    - N1006AC3
+  : 2.58202
+  ? - ATONMILE
+    - N1006AC3
+  : 35.04214
+  ? - LFTNMILE
+    - N1006AC3
+  : 17.52107
+  ? - LF1006C1
+    - N1006AC3
+  : 30
+  ? - LF1006C2
+    - N1006AC3
+  : 30
+  ? - NOPTCLE0
+    - N1006AC3
+  : 2
+  ? - CONTORD3
+    - N1006AC3
+  : 1
+  ? - CONTBOS3
+    - N1006AC3
+  : -1
+  ? - MCORDBOS
+    - N1006AC3
+  : 1
+  ? - ACOCOSTS
+    - N1006AC4
+  : 2.34647
+  ? - OBJECTIV
+    - N1006AC4
+  : 2.34647
+  ? - FUELAVAL
+    - N1006AC4
+  : 2.3665
+  ? - SYSTDEPT
+    - N1006AC4
+  : 2
+  ? - ACMILES
+    - N1006AC4
+  : 0.87605
+  ? - FLAV*4
+    - N1006AC4
+  : 2.58202
+  ? - ATONMILE
+    - N1006AC4
+  : 13.1408
+  ? - LFTNMILE
+    - N1006AC4
+  : 6.5704
+  ? - LF1006C1
+    - N1006AC4
+  : 11.25
+  ? - LF1006C2
+    - N1006AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1006AC4
+  : 2
+  ? - CONTORD4
+    - N1006AC4
+  : 1
+  ? - CONTBOS4
+    - N1006AC4
+  : -1
+  ? - MCORDBOS
+    - N1006AC4
+  : 1
+  ? - ACOCOSTS
+    - N1008AC2
+  : 2.36783
+  ? - OBJECTIV
+    - N1008AC2
+  : 2.36783
+  ? - FUELAVAL
+    - N1008AC2
+  : 3.16965
+  ? - SYSTDEPT
+    - N1008AC2
+  : 2
+  ? - ACMILES
+    - N1008AC2
+  : 0.91637
+  ? - ASMILES
+    - N1008AC2
+  : 120.04449
+  ? - LFRPMASM
+    - N1008AC2
+  : 72.026695
+  ? - FLAV*2
+    - N1008AC2
+  : 2.65943
+  ? - LF1008S1
+    - N1008AC2
+  : 98
+  ? - LF1008S2
+    - N1008AC2
+  : 98
+  ? - CONTORD2
+    - N1008AC2
+  : 1
+  ? - CONTBOS2
+    - N1008AC2
+  : -1
+  ? - MSORDLGA
+    - N1008AC2
+  : 1
+  ? - MSORDBOS
+    - N1008AC2
+  : 1
+  ? - MSLGABOS
+    - N1008AC2
+  : 1
+  ? - ACOCOSTS
+    - N1008AC4
+  : 1.90292
+  ? - OBJECTIV
+    - N1008AC4
+  : 1.90292
+  ? - FUELAVAL
+    - N1008AC4
+  : 2.4431
+  ? - SYSTDEPT
+    - N1008AC4
+  : 2
+  ? - ACMILES
+    - N1008AC4
+  : 0.91637
+  ? - FLAV*4
+    - N1008AC4
+  : 2.65943
+  ? - ATONMILE
+    - N1008AC4
+  : 13.74556
+  ? - LFTNMILE
+    - N1008AC4
+  : 6.87278
+  ? - LF1008C1
+    - N1008AC4
+  : 11.25
+  ? - LF1008C2
+    - N1008AC4
+  : 11.25
+  ? - CONTORD4
+    - N1008AC4
+  : 1
+  ? - CONTBOS4
+    - N1008AC4
+  : -1
+  ? - MCORDBOS
+    - N1008AC4
+  : 1
+  ? - ACOCOSTS
+    - N1010AC2
+  : 3.27428
+  ? - OBJECTIV
+    - N1010AC2
+  : 3.27428
+  ? - FUELAVAL
+    - N1010AC2
+  : 3.70262
+  ? - SYSTDEPT
+    - N1010AC2
+  : 3
+  ? - ACMILES
+    - N1010AC2
+  : 0.91722
+  ? - ASMILES
+    - N1010AC2
+  : 120.15637
+  ? - LFRPMASM
+    - N1010AC2
+  : 72.09382
+  ? - FLAV*2
+    - N1010AC2
+  : 3.11107
+  ? - LF1010S1
+    - N1010AC2
+  : 98
+  ? - LF1010S2
+    - N1010AC2
+  : 98
+  ? - LF1010S3
+    - N1010AC2
+  : 98
+  ? - NOPTCLE0
+    - N1010AC2
+  : 2
+  ? - CONTORD2
+    - N1010AC2
+  : 1
+  ? - CONTBOS2
+    - N1010AC2
+  : -1
+  ? - MSORDCLE
+    - N1010AC2
+  : 1
+  ? - MSORDLGA
+    - N1010AC2
+  : 1
+  ? - MSORDBOS
+    - N1010AC2
+  : 1
+  ? - MSCLELGA
+    - N1010AC2
+  : 1
+  ? - MSCLEBOS
+    - N1010AC2
+  : 1
+  ? - MSLGABOS
+    - N1010AC2
+  : 1
+  ? - ACOCOSTS
+    - N1010AC4
+  : 2.71411
+  ? - OBJECTIV
+    - N1010AC4
+  : 2.71411
+  ? - FUELAVAL
+    - N1010AC4
+  : 2.79573
+  ? - SYSTDEPT
+    - N1010AC4
+  : 3
+  ? - ACMILES
+    - N1010AC4
+  : 0.91722
+  ? - FLAV*4
+    - N1010AC4
+  : 3.11107
+  ? - ATONMILE
+    - N1010AC4
+  : 13.75836
+  ? - LFTNMILE
+    - N1010AC4
+  : 6.87918
+  ? - LF1010C1
+    - N1010AC4
+  : 11.25
+  ? - LF1010C2
+    - N1010AC4
+  : 11.25
+  ? - LF1010C3
+    - N1010AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1010AC4
+  : 2
+  ? - CONTORD4
+    - N1010AC4
+  : 1
+  ? - CONTBOS4
+    - N1010AC4
+  : -1
+  ? - MCORDBOS
+    - N1010AC4
+  : 1
+  ? - ACOCOSTS
+    - N1012AC2
+  : 1.36416
+  ? - OBJECTIV
+    - N1012AC2
+  : 1.36416
+  ? - FUELAVAL
+    - N1012AC2
+  : 1.49045
+  ? - SYSTDEPT
+    - N1012AC2
+  : 1
+  ? - ACMILES
+    - N1012AC2
+  : 0.41715
+  ? - ASMILES
+    - N1012AC2
+  : 54.64705
+  ? - LFRPMASM
+    - N1012AC2
+  : 32.78823
+  ? - FLAV*2
+    - N1012AC2
+  : 1.25093
+  ? - LF1012S1
+    - N1012AC2
+  : 98
+  ? - NOPTCLE0
+    - N1012AC2
+  : 1
+  ? - CONTCLE2
+    - N1012AC2
+  : 1
+  ? - CONTLGA2
+    - N1012AC2
+  : -1
+  ? - MSCLELGA
+    - N1012AC2
+  : 1
+  ? - ACOCOSTS
+    - N1012AC4
+  : 1.14401
+  ? - OBJECTIV
+    - N1012AC4
+  : 1.14401
+  ? - FUELAVAL
+    - N1012AC4
+  : 1.14359
+  ? - SYSTDEPT
+    - N1012AC4
+  : 1
+  ? - ACMILES
+    - N1012AC4
+  : 0.41715
+  ? - FLAV*4
+    - N1012AC4
+  : 1.25093
+  ? - ATONMILE
+    - N1012AC4
+  : 6.25729
+  ? - LFTNMILE
+    - N1012AC4
+  : 3.128645
+  ? - LF1012C1
+    - N1012AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1012AC4
+  : 1
+  ? - CONTCLE4
+    - N1012AC4
+  : 1
+  ? - CONTLGA4
+    - N1012AC4
+  : -1
+  ? - ACOCOSTS
+    - N1014AC2
+  : 2.08463
+  ? - OBJECTIV
+    - N1014AC2
+  : 2.08463
+  ? - FUELAVAL
+    - N1014AC2
+  : 2.44827
+  ? - SYSTDEPT
+    - N1014AC2
+  : 2
+  ? - ACMILES
+    - N1014AC2
+  : 0.60273
+  ? - ASMILES
+    - N1014AC2
+  : 78.95706
+  ? - LFRPMASM
+    - N1014AC2
+  : 47.374237
+  ? - FLAV*2
+    - N1014AC2
+  : 2.05723
+  ? - LF1014S1
+    - N1014AC2
+  : 98
+  ? - LF1014S2
+    - N1014AC2
+  : 98
+  ? - NOPTCLE0
+    - N1014AC2
+  : 1
+  ? - CONTCLE2
+    - N1014AC2
+  : 1
+  ? - CONTBOS2
+    - N1014AC2
+  : -1
+  ? - MSCLELGA
+    - N1014AC2
+  : 1
+  ? - MSCLEBOS
+    - N1014AC2
+  : 1
+  ? - MSLGABOS
+    - N1014AC2
+  : 1
+  ? - ACOCOSTS
+    - N1014AC4
+  : 1.71382
+  ? - OBJECTIV
+    - N1014AC4
+  : 1.71382
+  ? - FUELAVAL
+    - N1014AC4
+  : 1.84718
+  ? - SYSTDEPT
+    - N1014AC4
+  : 2
+  ? - ACMILES
+    - N1014AC4
+  : 0.60273
+  ? - FLAV*4
+    - N1014AC4
+  : 2.05723
+  ? - ATONMILE
+    - N1014AC4
+  : 9.04089
+  ? - LFTNMILE
+    - N1014AC4
+  : 4.520445
+  ? - LF1014C1
+    - N1014AC4
+  : 11.25
+  ? - LF1014C2
+    - N1014AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1014AC4
+  : 1
+  ? - CONTCLE4
+    - N1014AC4
+  : 1
+  ? - CONTBOS4
+    - N1014AC4
+  : -1
+  ? - ACOCOSTS
+    - N1100AC2
+  : 6.07357
+  ? - OBJECTIV
+    - N1100AC2
+  : 6.07357
+  ? - FUELAVAL
+    - N1100AC2
+  : 6.77953
+  ? - SYSTDEPT
+    - N1100AC2
+  : 5
+  ? - ACMILES
+    - N1100AC2
+  : 1.79328
+  ? - ASMILES
+    - N1100AC2
+  : 234.91937
+  ? - LFRPMASM
+    - N1100AC2
+  : 140.95161
+  ? - FLAV*2
+    - N1100AC2
+  : 5.69309
+  ? - LF1100S1
+    - N1100AC2
+  : 98
+  ? - LF1100S2
+    - N1100AC2
+  : 98
+  ? - LF1100S3
+    - N1100AC2
+  : 98
+  ? - LF1100S4
+    - N1100AC2
+  : 98
+  ? - LF1100S5
+    - N1100AC2
+  : 98
+  ? - NOPTCLE0
+    - N1100AC2
+  : 4
+  ? - MSBOSLGA
+    - N1100AC2
+  : 1
+  ? - MSBOSCLE
+    - N1100AC2
+  : 1
+  ? - MSBOSORD
+    - N1100AC2
+  : 1
+  ? - MSLGACLE
+    - N1100AC2
+  : 1
+  ? - MSLGAORD
+    - N1100AC2
+  : 1
+  ? - MSLGABOS
+    - N1100AC2
+  : 1
+  ? - MSCLEORD
+    - N1100AC2
+  : 1
+  ? - MSORDCLE
+    - N1100AC2
+  : 1
+  ? - MSORDBOS
+    - N1100AC2
+  : 1
+  ? - MSCLEBOS
+    - N1100AC2
+  : 1
+  ? - ACOCOSTS
+    - N1100AC4
+  : 5.06059
+  ? - OBJECTIV
+    - N1100AC4
+  : 5.06059
+  ? - FUELAVAL
+    - N1100AC4
+  : 5.16223
+  ? - SYSTDEPT
+    - N1100AC4
+  : 5
+  ? - ACMILES
+    - N1100AC4
+  : 1.79328
+  ? - FLAV*4
+    - N1100AC4
+  : 5.69309
+  ? - ATONMILE
+    - N1100AC4
+  : 26.89915
+  ? - LFTNMILE
+    - N1100AC4
+  : 13.449575
+  ? - LF1100C1
+    - N1100AC4
+  : 11.25
+  ? - LF1100C2
+    - N1100AC4
+  : 11.25
+  ? - LF1100C3
+    - N1100AC4
+  : 11.25
+  ? - LF1100C4
+    - N1100AC4
+  : 11.25
+  ? - LF1100C5
+    - N1100AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1100AC4
+  : 4
+  ? - MCLGAORD
+    - N1100AC4
+  : 1
+  ? - MCORDBOS
+    - N1100AC4
+  : 1
+  ? - ACOCOSTS
+    - N1102AC2
+  : 5.16712
+  ? - OBJECTIV
+    - N1102AC2
+  : 5.16712
+  ? - FUELAVAL
+    - N1102AC2
+  : 6.24657
+  ? - SYSTDEPT
+    - N1102AC2
+  : 4
+  ? - ACMILES
+    - N1102AC2
+  : 1.79242
+  ? - ASMILES
+    - N1102AC2
+  : 234.80756
+  ? - LFRPMASM
+    - N1102AC2
+  : 140.88454
+  ? - FLAV*2
+    - N1102AC2
+  : 5.24145
+  ? - LF1102S1
+    - N1102AC2
+  : 98
+  ? - LF1102S2
+    - N1102AC2
+  : 98
+  ? - LF1102S3
+    - N1102AC2
+  : 98
+  ? - LF1102S4
+    - N1102AC2
+  : 98
+  ? - NOPTCLE0
+    - N1102AC2
+  : 2
+  ? - MSBOSCLE
+    - N1102AC2
+  : 1
+  ? - MSBOSORD
+    - N1102AC2
+  : 1
+  ? - MSBOSLGA
+    - N1102AC2
+  : 1
+  ? - MSCLEORD
+    - N1102AC2
+  : 1
+  ? - MSCLELGA
+    - N1102AC2
+  : 1
+  ? - MSCLEBOS
+    - N1102AC2
+  : 1
+  ? - MSORDLGA
+    - N1102AC2
+  : 1
+  ? - MSORDBOS
+    - N1102AC2
+  : 1
+  ? - MSLGABOS
+    - N1102AC2
+  : 1
+  ? - ACOCOSTS
+    - N1102AC4
+  : 4.24939
+  ? - OBJECTIV
+    - N1102AC4
+  : 4.24939
+  ? - FUELAVAL
+    - N1102AC4
+  : 4.8096
+  ? - SYSTDEPT
+    - N1102AC4
+  : 4
+  ? - ACMILES
+    - N1102AC4
+  : 1.79242
+  ? - FLAV*4
+    - N1102AC4
+  : 5.24145
+  ? - ATONMILE
+    - N1102AC4
+  : 26.88635
+  ? - LFTNMILE
+    - N1102AC4
+  : 13.443175
+  ? - LF1102C1
+    - N1102AC4
+  : 11.25
+  ? - LF1102C2
+    - N1102AC4
+  : 11.25
+  ? - LF1102C3
+    - N1102AC4
+  : 11.25
+  ? - LF1102C4
+    - N1102AC4
+  : 11.25
+  ? - NOPTCLE0
+    - N1102AC4
+  : 2
+  ? - MCORDBOS
+    - N1102AC4
+  : 1
+  ? - ACOCOSTS
+    - N1200AC2
+  : 0.72047
+  ? - OBJECTIV
+    - N1200AC2
+  : 0.72047
+  ? - FUELAVAL
+    - N1200AC2
+  : 0.95782
+  ? - SYSTDEPT
+    - N1200AC2
+  : 1
+  ? - ACMILES
+    - N1200AC2
+  : 0.18557
+  ? - ASMILES
+    - N1200AC2
+  : 24.31007
+  ? - LFRPMASM
+    - N1200AC2
+  : 14.586042
+  ? - FLAV*2
+    - N1200AC2
+  : 0.8063
+  ? - LF1200S1
+    - N1200AC2
+  : 98
+  ? - CONTBOS2
+    - N1200AC2
+  : 1
+  ? - CONTLGA2
+    - N1200AC2
+  : -1
+  ? - MSBOSLGA
+    - N1200AC2
+  : 1
+  ? - ACOCOSTS
+    - N1200AC4
+  : 0.5698
+  ? - OBJECTIV
+    - N1200AC4
+  : 0.5698
+  ? - FUELAVAL
+    - N1200AC4
+  : 0.70359
+  ? - SYSTDEPT
+    - N1200AC4
+  : 1
+  ? - ACMILES
+    - N1200AC4
+  : 0.18557
+  ? - FLAV*4
+    - N1200AC4
+  : 0.8063
+  ? - ATONMILE
+    - N1200AC4
+  : 2.7836
+  ? - LFTNMILE
+    - N1200AC4
+  : 1.3918
+  ? - LF1200C1
+    - N1200AC4
+  : 11.25
+  ? - CONTBOS4
+    - N1200AC4
+  : 1
+  ? - CONTLGA4
+    - N1200AC4
+  : -1
+  ? - ACOCOSTS
+    - N1201AC2
+  : 0.72047
+  ? - OBJECTIV
+    - N1201AC2
+  : 0.72047
+  ? - FUELAVAL
+    - N1201AC2
+  : 0.95782
+  ? - SYSTDEPT
+    - N1201AC2
+  : 1
+  ? - ACMILES
+    - N1201AC2
+  : 0.18557
+  ? - ASMILES
+    - N1201AC2
+  : 24.31007
+  ? - LFRPMASM
+    - N1201AC2
+  : 14.586042
+  ? - FLAV*2
+    - N1201AC2
+  : 0.8063
+  ? - LF1201S1
+    - N1201AC2
+  : 98
+  ? - CONTLGA2
+    - N1201AC2
+  : 1
+  ? - CONTBOS2
+    - N1201AC2
+  : -1
+  ? - MSLGABOS
+    - N1201AC2
+  : 1
+  ? - ACOCOSTS
+    - N1201AC4
+  : 0.5698
+  ? - OBJECTIV
+    - N1201AC4
+  : 0.5698
+  ? - FUELAVAL
+    - N1201AC4
+  : 0.70359
+  ? - SYSTDEPT
+    - N1201AC4
+  : 1
+  ? - ACMILES
+    - N1201AC4
+  : 0.18557
+  ? - FLAV*4
+    - N1201AC4
+  : 0.8063
+  ? - ATONMILE
+    - N1201AC4
+  : 2.7836
+  ? - LFTNMILE
+    - N1201AC4
+  : 1.3918
+  ? - LF1201C1
+    - N1201AC4
+  : 11.25
+  ? - CONTLGA4
+    - N1201AC4
+  : 1
+  ? - CONTBOS4
+    - N1201AC4
   : -1
 rhs:
   RHS1:
-    MSBOSORD: 3
-    NOPTCLE0: 24
-    MCORDBOS: 1
-    MSLGACLE: 4
+    FUELAVAL: 100000
+    PASSNGRS: 9431
+    SYSTDEPT: 50
     FLAV*1: 30
+    FLAV*2: 45
     DMBOSORD: 302
-    DMCLEBOS: 131
-    MSORDBOS: 3
-    DMCLEORD: 712
-    MSORDLGA: 4
+    DMBOSLGA: 2352
+    DMBOSCLE: 142
     DMORDBOS: 302
     DMORDLGA: 515
     DMORDCLE: 619
+    DMLGABOS: 2743
     DMLGAORD: 712
+    DMLGACLE: 517
+    DMCLEBOS: 131
+    DMCLEORD: 712
     DMCLELGA: 409
+    MSBOSORD: 3
     MSBOSLGA: 7
     MSBOSCLE: 1
+    MSORDBOS: 3
+    MSORDLGA: 4
+    MSORDCLE: 5
+    MSLGABOS: 7
+    MSLGAORD: 5
+    MSLGACLE: 4
+    MSCLEBOS: 1
+    MSCLEORD: 6
     MSCLELGA: 3
+    MCORDBOS: 1
+    MCLGAORD: 2
+    DCBOSORD: 12
+    DCBOSCLE: 16
+    DCORDBOS: 24
     DCORDLGA: 13
     DCLGAORD: 45
-    DCBOSORD: 12
-    MSLGAORD: 5
-    DMBOSLGA: 2352
-    DCBOSCLE: 16
-    DCCLELGA: 5
-    DMLGABOS: 2743
-    MCLGAORD: 2
-    MSORDCLE: 5
-    DMBOSCLE: 142
-    SYSTDEPT: 50
-    FUELAVAL: 100000
-    MSCLEBOS: 1
-    MSLGABOS: 7
     DCLGACLE: 16
-    MSCLEORD: 6
-    FLAV*2: 45
-    DCORDBOS: 24
-    PASSNGRS: 9431
-    DMLGACLE: 517
+    DCCLELGA: 5
+    NOPTCLE0: 24
 bounds:
   INTBOU:
-    ? - N1006AC1
-      - Up
-    : 7
-    ? - N1002AC2
-      - Up
-    : 7
-    ? - N1013AC4
-      - Up
-    : 2
-    ? - N1008AC2
-      - Up
-    : 14
-    ? - N1012AC2
-      - Up
-    : 7
-    ? - N1004AC4
-      - Up
-    : 2
-    ? - N1014AC4
-      - Up
-    : 2
-    ? - GRDTIMN4
-      - Up
-    : 0
-    ? - N1017AC4
-      - Up
-    : 2
-    ? - N1003AC1
-      - Up
-    : 7
-    ? - N1019AC4
-      - Up
-    : 2
-    ? - N1021AC1
-      - Up
-    : 7
-    ? - N1003AC3
-      - Up
-    : 2
-    ? - GRDTIMN3
+    ? - GRDTIMN1
       - Lo
-    : -45
-    ? - N1014AC2
-      - Up
-    : 14
-    ? - N1200AC2
-      - Up
-    : 14
-    ? - N1021AC4
-      - Up
-    : 2
-    ? - GRDTIMN2
-      - Lo
-    : -90
-    ? - N1005AC1
-      - Up
-    : 7
-    ? - N1004AC2
-      - Up
-    : 7
+    : -100
     ? - GRDTIMN1
       - Up
     : 0
-    ? - N1002AC3
-      - Up
-    : 2
-    ? - N1006AC3
-      - Up
-    : 2
-    ? - N1003AC4
-      - Up
-    : 2
-    ? - N1021AC2
-      - Up
-    : 7
-    ? - N1005AC2
-      - Up
-    : 7
-    ? - N1013AC2
-      - Up
-    : 14
-    ? - N1102AC4
-      - Up
-    : 7
-    ? - N1015AC2
-      - Up
-    : 7
-    ? - N1102AC2
-      - Up
-    : 7
+    ? - GRDTIMN2
+      - Lo
+    : -90
     ? - GRDTIMN2
       - Up
     : 0
-    ? - N1100AC4
+    ? - GRDTIMN3
+      - Lo
+    : -45
+    ? - GRDTIMN3
+      - Up
+    : 0
+    ? - GRDTIMN4
+      - Lo
+    : -45
+    ? - GRDTIMN4
+      - Up
+    : 0
+    ? - N1003AC1
       - Up
     : 7
     ? - N1003AC2
       - Up
     : 7
-    ? - N1002AC4
+    ? - N1003AC3
       - Up
     : 2
-    ? - N1201AC4
+    ? - N1003AC4
+      - Up
+    : 2
+    ? - N1005AC1
       - Up
     : 7
-    ? - N1006AC4
+    ? - N1005AC2
+      - Up
+    : 7
+    ? - N1005AC3
       - Up
     : 2
     ? - N1005AC4
       - Up
     : 2
-    ? - N1010AC4
-      - Up
-    : 2
-    ? - N1201AC2
-      - Up
-    : 14
-    ? - N1011AC4
-      - Up
-    : 2
-    ? - N1017AC2
-      - Up
-    : 7
-    ? - GRDTIMN4
-      - Lo
-    : -45
-    ? - N1021AC3
-      - Up
-    : 2
-    ? - N1005AC3
-      - Up
-    : 2
-    ? - N1006AC2
-      - Up
-    : 7
-    ? - N1200AC4
-      - Up
-    : 7
-    ? - N1019AC2
-      - Up
-    : 7
     ? - N1011AC1
       - Up
     : 7
@@ -4382,49 +4289,141 @@ bounds:
     ? - N1011AC3
       - Up
     : 2
-    ? - N1008AC4
+    ? - N1011AC4
       - Up
     : 2
-    ? - N1012AC4
+    ? - N1013AC2
+      - Up
+    : 14
+    ? - N1013AC4
       - Up
     : 2
-    ? - N1100AC2
+    ? - N1015AC2
       - Up
     : 7
+    ? - N1015AC4
+      - Up
+    : 2
+    ? - N1017AC2
+      - Up
+    : 7
+    ? - N1017AC4
+      - Up
+    : 2
+    ? - N1019AC2
+      - Up
+    : 7
+    ? - N1019AC4
+      - Up
+    : 2
+    ? - N1021AC1
+      - Up
+    : 7
+    ? - N1021AC2
+      - Up
+    : 7
+    ? - N1021AC3
+      - Up
+    : 2
+    ? - N1021AC4
+      - Up
+    : 2
     ? - N1002AC1
       - Up
     : 7
-    ? - GRDTIMN1
-      - Lo
-    : -100
-    ? - GRDTIMN3
+    ? - N1002AC2
       - Up
-    : 0
-    ? - N1015AC4
+    : 7
+    ? - N1002AC3
+      - Up
+    : 2
+    ? - N1002AC4
+      - Up
+    : 2
+    ? - N1004AC2
+      - Up
+    : 7
+    ? - N1004AC4
+      - Up
+    : 2
+    ? - N1006AC1
+      - Up
+    : 7
+    ? - N1006AC2
+      - Up
+    : 7
+    ? - N1006AC3
+      - Up
+    : 2
+    ? - N1006AC4
+      - Up
+    : 2
+    ? - N1008AC2
+      - Up
+    : 14
+    ? - N1008AC4
       - Up
     : 2
     ? - N1010AC2
       - Up
     : 14
+    ? - N1010AC4
+      - Up
+    : 2
+    ? - N1012AC2
+      - Up
+    : 7
+    ? - N1012AC4
+      - Up
+    : 2
+    ? - N1014AC2
+      - Up
+    : 14
+    ? - N1014AC4
+      - Up
+    : 2
+    ? - N1100AC2
+      - Up
+    : 7
+    ? - N1100AC4
+      - Up
+    : 7
+    ? - N1102AC2
+      - Up
+    : 7
+    ? - N1102AC4
+      - Up
+    : 7
+    ? - N1200AC2
+      - Up
+    : 14
+    ? - N1200AC4
+      - Up
+    : 7
+    ? - N1201AC2
+      - Up
+    : 14
+    ? - N1201AC4
+      - Up
+    : 7
 ranges:
   RANGE1:
-    DMBOSLGA: 471
-    DCBOSCLE: 3.2
-    DCCLELGA: 5
-    DMLGABOS: 549
     DMBOSORD: 61
-    DMCLEBOS: 27
+    DMBOSLGA: 471
     DMBOSCLE: 29
-    DMCLEORD: 143
     DMORDBOS: 61
     DMORDLGA: 103
     DMORDCLE: 124
+    DMLGABOS: 549
     DMLGAORD: 143
-    DMCLELGA: 82
-    DCLGAORD: 9
-    DCORDLGA: 2.6
-    DCLGACLE: 3.2
-    DCORDBOS: 4.8
-    DCBOSORD: 12
     DMLGACLE: 104
-
+    DMCLEBOS: 27
+    DMCLEORD: 143
+    DMCLELGA: 82
+    DCBOSORD: 12
+    DCBOSCLE: 3.2
+    DCORDBOS: 4.8
+    DCORDLGA: 2.6
+    DCLGAORD: 9
+    DCLGACLE: 3.2
+    DCCLELGA: 5

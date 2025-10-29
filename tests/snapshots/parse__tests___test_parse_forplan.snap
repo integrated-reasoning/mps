@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/forplan\"))?"
 ---
 name: FORPLAN  (FORPLAN1)
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Eq
     row_name: LC123
@@ -17966,4 +17969,11 @@ bounds:
     bound_name: BND-1
     column_name: A   83 2
     value: 0
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

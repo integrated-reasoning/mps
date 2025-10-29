@@ -4,3454 +4,3453 @@ expression: model
 ---
 name: VTP.BASE
 row_types:
-  LNP4..TD: Leq
-  LNP5..TA: Leq
-  LNP2..TF: Leq
-  B...G3TD: Eq
-  LMP2..TH: Leq
-  B...G4TG: Eq
-  R.P1..TB: Leq
-  R.P1..TE: Leq
-  LMP3..TF: Leq
-  R.P1..TD: Leq
-  R.P2..TH: Leq
-  B...G1TE: Eq
-  LNP3..TG: Leq
-  LMP3..TB: Leq
-  LBL1MXTC: Leq
-  LNP2..TC: Leq
-  R.P3..TG: Leq
-  LNP5..TB: Leq
-  FIP.....: Eq
-  BS.124TH: Geq
-  LMP5..TH: Leq
-  LMP5..TG: Leq
-  LSP3..TF: Leq
-  T.....TF: Eq
-  LMP4..TH: Leq
-  B...G3TE: Eq
-  B...G4TF: Eq
-  R.P4..TD: Leq
-  LNP3..TF: Leq
-  LMP4..TC: Leq
-  LBL1MNTF: Leq
-  LSP3..TH: Leq
-  LY....TA: Eq
-  R.P5..TF: Leq
-  R.P1..TH: Leq
-  BS.34.TH: Geq
-  LMP2..TE: Leq
-  LMP4..TB: Leq
   FIC.....: Eq
-  LMP1..TG: Leq
-  B...G2TF: Eq
-  LNP3..TE: Leq
-  LNP4..TB: Leq
-  LNP1..TF: Leq
-  R.P4..TH: Leq
-  LBL1MXTG: Leq
-  R.P2..TF: Leq
-  T.....TE: Eq
-  LNP2..TB: Leq
-  LY....TG: Eq
-  B...G2TD: Eq
-  LMP2..TA: Leq
-  B...G3TH: Eq
-  LMP2..TC: Leq
-  LNP2..TA: Leq
-  LNP4..TF: Leq
+  FIP.....: Eq
+  FOC.....: Eq
+  FPC.....: Eq
   FRP.....: Eq
-  LMP2..TD: Leq
   FSC.....: Eq
+  FAT...J.: Nr
+  B...G1TA: Eq
+  B...G2TA: Eq
+  B...G3TA: Eq
+  B...G4TA: Eq
+  LY....TA: Eq
+  T.....TA: Eq
+  B...G1TB: Eq
+  B...G2TB: Eq
+  B...G3TB: Eq
+  B...G4TB: Eq
+  LY....TB: Eq
   T.....TB: Eq
   B...G1TC: Eq
-  LSP3..TC: Leq
-  R.P3..TD: Leq
-  LMP4..TE: Leq
-  LNP1..TH: Leq
-  LMP5..TB: Leq
-  BS.123TH: Geq
-  LBL1MNTE: Leq
   B...G2TC: Eq
-  LMP1..TB: Leq
-  B...G1TA: Eq
-  LMP2..TF: Leq
-  B...G3TF: Eq
-  LMP2..TB: Leq
-  R.P1..TF: Leq
-  R.P2..TD: Leq
-  B...G3TA: Eq
-  B...G4TD: Eq
-  T.....TA: Eq
-  LNP2..TD: Leq
-  B...G1TH: Eq
-  LY....TF: Eq
-  LBL1MXTD: Leq
-  LNP1..TE: Leq
-  LNP3..TB: Leq
-  LMP3..TC: Leq
-  R.P3..TH: Leq
-  B...G2TH: Eq
-  R.P4..TF: Leq
-  LNP4..TG: Leq
-  LMP5..TA: Leq
-  LMP5..TD: Leq
-  B...G1TG: Eq
-  LNP5..TD: Leq
-  B...G2TA: Eq
-  LMP5..TE: Leq
-  LNP1..TD: Leq
-  LMP1..TA: Leq
-  LNP2..TH: Leq
-  LNP2..TG: Leq
-  LNP5..TF: Leq
-  BS.134TH: Geq
-  LBL1MNTC: Leq
-  R.P4..TE: Leq
-  BS.23.TH: Geq
-  LMP5..TF: Leq
-  LY....TB: Eq
-  LNP1..TC: Leq
-  LNP5..TE: Leq
-  B...G4TC: Eq
-  FPC.....: Eq
-  B...G2TE: Eq
-  R.P5..TB: Leq
-  R.P5..TE: Leq
-  LY....TE: Eq
-  T.....TC: Eq
-  T.....TG: Eq
-  T.....TD: Eq
-  LMP1..TD: Leq
-  BS.12.TH: Geq
-  LBL1MXTE: Leq
-  BS.13.TH: Geq
-  LMP2..TG: Leq
-  LMP3..TA: Leq
-  LNP3..TD: Leq
-  R.P3..TE: Leq
-  LNP3..TH: Leq
-  LNP5..TC: Leq
-  LNP1..TG: Leq
-  B...G4TA: Eq
-  R.P1..TC: Leq
-  LMP3..TE: Leq
-  LSP3..TE: Leq
-  LMP5..TC: Leq
-  R.P5..TD: Leq
-  B...G4TH: Eq
-  LSP3..TA: Leq
-  LBL1MXTF: Leq
-  R.P3..TB: Leq
-  R.P4..TB: Leq
-  FOC.....: Eq
-  R.P2..TE: Leq
-  BS.234TH: Geq
-  R.P4..TG: Leq
-  LNP5..TH: Leq
-  BS.14.TH: Geq
-  B...G2TB: Eq
-  B...G1TD: Eq
-  LMP1..TC: Leq
-  T.....TH: Eq
-  R.P2..TC: Leq
-  R.P3..TC: Leq
-  R.P3..TF: Leq
-  LMP1..TH: Leq
-  R.P1..TG: Leq
-  LBL1....: Eq
-  LMP1..TE: Leq
-  B...G1TB: Eq
-  LNP3..TC: Leq
-  LY....TH: Eq
-  LMP3..TD: Leq
-  LMP4..TA: Leq
-  BS.24.TH: Geq
-  LSP3..TB: Leq
-  LMP4..TD: Leq
-  LBL1MNTG: Leq
-  LNP4..TE: Leq
-  LMP4..TG: Leq
-  LNP2..TE: Leq
-  LY....TC: Eq
-  B...G3TG: Eq
-  LMP3..TG: Leq
-  R.P5..TC: Leq
-  LNP5..TG: Leq
-  FAT...J.: Nr
-  B...G2TG: Eq
-  B...G4TB: Eq
-  LSP3..TG: Leq
   B...G3TC: Eq
-  B...G4TE: Eq
-  R.P5..TG: Leq
-  LNP3..TA: Leq
-  R.P5..TH: Leq
-  R.P2..TB: Leq
-  LMP1..TF: Leq
-  B...G1TF: Eq
+  B...G4TC: Eq
+  LY....TC: Eq
+  T.....TC: Eq
+  B...G1TD: Eq
+  B...G2TD: Eq
+  B...G3TD: Eq
+  B...G4TD: Eq
   LY....TD: Eq
+  T.....TD: Eq
+  B...G1TE: Eq
+  B...G2TE: Eq
+  B...G3TE: Eq
+  B...G4TE: Eq
+  LY....TE: Eq
+  T.....TE: Eq
+  B...G1TF: Eq
+  B...G2TF: Eq
+  B...G3TF: Eq
+  B...G4TF: Eq
+  LY....TF: Eq
+  T.....TF: Eq
+  B...G1TG: Eq
+  B...G2TG: Eq
+  B...G3TG: Eq
+  B...G4TG: Eq
+  LY....TG: Eq
+  T.....TG: Eq
+  B...G1TH: Eq
+  B...G2TH: Eq
+  B...G3TH: Eq
+  B...G4TH: Eq
+  LY....TH: Eq
+  T.....TH: Eq
+  LBL1....: Eq
+  LMP1..TA: Leq
   LNP1..TA: Leq
-  B...G3TB: Eq
+  LMP1..TB: Leq
   LNP1..TB: Leq
-  LMP3..TH: Leq
+  R.P1..TB: Leq
+  LMP1..TC: Leq
+  LNP1..TC: Leq
+  LBL1MNTC: Leq
+  LBL1MXTC: Leq
+  R.P1..TC: Leq
+  LMP1..TD: Leq
+  LNP1..TD: Leq
   LBL1MNTD: Leq
+  LBL1MXTD: Leq
+  R.P1..TD: Leq
+  LMP1..TE: Leq
+  LNP1..TE: Leq
+  LBL1MNTE: Leq
+  LBL1MXTE: Leq
+  R.P1..TE: Leq
+  LMP1..TF: Leq
+  LNP1..TF: Leq
+  LBL1MNTF: Leq
+  LBL1MXTF: Leq
+  R.P1..TF: Leq
+  LMP1..TG: Leq
+  LNP1..TG: Leq
+  LBL1MNTG: Leq
+  LBL1MXTG: Leq
+  R.P1..TG: Leq
+  BS.12.TH: Geq
+  BS.123TH: Geq
+  BS.124TH: Geq
+  BS.13.TH: Geq
+  BS.134TH: Geq
+  BS.14.TH: Geq
+  LMP1..TH: Leq
+  LNP1..TH: Leq
+  R.P1..TH: Leq
+  LMP2..TA: Leq
+  LNP2..TA: Leq
+  LMP2..TB: Leq
+  LNP2..TB: Leq
+  R.P2..TB: Leq
+  LMP2..TC: Leq
+  LNP2..TC: Leq
+  R.P2..TC: Leq
+  LMP2..TD: Leq
+  LNP2..TD: Leq
+  R.P2..TD: Leq
+  LMP2..TE: Leq
+  LNP2..TE: Leq
+  R.P2..TE: Leq
+  LMP2..TF: Leq
+  LNP2..TF: Leq
+  R.P2..TF: Leq
+  LMP2..TG: Leq
+  LNP2..TG: Leq
   R.P2..TG: Leq
-  LNP4..TA: Leq
-  LNP4..TC: Leq
+  BS.23.TH: Geq
+  BS.234TH: Geq
+  BS.24.TH: Geq
+  LMP2..TH: Leq
+  LNP2..TH: Leq
+  R.P2..TH: Leq
+  LMP3..TA: Leq
+  LNP3..TA: Leq
+  LSP3..TA: Leq
+  LMP3..TB: Leq
+  LNP3..TB: Leq
+  LSP3..TB: Leq
+  R.P3..TB: Leq
+  LMP3..TC: Leq
+  LNP3..TC: Leq
+  LSP3..TC: Leq
+  R.P3..TC: Leq
+  LMP3..TD: Leq
+  LNP3..TD: Leq
   LSP3..TD: Leq
+  R.P3..TD: Leq
+  LMP3..TE: Leq
+  LNP3..TE: Leq
+  LSP3..TE: Leq
+  R.P3..TE: Leq
+  LMP3..TF: Leq
+  LNP3..TF: Leq
+  LSP3..TF: Leq
+  R.P3..TF: Leq
+  LMP3..TG: Leq
+  LNP3..TG: Leq
+  LSP3..TG: Leq
+  R.P3..TG: Leq
+  BS.34.TH: Geq
+  LMP3..TH: Leq
+  LNP3..TH: Leq
+  LSP3..TH: Leq
+  R.P3..TH: Leq
+  LMP4..TA: Leq
+  LNP4..TA: Leq
+  LMP4..TB: Leq
+  LNP4..TB: Leq
+  R.P4..TB: Leq
+  LMP4..TC: Leq
+  LNP4..TC: Leq
   R.P4..TC: Leq
+  LMP4..TD: Leq
+  LNP4..TD: Leq
+  R.P4..TD: Leq
+  LMP4..TE: Leq
+  LNP4..TE: Leq
+  R.P4..TE: Leq
   LMP4..TF: Leq
+  LNP4..TF: Leq
+  R.P4..TF: Leq
+  LMP4..TG: Leq
+  LNP4..TG: Leq
+  R.P4..TG: Leq
+  LMP4..TH: Leq
   LNP4..TH: Leq
+  R.P4..TH: Leq
+  LMP5..TA: Leq
+  LNP5..TA: Leq
+  LMP5..TB: Leq
+  LNP5..TB: Leq
+  R.P5..TB: Leq
+  LMP5..TC: Leq
+  LNP5..TC: Leq
+  R.P5..TC: Leq
+  LMP5..TD: Leq
+  LNP5..TD: Leq
+  R.P5..TD: Leq
+  LMP5..TE: Leq
+  LNP5..TE: Leq
+  R.P5..TE: Leq
+  LMP5..TF: Leq
+  LNP5..TF: Leq
+  R.P5..TF: Leq
+  LMP5..TG: Leq
+  LNP5..TG: Leq
+  R.P5..TG: Leq
+  LMP5..TH: Leq
+  LNP5..TH: Leq
+  R.P5..TH: Leq
 values:
-  ? - R.P2..TC
-    - KYP2..TC
-  : 4000
-  ? - LNP4..TA
-    - YTP4..TA
-  : -1
-  ? - B...G4TA
-    - INV.G4TA
-  : -1
-  ? - FIC.....
-    - INV.G2TB
-  : 3.69863
-  ? - FSC.....
-    - P.P5..TH
-  : 1
-  ? - R.P2..TD
-    - KYP3..TC
-  : 3000
-  ? - R.P4..TG
-    - KYP4..TG
-  : 4000
-  ? - R.P4..TF
-    - KYP2..TE
-  : 3000
-  ? - T.....TA
-    - YTP2..TA
-  : 1
-  ? - FSC.....
-    - P.P4..TC
-  : 1
-  ? - T.....TB
-    - YTP1..TB
-  : 1
-  ? - B...G3TA
-    - YTP3..TA
-  : 65
-  ? - R.P1..TC
-    - KYP4..TB
-  : 3000
-  ? - B...G4TG
-    - YTP4..TG
-  : 92
-  ? - FSC.....
-    - P.P3..TG
-  : 1
-  ? - LSP3..TD
-    - KYP3..TD
-  : 1
-  ? - B...G3TE
-    - TIME..TE
-  : -25
-  ? - B...G4TD
-    - TIME..TD
-  : -12
-  ? - LBL1MXTC
-    - KL..TCL1
-  : 180
-  ? - FIP.....
-    - INVAG2TG
-  : -25
-  ? - T.....TC
-    - YTP2..TC
-  : 1
-  ? - B...G1TD
-    - INV.G1TD
-  : -1
-  ? - FOC.....
-    - YTP2..TG
-  : 30
-  ? - LNP2..TH
-    - YTP2..TH
-  : -1
-  ? - LMP5..TH
-    - KYP5..TH
-  : -60
-  ? - LNP5..TG
-    - YTP5..TG
-  : -1
-  ? - R.P5..TC
-    - P.P5..TC
-  : -1
-  ? - R.P5..TD
-    - KYP1..TC
-  : 2500
-  ? - B...G2TD
-    - INV.G2TD
-  : -1
-  ? - B...G3TF
-    - TIME..TF
-  : -25
-  ? - FSC.....
-    - P.P3..TB
-  : 1
-  ? - LSP3..TH
-    - KYP2..TG
-  : -1
-  ? - B...G3TC
-    - KYP3..TC
-  : -50
-  ? - B...G1TH
-    - INVAG1TH
-  : -1
-  ? - B...G2TD
-    - YTP2..TD
-  : 93
-  ? - LMP4..TB
-    - KYP4..TB
-  : -60
-  ? - FIP.....
-    - INVAG1TD
-  : -62.5
-  ? - FIC.....
-    - INV.G3TE
-  : 3.69863
-  ? - B...G3TB
-    - INV.G3TB
-  : -1
-  ? - B...G2TC
-    - INV.G2TC
-  : -1
-  ? - B...G4TD
-    - INV.G4TC
-  : 1
-  ? - FIP.....
-    - INVAG4TA
-  : -100
-  ? - B...G3TA
-    - KYP3..TA
-  : -50
-  ? - T.....TB
-    - YTP3..TB
-  : 1
-  ? - LNP3..TC
-    - KYP3..TC
-  : 15
-  ? - B...G4TA
-    - INV.G4T.
-  : 1
-  ? - FIP.....
-    - INVAG2TA
-  : -100
-  ? - R.P1..TB
-    - KYP2..TA
-  : 4000
-  ? - FOC.....
-    - YTP4..TH
-  : 50
-  ? - R.P3..TE
-    - KYP1..TD
-  : 3000
-  ? - T.....TG
-    - TIME..TG
-  : -1
-  ? - FIP.....
-    - INVAG4TH
-  : -12.5
-  ? - LY....TE
-    - KYP1..TE
-  : 1
-  ? - FIC.....
-    - INV.G1TA
-  : 3.69863
-  ? - LBL1MXTF
-    - KL..TFL1
-  : 180
-  ? - R.P2..TB
-    - KYP1..TA
-  : 4000
-  ? - B...G3TD
-    - KYP3..TD
-  : -50
-  ? - LY....TE
-    - KYP4..TE
-  : 1
-  ? - LMP5..TE
-    - YTP5..TE
-  : 1
-  ? - LSP3..TA
-    - KYP3..TA
-  : 1
-  ? - FIC.....
-    - INV.G1TD
-  : 3.69863
-  ? - B...G3TF
-    - KL..TFL1
-  : -300
-  ? - LMP3..TG
-    - YTP3..TG
-  : 1
-  ? - T.....TB
-    - TIME..TB
-  : -1
-  ? - B...G4TD
-    - TIME..TC
-  : 12
-  ? - R.P3..TF
-    - P.P3..TF
-  : -1
-  ? - FIP.....
-    - INVAG1TA
-  : -100
-  ? - R.P1..TB
-    - KYP1..TB
-  : 4000
-  ? - R.P4..TH
-    - KYP3..TG
-  : 4000
-  ? - T.....TF
-    - YTP4..TF
-  : 1
-  ? - T.....TG
-    - YTP2..TG
-  : 1
-  ? - B...G4TD
-    - INVAG4TD
-  : -1
-  ? - LSP3..TF
-    - KYP3..TF
-  : 1
-  ? - R.P4..TC
-    - KYP3..TB
-  : 4000
-  ? - B...G4TC
-    - TIME..TC
-  : -12
-  ? - LNP3..TB
-    - YTP3..TB
-  : -1
-  ? - LY....TG
-    - KYP3..TG
-  : 1
-  ? - BS.23.TH
-    - INV.G2TH
-  : 0.51282
-  ? - R.P3..TH
-    - KYP1..TG
-  : 3000
-  ? - B...G2TE
-    - INV.G2TD
-  : 1
-  ? - R.P3..TH
-    - P.P3..TH
-  : -1
-  ? - LY....TB
-    - KYP3..TB
-  : 1
-  ? - FAT...J.
-    - FSC.....
-  : 1
-  ? - FIP.....
-    - INVAG2TF
-  : -37.5
-  ? - LNP5..TB
-    - KYP5..TB
-  : 20
-  ? - B...G2TC
-    - INVAG2TC
-  : -1
-  ? - LSP3..TD
-    - KYP2..TE
-  : -1
-  ? - R.P5..TB
-    - KYP4..TA
-  : 2500
-  ? - T.....TA
-    - YTP1..TA
-  : 1
-  ? - R.P3..TB
-    - P.P3..TB
-  : -1
-  ? - LNP3..TA
-    - YTP3..TA
-  : -1
-  ? - B...G1TF
-    - INVAG1TF
-  : -1
-  ? - T.....TC
-    - YTP3..TC
-  : 1
-  ? - FIC.....
-    - INV.G4TC
-  : 3.69863
-  ? - B...G1TE
-    - INV.G1TE
-  : -1
-  ? - R.P1..TF
-    - KYP4..TE
-  : 3000
-  ? - B...G3TG
-    - INVAG3TG
-  : -1
-  ? - LNP2..TD
-    - YTP2..TD
-  : -1
-  ? - LMP1..TC
-    - YTP1..TC
-  : 1
-  ? - B...G2TF
-    - INVAG2TF
-  : -1
-  ? - B...G3TF
-    - INV.G3TF
-  : -1
-  ? - FOC.....
-    - YTP1..TB
-  : 60
-  ? - LNP2..TG
-    - YTP2..TG
-  : -1
-  ? - B...G1TE
-    - YTP1..TE
-  : 80
-  ? - FOC.....
-    - YTP2..TH
-  : 30
-  ? - LNP3..TH
-    - KYP3..TH
-  : 15
-  ? - LMP4..TA
-    - KYP4..TA
-  : -60
-  ? - LNP4..TA
-    - KYP4..TA
-  : 15
-  ? - FIC.....
-    - INV.G1TB
-  : 3.69863
-  ? - LBL1MNTD
-    - TIME..TD
-  : -1
-  ? - LY....TD
-    - KYP1..TD
-  : 1
-  ? - B...G3TD
-    - TIME..TD
-  : -25
-  ? - R.P1..TG
-    - KYP1..TG
-  : 4000
-  ? - FSC.....
-    - P.P1..TH
-  : 1
-  ? - FOC.....
-    - YTP3..TD
-  : 40
-  ? - LMP5..TG
-    - KYP5..TG
-  : -60
-  ? - LMP3..TA
-    - YTP3..TA
-  : 1
-  ? - B...G4TG
-    - TIME..TG
-  : -12
-  ? - T.....TD
-    - YTP1..TD
-  : 1
-  ? - R.P4..TE
-    - KYP3..TD
-  : 4000
-  ? - BS.123TH
-    - INV.G2TH
-  : 0.25641
-  ? - FOC.....
-    - YTP1..TG
-  : 60
-  ? - R.P5..TC
-    - KYP5..TC
-  : 4000
-  ? - B...G1TA
-    - INV.G1TA
-  : -1
-  ? - B...G1TF
-    - INV.G1TF
-  : -1
-  ? - B...G1TG
-    - TIME..TG
-  : -10
-  ? - B...G3TH
-    - TIME..TG
-  : 25
-  ? - LSP3..TE
-    - KYP2..TD
-  : -1
-  ? - LSP3..TC
-    - KYP3..TC
-  : 1
-  ? - B...G2TD
-    - TIME..TC
-  : 13
-  ? - B...G1TG
-    - INV.G1TG
-  : -1
-  ? - B...G4TC
-    - KYP4..TC
-  : -50
-  ? - B...G1TB
-    - TIME..TA
-  : 10
-  ? - FOC.....
-    - YTP4..TG
-  : 50
-  ? - B...G1TE
-    - INVAG1TD
-  : 1
-  ? - LMP4..TF
-    - YTP4..TF
-  : 1
-  ? - LNP5..TD
-    - YTP5..TD
-  : -1
-  ? - R.P5..TH
-    - KYP3..TG
-  : 2500
-  ? - R.P3..TC
-    - KYP2..TB
-  : 4000
-  ? - T.....TC
-    - YTP4..TC
-  : 1
-  ? - LSP3..TC
-    - KYP2..TB
-  : -1
-  ? - R.P4..TC
-    - KYP2..TB
-  : 3000
-  ? - B...G4TB
-    - TIME..TA
-  : 12
-  ? - FSC.....
-    - P.P2..TC
-  : 1
-  ? - B...G3TG
-    - TIME..TF
-  : 25
-  ? - BS.12.TH
-    - INV.G2TH
-  : 0.51282
-  ? - T.....TD
-    - YTP2..TD
-  : 1
-  ? - FIP.....
-    - INVAG4TB
-  : -87.5
-  ? - B...G4TF
-    - INV.G4TF
-  : -1
-  ? - B...G2TE
-    - YTP2..TE
-  : 93
-  ? - LMP3..TB
-    - YTP3..TB
-  : 1
-  ? - B...G1TH
-    - KYP1..TH
-  : -50
-  ? - FIC.....
-    - INV.G2TA
-  : 3.69863
-  ? - B...G4TG
-    - TIME..TF
-  : 12
-  ? - B...G2TH
-    - TIME..TH
-  : -13
-  ? - B...G2TG
-    - INV.G2TF
-  : 1
-  ? - LBL1MNTE
-    - TIME..TE
-  : -1
-  ? - R.P2..TB
-    - KYP2..TB
-  : 4000
-  ? - LY....TH
-    - KYP4..TH
-  : 1
-  ? - B...G1TE
-    - TIME..TD
-  : 10
-  ? - LMP1..TH
-    - KYP1..TH
-  : -60
-  ? - B...G4TD
-    - KYP4..TD
-  : -50
-  ? - LMP2..TB
-    - KYP2..TB
-  : -60
-  ? - B...G2TA
-    - TIME..TA
-  : -13
-  ? - B...G4TF
-    - TIME..TF
-  : -12
-  ? - B...G2TA
-    - INV.G2T.
-  : 1
-  ? - LY....TB
-    - KYP5..TB
-  : 1
-  ? - LY....TA
-    - KYP2..TA
-  : 1
-  ? - T.....TG
-    - YTP5..TG
-  : 1
-  ? - R.P5..TG
-    - KYP1..TF
-  : 2500
-  ? - FOC.....
-    - YTP2..TA
-  : 30
-  ? - R.P1..TG
-    - P.P1..TG
-  : -1
-  ? - BS.134TH
-    - INV.G3TH
-  : 0.13333
-  ? - B...G2TE
-    - TIME..TE
-  : -13
-  ? - R.P3..TB
-    - KYP1..TA
-  : 3000
-  ? - FOC.....
-    - YTP4..TD
-  : 50
-  ? - LMP2..TH
-    - YTP2..TH
-  : 1
-  ? - R.P2..TE
-    - KYP4..TD
-  : 4000
-  ? - T.....TG
-    - YTP3..TG
-  : 1
-  ? - B...G4TC
-    - INVAG4TC
-  : -1
-  ? - B...G1TH
-    - TIME..TH
-  : -10
-  ? - LMP1..TD
-    - KYP1..TD
-  : -60
-  ? - LNP1..TE
-    - KYP1..TE
-  : 15
-  ? - R.P3..TB
-    - KYP3..TB
-  : 4000
-  ? - LNP5..TE
-    - YTP5..TE
-  : -1
-  ? - LY....TG
-    - KYP1..TG
-  : 1
-  ? - B...G3TC
-    - INV.G3TC
-  : -1
-  ? - FIP.....
-    - INVAG4TD
-  : -62.5
-  ? - LNP2..TB
-    - YTP2..TB
-  : -1
-  ? - R.P2..TC
-    - KYP4..TB
-  : 4000
-  ? - R.P1..TF
-    - P.P1..TF
-  : -1
-  ? - LMP5..TA
-    - KYP5..TA
-  : -60
-  ? - R.P5..TB
-    - KYP5..TB
-  : 4000
-  ? - R.P2..TF
-    - KYP1..TE
-  : 4000
-  ? - T.....TF
-    - YTP5..TF
-  : 1
-  ? - LBL1MNTF
-    - TIME..TF
-  : -1
-  ? - B...G1TA
-    - TIME..T.
-  : 10
-  ? - B...G4TH
-    - INVAG4TG
-  : 1
-  ? - LNP3..TG
-    - YTP3..TG
-  : -1
-  ? - R.P4..TH
-    - KYP1..TG
-  : 4000
-  ? - FSC.....
-    - P.P3..TD
-  : 1
-  ? - T.....TD
-    - YTP3..TD
-  : 1
-  ? - R.P5..TF
-    - KYP2..TE
-  : 2000
-  ? - B...G4TA
-    - TIME..TA
-  : -12
-  ? - B...G3TA
-    - TIME..T.
-  : 25
-  ? - B...G3TB
-    - INV.G3TA
-  : 1
-  ? - R.P2..TE
-    - KYP1..TD
-  : 4000
-  ? - R.P1..TH
-    - P.P1..TH
-  : -1
-  ? - FSC.....
-    - P.P2..TE
-  : 1
-  ? - FAT...J.
-    - FPC.....
-  : 1
-  ? - B...G2TC
-    - TIME..TB
-  : 13
-  ? - FOC.....
-    - YTP3..TF
-  : 40
-  ? - LMP5..TE
-    - KYP5..TE
-  : -60
-  ? - FSC.....
-    - P.P3..TC
-  : 1
-  ? - LNP2..TB
-    - KYP2..TB
-  : 5
-  ? - R.P1..TC
-    - KYP2..TB
-  : 4000
-  ? - B...G3TA
-    - INV.G3TA
-  : -1
-  ? - R.P3..TH
-    - KYP3..TH
-  : 4000
-  ? - B...G2TC
-    - INVAG2TB
-  : 1
-  ? - LMP1..TD
-    - YTP1..TD
-  : 1
-  ? - LMP2..TG
-    - KYP2..TG
-  : -60
-  ? - B...G4TG
-    - INV.G4TG
-  : -1
-  ? - LBL1MXTG
-    - KL..TGL1
-  : 180
-  ? - FIP.....
-    - INVAG3TE
-  : -50
-  ? - R.P5..TH
-    - KYP1..TG
-  : 2500
-  ? - LY....TH
-    - KYP2..TH
-  : 1
   ? - FIC.....
     - FIC.....
   : -1
-  ? - LBL1MXTC
-    - TIME..TB
-  : 1
-  ? - B...G1TG
-    - KYP1..TG
-  : -50
-  ? - B...G1TG
-    - INV.G1TF
-  : 1
-  ? - T.....TH
-    - TIME..TG
-  : 1
-  ? - B...G4TC
-    - INV.G4TB
-  : 1
-  ? - LNP4..TF
-    - KYP4..TF
-  : 15
-  ? - R.P4..TD
-    - KYP2..TC
-  : 3000
-  ? - B...G4TF
-    - INVAG4TF
-  : -1
-  ? - FIP.....
-    - INVAG3TF
-  : -37.5
-  ? - LNP4..TC
-    - YTP4..TC
-  : -1
-  ? - R.P1..TE
-    - P.P1..TE
-  : -1
-  ? - FOC.....
-    - YTP2..TB
-  : 30
-  ? - B...G3TH
-    - INVAG3TG
-  : 1
-  ? - B...G2TG
-    - KYP2..TG
-  : -20
-  ? - LNP4..TD
-    - KYP4..TD
-  : 15
-  ? - B...G4TF
-    - KYP4..TF
-  : -50
-  ? - LNP1..TH
-    - KYP1..TH
-  : 15
-  ? - B...G4TE
-    - TIME..TE
-  : -12
-  ? - FOC.....
-    - YTP3..TE
-  : 40
-  ? - R.P5..TF
-    - P.P5..TF
-  : -1
-  ? - B...G4TE
-    - TIME..TD
-  : 12
-  ? - LMP5..TD
-    - YTP5..TD
-  : 1
-  ? - T.....TG
-    - TIME..TF
-  : 1
-  ? - R.P3..TC
-    - P.P3..TC
-  : -1
-  ? - B...G3TG
-    - INV.G3TG
-  : -1
-  ? - LMP3..TB
-    - KYP3..TB
-  : -60
-  ? - B...G4TC
-    - INVAG4TB
-  : 1
-  ? - LNP2..TE
-    - YTP2..TE
-  : -1
-  ? - B...G3TA
-    - INV.G3T.
-  : 1
-  ? - R.P2..TF
-    - KYP3..TE
-  : 3000
-  ? - R.P4..TF
-    - KYP1..TE
-  : 4000
-  ? - T.....TC
-    - YTP5..TC
-  : 1
-  ? - LNP1..TH
-    - YTP1..TH
-  : -1
-  ? - R.P4..TB
-    - P.P4..TB
-  : -1
-  ? - B...G3TH
-    - INVAG3TH
-  : -1
-  ? - LY....TA
-    - KYP5..TA
-  : 1
-  ? - R.P4..TE
-    - KYP2..TD
-  : 3000
-  ? - BS.34.TH
-    - INV.G3TH
-  : 0.26667
-  ? - B...G3TC
-    - INV.G3TB
-  : 1
-  ? - B...G1TC
-    - KYP1..TC
-  : -50
-  ? - R.P4..TG
-    - KYP2..TF
-  : 3000
-  ? - B...G4TD
-    - YTP4..TD
-  : 92
-  ? - FOC.....
-    - YTP4..TF
-  : 50
-  ? - T.....TB
-    - YTP4..TB
-  : 1
-  ? - LMP3..TA
-    - KYP3..TA
-  : -60
-  ? - LMP3..TD
-    - YTP3..TD
-  : 1
-  ? - FSC.....
-    - P.P1..TG
-  : 1
-  ? - B...G4TB
-    - INVAG4TB
-  : -1
-  ? - LNP5..TH
-    - YTP5..TH
-  : -1
-  ? - B...G2TB
-    - INV.G2TA
-  : 1
-  ? - LMP4..TC
-    - KYP4..TC
-  : -60
-  ? - LMP3..TG
-    - KYP3..TG
-  : -60
-  ? - LMP5..TG
-    - YTP5..TG
-  : 1
-  ? - FOC.....
-    - YTP1..TD
-  : 60
-  ? - LY....TH
-    - KYP5..TH
-  : 1
-  ? - R.P3..TB
-    - KYP2..TA
-  : 4000
-  ? - LBL1MNTF
-    - KL..TFL1
-  : 100
-  ? - LNP5..TD
-    - KYP5..TD
-  : 20
-  ? - R.P2..TE
-    - KYP2..TE
-  : 4000
-  ? - FIC.....
-    - INV.G3TH
-  : 3.69863
-  ? - LNP4..TE
-    - YTP4..TE
-  : -1
-  ? - LNP5..TB
-    - YTP5..TB
-  : -1
-  ? - LMP4..TG
-    - KYP4..TG
-  : -60
-  ? - LNP4..TD
-    - YTP4..TD
-  : -1
-  ? - B...G4TB
-    - YTP4..TB
-  : 92
-  ? - T.....TA
-    - TIME..T.
-  : 1
-  ? - B...G1TB
-    - KYP1..TB
-  : -50
-  ? - R.P4..TB
-    - KYP3..TA
-  : 4000
-  ? - B...G3TF
-    - TIME..TE
-  : 25
-  ? - LY....TF
-    - KYP4..TF
-  : 1
-  ? - LY....TA
-    - KYP4..TA
-  : 1
-  ? - FSC.....
-    - P.P5..TG
-  : 1
-  ? - FIC.....
-    - INV.G2TE
-  : 3.69863
-  ? - R.P2..TG
-    - KYP2..TG
-  : 4000
-  ? - FSC.....
-    - P.P4..TH
-  : 1
-  ? - B...G4TA
-    - TIME..T.
-  : 12
-  ? - LNP1..TF
-    - KYP1..TF
-  : 15
-  ? - R.P4..TH
-    - KYP4..TH
-  : 4000
-  ? - R.P5..TE
-    - KYP3..TD
-  : 2500
-  ? - FSC.....
-    - P.P4..TD
-  : 1
-  ? - B...G4TE
-    - INVAG4TE
-  : -1
-  ? - T.....TH
-    - TIME..TH
-  : -1
-  ? - FOC.....
-    - YTP1..TH
-  : 60
-  ? - B...G2TD
-    - INVAG2TD
-  : -1
-  ? - FIP.....
-    - INVAG3TD
-  : -62.5
-  ? - R.P3..TB
-    - KYP4..TA
-  : 4000
-  ? - R.P2..TG
-    - KYP1..TF
-  : 4000
-  ? - FIP.....
-    - INVAG3TB
-  : -87.5
-  ? - R.P5..TF
-    - KYP5..TF
-  : 4000
-  ? - B...G2TG
-    - TIME..TF
-  : 13
-  ? - LBL1MXTG
-    - TIME..TF
-  : 1
-  ? - R.P1..TH
-    - KYP2..TG
-  : 4000
-  ? - FSC.....
-    - P.P1..TD
+  ? - FAT...J.
+    - FIC.....
   : 1
   ? - FIP.....
-    - INVAG4TG
-  : -25
-  ? - FSC.....
-    - P.P3..TH
-  : 1
-  ? - LMP4..TE
-    - KYP4..TE
-  : -60
-  ? - B...G1TC
-    - YTP1..TC
-  : 80
-  ? - LMP3..TH
-    - YTP3..TH
-  : 1
-  ? - LY....TC
-    - KYP4..TC
-  : 1
-  ? - LMP5..TC
-    - YTP5..TC
-  : 1
-  ? - T.....TE
-    - YTP3..TE
-  : 1
-  ? - B...G3TG
-    - KYP3..TG
-  : -50
-  ? - LMP1..TA
-    - YTP1..TA
-  : 1
-  ? - LMP4..TD
-    - YTP4..TD
-  : 1
-  ? - R.P4..TC
-    - KYP4..TC
-  : 4000
-  ? - LNP5..TC
-    - YTP5..TC
+    - FIP.....
   : -1
-  ? - LSP3..TG
-    - KYP3..TG
-  : 1
-  ? - T.....TF
-    - YTP3..TF
-  : 1
-  ? - LMP3..TF
-    - KYP3..TF
-  : -60
-  ? - R.P1..TD
-    - P.P1..TD
-  : -1
-  ? - FIP.....
-    - INVAG4TC
-  : -75
-  ? - FIC.....
-    - KL..TGL1
-  : 1109.589
-  ? - B...G2TH
-    - TIME..TG
-  : 13
-  ? - LNP2..TC
-    - YTP2..TC
-  : -1
-  ? - R.P5..TC
-    - KYP1..TB
-  : 2500
-  ? - LMP3..TF
-    - YTP3..TF
-  : 1
-  ? - R.P4..TH
-    - KYP2..TG
-  : 3000
-  ? - R.P1..TE
-    - KYP4..TD
-  : 3000
-  ? - FSC.....
-    - P.P1..TE
-  : 1
-  ? - LNP5..TA
-    - KYP5..TA
-  : 20
-  ? - R.P5..TC
-    - KYP4..TB
-  : 2500
-  ? - LMP2..TF
-    - YTP2..TF
+  ? - FAT...J.
+    - FIP.....
   : 1
   ? - FOC.....
-    - YTP2..TC
-  : 30
-  ? - LBL1MXTE
-    - TIME..TD
-  : 1
-  ? - FIC.....
-    - INV.G2TH
-  : 3.69863
-  ? - B...G2TF
-    - YTP2..TF
-  : 93
-  ? - B...G2TF
-    - INV.G2TF
+    - FOC.....
   : -1
-  ? - LY....TD
-    - KYP3..TD
-  : 1
-  ? - R.P4..TD
-    - P.P4..TD
-  : -1
-  ? - B...G3TC
-    - INVAG3TB
-  : 1
-  ? - FOC.....
-    - YTP3..TH
-  : 40
-  ? - B...G4TD
-    - INV.G4TD
-  : -1
-  ? - LY....TA
-    - KYP1..TA
-  : 1
-  ? - FIC.....
-    - INV.G2TG
-  : 3.69863
-  ? - R.P4..TC
-    - KYP1..TB
-  : 4000
-  ? - R.P1..TG
-    - KYP4..TF
-  : 3000
-  ? - B...G1TD
-    - TIME..TC
-  : 10
-  ? - T.....TD
-    - YTP4..TD
-  : 1
-  ? - FIC.....
-    - KL..TCL1
-  : 1109.589
-  ? - FIP.....
-    - INVAG3TA
-  : -100
-  ? - FSC.....
-    - P.P5..TD
-  : 1
-  ? - FSC.....
-    - P.P2..TD
-  : 1
-  ? - R.P5..TG
-    - KYP3..TF
-  : 2500
-  ? - R.P5..TE
-    - KYP5..TE
-  : 4000
-  ? - B...G3TB
-    - INVAG3TB
-  : -1
-  ? - LMP5..TD
-    - KYP5..TD
-  : -60
-  ? - B...G3TC
-    - YTP3..TC
-  : 65
-  ? - LNP2..TG
-    - KYP2..TG
-  : 5
-  ? - T.....TA
-    - TIME..TA
-  : -1
-  ? - BS.12.TH
-    - INV.G1TH
-  : 2
-  ? - LNP5..TH
-    - KYP5..TH
-  : 20
-  ? - LBL1MXTF
-    - TIME..TE
-  : 1
-  ? - B...G1TC
-    - TIME..TC
-  : -10
-  ? - R.P4..TB
-    - KYP2..TA
-  : 3000
-  ? - LMP2..TA
-    - KYP2..TA
-  : -60
-  ? - FOC.....
-    - YTP3..TG
-  : 40
-  ? - LMP4..TD
-    - KYP4..TD
-  : -60
-  ? - LMP4..TF
-    - KYP4..TF
-  : -60
-  ? - LSP3..TG
-    - KYP2..TF
-  : -1
-  ? - LNP5..TG
-    - KYP5..TG
-  : 20
-  ? - B...G3TC
-    - KL..TCL1
-  : -300
-  ? - LNP4..TC
-    - KYP4..TC
-  : 15
-  ? - LMP2..TD
-    - YTP2..TD
-  : 1
-  ? - FOC.....
-    - YTP1..TF
-  : 60
-  ? - FOC.....
-    - YTP4..TC
-  : 50
-  ? - LMP4..TE
-    - YTP4..TE
-  : 1
-  ? - LY....TA
-    - KYP3..TA
-  : 1
-  ? - T.....TG
-    - YTP1..TG
-  : 1
-  ? - LY....TC
-    - KYP2..TC
-  : 1
-  ? - R.P4..TF
-    - P.P4..TF
-  : -1
-  ? - B...G2TH
-    - KYP2..TH
-  : -20
-  ? - BS.14.TH
-    - INV.G1TH
-  : 0.66667
-  ? - LMP1..TC
-    - KYP1..TC
-  : -60
-  ? - B...G3TD
-    - INV.G3TC
-  : 1
-  ? - B...G3TE
-    - KYP3..TE
-  : -50
-  ? - R.P5..TD
-    - P.P5..TD
-  : -1
-  ? - B...G2TF
-    - KYP2..TF
-  : -20
-  ? - B...G3TD
-    - INVAG3TD
-  : -1
-  ? - R.P3..TF
-    - KYP4..TE
-  : 4000
-  ? - B...G4TF
-    - TIME..TE
-  : 12
-  ? - LMP2..TA
-    - YTP2..TA
-  : 1
-  ? - R.P4..TB
-    - KYP1..TA
-  : 4000
-  ? - B...G1TD
-    - TIME..TD
-  : -10
-  ? - LMP1..TA
-    - KYP1..TA
-  : -60
-  ? - B...G1TD
-    - INV.G1TC
-  : 1
-  ? - B...G1TA
-    - YTP1..TA
-  : 80
-  ? - R.P5..TE
-    - P.P5..TE
-  : -1
-  ? - LY....TF
-    - KYP1..TF
+  ? - FAT...J.
+    - FOC.....
   : 1
   ? - FPC.....
     - FPC.....
   : -1
-  ? - R.P5..TG
-    - KYP4..TF
-  : 2500
-  ? - R.P3..TE
-    - KYP2..TD
-  : 4000
-  ? - B...G4TC
-    - YTP4..TC
-  : 92
-  ? - FOC.....
-    - YTP3..TA
-  : 40
-  ? - R.P3..TE
-    - KYP4..TD
-  : 4000
-  ? - LBL1MNTC
-    - TIME..TC
-  : -1
-  ? - FIP.....
-    - INVAG1TC
-  : -75
-  ? - LY....TE
-    - KYP2..TE
+  ? - FAT...J.
+    - FPC.....
   : 1
-  ? - LNP3..TC
-    - YTP3..TC
+  ? - FRP.....
+    - FRP.....
   : -1
-  ? - R.P1..TF
-    - KYP1..TF
-  : 4000
+  ? - FAT...J.
+    - FRP.....
+  : 1
+  ? - FSC.....
+    - FSC.....
+  : -1
+  ? - FAT...J.
+    - FSC.....
+  : 1
+  ? - LBL1....
+    - KL..TCL1
+  : 1
+  ? - LBL1MNTC
+    - KL..TCL1
+  : 100
+  ? - LBL1MXTC
+    - KL..TCL1
+  : 180
+  ? - FIC.....
+    - KL..TCL1
+  : 1109.589
+  ? - B...G3TC
+    - KL..TCL1
+  : -300
+  ? - LBL1....
+    - KL..TDL1
+  : 1
+  ? - LBL1MNTD
+    - KL..TDL1
+  : 100
+  ? - LBL1MXTD
+    - KL..TDL1
+  : 180
+  ? - FIC.....
+    - KL..TDL1
+  : 1109.589
+  ? - B...G3TD
+    - KL..TDL1
+  : -300
+  ? - LBL1....
+    - KL..TEL1
+  : 1
+  ? - LBL1MNTE
+    - KL..TEL1
+  : 100
+  ? - LBL1MXTE
+    - KL..TEL1
+  : 180
+  ? - FIC.....
+    - KL..TEL1
+  : 1109.589
+  ? - B...G3TE
+    - KL..TEL1
+  : -300
+  ? - LBL1....
+    - KL..TFL1
+  : 1
+  ? - LBL1MNTF
+    - KL..TFL1
+  : 100
+  ? - LBL1MXTF
+    - KL..TFL1
+  : 180
+  ? - FIC.....
+    - KL..TFL1
+  : 1109.589
+  ? - B...G3TF
+    - KL..TFL1
+  : -300
+  ? - LBL1....
+    - KL..TGL1
+  : 1
+  ? - LBL1MNTG
+    - KL..TGL1
+  : 100
+  ? - LBL1MXTG
+    - KL..TGL1
+  : 180
+  ? - FIC.....
+    - KL..TGL1
+  : 1109.589
+  ? - B...G3TG
+    - KL..TGL1
+  : -300
+  ? - B...G1TA
+    - INV.G1T.
+  : 1
   ? - B...G2TA
-    - KYP2..TA
-  : -20
-  ? - R.P2..TH
-    - KYP2..TH
-  : 4000
-  ? - LMP4..TB
-    - YTP4..TB
+    - INV.G2T.
+  : 1
+  ? - B...G3TA
+    - INV.G3T.
+  : 1
+  ? - B...G4TA
+    - INV.G4T.
+  : 1
+  ? - B...G1TA
+    - INV.G1TA
+  : -1
+  ? - FIC.....
+    - INV.G1TA
+  : 3.69863
+  ? - B...G1TB
+    - INV.G1TA
+  : 1
+  ? - B...G2TA
+    - INV.G2TA
+  : -1
+  ? - FIC.....
+    - INV.G2TA
+  : 3.69863
+  ? - B...G2TB
+    - INV.G2TA
+  : 1
+  ? - B...G3TA
+    - INV.G3TA
+  : -1
+  ? - FIC.....
+    - INV.G3TA
+  : 3.69863
+  ? - B...G3TB
+    - INV.G3TA
+  : 1
+  ? - B...G4TA
+    - INV.G4TA
+  : -1
+  ? - FIC.....
+    - INV.G4TA
+  : 3.69863
+  ? - B...G4TB
+    - INV.G4TA
+  : 1
+  ? - B...G1TB
+    - INV.G1TB
+  : -1
+  ? - FIC.....
+    - INV.G1TB
+  : 3.69863
+  ? - B...G1TC
+    - INV.G1TB
+  : 1
+  ? - B...G2TB
+    - INV.G2TB
+  : -1
+  ? - FIC.....
+    - INV.G2TB
+  : 3.69863
+  ? - B...G2TC
+    - INV.G2TB
+  : 1
+  ? - B...G3TB
+    - INV.G3TB
+  : -1
+  ? - FIC.....
+    - INV.G3TB
+  : 3.69863
+  ? - B...G3TC
+    - INV.G3TB
+  : 1
+  ? - B...G4TB
+    - INV.G4TB
+  : -1
+  ? - FIC.....
+    - INV.G4TB
+  : 3.69863
+  ? - B...G4TC
+    - INV.G4TB
+  : 1
+  ? - B...G1TC
+    - INV.G1TC
+  : -1
+  ? - FIC.....
+    - INV.G1TC
+  : 3.69863
+  ? - B...G1TD
+    - INV.G1TC
+  : 1
+  ? - B...G2TC
+    - INV.G2TC
+  : -1
+  ? - FIC.....
+    - INV.G2TC
+  : 3.69863
+  ? - B...G2TD
+    - INV.G2TC
+  : 1
+  ? - B...G3TC
+    - INV.G3TC
+  : -1
+  ? - FIC.....
+    - INV.G3TC
+  : 3.69863
+  ? - B...G3TD
+    - INV.G3TC
   : 1
   ? - B...G4TC
     - INV.G4TC
   : -1
-  ? - R.P1..TE
-    - KYP2..TD
-  : 4000
-  ? - T.....TB
-    - YTP5..TB
-  : 1
   ? - FIC.....
-    - INV.G3TG
+    - INV.G4TC
   : 3.69863
-  ? - R.P3..TC
-    - KYP1..TB
-  : 3000
-  ? - FSC.....
-    - P.P2..TG
-  : 1
-  ? - LNP4..TE
-    - KYP4..TE
-  : 15
-  ? - FIC.....
-    - INV.G4TB
-  : 3.69863
-  ? - B...G3TB
-    - TIME..TB
-  : -25
-  ? - FOC.....
-    - YTP3..TC
-  : 40
-  ? - R.P3..TF
-    - KYP2..TE
-  : 4000
-  ? - R.P2..TG
-    - KYP3..TF
-  : 3000
-  ? - FAT...J.
-    - FIP.....
-  : 1
-  ? - B...G3TA
-    - TIME..TA
-  : -25
-  ? - R.P1..TF
-    - KYP2..TE
-  : 4000
-  ? - B...G4TB
-    - INVAG4TA
-  : 1
-  ? - R.P5..TD
-    - KYP3..TC
-  : 2500
-  ? - FIP.....
-    - INVAG4TF
-  : -37.5
-  ? - LNP1..TE
-    - YTP1..TE
-  : -1
-  ? - T.....TG
-    - YTP4..TG
-  : 1
-  ? - R.P5..TG
-    - P.P5..TG
-  : -1
-  ? - LBL1MNTC
-    - KL..TCL1
-  : 100
-  ? - B...G3TB
-    - YTP3..TB
-  : 65
-  ? - R.P2..TB
-    - P.P2..TB
-  : -1
-  ? - R.P4..TD
-    - KYP1..TC
-  : 4000
-  ? - R.P2..TE
-    - KYP3..TD
-  : 3000
-  ? - FIC.....
-    - KL..TEL1
-  : 1109.589
-  ? - R.P2..TG
-    - KYP4..TF
-  : 4000
-  ? - T.....TB
-    - TIME..TA
-  : 1
-  ? - T.....TE
-    - YTP4..TE
-  : 1
-  ? - BS.123TH
-    - INV.G1TH
-  : 0.5
-  ? - FSC.....
-    - FSC.....
-  : -1
-  ? - B...G2TE
-    - INV.G2TE
-  : -1
-  ? - B...G2TG
-    - INVAG2TF
-  : 1
-  ? - T.....TH
-    - YTP5..TH
-  : 1
-  ? - R.P1..TE
-    - KYP3..TD
-  : 4000
-  ? - FOC.....
-    - YTP4..TA
-  : 50
-  ? - LMP5..TC
-    - KYP5..TC
-  : -60
-  ? - R.P5..TB
-    - KYP2..TA
-  : 2000
-  ? - R.P5..TE
-    - KYP2..TD
-  : 2000
-  ? - R.P2..TE
-    - P.P2..TE
-  : -1
-  ? - LBL1....
-    - KL..TDL1
-  : 1
-  ? - LSP3..TG
-    - KYP2..TH
-  : -1
-  ? - B...G1TA
-    - INV.G1T.
-  : 1
-  ? - B...G2TE
-    - INVAG2TE
-  : -1
-  ? - LMP5..TB
-    - YTP5..TB
-  : 1
-  ? - B...G3TH
-    - TIME..TH
-  : -25
-  ? - LY....TF
-    - KYP3..TF
-  : 1
-  ? - B...G2TE
-    - INVAG2TD
-  : 1
-  ? - R.P5..TH
-    - P.P5..TH
-  : -1
-  ? - R.P5..TD
-    - KYP4..TC
-  : 2500
-  ? - B...G4TA
-    - YTP4..TA
-  : 92
-  ? - B...G4TG
-    - INV.G4TF
-  : 1
-  ? - LNP5..TA
-    - YTP5..TA
-  : -1
-  ? - R.P1..TC
-    - KYP3..TB
-  : 4000
-  ? - B...G4TH
-    - INVAG4TH
-  : -1
-  ? - FOC.....
-    - YTP2..TD
-  : 30
-  ? - BS.123TH
-    - INV.G3TH
-  : 0.2
-  ? - LY....TD
-    - KYP4..TD
-  : 1
-  ? - LNP4..TH
-    - YTP4..TH
-  : -1
-  ? - FSC.....
-    - P.P4..TF
-  : 1
-  ? - LSP3..TB
-    - KYP2..TC
-  : -1
-  ? - R.P5..TC
-    - KYP2..TB
-  : 2000
-  ? - LNP1..TG
-    - KYP1..TG
-  : 15
-  ? - R.P1..TF
-    - KYP3..TE
-  : 4000
-  ? - FSC.....
-    - P.P5..TE
-  : 1
-  ? - LMP2..TE
-    - YTP2..TE
-  : 1
-  ? - B...G2TB
-    - TIME..TB
-  : -13
-  ? - B...G1TH
-    - INV.G1TH
-  : -1
-  ? - BS.24.TH
-    - INV.G2TH
-  : 0.51282
-  ? - B...G3TB
-    - TIME..TA
-  : 25
-  ? - B...G4TB
-    - INV.G4TB
-  : -1
-  ? - B...G2TD
-    - TIME..TD
-  : -13
-  ? - LNP3..TH
-    - YTP3..TH
-  : -1
-  ? - B...G2TF
-    - INVAG2TE
-  : 1
-  ? - R.P5..TG
-    - KYP5..TG
-  : 4000
-  ? - B...G1TC
-    - INV.G1TB
-  : 1
-  ? - LNP3..TD
-    - KYP3..TD
-  : 15
-  ? - B...G2TC
-    - KYP2..TC
-  : -20
-  ? - B...G4TE
-    - INV.G4TE
-  : -1
-  ? - B...G3TA
-    - INVAG3TA
-  : -1
-  ? - B...G3TC
-    - TIME..TB
-  : 25
-  ? - R.P5..TH
-    - KYP5..TH
-  : 4000
-  ? - B...G3TD
-    - KL..TDL1
-  : -300
-  ? - B...G1TA
-    - TIME..TA
-  : -10
-  ? - LMP2..TC
-    - YTP2..TC
-  : 1
-  ? - B...G2TB
-    - TIME..TA
-  : 13
-  ? - LBL1....
-    - KL..TFL1
-  : 1
-  ? - FOC.....
-    - YTP2..TE
-  : 30
-  ? - T.....TF
-    - YTP2..TF
-  : 1
-  ? - LY....TH
-    - KYP3..TH
-  : 1
-  ? - B...G1TH
-    - TIME..TG
-  : 10
-  ? - LBL1....
-    - KL..TGL1
-  : 1
-  ? - LY....TF
-    - KYP5..TF
-  : 1
-  ? - T.....TD
-    - YTP5..TD
-  : 1
-  ? - LNP3..TF
-    - YTP3..TF
-  : -1
-  ? - FIC.....
-    - INV.G1TG
-  : 3.69863
-  ? - LMP4..TG
-    - YTP4..TG
-  : 1
-  ? - BS.124TH
-    - INV.G4TH
-  : 0.41667
-  ? - LBL1MXTD
-    - TIME..TC
-  : 1
-  ? - LY....TB
-    - KYP1..TB
-  : 1
-  ? - LNP2..TE
-    - KYP2..TE
-  : 5
-  ? - BS.23.TH
-    - INV.G3TH
-  : 0.8
-  ? - LY....TF
-    - KYP2..TF
-  : 1
-  ? - B...G1TE
-    - INVAG1TE
-  : -1
-  ? - B...G1TF
-    - INVAG1TE
-  : 1
-  ? - FIP.....
-    - INVAG1TH
-  : -12.5
-  ? - B...G1TC
-    - TIME..TB
-  : 10
-  ? - FOC.....
-    - YTP1..TE
-  : 60
-  ? - LSP3..TA
-    - KYP2..TB
-  : -1
-  ? - R.P1..TE
-    - KYP1..TE
-  : 4000
-  ? - LY....TG
-    - KYP4..TG
-  : 1
-  ? - FSC.....
-    - P.P5..TC
-  : 1
-  ? - LY....TC
-    - KYP5..TC
-  : 1
-  ? - B...G4TA
-    - INVAG4TA
-  : -1
-  ? - LNP1..TD
-    - KYP1..TD
-  : 15
-  ? - LSP3..TB
-    - KYP3..TB
-  : 1
-  ? - LY....TG
-    - KYP2..TG
-  : 1
-  ? - R.P3..TG
-    - KYP2..TF
-  : 4000
-  ? - FIC.....
-    - INV.G1TH
-  : 3.69863
-  ? - BS.14.TH
-    - INV.G4TH
-  : 0.55556
-  ? - LNP1..TF
-    - YTP1..TF
-  : -1
-  ? - LY....TH
-    - KYP1..TH
-  : 1
-  ? - R.P4..TD
-    - KYP4..TD
-  : 4000
-  ? - FIC.....
-    - INV.G3TB
-  : 3.69863
-  ? - B...G3TF
-    - INVAG3TF
-  : -1
-  ? - B...G2TF
-    - TIME..TF
-  : -13
-  ? - R.P3..TG
-    - KYP4..TF
-  : 4000
-  ? - LMP1..TG
-    - KYP1..TG
-  : -60
-  ? - FIP.....
-    - INVAG3TH
-  : -12.5
-  ? - FSC.....
-    - P.P2..TH
-  : 1
-  ? - R.P1..TB
-    - KYP3..TA
-  : 4000
-  ? - R.P5..TF
-    - KYP4..TE
-  : 2500
-  ? - FSC.....
-    - P.P4..TE
-  : 1
-  ? - B...G3TE
-    - KL..TEL1
-  : -300
-  ? - R.P4..TF
-    - KYP4..TF
-  : 4000
-  ? - LMP5..TF
-    - KYP5..TF
-  : -60
-  ? - B...G3TF
-    - KYP3..TF
-  : -50
-  ? - FIC.....
-    - KL..TFL1
-  : 1109.589
   ? - B...G4TD
-    - INVAG4TC
+    - INV.G4TC
   : 1
-  ? - LNP4..TB
-    - YTP4..TB
-  : -1
-  ? - T.....TD
-    - TIME..TD
-  : -1
-  ? - LMP2..TE
-    - KYP2..TE
-  : -60
-  ? - R.P3..TH
-    - KYP4..TG
-  : 4000
-  ? - LSP3..TE
-    - KYP2..TF
-  : -1
-  ? - R.P5..TE
-    - KYP1..TD
-  : 2500
   ? - B...G1TD
-    - INVAG1TC
-  : 1
-  ? - R.P5..TD
-    - KYP5..TD
-  : 4000
-  ? - B...G1TB
-    - INV.G1TB
+    - INV.G1TD
   : -1
-  ? - FIP.....
-    - INVAG4TE
-  : -50
-  ? - B...G1TH
-    - YTP1..TH
-  : 80
-  ? - LNP5..TF
-    - YTP5..TF
-  : -1
-  ? - B...G2TD
-    - INV.G2TC
-  : 1
-  ? - LNP1..TC
-    - YTP1..TC
-  : -1
-  ? - FIP.....
-    - INVAG3TC
-  : -75
-  ? - LMP4..TA
-    - YTP4..TA
-  : 1
-  ? - R.P2..TD
-    - KYP2..TD
-  : 4000
-  ? - B...G3TE
-    - INVAG3TE
-  : -1
-  ? - LY....TC
-    - KYP3..TC
-  : 1
-  ? - T.....TH
-    - YTP1..TH
-  : 1
-  ? - B...G3TE
-    - TIME..TD
-  : 25
-  ? - R.P5..TC
-    - KYP3..TB
-  : 2500
-  ? - R.P3..TG
-    - KYP1..TF
-  : 3000
-  ? - LMP5..TA
-    - YTP5..TA
-  : 1
-  ? - R.P1..TD
-    - KYP1..TD
-  : 4000
-  ? - LMP3..TD
-    - KYP3..TD
-  : -60
-  ? - B...G2TE
-    - KYP2..TE
-  : -20
+  ? - FIC.....
+    - INV.G1TD
+  : 3.69863
   ? - B...G1TE
     - INV.G1TD
   : 1
-  ? - LNP4..TF
-    - YTP4..TF
+  ? - B...G2TD
+    - INV.G2TD
   : -1
-  ? - LY....TD
-    - KYP5..TD
-  : 1
-  ? - LMP1..TE
-    - KYP1..TE
-  : -60
-  ? - B...G2TF
-    - INV.G2TE
-  : 1
-  ? - R.P3..TD
-    - KYP1..TC
-  : 3000
-  ? - FIC.....
-    - INV.G3TF
-  : 3.69863
-  ? - FOC.....
-    - YTP4..TB
-  : 50
-  ? - LY....TE
-    - KYP3..TE
-  : 1
-  ? - BS.234TH
-    - INV.G2TH
-  : 0.25641
-  ? - BS.34.TH
-    - INV.G4TH
-  : 0.55556
-  ? - FOC.....
-    - YTP1..TC
-  : 60
-  ? - LMP1..TF
-    - YTP1..TF
-  : 1
-  ? - LMP2..TB
-    - YTP2..TB
-  : 1
-  ? - R.P1..TG
-    - KYP3..TF
-  : 4000
-  ? - R.P3..TC
-    - KYP4..TB
-  : 4000
-  ? - R.P1..TB
-    - KYP4..TA
-  : 3000
-  ? - R.P2..TF
-    - KYP4..TE
-  : 4000
-  ? - B...G2TG
-    - YTP2..TG
-  : 93
-  ? - B...G2TG
-    - INV.G2TG
-  : -1
-  ? - R.P5..TD
-    - KYP2..TC
-  : 2000
-  ? - LNP4..TG
-    - YTP4..TG
-  : -1
-  ? - FSC.....
-    - P.P1..TC
-  : 1
-  ? - B...G2TG
-    - TIME..TG
-  : -13
-  ? - LY....TB
-    - KYP4..TB
-  : 1
-  ? - B...G2TC
-    - TIME..TC
-  : -13
-  ? - B...G3TH
-    - INV.G3TH
-  : -1
-  ? - R.P2..TH
-    - KYP3..TG
-  : 3000
   ? - FIC.....
     - INV.G2TD
   : 3.69863
-  ? - FIP.....
-    - INVAG1TG
-  : -25
-  ? - R.P3..TF
-    - KYP1..TE
-  : 3000
-  ? - R.P3..TD
-    - P.P3..TD
+  ? - B...G2TE
+    - INV.G2TD
+  : 1
+  ? - B...G3TD
+    - INV.G3TD
   : -1
-  ? - B...G4TG
-    - INVAG4TF
-  : 1
-  ? - B...G2TD
-    - KYP2..TD
-  : -20
-  ? - R.P4..TG
-    - KYP1..TF
-  : 4000
-  ? - B...G4TG
-    - KYP4..TG
-  : -50
-  ? - T.....TE
-    - YTP2..TE
-  : 1
-  ? - R.P2..TB
-    - KYP4..TA
-  : 4000
-  ? - FOC.....
-    - YTP2..TF
-  : 30
   ? - FIC.....
     - INV.G3TD
   : 3.69863
-  ? - B...G2TB
-    - INV.G2TB
+  ? - B...G3TE
+    - INV.G3TD
+  : 1
+  ? - B...G4TD
+    - INV.G4TD
+  : -1
+  ? - FIC.....
+    - INV.G4TD
+  : 3.69863
+  ? - B...G4TE
+    - INV.G4TD
+  : 1
+  ? - B...G1TE
+    - INV.G1TE
+  : -1
+  ? - FIC.....
+    - INV.G1TE
+  : 3.69863
+  ? - B...G1TF
+    - INV.G1TE
+  : 1
+  ? - B...G2TE
+    - INV.G2TE
+  : -1
+  ? - FIC.....
+    - INV.G2TE
+  : 3.69863
+  ? - B...G2TF
+    - INV.G2TE
+  : 1
+  ? - B...G3TE
+    - INV.G3TE
+  : -1
+  ? - FIC.....
+    - INV.G3TE
+  : 3.69863
+  ? - B...G3TF
+    - INV.G3TE
+  : 1
+  ? - B...G4TE
+    - INV.G4TE
+  : -1
+  ? - FIC.....
+    - INV.G4TE
+  : 3.69863
+  ? - B...G4TF
+    - INV.G4TE
+  : 1
+  ? - B...G1TF
+    - INV.G1TF
   : -1
   ? - FIC.....
     - INV.G1TF
   : 3.69863
-  ? - BS.134TH
-    - INV.G4TH
-  : 0.27778
-  ? - FSC.....
-    - P.P1..TB
+  ? - B...G1TG
+    - INV.G1TF
   : 1
+  ? - B...G2TF
+    - INV.G2TF
+  : -1
   ? - FIC.....
-    - INV.G4TE
+    - INV.G2TF
   : 3.69863
-  ? - R.P4..TC
-    - P.P4..TC
-  : -1
-  ? - LBL1MNTG
-    - KL..TGL1
-  : 100
-  ? - LSP3..TC
-    - KYP2..TD
-  : -1
-  ? - R.P2..TF
-    - KYP2..TF
-  : 4000
-  ? - B...G1TB
-    - INV.G1TA
+  ? - B...G2TG
+    - INV.G2TF
   : 1
-  ? - LNP3..TD
-    - YTP3..TD
+  ? - B...G3TF
+    - INV.G3TF
   : -1
-  ? - LMP5..TB
-    - KYP5..TB
-  : -60
-  ? - LNP2..TH
-    - KYP2..TH
-  : 5
+  ? - FIC.....
+    - INV.G3TF
+  : 3.69863
   ? - B...G3TG
     - INV.G3TF
   : 1
-  ? - LSP3..TD
-    - KYP2..TC
-  : -1
-  ? - B...G3TB
-    - KYP3..TB
-  : -50
-  ? - LMP3..TE
-    - KYP3..TE
-  : -60
   ? - B...G4TF
-    - INV.G4TE
-  : 1
-  ? - LMP2..TH
-    - KYP2..TH
-  : -60
+    - INV.G4TF
+  : -1
   ? - FIC.....
     - INV.G4TF
   : 3.69863
-  ? - FRP.....
-    - FRP.....
-  : -1
-  ? - R.P3..TG
-    - KYP3..TG
-  : 4000
-  ? - B...G1TF
-    - YTP1..TF
-  : 80
-  ? - B...G2TB
-    - YTP2..TB
-  : 93
-  ? - LMP4..TH
-    - KYP4..TH
-  : -60
-  ? - FOC.....
-    - YTP3..TB
-  : 40
-  ? - LMP3..TE
-    - YTP3..TE
+  ? - B...G4TG
+    - INV.G4TF
   : 1
-  ? - R.P1..TD
-    - KYP3..TC
-  : 4000
-  ? - FIP.....
-    - INVAG1TE
-  : -50
-  ? - R.P2..TH
-    - KYP1..TG
-  : 4000
-  ? - B...G1TF
-    - TIME..TE
-  : 10
-  ? - T.....TF
-    - TIME..TE
-  : 1
-  ? - B...G1TB
-    - INVAG1TA
-  : 1
-  ? - LNP2..TA
-    - KYP2..TA
-  : 5
-  ? - R.P3..TC
-    - KYP3..TC
-  : 4000
-  ? - B...G1TB
-    - YTP1..TB
-  : 80
-  ? - LNP1..TA
-    - KYP1..TA
-  : 15
-  ? - R.P5..TE
-    - KYP4..TD
-  : 2500
-  ? - B...G4TH
-    - TIME..TH
-  : -12
-  ? - LMP2..TF
-    - KYP2..TF
-  : -60
-  ? - R.P4..TH
-    - P.P4..TH
+  ? - B...G1TG
+    - INV.G1TG
   : -1
-  ? - LBL1MNTD
-    - KL..TDL1
-  : 100
-  ? - FSC.....
-    - P.P2..TB
-  : 1
-  ? - T.....TH
-    - YTP3..TH
-  : 1
-  ? - LY....TG
-    - KYP5..TG
-  : 1
-  ? - LNP2..TC
-    - KYP2..TC
-  : 5
-  ? - LNP3..TF
-    - KYP3..TF
-  : 15
-  ? - R.P3..TG
-    - P.P3..TG
-  : -1
-  ? - B...G4TE
-    - KYP4..TE
-  : -50
-  ? - B...G4TH
-    - KYP4..TH
-  : -50
-  ? - B...G2TE
-    - TIME..TD
-  : 13
-  ? - LNP5..TC
-    - KYP5..TC
-  : 20
-  ? - R.P4..TG
-    - KYP3..TF
-  : 4000
-  ? - B...G4TA
-    - KYP4..TA
-  : -50
-  ? - FIP.....
-    - INVAG2TH
-  : -12.5
-  ? - B...G2TA
-    - YTP2..TA
-  : 93
-  ? - R.P3..TD
-    - KYP2..TC
-  : 4000
-  ? - LMP3..TH
-    - KYP3..TH
-  : -60
-  ? - R.P2..TF
-    - P.P2..TF
-  : -1
-  ? - LSP3..TF
-    - KYP2..TE
-  : -1
-  ? - B...G2TC
-    - YTP2..TC
-  : 93
-  ? - T.....TE
-    - TIME..TE
-  : -1
-  ? - FIP.....
-    - INVAG2TB
-  : -87.5
+  ? - FIC.....
+    - INV.G1TG
+  : 3.69863
   ? - B...G1TH
     - INV.G1TG
   : 1
-  ? - LNP2..TD
-    - KYP2..TD
-  : 5
-  ? - LNP4..TG
-    - KYP4..TG
-  : 15
-  ? - LSP3..TF
-    - KYP2..TG
-  : -1
-  ? - R.P2..TC
-    - KYP1..TB
-  : 4000
-  ? - B...G3TC
-    - INVAG3TC
-  : -1
-  ? - R.P5..TH
-    - KYP2..TG
-  : 2000
-  ? - FIC.....
-    - KL..TDL1
-  : 1109.589
-  ? - B...G2TB
-    - KYP2..TB
-  : -20
-  ? - FSC.....
-    - P.P4..TG
-  : 1
-  ? - R.P2..TC
-    - KYP3..TB
-  : 3000
-  ? - T.....TA
-    - YTP5..TA
-  : 1
-  ? - R.P4..TG
-    - P.P4..TG
-  : -1
-  ? - LNP5..TF
-    - KYP5..TF
-  : 20
-  ? - R.P2..TH
-    - P.P2..TH
-  : -1
-  ? - FSC.....
-    - P.P4..TB
-  : 1
-  ? - LNP1..TB
-    - YTP1..TB
-  : -1
-  ? - B...G1TG
-    - YTP1..TG
-  : 80
-  ? - B...G2TA
-    - INVAG2TA
+  ? - B...G2TG
+    - INV.G2TG
   : -1
   ? - FIC.....
-    - INV.G1TC
+    - INV.G2TG
   : 3.69863
-  ? - LMP1..TB
-    - YTP1..TB
+  ? - B...G2TH
+    - INV.G2TG
   : 1
-  ? - FOC.....
-    - YTP4..TE
-  : 50
-  ? - LMP3..TC
-    - KYP3..TC
-  : -60
-  ? - B...G3TC
-    - TIME..TC
-  : -25
-  ? - R.P5..TB
-    - KYP3..TA
-  : 2500
-  ? - B...G1TD
-    - YTP1..TD
-  : 80
-  ? - R.P5..TB
-    - KYP1..TA
-  : 2500
-  ? - LBL1MNTE
-    - KL..TEL1
-  : 100
-  ? - FIC.....
-    - INV.G1TE
-  : 3.69863
   ? - B...G3TG
-    - TIME..TG
-  : -25
-  ? - R.P2..TD
-    - KYP1..TC
-  : 4000
-  ? - B...G3TE
-    - YTP3..TE
-  : 65
-  ? - LMP1..TE
-    - YTP1..TE
-  : 1
-  ? - R.P2..TC
-    - P.P2..TC
+    - INV.G3TG
   : -1
-  ? - T.....TC
-    - TIME..TB
-  : 1
-  ? - B...G3TB
-    - INVAG3TA
-  : 1
-  ? - R.P1..TB
-    - P.P1..TB
-  : -1
-  ? - B...G4TG
-    - INVAG4TG
-  : -1
-  ? - T.....TC
-    - YTP1..TC
-  : 1
-  ? - B...G1TB
-    - INVAG1TB
-  : -1
-  ? - R.P1..TD
-    - KYP2..TC
-  : 4000
-  ? - R.P2..TH
-    - KYP4..TG
-  : 4000
-  ? - LNP4..TH
-    - KYP4..TH
-  : 15
-  ? - T.....TE
-    - YTP5..TE
-  : 1
-  ? - LBL1....
-    - KL..TEL1
-  : 1
-  ? - R.P1..TH
-    - KYP3..TG
-  : 4000
   ? - FIC.....
-    - INV.G4TA
+    - INV.G3TG
   : 3.69863
-  ? - R.P2..TG
-    - P.P2..TG
+  ? - B...G3TH
+    - INV.G3TG
+  : 1
+  ? - B...G4TG
+    - INV.G4TG
   : -1
   ? - FIC.....
     - INV.G4TG
   : 3.69863
-  ? - LBL1MXTD
-    - KL..TDL1
-  : 180
-  ? - B...G3TE
-    - INVAG3TD
-  : 1
-  ? - B...G1TD
-    - KYP1..TD
-  : -50
-  ? - LY....TE
-    - KYP5..TE
+  ? - B...G4TH
+    - INV.G4TG
   : 1
   ? - B...G1TH
-    - INVAG1TG
-  : 1
-  ? - B...G1TE
-    - TIME..TE
-  : -10
-  ? - LSP3..TB
-    - KYP2..TA
+    - INV.G1TH
   : -1
-  ? - B...G2TH
-    - YTP2..TH
-  : 93
-  ? - LNP3..TE
-    - YTP3..TE
-  : -1
-  ? - B...G1TF
-    - KYP1..TF
-  : -50
-  ? - R.P3..TD
-    - KYP4..TC
-  : 4000
-  ? - LNP5..TE
-    - KYP5..TE
-  : 20
-  ? - LNP1..TD
-    - YTP1..TD
-  : -1
+  ? - FIC.....
+    - INV.G1TH
+  : 3.69863
+  ? - BS.12.TH
+    - INV.G1TH
+  : 2
+  ? - BS.123TH
+    - INV.G1TH
+  : 0.5
+  ? - BS.124TH
+    - INV.G1TH
+  : 0.5
   ? - BS.13.TH
     - INV.G1TH
   : 0.66667
-  ? - B...G3TD
-    - INV.G3TD
-  : -1
-  ? - B...G1TB
-    - TIME..TB
-  : -10
-  ? - LNP4..TB
-    - KYP4..TB
-  : 15
-  ? - B...G1TC
-    - INVAG1TB
-  : 1
-  ? - B...G2TH
-    - INV.G2TH
-  : -1
-  ? - LMP1..TG
-    - YTP1..TG
-  : 1
-  ? - R.P3..TE
-    - P.P3..TE
-  : -1
-  ? - B...G2TB
-    - INVAG2TA
-  : 1
   ? - BS.134TH
     - INV.G1TH
   : 0.33333
-  ? - FIP.....
-    - INVAG2TC
-  : -75
-  ? - B...G1TA
-    - INVAG1TA
+  ? - BS.14.TH
+    - INV.G1TH
+  : 0.66667
+  ? - B...G2TH
+    - INV.G2TH
   : -1
-  ? - FAT...J.
-    - FRP.....
-  : 1
-  ? - B...G3TG
-    - INVAG3TF
-  : 1
-  ? - LMP1..TH
-    - YTP1..TH
-  : 1
-  ? - B...G4TH
-    - YTP4..TH
-  : 92
-  ? - T.....TA
-    - YTP4..TA
-  : 1
-  ? - R.P1..TD
-    - KYP4..TC
-  : 3000
-  ? - T.....TF
-    - TIME..TF
+  ? - FIC.....
+    - INV.G2TH
+  : 3.69863
+  ? - BS.12.TH
+    - INV.G2TH
+  : 0.51282
+  ? - BS.123TH
+    - INV.G2TH
+  : 0.25641
+  ? - BS.124TH
+    - INV.G2TH
+  : 0.25641
+  ? - BS.23.TH
+    - INV.G2TH
+  : 0.51282
+  ? - BS.234TH
+    - INV.G2TH
+  : 0.25641
+  ? - BS.24.TH
+    - INV.G2TH
+  : 0.51282
+  ? - B...G3TH
+    - INV.G3TH
   : -1
-  ? - B...G3TD
-    - INVAG3TC
-  : 1
-  ? - LBL1MNTG
-    - TIME..TG
-  : -1
+  ? - FIC.....
+    - INV.G3TH
+  : 3.69863
+  ? - BS.123TH
+    - INV.G3TH
+  : 0.2
+  ? - BS.13.TH
+    - INV.G3TH
+  : 0.26667
+  ? - BS.134TH
+    - INV.G3TH
+  : 0.13333
+  ? - BS.23.TH
+    - INV.G3TH
+  : 0.8
+  ? - BS.234TH
+    - INV.G3TH
+  : 0.2
+  ? - BS.34.TH
+    - INV.G3TH
+  : 0.26667
   ? - B...G4TH
     - INV.G4TH
   : -1
-  ? - FOC.....
-    - FOC.....
-  : -1
-  ? - B...G1TF
-    - TIME..TF
-  : -10
-  ? - R.P3..TD
-    - KYP3..TD
-  : 4000
-  ? - T.....TC
-    - TIME..TC
-  : -1
-  ? - B...G3TH
-    - KYP3..TH
-  : -50
-  ? - B...G4TE
-    - YTP4..TE
-  : 92
-  ? - R.P5..TB
-    - P.P5..TB
+  ? - FIC.....
+    - INV.G4TH
+  : 3.69863
+  ? - BS.124TH
+    - INV.G4TH
+  : 0.41667
+  ? - BS.134TH
+    - INV.G4TH
+  : 0.27778
+  ? - BS.14.TH
+    - INV.G4TH
+  : 0.55556
+  ? - BS.234TH
+    - INV.G4TH
+  : 0.41667
+  ? - BS.24.TH
+    - INV.G4TH
+  : 1.66667
+  ? - BS.34.TH
+    - INV.G4TH
+  : 0.55556
+  ? - B...G1TA
+    - INVAG1TA
   : -1
   ? - FIP.....
-    - INVAG2TE
-  : -50
-  ? - B...G4TB
-    - INV.G4TA
+    - INVAG1TA
+  : -100
+  ? - B...G1TB
+    - INVAG1TA
   : 1
-  ? - B...G1TF
-    - INV.G1TE
-  : 1
-  ? - R.P5..TG
-    - KYP2..TF
-  : 2000
-  ? - LNP3..TE
-    - KYP3..TE
-  : 15
-  ? - LNP1..TG
-    - YTP1..TG
+  ? - B...G2TA
+    - INVAG2TA
   : -1
-  ? - B...G3TF
-    - YTP3..TF
-  : 65
+  ? - FIP.....
+    - INVAG2TA
+  : -100
+  ? - B...G2TB
+    - INVAG2TA
+  : 1
+  ? - B...G3TA
+    - INVAG3TA
+  : -1
+  ? - FIP.....
+    - INVAG3TA
+  : -100
+  ? - B...G3TB
+    - INVAG3TA
+  : 1
+  ? - B...G4TA
+    - INVAG4TA
+  : -1
+  ? - FIP.....
+    - INVAG4TA
+  : -100
+  ? - B...G4TB
+    - INVAG4TA
+  : 1
+  ? - B...G1TB
+    - INVAG1TB
+  : -1
+  ? - FIP.....
+    - INVAG1TB
+  : -87.5
+  ? - B...G1TC
+    - INVAG1TB
+  : 1
+  ? - B...G2TB
+    - INVAG2TB
+  : -1
+  ? - FIP.....
+    - INVAG2TB
+  : -87.5
+  ? - B...G2TC
+    - INVAG2TB
+  : 1
+  ? - B...G3TB
+    - INVAG3TB
+  : -1
+  ? - FIP.....
+    - INVAG3TB
+  : -87.5
+  ? - B...G3TC
+    - INVAG3TB
+  : 1
+  ? - B...G4TB
+    - INVAG4TB
+  : -1
+  ? - FIP.....
+    - INVAG4TB
+  : -87.5
+  ? - B...G4TC
+    - INVAG4TB
+  : 1
   ? - B...G1TC
     - INVAG1TC
   : -1
-  ? - LNP1..TC
-    - KYP1..TC
-  : 15
-  ? - B...G2TA
-    - INV.G2TA
-  : -1
-  ? - R.P4..TE
-    - KYP4..TE
-  : 4000
-  ? - LNP3..TA
-    - KYP3..TA
-  : 15
-  ? - T.....TD
-    - TIME..TC
+  ? - FIP.....
+    - INVAG1TC
+  : -75
+  ? - B...G1TD
+    - INVAG1TC
   : 1
   ? - B...G2TC
-    - INV.G2TB
-  : 1
-  ? - LY....TC
-    - KYP1..TC
-  : 1
-  ? - B...G4TB
-    - TIME..TB
-  : -12
-  ? - LNP1..TA
-    - YTP1..TA
+    - INVAG2TC
   : -1
-  ? - LMP5..TF
-    - YTP5..TF
+  ? - FIP.....
+    - INVAG2TC
+  : -75
+  ? - B...G2TD
+    - INVAG2TC
+  : 1
+  ? - B...G3TC
+    - INVAG3TC
+  : -1
+  ? - FIP.....
+    - INVAG3TC
+  : -75
+  ? - B...G3TD
+    - INVAG3TC
+  : 1
+  ? - B...G4TC
+    - INVAG4TC
+  : -1
+  ? - FIP.....
+    - INVAG4TC
+  : -75
+  ? - B...G4TD
+    - INVAG4TC
   : 1
   ? - B...G1TD
     - INVAG1TD
   : -1
-  ? - B...G2TG
-    - INVAG2TG
-  : -1
-  ? - B...G2TF
-    - TIME..TE
-  : 13
-  ? - LNP2..TA
-    - YTP2..TA
-  : -1
-  ? - BS.13.TH
-    - INV.G3TH
-  : 0.26667
-  ? - LNP3..TB
-    - KYP3..TB
-  : 15
-  ? - LMP4..TC
-    - YTP4..TC
+  ? - FIP.....
+    - INVAG1TD
+  : -62.5
+  ? - B...G1TE
+    - INVAG1TD
   : 1
-  ? - FAT...J.
-    - FOC.....
-  : 1
-  ? - FIC.....
-    - INV.G4TH
-  : 3.69863
+  ? - B...G2TD
+    - INVAG2TD
+  : -1
   ? - FIP.....
     - INVAG2TD
   : -62.5
-  ? - T.....TH
-    - YTP4..TH
+  ? - B...G2TE
+    - INVAG2TD
   : 1
-  ? - LY....TD
-    - KYP2..TD
-  : 1
-  ? - T.....TA
-    - YTP3..TA
-  : 1
-  ? - FSC.....
-    - P.P5..TB
-  : 1
-  ? - FSC.....
-    - P.P5..TF
-  : 1
-  ? - FIC.....
-    - INV.G3TC
-  : 3.69863
-  ? - BS.124TH
-    - INV.G1TH
-  : 0.5
-  ? - B...G2TH
-    - INVAG2TG
-  : 1
-  ? - R.P3..TF
-    - KYP3..TF
-  : 4000
-  ? - B...G3TF
-    - INVAG3TE
-  : 1
-  ? - LNP1..TB
-    - KYP1..TB
-  : 15
-  ? - LMP2..TD
-    - KYP2..TD
-  : -60
-  ? - B...G1TA
-    - KYP1..TA
-  : -50
-  ? - B...G2TB
-    - INVAG2TB
+  ? - B...G3TD
+    - INVAG3TD
   : -1
-  ? - LBL1....
-    - KL..TCL1
+  ? - FIP.....
+    - INVAG3TD
+  : -62.5
+  ? - B...G3TE
+    - INVAG3TD
   : 1
-  ? - LMP2..TG
-    - YTP2..TG
-  : 1
-  ? - T.....TH
-    - YTP2..TH
-  : 1
-  ? - R.P3..TE
-    - KYP3..TE
-  : 4000
-  ? - BS.24.TH
-    - INV.G4TH
-  : 1.66667
-  ? - FSC.....
-    - P.P3..TF
-  : 1
-  ? - LSP3..TH
-    - KYP3..TH
-  : 1
+  ? - B...G4TD
+    - INVAG4TD
+  : -1
+  ? - FIP.....
+    - INVAG4TD
+  : -62.5
   ? - B...G4TE
     - INVAG4TD
   : 1
-  ? - BS.234TH
-    - INV.G4TH
-  : 0.41667
-  ? - R.P5..TF
-    - KYP1..TE
-  : 2500
-  ? - BS.124TH
-    - INV.G2TH
-  : 0.25641
-  ? - R.P3..TH
-    - KYP2..TG
-  : 4000
-  ? - LMP3..TC
-    - YTP3..TC
-  : 1
-  ? - R.P4..TF
-    - KYP3..TE
-  : 4000
-  ? - B...G3TE
-    - INV.G3TD
-  : 1
-  ? - B...G3TH
-    - YTP3..TH
-  : 65
-  ? - FIP.....
-    - FIP.....
-  : -1
   ? - B...G1TE
-    - KYP1..TE
+    - INVAG1TE
+  : -1
+  ? - FIP.....
+    - INVAG1TE
   : -50
-  ? - FIC.....
-    - INV.G4TD
-  : 3.69863
-  ? - FAT...J.
-    - FIC.....
+  ? - B...G1TF
+    - INVAG1TE
   : 1
-  ? - R.P1..TC
-    - P.P1..TC
+  ? - B...G2TE
+    - INVAG2TE
   : -1
-  ? - T.....TB
-    - YTP2..TB
+  ? - FIP.....
+    - INVAG2TE
+  : -50
+  ? - B...G2TF
+    - INVAG2TE
   : 1
-  ? - R.P4..TE
-    - P.P4..TE
-  : -1
-  ? - R.P5..TH
-    - KYP4..TG
-  : 2500
-  ? - B...G3TG
-    - YTP3..TG
-  : 65
-  ? - B...G1TG
-    - TIME..TF
-  : 10
-  ? - B...G2TD
-    - INVAG2TC
-  : 1
-  ? - T.....TE
-    - YTP1..TE
-  : 1
-  ? - B...G3TF
-    - INV.G3TE
-  : 1
-  ? - LMP5..TH
-    - YTP5..TH
-  : 1
-  ? - LMP2..TC
-    - KYP2..TC
-  : -60
   ? - B...G3TE
-    - INV.G3TE
+    - INVAG3TE
   : -1
-  ? - B...G3TG
-    - KL..TGL1
-  : -300
-  ? - B...G4TF
-    - YTP4..TF
-  : 92
-  ? - T.....TE
-    - TIME..TD
+  ? - FIP.....
+    - INVAG3TE
+  : -50
+  ? - B...G3TF
+    - INVAG3TE
   : 1
-  ? - B...G3TD
-    - YTP3..TD
-  : 65
+  ? - B...G4TE
+    - INVAG4TE
+  : -1
+  ? - FIP.....
+    - INVAG4TE
+  : -50
+  ? - B...G4TF
+    - INVAG4TE
+  : 1
+  ? - B...G1TF
+    - INVAG1TF
+  : -1
   ? - FIP.....
     - INVAG1TF
   : -37.5
-  ? - LNP3..TG
-    - KYP3..TG
-  : 15
-  ? - B...G4TH
-    - INV.G4TG
+  ? - B...G1TG
+    - INVAG1TF
   : 1
-  ? - BS.234TH
-    - INV.G3TH
-  : 0.2
-  ? - LMP1..TF
-    - KYP1..TF
-  : -60
-  ? - FSC.....
-    - P.P2..TF
-  : 1
-  ? - FIP.....
-    - INVAG1TB
-  : -87.5
-  ? - R.P2..TD
-    - P.P2..TD
+  ? - B...G2TF
+    - INVAG2TF
   : -1
-  ? - R.P4..TE
-    - KYP1..TD
-  : 4000
+  ? - FIP.....
+    - INVAG2TF
+  : -37.5
+  ? - B...G2TG
+    - INVAG2TF
+  : 1
+  ? - B...G3TF
+    - INVAG3TF
+  : -1
+  ? - FIP.....
+    - INVAG3TF
+  : -37.5
+  ? - B...G3TG
+    - INVAG3TF
+  : 1
+  ? - B...G4TF
+    - INVAG4TF
+  : -1
+  ? - FIP.....
+    - INVAG4TF
+  : -37.5
+  ? - B...G4TG
+    - INVAG4TF
+  : 1
   ? - B...G1TG
     - INVAG1TG
   : -1
-  ? - LNP2..TF
-    - YTP2..TF
+  ? - FIP.....
+    - INVAG1TG
+  : -25
+  ? - B...G1TH
+    - INVAG1TG
+  : 1
+  ? - B...G2TG
+    - INVAG2TG
+  : -1
+  ? - FIP.....
+    - INVAG2TG
+  : -25
+  ? - B...G2TH
+    - INVAG2TG
+  : 1
+  ? - B...G3TG
+    - INVAG3TG
+  : -1
+  ? - FIP.....
+    - INVAG3TG
+  : -25
+  ? - B...G3TH
+    - INVAG3TG
+  : 1
+  ? - B...G4TG
+    - INVAG4TG
+  : -1
+  ? - FIP.....
+    - INVAG4TG
+  : -25
+  ? - B...G4TH
+    - INVAG4TG
+  : 1
+  ? - B...G1TH
+    - INVAG1TH
+  : -1
+  ? - FIP.....
+    - INVAG1TH
+  : -12.5
+  ? - B...G2TH
+    - INVAG2TH
+  : -1
+  ? - FIP.....
+    - INVAG2TH
+  : -12.5
+  ? - B...G3TH
+    - INVAG3TH
+  : -1
+  ? - FIP.....
+    - INVAG3TH
+  : -12.5
+  ? - B...G4TH
+    - INVAG4TH
+  : -1
+  ? - FIP.....
+    - INVAG4TH
+  : -12.5
+  ? - B...G1TA
+    - TIME..T.
+  : 10
+  ? - B...G2TA
+    - TIME..T.
+  : 13
+  ? - B...G3TA
+    - TIME..T.
+  : 25
+  ? - B...G4TA
+    - TIME..T.
+  : 12
+  ? - T.....TA
+    - TIME..T.
+  : 1
+  ? - B...G1TA
+    - TIME..TA
+  : -10
+  ? - B...G2TA
+    - TIME..TA
+  : -13
+  ? - B...G3TA
+    - TIME..TA
+  : -25
+  ? - B...G4TA
+    - TIME..TA
+  : -12
+  ? - T.....TA
+    - TIME..TA
+  : -1
+  ? - B...G1TB
+    - TIME..TA
+  : 10
+  ? - B...G2TB
+    - TIME..TA
+  : 13
+  ? - B...G3TB
+    - TIME..TA
+  : 25
+  ? - B...G4TB
+    - TIME..TA
+  : 12
+  ? - T.....TB
+    - TIME..TA
+  : 1
+  ? - B...G1TB
+    - TIME..TB
+  : -10
+  ? - B...G2TB
+    - TIME..TB
+  : -13
+  ? - B...G3TB
+    - TIME..TB
+  : -25
+  ? - B...G4TB
+    - TIME..TB
+  : -12
+  ? - T.....TB
+    - TIME..TB
+  : -1
+  ? - B...G1TC
+    - TIME..TB
+  : 10
+  ? - B...G2TC
+    - TIME..TB
+  : 13
+  ? - B...G3TC
+    - TIME..TB
+  : 25
+  ? - B...G4TC
+    - TIME..TB
+  : 12
+  ? - T.....TC
+    - TIME..TB
+  : 1
+  ? - LBL1MXTC
+    - TIME..TB
+  : 1
+  ? - B...G1TC
+    - TIME..TC
+  : -10
+  ? - B...G2TC
+    - TIME..TC
+  : -13
+  ? - B...G3TC
+    - TIME..TC
+  : -25
+  ? - B...G4TC
+    - TIME..TC
+  : -12
+  ? - T.....TC
+    - TIME..TC
+  : -1
+  ? - B...G1TD
+    - TIME..TC
+  : 10
+  ? - B...G2TD
+    - TIME..TC
+  : 13
+  ? - B...G3TD
+    - TIME..TC
+  : 25
+  ? - B...G4TD
+    - TIME..TC
+  : 12
+  ? - T.....TD
+    - TIME..TC
+  : 1
+  ? - LBL1MNTC
+    - TIME..TC
+  : -1
+  ? - LBL1MXTD
+    - TIME..TC
+  : 1
+  ? - B...G1TD
+    - TIME..TD
+  : -10
+  ? - B...G2TD
+    - TIME..TD
+  : -13
+  ? - B...G3TD
+    - TIME..TD
+  : -25
+  ? - B...G4TD
+    - TIME..TD
+  : -12
+  ? - T.....TD
+    - TIME..TD
+  : -1
+  ? - B...G1TE
+    - TIME..TD
+  : 10
+  ? - B...G2TE
+    - TIME..TD
+  : 13
+  ? - B...G3TE
+    - TIME..TD
+  : 25
+  ? - B...G4TE
+    - TIME..TD
+  : 12
+  ? - T.....TE
+    - TIME..TD
+  : 1
+  ? - LBL1MNTD
+    - TIME..TD
+  : -1
+  ? - LBL1MXTE
+    - TIME..TD
+  : 1
+  ? - B...G1TE
+    - TIME..TE
+  : -10
+  ? - B...G2TE
+    - TIME..TE
+  : -13
+  ? - B...G3TE
+    - TIME..TE
+  : -25
+  ? - B...G4TE
+    - TIME..TE
+  : -12
+  ? - T.....TE
+    - TIME..TE
+  : -1
+  ? - B...G1TF
+    - TIME..TE
+  : 10
+  ? - B...G2TF
+    - TIME..TE
+  : 13
+  ? - B...G3TF
+    - TIME..TE
+  : 25
+  ? - B...G4TF
+    - TIME..TE
+  : 12
+  ? - T.....TF
+    - TIME..TE
+  : 1
+  ? - LBL1MNTE
+    - TIME..TE
+  : -1
+  ? - LBL1MXTF
+    - TIME..TE
+  : 1
+  ? - B...G1TF
+    - TIME..TF
+  : -10
+  ? - B...G2TF
+    - TIME..TF
+  : -13
+  ? - B...G3TF
+    - TIME..TF
+  : -25
+  ? - B...G4TF
+    - TIME..TF
+  : -12
+  ? - T.....TF
+    - TIME..TF
+  : -1
+  ? - B...G1TG
+    - TIME..TF
+  : 10
+  ? - B...G2TG
+    - TIME..TF
+  : 13
+  ? - B...G3TG
+    - TIME..TF
+  : 25
+  ? - B...G4TG
+    - TIME..TF
+  : 12
+  ? - T.....TG
+    - TIME..TF
+  : 1
+  ? - LBL1MNTF
+    - TIME..TF
+  : -1
+  ? - LBL1MXTG
+    - TIME..TF
+  : 1
+  ? - B...G1TG
+    - TIME..TG
+  : -10
+  ? - B...G2TG
+    - TIME..TG
+  : -13
+  ? - B...G3TG
+    - TIME..TG
+  : -25
+  ? - B...G4TG
+    - TIME..TG
+  : -12
+  ? - T.....TG
+    - TIME..TG
+  : -1
+  ? - B...G1TH
+    - TIME..TG
+  : 10
+  ? - B...G2TH
+    - TIME..TG
+  : 13
+  ? - B...G3TH
+    - TIME..TG
+  : 25
+  ? - B...G4TH
+    - TIME..TG
+  : 12
+  ? - T.....TH
+    - TIME..TG
+  : 1
+  ? - LBL1MNTG
+    - TIME..TG
+  : -1
+  ? - B...G1TH
+    - TIME..TH
+  : -10
+  ? - B...G2TH
+    - TIME..TH
+  : -13
+  ? - B...G3TH
+    - TIME..TH
+  : -25
+  ? - B...G4TH
+    - TIME..TH
+  : -12
+  ? - T.....TH
+    - TIME..TH
+  : -1
+  ? - B...G1TA
+    - KYP1..TA
+  : -50
+  ? - LMP1..TA
+    - KYP1..TA
+  : -60
+  ? - LNP1..TA
+    - KYP1..TA
+  : 15
+  ? - LY....TA
+    - KYP1..TA
+  : 1
+  ? - R.P2..TB
+    - KYP1..TA
+  : 4000
+  ? - R.P3..TB
+    - KYP1..TA
+  : 3000
+  ? - R.P4..TB
+    - KYP1..TA
+  : 4000
+  ? - R.P5..TB
+    - KYP1..TA
+  : 2500
+  ? - B...G1TA
+    - YTP1..TA
+  : 80
+  ? - LMP1..TA
+    - YTP1..TA
+  : 1
+  ? - LNP1..TA
+    - YTP1..TA
+  : -1
+  ? - T.....TA
+    - YTP1..TA
+  : 1
+  ? - FOC.....
+    - YTP1..TA
+  : 60
+  ? - B...G1TB
+    - KYP1..TB
+  : -50
+  ? - LMP1..TB
+    - KYP1..TB
+  : -60
+  ? - LNP1..TB
+    - KYP1..TB
+  : 15
+  ? - LY....TB
+    - KYP1..TB
+  : 1
+  ? - R.P1..TB
+    - KYP1..TB
+  : 4000
+  ? - R.P2..TC
+    - KYP1..TB
+  : 4000
+  ? - R.P3..TC
+    - KYP1..TB
+  : 3000
+  ? - R.P4..TC
+    - KYP1..TB
+  : 4000
+  ? - R.P5..TC
+    - KYP1..TB
+  : 2500
+  ? - R.P1..TB
+    - P.P1..TB
+  : -1
+  ? - FSC.....
+    - P.P1..TB
+  : 1
+  ? - B...G1TB
+    - YTP1..TB
+  : 80
+  ? - LMP1..TB
+    - YTP1..TB
+  : 1
+  ? - LNP1..TB
+    - YTP1..TB
+  : -1
+  ? - T.....TB
+    - YTP1..TB
+  : 1
+  ? - FOC.....
+    - YTP1..TB
+  : 60
+  ? - B...G1TC
+    - KYP1..TC
+  : -50
+  ? - LMP1..TC
+    - KYP1..TC
+  : -60
+  ? - LNP1..TC
+    - KYP1..TC
+  : 15
+  ? - LY....TC
+    - KYP1..TC
+  : 1
+  ? - R.P1..TC
+    - KYP1..TC
+  : 4000
+  ? - R.P2..TD
+    - KYP1..TC
+  : 4000
+  ? - R.P3..TD
+    - KYP1..TC
+  : 3000
+  ? - R.P4..TD
+    - KYP1..TC
+  : 4000
+  ? - R.P5..TD
+    - KYP1..TC
+  : 2500
+  ? - R.P1..TC
+    - P.P1..TC
+  : -1
+  ? - FSC.....
+    - P.P1..TC
+  : 1
+  ? - B...G1TC
+    - YTP1..TC
+  : 80
+  ? - LMP1..TC
+    - YTP1..TC
+  : 1
+  ? - LNP1..TC
+    - YTP1..TC
+  : -1
+  ? - T.....TC
+    - YTP1..TC
+  : 1
+  ? - FOC.....
+    - YTP1..TC
+  : 60
+  ? - B...G1TD
+    - KYP1..TD
+  : -50
+  ? - LMP1..TD
+    - KYP1..TD
+  : -60
+  ? - LNP1..TD
+    - KYP1..TD
+  : 15
+  ? - LY....TD
+    - KYP1..TD
+  : 1
+  ? - R.P1..TD
+    - KYP1..TD
+  : 4000
+  ? - R.P2..TE
+    - KYP1..TD
+  : 4000
+  ? - R.P3..TE
+    - KYP1..TD
+  : 3000
+  ? - R.P4..TE
+    - KYP1..TD
+  : 4000
+  ? - R.P5..TE
+    - KYP1..TD
+  : 2500
+  ? - R.P1..TD
+    - P.P1..TD
+  : -1
+  ? - FSC.....
+    - P.P1..TD
+  : 1
+  ? - B...G1TD
+    - YTP1..TD
+  : 80
+  ? - LMP1..TD
+    - YTP1..TD
+  : 1
+  ? - LNP1..TD
+    - YTP1..TD
+  : -1
+  ? - T.....TD
+    - YTP1..TD
+  : 1
+  ? - FOC.....
+    - YTP1..TD
+  : 60
+  ? - B...G1TE
+    - KYP1..TE
+  : -50
+  ? - LMP1..TE
+    - KYP1..TE
+  : -60
+  ? - LNP1..TE
+    - KYP1..TE
+  : 15
+  ? - LY....TE
+    - KYP1..TE
+  : 1
+  ? - R.P1..TE
+    - KYP1..TE
+  : 4000
+  ? - R.P2..TF
+    - KYP1..TE
+  : 4000
+  ? - R.P3..TF
+    - KYP1..TE
+  : 3000
+  ? - R.P4..TF
+    - KYP1..TE
+  : 4000
+  ? - R.P5..TF
+    - KYP1..TE
+  : 2500
+  ? - R.P1..TE
+    - P.P1..TE
+  : -1
+  ? - FSC.....
+    - P.P1..TE
+  : 1
+  ? - B...G1TE
+    - YTP1..TE
+  : 80
+  ? - LMP1..TE
+    - YTP1..TE
+  : 1
+  ? - LNP1..TE
+    - YTP1..TE
+  : -1
+  ? - T.....TE
+    - YTP1..TE
+  : 1
+  ? - FOC.....
+    - YTP1..TE
+  : 60
+  ? - B...G1TF
+    - KYP1..TF
+  : -50
+  ? - LMP1..TF
+    - KYP1..TF
+  : -60
+  ? - LNP1..TF
+    - KYP1..TF
+  : 15
+  ? - LY....TF
+    - KYP1..TF
+  : 1
+  ? - R.P1..TF
+    - KYP1..TF
+  : 4000
+  ? - R.P2..TG
+    - KYP1..TF
+  : 4000
+  ? - R.P3..TG
+    - KYP1..TF
+  : 3000
+  ? - R.P4..TG
+    - KYP1..TF
+  : 4000
+  ? - R.P5..TG
+    - KYP1..TF
+  : 2500
+  ? - R.P1..TF
+    - P.P1..TF
+  : -1
+  ? - FSC.....
+    - P.P1..TF
+  : 1
+  ? - B...G1TF
+    - YTP1..TF
+  : 80
+  ? - LMP1..TF
+    - YTP1..TF
+  : 1
+  ? - LNP1..TF
+    - YTP1..TF
   : -1
   ? - T.....TF
     - YTP1..TF
   : 1
-  ? - B...G3TD
-    - TIME..TC
-  : 25
-  ? - B...G3TH
-    - INV.G3TG
-  : 1
-  ? - B...G2TA
-    - TIME..T.
-  : 13
   ? - FOC.....
-    - YTP1..TA
+    - YTP1..TF
   : 60
-  ? - B...G4TF
-    - INVAG4TE
+  ? - B...G1TG
+    - KYP1..TG
+  : -50
+  ? - LMP1..TG
+    - KYP1..TG
+  : -60
+  ? - LNP1..TG
+    - KYP1..TG
+  : 15
+  ? - LY....TG
+    - KYP1..TG
+  : 1
+  ? - R.P1..TG
+    - KYP1..TG
+  : 4000
+  ? - R.P2..TH
+    - KYP1..TG
+  : 4000
+  ? - R.P3..TH
+    - KYP1..TG
+  : 3000
+  ? - R.P4..TH
+    - KYP1..TG
+  : 4000
+  ? - R.P5..TH
+    - KYP1..TG
+  : 2500
+  ? - R.P1..TG
+    - P.P1..TG
+  : -1
+  ? - FSC.....
+    - P.P1..TG
   : 1
   ? - B...G1TG
-    - INVAG1TF
+    - YTP1..TG
+  : 80
+  ? - LMP1..TG
+    - YTP1..TG
   : 1
-  ? - B...G4TC
-    - TIME..TB
-  : 12
-  ? - FIC.....
-    - INV.G3TA
-  : 3.69863
-  ? - LMP1..TB
-    - KYP1..TB
+  ? - LNP1..TG
+    - YTP1..TG
+  : -1
+  ? - T.....TG
+    - YTP1..TG
+  : 1
+  ? - FOC.....
+    - YTP1..TG
+  : 60
+  ? - B...G1TH
+    - KYP1..TH
+  : -50
+  ? - LMP1..TH
+    - KYP1..TH
+  : -60
+  ? - LNP1..TH
+    - KYP1..TH
+  : 15
+  ? - LY....TH
+    - KYP1..TH
+  : 1
+  ? - R.P1..TH
+    - KYP1..TH
+  : 4000
+  ? - R.P1..TH
+    - P.P1..TH
+  : -1
+  ? - FSC.....
+    - P.P1..TH
+  : 1
+  ? - B...G1TH
+    - YTP1..TH
+  : 80
+  ? - LMP1..TH
+    - YTP1..TH
+  : 1
+  ? - LNP1..TH
+    - YTP1..TH
+  : -1
+  ? - T.....TH
+    - YTP1..TH
+  : 1
+  ? - FOC.....
+    - YTP1..TH
+  : 60
+  ? - B...G2TA
+    - KYP2..TA
+  : -20
+  ? - LMP2..TA
+    - KYP2..TA
+  : -60
+  ? - LNP2..TA
+    - KYP2..TA
+  : 5
+  ? - LY....TA
+    - KYP2..TA
+  : 1
+  ? - LSP3..TB
+    - KYP2..TA
+  : -1
+  ? - R.P1..TB
+    - KYP2..TA
+  : 4000
+  ? - R.P3..TB
+    - KYP2..TA
+  : 4000
+  ? - R.P4..TB
+    - KYP2..TA
+  : 3000
+  ? - R.P5..TB
+    - KYP2..TA
+  : 2000
+  ? - B...G2TA
+    - YTP2..TA
+  : 93
+  ? - LMP2..TA
+    - YTP2..TA
+  : 1
+  ? - LNP2..TA
+    - YTP2..TA
+  : -1
+  ? - T.....TA
+    - YTP2..TA
+  : 1
+  ? - FOC.....
+    - YTP2..TA
+  : 30
+  ? - B...G2TB
+    - KYP2..TB
+  : -20
+  ? - LMP2..TB
+    - KYP2..TB
+  : -60
+  ? - LNP2..TB
+    - KYP2..TB
+  : 5
+  ? - LY....TB
+    - KYP2..TB
+  : 1
+  ? - LSP3..TA
+    - KYP2..TB
+  : -1
+  ? - R.P2..TB
+    - KYP2..TB
+  : 4000
+  ? - LSP3..TC
+    - KYP2..TB
+  : -1
+  ? - R.P1..TC
+    - KYP2..TB
+  : 4000
+  ? - R.P3..TC
+    - KYP2..TB
+  : 4000
+  ? - R.P4..TC
+    - KYP2..TB
+  : 3000
+  ? - R.P5..TC
+    - KYP2..TB
+  : 2000
+  ? - R.P2..TB
+    - P.P2..TB
+  : -1
+  ? - FSC.....
+    - P.P2..TB
+  : 1
+  ? - B...G2TB
+    - YTP2..TB
+  : 93
+  ? - LMP2..TB
+    - YTP2..TB
+  : 1
+  ? - LNP2..TB
+    - YTP2..TB
+  : -1
+  ? - T.....TB
+    - YTP2..TB
+  : 1
+  ? - FOC.....
+    - YTP2..TB
+  : 30
+  ? - B...G2TC
+    - KYP2..TC
+  : -20
+  ? - LMP2..TC
+    - KYP2..TC
+  : -60
+  ? - LNP2..TC
+    - KYP2..TC
+  : 5
+  ? - LY....TC
+    - KYP2..TC
+  : 1
+  ? - LSP3..TB
+    - KYP2..TC
+  : -1
+  ? - R.P2..TC
+    - KYP2..TC
+  : 4000
+  ? - LSP3..TD
+    - KYP2..TC
+  : -1
+  ? - R.P1..TD
+    - KYP2..TC
+  : 4000
+  ? - R.P3..TD
+    - KYP2..TC
+  : 4000
+  ? - R.P4..TD
+    - KYP2..TC
+  : 3000
+  ? - R.P5..TD
+    - KYP2..TC
+  : 2000
+  ? - R.P2..TC
+    - P.P2..TC
+  : -1
+  ? - FSC.....
+    - P.P2..TC
+  : 1
+  ? - B...G2TC
+    - YTP2..TC
+  : 93
+  ? - LMP2..TC
+    - YTP2..TC
+  : 1
+  ? - LNP2..TC
+    - YTP2..TC
+  : -1
+  ? - T.....TC
+    - YTP2..TC
+  : 1
+  ? - FOC.....
+    - YTP2..TC
+  : 30
+  ? - B...G2TD
+    - KYP2..TD
+  : -20
+  ? - LMP2..TD
+    - KYP2..TD
+  : -60
+  ? - LNP2..TD
+    - KYP2..TD
+  : 5
+  ? - LY....TD
+    - KYP2..TD
+  : 1
+  ? - LSP3..TC
+    - KYP2..TD
+  : -1
+  ? - R.P2..TD
+    - KYP2..TD
+  : 4000
+  ? - LSP3..TE
+    - KYP2..TD
+  : -1
+  ? - R.P1..TE
+    - KYP2..TD
+  : 4000
+  ? - R.P3..TE
+    - KYP2..TD
+  : 4000
+  ? - R.P4..TE
+    - KYP2..TD
+  : 3000
+  ? - R.P5..TE
+    - KYP2..TD
+  : 2000
+  ? - R.P2..TD
+    - P.P2..TD
+  : -1
+  ? - FSC.....
+    - P.P2..TD
+  : 1
+  ? - B...G2TD
+    - YTP2..TD
+  : 93
+  ? - LMP2..TD
+    - YTP2..TD
+  : 1
+  ? - LNP2..TD
+    - YTP2..TD
+  : -1
+  ? - T.....TD
+    - YTP2..TD
+  : 1
+  ? - FOC.....
+    - YTP2..TD
+  : 30
+  ? - B...G2TE
+    - KYP2..TE
+  : -20
+  ? - LMP2..TE
+    - KYP2..TE
+  : -60
+  ? - LNP2..TE
+    - KYP2..TE
+  : 5
+  ? - LY....TE
+    - KYP2..TE
+  : 1
+  ? - LSP3..TD
+    - KYP2..TE
+  : -1
+  ? - R.P2..TE
+    - KYP2..TE
+  : 4000
+  ? - LSP3..TF
+    - KYP2..TE
+  : -1
+  ? - R.P1..TF
+    - KYP2..TE
+  : 4000
+  ? - R.P3..TF
+    - KYP2..TE
+  : 4000
+  ? - R.P4..TF
+    - KYP2..TE
+  : 3000
+  ? - R.P5..TF
+    - KYP2..TE
+  : 2000
+  ? - R.P2..TE
+    - P.P2..TE
+  : -1
+  ? - FSC.....
+    - P.P2..TE
+  : 1
+  ? - B...G2TE
+    - YTP2..TE
+  : 93
+  ? - LMP2..TE
+    - YTP2..TE
+  : 1
+  ? - LNP2..TE
+    - YTP2..TE
+  : -1
+  ? - T.....TE
+    - YTP2..TE
+  : 1
+  ? - FOC.....
+    - YTP2..TE
+  : 30
+  ? - B...G2TF
+    - KYP2..TF
+  : -20
+  ? - LMP2..TF
+    - KYP2..TF
   : -60
   ? - LNP2..TF
     - KYP2..TF
   : 5
+  ? - LY....TF
+    - KYP2..TF
+  : 1
+  ? - LSP3..TE
+    - KYP2..TF
+  : -1
+  ? - R.P2..TF
+    - KYP2..TF
+  : 4000
+  ? - LSP3..TG
+    - KYP2..TF
+  : -1
+  ? - R.P1..TG
+    - KYP2..TF
+  : 4000
+  ? - R.P3..TG
+    - KYP2..TF
+  : 4000
+  ? - R.P4..TG
+    - KYP2..TF
+  : 3000
+  ? - R.P5..TG
+    - KYP2..TF
+  : 2000
+  ? - R.P2..TF
+    - P.P2..TF
+  : -1
+  ? - FSC.....
+    - P.P2..TF
+  : 1
+  ? - B...G2TF
+    - YTP2..TF
+  : 93
+  ? - LMP2..TF
+    - YTP2..TF
+  : 1
+  ? - LNP2..TF
+    - YTP2..TF
+  : -1
+  ? - T.....TF
+    - YTP2..TF
+  : 1
+  ? - FOC.....
+    - YTP2..TF
+  : 30
+  ? - B...G2TG
+    - KYP2..TG
+  : -20
+  ? - LMP2..TG
+    - KYP2..TG
+  : -60
+  ? - LNP2..TG
+    - KYP2..TG
+  : 5
+  ? - LY....TG
+    - KYP2..TG
+  : 1
+  ? - LSP3..TF
+    - KYP2..TG
+  : -1
+  ? - R.P2..TG
+    - KYP2..TG
+  : 4000
+  ? - LSP3..TH
+    - KYP2..TG
+  : -1
+  ? - R.P1..TH
+    - KYP2..TG
+  : 4000
+  ? - R.P3..TH
+    - KYP2..TG
+  : 4000
+  ? - R.P4..TH
+    - KYP2..TG
+  : 3000
+  ? - R.P5..TH
+    - KYP2..TG
+  : 2000
+  ? - R.P2..TG
+    - P.P2..TG
+  : -1
+  ? - FSC.....
+    - P.P2..TG
+  : 1
+  ? - B...G2TG
+    - YTP2..TG
+  : 93
+  ? - LMP2..TG
+    - YTP2..TG
+  : 1
+  ? - LNP2..TG
+    - YTP2..TG
+  : -1
+  ? - T.....TG
+    - YTP2..TG
+  : 1
+  ? - FOC.....
+    - YTP2..TG
+  : 30
+  ? - B...G2TH
+    - KYP2..TH
+  : -20
+  ? - LMP2..TH
+    - KYP2..TH
+  : -60
+  ? - LNP2..TH
+    - KYP2..TH
+  : 5
+  ? - LY....TH
+    - KYP2..TH
+  : 1
+  ? - LSP3..TG
+    - KYP2..TH
+  : -1
+  ? - R.P2..TH
+    - KYP2..TH
+  : 4000
+  ? - R.P2..TH
+    - P.P2..TH
+  : -1
+  ? - FSC.....
+    - P.P2..TH
+  : 1
+  ? - B...G2TH
+    - YTP2..TH
+  : 93
+  ? - LMP2..TH
+    - YTP2..TH
+  : 1
+  ? - LNP2..TH
+    - YTP2..TH
+  : -1
+  ? - T.....TH
+    - YTP2..TH
+  : 1
+  ? - FOC.....
+    - YTP2..TH
+  : 30
+  ? - B...G3TA
+    - KYP3..TA
+  : -50
+  ? - LMP3..TA
+    - KYP3..TA
+  : -60
+  ? - LNP3..TA
+    - KYP3..TA
+  : 15
+  ? - LY....TA
+    - KYP3..TA
+  : 1
+  ? - LSP3..TA
+    - KYP3..TA
+  : 1
+  ? - R.P1..TB
+    - KYP3..TA
+  : 4000
   ? - R.P2..TB
     - KYP3..TA
   : 3000
-  ? - R.P5..TF
-    - KYP3..TE
-  : 2500
-  ? - B...G4TB
-    - KYP4..TB
-  : -50
   ? - R.P4..TB
-    - KYP4..TB
+    - KYP3..TA
   : 4000
+  ? - R.P5..TB
+    - KYP3..TA
+  : 2500
+  ? - B...G3TA
+    - YTP3..TA
+  : 65
+  ? - LMP3..TA
+    - YTP3..TA
+  : 1
+  ? - LNP3..TA
+    - YTP3..TA
+  : -1
+  ? - T.....TA
+    - YTP3..TA
+  : 1
+  ? - FOC.....
+    - YTP3..TA
+  : 40
+  ? - B...G3TB
+    - KYP3..TB
+  : -50
+  ? - LMP3..TB
+    - KYP3..TB
+  : -60
+  ? - LNP3..TB
+    - KYP3..TB
+  : 15
+  ? - LY....TB
+    - KYP3..TB
+  : 1
+  ? - LSP3..TB
+    - KYP3..TB
+  : 1
+  ? - R.P3..TB
+    - KYP3..TB
+  : 4000
+  ? - R.P1..TC
+    - KYP3..TB
+  : 4000
+  ? - R.P2..TC
+    - KYP3..TB
+  : 3000
+  ? - R.P4..TC
+    - KYP3..TB
+  : 4000
+  ? - R.P5..TC
+    - KYP3..TB
+  : 2500
+  ? - R.P3..TB
+    - P.P3..TB
+  : -1
   ? - FSC.....
-    - P.P3..TE
+    - P.P3..TB
+  : 1
+  ? - B...G3TB
+    - YTP3..TB
+  : 65
+  ? - LMP3..TB
+    - YTP3..TB
+  : 1
+  ? - LNP3..TB
+    - YTP3..TB
+  : -1
+  ? - T.....TB
+    - YTP3..TB
+  : 1
+  ? - FOC.....
+    - YTP3..TB
+  : 40
+  ? - B...G3TC
+    - KYP3..TC
+  : -50
+  ? - LMP3..TC
+    - KYP3..TC
+  : -60
+  ? - LNP3..TC
+    - KYP3..TC
+  : 15
+  ? - LY....TC
+    - KYP3..TC
+  : 1
+  ? - LSP3..TC
+    - KYP3..TC
+  : 1
+  ? - R.P3..TC
+    - KYP3..TC
+  : 4000
+  ? - R.P1..TD
+    - KYP3..TC
+  : 4000
+  ? - R.P2..TD
+    - KYP3..TC
+  : 3000
+  ? - R.P4..TD
+    - KYP3..TC
+  : 4000
+  ? - R.P5..TD
+    - KYP3..TC
+  : 2500
+  ? - R.P3..TC
+    - P.P3..TC
+  : -1
+  ? - FSC.....
+    - P.P3..TC
+  : 1
+  ? - B...G3TC
+    - YTP3..TC
+  : 65
+  ? - LMP3..TC
+    - YTP3..TC
+  : 1
+  ? - LNP3..TC
+    - YTP3..TC
+  : -1
+  ? - T.....TC
+    - YTP3..TC
+  : 1
+  ? - FOC.....
+    - YTP3..TC
+  : 40
+  ? - B...G3TD
+    - KYP3..TD
+  : -50
+  ? - LMP3..TD
+    - KYP3..TD
+  : -60
+  ? - LNP3..TD
+    - KYP3..TD
+  : 15
+  ? - LY....TD
+    - KYP3..TD
+  : 1
+  ? - LSP3..TD
+    - KYP3..TD
+  : 1
+  ? - R.P3..TD
+    - KYP3..TD
+  : 4000
+  ? - R.P1..TE
+    - KYP3..TD
+  : 4000
+  ? - R.P2..TE
+    - KYP3..TD
+  : 3000
+  ? - R.P4..TE
+    - KYP3..TD
+  : 4000
+  ? - R.P5..TE
+    - KYP3..TD
+  : 2500
+  ? - R.P3..TD
+    - P.P3..TD
+  : -1
+  ? - FSC.....
+    - P.P3..TD
+  : 1
+  ? - B...G3TD
+    - YTP3..TD
+  : 65
+  ? - LMP3..TD
+    - YTP3..TD
+  : 1
+  ? - LNP3..TD
+    - YTP3..TD
+  : -1
+  ? - T.....TD
+    - YTP3..TD
+  : 1
+  ? - FOC.....
+    - YTP3..TD
+  : 40
+  ? - B...G3TE
+    - KYP3..TE
+  : -50
+  ? - LMP3..TE
+    - KYP3..TE
+  : -60
+  ? - LNP3..TE
+    - KYP3..TE
+  : 15
+  ? - LY....TE
+    - KYP3..TE
   : 1
   ? - LSP3..TE
     - KYP3..TE
   : 1
-  ? - LMP4..TH
-    - YTP4..TH
+  ? - R.P3..TE
+    - KYP3..TE
+  : 4000
+  ? - R.P1..TF
+    - KYP3..TE
+  : 4000
+  ? - R.P2..TF
+    - KYP3..TE
+  : 3000
+  ? - R.P4..TF
+    - KYP3..TE
+  : 4000
+  ? - R.P5..TF
+    - KYP3..TE
+  : 2500
+  ? - R.P3..TE
+    - P.P3..TE
+  : -1
+  ? - FSC.....
+    - P.P3..TE
   : 1
+  ? - B...G3TE
+    - YTP3..TE
+  : 65
+  ? - LMP3..TE
+    - YTP3..TE
+  : 1
+  ? - LNP3..TE
+    - YTP3..TE
+  : -1
+  ? - T.....TE
+    - YTP3..TE
+  : 1
+  ? - FOC.....
+    - YTP3..TE
+  : 40
+  ? - B...G3TF
+    - KYP3..TF
+  : -50
+  ? - LMP3..TF
+    - KYP3..TF
+  : -60
+  ? - LNP3..TF
+    - KYP3..TF
+  : 15
+  ? - LY....TF
+    - KYP3..TF
+  : 1
+  ? - LSP3..TF
+    - KYP3..TF
+  : 1
+  ? - R.P3..TF
+    - KYP3..TF
+  : 4000
+  ? - R.P1..TG
+    - KYP3..TF
+  : 4000
+  ? - R.P2..TG
+    - KYP3..TF
+  : 3000
+  ? - R.P4..TG
+    - KYP3..TF
+  : 4000
+  ? - R.P5..TG
+    - KYP3..TF
+  : 2500
+  ? - R.P3..TF
+    - P.P3..TF
+  : -1
+  ? - FSC.....
+    - P.P3..TF
+  : 1
+  ? - B...G3TF
+    - YTP3..TF
+  : 65
+  ? - LMP3..TF
+    - YTP3..TF
+  : 1
+  ? - LNP3..TF
+    - YTP3..TF
+  : -1
+  ? - T.....TF
+    - YTP3..TF
+  : 1
+  ? - FOC.....
+    - YTP3..TF
+  : 40
+  ? - B...G3TG
+    - KYP3..TG
+  : -50
+  ? - LMP3..TG
+    - KYP3..TG
+  : -60
+  ? - LNP3..TG
+    - KYP3..TG
+  : 15
+  ? - LY....TG
+    - KYP3..TG
+  : 1
+  ? - LSP3..TG
+    - KYP3..TG
+  : 1
+  ? - R.P3..TG
+    - KYP3..TG
+  : 4000
+  ? - R.P1..TH
+    - KYP3..TG
+  : 4000
+  ? - R.P2..TH
+    - KYP3..TG
+  : 3000
+  ? - R.P4..TH
+    - KYP3..TG
+  : 4000
+  ? - R.P5..TH
+    - KYP3..TG
+  : 2500
+  ? - R.P3..TG
+    - P.P3..TG
+  : -1
+  ? - FSC.....
+    - P.P3..TG
+  : 1
+  ? - B...G3TG
+    - YTP3..TG
+  : 65
+  ? - LMP3..TG
+    - YTP3..TG
+  : 1
+  ? - LNP3..TG
+    - YTP3..TG
+  : -1
+  ? - T.....TG
+    - YTP3..TG
+  : 1
+  ? - FOC.....
+    - YTP3..TG
+  : 40
+  ? - B...G3TH
+    - KYP3..TH
+  : -50
+  ? - LMP3..TH
+    - KYP3..TH
+  : -60
+  ? - LNP3..TH
+    - KYP3..TH
+  : 15
+  ? - LY....TH
+    - KYP3..TH
+  : 1
+  ? - LSP3..TH
+    - KYP3..TH
+  : 1
+  ? - R.P3..TH
+    - KYP3..TH
+  : 4000
+  ? - R.P3..TH
+    - P.P3..TH
+  : -1
+  ? - FSC.....
+    - P.P3..TH
+  : 1
+  ? - B...G3TH
+    - YTP3..TH
+  : 65
+  ? - LMP3..TH
+    - YTP3..TH
+  : 1
+  ? - LNP3..TH
+    - YTP3..TH
+  : -1
+  ? - T.....TH
+    - YTP3..TH
+  : 1
+  ? - FOC.....
+    - YTP3..TH
+  : 40
+  ? - B...G4TA
+    - KYP4..TA
+  : -50
+  ? - LMP4..TA
+    - KYP4..TA
+  : -60
+  ? - LNP4..TA
+    - KYP4..TA
+  : 15
+  ? - LY....TA
+    - KYP4..TA
+  : 1
+  ? - R.P1..TB
+    - KYP4..TA
+  : 3000
+  ? - R.P2..TB
+    - KYP4..TA
+  : 4000
+  ? - R.P3..TB
+    - KYP4..TA
+  : 4000
+  ? - R.P5..TB
+    - KYP4..TA
+  : 2500
+  ? - B...G4TA
+    - YTP4..TA
+  : 92
+  ? - LMP4..TA
+    - YTP4..TA
+  : 1
+  ? - LNP4..TA
+    - YTP4..TA
+  : -1
+  ? - T.....TA
+    - YTP4..TA
+  : 1
+  ? - FOC.....
+    - YTP4..TA
+  : 50
+  ? - B...G4TB
+    - KYP4..TB
+  : -50
+  ? - LMP4..TB
+    - KYP4..TB
+  : -60
+  ? - LNP4..TB
+    - KYP4..TB
+  : 15
+  ? - LY....TB
+    - KYP4..TB
+  : 1
+  ? - R.P4..TB
+    - KYP4..TB
+  : 4000
+  ? - R.P1..TC
+    - KYP4..TB
+  : 3000
+  ? - R.P2..TC
+    - KYP4..TB
+  : 4000
+  ? - R.P3..TC
+    - KYP4..TB
+  : 4000
+  ? - R.P5..TC
+    - KYP4..TB
+  : 2500
+  ? - R.P4..TB
+    - P.P4..TB
+  : -1
+  ? - FSC.....
+    - P.P4..TB
+  : 1
+  ? - B...G4TB
+    - YTP4..TB
+  : 92
+  ? - LMP4..TB
+    - YTP4..TB
+  : 1
+  ? - LNP4..TB
+    - YTP4..TB
+  : -1
+  ? - T.....TB
+    - YTP4..TB
+  : 1
+  ? - FOC.....
+    - YTP4..TB
+  : 50
+  ? - B...G4TC
+    - KYP4..TC
+  : -50
+  ? - LMP4..TC
+    - KYP4..TC
+  : -60
+  ? - LNP4..TC
+    - KYP4..TC
+  : 15
+  ? - LY....TC
+    - KYP4..TC
+  : 1
+  ? - R.P4..TC
+    - KYP4..TC
+  : 4000
+  ? - R.P1..TD
+    - KYP4..TC
+  : 3000
   ? - R.P2..TD
     - KYP4..TC
   : 4000
+  ? - R.P3..TD
+    - KYP4..TC
+  : 4000
+  ? - R.P5..TD
+    - KYP4..TC
+  : 2500
+  ? - R.P4..TC
+    - P.P4..TC
+  : -1
+  ? - FSC.....
+    - P.P4..TC
+  : 1
+  ? - B...G4TC
+    - YTP4..TC
+  : 92
+  ? - LMP4..TC
+    - YTP4..TC
+  : 1
+  ? - LNP4..TC
+    - YTP4..TC
+  : -1
+  ? - T.....TC
+    - YTP4..TC
+  : 1
+  ? - FOC.....
+    - YTP4..TC
+  : 50
+  ? - B...G4TD
+    - KYP4..TD
+  : -50
+  ? - LMP4..TD
+    - KYP4..TD
+  : -60
+  ? - LNP4..TD
+    - KYP4..TD
+  : 15
+  ? - LY....TD
+    - KYP4..TD
+  : 1
+  ? - R.P4..TD
+    - KYP4..TD
+  : 4000
+  ? - R.P1..TE
+    - KYP4..TD
+  : 3000
+  ? - R.P2..TE
+    - KYP4..TD
+  : 4000
+  ? - R.P3..TE
+    - KYP4..TD
+  : 4000
+  ? - R.P5..TE
+    - KYP4..TD
+  : 2500
+  ? - R.P4..TD
+    - P.P4..TD
+  : -1
+  ? - FSC.....
+    - P.P4..TD
+  : 1
+  ? - B...G4TD
+    - YTP4..TD
+  : 92
+  ? - LMP4..TD
+    - YTP4..TD
+  : 1
+  ? - LNP4..TD
+    - YTP4..TD
+  : -1
+  ? - T.....TD
+    - YTP4..TD
+  : 1
+  ? - FOC.....
+    - YTP4..TD
+  : 50
   ? - B...G4TE
-    - INV.G4TD
+    - KYP4..TE
+  : -50
+  ? - LMP4..TE
+    - KYP4..TE
+  : -60
+  ? - LNP4..TE
+    - KYP4..TE
+  : 15
+  ? - LY....TE
+    - KYP4..TE
   : 1
-  ? - LY....TB
-    - KYP2..TB
+  ? - R.P4..TE
+    - KYP4..TE
+  : 4000
+  ? - R.P1..TF
+    - KYP4..TE
+  : 3000
+  ? - R.P2..TF
+    - KYP4..TE
+  : 4000
+  ? - R.P3..TF
+    - KYP4..TE
+  : 4000
+  ? - R.P5..TF
+    - KYP4..TE
+  : 2500
+  ? - R.P4..TE
+    - P.P4..TE
+  : -1
+  ? - FSC.....
+    - P.P4..TE
   : 1
-  ? - FIC.....
-    - INV.G2TC
-  : 3.69863
+  ? - B...G4TE
+    - YTP4..TE
+  : 92
+  ? - LMP4..TE
+    - YTP4..TE
+  : 1
+  ? - LNP4..TE
+    - YTP4..TE
+  : -1
+  ? - T.....TE
+    - YTP4..TE
+  : 1
+  ? - FOC.....
+    - YTP4..TE
+  : 50
+  ? - B...G4TF
+    - KYP4..TF
+  : -50
+  ? - LMP4..TF
+    - KYP4..TF
+  : -60
+  ? - LNP4..TF
+    - KYP4..TF
+  : 15
+  ? - LY....TF
+    - KYP4..TF
+  : 1
+  ? - R.P4..TF
+    - KYP4..TF
+  : 4000
+  ? - R.P1..TG
+    - KYP4..TF
+  : 3000
+  ? - R.P2..TG
+    - KYP4..TF
+  : 4000
+  ? - R.P3..TG
+    - KYP4..TF
+  : 4000
+  ? - R.P5..TG
+    - KYP4..TF
+  : 2500
+  ? - R.P4..TF
+    - P.P4..TF
+  : -1
+  ? - FSC.....
+    - P.P4..TF
+  : 1
+  ? - B...G4TF
+    - YTP4..TF
+  : 92
+  ? - LMP4..TF
+    - YTP4..TF
+  : 1
+  ? - LNP4..TF
+    - YTP4..TF
+  : -1
+  ? - T.....TF
+    - YTP4..TF
+  : 1
+  ? - FOC.....
+    - YTP4..TF
+  : 50
+  ? - B...G4TG
+    - KYP4..TG
+  : -50
+  ? - LMP4..TG
+    - KYP4..TG
+  : -60
+  ? - LNP4..TG
+    - KYP4..TG
+  : 15
+  ? - LY....TG
+    - KYP4..TG
+  : 1
+  ? - R.P4..TG
+    - KYP4..TG
+  : 4000
   ? - R.P1..TH
     - KYP4..TG
   : 3000
-  ? - B...G2TH
-    - INV.G2TG
-  : 1
+  ? - R.P2..TH
+    - KYP4..TG
+  : 4000
+  ? - R.P3..TH
+    - KYP4..TG
+  : 4000
+  ? - R.P5..TH
+    - KYP4..TG
+  : 2500
+  ? - R.P4..TG
+    - P.P4..TG
+  : -1
   ? - FSC.....
-    - P.P1..TF
+    - P.P4..TG
   : 1
-  ? - R.P1..TG
-    - KYP2..TF
-  : 4000
-  ? - FIC.....
-    - INV.G2TF
-  : 3.69863
-  ? - R.P1..TH
-    - KYP1..TH
-  : 4000
-  ? - FIP.....
-    - INVAG3TG
-  : -25
-  ? - R.P1..TC
-    - KYP1..TC
-  : 4000
-  ? - R.P4..TD
-    - KYP3..TC
-  : 4000
-  ? - B...G1TC
-    - INV.G1TC
+  ? - B...G4TG
+    - YTP4..TG
+  : 92
+  ? - LMP4..TG
+    - YTP4..TG
+  : 1
+  ? - LNP4..TG
+    - YTP4..TG
   : -1
-  ? - LBL1MXTE
-    - KL..TEL1
-  : 180
-  ? - B...G2TH
-    - INVAG2TH
-  : -1
+  ? - T.....TG
+    - YTP4..TG
+  : 1
+  ? - FOC.....
+    - YTP4..TG
+  : 50
   ? - B...G4TH
-    - TIME..TG
-  : 12
+    - KYP4..TH
+  : -50
+  ? - LMP4..TH
+    - KYP4..TH
+  : -60
+  ? - LNP4..TH
+    - KYP4..TH
+  : 15
+  ? - LY....TH
+    - KYP4..TH
+  : 1
+  ? - R.P4..TH
+    - KYP4..TH
+  : 4000
+  ? - R.P4..TH
+    - P.P4..TH
+  : -1
+  ? - FSC.....
+    - P.P4..TH
+  : 1
+  ? - B...G4TH
+    - YTP4..TH
+  : 92
+  ? - LMP4..TH
+    - YTP4..TH
+  : 1
+  ? - LNP4..TH
+    - YTP4..TH
+  : -1
+  ? - T.....TH
+    - YTP4..TH
+  : 1
+  ? - FOC.....
+    - YTP4..TH
+  : 50
+  ? - LMP5..TA
+    - KYP5..TA
+  : -60
+  ? - LNP5..TA
+    - KYP5..TA
+  : 20
+  ? - LY....TA
+    - KYP5..TA
+  : 1
+  ? - LMP5..TA
+    - YTP5..TA
+  : 1
+  ? - LNP5..TA
+    - YTP5..TA
+  : -1
+  ? - T.....TA
+    - YTP5..TA
+  : 1
+  ? - LMP5..TB
+    - KYP5..TB
+  : -60
+  ? - LNP5..TB
+    - KYP5..TB
+  : 20
+  ? - LY....TB
+    - KYP5..TB
+  : 1
+  ? - R.P5..TB
+    - KYP5..TB
+  : 4000
+  ? - R.P5..TB
+    - P.P5..TB
+  : -1
+  ? - FSC.....
+    - P.P5..TB
+  : 1
+  ? - LMP5..TB
+    - YTP5..TB
+  : 1
+  ? - LNP5..TB
+    - YTP5..TB
+  : -1
+  ? - T.....TB
+    - YTP5..TB
+  : 1
+  ? - LMP5..TC
+    - KYP5..TC
+  : -60
+  ? - LNP5..TC
+    - KYP5..TC
+  : 20
+  ? - LY....TC
+    - KYP5..TC
+  : 1
+  ? - R.P5..TC
+    - KYP5..TC
+  : 4000
+  ? - R.P5..TC
+    - P.P5..TC
+  : -1
+  ? - FSC.....
+    - P.P5..TC
+  : 1
+  ? - LMP5..TC
+    - YTP5..TC
+  : 1
+  ? - LNP5..TC
+    - YTP5..TC
+  : -1
+  ? - T.....TC
+    - YTP5..TC
+  : 1
+  ? - LMP5..TD
+    - KYP5..TD
+  : -60
+  ? - LNP5..TD
+    - KYP5..TD
+  : 20
+  ? - LY....TD
+    - KYP5..TD
+  : 1
+  ? - R.P5..TD
+    - KYP5..TD
+  : 4000
+  ? - R.P5..TD
+    - P.P5..TD
+  : -1
+  ? - FSC.....
+    - P.P5..TD
+  : 1
+  ? - LMP5..TD
+    - YTP5..TD
+  : 1
+  ? - LNP5..TD
+    - YTP5..TD
+  : -1
+  ? - T.....TD
+    - YTP5..TD
+  : 1
+  ? - LMP5..TE
+    - KYP5..TE
+  : -60
+  ? - LNP5..TE
+    - KYP5..TE
+  : 20
+  ? - LY....TE
+    - KYP5..TE
+  : 1
+  ? - R.P5..TE
+    - KYP5..TE
+  : 4000
+  ? - R.P5..TE
+    - P.P5..TE
+  : -1
+  ? - FSC.....
+    - P.P5..TE
+  : 1
+  ? - LMP5..TE
+    - YTP5..TE
+  : 1
+  ? - LNP5..TE
+    - YTP5..TE
+  : -1
+  ? - T.....TE
+    - YTP5..TE
+  : 1
+  ? - LMP5..TF
+    - KYP5..TF
+  : -60
+  ? - LNP5..TF
+    - KYP5..TF
+  : 20
+  ? - LY....TF
+    - KYP5..TF
+  : 1
+  ? - R.P5..TF
+    - KYP5..TF
+  : 4000
+  ? - R.P5..TF
+    - P.P5..TF
+  : -1
+  ? - FSC.....
+    - P.P5..TF
+  : 1
+  ? - LMP5..TF
+    - YTP5..TF
+  : 1
+  ? - LNP5..TF
+    - YTP5..TF
+  : -1
+  ? - T.....TF
+    - YTP5..TF
+  : 1
+  ? - LMP5..TG
+    - KYP5..TG
+  : -60
+  ? - LNP5..TG
+    - KYP5..TG
+  : 20
+  ? - LY....TG
+    - KYP5..TG
+  : 1
+  ? - R.P5..TG
+    - KYP5..TG
+  : 4000
+  ? - R.P5..TG
+    - P.P5..TG
+  : -1
+  ? - FSC.....
+    - P.P5..TG
+  : 1
+  ? - LMP5..TG
+    - YTP5..TG
+  : 1
+  ? - LNP5..TG
+    - YTP5..TG
+  : -1
+  ? - T.....TG
+    - YTP5..TG
+  : 1
+  ? - LMP5..TH
+    - KYP5..TH
+  : -60
+  ? - LNP5..TH
+    - KYP5..TH
+  : 20
+  ? - LY....TH
+    - KYP5..TH
+  : 1
+  ? - R.P5..TH
+    - KYP5..TH
+  : 4000
+  ? - R.P5..TH
+    - P.P5..TH
+  : -1
+  ? - FSC.....
+    - P.P5..TH
+  : 1
+  ? - LMP5..TH
+    - YTP5..TH
+  : 1
+  ? - LNP5..TH
+    - YTP5..TH
+  : -1
+  ? - T.....TH
+    - YTP5..TH
+  : 1
 rhs:
   RHS00001:
-    R.P3..TH: 4000
-    LY....TF: 1
-    R.P4..TF: 4000
-    R.P1..TB: 4000
-    R.P1..TE: 4000
-    R.P1..TD: 4000
-    R.P2..TH: 4000
-    R.P3..TG: 4000
-    LBL1MXTC: 280
-    BS.134TH: 261.1111
-    R.P4..TE: 4000
-    BS.23.TH: 251.28204
-    LY....TB: 1
-    BS.124TH: 337.30768
-    R.P5..TE: 4000
-    R.P5..TB: 4000
-    LY....TE: 1
-    BS.13.TH: 346.66666
-    BS.12.TH: 771.28204
-    R.P4..TD: 4000
-    R.P5..TD: 4000
-    LBL1MXTE: 280
-    R.P3..TE: 4000
     LY....TA: 1
-    R.P1..TC: 4000
-    R.P5..TF: 4000
-    R.P1..TH: 4000
+    LY....TB: 1
+    R.P1..TB: 4000
+    R.P2..TB: 4000
     R.P3..TB: 4000
     R.P4..TB: 4000
-    LBL1MXTF: 280
-    BS.34.TH: 202.22221
-    R.P4..TG: 4000
-    R.P2..TE: 4000
-    BS.234TH: 207.3077
-    R.P4..TH: 4000
-    R.P2..TC: 4000
-    BS.14.TH: 375.55557
-    R.P3..TF: 4000
-    R.P2..TF: 4000
-    R.P3..TC: 4000
-    LBL1MXTG: 280
-    R.P1..TG: 4000
-    LBL1....: 1
-    LY....TG: 1
-    LY....TH: 1
-    BS.24.TH: 337.94873
+    R.P5..TB: 4000
     LY....TC: 1
-    R.P5..TC: 4000
-    R.P5..TG: 4000
-    R.P5..TH: 4000
-    R.P3..TD: 4000
-    R.P2..TB: 4000
-    BS.123TH: 315.64102
-    LY....TD: 1
+    R.P1..TC: 4000
+    R.P2..TC: 4000
+    R.P3..TC: 4000
     R.P4..TC: 4000
-    R.P2..TG: 4000
-    LBL1MXTD: 280
-    R.P1..TF: 4000
+    R.P5..TC: 4000
+    LY....TD: 1
+    R.P1..TD: 4000
     R.P2..TD: 4000
+    R.P3..TD: 4000
+    R.P4..TD: 4000
+    R.P5..TD: 4000
+    LY....TE: 1
+    R.P1..TE: 4000
+    R.P2..TE: 4000
+    R.P3..TE: 4000
+    R.P4..TE: 4000
+    R.P5..TE: 4000
+    LY....TF: 1
+    R.P1..TF: 4000
+    R.P2..TF: 4000
+    R.P3..TF: 4000
+    R.P4..TF: 4000
+    R.P5..TF: 4000
+    LY....TG: 1
+    R.P1..TG: 4000
+    R.P2..TG: 4000
+    R.P3..TG: 4000
+    R.P4..TG: 4000
+    R.P5..TG: 4000
+    LY....TH: 1
+    R.P1..TH: 4000
+    R.P2..TH: 4000
+    R.P3..TH: 4000
+    R.P4..TH: 4000
+    R.P5..TH: 4000
+    LBL1....: 1
+    LBL1MXTC: 280
+    LBL1MXTD: 280
+    LBL1MXTE: 280
+    LBL1MXTF: 280
+    LBL1MXTG: 280
+    BS.12.TH: 771.28204
+    BS.123TH: 315.64102
+    BS.124TH: 337.30768
+    BS.13.TH: 346.66666
+    BS.134TH: 261.1111
+    BS.14.TH: 375.55557
+    BS.23.TH: 251.28204
+    BS.234TH: 207.3077
+    BS.24.TH: 337.94873
+    BS.34.TH: 202.22221
 bounds:
   BOUND:
-    ? - KYP5..TG
-      - Up
-    : 1
-    ? - INV.G4TG
-      - Lo
-    : 100
-    ? - KYP1..TH
-      - Up
-    : 1
-    ? - KYP5..TC
-      - Up
-    : 1
-    ? - INVAG4TH
-      - Lo
-    : -100
-    ? - INV.G2T.
-      - Fx
-    : 600
-    ? - INVAG3TB
-      - Lo
-    : -100
-    ? - INVAG1TD
-      - Lo
-    : -300
-    ? - INVAG1TE
-      - Lo
-    : -300
-    ? - INVAG1TE
-      - Up
-    : 0
-    ? - KYP5..TA
-      - Up
-    : 1
-    ? - KYP1..TF
-      - Up
-    : 1
-    ? - INVAG4TB
-      - Lo
-    : -100
-    ? - INVAG4TE
-      - Up
-    : 0
-    ? - INV.G4TB
-      - Lo
-    : 100
-    ? - INVAG3TB
-      - Up
-    : 0
-    ? - KYP3..TD
-      - Up
-    : 1
-    ? - INVAG2TA
-      - Lo
-    : -100
-    ? - INVAG4TB
-      - Up
-    : 0
-    ? - KYP4..TB
-      - Up
-    : 1
-    ? - INVAG4TA
-      - Lo
-    : -100
-    ? - INV.G1TB
-      - Lo
-    : 300
-    ? - INV.G3TD
-      - Lo
-    : 100
-    ? - INVAG1TC
-      - Up
-    : 0
-    ? - KYP4..TE
-      - Up
-    : 1
-    ? - KL..TFL1
-      - Fx
-    : 0
-    ? - INV.G4TD
-      - Lo
-    : 100
-    ? - INVAG3TH
-      - Up
-    : 0
-    ? - KYP4..TC
-      - Fx
-    : 1
-    ? - INVAG1TA
-      - Up
-    : 0
-    ? - INVAG1TB
-      - Lo
-    : -300
-    ? - KYP1..TC
-      - Up
-    : 1
-    ? - INVAG2TD
-      - Up
-    : 0
-    ? - INVAG3TG
-      - Lo
-    : -100
-    ? - INVAG1TA
-      - Lo
-    : -300
-    ? - KYP1..TB
-      - Up
-    : 1
-    ? - KYP3..TF
-      - Up
-    : 1
-    ? - KYP3..TH
-      - Up
-    : 1
-    ? - INVAG2TC
-      - Lo
-    : -100
-    ? - INVAG2TF
-      - Lo
-    : -100
-    ? - INV.G4TC
-      - Lo
-    : 100
-    ? - KYP5..TH
-      - Fx
-    : 1
-    ? - INV.G2TB
-      - Lo
-    : 100
     ? - FOC.....
       - Fr
     : ~
-    ? - INV.G2TD
-      - Lo
-    : 100
-    ? - KYP2..TB
+    ? - KL..TCL1
+      - Up
+    : 1
+    ? - KL..TDL1
+      - Fx
+    : 0
+    ? - KL..TEL1
+      - Fx
+    : 0
+    ? - KL..TFL1
+      - Fx
+    : 0
+    ? - KL..TGL1
       - Fx
     : 1
-    ? - INVAG4TC
-      - Up
-    : 0
-    ? - INV.G2TE
-      - Lo
-    : 100
-    ? - INVAG4TD
-      - Up
-    : 0
-    ? - INVAG1TG
-      - Up
-    : 0
-    ? - KYP1..TA
-      - Up
-    : 1
-    ? - INVAG1TC
-      - Lo
-    : -300
-    ? - INVAG2TG
-      - Lo
-    : -100
-    ? - INVAG2TG
-      - Up
-    : 0
-    ? - KYP3..TA
+    ? - INV.G1T.
       - Fx
-    : 1
-    ? - INVAG1TF
-      - Lo
-    : -300
-    ? - INV.G1TG
-      - Lo
-    : 300
-    ? - INVAG2TE
-      - Up
-    : 0
-    ? - KYP5..TE
-      - Up
-    : 1
-    ? - INVAG3TC
-      - Up
-    : 0
-    ? - INVAG3TD
-      - Lo
-    : -100
-    ? - INV.G1TH
-      - Lo
-    : 300
-    ? - KYP3..TB
-      - Up
-    : 1
-    ? - KYP2..TG
-      - Up
-    : 1
-    ? - KYP3..TC
-      - Up
-    : 1
+    : 1300
+    ? - INV.G2T.
+      - Fx
+    : 600
+    ? - INV.G3T.
+      - Fx
+    : 110
+    ? - INV.G4T.
+      - Fx
+    : 900
     ? - INV.G1TA
       - Lo
     : 300
-    ? - KYP4..TA
-      - Up
-    : 1
+    ? - INV.G2TA
+      - Lo
+    : 100
+    ? - INV.G3TA
+      - Lo
+    : 100
+    ? - INV.G4TA
+      - Lo
+    : 100
+    ? - INV.G1TB
+      - Lo
+    : 300
+    ? - INV.G2TB
+      - Lo
+    : 100
+    ? - INV.G3TB
+      - Lo
+    : 100
+    ? - INV.G4TB
+      - Lo
+    : 100
+    ? - INV.G1TC
+      - Lo
+    : 300
+    ? - INV.G2TC
+      - Lo
+    : 100
+    ? - INV.G3TC
+      - Lo
+    : 100
+    ? - INV.G4TC
+      - Lo
+    : 100
     ? - INV.G1TD
       - Lo
     : 300
-    ? - KYP2..TF
-      - Fx
-    : 1
-    ? - KYP5..TD
-      - Up
-    : 1
-    ? - KYP1..TG
-      - Up
-    : 1
-    ? - INVAG4TD
+    ? - INV.G2TD
       - Lo
-    : -100
-    ? - INVAG2TH
-      - Up
-    : 0
-    ? - INVAG1TB
-      - Up
-    : 0
-    ? - KYP1..TD
-      - Fx
-    : 1
+    : 100
+    ? - INV.G3TD
+      - Lo
+    : 100
+    ? - INV.G4TD
+      - Lo
+    : 100
+    ? - INV.G1TE
+      - Lo
+    : 300
+    ? - INV.G2TE
+      - Lo
+    : 100
+    ? - INV.G3TE
+      - Lo
+    : 100
+    ? - INV.G4TE
+      - Lo
+    : 100
+    ? - INV.G1TF
+      - Lo
+    : 300
     ? - INV.G2TF
       - Lo
     : 100
-    ? - KYP2..TA
-      - Up
-    : 1
-    ? - INVAG2TD
+    ? - INV.G3TF
       - Lo
-    : -100
+    : 100
+    ? - INV.G4TF
+      - Lo
+    : 100
+    ? - INV.G1TG
+      - Lo
+    : 300
+    ? - INV.G2TG
+      - Lo
+    : 100
+    ? - INV.G3TG
+      - Lo
+    : 100
+    ? - INV.G4TG
+      - Lo
+    : 100
+    ? - INV.G1TH
+      - Lo
+    : 300
     ? - INV.G2TH
       - Lo
     : 100
     ? - INV.G3TH
       - Lo
     : 100
-    ? - INVAG4TG
+    ? - INV.G4TH
       - Lo
-    : -100
-    ? - INVAG4TC
-      - Lo
-    : -100
-    ? - INVAG3TF
-      - Lo
-    : -100
-    ? - INVAG1TG
+    : 100
+    ? - INVAG1TA
       - Lo
     : -300
-    ? - INVAG2TC
+    ? - INVAG1TA
       - Up
     : 0
-    ? - KYP5..TF
-      - Up
-    : 1
-    ? - KL..TGL1
-      - Fx
-    : 1
-    ? - KL..TEL1
-      - Fx
-    : 0
-    ? - INVAG1TH
-      - Up
-    : 0
-    ? - INVAG3TE
-      - Lo
-    : -100
-    ? - INV.G2TA
-      - Lo
-    : 100
-    ? - INV.G1TC
-      - Lo
-    : 300
-    ? - INV.G4TF
-      - Lo
-    : 100
-    ? - INVAG3TA
-      - Lo
-    : -100
-    ? - INV.G4T.
-      - Fx
-    : 900
-    ? - INV.G3TA
-      - Lo
-    : 100
-    ? - INVAG2TB
+    ? - INVAG2TA
       - Lo
     : -100
     ? - INVAG2TA
       - Up
     : 0
+    ? - INVAG3TA
+      - Lo
+    : -100
+    ? - INVAG3TA
+      - Up
+    : 0
+    ? - INVAG4TA
+      - Lo
+    : -100
+    ? - INVAG4TA
+      - Up
+    : 0
+    ? - INVAG1TB
+      - Lo
+    : -300
+    ? - INVAG1TB
+      - Up
+    : 0
+    ? - INVAG2TB
+      - Lo
+    : -100
+    ? - INVAG2TB
+      - Up
+    : 0
+    ? - INVAG3TB
+      - Lo
+    : -100
+    ? - INVAG3TB
+      - Up
+    : 0
+    ? - INVAG4TB
+      - Lo
+    : -100
+    ? - INVAG4TB
+      - Up
+    : 0
+    ? - INVAG1TC
+      - Lo
+    : -300
+    ? - INVAG1TC
+      - Up
+    : 0
+    ? - INVAG2TC
+      - Lo
+    : -100
+    ? - INVAG2TC
+      - Up
+    : 0
+    ? - INVAG3TC
+      - Lo
+    : -100
+    ? - INVAG3TC
+      - Up
+    : 0
+    ? - INVAG4TC
+      - Lo
+    : -100
+    ? - INVAG4TC
+      - Up
+    : 0
+    ? - INVAG1TD
+      - Lo
+    : -300
+    ? - INVAG1TD
+      - Up
+    : 0
+    ? - INVAG2TD
+      - Lo
+    : -100
+    ? - INVAG2TD
+      - Up
+    : 0
+    ? - INVAG3TD
+      - Lo
+    : -100
+    ? - INVAG3TD
+      - Up
+    : 0
+    ? - INVAG4TD
+      - Lo
+    : -100
+    ? - INVAG4TD
+      - Up
+    : 0
+    ? - INVAG1TE
+      - Lo
+    : -300
+    ? - INVAG1TE
+      - Up
+    : 0
+    ? - INVAG2TE
+      - Lo
+    : -100
+    ? - INVAG2TE
+      - Up
+    : 0
+    ? - INVAG3TE
+      - Lo
+    : -100
+    ? - INVAG3TE
+      - Up
+    : 0
+    ? - INVAG4TE
+      - Lo
+    : -100
+    ? - INVAG4TE
+      - Up
+    : 0
+    ? - INVAG1TF
+      - Lo
+    : -300
+    ? - INVAG1TF
+      - Up
+    : 0
+    ? - INVAG2TF
+      - Lo
+    : -100
+    ? - INVAG2TF
+      - Up
+    : 0
+    ? - INVAG3TF
+      - Lo
+    : -100
     ? - INVAG3TF
       - Up
     : 0
     ? - INVAG4TF
       - Lo
     : -100
-    ? - KYP4..TH
-      - Up
-    : 1
-    ? - KL..TCL1
-      - Up
-    : 1
-    ? - KYP2..TD
-      - Up
-    : 1
-    ? - KYP2..TC
-      - Up
-    : 1
-    ? - KYP2..TE
-      - Up
-    : 1
-    ? - KYP3..TG
-      - Fx
-    : 1
-    ? - INVAG4TA
+    ? - INVAG4TF
       - Up
     : 0
-    ? - INVAG2TF
-      - Up
-    : 0
-    ? - INV.G1TF
+    ? - INVAG1TG
       - Lo
-    : 300
-    ? - INVAG2TH
+    : -300
+    ? - INVAG1TG
+      - Up
+    : 0
+    ? - INVAG2TG
       - Lo
     : -100
-    ? - INVAG3TE
+    ? - INVAG2TG
       - Up
     : 0
-    ? - INVAG3TC
+    ? - INVAG3TG
+      - Lo
+    : -100
+    ? - INVAG3TG
+      - Up
+    : 0
+    ? - INVAG4TG
       - Lo
     : -100
     ? - INVAG4TG
       - Up
     : 0
-    ? - KYP4..TF
+    ? - INVAG1TH
+      - Lo
+    : -300
+    ? - INVAG1TH
       - Up
-    : 1
-    ? - INVAG4TF
+    : 0
+    ? - INVAG2TH
+      - Lo
+    : -100
+    ? - INVAG2TH
       - Up
     : 0
     ? - INVAG3TH
       - Lo
     : -100
-    ? - KYP4..TG
-      - Up
-    : 1
-    ? - KYP4..TD
-      - Up
-    : 1
-    ? - INV.G3TC
-      - Lo
-    : 100
-    ? - INVAG2TE
-      - Lo
-    : -100
-    ? - INV.G3TB
-      - Lo
-    : 100
-    ? - INV.G4TE
-      - Lo
-    : 100
-    ? - INVAG3TG
+    ? - INVAG3TH
       - Up
     : 0
-    ? - INV.G2TG
-      - Lo
-    : 100
-    ? - KYP2..TH
-      - Up
-    : 1
-    ? - INV.G3TF
-      - Lo
-    : 100
-    ? - INV.G3TG
-      - Lo
-    : 100
-    ? - KYP5..TB
-      - Up
-    : 1
-    ? - INVAG3TD
-      - Up
-    : 0
-    ? - TIME..TH
-      - Fx
-    : 180
-    ? - INV.G3TE
-      - Lo
-    : 100
-    ? - KYP3..TE
-      - Fx
-    : 1
-    ? - INV.G4TH
-      - Lo
-    : 100
-    ? - KL..TDL1
-      - Fx
-    : 0
-    ? - INVAG1TD
-      - Up
-    : 0
-    ? - INVAG1TF
-      - Up
-    : 0
-    ? - TIME..T.
-      - Fx
-    : 0
-    ? - INV.G4TA
-      - Lo
-    : 100
-    ? - KYP1..TE
-      - Up
-    : 1
-    ? - INV.G3T.
-      - Fx
-    : 110
-    ? - INV.G1T.
-      - Fx
-    : 1300
-    ? - INVAG2TB
-      - Up
-    : 0
-    ? - INVAG4TE
+    ? - INVAG4TH
       - Lo
     : -100
     ? - INVAG4TH
       - Up
     : 0
-    ? - INVAG1TH
-      - Lo
-    : -300
-    ? - INV.G1TE
-      - Lo
-    : 300
-    ? - INV.G2TC
-      - Lo
-    : 100
-    ? - INVAG3TA
-      - Up
+    ? - TIME..T.
+      - Fx
     : 0
+    ? - TIME..TH
+      - Fx
+    : 180
+    ? - KYP1..TA
+      - Up
+    : 1
+    ? - KYP1..TB
+      - Up
+    : 1
+    ? - KYP1..TC
+      - Up
+    : 1
+    ? - KYP1..TD
+      - Fx
+    : 1
+    ? - KYP1..TE
+      - Up
+    : 1
+    ? - KYP1..TF
+      - Up
+    : 1
+    ? - KYP1..TG
+      - Up
+    : 1
+    ? - KYP1..TH
+      - Up
+    : 1
+    ? - KYP2..TA
+      - Up
+    : 1
+    ? - KYP2..TB
+      - Fx
+    : 1
+    ? - KYP2..TC
+      - Up
+    : 1
+    ? - KYP2..TD
+      - Up
+    : 1
+    ? - KYP2..TE
+      - Up
+    : 1
+    ? - KYP2..TF
+      - Fx
+    : 1
+    ? - KYP2..TG
+      - Up
+    : 1
+    ? - KYP2..TH
+      - Up
+    : 1
+    ? - KYP3..TA
+      - Fx
+    : 1
+    ? - KYP3..TB
+      - Up
+    : 1
+    ? - KYP3..TC
+      - Up
+    : 1
+    ? - KYP3..TD
+      - Up
+    : 1
+    ? - KYP3..TE
+      - Fx
+    : 1
+    ? - KYP3..TF
+      - Up
+    : 1
+    ? - KYP3..TG
+      - Fx
+    : 1
+    ? - KYP3..TH
+      - Up
+    : 1
+    ? - KYP4..TA
+      - Up
+    : 1
+    ? - KYP4..TB
+      - Up
+    : 1
+    ? - KYP4..TC
+      - Fx
+    : 1
+    ? - KYP4..TD
+      - Up
+    : 1
+    ? - KYP4..TE
+      - Up
+    : 1
+    ? - KYP4..TF
+      - Up
+    : 1
+    ? - KYP4..TG
+      - Up
+    : 1
+    ? - KYP4..TH
+      - Up
+    : 1
+    ? - KYP5..TA
+      - Up
+    : 1
+    ? - KYP5..TB
+      - Up
+    : 1
+    ? - KYP5..TC
+      - Up
+    : 1
+    ? - KYP5..TD
+      - Up
+    : 1
+    ? - KYP5..TE
+      - Up
+    : 1
+    ? - KYP5..TF
+      - Up
+    : 1
+    ? - KYP5..TG
+      - Up
+    : 1
+    ? - KYP5..TH
+      - Fx
+    : 1
 ranges: {}
-

@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/boeing1\"))?"
 ---
 name: BOEING1  (FLAPINTL)
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Geq
     row_name: REVENUES
@@ -15905,4 +15908,11 @@ bounds:
     bound_name: INTBOU
     column_name: N1051AC6
     value: 20
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

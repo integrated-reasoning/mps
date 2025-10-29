@@ -40,8 +40,7 @@ jobs:
           if [[ $RUNNER_OS == Linux ]]; then
             nix build
           else
-            nix build \
-              --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin
+            nix build
           fi
       - name: build tests
         run: |
@@ -49,7 +48,6 @@ jobs:
             nix develop --command cargo test-all-features
           else
             nix develop \
-            --override-input nixpkgs github:nixos/nixpkgs/nixpkgs-23.05-darwin \
             --command cargo test-all-features
           fi
 

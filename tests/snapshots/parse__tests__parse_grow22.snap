@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/grow22\"))?"
 ---
 name: GROW22
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Nr
     row_name: REVENUE
@@ -33987,4 +33990,11 @@ bounds:
     bound_name: YSBOUND
     column_name: SI0322
     value: 500000
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

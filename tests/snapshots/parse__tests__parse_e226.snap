@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/e226\"))?"
 ---
 name: E226
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Nr
     row_name: "...000"
@@ -10702,4 +10705,11 @@ rhs:
       value: 0.2137
 ranges: ~
 bounds: ~
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/tuff\"))?"
 ---
 name: TUFF
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Nr
     row_name: B...ML..
@@ -17048,4 +17051,11 @@ bounds:
     bound_name: B1BOUND
     column_name: U9R.GUBW
     value: 1
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

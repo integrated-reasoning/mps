@@ -4,6620 +4,6619 @@ expression: model
 ---
 name: SCTAP1
 row_types:
-  CCZZ6ZZ5: Eq
-  ACZZ4ZZ7: Geq
-  CCZZ1ZZ3: Eq
-  ACZZ1ZZ8: Geq
-  NCZZ3ZZ5: Geq
-  NCZZ2ZZ5: Geq
-  ACZ12ZZ8: Geq
-  CCZZ6ZZ9: Eq
-  CCZ12Z10: Eq
-  ACZZ9Z10: Geq
-  CCZZ7ZZ6: Eq
-  ACZZ8ZZ5: Geq
-  NCZZ6ZZ8: Geq
-  CCZZ9ZZ7: Eq
   OBJZZZZZ: Nr
-  NCZZ1ZZ2: Geq
-  NCZZ5ZZ2: Geq
-  CCZ11ZZ2: Eq
-  CCZZ4ZZ7: Eq
-  ACZ12ZZ2: Geq
-  CCZZ1ZZ1: Eq
-  CCZ11ZZ6: Eq
-  CCZ10ZZ2: Eq
-  ACZZ8ZZ7: Geq
-  ACZZ3Z10: Geq
-  CCZ12ZZ4: Eq
-  NCZZ1ZZ6: Geq
-  CCZZ9Z10: Eq
-  ACZ10ZZ4: Geq
-  CCZZ2ZZ4: Eq
-  ACZZ8ZZ4: Geq
-  CCZ10ZZ5: Eq
-  CCZZ7ZZ3: Eq
-  ACZZ3ZZ5: Geq
-  NCZZ5Z10: Geq
-  CCZZ2ZZ3: Eq
-  CCZZ6ZZ6: Eq
-  ACZZ7Z10: Geq
-  ACZ10ZZ5: Geq
-  CCZZ1ZZ5: Eq
-  ACZZ1ZZ3: Geq
-  NCZZ5ZZ5: Geq
-  CCZZ1ZZ6: Eq
-  ACZ11ZZ7: Geq
-  CCZZ4ZZ6: Eq
-  ACZ12ZZ4: Geq
-  CCZZ4ZZ1: Eq
-  CCZZ8ZZ9: Eq
-  NCZZ5ZZ8: Geq
-  CCZZ4ZZ4: Eq
-  CCZZ2ZZ9: Eq
-  NCZZ5ZZ7: Geq
-  CCZZ5ZZ8: Eq
-  ACZZ9ZZ5: Geq
-  NCZZ1Z10: Geq
-  ACZZ6ZZ4: Geq
-  CCZ12ZZ5: Eq
-  ACZZ7ZZ6: Geq
-  NCZZ4ZZ4: Geq
-  ACZZ2ZZ1: Geq
-  CCZZ8ZZ8: Eq
-  NCZZ6Z10: Geq
-  ACZZ9ZZ4: Geq
-  ACZZ1Z10: Geq
-  CCZ12ZZ7: Eq
-  CCZZ4ZZ2: Eq
   NCZZ1ZZ1: Geq
-  NCZZ1ZZ8: Geq
-  CCZZ9ZZ3: Eq
+  NCZZ2ZZ1: Geq
+  NCZZ3ZZ1: Geq
+  NCZZ4ZZ1: Geq
+  NCZZ5ZZ1: Geq
+  NCZZ6ZZ1: Geq
+  ACZZ1ZZ1: Geq
+  ACZZ2ZZ1: Geq
+  ACZZ3ZZ1: Geq
+  ACZZ4ZZ1: Geq
+  ACZZ5ZZ1: Geq
+  ACZZ6ZZ1: Geq
+  ACZZ7ZZ1: Geq
+  ACZZ8ZZ1: Geq
+  ACZZ9ZZ1: Geq
+  ACZ10ZZ1: Geq
+  ACZ11ZZ1: Geq
+  ACZ12ZZ1: Geq
+  CCZZ1ZZ1: Eq
+  CCZZ2ZZ1: Eq
+  CCZZ3ZZ1: Eq
+  CCZZ4ZZ1: Eq
+  CCZZ5ZZ1: Eq
+  CCZZ6ZZ1: Eq
+  CCZZ7ZZ1: Eq
+  CCZZ8ZZ1: Eq
+  CCZZ9ZZ1: Eq
+  CCZ10ZZ1: Eq
+  CCZ11ZZ1: Eq
+  CCZ12ZZ1: Eq
+  NCZZ1ZZ2: Geq
+  NCZZ2ZZ2: Geq
+  NCZZ3ZZ2: Geq
+  NCZZ4ZZ2: Geq
+  NCZZ5ZZ2: Geq
+  NCZZ6ZZ2: Geq
+  ACZZ1ZZ2: Geq
+  ACZZ2ZZ2: Geq
+  ACZZ3ZZ2: Geq
+  ACZZ4ZZ2: Geq
+  ACZZ5ZZ2: Geq
+  ACZZ6ZZ2: Geq
+  ACZZ7ZZ2: Geq
+  ACZZ8ZZ2: Geq
+  ACZZ9ZZ2: Geq
+  ACZ10ZZ2: Geq
+  ACZ11ZZ2: Geq
+  ACZ12ZZ2: Geq
+  CCZZ1ZZ2: Eq
+  CCZZ2ZZ2: Eq
+  CCZZ3ZZ2: Eq
+  CCZZ4ZZ2: Eq
+  CCZZ5ZZ2: Eq
+  CCZZ6ZZ2: Eq
+  CCZZ7ZZ2: Eq
+  CCZZ8ZZ2: Eq
+  CCZZ9ZZ2: Eq
+  CCZ10ZZ2: Eq
+  CCZ11ZZ2: Eq
+  CCZ12ZZ2: Eq
   NCZZ1ZZ3: Geq
+  NCZZ2ZZ3: Geq
+  NCZZ3ZZ3: Geq
+  NCZZ4ZZ3: Geq
+  NCZZ5ZZ3: Geq
+  NCZZ6ZZ3: Geq
+  ACZZ1ZZ3: Geq
+  ACZZ2ZZ3: Geq
+  ACZZ3ZZ3: Geq
+  ACZZ4ZZ3: Geq
+  ACZZ5ZZ3: Geq
+  ACZZ6ZZ3: Geq
+  ACZZ7ZZ3: Geq
+  ACZZ8ZZ3: Geq
+  ACZZ9ZZ3: Geq
+  ACZ10ZZ3: Geq
+  ACZ11ZZ3: Geq
+  ACZ12ZZ3: Geq
+  CCZZ1ZZ3: Eq
+  CCZZ2ZZ3: Eq
+  CCZZ3ZZ3: Eq
+  CCZZ4ZZ3: Eq
+  CCZZ5ZZ3: Eq
+  CCZZ6ZZ3: Eq
+  CCZZ7ZZ3: Eq
+  CCZZ8ZZ3: Eq
+  CCZZ9ZZ3: Eq
+  CCZ10ZZ3: Eq
+  CCZ11ZZ3: Eq
+  CCZ12ZZ3: Eq
+  NCZZ1ZZ4: Geq
+  NCZZ2ZZ4: Geq
+  NCZZ3ZZ4: Geq
+  NCZZ4ZZ4: Geq
+  NCZZ5ZZ4: Geq
+  NCZZ6ZZ4: Geq
+  ACZZ1ZZ4: Geq
+  ACZZ2ZZ4: Geq
+  ACZZ3ZZ4: Geq
+  ACZZ4ZZ4: Geq
+  ACZZ5ZZ4: Geq
+  ACZZ6ZZ4: Geq
+  ACZZ7ZZ4: Geq
+  ACZZ8ZZ4: Geq
+  ACZZ9ZZ4: Geq
+  ACZ10ZZ4: Geq
+  ACZ11ZZ4: Geq
+  ACZ12ZZ4: Geq
+  CCZZ1ZZ4: Eq
+  CCZZ2ZZ4: Eq
+  CCZZ3ZZ4: Eq
+  CCZZ4ZZ4: Eq
+  CCZZ5ZZ4: Eq
+  CCZZ6ZZ4: Eq
+  CCZZ7ZZ4: Eq
+  CCZZ8ZZ4: Eq
+  CCZZ9ZZ4: Eq
+  CCZ10ZZ4: Eq
+  CCZ11ZZ4: Eq
+  CCZ12ZZ4: Eq
+  NCZZ1ZZ5: Geq
+  NCZZ2ZZ5: Geq
+  NCZZ3ZZ5: Geq
+  NCZZ4ZZ5: Geq
+  NCZZ5ZZ5: Geq
+  NCZZ6ZZ5: Geq
+  ACZZ1ZZ5: Geq
+  ACZZ2ZZ5: Geq
+  ACZZ3ZZ5: Geq
+  ACZZ4ZZ5: Geq
+  ACZZ5ZZ5: Geq
+  ACZZ6ZZ5: Geq
+  ACZZ7ZZ5: Geq
+  ACZZ8ZZ5: Geq
+  ACZZ9ZZ5: Geq
+  ACZ10ZZ5: Geq
+  ACZ11ZZ5: Geq
+  ACZ12ZZ5: Geq
+  CCZZ1ZZ5: Eq
+  CCZZ2ZZ5: Eq
+  CCZZ3ZZ5: Eq
+  CCZZ4ZZ5: Eq
+  CCZZ5ZZ5: Eq
+  CCZZ6ZZ5: Eq
+  CCZZ7ZZ5: Eq
+  CCZZ8ZZ5: Eq
+  CCZZ9ZZ5: Eq
+  CCZ10ZZ5: Eq
+  CCZ11ZZ5: Eq
+  CCZ12ZZ5: Eq
+  NCZZ1ZZ6: Geq
+  NCZZ2ZZ6: Geq
+  NCZZ3ZZ6: Geq
+  NCZZ4ZZ6: Geq
+  NCZZ5ZZ6: Geq
+  NCZZ6ZZ6: Geq
+  ACZZ1ZZ6: Geq
+  ACZZ2ZZ6: Geq
+  ACZZ3ZZ6: Geq
+  ACZZ4ZZ6: Geq
+  ACZZ5ZZ6: Geq
+  ACZZ6ZZ6: Geq
+  ACZZ7ZZ6: Geq
+  ACZZ8ZZ6: Geq
+  ACZZ9ZZ6: Geq
+  ACZ10ZZ6: Geq
+  ACZ11ZZ6: Geq
+  ACZ12ZZ6: Geq
+  CCZZ1ZZ6: Eq
+  CCZZ2ZZ6: Eq
+  CCZZ3ZZ6: Eq
+  CCZZ4ZZ6: Eq
+  CCZZ5ZZ6: Eq
+  CCZZ6ZZ6: Eq
+  CCZZ7ZZ6: Eq
+  CCZZ8ZZ6: Eq
+  CCZZ9ZZ6: Eq
+  CCZ10ZZ6: Eq
+  CCZ11ZZ6: Eq
+  CCZ12ZZ6: Eq
+  NCZZ1ZZ7: Geq
+  NCZZ2ZZ7: Geq
+  NCZZ3ZZ7: Geq
+  NCZZ4ZZ7: Geq
+  NCZZ5ZZ7: Geq
+  NCZZ6ZZ7: Geq
+  ACZZ1ZZ7: Geq
+  ACZZ2ZZ7: Geq
+  ACZZ3ZZ7: Geq
+  ACZZ4ZZ7: Geq
+  ACZZ5ZZ7: Geq
+  ACZZ6ZZ7: Geq
+  ACZZ7ZZ7: Geq
+  ACZZ8ZZ7: Geq
+  ACZZ9ZZ7: Geq
+  ACZ10ZZ7: Geq
+  ACZ11ZZ7: Geq
+  ACZ12ZZ7: Geq
+  CCZZ1ZZ7: Eq
+  CCZZ2ZZ7: Eq
+  CCZZ3ZZ7: Eq
+  CCZZ4ZZ7: Eq
+  CCZZ5ZZ7: Eq
+  CCZZ6ZZ7: Eq
+  CCZZ7ZZ7: Eq
+  CCZZ8ZZ7: Eq
+  CCZZ9ZZ7: Eq
+  CCZ10ZZ7: Eq
+  CCZ11ZZ7: Eq
+  CCZ12ZZ7: Eq
+  NCZZ1ZZ8: Geq
+  NCZZ2ZZ8: Geq
+  NCZZ3ZZ8: Geq
+  NCZZ4ZZ8: Geq
+  NCZZ5ZZ8: Geq
+  NCZZ6ZZ8: Geq
+  ACZZ1ZZ8: Geq
+  ACZZ2ZZ8: Geq
+  ACZZ3ZZ8: Geq
+  ACZZ4ZZ8: Geq
+  ACZZ5ZZ8: Geq
+  ACZZ6ZZ8: Geq
+  ACZZ7ZZ8: Geq
+  ACZZ8ZZ8: Geq
+  ACZZ9ZZ8: Geq
+  ACZ10ZZ8: Geq
+  ACZ11ZZ8: Geq
+  ACZ12ZZ8: Geq
+  CCZZ1ZZ8: Eq
+  CCZZ2ZZ8: Eq
+  CCZZ3ZZ8: Eq
+  CCZZ4ZZ8: Eq
+  CCZZ5ZZ8: Eq
+  CCZZ6ZZ8: Eq
+  CCZZ7ZZ8: Eq
+  CCZZ8ZZ8: Eq
+  CCZZ9ZZ8: Eq
+  CCZ10ZZ8: Eq
+  CCZ11ZZ8: Eq
+  CCZ12ZZ8: Eq
+  NCZZ1ZZ9: Geq
+  NCZZ2ZZ9: Geq
+  NCZZ3ZZ9: Geq
+  NCZZ4ZZ9: Geq
+  NCZZ5ZZ9: Geq
+  NCZZ6ZZ9: Geq
+  ACZZ1ZZ9: Geq
+  ACZZ2ZZ9: Geq
+  ACZZ3ZZ9: Geq
+  ACZZ4ZZ9: Geq
+  ACZZ5ZZ9: Geq
   ACZZ6ZZ9: Geq
+  ACZZ7ZZ9: Geq
+  ACZZ8ZZ9: Geq
+  ACZZ9ZZ9: Geq
+  ACZ10ZZ9: Geq
+  ACZ11ZZ9: Geq
+  ACZ12ZZ9: Geq
+  CCZZ1ZZ9: Eq
+  CCZZ2ZZ9: Eq
   CCZZ3ZZ9: Eq
   CCZZ4ZZ9: Eq
-  CCZZ1Z10: Eq
-  ACZZ5ZZ7: Geq
-  CCZ10ZZ7: Eq
-  NCZZ5ZZ9: Geq
-  ACZZ5Z10: Geq
-  NCZZ4ZZ6: Geq
-  CCZZ2ZZ6: Eq
-  CCZZ6ZZ8: Eq
-  CCZZ1ZZ8: Eq
-  CCZZ9ZZ9: Eq
-  ACZZ5ZZ4: Geq
-  NCZZ4ZZ7: Geq
-  CCZZ8ZZ7: Eq
-  ACZZ7ZZ4: Geq
-  NCZZ2Z10: Geq
-  NCZZ1ZZ5: Geq
-  CCZZ8Z10: Eq
-  ACZZ5ZZ1: Geq
-  CCZZ7ZZ2: Eq
-  ACZZ4ZZ8: Geq
-  ACZ12ZZ5: Geq
-  ACZZ3ZZ8: Geq
-  CCZZ6ZZ3: Eq
-  CCZZ7ZZ9: Eq
-  NCZZ4ZZ3: Geq
-  CCZZ2Z10: Eq
-  CCZ10Z10: Eq
-  ACZZ6ZZ1: Geq
-  ACZZ1ZZ2: Geq
-  ACZZ8ZZ1: Geq
-  CCZ12ZZ3: Eq
-  CCZZ3ZZ4: Eq
-  NCZZ2ZZ1: Geq
-  NCZZ5ZZ1: Geq
-  CCZZ6ZZ1: Eq
-  CCZZ7ZZ4: Eq
-  CCZZ3Z10: Eq
-  ACZ12ZZ6: Geq
-  ACZ11ZZ1: Geq
-  ACZZ5ZZ3: Geq
-  CCZ11ZZ3: Eq
-  CCZZ9ZZ2: Eq
-  NCZZ3ZZ4: Geq
-  ACZZ1ZZ1: Geq
-  NCZZ2ZZ8: Geq
-  NCZZ4ZZ1: Geq
-  ACZ10ZZ1: Geq
-  ACZ12ZZ3: Geq
-  NCZZ3ZZ3: Geq
-  CCZZ3ZZ2: Eq
-  ACZZ8ZZ3: Geq
-  CCZZ7ZZ7: Eq
-  NCZZ6ZZ4: Geq
-  ACZZ3ZZ4: Geq
-  NCZZ6ZZ6: Geq
-  ACZ10ZZ6: Geq
-  CCZZ8ZZ6: Eq
-  ACZZ8ZZ8: Geq
-  NCZZ4ZZ9: Geq
-  NCZZ6ZZ3: Geq
-  NCZZ3ZZ8: Geq
-  CCZ12ZZ6: Eq
-  ACZZ1ZZ9: Geq
-  ACZZ5ZZ9: Geq
-  ACZZ6ZZ2: Geq
-  CCZZ1ZZ9: Eq
-  CCZZ7ZZ5: Eq
-  NCZZ5ZZ4: Geq
-  ACZZ8Z10: Geq
-  ACZZ6Z10: Geq
-  ACZZ4ZZ1: Geq
-  CCZZ7ZZ1: Eq
-  CCZZ8ZZ3: Eq
-  NCZZ5ZZ6: Geq
-  CCZ11ZZ7: Eq
-  ACZZ8ZZ2: Geq
-  ACZZ2ZZ4: Geq
-  ACZZ2Z10: Geq
-  NCZZ4Z10: Geq
   CCZZ5ZZ9: Eq
-  CCZZ2ZZ2: Eq
-  NCZZ3ZZ6: Geq
-  ACZZ6ZZ3: Geq
-  ACZZ3ZZ1: Geq
-  CCZZ4ZZ3: Eq
-  NCZZ3Z10: Geq
-  ACZZ6ZZ8: Geq
-  NCZZ5ZZ3: Geq
-  NCZZ2ZZ6: Geq
-  CCZZ2ZZ8: Eq
-  ACZZ2ZZ9: Geq
-  CCZ11Z10: Eq
-  ACZ10ZZ3: Geq
-  CCZZ3ZZ8: Eq
-  CCZZ1ZZ7: Eq
-  CCZ11ZZ5: Eq
-  CCZZ5ZZ3: Eq
-  CCZ11ZZ1: Eq
-  ACZZ1ZZ4: Geq
-  ACZZ2ZZ8: Geq
-  ACZZ5ZZ2: Geq
-  CCZZ4Z10: Eq
-  NCZZ1ZZ4: Geq
-  CCZZ9ZZ8: Eq
-  CCZZ9ZZ6: Eq
-  ACZZ2ZZ3: Geq
-  ACZZ6ZZ6: Geq
-  ACZZ9ZZ6: Geq
-  CCZZ5ZZ1: Eq
-  ACZZ4ZZ9: Geq
-  CCZZ4ZZ5: Eq
-  NCZZ6ZZ9: Geq
-  CCZZ8ZZ2: Eq
-  NCZZ6ZZ2: Geq
-  ACZZ2ZZ5: Geq
-  ACZ12ZZ9: Geq
-  ACZZ7ZZ1: Geq
-  ACZZ6ZZ7: Geq
-  CCZZ6ZZ2: Eq
-  ACZZ2ZZ7: Geq
-  ACZ11Z10: Geq
-  ACZ10ZZ9: Geq
-  CCZ11ZZ9: Eq
-  ACZZ3ZZ6: Geq
-  ACZZ9ZZ8: Geq
-  ACZZ9ZZ1: Geq
-  CCZZ5ZZ2: Eq
-  CCZ10ZZ3: Eq
-  NCZZ2ZZ9: Geq
-  CCZZ2ZZ5: Eq
-  NCZZ1ZZ7: Geq
-  ACZZ9ZZ2: Geq
-  CCZZ2ZZ1: Eq
-  ACZZ4ZZ3: Geq
-  CCZZ4ZZ8: Eq
-  CCZZ8ZZ1: Eq
-  ACZ11ZZ8: Geq
-  CCZZ5ZZ4: Eq
-  ACZZ1ZZ5: Geq
-  CCZZ3ZZ3: Eq
-  ACZZ4ZZ2: Geq
-  CCZZ8ZZ4: Eq
-  ACZZ6ZZ5: Geq
-  CCZZ5ZZ5: Eq
-  CCZZ6ZZ4: Eq
-  ACZZ9ZZ7: Geq
-  CCZZ2ZZ7: Eq
-  CCZ10ZZ8: Eq
-  NCZZ1ZZ9: Geq
-  ACZ11ZZ2: Geq
-  ACZZ7ZZ9: Geq
-  ACZZ9ZZ9: Geq
-  CCZZ6Z10: Eq
-  CCZZ1ZZ2: Eq
-  CCZ12ZZ2: Eq
-  ACZ11ZZ5: Geq
-  CCZZ5Z10: Eq
-  ACZZ2ZZ6: Geq
-  NCZZ4ZZ2: Geq
-  NCZZ4ZZ5: Geq
-  ACZZ5ZZ5: Geq
-  CCZ11ZZ4: Eq
-  ACZZ7ZZ3: Geq
-  CCZZ5ZZ6: Eq
-  ACZZ7ZZ5: Geq
-  NCZZ3ZZ7: Geq
-  CCZZ5ZZ7: Eq
-  CCZZ9ZZ5: Eq
-  CCZZ3ZZ7: Eq
-  ACZZ3ZZ9: Geq
-  ACZ12ZZ1: Geq
-  NCZZ2ZZ4: Geq
-  ACZZ1ZZ7: Geq
-  ACZZ5ZZ8: Geq
-  CCZZ6ZZ7: Eq
-  ACZZ3ZZ2: Geq
-  ACZZ3ZZ3: Geq
-  CCZ12ZZ8: Eq
-  CCZ10ZZ1: Eq
-  CCZ12ZZ1: Eq
-  CCZZ9ZZ1: Eq
-  CCZZ8ZZ5: Eq
-  ACZZ9ZZ3: Geq
-  CCZZ3ZZ5: Eq
-  ACZ12Z10: Geq
-  CCZ10ZZ6: Eq
-  CCZZ9ZZ4: Eq
-  NCZZ3ZZ1: Geq
-  ACZ10ZZ8: Geq
+  CCZZ6ZZ9: Eq
+  CCZZ7ZZ9: Eq
+  CCZZ8ZZ9: Eq
+  CCZZ9ZZ9: Eq
   CCZ10ZZ9: Eq
-  ACZZ4Z10: Geq
-  ACZZ1ZZ6: Geq
-  NCZZ2ZZ2: Geq
+  CCZ11ZZ9: Eq
   CCZ12ZZ9: Eq
-  ACZZ3ZZ7: Geq
-  CCZ11ZZ8: Eq
-  CCZZ1ZZ4: Eq
-  ACZ10ZZ2: Geq
-  ACZZ7ZZ8: Geq
-  ACZ10ZZ7: Geq
-  ACZZ2ZZ2: Geq
-  CCZ10ZZ4: Eq
-  ACZZ4ZZ6: Geq
-  ACZ11ZZ6: Geq
-  CCZZ3ZZ6: Eq
-  NCZZ6ZZ1: Geq
+  NCZZ1Z10: Geq
+  NCZZ2Z10: Geq
+  NCZZ3Z10: Geq
+  NCZZ4Z10: Geq
+  NCZZ5Z10: Geq
+  NCZZ6Z10: Geq
+  ACZZ1Z10: Geq
+  ACZZ2Z10: Geq
+  ACZZ3Z10: Geq
+  ACZZ4Z10: Geq
+  ACZZ5Z10: Geq
+  ACZZ6Z10: Geq
+  ACZZ7Z10: Geq
+  ACZZ8Z10: Geq
+  ACZZ9Z10: Geq
   ACZ10Z10: Geq
-  NCZZ2ZZ7: Geq
-  NCZZ6ZZ5: Geq
-  CCZZ7ZZ8: Eq
-  NCZZ3ZZ9: Geq
-  ACZZ8ZZ9: Geq
-  ACZ11ZZ9: Geq
-  NCZZ4ZZ8: Geq
-  ACZZ8ZZ6: Geq
-  ACZZ4ZZ4: Geq
-  ACZ11ZZ4: Geq
-  ACZZ7ZZ2: Geq
-  ACZ11ZZ3: Geq
-  ACZZ5ZZ6: Geq
-  ACZZ7ZZ7: Geq
+  ACZ11Z10: Geq
+  ACZ12Z10: Geq
+  CCZZ1Z10: Eq
+  CCZZ2Z10: Eq
+  CCZZ3Z10: Eq
+  CCZZ4Z10: Eq
+  CCZZ5Z10: Eq
+  CCZZ6Z10: Eq
   CCZZ7Z10: Eq
-  NCZZ3ZZ2: Geq
-  CCZZ3ZZ1: Eq
-  ACZZ4ZZ5: Geq
-  ACZ12ZZ7: Geq
-  NCZZ2ZZ3: Geq
-  NCZZ6ZZ7: Geq
+  CCZZ8Z10: Eq
+  CCZZ9Z10: Eq
+  CCZ10Z10: Eq
+  CCZ11Z10: Eq
+  CCZ12Z10: Eq
 values:
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ6
-  : 25
-  ? - ACZZ1ZZ8
-    - Z4ZZ1ZZ7
-  : -1
-  ? - CCZZ8ZZ9
-    - Z1ZZ8ZZ9
-  : 1
-  ? - ACZ12ZZ2
-    - Z4Z12ZZ1
-  : -1
-  ? - CCZZ1ZZ5
-    - Z1ZZ1ZZ5
-  : 1
-  ? - NCZZ6ZZ6
-    - Z3Z11ZZ5
-  : -7
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ8
-  : 1
-  ? - ACZ11ZZ2
-    - Z4Z11ZZ1
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ8
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ9
-  : 30
-  ? - CCZZ9ZZ7
-    - Z2ZZ9ZZ7
-  : 1
-  ? - CCZ12ZZ5
-    - Z3Z12ZZ5
+  ? - CCZZ1ZZ1
+    - Z1ZZ1ZZ1
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ3ZZ3
+    - Z2ZZ1ZZ1
   : 10
-  ? - NCZZ1ZZ5
-    - Z4ZZ4ZZ5
-  : 1
-  ? - NCZZ1ZZ2
-    - Z2ZZ3ZZ1
-  : -10
-  ? - CCZZ9ZZ6
-    - Z3ZZ9ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z11ZZ9
-  : 25
-  ? - CCZZ9ZZ4
-    - Z2ZZ9ZZ4
-  : 1
-  ? - CCZZ2ZZ4
-    - Z2ZZ2ZZ4
-  : 1
-  ? - NCZZ4ZZ2
-    - Z4ZZ8ZZ1
-  : -1
-  ? - NCZZ4ZZ5
-    - Z2ZZ8ZZ5
-  : 30
-  ? - ACZZ6ZZ4
-    - Z3ZZ6ZZ3
-  : -5
-  ? - CCZZ9Z10
-    - Z3ZZ9Z10
-  : 1
-  ? - CCZ12Z10
-    - Z3Z12Z10
-  : 1
-  ? - ACZZ2ZZ2
-    - Z4ZZ2ZZ1
-  : -1
-  ? - NCZZ6ZZ2
-    - Z2Z10ZZ1
-  : -10
-  ? - NCZZ2ZZ9
-    - Z2ZZ1ZZ8
-  : -10
-  ? - NCZZ2ZZ8
-    - Z4ZZ3ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ3
-  : 10
-  ? - ACZ10ZZ4
-    - Z2Z10ZZ4
-  : 10
-  ? - CCZZ3ZZ6
-    - Z3ZZ3ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z12ZZ6
-  : 1
-  ? - ACZ11ZZ8
-    - Z4Z11ZZ8
-  : 1
-  ? - CCZ11ZZ4
-    - Z3Z11ZZ4
-  : 1
-  ? - NCZZ1ZZ9
-    - Z4ZZ1ZZ8
-  : -1
-  ? - NCZZ2ZZ6
-    - Z2ZZ3ZZ6
-  : 10
-  ? - NCZZ4ZZ2
-    - Z4Z10ZZ2
-  : 1
-  ? - NCZZ2ZZ3
-    - Z3ZZ3ZZ3
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ4
-  : 30
-  ? - CCZ11ZZ5
-    - Z2Z11ZZ5
-  : 1
-  ? - ACZZ6ZZ7
-    - Z3ZZ6ZZ6
-  : -5
-  ? - ACZZ6ZZ7
-    - Z3ZZ6ZZ7
-  : 20
-  ? - CCZZ2ZZ9
-    - Z1ZZ2ZZ9
-  : 1
-  ? - CCZZ6ZZ1
-    - Z2ZZ6ZZ1
-  : 1
-  ? - ACZZ4ZZ9
-    - Z3ZZ4ZZ9
-  : 25
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ1
-  : 10
-  ? - CCZZ2ZZ9
-    - Z2ZZ2ZZ9
-  : 1
-  ? - NCZZ4ZZ9
-    - Z4ZZ8ZZ8
-  : -1
-  ? - ACZZ1ZZ6
-    - Z2ZZ1ZZ6
-  : 10
-  ? - ACZZ4ZZ9
-    - Z4ZZ4ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z2Z11ZZ5
-  : 15
-  ? - CCZZ9ZZ8
-    - Z2ZZ9ZZ8
-  : 1
-  ? - CCZ10ZZ5
-    - Z1Z10ZZ5
-  : 1
-  ? - ACZ10Z10
-    - Z4Z10ZZ9
-  : -1
-  ? - NCZZ5ZZ7
-    - Z4ZZ9ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ4Z10
-  : 15
-  ? - CCZZ2ZZ8
-    - Z2ZZ2ZZ8
-  : 1
-  ? - CCZZ7ZZ8
-    - Z2ZZ7ZZ8
-  : 1
-  ? - NCZZ2ZZ4
-    - Z4ZZ2ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ2
-  : 20
   ? - NCZZ1ZZ1
-    - Z4ZZ4ZZ1
-  : 1
-  ? - ACZZ2Z10
-    - Z3ZZ2Z10
-  : 25
-  ? - NCZZ5ZZ2
-    - Z3Z12ZZ2
-  : 80
-  ? - CCZZ4ZZ4
-    - Z1ZZ4ZZ4
-  : 1
-  ? - NCZZ5ZZ5
-    - Z3ZZ8ZZ4
-  : -33
-  ? - CCZZ1ZZ6
-    - Z2ZZ1ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ2
-  : 20
-  ? - CCZ12ZZ1
-    - Z3Z12ZZ1
-  : 1
-  ? - NCZZ5Z10
-    - Z4ZZ9Z10
-  : 1
-  ? - CCZZ2ZZ1
-    - Z2ZZ2ZZ1
-  : 1
-  ? - ACZZ6ZZ8
-    - Z4ZZ6ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ9
-  : 1
-  ? - NCZZ5ZZ7
-    - Z2ZZ9ZZ7
-  : 30
-  ? - ACZZ4ZZ2
-    - Z3ZZ4ZZ1
-  : -7
-  ? - NCZZ5ZZ4
-    - Z3ZZ6ZZ3
-  : -15
-  ? - ACZZ7Z10
-    - Z4ZZ7Z10
-  : 1
-  ? - ACZZ7ZZ1
-    - Z4ZZ7ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ1
-  : 30
-  ? - ACZZ4ZZ2
-    - Z3ZZ4ZZ2
-  : 25
-  ? - NCZZ2ZZ8
-    - Z2ZZ2ZZ8
-  : 15
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z10ZZ1
-  : 20
-  ? - ACZ12ZZ2
-    - Z4Z12ZZ2
-  : 1
-  ? - NCZZ5ZZ4
-    - Z4ZZ9ZZ3
-  : -1
-  ? - CCZZ4ZZ5
-    - Z3ZZ4ZZ5
-  : 1
-  ? - CCZ11ZZ9
-    - Z3Z11ZZ9
-  : 1
+    - Z2ZZ1ZZ1
+  : 10
+  ? - ACZZ1ZZ1
+    - Z2ZZ1ZZ1
+  : 10
   ? - CCZZ1ZZ1
     - Z2ZZ1ZZ1
   : 1
-  ? - NCZZ2ZZ5
-    - Z4ZZ5ZZ4
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ8
-  : 1
-  ? - ACZZ3ZZ4
-    - Z2ZZ3ZZ4
-  : 10
-  ? - CCZZ7ZZ6
-    - Z2ZZ7ZZ6
-  : 1
-  ? - CCZZ7ZZ3
-    - Z3ZZ7ZZ3
-  : 1
-  ? - ACZZ2ZZ8
-    - Z4ZZ2ZZ7
-  : -1
-  ? - ACZZ4ZZ9
-    - Z4ZZ4ZZ9
-  : 1
-  ? - ACZZ8ZZ4
-    - Z3ZZ8ZZ4
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ1
-  : 1
-  ? - NCZZ5ZZ9
-    - Z3Z12ZZ9
-  : 80
-  ? - NCZZ3ZZ9
-    - Z3ZZ7ZZ9
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ5
-  : 1
-  ? - CCZ11ZZ3
-    - Z3Z11ZZ3
-  : 1
-  ? - NCZZ5ZZ5
-    - Z4Z12ZZ4
-  : -1
-  ? - NCZZ2ZZ8
-    - Z4ZZ6ZZ7
-  : -1
-  ? - NCZZ6ZZ7
-    - Z4Z11ZZ7
-  : 1
-  ? - OBJZZZZZ
+  ? - NCZZ2ZZ2
     - Z2ZZ1ZZ1
-  : 10
-  ? - CCZZ2ZZ3
-    - Z2ZZ2ZZ3
-  : 1
-  ? - NCZZ4ZZ4
-    - Z3Z10ZZ3
-  : -5
+  : -10
   ? - OBJZZZZZ
-    - Z2ZZ7ZZ2
-  : 10
-  ? - NCZZ6ZZ1
-    - Z4Z11ZZ1
+    - Z3ZZ1ZZ1
+  : 20
+  ? - NCZZ1ZZ1
+    - Z3ZZ1ZZ1
+  : 20
+  ? - ACZZ1ZZ1
+    - Z3ZZ1ZZ1
+  : 20
+  ? - CCZZ1ZZ1
+    - Z3ZZ1ZZ1
   : 1
+  ? - NCZZ1ZZ2
+    - Z3ZZ1ZZ1
+  : -5
+  ? - ACZZ1ZZ2
+    - Z3ZZ1ZZ1
+  : -5
+  ? - NCZZ2ZZ2
+    - Z3ZZ1ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ1
+  : 1
+  ? - NCZZ1ZZ1
+    - Z4ZZ1ZZ1
+  : 1
+  ? - ACZZ1ZZ1
+    - Z4ZZ1ZZ1
+  : 1
+  ? - NCZZ1ZZ2
+    - Z4ZZ1ZZ1
+  : -1
+  ? - ACZZ1ZZ2
+    - Z4ZZ1ZZ1
+  : -1
+  ? - CCZZ2ZZ1
+    - Z1ZZ2ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ1
+  : 15
+  ? - NCZZ2ZZ1
+    - Z2ZZ2ZZ1
+  : 15
+  ? - ACZZ2ZZ1
+    - Z2ZZ2ZZ1
+  : 15
+  ? - CCZZ2ZZ1
+    - Z2ZZ2ZZ1
+  : 1
+  ? - NCZZ3ZZ2
+    - Z2ZZ2ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ1
+  : 25
+  ? - NCZZ2ZZ1
+    - Z3ZZ2ZZ1
+  : 25
+  ? - ACZZ2ZZ1
+    - Z3ZZ2ZZ1
+  : 25
+  ? - CCZZ2ZZ1
+    - Z3ZZ2ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z3ZZ2ZZ1
+  : -7
+  ? - ACZZ2ZZ2
+    - Z3ZZ2ZZ1
+  : -7
+  ? - NCZZ3ZZ2
+    - Z3ZZ2ZZ1
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ1
+  : 1
+  ? - NCZZ2ZZ1
+    - Z4ZZ2ZZ1
+  : 1
+  ? - ACZZ2ZZ1
+    - Z4ZZ2ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ2ZZ1
+  : -1
+  ? - ACZZ2ZZ2
+    - Z4ZZ2ZZ1
+  : -1
   ? - CCZZ3ZZ1
     - Z1ZZ3ZZ1
   : 1
   ? - OBJZZZZZ
-    - Z4Z12ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ2
-  : 1
-  ? - NCZZ5ZZ8
-    - Z2ZZ9ZZ8
-  : 30
-  ? - ACZ12Z10
-    - Z3Z12ZZ9
-  : -15
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ8
-  : 40
-  ? - ACZZ6ZZ6
-    - Z3ZZ6ZZ6
-  : 20
-  ? - CCZZ3ZZ8
-    - Z3ZZ3ZZ8
-  : 1
-  ? - NCZZ2ZZ8
-    - Z3ZZ3ZZ8
-  : 20
-  ? - NCZZ5ZZ2
-    - Z2Z12ZZ2
-  : 50
-  ? - NCZZ2ZZ6
-    - Z2ZZ6ZZ6
+    - Z2ZZ3ZZ1
   : 10
-  ? - ACZZ2ZZ3
-    - Z3ZZ2ZZ3
-  : 25
-  ? - CCZZ9ZZ1
-    - Z1ZZ9ZZ1
+  ? - NCZZ2ZZ1
+    - Z2ZZ3ZZ1
+  : 10
+  ? - ACZZ3ZZ1
+    - Z2ZZ3ZZ1
+  : 10
+  ? - CCZZ3ZZ1
+    - Z2ZZ3ZZ1
   : 1
-  ? - NCZZ5ZZ8
-    - Z3Z12ZZ7
-  : -15
-  ? - NCZZ6ZZ8
-    - Z2Z10ZZ7
+  ? - NCZZ1ZZ2
+    - Z2ZZ3ZZ1
   : -10
-  ? - ACZ11ZZ2
-    - Z3Z11ZZ1
-  : -7
-  ? - ACZ11ZZ7
-    - Z4Z11ZZ6
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ1
+  : 20
+  ? - NCZZ2ZZ1
+    - Z3ZZ3ZZ1
+  : 20
+  ? - ACZZ3ZZ1
+    - Z3ZZ3ZZ1
+  : 20
+  ? - CCZZ3ZZ1
+    - Z3ZZ3ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z3ZZ3ZZ1
+  : -5
+  ? - ACZZ3ZZ2
+    - Z3ZZ3ZZ1
+  : -5
+  ? - NCZZ1ZZ2
+    - Z3ZZ3ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ1
+  : 1
+  ? - NCZZ2ZZ1
+    - Z4ZZ3ZZ1
+  : 1
+  ? - ACZZ3ZZ1
+    - Z4ZZ3ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ3ZZ1
   : -1
-  ? - ACZZ8ZZ6
-    - Z3ZZ8ZZ5
-  : -7
+  ? - ACZZ3ZZ2
+    - Z4ZZ3ZZ1
+  : -1
+  ? - CCZZ4ZZ1
+    - Z1ZZ4ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ1
+  : 15
+  ? - NCZZ1ZZ1
+    - Z2ZZ4ZZ1
+  : 15
+  ? - ACZZ4ZZ1
+    - Z2ZZ4ZZ1
+  : 15
+  ? - CCZZ4ZZ1
+    - Z2ZZ4ZZ1
+  : 1
   ? - NCZZ4ZZ2
     - Z2ZZ4ZZ1
   : -15
-  ? - NCZZ2Z10
-    - Z3ZZ1ZZ9
-  : -15
-  ? - NCZZ3ZZ8
-    - Z4ZZ7ZZ8
-  : 1
-  ? - NCZZ3ZZ4
-    - Z4ZZ7ZZ3
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ6
-  : 25
-  ? - CCZZ9ZZ6
-    - Z2ZZ9ZZ6
-  : 1
-  ? - NCZZ2ZZ1
-    - Z2ZZ6ZZ1
-  : 10
-  ? - CCZZ8ZZ4
-    - Z2ZZ8ZZ4
-  : 1
-  ? - CCZ10ZZ1
-    - Z1Z10ZZ1
-  : 1
-  ? - NCZZ4ZZ2
-    - Z4ZZ8ZZ2
-  : 1
-  ? - NCZZ2ZZ6
-    - Z3ZZ1ZZ5
-  : -15
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ9
-  : 10
-  ? - ACZZ9ZZ3
-    - Z3ZZ9ZZ3
-  : 40
-  ? - NCZZ3ZZ7
-    - Z3ZZ7ZZ7
-  : 20
-  ? - ACZZ8Z10
-    - Z3ZZ8ZZ9
-  : -7
-  ? - CCZ11ZZ5
-    - Z3Z11ZZ5
-  : 1
-  ? - ACZ10ZZ3
-    - Z3Z10ZZ3
-  : 20
-  ? - CCZZ7ZZ5
-    - Z3ZZ7ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z2Z11ZZ1
-  : 15
-  ? - CCZZ1ZZ8
-    - Z3ZZ1ZZ8
-  : 1
-  ? - CCZZ7ZZ7
-    - Z3ZZ7ZZ7
-  : 1
-  ? - ACZZ7ZZ3
-    - Z4ZZ7ZZ2
-  : -1
-  ? - NCZZ1ZZ7
-    - Z3ZZ4ZZ7
-  : 25
-  ? - NCZZ4ZZ8
-    - Z4ZZ8ZZ8
-  : 1
-  ? - ACZZ8ZZ2
-    - Z3ZZ8ZZ1
-  : -7
-  ? - NCZZ2ZZ3
-    - Z3ZZ2ZZ2
-  : -7
-  ? - NCZZ5ZZ2
-    - Z4ZZ9ZZ1
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ6
-  : 20
-  ? - OBJZZZZZ
-    - Z3Z10ZZ8
-  : 20
-  ? - NCZZ4Z10
-    - Z4ZZ8ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ1
-  : 10
-  ? - OBJZZZZZ
-    - Z3Z12Z10
-  : 80
-  ? - NCZZ2ZZ4
-    - Z2ZZ2ZZ4
-  : 15
-  ? - NCZZ4ZZ7
-    - Z3ZZ5ZZ6
-  : -18
-  ? - ACZ10ZZ7
-    - Z3Z10ZZ7
-  : 20
-  ? - NCZZ1ZZ3
-    - Z4ZZ1ZZ3
-  : 1
-  ? - NCZZ5ZZ5
-    - Z4ZZ9ZZ4
-  : -1
-  ? - NCZZ2ZZ5
-    - Z4ZZ5ZZ5
-  : 1
-  ? - NCZZ3ZZ9
-    - Z4ZZ7ZZ9
-  : 1
-  ? - ACZ10ZZ6
-    - Z4Z10ZZ5
-  : -1
-  ? - ACZZ2ZZ2
-    - Z2ZZ2ZZ2
-  : 15
-  ? - ACZZ7ZZ2
-    - Z4ZZ7ZZ2
-  : 1
   ? - OBJZZZZZ
     - Z3ZZ4ZZ1
   : 25
-  ? - ACZZ5ZZ5
-    - Z3ZZ5ZZ5
+  ? - NCZZ1ZZ1
+    - Z3ZZ4ZZ1
   : 25
-  ? - NCZZ5ZZ9
-    - Z3ZZ6ZZ8
-  : -15
-  ? - NCZZ1ZZ4
-    - Z3ZZ4ZZ3
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ3
-  : 20
-  ? - NCZZ6Z10
-    - Z3Z11Z10
+  ? - ACZZ4ZZ1
+    - Z3ZZ4ZZ1
   : 25
+  ? - CCZZ4ZZ1
+    - Z3ZZ4ZZ1
+  : 1
   ? - NCZZ1ZZ2
-    - Z4ZZ4ZZ2
-  : 1
-  ? - ACZZ9ZZ5
-    - Z3ZZ9ZZ5
-  : 40
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ8
-  : 25
-  ? - CCZ10ZZ2
-    - Z2Z10ZZ2
-  : 1
-  ? - CCZZ1ZZ4
-    - Z1ZZ1ZZ4
-  : 1
-  ? - NCZZ2ZZ6
-    - Z3ZZ5ZZ6
-  : 25
-  ? - NCZZ4ZZ5
-    - Z3Z10ZZ4
-  : -5
-  ? - CCZZ2ZZ7
-    - Z3ZZ2ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ3Z10
-  : 1
-  ? - ACZZ4ZZ4
-    - Z3ZZ4ZZ3
+    - Z3ZZ4ZZ1
   : -7
-  ? - ACZZ6ZZ6
-    - Z3ZZ6ZZ5
-  : -5
-  ? - NCZZ3Z10
-    - Z3ZZ7Z10
-  : 20
-  ? - NCZZ5ZZ8
-    - Z4Z12ZZ8
-  : 1
-  ? - ACZZ8Z10
-    - Z4ZZ8Z10
-  : 1
-  ? - CCZZ4ZZ9
-    - Z3ZZ4ZZ9
-  : 1
-  ? - CCZZ4ZZ6
-    - Z2ZZ4ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ5
-  : 1
-  ? - ACZ12ZZ8
-    - Z4Z12ZZ8
-  : 1
-  ? - NCZZ5ZZ9
-    - Z3ZZ9ZZ8
+  ? - ACZZ4ZZ2
+    - Z3ZZ4ZZ1
   : -7
-  ? - ACZZ9ZZ1
-    - Z3ZZ9ZZ1
-  : 40
-  ? - ACZZ6ZZ2
-    - Z3ZZ6ZZ1
-  : -5
-  ? - ACZZ1ZZ7
-    - Z3ZZ1ZZ7
-  : 20
-  ? - NCZZ1ZZ4
-    - Z4ZZ4ZZ3
-  : -1
-  ? - CCZZ4ZZ3
-    - Z1ZZ4ZZ3
-  : 1
-  ? - ACZ10ZZ7
-    - Z3Z10ZZ6
-  : -5
+  ? - NCZZ4ZZ2
+    - Z3ZZ4ZZ1
+  : -18
   ? - OBJZZZZZ
-    - Z4ZZ9ZZ9
+    - Z4ZZ4ZZ1
   : 1
-  ? - ACZ11ZZ1
-    - Z4Z11ZZ1
+  ? - NCZZ1ZZ1
+    - Z4ZZ4ZZ1
   : 1
-  ? - NCZZ5ZZ2
-    - Z2ZZ9ZZ2
-  : 30
-  ? - ACZZ2ZZ6
-    - Z4ZZ2ZZ5
+  ? - ACZZ4ZZ1
+    - Z4ZZ4ZZ1
+  : 1
+  ? - NCZZ1ZZ2
+    - Z4ZZ4ZZ1
   : -1
+  ? - ACZZ4ZZ2
+    - Z4ZZ4ZZ1
+  : -1
+  ? - CCZZ5ZZ1
+    - Z1ZZ5ZZ1
+  : 1
   ? - OBJZZZZZ
-    - Z3ZZ7ZZ7
-  : 20
-  ? - ACZZ9ZZ8
-    - Z4ZZ9ZZ7
-  : -1
-  ? - ACZ10ZZ3
-    - Z4Z10ZZ3
+    - Z2ZZ5ZZ1
+  : 15
+  ? - NCZZ2ZZ1
+    - Z2ZZ5ZZ1
+  : 15
+  ? - ACZZ5ZZ1
+    - Z2ZZ5ZZ1
+  : 15
+  ? - CCZZ5ZZ1
+    - Z2ZZ5ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z2ZZ5ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ1
+  : 25
+  ? - NCZZ2ZZ1
+    - Z3ZZ5ZZ1
+  : 25
+  ? - ACZZ5ZZ1
+    - Z3ZZ5ZZ1
+  : 25
+  ? - CCZZ5ZZ1
+    - Z3ZZ5ZZ1
   : 1
   ? - NCZZ2ZZ2
     - Z3ZZ5ZZ1
   : -7
-  ? - NCZZ6ZZ6
-    - Z4Z11ZZ5
-  : -1
-  ? - NCZZ2ZZ3
-    - Z4ZZ5ZZ3
-  : 1
-  ? - NCZZ2ZZ5
-    - Z3ZZ3ZZ5
-  : 20
+  ? - ACZZ5ZZ2
+    - Z3ZZ5ZZ1
+  : -7
+  ? - NCZZ4ZZ2
+    - Z3ZZ5ZZ1
+  : -18
   ? - OBJZZZZZ
-    - Z2Z12ZZ6
-  : 50
-  ? - CCZZ6Z10
-    - Z2ZZ6Z10
+    - Z4ZZ5ZZ1
   : 1
+  ? - NCZZ2ZZ1
+    - Z4ZZ5ZZ1
+  : 1
+  ? - ACZZ5ZZ1
+    - Z4ZZ5ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ5ZZ1
+  : -1
+  ? - ACZZ5ZZ2
+    - Z4ZZ5ZZ1
+  : -1
+  ? - CCZZ6ZZ1
+    - Z1ZZ6ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ1
+  : 10
+  ? - NCZZ2ZZ1
+    - Z2ZZ6ZZ1
+  : 10
+  ? - ACZZ6ZZ1
+    - Z2ZZ6ZZ1
+  : 10
+  ? - CCZZ6ZZ1
+    - Z2ZZ6ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z2ZZ6ZZ1
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ1
+  : 20
+  ? - NCZZ2ZZ1
+    - Z3ZZ6ZZ1
+  : 20
+  ? - ACZZ6ZZ1
+    - Z3ZZ6ZZ1
+  : 20
+  ? - CCZZ6ZZ1
+    - Z3ZZ6ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z3ZZ6ZZ1
+  : -5
+  ? - ACZZ6ZZ2
+    - Z3ZZ6ZZ1
+  : -5
+  ? - NCZZ5ZZ2
+    - Z3ZZ6ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ1
+  : 1
+  ? - NCZZ2ZZ1
+    - Z4ZZ6ZZ1
+  : 1
+  ? - ACZZ6ZZ1
+    - Z4ZZ6ZZ1
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ6ZZ1
+  : -1
+  ? - ACZZ6ZZ2
+    - Z4ZZ6ZZ1
+  : -1
+  ? - CCZZ7ZZ1
+    - Z1ZZ7ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ1
+  : 10
+  ? - NCZZ3ZZ1
+    - Z2ZZ7ZZ1
+  : 10
+  ? - ACZZ7ZZ1
+    - Z2ZZ7ZZ1
+  : 10
+  ? - CCZZ7ZZ1
+    - Z2ZZ7ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z2ZZ7ZZ1
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ1
+  : 20
+  ? - NCZZ3ZZ1
+    - Z3ZZ7ZZ1
+  : 20
+  ? - ACZZ7ZZ1
+    - Z3ZZ7ZZ1
+  : 20
+  ? - CCZZ7ZZ1
+    - Z3ZZ7ZZ1
+  : 1
+  ? - NCZZ3ZZ2
+    - Z3ZZ7ZZ1
+  : -5
+  ? - ACZZ7ZZ2
+    - Z3ZZ7ZZ1
+  : -5
+  ? - NCZZ5ZZ2
+    - Z3ZZ7ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ1
+  : 1
+  ? - NCZZ3ZZ1
+    - Z4ZZ7ZZ1
+  : 1
+  ? - ACZZ7ZZ1
+    - Z4ZZ7ZZ1
+  : 1
+  ? - NCZZ3ZZ2
+    - Z4ZZ7ZZ1
+  : -1
+  ? - ACZZ7ZZ2
+    - Z4ZZ7ZZ1
+  : -1
+  ? - CCZZ8ZZ1
+    - Z1ZZ8ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ1
+  : 30
+  ? - NCZZ4ZZ1
+    - Z2ZZ8ZZ1
+  : 30
+  ? - ACZZ8ZZ1
+    - Z2ZZ8ZZ1
+  : 30
+  ? - CCZZ8ZZ1
+    - Z2ZZ8ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z2ZZ8ZZ1
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ1
+  : 40
+  ? - NCZZ4ZZ1
+    - Z3ZZ8ZZ1
+  : 40
+  ? - ACZZ8ZZ1
+    - Z3ZZ8ZZ1
+  : 40
+  ? - CCZZ8ZZ1
+    - Z3ZZ8ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z3ZZ8ZZ1
+  : -7
+  ? - ACZZ8ZZ2
+    - Z3ZZ8ZZ1
+  : -7
+  ? - NCZZ5ZZ2
+    - Z3ZZ8ZZ1
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ1
+  : 1
+  ? - NCZZ4ZZ1
+    - Z4ZZ8ZZ1
+  : 1
+  ? - ACZZ8ZZ1
+    - Z4ZZ8ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z4ZZ8ZZ1
+  : -1
+  ? - ACZZ8ZZ2
+    - Z4ZZ8ZZ1
+  : -1
+  ? - CCZZ9ZZ1
+    - Z1ZZ9ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ1
+  : 30
+  ? - NCZZ5ZZ1
+    - Z2ZZ9ZZ1
+  : 30
+  ? - ACZZ9ZZ1
+    - Z2ZZ9ZZ1
+  : 30
+  ? - CCZZ9ZZ1
+    - Z2ZZ9ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z2ZZ9ZZ1
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ1
+  : 40
+  ? - NCZZ5ZZ1
+    - Z3ZZ9ZZ1
+  : 40
+  ? - ACZZ9ZZ1
+    - Z3ZZ9ZZ1
+  : 40
+  ? - CCZZ9ZZ1
+    - Z3ZZ9ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z3ZZ9ZZ1
+  : -7
+  ? - ACZZ9ZZ2
+    - Z3ZZ9ZZ1
+  : -7
+  ? - NCZZ4ZZ2
+    - Z3ZZ9ZZ1
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ1
+  : 1
+  ? - NCZZ5ZZ1
+    - Z4ZZ9ZZ1
+  : 1
+  ? - ACZZ9ZZ1
+    - Z4ZZ9ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z4ZZ9ZZ1
+  : -1
+  ? - ACZZ9ZZ2
+    - Z4ZZ9ZZ1
+  : -1
+  ? - CCZ10ZZ1
+    - Z1Z10ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ1
+  : 10
+  ? - NCZZ4ZZ1
+    - Z2Z10ZZ1
+  : 10
+  ? - ACZ10ZZ1
+    - Z2Z10ZZ1
+  : 10
+  ? - CCZ10ZZ1
+    - Z2Z10ZZ1
+  : 1
+  ? - NCZZ6ZZ2
+    - Z2Z10ZZ1
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ1
+  : 20
+  ? - NCZZ4ZZ1
+    - Z3Z10ZZ1
+  : 20
+  ? - ACZ10ZZ1
+    - Z3Z10ZZ1
+  : 20
+  ? - CCZ10ZZ1
+    - Z3Z10ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z3Z10ZZ1
+  : -5
+  ? - ACZ10ZZ2
+    - Z3Z10ZZ1
+  : -5
+  ? - NCZZ6ZZ2
+    - Z3Z10ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ1
+  : 1
+  ? - NCZZ4ZZ1
+    - Z4Z10ZZ1
+  : 1
+  ? - ACZ10ZZ1
+    - Z4Z10ZZ1
+  : 1
+  ? - NCZZ4ZZ2
+    - Z4Z10ZZ1
+  : -1
+  ? - ACZ10ZZ2
+    - Z4Z10ZZ1
+  : -1
+  ? - CCZ11ZZ1
+    - Z1Z11ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ1
+  : 15
+  ? - NCZZ6ZZ1
+    - Z2Z11ZZ1
+  : 15
+  ? - ACZ11ZZ1
+    - Z2Z11ZZ1
+  : 15
+  ? - CCZ11ZZ1
+    - Z2Z11ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ1
+  : 25
+  ? - NCZZ6ZZ1
+    - Z3Z11ZZ1
+  : 25
+  ? - ACZ11ZZ1
+    - Z3Z11ZZ1
+  : 25
+  ? - CCZ11ZZ1
+    - Z3Z11ZZ1
+  : 1
+  ? - NCZZ6ZZ2
+    - Z3Z11ZZ1
+  : -7
+  ? - ACZ11ZZ2
+    - Z3Z11ZZ1
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ1
+  : 1
+  ? - NCZZ6ZZ1
+    - Z4Z11ZZ1
+  : 1
+  ? - ACZ11ZZ1
+    - Z4Z11ZZ1
+  : 1
+  ? - NCZZ6ZZ2
+    - Z4Z11ZZ1
+  : -1
+  ? - ACZ11ZZ2
+    - Z4Z11ZZ1
+  : -1
+  ? - CCZ12ZZ1
+    - Z1Z12ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ1
+  : 50
+  ? - NCZZ5ZZ1
+    - Z2Z12ZZ1
+  : 50
+  ? - ACZ12ZZ1
+    - Z2Z12ZZ1
+  : 50
+  ? - CCZ12ZZ1
+    - Z2Z12ZZ1
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ1
+  : 80
+  ? - NCZZ5ZZ1
+    - Z3Z12ZZ1
+  : 80
+  ? - ACZ12ZZ1
+    - Z3Z12ZZ1
+  : 80
+  ? - CCZ12ZZ1
+    - Z3Z12ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z3Z12ZZ1
+  : -15
+  ? - ACZ12ZZ2
+    - Z3Z12ZZ1
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ1
+  : 1
+  ? - NCZZ5ZZ1
+    - Z4Z12ZZ1
+  : 1
+  ? - ACZ12ZZ1
+    - Z4Z12ZZ1
+  : 1
+  ? - NCZZ5ZZ2
+    - Z4Z12ZZ1
+  : -1
+  ? - ACZ12ZZ2
+    - Z4Z12ZZ1
+  : -1
+  ? - CCZZ1ZZ2
+    - Z1ZZ1ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ2
+  : 10
+  ? - NCZZ1ZZ2
+    - Z2ZZ1ZZ2
+  : 10
+  ? - ACZZ1ZZ2
+    - Z2ZZ1ZZ2
+  : 10
   ? - CCZZ1ZZ2
     - Z2ZZ1ZZ2
   : 1
+  ? - NCZZ2ZZ3
+    - Z2ZZ1ZZ2
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ2
+  : 20
+  ? - NCZZ1ZZ2
+    - Z3ZZ1ZZ2
+  : 20
+  ? - ACZZ1ZZ2
+    - Z3ZZ1ZZ2
+  : 20
+  ? - CCZZ1ZZ2
+    - Z3ZZ1ZZ2
+  : 1
+  ? - NCZZ1ZZ3
+    - Z3ZZ1ZZ2
+  : -5
+  ? - ACZZ1ZZ3
+    - Z3ZZ1ZZ2
+  : -5
+  ? - NCZZ2ZZ3
+    - Z3ZZ1ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ2
+  : 1
+  ? - NCZZ1ZZ2
+    - Z4ZZ1ZZ2
+  : 1
+  ? - ACZZ1ZZ2
+    - Z4ZZ1ZZ2
+  : 1
+  ? - NCZZ1ZZ3
+    - Z4ZZ1ZZ2
+  : -1
+  ? - ACZZ1ZZ3
+    - Z4ZZ1ZZ2
+  : -1
+  ? - CCZZ2ZZ2
+    - Z1ZZ2ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ2
+  : 15
+  ? - NCZZ2ZZ2
+    - Z2ZZ2ZZ2
+  : 15
+  ? - ACZZ2ZZ2
+    - Z2ZZ2ZZ2
+  : 15
+  ? - CCZZ2ZZ2
+    - Z2ZZ2ZZ2
+  : 1
+  ? - NCZZ3ZZ3
+    - Z2ZZ2ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ2
+  : 25
+  ? - NCZZ2ZZ2
+    - Z3ZZ2ZZ2
+  : 25
+  ? - ACZZ2ZZ2
+    - Z3ZZ2ZZ2
+  : 25
+  ? - CCZZ2ZZ2
+    - Z3ZZ2ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z3ZZ2ZZ2
+  : -7
+  ? - ACZZ2ZZ3
+    - Z3ZZ2ZZ2
+  : -7
+  ? - NCZZ3ZZ3
+    - Z3ZZ2ZZ2
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ2
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ2ZZ2
+  : 1
+  ? - ACZZ2ZZ2
+    - Z4ZZ2ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ2ZZ2
+  : -1
+  ? - ACZZ2ZZ3
+    - Z4ZZ2ZZ2
+  : -1
+  ? - CCZZ3ZZ2
+    - Z1ZZ3ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ2
+  : 10
+  ? - NCZZ2ZZ2
+    - Z2ZZ3ZZ2
+  : 10
+  ? - ACZZ3ZZ2
+    - Z2ZZ3ZZ2
+  : 10
+  ? - CCZZ3ZZ2
+    - Z2ZZ3ZZ2
+  : 1
+  ? - NCZZ1ZZ3
+    - Z2ZZ3ZZ2
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ2
+  : 20
+  ? - NCZZ2ZZ2
+    - Z3ZZ3ZZ2
+  : 20
+  ? - ACZZ3ZZ2
+    - Z3ZZ3ZZ2
+  : 20
+  ? - CCZZ3ZZ2
+    - Z3ZZ3ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z3ZZ3ZZ2
+  : -5
+  ? - ACZZ3ZZ3
+    - Z3ZZ3ZZ2
+  : -5
+  ? - NCZZ1ZZ3
+    - Z3ZZ3ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ2
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ3ZZ2
+  : 1
+  ? - ACZZ3ZZ2
+    - Z4ZZ3ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ3ZZ2
+  : -1
+  ? - ACZZ3ZZ3
+    - Z4ZZ3ZZ2
+  : -1
+  ? - CCZZ4ZZ2
+    - Z1ZZ4ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ2
+  : 15
+  ? - NCZZ1ZZ2
+    - Z2ZZ4ZZ2
+  : 15
+  ? - ACZZ4ZZ2
+    - Z2ZZ4ZZ2
+  : 15
+  ? - CCZZ4ZZ2
+    - Z2ZZ4ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z2ZZ4ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ2
+  : 25
+  ? - NCZZ1ZZ2
+    - Z3ZZ4ZZ2
+  : 25
+  ? - ACZZ4ZZ2
+    - Z3ZZ4ZZ2
+  : 25
+  ? - CCZZ4ZZ2
+    - Z3ZZ4ZZ2
+  : 1
+  ? - NCZZ1ZZ3
+    - Z3ZZ4ZZ2
+  : -7
+  ? - ACZZ4ZZ3
+    - Z3ZZ4ZZ2
+  : -7
+  ? - NCZZ4ZZ3
+    - Z3ZZ4ZZ2
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ2
+  : 1
+  ? - NCZZ1ZZ2
+    - Z4ZZ4ZZ2
+  : 1
+  ? - ACZZ4ZZ2
+    - Z4ZZ4ZZ2
+  : 1
+  ? - NCZZ1ZZ3
+    - Z4ZZ4ZZ2
+  : -1
+  ? - ACZZ4ZZ3
+    - Z4ZZ4ZZ2
+  : -1
+  ? - CCZZ5ZZ2
+    - Z1ZZ5ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ2
+  : 15
+  ? - NCZZ2ZZ2
+    - Z2ZZ5ZZ2
+  : 15
+  ? - ACZZ5ZZ2
+    - Z2ZZ5ZZ2
+  : 15
+  ? - CCZZ5ZZ2
+    - Z2ZZ5ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z2ZZ5ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ2
+  : 25
+  ? - NCZZ2ZZ2
+    - Z3ZZ5ZZ2
+  : 25
+  ? - ACZZ5ZZ2
+    - Z3ZZ5ZZ2
+  : 25
+  ? - CCZZ5ZZ2
+    - Z3ZZ5ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z3ZZ5ZZ2
+  : -7
+  ? - ACZZ5ZZ3
+    - Z3ZZ5ZZ2
+  : -7
+  ? - NCZZ4ZZ3
+    - Z3ZZ5ZZ2
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ2
+  : 1
+  ? - NCZZ2ZZ2
+    - Z4ZZ5ZZ2
+  : 1
+  ? - ACZZ5ZZ2
+    - Z4ZZ5ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ5ZZ2
+  : -1
+  ? - ACZZ5ZZ3
+    - Z4ZZ5ZZ2
+  : -1
+  ? - CCZZ6ZZ2
+    - Z1ZZ6ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ2
+  : 10
+  ? - NCZZ2ZZ2
+    - Z2ZZ6ZZ2
+  : 10
+  ? - ACZZ6ZZ2
+    - Z2ZZ6ZZ2
+  : 10
   ? - CCZZ6ZZ2
     - Z2ZZ6ZZ2
   : 1
-  ? - CCZZ5ZZ6
-    - Z3ZZ5ZZ6
+  ? - NCZZ5ZZ3
+    - Z2ZZ6ZZ2
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ2
+  : 20
+  ? - NCZZ2ZZ2
+    - Z3ZZ6ZZ2
+  : 20
+  ? - ACZZ6ZZ2
+    - Z3ZZ6ZZ2
+  : 20
+  ? - CCZZ6ZZ2
+    - Z3ZZ6ZZ2
   : 1
-  ? - CCZZ1Z10
-    - Z2ZZ1Z10
+  ? - NCZZ2ZZ3
+    - Z3ZZ6ZZ2
+  : -5
+  ? - ACZZ6ZZ3
+    - Z3ZZ6ZZ2
+  : -5
+  ? - NCZZ5ZZ3
+    - Z3ZZ6ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ2
   : 1
-  ? - NCZZ2ZZ7
-    - Z4ZZ5ZZ7
+  ? - NCZZ2ZZ2
+    - Z4ZZ6ZZ2
   : 1
+  ? - ACZZ6ZZ2
+    - Z4ZZ6ZZ2
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ6ZZ2
+  : -1
+  ? - ACZZ6ZZ3
+    - Z4ZZ6ZZ2
+  : -1
+  ? - CCZZ7ZZ2
+    - Z1ZZ7ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ2
+  : 10
+  ? - NCZZ3ZZ2
+    - Z2ZZ7ZZ2
+  : 10
+  ? - ACZZ7ZZ2
+    - Z2ZZ7ZZ2
+  : 10
+  ? - CCZZ7ZZ2
+    - Z2ZZ7ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z2ZZ7ZZ2
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ2
+  : 20
+  ? - NCZZ3ZZ2
+    - Z3ZZ7ZZ2
+  : 20
+  ? - ACZZ7ZZ2
+    - Z3ZZ7ZZ2
+  : 20
+  ? - CCZZ7ZZ2
+    - Z3ZZ7ZZ2
+  : 1
+  ? - NCZZ3ZZ3
+    - Z3ZZ7ZZ2
+  : -5
+  ? - ACZZ7ZZ3
+    - Z3ZZ7ZZ2
+  : -5
+  ? - NCZZ5ZZ3
+    - Z3ZZ7ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ2
+  : 1
+  ? - NCZZ3ZZ2
+    - Z4ZZ7ZZ2
+  : 1
+  ? - ACZZ7ZZ2
+    - Z4ZZ7ZZ2
+  : 1
+  ? - NCZZ3ZZ3
+    - Z4ZZ7ZZ2
+  : -1
+  ? - ACZZ7ZZ3
+    - Z4ZZ7ZZ2
+  : -1
+  ? - CCZZ8ZZ2
+    - Z1ZZ8ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ2
+  : 30
+  ? - NCZZ4ZZ2
+    - Z2ZZ8ZZ2
+  : 30
+  ? - ACZZ8ZZ2
+    - Z2ZZ8ZZ2
+  : 30
+  ? - CCZZ8ZZ2
+    - Z2ZZ8ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z2ZZ8ZZ2
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ2
+  : 40
+  ? - NCZZ4ZZ2
+    - Z3ZZ8ZZ2
+  : 40
+  ? - ACZZ8ZZ2
+    - Z3ZZ8ZZ2
+  : 40
+  ? - CCZZ8ZZ2
+    - Z3ZZ8ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z3ZZ8ZZ2
+  : -7
+  ? - ACZZ8ZZ3
+    - Z3ZZ8ZZ2
+  : -7
+  ? - NCZZ5ZZ3
+    - Z3ZZ8ZZ2
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ2
+  : 1
+  ? - NCZZ4ZZ2
+    - Z4ZZ8ZZ2
+  : 1
+  ? - ACZZ8ZZ2
+    - Z4ZZ8ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z4ZZ8ZZ2
+  : -1
+  ? - ACZZ8ZZ3
+    - Z4ZZ8ZZ2
+  : -1
+  ? - CCZZ9ZZ2
+    - Z1ZZ9ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ2
+  : 30
+  ? - NCZZ5ZZ2
+    - Z2ZZ9ZZ2
+  : 30
+  ? - ACZZ9ZZ2
+    - Z2ZZ9ZZ2
+  : 30
+  ? - CCZZ9ZZ2
+    - Z2ZZ9ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z2ZZ9ZZ2
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ2
+  : 40
+  ? - NCZZ5ZZ2
+    - Z3ZZ9ZZ2
+  : 40
+  ? - ACZZ9ZZ2
+    - Z3ZZ9ZZ2
+  : 40
+  ? - CCZZ9ZZ2
+    - Z3ZZ9ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z3ZZ9ZZ2
+  : -7
+  ? - ACZZ9ZZ3
+    - Z3ZZ9ZZ2
+  : -7
+  ? - NCZZ4ZZ3
+    - Z3ZZ9ZZ2
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ2
+  : 1
+  ? - NCZZ5ZZ2
+    - Z4ZZ9ZZ2
+  : 1
+  ? - ACZZ9ZZ2
+    - Z4ZZ9ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z4ZZ9ZZ2
+  : -1
+  ? - ACZZ9ZZ3
+    - Z4ZZ9ZZ2
+  : -1
+  ? - CCZ10ZZ2
+    - Z1Z10ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ2
+  : 10
+  ? - NCZZ4ZZ2
+    - Z2Z10ZZ2
+  : 10
+  ? - ACZ10ZZ2
+    - Z2Z10ZZ2
+  : 10
+  ? - CCZ10ZZ2
+    - Z2Z10ZZ2
+  : 1
+  ? - NCZZ6ZZ3
+    - Z2Z10ZZ2
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ2
+  : 20
+  ? - NCZZ4ZZ2
+    - Z3Z10ZZ2
+  : 20
+  ? - ACZ10ZZ2
+    - Z3Z10ZZ2
+  : 20
+  ? - CCZ10ZZ2
+    - Z3Z10ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z3Z10ZZ2
+  : -5
+  ? - ACZ10ZZ3
+    - Z3Z10ZZ2
+  : -5
+  ? - NCZZ6ZZ3
+    - Z3Z10ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ2
+  : 1
+  ? - NCZZ4ZZ2
+    - Z4Z10ZZ2
+  : 1
+  ? - ACZ10ZZ2
+    - Z4Z10ZZ2
+  : 1
+  ? - NCZZ4ZZ3
+    - Z4Z10ZZ2
+  : -1
+  ? - ACZ10ZZ3
+    - Z4Z10ZZ2
+  : -1
+  ? - CCZ11ZZ2
+    - Z1Z11ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ2
+  : 15
+  ? - NCZZ6ZZ2
+    - Z2Z11ZZ2
+  : 15
+  ? - ACZ11ZZ2
+    - Z2Z11ZZ2
+  : 15
+  ? - CCZ11ZZ2
+    - Z2Z11ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ2
+  : 25
+  ? - NCZZ6ZZ2
+    - Z3Z11ZZ2
+  : 25
+  ? - ACZ11ZZ2
+    - Z3Z11ZZ2
+  : 25
+  ? - CCZ11ZZ2
+    - Z3Z11ZZ2
+  : 1
+  ? - NCZZ6ZZ3
+    - Z3Z11ZZ2
+  : -7
+  ? - ACZ11ZZ3
+    - Z3Z11ZZ2
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ2
+  : 1
+  ? - NCZZ6ZZ2
+    - Z4Z11ZZ2
+  : 1
+  ? - ACZ11ZZ2
+    - Z4Z11ZZ2
+  : 1
+  ? - NCZZ6ZZ3
+    - Z4Z11ZZ2
+  : -1
+  ? - ACZ11ZZ3
+    - Z4Z11ZZ2
+  : -1
+  ? - CCZ12ZZ2
+    - Z1Z12ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ2
+  : 50
+  ? - NCZZ5ZZ2
+    - Z2Z12ZZ2
+  : 50
+  ? - ACZ12ZZ2
+    - Z2Z12ZZ2
+  : 50
+  ? - CCZ12ZZ2
+    - Z2Z12ZZ2
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ2
+  : 80
+  ? - NCZZ5ZZ2
+    - Z3Z12ZZ2
+  : 80
+  ? - ACZ12ZZ2
+    - Z3Z12ZZ2
+  : 80
+  ? - CCZ12ZZ2
+    - Z3Z12ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z3Z12ZZ2
+  : -15
+  ? - ACZ12ZZ3
+    - Z3Z12ZZ2
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ2
+  : 1
+  ? - NCZZ5ZZ2
+    - Z4Z12ZZ2
+  : 1
+  ? - ACZ12ZZ2
+    - Z4Z12ZZ2
+  : 1
+  ? - NCZZ5ZZ3
+    - Z4Z12ZZ2
+  : -1
+  ? - ACZ12ZZ3
+    - Z4Z12ZZ2
+  : -1
+  ? - CCZZ1ZZ3
+    - Z1ZZ1ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ3
+  : 10
+  ? - NCZZ1ZZ3
+    - Z2ZZ1ZZ3
+  : 10
+  ? - ACZZ1ZZ3
+    - Z2ZZ1ZZ3
+  : 10
+  ? - CCZZ1ZZ3
+    - Z2ZZ1ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z2ZZ1ZZ3
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ3
+  : 20
+  ? - NCZZ1ZZ3
+    - Z3ZZ1ZZ3
+  : 20
+  ? - ACZZ1ZZ3
+    - Z3ZZ1ZZ3
+  : 20
+  ? - CCZZ1ZZ3
+    - Z3ZZ1ZZ3
+  : 1
+  ? - NCZZ1ZZ4
+    - Z3ZZ1ZZ3
+  : -5
+  ? - ACZZ1ZZ4
+    - Z3ZZ1ZZ3
+  : -5
+  ? - NCZZ2ZZ4
+    - Z3ZZ1ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ3
+  : 1
+  ? - NCZZ1ZZ3
+    - Z4ZZ1ZZ3
+  : 1
+  ? - ACZZ1ZZ3
+    - Z4ZZ1ZZ3
+  : 1
+  ? - NCZZ1ZZ4
+    - Z4ZZ1ZZ3
+  : -1
+  ? - ACZZ1ZZ4
+    - Z4ZZ1ZZ3
+  : -1
+  ? - CCZZ2ZZ3
+    - Z1ZZ2ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ3
+  : 15
+  ? - NCZZ2ZZ3
+    - Z2ZZ2ZZ3
+  : 15
+  ? - ACZZ2ZZ3
+    - Z2ZZ2ZZ3
+  : 15
+  ? - CCZZ2ZZ3
+    - Z2ZZ2ZZ3
+  : 1
+  ? - NCZZ3ZZ4
+    - Z2ZZ2ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ3
+  : 25
+  ? - NCZZ2ZZ3
+    - Z3ZZ2ZZ3
+  : 25
+  ? - ACZZ2ZZ3
+    - Z3ZZ2ZZ3
+  : 25
+  ? - CCZZ2ZZ3
+    - Z3ZZ2ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z3ZZ2ZZ3
+  : -7
+  ? - ACZZ2ZZ4
+    - Z3ZZ2ZZ3
+  : -7
+  ? - NCZZ3ZZ4
+    - Z3ZZ2ZZ3
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ3
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ2ZZ3
+  : 1
+  ? - ACZZ2ZZ3
+    - Z4ZZ2ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ2ZZ3
+  : -1
+  ? - ACZZ2ZZ4
+    - Z4ZZ2ZZ3
+  : -1
+  ? - CCZZ3ZZ3
+    - Z1ZZ3ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ3
+  : 10
+  ? - NCZZ2ZZ3
+    - Z2ZZ3ZZ3
+  : 10
+  ? - ACZZ3ZZ3
+    - Z2ZZ3ZZ3
+  : 10
+  ? - CCZZ3ZZ3
+    - Z2ZZ3ZZ3
+  : 1
+  ? - NCZZ1ZZ4
+    - Z2ZZ3ZZ3
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ3
+  : 20
+  ? - NCZZ2ZZ3
+    - Z3ZZ3ZZ3
+  : 20
+  ? - ACZZ3ZZ3
+    - Z3ZZ3ZZ3
+  : 20
+  ? - CCZZ3ZZ3
+    - Z3ZZ3ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z3ZZ3ZZ3
+  : -5
+  ? - ACZZ3ZZ4
+    - Z3ZZ3ZZ3
+  : -5
+  ? - NCZZ1ZZ4
+    - Z3ZZ3ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ3
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ3ZZ3
+  : 1
+  ? - ACZZ3ZZ3
+    - Z4ZZ3ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ3ZZ3
+  : -1
+  ? - ACZZ3ZZ4
+    - Z4ZZ3ZZ3
+  : -1
+  ? - CCZZ4ZZ3
+    - Z1ZZ4ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ3
+  : 15
+  ? - NCZZ1ZZ3
+    - Z2ZZ4ZZ3
+  : 15
+  ? - ACZZ4ZZ3
+    - Z2ZZ4ZZ3
+  : 15
+  ? - CCZZ4ZZ3
+    - Z2ZZ4ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z2ZZ4ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ3
+  : 25
+  ? - NCZZ1ZZ3
+    - Z3ZZ4ZZ3
+  : 25
+  ? - ACZZ4ZZ3
+    - Z3ZZ4ZZ3
+  : 25
+  ? - CCZZ4ZZ3
+    - Z3ZZ4ZZ3
+  : 1
+  ? - NCZZ1ZZ4
+    - Z3ZZ4ZZ3
+  : -7
+  ? - ACZZ4ZZ4
+    - Z3ZZ4ZZ3
+  : -7
+  ? - NCZZ4ZZ4
+    - Z3ZZ4ZZ3
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ3
+  : 1
+  ? - NCZZ1ZZ3
+    - Z4ZZ4ZZ3
+  : 1
+  ? - ACZZ4ZZ3
+    - Z4ZZ4ZZ3
+  : 1
+  ? - NCZZ1ZZ4
+    - Z4ZZ4ZZ3
+  : -1
+  ? - ACZZ4ZZ4
+    - Z4ZZ4ZZ3
+  : -1
+  ? - CCZZ5ZZ3
+    - Z1ZZ5ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ3
+  : 15
+  ? - NCZZ2ZZ3
+    - Z2ZZ5ZZ3
+  : 15
+  ? - ACZZ5ZZ3
+    - Z2ZZ5ZZ3
+  : 15
+  ? - CCZZ5ZZ3
+    - Z2ZZ5ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z2ZZ5ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ3
+  : 25
+  ? - NCZZ2ZZ3
+    - Z3ZZ5ZZ3
+  : 25
+  ? - ACZZ5ZZ3
+    - Z3ZZ5ZZ3
+  : 25
+  ? - CCZZ5ZZ3
+    - Z3ZZ5ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z3ZZ5ZZ3
+  : -7
+  ? - ACZZ5ZZ4
+    - Z3ZZ5ZZ3
+  : -7
+  ? - NCZZ4ZZ4
+    - Z3ZZ5ZZ3
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ3
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ5ZZ3
+  : 1
+  ? - ACZZ5ZZ3
+    - Z4ZZ5ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ5ZZ3
+  : -1
+  ? - ACZZ5ZZ4
+    - Z4ZZ5ZZ3
+  : -1
+  ? - CCZZ6ZZ3
+    - Z1ZZ6ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ3
+  : 10
+  ? - NCZZ2ZZ3
+    - Z2ZZ6ZZ3
+  : 10
+  ? - ACZZ6ZZ3
+    - Z2ZZ6ZZ3
+  : 10
+  ? - CCZZ6ZZ3
+    - Z2ZZ6ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z2ZZ6ZZ3
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ3
+  : 20
+  ? - NCZZ2ZZ3
+    - Z3ZZ6ZZ3
+  : 20
+  ? - ACZZ6ZZ3
+    - Z3ZZ6ZZ3
+  : 20
+  ? - CCZZ6ZZ3
+    - Z3ZZ6ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z3ZZ6ZZ3
+  : -5
+  ? - ACZZ6ZZ4
+    - Z3ZZ6ZZ3
+  : -5
+  ? - NCZZ5ZZ4
+    - Z3ZZ6ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ3
+  : 1
+  ? - NCZZ2ZZ3
+    - Z4ZZ6ZZ3
+  : 1
+  ? - ACZZ6ZZ3
+    - Z4ZZ6ZZ3
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ6ZZ3
+  : -1
+  ? - ACZZ6ZZ4
+    - Z4ZZ6ZZ3
+  : -1
+  ? - CCZZ7ZZ3
+    - Z1ZZ7ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ3
+  : 10
+  ? - NCZZ3ZZ3
+    - Z2ZZ7ZZ3
+  : 10
+  ? - ACZZ7ZZ3
+    - Z2ZZ7ZZ3
+  : 10
+  ? - CCZZ7ZZ3
+    - Z2ZZ7ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z2ZZ7ZZ3
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ3
+  : 20
+  ? - NCZZ3ZZ3
+    - Z3ZZ7ZZ3
+  : 20
+  ? - ACZZ7ZZ3
+    - Z3ZZ7ZZ3
+  : 20
+  ? - CCZZ7ZZ3
+    - Z3ZZ7ZZ3
+  : 1
+  ? - NCZZ3ZZ4
+    - Z3ZZ7ZZ3
+  : -5
+  ? - ACZZ7ZZ4
+    - Z3ZZ7ZZ3
+  : -5
+  ? - NCZZ5ZZ4
+    - Z3ZZ7ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ3
+  : 1
+  ? - NCZZ3ZZ3
+    - Z4ZZ7ZZ3
+  : 1
+  ? - ACZZ7ZZ3
+    - Z4ZZ7ZZ3
+  : 1
+  ? - NCZZ3ZZ4
+    - Z4ZZ7ZZ3
+  : -1
+  ? - ACZZ7ZZ4
+    - Z4ZZ7ZZ3
+  : -1
+  ? - CCZZ8ZZ3
+    - Z1ZZ8ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ3
+  : 30
+  ? - NCZZ4ZZ3
+    - Z2ZZ8ZZ3
+  : 30
+  ? - ACZZ8ZZ3
+    - Z2ZZ8ZZ3
+  : 30
+  ? - CCZZ8ZZ3
+    - Z2ZZ8ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z2ZZ8ZZ3
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ3
+  : 40
+  ? - NCZZ4ZZ3
+    - Z3ZZ8ZZ3
+  : 40
+  ? - ACZZ8ZZ3
+    - Z3ZZ8ZZ3
+  : 40
+  ? - CCZZ8ZZ3
+    - Z3ZZ8ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z3ZZ8ZZ3
+  : -7
+  ? - ACZZ8ZZ4
+    - Z3ZZ8ZZ3
+  : -7
+  ? - NCZZ5ZZ4
+    - Z3ZZ8ZZ3
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ3
+  : 1
+  ? - NCZZ4ZZ3
+    - Z4ZZ8ZZ3
+  : 1
+  ? - ACZZ8ZZ3
+    - Z4ZZ8ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z4ZZ8ZZ3
+  : -1
+  ? - ACZZ8ZZ4
+    - Z4ZZ8ZZ3
+  : -1
+  ? - CCZZ9ZZ3
+    - Z1ZZ9ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ3
+  : 30
+  ? - NCZZ5ZZ3
+    - Z2ZZ9ZZ3
+  : 30
+  ? - ACZZ9ZZ3
+    - Z2ZZ9ZZ3
+  : 30
+  ? - CCZZ9ZZ3
+    - Z2ZZ9ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z2ZZ9ZZ3
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ3
+  : 40
+  ? - NCZZ5ZZ3
+    - Z3ZZ9ZZ3
+  : 40
+  ? - ACZZ9ZZ3
+    - Z3ZZ9ZZ3
+  : 40
+  ? - CCZZ9ZZ3
+    - Z3ZZ9ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z3ZZ9ZZ3
+  : -7
+  ? - ACZZ9ZZ4
+    - Z3ZZ9ZZ3
+  : -7
+  ? - NCZZ4ZZ4
+    - Z3ZZ9ZZ3
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ3
+  : 1
+  ? - NCZZ5ZZ3
+    - Z4ZZ9ZZ3
+  : 1
+  ? - ACZZ9ZZ3
+    - Z4ZZ9ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z4ZZ9ZZ3
+  : -1
+  ? - ACZZ9ZZ4
+    - Z4ZZ9ZZ3
+  : -1
+  ? - CCZ10ZZ3
+    - Z1Z10ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ3
+  : 10
+  ? - NCZZ4ZZ3
+    - Z2Z10ZZ3
+  : 10
+  ? - ACZ10ZZ3
+    - Z2Z10ZZ3
+  : 10
+  ? - CCZ10ZZ3
+    - Z2Z10ZZ3
+  : 1
+  ? - NCZZ6ZZ4
+    - Z2Z10ZZ3
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ3
+  : 20
+  ? - NCZZ4ZZ3
+    - Z3Z10ZZ3
+  : 20
+  ? - ACZ10ZZ3
+    - Z3Z10ZZ3
+  : 20
+  ? - CCZ10ZZ3
+    - Z3Z10ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z3Z10ZZ3
+  : -5
+  ? - ACZ10ZZ4
+    - Z3Z10ZZ3
+  : -5
+  ? - NCZZ6ZZ4
+    - Z3Z10ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ3
+  : 1
+  ? - NCZZ4ZZ3
+    - Z4Z10ZZ3
+  : 1
+  ? - ACZ10ZZ3
+    - Z4Z10ZZ3
+  : 1
+  ? - NCZZ4ZZ4
+    - Z4Z10ZZ3
+  : -1
+  ? - ACZ10ZZ4
+    - Z4Z10ZZ3
+  : -1
+  ? - CCZ11ZZ3
+    - Z1Z11ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ3
+  : 15
+  ? - NCZZ6ZZ3
+    - Z2Z11ZZ3
+  : 15
+  ? - ACZ11ZZ3
+    - Z2Z11ZZ3
+  : 15
+  ? - CCZ11ZZ3
+    - Z2Z11ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ3
+  : 25
+  ? - NCZZ6ZZ3
+    - Z3Z11ZZ3
+  : 25
+  ? - ACZ11ZZ3
+    - Z3Z11ZZ3
+  : 25
+  ? - CCZ11ZZ3
+    - Z3Z11ZZ3
+  : 1
+  ? - NCZZ6ZZ4
+    - Z3Z11ZZ3
+  : -7
+  ? - ACZ11ZZ4
+    - Z3Z11ZZ3
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ3
+  : 1
+  ? - NCZZ6ZZ3
+    - Z4Z11ZZ3
+  : 1
+  ? - ACZ11ZZ3
+    - Z4Z11ZZ3
+  : 1
+  ? - NCZZ6ZZ4
+    - Z4Z11ZZ3
+  : -1
+  ? - ACZ11ZZ4
+    - Z4Z11ZZ3
+  : -1
+  ? - CCZ12ZZ3
+    - Z1Z12ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ3
+  : 50
+  ? - NCZZ5ZZ3
+    - Z2Z12ZZ3
+  : 50
+  ? - ACZ12ZZ3
+    - Z2Z12ZZ3
+  : 50
+  ? - CCZ12ZZ3
+    - Z2Z12ZZ3
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ3
+  : 80
+  ? - NCZZ5ZZ3
+    - Z3Z12ZZ3
+  : 80
+  ? - ACZ12ZZ3
+    - Z3Z12ZZ3
+  : 80
+  ? - CCZ12ZZ3
+    - Z3Z12ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z3Z12ZZ3
+  : -15
+  ? - ACZ12ZZ4
+    - Z3Z12ZZ3
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ3
+  : 1
+  ? - NCZZ5ZZ3
+    - Z4Z12ZZ3
+  : 1
+  ? - ACZ12ZZ3
+    - Z4Z12ZZ3
+  : 1
+  ? - NCZZ5ZZ4
+    - Z4Z12ZZ3
+  : -1
+  ? - ACZ12ZZ4
+    - Z4Z12ZZ3
+  : -1
+  ? - CCZZ1ZZ4
+    - Z1ZZ1ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ4
+  : 10
+  ? - NCZZ1ZZ4
+    - Z2ZZ1ZZ4
+  : 10
+  ? - ACZZ1ZZ4
+    - Z2ZZ1ZZ4
+  : 10
+  ? - CCZZ1ZZ4
+    - Z2ZZ1ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z2ZZ1ZZ4
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ4
+  : 20
+  ? - NCZZ1ZZ4
+    - Z3ZZ1ZZ4
+  : 20
+  ? - ACZZ1ZZ4
+    - Z3ZZ1ZZ4
+  : 20
+  ? - CCZZ1ZZ4
+    - Z3ZZ1ZZ4
+  : 1
+  ? - NCZZ1ZZ5
+    - Z3ZZ1ZZ4
+  : -5
+  ? - ACZZ1ZZ5
+    - Z3ZZ1ZZ4
+  : -5
+  ? - NCZZ2ZZ5
+    - Z3ZZ1ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ4
+  : 1
+  ? - NCZZ1ZZ4
+    - Z4ZZ1ZZ4
+  : 1
+  ? - ACZZ1ZZ4
+    - Z4ZZ1ZZ4
+  : 1
+  ? - NCZZ1ZZ5
+    - Z4ZZ1ZZ4
+  : -1
+  ? - ACZZ1ZZ5
+    - Z4ZZ1ZZ4
+  : -1
+  ? - CCZZ2ZZ4
+    - Z1ZZ2ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ4
+  : 15
+  ? - NCZZ2ZZ4
+    - Z2ZZ2ZZ4
+  : 15
+  ? - ACZZ2ZZ4
+    - Z2ZZ2ZZ4
+  : 15
+  ? - CCZZ2ZZ4
+    - Z2ZZ2ZZ4
+  : 1
+  ? - NCZZ3ZZ5
+    - Z2ZZ2ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ4
+  : 25
+  ? - NCZZ2ZZ4
+    - Z3ZZ2ZZ4
+  : 25
+  ? - ACZZ2ZZ4
+    - Z3ZZ2ZZ4
+  : 25
+  ? - CCZZ2ZZ4
+    - Z3ZZ2ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z3ZZ2ZZ4
+  : -7
+  ? - ACZZ2ZZ5
+    - Z3ZZ2ZZ4
+  : -7
+  ? - NCZZ3ZZ5
+    - Z3ZZ2ZZ4
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ4
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ2ZZ4
+  : 1
+  ? - ACZZ2ZZ4
+    - Z4ZZ2ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ2ZZ4
+  : -1
+  ? - ACZZ2ZZ5
+    - Z4ZZ2ZZ4
+  : -1
+  ? - CCZZ3ZZ4
+    - Z1ZZ3ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ4
+  : 10
+  ? - NCZZ2ZZ4
+    - Z2ZZ3ZZ4
+  : 10
+  ? - ACZZ3ZZ4
+    - Z2ZZ3ZZ4
+  : 10
+  ? - CCZZ3ZZ4
+    - Z2ZZ3ZZ4
+  : 1
+  ? - NCZZ1ZZ5
+    - Z2ZZ3ZZ4
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ4
+  : 20
+  ? - NCZZ2ZZ4
+    - Z3ZZ3ZZ4
+  : 20
+  ? - ACZZ3ZZ4
+    - Z3ZZ3ZZ4
+  : 20
+  ? - CCZZ3ZZ4
+    - Z3ZZ3ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z3ZZ3ZZ4
+  : -5
+  ? - ACZZ3ZZ5
+    - Z3ZZ3ZZ4
+  : -5
+  ? - NCZZ1ZZ5
+    - Z3ZZ3ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ4
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ3ZZ4
+  : 1
+  ? - ACZZ3ZZ4
+    - Z4ZZ3ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ3ZZ4
+  : -1
+  ? - ACZZ3ZZ5
+    - Z4ZZ3ZZ4
+  : -1
+  ? - CCZZ4ZZ4
+    - Z1ZZ4ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ4
+  : 15
+  ? - NCZZ1ZZ4
+    - Z2ZZ4ZZ4
+  : 15
+  ? - ACZZ4ZZ4
+    - Z2ZZ4ZZ4
+  : 15
+  ? - CCZZ4ZZ4
+    - Z2ZZ4ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z2ZZ4ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ4
+  : 25
+  ? - NCZZ1ZZ4
+    - Z3ZZ4ZZ4
+  : 25
+  ? - ACZZ4ZZ4
+    - Z3ZZ4ZZ4
+  : 25
+  ? - CCZZ4ZZ4
+    - Z3ZZ4ZZ4
+  : 1
+  ? - NCZZ1ZZ5
+    - Z3ZZ4ZZ4
+  : -7
+  ? - ACZZ4ZZ5
+    - Z3ZZ4ZZ4
+  : -7
+  ? - NCZZ4ZZ5
+    - Z3ZZ4ZZ4
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ4
+  : 1
+  ? - NCZZ1ZZ4
+    - Z4ZZ4ZZ4
+  : 1
+  ? - ACZZ4ZZ4
+    - Z4ZZ4ZZ4
+  : 1
+  ? - NCZZ1ZZ5
+    - Z4ZZ4ZZ4
+  : -1
+  ? - ACZZ4ZZ5
+    - Z4ZZ4ZZ4
+  : -1
+  ? - CCZZ5ZZ4
+    - Z1ZZ5ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ4
+  : 15
+  ? - NCZZ2ZZ4
+    - Z2ZZ5ZZ4
+  : 15
+  ? - ACZZ5ZZ4
+    - Z2ZZ5ZZ4
+  : 15
+  ? - CCZZ5ZZ4
+    - Z2ZZ5ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z2ZZ5ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ4
+  : 25
+  ? - NCZZ2ZZ4
+    - Z3ZZ5ZZ4
+  : 25
+  ? - ACZZ5ZZ4
+    - Z3ZZ5ZZ4
+  : 25
+  ? - CCZZ5ZZ4
+    - Z3ZZ5ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z3ZZ5ZZ4
+  : -7
+  ? - ACZZ5ZZ5
+    - Z3ZZ5ZZ4
+  : -7
+  ? - NCZZ4ZZ5
+    - Z3ZZ5ZZ4
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ4
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ5ZZ4
+  : 1
+  ? - ACZZ5ZZ4
+    - Z4ZZ5ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ5ZZ4
+  : -1
+  ? - ACZZ5ZZ5
+    - Z4ZZ5ZZ4
+  : -1
+  ? - CCZZ6ZZ4
+    - Z1ZZ6ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ4
+  : 10
+  ? - NCZZ2ZZ4
+    - Z2ZZ6ZZ4
+  : 10
+  ? - ACZZ6ZZ4
+    - Z2ZZ6ZZ4
+  : 10
+  ? - CCZZ6ZZ4
+    - Z2ZZ6ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z2ZZ6ZZ4
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ4
+  : 20
+  ? - NCZZ2ZZ4
+    - Z3ZZ6ZZ4
+  : 20
+  ? - ACZZ6ZZ4
+    - Z3ZZ6ZZ4
+  : 20
+  ? - CCZZ6ZZ4
+    - Z3ZZ6ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z3ZZ6ZZ4
+  : -5
+  ? - ACZZ6ZZ5
+    - Z3ZZ6ZZ4
+  : -5
+  ? - NCZZ5ZZ5
+    - Z3ZZ6ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ4
+  : 1
+  ? - NCZZ2ZZ4
+    - Z4ZZ6ZZ4
+  : 1
+  ? - ACZZ6ZZ4
+    - Z4ZZ6ZZ4
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ6ZZ4
+  : -1
+  ? - ACZZ6ZZ5
+    - Z4ZZ6ZZ4
+  : -1
+  ? - CCZZ7ZZ4
+    - Z1ZZ7ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ4
+  : 10
+  ? - NCZZ3ZZ4
+    - Z2ZZ7ZZ4
+  : 10
+  ? - ACZZ7ZZ4
+    - Z2ZZ7ZZ4
+  : 10
+  ? - CCZZ7ZZ4
+    - Z2ZZ7ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z2ZZ7ZZ4
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ4
+  : 20
+  ? - NCZZ3ZZ4
+    - Z3ZZ7ZZ4
+  : 20
+  ? - ACZZ7ZZ4
+    - Z3ZZ7ZZ4
+  : 20
+  ? - CCZZ7ZZ4
+    - Z3ZZ7ZZ4
+  : 1
+  ? - NCZZ3ZZ5
+    - Z3ZZ7ZZ4
+  : -5
+  ? - ACZZ7ZZ5
+    - Z3ZZ7ZZ4
+  : -5
+  ? - NCZZ5ZZ5
+    - Z3ZZ7ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ4
+  : 1
+  ? - NCZZ3ZZ4
+    - Z4ZZ7ZZ4
+  : 1
+  ? - ACZZ7ZZ4
+    - Z4ZZ7ZZ4
+  : 1
+  ? - NCZZ3ZZ5
+    - Z4ZZ7ZZ4
+  : -1
+  ? - ACZZ7ZZ5
+    - Z4ZZ7ZZ4
+  : -1
+  ? - CCZZ8ZZ4
+    - Z1ZZ8ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ4
+  : 30
+  ? - NCZZ4ZZ4
+    - Z2ZZ8ZZ4
+  : 30
+  ? - ACZZ8ZZ4
+    - Z2ZZ8ZZ4
+  : 30
+  ? - CCZZ8ZZ4
+    - Z2ZZ8ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z2ZZ8ZZ4
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ4
+  : 40
+  ? - NCZZ4ZZ4
+    - Z3ZZ8ZZ4
+  : 40
+  ? - ACZZ8ZZ4
+    - Z3ZZ8ZZ4
+  : 40
+  ? - CCZZ8ZZ4
+    - Z3ZZ8ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z3ZZ8ZZ4
+  : -7
+  ? - ACZZ8ZZ5
+    - Z3ZZ8ZZ4
+  : -7
+  ? - NCZZ5ZZ5
+    - Z3ZZ8ZZ4
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ4
+  : 1
+  ? - NCZZ4ZZ4
+    - Z4ZZ8ZZ4
+  : 1
+  ? - ACZZ8ZZ4
+    - Z4ZZ8ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z4ZZ8ZZ4
+  : -1
+  ? - ACZZ8ZZ5
+    - Z4ZZ8ZZ4
+  : -1
+  ? - CCZZ9ZZ4
+    - Z1ZZ9ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ4
+  : 30
+  ? - NCZZ5ZZ4
+    - Z2ZZ9ZZ4
+  : 30
+  ? - ACZZ9ZZ4
+    - Z2ZZ9ZZ4
+  : 30
+  ? - CCZZ9ZZ4
+    - Z2ZZ9ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z2ZZ9ZZ4
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ4
+  : 40
+  ? - NCZZ5ZZ4
+    - Z3ZZ9ZZ4
+  : 40
+  ? - ACZZ9ZZ4
+    - Z3ZZ9ZZ4
+  : 40
+  ? - CCZZ9ZZ4
+    - Z3ZZ9ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z3ZZ9ZZ4
+  : -7
+  ? - ACZZ9ZZ5
+    - Z3ZZ9ZZ4
+  : -7
+  ? - NCZZ4ZZ5
+    - Z3ZZ9ZZ4
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ4
+  : 1
+  ? - NCZZ5ZZ4
+    - Z4ZZ9ZZ4
+  : 1
+  ? - ACZZ9ZZ4
+    - Z4ZZ9ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z4ZZ9ZZ4
+  : -1
+  ? - ACZZ9ZZ5
+    - Z4ZZ9ZZ4
+  : -1
+  ? - CCZ10ZZ4
+    - Z1Z10ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ4
+  : 10
+  ? - NCZZ4ZZ4
+    - Z2Z10ZZ4
+  : 10
+  ? - ACZ10ZZ4
+    - Z2Z10ZZ4
+  : 10
+  ? - CCZ10ZZ4
+    - Z2Z10ZZ4
+  : 1
+  ? - NCZZ6ZZ5
+    - Z2Z10ZZ4
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ4
+  : 20
+  ? - NCZZ4ZZ4
+    - Z3Z10ZZ4
+  : 20
+  ? - ACZ10ZZ4
+    - Z3Z10ZZ4
+  : 20
+  ? - CCZ10ZZ4
+    - Z3Z10ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z3Z10ZZ4
+  : -5
+  ? - ACZ10ZZ5
+    - Z3Z10ZZ4
+  : -5
+  ? - NCZZ6ZZ5
+    - Z3Z10ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ4
+  : 1
+  ? - NCZZ4ZZ4
+    - Z4Z10ZZ4
+  : 1
+  ? - ACZ10ZZ4
+    - Z4Z10ZZ4
+  : 1
+  ? - NCZZ4ZZ5
+    - Z4Z10ZZ4
+  : -1
+  ? - ACZ10ZZ5
+    - Z4Z10ZZ4
+  : -1
+  ? - CCZ11ZZ4
+    - Z1Z11ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ4
+  : 15
+  ? - NCZZ6ZZ4
+    - Z2Z11ZZ4
+  : 15
+  ? - ACZ11ZZ4
+    - Z2Z11ZZ4
+  : 15
+  ? - CCZ11ZZ4
+    - Z2Z11ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ4
+  : 25
+  ? - NCZZ6ZZ4
+    - Z3Z11ZZ4
+  : 25
+  ? - ACZ11ZZ4
+    - Z3Z11ZZ4
+  : 25
+  ? - CCZ11ZZ4
+    - Z3Z11ZZ4
+  : 1
+  ? - NCZZ6ZZ5
+    - Z3Z11ZZ4
+  : -7
+  ? - ACZ11ZZ5
+    - Z3Z11ZZ4
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ4
+  : 1
+  ? - NCZZ6ZZ4
+    - Z4Z11ZZ4
+  : 1
+  ? - ACZ11ZZ4
+    - Z4Z11ZZ4
+  : 1
+  ? - NCZZ6ZZ5
+    - Z4Z11ZZ4
+  : -1
+  ? - ACZ11ZZ5
+    - Z4Z11ZZ4
+  : -1
+  ? - CCZ12ZZ4
+    - Z1Z12ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ4
+  : 50
+  ? - NCZZ5ZZ4
+    - Z2Z12ZZ4
+  : 50
+  ? - ACZ12ZZ4
+    - Z2Z12ZZ4
+  : 50
+  ? - CCZ12ZZ4
+    - Z2Z12ZZ4
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ4
+  : 80
+  ? - NCZZ5ZZ4
+    - Z3Z12ZZ4
+  : 80
+  ? - ACZ12ZZ4
+    - Z3Z12ZZ4
+  : 80
+  ? - CCZ12ZZ4
+    - Z3Z12ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z3Z12ZZ4
+  : -15
+  ? - ACZ12ZZ5
+    - Z3Z12ZZ4
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ4
+  : 1
+  ? - NCZZ5ZZ4
+    - Z4Z12ZZ4
+  : 1
+  ? - ACZ12ZZ4
+    - Z4Z12ZZ4
+  : 1
+  ? - NCZZ5ZZ5
+    - Z4Z12ZZ4
+  : -1
+  ? - ACZ12ZZ5
+    - Z4Z12ZZ4
+  : -1
+  ? - CCZZ1ZZ5
+    - Z1ZZ1ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ5
+  : 10
+  ? - NCZZ1ZZ5
+    - Z2ZZ1ZZ5
+  : 10
+  ? - ACZZ1ZZ5
+    - Z2ZZ1ZZ5
+  : 10
+  ? - CCZZ1ZZ5
+    - Z2ZZ1ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z2ZZ1ZZ5
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ5
+  : 20
+  ? - NCZZ1ZZ5
+    - Z3ZZ1ZZ5
+  : 20
+  ? - ACZZ1ZZ5
+    - Z3ZZ1ZZ5
+  : 20
+  ? - CCZZ1ZZ5
+    - Z3ZZ1ZZ5
+  : 1
+  ? - NCZZ1ZZ6
+    - Z3ZZ1ZZ5
+  : -5
+  ? - ACZZ1ZZ6
+    - Z3ZZ1ZZ5
+  : -5
+  ? - NCZZ2ZZ6
+    - Z3ZZ1ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ5
+  : 1
+  ? - NCZZ1ZZ5
+    - Z4ZZ1ZZ5
+  : 1
+  ? - ACZZ1ZZ5
+    - Z4ZZ1ZZ5
+  : 1
+  ? - NCZZ1ZZ6
+    - Z4ZZ1ZZ5
+  : -1
+  ? - ACZZ1ZZ6
+    - Z4ZZ1ZZ5
+  : -1
+  ? - CCZZ2ZZ5
+    - Z1ZZ2ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ5
+  : 15
+  ? - NCZZ2ZZ5
+    - Z2ZZ2ZZ5
+  : 15
+  ? - ACZZ2ZZ5
+    - Z2ZZ2ZZ5
+  : 15
+  ? - CCZZ2ZZ5
+    - Z2ZZ2ZZ5
+  : 1
+  ? - NCZZ3ZZ6
+    - Z2ZZ2ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ5
+  : 25
   ? - NCZZ2ZZ5
     - Z3ZZ2ZZ5
   : 25
   ? - ACZZ2ZZ5
-    - Z4ZZ2ZZ4
-  : -1
-  ? - ACZZ5ZZ2
-    - Z3ZZ5ZZ1
+    - Z3ZZ2ZZ5
+  : 25
+  ? - CCZZ2ZZ5
+    - Z3ZZ2ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z3ZZ2ZZ5
   : -7
+  ? - ACZZ2ZZ6
+    - Z3ZZ2ZZ5
+  : -7
+  ? - NCZZ3ZZ6
+    - Z3ZZ2ZZ5
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ5
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ2ZZ5
+  : 1
+  ? - ACZZ2ZZ5
+    - Z4ZZ2ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ2ZZ5
+  : -1
+  ? - ACZZ2ZZ6
+    - Z4ZZ2ZZ5
+  : -1
+  ? - CCZZ3ZZ5
+    - Z1ZZ3ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ5
+  : 10
+  ? - NCZZ2ZZ5
+    - Z2ZZ3ZZ5
+  : 10
+  ? - ACZZ3ZZ5
+    - Z2ZZ3ZZ5
+  : 10
+  ? - CCZZ3ZZ5
+    - Z2ZZ3ZZ5
+  : 1
+  ? - NCZZ1ZZ6
+    - Z2ZZ3ZZ5
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ5
+  : 20
+  ? - NCZZ2ZZ5
+    - Z3ZZ3ZZ5
+  : 20
+  ? - ACZZ3ZZ5
+    - Z3ZZ3ZZ5
+  : 20
+  ? - CCZZ3ZZ5
+    - Z3ZZ3ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z3ZZ3ZZ5
+  : -5
+  ? - ACZZ3ZZ6
+    - Z3ZZ3ZZ5
+  : -5
+  ? - NCZZ1ZZ6
+    - Z3ZZ3ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ5
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ3ZZ5
+  : 1
+  ? - ACZZ3ZZ5
+    - Z4ZZ3ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ3ZZ5
+  : -1
+  ? - ACZZ3ZZ6
+    - Z4ZZ3ZZ5
+  : -1
+  ? - CCZZ4ZZ5
+    - Z1ZZ4ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ5
+  : 15
+  ? - NCZZ1ZZ5
+    - Z2ZZ4ZZ5
+  : 15
+  ? - ACZZ4ZZ5
+    - Z2ZZ4ZZ5
+  : 15
+  ? - CCZZ4ZZ5
+    - Z2ZZ4ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z2ZZ4ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ5
+  : 25
+  ? - NCZZ1ZZ5
+    - Z3ZZ4ZZ5
+  : 25
+  ? - ACZZ4ZZ5
+    - Z3ZZ4ZZ5
+  : 25
+  ? - CCZZ4ZZ5
+    - Z3ZZ4ZZ5
+  : 1
+  ? - NCZZ1ZZ6
+    - Z3ZZ4ZZ5
+  : -7
+  ? - ACZZ4ZZ6
+    - Z3ZZ4ZZ5
+  : -7
+  ? - NCZZ4ZZ6
+    - Z3ZZ4ZZ5
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ5
+  : 1
+  ? - NCZZ1ZZ5
+    - Z4ZZ4ZZ5
+  : 1
+  ? - ACZZ4ZZ5
+    - Z4ZZ4ZZ5
+  : 1
+  ? - NCZZ1ZZ6
+    - Z4ZZ4ZZ5
+  : -1
+  ? - ACZZ4ZZ6
+    - Z4ZZ4ZZ5
+  : -1
+  ? - CCZZ5ZZ5
+    - Z1ZZ5ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ5
+  : 15
+  ? - NCZZ2ZZ5
+    - Z2ZZ5ZZ5
+  : 15
+  ? - ACZZ5ZZ5
+    - Z2ZZ5ZZ5
+  : 15
+  ? - CCZZ5ZZ5
+    - Z2ZZ5ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z2ZZ5ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ5
+  : 25
+  ? - NCZZ2ZZ5
+    - Z3ZZ5ZZ5
+  : 25
+  ? - ACZZ5ZZ5
+    - Z3ZZ5ZZ5
+  : 25
+  ? - CCZZ5ZZ5
+    - Z3ZZ5ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z3ZZ5ZZ5
+  : -7
+  ? - ACZZ5ZZ6
+    - Z3ZZ5ZZ5
+  : -7
+  ? - NCZZ4ZZ6
+    - Z3ZZ5ZZ5
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ5
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ5ZZ5
+  : 1
+  ? - ACZZ5ZZ5
+    - Z4ZZ5ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ5ZZ5
+  : -1
+  ? - ACZZ5ZZ6
+    - Z4ZZ5ZZ5
+  : -1
+  ? - CCZZ6ZZ5
+    - Z1ZZ6ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ5
+  : 10
+  ? - NCZZ2ZZ5
+    - Z2ZZ6ZZ5
+  : 10
+  ? - ACZZ6ZZ5
+    - Z2ZZ6ZZ5
+  : 10
+  ? - CCZZ6ZZ5
+    - Z2ZZ6ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z2ZZ6ZZ5
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ5
+  : 20
+  ? - NCZZ2ZZ5
+    - Z3ZZ6ZZ5
+  : 20
+  ? - ACZZ6ZZ5
+    - Z3ZZ6ZZ5
+  : 20
+  ? - CCZZ6ZZ5
+    - Z3ZZ6ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z3ZZ6ZZ5
+  : -5
+  ? - ACZZ6ZZ6
+    - Z3ZZ6ZZ5
+  : -5
+  ? - NCZZ5ZZ6
+    - Z3ZZ6ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ5
+  : 1
+  ? - NCZZ2ZZ5
+    - Z4ZZ6ZZ5
+  : 1
+  ? - ACZZ6ZZ5
+    - Z4ZZ6ZZ5
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ6ZZ5
+  : -1
+  ? - ACZZ6ZZ6
+    - Z4ZZ6ZZ5
+  : -1
+  ? - CCZZ7ZZ5
+    - Z1ZZ7ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ5
+  : 10
+  ? - NCZZ3ZZ5
+    - Z2ZZ7ZZ5
+  : 10
+  ? - ACZZ7ZZ5
+    - Z2ZZ7ZZ5
+  : 10
+  ? - CCZZ7ZZ5
+    - Z2ZZ7ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z2ZZ7ZZ5
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ5
+  : 20
+  ? - NCZZ3ZZ5
+    - Z3ZZ7ZZ5
+  : 20
+  ? - ACZZ7ZZ5
+    - Z3ZZ7ZZ5
+  : 20
+  ? - CCZZ7ZZ5
+    - Z3ZZ7ZZ5
+  : 1
+  ? - NCZZ3ZZ6
+    - Z3ZZ7ZZ5
+  : -5
+  ? - ACZZ7ZZ6
+    - Z3ZZ7ZZ5
+  : -5
+  ? - NCZZ5ZZ6
+    - Z3ZZ7ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ5
+  : 1
+  ? - NCZZ3ZZ5
+    - Z4ZZ7ZZ5
+  : 1
+  ? - ACZZ7ZZ5
+    - Z4ZZ7ZZ5
+  : 1
+  ? - NCZZ3ZZ6
+    - Z4ZZ7ZZ5
+  : -1
+  ? - ACZZ7ZZ6
+    - Z4ZZ7ZZ5
+  : -1
+  ? - CCZZ8ZZ5
+    - Z1ZZ8ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ5
+  : 30
+  ? - NCZZ4ZZ5
+    - Z2ZZ8ZZ5
+  : 30
+  ? - ACZZ8ZZ5
+    - Z2ZZ8ZZ5
+  : 30
+  ? - CCZZ8ZZ5
+    - Z2ZZ8ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z2ZZ8ZZ5
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ5
+  : 40
+  ? - NCZZ4ZZ5
+    - Z3ZZ8ZZ5
+  : 40
+  ? - ACZZ8ZZ5
+    - Z3ZZ8ZZ5
+  : 40
+  ? - CCZZ8ZZ5
+    - Z3ZZ8ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z3ZZ8ZZ5
+  : -7
+  ? - ACZZ8ZZ6
+    - Z3ZZ8ZZ5
+  : -7
+  ? - NCZZ5ZZ6
+    - Z3ZZ8ZZ5
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ5
+  : 1
+  ? - NCZZ4ZZ5
+    - Z4ZZ8ZZ5
+  : 1
+  ? - ACZZ8ZZ5
+    - Z4ZZ8ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z4ZZ8ZZ5
+  : -1
+  ? - ACZZ8ZZ6
+    - Z4ZZ8ZZ5
+  : -1
+  ? - CCZZ9ZZ5
+    - Z1ZZ9ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ5
+  : 30
+  ? - NCZZ5ZZ5
+    - Z2ZZ9ZZ5
+  : 30
+  ? - ACZZ9ZZ5
+    - Z2ZZ9ZZ5
+  : 30
+  ? - CCZZ9ZZ5
+    - Z2ZZ9ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z2ZZ9ZZ5
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ5
+  : 40
+  ? - NCZZ5ZZ5
+    - Z3ZZ9ZZ5
+  : 40
+  ? - ACZZ9ZZ5
+    - Z3ZZ9ZZ5
+  : 40
+  ? - CCZZ9ZZ5
+    - Z3ZZ9ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z3ZZ9ZZ5
+  : -7
+  ? - ACZZ9ZZ6
+    - Z3ZZ9ZZ5
+  : -7
+  ? - NCZZ4ZZ6
+    - Z3ZZ9ZZ5
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ5
+  : 1
+  ? - NCZZ5ZZ5
+    - Z4ZZ9ZZ5
+  : 1
+  ? - ACZZ9ZZ5
+    - Z4ZZ9ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z4ZZ9ZZ5
+  : -1
+  ? - ACZZ9ZZ6
+    - Z4ZZ9ZZ5
+  : -1
+  ? - CCZ10ZZ5
+    - Z1Z10ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ5
+  : 10
+  ? - NCZZ4ZZ5
+    - Z2Z10ZZ5
+  : 10
+  ? - ACZ10ZZ5
+    - Z2Z10ZZ5
+  : 10
+  ? - CCZ10ZZ5
+    - Z2Z10ZZ5
+  : 1
+  ? - NCZZ6ZZ6
+    - Z2Z10ZZ5
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ5
+  : 20
+  ? - NCZZ4ZZ5
+    - Z3Z10ZZ5
+  : 20
+  ? - ACZ10ZZ5
+    - Z3Z10ZZ5
+  : 20
+  ? - CCZ10ZZ5
+    - Z3Z10ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z3Z10ZZ5
+  : -5
+  ? - ACZ10ZZ6
+    - Z3Z10ZZ5
+  : -5
+  ? - NCZZ6ZZ6
+    - Z3Z10ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ5
+  : 1
+  ? - NCZZ4ZZ5
+    - Z4Z10ZZ5
+  : 1
+  ? - ACZ10ZZ5
+    - Z4Z10ZZ5
+  : 1
+  ? - NCZZ4ZZ6
+    - Z4Z10ZZ5
+  : -1
+  ? - ACZ10ZZ6
+    - Z4Z10ZZ5
+  : -1
+  ? - CCZ11ZZ5
+    - Z1Z11ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ5
+  : 15
+  ? - NCZZ6ZZ5
+    - Z2Z11ZZ5
+  : 15
+  ? - ACZ11ZZ5
+    - Z2Z11ZZ5
+  : 15
+  ? - CCZ11ZZ5
+    - Z2Z11ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ5
+  : 25
+  ? - NCZZ6ZZ5
+    - Z3Z11ZZ5
+  : 25
+  ? - ACZ11ZZ5
+    - Z3Z11ZZ5
+  : 25
+  ? - CCZ11ZZ5
+    - Z3Z11ZZ5
+  : 1
+  ? - NCZZ6ZZ6
+    - Z3Z11ZZ5
+  : -7
+  ? - ACZ11ZZ6
+    - Z3Z11ZZ5
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ5
+  : 1
+  ? - NCZZ6ZZ5
+    - Z4Z11ZZ5
+  : 1
+  ? - ACZ11ZZ5
+    - Z4Z11ZZ5
+  : 1
+  ? - NCZZ6ZZ6
+    - Z4Z11ZZ5
+  : -1
+  ? - ACZ11ZZ6
+    - Z4Z11ZZ5
+  : -1
+  ? - CCZ12ZZ5
+    - Z1Z12ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ5
+  : 50
+  ? - NCZZ5ZZ5
+    - Z2Z12ZZ5
+  : 50
+  ? - ACZ12ZZ5
+    - Z2Z12ZZ5
+  : 50
+  ? - CCZ12ZZ5
+    - Z2Z12ZZ5
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ5
+  : 80
+  ? - NCZZ5ZZ5
+    - Z3Z12ZZ5
+  : 80
+  ? - ACZ12ZZ5
+    - Z3Z12ZZ5
+  : 80
+  ? - CCZ12ZZ5
+    - Z3Z12ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z3Z12ZZ5
+  : -15
+  ? - ACZ12ZZ6
+    - Z3Z12ZZ5
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ5
+  : 1
+  ? - NCZZ5ZZ5
+    - Z4Z12ZZ5
+  : 1
+  ? - ACZ12ZZ5
+    - Z4Z12ZZ5
+  : 1
+  ? - NCZZ5ZZ6
+    - Z4Z12ZZ5
+  : -1
+  ? - ACZ12ZZ6
+    - Z4Z12ZZ5
+  : -1
+  ? - CCZZ1ZZ6
+    - Z1ZZ1ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ6
+  : 10
+  ? - NCZZ1ZZ6
+    - Z2ZZ1ZZ6
+  : 10
+  ? - ACZZ1ZZ6
+    - Z2ZZ1ZZ6
+  : 10
+  ? - CCZZ1ZZ6
+    - Z2ZZ1ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z2ZZ1ZZ6
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ6
+  : 20
+  ? - NCZZ1ZZ6
+    - Z3ZZ1ZZ6
+  : 20
+  ? - ACZZ1ZZ6
+    - Z3ZZ1ZZ6
+  : 20
+  ? - CCZZ1ZZ6
+    - Z3ZZ1ZZ6
+  : 1
+  ? - NCZZ1ZZ7
+    - Z3ZZ1ZZ6
+  : -5
+  ? - ACZZ1ZZ7
+    - Z3ZZ1ZZ6
+  : -5
+  ? - NCZZ2ZZ7
+    - Z3ZZ1ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ6
+  : 1
+  ? - NCZZ1ZZ6
+    - Z4ZZ1ZZ6
+  : 1
+  ? - ACZZ1ZZ6
+    - Z4ZZ1ZZ6
+  : 1
+  ? - NCZZ1ZZ7
+    - Z4ZZ1ZZ6
+  : -1
+  ? - ACZZ1ZZ7
+    - Z4ZZ1ZZ6
+  : -1
+  ? - CCZZ2ZZ6
+    - Z1ZZ2ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ6
+  : 15
+  ? - NCZZ2ZZ6
+    - Z2ZZ2ZZ6
+  : 15
+  ? - ACZZ2ZZ6
+    - Z2ZZ2ZZ6
+  : 15
+  ? - CCZZ2ZZ6
+    - Z2ZZ2ZZ6
+  : 1
+  ? - NCZZ3ZZ7
+    - Z2ZZ2ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ6
+  : 25
+  ? - NCZZ2ZZ6
+    - Z3ZZ2ZZ6
+  : 25
+  ? - ACZZ2ZZ6
+    - Z3ZZ2ZZ6
+  : 25
+  ? - CCZZ2ZZ6
+    - Z3ZZ2ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z3ZZ2ZZ6
+  : -7
+  ? - ACZZ2ZZ7
+    - Z3ZZ2ZZ6
+  : -7
+  ? - NCZZ3ZZ7
+    - Z3ZZ2ZZ6
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ6
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ2ZZ6
+  : 1
+  ? - ACZZ2ZZ6
+    - Z4ZZ2ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ2ZZ6
+  : -1
+  ? - ACZZ2ZZ7
+    - Z4ZZ2ZZ6
+  : -1
+  ? - CCZZ3ZZ6
+    - Z1ZZ3ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ6
+  : 10
+  ? - NCZZ2ZZ6
+    - Z2ZZ3ZZ6
+  : 10
+  ? - ACZZ3ZZ6
+    - Z2ZZ3ZZ6
+  : 10
+  ? - CCZZ3ZZ6
+    - Z2ZZ3ZZ6
+  : 1
+  ? - NCZZ1ZZ7
+    - Z2ZZ3ZZ6
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ6
+  : 20
+  ? - NCZZ2ZZ6
+    - Z3ZZ3ZZ6
+  : 20
+  ? - ACZZ3ZZ6
+    - Z3ZZ3ZZ6
+  : 20
+  ? - CCZZ3ZZ6
+    - Z3ZZ3ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z3ZZ3ZZ6
+  : -5
+  ? - ACZZ3ZZ7
+    - Z3ZZ3ZZ6
+  : -5
+  ? - NCZZ1ZZ7
+    - Z3ZZ3ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ6
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ3ZZ6
+  : 1
+  ? - ACZZ3ZZ6
+    - Z4ZZ3ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ3ZZ6
+  : -1
+  ? - ACZZ3ZZ7
+    - Z4ZZ3ZZ6
+  : -1
+  ? - CCZZ4ZZ6
+    - Z1ZZ4ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ6
+  : 15
+  ? - NCZZ1ZZ6
+    - Z2ZZ4ZZ6
+  : 15
+  ? - ACZZ4ZZ6
+    - Z2ZZ4ZZ6
+  : 15
+  ? - CCZZ4ZZ6
+    - Z2ZZ4ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z2ZZ4ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ6
+  : 25
+  ? - NCZZ1ZZ6
+    - Z3ZZ4ZZ6
+  : 25
+  ? - ACZZ4ZZ6
+    - Z3ZZ4ZZ6
+  : 25
+  ? - CCZZ4ZZ6
+    - Z3ZZ4ZZ6
+  : 1
+  ? - NCZZ1ZZ7
+    - Z3ZZ4ZZ6
+  : -7
+  ? - ACZZ4ZZ7
+    - Z3ZZ4ZZ6
+  : -7
+  ? - NCZZ4ZZ7
+    - Z3ZZ4ZZ6
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ6
+  : 1
+  ? - NCZZ1ZZ6
+    - Z4ZZ4ZZ6
+  : 1
+  ? - ACZZ4ZZ6
+    - Z4ZZ4ZZ6
+  : 1
+  ? - NCZZ1ZZ7
+    - Z4ZZ4ZZ6
+  : -1
+  ? - ACZZ4ZZ7
+    - Z4ZZ4ZZ6
+  : -1
+  ? - CCZZ5ZZ6
+    - Z1ZZ5ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ6
+  : 15
+  ? - NCZZ2ZZ6
+    - Z2ZZ5ZZ6
+  : 15
+  ? - ACZZ5ZZ6
+    - Z2ZZ5ZZ6
+  : 15
+  ? - CCZZ5ZZ6
+    - Z2ZZ5ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z2ZZ5ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ6
+  : 25
+  ? - NCZZ2ZZ6
+    - Z3ZZ5ZZ6
+  : 25
+  ? - ACZZ5ZZ6
+    - Z3ZZ5ZZ6
+  : 25
+  ? - CCZZ5ZZ6
+    - Z3ZZ5ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z3ZZ5ZZ6
+  : -7
+  ? - ACZZ5ZZ7
+    - Z3ZZ5ZZ6
+  : -7
+  ? - NCZZ4ZZ7
+    - Z3ZZ5ZZ6
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ6
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ5ZZ6
+  : 1
+  ? - ACZZ5ZZ6
+    - Z4ZZ5ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ5ZZ6
+  : -1
+  ? - ACZZ5ZZ7
+    - Z4ZZ5ZZ6
+  : -1
+  ? - CCZZ6ZZ6
+    - Z1ZZ6ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ6
+  : 10
+  ? - NCZZ2ZZ6
+    - Z2ZZ6ZZ6
+  : 10
+  ? - ACZZ6ZZ6
+    - Z2ZZ6ZZ6
+  : 10
+  ? - CCZZ6ZZ6
+    - Z2ZZ6ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z2ZZ6ZZ6
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ6
+  : 20
+  ? - NCZZ2ZZ6
+    - Z3ZZ6ZZ6
+  : 20
+  ? - ACZZ6ZZ6
+    - Z3ZZ6ZZ6
+  : 20
+  ? - CCZZ6ZZ6
+    - Z3ZZ6ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z3ZZ6ZZ6
+  : -5
+  ? - ACZZ6ZZ7
+    - Z3ZZ6ZZ6
+  : -5
+  ? - NCZZ5ZZ7
+    - Z3ZZ6ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ6
+  : 1
+  ? - NCZZ2ZZ6
+    - Z4ZZ6ZZ6
+  : 1
+  ? - ACZZ6ZZ6
+    - Z4ZZ6ZZ6
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ6ZZ6
+  : -1
+  ? - ACZZ6ZZ7
+    - Z4ZZ6ZZ6
+  : -1
+  ? - CCZZ7ZZ6
+    - Z1ZZ7ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ7ZZ6
+  : 10
+  ? - NCZZ3ZZ6
+    - Z2ZZ7ZZ6
+  : 10
+  ? - ACZZ7ZZ6
+    - Z2ZZ7ZZ6
+  : 10
+  ? - CCZZ7ZZ6
+    - Z2ZZ7ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z2ZZ7ZZ6
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ6
+  : 20
+  ? - NCZZ3ZZ6
+    - Z3ZZ7ZZ6
+  : 20
+  ? - ACZZ7ZZ6
+    - Z3ZZ7ZZ6
+  : 20
+  ? - CCZZ7ZZ6
+    - Z3ZZ7ZZ6
+  : 1
+  ? - NCZZ3ZZ7
+    - Z3ZZ7ZZ6
+  : -5
+  ? - ACZZ7ZZ7
+    - Z3ZZ7ZZ6
+  : -5
+  ? - NCZZ5ZZ7
+    - Z3ZZ7ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ6
+  : 1
+  ? - NCZZ3ZZ6
+    - Z4ZZ7ZZ6
+  : 1
+  ? - ACZZ7ZZ6
+    - Z4ZZ7ZZ6
+  : 1
+  ? - NCZZ3ZZ7
+    - Z4ZZ7ZZ6
+  : -1
+  ? - ACZZ7ZZ7
+    - Z4ZZ7ZZ6
+  : -1
+  ? - CCZZ8ZZ6
+    - Z1ZZ8ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ6
+  : 30
+  ? - NCZZ4ZZ6
+    - Z2ZZ8ZZ6
+  : 30
+  ? - ACZZ8ZZ6
+    - Z2ZZ8ZZ6
+  : 30
+  ? - CCZZ8ZZ6
+    - Z2ZZ8ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z2ZZ8ZZ6
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ6
+  : 40
+  ? - NCZZ4ZZ6
+    - Z3ZZ8ZZ6
+  : 40
+  ? - ACZZ8ZZ6
+    - Z3ZZ8ZZ6
+  : 40
+  ? - CCZZ8ZZ6
+    - Z3ZZ8ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z3ZZ8ZZ6
+  : -7
+  ? - ACZZ8ZZ7
+    - Z3ZZ8ZZ6
+  : -7
+  ? - NCZZ5ZZ7
+    - Z3ZZ8ZZ6
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ6
+  : 1
+  ? - NCZZ4ZZ6
+    - Z4ZZ8ZZ6
+  : 1
+  ? - ACZZ8ZZ6
+    - Z4ZZ8ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z4ZZ8ZZ6
+  : -1
+  ? - ACZZ8ZZ7
+    - Z4ZZ8ZZ6
+  : -1
+  ? - CCZZ9ZZ6
+    - Z1ZZ9ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ6
+  : 30
+  ? - NCZZ5ZZ6
+    - Z2ZZ9ZZ6
+  : 30
+  ? - ACZZ9ZZ6
+    - Z2ZZ9ZZ6
+  : 30
+  ? - CCZZ9ZZ6
+    - Z2ZZ9ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z2ZZ9ZZ6
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ6
+  : 40
+  ? - NCZZ5ZZ6
+    - Z3ZZ9ZZ6
+  : 40
+  ? - ACZZ9ZZ6
+    - Z3ZZ9ZZ6
+  : 40
+  ? - CCZZ9ZZ6
+    - Z3ZZ9ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z3ZZ9ZZ6
+  : -7
+  ? - ACZZ9ZZ7
+    - Z3ZZ9ZZ6
+  : -7
+  ? - NCZZ4ZZ7
+    - Z3ZZ9ZZ6
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ6
+  : 1
+  ? - NCZZ5ZZ6
+    - Z4ZZ9ZZ6
+  : 1
+  ? - ACZZ9ZZ6
+    - Z4ZZ9ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z4ZZ9ZZ6
+  : -1
+  ? - ACZZ9ZZ7
+    - Z4ZZ9ZZ6
+  : -1
+  ? - CCZ10ZZ6
+    - Z1Z10ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ6
+  : 10
+  ? - NCZZ4ZZ6
+    - Z2Z10ZZ6
+  : 10
+  ? - ACZ10ZZ6
+    - Z2Z10ZZ6
+  : 10
+  ? - CCZ10ZZ6
+    - Z2Z10ZZ6
+  : 1
+  ? - NCZZ6ZZ7
+    - Z2Z10ZZ6
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ6
+  : 20
+  ? - NCZZ4ZZ6
+    - Z3Z10ZZ6
+  : 20
   ? - ACZ10ZZ6
     - Z3Z10ZZ6
   : 20
-  ? - NCZZ2ZZ5
-    - Z4ZZ3ZZ4
+  ? - CCZ10ZZ6
+    - Z3Z10ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z3Z10ZZ6
+  : -5
+  ? - ACZ10ZZ7
+    - Z3Z10ZZ6
+  : -5
+  ? - NCZZ6ZZ7
+    - Z3Z10ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ6
+  : 1
+  ? - NCZZ4ZZ6
+    - Z4Z10ZZ6
+  : 1
+  ? - ACZ10ZZ6
+    - Z4Z10ZZ6
+  : 1
+  ? - NCZZ4ZZ7
+    - Z4Z10ZZ6
   : -1
-  ? - NCZZ3ZZ3
-    - Z4ZZ7ZZ2
+  ? - ACZ10ZZ7
+    - Z4Z10ZZ6
+  : -1
+  ? - CCZ11ZZ6
+    - Z1Z11ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ6
+  : 15
+  ? - NCZZ6ZZ6
+    - Z2Z11ZZ6
+  : 15
+  ? - ACZ11ZZ6
+    - Z2Z11ZZ6
+  : 15
+  ? - CCZ11ZZ6
+    - Z2Z11ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ6
+  : 25
+  ? - NCZZ6ZZ6
+    - Z3Z11ZZ6
+  : 25
+  ? - ACZ11ZZ6
+    - Z3Z11ZZ6
+  : 25
+  ? - CCZ11ZZ6
+    - Z3Z11ZZ6
+  : 1
+  ? - NCZZ6ZZ7
+    - Z3Z11ZZ6
+  : -7
+  ? - ACZ11ZZ7
+    - Z3Z11ZZ6
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ6
+  : 1
+  ? - NCZZ6ZZ6
+    - Z4Z11ZZ6
+  : 1
+  ? - ACZ11ZZ6
+    - Z4Z11ZZ6
+  : 1
+  ? - NCZZ6ZZ7
+    - Z4Z11ZZ6
+  : -1
+  ? - ACZ11ZZ7
+    - Z4Z11ZZ6
+  : -1
+  ? - CCZ12ZZ6
+    - Z1Z12ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ6
+  : 50
+  ? - NCZZ5ZZ6
+    - Z2Z12ZZ6
+  : 50
+  ? - ACZ12ZZ6
+    - Z2Z12ZZ6
+  : 50
+  ? - CCZ12ZZ6
+    - Z2Z12ZZ6
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ6
+  : 80
+  ? - NCZZ5ZZ6
+    - Z3Z12ZZ6
+  : 80
+  ? - ACZ12ZZ6
+    - Z3Z12ZZ6
+  : 80
+  ? - CCZ12ZZ6
+    - Z3Z12ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z3Z12ZZ6
+  : -15
+  ? - ACZ12ZZ7
+    - Z3Z12ZZ6
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ6
+  : 1
+  ? - NCZZ5ZZ6
+    - Z4Z12ZZ6
+  : 1
+  ? - ACZ12ZZ6
+    - Z4Z12ZZ6
+  : 1
+  ? - NCZZ5ZZ7
+    - Z4Z12ZZ6
+  : -1
+  ? - ACZ12ZZ7
+    - Z4Z12ZZ6
+  : -1
+  ? - CCZZ1ZZ7
+    - Z1ZZ1ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ7
+  : 10
+  ? - NCZZ1ZZ7
+    - Z2ZZ1ZZ7
+  : 10
+  ? - ACZZ1ZZ7
+    - Z2ZZ1ZZ7
+  : 10
+  ? - CCZZ1ZZ7
+    - Z2ZZ1ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z2ZZ1ZZ7
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ7
+  : 20
+  ? - NCZZ1ZZ7
+    - Z3ZZ1ZZ7
+  : 20
+  ? - ACZZ1ZZ7
+    - Z3ZZ1ZZ7
+  : 20
+  ? - CCZZ1ZZ7
+    - Z3ZZ1ZZ7
+  : 1
+  ? - NCZZ1ZZ8
+    - Z3ZZ1ZZ7
+  : -5
+  ? - ACZZ1ZZ8
+    - Z3ZZ1ZZ7
+  : -5
+  ? - NCZZ2ZZ8
+    - Z3ZZ1ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ7
+  : 1
+  ? - NCZZ1ZZ7
+    - Z4ZZ1ZZ7
+  : 1
+  ? - ACZZ1ZZ7
+    - Z4ZZ1ZZ7
+  : 1
+  ? - NCZZ1ZZ8
+    - Z4ZZ1ZZ7
+  : -1
+  ? - ACZZ1ZZ8
+    - Z4ZZ1ZZ7
+  : -1
+  ? - CCZZ2ZZ7
+    - Z1ZZ2ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ7
+  : 15
+  ? - NCZZ2ZZ7
+    - Z2ZZ2ZZ7
+  : 15
+  ? - ACZZ2ZZ7
+    - Z2ZZ2ZZ7
+  : 15
+  ? - CCZZ2ZZ7
+    - Z2ZZ2ZZ7
+  : 1
+  ? - NCZZ3ZZ8
+    - Z2ZZ2ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ7
+  : 25
+  ? - NCZZ2ZZ7
+    - Z3ZZ2ZZ7
+  : 25
+  ? - ACZZ2ZZ7
+    - Z3ZZ2ZZ7
+  : 25
+  ? - CCZZ2ZZ7
+    - Z3ZZ2ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z3ZZ2ZZ7
+  : -7
+  ? - ACZZ2ZZ8
+    - Z3ZZ2ZZ7
+  : -7
+  ? - NCZZ3ZZ8
+    - Z3ZZ2ZZ7
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ7
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ2ZZ7
+  : 1
+  ? - ACZZ2ZZ7
+    - Z4ZZ2ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ2ZZ7
+  : -1
+  ? - ACZZ2ZZ8
+    - Z4ZZ2ZZ7
+  : -1
+  ? - CCZZ3ZZ7
+    - Z1ZZ3ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ7
+  : 10
+  ? - NCZZ2ZZ7
+    - Z2ZZ3ZZ7
+  : 10
+  ? - ACZZ3ZZ7
+    - Z2ZZ3ZZ7
+  : 10
+  ? - CCZZ3ZZ7
+    - Z2ZZ3ZZ7
+  : 1
+  ? - NCZZ1ZZ8
+    - Z2ZZ3ZZ7
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ7
+  : 20
+  ? - NCZZ2ZZ7
+    - Z3ZZ3ZZ7
+  : 20
+  ? - ACZZ3ZZ7
+    - Z3ZZ3ZZ7
+  : 20
+  ? - CCZZ3ZZ7
+    - Z3ZZ3ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z3ZZ3ZZ7
+  : -5
+  ? - ACZZ3ZZ8
+    - Z3ZZ3ZZ7
+  : -5
+  ? - NCZZ1ZZ8
+    - Z3ZZ3ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ7
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ3ZZ7
+  : 1
+  ? - ACZZ3ZZ7
+    - Z4ZZ3ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ3ZZ7
+  : -1
+  ? - ACZZ3ZZ8
+    - Z4ZZ3ZZ7
+  : -1
+  ? - CCZZ4ZZ7
+    - Z1ZZ4ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ7
+  : 15
+  ? - NCZZ1ZZ7
+    - Z2ZZ4ZZ7
+  : 15
+  ? - ACZZ4ZZ7
+    - Z2ZZ4ZZ7
+  : 15
+  ? - CCZZ4ZZ7
+    - Z2ZZ4ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z2ZZ4ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ7
+  : 25
+  ? - NCZZ1ZZ7
+    - Z3ZZ4ZZ7
+  : 25
+  ? - ACZZ4ZZ7
+    - Z3ZZ4ZZ7
+  : 25
+  ? - CCZZ4ZZ7
+    - Z3ZZ4ZZ7
+  : 1
+  ? - NCZZ1ZZ8
+    - Z3ZZ4ZZ7
+  : -7
+  ? - ACZZ4ZZ8
+    - Z3ZZ4ZZ7
+  : -7
+  ? - NCZZ4ZZ8
+    - Z3ZZ4ZZ7
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ7
+  : 1
+  ? - NCZZ1ZZ7
+    - Z4ZZ4ZZ7
+  : 1
+  ? - ACZZ4ZZ7
+    - Z4ZZ4ZZ7
+  : 1
+  ? - NCZZ1ZZ8
+    - Z4ZZ4ZZ7
+  : -1
+  ? - ACZZ4ZZ8
+    - Z4ZZ4ZZ7
+  : -1
+  ? - CCZZ5ZZ7
+    - Z1ZZ5ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ7
+  : 15
+  ? - NCZZ2ZZ7
+    - Z2ZZ5ZZ7
+  : 15
+  ? - ACZZ5ZZ7
+    - Z2ZZ5ZZ7
+  : 15
+  ? - CCZZ5ZZ7
+    - Z2ZZ5ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z2ZZ5ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ7
+  : 25
+  ? - NCZZ2ZZ7
+    - Z3ZZ5ZZ7
+  : 25
+  ? - ACZZ5ZZ7
+    - Z3ZZ5ZZ7
+  : 25
+  ? - CCZZ5ZZ7
+    - Z3ZZ5ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z3ZZ5ZZ7
+  : -7
+  ? - ACZZ5ZZ8
+    - Z3ZZ5ZZ7
+  : -7
+  ? - NCZZ4ZZ8
+    - Z3ZZ5ZZ7
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ7
+  : 1
+  ? - NCZZ2ZZ7
+    - Z4ZZ5ZZ7
+  : 1
+  ? - ACZZ5ZZ7
+    - Z4ZZ5ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ5ZZ7
+  : -1
+  ? - ACZZ5ZZ8
+    - Z4ZZ5ZZ7
   : -1
   ? - CCZZ6ZZ7
     - Z1ZZ6ZZ7
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ8ZZ6
-  : 30
-  ? - NCZZ2ZZ9
-    - Z3ZZ2ZZ9
-  : 25
-  ? - ACZZ6ZZ9
-    - Z4ZZ6ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ6
-  : 1
-  ? - CCZZ7ZZ4
-    - Z3ZZ7ZZ4
-  : 1
-  ? - NCZZ4ZZ3
-    - Z2ZZ4ZZ2
-  : -15
-  ? - OBJZZZZZ
-    - Z4Z11ZZ4
-  : 1
-  ? - NCZZ4ZZ2
-    - Z2ZZ8ZZ2
-  : 30
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ8Z10
-  : 30
-  ? - ACZ10ZZ2
-    - Z4Z10ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ9
-  : 40
-  ? - NCZZ2Z10
-    - Z2ZZ1ZZ9
-  : -10
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ1
-  : 15
-  ? - ACZZ6Z10
-    - Z3ZZ6Z10
-  : 20
-  ? - CCZZ6ZZ6
-    - Z2ZZ6ZZ6
-  : 1
-  ? - NCZZ2ZZ6
-    - Z2ZZ1ZZ5
-  : -10
-  ? - ACZZ9ZZ9
-    - Z4ZZ9ZZ9
-  : 1
-  ? - CCZZ5Z10
-    - Z3ZZ5Z10
-  : 1
-  ? - NCZZ6ZZ6
-    - Z2Z11ZZ6
-  : 15
-  ? - CCZZ6ZZ6
-    - Z3ZZ6ZZ6
-  : 1
-  ? - ACZZ9ZZ8
-    - Z3ZZ9ZZ7
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ4
-  : 20
-  ? - ACZZ6ZZ3
-    - Z2ZZ6ZZ3
+    - Z2ZZ6ZZ7
   : 10
   ? - NCZZ2ZZ7
-    - Z2ZZ1ZZ6
-  : -10
-  ? - NCZZ2ZZ8
-    - Z4ZZ6ZZ8
-  : 1
-  ? - ACZZ7ZZ9
-    - Z3ZZ7ZZ8
-  : -5
-  ? - CCZZ3ZZ9
-    - Z3ZZ3ZZ9
-  : 1
-  ? - ACZZ7ZZ5
-    - Z4ZZ7ZZ5
-  : 1
-  ? - NCZZ2ZZ2
-    - Z4ZZ6ZZ2
-  : 1
-  ? - NCZZ6ZZ4
-    - Z4Z11ZZ4
-  : 1
-  ? - NCZZ6Z10
-    - Z3Z10ZZ9
-  : -15
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ5
-  : 40
-  ? - NCZZ5ZZ3
-    - Z4Z12ZZ2
-  : -1
-  ? - NCZZ2ZZ7
-    - Z4ZZ5ZZ6
-  : -1
-  ? - NCZZ5Z10
-    - Z4Z12ZZ9
-  : -1
-  ? - NCZZ3ZZ2
-    - Z2ZZ2ZZ1
-  : -15
-  ? - CCZZ4ZZ4
-    - Z3ZZ4ZZ4
-  : 1
-  ? - CCZZ3ZZ5
-    - Z2ZZ3ZZ5
-  : 1
-  ? - NCZZ3ZZ6
-    - Z2ZZ7ZZ6
+    - Z2ZZ6ZZ7
   : 10
-  ? - ACZZ1ZZ9
-    - Z3ZZ1ZZ9
-  : 20
-  ? - NCZZ5ZZ2
-    - Z4Z12ZZ1
-  : -1
-  ? - NCZZ2ZZ5
-    - Z4ZZ2ZZ4
-  : -1
-  ? - ACZZ9ZZ2
-    - Z4ZZ9ZZ2
-  : 1
-  ? - CCZZ2ZZ3
-    - Z3ZZ2ZZ3
-  : 1
-  ? - NCZZ1ZZ6
-    - Z4ZZ1ZZ5
-  : -1
-  ? - OBJZZZZZ
-    - Z4Z10ZZ3
-  : 1
-  ? - NCZZ4ZZ3
-    - Z3ZZ8ZZ3
-  : 40
-  ? - CCZZ3ZZ9
-    - Z1ZZ3ZZ9
-  : 1
-  ? - NCZZ6ZZ3
-    - Z4Z11ZZ3
-  : 1
-  ? - NCZZ2ZZ5
-    - Z2ZZ2ZZ5
-  : 15
-  ? - CCZZ6ZZ5
-    - Z2ZZ6ZZ5
-  : 1
-  ? - ACZZ5ZZ6
-    - Z2ZZ5ZZ6
-  : 15
-  ? - ACZZ7ZZ3
-    - Z3ZZ7ZZ2
-  : -5
-  ? - CCZZ4ZZ9
-    - Z2ZZ4ZZ9
-  : 1
-  ? - NCZZ5ZZ7
-    - Z3Z12ZZ7
-  : 80
-  ? - NCZZ4Z10
-    - Z2ZZ5ZZ9
-  : -15
-  ? - ACZZ5ZZ6
-    - Z3ZZ5ZZ6
-  : 25
-  ? - NCZZ1ZZ6
-    - Z3ZZ4ZZ5
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ2
-  : 40
-  ? - NCZZ1ZZ3
-    - Z3ZZ4ZZ2
-  : -7
-  ? - ACZZ4ZZ1
-    - Z2ZZ4ZZ1
-  : 15
-  ? - CCZZ1Z10
-    - Z1ZZ1Z10
-  : 1
-  ? - NCZZ5ZZ3
-    - Z3Z12ZZ3
-  : 80
-  ? - NCZZ6ZZ5
-    - Z3Z10ZZ4
-  : -15
-  ? - NCZZ2ZZ9
-    - Z2ZZ5ZZ9
-  : 15
-  ? - NCZZ4ZZ9
-    - Z2ZZ5ZZ8
-  : -15
-  ? - CCZ10ZZ6
-    - Z3Z10ZZ6
-  : 1
-  ? - NCZZ3ZZ5
-    - Z4ZZ7ZZ5
-  : 1
-  ? - NCZZ2ZZ9
-    - Z4ZZ5ZZ9
-  : 1
-  ? - ACZZ8ZZ9
-    - Z2ZZ8ZZ9
-  : 30
-  ? - NCZZ6ZZ9
-    - Z4Z11ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ6
-  : 1
-  ? - NCZZ2ZZ7
-    - Z4ZZ2ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ1
-  : 20
-  ? - NCZZ1ZZ5
-    - Z3ZZ4ZZ5
-  : 25
-  ? - NCZZ2ZZ9
-    - Z3ZZ5ZZ8
-  : -7
-  ? - ACZZ5ZZ7
-    - Z4ZZ5ZZ6
-  : -1
-  ? - CCZZ7ZZ2
-    - Z2ZZ7ZZ2
-  : 1
-  ? - ACZZ2ZZ5
-    - Z2ZZ2ZZ5
-  : 15
-  ? - NCZZ5ZZ4
-    - Z2ZZ6ZZ3
-  : -10
-  ? - NCZZ4ZZ8
-    - Z2Z10ZZ8
+  ? - ACZZ6ZZ7
+    - Z2ZZ6ZZ7
   : 10
-  ? - ACZZ3ZZ1
-    - Z3ZZ3ZZ1
-  : 20
-  ? - OBJZZZZZ
-    - Z3ZZ7Z10
-  : 20
-  ? - NCZZ3Z10
-    - Z3ZZ7ZZ9
-  : -5
-  ? - NCZZ2ZZ8
-    - Z3ZZ2ZZ8
-  : 25
-  ? - CCZZ5ZZ9
-    - Z1ZZ5ZZ9
-  : 1
-  ? - NCZZ3Z10
-    - Z2ZZ2ZZ9
-  : -15
-  ? - CCZZ1ZZ9
-    - Z1ZZ1ZZ9
-  : 1
   ? - CCZZ6ZZ7
     - Z2ZZ6ZZ7
   : 1
   ? - NCZZ5ZZ8
-    - Z3ZZ9ZZ8
-  : 40
-  ? - NCZZ5ZZ2
-    - Z2ZZ7ZZ1
+    - Z2ZZ6ZZ7
   : -10
-  ? - CCZZ5ZZ4
-    - Z2ZZ5ZZ4
-  : 1
-  ? - NCZZ6ZZ8
-    - Z3Z11ZZ8
-  : 25
-  ? - NCZZ1ZZ2
-    - Z3ZZ4ZZ1
-  : -7
-  ? - CCZ10ZZ5
-    - Z2Z10ZZ5
-  : 1
-  ? - ACZZ2ZZ2
-    - Z3ZZ2ZZ1
-  : -7
-  ? - NCZZ2ZZ9
-    - Z3ZZ1ZZ8
-  : -15
-  ? - ACZZ9ZZ9
-    - Z3ZZ9ZZ9
-  : 40
-  ? - ACZZ5ZZ1
-    - Z3ZZ5ZZ1
-  : 25
-  ? - CCZ11ZZ2
-    - Z1Z11ZZ2
-  : 1
   ? - OBJZZZZZ
-    - Z4ZZ6ZZ4
+    - Z3ZZ6ZZ7
+  : 20
+  ? - NCZZ2ZZ7
+    - Z3ZZ6ZZ7
+  : 20
+  ? - ACZZ6ZZ7
+    - Z3ZZ6ZZ7
+  : 20
+  ? - CCZZ6ZZ7
+    - Z3ZZ6ZZ7
   : 1
-  ? - ACZZ9ZZ4
-    - Z3ZZ9ZZ4
-  : 40
-  ? - NCZZ3ZZ4
-    - Z2ZZ7ZZ4
-  : 10
-  ? - NCZZ5ZZ2
-    - Z3Z12ZZ1
-  : -15
-  ? - ACZZ8ZZ5
-    - Z4ZZ8ZZ5
-  : 1
-  ? - NCZZ6ZZ8
-    - Z4Z11ZZ8
-  : 1
-  ? - CCZZ8ZZ2
-    - Z2ZZ8ZZ2
-  : 1
-  ? - NCZZ4ZZ2
-    - Z2ZZ5ZZ1
-  : -15
-  ? - NCZZ6Z10
-    - Z4Z11ZZ9
-  : -1
-  ? - CCZ12ZZ9
-    - Z2Z12ZZ9
-  : 1
-  ? - ACZZ2ZZ4
-    - Z2ZZ2ZZ4
-  : 15
-  ? - ACZZ6ZZ4
-    - Z4ZZ6ZZ4
-  : 1
-  ? - NCZZ2ZZ3
-    - Z4ZZ6ZZ3
-  : 1
-  ? - CCZZ3ZZ8
-    - Z2ZZ3ZZ8
-  : 1
-  ? - CCZ10ZZ8
-    - Z3Z10ZZ8
-  : 1
-  ? - NCZZ1Z10
-    - Z4ZZ4Z10
-  : 1
-  ? - CCZZ6ZZ4
-    - Z2ZZ6ZZ4
-  : 1
-  ? - NCZZ2ZZ9
-    - Z4ZZ5ZZ8
-  : -1
-  ? - NCZZ3ZZ9
-    - Z3ZZ7ZZ8
+  ? - NCZZ2ZZ8
+    - Z3ZZ6ZZ7
   : -5
-  ? - NCZZ5ZZ5
-    - Z2ZZ7ZZ4
-  : -10
-  ? - CCZ11ZZ7
-    - Z3Z11ZZ7
-  : 1
-  ? - NCZZ4ZZ5
-    - Z3ZZ5ZZ4
-  : -18
-  ? - ACZZ5ZZ8
-    - Z4ZZ5ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ7
-  : 20
-  ? - CCZZ6ZZ1
-    - Z1ZZ6ZZ1
-  : 1
-  ? - NCZZ6ZZ9
-    - Z3Z11ZZ8
-  : -7
-  ? - OBJZZZZZ
-    - Z2Z10Z10
-  : 10
-  ? - ACZZ7ZZ4
-    - Z4ZZ7ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ3
-  : 1
-  ? - ACZZ3ZZ8
-    - Z3ZZ3ZZ8
-  : 20
-  ? - ACZZ2ZZ4
-    - Z3ZZ2ZZ4
-  : 25
-  ? - OBJZZZZZ
-    - Z2Z11ZZ9
-  : 15
-  ? - CCZZ5ZZ1
-    - Z3ZZ5ZZ1
-  : 1
-  ? - ACZZ7ZZ3
-    - Z2ZZ7ZZ3
-  : 10
-  ? - NCZZ2ZZ3
-    - Z4ZZ6ZZ2
-  : -1
-  ? - NCZZ3ZZ2
-    - Z3ZZ7ZZ2
-  : 20
-  ? - ACZZ8ZZ9
-    - Z4ZZ8ZZ8
-  : -1
-  ? - ACZZ7ZZ8
-    - Z4ZZ7ZZ8
-  : 1
-  ? - NCZZ4Z10
-    - Z3ZZ4ZZ9
-  : -18
-  ? - NCZZ4ZZ3
-    - Z2ZZ8ZZ3
-  : 30
-  ? - NCZZ5ZZ3
-    - Z2Z12ZZ3
-  : 50
-  ? - ACZZ9ZZ2
-    - Z4ZZ9ZZ1
-  : -1
-  ? - OBJZZZZZ
-    - Z2Z10ZZ5
-  : 10
-  ? - NCZZ5ZZ3
-    - Z4Z12ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z2Z10ZZ7
-  : 10
+  ? - ACZZ6ZZ8
+    - Z3ZZ6ZZ7
+  : -5
   ? - NCZZ5ZZ8
-    - Z2Z12ZZ8
-  : 50
-  ? - CCZZ2ZZ8
-    - Z3ZZ2ZZ8
-  : 1
-  ? - NCZZ1ZZ9
-    - Z3ZZ1ZZ9
-  : 20
-  ? - ACZZ2ZZ9
-    - Z2ZZ2ZZ9
-  : 15
-  ? - NCZZ3ZZ8
-    - Z4ZZ7ZZ7
-  : -1
-  ? - NCZZ4ZZ9
-    - Z3Z10ZZ9
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ9
-  : 1
-  ? - CCZZ3ZZ4
-    - Z3ZZ3ZZ4
-  : 1
-  ? - NCZZ1ZZ3
-    - Z3ZZ1ZZ2
-  : -5
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ8
-  : 20
-  ? - ACZ10ZZ4
-    - Z3Z10ZZ3
-  : -5
-  ? - ACZZ2ZZ8
-    - Z4ZZ2ZZ8
-  : 1
-  ? - ACZ12ZZ4
-    - Z4Z12ZZ4
-  : 1
-  ? - ACZZ1ZZ6
-    - Z4ZZ1ZZ5
-  : -1
-  ? - ACZ12ZZ6
-    - Z3Z12ZZ5
+    - Z3ZZ6ZZ7
   : -15
   ? - OBJZZZZZ
-    - Z2Z11ZZ3
-  : 15
-  ? - CCZZ1ZZ9
-    - Z2ZZ1ZZ9
+    - Z4ZZ6ZZ7
   : 1
-  ? - OBJZZZZZ
-    - Z4ZZ7Z10
+  ? - NCZZ2ZZ7
+    - Z4ZZ6ZZ7
   : 1
-  ? - OBJZZZZZ
-    - Z2Z12ZZ5
-  : 50
-  ? - NCZZ2ZZ2
-    - Z4ZZ3ZZ1
+  ? - ACZZ6ZZ7
+    - Z4ZZ6ZZ7
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ6ZZ7
   : -1
-  ? - ACZ12ZZ3
-    - Z2Z12ZZ3
-  : 50
-  ? - CCZ11ZZ3
-    - Z1Z11ZZ3
-  : 1
-  ? - NCZZ3ZZ3
-    - Z3ZZ7ZZ3
-  : 20
-  ? - ACZ11ZZ4
-    - Z4Z11ZZ4
+  ? - ACZZ6ZZ8
+    - Z4ZZ6ZZ7
+  : -1
+  ? - CCZZ7ZZ7
+    - Z1ZZ7ZZ7
   : 1
   ? - OBJZZZZZ
-    - Z4ZZ4ZZ5
+    - Z2ZZ7ZZ7
+  : 10
+  ? - NCZZ3ZZ7
+    - Z2ZZ7ZZ7
+  : 10
+  ? - ACZZ7ZZ7
+    - Z2ZZ7ZZ7
+  : 10
+  ? - CCZZ7ZZ7
+    - Z2ZZ7ZZ7
   : 1
-  ? - NCZZ5Z10
-    - Z2ZZ8ZZ9
-  : -30
-  ? - NCZZ5ZZ2
-    - Z2ZZ8ZZ1
-  : -30
-  ? - ACZZ1ZZ3
-    - Z3ZZ1ZZ2
+  ? - NCZZ5ZZ8
+    - Z2ZZ7ZZ7
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ7
+  : 20
+  ? - NCZZ3ZZ7
+    - Z3ZZ7ZZ7
+  : 20
+  ? - ACZZ7ZZ7
+    - Z3ZZ7ZZ7
+  : 20
+  ? - CCZZ7ZZ7
+    - Z3ZZ7ZZ7
+  : 1
+  ? - NCZZ3ZZ8
+    - Z3ZZ7ZZ7
   : -5
-  ? - CCZZ7ZZ9
-    - Z1ZZ7ZZ9
+  ? - ACZZ7ZZ8
+    - Z3ZZ7ZZ7
+  : -5
+  ? - NCZZ5ZZ8
+    - Z3ZZ7ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ7
   : 1
-  ? - CCZZ3ZZ2
-    - Z2ZZ3ZZ2
-  : 1
-  ? - ACZZ9ZZ9
-    - Z3ZZ9ZZ8
-  : -7
-  ? - NCZZ5Z10
-    - Z3ZZ8ZZ9
-  : -33
-  ? - CCZZ6ZZ2
-    - Z3ZZ6ZZ2
-  : 1
-  ? - CCZZ5ZZ8
-    - Z3ZZ5ZZ8
+  ? - NCZZ3ZZ7
+    - Z4ZZ7ZZ7
   : 1
   ? - ACZZ7ZZ7
     - Z4ZZ7ZZ7
   : 1
-  ? - OBJZZZZZ
-    - Z3ZZ8Z10
-  : 40
-  ? - ACZZ5ZZ3
-    - Z4ZZ5ZZ3
-  : 1
-  ? - ACZZ4ZZ3
-    - Z2ZZ4ZZ3
-  : 15
-  ? - CCZZ4ZZ6
-    - Z1ZZ4ZZ6
-  : 1
-  ? - NCZZ1Z10
-    - Z3ZZ4Z10
-  : 25
-  ? - CCZZ2Z10
-    - Z2ZZ2Z10
-  : 1
-  ? - CCZZ8ZZ1
-    - Z3ZZ8ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ6
-  : 25
-  ? - CCZZ8ZZ3
-    - Z2ZZ8ZZ3
-  : 1
-  ? - CCZZ7ZZ1
-    - Z3ZZ7ZZ1
-  : 1
-  ? - NCZZ5Z10
-    - Z3Z12ZZ9
-  : -15
-  ? - NCZZ6ZZ8
-    - Z3Z11ZZ7
-  : -7
-  ? - NCZZ5ZZ2
-    - Z3ZZ7ZZ1
-  : -15
-  ? - NCZZ2Z10
-    - Z3ZZ5Z10
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ4
-  : 25
-  ? - NCZZ2ZZ6
-    - Z4ZZ2ZZ6
-  : 1
-  ? - NCZZ2ZZ7
-    - Z2ZZ5ZZ7
-  : 15
-  ? - NCZZ6ZZ3
-    - Z4Z11ZZ2
+  ? - NCZZ3ZZ8
+    - Z4ZZ7ZZ7
   : -1
-  ? - NCZZ6ZZ8
-    - Z3Z10ZZ7
-  : -15
-  ? - NCZZ3ZZ4
-    - Z4ZZ7ZZ4
+  ? - ACZZ7ZZ8
+    - Z4ZZ7ZZ7
+  : -1
+  ? - CCZZ8ZZ7
+    - Z1ZZ8ZZ7
   : 1
-  ? - ACZZ4ZZ2
-    - Z4ZZ4ZZ2
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ7
+  : 30
+  ? - NCZZ4ZZ7
+    - Z2ZZ8ZZ7
+  : 30
+  ? - ACZZ8ZZ7
+    - Z2ZZ8ZZ7
+  : 30
+  ? - CCZZ8ZZ7
+    - Z2ZZ8ZZ7
   : 1
-  ? - NCZZ5ZZ4
-    - Z2ZZ8ZZ3
+  ? - NCZZ5ZZ8
+    - Z2ZZ8ZZ7
   : -30
-  ? - ACZZ1ZZ3
-    - Z2ZZ1ZZ3
-  : 10
-  ? - ACZZ4ZZ5
-    - Z4ZZ4ZZ4
-  : -1
-  ? - CCZ12ZZ3
-    - Z1Z12ZZ3
-  : 1
-  ? - ACZ10ZZ1
-    - Z2Z10ZZ1
-  : 10
-  ? - NCZZ2ZZ3
-    - Z3ZZ1ZZ2
-  : -15
-  ? - NCZZ4ZZ2
-    - Z3ZZ8ZZ2
-  : 40
-  ? - ACZZ2ZZ8
-    - Z3ZZ2ZZ7
-  : -7
-  ? - ACZ12ZZ8
-    - Z3Z12ZZ7
-  : -15
-  ? - NCZZ4Z10
-    - Z2ZZ4ZZ9
-  : -15
-  ? - ACZZ4ZZ8
-    - Z4ZZ4ZZ8
-  : 1
   ? - OBJZZZZZ
-    - Z3Z10Z10
-  : 20
-  ? - ACZ11Z10
-    - Z3Z11ZZ9
+    - Z3ZZ8ZZ7
+  : 40
+  ? - NCZZ4ZZ7
+    - Z3ZZ8ZZ7
+  : 40
+  ? - ACZZ8ZZ7
+    - Z3ZZ8ZZ7
+  : 40
+  ? - CCZZ8ZZ7
+    - Z3ZZ8ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z3ZZ8ZZ7
+  : -7
+  ? - ACZZ8ZZ8
+    - Z3ZZ8ZZ7
   : -7
   ? - NCZZ5ZZ8
-    - Z4ZZ9ZZ8
-  : 1
+    - Z3ZZ8ZZ7
+  : -33
   ? - OBJZZZZZ
-    - Z2ZZ3ZZ7
-  : 10
-  ? - CCZZ4Z10
-    - Z3ZZ4Z10
+    - Z4ZZ8ZZ7
   : 1
-  ? - NCZZ3Z10
-    - Z4ZZ7ZZ9
+  ? - NCZZ4ZZ7
+    - Z4ZZ8ZZ7
+  : 1
+  ? - ACZZ8ZZ7
+    - Z4ZZ8ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z4ZZ8ZZ7
   : -1
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ5
-  : 25
-  ? - NCZZ5ZZ2
-    - Z3ZZ6ZZ1
-  : -15
-  ? - CCZZ6ZZ3
-    - Z1ZZ6ZZ3
-  : 1
-  ? - CCZZ3ZZ7
-    - Z1ZZ3ZZ7
-  : 1
-  ? - ACZZ5Z10
-    - Z3ZZ5ZZ9
-  : -7
-  ? - NCZZ2ZZ6
-    - Z4ZZ3ZZ5
+  ? - ACZZ8ZZ8
+    - Z4ZZ8ZZ7
   : -1
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ3
-  : 10
-  ? - ACZ11ZZ9
-    - Z3Z11ZZ9
-  : 25
-  ? - ACZZ7Z10
-    - Z3ZZ7ZZ9
-  : -5
-  ? - NCZZ1ZZ2
-    - Z3ZZ4ZZ2
-  : 25
-  ? - ACZZ9ZZ7
-    - Z4ZZ9ZZ6
-  : -1
-  ? - CCZZ1ZZ5
-    - Z2ZZ1ZZ5
+  ? - CCZZ9ZZ7
+    - Z1ZZ9ZZ7
   : 1
-  ? - ACZZ6ZZ2
-    - Z3ZZ6ZZ2
-  : 20
-  ? - CCZZ7ZZ6
-    - Z3ZZ7ZZ6
-  : 1
-  ? - NCZZ5ZZ6
-    - Z3ZZ7ZZ5
-  : -15
-  ? - ACZZ1ZZ4
-    - Z2ZZ1ZZ4
-  : 10
   ? - OBJZZZZZ
-    - Z2ZZ1ZZ6
-  : 10
-  ? - OBJZZZZZ
-    - Z4Z11ZZ6
-  : 1
-  ? - NCZZ5ZZ6
-    - Z2ZZ9ZZ6
+    - Z2ZZ9ZZ7
   : 30
-  ? - ACZZ2ZZ9
-    - Z3ZZ2ZZ9
-  : 25
-  ? - ACZZ5ZZ4
-    - Z3ZZ5ZZ3
-  : -7
-  ? - NCZZ4ZZ3
-    - Z2ZZ9ZZ2
+  ? - NCZZ5ZZ7
+    - Z2ZZ9ZZ7
+  : 30
+  ? - ACZZ9ZZ7
+    - Z2ZZ9ZZ7
+  : 30
+  ? - CCZZ9ZZ7
+    - Z2ZZ9ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z2ZZ9ZZ7
   : -30
-  ? - NCZZ3ZZ5
-    - Z2ZZ2ZZ4
-  : -15
-  ? - NCZZ2ZZ3
-    - Z3ZZ6ZZ2
-  : -5
-  ? - NCZZ4ZZ3
-    - Z2Z10ZZ3
-  : 10
-  ? - ACZZ6ZZ4
-    - Z2ZZ6ZZ4
-  : 10
   ? - OBJZZZZZ
-    - Z4ZZ5ZZ8
+    - Z3ZZ9ZZ7
+  : 40
+  ? - NCZZ5ZZ7
+    - Z3ZZ9ZZ7
+  : 40
+  ? - ACZZ9ZZ7
+    - Z3ZZ9ZZ7
+  : 40
+  ? - CCZZ9ZZ7
+    - Z3ZZ9ZZ7
   : 1
-  ? - OBJZZZZZ
-    - Z3Z11ZZ2
-  : 25
-  ? - ACZ11ZZ4
-    - Z3Z11ZZ4
-  : 25
-  ? - OBJZZZZZ
-    - Z4Z10ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ9
-  : 10
-  ? - NCZZ2ZZ2
-    - Z2ZZ3ZZ2
-  : 10
-  ? - NCZZ1Z10
-    - Z2ZZ4Z10
-  : 15
-  ? - ACZ11ZZ2
-    - Z3Z11ZZ2
-  : 25
-  ? - CCZ12ZZ4
-    - Z1Z12ZZ4
-  : 1
-  ? - CCZ10ZZ1
-    - Z3Z10ZZ1
-  : 1
-  ? - NCZZ5ZZ4
-    - Z3Z12ZZ3
-  : -15
-  ? - ACZZ9ZZ2
-    - Z3ZZ9ZZ1
+  ? - NCZZ5ZZ8
+    - Z3ZZ9ZZ7
   : -7
-  ? - NCZZ2ZZ7
-    - Z3ZZ3ZZ6
-  : -5
-  ? - NCZZ4ZZ6
-    - Z4Z10ZZ5
-  : -1
-  ? - NCZZ2ZZ2
-    - Z3ZZ1ZZ1
-  : -15
-  ? - ACZ12ZZ6
-    - Z4Z12ZZ5
-  : -1
-  ? - ACZZ9ZZ5
-    - Z3ZZ9ZZ4
+  ? - ACZZ9ZZ8
+    - Z3ZZ9ZZ7
   : -7
-  ? - NCZZ2ZZ4
-    - Z3ZZ1ZZ3
-  : -15
-  ? - NCZZ1ZZ4
-    - Z3ZZ1ZZ4
-  : 20
-  ? - ACZZ2ZZ9
-    - Z3ZZ2ZZ8
-  : -7
+  ? - NCZZ4ZZ8
+    - Z3ZZ9ZZ7
+  : -33
   ? - OBJZZZZZ
-    - Z3Z12ZZ2
-  : 80
-  ? - NCZZ2ZZ6
-    - Z3ZZ5ZZ5
-  : -7
-  ? - NCZZ6ZZ2
-    - Z4Z11ZZ1
-  : -1
-  ? - NCZZ5ZZ3
-    - Z2ZZ6ZZ2
-  : -10
-  ? - NCZZ6ZZ3
-    - Z3Z11ZZ3
-  : 25
-  ? - ACZZ3ZZ6
-    - Z4ZZ3ZZ5
-  : -1
-  ? - ACZZ7ZZ2
-    - Z4ZZ7ZZ1
-  : -1
-  ? - ACZZ3ZZ7
-    - Z2ZZ3ZZ7
-  : 10
-  ? - NCZZ3ZZ1
-    - Z2ZZ7ZZ1
-  : 10
-  ? - CCZZ1ZZ6
-    - Z1ZZ1ZZ6
+    - Z4ZZ9ZZ7
   : 1
-  ? - ACZ10ZZ8
-    - Z4Z10ZZ7
-  : -1
-  ? - NCZZ2ZZ9
-    - Z4ZZ2ZZ8
-  : -1
-  ? - NCZZ2ZZ8
-    - Z3ZZ6ZZ8
-  : 20
-  ? - CCZ12ZZ7
-    - Z2Z12ZZ7
+  ? - NCZZ5ZZ7
+    - Z4ZZ9ZZ7
   : 1
-  ? - NCZZ1ZZ2
-    - Z4ZZ1ZZ1
+  ? - ACZZ9ZZ7
+    - Z4ZZ9ZZ7
+  : 1
+  ? - NCZZ5ZZ8
+    - Z4ZZ9ZZ7
   : -1
+  ? - ACZZ9ZZ8
+    - Z4ZZ9ZZ7
+  : -1
+  ? - CCZ10ZZ7
+    - Z1Z10ZZ7
+  : 1
   ? - OBJZZZZZ
-    - Z4ZZ1ZZ6
-  : 1
-  ? - ACZZ4ZZ2
-    - Z2ZZ4ZZ2
-  : 15
-  ? - ACZZ3ZZ5
-    - Z4ZZ3ZZ4
-  : -1
+    - Z2Z10ZZ7
+  : 10
+  ? - NCZZ4ZZ7
+    - Z2Z10ZZ7
+  : 10
+  ? - ACZ10ZZ7
+    - Z2Z10ZZ7
+  : 10
   ? - CCZ10ZZ7
     - Z2Z10ZZ7
   : 1
-  ? - ACZZ5ZZ1
-    - Z4ZZ5ZZ1
+  ? - NCZZ6ZZ8
+    - Z2Z10ZZ7
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ7
+  : 20
+  ? - NCZZ4ZZ7
+    - Z3Z10ZZ7
+  : 20
+  ? - ACZ10ZZ7
+    - Z3Z10ZZ7
+  : 20
+  ? - CCZ10ZZ7
+    - Z3Z10ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z3Z10ZZ7
+  : -5
+  ? - ACZ10ZZ8
+    - Z3Z10ZZ7
+  : -5
+  ? - NCZZ6ZZ8
+    - Z3Z10ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ7
+  : 1
+  ? - NCZZ4ZZ7
+    - Z4Z10ZZ7
+  : 1
+  ? - ACZ10ZZ7
+    - Z4Z10ZZ7
+  : 1
+  ? - NCZZ4ZZ8
+    - Z4Z10ZZ7
+  : -1
+  ? - ACZ10ZZ8
+    - Z4Z10ZZ7
+  : -1
+  ? - CCZ11ZZ7
+    - Z1Z11ZZ7
   : 1
   ? - OBJZZZZZ
-    - Z2Z10ZZ4
-  : 10
+    - Z2Z11ZZ7
+  : 15
+  ? - NCZZ6ZZ7
+    - Z2Z11ZZ7
+  : 15
+  ? - ACZ11ZZ7
+    - Z2Z11ZZ7
+  : 15
+  ? - CCZ11ZZ7
+    - Z2Z11ZZ7
+  : 1
   ? - OBJZZZZZ
-    - Z3Z12ZZ6
+    - Z3Z11ZZ7
+  : 25
+  ? - NCZZ6ZZ7
+    - Z3Z11ZZ7
+  : 25
+  ? - ACZ11ZZ7
+    - Z3Z11ZZ7
+  : 25
+  ? - CCZ11ZZ7
+    - Z3Z11ZZ7
+  : 1
+  ? - NCZZ6ZZ8
+    - Z3Z11ZZ7
+  : -7
+  ? - ACZ11ZZ8
+    - Z3Z11ZZ7
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ7
+  : 1
+  ? - NCZZ6ZZ7
+    - Z4Z11ZZ7
+  : 1
+  ? - ACZ11ZZ7
+    - Z4Z11ZZ7
+  : 1
+  ? - NCZZ6ZZ8
+    - Z4Z11ZZ7
+  : -1
+  ? - ACZ11ZZ8
+    - Z4Z11ZZ7
+  : -1
+  ? - CCZ12ZZ7
+    - Z1Z12ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ7
+  : 50
+  ? - NCZZ5ZZ7
+    - Z2Z12ZZ7
+  : 50
+  ? - ACZ12ZZ7
+    - Z2Z12ZZ7
+  : 50
+  ? - CCZ12ZZ7
+    - Z2Z12ZZ7
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ7
   : 80
-  ? - NCZZ4Z10
-    - Z4Z10ZZ9
+  ? - NCZZ5ZZ7
+    - Z3Z12ZZ7
+  : 80
+  ? - ACZ12ZZ7
+    - Z3Z12ZZ7
+  : 80
+  ? - CCZ12ZZ7
+    - Z3Z12ZZ7
+  : 1
+  ? - NCZZ5ZZ8
+    - Z3Z12ZZ7
+  : -15
+  ? - ACZ12ZZ8
+    - Z3Z12ZZ7
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ7
+  : 1
+  ? - NCZZ5ZZ7
+    - Z4Z12ZZ7
+  : 1
+  ? - ACZ12ZZ7
+    - Z4Z12ZZ7
+  : 1
+  ? - NCZZ5ZZ8
+    - Z4Z12ZZ7
+  : -1
+  ? - ACZ12ZZ8
+    - Z4Z12ZZ7
+  : -1
+  ? - CCZZ1ZZ8
+    - Z1ZZ1ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1ZZ8
+  : 10
+  ? - NCZZ1ZZ8
+    - Z2ZZ1ZZ8
+  : 10
+  ? - ACZZ1ZZ8
+    - Z2ZZ1ZZ8
+  : 10
+  ? - CCZZ1ZZ8
+    - Z2ZZ1ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z2ZZ1ZZ8
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ8
+  : 20
+  ? - NCZZ1ZZ8
+    - Z3ZZ1ZZ8
+  : 20
+  ? - ACZZ1ZZ8
+    - Z3ZZ1ZZ8
+  : 20
+  ? - CCZZ1ZZ8
+    - Z3ZZ1ZZ8
+  : 1
+  ? - NCZZ1ZZ9
+    - Z3ZZ1ZZ8
+  : -5
+  ? - ACZZ1ZZ9
+    - Z3ZZ1ZZ8
+  : -5
+  ? - NCZZ2ZZ9
+    - Z3ZZ1ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ8
+  : 1
+  ? - NCZZ1ZZ8
+    - Z4ZZ1ZZ8
+  : 1
+  ? - ACZZ1ZZ8
+    - Z4ZZ1ZZ8
+  : 1
+  ? - NCZZ1ZZ9
+    - Z4ZZ1ZZ8
+  : -1
+  ? - ACZZ1ZZ9
+    - Z4ZZ1ZZ8
+  : -1
+  ? - CCZZ2ZZ8
+    - Z1ZZ2ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2ZZ8
+  : 15
+  ? - NCZZ2ZZ8
+    - Z2ZZ2ZZ8
+  : 15
+  ? - ACZZ2ZZ8
+    - Z2ZZ2ZZ8
+  : 15
+  ? - CCZZ2ZZ8
+    - Z2ZZ2ZZ8
+  : 1
+  ? - NCZZ3ZZ9
+    - Z2ZZ2ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ8
+  : 25
+  ? - NCZZ2ZZ8
+    - Z3ZZ2ZZ8
+  : 25
+  ? - ACZZ2ZZ8
+    - Z3ZZ2ZZ8
+  : 25
+  ? - CCZZ2ZZ8
+    - Z3ZZ2ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z3ZZ2ZZ8
+  : -7
+  ? - ACZZ2ZZ9
+    - Z3ZZ2ZZ8
+  : -7
+  ? - NCZZ3ZZ9
+    - Z3ZZ2ZZ8
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ8
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ2ZZ8
+  : 1
+  ? - ACZZ2ZZ8
+    - Z4ZZ2ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ2ZZ8
+  : -1
+  ? - ACZZ2ZZ9
+    - Z4ZZ2ZZ8
+  : -1
+  ? - CCZZ3ZZ8
+    - Z1ZZ3ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ8
+  : 10
+  ? - NCZZ2ZZ8
+    - Z2ZZ3ZZ8
+  : 10
+  ? - ACZZ3ZZ8
+    - Z2ZZ3ZZ8
+  : 10
+  ? - CCZZ3ZZ8
+    - Z2ZZ3ZZ8
+  : 1
+  ? - NCZZ1ZZ9
+    - Z2ZZ3ZZ8
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ8
+  : 20
+  ? - NCZZ2ZZ8
+    - Z3ZZ3ZZ8
+  : 20
+  ? - ACZZ3ZZ8
+    - Z3ZZ3ZZ8
+  : 20
+  ? - CCZZ3ZZ8
+    - Z3ZZ3ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z3ZZ3ZZ8
+  : -5
+  ? - ACZZ3ZZ9
+    - Z3ZZ3ZZ8
+  : -5
+  ? - NCZZ1ZZ9
+    - Z3ZZ3ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ8
+  : 1
+  ? - NCZZ2ZZ8
+    - Z4ZZ3ZZ8
+  : 1
+  ? - ACZZ3ZZ8
+    - Z4ZZ3ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ3ZZ8
+  : -1
+  ? - ACZZ3ZZ9
+    - Z4ZZ3ZZ8
   : -1
   ? - CCZZ4ZZ8
     - Z1ZZ4ZZ8
   : 1
   ? - OBJZZZZZ
-    - Z3ZZ9ZZ6
-  : 40
-  ? - NCZZ5ZZ4
-    - Z2Z12ZZ4
-  : 50
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ4
-  : 40
-  ? - NCZZ1ZZ4
-    - Z2ZZ3ZZ3
-  : -10
-  ? - NCZZ2ZZ8
-    - Z3ZZ5ZZ7
-  : -7
-  ? - ACZZ7ZZ2
-    - Z2ZZ7ZZ2
-  : 10
-  ? - NCZZ1ZZ6
-    - Z3ZZ3ZZ5
-  : -15
-  ? - CCZZ8ZZ9
-    - Z3ZZ8ZZ9
-  : 1
-  ? - CCZZ7ZZ1
-    - Z2ZZ7ZZ1
-  : 1
-  ? - NCZZ1ZZ3
-    - Z3ZZ1ZZ3
-  : 20
-  ? - NCZZ1ZZ4
-    - Z4ZZ1ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ9
-  : 25
-  ? - CCZZ8ZZ1
-    - Z1ZZ8ZZ1
-  : 1
-  ? - ACZZ5ZZ6
-    - Z4ZZ5ZZ5
-  : -1
-  ? - ACZ10ZZ9
-    - Z4Z10ZZ9
-  : 1
-  ? - NCZZ4ZZ1
-    - Z4Z10ZZ1
-  : 1
-  ? - NCZZ4ZZ4
-    - Z4ZZ8ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ9
-  : 1
-  ? - CCZZ2ZZ3
-    - Z1ZZ2ZZ3
-  : 1
-  ? - ACZ10ZZ5
-    - Z3Z10ZZ4
-  : -5
-  ? - ACZ12Z10
-    - Z4Z12ZZ9
-  : -1
-  ? - NCZZ6ZZ5
-    - Z4Z11ZZ5
-  : 1
-  ? - ACZZ3ZZ5
-    - Z3ZZ3ZZ4
-  : -5
-  ? - OBJZZZZZ
-    - Z3Z11ZZ8
-  : 25
-  ? - ACZZ6ZZ3
-    - Z3ZZ6ZZ2
-  : -5
-  ? - NCZZ1ZZ8
-    - Z4ZZ1ZZ7
-  : -1
-  ? - NCZZ4ZZ8
-    - Z3ZZ5ZZ7
-  : -18
-  ? - NCZZ5ZZ1
-    - Z4Z12ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ7
-  : 30
-  ? - NCZZ4ZZ6
-    - Z2ZZ5ZZ5
-  : -15
-  ? - ACZZ6ZZ6
-    - Z4ZZ6ZZ6
-  : 1
-  ? - ACZZ1ZZ2
-    - Z4ZZ1ZZ2
-  : 1
-  ? - ACZZ4ZZ9
-    - Z3ZZ4ZZ8
-  : -7
-  ? - NCZZ4ZZ8
-    - Z3ZZ8ZZ8
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ3
-  : 1
-  ? - NCZZ4ZZ5
-    - Z2Z10ZZ5
-  : 10
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ7
-  : 1
-  ? - ACZZ7ZZ9
-    - Z3ZZ7ZZ9
-  : 20
-  ? - CCZZ8ZZ5
-    - Z3ZZ8ZZ5
-  : 1
-  ? - NCZZ2ZZ8
-    - Z4ZZ2ZZ8
-  : 1
-  ? - NCZZ5ZZ8
-    - Z4Z12ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z3Z11ZZ1
-  : 25
-  ? - NCZZ2ZZ5
-    - Z3ZZ5ZZ5
-  : 25
-  ? - NCZZ2ZZ3
-    - Z3ZZ6ZZ3
-  : 20
-  ? - CCZZ6ZZ5
-    - Z3ZZ6ZZ5
-  : 1
-  ? - NCZZ3ZZ7
-    - Z4ZZ7ZZ6
-  : -1
-  ? - ACZZ4ZZ8
-    - Z3ZZ4ZZ8
-  : 25
-  ? - ACZ11Z10
-    - Z2Z11Z10
+    - Z2ZZ4ZZ8
   : 15
-  ? - NCZZ1ZZ9
-    - Z3ZZ1ZZ8
-  : -5
-  ? - NCZZ1ZZ5
-    - Z4ZZ1ZZ4
-  : -1
   ? - NCZZ1ZZ8
     - Z2ZZ4ZZ8
   : 15
-  ? - NCZZ2ZZ7
-    - Z3ZZ6ZZ6
-  : -5
-  ? - NCZZ1ZZ7
-    - Z3ZZ3ZZ6
+  ? - ACZZ4ZZ8
+    - Z2ZZ4ZZ8
+  : 15
+  ? - CCZZ4ZZ8
+    - Z2ZZ4ZZ8
+  : 1
+  ? - NCZZ4ZZ9
+    - Z2ZZ4ZZ8
   : -15
-  ? - NCZZ5Z10
-    - Z4Z12Z10
-  : 1
-  ? - ACZZ3ZZ2
-    - Z4ZZ3ZZ2
-  : 1
-  ? - CCZZ2ZZ4
-    - Z3ZZ2ZZ4
-  : 1
-  ? - ACZZ4ZZ6
-    - Z4ZZ4ZZ5
-  : -1
-  ? - ACZZ6ZZ5
-    - Z3ZZ6ZZ5
-  : 20
   ? - OBJZZZZZ
-    - Z2ZZ9ZZ6
-  : 30
-  ? - NCZZ2ZZ7
-    - Z4ZZ3ZZ7
+    - Z3ZZ4ZZ8
+  : 25
+  ? - NCZZ1ZZ8
+    - Z3ZZ4ZZ8
+  : 25
+  ? - ACZZ4ZZ8
+    - Z3ZZ4ZZ8
+  : 25
+  ? - CCZZ4ZZ8
+    - Z3ZZ4ZZ8
   : 1
   ? - NCZZ1ZZ9
-    - Z3ZZ3ZZ8
-  : -15
-  ? - ACZZ2ZZ3
-    - Z2ZZ2ZZ3
-  : 15
-  ? - ACZZ9ZZ4
-    - Z4ZZ9ZZ4
-  : 1
-  ? - ACZ11ZZ3
-    - Z4Z11ZZ2
-  : -1
-  ? - ACZZ2ZZ5
-    - Z4ZZ2ZZ5
-  : 1
-  ? - CCZ10Z10
-    - Z2Z10Z10
-  : 1
-  ? - NCZZ1ZZ7
-    - Z4ZZ1ZZ7
-  : 1
-  ? - ACZZ3ZZ8
-    - Z2ZZ3ZZ8
-  : 10
-  ? - NCZZ5ZZ2
-    - Z3ZZ9ZZ2
-  : 40
-  ? - ACZZ1ZZ3
-    - Z4ZZ1ZZ3
-  : 1
-  ? - NCZZ2ZZ4
-    - Z3ZZ2ZZ4
-  : 25
+    - Z3ZZ4ZZ8
+  : -7
+  ? - ACZZ4ZZ9
+    - Z3ZZ4ZZ8
+  : -7
+  ? - NCZZ4ZZ9
+    - Z3ZZ4ZZ8
+  : -18
   ? - OBJZZZZZ
-    - Z4ZZ6ZZ6
+    - Z4ZZ4ZZ8
   : 1
-  ? - ACZ10ZZ4
-    - Z4Z10ZZ4
+  ? - NCZZ1ZZ8
+    - Z4ZZ4ZZ8
+  : 1
+  ? - ACZZ4ZZ8
+    - Z4ZZ4ZZ8
+  : 1
+  ? - NCZZ1ZZ9
+    - Z4ZZ4ZZ8
+  : -1
+  ? - ACZZ4ZZ9
+    - Z4ZZ4ZZ8
+  : -1
+  ? - CCZZ5ZZ8
+    - Z1ZZ5ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ8
+  : 15
+  ? - NCZZ2ZZ8
+    - Z2ZZ5ZZ8
+  : 15
+  ? - ACZZ5ZZ8
+    - Z2ZZ5ZZ8
+  : 15
+  ? - CCZZ5ZZ8
+    - Z2ZZ5ZZ8
+  : 1
+  ? - NCZZ4ZZ9
+    - Z2ZZ5ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ8
+  : 25
+  ? - NCZZ2ZZ8
+    - Z3ZZ5ZZ8
+  : 25
+  ? - ACZZ5ZZ8
+    - Z3ZZ5ZZ8
+  : 25
+  ? - CCZZ5ZZ8
+    - Z3ZZ5ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z3ZZ5ZZ8
+  : -7
+  ? - ACZZ5ZZ9
+    - Z3ZZ5ZZ8
+  : -7
+  ? - NCZZ4ZZ9
+    - Z3ZZ5ZZ8
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ8
   : 1
   ? - NCZZ2ZZ8
     - Z4ZZ5ZZ8
   : 1
-  ? - NCZZ5ZZ3
-    - Z3ZZ6ZZ2
-  : -15
-  ? - ACZZ7ZZ9
-    - Z4ZZ7ZZ8
-  : -1
-  ? - NCZZ4ZZ1
-    - Z4ZZ8ZZ1
+  ? - ACZZ5ZZ8
+    - Z4ZZ5ZZ8
   : 1
   ? - NCZZ2ZZ9
-    - Z3ZZ3ZZ8
-  : -5
-  ? - NCZZ4ZZ6
-    - Z4Z10ZZ6
-  : 1
-  ? - ACZZ9ZZ6
-    - Z4ZZ9ZZ5
+    - Z4ZZ5ZZ8
   : -1
+  ? - ACZZ5ZZ9
+    - Z4ZZ5ZZ8
+  : -1
+  ? - CCZZ6ZZ8
+    - Z1ZZ6ZZ8
+  : 1
   ? - OBJZZZZZ
     - Z2ZZ6ZZ8
   : 10
-  ? - NCZZ2Z10
-    - Z2ZZ2Z10
-  : 15
-  ? - NCZZ2ZZ9
-    - Z2ZZ6ZZ9
+  ? - NCZZ2ZZ8
+    - Z2ZZ6ZZ8
   : 10
-  ? - CCZZ5ZZ4
-    - Z1ZZ5ZZ4
-  : 1
-  ? - NCZZ1ZZ2
-    - Z3ZZ1ZZ1
-  : -5
-  ? - NCZZ3ZZ6
-    - Z2ZZ2ZZ5
-  : -15
-  ? - OBJZZZZZ
-    - Z3Z10ZZ4
-  : 20
-  ? - NCZZ1ZZ6
-    - Z3ZZ1ZZ5
-  : -5
-  ? - NCZZ4ZZ3
-    - Z4ZZ8ZZ2
-  : -1
-  ? - CCZ12ZZ1
-    - Z1Z12ZZ1
-  : 1
-  ? - NCZZ4ZZ5
-    - Z3ZZ9ZZ4
-  : -33
-  ? - OBJZZZZZ
-    - Z3Z12ZZ5
-  : 80
-  ? - ACZ11ZZ6
-    - Z4Z11ZZ5
-  : -1
-  ? - CCZZ1ZZ7
-    - Z2ZZ1ZZ7
-  : 1
-  ? - ACZZ5ZZ8
-    - Z2ZZ5ZZ8
-  : 15
-  ? - CCZZ7ZZ2
-    - Z1ZZ7ZZ2
-  : 1
-  ? - ACZZ1ZZ6
-    - Z3ZZ1ZZ6
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ7Z10
+  ? - ACZZ6ZZ8
+    - Z2ZZ6ZZ8
   : 10
-  ? - ACZZ4ZZ4
-    - Z4ZZ4ZZ4
-  : 1
-  ? - NCZZ2ZZ3
-    - Z4ZZ3ZZ2
-  : -1
-  ? - CCZZ5ZZ4
-    - Z3ZZ5ZZ4
-  : 1
-  ? - CCZZ7ZZ1
-    - Z1ZZ7ZZ1
-  : 1
-  ? - NCZZ2ZZ2
-    - Z2ZZ5ZZ2
-  : 15
-  ? - NCZZ1ZZ8
-    - Z3ZZ4ZZ7
-  : -7
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ1
-  : 1
-  ? - NCZZ2ZZ5
-    - Z2ZZ3ZZ5
-  : 10
-  ? - NCZZ6ZZ2
-    - Z3Z10ZZ1
-  : -15
-  ? - ACZZ7ZZ4
-    - Z4ZZ7ZZ3
-  : -1
-  ? - NCZZ4ZZ6
-    - Z3ZZ4ZZ5
-  : -18
-  ? - NCZZ6ZZ3
-    - Z2Z10ZZ2
-  : -10
-  ? - NCZZ6ZZ4
-    - Z4Z11ZZ3
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ9
-  : 15
-  ? - CCZZ8ZZ6
-    - Z2ZZ8ZZ6
-  : 1
-  ? - CCZ12ZZ8
-    - Z3Z12ZZ8
-  : 1
-  ? - ACZ11Z10
-    - Z3Z11Z10
-  : 25
-  ? - NCZZ5ZZ5
-    - Z2ZZ6ZZ4
-  : -10
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ7
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ9
-  : 20
-  ? - NCZZ2ZZ4
-    - Z2ZZ1ZZ3
-  : -10
-  ? - NCZZ2ZZ3
-    - Z2ZZ3ZZ3
-  : 10
-  ? - CCZZ6ZZ5
-    - Z1ZZ6ZZ5
-  : 1
-  ? - CCZ12ZZ5
-    - Z1Z12ZZ5
-  : 1
-  ? - ACZZ2ZZ7
-    - Z4ZZ2ZZ6
-  : -1
-  ? - NCZZ5ZZ5
-    - Z2Z12ZZ5
-  : 50
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ5
-  : 10
-  ? - NCZZ6ZZ8
-    - Z4Z11ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ4
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ1
-  : 20
-  ? - NCZZ2Z10
-    - Z3ZZ3ZZ9
-  : -5
-  ? - NCZZ3ZZ3
-    - Z3ZZ2ZZ2
-  : -18
-  ? - NCZZ6ZZ1
-    - Z3Z11ZZ1
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ3
-  : 20
-  ? - CCZ11Z10
-    - Z2Z11Z10
-  : 1
-  ? - NCZZ4ZZ8
-    - Z3Z10ZZ8
-  : 20
-  ? - NCZZ2ZZ6
-    - Z4ZZ5ZZ5
-  : -1
-  ? - ACZZ8ZZ6
-    - Z4ZZ8ZZ6
-  : 1
-  ? - ACZ10ZZ8
-    - Z3Z10ZZ7
-  : -5
-  ? - OBJZZZZZ
-    - Z4Z11ZZ7
-  : 1
-  ? - NCZZ4ZZ8
-    - Z2ZZ9ZZ7
-  : -30
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ2
-  : 25
-  ? - NCZZ6ZZ7
-    - Z4Z11ZZ6
-  : -1
-  ? - CCZ11ZZ8
-    - Z1Z11ZZ8
-  : 1
-  ? - NCZZ2ZZ6
-    - Z4ZZ6ZZ6
-  : 1
-  ? - NCZZ2ZZ2
-    - Z2ZZ6ZZ2
-  : 10
-  ? - CCZ11Z10
-    - Z1Z11Z10
-  : 1
-  ? - NCZZ4Z10
-    - Z2Z10Z10
-  : 10
-  ? - NCZZ2ZZ9
-    - Z4ZZ6ZZ9
-  : 1
-  ? - ACZ11ZZ7
-    - Z2Z11ZZ7
-  : 15
-  ? - NCZZ5ZZ3
-    - Z4ZZ9ZZ3
-  : 1
-  ? - NCZZ2ZZ6
-    - Z3ZZ6ZZ6
-  : 20
-  ? - CCZZ3ZZ6
-    - Z2ZZ3ZZ6
-  : 1
-  ? - CCZZ5ZZ2
-    - Z2ZZ5ZZ2
-  : 1
-  ? - NCZZ4ZZ5
-    - Z2ZZ4ZZ4
-  : -15
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ7
-  : 40
-  ? - NCZZ4ZZ8
-    - Z4ZZ8ZZ7
-  : -1
-  ? - NCZZ5ZZ2
-    - Z3ZZ9ZZ1
-  : -7
-  ? - NCZZ2ZZ5
-    - Z2ZZ1ZZ4
-  : -10
-  ? - NCZZ1ZZ5
-    - Z2ZZ4ZZ5
-  : 15
-  ? - ACZZ8ZZ2
-    - Z4ZZ8ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ8
-  : 1
-  ? - NCZZ4ZZ9
-    - Z4ZZ8ZZ9
-  : 1
-  ? - NCZZ3ZZ6
-    - Z4ZZ7ZZ5
-  : -1
-  ? - NCZZ1ZZ2
-    - Z3ZZ3ZZ1
-  : -15
-  ? - ACZZ3ZZ9
-    - Z4ZZ3ZZ8
-  : -1
-  ? - ACZZ4ZZ7
-    - Z4ZZ4ZZ6
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ7
-  : 15
-  ? - ACZZ9ZZ8
-    - Z3ZZ9ZZ8
-  : 40
-  ? - ACZZ8ZZ6
-    - Z3ZZ8ZZ6
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ1
-  : 1
-  ? - NCZZ2ZZ7
-    - Z2ZZ2ZZ7
-  : 15
-  ? - NCZZ5ZZ4
-    - Z4Z12ZZ4
-  : 1
-  ? - NCZZ1ZZ5
-    - Z3ZZ4ZZ4
-  : -7
-  ? - ACZZ3ZZ1
-    - Z4ZZ3ZZ1
-  : 1
-  ? - CCZ12ZZ2
-    - Z3Z12ZZ2
-  : 1
-  ? - NCZZ2Z10
-    - Z3ZZ6ZZ9
-  : -5
-  ? - ACZZ7ZZ6
-    - Z4ZZ7ZZ5
-  : -1
-  ? - NCZZ6Z10
-    - Z4Z11Z10
-  : 1
-  ? - NCZZ4ZZ6
-    - Z3ZZ9ZZ5
-  : -33
-  ? - NCZZ5ZZ6
-    - Z3ZZ6ZZ5
-  : -15
-  ? - NCZZ4ZZ5
-    - Z3Z10ZZ5
-  : 20
-  ? - NCZZ4ZZ6
-    - Z3Z10ZZ5
-  : -5
-  ? - NCZZ2ZZ4
-    - Z4ZZ5ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ4
-  : 30
-  ? - NCZZ4ZZ4
-    - Z4Z10ZZ3
-  : -1
-  ? - CCZZ2ZZ5
-    - Z1ZZ2ZZ5
-  : 1
-  ? - ACZZ4ZZ6
-    - Z3ZZ4ZZ5
-  : -7
-  ? - ACZ12ZZ9
-    - Z2Z12ZZ9
-  : 50
-  ? - ACZZ7ZZ2
-    - Z3ZZ7ZZ2
-  : 20
-  ? - NCZZ2ZZ6
-    - Z4ZZ2ZZ5
-  : -1
-  ? - NCZZ5ZZ8
-    - Z3ZZ6ZZ7
-  : -15
-  ? - ACZZ5ZZ2
-    - Z4ZZ5ZZ1
-  : -1
-  ? - ACZZ5ZZ4
-    - Z4ZZ5ZZ4
+  ? - CCZZ6ZZ8
+    - Z2ZZ6ZZ8
   : 1
   ? - NCZZ5ZZ9
-    - Z2Z12ZZ9
-  : 50
-  ? - ACZZ3ZZ3
-    - Z3ZZ3ZZ3
+    - Z2ZZ6ZZ8
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ8
   : 20
-  ? - CCZZ4ZZ5
-    - Z2ZZ4ZZ5
+  ? - NCZZ2ZZ8
+    - Z3ZZ6ZZ8
+  : 20
+  ? - ACZZ6ZZ8
+    - Z3ZZ6ZZ8
+  : 20
+  ? - CCZZ6ZZ8
+    - Z3ZZ6ZZ8
   : 1
-  ? - ACZZ4ZZ5
-    - Z4ZZ4ZZ5
+  ? - NCZZ2ZZ9
+    - Z3ZZ6ZZ8
+  : -5
+  ? - ACZZ6ZZ9
+    - Z3ZZ6ZZ8
+  : -5
+  ? - NCZZ5ZZ9
+    - Z3ZZ6ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ8
   : 1
-  ? - NCZZ2ZZ7
-    - Z4ZZ6ZZ6
+  ? - NCZZ2ZZ8
+    - Z4ZZ6ZZ8
+  : 1
+  ? - ACZZ6ZZ8
+    - Z4ZZ6ZZ8
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ6ZZ8
   : -1
-  ? - ACZZ5ZZ7
-    - Z2ZZ5ZZ7
-  : 15
+  ? - ACZZ6ZZ9
+    - Z4ZZ6ZZ8
+  : -1
   ? - CCZZ7ZZ8
     - Z1ZZ7ZZ8
   : 1
   ? - OBJZZZZZ
-    - Z4Z10ZZ5
-  : 1
-  ? - CCZ11ZZ7
-    - Z2Z11ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ9
-  : 25
-  ? - NCZZ2ZZ1
-    - Z2ZZ3ZZ1
+    - Z2ZZ7ZZ8
   : 10
-  ? - ACZZ8ZZ7
-    - Z2ZZ8ZZ7
-  : 30
-  ? - CCZ12Z10
-    - Z2Z12Z10
-  : 1
-  ? - CCZZ9ZZ9
-    - Z1ZZ9ZZ9
-  : 1
-  ? - CCZZ3ZZ3
-    - Z2ZZ3ZZ3
-  : 1
-  ? - ACZ10ZZ8
-    - Z2Z10ZZ8
+  ? - NCZZ3ZZ8
+    - Z2ZZ7ZZ8
   : 10
-  ? - OBJZZZZZ
-    - Z4Z11Z10
-  : 1
-  ? - NCZZ2ZZ3
-    - Z2ZZ6ZZ3
+  ? - ACZZ7ZZ8
+    - Z2ZZ7ZZ8
   : 10
-  ? - OBJZZZZZ
-    - Z2Z11ZZ4
-  : 15
-  ? - NCZZ5ZZ7
-    - Z3ZZ9ZZ6
-  : -7
-  ? - CCZ11ZZ1
-    - Z2Z11ZZ1
+  ? - CCZZ7ZZ8
+    - Z2ZZ7ZZ8
   : 1
-  ? - NCZZ4ZZ3
-    - Z3ZZ9ZZ2
-  : -33
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ6
-  : 1
-  ? - CCZZ5ZZ1
-    - Z1ZZ5ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ4Z10
-  : 1
-  ? - ACZZ6ZZ9
-    - Z4ZZ6ZZ9
-  : 1
-  ? - NCZZ1ZZ1
-    - Z3ZZ1ZZ1
-  : 20
-  ? - ACZZ6ZZ8
-    - Z4ZZ6ZZ8
-  : 1
-  ? - CCZZ4ZZ2
-    - Z3ZZ4ZZ2
-  : 1
-  ? - ACZ11ZZ6
-    - Z2Z11ZZ6
-  : 15
-  ? - NCZZ4ZZ6
-    - Z3ZZ8ZZ5
-  : -7
-  ? - NCZZ2ZZ7
-    - Z3ZZ1ZZ6
-  : -15
-  ? - OBJZZZZZ
-    - Z4Z10ZZ8
-  : 1
-  ? - CCZ10Z10
-    - Z1Z10Z10
-  : 1
-  ? - ACZ12Z10
-    - Z4Z12Z10
-  : 1
-  ? - NCZZ1ZZ9
-    - Z3ZZ4ZZ9
-  : 25
-  ? - NCZZ6ZZ1
-    - Z2Z11ZZ1
-  : 15
-  ? - NCZZ1ZZ1
-    - Z4ZZ1ZZ1
-  : 1
-  ? - NCZZ4ZZ2
-    - Z4Z10ZZ1
-  : -1
   ? - NCZZ5ZZ9
-    - Z2ZZ8ZZ8
-  : -30
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ8
-  : 1
-  ? - NCZZ2ZZ6
-    - Z3ZZ3ZZ5
-  : -5
-  ? - ACZZ1Z10
-    - Z2ZZ1Z10
-  : 10
-  ? - NCZZ4ZZ5
-    - Z3ZZ4ZZ4
-  : -18
-  ? - ACZZ1ZZ7
-    - Z2ZZ1ZZ7
-  : 10
-  ? - ACZZ6ZZ2
-    - Z4ZZ6ZZ1
-  : -1
-  ? - NCZZ5ZZ4
-    - Z4ZZ9ZZ4
-  : 1
-  ? - ACZ10ZZ5
-    - Z3Z10ZZ5
-  : 20
-  ? - NCZZ1ZZ6
-    - Z4ZZ4ZZ6
-  : 1
-  ? - ACZZ6ZZ4
-    - Z4ZZ6ZZ3
-  : -1
-  ? - ACZZ5ZZ4
-    - Z2ZZ5ZZ4
-  : 15
-  ? - ACZ11ZZ8
-    - Z4Z11ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z3Z11ZZ6
-  : 25
-  ? - NCZZ2ZZ9
-    - Z2ZZ2ZZ9
-  : 15
-  ? - ACZZ1ZZ2
-    - Z2ZZ1ZZ2
-  : 10
-  ? - ACZZ3ZZ3
-    - Z4ZZ3ZZ2
-  : -1
-  ? - NCZZ4Z10
-    - Z3ZZ8Z10
-  : 40
-  ? - CCZ10ZZ7
-    - Z3Z10ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ6Z10
-  : 10
-  ? - ACZZ3ZZ6
-    - Z2ZZ3ZZ6
-  : 10
-  ? - NCZZ1ZZ1
-    - Z2ZZ4ZZ1
-  : 15
-  ? - NCZZ1Z10
-    - Z4ZZ1Z10
-  : 1
-  ? - ACZ11ZZ1
-    - Z2Z11ZZ1
-  : 15
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ5
-  : 25
-  ? - CCZZ5ZZ6
-    - Z1ZZ5ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ9
-  : 1
-  ? - NCZZ5ZZ3
-    - Z2ZZ7ZZ2
+    - Z2ZZ7ZZ8
   : -10
-  ? - ACZZ3ZZ2
-    - Z3ZZ3ZZ1
-  : -5
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ3
-  : 25
-  ? - CCZZ4ZZ1
-    - Z3ZZ4ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z12ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ6
-  : 20
-  ? - ACZZ3ZZ4
-    - Z4ZZ3ZZ3
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ7
-  : 40
-  ? - ACZZ1ZZ4
-    - Z4ZZ1ZZ4
-  : 1
-  ? - CCZZ4ZZ9
-    - Z1ZZ4ZZ9
-  : 1
-  ? - ACZZ3Z10
-    - Z4ZZ3ZZ9
-  : -1
-  ? - NCZZ6ZZ6
-    - Z4Z11ZZ6
-  : 1
-  ? - NCZZ2ZZ7
-    - Z3ZZ6ZZ7
-  : 20
-  ? - ACZ10ZZ5
-    - Z2Z10ZZ5
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ1
-  : 30
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ3
-  : 25
-  ? - CCZZ7ZZ5
-    - Z1ZZ7ZZ5
-  : 1
-  ? - CCZZ4ZZ4
-    - Z2ZZ4ZZ4
-  : 1
-  ? - ACZZ6ZZ9
-    - Z3ZZ6ZZ8
-  : -5
-  ? - OBJZZZZZ
-    - Z3Z10ZZ5
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ6
-  : 1
-  ? - ACZ12ZZ7
-    - Z3Z12ZZ6
-  : -15
-  ? - OBJZZZZZ
-    - Z4Z10ZZ2
-  : 1
-  ? - CCZ11ZZ2
-    - Z3Z11ZZ2
-  : 1
-  ? - ACZZ5Z10
-    - Z4ZZ5ZZ9
-  : -1
-  ? - CCZZ1ZZ4
-    - Z3ZZ1ZZ4
-  : 1
-  ? - NCZZ2ZZ7
-    - Z3ZZ3ZZ7
-  : 20
-  ? - ACZ11ZZ3
-    - Z3Z11ZZ2
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ3
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ3
-  : 20
-  ? - NCZZ2ZZ3
-    - Z2ZZ5ZZ3
-  : 15
-  ? - NCZZ5ZZ8
-    - Z2ZZ8ZZ7
-  : -30
-  ? - ACZZ8ZZ6
-    - Z4ZZ8ZZ5
-  : -1
-  ? - ACZZ8ZZ8
-    - Z3ZZ8ZZ7
-  : -7
-  ? - CCZZ6ZZ1
-    - Z3ZZ6ZZ1
-  : 1
-  ? - NCZZ1ZZ9
-    - Z2ZZ1ZZ9
-  : 10
-  ? - ACZZ9Z10
-    - Z3ZZ9ZZ9
-  : -7
-  ? - ACZZ3ZZ2
-    - Z2ZZ3ZZ2
-  : 10
-  ? - ACZZ8ZZ1
-    - Z3ZZ8ZZ1
-  : 40
-  ? - CCZZ6ZZ2
-    - Z1ZZ6ZZ2
-  : 1
-  ? - NCZZ5ZZ7
-    - Z3ZZ6ZZ6
-  : -15
-  ? - ACZ10ZZ7
-    - Z4Z10ZZ6
-  : -1
-  ? - NCZZ4ZZ2
-    - Z3ZZ5ZZ1
-  : -18
-  ? - CCZZ2ZZ5
-    - Z2ZZ2ZZ5
-  : 1
-  ? - ACZ12ZZ7
-    - Z4Z12ZZ6
-  : -1
-  ? - NCZZ2ZZ9
-    - Z4ZZ3ZZ8
-  : -1
-  ? - CCZ12ZZ5
-    - Z2Z12ZZ5
-  : 1
-  ? - CCZZ4Z10
-    - Z2ZZ4Z10
-  : 1
-  ? - NCZZ5ZZ5
-    - Z3ZZ9ZZ5
-  : 40
-  ? - CCZZ6ZZ3
-    - Z3ZZ6ZZ3
-  : 1
-  ? - ACZZ9ZZ9
-    - Z4ZZ9ZZ8
-  : -1
-  ? - ACZZ6ZZ5
-    - Z4ZZ6ZZ4
-  : -1
-  ? - CCZZ5ZZ5
-    - Z1ZZ5ZZ5
-  : 1
-  ? - NCZZ2ZZ9
-    - Z4ZZ3ZZ9
-  : 1
-  ? - NCZZ2ZZ2
-    - Z3ZZ6ZZ1
-  : -5
-  ? - NCZZ2ZZ2
-    - Z4ZZ3ZZ2
-  : 1
-  ? - ACZZ1ZZ8
-    - Z2ZZ1ZZ8
-  : 10
-  ? - NCZZ1ZZ4
-    - Z4ZZ4ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ6
-  : 1
-  ? - CCZZ8ZZ4
-    - Z3ZZ8ZZ4
-  : 1
-  ? - NCZZ2ZZ6
-    - Z4ZZ3ZZ6
-  : 1
-  ? - NCZZ2ZZ6
-    - Z4ZZ5ZZ6
-  : 1
-  ? - ACZZ1Z10
-    - Z3ZZ1Z10
-  : 20
-  ? - NCZZ4ZZ7
-    - Z4Z10ZZ6
-  : -1
-  ? - ACZ10ZZ4
-    - Z4Z10ZZ3
-  : -1
-  ? - NCZZ2ZZ2
-    - Z2ZZ1ZZ1
-  : -10
-  ? - CCZ12ZZ1
-    - Z2Z12ZZ1
-  : 1
-  ? - NCZZ4ZZ1
-    - Z3ZZ8ZZ1
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ8
-  : 1
-  ? - NCZZ2ZZ3
-    - Z3ZZ5ZZ3
-  : 25
-  ? - NCZZ2ZZ7
-    - Z3ZZ5ZZ7
-  : 25
-  ? - NCZZ4ZZ4
-    - Z3ZZ8ZZ3
-  : -7
-  ? - ACZ12ZZ8
-    - Z2Z12ZZ8
-  : 50
-  ? - ACZZ9ZZ5
-    - Z2ZZ9ZZ5
-  : 30
-  ? - ACZZ8ZZ2
-    - Z4ZZ8ZZ1
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ6
-  : 15
-  ? - NCZZ4ZZ7
-    - Z4ZZ8ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ4Z10
-  : 25
-  ? - ACZ11ZZ6
-    - Z3Z11ZZ6
-  : 25
-  ? - NCZZ4Z10
-    - Z4ZZ8Z10
-  : 1
-  ? - NCZZ1ZZ6
-    - Z4ZZ1ZZ6
-  : 1
-  ? - NCZZ5ZZ3
-    - Z3ZZ7ZZ2
-  : -15
-  ? - NCZZ3ZZ3
-    - Z4ZZ7ZZ3
-  : 1
-  ? - NCZZ4ZZ3
-    - Z4Z10ZZ3
-  : 1
-  ? - ACZ12ZZ3
-    - Z4Z12ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ3
-  : 10
-  ? - NCZZ5ZZ6
-    - Z4Z12ZZ5
-  : -1
-  ? - ACZ12ZZ5
-    - Z3Z12ZZ5
-  : 80
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ5
-  : 15
-  ? - NCZZ4ZZ7
-    - Z3ZZ8ZZ6
-  : -7
-  ? - ACZZ7Z10
-    - Z2ZZ7Z10
-  : 10
-  ? - CCZZ4ZZ6
-    - Z3ZZ4ZZ6
-  : 1
-  ? - ACZZ3ZZ7
-    - Z3ZZ3ZZ7
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z11ZZ9
-  : 1
-  ? - NCZZ3ZZ3
-    - Z2ZZ7ZZ3
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ5
-  : 30
-  ? - NCZZ5ZZ4
-    - Z2ZZ9ZZ4
-  : 30
-  ? - ACZZ3ZZ9
-    - Z3ZZ3ZZ9
-  : 20
-  ? - ACZZ4ZZ7
-    - Z3ZZ4ZZ6
-  : -7
-  ? - CCZZ1ZZ5
-    - Z3ZZ1ZZ5
-  : 1
-  ? - ACZZ2ZZ6
-    - Z3ZZ2ZZ6
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ3
-  : 40
-  ? - NCZZ4ZZ4
-    - Z2Z10ZZ4
-  : 10
-  ? - NCZZ2ZZ7
-    - Z2ZZ3ZZ7
-  : 10
-  ? - CCZZ4ZZ7
-    - Z3ZZ4ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ5
-  : 10
-  ? - NCZZ2ZZ1
-    - Z3ZZ6ZZ1
-  : 20
-  ? - NCZZ4ZZ8
-    - Z2ZZ5ZZ7
-  : -15
-  ? - NCZZ4ZZ9
-    - Z4Z10ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z10ZZ9
-  : 1
-  ? - ACZZ3ZZ3
-    - Z3ZZ3ZZ2
-  : -5
-  ? - NCZZ6Z10
-    - Z3Z11ZZ9
-  : -7
-  ? - ACZZ7Z10
-    - Z4ZZ7ZZ9
-  : -1
-  ? - ACZZ1ZZ9
-    - Z3ZZ1ZZ8
-  : -5
-  ? - OBJZZZZZ
-    - Z3Z10ZZ9
-  : 20
-  ? - ACZZ2ZZ3
-    - Z4ZZ2ZZ2
-  : -1
-  ? - ACZZ3Z10
-    - Z3ZZ3ZZ9
-  : -5
-  ? - ACZZ3ZZ5
-    - Z3ZZ3ZZ5
-  : 20
-  ? - ACZ10ZZ2
-    - Z3Z10ZZ2
-  : 20
-  ? - CCZZ8ZZ6
-    - Z3ZZ8ZZ6
-  : 1
-  ? - NCZZ6ZZ5
-    - Z2Z10ZZ4
-  : -10
-  ? - NCZZ4ZZ4
-    - Z4Z10ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ8
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ9Z10
-  : 40
-  ? - CCZ10ZZ9
-    - Z1Z10ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ3
-  : 15
-  ? - CCZ10ZZ7
-    - Z1Z10ZZ7
-  : 1
-  ? - ACZZ5ZZ7
-    - Z3ZZ5ZZ6
-  : -7
-  ? - CCZZ5ZZ3
-    - Z3ZZ5ZZ3
-  : 1
-  ? - NCZZ5ZZ8
-    - Z2ZZ6ZZ7
-  : -10
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ4
-  : 20
-  ? - NCZZ6ZZ2
-    - Z4Z11ZZ2
-  : 1
-  ? - CCZ11ZZ7
-    - Z1Z11ZZ7
-  : 1
-  ? - ACZ10ZZ9
-    - Z2Z10ZZ9
-  : 10
-  ? - ACZZ9ZZ3
-    - Z2ZZ9ZZ3
-  : 30
-  ? - CCZZ7ZZ2
-    - Z3ZZ7ZZ2
-  : 1
-  ? - CCZZ1ZZ7
-    - Z3ZZ1ZZ7
-  : 1
-  ? - NCZZ6ZZ4
-    - Z3Z11ZZ3
-  : -7
-  ? - NCZZ5ZZ6
-    - Z3Z12ZZ5
-  : -15
-  ? - NCZZ4Z10
-    - Z3Z10Z10
-  : 20
-  ? - NCZZ1ZZ8
-    - Z4ZZ4ZZ7
-  : -1
-  ? - NCZZ4ZZ3
-    - Z2ZZ5ZZ2
-  : -15
-  ? - NCZZ4ZZ7
-    - Z2Z10ZZ7
-  : 10
-  ? - NCZZ5ZZ7
-    - Z2Z12ZZ7
-  : 50
-  ? - ACZZ1ZZ3
-    - Z4ZZ1ZZ2
-  : -1
-  ? - NCZZ2ZZ2
-    - Z3ZZ3ZZ1
-  : -5
-  ? - NCZZ2ZZ6
-    - Z3ZZ2ZZ5
-  : -7
-  ? - NCZZ3ZZ5
-    - Z3ZZ7ZZ5
-  : 20
-  ? - CCZZ7ZZ3
-    - Z1ZZ7ZZ3
-  : 1
-  ? - NCZZ4Z10
-    - Z4Z10Z10
-  : 1
-  ? - NCZZ1ZZ3
-    - Z2ZZ1ZZ3
-  : 10
-  ? - NCZZ2ZZ2
-    - Z3ZZ5ZZ2
-  : 25
-  ? - NCZZ4ZZ8
-    - Z4Z10ZZ7
-  : -1
-  ? - CCZZ7ZZ5
-    - Z2ZZ7ZZ5
-  : 1
-  ? - NCZZ2ZZ2
-    - Z3ZZ2ZZ2
-  : 25
-  ? - NCZZ2Z10
-    - Z3ZZ3Z10
-  : 20
-  ? - CCZZ6ZZ8
-    - Z2ZZ6ZZ8
-  : 1
-  ? - CCZZ6ZZ7
-    - Z3ZZ6ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ6
-  : 1
-  ? - NCZZ2ZZ1
-    - Z3ZZ2ZZ1
-  : 25
   ? - OBJZZZZZ
     - Z3ZZ7ZZ8
   : 20
-  ? - NCZZ1ZZ7
-    - Z2ZZ4ZZ7
-  : 15
-  ? - OBJZZZZZ
-    - Z2Z12Z10
-  : 50
-  ? - NCZZ2ZZ3
-    - Z4ZZ2ZZ2
-  : -1
-  ? - ACZZ6ZZ4
-    - Z3ZZ6ZZ4
+  ? - NCZZ3ZZ8
+    - Z3ZZ7ZZ8
   : 20
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ7
-  : 30
-  ? - NCZZ5ZZ7
-    - Z2ZZ7ZZ6
-  : -10
-  ? - ACZ12ZZ5
-    - Z2Z12ZZ5
-  : 50
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ5
+  ? - ACZZ7ZZ8
+    - Z3ZZ7ZZ8
+  : 20
+  ? - CCZZ7ZZ8
+    - Z3ZZ7ZZ8
   : 1
-  ? - ACZZ2ZZ3
-    - Z4ZZ2ZZ3
-  : 1
-  ? - NCZZ2ZZ5
-    - Z3ZZ6ZZ4
+  ? - NCZZ3ZZ9
+    - Z3ZZ7ZZ8
   : -5
-  ? - CCZZ9ZZ1
-    - Z3ZZ9ZZ1
-  : 1
-  ? - CCZZ8ZZ5
-    - Z2ZZ8ZZ5
-  : 1
-  ? - NCZZ6ZZ8
-    - Z2Z11ZZ8
-  : 15
-  ? - ACZZ4ZZ1
-    - Z4ZZ4ZZ1
-  : 1
-  ? - ACZ10ZZ2
-    - Z3Z10ZZ1
-  : -5
-  ? - CCZZ5ZZ7
-    - Z1ZZ5ZZ7
-  : 1
-  ? - ACZZ6ZZ5
-    - Z2ZZ6ZZ5
-  : 10
-  ? - NCZZ6ZZ7
-    - Z2Z10ZZ6
-  : -10
-  ? - OBJZZZZZ
-    - Z4ZZ5Z10
-  : 1
-  ? - ACZZ5ZZ5
-    - Z4ZZ5ZZ4
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ7
-  : 15
-  ? - NCZZ3Z10
-    - Z3ZZ2ZZ9
-  : -18
-  ? - ACZZ9ZZ1
-    - Z2ZZ9ZZ1
-  : 30
-  ? - CCZ10ZZ2
-    - Z1Z10ZZ2
-  : 1
-  ? - NCZZ2ZZ8
-    - Z2ZZ6ZZ8
-  : 10
-  ? - ACZZ8Z10
-    - Z4ZZ8ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ5
-  : 10
-  ? - NCZZ5ZZ5
-    - Z3ZZ9ZZ4
-  : -7
-  ? - ACZ12ZZ4
-    - Z2Z12ZZ4
-  : 50
-  ? - NCZZ2ZZ8
-    - Z2ZZ1ZZ7
-  : -10
-  ? - ACZZ4Z10
-    - Z3ZZ4ZZ9
-  : -7
-  ? - ACZZ2ZZ6
-    - Z3ZZ2ZZ5
-  : -7
-  ? - CCZZ3ZZ3
-    - Z3ZZ3ZZ3
-  : 1
-  ? - ACZZ9ZZ3
-    - Z4ZZ9ZZ3
-  : 1
-  ? - ACZZ8ZZ3
-    - Z4ZZ8ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ7
-  : 1
-  ? - NCZZ5ZZ5
-    - Z4Z12ZZ5
-  : 1
-  ? - ACZZ5ZZ9
-    - Z3ZZ5ZZ8
-  : -7
-  ? - NCZZ2Z10
-    - Z3ZZ2ZZ9
-  : -7
-  ? - OBJZZZZZ
-    - Z3Z12ZZ9
-  : 80
-  ? - NCZZ2ZZ3
-    - Z3ZZ5ZZ2
-  : -7
-  ? - NCZZ4ZZ4
-    - Z3ZZ9ZZ3
-  : -33
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ8
-  : 30
   ? - ACZZ7ZZ9
-    - Z4ZZ7ZZ9
-  : 1
-  ? - NCZZ5ZZ4
-    - Z3ZZ9ZZ4
-  : 40
-  ? - NCZZ3ZZ4
-    - Z2ZZ2ZZ3
-  : -15
-  ? - OBJZZZZZ
-    - Z2ZZ2Z10
-  : 15
-  ? - OBJZZZZZ
-    - Z2Z12ZZ1
-  : 50
-  ? - ACZZ5ZZ1
-    - Z2ZZ5ZZ1
-  : 15
-  ? - CCZ10ZZ4
-    - Z3Z10ZZ4
-  : 1
-  ? - ACZZ1ZZ7
-    - Z4ZZ1ZZ6
-  : -1
-  ? - CCZ10ZZ8
-    - Z1Z10ZZ8
-  : 1
-  ? - ACZZ5Z10
-    - Z3ZZ5Z10
-  : 25
-  ? - NCZZ6ZZ9
-    - Z3Z10ZZ8
-  : -15
-  ? - ACZZ4ZZ1
-    - Z3ZZ4ZZ1
-  : 25
-  ? - NCZZ5ZZ7
-    - Z4Z12ZZ7
-  : 1
-  ? - ACZZ6ZZ8
-    - Z3ZZ6ZZ7
-  : -5
-  ? - ACZ10ZZ3
-    - Z2Z10ZZ3
-  : 10
-  ? - OBJZZZZZ
-    - Z3Z12ZZ4
-  : 80
-  ? - ACZZ1ZZ1
-    - Z2ZZ1ZZ1
-  : 10
-  ? - NCZZ2ZZ4
-    - Z2ZZ5ZZ4
-  : 15
-  ? - NCZZ6ZZ7
-    - Z3Z11ZZ7
-  : 25
-  ? - ACZ10ZZ5
-    - Z4Z10ZZ5
-  : 1
-  ? - NCZZ2ZZ6
-    - Z2ZZ2ZZ6
-  : 15
-  ? - ACZZ3ZZ1
-    - Z2ZZ3ZZ1
-  : 10
-  ? - CCZZ8ZZ3
-    - Z1ZZ8ZZ3
-  : 1
-  ? - CCZZ2ZZ6
-    - Z3ZZ2ZZ6
-  : 1
-  ? - ACZ12ZZ9
-    - Z3Z12ZZ8
-  : -15
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ8
-  : 10
-  ? - ACZZ6ZZ2
-    - Z2ZZ6ZZ2
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ7
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ5
-  : 20
-  ? - CCZ10ZZ3
-    - Z2Z10ZZ3
-  : 1
-  ? - ACZZ3ZZ7
-    - Z4ZZ3ZZ7
-  : 1
-  ? - ACZ11ZZ3
-    - Z4Z11ZZ3
-  : 1
-  ? - ACZZ6ZZ7
-    - Z4ZZ6ZZ6
-  : -1
-  ? - ACZZ6ZZ7
-    - Z2ZZ6ZZ7
-  : 10
-  ? - NCZZ2ZZ1
-    - Z3ZZ3ZZ1
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ9
-  : 1
-  ? - NCZZ1ZZ3
-    - Z3ZZ4ZZ3
-  : 25
-  ? - NCZZ1ZZ3
-    - Z3ZZ3ZZ2
-  : -15
-  ? - ACZZ2ZZ7
-    - Z4ZZ2ZZ7
-  : 1
-  ? - CCZZ6Z10
-    - Z1ZZ6Z10
-  : 1
-  ? - ACZ12Z10
-    - Z3Z12Z10
-  : 80
-  ? - OBJZZZZZ
-    - Z4Z11ZZ2
-  : 1
-  ? - ACZZ9Z10
-    - Z4ZZ9Z10
-  : 1
-  ? - ACZ11ZZ9
-    - Z4Z11ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ5
-  : 20
-  ? - ACZZ6ZZ1
-    - Z2ZZ6ZZ1
-  : 10
-  ? - NCZZ2ZZ1
-    - Z3ZZ5ZZ1
-  : 25
-  ? - ACZZ1ZZ6
-    - Z4ZZ1ZZ6
-  : 1
-  ? - NCZZ5ZZ3
-    - Z3Z12ZZ2
-  : -15
-  ? - ACZ11ZZ1
-    - Z3Z11ZZ1
-  : 25
-  ? - NCZZ5ZZ4
-    - Z3ZZ7ZZ3
-  : -15
-  ? - ACZ11ZZ9
-    - Z4Z11ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ2
-  : 1
-  ? - ACZZ6ZZ6
-    - Z2ZZ6ZZ6
-  : 10
-  ? - NCZZ4Z10
-    - Z3ZZ8ZZ9
-  : -7
-  ? - NCZZ6Z10
-    - Z2Z10ZZ9
-  : -10
-  ? - ACZ10Z10
-    - Z2Z10Z10
-  : 10
-  ? - CCZZ9ZZ9
-    - Z2ZZ9ZZ9
-  : 1
-  ? - NCZZ3ZZ8
-    - Z3ZZ7ZZ7
-  : -5
-  ? - NCZZ5ZZ4
-    - Z2ZZ7ZZ3
-  : -10
-  ? - NCZZ1ZZ2
-    - Z4ZZ4ZZ1
-  : -1
-  ? - NCZZ4ZZ6
-    - Z3Z10ZZ6
-  : 20
-  ? - ACZ10Z10
-    - Z4Z10Z10
-  : 1
-  ? - ACZ12ZZ7
-    - Z2Z12ZZ7
-  : 50
-  ? - ACZZ3ZZ3
-    - Z4ZZ3ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ5
-  : 10
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ9
-  : 1
-  ? - ACZZ5ZZ6
-    - Z4ZZ5ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ4
-  : 10
-  ? - ACZZ7ZZ1
-    - Z3ZZ7ZZ1
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z11ZZ5
-  : 1
-  ? - NCZZ4ZZ1
-    - Z3Z10ZZ1
-  : 20
-  ? - NCZZ5ZZ5
-    - Z4ZZ9ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ1
-  : 25
-  ? - NCZZ5Z10
-    - Z2Z12Z10
-  : 50
-  ? - NCZZ5ZZ4
-    - Z3Z12ZZ4
-  : 80
-  ? - CCZZ7ZZ4
-    - Z1ZZ7ZZ4
-  : 1
-  ? - ACZ11ZZ9
-    - Z2Z11ZZ9
-  : 15
-  ? - NCZZ4ZZ4
-    - Z2ZZ4ZZ3
-  : -15
-  ? - CCZZ4ZZ2
-    - Z1ZZ4ZZ2
-  : 1
-  ? - NCZZ1ZZ3
-    - Z4ZZ4ZZ3
-  : 1
-  ? - NCZZ4ZZ7
-    - Z3ZZ8ZZ7
-  : 40
-  ? - NCZZ3ZZ4
-    - Z3ZZ2ZZ3
-  : -18
-  ? - ACZ10ZZ4
-    - Z3Z10ZZ4
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ5
-  : 15
-  ? - ACZ12ZZ8
-    - Z4Z12ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ7
-  : 10
-  ? - CCZZ5ZZ7
-    - Z2ZZ5ZZ7
-  : 1
-  ? - ACZ12ZZ4
-    - Z3Z12ZZ3
-  : -15
-  ? - ACZZ4ZZ3
-    - Z3ZZ4ZZ3
-  : 25
-  ? - ACZZ8ZZ8
-    - Z4ZZ8ZZ7
-  : -1
-  ? - NCZZ4ZZ9
-    - Z3Z10ZZ8
-  : -5
-  ? - ACZ10ZZ6
-    - Z2Z10ZZ6
-  : 10
-  ? - CCZZ9ZZ3
-    - Z2ZZ9ZZ3
-  : 1
-  ? - NCZZ2ZZ7
-    - Z3ZZ2ZZ7
-  : 25
-  ? - ACZ10ZZ1
-    - Z3Z10ZZ1
-  : 20
-  ? - NCZZ1ZZ8
-    - Z2ZZ1ZZ8
-  : 10
-  ? - ACZZ3ZZ5
-    - Z2ZZ3ZZ5
-  : 10
-  ? - NCZZ2Z10
-    - Z4ZZ6ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ3
-  : 1
-  ? - NCZZ1ZZ1
-    - Z3ZZ4ZZ1
-  : 25
-  ? - ACZZ4ZZ8
-    - Z4ZZ4ZZ7
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ2
-  : 1
-  ? - ACZ10ZZ3
-    - Z4Z10ZZ2
-  : -1
-  ? - NCZZ2ZZ9
-    - Z4ZZ6ZZ8
-  : -1
-  ? - ACZZ2ZZ3
-    - Z3ZZ2ZZ2
-  : -7
-  ? - NCZZ3ZZ1
-    - Z3ZZ7ZZ1
-  : 20
-  ? - CCZZ6ZZ9
-    - Z2ZZ6ZZ9
-  : 1
-  ? - CCZZ9ZZ5
-    - Z1ZZ9ZZ5
-  : 1
-  ? - ACZZ2ZZ9
-    - Z4ZZ2ZZ9
-  : 1
-  ? - NCZZ4ZZ5
-    - Z3ZZ8ZZ5
-  : 40
-  ? - ACZ11ZZ5
-    - Z4Z11ZZ4
-  : -1
-  ? - ACZZ7ZZ6
-    - Z4ZZ7ZZ6
-  : 1
-  ? - NCZZ5ZZ2
-    - Z4ZZ9ZZ2
-  : 1
-  ? - ACZZ5ZZ7
-    - Z4ZZ5ZZ7
-  : 1
-  ? - ACZZ9ZZ3
-    - Z4ZZ9ZZ2
-  : -1
-  ? - ACZ10ZZ3
-    - Z3Z10ZZ2
-  : -5
-  ? - ACZZ5ZZ9
-    - Z2ZZ5ZZ9
-  : 15
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ2
-  : 40
-  ? - CCZZ2ZZ7
-    - Z1ZZ2ZZ7
-  : 1
-  ? - ACZZ8ZZ2
-    - Z3ZZ8ZZ2
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ3
-  : 1
-  ? - ACZZ6ZZ5
-    - Z3ZZ6ZZ4
-  : -5
-  ? - NCZZ4ZZ5
-    - Z2ZZ9ZZ4
-  : -30
-  ? - NCZZ5ZZ7
-    - Z3Z12ZZ6
-  : -15
-  ? - NCZZ6ZZ4
-    - Z2Z11ZZ4
-  : 15
-  ? - ACZZ7ZZ4
-    - Z3ZZ7ZZ4
-  : 20
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ6
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ7
-  : 15
-  ? - NCZZ5ZZ7
-    - Z2ZZ8ZZ6
-  : -30
-  ? - NCZZ2ZZ8
-    - Z3ZZ2ZZ7
-  : -7
-  ? - ACZZ1ZZ5
-    - Z4ZZ1ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ2
-  : 1
-  ? - NCZZ1ZZ4
-    - Z3ZZ1ZZ3
-  : -5
-  ? - NCZZ2ZZ4
-    - Z4ZZ3ZZ3
-  : -1
-  ? - CCZ11ZZ6
-    - Z2Z11ZZ6
-  : 1
-  ? - ACZZ8ZZ7
-    - Z3ZZ8ZZ6
-  : -7
-  ? - NCZZ1ZZ9
-    - Z2ZZ4ZZ9
-  : 15
-  ? - NCZZ4ZZ5
-    - Z4ZZ8ZZ5
-  : 1
-  ? - NCZZ5ZZ8
-    - Z3ZZ8ZZ7
-  : -33
-  ? - NCZZ4ZZ9
-    - Z3ZZ8ZZ9
-  : 40
-  ? - NCZZ2Z10
-    - Z4ZZ6Z10
-  : 1
-  ? - ACZZ8ZZ5
-    - Z3ZZ8ZZ5
-  : 40
-  ? - CCZ12ZZ7
-    - Z3Z12ZZ7
-  : 1
-  ? - NCZZ6ZZ4
-    - Z3Z10ZZ3
-  : -15
-  ? - NCZZ4ZZ4
-    - Z4ZZ8ZZ3
-  : -1
-  ? - CCZZ9ZZ8
-    - Z1ZZ9ZZ8
-  : 1
-  ? - NCZZ4ZZ5
-    - Z3ZZ8ZZ4
-  : -7
-  ? - NCZZ5ZZ5
-    - Z2ZZ9ZZ5
-  : 30
-  ? - CCZZ3ZZ7
-    - Z3ZZ3ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ2
-  : 30
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ3
-  : 30
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ9
-  : 20
-  ? - ACZZ8ZZ1
-    - Z2ZZ8ZZ1
-  : 30
-  ? - NCZZ4ZZ5
-    - Z4Z10ZZ5
-  : 1
-  ? - ACZZ3Z10
-    - Z3ZZ3Z10
-  : 20
-  ? - NCZZ1ZZ7
-    - Z2ZZ1ZZ7
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ4
-  : 15
-  ? - NCZZ2Z10
-    - Z4ZZ2ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z2Z10ZZ8
-  : 10
-  ? - NCZZ5ZZ6
-    - Z3ZZ9ZZ6
-  : 40
-  ? - NCZZ2Z10
-    - Z2ZZ3Z10
-  : 10
-  ? - NCZZ2ZZ2
-    - Z3ZZ3ZZ2
-  : 20
-  ? - NCZZ2ZZ5
-    - Z3ZZ5ZZ4
-  : -7
-  ? - ACZZ5ZZ9
-    - Z4ZZ5ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z11ZZ3
-  : 25
-  ? - ACZ11ZZ7
-    - Z4Z11ZZ7
-  : 1
-  ? - NCZZ3ZZ2
-    - Z3ZZ2ZZ1
-  : -18
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ3
-  : 15
-  ? - ACZ11ZZ5
-    - Z3Z11ZZ4
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ2
-  : 20
-  ? - NCZZ4ZZ5
-    - Z4ZZ8ZZ4
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ4
-  : 1
-  ? - ACZZ2ZZ4
-    - Z4ZZ2ZZ4
-  : 1
-  ? - NCZZ4ZZ8
-    - Z3ZZ9ZZ7
-  : -33
-  ? - CCZZ3ZZ9
-    - Z2ZZ3ZZ9
-  : 1
-  ? - ACZZ3ZZ2
-    - Z3ZZ3ZZ2
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z12ZZ4
-  : 1
-  ? - ACZZ4ZZ5
-    - Z3ZZ4ZZ5
-  : 25
-  ? - NCZZ4ZZ6
-    - Z2ZZ4ZZ5
-  : -15
-  ? - ACZZ3Z10
-    - Z4ZZ3Z10
-  : 1
-  ? - CCZZ1Z10
-    - Z3ZZ1Z10
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ8
-  : 1
-  ? - ACZZ4ZZ8
-    - Z2ZZ4ZZ8
-  : 15
-  ? - NCZZ2ZZ4
-    - Z4ZZ6ZZ3
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ7
-  : 20
-  ? - NCZZ2ZZ4
-    - Z2ZZ6ZZ4
-  : 10
-  ? - CCZZ8ZZ3
-    - Z3ZZ8ZZ3
-  : 1
-  ? - ACZZ5ZZ2
-    - Z2ZZ5ZZ2
-  : 15
-  ? - ACZZ1Z10
-    - Z3ZZ1ZZ9
-  : -5
-  ? - CCZZ7ZZ9
-    - Z2ZZ7ZZ9
-  : 1
-  ? - ACZZ7ZZ9
-    - Z2ZZ7ZZ9
-  : 10
-  ? - CCZZ5ZZ8
-    - Z2ZZ5ZZ8
-  : 1
-  ? - ACZZ6ZZ6
-    - Z4ZZ6ZZ5
-  : -1
-  ? - NCZZ2ZZ4
-    - Z4ZZ5ZZ3
-  : -1
-  ? - ACZ11ZZ6
-    - Z3Z11ZZ5
-  : -7
-  ? - NCZZ4ZZ7
-    - Z4Z10ZZ7
-  : 1
-  ? - ACZZ8ZZ4
-    - Z2ZZ8ZZ4
-  : 30
-  ? - OBJZZZZZ
-    - Z4Z12ZZ7
-  : 1
-  ? - CCZZ6ZZ6
-    - Z1ZZ6ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ7
-  : 25
-  ? - ACZ12ZZ5
-    - Z3Z12ZZ4
-  : -15
-  ? - NCZZ3ZZ6
-    - Z3ZZ7ZZ5
-  : -5
-  ? - ACZZ4Z10
-    - Z4ZZ4Z10
-  : 1
-  ? - ACZZ1ZZ5
-    - Z2ZZ1ZZ5
-  : 10
-  ? - ACZZ3ZZ6
-    - Z3ZZ3ZZ6
-  : 20
-  ? - ACZ11ZZ6
-    - Z4Z11ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z12ZZ8
-  : 80
-  ? - NCZZ3ZZ7
-    - Z3ZZ2ZZ6
-  : -18
-  ? - NCZZ5ZZ1
-    - Z3ZZ9ZZ1
-  : 40
-  ? - CCZZ6Z10
-    - Z3ZZ6Z10
-  : 1
-  ? - CCZZ9ZZ4
-    - Z3ZZ9ZZ4
-  : 1
-  ? - NCZZ1Z10
-    - Z3ZZ1Z10
-  : 20
-  ? - OBJZZZZZ
-    - Z2Z12ZZ7
-  : 50
-  ? - NCZZ2ZZ3
-    - Z4ZZ5ZZ2
-  : -1
-  ? - CCZ12ZZ2
-    - Z1Z12ZZ2
-  : 1
-  ? - NCZZ2ZZ8
-    - Z4ZZ2ZZ7
-  : -1
-  ? - CCZZ8ZZ7
-    - Z2ZZ8ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ8
-  : 10
-  ? - NCZZ2ZZ5
-    - Z3ZZ6ZZ5
-  : 20
-  ? - NCZZ5ZZ6
-    - Z3Z12ZZ6
-  : 80
-  ? - CCZZ9ZZ1
-    - Z2ZZ9ZZ1
-  : 1
-  ? - ACZZ1ZZ6
-    - Z3ZZ1ZZ5
-  : -5
-  ? - NCZZ3ZZ7
-    - Z2ZZ2ZZ6
-  : -15
-  ? - NCZZ2Z10
-    - Z4ZZ5ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ1
-  : 1
-  ? - ACZZ4ZZ8
-    - Z3ZZ4ZZ7
-  : -7
-  ? - NCZZ2ZZ6
-    - Z3ZZ3ZZ6
-  : 20
-  ? - CCZ12ZZ4
-    - Z3Z12ZZ4
-  : 1
-  ? - ACZZ6Z10
-    - Z4ZZ6Z10
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z11Z10
-  : 25
-  ? - CCZ12ZZ4
-    - Z2Z12ZZ4
-  : 1
-  ? - ACZZ5ZZ8
-    - Z3ZZ5ZZ7
-  : -7
-  ? - NCZZ5ZZ3
-    - Z2ZZ9ZZ3
-  : 30
-  ? - OBJZZZZZ
-    - Z2Z10ZZ3
-  : 10
-  ? - NCZZ5ZZ6
-    - Z2Z12ZZ6
-  : 50
-  ? - OBJZZZZZ
-    - Z2ZZ3Z10
-  : 10
-  ? - NCZZ2ZZ7
-    - Z2ZZ6ZZ7
-  : 10
-  ? - ACZZ6Z10
-    - Z2ZZ6Z10
-  : 10
-  ? - ACZZ1ZZ9
-    - Z4ZZ1ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z11ZZ8
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ2
-  : 30
-  ? - NCZZ2ZZ5
-    - Z3ZZ2ZZ4
-  : -7
-  ? - NCZZ4Z10
-    - Z3ZZ9ZZ9
-  : -33
-  ? - NCZZ4ZZ2
-    - Z3Z10ZZ2
-  : 20
-  ? - NCZZ1ZZ6
-    - Z2ZZ4ZZ6
-  : 15
-  ? - OBJZZZZZ
-    - Z2ZZ9Z10
-  : 30
-  ? - ACZ12ZZ2
-    - Z2Z12ZZ2
-  : 50
-  ? - NCZZ6ZZ3
-    - Z3Z10ZZ2
-  : -15
-  ? - NCZZ5Z10
-    - Z3ZZ6ZZ9
-  : -15
-  ? - NCZZ6ZZ9
-    - Z3Z11ZZ9
-  : 25
-  ? - ACZZ2ZZ6
-    - Z2ZZ2ZZ6
-  : 15
-  ? - OBJZZZZZ
-    - Z3Z11ZZ7
-  : 25
-  ? - CCZZ6ZZ8
-    - Z3ZZ6ZZ8
-  : 1
-  ? - CCZZ5ZZ3
-    - Z2ZZ5ZZ3
-  : 1
-  ? - NCZZ5ZZ9
-    - Z4ZZ9ZZ8
-  : -1
-  ? - ACZZ6ZZ9
-    - Z2ZZ6ZZ9
-  : 10
-  ? - NCZZ3ZZ5
-    - Z4ZZ7ZZ4
-  : -1
-  ? - NCZZ4ZZ7
-    - Z3ZZ4ZZ6
-  : -18
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ3
-  : 1
-  ? - CCZZ9ZZ2
-    - Z2ZZ9ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ9ZZ3
-  : 1
-  ? - ACZZ4ZZ3
-    - Z4ZZ4ZZ2
-  : -1
-  ? - NCZZ5ZZ5
-    - Z3ZZ7ZZ4
-  : -15
-  ? - CCZZ3ZZ6
-    - Z1ZZ3ZZ6
-  : 1
-  ? - NCZZ1ZZ7
-    - Z4ZZ4ZZ6
-  : -1
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ5
-  : 1
-  ? - NCZZ4ZZ8
-    - Z2ZZ4ZZ7
-  : -15
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ5
-  : 25
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ5
-  : 40
-  ? - NCZZ5ZZ4
-    - Z3ZZ9ZZ3
-  : -7
-  ? - ACZZ6Z10
-    - Z4ZZ6ZZ9
-  : -1
-  ? - NCZZ4ZZ7
-    - Z3Z10ZZ7
-  : 20
-  ? - NCZZ1ZZ9
-    - Z2ZZ3ZZ8
-  : -10
-  ? - NCZZ1ZZ7
-    - Z4ZZ1ZZ6
-  : -1
-  ? - ACZZ9Z10
-    - Z3ZZ9Z10
-  : 40
-  ? - ACZZ3ZZ9
-    - Z2ZZ3ZZ9
-  : 10
-  ? - ACZZ1ZZ4
-    - Z3ZZ1ZZ4
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z12Z10
-  : 1
-  ? - NCZZ4ZZ8
-    - Z3ZZ4ZZ7
-  : -18
-  ? - CCZZ8ZZ8
-    - Z2ZZ8ZZ8
-  : 1
-  ? - CCZ10ZZ9
-    - Z2Z10ZZ9
-  : 1
-  ? - NCZZ4ZZ7
-    - Z3ZZ9ZZ6
-  : -33
-  ? - CCZZ5ZZ5
-    - Z3ZZ5ZZ5
-  : 1
-  ? - NCZZ2ZZ9
-    - Z4ZZ2ZZ9
-  : 1
-  ? - NCZZ2ZZ4
-    - Z3ZZ5ZZ3
-  : -7
-  ? - ACZZ2ZZ7
-    - Z2ZZ2ZZ7
-  : 15
-  ? - NCZZ6ZZ7
-    - Z3Z10ZZ6
-  : -15
-  ? - ACZZ3ZZ3
-    - Z2ZZ3ZZ3
-  : 10
-  ? - NCZZ1ZZ8
-    - Z3ZZ4ZZ8
-  : 25
-  ? - OBJZZZZZ
-    - Z4Z12ZZ3
-  : 1
-  ? - ACZ12ZZ7
-    - Z3Z12ZZ7
-  : 80
-  ? - NCZZ3ZZ9
-    - Z3ZZ2ZZ8
-  : -18
-  ? - NCZZ5ZZ1
-    - Z4ZZ9ZZ1
-  : 1
-  ? - ACZZ5ZZ7
-    - Z3ZZ5ZZ7
-  : 25
-  ? - ACZZ9ZZ5
-    - Z4ZZ9ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ9
-  : 15
-  ? - NCZZ6ZZ5
-    - Z2Z11ZZ5
-  : 15
-  ? - NCZZ1ZZ4
-    - Z3ZZ4ZZ4
-  : 25
-  ? - NCZZ6ZZ6
-    - Z2Z10ZZ5
-  : -10
-  ? - ACZ12ZZ3
-    - Z3Z12ZZ2
-  : -15
-  ? - ACZZ3ZZ8
-    - Z4ZZ3ZZ7
-  : -1
-  ? - ACZZ6ZZ7
-    - Z4ZZ6ZZ7
-  : 1
-  ? - NCZZ3ZZ8
-    - Z2ZZ7ZZ8
-  : 10
-  ? - ACZZ7ZZ6
-    - Z3ZZ7ZZ6
-  : 20
-  ? - ACZZ3ZZ4
-    - Z3ZZ3ZZ4
-  : 20
-  ? - CCZZ3ZZ1
-    - Z3ZZ3ZZ1
-  : 1
-  ? - CCZ12ZZ6
-    - Z2Z12ZZ6
-  : 1
-  ? - NCZZ6ZZ7
-    - Z2Z11ZZ7
-  : 15
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ4
-  : 1
-  ? - CCZZ8ZZ1
-    - Z2ZZ8ZZ1
-  : 1
-  ? - NCZZ4ZZ6
-    - Z3ZZ5ZZ5
-  : -18
-  ? - NCZZ5ZZ6
-    - Z2ZZ8ZZ5
-  : -30
-  ? - CCZZ1ZZ9
-    - Z3ZZ1ZZ9
-  : 1
-  ? - ACZZ8Z10
-    - Z3ZZ8Z10
-  : 40
-  ? - ACZ12Z10
-    - Z2Z12Z10
-  : 50
-  ? - NCZZ5Z10
-    - Z2ZZ7ZZ9
-  : -10
-  ? - ACZZ8ZZ5
-    - Z3ZZ8ZZ4
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ4
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ9Z10
-  : 1
-  ? - ACZ11ZZ2
-    - Z4Z11ZZ2
-  : 1
-  ? - ACZZ5ZZ3
-    - Z2ZZ5ZZ3
-  : 15
-  ? - NCZZ6ZZ4
-    - Z3Z11ZZ4
-  : 25
-  ? - CCZZ4ZZ5
-    - Z1ZZ4ZZ5
-  : 1
-  ? - CCZZ9ZZ5
-    - Z3ZZ9ZZ5
-  : 1
-  ? - CCZ12Z10
-    - Z1Z12Z10
-  : 1
-  ? - ACZZ9ZZ1
-    - Z4ZZ9ZZ1
-  : 1
-  ? - NCZZ6ZZ2
-    - Z3Z11ZZ1
-  : -7
-  ? - NCZZ4ZZ8
-    - Z3ZZ8ZZ7
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ6Z10
-  : 20
-  ? - CCZZ9ZZ3
-    - Z1ZZ9ZZ3
-  : 1
-  ? - CCZZ6ZZ9
-    - Z1ZZ6ZZ9
-  : 1
-  ? - NCZZ2ZZ4
-    - Z3ZZ3ZZ3
-  : -5
-  ? - OBJZZZZZ
-    - Z2Z10ZZ9
-  : 10
-  ? - ACZ12ZZ1
-    - Z3Z12ZZ1
-  : 80
-  ? - NCZZ2ZZ7
-    - Z4ZZ6ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ9
-  : 40
-  ? - NCZZ3Z10
-    - Z4ZZ7Z10
-  : 1
-  ? - NCZZ1ZZ7
-    - Z2ZZ3ZZ6
-  : -10
-  ? - ACZZ1ZZ8
-    - Z3ZZ1ZZ7
-  : -5
-  ? - NCZZ4ZZ7
-    - Z3Z10ZZ6
-  : -5
-  ? - NCZZ2ZZ1
-    - Z2ZZ5ZZ1
-  : 15
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ4
-  : 15
-  ? - ACZZ9ZZ4
-    - Z2ZZ9ZZ4
-  : 30
-  ? - CCZ11ZZ2
-    - Z2Z11ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ6
-  : 15
-  ? - ACZZ7ZZ1
-    - Z2ZZ7ZZ1
-  : 10
-  ? - ACZZ4ZZ2
-    - Z4ZZ4ZZ1
-  : -1
-  ? - NCZZ2ZZ8
-    - Z3ZZ3ZZ7
-  : -5
-  ? - ACZZ5ZZ2
-    - Z4ZZ5ZZ2
-  : 1
-  ? - ACZZ7ZZ6
-    - Z2ZZ7ZZ6
-  : 10
-  ? - NCZZ1ZZ5
-    - Z3ZZ1ZZ5
-  : 20
-  ? - ACZ11ZZ5
-    - Z2Z11ZZ5
-  : 15
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ1
-  : 20
-  ? - NCZZ6ZZ3
-    - Z3Z11ZZ2
-  : -7
-  ? - ACZ11Z10
-    - Z4Z11Z10
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ1
-  : 20
-  ? - NCZZ4ZZ1
-    - Z2ZZ8ZZ1
-  : 30
-  ? - OBJZZZZZ
-    - Z3Z12ZZ1
-  : 80
-  ? - ACZ12ZZ3
-    - Z3Z12ZZ3
-  : 80
-  ? - NCZZ1ZZ5
-    - Z4ZZ4ZZ4
-  : -1
-  ? - CCZ10ZZ4
-    - Z1Z10ZZ4
-  : 1
-  ? - ACZZ3ZZ9
-    - Z4ZZ3ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z2Z11ZZ2
-  : 15
-  ? - OBJZZZZZ
-    - Z3Z10ZZ3
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ8
-  : 10
-  ? - ACZZ6ZZ3
-    - Z4ZZ6ZZ2
-  : -1
-  ? - CCZZ4ZZ2
-    - Z2ZZ4ZZ2
-  : 1
-  ? - CCZZ1ZZ8
-    - Z1ZZ1ZZ8
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ1Z10
-  : 10
-  ? - NCZZ2ZZ9
-    - Z3ZZ6ZZ8
-  : -5
-  ? - ACZZ2Z10
-    - Z3ZZ2ZZ9
-  : -7
-  ? - ACZZ1ZZ7
-    - Z4ZZ1ZZ7
-  : 1
-  ? - CCZZ4ZZ8
-    - Z2ZZ4ZZ8
-  : 1
-  ? - NCZZ6ZZ5
-    - Z3Z11ZZ5
-  : 25
-  ? - ACZZ8ZZ6
-    - Z2ZZ8ZZ6
-  : 30
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ1
-  : 15
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ1
-  : 25
-  ? - CCZZ7ZZ7
-    - Z2ZZ7ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ4
-  : 10
-  ? - ACZZ1ZZ4
-    - Z3ZZ1ZZ3
-  : -5
-  ? - NCZZ3ZZ8
     - Z3ZZ7ZZ8
-  : 20
-  ? - ACZZ8ZZ4
-    - Z4ZZ8ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ3
-  : 20
-  ? - ACZ12ZZ9
-    - Z4Z12ZZ8
-  : -1
-  ? - NCZZ2Z10
-    - Z3ZZ5ZZ9
-  : -7
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ2
-  : 15
-  ? - ACZZ3ZZ6
-    - Z4ZZ3ZZ6
-  : 1
-  ? - CCZZ5ZZ5
-    - Z2ZZ5ZZ5
-  : 1
-  ? - ACZZ4ZZ7
-    - Z2ZZ4ZZ7
-  : 15
-  ? - ACZZ1ZZ1
-    - Z4ZZ1ZZ1
-  : 1
-  ? - ACZZ5ZZ5
-    - Z2ZZ5ZZ5
-  : 15
-  ? - ACZZ3ZZ4
-    - Z4ZZ3ZZ4
-  : 1
-  ? - ACZZ4ZZ6
-    - Z4ZZ4ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ5
-  : 1
-  ? - NCZZ4ZZ7
-    - Z2ZZ5ZZ6
-  : -15
-  ? - NCZZ2ZZ2
-    - Z4ZZ6ZZ1
-  : -1
-  ? - ACZ10ZZ9
-    - Z4Z10ZZ8
-  : -1
-  ? - CCZZ2ZZ1
-    - Z3ZZ2ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ2
-  : 25
-  ? - NCZZ2ZZ4
-    - Z4ZZ3ZZ4
-  : 1
-  ? - NCZZ3ZZ6
-    - Z4ZZ7ZZ6
-  : 1
-  ? - CCZZ6ZZ4
-    - Z1ZZ6ZZ4
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ6ZZ7
-  : 1
-  ? - ACZZ8ZZ7
-    - Z4ZZ8ZZ7
-  : 1
-  ? - NCZZ1ZZ4
-    - Z2ZZ1ZZ4
-  : 10
-  ? - NCZZ5ZZ7
-    - Z4Z12ZZ6
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ9
-  : 15
-  ? - NCZZ2Z10
-    - Z3ZZ6Z10
-  : 20
-  ? - OBJZZZZZ
-    - Z4ZZ6Z10
-  : 1
-  ? - NCZZ1ZZ3
-    - Z2ZZ3ZZ2
-  : -10
-  ? - ACZZ8Z10
-    - Z2ZZ8Z10
-  : 30
-  ? - ACZZ7ZZ3
-    - Z4ZZ7ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ3ZZ2
-  : 10
-  ? - CCZZ8ZZ9
-    - Z2ZZ8ZZ9
-  : 1
-  ? - NCZZ1ZZ2
-    - Z4ZZ1ZZ2
-  : 1
-  ? - NCZZ4ZZ3
-    - Z3ZZ8ZZ2
-  : -7
-  ? - CCZZ5ZZ9
-    - Z3ZZ5ZZ9
-  : 1
-  ? - ACZZ9ZZ7
-    - Z2ZZ9ZZ7
-  : 30
-  ? - CCZZ8ZZ7
-    - Z3ZZ8ZZ7
-  : 1
-  ? - NCZZ2ZZ4
-    - Z2ZZ3ZZ4
-  : 10
-  ? - ACZZ6ZZ2
-    - Z4ZZ6ZZ2
-  : 1
-  ? - CCZZ4ZZ1
-    - Z1ZZ4ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ5ZZ2
-  : 25
-  ? - CCZZ3ZZ5
-    - Z1ZZ3ZZ5
-  : 1
-  ? - CCZZ4ZZ3
-    - Z3ZZ4ZZ3
-  : 1
-  ? - ACZZ3ZZ7
-    - Z3ZZ3ZZ6
   : -5
-  ? - NCZZ5Z10
-    - Z4ZZ9ZZ9
-  : -1
-  ? - ACZZ3ZZ4
-    - Z3ZZ3ZZ3
-  : -5
-  ? - CCZ10ZZ2
-    - Z3Z10ZZ2
-  : 1
-  ? - NCZZ1ZZ4
-    - Z2ZZ4ZZ4
-  : 15
-  ? - NCZZ1ZZ9
-    - Z4ZZ4ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z10ZZ6
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ8ZZ5
-  : 30
-  ? - NCZZ5ZZ6
-    - Z4Z12ZZ6
-  : 1
-  ? - OBJZZZZZ
-    - Z2Z10ZZ6
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ4
-  : 15
-  ? - NCZZ2ZZ5
-    - Z3ZZ3ZZ4
-  : -5
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ7
-  : 20
-  ? - CCZZ6ZZ9
-    - Z3ZZ6ZZ9
-  : 1
-  ? - NCZZ3ZZ1
-    - Z4ZZ7ZZ1
-  : 1
-  ? - NCZZ5ZZ2
-    - Z4Z12ZZ2
-  : 1
-  ? - NCZZ3ZZ7
-    - Z2ZZ7ZZ7
-  : 10
-  ? - ACZZ9ZZ6
-    - Z4ZZ9ZZ6
-  : 1
-  ? - CCZZ3ZZ1
-    - Z2ZZ3ZZ1
-  : 1
-  ? - NCZZ2ZZ3
-    - Z2ZZ2ZZ3
-  : 15
-  ? - NCZZ5ZZ8
-    - Z2ZZ7ZZ7
-  : -10
-  ? - ACZZ7ZZ8
+  ? - NCZZ5ZZ9
     - Z3ZZ7ZZ8
-  : 20
-  ? - CCZZ5ZZ3
-    - Z1ZZ5ZZ3
-  : 1
-  ? - NCZZ1ZZ8
-    - Z3ZZ1ZZ8
-  : 20
-  ? - NCZZ3ZZ2
-    - Z4ZZ7ZZ2
-  : 1
-  ? - NCZZ4Z10
-    - Z2ZZ9ZZ9
-  : -30
-  ? - ACZZ6ZZ1
-    - Z4ZZ6ZZ1
-  : 1
-  ? - NCZZ3ZZ3
-    - Z3ZZ7ZZ2
-  : -5
-  ? - ACZZ6ZZ8
-    - Z2ZZ6ZZ8
-  : 10
-  ? - ACZ12ZZ5
-    - Z4Z12ZZ4
-  : -1
-  ? - ACZZ3ZZ7
-    - Z4ZZ3ZZ6
-  : -1
-  ? - CCZZ9ZZ3
-    - Z3ZZ9ZZ3
-  : 1
-  ? - CCZ12ZZ9
-    - Z1Z12ZZ9
-  : 1
-  ? - NCZZ2Z10
-    - Z2ZZ5Z10
-  : 15
-  ? - NCZZ5ZZ7
-    - Z3ZZ7ZZ6
-  : -15
-  ? - NCZZ4ZZ6
-    - Z4ZZ8ZZ6
-  : 1
-  ? - ACZZ1Z10
-    - Z4ZZ1ZZ9
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ5
-  : 20
-  ? - NCZZ4Z10
-    - Z3Z10ZZ9
-  : -5
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ8
-  : 15
-  ? - ACZZ4Z10
-    - Z4ZZ4ZZ9
-  : -1
-  ? - CCZ11ZZ6
-    - Z3Z11ZZ6
-  : 1
-  ? - NCZZ2ZZ9
-    - Z3ZZ2ZZ8
-  : -7
-  ? - NCZZ4ZZ5
-    - Z4Z10ZZ4
-  : -1
-  ? - ACZ12ZZ4
-    - Z3Z12ZZ4
-  : 80
-  ? - ACZZ4Z10
-    - Z3ZZ4Z10
-  : 25
-  ? - NCZZ4ZZ9
-    - Z3ZZ4ZZ8
-  : -18
-  ? - CCZZ5ZZ8
-    - Z1ZZ5ZZ8
-  : 1
-  ? - NCZZ2ZZ5
-    - Z3ZZ1ZZ4
-  : -15
-  ? - CCZZ8ZZ7
-    - Z1ZZ8ZZ7
-  : 1
-  ? - CCZZ3ZZ3
-    - Z1ZZ3ZZ3
-  : 1
-  ? - NCZZ2ZZ8
-    - Z3ZZ6ZZ7
-  : -5
-  ? - NCZZ1ZZ6
-    - Z2ZZ3ZZ5
-  : -10
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ7
-  : 1
-  ? - NCZZ5ZZ8
-    - Z3ZZ7ZZ7
   : -15
   ? - OBJZZZZZ
-    - Z2ZZ7ZZ1
-  : 10
-  ? - NCZZ2ZZ4
-    - Z3ZZ6ZZ3
-  : -5
-  ? - CCZZ8ZZ8
-    - Z1ZZ8ZZ8
-  : 1
-  ? - ACZZ9ZZ2
-    - Z3ZZ9ZZ2
-  : 40
-  ? - ACZZ9Z10
-    - Z2ZZ9Z10
-  : 30
-  ? - ACZ11ZZ7
-    - Z3Z11ZZ7
-  : 25
-  ? - NCZZ4ZZ4
-    - Z3ZZ4ZZ3
-  : -18
-  ? - NCZZ6Z10
-    - Z2Z11Z10
-  : 15
-  ? - ACZ10ZZ7
-    - Z4Z10ZZ7
-  : 1
-  ? - ACZZ9ZZ7
-    - Z3ZZ9ZZ7
-  : 40
-  ? - NCZZ2ZZ3
-    - Z3ZZ3ZZ2
-  : -5
-  ? - NCZZ2ZZ4
-    - Z4ZZ2ZZ3
-  : -1
-  ? - CCZZ2ZZ7
-    - Z2ZZ2ZZ7
-  : 1
-  ? - CCZZ1ZZ3
-    - Z1ZZ1ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ2Z10
-  : 1
-  ? - NCZZ2ZZ6
-    - Z3ZZ2ZZ6
-  : 25
-  ? - NCZZ4ZZ3
-    - Z3Z10ZZ2
-  : -5
-  ? - ACZZ2ZZ2
-    - Z4ZZ2ZZ2
-  : 1
-  ? - ACZ11ZZ7
-    - Z3Z11ZZ6
-  : -7
-  ? - ACZZ8ZZ9
-    - Z4ZZ8ZZ9
-  : 1
-  ? - CCZZ3Z10
-    - Z3ZZ3Z10
-  : 1
-  ? - ACZZ1ZZ1
-    - Z3ZZ1ZZ1
-  : 20
-  ? - NCZZ1ZZ2
-    - Z2ZZ4ZZ2
-  : 15
-  ? - OBJZZZZZ
-    - Z2Z11ZZ7
-  : 15
-  ? - CCZ10ZZ3
-    - Z1Z10ZZ3
-  : 1
-  ? - NCZZ1Z10
-    - Z3ZZ3ZZ9
-  : -15
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ7
-  : 1
-  ? - CCZZ8ZZ2
-    - Z1ZZ8ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z10Z10
-  : 1
-  ? - NCZZ5ZZ3
-    - Z4ZZ9ZZ2
-  : -1
-  ? - CCZZ7ZZ7
-    - Z1ZZ7ZZ7
-  : 1
-  ? - ACZZ6ZZ5
-    - Z4ZZ6ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z12ZZ7
-  : 80
-  ? - NCZZ3Z10
-    - Z2ZZ7Z10
-  : 10
-  ? - CCZ12ZZ7
-    - Z1Z12ZZ7
-  : 1
-  ? - NCZZ4ZZ4
-    - Z3Z10ZZ4
-  : 20
-  ? - NCZZ1ZZ7
-    - Z3ZZ1ZZ7
-  : 20
-  ? - CCZZ5ZZ7
-    - Z3ZZ5ZZ7
-  : 1
-  ? - NCZZ5ZZ4
-    - Z4Z12ZZ3
-  : -1
-  ? - ACZZ3ZZ5
-    - Z4ZZ3ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ1
-  : 40
-  ? - ACZ12ZZ6
-    - Z3Z12ZZ6
-  : 80
-  ? - NCZZ4ZZ6
-    - Z2ZZ9ZZ5
-  : -30
-  ? - CCZZ4ZZ8
-    - Z3ZZ4ZZ8
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ2Z10
-  : 25
-  ? - CCZZ7ZZ9
-    - Z3ZZ7ZZ9
-  : 1
-  ? - NCZZ1ZZ9
-    - Z3ZZ4ZZ8
-  : -7
-  ? - CCZ12ZZ9
-    - Z3Z12ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ4
-  : 1
-  ? - ACZZ5ZZ5
-    - Z3ZZ5ZZ4
-  : -7
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ1
-  : 1
-  ? - ACZZ1ZZ5
-    - Z4ZZ1ZZ4
-  : -1
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ8
-  : 30
-  ? - CCZZ5ZZ2
-    - Z1ZZ5ZZ2
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ5Z10
-  : 15
-  ? - NCZZ2ZZ7
-    - Z3ZZ2ZZ6
-  : -7
-  ? - OBJZZZZZ
-    - Z3Z10ZZ2
-  : 20
-  ? - CCZ11ZZ4
-    - Z1Z11ZZ4
-  : 1
-  ? - CCZZ3ZZ8
-    - Z1ZZ3ZZ8
-  : 1
-  ? - ACZZ4ZZ5
-    - Z2ZZ4ZZ5
-  : 15
-  ? - CCZZ1ZZ7
-    - Z1ZZ1ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ1ZZ2
-  : 10
-  ? - CCZ12ZZ6
-    - Z3Z12ZZ6
-  : 1
-  ? - NCZZ1ZZ4
-    - Z3ZZ3ZZ3
-  : -15
-  ? - ACZ12ZZ6
-    - Z2Z12ZZ6
-  : 50
-  ? - NCZZ2ZZ5
-    - Z4ZZ2ZZ5
-  : 1
-  ? - CCZ10ZZ3
-    - Z3Z10ZZ3
-  : 1
-  ? - NCZZ2ZZ8
-    - Z2ZZ3ZZ8
-  : 10
-  ? - CCZZ6ZZ8
-    - Z1ZZ6ZZ8
-  : 1
-  ? - NCZZ5ZZ9
-    - Z3Z12ZZ8
-  : -15
-  ? - ACZZ9ZZ3
-    - Z3ZZ9ZZ2
-  : -7
-  ? - ACZ12ZZ7
-    - Z4Z12ZZ7
-  : 1
-  ? - NCZZ6ZZ7
-    - Z3Z11ZZ6
-  : -7
-  ? - ACZZ7ZZ5
-    - Z3ZZ7ZZ4
-  : -5
-  ? - CCZZ6ZZ3
-    - Z2ZZ6ZZ3
-  : 1
-  ? - NCZZ2ZZ4
-    - Z3ZZ3ZZ4
-  : 20
-  ? - CCZZ9ZZ7
-    - Z1ZZ9ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ5
-  : 1
-  ? - NCZZ5ZZ7
-    - Z3ZZ8ZZ6
-  : -33
-  ? - NCZZ6ZZ9
-    - Z4Z11ZZ9
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ5Z10
-  : 25
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ7
-  : 25
-  ? - ACZZ2ZZ1
-    - Z4ZZ2ZZ1
-  : 1
-  ? - NCZZ5ZZ4
-    - Z3ZZ8ZZ3
-  : -33
-  ? - NCZZ4ZZ1
-    - Z2Z10ZZ1
-  : 10
-  ? - ACZZ8ZZ3
-    - Z3ZZ8ZZ2
-  : -7
-  ? - OBJZZZZZ
-    - Z3Z11ZZ5
-  : 25
-  ? - ACZZ8ZZ3
-    - Z2ZZ8ZZ3
-  : 30
-  ? - NCZZ1ZZ3
-    - Z4ZZ4ZZ2
-  : -1
-  ? - ACZZ1ZZ8
-    - Z3ZZ1ZZ8
-  : 20
-  ? - CCZ11ZZ8
-    - Z3Z11ZZ8
-  : 1
-  ? - ACZ11ZZ8
-    - Z3Z11ZZ7
-  : -7
-  ? - ACZ12ZZ6
-    - Z4Z12ZZ6
-  : 1
-  ? - NCZZ5ZZ9
-    - Z2ZZ7ZZ8
-  : -10
-  ? - NCZZ6ZZ2
-    - Z3Z11ZZ2
-  : 25
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ1
-  : 1
-  ? - CCZZ3Z10
-    - Z2ZZ3Z10
-  : 1
-  ? - NCZZ5Z10
-    - Z3Z12Z10
-  : 80
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ4
-  : 25
-  ? - NCZZ2ZZ1
-    - Z4ZZ5ZZ1
-  : 1
-  ? - ACZZ8ZZ4
-    - Z3ZZ8ZZ3
-  : -7
-  ? - ACZ12ZZ5
-    - Z4Z12ZZ5
-  : 1
-  ? - ACZZ1ZZ7
-    - Z3ZZ1ZZ6
-  : -5
-  ? - ACZZ7ZZ5
-    - Z2ZZ7ZZ5
-  : 10
-  ? - ACZZ7ZZ8
-    - Z2ZZ7ZZ8
-  : 10
-  ? - NCZZ1ZZ5
-    - Z3ZZ1ZZ4
-  : -5
-  ? - NCZZ3ZZ4
-    - Z3ZZ7ZZ3
-  : -5
-  ? - ACZ10ZZ9
-    - Z3Z10ZZ9
-  : 20
-  ? - NCZZ5ZZ3
-    - Z2ZZ8ZZ2
-  : -30
-  ? - NCZZ5ZZ9
-    - Z3ZZ9ZZ9
-  : 40
-  ? - NCZZ4ZZ7
-    - Z2ZZ8ZZ7
-  : 30
-  ? - NCZZ4ZZ3
-    - Z3ZZ4ZZ2
-  : -18
-  ? - ACZ12ZZ9
-    - Z3Z12ZZ9
-  : 80
-  ? - ACZZ4ZZ3
-    - Z3ZZ4ZZ2
-  : -7
-  ? - NCZZ3ZZ2
-    - Z4ZZ7ZZ1
-  : -1
-  ? - CCZZ5ZZ6
-    - Z2ZZ5ZZ6
-  : 1
-  ? - ACZZ2ZZ8
-    - Z2ZZ2ZZ8
-  : 15
-  ? - CCZ10ZZ1
-    - Z2Z10ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4Z12ZZ2
-  : 1
-  ? - ACZZ6ZZ3
-    - Z4ZZ6ZZ3
-  : 1
-  ? - ACZZ8ZZ8
-    - Z2ZZ8ZZ8
-  : 30
-  ? - ACZZ7ZZ2
-    - Z3ZZ7ZZ1
-  : -5
-  ? - ACZ11ZZ3
-    - Z3Z11ZZ3
-  : 25
-  ? - NCZZ2ZZ4
-    - Z4ZZ6ZZ4
-  : 1
-  ? - CCZZ8Z10
-    - Z1ZZ8Z10
-  : 1
-  ? - ACZZ2ZZ7
-    - Z3ZZ2ZZ6
-  : -7
-  ? - CCZZ9Z10
-    - Z1ZZ9Z10
-  : 1
-  ? - NCZZ5ZZ3
-    - Z3ZZ9ZZ3
-  : 40
-  ? - NCZZ1ZZ8
-    - Z3ZZ3ZZ7
-  : -15
-  ? - NCZZ2ZZ5
-    - Z4ZZ6ZZ4
-  : -1
-  ? - ACZZ1ZZ4
-    - Z4ZZ1ZZ3
-  : -1
-  ? - NCZZ3ZZ9
-    - Z2ZZ7ZZ9
-  : 10
-  ? - ACZZ5ZZ4
-    - Z3ZZ5ZZ4
-  : 25
-  ? - ACZZ9ZZ4
-    - Z4ZZ9ZZ3
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ1
-  : 40
-  ? - NCZZ2ZZ5
-    - Z4ZZ3ZZ5
-  : 1
-  ? - ACZZ3ZZ2
-    - Z4ZZ3ZZ1
-  : -1
-  ? - OBJZZZZZ
-    - Z4Z10ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ1
-  : 1
-  ? - NCZZ2ZZ2
-    - Z4ZZ2ZZ1
-  : -1
-  ? - NCZZ3ZZ6
-    - Z3ZZ2ZZ5
-  : -18
-  ? - NCZZ2ZZ8
-    - Z3ZZ5ZZ8
-  : 25
-  ? - CCZZ2ZZ8
-    - Z1ZZ2ZZ8
-  : 1
-  ? - CCZZ8ZZ4
-    - Z1ZZ8ZZ4
-  : 1
-  ? - ACZ11ZZ3
-    - Z2Z11ZZ3
-  : 15
-  ? - CCZ11ZZ1
-    - Z3Z11ZZ1
-  : 1
-  ? - CCZ11ZZ8
-    - Z2Z11ZZ8
-  : 1
-  ? - NCZZ1ZZ5
-    - Z2ZZ1ZZ5
-  : 10
-  ? - CCZZ8Z10
-    - Z2ZZ8Z10
-  : 1
-  ? - ACZZ3ZZ6
-    - Z3ZZ3ZZ5
-  : -5
-  ? - ACZZ4ZZ6
-    - Z2ZZ4ZZ6
-  : 15
-  ? - OBJZZZZZ
-    - Z3ZZ4ZZ9
-  : 25
-  ? - OBJZZZZZ
-    - Z4ZZ8Z10
-  : 1
-  ? - CCZZ9ZZ2
-    - Z3ZZ9ZZ2
-  : 1
-  ? - CCZZ6ZZ4
-    - Z3ZZ6ZZ4
-  : 1
-  ? - NCZZ5ZZ6
-    - Z3ZZ8ZZ5
-  : -33
-  ? - NCZZ4ZZ9
-    - Z2ZZ8ZZ9
-  : 30
-  ? - NCZZ3ZZ7
-    - Z4ZZ7ZZ7
-  : 1
-  ? - CCZ12ZZ3
-    - Z3Z12ZZ3
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ8ZZ2
-  : 1
-  ? - CCZZ2ZZ1
-    - Z1ZZ2ZZ1
-  : 1
-  ? - ACZ10ZZ5
-    - Z4Z10ZZ4
-  : -1
-  ? - NCZZ4ZZ7
-    - Z4ZZ8ZZ6
-  : -1
-  ? - CCZZ3ZZ7
-    - Z2ZZ3ZZ7
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ3
-  : 1
-  ? - CCZZ1ZZ6
-    - Z3ZZ1ZZ6
-  : 1
-  ? - NCZZ2ZZ2
-    - Z4ZZ5ZZ1
-  : -1
-  ? - ACZZ9ZZ9
-    - Z2ZZ9ZZ9
-  : 30
-  ? - NCZZ1Z10
-    - Z4ZZ4ZZ9
-  : -1
-  ? - CCZZ3ZZ2
-    - Z1ZZ3ZZ2
-  : 1
-  ? - CCZ11ZZ1
-    - Z1Z11ZZ1
-  : 1
-  ? - NCZZ4ZZ4
-    - Z2ZZ9ZZ3
-  : -30
-  ? - NCZZ5Z10
-    - Z3ZZ9Z10
-  : 40
-  ? - OBJZZZZZ
-    - Z2Z10ZZ2
-  : 10
-  ? - NCZZ2ZZ3
-    - Z4ZZ2ZZ3
-  : 1
-  ? - ACZZ8ZZ1
-    - Z4ZZ8ZZ1
-  : 1
-  ? - CCZZ8ZZ5
-    - Z1ZZ8ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ2
-  : 1
-  ? - NCZZ2ZZ3
-    - Z4ZZ3ZZ3
-  : 1
-  ? - ACZ11ZZ4
-    - Z3Z11ZZ3
-  : -7
-  ? - ACZ10ZZ7
-    - Z2Z10ZZ7
-  : 10
-  ? - ACZZ3ZZ9
-    - Z3ZZ3ZZ8
-  : -5
-  ? - ACZZ2ZZ1
-    - Z3ZZ2ZZ1
-  : 25
-  ? - ACZ12ZZ4
-    - Z4Z12ZZ3
-  : -1
-  ? - ACZZ6ZZ9
-    - Z3ZZ6ZZ9
-  : 20
-  ? - ACZ12ZZ1
-    - Z4Z12ZZ1
+    - Z4ZZ7ZZ8
   : 1
   ? - NCZZ3ZZ8
-    - Z2ZZ2ZZ7
-  : -15
-  ? - NCZZ3ZZ6
-    - Z3ZZ7ZZ6
-  : 20
-  ? - ACZZ3ZZ8
-    - Z4ZZ3ZZ8
+    - Z4ZZ7ZZ8
   : 1
-  ? - OBJZZZZZ
-    - Z3ZZ9ZZ3
-  : 40
-  ? - OBJZZZZZ
-    - Z2Z12ZZ8
-  : 50
-  ? - OBJZZZZZ
-    - Z2Z12ZZ4
-  : 50
-  ? - NCZZ1ZZ5
-    - Z3ZZ3ZZ4
-  : -15
-  ? - ACZZ1ZZ5
-    - Z3ZZ1ZZ5
-  : 20
-  ? - NCZZ4ZZ9
-    - Z3ZZ8ZZ8
-  : -7
-  ? - CCZZ2ZZ6
-    - Z2ZZ2ZZ6
-  : 1
-  ? - ACZZ2Z10
-    - Z4ZZ2Z10
-  : 1
-  ? - ACZZ5ZZ4
-    - Z4ZZ5ZZ3
-  : -1
-  ? - NCZZ4ZZ4
-    - Z2ZZ8ZZ4
-  : 30
-  ? - NCZZ1ZZ6
-    - Z3ZZ1ZZ6
-  : 20
-  ? - NCZZ1ZZ3
-    - Z4ZZ1ZZ2
-  : -1
-  ? - ACZZ6ZZ8
-    - Z3ZZ6ZZ8
-  : 20
-  ? - NCZZ2ZZ2
-    - Z2ZZ2ZZ2
-  : 15
-  ? - ACZZ6Z10
-    - Z3ZZ6ZZ9
-  : -5
-  ? - NCZZ5ZZ9
-    - Z3ZZ8ZZ8
-  : -33
-  ? - NCZZ2Z10
-    - Z4ZZ2Z10
-  : 1
-  ? - NCZZ4ZZ3
-    - Z3Z10ZZ3
-  : 20
-  ? - NCZZ5ZZ5
-    - Z3ZZ6ZZ4
-  : -15
-  ? - OBJZZZZZ
-    - Z2Z12ZZ3
-  : 50
-  ? - NCZZ1ZZ5
-    - Z4ZZ1ZZ5
-  : 1
-  ? - ACZZ8ZZ7
-    - Z3ZZ8ZZ7
-  : 40
-  ? - ACZZ5ZZ8
-    - Z4ZZ5ZZ8
-  : 1
-  ? - NCZZ4ZZ6
-    - Z2Z10ZZ6
-  : 10
-  ? - ACZZ1ZZ5
-    - Z3ZZ1ZZ4
-  : -5
-  ? - OBJZZZZZ
-    - Z4ZZ3ZZ8
-  : 1
-  ? - ACZ10ZZ6
-    - Z4Z10ZZ6
-  : 1
-  ? - NCZZ5Z10
-    - Z2ZZ9Z10
-  : 30
-  ? - NCZZ1ZZ6
-    - Z3ZZ4ZZ6
-  : 25
-  ? - ACZZ1ZZ3
-    - Z3ZZ1ZZ3
-  : 20
-  ? - OBJZZZZZ
-    - Z2Z11ZZ6
-  : 15
-  ? - OBJZZZZZ
-    - Z4ZZ1ZZ2
-  : 1
-  ? - ACZZ7ZZ7
-    - Z3ZZ7ZZ7
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z10ZZ4
-  : 1
-  ? - ACZZ2ZZ5
-    - Z3ZZ2ZZ4
-  : -7
-  ? - NCZZ6ZZ9
-    - Z2Z11ZZ9
-  : 15
-  ? - NCZZ5ZZ8
-    - Z3Z12ZZ8
-  : 80
-  ? - ACZZ8ZZ4
-    - Z4ZZ8ZZ3
-  : -1
-  ? - NCZZ3ZZ9
-    - Z2ZZ2ZZ8
-  : -15
-  ? - CCZZ5ZZ9
-    - Z2ZZ5ZZ9
-  : 1
-  ? - CCZ11ZZ9
-    - Z1Z11ZZ9
-  : 1
-  ? - NCZZ5ZZ6
-    - Z3ZZ9ZZ5
-  : -7
-  ? - CCZ10ZZ4
-    - Z2Z10ZZ4
-  : 1
-  ? - CCZ12ZZ3
-    - Z2Z12ZZ3
-  : 1
-  ? - NCZZ6ZZ5
-    - Z4Z11ZZ4
-  : -1
-  ? - NCZZ3ZZ8
-    - Z3ZZ2ZZ7
-  : -18
-  ? - ACZ12ZZ8
-    - Z3Z12ZZ8
-  : 80
-  ? - ACZZ8ZZ8
-    - Z4ZZ8ZZ8
-  : 1
-  ? - NCZZ6ZZ3
-    - Z2Z11ZZ3
-  : 15
-  ? - NCZZ5ZZ6
-    - Z2ZZ7ZZ5
-  : -10
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ6
-  : 15
-  ? - NCZZ5Z10
-    - Z3ZZ9ZZ9
-  : -7
-  ? - NCZZ4ZZ3
-    - Z4ZZ8ZZ3
-  : 1
-  ? - CCZZ2ZZ4
-    - Z1ZZ2ZZ4
-  : 1
-  ? - NCZZ5ZZ6
-    - Z4ZZ9ZZ6
-  : 1
-  ? - NCZZ5ZZ7
-    - Z3ZZ9ZZ7
-  : 40
-  ? - NCZZ4ZZ8
-    - Z4Z10ZZ8
-  : 1
-  ? - ACZZ2Z10
-    - Z4ZZ2ZZ9
-  : -1
-  ? - ACZZ4ZZ4
-    - Z3ZZ4ZZ4
-  : 25
-  ? - NCZZ4ZZ7
-    - Z2ZZ9ZZ6
-  : -30
-  ? - ACZZ2ZZ1
-    - Z2ZZ2ZZ1
-  : 15
-  ? - NCZZ1ZZ1
-    - Z2ZZ1ZZ1
-  : 10
-  ? - OBJZZZZZ
-    - Z2Z11ZZ8
-  : 15
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ9
-  : 10
-  ? - ACZZ7ZZ7
-    - Z4ZZ7ZZ6
-  : -1
-  ? - NCZZ1ZZ8
-    - Z4ZZ1ZZ8
-  : 1
-  ? - ACZZ7ZZ3
-    - Z3ZZ7ZZ3
-  : 20
-  ? - NCZZ1ZZ8
-    - Z2ZZ3ZZ7
-  : -10
-  ? - ACZZ1ZZ8
-    - Z4ZZ1ZZ8
-  : 1
-  ? - NCZZ5ZZ9
-    - Z4Z12ZZ8
-  : -1
-  ? - ACZZ5ZZ3
-    - Z3ZZ5ZZ2
-  : -7
-  ? - OBJZZZZZ
-    - Z2Z12ZZ2
-  : 50
-  ? - CCZZ8ZZ2
-    - Z3ZZ8ZZ2
-  : 1
-  ? - NCZZ2ZZ5
-    - Z2ZZ6ZZ5
-  : 10
-  ? - NCZZ5ZZ8
-    - Z4ZZ9ZZ7
-  : -1
-  ? - NCZZ4Z10
-    - Z3ZZ5ZZ9
-  : -18
-  ? - NCZZ2ZZ4
-    - Z3ZZ5ZZ4
-  : 25
-  ? - ACZZ8ZZ2
-    - Z2ZZ8ZZ2
-  : 30
-  ? - NCZZ2ZZ6
-    - Z3ZZ6ZZ5
-  : -5
-  ? - NCZZ1ZZ6
-    - Z2ZZ1ZZ6
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ6
-  : 20
-  ? - ACZZ2ZZ7
-    - Z3ZZ2ZZ7
-  : 25
-  ? - ACZ11ZZ8
-    - Z3Z11ZZ8
-  : 25
-  ? - NCZZ4ZZ3
-    - Z3ZZ5ZZ2
-  : -18
-  ? - NCZZ1ZZ2
-    - Z2ZZ1ZZ2
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ3
-  : 30
   ? - ACZZ7ZZ8
-    - Z4ZZ7ZZ7
-  : -1
-  ? - NCZZ1Z10
-    - Z2ZZ1Z10
-  : 10
-  ? - NCZZ2ZZ7
-    - Z3ZZ5ZZ6
-  : -7
-  ? - OBJZZZZZ
-    - Z3Z10ZZ7
-  : 20
-  ? - ACZZ8ZZ5
-    - Z4ZZ8ZZ4
-  : -1
-  ? - ACZZ3Z10
-    - Z2ZZ3Z10
-  : 10
-  ? - ACZZ2ZZ2
-    - Z3ZZ2ZZ2
-  : 25
-  ? - NCZZ2Z10
-    - Z4ZZ3ZZ9
-  : -1
-  ? - NCZZ4Z10
-    - Z2ZZ8Z10
-  : 30
-  ? - NCZZ4ZZ9
-    - Z3ZZ9ZZ8
-  : -33
-  ? - ACZZ9ZZ5
-    - Z4ZZ9ZZ4
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ5
-  : 20
-  ? - NCZZ2ZZ9
-    - Z2ZZ3ZZ9
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ4
-  : 20
-  ? - ACZ11ZZ4
-    - Z2Z11ZZ4
-  : 15
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ9
-  : 10
-  ? - CCZ11ZZ9
-    - Z2Z11ZZ9
-  : 1
-  ? - NCZZ5ZZ6
-    - Z4ZZ9ZZ5
-  : -1
-  ? - NCZZ5ZZ2
-    - Z3ZZ8ZZ1
-  : -33
-  ? - ACZZ4ZZ5
-    - Z3ZZ4ZZ4
-  : -7
-  ? - NCZZ1ZZ7
-    - Z3ZZ4ZZ6
-  : -7
-  ? - ACZ11Z10
-    - Z4Z11ZZ9
-  : -1
-  ? - NCZZ4ZZ2
-    - Z3ZZ9ZZ1
-  : -33
-  ? - NCZZ5ZZ2
-    - Z2ZZ6ZZ1
-  : -10
-  ? - OBJZZZZZ
-    - Z4Z12ZZ8
-  : 1
-  ? - ACZ10Z10
-    - Z3Z10ZZ9
-  : -5
-  ? - NCZZ2ZZ5
-    - Z2ZZ5ZZ5
-  : 15
-  ? - NCZZ2ZZ5
-    - Z4ZZ6ZZ5
-  : 1
-  ? - ACZZ4ZZ6
-    - Z3ZZ4ZZ6
-  : 25
-  ? - CCZZ4ZZ7
-    - Z2ZZ4ZZ7
-  : 1
-  ? - NCZZ4ZZ4
-    - Z3ZZ5ZZ3
-  : -18
-  ? - NCZZ2ZZ1
-    - Z4ZZ2ZZ1
-  : 1
-  ? - NCZZ2ZZ8
-    - Z4ZZ5ZZ7
-  : -1
-  ? - NCZZ5ZZ9
-    - Z4Z12ZZ9
-  : 1
-  ? - NCZZ6ZZ6
-    - Z3Z11ZZ6
-  : 25
-  ? - NCZZ3ZZ5
-    - Z2ZZ7ZZ5
-  : 10
-  ? - OBJZZZZZ
-    - Z3ZZ3ZZ8
-  : 20
-  ? - NCZZ5ZZ9
-    - Z2ZZ6ZZ8
-  : -10
-  ? - ACZZ8ZZ3
-    - Z4ZZ8ZZ2
-  : -1
-  ? - CCZ10ZZ9
-    - Z3Z10ZZ9
-  : 1
-  ? - ACZZ5ZZ5
-    - Z4ZZ5ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ2ZZ8
-  : 25
-  ? - NCZZ5ZZ1
-    - Z3Z12ZZ1
-  : 80
-  ? - OBJZZZZZ
-    - Z2ZZ9ZZ9
-  : 30
-  ? - ACZ10Z10
-    - Z3Z10Z10
-  : 20
-  ? - CCZ12ZZ8
-    - Z1Z12ZZ8
-  : 1
-  ? - NCZZ5ZZ7
-    - Z4ZZ9ZZ6
-  : -1
-  ? - NCZZ1ZZ4
-    - Z4ZZ1ZZ3
-  : -1
-  ? - CCZZ9ZZ9
-    - Z3ZZ9ZZ9
-  : 1
-  ? - CCZZ9ZZ5
-    - Z2ZZ9ZZ5
-  : 1
-  ? - ACZ12ZZ9
-    - Z4Z12ZZ9
-  : 1
-  ? - ACZZ5ZZ2
-    - Z3ZZ5ZZ2
-  : 25
-  ? - ACZZ5ZZ3
-    - Z3ZZ5ZZ3
-  : 25
-  ? - NCZZ1ZZ5
-    - Z2ZZ3ZZ4
-  : -10
-  ? - NCZZ1ZZ8
-    - Z3ZZ1ZZ7
-  : -5
-  ? - NCZZ5ZZ9
-    - Z2ZZ9ZZ9
-  : 30
-  ? - NCZZ5ZZ5
-    - Z3Z12ZZ4
-  : -15
-  ? - ACZZ2ZZ8
-    - Z3ZZ2ZZ8
-  : 25
-  ? - NCZZ4ZZ5
-    - Z2ZZ5ZZ4
-  : -15
-  ? - CCZZ2ZZ2
-    - Z2ZZ2ZZ2
-  : 1
-  ? - ACZZ7Z10
-    - Z3ZZ7Z10
-  : 20
-  ? - NCZZ5ZZ5
-    - Z2ZZ8ZZ4
-  : -30
-  ? - ACZ10ZZ2
-    - Z4Z10ZZ1
-  : -1
-  ? - NCZZ1ZZ7
-    - Z3ZZ1ZZ6
-  : -5
-  ? - NCZZ4ZZ4
-    - Z2ZZ5ZZ3
-  : -15
-  ? - NCZZ5ZZ9
-    - Z4ZZ9ZZ9
-  : 1
-  ? - NCZZ1ZZ8
-    - Z4ZZ4ZZ8
-  : 1
-  ? - NCZZ2ZZ9
-    - Z3ZZ6ZZ9
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z11ZZ1
-  : 1
-  ? - NCZZ5ZZ1
-    - Z2ZZ9ZZ1
-  : 30
-  ? - NCZZ3ZZ5
-    - Z3ZZ7ZZ4
-  : -5
-  ? - ACZZ8ZZ8
-    - Z3ZZ8ZZ8
-  : 40
-  ? - ACZZ4Z10
-    - Z2ZZ4Z10
-  : 15
-  ? - ACZ12ZZ1
-    - Z2Z12ZZ1
-  : 50
-  ? - NCZZ3ZZ2
-    - Z3ZZ7ZZ1
-  : -5
-  ? - ACZZ7ZZ6
-    - Z3ZZ7ZZ5
-  : -5
-  ? - CCZZ3ZZ5
-    - Z3ZZ3ZZ5
-  : 1
-  ? - ACZZ2Z10
-    - Z2ZZ2Z10
-  : 15
-  ? - NCZZ5ZZ7
-    - Z2ZZ6ZZ6
-  : -10
-  ? - CCZZ1ZZ2
-    - Z1ZZ1ZZ2
-  : 1
-  ? - ACZ11ZZ5
-    - Z4Z11ZZ5
-  : 1
-  ? - OBJZZZZZ
-    - Z4ZZ5ZZ4
+    - Z4ZZ7ZZ8
   : 1
   ? - NCZZ3ZZ9
     - Z4ZZ7ZZ8
   : -1
-  ? - CCZZ2Z10
-    - Z3ZZ2Z10
-  : 1
-  ? - ACZZ5ZZ9
-    - Z3ZZ5ZZ9
-  : 25
-  ? - CCZ12ZZ8
-    - Z2Z12ZZ8
-  : 1
-  ? - NCZZ1Z10
-    - Z2ZZ3ZZ9
-  : -10
-  ? - NCZZ4ZZ6
-    - Z4ZZ8ZZ5
+  ? - ACZZ7ZZ9
+    - Z4ZZ7ZZ8
   : -1
-  ? - ACZZ6ZZ1
-    - Z3ZZ6ZZ1
-  : 20
-  ? - ACZZ9ZZ7
-    - Z4ZZ9ZZ7
+  ? - CCZZ8ZZ8
+    - Z1ZZ8ZZ8
   : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ8
+  : 30
+  ? - NCZZ4ZZ8
+    - Z2ZZ8ZZ8
+  : 30
+  ? - ACZZ8ZZ8
+    - Z2ZZ8ZZ8
+  : 30
+  ? - CCZZ8ZZ8
+    - Z2ZZ8ZZ8
+  : 1
+  ? - NCZZ5ZZ9
+    - Z2ZZ8ZZ8
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ8
+  : 40
+  ? - NCZZ4ZZ8
+    - Z3ZZ8ZZ8
+  : 40
+  ? - ACZZ8ZZ8
+    - Z3ZZ8ZZ8
+  : 40
+  ? - CCZZ8ZZ8
+    - Z3ZZ8ZZ8
+  : 1
+  ? - NCZZ4ZZ9
+    - Z3ZZ8ZZ8
+  : -7
+  ? - ACZZ8ZZ9
+    - Z3ZZ8ZZ8
+  : -7
+  ? - NCZZ5ZZ9
+    - Z3ZZ8ZZ8
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ8
+  : 1
+  ? - NCZZ4ZZ8
+    - Z4ZZ8ZZ8
+  : 1
+  ? - ACZZ8ZZ8
+    - Z4ZZ8ZZ8
+  : 1
+  ? - NCZZ4ZZ9
+    - Z4ZZ8ZZ8
+  : -1
+  ? - ACZZ8ZZ9
+    - Z4ZZ8ZZ8
+  : -1
+  ? - CCZZ9ZZ8
+    - Z1ZZ9ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ8
+  : 30
+  ? - NCZZ5ZZ8
+    - Z2ZZ9ZZ8
+  : 30
   ? - ACZZ9ZZ8
     - Z2ZZ9ZZ8
   : 30
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ4
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ7ZZ7
+  ? - CCZZ9ZZ8
+    - Z2ZZ9ZZ8
   : 1
-  ? - ACZZ3ZZ8
-    - Z3ZZ3ZZ7
-  : -5
   ? - NCZZ4ZZ9
-    - Z2Z10ZZ9
-  : 10
-  ? - ACZZ7ZZ5
-    - Z4ZZ7ZZ4
+    - Z2ZZ9ZZ8
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ8
+  : 40
+  ? - NCZZ5ZZ8
+    - Z3ZZ9ZZ8
+  : 40
+  ? - ACZZ9ZZ8
+    - Z3ZZ9ZZ8
+  : 40
+  ? - CCZZ9ZZ8
+    - Z3ZZ9ZZ8
+  : 1
+  ? - NCZZ5ZZ9
+    - Z3ZZ9ZZ8
+  : -7
+  ? - ACZZ9ZZ9
+    - Z3ZZ9ZZ8
+  : -7
+  ? - NCZZ4ZZ9
+    - Z3ZZ9ZZ8
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ8
+  : 1
+  ? - NCZZ5ZZ8
+    - Z4ZZ9ZZ8
+  : 1
+  ? - ACZZ9ZZ8
+    - Z4ZZ9ZZ8
+  : 1
+  ? - NCZZ5ZZ9
+    - Z4ZZ9ZZ8
   : -1
-  ? - CCZZ7ZZ6
-    - Z1ZZ7ZZ6
+  ? - ACZZ9ZZ9
+    - Z4ZZ9ZZ8
+  : -1
+  ? - CCZ10ZZ8
+    - Z1Z10ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ8
+  : 10
+  ? - NCZZ4ZZ8
+    - Z2Z10ZZ8
+  : 10
+  ? - ACZ10ZZ8
+    - Z2Z10ZZ8
+  : 10
+  ? - CCZ10ZZ8
+    - Z2Z10ZZ8
   : 1
   ? - NCZZ6ZZ9
     - Z2Z10ZZ8
   : -10
   ? - OBJZZZZZ
-    - Z3ZZ3Z10
+    - Z3Z10ZZ8
   : 20
-  ? - NCZZ2ZZ4
-    - Z3ZZ2ZZ3
-  : -7
-  ? - NCZZ1ZZ9
-    - Z4ZZ1ZZ9
-  : 1
-  ? - NCZZ3ZZ2
-    - Z2ZZ7ZZ2
-  : 10
-  ? - ACZZ2ZZ4
-    - Z3ZZ2ZZ3
-  : -7
-  ? - NCZZ6ZZ6
-    - Z3Z10ZZ5
-  : -15
-  ? - NCZZ2ZZ7
-    - Z4ZZ3ZZ6
-  : -1
-  ? - NCZZ4ZZ7
-    - Z2ZZ4ZZ6
-  : -15
-  ? - OBJZZZZZ
-    - Z3Z11ZZ4
-  : 25
-  ? - ACZZ5ZZ8
-    - Z3ZZ5ZZ8
-  : 25
-  ? - NCZZ1Z10
-    - Z3ZZ4ZZ9
-  : -7
-  ? - OBJZZZZZ
-    - Z3ZZ1Z10
+  ? - NCZZ4ZZ8
+    - Z3Z10ZZ8
   : 20
-  ? - CCZ11ZZ6
-    - Z1Z11ZZ6
+  ? - ACZ10ZZ8
+    - Z3Z10ZZ8
+  : 20
+  ? - CCZ10ZZ8
+    - Z3Z10ZZ8
   : 1
-  ? - CCZZ2ZZ2
-    - Z1ZZ2ZZ2
-  : 1
-  ? - ACZ11ZZ4
-    - Z4Z11ZZ3
-  : -1
-  ? - NCZZ6ZZ5
-    - Z3Z11ZZ4
-  : -7
-  ? - CCZ11ZZ5
-    - Z1Z11ZZ5
-  : 1
-  ? - NCZZ4ZZ2
-    - Z3ZZ4ZZ1
-  : -18
-  ? - OBJZZZZZ
-    - Z2ZZ7ZZ4
-  : 10
-  ? - ACZZ7ZZ7
-    - Z3ZZ7ZZ6
+  ? - NCZZ4ZZ9
+    - Z3Z10ZZ8
   : -5
-  ? - CCZZ8ZZ6
-    - Z1ZZ8ZZ6
-  : 1
+  ? - ACZ10ZZ9
+    - Z3Z10ZZ8
+  : -5
+  ? - NCZZ6ZZ9
+    - Z3Z10ZZ8
+  : -15
   ? - OBJZZZZZ
-    - Z3ZZ8ZZ8
-  : 40
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ8
+    - Z4Z10ZZ8
   : 1
-  ? - CCZZ3Z10
-    - Z1ZZ3Z10
+  ? - NCZZ4ZZ8
+    - Z4Z10ZZ8
+  : 1
+  ? - ACZ10ZZ8
+    - Z4Z10ZZ8
   : 1
   ? - NCZZ4ZZ9
     - Z4Z10ZZ8
   : -1
-  ? - CCZZ5ZZ1
-    - Z2ZZ5ZZ1
-  : 1
-  ? - CCZZ1ZZ4
-    - Z2ZZ1ZZ4
-  : 1
-  ? - NCZZ3ZZ5
-    - Z3ZZ2ZZ4
-  : -18
-  ? - OBJZZZZZ
-    - Z2ZZ6ZZ2
-  : 10
-  ? - CCZZ4ZZ7
-    - Z1ZZ4ZZ7
-  : 1
-  ? - CCZZ7ZZ8
-    - Z3ZZ7ZZ8
-  : 1
   ? - ACZ10ZZ9
-    - Z3Z10ZZ8
-  : -5
-  ? - CCZZ9Z10
-    - Z2ZZ9Z10
+    - Z4Z10ZZ8
+  : -1
+  ? - CCZ11ZZ8
+    - Z1Z11ZZ8
   : 1
-  ? - ACZZ4ZZ7
-    - Z3ZZ4ZZ7
-  : 25
   ? - OBJZZZZZ
-    - Z3ZZ5ZZ4
+    - Z2Z11ZZ8
+  : 15
+  ? - NCZZ6ZZ8
+    - Z2Z11ZZ8
+  : 15
+  ? - ACZ11ZZ8
+    - Z2Z11ZZ8
+  : 15
+  ? - CCZ11ZZ8
+    - Z2Z11ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ8
   : 25
+  ? - NCZZ6ZZ8
+    - Z3Z11ZZ8
+  : 25
+  ? - ACZ11ZZ8
+    - Z3Z11ZZ8
+  : 25
+  ? - CCZ11ZZ8
+    - Z3Z11ZZ8
+  : 1
+  ? - NCZZ6ZZ9
+    - Z3Z11ZZ8
+  : -7
+  ? - ACZ11ZZ9
+    - Z3Z11ZZ8
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ8
+  : 1
+  ? - NCZZ6ZZ8
+    - Z4Z11ZZ8
+  : 1
+  ? - ACZ11ZZ8
+    - Z4Z11ZZ8
+  : 1
+  ? - NCZZ6ZZ9
+    - Z4Z11ZZ8
+  : -1
+  ? - ACZ11ZZ9
+    - Z4Z11ZZ8
+  : -1
+  ? - CCZ12ZZ8
+    - Z1Z12ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ8
+  : 50
+  ? - NCZZ5ZZ8
+    - Z2Z12ZZ8
+  : 50
+  ? - ACZ12ZZ8
+    - Z2Z12ZZ8
+  : 50
+  ? - CCZ12ZZ8
+    - Z2Z12ZZ8
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ8
+  : 80
+  ? - NCZZ5ZZ8
+    - Z3Z12ZZ8
+  : 80
+  ? - ACZ12ZZ8
+    - Z3Z12ZZ8
+  : 80
+  ? - CCZ12ZZ8
+    - Z3Z12ZZ8
+  : 1
   ? - NCZZ5ZZ9
-    - Z3ZZ7ZZ8
+    - Z3Z12ZZ8
   : -15
-  ? - CCZ11ZZ3
-    - Z2Z11ZZ3
+  ? - ACZ12ZZ9
+    - Z3Z12ZZ8
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ8
+  : 1
+  ? - NCZZ5ZZ8
+    - Z4Z12ZZ8
+  : 1
+  ? - ACZ12ZZ8
+    - Z4Z12ZZ8
+  : 1
+  ? - NCZZ5ZZ9
+    - Z4Z12ZZ8
+  : -1
+  ? - ACZ12ZZ9
+    - Z4Z12ZZ8
+  : -1
+  ? - CCZZ1ZZ9
+    - Z1ZZ1ZZ9
   : 1
   ? - OBJZZZZZ
-    - Z4ZZ9ZZ4
+    - Z2ZZ1ZZ9
+  : 10
+  ? - NCZZ1ZZ9
+    - Z2ZZ1ZZ9
+  : 10
+  ? - ACZZ1ZZ9
+    - Z2ZZ1ZZ9
+  : 10
+  ? - CCZZ1ZZ9
+    - Z2ZZ1ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z2ZZ1ZZ9
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ1ZZ9
+  : 20
+  ? - NCZZ1ZZ9
+    - Z3ZZ1ZZ9
+  : 20
+  ? - ACZZ1ZZ9
+    - Z3ZZ1ZZ9
+  : 20
+  ? - CCZZ1ZZ9
+    - Z3ZZ1ZZ9
   : 1
   ? - NCZZ1Z10
     - Z3ZZ1ZZ9
   : -5
-  ? - ACZ10ZZ6
-    - Z3Z10ZZ5
+  ? - ACZZ1Z10
+    - Z3ZZ1ZZ9
   : -5
-  ? - ACZ12ZZ2
-    - Z3Z12ZZ1
-  : -15
   ? - NCZZ2Z10
-    - Z4ZZ5Z10
+    - Z3ZZ1ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ1ZZ9
+  : 1
+  ? - NCZZ1ZZ9
+    - Z4ZZ1ZZ9
+  : 1
+  ? - ACZZ1ZZ9
+    - Z4ZZ1ZZ9
+  : 1
+  ? - NCZZ1Z10
+    - Z4ZZ1ZZ9
+  : -1
+  ? - ACZZ1Z10
+    - Z4ZZ1ZZ9
+  : -1
+  ? - CCZZ2ZZ9
+    - Z1ZZ2ZZ9
   : 1
   ? - OBJZZZZZ
-    - Z2Z11Z10
+    - Z2ZZ2ZZ9
   : 15
-  ? - CCZ12ZZ2
-    - Z2Z12ZZ2
+  ? - NCZZ2ZZ9
+    - Z2ZZ2ZZ9
+  : 15
+  ? - ACZZ2ZZ9
+    - Z2ZZ2ZZ9
+  : 15
+  ? - CCZZ2ZZ9
+    - Z2ZZ2ZZ9
   : 1
+  ? - NCZZ3Z10
+    - Z2ZZ2ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ2ZZ9
+  : 25
+  ? - NCZZ2ZZ9
+    - Z3ZZ2ZZ9
+  : 25
+  ? - ACZZ2ZZ9
+    - Z3ZZ2ZZ9
+  : 25
+  ? - CCZZ2ZZ9
+    - Z3ZZ2ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z3ZZ2ZZ9
+  : -7
+  ? - ACZZ2Z10
+    - Z3ZZ2ZZ9
+  : -7
+  ? - NCZZ3Z10
+    - Z3ZZ2ZZ9
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ2ZZ9
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ2ZZ9
+  : 1
+  ? - ACZZ2ZZ9
+    - Z4ZZ2ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ2ZZ9
+  : -1
+  ? - ACZZ2Z10
+    - Z4ZZ2ZZ9
+  : -1
+  ? - CCZZ3ZZ9
+    - Z1ZZ3ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3ZZ9
+  : 10
+  ? - NCZZ2ZZ9
+    - Z2ZZ3ZZ9
+  : 10
+  ? - ACZZ3ZZ9
+    - Z2ZZ3ZZ9
+  : 10
+  ? - CCZZ3ZZ9
+    - Z2ZZ3ZZ9
+  : 1
+  ? - NCZZ1Z10
+    - Z2ZZ3ZZ9
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ3ZZ9
+  : 20
+  ? - NCZZ2ZZ9
+    - Z3ZZ3ZZ9
+  : 20
+  ? - ACZZ3ZZ9
+    - Z3ZZ3ZZ9
+  : 20
+  ? - CCZZ3ZZ9
+    - Z3ZZ3ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z3ZZ3ZZ9
+  : -5
+  ? - ACZZ3Z10
+    - Z3ZZ3ZZ9
+  : -5
+  ? - NCZZ1Z10
+    - Z3ZZ3ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ3ZZ9
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ3ZZ9
+  : 1
+  ? - ACZZ3ZZ9
+    - Z4ZZ3ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ3ZZ9
+  : -1
+  ? - ACZZ3Z10
+    - Z4ZZ3ZZ9
+  : -1
+  ? - CCZZ4ZZ9
+    - Z1ZZ4ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ4ZZ9
+  : 15
+  ? - NCZZ1ZZ9
+    - Z2ZZ4ZZ9
+  : 15
   ? - ACZZ4ZZ9
     - Z2ZZ4ZZ9
   : 15
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ8
-  : 15
-  ? - ACZ12ZZ2
-    - Z3Z12ZZ2
-  : 80
-  ? - OBJZZZZZ
-    - Z4Z12ZZ9
+  ? - CCZZ4ZZ9
+    - Z2ZZ4ZZ9
   : 1
-  ? - CCZZ7Z10
-    - Z2ZZ7Z10
-  : 1
-  ? - NCZZ4ZZ9
-    - Z2ZZ4ZZ8
+  ? - NCZZ4Z10
+    - Z2ZZ4ZZ9
   : -15
-  ? - NCZZ5ZZ8
-    - Z3ZZ9ZZ7
+  ? - OBJZZZZZ
+    - Z3ZZ4ZZ9
+  : 25
+  ? - NCZZ1ZZ9
+    - Z3ZZ4ZZ9
+  : 25
+  ? - ACZZ4ZZ9
+    - Z3ZZ4ZZ9
+  : 25
+  ? - CCZZ4ZZ9
+    - Z3ZZ4ZZ9
+  : 1
+  ? - NCZZ1Z10
+    - Z3ZZ4ZZ9
   : -7
-  ? - NCZZ4ZZ6
-    - Z2ZZ8ZZ6
-  : 30
-  ? - CCZZ4Z10
-    - Z1ZZ4Z10
+  ? - ACZZ4Z10
+    - Z3ZZ4ZZ9
+  : -7
+  ? - NCZZ4Z10
+    - Z3ZZ4ZZ9
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ4ZZ9
   : 1
-  ? - CCZ12ZZ6
-    - Z1Z12ZZ6
+  ? - NCZZ1ZZ9
+    - Z4ZZ4ZZ9
   : 1
-  ? - ACZZ8ZZ7
-    - Z4ZZ8ZZ6
+  ? - ACZZ4ZZ9
+    - Z4ZZ4ZZ9
+  : 1
+  ? - NCZZ1Z10
+    - Z4ZZ4ZZ9
   : -1
-  ? - ACZZ1Z10
-    - Z4ZZ1Z10
+  ? - ACZZ4Z10
+    - Z4ZZ4ZZ9
+  : -1
+  ? - CCZZ5ZZ9
+    - Z1ZZ5ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ5ZZ9
+  : 15
+  ? - NCZZ2ZZ9
+    - Z2ZZ5ZZ9
+  : 15
+  ? - ACZZ5ZZ9
+    - Z2ZZ5ZZ9
+  : 15
+  ? - CCZZ5ZZ9
+    - Z2ZZ5ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z2ZZ5ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z3ZZ5ZZ9
+  : 25
+  ? - NCZZ2ZZ9
+    - Z3ZZ5ZZ9
+  : 25
+  ? - ACZZ5ZZ9
+    - Z3ZZ5ZZ9
+  : 25
+  ? - CCZZ5ZZ9
+    - Z3ZZ5ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z3ZZ5ZZ9
+  : -7
+  ? - ACZZ5Z10
+    - Z3ZZ5ZZ9
+  : -7
+  ? - NCZZ4Z10
+    - Z3ZZ5ZZ9
+  : -18
+  ? - OBJZZZZZ
+    - Z4ZZ5ZZ9
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ5ZZ9
+  : 1
+  ? - ACZZ5ZZ9
+    - Z4ZZ5ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ5ZZ9
+  : -1
+  ? - ACZZ5Z10
+    - Z4ZZ5ZZ9
+  : -1
+  ? - CCZZ6ZZ9
+    - Z1ZZ6ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6ZZ9
+  : 10
+  ? - NCZZ2ZZ9
+    - Z2ZZ6ZZ9
+  : 10
+  ? - ACZZ6ZZ9
+    - Z2ZZ6ZZ9
+  : 10
+  ? - CCZZ6ZZ9
+    - Z2ZZ6ZZ9
   : 1
   ? - NCZZ5Z10
     - Z2ZZ6ZZ9
   : -10
-  ? - ACZ12ZZ3
-    - Z4Z12ZZ2
+  ? - OBJZZZZZ
+    - Z3ZZ6ZZ9
+  : 20
+  ? - NCZZ2ZZ9
+    - Z3ZZ6ZZ9
+  : 20
+  ? - ACZZ6ZZ9
+    - Z3ZZ6ZZ9
+  : 20
+  ? - CCZZ6ZZ9
+    - Z3ZZ6ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z3ZZ6ZZ9
+  : -5
+  ? - ACZZ6Z10
+    - Z3ZZ6ZZ9
+  : -5
+  ? - NCZZ5Z10
+    - Z3ZZ6ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ6ZZ9
+  : 1
+  ? - NCZZ2ZZ9
+    - Z4ZZ6ZZ9
+  : 1
+  ? - ACZZ6ZZ9
+    - Z4ZZ6ZZ9
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ6ZZ9
   : -1
-  ? - ACZZ9ZZ4
-    - Z3ZZ9ZZ3
-  : -7
-  ? - ACZZ1ZZ2
-    - Z3ZZ1ZZ2
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ1
-  : 15
-  ? - CCZZ7ZZ4
-    - Z2ZZ7ZZ4
-  : 1
-  ? - ACZZ6ZZ3
-    - Z3ZZ6ZZ3
-  : 20
-  ? - CCZ10ZZ5
-    - Z3Z10ZZ5
+  ? - ACZZ6Z10
+    - Z4ZZ6ZZ9
+  : -1
+  ? - CCZZ7ZZ9
+    - Z1ZZ7ZZ9
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ7ZZ6
+    - Z2ZZ7ZZ9
   : 10
-  ? - NCZZ4ZZ2
-    - Z3ZZ8ZZ1
-  : -7
-  ? - CCZZ9ZZ7
-    - Z3ZZ9ZZ7
+  ? - NCZZ3ZZ9
+    - Z2ZZ7ZZ9
+  : 10
+  ? - ACZZ7ZZ9
+    - Z2ZZ7ZZ9
+  : 10
+  ? - CCZZ7ZZ9
+    - Z2ZZ7ZZ9
   : 1
-  ? - CCZZ2ZZ9
-    - Z3ZZ2ZZ9
+  ? - NCZZ5Z10
+    - Z2ZZ7ZZ9
+  : -10
+  ? - OBJZZZZZ
+    - Z3ZZ7ZZ9
+  : 20
+  ? - NCZZ3ZZ9
+    - Z3ZZ7ZZ9
+  : 20
+  ? - ACZZ7ZZ9
+    - Z3ZZ7ZZ9
+  : 20
+  ? - CCZZ7ZZ9
+    - Z3ZZ7ZZ9
+  : 1
+  ? - NCZZ3Z10
+    - Z3ZZ7ZZ9
+  : -5
+  ? - ACZZ7Z10
+    - Z3ZZ7ZZ9
+  : -5
+  ? - NCZZ5Z10
+    - Z3ZZ7ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ7ZZ9
+  : 1
+  ? - NCZZ3ZZ9
+    - Z4ZZ7ZZ9
+  : 1
+  ? - ACZZ7ZZ9
+    - Z4ZZ7ZZ9
+  : 1
+  ? - NCZZ3Z10
+    - Z4ZZ7ZZ9
+  : -1
+  ? - ACZZ7Z10
+    - Z4ZZ7ZZ9
+  : -1
+  ? - CCZZ8ZZ9
+    - Z1ZZ8ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ8ZZ9
+  : 30
+  ? - NCZZ4ZZ9
+    - Z2ZZ8ZZ9
+  : 30
+  ? - ACZZ8ZZ9
+    - Z2ZZ8ZZ9
+  : 30
+  ? - CCZZ8ZZ9
+    - Z2ZZ8ZZ9
+  : 1
+  ? - NCZZ5Z10
+    - Z2ZZ8ZZ9
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ8ZZ9
+  : 40
+  ? - NCZZ4ZZ9
+    - Z3ZZ8ZZ9
+  : 40
+  ? - ACZZ8ZZ9
+    - Z3ZZ8ZZ9
+  : 40
+  ? - CCZZ8ZZ9
+    - Z3ZZ8ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z3ZZ8ZZ9
+  : -7
+  ? - ACZZ8Z10
+    - Z3ZZ8ZZ9
+  : -7
+  ? - NCZZ5Z10
+    - Z3ZZ8ZZ9
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ8ZZ9
+  : 1
+  ? - NCZZ4ZZ9
+    - Z4ZZ8ZZ9
+  : 1
+  ? - ACZZ8ZZ9
+    - Z4ZZ8ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z4ZZ8ZZ9
+  : -1
+  ? - ACZZ8Z10
+    - Z4ZZ8ZZ9
+  : -1
+  ? - CCZZ9ZZ9
+    - Z1ZZ9ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9ZZ9
+  : 30
+  ? - NCZZ5ZZ9
+    - Z2ZZ9ZZ9
+  : 30
+  ? - ACZZ9ZZ9
+    - Z2ZZ9ZZ9
+  : 30
+  ? - CCZZ9ZZ9
+    - Z2ZZ9ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z2ZZ9ZZ9
+  : -30
+  ? - OBJZZZZZ
+    - Z3ZZ9ZZ9
+  : 40
+  ? - NCZZ5ZZ9
+    - Z3ZZ9ZZ9
+  : 40
+  ? - ACZZ9ZZ9
+    - Z3ZZ9ZZ9
+  : 40
+  ? - CCZZ9ZZ9
+    - Z3ZZ9ZZ9
+  : 1
+  ? - NCZZ5Z10
+    - Z3ZZ9ZZ9
+  : -7
+  ? - ACZZ9Z10
+    - Z3ZZ9ZZ9
+  : -7
+  ? - NCZZ4Z10
+    - Z3ZZ9ZZ9
+  : -33
+  ? - OBJZZZZZ
+    - Z4ZZ9ZZ9
+  : 1
+  ? - NCZZ5ZZ9
+    - Z4ZZ9ZZ9
+  : 1
+  ? - ACZZ9ZZ9
+    - Z4ZZ9ZZ9
+  : 1
+  ? - NCZZ5Z10
+    - Z4ZZ9ZZ9
+  : -1
+  ? - ACZZ9Z10
+    - Z4ZZ9ZZ9
+  : -1
+  ? - CCZ10ZZ9
+    - Z1Z10ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10ZZ9
+  : 10
+  ? - NCZZ4ZZ9
+    - Z2Z10ZZ9
+  : 10
+  ? - ACZ10ZZ9
+    - Z2Z10ZZ9
+  : 10
+  ? - CCZ10ZZ9
+    - Z2Z10ZZ9
+  : 1
+  ? - NCZZ6Z10
+    - Z2Z10ZZ9
+  : -10
+  ? - OBJZZZZZ
+    - Z3Z10ZZ9
+  : 20
+  ? - NCZZ4ZZ9
+    - Z3Z10ZZ9
+  : 20
+  ? - ACZ10ZZ9
+    - Z3Z10ZZ9
+  : 20
+  ? - CCZ10ZZ9
+    - Z3Z10ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z3Z10ZZ9
+  : -5
+  ? - ACZ10Z10
+    - Z3Z10ZZ9
+  : -5
+  ? - NCZZ6Z10
+    - Z3Z10ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z10ZZ9
+  : 1
+  ? - NCZZ4ZZ9
+    - Z4Z10ZZ9
+  : 1
+  ? - ACZ10ZZ9
+    - Z4Z10ZZ9
+  : 1
+  ? - NCZZ4Z10
+    - Z4Z10ZZ9
+  : -1
+  ? - ACZ10Z10
+    - Z4Z10ZZ9
+  : -1
+  ? - CCZ11ZZ9
+    - Z1Z11ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z11ZZ9
+  : 15
+  ? - NCZZ6ZZ9
+    - Z2Z11ZZ9
+  : 15
+  ? - ACZ11ZZ9
+    - Z2Z11ZZ9
+  : 15
+  ? - CCZ11ZZ9
+    - Z2Z11ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z11ZZ9
+  : 25
+  ? - NCZZ6ZZ9
+    - Z3Z11ZZ9
+  : 25
+  ? - ACZ11ZZ9
+    - Z3Z11ZZ9
+  : 25
+  ? - CCZ11ZZ9
+    - Z3Z11ZZ9
+  : 1
+  ? - NCZZ6Z10
+    - Z3Z11ZZ9
+  : -7
+  ? - ACZ11Z10
+    - Z3Z11ZZ9
+  : -7
+  ? - OBJZZZZZ
+    - Z4Z11ZZ9
+  : 1
+  ? - NCZZ6ZZ9
+    - Z4Z11ZZ9
+  : 1
+  ? - ACZ11ZZ9
+    - Z4Z11ZZ9
+  : 1
+  ? - NCZZ6Z10
+    - Z4Z11ZZ9
+  : -1
+  ? - ACZ11Z10
+    - Z4Z11ZZ9
+  : -1
+  ? - CCZ12ZZ9
+    - Z1Z12ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12ZZ9
+  : 50
+  ? - NCZZ5ZZ9
+    - Z2Z12ZZ9
+  : 50
+  ? - ACZ12ZZ9
+    - Z2Z12ZZ9
+  : 50
+  ? - CCZ12ZZ9
+    - Z2Z12ZZ9
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z12ZZ9
+  : 80
+  ? - NCZZ5ZZ9
+    - Z3Z12ZZ9
+  : 80
+  ? - ACZ12ZZ9
+    - Z3Z12ZZ9
+  : 80
+  ? - CCZ12ZZ9
+    - Z3Z12ZZ9
+  : 1
+  ? - NCZZ5Z10
+    - Z3Z12ZZ9
+  : -15
+  ? - ACZ12Z10
+    - Z3Z12ZZ9
+  : -15
+  ? - OBJZZZZZ
+    - Z4Z12ZZ9
+  : 1
+  ? - NCZZ5ZZ9
+    - Z4Z12ZZ9
+  : 1
+  ? - ACZ12ZZ9
+    - Z4Z12ZZ9
+  : 1
+  ? - NCZZ5Z10
+    - Z4Z12ZZ9
+  : -1
+  ? - ACZ12Z10
+    - Z4Z12ZZ9
+  : -1
+  ? - CCZZ1Z10
+    - Z1ZZ1Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ1Z10
+  : 10
+  ? - NCZZ1Z10
+    - Z2ZZ1Z10
+  : 10
+  ? - ACZZ1Z10
+    - Z2ZZ1Z10
+  : 10
+  ? - CCZZ1Z10
+    - Z2ZZ1Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ1Z10
+  : 20
+  ? - NCZZ1Z10
+    - Z3ZZ1Z10
+  : 20
+  ? - ACZZ1Z10
+    - Z3ZZ1Z10
+  : 20
+  ? - CCZZ1Z10
+    - Z3ZZ1Z10
   : 1
   ? - OBJZZZZZ
     - Z4ZZ1Z10
   : 1
-  ? - ACZZ5Z10
-    - Z2ZZ5Z10
-  : 15
-  ? - ACZZ5ZZ9
-    - Z4ZZ5ZZ9
+  ? - NCZZ1Z10
+    - Z4ZZ1Z10
   : 1
-  ? - CCZZ2ZZ6
-    - Z1ZZ2ZZ6
+  ? - ACZZ1Z10
+    - Z4ZZ1Z10
   : 1
-  ? - CCZZ7ZZ3
-    - Z2ZZ7ZZ3
-  : 1
-  ? - NCZZ2ZZ7
-    - Z4ZZ2ZZ6
-  : -1
-  ? - ACZZ7ZZ4
-    - Z2ZZ7ZZ4
-  : 10
-  ? - OBJZZZZZ
-    - Z4ZZ2ZZ9
-  : 1
-  ? - ACZZ8ZZ9
-    - Z3ZZ8ZZ9
-  : 40
-  ? - NCZZ2ZZ8
-    - Z4ZZ3ZZ8
-  : 1
-  ? - ACZZ9Z10
-    - Z4ZZ9ZZ9
-  : -1
-  ? - NCZZ2ZZ2
-    - Z4ZZ5ZZ2
-  : 1
-  ? - NCZZ6ZZ2
-    - Z2Z11ZZ2
-  : 15
-  ? - ACZZ4ZZ3
-    - Z4ZZ4ZZ3
-  : 1
-  ? - CCZZ1ZZ3
-    - Z2ZZ1ZZ3
-  : 1
-  ? - ACZZ7ZZ7
-    - Z2ZZ7ZZ7
-  : 10
-  ? - NCZZ4ZZ8
-    - Z2ZZ8ZZ8
-  : 30
   ? - CCZZ2Z10
     - Z1ZZ2Z10
   : 1
+  ? - OBJZZZZZ
+    - Z2ZZ2Z10
+  : 15
+  ? - NCZZ2Z10
+    - Z2ZZ2Z10
+  : 15
+  ? - ACZZ2Z10
+    - Z2ZZ2Z10
+  : 15
+  ? - CCZZ2Z10
+    - Z2ZZ2Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ2Z10
+  : 25
   ? - NCZZ2Z10
     - Z3ZZ2Z10
   : 25
-  ? - CCZZ5ZZ2
-    - Z3ZZ5ZZ2
+  ? - ACZZ2Z10
+    - Z3ZZ2Z10
+  : 25
+  ? - CCZZ2Z10
+    - Z3ZZ2Z10
   : 1
-  ? - ACZZ2ZZ9
-    - Z4ZZ2ZZ8
-  : -1
-  ? - NCZZ2ZZ8
-    - Z3ZZ1ZZ7
-  : -15
+  ? - OBJZZZZZ
+    - Z4ZZ2Z10
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ2Z10
+  : 1
+  ? - ACZZ2Z10
+    - Z4ZZ2Z10
+  : 1
+  ? - CCZZ3Z10
+    - Z1ZZ3Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ3Z10
+  : 10
+  ? - NCZZ2Z10
+    - Z2ZZ3Z10
+  : 10
+  ? - ACZZ3Z10
+    - Z2ZZ3Z10
+  : 10
+  ? - CCZZ3Z10
+    - Z2ZZ3Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ3Z10
+  : 20
+  ? - NCZZ2Z10
+    - Z3ZZ3Z10
+  : 20
+  ? - ACZZ3Z10
+    - Z3ZZ3Z10
+  : 20
+  ? - CCZZ3Z10
+    - Z3ZZ3Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z4ZZ3Z10
+  : 1
   ? - NCZZ2Z10
     - Z4ZZ3Z10
   : 1
-  ? - ACZZ9ZZ2
-    - Z2ZZ9ZZ2
-  : 30
-  ? - CCZ10ZZ6
-    - Z2Z10ZZ6
+  ? - ACZZ3Z10
+    - Z4ZZ3Z10
   : 1
-  ? - NCZZ1ZZ7
-    - Z4ZZ4ZZ7
+  ? - CCZZ4Z10
+    - Z1ZZ4Z10
   : 1
   ? - OBJZZZZZ
-    - Z2Z10ZZ1
-  : 10
-  ? - OBJZZZZZ
-    - Z2ZZ5ZZ2
+    - Z2ZZ4Z10
   : 15
-  ? - ACZZ1ZZ9
-    - Z2ZZ1ZZ9
-  : 10
-  ? - NCZZ1ZZ6
-    - Z4ZZ4ZZ5
-  : -1
-  ? - NCZZ2ZZ9
-    - Z3ZZ3ZZ9
-  : 20
-  ? - NCZZ4ZZ4
-    - Z3ZZ8ZZ4
-  : 40
-  ? - NCZZ4ZZ6
-    - Z3ZZ8ZZ6
-  : 40
-  ? - CCZZ9ZZ6
-    - Z1ZZ9ZZ6
-  : 1
-  ? - CCZZ4ZZ1
-    - Z2ZZ4ZZ1
-  : 1
-  ? - CCZZ1ZZ8
-    - Z2ZZ1ZZ8
-  : 1
-  ? - ACZ10ZZ1
-    - Z4Z10ZZ1
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ6ZZ9
-  : 20
-  ? - ACZZ9ZZ6
-    - Z2ZZ9ZZ6
-  : 30
-  ? - OBJZZZZZ
-    - Z2ZZ2ZZ2
+  ? - NCZZ1Z10
+    - Z2ZZ4Z10
   : 15
-  ? - ACZZ1ZZ2
-    - Z4ZZ1ZZ1
-  : -1
-  ? - NCZZ2ZZ1
-    - Z4ZZ3ZZ1
+  ? - ACZZ4Z10
+    - Z2ZZ4Z10
+  : 15
+  ? - CCZZ4Z10
+    - Z2ZZ4Z10
   : 1
-  ? - NCZZ2ZZ3
-    - Z3ZZ2ZZ3
+  ? - OBJZZZZZ
+    - Z3ZZ4Z10
   : 25
-  ? - NCZZ4ZZ9
-    - Z3ZZ5ZZ8
-  : -18
-  ? - CCZZ1ZZ1
-    - Z3ZZ1ZZ1
-  : 1
-  ? - NCZZ2ZZ3
-    - Z2ZZ1ZZ2
-  : -10
-  ? - CCZZ9ZZ8
-    - Z3ZZ9ZZ8
-  : 1
-  ? - OBJZZZZZ
-    - Z3Z12ZZ3
-  : 80
-  ? - NCZZ4ZZ2
-    - Z2ZZ9ZZ1
-  : -30
-  ? - CCZ10ZZ8
-    - Z2Z10ZZ8
-  : 1
-  ? - ACZZ2ZZ5
-    - Z3ZZ2ZZ5
+  ? - NCZZ1Z10
+    - Z3ZZ4Z10
   : 25
-  ? - NCZZ2ZZ1
-    - Z4ZZ6ZZ1
-  : 1
-  ? - ACZZ9ZZ6
-    - Z3ZZ9ZZ5
-  : -7
-  ? - NCZZ5ZZ3
-    - Z3ZZ9ZZ2
-  : -7
-  ? - NCZZ2ZZ6
-    - Z2ZZ5ZZ6
-  : 15
-  ? - CCZZ9ZZ4
-    - Z1ZZ9ZZ4
-  : 1
-  ? - ACZ11ZZ9
-    - Z3Z11ZZ8
-  : -7
-  ? - ACZZ4ZZ4
-    - Z4ZZ4ZZ3
-  : -1
-  ? - NCZZ4ZZ9
-    - Z2ZZ9ZZ8
-  : -30
-  ? - ACZZ8ZZ3
-    - Z3ZZ8ZZ3
-  : 40
-  ? - ACZ10ZZ2
-    - Z2Z10ZZ2
-  : 10
-  ? - CCZZ8Z10
-    - Z3ZZ8Z10
+  ? - ACZZ4Z10
+    - Z3ZZ4Z10
+  : 25
+  ? - CCZZ4Z10
+    - Z3ZZ4Z10
   : 1
   ? - OBJZZZZZ
-    - Z4Z11ZZ3
+    - Z4ZZ4Z10
   : 1
-  ? - CCZ10ZZ6
-    - Z1Z10ZZ6
+  ? - NCZZ1Z10
+    - Z4ZZ4Z10
   : 1
-  ? - CCZZ2ZZ5
-    - Z3ZZ2ZZ5
+  ? - ACZZ4Z10
+    - Z4ZZ4Z10
   : 1
-  ? - CCZ11ZZ4
-    - Z2Z11ZZ4
+  ? - CCZZ5Z10
+    - Z1ZZ5Z10
   : 1
-  ? - NCZZ3ZZ3
-    - Z2ZZ2ZZ2
-  : -15
+  ? - OBJZZZZZ
+    - Z2ZZ5Z10
+  : 15
+  ? - NCZZ2Z10
+    - Z2ZZ5Z10
+  : 15
+  ? - ACZZ5Z10
+    - Z2ZZ5Z10
+  : 15
+  ? - CCZZ5Z10
+    - Z2ZZ5Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ5Z10
+  : 25
+  ? - NCZZ2Z10
+    - Z3ZZ5Z10
+  : 25
+  ? - ACZZ5Z10
+    - Z3ZZ5Z10
+  : 25
+  ? - CCZZ5Z10
+    - Z3ZZ5Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z4ZZ5Z10
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ5Z10
+  : 1
+  ? - ACZZ5Z10
+    - Z4ZZ5Z10
+  : 1
+  ? - CCZZ6Z10
+    - Z1ZZ6Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ6Z10
+  : 10
+  ? - NCZZ2Z10
+    - Z2ZZ6Z10
+  : 10
+  ? - ACZZ6Z10
+    - Z2ZZ6Z10
+  : 10
+  ? - CCZZ6Z10
+    - Z2ZZ6Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ6Z10
+  : 20
+  ? - NCZZ2Z10
+    - Z3ZZ6Z10
+  : 20
+  ? - ACZZ6Z10
+    - Z3ZZ6Z10
+  : 20
+  ? - CCZZ6Z10
+    - Z3ZZ6Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z4ZZ6Z10
+  : 1
+  ? - NCZZ2Z10
+    - Z4ZZ6Z10
+  : 1
+  ? - ACZZ6Z10
+    - Z4ZZ6Z10
+  : 1
   ? - CCZZ7Z10
     - Z1ZZ7Z10
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ6ZZ7
+    - Z2ZZ7Z10
   : 10
-  ? - CCZZ2ZZ2
-    - Z3ZZ2ZZ2
+  ? - NCZZ3Z10
+    - Z2ZZ7Z10
+  : 10
+  ? - ACZZ7Z10
+    - Z2ZZ7Z10
+  : 10
+  ? - CCZZ7Z10
+    - Z2ZZ7Z10
   : 1
+  ? - OBJZZZZZ
+    - Z3ZZ7Z10
+  : 20
+  ? - NCZZ3Z10
+    - Z3ZZ7Z10
+  : 20
+  ? - ACZZ7Z10
+    - Z3ZZ7Z10
+  : 20
   ? - CCZZ7Z10
     - Z3ZZ7Z10
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ3ZZ6
-  : 10
+    - Z4ZZ7Z10
+  : 1
+  ? - NCZZ3Z10
+    - Z4ZZ7Z10
+  : 1
+  ? - ACZZ7Z10
+    - Z4ZZ7Z10
+  : 1
+  ? - CCZZ8Z10
+    - Z1ZZ8Z10
+  : 1
   ? - OBJZZZZZ
-    - Z4ZZ1ZZ1
+    - Z2ZZ8Z10
+  : 30
+  ? - NCZZ4Z10
+    - Z2ZZ8Z10
+  : 30
+  ? - ACZZ8Z10
+    - Z2ZZ8Z10
+  : 30
+  ? - CCZZ8Z10
+    - Z2ZZ8Z10
   : 1
-  ? - NCZZ2ZZ6
-    - Z4ZZ6ZZ5
-  : -1
-  ? - NCZZ2ZZ2
-    - Z4ZZ2ZZ2
+  ? - OBJZZZZZ
+    - Z3ZZ8Z10
+  : 40
+  ? - NCZZ4Z10
+    - Z3ZZ8Z10
+  : 40
+  ? - ACZZ8Z10
+    - Z3ZZ8Z10
+  : 40
+  ? - CCZZ8Z10
+    - Z3ZZ8Z10
   : 1
-  ? - NCZZ2ZZ4
-    - Z3ZZ6ZZ4
-  : 20
-  ? - ACZZ2ZZ6
-    - Z4ZZ2ZZ6
+  ? - OBJZZZZZ
+    - Z4ZZ8Z10
   : 1
-  ? - NCZZ3ZZ7
-    - Z3ZZ7ZZ6
-  : -5
-  ? - NCZZ4ZZ8
-    - Z3Z10ZZ7
-  : -5
-  ? - NCZZ2Z10
-    - Z2ZZ6Z10
-  : 10
-  ? - ACZZ9ZZ8
-    - Z4ZZ9ZZ8
+  ? - NCZZ4Z10
+    - Z4ZZ8Z10
   : 1
-  ? - ACZ11ZZ2
-    - Z2Z11ZZ2
-  : 15
+  ? - ACZZ8Z10
+    - Z4ZZ8Z10
+  : 1
+  ? - CCZZ9Z10
+    - Z1ZZ9Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2ZZ9Z10
+  : 30
   ? - NCZZ5Z10
-    - Z3ZZ7ZZ9
-  : -15
-  ? - NCZZ6ZZ4
-    - Z2Z10ZZ3
-  : -10
-  ? - ACZZ1ZZ2
-    - Z3ZZ1ZZ1
-  : -5
-  ? - ACZZ7ZZ5
-    - Z3ZZ7ZZ5
+    - Z2ZZ9Z10
+  : 30
+  ? - ACZZ9Z10
+    - Z2ZZ9Z10
+  : 30
+  ? - CCZZ9Z10
+    - Z2ZZ9Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3ZZ9Z10
+  : 40
+  ? - NCZZ5Z10
+    - Z3ZZ9Z10
+  : 40
+  ? - ACZZ9Z10
+    - Z3ZZ9Z10
+  : 40
+  ? - CCZZ9Z10
+    - Z3ZZ9Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z4ZZ9Z10
+  : 1
+  ? - NCZZ5Z10
+    - Z4ZZ9Z10
+  : 1
+  ? - ACZZ9Z10
+    - Z4ZZ9Z10
+  : 1
+  ? - CCZ10Z10
+    - Z1Z10Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z10Z10
+  : 10
+  ? - NCZZ4Z10
+    - Z2Z10Z10
+  : 10
+  ? - ACZ10Z10
+    - Z2Z10Z10
+  : 10
+  ? - CCZ10Z10
+    - Z2Z10Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z3Z10Z10
+  : 20
+  ? - NCZZ4Z10
+    - Z3Z10Z10
+  : 20
+  ? - ACZ10Z10
+    - Z3Z10Z10
   : 20
   ? - CCZ10Z10
     - Z3Z10Z10
   : 1
-  ? - NCZZ4ZZ3
-    - Z4Z10ZZ2
-  : -1
-  ? - ACZZ5Z10
-    - Z4ZZ5Z10
+  ? - OBJZZZZZ
+    - Z4Z10Z10
+  : 1
+  ? - NCZZ4Z10
+    - Z4Z10Z10
+  : 1
+  ? - ACZ10Z10
+    - Z4Z10Z10
+  : 1
+  ? - CCZ11Z10
+    - Z1Z11Z10
   : 1
   ? - OBJZZZZZ
-    - Z2ZZ6ZZ6
-  : 10
-  ? - CCZZ1ZZ3
-    - Z3ZZ1ZZ3
-  : 1
-  ? - NCZZ2ZZ2
-    - Z3ZZ2ZZ1
-  : -7
-  ? - NCZZ1ZZ2
-    - Z3ZZ1ZZ2
-  : 20
-  ? - OBJZZZZZ
-    - Z4Z10ZZ6
-  : 1
-  ? - ACZ10ZZ8
-    - Z3Z10ZZ8
-  : 20
-  ? - OBJZZZZZ
-    - Z3ZZ1ZZ2
-  : 20
-  ? - CCZZ5Z10
-    - Z2ZZ5Z10
-  : 1
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ8
+    - Z2Z11Z10
   : 15
-  ? - NCZZ4ZZ2
-    - Z3Z10ZZ1
-  : -5
-  ? - NCZZ5ZZ1
-    - Z2Z12ZZ1
-  : 50
-  ? - CCZZ9ZZ2
-    - Z1ZZ9ZZ2
-  : 1
-  ? - CCZZ3ZZ2
-    - Z3ZZ3ZZ2
-  : 1
-  ? - ACZZ8ZZ5
-    - Z2ZZ8ZZ5
-  : 30
-  ? - ACZ10ZZ8
-    - Z4Z10ZZ8
-  : 1
-  ? - ACZZ7ZZ8
-    - Z3ZZ7ZZ7
-  : -5
-  ? - ACZ11ZZ8
-    - Z2Z11ZZ8
+  ? - NCZZ6Z10
+    - Z2Z11Z10
   : 15
-  ? - ACZZ5ZZ3
-    - Z4ZZ5ZZ2
-  : -1
-  ? - CCZZ1ZZ2
-    - Z3ZZ1ZZ2
-  : 1
-  ? - ACZZ4ZZ7
-    - Z4ZZ4ZZ7
+  ? - ACZ11Z10
+    - Z2Z11Z10
+  : 15
+  ? - CCZ11Z10
+    - Z2Z11Z10
   : 1
   ? - OBJZZZZZ
-    - Z4ZZ9ZZ7
-  : 1
-  ? - CCZZ1ZZ1
-    - Z1ZZ1ZZ1
-  : 1
-  ? - NCZZ4ZZ2
-    - Z2Z10ZZ2
-  : 10
-  ? - CCZZ3ZZ4
-    - Z1ZZ3ZZ4
-  : 1
-  ? - NCZZ2ZZ9
-    - Z3ZZ5ZZ9
+    - Z3Z11Z10
   : 25
-  ? - NCZZ5ZZ5
-    - Z3Z12ZZ5
-  : 80
-  ? - CCZZ8ZZ8
-    - Z3ZZ8ZZ8
-  : 1
-  ? - OBJZZZZZ
-    - Z3ZZ7ZZ9
-  : 20
-  ? - ACZZ9ZZ6
-    - Z3ZZ9ZZ6
-  : 40
-  ? - CCZZ4ZZ3
-    - Z2ZZ4ZZ3
-  : 1
-  ? - NCZZ1ZZ3
-    - Z2ZZ4ZZ3
-  : 15
-  ? - ACZZ7ZZ4
-    - Z3ZZ7ZZ3
-  : -5
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ3
-  : 15
+  ? - NCZZ6Z10
+    - Z3Z11Z10
+  : 25
+  ? - ACZ11Z10
+    - Z3Z11Z10
+  : 25
   ? - CCZ11Z10
     - Z3Z11Z10
   : 1
-  ? - ACZZ2ZZ4
-    - Z4ZZ2ZZ3
-  : -1
-  ? - CCZZ3ZZ4
-    - Z2ZZ3ZZ4
-  : 1
-  ? - NCZZ2ZZ1
-    - Z2ZZ2ZZ1
-  : 15
   ? - OBJZZZZZ
-    - Z2Z12ZZ9
+    - Z4Z11Z10
+  : 1
+  ? - NCZZ6Z10
+    - Z4Z11Z10
+  : 1
+  ? - ACZ11Z10
+    - Z4Z11Z10
+  : 1
+  ? - CCZ12Z10
+    - Z1Z12Z10
+  : 1
+  ? - OBJZZZZZ
+    - Z2Z12Z10
   : 50
-  ? - NCZZ2ZZ2
-    - Z3ZZ6ZZ2
-  : 20
-  ? - ACZZ9ZZ7
-    - Z3ZZ9ZZ6
-  : -7
-  ? - NCZZ5ZZ6
-    - Z2ZZ6ZZ5
-  : -10
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ7
+  ? - NCZZ5Z10
+    - Z2Z12Z10
+  : 50
+  ? - ACZ12Z10
+    - Z2Z12Z10
+  : 50
+  ? - CCZ12Z10
+    - Z2Z12Z10
   : 1
-  ? - ACZZ1ZZ9
-    - Z4ZZ1ZZ8
-  : -1
-  ? - NCZZ1Z10
-    - Z4ZZ1ZZ9
-  : -1
-  ? - CCZZ5Z10
-    - Z1ZZ5Z10
+  ? - OBJZZZZZ
+    - Z3Z12Z10
+  : 80
+  ? - NCZZ5Z10
+    - Z3Z12Z10
+  : 80
+  ? - ACZ12Z10
+    - Z3Z12Z10
+  : 80
+  ? - CCZ12Z10
+    - Z3Z12Z10
   : 1
-  ? - ACZZ4ZZ4
-    - Z2ZZ4ZZ4
-  : 15
   ? - OBJZZZZZ
-    - Z4ZZ6ZZ2
+    - Z4Z12Z10
   : 1
-  ? - NCZZ2ZZ8
-    - Z2ZZ5ZZ8
-  : 15
-  ? - ACZZ5ZZ6
-    - Z3ZZ5ZZ5
-  : -7
-  ? - NCZZ3ZZ4
-    - Z3ZZ7ZZ4
-  : 20
-  ? - OBJZZZZZ
-    - Z2ZZ4ZZ5
-  : 15
-  ? - ACZZ8ZZ9
-    - Z3ZZ8ZZ8
-  : -7
-  ? - NCZZ5ZZ3
-    - Z3ZZ8ZZ2
-  : -33
-  ? - ACZ11ZZ5
-    - Z3Z11ZZ5
-  : 25
-  ? - OBJZZZZZ
-    - Z4ZZ4ZZ1
+  ? - NCZZ5Z10
+    - Z4Z12Z10
   : 1
-  ? - NCZZ1ZZ9
-    - Z4ZZ4ZZ8
-  : -1
-  ? - OBJZZZZZ
-    - Z3ZZ8ZZ6
-  : 40
+  ? - ACZ12Z10
+    - Z4Z12Z10
+  : 1
 rhs:
   RHS:
-    CCZZ6ZZ5: 1
-    CCZZ1ZZ3: 1
-    NCZZ3ZZ5: 15
-    NCZZ2ZZ5: 25
-    CCZZ6ZZ9: 1
-    CCZZ5ZZ9: 1
-    CCZZ2ZZ2: 1
-    CCZ12Z10: 1
-    NCZZ3ZZ6: 10
-    CCZZ7ZZ6: 1
-    NCZZ6ZZ8: 10
-    CCZZ9ZZ7: 1
-    CCZZ4ZZ3: 1
-    NCZZ1ZZ2: 10
-    CCZZ4ZZ7: 1
-    CCZ11ZZ2: 1
-    NCZZ5ZZ3: 15
-    NCZZ2ZZ6: 20
-    CCZZ2ZZ8: 1
-    CCZ11Z10: 1
-    CCZZ1ZZ1: 1
-    CCZZ3ZZ8: 1
-    CCZZ1ZZ7: 1
-    CCZ11ZZ6: 1
-    CCZ10ZZ2: 1
-    CCZ11ZZ5: 1
-    CCZZ5ZZ3: 1
-    CCZ11ZZ1: 1
-    CCZ12ZZ4: 1
-    CCZZ4Z10: 1
-    NCZZ1ZZ4: 10
-    CCZZ9Z10: 1
-    CCZZ2ZZ4: 1
-    CCZ10ZZ5: 1
-    CCZZ9ZZ6: 1
-    CCZZ9ZZ8: 1
-    CCZZ7ZZ3: 1
-    CCZZ2ZZ3: 1
-    CCZZ5ZZ1: 1
-    CCZZ6ZZ6: 1
-    CCZZ4ZZ5: 1
-    NCZZ6ZZ9: 5
-    CCZZ1ZZ5: 1
-    CCZZ8ZZ2: 1
-    NCZZ5ZZ5: 30
-    CCZZ1ZZ6: 1
-    CCZZ4ZZ6: 1
-    CCZZ6ZZ2: 1
-    CCZZ4ZZ1: 1
-    CCZZ8ZZ9: 1
-    CCZZ2ZZ9: 1
-    CCZZ4ZZ4: 1
-    CCZ11ZZ9: 1
-    NCZZ5ZZ7: 10
-    CCZZ5ZZ8: 1
-    CCZ12ZZ5: 1
-    CCZZ5ZZ2: 1
-    CCZ10ZZ3: 1
-    NCZZ4ZZ4: 20
-    CCZZ2ZZ5: 1
-    CCZZ8ZZ8: 1
-    CCZ12ZZ7: 1
-    CCZZ4ZZ2: 1
-    CCZZ2ZZ1: 1
     NCZZ1ZZ1: 5
-    CCZZ8ZZ1: 1
-    CCZZ4ZZ8: 1
-    CCZZ5ZZ4: 1
-    CCZ10ZZ8: 1
-    CCZZ8ZZ4: 1
-    CCZZ9ZZ3: 1
-    CCZZ5ZZ5: 1
-    NCZZ1ZZ3: 20
-    CCZZ3ZZ3: 1
-    CCZZ6ZZ4: 1
-    CCZZ3ZZ9: 1
-    CCZZ2ZZ7: 1
-    CCZZ6Z10: 1
-    CCZZ4ZZ9: 1
-    CCZZ1Z10: 1
-    CCZZ1ZZ2: 1
-    CCZ12ZZ2: 1
-    CCZZ5Z10: 1
-    CCZ10ZZ7: 1
-    NCZZ4ZZ6: 10
-    CCZZ2ZZ6: 1
-    NCZZ4ZZ2: 5
-    NCZZ4ZZ5: 15
-    CCZZ1ZZ8: 1
-    CCZZ6ZZ8: 1
-    CCZZ9ZZ9: 1
-    CCZ11ZZ4: 1
-    NCZZ4ZZ7: 10
-    CCZZ8ZZ7: 1
-    CCZZ8Z10: 1
-    CCZZ5ZZ6: 1
-    NCZZ1ZZ5: 3
-    CCZZ5ZZ7: 1
-    CCZZ9ZZ5: 1
-    CCZZ3ZZ7: 1
-    CCZZ7ZZ2: 1
-    NCZZ2ZZ4: 30
-    CCZZ6ZZ3: 1
-    CCZZ6ZZ7: 1
-    NCZZ4ZZ3: 10
-    CCZZ7ZZ9: 1
-    CCZZ2Z10: 1
-    CCZ10Z10: 1
-    CCZ12ZZ3: 1
-    CCZZ3ZZ4: 1
-    CCZ10ZZ1: 1
-    CCZ12ZZ1: 1
-    CCZZ9ZZ1: 1
-    CCZZ8ZZ5: 1
     NCZZ2ZZ1: 5
-    CCZ12ZZ8: 1
-    CCZZ3ZZ5: 1
+    CCZZ1ZZ1: 1
+    CCZZ2ZZ1: 1
+    CCZZ3ZZ1: 1
+    CCZZ4ZZ1: 1
+    CCZZ5ZZ1: 1
     CCZZ6ZZ1: 1
-    CCZZ7ZZ4: 1
-    CCZZ9ZZ4: 1
-    CCZ10ZZ6: 1
-    CCZ10ZZ9: 1
-    CCZZ3Z10: 1
+    CCZZ7ZZ1: 1
+    CCZZ8ZZ1: 1
+    CCZZ9ZZ1: 1
+    CCZ10ZZ1: 1
+    CCZ11ZZ1: 1
+    CCZ12ZZ1: 1
+    NCZZ1ZZ2: 10
     NCZZ2ZZ2: 30
-    CCZ12ZZ9: 1
-    CCZ11ZZ8: 1
-    CCZ11ZZ3: 1
-    CCZZ9ZZ2: 1
-    NCZZ3ZZ4: 20
-    CCZZ1ZZ4: 1
-    NCZZ6ZZ6: 15
-    NCZZ3ZZ3: 25
+    NCZZ3ZZ2: 10
+    NCZZ4ZZ2: 5
+    CCZZ1ZZ2: 1
+    CCZZ2ZZ2: 1
     CCZZ3ZZ2: 1
-    CCZZ1ZZ9: 1
-    CCZZ7ZZ7: 1
+    CCZZ4ZZ2: 1
+    CCZZ5ZZ2: 1
+    CCZZ6ZZ2: 1
+    CCZZ7ZZ2: 1
+    CCZZ8ZZ2: 1
+    CCZZ9ZZ2: 1
+    CCZ10ZZ2: 1
+    CCZ11ZZ2: 1
+    CCZ12ZZ2: 1
+    NCZZ1ZZ3: 20
+    NCZZ2ZZ3: 40
+    NCZZ3ZZ3: 25
+    NCZZ4ZZ3: 10
+    NCZZ5ZZ3: 15
+    CCZZ1ZZ3: 1
+    CCZZ2ZZ3: 1
+    CCZZ3ZZ3: 1
+    CCZZ4ZZ3: 1
+    CCZZ5ZZ3: 1
+    CCZZ6ZZ3: 1
+    CCZZ7ZZ3: 1
+    CCZZ8ZZ3: 1
+    CCZZ9ZZ3: 1
+    CCZ10ZZ3: 1
+    CCZ11ZZ3: 1
+    CCZ12ZZ3: 1
+    NCZZ1ZZ4: 10
+    NCZZ2ZZ4: 30
+    NCZZ3ZZ4: 20
+    NCZZ4ZZ4: 20
+    NCZZ5ZZ4: 40
+    CCZZ1ZZ4: 1
+    CCZZ2ZZ4: 1
+    CCZZ3ZZ4: 1
+    CCZZ4ZZ4: 1
+    CCZZ5ZZ4: 1
+    CCZZ6ZZ4: 1
+    CCZZ7ZZ4: 1
+    CCZZ8ZZ4: 1
+    CCZZ9ZZ4: 1
     CCZ10ZZ4: 1
+    CCZ11ZZ4: 1
+    CCZ12ZZ4: 1
+    NCZZ1ZZ5: 3
+    NCZZ2ZZ5: 25
+    NCZZ3ZZ5: 15
+    NCZZ4ZZ5: 15
+    NCZZ5ZZ5: 30
+    NCZZ6ZZ5: 5
+    CCZZ1ZZ5: 1
+    CCZZ2ZZ5: 1
+    CCZZ3ZZ5: 1
+    CCZZ4ZZ5: 1
+    CCZZ5ZZ5: 1
+    CCZZ6ZZ5: 1
+    CCZZ7ZZ5: 1
+    CCZZ8ZZ5: 1
+    CCZZ9ZZ5: 1
+    CCZ10ZZ5: 1
+    CCZ11ZZ5: 1
+    CCZ12ZZ5: 1
+    NCZZ2ZZ6: 20
+    NCZZ3ZZ6: 10
+    NCZZ4ZZ6: 10
+    NCZZ5ZZ6: 20
+    NCZZ6ZZ6: 15
+    CCZZ1ZZ6: 1
+    CCZZ2ZZ6: 1
     CCZZ3ZZ6: 1
+    CCZZ4ZZ6: 1
+    CCZZ5ZZ6: 1
+    CCZZ6ZZ6: 1
+    CCZZ7ZZ6: 1
     CCZZ8ZZ6: 1
+    CCZZ9ZZ6: 1
+    CCZ10ZZ6: 1
+    CCZ11ZZ6: 1
     CCZ12ZZ6: 1
     NCZZ2ZZ7: 10
-    NCZZ6ZZ5: 5
-    CCZZ7ZZ8: 1
-    CCZZ7ZZ5: 1
-    NCZZ5ZZ4: 40
-    NCZZ4ZZ8: 5
-    CCZZ7ZZ1: 1
-    CCZZ8ZZ3: 1
-    NCZZ5ZZ6: 20
-    CCZ11ZZ7: 1
-    CCZZ7Z10: 1
-    NCZZ3ZZ2: 10
-    CCZZ3ZZ1: 1
-    NCZZ2ZZ3: 40
+    NCZZ4ZZ7: 10
+    NCZZ5ZZ7: 10
     NCZZ6ZZ7: 20
+    CCZZ1ZZ7: 1
+    CCZZ2ZZ7: 1
+    CCZZ3ZZ7: 1
+    CCZZ4ZZ7: 1
+    CCZZ5ZZ7: 1
+    CCZZ6ZZ7: 1
+    CCZZ7ZZ7: 1
+    CCZZ8ZZ7: 1
+    CCZZ9ZZ7: 1
+    CCZ10ZZ7: 1
+    CCZ11ZZ7: 1
+    CCZ12ZZ7: 1
+    NCZZ4ZZ8: 5
+    NCZZ6ZZ8: 10
+    CCZZ1ZZ8: 1
+    CCZZ2ZZ8: 1
+    CCZZ3ZZ8: 1
+    CCZZ4ZZ8: 1
+    CCZZ5ZZ8: 1
+    CCZZ6ZZ8: 1
+    CCZZ7ZZ8: 1
+    CCZZ8ZZ8: 1
+    CCZZ9ZZ8: 1
+    CCZ10ZZ8: 1
+    CCZ11ZZ8: 1
+    CCZ12ZZ8: 1
+    NCZZ6ZZ9: 5
+    CCZZ1ZZ9: 1
+    CCZZ2ZZ9: 1
+    CCZZ3ZZ9: 1
+    CCZZ4ZZ9: 1
+    CCZZ5ZZ9: 1
+    CCZZ6ZZ9: 1
+    CCZZ7ZZ9: 1
+    CCZZ8ZZ9: 1
+    CCZZ9ZZ9: 1
+    CCZ10ZZ9: 1
+    CCZ11ZZ9: 1
+    CCZ12ZZ9: 1
+    CCZZ1Z10: 1
+    CCZZ2Z10: 1
+    CCZZ3Z10: 1
+    CCZZ4Z10: 1
+    CCZZ5Z10: 1
+    CCZZ6Z10: 1
+    CCZZ7Z10: 1
+    CCZZ8Z10: 1
+    CCZZ9Z10: 1
+    CCZ10Z10: 1
+    CCZ11Z10: 1
+    CCZ12Z10: 1
 bounds: {}
 ranges: {}
-

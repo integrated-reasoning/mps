@@ -4,953 +4,952 @@ expression: model
 ---
 name: KB2
 row_types:
-  NOI.3PBW: Geq
-  XPB.3EBW: Leq
-  B3R.VOBW: Eq
-  BP8...BW: Eq
-  HMM.3RBW: Geq
-  HMM.3EBW: Geq
-  HMH.3EBW: Geq
-  BLV...BW: Eq
-  HRH.3RBW: Geq
-  B3E.VOBW: Eq
-  HRH.3EBW: Geq
-  X12.3RBW: Leq
-  XPB.3ABW: Leq
-  HML.3EBW: Geq
-  X12.3EBW: Leq
-  HRL.3EBW: Geq
-  NOI.3RBW: Geq
-  B3E...BW: Eq
-  HRL.3RBW: Geq
-  XCV.3RBW: Leq
-  HMH.3RBW: Geq
-  XRV.3RBW: Leq
+  FAT7..J.: Nr
+  BAL...BW: Eq
+  BHC...BW: Eq
   BLC...BW: Eq
+  BLV...BW: Eq
+  BN4...BW: Eq
+  BP8...BW: Eq
   BTO...BW: Eq
-  B3P.VOBW: Eq
-  HML.3RBW: Geq
-  B3T...BW: Eq
-  WRO.3PBW: Eq
-  XRV.3EBW: Leq
-  X12.3PBW: Leq
+  B3E...BW: Eq
+  B3P...BW: Eq
   B3R...BW: Eq
+  B3T...BW: Eq
+  B3E.VOBW: Eq
+  B3P.VOBW: Eq
+  B3R.VOBW: Eq
+  HMH.3EBW: Geq
+  HML.3EBW: Geq
+  HMM.3EBW: Geq
+  HRH.3EBW: Geq
+  HRL.3EBW: Geq
+  HRM.3EBW: Geq
+  HMH.3RBW: Geq
+  HML.3RBW: Geq
+  HMM.3RBW: Geq
+  HRH.3RBW: Geq
+  HRL.3RBW: Geq
+  HRM.3RBW: Geq
+  NOI.3EBW: Geq
+  NOI.3PBW: Geq
+  NOI.3RBW: Geq
+  WMO.3PBW: Eq
+  WRO.3PBW: Eq
+  XPB.3ABW: Leq
+  XCV.3EBW: Leq
+  XPB.3EBW: Leq
+  XRV.3EBW: Leq
+  X12.3EBW: Leq
   XCV.3PBW: Leq
   XRV.3PBW: Leq
-  XCV.3EBW: Leq
-  FAT7..J.: Nr
-  BHC...BW: Eq
-  B3P...BW: Eq
-  HRM.3RBW: Geq
-  BAL...BW: Eq
-  BN4...BW: Eq
-  NOI.3EBW: Geq
+  X12.3PBW: Leq
+  XCV.3RBW: Leq
   XPB.3RBW: Leq
-  WMO.3PBW: Eq
-  HRM.3EBW: Geq
+  XRV.3RBW: Leq
+  X12.3RBW: Leq
 values:
-  ? - HML.3RBW
-    - BN4.3RBW
-  : 93.41749
-  ? - HRM.3EBW
-    - QVO73EBW
-  : -2.0144
-  ? - XCV.3RBW
-    - BHC.3RBW
-  : -2
-  ? - XCV.3PBW
-    - BAL.3PBW
-  : 6
-  ? - WRO.3PBW
-    - BAL.3PBW
-  : 96.13556
-  ? - BTO...BW
-    - BTO.3RBW
-  : -1
-  ? - HMH.3EBW
-    - BLC.3EBW
-  : 83.9937
-  ? - B3E.VOBW
-    - BAL.3EBW
-  : 1
-  ? - HRL.3EBW
-    - BN4.3EBW
-  : 97.32996
-  ? - B3P.VOBW
-    - BAL.3PBW
-  : 1
-  ? - XCV.3PBW
-    - BHC.3PBW
-  : -2
-  ? - X12.3PBW
-    - BN4.3PBW
-  : 113
-  ? - HMH.3RBW
-    - QPB73RBW
-  : 1.75028
-  ? - XRV.3PBW
-    - BAL.3PBW
-  : 4
-  ? - XRV.3EBW
-    - BHC.3EBW
-  : 0.5
-  ? - XRV.3EBW
-    - BN4.3EBW
-  : 70
-  ? - HMM.3RBW
-    - BHC.3RBW
-  : 80.94047
-  ? - HRL.3EBW
-    - QPB73EBW
-  : 2.52143
-  ? - HMH.3EBW
-    - BTO.3EBW
-  : 90.49629
-  ? - WRO.3PBW
-    - BN4.3PBW
-  : 94.11062
-  ? - XRV.3RBW
-    - BTO.3RBW
-  : 1.2
-  ? - B3P.VOBW
-    - BLV.3PBW
-  : 1
-  ? - HML.3EBW
-    - QVO73EBW
-  : -1.37167
-  ? - B3E.VOBW
-    - BP8.3EBW
-  : 1
-  ? - HRH.3EBW
-    - BTO.3EBW
-  : 106.46719
-  ? - X12.3RBW
-    - BLV.3RBW
-  : 102.3
-  ? - B3R...BW
-    - M3..3TBW
-  : -0.54
-  ? - HMH.3EBW
-    - BN4.3EBW
-  : 98.06433
-  ? - XCV.3RBW
-    - BAL.3RBW
-  : 6
-  ? - BLC...BW
-    - BLC.3EBW
-  : -1
-  ? - XRV.3EBW
-    - QVO73EBW
-  : -12
-  ? - X12.3EBW
-    - QVO73EBW
-  : -61
-  ? - HMH.3RBW
-    - BN4.3RBW
-  : 98.06433
-  ? - HRM.3RBW
-    - BHC.3RBW
-  : 94.14769
   ? - BAL...BW
-    - BAL.3RBW
+    - BAL.3EBW
   : -1
-  ? - HRL.3RBW
-    - BP8.3RBW
-  : 101.32905
-  ? - WMO.3PBW
-    - BHC.3PBW
-  : 78.09095
-  ? - HML.3RBW
-    - BTO.3RBW
-  : 89.25587
-  ? - XPB.3ABW
-    - QPB73EBW
+  ? - B3E.VOBW
+    - BAL.3EBW
   : 1
-  ? - HML.3EBW
-    - BHC.3EBW
-  : 79.40534
-  ? - HMH.3RBW
-    - BP8.3RBW
-  : 91.62642
-  ? - XRV.3RBW
-    - QVO73RBW
-  : -12
-  ? - HMH.3RBW
-    - QVO73RBW
-  : -2.97548
-  ? - B3R.VOBW
-    - BN4.3RBW
-  : 1
-  ? - X12.3RBW
-    - BHC.3RBW
-  : -15.6
-  ? - HRL.3EBW
-    - BLC.3EBW
-  : 95.38345
-  ? - WRO.3PBW
-    - BP8.3PBW
-  : 99.83178
-  ? - XCV.3EBW
-    - BTO.3EBW
-  : -1
-  ? - XRV.3PBW
-    - BLC.3PBW
-  : 4.5
-  ? - HRH.3RBW
-    - BLV.3RBW
-  : 88.46612
   ? - XCV.3EBW
     - BAL.3EBW
   : 6
-  ? - HRL.3RBW
-    - BLV.3RBW
-  : 83.61375
-  ? - HRH.3EBW
-    - BLC.3EBW
-  : 98.64634
-  ? - HML.3EBW
-    - QPB73EBW
-  : 3.42918
-  ? - XCV.3RBW
-    - BLV.3RBW
-  : 14
-  ? - WMO.3PBW
-    - BTO.3PBW
-  : 88.18188
-  ? - NOI.3RBW
-    - WMO73RBW
-  : 0.81
-  ? - HRH.3RBW
-    - WRO73RBW
-  : -1
-  ? - HMM.3RBW
-    - WMO73RBW
-  : -1
-  ? - HRM.3RBW
-    - BLV.3RBW
-  : 86.24515
-  ? - HRH.3EBW
-    - BLV.3EBW
-  : 88.46612
-  ? - HRM.3RBW
-    - BLC.3RBW
-  : 97.34183
-  ? - B3T...BW
-    - M3..3TBW
-  : 1
-  ? - BP8...BW
-    - BP8.3PBW
-  : -1
-  ? - XRV.3PBW
-    - BN4.3PBW
-  : 70
-  ? - WMO.3PBW
-    - WMO73PBW
-  : -1
-  ? - HRM.3EBW
-    - BN4.3EBW
-  : 100.65
-  ? - XPB.3RBW
-    - QVO73RBW
-  : -1.7
-  ? - XCV.3RBW
-    - BN4.3RBW
-  : 80
-  ? - WRO.3PBW
-    - BLV.3PBW
-  : 79.78002
-  ? - WMO.3PBW
-    - BN4.3PBW
-  : 88.35436
-  ? - HML.3RBW
-    - BP8.3RBW
-  : 90.22411
-  ? - WRO.3PBW
-    - BHC.3PBW
-  : 90.99637
-  ? - X12.3RBW
-    - BLC.3RBW
-  : 57.9
-  ? - XCV.3RBW
-    - BLC.3RBW
-  : 7
-  ? - HMH.3RBW
-    - BLV.3RBW
-  : 85.61385
-  ? - XCV.3EBW
-    - BP8.3EBW
+  ? - XRV.3EBW
+    - BAL.3EBW
   : 4
-  ? - HML.3EBW
-    - BN4.3EBW
-  : 92.71594
   ? - X12.3EBW
-    - BHC.3EBW
-  : -15.6
-  ? - HMM.3EBW
-    - BTO.3EBW
-  : 90.14887
-  ? - HMH.3RBW
-    - BLC.3RBW
-  : 83.9937
-  ? - HRH.3RBW
-    - BAL.3RBW
-  : 103.0581
-  ? - XCV.3PBW
-    - BLV.3PBW
-  : 14
+    - BAL.3EBW
+  : 50.3
+  ? - HRL.3EBW
+    - BAL.3EBW
+  : 98.70277
   ? - HML.3EBW
     - BAL.3EBW
   : 94.63568
-  ? - XRV.3RBW
-    - BP8.3RBW
-  : 3.6
-  ? - HRL.3RBW
-    - QVO73RBW
-  : -2.15975
-  ? - HRM.3EBW
-    - QPB73EBW
-  : 1.54954
-  ? - B3E.VOBW
-    - QVO73EBW
-  : -1
-  ? - FAT7..J.
-    - EN4...BW
-  : 12
-  ? - HRL.3RBW
-    - BAL.3RBW
-  : 99.19039
-  ? - HML.3EBW
-    - BP8.3EBW
-  : 90.03844
-  ? - X12.3RBW
-    - BAL.3RBW
-  : 50.3
-  ? - BN4...BW
-    - EN4...BW
-  : 1
-  ? - HMH.3EBW
-    - QPB73EBW
-  : 1.23842
-  ? - B3P...BW
-    - M3..3TBW
-  : -0.17
-  ? - HMM.3EBW
-    - BAL.3EBW
-  : 98.08976
-  ? - XCV.3EBW
-    - BLC.3EBW
-  : 7
-  ? - BLC...BW
-    - BLC.3RBW
-  : -1
-  ? - HMM.3RBW
-    - BTO.3RBW
-  : 89.84584
-  ? - XPB.3ABW
-    - QVO73RBW
-  : -1.5
-  ? - HMH.3RBW
-    - BHC.3RBW
-  : 82.04308
-  ? - HMH.3RBW
-    - BAL.3RBW
-  : 99.18559
-  ? - B3P.VOBW
-    - BHC.3PBW
-  : 1
-  ? - XPB.3ABW
-    - QVO73EBW
-  : -1.5
-  ? - XPB.3ABW
-    - QVO73PBW
-  : -1.5
-  ? - HMM.3EBW
-    - QPB73EBW
-  : 1.55751
-  ? - HML.3EBW
-    - BLC.3EBW
-  : 80.37873
-  ? - B3P.VOBW
-    - QVO73PBW
-  : -1
-  ? - XCV.3PBW
-    - BTO.3PBW
-  : -1
-  ? - BAL...BW
-    - BAL.3EBW
-  : -1
-  ? - HRL.3EBW
-    - BP8.3EBW
-  : 101.17309
-  ? - B3R...BW
-    - QVO73RBW
-  : 1
-  ? - HRM.3RBW
-    - QVO73RBW
-  : -2.62696
-  ? - XCV.3PBW
-    - BP8.3PBW
-  : 4
-  ? - XCV.3EBW
-    - BN4.3EBW
-  : 80
-  ? - B3P.VOBW
-    - BN4.3PBW
-  : 1
-  ? - HRM.3EBW
-    - BP8.3EBW
-  : 102.21363
-  ? - NOI.3EBW
-    - WRO73EBW
-  : 0.41
-  ? - HRM.3RBW
-    - BAL.3RBW
-  : 101.0885
-  ? - HRH.3RBW
-    - BHC.3RBW
-  : 95.02163
-  ? - HMM.3EBW
-    - BHC.3EBW
-  : 81.47009
-  ? - B3P.VOBW
-    - BTO.3PBW
-  : 1
-  ? - HRL.3RBW
-    - QPB73RBW
-  : 4.31949
-  ? - HRH.3EBW
-    - BHC.3EBW
-  : 95.02163
-  ? - NOI.3PBW
-    - WMO73PBW
-  : 0.84
-  ? - XCV.3RBW
-    - BP8.3RBW
-  : 4
-  ? - XCV.3EBW
-    - BLV.3EBW
-  : 14
-  ? - XCV.3EBW
-    - QVO73EBW
-  : -16
-  ? - HRH.3EBW
-    - QVO73EBW
-  : -2.16139
-  ? - BN4...BW
-    - BN4.3RBW
-  : -1
-  ? - XRV.3PBW
-    - QVO73PBW
-  : -12
-  ? - WMO.3PBW
-    - BLC.3PBW
-  : 80.74635
-  ? - BLV...BW
-    - ELV...BW
-  : 1
-  ? - XCV.3RBW
-    - BTO.3RBW
-  : -1
-  ? - XCV.3PBW
-    - QVO73PBW
-  : -16
-  ? - NOI.3EBW
-    - WMO73EBW
-  : 0.73
-  ? - XRV.3RBW
-    - BHC.3RBW
-  : 0.5
-  ? - HMH.3EBW
-    - BLV.3EBW
-  : 85.61385
-  ? - XRV.3RBW
-    - BAL.3RBW
-  : 4
-  ? - BLV...BW
-    - BLV.3RBW
-  : -1
-  ? - BLV...BW
-    - BLV.3EBW
-  : -1
-  ? - NOI.3RBW
-    - WRO73RBW
-  : 0.31
-  ? - HMM.3EBW
-    - QVO73EBW
-  : -2.02477
-  ? - HMM.3RBW
-    - BP8.3RBW
-  : 90.94112
-  ? - HMH.3EBW
-    - BP8.3EBW
-  : 91.62642
-  ? - HRL.3EBW
-    - BTO.3EBW
-  : 105.47666
-  ? - NOI.3PBW
-    - QVO73PBW
-  : -97.41
-  ? - X12.3PBW
-    - BLC.3PBW
-  : 57.9
-  ? - X12.3EBW
-    - BN4.3EBW
-  : 113
-  ? - HMH.3EBW
-    - BHC.3EBW
-  : 82.04308
-  ? - B3P.VOBW
-    - BP8.3PBW
-  : 1
-  ? - HRL.3EBW
-    - BLV.3EBW
-  : 82.8797
-  ? - B3E.VOBW
-    - BN4.3EBW
-  : 1
-  ? - XRV.3RBW
-    - BLV.3RBW
-  : 7.2
-  ? - HML.3RBW
-    - BLV.3RBW
-  : 81.03825
-  ? - B3P.VOBW
-    - BLC.3PBW
-  : 1
-  ? - XPB.3ABW
-    - QPB73RBW
-  : 1
-  ? - HMM.3EBW
-    - BLV.3EBW
-  : 84.5191
-  ? - HML.3RBW
-    - QVO73RBW
-  : -2.20937
-  ? - HRH.3RBW
-    - QVO73RBW
-  : -2.79464
-  ? - XPB.3EBW
-    - QPB73EBW
-  : 1
-  ? - HML.3EBW
-    - BTO.3EBW
-  : 89.10432
-  ? - X12.3PBW
-    - BHC.3PBW
-  : -15.6
-  ? - HMH.3RBW
-    - WMO73RBW
-  : -1
-  ? - XCV.3PBW
-    - BN4.3PBW
-  : 80
-  ? - HRM.3RBW
-    - BN4.3RBW
-  : 99.77765
-  ? - B3E.VOBW
-    - BLC.3EBW
-  : 1
-  ? - XRV.3EBW
-    - BLC.3EBW
-  : 4.5
-  ? - X12.3RBW
-    - BP8.3RBW
-  : 28.9
-  ? - HMM.3RBW
-    - QVO73RBW
-  : -2.74531
-  ? - HRL.3EBW
-    - WRO73EBW
-  : -1
   ? - HRM.3EBW
     - BAL.3EBW
   : 102.02191
-  ? - XRV.3PBW
-    - BP8.3PBW
-  : 3.6
-  ? - HMH.3EBW
-    - QVO73EBW
-  : -2.10531
-  ? - HRH.3EBW
-    - BN4.3EBW
-  : 101.66321
-  ? - HML.3EBW
-    - WMO73EBW
-  : -1
-  ? - BHC...BW
-    - BHC.3EBW
-  : -1
-  ? - X12.3PBW
-    - BTO.3PBW
-  : 5
-  ? - X12.3EBW
-    - BP8.3EBW
-  : 28.9
-  ? - HRH.3RBW
-    - BLC.3RBW
-  : 98.64634
-  ? - BTO...BW
-    - BTO.3EBW
-  : -1
-  ? - B3R.VOBW
-    - BLC.3RBW
-  : 1
-  ? - X12.3EBW
-    - BLV.3EBW
-  : 102.3
-  ? - BLV...BW
-    - BLV.3PBW
-  : -1
-  ? - XCV.3EBW
-    - BHC.3EBW
-  : -2
-  ? - B3R.VOBW
-    - BP8.3RBW
-  : 1
-  ? - X12.3RBW
-    - BN4.3RBW
-  : 113
-  ? - HRH.3RBW
-    - QPB73RBW
-  : 1.64391
-  ? - XRV.3EBW
+  ? - HMM.3EBW
     - BAL.3EBW
-  : 4
-  ? - WRO.3PBW
-    - BTO.3PBW
-  : 105.07558
-  ? - HML.3RBW
-    - BAL.3RBW
-  : 95.17073
-  ? - HML.3RBW
-    - BLC.3RBW
-  : 80.82888
-  ? - BP8...BW
-    - EP8...BW
-  : 1
-  ? - HMM.3EBW
-    - BLC.3EBW
-  : 83.22026
-  ? - HMM.3EBW
-    - WMO73EBW
-  : -1
-  ? - HMH.3EBW
-    - WMO73EBW
-  : -1
-  ? - X12.3EBW
-    - BLC.3EBW
-  : 57.9
-  ? - BHC...BW
-    - EHC...BW
-  : 1
-  ? - WMO.3PBW
-    - BAL.3PBW
-  : 91.96313
+  : 98.08976
+  ? - HRH.3EBW
+    - BAL.3EBW
+  : 103.0581
   ? - HMH.3EBW
     - BAL.3EBW
   : 99.18559
+  ? - BHC...BW
+    - BHC.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BHC.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BHC.3EBW
+  : -2
+  ? - XRV.3EBW
+    - BHC.3EBW
+  : 0.5
+  ? - X12.3EBW
+    - BHC.3EBW
+  : -15.6
+  ? - HRL.3EBW
+    - BHC.3EBW
+  : 92.89535
+  ? - HML.3EBW
+    - BHC.3EBW
+  : 79.40534
   ? - HRM.3EBW
     - BHC.3EBW
   : 94.57094
-  ? - HRM.3RBW
-    - QPB73RBW
-  : 2.62696
-  ? - HRM.3RBW
-    - BP8.3RBW
-  : 101.93754
-  ? - HMM.3RBW
-    - BLV.3RBW
-  : 83.48458
+  ? - HMM.3EBW
+    - BHC.3EBW
+  : 81.47009
+  ? - HRH.3EBW
+    - BHC.3EBW
+  : 95.02163
+  ? - HMH.3EBW
+    - BHC.3EBW
+  : 82.04308
+  ? - BLC...BW
+    - BLC.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BLC.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BLC.3EBW
+  : 7
+  ? - XRV.3EBW
+    - BLC.3EBW
+  : 4.5
+  ? - X12.3EBW
+    - BLC.3EBW
+  : 57.9
+  ? - HRL.3EBW
+    - BLC.3EBW
+  : 95.38345
+  ? - HML.3EBW
+    - BLC.3EBW
+  : 80.37873
+  ? - HRM.3EBW
+    - BLC.3EBW
+  : 97.97965
+  ? - HMM.3EBW
+    - BLC.3EBW
+  : 83.22026
+  ? - HRH.3EBW
+    - BLC.3EBW
+  : 98.64634
+  ? - HMH.3EBW
+    - BLC.3EBW
+  : 83.9937
+  ? - BLV...BW
+    - BLV.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BLV.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BLV.3EBW
+  : 14
+  ? - XRV.3EBW
+    - BLV.3EBW
+  : 7.2
+  ? - X12.3EBW
+    - BLV.3EBW
+  : 102.3
+  ? - HRL.3EBW
+    - BLV.3EBW
+  : 82.8797
   ? - HML.3EBW
     - BLV.3EBW
   : 80.36789
   ? - HRM.3EBW
     - BLV.3EBW
   : 87.33298
+  ? - HMM.3EBW
+    - BLV.3EBW
+  : 84.5191
+  ? - HRH.3EBW
+    - BLV.3EBW
+  : 88.46612
+  ? - HMH.3EBW
+    - BLV.3EBW
+  : 85.61385
+  ? - BN4...BW
+    - BN4.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BN4.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BN4.3EBW
+  : 80
+  ? - XRV.3EBW
+    - BN4.3EBW
+  : 70
+  ? - X12.3EBW
+    - BN4.3EBW
+  : 113
+  ? - HRL.3EBW
+    - BN4.3EBW
+  : 97.32996
+  ? - HML.3EBW
+    - BN4.3EBW
+  : 92.71594
+  ? - HRM.3EBW
+    - BN4.3EBW
+  : 100.65
+  ? - HMM.3EBW
+    - BN4.3EBW
+  : 96.86628
+  ? - HRH.3EBW
+    - BN4.3EBW
+  : 101.66321
+  ? - HMH.3EBW
+    - BN4.3EBW
+  : 98.06433
+  ? - BP8...BW
+    - BP8.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BP8.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BP8.3EBW
+  : 4
+  ? - XRV.3EBW
+    - BP8.3EBW
+  : 3.6
+  ? - X12.3EBW
+    - BP8.3EBW
+  : 28.9
+  ? - HRL.3EBW
+    - BP8.3EBW
+  : 101.17309
+  ? - HML.3EBW
+    - BP8.3EBW
+  : 90.03844
+  ? - HRM.3EBW
+    - BP8.3EBW
+  : 102.21363
+  ? - HMM.3EBW
+    - BP8.3EBW
+  : 91.26611
+  ? - HRH.3EBW
+    - BP8.3EBW
+  : 102.51818
+  ? - HMH.3EBW
+    - BP8.3EBW
+  : 91.62642
+  ? - BTO...BW
+    - BTO.3EBW
+  : -1
+  ? - B3E.VOBW
+    - BTO.3EBW
+  : 1
+  ? - XCV.3EBW
+    - BTO.3EBW
+  : -1
+  ? - XRV.3EBW
+    - BTO.3EBW
+  : 1.2
+  ? - X12.3EBW
+    - BTO.3EBW
+  : 5
+  ? - HRL.3EBW
+    - BTO.3EBW
+  : 105.47666
+  ? - HML.3EBW
+    - BTO.3EBW
+  : 89.10432
+  ? - HRM.3EBW
+    - BTO.3EBW
+  : 106.21918
+  ? - HMM.3EBW
+    - BTO.3EBW
+  : 90.14887
+  ? - HRH.3EBW
+    - BTO.3EBW
+  : 106.46719
+  ? - HMH.3EBW
+    - BTO.3EBW
+  : 90.49629
+  ? - BAL...BW
+    - BAL.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BAL.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BAL.3PBW
+  : 6
+  ? - XRV.3PBW
+    - BAL.3PBW
+  : 4
+  ? - X12.3PBW
+    - BAL.3PBW
+  : 50.3
+  ? - WRO.3PBW
+    - BAL.3PBW
+  : 96.13556
+  ? - WMO.3PBW
+    - BAL.3PBW
+  : 91.96313
+  ? - BHC...BW
+    - BHC.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BHC.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BHC.3PBW
+  : -2
+  ? - XRV.3PBW
+    - BHC.3PBW
+  : 0.5
+  ? - X12.3PBW
+    - BHC.3PBW
+  : -15.6
+  ? - WRO.3PBW
+    - BHC.3PBW
+  : 90.99637
+  ? - WMO.3PBW
+    - BHC.3PBW
+  : 78.09095
+  ? - BLC...BW
+    - BLC.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BLC.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BLC.3PBW
+  : 7
+  ? - XRV.3PBW
+    - BLC.3PBW
+  : 4.5
+  ? - X12.3PBW
+    - BLC.3PBW
+  : 57.9
+  ? - WRO.3PBW
+    - BLC.3PBW
+  : 93.95665
+  ? - WMO.3PBW
+    - BLC.3PBW
+  : 80.74635
+  ? - BLV...BW
+    - BLV.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BLV.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BLV.3PBW
+  : 14
+  ? - XRV.3PBW
+    - BLV.3PBW
+  : 7.2
+  ? - X12.3PBW
+    - BLV.3PBW
+  : 102.3
+  ? - WRO.3PBW
+    - BLV.3PBW
+  : 79.78002
+  ? - WMO.3PBW
+    - BLV.3PBW
+  : 77.37441
+  ? - BN4...BW
+    - BN4.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BN4.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BN4.3PBW
+  : 80
+  ? - XRV.3PBW
+    - BN4.3PBW
+  : 70
+  ? - X12.3PBW
+    - BN4.3PBW
+  : 113
+  ? - WRO.3PBW
+    - BN4.3PBW
+  : 94.11062
+  ? - WMO.3PBW
+    - BN4.3PBW
+  : 88.35436
+  ? - BP8...BW
+    - BP8.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BP8.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BP8.3PBW
+  : 4
+  ? - XRV.3PBW
+    - BP8.3PBW
+  : 3.6
+  ? - X12.3PBW
+    - BP8.3PBW
+  : 28.9
+  ? - WRO.3PBW
+    - BP8.3PBW
+  : 99.83178
+  ? - WMO.3PBW
+    - BP8.3PBW
+  : 88.58029
+  ? - BTO...BW
+    - BTO.3PBW
+  : -1
+  ? - B3P.VOBW
+    - BTO.3PBW
+  : 1
+  ? - XCV.3PBW
+    - BTO.3PBW
+  : -1
+  ? - XRV.3PBW
+    - BTO.3PBW
+  : 1.2
+  ? - X12.3PBW
+    - BTO.3PBW
+  : 5
+  ? - WRO.3PBW
+    - BTO.3PBW
+  : 105.07558
+  ? - WMO.3PBW
+    - BTO.3PBW
+  : 88.18188
+  ? - BAL...BW
+    - BAL.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BAL.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BAL.3RBW
+  : 6
+  ? - XRV.3RBW
+    - BAL.3RBW
+  : 4
+  ? - X12.3RBW
+    - BAL.3RBW
+  : 50.3
+  ? - HRL.3RBW
+    - BAL.3RBW
+  : 99.19039
+  ? - HML.3RBW
+    - BAL.3RBW
+  : 95.17073
+  ? - HRM.3RBW
+    - BAL.3RBW
+  : 101.0885
+  ? - HMM.3RBW
+    - BAL.3RBW
+  : 97.11016
+  ? - HRH.3RBW
+    - BAL.3RBW
+  : 103.0581
+  ? - HMH.3RBW
+    - BAL.3RBW
+  : 99.18559
+  ? - BHC...BW
+    - BHC.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BHC.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BHC.3RBW
+  : -2
+  ? - XRV.3RBW
+    - BHC.3RBW
+  : 0.5
+  ? - X12.3RBW
+    - BHC.3RBW
+  : -15.6
+  ? - HRL.3RBW
+    - BHC.3RBW
+  : 93.16124
+  ? - HML.3RBW
+    - BHC.3RBW
+  : 79.72867
+  ? - HRM.3RBW
+    - BHC.3RBW
+  : 94.14769
+  ? - HMM.3RBW
+    - BHC.3RBW
+  : 80.94047
+  ? - HRH.3RBW
+    - BHC.3RBW
+  : 95.02163
+  ? - HMH.3RBW
+    - BHC.3RBW
+  : 82.04308
+  ? - BLC...BW
+    - BLC.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BLC.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BLC.3RBW
+  : 7
+  ? - XRV.3RBW
+    - BLC.3RBW
+  : 4.5
+  ? - X12.3RBW
+    - BLC.3RBW
+  : 57.9
+  ? - HRL.3RBW
+    - BLC.3RBW
+  : 95.80861
+  ? - HML.3RBW
+    - BLC.3RBW
+  : 80.82888
+  ? - HRM.3RBW
+    - BLC.3RBW
+  : 97.34183
   ? - HMM.3RBW
     - BLC.3RBW
   : 82.49926
+  ? - HRH.3RBW
+    - BLC.3RBW
+  : 98.64634
+  ? - HMH.3RBW
+    - BLC.3RBW
+  : 83.9937
+  ? - BLV...BW
+    - BLV.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BLV.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BLV.3RBW
+  : 14
+  ? - XRV.3RBW
+    - BLV.3RBW
+  : 7.2
+  ? - X12.3RBW
+    - BLV.3RBW
+  : 102.3
+  ? - HRL.3RBW
+    - BLV.3RBW
+  : 83.61375
+  ? - HML.3RBW
+    - BLV.3RBW
+  : 81.03825
+  ? - HRM.3RBW
+    - BLV.3RBW
+  : 86.24515
+  ? - HMM.3RBW
+    - BLV.3RBW
+  : 83.48458
+  ? - HRH.3RBW
+    - BLV.3RBW
+  : 88.46612
+  ? - HMH.3RBW
+    - BLV.3RBW
+  : 85.61385
+  ? - BN4...BW
+    - BN4.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BN4.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BN4.3RBW
+  : 80
+  ? - XRV.3RBW
+    - BN4.3RBW
+  : 70
+  ? - X12.3RBW
+    - BN4.3RBW
+  : 113
+  ? - HRL.3RBW
+    - BN4.3RBW
+  : 97.86876
+  ? - HML.3RBW
+    - BN4.3RBW
+  : 93.41749
+  ? - HRM.3RBW
+    - BN4.3RBW
+  : 99.77765
+  ? - HMM.3RBW
+    - BN4.3RBW
+  : 95.86635
+  ? - HRH.3RBW
+    - BN4.3RBW
+  : 101.66321
+  ? - HMH.3RBW
+    - BN4.3RBW
+  : 98.06433
+  ? - BP8...BW
+    - BP8.3RBW
+  : -1
+  ? - B3R.VOBW
+    - BP8.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BP8.3RBW
+  : 4
+  ? - XRV.3RBW
+    - BP8.3RBW
+  : 3.6
+  ? - X12.3RBW
+    - BP8.3RBW
+  : 28.9
+  ? - HRL.3RBW
+    - BP8.3RBW
+  : 101.32905
+  ? - HML.3RBW
+    - BP8.3RBW
+  : 90.22411
+  ? - HRM.3RBW
+    - BP8.3RBW
+  : 101.93754
+  ? - HMM.3RBW
+    - BP8.3RBW
+  : 90.94112
+  ? - HRH.3RBW
+    - BP8.3RBW
+  : 102.51818
+  ? - HMH.3RBW
+    - BP8.3RBW
+  : 91.62642
+  ? - BTO...BW
+    - BTO.3RBW
+  : -1
   ? - B3R.VOBW
     - BTO.3RBW
+  : 1
+  ? - XCV.3RBW
+    - BTO.3RBW
+  : -1
+  ? - XRV.3RBW
+    - BTO.3RBW
+  : 1.2
+  ? - X12.3RBW
+    - BTO.3RBW
+  : 5
+  ? - HRL.3RBW
+    - BTO.3RBW
+  : 105.58392
+  ? - HML.3RBW
+    - BTO.3RBW
+  : 89.25587
+  ? - HRM.3RBW
+    - BTO.3RBW
+  : 106.0019
+  ? - HMM.3RBW
+    - BTO.3RBW
+  : 89.84584
+  ? - HRH.3RBW
+    - BTO.3RBW
+  : 106.46719
+  ? - HMH.3RBW
+    - BTO.3RBW
+  : 90.49629
+  ? - B3T...BW
+    - D3T...BW
+  : -1
+  ? - FAT7..J.
+    - D3T...BW
+  : -16.5
+  ? - BAL...BW
+    - EAL...BW
+  : 1
+  ? - BHC...BW
+    - EHC...BW
   : 1
   ? - BLC...BW
     - ELC...BW
   : 1
-  ? - HMM.3EBW
-    - BP8.3EBW
-  : 91.26611
-  ? - XRV.3RBW
-    - BLC.3RBW
-  : 4.5
-  ? - HRM.3RBW
-    - BTO.3RBW
-  : 106.0019
-  ? - B3T...BW
-    - D3T...BW
-  : -1
-  ? - B3P...BW
-    - QVO73PBW
+  ? - BLV...BW
+    - ELV...BW
   : 1
-  ? - B3R.VOBW
-    - QVO73RBW
-  : -1
-  ? - X12.3RBW
-    - QVO73RBW
-  : -61
-  ? - HRM.3RBW
-    - WRO73RBW
-  : -1
-  ? - X12.3PBW
-    - BP8.3PBW
-  : 28.9
-  ? - NOI.3PBW
-    - WRO73PBW
-  : 0.27
-  ? - HRM.3EBW
-    - BTO.3EBW
-  : 106.21918
-  ? - B3E...BW
-    - QVO73EBW
+  ? - BN4...BW
+    - EN4...BW
   : 1
-  ? - X12.3PBW
-    - BAL.3PBW
-  : 50.3
-  ? - HRM.3EBW
-    - WRO73EBW
-  : -1
-  ? - HRL.3EBW
-    - BAL.3EBW
-  : 98.70277
-  ? - WMO.3PBW
-    - BP8.3PBW
-  : 88.58029
-  ? - B3E...BW
-    - M3..3TBW
-  : -0.29
-  ? - HRH.3EBW
-    - QPB73EBW
-  : 1.27141
-  ? - BHC...BW
-    - BHC.3RBW
-  : -1
-  ? - HMM.3EBW
-    - BN4.3EBW
-  : 96.86628
+  ? - FAT7..J.
+    - EN4...BW
+  : 12
+  ? - BP8...BW
+    - EP8...BW
+  : 1
+  ? - BTO...BW
+    - ETO...BW
+  : 1
   ? - FAT7..J.
     - ETO...BW
   : 16
-  ? - BN4...BW
-    - BN4.3PBW
-  : -1
-  ? - HRL.3RBW
-    - BTO.3RBW
-  : 105.58392
-  ? - BLC...BW
-    - BLC.3PBW
-  : -1
-  ? - NOI.3EBW
-    - QVO73EBW
-  : -107.52
-  ? - BTO...BW
-    - BTO.3PBW
-  : -1
-  ? - B3R.VOBW
-    - BHC.3RBW
+  ? - B3T...BW
+    - M3..3TBW
   : 1
-  ? - HRH.3RBW
-    - BN4.3RBW
-  : 101.66321
-  ? - XPB.3EBW
-    - QVO73EBW
-  : -1.7
-  ? - HRL.3RBW
-    - WRO73RBW
-  : -1
-  ? - X12.3EBW
-    - BAL.3EBW
-  : 50.3
-  ? - BHC...BW
-    - BHC.3PBW
-  : -1
-  ? - WMO.3PBW
-    - BLV.3PBW
-  : 77.37441
-  ? - HRH.3EBW
-    - BP8.3EBW
-  : 102.51818
+  ? - B3E...BW
+    - M3..3TBW
+  : -0.29
+  ? - B3P...BW
+    - M3..3TBW
+  : -0.17
+  ? - B3R...BW
+    - M3..3TBW
+  : -0.54
   ? - FAT7..J.
     - QPB73EBW
   : 0.08757
-  ? - NOI.3RBW
-    - QVO73RBW
-  : -98.5
+  ? - XPB.3EBW
+    - QPB73EBW
+  : 1
+  ? - HRL.3EBW
+    - QPB73EBW
+  : 2.52143
+  ? - HML.3EBW
+    - QPB73EBW
+  : 3.42918
+  ? - HRM.3EBW
+    - QPB73EBW
+  : 1.54954
+  ? - HMM.3EBW
+    - QPB73EBW
+  : 1.55751
+  ? - HRH.3EBW
+    - QPB73EBW
+  : 1.27141
+  ? - HMH.3EBW
+    - QPB73EBW
+  : 1.23842
+  ? - XPB.3ABW
+    - QPB73EBW
+  : 1
+  ? - B3E...BW
+    - QVO73EBW
+  : 1
   ? - B3E.VOBW
-    - BLV.3EBW
-  : 1
-  ? - X12.3EBW
-    - BTO.3EBW
-  : 5
-  ? - FAT7..J.
-    - D3T...BW
-  : -16.5
-  ? - FAT7..J.
-    - QPB73RBW
-  : 0.08757
-  ? - HRH.3RBW
-    - BP8.3RBW
-  : 102.51818
-  ? - XPB.3RBW
-    - QPB73RBW
-  : 1
-  ? - XCV.3RBW
-    - QVO73RBW
-  : -16
-  ? - BP8...BW
-    - BP8.3RBW
+    - QVO73EBW
   : -1
-  ? - XRV.3PBW
-    - BHC.3PBW
-  : 0.5
-  ? - XRV.3RBW
-    - BN4.3RBW
-  : 70
-  ? - HRH.3RBW
-    - BTO.3RBW
-  : 106.46719
-  ? - HMM.3RBW
-    - BN4.3RBW
-  : 95.86635
+  ? - XCV.3EBW
+    - QVO73EBW
+  : -16
   ? - XRV.3EBW
-    - BLV.3EBW
-  : 7.2
+    - QVO73EBW
+  : -12
+  ? - X12.3EBW
+    - QVO73EBW
+  : -61
+  ? - NOI.3EBW
+    - QVO73EBW
+  : -107.52
+  ? - XPB.3EBW
+    - QVO73EBW
+  : -1.7
   ? - HRL.3EBW
     - QVO73EBW
   : -1.00857
-  ? - HML.3RBW
-    - WMO73RBW
-  : -1
-  ? - BN4...BW
-    - BN4.3EBW
-  : -1
-  ? - B3R.VOBW
-    - BAL.3RBW
-  : 1
-  ? - BAL...BW
-    - EAL...BW
-  : 1
+  ? - HML.3EBW
+    - QVO73EBW
+  : -1.37167
+  ? - HRM.3EBW
+    - QVO73EBW
+  : -2.0144
+  ? - HMM.3EBW
+    - QVO73EBW
+  : -2.02477
   ? - HRH.3EBW
-    - WRO73EBW
-  : -1
-  ? - HRL.3RBW
-    - BN4.3RBW
-  : 97.86876
-  ? - XRV.3EBW
-    - BTO.3EBW
-  : 1.2
-  ? - X12.3PBW
-    - BLV.3PBW
-  : 102.3
-  ? - XRV.3PBW
-    - BLV.3PBW
-  : 7.2
-  ? - B3E.VOBW
-    - BHC.3EBW
+    - QVO73EBW
+  : -2.16139
+  ? - HMH.3EBW
+    - QVO73EBW
+  : -2.10531
+  ? - XPB.3ABW
+    - QVO73EBW
+  : -1.5
+  ? - B3P...BW
+    - QVO73PBW
   : 1
-  ? - HRL.3RBW
-    - BLC.3RBW
-  : 95.80861
-  ? - BP8...BW
-    - BP8.3EBW
-  : -1
-  ? - BTO...BW
-    - ETO...BW
-  : 1
-  ? - HRH.3EBW
-    - BAL.3EBW
-  : 103.0581
-  ? - HMM.3RBW
-    - BAL.3RBW
-  : 97.11016
-  ? - XRV.3PBW
-    - BTO.3PBW
-  : 1.2
-  ? - HRL.3EBW
-    - BHC.3EBW
-  : 92.89535
-  ? - WRO.3PBW
-    - BLC.3PBW
-  : 93.95665
-  ? - X12.3RBW
-    - BTO.3RBW
-  : 5
-  ? - HML.3RBW
-    - BHC.3RBW
-  : 79.72867
-  ? - HML.3RBW
-    - QPB73RBW
-  : 4.41873
-  ? - BAL...BW
-    - BAL.3PBW
+  ? - B3P.VOBW
+    - QVO73PBW
   : -1
   ? - XCV.3PBW
-    - BLC.3PBW
-  : 7
-  ? - B3R.VOBW
-    - BLV.3RBW
-  : 1
-  ? - HRL.3RBW
-    - BHC.3RBW
-  : 93.16124
-  ? - HMM.3RBW
-    - QPB73RBW
-  : 2.74531
-  ? - XRV.3EBW
-    - BP8.3EBW
-  : 3.6
-  ? - B3E.VOBW
-    - BTO.3EBW
-  : 1
-  ? - HMH.3RBW
-    - BTO.3RBW
-  : 90.49629
-  ? - WRO.3PBW
-    - WRO73PBW
-  : -1
+    - QVO73PBW
+  : -16
+  ? - XRV.3PBW
+    - QVO73PBW
+  : -12
   ? - X12.3PBW
     - QVO73PBW
   : -61
+  ? - NOI.3PBW
+    - QVO73PBW
+  : -97.41
+  ? - XPB.3ABW
+    - QVO73PBW
+  : -1.5
+  ? - FAT7..J.
+    - QPB73RBW
+  : 0.08757
+  ? - XPB.3RBW
+    - QPB73RBW
+  : 1
+  ? - HRL.3RBW
+    - QPB73RBW
+  : 4.31949
+  ? - HML.3RBW
+    - QPB73RBW
+  : 4.41873
+  ? - HRM.3RBW
+    - QPB73RBW
+  : 2.62696
+  ? - HMM.3RBW
+    - QPB73RBW
+  : 2.74531
+  ? - HRH.3RBW
+    - QPB73RBW
+  : 1.64391
+  ? - HMH.3RBW
+    - QPB73RBW
+  : 1.75028
+  ? - XPB.3ABW
+    - QPB73RBW
+  : 1
+  ? - B3R...BW
+    - QVO73RBW
+  : 1
+  ? - B3R.VOBW
+    - QVO73RBW
+  : -1
+  ? - XCV.3RBW
+    - QVO73RBW
+  : -16
+  ? - XRV.3RBW
+    - QVO73RBW
+  : -12
+  ? - X12.3RBW
+    - QVO73RBW
+  : -61
+  ? - NOI.3RBW
+    - QVO73RBW
+  : -98.5
+  ? - XPB.3RBW
+    - QVO73RBW
+  : -1.7
+  ? - HRL.3RBW
+    - QVO73RBW
+  : -2.15975
+  ? - HML.3RBW
+    - QVO73RBW
+  : -2.20937
+  ? - HRM.3RBW
+    - QVO73RBW
+  : -2.62696
+  ? - HMM.3RBW
+    - QVO73RBW
+  : -2.74531
+  ? - HRH.3RBW
+    - QVO73RBW
+  : -2.79464
+  ? - HMH.3RBW
+    - QVO73RBW
+  : -2.97548
+  ? - XPB.3ABW
+    - QVO73RBW
+  : -1.5
+  ? - NOI.3EBW
+    - WMO73EBW
+  : 0.73
+  ? - HML.3EBW
+    - WMO73EBW
+  : -1
+  ? - HMM.3EBW
+    - WMO73EBW
+  : -1
+  ? - HMH.3EBW
+    - WMO73EBW
+  : -1
+  ? - NOI.3EBW
+    - WRO73EBW
+  : 0.41
+  ? - HRL.3EBW
+    - WRO73EBW
+  : -1
   ? - HRM.3EBW
-    - BLC.3EBW
-  : 97.97965
+    - WRO73EBW
+  : -1
+  ? - HRH.3EBW
+    - WRO73EBW
+  : -1
+  ? - WMO.3PBW
+    - WMO73PBW
+  : -1
+  ? - NOI.3PBW
+    - WMO73PBW
+  : 0.84
+  ? - WRO.3PBW
+    - WRO73PBW
+  : -1
+  ? - NOI.3PBW
+    - WRO73PBW
+  : 0.27
+  ? - NOI.3RBW
+    - WMO73RBW
+  : 0.81
+  ? - HML.3RBW
+    - WMO73RBW
+  : -1
+  ? - HMM.3RBW
+    - WMO73RBW
+  : -1
+  ? - HMH.3RBW
+    - WMO73RBW
+  : -1
+  ? - NOI.3RBW
+    - WRO73RBW
+  : 0.31
+  ? - HRL.3RBW
+    - WRO73RBW
+  : -1
+  ? - HRM.3RBW
+    - WRO73RBW
+  : -1
+  ? - HRH.3RBW
+    - WRO73RBW
+  : -1
 rhs: {}
 bounds:
   77BOUND:
-    ? - EAL...BW
-      - Up
-    : 10
-    ? - ETO...BW
-      - Up
-    : 5
-    ? - ELV...BW
-      - Up
-    : 12
-    ? - D3T...BW
-      - Up
-    : 200
-    ? - EN4...BW
-      - Up
-    : 100
     ? - BHC.3EBW
       - Up
     : 10
-    ? - EP8...BW
+    ? - D3T...BW
       - Up
-    : 35
+    : 200
+    ? - EAL...BW
+      - Up
+    : 10
     ? - EHC...BW
       - Up
     : 20
     ? - ELC...BW
       - Up
     : 25
+    ? - ELV...BW
+      - Up
+    : 12
+    ? - EN4...BW
+      - Up
+    : 100
+    ? - EP8...BW
+      - Up
+    : 35
+    ? - ETO...BW
+      - Up
+    : 5
 ranges: {}
-

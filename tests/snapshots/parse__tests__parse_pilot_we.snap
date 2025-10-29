@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/pilot.we\"))?"
 ---
 name: PILOT.WE
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Nr
     row_name: OBJ
@@ -38844,4 +38847,11 @@ bounds:
     bound_name: BOUND
     column_name: E1ELE08
     value: 0
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

@@ -1,8 +1,11 @@
 ---
 source: tests/parse.rs
-expression: "parse::<f32>(include_str!(\"../tests/data/netlib/etamacro\"))?"
+expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/etamacro\"))?"
 ---
 name: ETAMACRO
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Nr
     row_name: OPTIMALG
@@ -11129,4 +11132,11 @@ bounds:
     bound_name: BOUNDS01
     column_name: ENCOST75
     value: 1.2853
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

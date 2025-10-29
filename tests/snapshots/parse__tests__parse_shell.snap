@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/shell\"))?"
 ---
 name: SHELL
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Leq
     row_name: "3001"
@@ -21750,4 +21753,11 @@ bounds:
     bound_name: OOK
     column_name: C27750
     value: 768
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

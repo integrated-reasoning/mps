@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/recipe\"))?"
 ---
 name: RECIPE
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Eq
     row_name: BAL...BE
@@ -3439,4 +3442,11 @@ bounds:
     bound_name: BOUND
     column_name: JP84TGBE
     value: 0
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

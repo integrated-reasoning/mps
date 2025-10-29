@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/standgub\"))?"
 ---
 name: STANDGUB (STANDATA)
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Eq
     row_name: "'EGROUP'"
@@ -13340,4 +13343,11 @@ bounds:
     bound_name: BOUND
     column_name: KBU6S2T4
     value: 1
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~

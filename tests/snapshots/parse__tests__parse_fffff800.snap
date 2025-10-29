@@ -3,6 +3,9 @@ source: tests/parse.rs
 expression: "Parser::<f32>::parse(include_str!(\"../tests/data/netlib/fffff800\"))?"
 ---
 name: FFFFF800
+objective_sense: ~
+objective_name: ~
+reference_row: ~
 rows:
   - row_type: Geq
     row_name: LVPFA
@@ -23881,4 +23884,11 @@ rhs:
       value: 855
 ranges: ~
 bounds: ~
-
+user_cuts: ~
+special_ordered_sets: ~
+quadratic_objective: ~
+quadratic_constraints: ~
+indicators: ~
+lazy_constraints: ~
+cone_constraints: ~
+branch_priorities: ~
