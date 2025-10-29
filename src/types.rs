@@ -16,7 +16,6 @@ cfg_if::cfg_if! {
     ///
     /// Without the `trace` feature, a simpler `Span` type is used, which is a reference to a slice of the input string.
     /// This simpler span is more performant but lacks the detailed tracking and error reporting capabilities.
-
     /// A `Span` type that includes location and tracing information.
     /// Used when the `trace` feature is enabled.
     pub type Span<'a> = LocatedSpan<&'a str, TracableInfo>;

@@ -32,7 +32,6 @@ static R5: usize = 46;
 static L6: usize = 48;
 static R6: usize = 60;
 
-
 /// Custom line ending parser that handles both Unix (\n) and Windows (\r\n) line endings
 /// Tries Unix first for better performance since it's more common
 fn line_ending_flexible(s: Span) -> IResult<Span, Span> {
@@ -150,7 +149,23 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         many0(Self::skip_unknown_section),
         Self::endata,
       )),
-      |(_, name, _, rows, _, columns, _, rhs, _, ranges, _, bounds, _, _, _)| Parser {
+      |(
+        _,
+        name,
+        _,
+        rows,
+        _,
+        columns,
+        _,
+        rhs,
+        _,
+        ranges,
+        _,
+        bounds,
+        _,
+        _,
+        _,
+      )| Parser {
         name: name.trim(),
         rows,
         columns,
@@ -191,10 +206,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   #[doc(hidden)]
   #[tracable_parser]
   pub fn empty_line(s: Span) -> IResult<Span, ()> {
-    let mut p = map(
-      terminated(space0, line_ending_flexible),
-      |_| (),
-    );
+    let mut p = map(terminated(space0, line_ending_flexible), |_| ());
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
@@ -236,18 +248,19 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         }
       }
 
-      if test_str.starts_with("COLUMNS") ||
-         test_str.starts_with("RHS") ||
-         test_str.starts_with("RANGES") ||
-         test_str.starts_with("BOUNDS") ||
-         test_str.starts_with("ENDATA") ||
-         test_str.starts_with("INDICATORS") ||
-         test_str.starts_with("LAZYCONS") ||
-         test_str.starts_with("QUADOBJ") ||
-         test_str.starts_with("SOS") ||
-         test_str.starts_with("QSECTION") ||
-         test_str.starts_with("QMATRIX") ||
-         test_str.starts_with("CSECTION") {
+      if test_str.starts_with("COLUMNS")
+        || test_str.starts_with("RHS")
+        || test_str.starts_with("RANGES")
+        || test_str.starts_with("BOUNDS")
+        || test_str.starts_with("ENDATA")
+        || test_str.starts_with("INDICATORS")
+        || test_str.starts_with("LAZYCONS")
+        || test_str.starts_with("QUADOBJ")
+        || test_str.starts_with("SOS")
+        || test_str.starts_with("QSECTION")
+        || test_str.starts_with("QMATRIX")
+        || test_str.starts_with("CSECTION")
+      {
         break;
       }
 
@@ -310,7 +323,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // If line doesn't start with space, it's likely a section header - stop parsing rows
     if !line_str.starts_with(' ') {
-      return Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Eof)));
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Eof,
+      )));
     }
 
     // Parse the actual row line
@@ -352,7 +368,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   pub fn rows(s: Span) -> IResult<Span, Vec<RowLine>> {
     // Parse ROWS header with optional trailing spaces
     let (s, _) = tag("ROWS")(s)?;
-    let (s, _) = space0(s)?;  // Skip optional trailing spaces
+    let (s, _) = space0(s)?; // Skip optional trailing spaces
     let (s, _) = line_ending_flexible(s)?;
 
     // Now parse the row lines
@@ -389,7 +405,9 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         let strict_result = (|| -> Result<WideLine<T>> {
           let first_pair = RowValuePair {
             row_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
-            value: fast_float::parse(line_str.get(L4..R4).ok_or_eyre("")?.trim())?,
+            value: fast_float::parse(
+              line_str.get(L4..R4).ok_or_eyre("")?.trim(),
+            )?,
           };
           let second_pair = match line_str.get(L5..R5) {
             Some(row_name) => {
@@ -399,10 +417,12 @@ impl<'a, T: FastFloat> Parser<'a, T> {
               } else {
                 Some(RowValuePair {
                   row_name,
-                  value: fast_float::parse(line_str.get(L6..R6).ok_or_eyre("")?.trim())?,
+                  value: fast_float::parse(
+                    line_str.get(L6..R6).ok_or_eyre("")?.trim(),
+                  )?,
                 })
               }
-            },
+            }
             None => None,
           };
           Ok(WideLine::<T> {
@@ -432,20 +452,22 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   fn parse_flexible_line(line: Span) -> Result<WideLine<T>> {
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
-        let mut line_str = line.fragment();
+        let line_str = line.fragment();
       } else {
-        let mut line_str = line;
+        let line_str = line;
       }
     }
 
     // For flexible parsing, only strip comments if $ appears after significant whitespace
     // This helps distinguish inline comments from $ in variable names
     // Look for "  $" pattern (two or more spaces followed by $)
-    if let Some(pos) = line_str.find("  $") {
-      line_str = &line_str[..pos];
+    let line_str = if let Some(pos) = line_str.find("  $") {
+      &line_str[..pos]
     } else if let Some(pos) = line_str.find("\t$") {
-      line_str = &line_str[..pos];
-    }
+      &line_str[..pos]
+    } else {
+      line_str
+    };
 
     let parts: Vec<&str> = line_str.split_whitespace().collect();
 
@@ -512,7 +534,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // If line doesn't start with space, it's likely a section header - stop parsing columns
     if !line_str.starts_with(' ') {
-      return Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Eof)));
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Eof,
+      )));
     }
 
     // Try to parse as a marker line
@@ -545,7 +570,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       Self::marker_line(s)
     } else {
       // Not a marker line, fail this parser
-      Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Tag)))
+      Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Tag,
+      )))
     }
   }
 
@@ -554,7 +582,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   pub fn columns(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     // Parse COLUMNS header with optional trailing spaces
     let (s, _) = tag("COLUMNS")(s)?;
-    let (s, _) = space0(s)?;  // Skip optional trailing spaces
+    let (s, _) = space0(s)?; // Skip optional trailing spaces
     let (s, _) = line_ending_flexible(s)?;
 
     let mut p = map(
@@ -592,7 +620,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // If line doesn't start with space, it's likely a section header - stop parsing RHS
     if !line_str.starts_with(' ') {
-      return Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Eof)));
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Eof,
+      )));
     }
 
     let (s, wide_line) = Self::line(s)?;
@@ -604,16 +635,14 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   pub fn rhs(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     // Parse RHS header with optional trailing spaces
     let (s, _) = tag("RHS")(s)?;
-    let (s, _) = space0(s)?;  // Skip optional trailing spaces
+    let (s, _) = space0(s)?; // Skip optional trailing spaces
     let (s, _) = line_ending_flexible(s)?;
 
-    let mut p = map(
-      many0(Self::rhs_line),
-      |lines: Vec<Option<WideLine<T>>>| {
+    let mut p =
+      map(many0(Self::rhs_line), |lines: Vec<Option<WideLine<T>>>| {
         // Filter out None values (comment/empty lines)
         lines.into_iter().flatten().collect()
-      },
-    );
+      });
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
         let (s, x) = p(s)?;
@@ -642,7 +671,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // If line doesn't start with space, it's likely a section header - stop parsing ranges
     if !line_str.starts_with(' ') {
-      return Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Eof)));
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Eof,
+      )));
     }
 
     let (s, wide_line) = Self::line(s)?;
@@ -654,7 +686,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   pub fn ranges(s: Span) -> IResult<Span, Vec<WideLine<T>>> {
     // Parse RANGES header with optional trailing spaces
     let (s, _) = tag("RANGES")(s)?;
-    let (s, _) = space0(s)?;  // Skip optional trailing spaces
+    let (s, _) = space0(s)?; // Skip optional trailing spaces
     let (s, _) = line_ending_flexible(s)?;
 
     let mut p = map(
@@ -725,7 +757,10 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // If line doesn't start with space, it's likely a section header - stop parsing bounds
     if !line_str.starts_with(' ') {
-      return Err(nom::Err::Error(nom::error::Error::new(s, nom::error::ErrorKind::Eof)));
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Eof,
+      )));
     }
 
     let mut p = map_res(
@@ -755,10 +790,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       BoundType::Fr | BoundType::Pl => BoundsLine::<T> {
         bound_type,
         bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
-        column_name: line
-          .get(L3..cmp::min(length, R3))
-          .ok_or_eyre("")?
-          .trim(),
+        column_name: line.get(L3..cmp::min(length, R3)).ok_or_eyre("")?.trim(),
         value: None,
       },
       _ => BoundsLine::<T> {
@@ -776,18 +808,20 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   fn parse_bounds_flexible(line: Span) -> Result<BoundsLine<T>> {
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
-        let mut line_str = line.fragment();
+        let line_str = line.fragment();
       } else {
-        let mut line_str = line;
+        let line_str = line;
       }
     }
 
     // For flexible parsing, only strip comments if $ appears after significant whitespace
-    if let Some(pos) = line_str.find("  $") {
-      line_str = &line_str[..pos];
+    let line_str = if let Some(pos) = line_str.find("  $") {
+      &line_str[..pos]
     } else if let Some(pos) = line_str.find("\t$") {
-      line_str = &line_str[..pos];
-    }
+      &line_str[..pos]
+    } else {
+      line_str
+    };
 
     let parts: Vec<&str> = line_str.split_whitespace().collect();
 
@@ -819,7 +853,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           column_name,
           value,
         }
-      },
+      }
     })
   }
 
@@ -828,7 +862,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   pub fn bounds(s: Span) -> IResult<Span, Vec<BoundsLine<T>>> {
     // Parse BOUNDS header with optional trailing spaces
     let (s, _) = tag("BOUNDS")(s)?;
-    let (s, _) = space0(s)?;  // Skip optional trailing spaces
+    let (s, _) = space0(s)?; // Skip optional trailing spaces
     let (s, _) = line_ending_flexible(s)?;
 
     let mut p = map(

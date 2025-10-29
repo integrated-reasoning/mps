@@ -29,6 +29,7 @@
           pkgs.cargo-insta
           pkgs.cargo-nextest
           pkgs.rustc
+          pkgs.rustfmt
           pkgs.rustup
         ] ++ lib.optionals pkgs.stdenv.isLinux [
           pkgs.cargo-llvm-cov
