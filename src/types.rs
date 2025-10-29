@@ -260,6 +260,10 @@ pub enum BoundType {
   Fr, // free variable   : -inf <= x_j <= inf
   Mi, // Unbounded below : -inf <= x_j <= 0
   Pl, // Unbounded above :    0 <= x_j <= inf
+  Bv, // Binary variable :  x_j in {0, 1}
+  Li, // Lower integer   :  l_j <= x_j <= inf, x_j integer
+  Ui, // Upper integer   :    0 <= x_j <= u_j, x_j integer
+  Sc, // Semi-continuous :  x_j = 0 or l_j <= x_j <= u_j
 }
 
 impl TryFrom<&str> for BoundType {
@@ -308,10 +312,10 @@ impl TryFrom<&str> for BoundType {
       "FR" => Ok(BoundType::Fr),
       "MI" => Ok(BoundType::Mi),
       "PL" => Ok(BoundType::Pl),
-      "BV" => unimplemented!("Binary Variable not yet implemented"),
-      "LI" => unimplemented!("Lower Integer Bound not yet implemented"),
-      "UI" => unimplemented!("Upper Integer Bound not yet implemented"),
-      "SC" => unimplemented!("Semi-Continuous Variable not yet implemented"),
+      "BV" => Ok(BoundType::Bv),
+      "LI" => Ok(BoundType::Li),
+      "UI" => Ok(BoundType::Ui),
+      "SC" => Ok(BoundType::Sc),
       _ => Err(eyre!("invalid bound type")),
     }
   }
