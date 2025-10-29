@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/*.tar.gz";
-    cargo2nix.url = "github:cargo2nix/cargo2nix/release-0.11.0";
+    naersk.url = "github:nix-community/naersk";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -12,50 +12,44 @@
       let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [ cargo2nix.overlays.default ];
         };
         inherit (pkgs) lib;
 
-        rustPackageSet = pkgs.rustBuilder.makePackageSet {
-          rustVersion = "1.75.0";
-          packageFun = import ./Cargo.nix;
-          extraRustComponents = [ "rustfmt" "clippy" ];
-        };
+        naersk' = pkgs.callPackage naersk { };
 
-        buildInputs = [
-          pkgs.cargo
+        additionalDevTools = [
           pkgs.cargo-all-features
           pkgs.cargo-deny
           pkgs.cargo-insta
           pkgs.cargo-nextest
-          pkgs.rustc
           pkgs.rustfmt
-          pkgs.rustup
+          pkgs.clippy
         ] ++ lib.optionals pkgs.stdenv.isLinux [
           pkgs.cargo-llvm-cov
-        ] ++ lib.optionals pkgs.stdenv.isDarwin [
+        ];
+
+        buildDependencies = lib.optionals pkgs.stdenv.isDarwin [
           pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
         ];
 
-        mps = args: (rustPackageSet.workspace.mps ({ } // args)).overrideAttrs {
-          inherit buildInputs;
-        };
-
-        workspaceShell = rustPackageSet.workspaceShell {
-          packages = buildInputs;
+        mps = naersk'.buildPackage {
+          src = ./.;
+          buildInputs = buildDependencies;
+          cargoBuildOptions = x: x ++ [ "--features" "cli" ];
         };
       in
       rec
       {
         packages = {
-          default = mps { };
-          tests = mps { compileMode = "test"; };
-          ci = pkgs.rustBuilder.runTests mps {
-            RUST_BACKTRACE = "full";
-          };
+          default = mps;
         };
 
-        devShell = workspaceShell;
+        devShell = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            cargo
+            rustc
+          ] ++ additionalDevTools ++ buildDependencies;
+        };
 
         image = pkgs.dockerTools.buildLayeredImage {
           name = "mps";
