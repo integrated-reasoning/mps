@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/*.tar.gz";
     cargo2nix.url = "github:cargo2nix/cargo2nix/release-0.11.0";
-    flake-utils.url = "github:numtide/flake-utils/v1.0.0";
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = inputs: with inputs;
@@ -17,16 +17,18 @@
         inherit (pkgs) lib;
 
         rustPackageSet = pkgs.rustBuilder.makePackageSet {
-          rustVersion = "1.71.1";
+          rustVersion = "1.75.0";
           packageFun = import ./Cargo.nix;
           extraRustComponents = [ "rustfmt" "clippy" ];
         };
 
         buildInputs = [
+          pkgs.cargo
           pkgs.cargo-all-features
           pkgs.cargo-deny
           pkgs.cargo-insta
           pkgs.cargo-nextest
+          pkgs.rustc
           pkgs.rustup
         ] ++ lib.optionals pkgs.stdenv.isLinux [
           pkgs.cargo-llvm-cov
