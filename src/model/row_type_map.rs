@@ -6,7 +6,7 @@ use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq, Eq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RowTypeMap(IndexMap<String, RowType>);
+pub struct RowTypeMap(pub IndexMap<String, RowType>);
 
 impl TryFrom<&Rows<'_>> for RowTypeMap {
   type Error = color_eyre::Report;

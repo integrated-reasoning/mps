@@ -8,7 +8,7 @@ use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RangesMap<T: FastFloat>(IndexMap<String, IndexMap<String, T>>);
+pub struct RangesMap<T: FastFloat>(pub IndexMap<String, IndexMap<String, T>>);
 
 impl<T: FastFloat> TryFrom<(&Ranges<'_, T>, &RowTypeMap)> for RangesMap<T> {
   type Error = color_eyre::Report;

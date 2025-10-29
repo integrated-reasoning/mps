@@ -8,7 +8,7 @@ use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RowColumnValueMap<T: FastFloat>(IndexMap<(String, String), T>);
+pub struct RowColumnValueMap<T: FastFloat>(pub IndexMap<(String, String), T>);
 
 impl<T: FastFloat> TryFrom<(&Columns<'_, T>, &RowTypeMap)>
   for RowColumnValueMap<T>

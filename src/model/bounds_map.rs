@@ -9,7 +9,7 @@ use serde::Serialize;
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
 pub struct BoundsMap<T: FastFloat>(
-  IndexMap<String, IndexMap<(String, BoundType), Option<T>>>,
+  pub IndexMap<String, IndexMap<(String, BoundType), Option<T>>>,
 );
 
 impl<T: FastFloat> TryFrom<(&Bounds<'_, T>, &HashSet<&str>)> for BoundsMap<T> {

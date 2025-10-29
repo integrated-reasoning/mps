@@ -8,7 +8,7 @@ use serde::Serialize;
 
 #[derive(Debug, Default, Clone, PartialEq)]
 #[cfg_attr(feature = "serde", derive(Serialize))]
-pub struct RhsMap<T: FastFloat>(IndexMap<String, IndexMap<String, T>>);
+pub struct RhsMap<T: FastFloat>(pub IndexMap<String, IndexMap<String, T>>);
 
 impl<T: FastFloat> TryFrom<(&Rhs<'_, T>, &RowTypeMap)> for RhsMap<T> {
   type Error = color_eyre::Report;
