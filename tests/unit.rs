@@ -42,40 +42,50 @@ mod tests {
         input: " E  R09\n",
         expected: (
           "",
-          RowLine {
+          Some(RowLine {
             row_type: RowType::try_from('E')?,
             row_name: "R09",
-          },
+          }),
+        ),
+      },
+      TestData {
+        input: " N   OBJ\n",
+        expected: (
+          "",
+          Some(RowLine {
+            row_type: RowType::try_from('N')?,
+            row_name: "OBJ",
+          }),
         ),
       },
       TestData {
         input: " E  R10\n",
         expected: (
           "",
-          RowLine {
+          Some(RowLine {
             row_type: RowType::try_from('E')?,
             row_name: "R10",
-          },
+          }),
         ),
       },
       TestData {
         input: " L  X05\n",
         expected: (
           "",
-          RowLine {
+          Some(RowLine {
             row_type: RowType::try_from('L')?,
             row_name: "X05",
-          },
+          }),
         ),
       },
       TestData {
         input: " L  X21\n",
         expected: (
           "",
-          RowLine {
+          Some(RowLine {
             row_type: RowType::try_from('L')?,
             row_name: "X21",
-          },
+          }),
         ),
       },
     ];
@@ -143,7 +153,7 @@ mod tests {
           "    X01       X48               .301   R09                -1.\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "X01",
             first_pair: RowValuePair {
               row_name: "X48",
@@ -153,21 +163,21 @@ mod tests {
               row_name: "R09",
               value: -1.0,
             }),
-          },
+          }),
         ),
       },
       TestData {
         input: "    X02       COST               -.4\n",
         expected: (
           "",
-          WideLine {
+          Some(WideLine {
             name: "X02",
             first_pair: RowValuePair {
               row_name: "COST",
               value: -0.4,
             },
             second_pair: None,
-          },
+          }),
         ),
       },
     ];
