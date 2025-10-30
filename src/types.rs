@@ -1,5 +1,5 @@
 use color_eyre::{eyre::eyre, Result};
-use fast_float::FastFloat;
+use fast_float2::FastFloat;
 #[cfg(feature = "serde")]
 use serde::Serialize;
 

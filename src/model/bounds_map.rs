@@ -1,6 +1,6 @@
 use crate::types::{BoundType, Bounds};
 use color_eyre::{eyre::eyre, Result};
-use fast_float::FastFloat;
+use fast_float2::FastFloat;
 use hashbrown::HashSet;
 use indexmap::IndexMap;
 #[cfg(feature = "serde")]

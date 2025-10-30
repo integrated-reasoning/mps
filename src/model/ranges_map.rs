@@ -1,7 +1,7 @@
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Ranges;
 use color_eyre::{eyre::eyre, Result};
-use fast_float::FastFloat;
+use fast_float2::FastFloat;
 use indexmap::IndexMap;
 #[cfg(feature = "serde")]
 use serde::Serialize;

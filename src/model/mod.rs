@@ -11,7 +11,7 @@ use crate::model::row_column_value_map::RowColumnValueMap;
 use crate::model::row_type_map::RowTypeMap;
 use crate::types::Parser;
 use color_eyre::Result;
-use fast_float::FastFloat;
+use fast_float2::FastFloat;
 use hashbrown::HashSet;
 #[cfg(feature = "serde")]
 use serde::Serialize;

@@ -1,6 +1,6 @@
 use crate::types::*;
 use color_eyre::{eyre::eyre, eyre::OptionExt, Result};
-use fast_float::FastFloat;
+use fast_float2::FastFloat;
 use nom::{
   branch::alt,
   bytes::complete::tag,
@@ -249,7 +249,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
     // Combine QCMATRIX sections (quadratic constraints)
     let quad_constr: Vec<QuadraticConstraint<T>> =
-      qcmatrices.into_iter().flat_map(|qc| qc).collect();
+      qcmatrices.into_iter().flatten().collect();
 
     let parser = Parser {
       name: name.trim(),
@@ -511,7 +511,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         let strict_result = (|| -> Result<WideLine<T>> {
           let first_pair = RowValuePair {
             row_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
-            value: fast_float::parse(
+            value: fast_float2::parse(
               line_str.get(L4..R4).ok_or_eyre("")?.trim(),
             )?,
           };
@@ -523,7 +523,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
               } else {
                 Some(RowValuePair {
                   row_name,
-                  value: fast_float::parse(
+                  value: fast_float2::parse(
                     line_str.get(L6..R6).ok_or_eyre("")?.trim(),
                   )?,
                 })
@@ -585,14 +585,14 @@ impl<'a, T: FastFloat> Parser<'a, T> {
     let name = parts[0];
     let first_pair = RowValuePair {
       row_name: parts[1],
-      value: fast_float::parse(parts[2])?,
+      value: fast_float2::parse(parts[2])?,
     };
 
     // Check if there's a second pair (row_name value)
     let second_pair = if parts.len() >= 5 {
       Some(RowValuePair {
         row_name: parts[3],
-        value: fast_float::parse(parts[4])?,
+        value: fast_float2::parse(parts[4])?,
       })
     } else {
       None
@@ -903,7 +903,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         bound_type,
         bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
         column_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
-        value: Some(fast_float::parse(
+        value: Some(fast_float2::parse(
           line.get(L4..cmp::min(length, R4)).ok_or_eyre("")?.trim(),
         )?),
       },
@@ -949,7 +949,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       },
       _ => {
         let value = if parts.len() >= 4 {
-          Some(fast_float::parse(parts[3])?)
+          Some(fast_float2::parse(parts[3])?)
         } else {
           None
         };
@@ -1220,7 +1220,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         Ok(QuadraticObjectiveTerm {
           var1: parts[0],
           var2: parts[1],
-          coefficient: fast_float::parse(parts[2])?,
+          coefficient: fast_float2::parse(parts[2])?,
         })
       },
     );
@@ -1344,7 +1344,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
         Ok(SOSMember {
           var_name: parts[0],
-          weight: fast_float::parse(parts[1])?,
+          weight: fast_float2::parse(parts[1])?,
         })
       },
     );
@@ -1495,7 +1495,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         Ok(QuadraticTerm {
           var1: parts[0],
           var2: parts[1],
-          coefficient: fast_float::parse(parts[2])?,
+          coefficient: fast_float2::parse(parts[2])?,
         })
       },
     );
