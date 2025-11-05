@@ -311,7 +311,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   #[doc(hidden)]
-  pub fn name(s: Span) -> IResult<Span, &str> {
+  pub fn name(s: Span<'_>) -> IResult<Span<'_>, &str> {
     // Parse NAME header - some files have fixed format, others are flexible
     let (s, _) = tag("NAME")(s)?;
 
@@ -359,7 +359,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   #[doc(hidden)]
-  pub fn objname(s: Span) -> IResult<Span, &str> {
+  pub fn objname(s: Span<'_>) -> IResult<Span<'_>, &str> {
     let (s, _) = tag("OBJNAME")(s)?;
     let (s, _) = space0(s)?;
     let (s, _) = line_ending_flexible(s)?;
@@ -380,7 +380,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   #[doc(hidden)]
-  pub fn refrow(s: Span) -> IResult<Span, &str> {
+  pub fn refrow(s: Span<'_>) -> IResult<Span<'_>, &str> {
     let (s, _) = tag("REFROW")(s)?;
     let (s, _) = space0(s)?;
     let (s, _) = line_ending_flexible(s)?;
@@ -1575,7 +1575,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
   #[doc(hidden)]
   #[tracable_parser]
-  pub fn csection_line(s: Span) -> IResult<Span, Option<&str>> {
+  pub fn csection_line(s: Span<'_>) -> IResult<Span<'_>, Option<&str>> {
     // Try to skip comment or empty lines first
     if let Ok((s, _)) = alt((Self::comment_line, Self::empty_line))(s) {
       return Ok((s, None));
@@ -1785,7 +1785,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   #[doc(hidden)]
-  pub fn endata(s: Span) -> IResult<Span, &str> {
+  pub fn endata(s: Span<'_>) -> IResult<Span<'_>, &str> {
     let p = tag("ENDATA");
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
