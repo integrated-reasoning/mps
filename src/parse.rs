@@ -509,11 +509,25 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
         // Try strict field positioning first (no comment stripping for strict parsing)
         let strict_result = (|| -> Result<WideLine<T>> {
+          // Extract value string and check if we might be missing a negative sign
+          let val_str = line_str.get(L4..R4).ok_or_eyre("")?.trim();
+
+          // Check character just before L4 to ensure we're not missing a sign
+          // If L4 > 0 and the char at L4-1 is '-', we're probably misaligned
+          if L4 > 0 && line_str.len() > L4 {
+            if let Some(prev_char) = line_str.chars().nth(L4 - 1) {
+              if prev_char == '-' || prev_char == '+' {
+                // Sign character right before our field - reject strict parsing
+                return Err(eyre!(
+                  "potential sign character excluded from value field"
+                ));
+              }
+            }
+          }
+
           let first_pair = RowValuePair {
             row_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
-            value: fast_float2::parse(
-              line_str.get(L4..R4).ok_or_eyre("")?.trim(),
-            )?,
+            value: fast_float2::parse(val_str)?,
           };
           let second_pair = match line_str.get(L5..R5) {
             Some(row_name) => {
@@ -521,11 +535,18 @@ impl<'a, T: FastFloat> Parser<'a, T> {
               if row_name.is_empty() {
                 None
               } else {
+                // Check for sign before second value too
+                let val2_str = line_str.get(L6..R6).ok_or_eyre("")?.trim();
+                if L6 > 0 && line_str.len() > L6 {
+                  if let Some(prev_char) = line_str.chars().nth(L6 - 1) {
+                    if prev_char == '-' || prev_char == '+' {
+                      return Err(eyre!("potential sign character excluded from second value field"));
+                    }
+                  }
+                }
                 Some(RowValuePair {
                   row_name,
-                  value: fast_float2::parse(
-                    line_str.get(L6..R6).ok_or_eyre("")?.trim(),
-                  )?,
+                  value: fast_float2::parse(val2_str)?,
                 })
               }
             }
@@ -890,23 +911,48 @@ impl<'a, T: FastFloat> Parser<'a, T> {
 
   /// Parse bounds line using strict field positioning
   fn parse_bounds_strict(line: Span) -> Result<BoundsLine<T>> {
-    let length = line.len();
-    let bound_type = BoundType::try_from(line.get(L1..R1).ok_or_eyre("")?)?;
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let line_str = *line.fragment();
+      } else {
+        let line_str = line;
+      }
+    }
+    let length = line_str.len();
+    let bound_type = BoundType::try_from(line_str.get(L1..R1).ok_or_eyre("")?)?;
     Ok(match bound_type {
       BoundType::Fr | BoundType::Pl => BoundsLine::<T> {
         bound_type,
-        bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
-        column_name: line.get(L3..cmp::min(length, R3)).ok_or_eyre("")?.trim(),
+        bound_name: line_str.get(L2..R2).ok_or_eyre("")?.trim(),
+        column_name: line_str
+          .get(L3..cmp::min(length, R3))
+          .ok_or_eyre("")?
+          .trim(),
         value: None,
       },
-      _ => BoundsLine::<T> {
-        bound_type,
-        bound_name: line.get(L2..R2).ok_or_eyre("")?.trim(),
-        column_name: line.get(L3..R3).ok_or_eyre("")?.trim(),
-        value: Some(fast_float2::parse(
-          line.get(L4..cmp::min(length, R4)).ok_or_eyre("")?.trim(),
-        )?),
-      },
+      _ => {
+        // Check for sign character just before the value field
+        if L4 > 0 && line_str.len() > L4 {
+          if let Some(prev_char) = line_str.chars().nth(L4 - 1) {
+            if prev_char == '-' || prev_char == '+' {
+              return Err(eyre!(
+                "potential sign character excluded from value field"
+              ));
+            }
+          }
+        }
+        BoundsLine::<T> {
+          bound_type,
+          bound_name: line_str.get(L2..R2).ok_or_eyre("")?.trim(),
+          column_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
+          value: Some(fast_float2::parse(
+            line_str
+              .get(L4..cmp::min(length, R4))
+              .ok_or_eyre("")?
+              .trim(),
+          )?),
+        }
+      }
     })
   }
 
