@@ -180,6 +180,55 @@ mod tests {
           }),
         ),
       },
+      // Regression test: line without leading spaces and large negative value
+      TestData {
+        input: "    C0000823  OBJECTRW -401552000.00\n",
+        expected: (
+          "",
+          Some(WideLine {
+            name: "C0000823",
+            first_pair: RowValuePair {
+              row_name: "OBJECTRW",
+              value: -401552000.0,
+            },
+            second_pair: None,
+          }),
+        ),
+      },
+      // Test case with properly formatted strict field positioning
+      TestData {
+        input: "    X99       ROW1             -123.0\n",
+        expected: (
+          "",
+          Some(WideLine {
+            name: "X99",
+            first_pair: RowValuePair {
+              row_name: "ROW1",
+              value: -123.0,
+            },
+            second_pair: None,
+          }),
+        ),
+      },
+      // Test case with two values where sign character falls just before second value field
+      // This should trigger the sign validation check for second value (line 538-546 in parse.rs)
+      TestData {
+        input: "    X98       ROW1              100.0   ROW2                -20\n",
+        expected: (
+          "",
+          Some(WideLine {
+            name: "X98",
+            first_pair: RowValuePair {
+              row_name: "ROW1",
+              value: 100.0,
+            },
+            second_pair: Some(RowValuePair {
+              row_name: "ROW2",
+              value: -20.0,
+            }),
+          }),
+        ),
+      },
     ];
     for case in test_cases {
       cfg_if::cfg_if! {
@@ -575,6 +624,58 @@ mod tests {
             bound_name: "BND1",
             column_name: "YTWO",
             value: Some(1.0),
+          }),
+        ),
+      },
+      // Test FR (Free) bound type - no value field (line 924-932 in parse.rs)
+      TestData {
+        input: " FR BND1      XFREE\n",
+        expected: (
+          "",
+          Some(BoundsLine {
+            bound_type: BoundType::Fr,
+            bound_name: "BND1",
+            column_name: "XFREE",
+            value: None,
+          }),
+        ),
+      },
+      // Test PL (Plus infinity) bound type - no value field (line 924-932 in parse.rs)
+      TestData {
+        input: " PL BND1      XPLUS\n",
+        expected: (
+          "",
+          Some(BoundsLine {
+            bound_type: BoundType::Pl,
+            bound_name: "BND1",
+            column_name: "XPLUS",
+            value: None,
+          }),
+        ),
+      },
+      // Test FX (Fixed) bound type with value - should trigger sign check (line 934-956 in parse.rs)
+      TestData {
+        input: " FX BND1      XFIXED               -5\n",
+        expected: (
+          "",
+          Some(BoundsLine {
+            bound_type: BoundType::Fx,
+            bound_name: "BND1",
+            column_name: "XFIXED",
+            value: Some(-5.0),
+          }),
+        ),
+      },
+      // Test MI (Minus infinity) bound type with value - should trigger sign check (line 934-956 in parse.rs)
+      TestData {
+        input: " MI BND1      XMINUS\n",
+        expected: (
+          "",
+          Some(BoundsLine {
+            bound_type: BoundType::Mi,
+            bound_name: "BND1",
+            column_name: "XMINUS",
+            value: None,
           }),
         ),
       },
@@ -1828,6 +1929,114 @@ ENDATA
     // QMATRIX should have 4 terms, QSECTION should have 3
     assert_eq!(qmatrix_terms.len(), 4);
     assert_eq!(qsection_terms.len(), 3);
+
+    Ok(())
+  }
+
+  /// Test sign character validation for columns lines
+  /// When a sign character appears just before the expected field position,
+  /// the strict parser should detect it and fall back to flexible parsing
+  #[test]
+  fn test_columns_sign_validation() -> Result<()> {
+    // Test case: sign character at position L4-1 (position 22, just before value field at 23)
+    // L4 = 23, so position 22 should have the sign character
+    // Format: "    COL1      ROW1     -123\n"
+    // Positions: 0-3 (spaces), 4-11 (COL1), 12-13 (spaces), 14-21 (ROW1), 22 (-), 23-35 (value field)
+    let input = "    COL1      ROW1     -123\n";
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let info = TracableInfo::new().forward(false).backward(false);
+        let result = Parser::<f32>::columns_line(LocatedSpan::new_extra(input, info));
+      } else {
+        let result = Parser::<f32>::columns_line(input);
+      }
+    }
+    // This should succeed with flexible parsing fallback
+    assert!(result.is_ok());
+
+    // Also test the second value field sign validation
+    // L6 = 48, so position 47 should have the sign character for second value
+    let input2 = "    COL2      ROW1      100   ROW2       -200\n";
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let info = TracableInfo::new().forward(false).backward(false);
+        let result2 = Parser::<f32>::columns_line(LocatedSpan::new_extra(input2, info));
+      } else {
+        let result2 = Parser::<f32>::columns_line(input2);
+      }
+    }
+    assert!(result2.is_ok());
+
+    Ok(())
+  }
+
+  /// Test sign character validation for bounds lines
+  /// When a sign character appears just before the value field position,
+  /// the strict parser should detect it and fall back to flexible parsing
+  #[test]
+  fn test_bounds_sign_validation() -> Result<()> {
+    // Test case: sign character at position L4-1 (just before value field)
+    // For bound types that require a value (not FR or PL)
+    let input = " UP BND1      VAR1-999.99\n";
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let info = TracableInfo::new().forward(false).backward(false);
+        let result = Parser::<f32>::bounds_line(LocatedSpan::new_extra(input, info));
+      } else {
+        let result = Parser::<f32>::bounds_line(input);
+      }
+    }
+    // This should succeed with flexible parsing fallback
+    assert!(result.is_ok());
+
+    // Additional test: ensure FR and PL bounds (no value) work correctly
+    let fr_input = " FR BND1      VAR2\n";
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let info = TracableInfo::new().forward(false).backward(false);
+        let fr_result = Parser::<f32>::bounds_line(LocatedSpan::new_extra(fr_input, info));
+      } else {
+        let fr_result = Parser::<f32>::bounds_line(fr_input);
+      }
+    }
+    assert!(fr_result.is_ok());
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        if let Ok((_, Some(bound))) = fr_result {
+          assert_eq!(bound.bound_type, BoundType::Fr);
+          assert_eq!(bound.value, None);
+        }
+      } else {
+        if let Ok((_, Some(bound))) = fr_result {
+          assert_eq!(bound.bound_type, BoundType::Fr);
+          assert_eq!(bound.value, None);
+        }
+      }
+    }
+
+    let pl_input = " PL BND1      VAR3\n";
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        let info = TracableInfo::new().forward(false).backward(false);
+        let pl_result = Parser::<f32>::bounds_line(LocatedSpan::new_extra(pl_input, info));
+      } else {
+        let pl_result = Parser::<f32>::bounds_line(pl_input);
+      }
+    }
+    assert!(pl_result.is_ok());
+    cfg_if::cfg_if! {
+      if #[cfg(feature = "trace")] {
+        if let Ok((_, Some(bound))) = pl_result {
+          assert_eq!(bound.bound_type, BoundType::Pl);
+          assert_eq!(bound.value, None);
+        }
+      } else {
+        if let Ok((_, Some(bound))) = pl_result {
+          assert_eq!(bound.bound_type, BoundType::Pl);
+          assert_eq!(bound.value, None);
+        }
+      }
+    }
 
     Ok(())
   }
