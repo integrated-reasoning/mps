@@ -36,7 +36,7 @@
         ];
 
         buildDependencies = lib.optionals pkgs.stdenv.isDarwin [
-          pkgs.darwin.apple_sdk.frameworks.SystemConfiguration
+          pkgs.apple-sdk_15
         ];
 
         mps = naersk'.buildPackage {
