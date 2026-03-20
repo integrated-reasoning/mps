@@ -1257,16 +1257,29 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.len() < 3 {
-          return Err(eyre!("insufficient fields in quadobj line"));
+        let len = line_str.len();
+        let var1 = line_str
+          .get(L2..R2.min(len))
+          .ok_or_eyre("missing var1 field in quadobj line")?
+          .trim();
+        let var2 = line_str
+          .get(L3..R3.min(len))
+          .ok_or_eyre("missing var2 field in quadobj line")?
+          .trim();
+        // Extend coefficient field to end-of-line to capture unpadded values
+        let val_str = line_str
+          .get(L4..len)
+          .ok_or_eyre("missing coefficient field in quadobj line")?
+          .trim();
+
+        if var1.is_empty() || var2.is_empty() || val_str.is_empty() {
+          return Err(eyre!("empty field in quadobj line"));
         }
 
-        // Format: var1 var2 coefficient
         Ok(QuadraticObjectiveTerm {
-          var1: parts[0],
-          var2: parts[1],
-          coefficient: fast_float2::parse(parts[2])?,
+          var1,
+          var2,
+          coefficient: fast_float2::parse(val_str)?,
         })
       },
     );
@@ -1532,16 +1545,29 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.len() < 3 {
-          return Err(eyre!("insufficient fields in QMATRIX line"));
+        let len = line_str.len();
+        let var1 = line_str
+          .get(L2..R2.min(len))
+          .ok_or_eyre("missing var1 field in QMATRIX line")?
+          .trim();
+        let var2 = line_str
+          .get(L3..R3.min(len))
+          .ok_or_eyre("missing var2 field in QMATRIX line")?
+          .trim();
+        // Extend coefficient field to end-of-line to capture unpadded values
+        let val_str = line_str
+          .get(L4..len)
+          .ok_or_eyre("missing coefficient field in QMATRIX line")?
+          .trim();
+
+        if var1.is_empty() || var2.is_empty() || val_str.is_empty() {
+          return Err(eyre!("empty field in QMATRIX line"));
         }
 
-        // Format: var1 var2 coefficient
         Ok(QuadraticTerm {
-          var1: parts[0],
-          var2: parts[1],
-          coefficient: fast_float2::parse(parts[2])?,
+          var1,
+          var2,
+          coefficient: fast_float2::parse(val_str)?,
         })
       },
     );

@@ -737,4 +737,36 @@ mod tests {
     ))?);
     Ok(())
   }
+
+  #[test]
+  fn test_parse_qafiro() -> Result<()> {
+    insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
+      "../tests/data/qpdata2/QAFIRO.QPS"
+    ))?);
+    Ok(())
+  }
+
+  #[test]
+  fn test_parse_qforplan() -> Result<()> {
+    insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
+      "../tests/data/qpdata2/QFORPLAN.QPS"
+    ))?);
+    Ok(())
+  }
+
+  #[test]
+  fn test_parse_qadlittl() -> Result<()> {
+    insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
+      "../tests/data/qpdata2/QADLITTL.QPS"
+    ))?);
+    Ok(())
+  }
+
+  #[test]
+  fn test_parse_qshare2b() -> Result<()> {
+    insta::assert_yaml_snapshot!(Parser::<f32>::parse(include_str!(
+      "../tests/data/qpdata2/QSHARE2B.QPS"
+    ))?);
+    Ok(())
+  }
 }

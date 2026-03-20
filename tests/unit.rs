@@ -213,7 +213,8 @@ mod tests {
       // Test case with two values where sign character falls just before second value field
       // This should trigger the sign validation check for second value (line 538-546 in parse.rs)
       TestData {
-        input: "    X98       ROW1              100.0   ROW2                -20\n",
+        input:
+          "    X98       ROW1              100.0   ROW2                -20\n",
         expected: (
           "",
           Some(WideLine {
@@ -1582,7 +1583,7 @@ mod tests {
   fn test_qmatrix_line() -> Result<()> {
     let test_cases = vec![
       TestData {
-        input: " x y 2.5\n",
+        input: "    x         y              2.5\n",
         expected: (
           "",
           Some(QuadraticTerm {
@@ -1593,7 +1594,7 @@ mod tests {
         ),
       },
       TestData {
-        input: " a b -1.0\n",
+        input: "    a         b             -1.0\n",
         expected: (
           "",
           Some(QuadraticTerm {
@@ -1622,7 +1623,7 @@ mod tests {
   #[test]
   fn test_qmatrix() -> Result<()> {
     let test_cases = vec![TestData {
-      input: "QMATRIX\n x y 2.0\n x x 1.0\n y y 7.0\nENDATA",
+      input: "QMATRIX\n    x         y              2.0\n    x         x              1.0\n    y         y              7.0\nENDATA",
       expected: (
         "ENDATA",
         vec![QuadraticConstraint {
@@ -1706,7 +1707,7 @@ mod tests {
   #[test]
   fn test_qsection() -> Result<()> {
     let test_cases = vec![TestData {
-      input: "QSECTION\n x y 2.0\n x x 1.0\n y y 7.0\nENDATA",
+      input: "QSECTION\n    x         y              2.0\n    x         x              1.0\n    y         y              7.0\nENDATA",
       expected: (
         "ENDATA",
         vec![
@@ -1875,6 +1876,155 @@ ENDATA
     assert_eq!(sos.set_name, "sos_set");
     assert_eq!(sos.members.len(), 3);
 
+    Ok(())
+  }
+
+  /// Test quadobj_line with fixed-format names containing embedded spaces
+  #[test]
+  fn test_quadobj_line_spaced_names() -> Result<()> {
+    let test_cases = vec![
+      // Fixed-format line with spaced column names (regression: QFORPLAN.QPS)
+      TestData {
+        input: "    DEDO3 11  DEDO3 11        10.   \r\n",
+        expected: (
+          "",
+          Some(QuadraticObjectiveTerm {
+            var1: "DEDO3 11",
+            var2: "DEDO3 11",
+            coefficient: 10.0,
+          }),
+        ),
+      },
+      TestData {
+        input: "    DEDO3 11  DEDO3 12         1.   \r\n",
+        expected: (
+          "",
+          Some(QuadraticObjectiveTerm {
+            var1: "DEDO3 11",
+            var2: "DEDO3 12",
+            coefficient: 1.0,
+          }),
+        ),
+      },
+      TestData {
+        input: "    A   21 1  A   22 1         7.   \r\n",
+        expected: (
+          "",
+          Some(QuadraticObjectiveTerm {
+            var1: "A   21 1",
+            var2: "A   22 1",
+            coefficient: 7.0,
+          }),
+        ),
+      },
+      // Simple names without spaces in fixed-format
+      TestData {
+        input: "    x1        x2             3.5\n",
+        expected: (
+          "",
+          Some(QuadraticObjectiveTerm {
+            var1: "x1",
+            var2: "x2",
+            coefficient: 3.5,
+          }),
+        ),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::quadobj_line(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::quadobj_line(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  /// Test qmatrix_line with fixed-format names containing embedded spaces
+  #[test]
+  fn test_qmatrix_line_spaced_names() -> Result<()> {
+    let test_cases = vec![
+      TestData {
+        input: "    DEDO3 11  DEDO3 11        10.   \r\n",
+        expected: (
+          "",
+          Some(QuadraticTerm {
+            var1: "DEDO3 11",
+            var2: "DEDO3 11",
+            coefficient: 10.0,
+          }),
+        ),
+      },
+      TestData {
+        input: "    A   21 1  A   22 1         7.   \r\n",
+        expected: (
+          "",
+          Some(QuadraticTerm {
+            var1: "A   21 1",
+            var2: "A   22 1",
+            coefficient: 7.0,
+          }),
+        ),
+      },
+    ];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::qmatrix_line(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::qmatrix_line(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
+    Ok(())
+  }
+
+  /// Test QUADOBJ section with fixed-format spaced names
+  #[test]
+  fn test_quadobj_spaced_names() -> Result<()> {
+    let test_cases = vec![TestData {
+      input: "QUADOBJ\r\n    DEDO3 11  DEDO3 11        10.   \r\n    DEDO3 11  DEDO3 12         1.   \r\n    A   21 1  A   22 1         7.   \r\nENDATA",
+      expected: (
+        "ENDATA",
+        vec![
+          QuadraticObjectiveTerm {
+            var1: "DEDO3 11",
+            var2: "DEDO3 11",
+            coefficient: 10.0,
+          },
+          QuadraticObjectiveTerm {
+            var1: "DEDO3 11",
+            var2: "DEDO3 12",
+            coefficient: 1.0,
+          },
+          QuadraticObjectiveTerm {
+            var1: "A   21 1",
+            var2: "A   22 1",
+            coefficient: 7.0,
+          },
+        ],
+      ),
+    }];
+    for case in test_cases {
+      cfg_if::cfg_if! {
+        if #[cfg(feature = "trace")] {
+          let info = TracableInfo::new().forward(false).backward(false);
+          let (s, x) = Parser::<f32>::quadobj(LocatedSpan::new_extra(case.input, info))?;
+          assert_eq!((*s.fragment(), x), case.expected);
+        } else {
+          let (s, x) = Parser::<f32>::quadobj(case.input)?;
+          assert_eq!((s, x), case.expected);
+        }
+      }
+    }
     Ok(())
   }
 
