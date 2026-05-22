@@ -447,19 +447,44 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        // Skip leading spaces and get the content
-        let content = line_str.trim_start();
-        if content.is_empty() {
+        // Use byte-level operations for speed
+        let bytes = line_str.as_bytes();
+        let len = bytes.len();
+        
+        // Skip leading whitespace (should start with space per the check above)
+        let mut pos = 0;
+        while pos < len && bytes[pos] == b' ' {
+          pos += 1;
+        }
+        
+        if pos >= len {
           return Err(eyre!("empty row line"));
         }
 
-        // First character should be the row type (E, L, G, N)
-        let first_char = content.chars().next().ok_or_eyre("no row type")?;
-        let row_type = RowType::try_from(first_char)?;
+        // First non-space character is the row type (E, L, G, N)
+        let row_type_char = bytes[pos];
+        pos += 1;
+        let row_type = match row_type_char {
+          b'E' => RowType::Eq,
+          b'L' => RowType::Leq,
+          b'G' => RowType::Geq,
+          b'N' => RowType::Nr,
+          _ => return Err(eyre!("invalid row type")),
+        };
 
-        // Rest is the row name - skip all spaces after the type character
-        let rest = &content[1..];
-        let row_name = rest.trim();
+        // Skip whitespace to row name
+        while pos < len && bytes[pos] == b' ' {
+          pos += 1;
+        }
+        let name_start = pos;
+        
+        // Row name extends to end of line, but we trim trailing whitespace
+        // Find the end (past any trailing whitespace)
+        let mut end = len;
+        while end > name_start && (bytes[end - 1] == b' ' || bytes[end - 1] == b'\t') {
+          end -= 1;
+        }
+        let row_name = &line_str[name_start..end];
 
         Ok(RowLine { row_type, row_name })
       },
@@ -508,52 +533,76 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         }
 
         // Try strict field positioning first (no comment stripping for strict parsing)
+        // Optimized: use byte-level operations to avoid trim() allocations
         let strict_result = (|| -> Result<WideLine<T>> {
-          // Extract value string and check if we might be missing a negative sign
-          let val_str = line_str.get(L4..R4).ok_or_eyre("")?.trim();
-
-          // Check character just before L4 to ensure we're not missing a sign
-          // If L4 > 0 and the char at L4-1 is '-', we're probably misaligned
-          if L4 > 0 && line_str.len() > L4 {
-            if let Some(prev_char) = line_str.chars().nth(L4 - 1) {
-              if prev_char == '-' || prev_char == '+' {
-                // Sign character right before our field - reject strict parsing
-                return Err(eyre!(
-                  "potential sign character excluded from value field"
-                ));
-              }
+          let bytes = line_str.as_bytes();
+          let len = bytes.len();
+          
+          // Helper: get trimmed slice from fixed positions (returns empty string if all whitespace)
+          let get_trimmed = |start: usize, end: usize| -> &str {
+            let end = end.min(len);
+            if end <= start { return ""; }
+            let s = &bytes[start..end];
+            let mut first = 0;
+            while first < s.len() && s[first].is_ascii_whitespace() { first += 1; }
+            let mut last = s.len();
+            while last > first && s[last-1].is_ascii_whitespace() { last -= 1; }
+            if first >= last { return ""; }
+            unsafe { std::str::from_utf8_unchecked(&s[first..last]) }
+          };
+          
+          // Check for sign before L4 field
+          if L4 > 0 && len > L4 {
+            let prev = bytes[L4 - 1];
+            if prev == b'-' || prev == b'+' {
+              return Err(eyre!("potential sign character excluded from value field"));
             }
           }
 
+          let val_str = get_trimmed(L4, R4);
+          if val_str.is_empty() {
+            return Err(eyre!("missing value field"));
+          }
+          let first_row_name = get_trimmed(L3, R3);
+          if first_row_name.is_empty() {
+            return Err(eyre!("missing row name field"));
+          }
+          let name = get_trimmed(L2, R2);
+
           let first_pair = RowValuePair {
-            row_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
+            row_name: first_row_name,
             value: fast_float2::parse(val_str)?,
           };
-          let second_pair = match line_str.get(L5..R5) {
-            Some(row_name) => {
-              let row_name = row_name.trim();
-              if row_name.is_empty() {
-                None
-              } else {
-                // Check for sign before second value too
-                let val2_str = line_str.get(L6..R6).ok_or_eyre("")?.trim();
-                if L6 > 0 && line_str.len() > L6 {
-                  if let Some(prev_char) = line_str.chars().nth(L6 - 1) {
-                    if prev_char == '-' || prev_char == '+' {
-                      return Err(eyre!("potential sign character excluded from second value field"));
-                    }
-                  }
+
+          // Check for second pair
+          let second_pair = if R5 <= len {
+            let row_name = get_trimmed(L5, R5);
+            if !row_name.is_empty() {
+              // Check for sign before L6 field
+              if L6 > 0 && len > L6 {
+                let prev = bytes[L6 - 1];
+                if prev == b'-' || prev == b'+' {
+                  return Err(eyre!("potential sign character excluded from second value field"));
                 }
+              }
+              let val2 = get_trimmed(L6, R6);
+              if !val2.is_empty() {
                 Some(RowValuePair {
                   row_name,
-                  value: fast_float2::parse(val2_str)?,
+                  value: fast_float2::parse(val2)?,
                 })
+              } else {
+                None
               }
+            } else {
+              None
             }
-            None => None,
+          } else {
+            None
           };
+
           Ok(WideLine::<T> {
-            name: line_str.get(L2..R2).ok_or_eyre("")?.trim(),
+            name,
             first_pair,
             second_pair,
           })
@@ -576,6 +625,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   /// Parse a line using flexible whitespace-separated format
+  /// Optimized: zero-allocation parser using span slicing
   fn parse_flexible_line(line: Span) -> Result<WideLine<T>> {
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -596,24 +646,77 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       line_str
     };
 
-    let parts: Vec<&str> = line_str.split_whitespace().collect();
-
-    // Minimum: column_name row_name value
-    if parts.len() < 3 {
+    // Zero-allocation flexible parser: find whitespace boundaries directly
+    let bytes = line_str.as_bytes();
+    let len = bytes.len();
+    
+    // Skip leading whitespace
+    let mut pos = 0;
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    
+    // Field 1: column name
+    let name_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    if pos == name_start {
       return Err(eyre!("insufficient fields in line"));
     }
-
-    let name = parts[0];
+    let name = &line_str[name_start..pos];
+    
+    // Skip whitespace to field 2
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let row1_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let row1 = &line_str[row1_start..pos];
+    
+    // Skip whitespace to field 3 (value)
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let val1_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let val1 = &line_str[val1_start..pos];
+    
+    // Skip whitespace to check for field 4
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    
     let first_pair = RowValuePair {
-      row_name: parts[1],
-      value: fast_float2::parse(parts[2])?,
+      row_name: row1,
+      value: fast_float2::parse(val1)?,
     };
 
     // Check if there's a second pair (row_name value)
-    let second_pair = if parts.len() >= 5 {
+    let second_pair = if pos < len {
+      let row2_start = pos;
+      while pos < len && !bytes[pos].is_ascii_whitespace() {
+        pos += 1;
+      }
+      let row2 = &line_str[row2_start..pos];
+      
+      // Skip whitespace to value
+      while pos < len && bytes[pos].is_ascii_whitespace() {
+        pos += 1;
+      }
+      let val2_start = pos;
+      while pos < len && !bytes[pos].is_ascii_whitespace() {
+        pos += 1;
+      }
+      let val2 = &line_str[val2_start..pos];
+      
       Some(RowValuePair {
-        row_name: parts[3],
-        value: fast_float2::parse(parts[4])?,
+        row_name: row2,
+        value: fast_float2::parse(val2)?,
       })
     } else {
       None
@@ -918,38 +1021,45 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         let line_str = line;
       }
     }
+    let bytes = line_str.as_bytes();
     let length = line_str.len();
-    let bound_type = BoundType::try_from(line_str.get(L1..R1).ok_or_eyre("")?)?;
+    
+    // Helper: get trimmed slice from fixed positions (returns empty string for whitespace-only)
+    let get_trimmed = |start: usize, end: usize| -> Option<&str> {
+      let end = end.min(length);
+      if end <= start { return None; }
+      let s = &bytes[start..end];
+      let mut first = 0;
+      while first < s.len() && s[first].is_ascii_whitespace() { first += 1; }
+      let mut last = s.len();
+      while last > first && s[last-1].is_ascii_whitespace() { last -= 1; }
+      Some(unsafe { std::str::from_utf8_unchecked(&s[first..last]) })
+    };
+    
+    let bound_type_str = get_trimmed(L1, R1).ok_or_eyre("")?;
+    let bound_type = BoundType::try_from(bound_type_str)?;
+    
     Ok(match bound_type {
       BoundType::Fr | BoundType::Pl => BoundsLine::<T> {
         bound_type,
-        bound_name: line_str.get(L2..R2).ok_or_eyre("")?.trim(),
-        column_name: line_str
-          .get(L3..cmp::min(length, R3))
-          .ok_or_eyre("")?
-          .trim(),
+        bound_name: get_trimmed(L2, R2).ok_or_eyre("")?,
+        column_name: get_trimmed(L3, cmp::min(length, R3)).ok_or_eyre("")?,
         value: None,
       },
       _ => {
         // Check for sign character just before the value field
-        if L4 > 0 && line_str.len() > L4 {
-          if let Some(prev_char) = line_str.chars().nth(L4 - 1) {
-            if prev_char == '-' || prev_char == '+' {
-              return Err(eyre!(
-                "potential sign character excluded from value field"
-              ));
-            }
+        if L4 > 0 && length > L4 {
+          let prev = bytes[L4 - 1];
+          if prev == b'-' || prev == b'+' {
+            return Err(eyre!("potential sign character excluded from value field"));
           }
         }
         BoundsLine::<T> {
           bound_type,
-          bound_name: line_str.get(L2..R2).ok_or_eyre("")?.trim(),
-          column_name: line_str.get(L3..R3).ok_or_eyre("")?.trim(),
+          bound_name: get_trimmed(L2, R2).ok_or_eyre("")?,
+          column_name: get_trimmed(L3, R3).ok_or_eyre("")?,
           value: Some(fast_float2::parse(
-            line_str
-              .get(L4..cmp::min(length, R4))
-              .ok_or_eyre("")?
-              .trim(),
+            get_trimmed(L4, cmp::min(length, R4)).ok_or_eyre("")?,
           )?),
         }
       }
@@ -957,6 +1067,7 @@ impl<'a, T: FastFloat> Parser<'a, T> {
   }
 
   /// Parse bounds line using flexible whitespace-separated format
+  /// Optimized: zero-allocation parser using span slicing
   fn parse_bounds_flexible(line: Span) -> Result<BoundsLine<T>> {
     cfg_if::cfg_if! {
       if #[cfg(feature = "trace")] {
@@ -975,16 +1086,51 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       line_str
     };
 
-    let parts: Vec<&str> = line_str.split_whitespace().collect();
+    // Zero-allocation flexible parser
+    let bytes = line_str.as_bytes();
+    let len = bytes.len();
+    let mut pos = 0;
 
-    // Minimum: bound_type bound_name column_name [value]
-    if parts.len() < 3 {
-      return Err(eyre!("insufficient fields in bounds line"));
+    // Skip leading whitespace
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
     }
 
-    let bound_type = BoundType::try_from(parts[0])?;
-    let bound_name = parts[1];
-    let column_name = parts[2];
+    // Field 1: bound type
+    let bt_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    if pos == bt_start {
+      return Err(eyre!("insufficient fields in bounds line"));
+    }
+    let bound_type_str = &line_str[bt_start..pos];
+    let bound_type = BoundType::try_from(bound_type_str)?;
+
+    // Skip whitespace to field 2
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let bn_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let bound_name = &line_str[bn_start..pos];
+
+    // Skip whitespace to field 3
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let cn_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    let column_name = &line_str[cn_start..pos];
+
+    // Skip whitespace to check for field 4 (value)
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
 
     Ok(match bound_type {
       BoundType::Fr | BoundType::Pl => BoundsLine::<T> {
@@ -994,8 +1140,12 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         value: None,
       },
       _ => {
-        let value = if parts.len() >= 4 {
-          Some(fast_float2::parse(parts[3])?)
+        let value = if pos < len {
+          let val_start = pos;
+          while pos < len && !bytes[pos].is_ascii_whitespace() {
+            pos += 1;
+          }
+          Some(fast_float2::parse(&line_str[val_start..pos])?)
         } else {
           None
         };
@@ -1095,14 +1245,53 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         }
 
         // Format: IF constraint_name binary_var_name trigger_value
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.len() < 4 || parts[0] != "IF" {
+        // Zero-allocation parser
+        let bytes = line_str.as_bytes();
+        let len = bytes.len();
+        let mut pos = 0;
+        
+        // Skip leading whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        // Check for "IF" prefix
+        if pos + 2 > len || &line_str[pos..pos+2] != "IF" {
           return Err(eyre!("invalid indicator line format"));
         }
-
-        let constraint_name = parts[1];
-        let binary_var = parts[2];
-        let trigger_value = match parts[3] {
+        pos += 2;
+        
+        // Skip whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let c1_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let constraint_name = &line_str[c1_start..pos];
+        
+        // Skip whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let bv_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let binary_var = &line_str[bv_start..pos];
+        
+        // Skip whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let tv_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let trigger_str = &line_str[tv_start..pos];
+        
+        let trigger_value = match trigger_str {
           "0" => 0,
           "1" => 1,
           _ => return Err(eyre!("indicator trigger must be 0 or 1")),
@@ -1175,20 +1364,46 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.is_empty() {
+        // Zero-allocation parser for lazy constraint line
+        // Format: [priority] row_name
+        let bytes = line_str.as_bytes();
+        let len = bytes.len();
+        let mut pos = 0;
+        
+        // Skip leading whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        if pos >= len {
           return Err(eyre!("empty lazy constraint line"));
         }
-
-        // Format: [priority] row_name
-        let (priority, row_name) = if parts.len() >= 2 {
-          // Try to parse first part as priority
-          match parts[0].parse::<i32>() {
-            Ok(p) => (Some(p), parts[1]),
-            Err(_) => (None, parts[0]), // First part is row name
-          }
+        
+        // Try to parse priority (first field)
+        let first_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let first_field = &line_str[first_start..pos];
+        
+        // Skip whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        // Parse row name (second field, or first if no priority)
+        let row_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        let row_name = &line_str[row_start..pos];
+        
+        let (priority, row_name) = if first_field.parse::<i32>().is_ok() && pos < len {
+          // First field was priority, we have a row name
+          (Some(first_field.parse::<i32>().unwrap()), row_name)
         } else {
-          (None, parts[0])
+          // First field was row name (no priority)
+          (None, first_field)
         };
 
         Ok(LazyConstraintLine { priority, row_name })
@@ -1394,16 +1609,44 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.len() < 2 {
-          return Err(eyre!(
-            "SOS member line requires variable name and weight"
-          ));
+        // Zero-allocation parser for SOS member line
+        // Format: var_name weight
+        let bytes = line_str.as_bytes();
+        let len = bytes.len();
+        let mut pos = 0;
+        
+        // Skip leading whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
         }
+        
+        let var_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        if pos == var_start {
+          return Err(eyre!("SOS member line requires variable name and weight"));
+        }
+        let var_name = &line_str[var_start..pos];
+        
+        // Skip whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        let weight_start = pos;
+        while pos < len && !bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        if pos == weight_start {
+          return Err(eyre!("SOS member line requires variable name and weight"));
+        }
+        let weight_str = &line_str[weight_start..pos];
 
         Ok(SOSMember {
-          var_name: parts[0],
-          weight: fast_float2::parse(parts[1])?,
+          var_name,
+          weight: fast_float2::parse(weight_str)?,
         })
       },
     );
@@ -1455,15 +1698,47 @@ impl<'a, T: FastFloat> Parser<'a, T> {
       }
     }
 
-    let parts: Vec<&str> = set_def_str.split_whitespace().collect();
-    if parts.len() < 2 {
+    // Zero-allocation parser for SOS set definition line
+    // Format: S1/S2 set_name
+    let bytes = set_def_str.as_bytes();
+    let len = bytes.len();
+    let mut pos = 0;
+    
+    // Skip leading whitespace
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    
+    let type_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    if pos == type_start {
       return Err(nom::Err::Error(nom::error::Error::new(
         s,
         nom::error::ErrorKind::Fail,
       )));
     }
+    let type_str = &set_def_str[type_start..pos];
+    
+    // Skip whitespace
+    while pos < len && bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    
+    let name_start = pos;
+    while pos < len && !bytes[pos].is_ascii_whitespace() {
+      pos += 1;
+    }
+    if pos == name_start {
+      return Err(nom::Err::Error(nom::error::Error::new(
+        s,
+        nom::error::ErrorKind::Fail,
+      )));
+    }
+    let set_name = &set_def_str[name_start..pos];
 
-    let sos_type = match SOSType::try_from(parts[0]) {
+    let sos_type = match SOSType::try_from(type_str) {
       Ok(t) => t,
       Err(_) => {
         return Err(nom::Err::Error(nom::error::Error::new(
@@ -1472,7 +1747,6 @@ impl<'a, T: FastFloat> Parser<'a, T> {
         )))
       }
     };
-    let set_name = parts[1];
 
     // Now collect member lines until we hit a line that doesn't start with space
     let (s, member_lines) = many0(Self::sos_member_line)(s)?;
@@ -1782,38 +2056,51 @@ impl<'a, T: FastFloat> Parser<'a, T> {
           }
         }
 
-        let parts: Vec<&str> = line_str.split_whitespace().collect();
-        if parts.is_empty() {
+        // Zero-allocation parser for branch line
+        // Format: [direction] var_name priority
+        let bytes = line_str.as_bytes();
+        let len = bytes.len();
+        let mut pos = 0;
+        let mut fields: [&str; 3] = ["", "", ""];
+        let mut field_count = 0;
+        
+        // Skip leading whitespace
+        while pos < len && bytes[pos].is_ascii_whitespace() {
+          pos += 1;
+        }
+        
+        while pos < len && field_count < 3 {
+          let field_start = pos;
+          while pos < len && !bytes[pos].is_ascii_whitespace() {
+            pos += 1;
+          }
+          fields[field_count] = &line_str[field_start..pos];
+          field_count += 1;
+          
+          // Skip whitespace
+          while pos < len && bytes[pos].is_ascii_whitespace() {
+            pos += 1;
+          }
+        }
+        
+        if field_count == 0 {
           return Err(eyre!("empty branch line"));
         }
 
         // Parse: [direction] var_name priority
-        // Direction can be first if it's a valid direction, or var_name if no direction
-        let (direction, var_name, priority) = if parts.len() >= 3 {
-          // Try to parse first part as direction
-          match BranchDirection::try_from(parts[0]) {
-            Ok(dir) => {
-              // First part is direction
-              (dir, parts[1], parts[2])
-            }
-            Err(_) => {
-              // First part is variable name, use auto direction
-              if parts.len() < 2 {
-                return Err(eyre!(
-                  "branch line requires variable name and priority"
-                ));
-              }
-              (BranchDirection::Auto, parts[0], parts[1])
-            }
+        let (direction, var_name, priority_str) = if field_count >= 3 {
+          // Try to parse first field as direction
+          match BranchDirection::try_from(fields[0]) {
+            Ok(dir) => (dir, fields[1], fields[2]),
+            Err(_) => (BranchDirection::Auto, fields[0], fields[1]),
           }
-        } else if parts.len() == 2 {
-          // Only var_name and priority provided
-          (BranchDirection::Auto, parts[0], parts[1])
+        } else if field_count == 2 {
+          (BranchDirection::Auto, fields[0], fields[1])
         } else {
           return Err(eyre!("insufficient fields in branch line"));
         };
 
-        let priority_val = priority.parse::<i32>()?;
+        let priority_val = priority_str.parse::<i32>()?;
         if priority_val < 0 {
           return Err(eyre!("branch priority must be non-negative"));
         }

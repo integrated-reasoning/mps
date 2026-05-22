@@ -55,6 +55,9 @@
 //!   - Supported feature flags:
 //!     - `cli` - Command line interface.
 //!     - `trace` - Enhanced debugging and statistics via `nom_tracable` and `nom_locate`.
+//!     - `simd` - SIMD-accelerated parsing (requires nightly Rust).
+//!     - `mmap` - Memory-mapped file reading for large files.
+//!     - `parallel` - Parallel section parsing using rayon.
 //! - **Robustness**: Extensively tested against [Netlib LP test suite](http://www.netlib.org/lp/data/).
 //! - **Performance**: Benchmarked using [Criterion.rs](https://github.com/bheisler/criterion.rs).
 //!
@@ -63,7 +66,19 @@
 //! - [Mathematical Programming System format](https://lpsolve.sourceforge.net/5.5/mps-format.htm)
 //! - [NETLIB linear programming library](http://www.netlib.org/lp/)
 //!
+#![cfg_attr(feature = "simd", feature(portable_simd))]
+
 pub mod model;
 pub mod parse;
 pub mod types;
+
+#[cfg(feature = "simd")]
+pub mod simd;
+
+#[cfg(feature = "mmap")]
+pub mod mmap;
+
+#[cfg(feature = "parallel")]
+pub mod parallel;
+
 pub use crate::types::Parser;
