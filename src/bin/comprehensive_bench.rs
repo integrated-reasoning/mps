@@ -584,7 +584,7 @@ fn parallel_parse(input: &str) -> Result<(), &'static str> {
     let sections = find_sections(bytes, len);
     
     // Parse sections in parallel
-    rayon::join(
+    let _ = rayon::join(
         || parse_rows_parallel(bytes, sections.rows),
         || rayon::join(
             || parse_columns_parallel(bytes, sections.columns),

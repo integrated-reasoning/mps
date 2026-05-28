@@ -489,6 +489,5 @@ mod tests {
     fn test_parallel_parsing_infrastructure() {
         // This test verifies that the parallel parsing infrastructure compiles
         // and can be instantiated
-        assert!(true);
     }
 }
